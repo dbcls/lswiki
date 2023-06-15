@@ -1,0 +1,407 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html lang="ja" dir="ltr">
+<head>
+<title>SPARQLthon/go comparison - TogoWiki</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta name="generator" content="MediaWiki 1.16.3" />
+<link rel="shortcut icon" href="/favicon.ico" />
+<link rel="search" type="application/opensearchdescription+xml" href="/mw/opensearch_desc.php" title="TogoWiki (ja)" />
+<link title="Creative Commons" type="application/rdf+xml" href="/mw/index.php?title=SPARQLthon/go_comparison&amp;action=creativecommons" rel="meta" />
+<link rel="copyright" href="http://creativecommons.org/licenses/by/3.0/" />
+<link rel="alternate" type="application/atom+xml" title="TogoWikiのAtomフィード" href="/mw/index.php?title=%E7%89%B9%E5%88%A5:%E6%9C%80%E8%BF%91%E3%81%AE%E6%9B%B4%E6%96%B0&amp;feed=atom" />
+<link rel="stylesheet" href="/mw/skins/common/shared.css?270" media="screen" />
+<link rel="stylesheet" href="/mw/skins/common/commonPrint.css?270" media="print" />
+<link rel="stylesheet" href="/mw/skins/monobook/main.css?270" media="screen" />
+<!--[if lt IE 5.5000]><link rel="stylesheet" href="/mw/skins/monobook/IE50Fixes.css?270" media="screen" /><![endif]-->
+<!--[if IE 5.5000]><link rel="stylesheet" href="/mw/skins/monobook/IE55Fixes.css?270" media="screen" /><![endif]-->
+<!--[if IE 6]><link rel="stylesheet" href="/mw/skins/monobook/IE60Fixes.css?270" media="screen" /><![endif]-->
+<!--[if IE 7]><link rel="stylesheet" href="/mw/skins/monobook/IE70Fixes.css?270" media="screen" /><![endif]-->
+<link rel="stylesheet" href="/mw/index.php?title=MediaWiki:Common.css&amp;usemsgcache=yes&amp;ctype=text%2Fcss&amp;smaxage=18000&amp;action=raw&amp;maxage=18000" />
+<link rel="stylesheet" href="/mw/index.php?title=MediaWiki:Print.css&amp;usemsgcache=yes&amp;ctype=text%2Fcss&amp;smaxage=18000&amp;action=raw&amp;maxage=18000" media="print" />
+<link rel="stylesheet" href="/mw/index.php?title=MediaWiki:Monobook.css&amp;usemsgcache=yes&amp;ctype=text%2Fcss&amp;smaxage=18000&amp;action=raw&amp;maxage=18000" />
+<link rel="stylesheet" href="/mw/index.php?title=-&amp;action=raw&amp;maxage=18000&amp;gen=css" />
+<script>
+var skin="monobook",
+stylepath="/mw/skins",
+wgUrlProtocols="http\\:\\/\\/|https\\:\\/\\/|ftp\\:\\/\\/|irc\\:\\/\\/|gopher\\:\\/\\/|telnet\\:\\/\\/|nntp\\:\\/\\/|worldwind\\:\\/\\/|mailto\\:|news\\:|svn\\:\\/\\/",
+wgArticlePath="/mw/$1",
+wgScriptPath="/mw",
+wgScriptExtension=".php",
+wgScript="/mw/index.php",
+wgVariantArticlePath=false,
+wgActionPaths={},
+wgServer="http://wiki.lifesciencedb.jp",
+wgCanonicalNamespace="",
+wgCanonicalSpecialPageName=false,
+wgNamespaceNumber=0,
+wgPageName="SPARQLthon/go_comparison",
+wgTitle="SPARQLthon/go comparison",
+wgAction="view",
+wgArticleId=853,
+wgIsArticle=true,
+wgUserName=null,
+wgUserGroups=null,
+wgUserLanguage="ja",
+wgContentLanguage="ja",
+wgBreakFrames=false,
+wgCurRevisionId=23133,
+wgVersion="1.16.3",
+wgEnableAPI=true,
+wgEnableWriteAPI=true,
+wgSeparatorTransformTable=["", ""],
+wgDigitTransformTable=["", ""],
+wgMainPageTitle="メインページ",
+wgFormattedNamespaces={"-2": "メディア", "-1": "特別", "0": "", "1": "ノート", "2": "利用者", "3": "利用者‐会話", "4": "TogoWiki", "5": "TogoWiki‐ノート", "6": "ファイル", "7": "ファイル‐ノート", "8": "MediaWiki", "9": "MediaWiki‐ノート", "10": "Template", "11": "Template‐ノート", "12": "Help", "13": "Help‐ノート", "14": "Category", "15": "Category‐ノート"},
+wgNamespaceIds={"メディア": -2, "特別": -1, "": 0, "ノート": 1, "利用者": 2, "利用者‐会話": 3, "togowiki": 4, "togowiki‐ノート": 5, "ファイル": 6, "ファイル‐ノート": 7, "mediawiki": 8, "mediawiki‐ノート": 9, "template": 10, "template‐ノート": 11, "help": 12, "help‐ノート": 13, "category": 14, "category‐ノート": 15, "画像": 6, "画像‐ノート": 7, "image": 6, "image_talk": 7},
+wgSiteName="TogoWiki",
+wgCategories=[],
+wgRestrictionEdit=[],
+wgRestrictionMove=[];
+</script><script src="/mw/skins/common/wikibits.js?270"></script>
+<script src="/mw/skins/common/ajax.js?270"></script>
+<script src="/mw/index.php?title=-&amp;action=raw&amp;gen=js&amp;useskin=monobook&amp;270"></script>
+
+		<style type='text/css'>
+		li#pt-openidlogin {
+		  background: url(/mw/extensions/OpenID/skin/icons/openid-inputicon.png) top left no-repeat;
+		  padding-left: 20px;
+		  text-transform: none;
+		}
+		</style>
+</head>
+<body class="mediawiki ltr ns-0 ns-subject page-SPARQLthon_go_comparison skin-monobook">
+<div id="globalWrapper">
+<div id="column-content"><div id="content" >
+	<a id="top"></a>
+	
+	<h1 id="firstHeading" class="firstHeading">SPARQLthon/go comparison</h1>
+	<div id="bodyContent">
+		<h3 id="siteSub">提供：TogoWiki</h3>
+		<div id="contentSub"></div>
+		<div id="jump-to-nav">移動： <a href="#column-one">案内</a>, <a href="#searchInput">検索</a></div>
+		<!-- start content -->
+<table id="toc" class="toc"><tr><td><div id="toctitle"><h2>目次</h2></div>
+<ul>
+<li class="toclevel-1 tocsection-1"><a href="#.E7.9B.AE.E7.9A.84"><span class="tocnumber">1</span> <span class="toctext">目的</span></a></li>
+<li class="toclevel-1 tocsection-2"><a href="#.E4.BD.BF.E7.94.A8.E3.83.87.E3.83.BC.E3.82.BF.E3.82.BB.E3.83.83.E3.83.88"><span class="tocnumber">2</span> <span class="toctext">使用データセット</span></a>
+<ul>
+<li class="toclevel-2 tocsection-3"><a href="#Emsembl_RDF"><span class="tocnumber">2.1</span> <span class="toctext">Emsembl RDF</span></a>
+<ul>
+<li class="toclevel-3 tocsection-4"><a href="#.E3.83.80.E3.82.A6.E3.83.B3.E3.83.AD.E3.83.BC.E3.83.89URL"><span class="tocnumber">2.1.1</span> <span class="toctext">ダウンロードURL</span></a></li>
+<li class="toclevel-3 tocsection-5"><a href="#.E4.BF.AE.E6.AD.A3"><span class="tocnumber">2.1.2</span> <span class="toctext">修正</span></a></li>
+</ul>
+</li>
+<li class="toclevel-2 tocsection-6"><a href="#GO"><span class="tocnumber">2.2</span> <span class="toctext">GO</span></a>
+<ul>
+<li class="toclevel-3 tocsection-7"><a href="#.E3.83.80.E3.82.A6.E3.83.B3.E3.83.AD.E3.83.BC.E3.83.89URL_2"><span class="tocnumber">2.2.1</span> <span class="toctext">ダウンロードURL</span></a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-8"><a href="#.E3.83.87.E3.83.BC.E3.82.BF.E3.83.AD.E3.83.BC.E3.83.89"><span class="tocnumber">3</span> <span class="toctext">データロード</span></a></li>
+<li class="toclevel-1 tocsection-9"><a href="#SPARQL"><span class="tocnumber">4</span> <span class="toctext">SPARQL</span></a>
+<ul>
+<li class="toclevel-2 tocsection-10"><a href="#A._.E9.81.BA.E4.BC.9D.E5.AD.90.28geneid:64344.29.E3.81.8B.E3.82.89.E7.B4.90.E4.BB.98.E3.81.8FGO.E3.81.AE.E4.B8.80.E8.A6.A7.E3.82.92.E5.8F.96.E5.BE.97.E3.81.99.E3.82.8B_.E7.B5.90.E6.9E.9C"><span class="tocnumber">4.1</span> <span class="toctext">A. 遺伝子(geneid:64344)から紐付くGOの一覧を取得する 結果</span></a></li>
+<li class="toclevel-2 tocsection-11"><a href="#B._.E9.81.BA.E4.BC.9D.E5.AD.90.28geneid:64344.29.E3.81.8B.E3.82.89.E7.B4.90.E4.BB.98.E3.81.8Fcellular_component.E3.81.AEGO.E3.81.AE.E4.B8.80.E8.A6.A7.E3.82.92.E5.8F.96.E5.BE.97.E3.81.99.E3.82.8B_.E7.B5.90.E6.9E.9C"><span class="tocnumber">4.2</span> <span class="toctext">B. 遺伝子(geneid:64344)から紐付くcellular_componentのGOの一覧を取得する 結果</span></a></li>
+<li class="toclevel-2 tocsection-12"><a href="#C._.E9.81.BA.E4.BC.9D.E5.AD.90.28geneid:64344.29.E3.81.8B.E3.82.89.E7.B4.90.E4.BB.98.E3.81.8Fcellular_component.E3.81.AEGO.28.E8.A6.AAGO.E3.82.92.E5.90.AB.E3.82.81.E3.82.8B.29.E4.B8.80.E8.A6.A7.E3.82.92.E5.8F.96.E5.BE.97.E3.81.99.E3.82.8B_.E7.B5.90.E6.9E.9C"><span class="tocnumber">4.3</span> <span class="toctext">C. 遺伝子(geneid:64344)から紐付くcellular_componentのGO(親GOを含める)一覧を取得する 結果</span></a></li>
+<li class="toclevel-2 tocsection-13"><a href="#D._.E8.A4.87.E6.95.B0.E3.81.AE.E9.81.BA.E4.BC.9D.E5.AD.90.E7.BE.A4.E3.81.AB.E7.B4.90.E4.BB.98.E3.81.8FGO.28.E8.A6.AA.E3.81.AEGO.E5.90.AB.E3.82.80.29.E3.81.AE.E4.B8.80.E8.A6.A7.E3.81.A8.E3.80.81.E5.90.84GO.E3.81.AB.E7.B4.90.E4.BB.98.E3.81.8F.E9.81.BA.E4.BC.9D.E5.AD.90.E5.80.8B.E6.95.B0_.E7.B5.90.E6.9E.9C"><span class="tocnumber">4.4</span> <span class="toctext">D. 複数の遺伝子群に紐付くGO(親のGO含む)の一覧と、各GOに紐付く遺伝子個数 結果</span></a></li>
+<li class="toclevel-2 tocsection-14"><a href="#E._.E7.9D.80.E7.9B.AE.E3.81.99.E3.82.8B.E9.81.BA.E4.BC.9D.E5.AD.90.28geneid:64344.29.E3.81.AEGO.E3.81.AE.E3.81.86.E3.81.A1.E3.80.81.E3.81.9D.E3.81.AE.E4.BB.96.E3.81.AE.E9.81.BA.E4.BC.9D.E5.AD.90.28.E7.BE.A4.29.E3.81.AEGO.28.E8.A6.AAGO.E3.82.92.E5.90.AB.E3.82.81.E3.82.8B.29.E3.81.AB.E3.81.AF.E3.81.AA.E3.81.84GO.E3.81.AE.E4.B8.80.E8.A6.A7.E3.82.92.E5.8F.96.E5.BE.97.E3.81.99.E3.82.8B_.E7.B5.90.E6.9E.9C"><span class="tocnumber">4.5</span> <span class="toctext">E. 着目する遺伝子(geneid:64344)のGOのうち、その他の遺伝子(群)のGO(親GOを含める)にはないGOの一覧を取得する 結果</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-15"><a href="#.E5.8F.AF.E8.A6.96.E5.8C.96.E3.81.AE.E5.8F.82.E8.80.83.E4.BE.8B"><span class="tocnumber">5</span> <span class="toctext">可視化の参考例</span></a></li>
+<li class="toclevel-1 tocsection-16"><a href="#.E6.B1.8E.E7.94.A8.E6.80.A7"><span class="tocnumber">6</span> <span class="toctext">汎用性</span></a>
+<ul>
+<li class="toclevel-2 tocsection-17"><a href="#.E5.8F.AF.E8.A6.96.E5.8C.96"><span class="tocnumber">6.1</span> <span class="toctext">可視化</span></a></li>
+<li class="toclevel-2 tocsection-18"><a href="#SPARQL.E3.81.AEAPI.E5.8C.96"><span class="tocnumber">6.2</span> <span class="toctext">SPARQLのAPI化</span></a></li>
+</ul>
+</li>
+</ul>
+</td></tr></table><script>if (window.showTocToggle) { var tocShowText = "表示"; var tocHideText = "非表示"; showTocToggle(); } </script>
+<h1> <span class="mw-headline" id=".E7.9B.AE.E7.9A.84"> 目的 </span></h1>
+<p>RefExで複数の遺伝子を列挙する画面において、遺伝子のGOを比較して表示したい。<br />
+例えば、選択された遺伝子の中で一つだけ機能がかけ離れたものがあるかどうか。可視化できれば尚可。
+</p>
+<h1> <span class="mw-headline" id=".E4.BD.BF.E7.94.A8.E3.83.87.E3.83.BC.E3.82.BF.E3.82.BB.E3.83.83.E3.83.88"> 使用データセット </span></h1>
+<p>遺伝子とGOを紐付けるデータEnsemblで公開されていたため、これを使用。
+</p>
+<h2> <span class="mw-headline" id="Emsembl_RDF"> Emsembl RDF </span></h2>
+<h3> <span class="mw-headline" id=".E3.83.80.E3.82.A6.E3.83.B3.E3.83.AD.E3.83.BC.E3.83.89URL"> ダウンロードURL </span></h3>
+<p><a href="ftp://ftp.ensembl.org/pub/current_rdf/homo_sapiens/" class="external free" rel="nofollow">ftp://ftp.ensembl.org/pub/current_rdf/homo_sapiens/</a>
+</p>
+<h3> <span class="mw-headline" id=".E4.BF.AE.E6.AD.A3"> 修正 </span></h3>
+<p>但し、URLエスケープされて("GO:" =&gt; "GO%3A" =&gt; "GO%253A")URIとして他のデータと繋がらないものがあるため(EBIに修正依頼済み)置換する。<br />
+</p>
+<pre>
+perl -pi -e &quot;s#GO%253A#GO:#g&quot; homo_sapiens_xrefs.ttl
+perl -pi -e &quot;s#GO%3A#GO:#g&quot; homo_sapiens_xrefs.ttl
+</pre>
+<p>さらにgo.owlとprefixを合わせるため、置換する。
+</p>
+<pre>
+perl -pi -e &quot;s#http://identifiers.org/go/GO:#http://purl.obolibrary.org/obo/GO_#g&quot; homo_sapiens_xrefs.ttl
+</pre>
+<h2> <span class="mw-headline" id="GO"> GO </span></h2>
+<h3> <span class="mw-headline" id=".E3.83.80.E3.82.A6.E3.83.B3.E3.83.AD.E3.83.BC.E3.83.89URL_2"> ダウンロードURL </span></h3>
+<p><a href="http://purl.obolibrary.org/obo/go.owl" class="external free" rel="nofollow">http://purl.obolibrary.org/obo/go.owl</a>
+</p><p><br />
+</p>
+<h1> <span class="mw-headline" id=".E3.83.87.E3.83.BC.E3.82.BF.E3.83.AD.E3.83.BC.E3.83.89"> データロード </span></h1>
+<p>isqlでロード実行
+</p>
+<pre>
+//ensembl
+log_enable(2,1);
+SPARQL CLEAR GRAPH &lt;http://rdf.ebi.ac.uk/dataset/ensembl/90/homo_sapiens&gt;;
+ld_dir_all('/data/store/rdf/ebi/ensembl/release201707', '*.ttl', 'http://rdf.ebi.ac.uk/dataset/ensembl/90/homo_sapiens');
+rdf_loader_run();
+checkpoint;
+//go
+log_enable(2, 1);
+DB.DBA.RDF_LOAD_RDFXML_MT(file_to_string_output('/data/store/rdf/ebi/ensembl/release201707_fixed/go.owl'), '', 'http://togogenome.org/graph/go');
+checkpoint;
+</pre>
+<h1> <span class="mw-headline" id="SPARQL"> SPARQL </span></h1>
+<h2> <span class="mw-headline" id="A._.E9.81.BA.E4.BC.9D.E5.AD.90.28geneid:64344.29.E3.81.8B.E3.82.89.E7.B4.90.E4.BB.98.E3.81.8FGO.E3.81.AE.E4.B8.80.E8.A6.A7.E3.82.92.E5.8F.96.E5.BE.97.E3.81.99.E3.82.8B_.E7.B5.90.E6.9E.9C"> A. 遺伝子(geneid:64344)から紐付くGOの一覧を取得する <a href="http://ur0.work/GYkq" class="external text" rel="nofollow">結果</a> </span></h2>
+<p>transcriptからGOへはrdfs:seeAlsoだけではなく、&lt;<a href="http://rdf.ebi.ac.uk/terms/ensembl/DIRECT" class="external free" rel="nofollow">http://rdf.ebi.ac.uk/terms/ensembl/DIRECT</a>&gt;, &lt;<a href="http://rdf.ebi.ac.uk/terms/ensembl/MISC" class="external free" rel="nofollow">http://rdf.ebi.ac.uk/terms/ensembl/MISC</a>&gt;といったpredicateでも紐づいているけどヨクワカラナイ
+</p>
+<pre>
+PREFIX obo: &lt;http://purl.obolibrary.org/obo/&gt;
+PREFIX ncbigene: &lt;http://identifiers.org/ncbigene/&gt;
+
+SELECT DISTINCT&nbsp;?go
+FROM &lt;http://rdf.ebi.ac.uk/dataset/ensembl/90/homo_sapiens&gt;
+{
+ &nbsp;?ens_gene rdfs:seeAlso ncbigene:64344 .
+ &nbsp;?ens_transcript obo:SO_transcribed_from&nbsp;?ens_gene . 
+ &nbsp;?ens_transcript  rdfs:seeAlso&nbsp;?go .
+ &nbsp;?go a &lt;http://identifiers.org/go&gt; .
+}
+</pre>
+<h2> <span class="mw-headline" id="B._.E9.81.BA.E4.BC.9D.E5.AD.90.28geneid:64344.29.E3.81.8B.E3.82.89.E7.B4.90.E4.BB.98.E3.81.8Fcellular_component.E3.81.AEGO.E3.81.AE.E4.B8.80.E8.A6.A7.E3.82.92.E5.8F.96.E5.BE.97.E3.81.99.E3.82.8B_.E7.B5.90.E6.9E.9C"> B. 遺伝子(geneid:64344)から紐付くcellular_componentのGOの一覧を取得する <a href="http://ur0.work/GYkA" class="external text" rel="nofollow">結果</a> </span></h2>
+<p>検算用 <a href="http://www.ensembl.org/Homo_sapiens/Gene/Ontologies/cellular_component?g=ENSG00000124440;r=19:46297046-46343433" class="external text" rel="nofollow">Ensembl</a>
+biological_process(GO_0008150), cellular_component(GO_0005575), molecular_function(GO_0003674)
+</p>
+<pre>
+PREFIX obo: &lt;http://purl.obolibrary.org/obo/&gt;
+PREFIX ncbigene: &lt;http://identifiers.org/ncbigene/&gt;
+
+SELECT DISTINCT&nbsp;?go
+FROM &lt;http://rdf.ebi.ac.uk/dataset/ensembl/90/homo_sapiens&gt;
+FROM &lt;http://togogenome.org/graph/go&gt;
+{
+ &nbsp;?ens_gene rdfs:seeAlso ncbigene:64344 .
+ &nbsp;?ens_transcript obo:SO_transcribed_from&nbsp;?ens_gene . 
+ &nbsp;?ens_transcript  rdfs:seeAlso&nbsp;?go .
+ &nbsp;?go a &lt;http://identifiers.org/go&gt;&nbsp;;
+    rdfs:subClassOf* obo:GO_0005575 .
+}
+</pre>
+<h2> <span class="mw-headline" id="C._.E9.81.BA.E4.BC.9D.E5.AD.90.28geneid:64344.29.E3.81.8B.E3.82.89.E7.B4.90.E4.BB.98.E3.81.8Fcellular_component.E3.81.AEGO.28.E8.A6.AAGO.E3.82.92.E5.90.AB.E3.82.81.E3.82.8B.29.E4.B8.80.E8.A6.A7.E3.82.92.E5.8F.96.E5.BE.97.E3.81.99.E3.82.8B_.E7.B5.90.E6.9E.9C">  C. 遺伝子(geneid:64344)から紐付くcellular_componentのGO(親GOを含める)一覧を取得する <a href="http://ur0.work/GYk7" class="external text" rel="nofollow">結果</a> </span></h2>
+<pre>
+PREFIX obo: &lt;http://purl.obolibrary.org/obo/&gt;
+PREFIX ncbigene: &lt;http://identifiers.org/ncbigene/&gt;
+
+SELECT DISTINCT&nbsp;?go&nbsp;?parent_go (STR(?go_label) AS&nbsp;?label)
+FROM &lt;http://rdf.ebi.ac.uk/dataset/ensembl/90/homo_sapiens&gt;
+FROM &lt;http://togogenome.org/graph/go&gt;
+{
+  
+ &nbsp;?ens_gene rdfs:seeAlso ncbigene:64344 .
+ &nbsp;?ens_transcript obo:SO_transcribed_from&nbsp;?ens_gene . 
+ &nbsp;?ens_transcript  rdfs:seeAlso&nbsp;?go .
+ &nbsp;?go a &lt;http://identifiers.org/go&gt;&nbsp;;
+    rdfs:subClassOf*&nbsp;?parent_go .
+ &nbsp;?parent_go rdf:type owl:Class .
+ &nbsp;?go rdfs:subClassOf* obo:GO_0005575 .
+  GRAPH &lt;http://togogenome.org/graph/go&gt; {
+   &nbsp;?parent_go rdfs:label&nbsp;?go_label .
+  }
+} ORDER BY&nbsp;?go&nbsp;?parent_go
+</pre>
+<h2> <span class="mw-headline" id="D._.E8.A4.87.E6.95.B0.E3.81.AE.E9.81.BA.E4.BC.9D.E5.AD.90.E7.BE.A4.E3.81.AB.E7.B4.90.E4.BB.98.E3.81.8FGO.28.E8.A6.AA.E3.81.AEGO.E5.90.AB.E3.82.80.29.E3.81.AE.E4.B8.80.E8.A6.A7.E3.81.A8.E3.80.81.E5.90.84GO.E3.81.AB.E7.B4.90.E4.BB.98.E3.81.8F.E9.81.BA.E4.BC.9D.E5.AD.90.E5.80.8B.E6.95.B0_.E7.B5.90.E6.9E.9C">  D. 複数の遺伝子群に紐付くGO(親のGO含む)の一覧と、各GOに紐付く遺伝子個数 <a href="http://ur0.work/GYBq" class="external text" rel="nofollow">結果</a> </span></h2>
+<pre>
+PREFIX obo: &lt;http://purl.obolibrary.org/obo/&gt;
+PREFIX ncbigene: &lt;http://identifiers.org/ncbigene/&gt;
+
+SELECT&nbsp;?go (STR(?go_label) AS&nbsp;?label) (COUNT(DISTINCT&nbsp;?gene_id) AS&nbsp;?gene_count) (GROUP_CONCAT(DISTINCT REPLACE(STR(?gene_id), &quot;http://identifiers.org/ncbigene/&quot;,&quot;&quot;); separator = &quot;,&quot;) AS&nbsp;?gene_ids)&nbsp;?parent_go
+FROM &lt;http://rdf.ebi.ac.uk/dataset/ensembl/90/homo_sapiens&gt;
+FROM &lt;http://togogenome.org/graph/go&gt;
+{
+  VALUES&nbsp;?gene_id { ncbigene:64344 ncbigene:7139 }
+ &nbsp;?ens_gene rdfs:seeAlso&nbsp;?gene_id .
+ &nbsp;?ens_transcript obo:SO_transcribed_from&nbsp;?ens_gene&nbsp;;
+    rdfs:seeAlso&nbsp;?exact_go .
+ &nbsp;?exact_go a &lt;http://identifiers.org/go&gt;&nbsp;;
+    rdfs:subClassOf*&nbsp;?go .
+ &nbsp;?go rdf:type owl:Class .
+ &nbsp;?exact_go rdfs:subClassOf* obo:GO_0005575 .
+ &nbsp;?go rdfs:subClassOf&nbsp;?parent_go .
+ &nbsp;?parent_go rdf:type owl:Class .
+  GRAPH &lt;http://togogenome.org/graph/go&gt;
+  {
+   &nbsp;?go rdfs:label&nbsp;?go_label .
+  }
+} GROUP BY&nbsp;?go&nbsp;?go_label&nbsp;?parent_go
+</pre>
+<h2> <span class="mw-headline" id="E._.E7.9D.80.E7.9B.AE.E3.81.99.E3.82.8B.E9.81.BA.E4.BC.9D.E5.AD.90.28geneid:64344.29.E3.81.AEGO.E3.81.AE.E3.81.86.E3.81.A1.E3.80.81.E3.81.9D.E3.81.AE.E4.BB.96.E3.81.AE.E9.81.BA.E4.BC.9D.E5.AD.90.28.E7.BE.A4.29.E3.81.AEGO.28.E8.A6.AAGO.E3.82.92.E5.90.AB.E3.82.81.E3.82.8B.29.E3.81.AB.E3.81.AF.E3.81.AA.E3.81.84GO.E3.81.AE.E4.B8.80.E8.A6.A7.E3.82.92.E5.8F.96.E5.BE.97.E3.81.99.E3.82.8B_.E7.B5.90.E6.9E.9C"> E. 着目する遺伝子(geneid:64344)のGOのうち、その他の遺伝子(群)のGO(親GOを含める)にはないGOの一覧を取得する <a href="http://ur0.work/GYk2" class="external text" rel="nofollow">結果</a> </span></h2>
+<pre>
+PREFIX obo: &lt;http://purl.obolibrary.org/obo/&gt;
+PREFIX ncbigene: &lt;http://identifiers.org/ncbigene/&gt;
+
+SELECT DISTINCT&nbsp;?go (STR(?go_label) AS&nbsp;?label)
+FROM &lt;http://rdf.ebi.ac.uk/dataset/ensembl/90/homo_sapiens&gt;
+FROM &lt;http://togogenome.org/graph/go&gt;
+{
+  {
+    SELECT DISTINCT&nbsp;?go
+    {
+      VALUES&nbsp;?gene_id { ncbigene:64344 }
+     &nbsp;?ens_gene rdfs:seeAlso&nbsp;?gene_id .
+     &nbsp;?ens_transcript obo:SO_transcribed_from&nbsp;?ens_gene&nbsp;;
+        rdfs:seeAlso&nbsp;?go .
+     &nbsp;?go a &lt;http://identifiers.org/go&gt;&nbsp;;
+        rdf:type owl:Class .
+     &nbsp;?go rdfs:subClassOf* obo:GO_0005575 .
+    }
+  }
+  MINUS
+  {
+    SELECT  DISTINCT&nbsp;?go
+    {
+      VALUES&nbsp;?gene_id { ncbigene:7139 }
+     &nbsp;?ens_gene rdfs:seeAlso&nbsp;?gene_id .
+     &nbsp;?ens_transcript obo:SO_transcribed_from&nbsp;?ens_gene&nbsp;;
+        rdfs:seeAlso&nbsp;?exact_go .
+     &nbsp;?exact_go a &lt;http://identifiers.org/go&gt;&nbsp;;
+        rdfs:subClassOf*&nbsp;?go .
+     &nbsp;?go rdf:type owl:Class .
+     &nbsp;?exact_go rdfs:subClassOf* obo:GO_0005575 .
+    }
+  }
+  GRAPH &lt;http://togogenome.org/graph/go&gt;
+  {
+   &nbsp;?go rdfs:label&nbsp;?go_label .
+  }
+}
+</pre>
+<h1> <span class="mw-headline" id=".E5.8F.AF.E8.A6.96.E5.8C.96.E3.81.AE.E5.8F.82.E8.80.83.E4.BE.8B"> 可視化の参考例 </span></h1>
+<p>(メモ程度です)<br />
+選択されているGeneに紐付くGOを親GOと共に取得できるので、出現するGOだけの多重継承ツリーを描画できる(クエリ4.4)<br />
+どのGO経路をいくつの遺伝子が通っているかをツリーのバスの太さで表現(Sankey diagram)することもできる(クエリ4.4 gene_count)<br />
+選択ボックスで着目したい1個の遺伝子をユーザに選択させ、その遺伝子にしか紐づかないGOを強調表示するとか(クエリ4.5)<br />
+マルチ選択ボックスで複数の遺伝子をユーザに選択させ、それらの遺伝子のGOが通るパスを強調するとか(クエリ4.4)<br />
+</p>
+<ul><li> Ancestor Chart
+</li></ul>
+<p><a href="https://www.ebi.ac.uk/QuickGO/GTerm?id=GO:0005861" class="external free" rel="nofollow">https://www.ebi.ac.uk/QuickGO/GTerm?id=GO:0005861</a>
+</p>
+<ul><li> Sankey diagram
+</li></ul>
+<p><a href="http://maggielee.net/ga-lawmakers-write-4800-things-mostly-honors/" class="external free" rel="nofollow">http://maggielee.net/ga-lawmakers-write-4800-things-mostly-honors/</a> <br />
+<a href="http://bl.ocks.org/d3noob/raw/5028304/" class="external free" rel="nofollow">http://bl.ocks.org/d3noob/raw/5028304/</a>
+</p>
+<ul><li> weighted-tree
+</li></ul>
+<p><a href="http://vizuly.io/product/weighted-tree/?demo=d3js" class="external free" rel="nofollow">http://vizuly.io/product/weighted-tree/?demo=d3js</a>
+</p>
+<h1> <span class="mw-headline" id=".E6.B1.8E.E7.94.A8.E6.80.A7"> 汎用性 </span></h1>
+<h2> <span class="mw-headline" id=".E5.8F.AF.E8.A6.96.E5.8C.96"> 可視化 </span></h2>
+<p>ツリー構造にも転用できるので可視化の際に汎用性のある作りにして頂きたい。例: <a href="http://biohackathon.org/d3sparql/" class="external text" rel="nofollow">d3sparql</a>
+</p>
+<h2> <span class="mw-headline" id="SPARQL.E3.81.AEAPI.E5.8C.96"> SPARQLのAPI化 </span></h2>
+<p>SPARQListでクエリ部分をAPI化すれば作ればViewとModelが分けられる <a href="http://wiki.lifesciencedb.jp/mw/SPARQList" class="external text" rel="nofollow">SPARQList</a>
+</p>
+<!-- 
+NewPP limit report
+Preprocessor node count: 142/1000000
+Post-expand include size: 0/2097152 bytes
+Template argument size: 0/2097152 bytes
+Expensive parser function count: 0/100
+-->
+
+<!-- Saved in parser cache with key wikidb-togowiki_:pcache:idhash:853-0!1!0!!ja!2!edit=0 and timestamp 20230605013229 -->
+<div class="printfooter">
+「<a href="http://wiki.lifesciencedb.jp/mw/SPARQLthon/go_comparison">http://wiki.lifesciencedb.jp/mw/SPARQLthon/go_comparison</a>」より作成</div>
+		<div id='catlinks' class='catlinks catlinks-allhidden'></div>		<!-- end content -->
+				<div class="visualClear"></div>
+	</div>
+</div></div>
+<div id="column-one">
+	<div id="p-cactions" class="portlet">
+		<h5>表示</h5>
+		<div class="pBody">
+			<ul>
+				 <li id="ca-nstab-main" class="selected"><a href="/mw/SPARQLthon/go_comparison" title="本文を表示 [c]" accesskey="c">ページ</a></li>
+				 <li id="ca-talk" class="new"><a href="/mw/index.php?title=%E3%83%8E%E3%83%BC%E3%83%88:SPARQLthon/go_comparison&amp;action=edit&amp;redlink=1" title="記事についての議論 [t]" accesskey="t">議論</a></li>
+				 <li id="ca-viewsource"><a href="/mw/index.php?title=SPARQLthon/go_comparison&amp;action=edit" title="このページは保護されています。&#10;ページのソースを閲覧できます。 [e]" accesskey="e">ソースを表示</a></li>
+				 <li id="ca-history"><a href="/mw/index.php?title=SPARQLthon/go_comparison&amp;action=history" title="このページの過去の版 [h]" accesskey="h">履歴</a></li>
+			</ul>
+		</div>
+	</div>
+	<div class="portlet" id="p-personal">
+		<h5>個人用ツール</h5>
+		<div class="pBody">
+			<ul>
+				<li id="pt-anonuserpage"><a href="/mw/%E5%88%A9%E7%94%A8%E8%80%85:172.18.8.51" title="自分が編集しているIPアドレスの利用者ページ [.]" accesskey="." class="new">172.18.8.51</a></li>
+				<li id="pt-anontalk"><a href="/mw/%E5%88%A9%E7%94%A8%E8%80%85%E2%80%90%E4%BC%9A%E8%A9%B1:172.18.8.51" title="このIPアドレスからなされた編集についての議論 [n]" accesskey="n" class="new">このIPアドレスのトーク</a></li>
+				<li id="pt-anonlogin"><a href="/mw/index.php?title=%E7%89%B9%E5%88%A5:%E3%83%AD%E3%82%B0%E3%82%A4%E3%83%B3&amp;returnto=SPARQLthon/go_comparison" title="ログインすることが推奨されます。ただし、必須ではありません。 [o]" accesskey="o">ログイン</a></li>
+				<li id="pt-openidlogin"><a href="/mw/index.php?title=%E7%89%B9%E5%88%A5:OpenID%E3%83%AD%E3%82%B0%E3%82%A4%E3%83%B3&amp;returnto=SPARQLthon/go_comparison">OpenIDでログイン</a></li>
+			</ul>
+		</div>
+	</div>
+	<div class="portlet" id="p-logo">
+		<a style="background-image: url(/mw/images/togowiki-logo.png);" href="/mw/%E3%83%A1%E3%82%A4%E3%83%B3%E3%83%9A%E3%83%BC%E3%82%B8" title="メインページに移動"></a>
+	</div>
+	<script type="text/javascript"> if (window.isMSIE55) fixalpha(); </script>
+	<div class='generated-sidebar portlet' id='p-navigation'>
+		<h5>案内</h5>
+		<div class='pBody'>
+			<ul>
+				<li id="n-mainpage-description"><a href="/mw/%E3%83%A1%E3%82%A4%E3%83%B3%E3%83%9A%E3%83%BC%E3%82%B8" title="メインページに移動する [z]" accesskey="z">メインページ</a></li>
+				<li id="n-portal"><a href="/mw/TogoWiki:%E3%82%B3%E3%83%9F%E3%83%A5%E3%83%8B%E3%83%86%E3%82%A3%E3%83%BB%E3%83%9D%E3%83%BC%E3%82%BF%E3%83%AB" title="このプロジェクトについて、できること、情報を入手する場所">コミュニティ・ポータル</a></li>
+				<li id="n-currentevents"><a href="/mw/TogoWiki:%E6%9C%80%E8%BF%91%E3%81%AE%E5%87%BA%E6%9D%A5%E4%BA%8B" title="最近の出来事について予備知識を得る">最近の出来事</a></li>
+				<li id="n-recentchanges"><a href="/mw/%E7%89%B9%E5%88%A5:%E6%9C%80%E8%BF%91%E3%81%AE%E6%9B%B4%E6%96%B0" title="ウィキにおける最近の更新の一覧 [r]" accesskey="r">最近の更新</a></li>
+				<li id="n-randompage"><a href="/mw/%E7%89%B9%E5%88%A5:%E3%81%8A%E3%81%BE%E3%81%8B%E3%81%9B%E8%A1%A8%E7%A4%BA" title="無作為に抽出されたページの読み込み [x]" accesskey="x">おまかせ表示</a></li>
+				<li id="n-help"><a href="/mw/Help:%E7%9B%AE%E6%AC%A1" title="情報を得る場所">ヘルプ</a></li>
+			</ul>
+		</div>
+	</div>
+	<div id="p-search" class="portlet">
+		<h5><label for="searchInput">検索</label></h5>
+		<div id="searchBody" class="pBody">
+			<form action="/mw/index.php" id="searchform">
+				<input type='hidden' name="title" value="特別:検索"/>
+				<input id="searchInput" title="TogoWiki内を検索" accesskey="f" type="search" name="search" />
+				<input type='submit' name="go" class="searchButton" id="searchGoButton"	value="表示" title="厳密に一致する名前のページが存在すれば、そのページへ移動します" />&nbsp;
+				<input type='submit' name="fulltext" class="searchButton" id="mw-searchButton" value="検索" title="入力された文字列が含まれるページを検索します" />
+			</form>
+		</div>
+	</div>
+	<div class="portlet" id="p-tb">
+		<h5>ツールボックス</h5>
+		<div class="pBody">
+			<ul>
+				<li id="t-whatlinkshere"><a href="/mw/%E7%89%B9%E5%88%A5:%E3%83%AA%E3%83%B3%E3%82%AF%E5%85%83/SPARQLthon/go_comparison" title="ここにリンクしている全ウィキのページの一覧 [j]" accesskey="j">リンク元</a></li>
+				<li id="t-recentchangeslinked"><a href="/mw/%E7%89%B9%E5%88%A5:%E9%96%A2%E9%80%A3%E3%83%9A%E3%83%BC%E3%82%B8%E3%81%AE%E6%9B%B4%E6%96%B0%E7%8A%B6%E6%B3%81/SPARQLthon/go_comparison" title="このページからリンクしているページの最近の更新 [k]" accesskey="k">関連ページの更新状況</a></li>
+<li id="t-specialpages"><a href="/mw/%E7%89%B9%E5%88%A5:%E7%89%B9%E5%88%A5%E3%83%9A%E3%83%BC%E3%82%B8%E4%B8%80%E8%A6%A7" title="特別ページの一覧 [q]" accesskey="q">特別ページ</a></li>
+				<li id="t-print"><a href="/mw/index.php?title=SPARQLthon/go_comparison&amp;printable=yes" rel="alternate" title="このページの印刷用ページ [p]" accesskey="p">印刷用バージョン</a></li>				<li id="t-permalink"><a href="/mw/index.php?title=SPARQLthon/go_comparison&amp;oldid=23133" title="ページのこの版への固定リンク">この版への固定リンク</a></li>			</ul>
+		</div>
+	</div>
+</div><!-- end of the left (by default at least) column -->
+<div class="visualClear"></div>
+<div id="footer">
+	<div id="f-poweredbyico"><a href="http://www.mediawiki.org/"><img src="/mw/skins/common/images/poweredby_mediawiki_88x31.png" height="31" width="88" alt="Powered by MediaWiki" /></a></div>
+	<div id="f-copyrightico"><a href="http://creativecommons.org/licenses/by/3.0/"><img src="http://i.creativecommons.org/l/by/3.0/88x31.png" alt="Attribution 3.0 Unported" width="88" height="31" /></a></div>
+	<ul id="f-list">
+		<li id="lastmod"> このページの最終更新は 2017年11月27日 (月) 02:45 に行われました。</li>
+		<li id="viewcount">このページは5,067回アクセスされました。</li>
+		<li id="copyright">内容は<a href="http://creativecommons.org/licenses/by/3.0/" class="external ">Attribution 3.0 Unported</a>のライセンスで利用することができます。</li>
+		<li id="privacy"><a href="/mw/TogoWiki:%E3%83%97%E3%83%A9%E3%82%A4%E3%83%90%E3%82%B7%E3%83%BC%E3%83%BB%E3%83%9D%E3%83%AA%E3%82%B7%E3%83%BC" title="TogoWiki:プライバシー・ポリシー">プライバシー・ポリシー</a></li>
+		<li id="about"><a href="/mw/TogoWiki:TogoWiki%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6" title="TogoWiki:TogoWikiについて">TogoWikiについて</a></li>
+		<li id="disclaimer"><a href="/mw/TogoWiki:%E5%85%8D%E8%B2%AC%E4%BA%8B%E9%A0%85" title="TogoWiki:免責事項">免責事項</a></li>
+	</ul>
+</div>
+</div>
+
+<script>if (window.runOnloadHook) runOnloadHook();</script>
+<!-- Served in 0.374 secs. --></body></html>

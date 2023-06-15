@@ -1,0 +1,309 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html lang="ja" dir="ltr">
+<head>
+<title>BH13.13/DataMapping - TogoWiki</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta name="generator" content="MediaWiki 1.16.3" />
+<meta name="robots" content="noindex,nofollow" />
+<link rel="shortcut icon" href="/favicon.ico" />
+<link rel="search" type="application/opensearchdescription+xml" href="/mw/opensearch_desc.php" title="TogoWiki (ja)" />
+<link title="Creative Commons" type="application/rdf+xml" href="/mw/index.php?title=BH13.13/DataMapping&amp;action=creativecommons" rel="meta" />
+<link rel="copyright" href="http://creativecommons.org/licenses/by/3.0/" />
+<link rel="alternate" type="application/atom+xml" title="TogoWikiのAtomフィード" href="/mw/index.php?title=%E7%89%B9%E5%88%A5:%E6%9C%80%E8%BF%91%E3%81%AE%E6%9B%B4%E6%96%B0&amp;feed=atom" />
+<link rel="stylesheet" href="/mw/skins/common/shared.css?270" media="screen" />
+<link rel="stylesheet" href="/mw/skins/common/commonPrint.css?270" media="print" />
+<link rel="stylesheet" href="/mw/skins/monobook/main.css?270" media="screen" />
+<!--[if lt IE 5.5000]><link rel="stylesheet" href="/mw/skins/monobook/IE50Fixes.css?270" media="screen" /><![endif]-->
+<!--[if IE 5.5000]><link rel="stylesheet" href="/mw/skins/monobook/IE55Fixes.css?270" media="screen" /><![endif]-->
+<!--[if IE 6]><link rel="stylesheet" href="/mw/skins/monobook/IE60Fixes.css?270" media="screen" /><![endif]-->
+<!--[if IE 7]><link rel="stylesheet" href="/mw/skins/monobook/IE70Fixes.css?270" media="screen" /><![endif]-->
+<link rel="stylesheet" href="/mw/index.php?title=MediaWiki:Common.css&amp;usemsgcache=yes&amp;ctype=text%2Fcss&amp;smaxage=18000&amp;action=raw&amp;maxage=18000" />
+<link rel="stylesheet" href="/mw/index.php?title=MediaWiki:Print.css&amp;usemsgcache=yes&amp;ctype=text%2Fcss&amp;smaxage=18000&amp;action=raw&amp;maxage=18000" media="print" />
+<link rel="stylesheet" href="/mw/index.php?title=MediaWiki:Monobook.css&amp;usemsgcache=yes&amp;ctype=text%2Fcss&amp;smaxage=18000&amp;action=raw&amp;maxage=18000" />
+<link rel="stylesheet" href="/mw/index.php?title=-&amp;action=raw&amp;maxage=18000&amp;gen=css" />
+<script>
+var skin="monobook",
+stylepath="/mw/skins",
+wgUrlProtocols="http\\:\\/\\/|https\\:\\/\\/|ftp\\:\\/\\/|irc\\:\\/\\/|gopher\\:\\/\\/|telnet\\:\\/\\/|nntp\\:\\/\\/|worldwind\\:\\/\\/|mailto\\:|news\\:|svn\\:\\/\\/",
+wgArticlePath="/mw/$1",
+wgScriptPath="/mw",
+wgScriptExtension=".php",
+wgScript="/mw/index.php",
+wgVariantArticlePath=false,
+wgActionPaths={},
+wgServer="http://wiki.lifesciencedb.jp",
+wgCanonicalNamespace="",
+wgCanonicalSpecialPageName=false,
+wgNamespaceNumber=0,
+wgPageName="BH13.13/DataMapping",
+wgTitle="BH13.13/DataMapping",
+wgAction="view",
+wgArticleId=394,
+wgIsArticle=true,
+wgUserName=null,
+wgUserGroups=null,
+wgUserLanguage="ja",
+wgContentLanguage="ja",
+wgBreakFrames=false,
+wgCurRevisionId=11735,
+wgVersion="1.16.3",
+wgEnableAPI=true,
+wgEnableWriteAPI=true,
+wgSeparatorTransformTable=["", ""],
+wgDigitTransformTable=["", ""],
+wgMainPageTitle="メインページ",
+wgFormattedNamespaces={"-2": "メディア", "-1": "特別", "0": "", "1": "ノート", "2": "利用者", "3": "利用者‐会話", "4": "TogoWiki", "5": "TogoWiki‐ノート", "6": "ファイル", "7": "ファイル‐ノート", "8": "MediaWiki", "9": "MediaWiki‐ノート", "10": "Template", "11": "Template‐ノート", "12": "Help", "13": "Help‐ノート", "14": "Category", "15": "Category‐ノート"},
+wgNamespaceIds={"メディア": -2, "特別": -1, "": 0, "ノート": 1, "利用者": 2, "利用者‐会話": 3, "togowiki": 4, "togowiki‐ノート": 5, "ファイル": 6, "ファイル‐ノート": 7, "mediawiki": 8, "mediawiki‐ノート": 9, "template": 10, "template‐ノート": 11, "help": 12, "help‐ノート": 13, "category": 14, "category‐ノート": 15, "画像": 6, "画像‐ノート": 7, "image": 6, "image_talk": 7},
+wgSiteName="TogoWiki",
+wgCategories=[],
+wgRestrictionEdit=[],
+wgRestrictionMove=[];
+</script><script src="/mw/skins/common/wikibits.js?270"></script>
+<script src="/mw/skins/common/ajax.js?270"></script>
+<script src="/mw/index.php?title=-&amp;action=raw&amp;gen=js&amp;useskin=monobook&amp;270"></script>
+
+		<style type='text/css'>
+		li#pt-openidlogin {
+		  background: url(/mw/extensions/OpenID/skin/icons/openid-inputicon.png) top left no-repeat;
+		  padding-left: 20px;
+		  text-transform: none;
+		}
+		</style>
+</head>
+<body class="mediawiki ltr ns-0 ns-subject page-BH13_13_DataMapping skin-monobook">
+<div id="globalWrapper">
+<div id="column-content"><div id="content" >
+	<a id="top"></a>
+	
+	<h1 id="firstHeading" class="firstHeading">BH13.13/DataMapping</h1>
+	<div id="bodyContent">
+		<h3 id="siteSub">提供：TogoWiki</h3>
+		<div id="contentSub">
+				<div id="mw-revision-info">2014年1月30日 (木) 06:51時点における<a href="/mw/index.php?title=%E5%88%A9%E7%94%A8%E8%80%85:Synobu&amp;action=edit&amp;redlink=1" class="new mw-userlink" title="利用者:Synobu（存在しないページ）">Synobu</a>  <span class="mw-usertoollinks">(<a href="/mw/index.php?title=%E5%88%A9%E7%94%A8%E8%80%85%E2%80%90%E4%BC%9A%E8%A9%B1:Synobu&amp;action=edit&amp;redlink=1" class="new" title="利用者‐会話:Synobu（存在しないページ）">トーク</a> | <a href="/mw/%E7%89%B9%E5%88%A5:%E6%8A%95%E7%A8%BF%E8%A8%98%E9%8C%B2/Synobu" title="特別:投稿記録/Synobu">投稿記録</a>)</span>による版</div>
+
+				<div id="mw-revision-nav">(<a href="/mw/index.php?title=BH13.13/DataMapping&amp;diff=prev&amp;oldid=11733" title="BH13.13/DataMapping">差分</a>) <a href="/mw/index.php?title=BH13.13/DataMapping&amp;direction=prev&amp;oldid=11733" title="BH13.13/DataMapping">←前の版</a> | <a href="/mw/BH13.13/DataMapping" title="BH13.13/DataMapping">最新版</a> (<a href="/mw/index.php?title=BH13.13/DataMapping&amp;diff=cur&amp;oldid=11733" title="BH13.13/DataMapping">差分</a>) | <a href="/mw/index.php?title=BH13.13/DataMapping&amp;direction=next&amp;oldid=11733" title="BH13.13/DataMapping">次の版→</a> (<a href="/mw/index.php?title=BH13.13/DataMapping&amp;diff=next&amp;oldid=11733" title="BH13.13/DataMapping">差分</a>)</div>
+			</div>
+		<div id="jump-to-nav">移動： <a href="#column-one">案内</a>, <a href="#searchInput">検索</a></div>
+		<!-- start content -->
+<table id="toc" class="toc"><tr><td><div id="toctitle"><h2>目次</h2></div>
+<ul>
+<li class="toclevel-1 tocsection-1"><a href="#.E3.83.87.E3.83.BC.E3.82.BF.E3.81.B8.E3.81.AE.E3.82.AA.E3.83.B3.E3.83.88.E3.83.AD.E3.82.B8.E3.83.BC.E3.83.9E.E3.83.83.E3.83.94.E3.83.B3.E3.82.B0.E8.87.AA.E5.8B.95.E5.8C.96"><span class="tocnumber">1</span> <span class="toctext">データへのオントロジーマッピング自動化</span></a></li>
+<li class="toclevel-1 tocsection-2"><a href="#.E8.83.8C.E6.99.AF.E3.81.A8.E3.82.B9.E3.82.B3.E3.83.BC.E3.83.97"><span class="tocnumber">2</span> <span class="toctext">背景とスコープ</span></a></li>
+<li class="toclevel-1 tocsection-3"><a href="#.E5.87.A6.E7.90.86.E7.B3.BB.E3.81.AE.E6.A6.82.E7.95.A5"><span class="tocnumber">3</span> <span class="toctext">処理系の概略</span></a></li>
+<li class="toclevel-1 tocsection-4"><a href="#.E4.BB.8A.E5.BE.8C.E3.81.AE.E8.AA.B2.E9.A1.8C"><span class="tocnumber">4</span> <span class="toctext">今後の課題</span></a></li>
+<li class="toclevel-1 tocsection-5"><a href="#.E3.83.91.E3.82.A4.E3.83.AD.E3.83.83.E3.83.88.E3.83.AF.E3.83.BC.E3.82.AF.E3.81.AE.E8.A9.95.E4.BE.A1"><span class="tocnumber">5</span> <span class="toctext">パイロットワークの評価</span></a></li>
+</ul>
+</td></tr></table><script>if (window.showTocToggle) { var tocShowText = "表示"; var tocHideText = "非表示"; showTocToggle(); } </script>
+<h3> <span class="mw-headline" id=".E3.83.87.E3.83.BC.E3.82.BF.E3.81.B8.E3.81.AE.E3.82.AA.E3.83.B3.E3.83.88.E3.83.AD.E3.82.B8.E3.83.BC.E3.83.9E.E3.83.83.E3.83.94.E3.83.B3.E3.82.B0.E8.87.AA.E5.8B.95.E5.8C.96"> データへのオントロジーマッピング自動化 </span></h3>
+<ul><li> 森（東工大）, 山本（DBCLS）, 岡本（DBCLS）
+</li></ul>
+<h2> <span class="mw-headline" id=".E8.83.8C.E6.99.AF.E3.81.A8.E3.82.B9.E3.82.B3.E3.83.BC.E3.83.97"> 背景とスコープ </span></h2>
+<ul><li> 菌株メタデータへのオントロジー／統制語彙の付与を自動化
+</li><li> 曖昧検索＋語彙推薦
+</li><li> マニュアルマッピングのコスト低減のためにすぐにでも必要
+</li><li> とりあえず、既存NLPプログラムを組み合わせて処理系作る
+</li></ul>
+<h2> <span class="mw-headline" id=".E5.87.A6.E7.90.86.E7.B3.BB.E3.81.AE.E6.A6.82.E7.95.A5"> 処理系の概略 </span></h2>
+<ul><li>  個別の処理ステップの明確化（分割して使える、戻れる）
+</li><li> 多様なデータセット・辞書への対応
+</li><li> 完全一致は自動で置き換え
+</li><li> 曖昧一致はfalse positiveを許して語彙を推薦（スコアリング？）
+</li><li> アルゴリズム：text scan, n-grams and cosine similarity
+</li><li> 辞書：オントロジー（辞書）、マッピング正解セット
+</li></ul>
+<h2> <span class="mw-headline" id=".E4.BB.8A.E5.BE.8C.E3.81.AE.E8.AA.B2.E9.A1.8C"> 今後の課題 </span></h2>
+<ul><li> 辞書にGAZ, NCBI Taxnomyを加える
+</li><li> text scan時のパース粒度を調整する
+</li><li> マッピング正解セットの適応
+</li></ul>
+<h2> <span class="mw-headline" id=".E3.83.91.E3.82.A4.E3.83.AD.E3.83.83.E3.83.88.E3.83.AF.E3.83.BC.E3.82.AF.E3.81.AE.E8.A9.95.E4.BE.A1"> パイロットワークの評価 </span></h2>
+<ul><li> データ：JCMのhabitatデータ、森さんによるマニュアルマッピング
+</li><li> 手法：text scan, bigram+cos similarityで各オントロジー（辞書）に一致させた
+</li><li> 結果ファイル：meoetc_match_result20140129.txt
+</li></ul>
+<p><br />
+</p>
+<ul><li> text scanは有効
+</li></ul>
+<ul><li> 文字列類似度が使えない概念的にはマッピングへは対応出来ない
+</li></ul>
+<pre>TR     Creosoted wooden pole     manual     meo     wood
+TR     Creosoted wooden pole     csso     no_hit
+TR     Creosoted wooden pole     pdo     no_hit
+TR     Creosoted wooden pole     fma     no_hit
+TR     Creosoted wooden pole     meo     no_hit
+</pre>
+<ul><li> bigram+cosが有効な例
+</li></ul>
+<pre>TR     Buccal cavity     manual     fma     Oral cavity
+TR     Buccal cavity     csso     no_hit
+TR     Buccal cavity     pdo     no_hit
+TR     Buccal cavity     fma     cs     Oral cavity [-1:cavity] @@ Cell cavity [-1:cavity] @@ Nasal cavity [-1:cavity] @@ Antral cavity [-1:cavity] @@ Orbital cavity [-1:cavity]
+TR     Buccal cavity     meo     cs     Oral cavity [-1:cavity] @@ Nasal cavity [-1:cavity]
+</pre>
+<pre>TR     Dried Japanese persimmon     manual     meo     dried persimmon
+TR     Dried Japanese persimmon     csso     no_hit
+TR     Dried Japanese persimmon     pdo     no_hit
+TR     Dried Japanese persimmon     fma     no_hit
+TR     Dried Japanese persimmon     meo     cs     dried persimmon [-1:persimmon]
+</pre>
+<pre>TR     Fermented food     manual     meo     fermented food product
+TR     Fermented food     all     ts     meo:food
+TR     Fermented food     csso     no_hit
+TR     Fermented food     pdo     no_hit
+TR     Fermented food     fma     no_hit
+TR     Fermented food     meo     cs     fermented food product [-1:food] @@ non-fermented food product [-1:food] @@ fermented meat [15:fermented] @@ fermented must [15:fermented] @@ fermented juice [15:fermented]
+</pre>
+<pre>TR     Fermenting molasses     manual     meo     fermented molasses
+TR     Fermenting molasses     all     ts     meo:molasses
+TR     Fermenting molasses     csso     no_hit
+TR     Fermenting molasses     pdo     no_hit
+TR     Fermenting molasses     fma     no_hit
+TR     Fermenting molasses     meo     cs     fermented molasses [-1:molasses] @@ fermented cane molasses [-1:molasses]
+</pre>
+<pre>TR     Fingernail     manual     fma     Nail of finger
+TR     Fingernail     csso     no_hit
+TR     Fingernail     pdo     no_hit
+TR     Fingernail     fma     cs     Nail of finger [10625:nail] @@ Finger [12838:finger]
+TR     Fingernail     meo     cs     Nail of finger [10002:nail] @@ Finger [10003:finger]
+</pre>
+<ul><li> bigram+cosでfalse positiveな例
+</li></ul>
+<pre>TR     Dairy products     manual     meo     dairy product
+TR     Dairy products     csso     no_hit
+TR     Dairy products     pdo     no_hit
+TR     Dairy products     fma     no_hit
+TR     Dairy products     meo     cs     dairy product [-1:dairy] @@ honey product [10001:honey] @@ poultry product [10001:poultry]
+</pre>
+<pre>TR     Dust     manual     meo     waste
+TR     Dust     csso     no_hit
+TR     Dust     pdo     no_hit
+TR     Dust     fma     no_hit
+TR     Dust     meo     cs     sawdust [10001:sawdust] #単語内の文字列類似度で違う意味にマッピングされてしまった例
+</pre>
+<pre>TR     "Ear discharge, Japan"     manual     meo     discharge
+TR     "Ear discharge, Japan"     manual     fma     Ear
+TR     "Ear discharge, Japan"     all     ts     meo:Ear @ meo:discharge
+TR     "Ear discharge, Japan"     csso     cs     Discharge [-1:discharge]
+TR     "Ear discharge, Japan"     pdo     no_hit
+TR     "Ear discharge, Japan"     fma     no_hit    #短い文字列が拾えない
+TR     "Ear discharge, Japan"     meo     cs     discharge [-1:discharge]
+</pre>
+<pre>TR     Fermenter     manual     meo     man-made structure
+TR     Fermenter     csso     no_hit
+TR     Fermenter     pdo     no_hit
+TR     Fermenter     fma     no_hit
+TR     Fermenter     meo     cs     fermented shrimp [10001:shrimp] @@ fermented starch [10001:starch] @@ fermented meat [10003:meat] @@ fermented must [10004:must] @@ fermented juice [10005:juice] #文字類似度は高いが意味が違う
+</pre>
+<ul><li> tsとbi+cosの結果が矛盾する場合
+</li></ul>
+<pre>TR     "Decayed leaf of deciduous tree, Saitama Pref., Japan"     manual     meo     leaf
+TR     "Decayed leaf of deciduous tree, Saitama Pref., Japan"     all     ts     meo:leaf @ fma:Tree #どっちの粒度でつける？
+TR     "Decayed leaf of deciduous tree, Saitama Pref., Japan"     csso     no_hit
+TR     "Decayed leaf of deciduous tree, Saitama Pref., Japan"     pdo     no_hit
+TR     "Decayed leaf of deciduous tree, Saitama Pref., Japan"     fma     no_hit
+TR     "Decayed leaf of deciduous tree, Saitama Pref., Japan"     meo     no_hit
+</pre>
+<pre>TR     "Decayed leaf of weed, Japan"     manual     meo     leaf
+TR     "Decayed leaf of weed, Japan"     all     ts     meo:leaf
+TR     "Decayed leaf of weed, Japan"     csso     no_hit
+TR     "Decayed leaf of weed, Japan"     pdo     no_hit
+TR     "Decayed leaf of weed, Japan"     fma     no_hit
+TR      "Decayed leaf of weed, Japan"     meo     no_hit
+</pre>
+<pre>TR     "Decayed leaves, Saitama Pref., Japan"     manual     meo     leaf #単複綴り違い問題
+TR     "Decayed leaves, Saitama Pref., Japan"     csso     no_hit
+TR     "Decayed leaves, Saitama Pref., Japan"     pdo     no_hit
+TR     "Decayed leaves, Saitama Pref., Japan"     fma     no_hit
+TR     "Decayed leaves, Saitama Pref., Japan"     meo     no_hit
+</pre>
+<!-- 
+NewPP limit report
+Preprocessor node count: 18/1000000
+Post-expand include size: 0/2097152 bytes
+Template argument size: 0/2097152 bytes
+Expensive parser function count: 0/100
+-->
+<div class="printfooter">
+「<a href="http://wiki.lifesciencedb.jp/mw/BH13.13/DataMapping">http://wiki.lifesciencedb.jp/mw/BH13.13/DataMapping</a>」より作成</div>
+		<div id='catlinks' class='catlinks catlinks-allhidden'></div>		<!-- end content -->
+				<div class="visualClear"></div>
+	</div>
+</div></div>
+<div id="column-one">
+	<div id="p-cactions" class="portlet">
+		<h5>表示</h5>
+		<div class="pBody">
+			<ul>
+				 <li id="ca-nstab-main" class="selected"><a href="/mw/BH13.13/DataMapping" title="本文を表示 [c]" accesskey="c">ページ</a></li>
+				 <li id="ca-talk" class="new"><a href="/mw/index.php?title=%E3%83%8E%E3%83%BC%E3%83%88:BH13.13/DataMapping&amp;action=edit&amp;redlink=1" title="記事についての議論 [t]" accesskey="t">議論</a></li>
+				 <li id="ca-viewsource"><a href="/mw/index.php?title=BH13.13/DataMapping&amp;action=edit&amp;oldid=11733" title="このページは保護されています。&#10;ページのソースを閲覧できます。 [e]" accesskey="e">ソースを表示</a></li>
+				 <li id="ca-history"><a href="/mw/index.php?title=BH13.13/DataMapping&amp;action=history" title="このページの過去の版 [h]" accesskey="h">履歴</a></li>
+			</ul>
+		</div>
+	</div>
+	<div class="portlet" id="p-personal">
+		<h5>個人用ツール</h5>
+		<div class="pBody">
+			<ul>
+				<li id="pt-anonuserpage"><a href="/mw/%E5%88%A9%E7%94%A8%E8%80%85:172.18.8.51" title="自分が編集しているIPアドレスの利用者ページ [.]" accesskey="." class="new">172.18.8.51</a></li>
+				<li id="pt-anontalk"><a href="/mw/%E5%88%A9%E7%94%A8%E8%80%85%E2%80%90%E4%BC%9A%E8%A9%B1:172.18.8.51" title="このIPアドレスからなされた編集についての議論 [n]" accesskey="n" class="new">このIPアドレスのトーク</a></li>
+				<li id="pt-anonlogin"><a href="/mw/index.php?title=%E7%89%B9%E5%88%A5:%E3%83%AD%E3%82%B0%E3%82%A4%E3%83%B3&amp;returnto=BH13.13/DataMapping&amp;returntoquery=direction%3Dprev%26oldid%3D11735" title="ログインすることが推奨されます。ただし、必須ではありません。 [o]" accesskey="o">ログイン</a></li>
+				<li id="pt-openidlogin"><a href="/mw/index.php?title=%E7%89%B9%E5%88%A5:OpenID%E3%83%AD%E3%82%B0%E3%82%A4%E3%83%B3&amp;returnto=BH13.13/DataMapping">OpenIDでログイン</a></li>
+			</ul>
+		</div>
+	</div>
+	<div class="portlet" id="p-logo">
+		<a style="background-image: url(/mw/images/togowiki-logo.png);" href="/mw/%E3%83%A1%E3%82%A4%E3%83%B3%E3%83%9A%E3%83%BC%E3%82%B8" title="メインページに移動"></a>
+	</div>
+	<script type="text/javascript"> if (window.isMSIE55) fixalpha(); </script>
+	<div class='generated-sidebar portlet' id='p-navigation'>
+		<h5>案内</h5>
+		<div class='pBody'>
+			<ul>
+				<li id="n-mainpage-description"><a href="/mw/%E3%83%A1%E3%82%A4%E3%83%B3%E3%83%9A%E3%83%BC%E3%82%B8" title="メインページに移動する [z]" accesskey="z">メインページ</a></li>
+				<li id="n-portal"><a href="/mw/TogoWiki:%E3%82%B3%E3%83%9F%E3%83%A5%E3%83%8B%E3%83%86%E3%82%A3%E3%83%BB%E3%83%9D%E3%83%BC%E3%82%BF%E3%83%AB" title="このプロジェクトについて、できること、情報を入手する場所">コミュニティ・ポータル</a></li>
+				<li id="n-currentevents"><a href="/mw/TogoWiki:%E6%9C%80%E8%BF%91%E3%81%AE%E5%87%BA%E6%9D%A5%E4%BA%8B" title="最近の出来事について予備知識を得る">最近の出来事</a></li>
+				<li id="n-recentchanges"><a href="/mw/%E7%89%B9%E5%88%A5:%E6%9C%80%E8%BF%91%E3%81%AE%E6%9B%B4%E6%96%B0" title="ウィキにおける最近の更新の一覧 [r]" accesskey="r">最近の更新</a></li>
+				<li id="n-randompage"><a href="/mw/%E7%89%B9%E5%88%A5:%E3%81%8A%E3%81%BE%E3%81%8B%E3%81%9B%E8%A1%A8%E7%A4%BA" title="無作為に抽出されたページの読み込み [x]" accesskey="x">おまかせ表示</a></li>
+				<li id="n-help"><a href="/mw/Help:%E7%9B%AE%E6%AC%A1" title="情報を得る場所">ヘルプ</a></li>
+			</ul>
+		</div>
+	</div>
+	<div id="p-search" class="portlet">
+		<h5><label for="searchInput">検索</label></h5>
+		<div id="searchBody" class="pBody">
+			<form action="/mw/index.php" id="searchform">
+				<input type='hidden' name="title" value="特別:検索"/>
+				<input id="searchInput" title="TogoWiki内を検索" accesskey="f" type="search" name="search" />
+				<input type='submit' name="go" class="searchButton" id="searchGoButton"	value="表示" title="厳密に一致する名前のページが存在すれば、そのページへ移動します" />&nbsp;
+				<input type='submit' name="fulltext" class="searchButton" id="mw-searchButton" value="検索" title="入力された文字列が含まれるページを検索します" />
+			</form>
+		</div>
+	</div>
+	<div class="portlet" id="p-tb">
+		<h5>ツールボックス</h5>
+		<div class="pBody">
+			<ul>
+				<li id="t-whatlinkshere"><a href="/mw/%E7%89%B9%E5%88%A5:%E3%83%AA%E3%83%B3%E3%82%AF%E5%85%83/BH13.13/DataMapping" title="ここにリンクしている全ウィキのページの一覧 [j]" accesskey="j">リンク元</a></li>
+				<li id="t-recentchangeslinked"><a href="/mw/%E7%89%B9%E5%88%A5:%E9%96%A2%E9%80%A3%E3%83%9A%E3%83%BC%E3%82%B8%E3%81%AE%E6%9B%B4%E6%96%B0%E7%8A%B6%E6%B3%81/BH13.13/DataMapping" title="このページからリンクしているページの最近の更新 [k]" accesskey="k">関連ページの更新状況</a></li>
+<li id="t-specialpages"><a href="/mw/%E7%89%B9%E5%88%A5:%E7%89%B9%E5%88%A5%E3%83%9A%E3%83%BC%E3%82%B8%E4%B8%80%E8%A6%A7" title="特別ページの一覧 [q]" accesskey="q">特別ページ</a></li>
+				<li id="t-print"><a href="/mw/index.php?title=BH13.13/DataMapping&amp;direction=prev&amp;oldid=11735&amp;printable=yes" rel="alternate" title="このページの印刷用ページ [p]" accesskey="p">印刷用バージョン</a></li>				<li id="t-permalink"><a href="/mw/index.php?title=BH13.13/DataMapping&amp;oldid=11733" title="ページのこの版への固定リンク">この版への固定リンク</a></li>			</ul>
+		</div>
+	</div>
+</div><!-- end of the left (by default at least) column -->
+<div class="visualClear"></div>
+<div id="footer">
+	<div id="f-poweredbyico"><a href="http://www.mediawiki.org/"><img src="/mw/skins/common/images/poweredby_mediawiki_88x31.png" height="31" width="88" alt="Powered by MediaWiki" /></a></div>
+	<div id="f-copyrightico"><a href="http://creativecommons.org/licenses/by/3.0/"><img src="http://i.creativecommons.org/l/by/3.0/88x31.png" alt="Attribution 3.0 Unported" width="88" height="31" /></a></div>
+	<ul id="f-list">
+		<li id="copyright">内容は<a href="http://creativecommons.org/licenses/by/3.0/" class="external ">Attribution 3.0 Unported</a>のライセンスで利用することができます。</li>
+		<li id="privacy"><a href="/mw/TogoWiki:%E3%83%97%E3%83%A9%E3%82%A4%E3%83%90%E3%82%B7%E3%83%BC%E3%83%BB%E3%83%9D%E3%83%AA%E3%82%B7%E3%83%BC" title="TogoWiki:プライバシー・ポリシー">プライバシー・ポリシー</a></li>
+		<li id="about"><a href="/mw/TogoWiki:TogoWiki%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6" title="TogoWiki:TogoWikiについて">TogoWikiについて</a></li>
+		<li id="disclaimer"><a href="/mw/TogoWiki:%E5%85%8D%E8%B2%AC%E4%BA%8B%E9%A0%85" title="TogoWiki:免責事項">免責事項</a></li>
+	</ul>
+</div>
+</div>
+
+<script>if (window.runOnloadHook) runOnloadHook();</script>
+<!-- Served in 0.704 secs. --></body></html>

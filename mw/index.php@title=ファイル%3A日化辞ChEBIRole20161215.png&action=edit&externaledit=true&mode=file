@@ -1,0 +1,11 @@
+[Process]
+Type=Edit file
+Engine=MediaWiki
+Script=http://wiki.lifesciencedb.jp/mw/index.php
+Server=http://wiki.lifesciencedb.jp
+Path=/mw
+Special namespace=特別
+
+[File]
+Extension=png
+URL=http://wiki.lifesciencedb.jp/mw/images/a/a0/%E6%97%A5%E5%8C%96%E8%BE%9EChEBIRole20161215.png

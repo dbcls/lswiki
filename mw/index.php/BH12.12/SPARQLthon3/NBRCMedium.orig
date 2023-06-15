@@ -1,0 +1,304 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html lang="ja" dir="ltr">
+<head>
+<title>BH12.12/SPARQLthon3/NBRCMedium - TogoWiki</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta name="generator" content="MediaWiki 1.16.3" />
+<link rel="shortcut icon" href="/favicon.ico" />
+<link rel="search" type="application/opensearchdescription+xml" href="/mw/opensearch_desc.php" title="TogoWiki (ja)" />
+<link title="Creative Commons" type="application/rdf+xml" href="/mw/index.php?title=BH12.12/SPARQLthon3/NBRCMedium&amp;action=creativecommons" rel="meta" />
+<link rel="copyright" href="http://creativecommons.org/licenses/by/3.0/" />
+<link rel="alternate" type="application/atom+xml" title="TogoWikiのAtomフィード" href="/mw/index.php?title=%E7%89%B9%E5%88%A5:%E6%9C%80%E8%BF%91%E3%81%AE%E6%9B%B4%E6%96%B0&amp;feed=atom" />
+<link rel="stylesheet" href="/mw/skins/common/shared.css?270" media="screen" />
+<link rel="stylesheet" href="/mw/skins/common/commonPrint.css?270" media="print" />
+<link rel="stylesheet" href="/mw/skins/monobook/main.css?270" media="screen" />
+<!--[if lt IE 5.5000]><link rel="stylesheet" href="/mw/skins/monobook/IE50Fixes.css?270" media="screen" /><![endif]-->
+<!--[if IE 5.5000]><link rel="stylesheet" href="/mw/skins/monobook/IE55Fixes.css?270" media="screen" /><![endif]-->
+<!--[if IE 6]><link rel="stylesheet" href="/mw/skins/monobook/IE60Fixes.css?270" media="screen" /><![endif]-->
+<!--[if IE 7]><link rel="stylesheet" href="/mw/skins/monobook/IE70Fixes.css?270" media="screen" /><![endif]-->
+<link rel="stylesheet" href="/mw/index.php?title=MediaWiki:Common.css&amp;usemsgcache=yes&amp;ctype=text%2Fcss&amp;smaxage=18000&amp;action=raw&amp;maxage=18000" />
+<link rel="stylesheet" href="/mw/index.php?title=MediaWiki:Print.css&amp;usemsgcache=yes&amp;ctype=text%2Fcss&amp;smaxage=18000&amp;action=raw&amp;maxage=18000" media="print" />
+<link rel="stylesheet" href="/mw/index.php?title=MediaWiki:Monobook.css&amp;usemsgcache=yes&amp;ctype=text%2Fcss&amp;smaxage=18000&amp;action=raw&amp;maxage=18000" />
+<link rel="stylesheet" href="/mw/index.php?title=-&amp;action=raw&amp;maxage=18000&amp;gen=css" />
+<script>
+var skin="monobook",
+stylepath="/mw/skins",
+wgUrlProtocols="http\\:\\/\\/|https\\:\\/\\/|ftp\\:\\/\\/|irc\\:\\/\\/|gopher\\:\\/\\/|telnet\\:\\/\\/|nntp\\:\\/\\/|worldwind\\:\\/\\/|mailto\\:|news\\:|svn\\:\\/\\/",
+wgArticlePath="/mw/$1",
+wgScriptPath="/mw",
+wgScriptExtension=".php",
+wgScript="/mw/index.php",
+wgVariantArticlePath=false,
+wgActionPaths={},
+wgServer="http://wiki.lifesciencedb.jp",
+wgCanonicalNamespace="",
+wgCanonicalSpecialPageName=false,
+wgNamespaceNumber=0,
+wgPageName="BH12.12/SPARQLthon3/NBRCMedium",
+wgTitle="BH12.12/SPARQLthon3/NBRCMedium",
+wgAction="view",
+wgArticleId=179,
+wgIsArticle=true,
+wgUserName=null,
+wgUserGroups=null,
+wgUserLanguage="ja",
+wgContentLanguage="ja",
+wgBreakFrames=false,
+wgCurRevisionId=3285,
+wgVersion="1.16.3",
+wgEnableAPI=true,
+wgEnableWriteAPI=true,
+wgSeparatorTransformTable=["", ""],
+wgDigitTransformTable=["", ""],
+wgMainPageTitle="メインページ",
+wgFormattedNamespaces={"-2": "メディア", "-1": "特別", "0": "", "1": "ノート", "2": "利用者", "3": "利用者‐会話", "4": "TogoWiki", "5": "TogoWiki‐ノート", "6": "ファイル", "7": "ファイル‐ノート", "8": "MediaWiki", "9": "MediaWiki‐ノート", "10": "Template", "11": "Template‐ノート", "12": "Help", "13": "Help‐ノート", "14": "Category", "15": "Category‐ノート"},
+wgNamespaceIds={"メディア": -2, "特別": -1, "": 0, "ノート": 1, "利用者": 2, "利用者‐会話": 3, "togowiki": 4, "togowiki‐ノート": 5, "ファイル": 6, "ファイル‐ノート": 7, "mediawiki": 8, "mediawiki‐ノート": 9, "template": 10, "template‐ノート": 11, "help": 12, "help‐ノート": 13, "category": 14, "category‐ノート": 15, "画像": 6, "画像‐ノート": 7, "image": 6, "image_talk": 7},
+wgSiteName="TogoWiki",
+wgCategories=[],
+wgRestrictionEdit=[],
+wgRestrictionMove=[];
+</script><script src="/mw/skins/common/wikibits.js?270"></script>
+<script src="/mw/skins/common/ajax.js?270"></script>
+<script src="/mw/index.php?title=-&amp;action=raw&amp;gen=js&amp;useskin=monobook&amp;270"></script>
+
+		<style type='text/css'>
+		li#pt-openidlogin {
+		  background: url(/mw/extensions/OpenID/skin/icons/openid-inputicon.png) top left no-repeat;
+		  padding-left: 20px;
+		  text-transform: none;
+		}
+		</style>
+</head>
+<body class="mediawiki ltr ns-0 ns-subject page-BH12_12_SPARQLthon3_NBRCMedium skin-monobook">
+<div id="globalWrapper">
+<div id="column-content"><div id="content" >
+	<a id="top"></a>
+	
+	<h1 id="firstHeading" class="firstHeading">BH12.12/SPARQLthon3/NBRCMedium</h1>
+	<div id="bodyContent">
+		<h3 id="siteSub">提供：TogoWiki</h3>
+		<div id="contentSub"></div>
+		<div id="jump-to-nav">移動： <a href="#column-one">案内</a>, <a href="#searchInput">検索</a></div>
+		<!-- start content -->
+<table id="toc" class="toc"><tr><td><div id="toctitle"><h2>目次</h2></div>
+<ul>
+<li class="toclevel-1 tocsection-1"><a href="#SPARQLthon.E3.81.A7.E3.81.AE.E3.82.B7.E3.83.8A.E3.83.AA.E3.82.AA"><span class="tocnumber">1</span> <span class="toctext">SPARQLthonでのシナリオ</span></a></li>
+<li class="toclevel-1 tocsection-2"><a href="#NBRC.E8.8F.8C.E6.A0.AA.E5.90.8D.E5.90.8D.E5.AF.84.E3.81.9B.E7.B5.90.E6.9E.9C"><span class="tocnumber">2</span> <span class="toctext">NBRC菌株名名寄せ結果</span></a></li>
+<li class="toclevel-1 tocsection-3"><a href="#.E5.86.85.E5.AE.B9.E3.81.AE.E7.A2.BA.E8.AA.8D"><span class="tocnumber">3</span> <span class="toctext">内容の確認</span></a></li>
+<li class="toclevel-1 tocsection-4"><a href="#.E8.8F.8C.E6.A0.AA.E3.83.A1.E3.82.BF.E3.83.87.E3.83.BC.E3.82.BF.E8.A8.98.E8.BF.B0.E3.81.AE.E3.81.9F.E3.82.81.E3.81.AE.E5.88.A9.E7.94.A8.E3.82.AA.E3.83.B3.E3.83.88.E3.83.AD.E3.82.B8.E3.83.BC.E3.81.A8.E7.B5.B1.E5.88.B6.E8.AA.9E.E5.BD.99.E3.81.AE.E8.A8.AD.E8.A8.88"><span class="tocnumber">4</span> <span class="toctext">菌株メタデータ記述のための利用オントロジーと統制語彙の設計</span></a>
+<ul>
+<li class="toclevel-2 tocsection-5"><a href="#.E5.95.8F.E9.A1.8C.E7.82.B9.E3.81.AE.E5.85.B1.E6.9C.89"><span class="tocnumber">4.1</span> <span class="toctext">問題点の共有</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-6"><a href="#MCCV_beta2.E3.81.AE.E3.83.AA.E3.83.AA.E3.83.BC.E3.82.B9"><span class="tocnumber">5</span> <span class="toctext">MCCV beta2のリリース</span></a></li>
+<li class="toclevel-1 tocsection-7"><a href="#MCCV_beta3.E3.81.AE.E3.83.AA.E3.83.AA.E3.83.BC.E3.82.B9"><span class="tocnumber">6</span> <span class="toctext">MCCV beta3のリリース</span></a></li>
+<li class="toclevel-1 tocsection-8"><a href="#MCCV_beta4.E3.81.AE.E3.83.AA.E3.83.AA.E3.83.BC.E3.82.B9"><span class="tocnumber">7</span> <span class="toctext">MCCV beta4のリリース</span></a></li>
+</ul>
+</td></tr></table><script>if (window.showTocToggle) { var tocShowText = "表示"; var tocHideText = "非表示"; showTocToggle(); } </script>
+<h2> <span class="mw-headline" id="SPARQLthon.E3.81.A7.E3.81.AE.E3.82.B7.E3.83.8A.E3.83.AA.E3.82.AA"> SPARQLthonでのシナリオ </span></h2>
+<ul><li> <a href="http://wiki.lifesciencedb.jp/mw/index.php/BH12.12/SPARQLthon" class="external text" rel="nofollow">SPARQLthon1</a>からの<a href="http://wiki.lifesciencedb.jp/mw/index.php/BH12.12/SPARQLthon/NBRCMedium" class="external text" rel="nofollow">続き</a>
+</li><li> 関係者でNBRC/JCM の菌株情報をNCBI Taxonomy / UniProt Taxonomy とどのように関係付けるか相談する
+</li><li> NBRC菌株ID と Taxonomy ID を関連付けるRDF の作成
+</li><li> DDBJの triplestore に蓄積されている、RefSeq GenomeRDF や UniProt RDF と組み合わせたケーススタディを考える
+<ul><li> NBRC菌株の培養温度情報をトリプルにして、トリプルストアに入れる
+</li><li> 培養温度を問い合わせに使ったSPARQLを考えてみる
+</li></ul>
+</li></ul>
+<h2> <span class="mw-headline" id="NBRC.E8.8F.8C.E6.A0.AA.E5.90.8D.E5.90.8D.E5.AF.84.E3.81.9B.E7.B5.90.E6.9E.9C"> NBRC菌株名名寄せ結果 </span></h2>
+<ul><li> 森さん＠東工大 菌株名寄せ結果報告（ClassB2）
+</li></ul>
+<ol><li> StrainInfoの外部IDのデータセットを取得
+</li><li> NBRC IDとStrainInfo外部IDデータセットの対応をとる
+</li><li> 対応が取れたエントリーのINSDC配列アクセション番号を全て取得
+</li><li> INSDC配列アクセッション番号からエントリーをたどりその中のTaxIDを取得
+</li><li> sort/uniq 一意に決まるものを選抜
+</li></ol>
+<h2> <span class="mw-headline" id=".E5.86.85.E5.AE.B9.E3.81.AE.E7.A2.BA.E8.AA.8D"> 内容の確認 </span></h2>
+<ul><li> 資料：名寄せの統計
+</li></ul>
+<table class="wikitable" style="text-align:center">
+<tr>
+<th> #NBRC ID
+</th><th> A
+</th><th> B1
+</th><th> B2
+</th><th> C
+</th></tr>
+<tr>
+<td style="text-align:right"> 716 </td><td style="width:2em; background-color:#ddf"> o </td><td style="width:2em; background-color:#ddf"> o </td><td style="width:2em; background-color:#ddf"> o </td><td style="width:2em; background-color:#ddf"> o
+</td></tr>
+<tr>
+<td style="text-align:right"> 2 </td><td style="width:2em; background-color:#ddf"> o </td><td style="width:2em; background-color:#ddf"> o </td><td style="width:2em; background-color:#ddf"> o </td><td> -
+</td></tr>
+<tr>
+<td style="text-align:right"> 1060 </td><td style="width:2em; background-color:#ddf"> o </td><td style="width:2em; background-color:#ddf"> o </td><td> - </td><td style="width:2em; background-color:#ddf"> o
+</td></tr>
+<tr>
+<td style="text-align:right"> 23 </td><td style="width:2em; background-color:#ddf"> o </td><td style="width:2em; background-color:#ddf"> o </td><td> - </td><td> -
+</td></tr>
+<tr>
+<td style="text-align:right"> 473 </td><td style="width:2em; background-color:#ddf"> o </td><td> - </td><td style="width:2em; background-color:#ddf"> o </td><td style="width:2em; background-color:#ddf"> o
+</td></tr>
+<tr>
+<td style="text-align:right"> 33 </td><td style="width:2em; background-color:#ddf">  o </td><td> - </td><td style="width:2em; background-color:#ddf">  o </td><td> -
+</td></tr>
+<tr>
+<td style="text-align:right"> 519 </td><td style="width:2em; background-color:#ddf"> o </td><td> - </td><td> - </td><td style="width:2em; background-color:#ddf"> o
+</td></tr>
+<tr>
+<td style="text-align:right"> 61 </td><td style="width:2em; background-color:#ddf"> o </td><td> - </td><td> - </td><td> -
+</td></tr>
+<tr>
+<td style="text-align:right"> 73 </td><td> - </td><td style="width:2em; background-color:#ddf"> o </td><td style="width:2em; background-color:#ddf"> o </td><td style="width:2em; background-color:#ddf"> o
+</td></tr>
+<tr>
+<td style="text-align:right"> 166 </td><td> - </td><td style="width:2em; background-color:#ddf"> o </td><td> - </td><td style="width:2em; background-color:#ddf"> o
+</td></tr>
+<tr>
+<td style="text-align:right"> 2 </td><td> - </td><td style="width:2em; background-color:#ddf"> o </td><td> - </td><td> -
+</td></tr>
+<tr>
+<td style="text-align:right"> 1336 </td><td> - </td><td> - </td><td style="width:2em; background-color:#ddf"> o </td><td style="width:2em; background-color:#ddf"> o
+</td></tr>
+<tr>
+<td style="text-align:right"> 48 </td><td> - </td><td> - </td><td style="width:2em; background-color:#ddf"> o </td><td> -
+</td></tr>
+<tr>
+<td style="text-align:right"> 12933 </td><td> - </td><td> - </td><td> - </td><td style="width:2em; background-color:#ddf"> o
+</td></tr>
+</table>
+<h2> <span class="mw-headline" id=".E8.8F.8C.E6.A0.AA.E3.83.A1.E3.82.BF.E3.83.87.E3.83.BC.E3.82.BF.E8.A8.98.E8.BF.B0.E3.81.AE.E3.81.9F.E3.82.81.E3.81.AE.E5.88.A9.E7.94.A8.E3.82.AA.E3.83.B3.E3.83.88.E3.83.AD.E3.82.B8.E3.83.BC.E3.81.A8.E7.B5.B1.E5.88.B6.E8.AA.9E.E5.BD.99.E3.81.AE.E8.A8.AD.E8.A8.88"> 菌株メタデータ記述のための利用オントロジーと統制語彙の設計 </span></h2>
+<ul><li> Microbial Culture Collection Vocabulary (MCCV) beta2 川島さん＠DBCLS 
+<ul><li> 今までの問題点の確認
+</li><li> MCCVの構造とタームの概要説明、提案
+</li></ul>
+</li></ul>
+<h3> <span class="mw-headline" id=".E5.95.8F.E9.A1.8C.E7.82.B9.E3.81.AE.E5.85.B1.E6.9C.89"> 問題点の共有 </span></h3>
+<ul><li> 他のカルチャーコレクション番号の表現、リンク先のあるものとないもの
+<ul><li> MCLの他のStrain Numberへのリンクに用いるプロパティ[[<a href="http://www.straininfo.net/projects/mcl/reference#http://www.straininfo.net/ns/mcl/2.0/otherStrainNumber" class="external free" rel="nofollow">http://www.straininfo.net/projects/mcl/reference#http://www.straininfo.net/ns/mcl/2.0/otherStrainNumber</a> otherStrainNumberは、MCL独特の思想が入ってるので別のプロパティを設定したい
+</li><li> 空白ノードを介してOtherCultureCollectonInfo, OtherCultureCollectionNumber, OtherCultureCollectionURL...
+</li></ul>
+</li><li> 菌株名寄せのClassA-Cを分けるためのプロパティ設計
+<ul><li> relatedToTaxonomyByDBLink, RelatedToTaxonomyBySequence, RelatedToTaxonomyByStrainName
+</li><li> relatedToTaxonomy の空白ノード以下　dc:identifier rdf:label
+</li></ul>
+</li><li> 文献情報の記載について
+<ul><li> 空白ノードの下にdc:を使って表現する
+</li></ul>
+</li><li> タイプストレイン行の中にタイプシリーズの表記がある
+<ul><li> <a href="http://ja.wikipedia.org/wiki/タイプ_(分類学)" class="external free" rel="nofollow">http://ja.wikipedia.org/wiki/タイプ_(分類学)</a>
+</li><li> DB内には詳細なデータがあるがWebからは見えていない
+<ul><li> 例）Ex-type -&gt; Type yes
+</li></ul>
+</li><li> isTypeStrain booleanで表現する
+</li><li> Type seriesなどの表現でEx-type, Ex-halotypeなど格納する...
+</li></ul>
+</li></ul>
+<h2> <span class="mw-headline" id="MCCV_beta2.E3.81.AE.E3.83.AA.E3.83.AA.E3.83.BC.E3.82.B9"> MCCV beta2のリリース </span></h2>
+<ul><li> OtherCultureCollectionNumber は、他機関での菌株IDをリテラルとして記述するためのプロパティだったが、実際は、菌株IDだけ利用可能な場合と、そのURIも利用可能な場合があるので、OtherCultureCollectionInfo プロパティを用意した。このプロパティは、ブランクノードを介して、菌株IDおよびあればそのURIを、OtherCultureCollectionNumber および、OtherCultureCollectionURI で記述する。
+</li></ul>
+<h2> <span class="mw-headline" id="MCCV_beta3.E3.81.AE.E3.83.AA.E3.83.AA.E3.83.BC.E3.82.B9"> MCCV beta3のリリース </span></h2>
+<ul><li> relatedToTaxon というプロパティは、英語としておかしいので、isRelatedToTaxon 〜 に変更した。
+</li></ul>
+<h2> <span class="mw-headline" id="MCCV_beta4.E3.81.AE.E3.83.AA.E3.83.AA.E3.83.BC.E3.82.B9"> MCCV beta4のリリース </span></h2>
+<ul><li> 全バージョンとの違い
+<ul><li> 語彙のIDを、mccv:Culture のような可読IDから、MCCV_000001 のような機械的IDに変更した。
+</li><li> 英語的な記述は、言語タグを付与して、rdfs:label で、ラベルとして記載。
+</li><li> できる限り、日本語タグも付与した。
+</li></ul>
+</li></ul>
+
+<!-- 
+NewPP limit report
+Preprocessor node count: 30/1000000
+Post-expand include size: 0/2097152 bytes
+Template argument size: 0/2097152 bytes
+Expensive parser function count: 0/100
+-->
+
+<!-- Saved in parser cache with key wikidb-togowiki_:pcache:idhash:179-0!1!0!!ja!2!edit=0 and timestamp 20230605014438 -->
+<div class="printfooter">
+「<a href="http://wiki.lifesciencedb.jp/mw/BH12.12/SPARQLthon3/NBRCMedium">http://wiki.lifesciencedb.jp/mw/BH12.12/SPARQLthon3/NBRCMedium</a>」より作成</div>
+		<div id='catlinks' class='catlinks catlinks-allhidden'></div>		<!-- end content -->
+				<div class="visualClear"></div>
+	</div>
+</div></div>
+<div id="column-one">
+	<div id="p-cactions" class="portlet">
+		<h5>表示</h5>
+		<div class="pBody">
+			<ul>
+				 <li id="ca-nstab-main" class="selected"><a href="/mw/BH12.12/SPARQLthon3/NBRCMedium" title="本文を表示 [c]" accesskey="c">ページ</a></li>
+				 <li id="ca-talk" class="new"><a href="/mw/index.php?title=%E3%83%8E%E3%83%BC%E3%83%88:BH12.12/SPARQLthon3/NBRCMedium&amp;action=edit&amp;redlink=1" title="記事についての議論 [t]" accesskey="t">議論</a></li>
+				 <li id="ca-viewsource"><a href="/mw/index.php?title=BH12.12/SPARQLthon3/NBRCMedium&amp;action=edit" title="このページは保護されています。&#10;ページのソースを閲覧できます。 [e]" accesskey="e">ソースを表示</a></li>
+				 <li id="ca-history"><a href="/mw/index.php?title=BH12.12/SPARQLthon3/NBRCMedium&amp;action=history" title="このページの過去の版 [h]" accesskey="h">履歴</a></li>
+			</ul>
+		</div>
+	</div>
+	<div class="portlet" id="p-personal">
+		<h5>個人用ツール</h5>
+		<div class="pBody">
+			<ul>
+				<li id="pt-anonuserpage"><a href="/mw/%E5%88%A9%E7%94%A8%E8%80%85:172.18.8.51" title="自分が編集しているIPアドレスの利用者ページ [.]" accesskey="." class="new">172.18.8.51</a></li>
+				<li id="pt-anontalk"><a href="/mw/%E5%88%A9%E7%94%A8%E8%80%85%E2%80%90%E4%BC%9A%E8%A9%B1:172.18.8.51" title="このIPアドレスからなされた編集についての議論 [n]" accesskey="n" class="new">このIPアドレスのトーク</a></li>
+				<li id="pt-anonlogin"><a href="/mw/index.php?title=%E7%89%B9%E5%88%A5:%E3%83%AD%E3%82%B0%E3%82%A4%E3%83%B3&amp;returnto=BH12.12/SPARQLthon3/NBRCMedium" title="ログインすることが推奨されます。ただし、必須ではありません。 [o]" accesskey="o">ログイン</a></li>
+				<li id="pt-openidlogin"><a href="/mw/index.php?title=%E7%89%B9%E5%88%A5:OpenID%E3%83%AD%E3%82%B0%E3%82%A4%E3%83%B3&amp;returnto=BH12.12/SPARQLthon3/NBRCMedium">OpenIDでログイン</a></li>
+			</ul>
+		</div>
+	</div>
+	<div class="portlet" id="p-logo">
+		<a style="background-image: url(/mw/images/togowiki-logo.png);" href="/mw/%E3%83%A1%E3%82%A4%E3%83%B3%E3%83%9A%E3%83%BC%E3%82%B8" title="メインページに移動"></a>
+	</div>
+	<script type="text/javascript"> if (window.isMSIE55) fixalpha(); </script>
+	<div class='generated-sidebar portlet' id='p-navigation'>
+		<h5>案内</h5>
+		<div class='pBody'>
+			<ul>
+				<li id="n-mainpage-description"><a href="/mw/%E3%83%A1%E3%82%A4%E3%83%B3%E3%83%9A%E3%83%BC%E3%82%B8" title="メインページに移動する [z]" accesskey="z">メインページ</a></li>
+				<li id="n-portal"><a href="/mw/TogoWiki:%E3%82%B3%E3%83%9F%E3%83%A5%E3%83%8B%E3%83%86%E3%82%A3%E3%83%BB%E3%83%9D%E3%83%BC%E3%82%BF%E3%83%AB" title="このプロジェクトについて、できること、情報を入手する場所">コミュニティ・ポータル</a></li>
+				<li id="n-currentevents"><a href="/mw/TogoWiki:%E6%9C%80%E8%BF%91%E3%81%AE%E5%87%BA%E6%9D%A5%E4%BA%8B" title="最近の出来事について予備知識を得る">最近の出来事</a></li>
+				<li id="n-recentchanges"><a href="/mw/%E7%89%B9%E5%88%A5:%E6%9C%80%E8%BF%91%E3%81%AE%E6%9B%B4%E6%96%B0" title="ウィキにおける最近の更新の一覧 [r]" accesskey="r">最近の更新</a></li>
+				<li id="n-randompage"><a href="/mw/%E7%89%B9%E5%88%A5:%E3%81%8A%E3%81%BE%E3%81%8B%E3%81%9B%E8%A1%A8%E7%A4%BA" title="無作為に抽出されたページの読み込み [x]" accesskey="x">おまかせ表示</a></li>
+				<li id="n-help"><a href="/mw/Help:%E7%9B%AE%E6%AC%A1" title="情報を得る場所">ヘルプ</a></li>
+			</ul>
+		</div>
+	</div>
+	<div id="p-search" class="portlet">
+		<h5><label for="searchInput">検索</label></h5>
+		<div id="searchBody" class="pBody">
+			<form action="/mw/index.php" id="searchform">
+				<input type='hidden' name="title" value="特別:検索"/>
+				<input id="searchInput" title="TogoWiki内を検索" accesskey="f" type="search" name="search" />
+				<input type='submit' name="go" class="searchButton" id="searchGoButton"	value="表示" title="厳密に一致する名前のページが存在すれば、そのページへ移動します" />&nbsp;
+				<input type='submit' name="fulltext" class="searchButton" id="mw-searchButton" value="検索" title="入力された文字列が含まれるページを検索します" />
+			</form>
+		</div>
+	</div>
+	<div class="portlet" id="p-tb">
+		<h5>ツールボックス</h5>
+		<div class="pBody">
+			<ul>
+				<li id="t-whatlinkshere"><a href="/mw/%E7%89%B9%E5%88%A5:%E3%83%AA%E3%83%B3%E3%82%AF%E5%85%83/BH12.12/SPARQLthon3/NBRCMedium" title="ここにリンクしている全ウィキのページの一覧 [j]" accesskey="j">リンク元</a></li>
+				<li id="t-recentchangeslinked"><a href="/mw/%E7%89%B9%E5%88%A5:%E9%96%A2%E9%80%A3%E3%83%9A%E3%83%BC%E3%82%B8%E3%81%AE%E6%9B%B4%E6%96%B0%E7%8A%B6%E6%B3%81/BH12.12/SPARQLthon3/NBRCMedium" title="このページからリンクしているページの最近の更新 [k]" accesskey="k">関連ページの更新状況</a></li>
+<li id="t-specialpages"><a href="/mw/%E7%89%B9%E5%88%A5:%E7%89%B9%E5%88%A5%E3%83%9A%E3%83%BC%E3%82%B8%E4%B8%80%E8%A6%A7" title="特別ページの一覧 [q]" accesskey="q">特別ページ</a></li>
+				<li id="t-print"><a href="/mw/index.php?title=BH12.12/SPARQLthon3/NBRCMedium&amp;printable=yes" rel="alternate" title="このページの印刷用ページ [p]" accesskey="p">印刷用バージョン</a></li>				<li id="t-permalink"><a href="/mw/index.php?title=BH12.12/SPARQLthon3/NBRCMedium&amp;oldid=3285" title="ページのこの版への固定リンク">この版への固定リンク</a></li>			</ul>
+		</div>
+	</div>
+</div><!-- end of the left (by default at least) column -->
+<div class="visualClear"></div>
+<div id="footer">
+	<div id="f-poweredbyico"><a href="http://www.mediawiki.org/"><img src="/mw/skins/common/images/poweredby_mediawiki_88x31.png" height="31" width="88" alt="Powered by MediaWiki" /></a></div>
+	<div id="f-copyrightico"><a href="http://creativecommons.org/licenses/by/3.0/"><img src="http://i.creativecommons.org/l/by/3.0/88x31.png" alt="Attribution 3.0 Unported" width="88" height="31" /></a></div>
+	<ul id="f-list">
+		<li id="lastmod"> このページの最終更新は 2012年12月5日 (水) 09:05 に行われました。</li>
+		<li id="viewcount">このページは10,444回アクセスされました。</li>
+		<li id="copyright">内容は<a href="http://creativecommons.org/licenses/by/3.0/" class="external ">Attribution 3.0 Unported</a>のライセンスで利用することができます。</li>
+		<li id="privacy"><a href="/mw/TogoWiki:%E3%83%97%E3%83%A9%E3%82%A4%E3%83%90%E3%82%B7%E3%83%BC%E3%83%BB%E3%83%9D%E3%83%AA%E3%82%B7%E3%83%BC" title="TogoWiki:プライバシー・ポリシー">プライバシー・ポリシー</a></li>
+		<li id="about"><a href="/mw/TogoWiki:TogoWiki%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6" title="TogoWiki:TogoWikiについて">TogoWikiについて</a></li>
+		<li id="disclaimer"><a href="/mw/TogoWiki:%E5%85%8D%E8%B2%AC%E4%BA%8B%E9%A0%85" title="TogoWiki:免責事項">免責事項</a></li>
+	</ul>
+</div>
+</div>
+
+<script>if (window.runOnloadHook) runOnloadHook();</script>
+<!-- Served in 0.347 secs. --></body></html>

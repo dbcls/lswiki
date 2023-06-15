@@ -1,0 +1,13 @@
+<?xml version='1.0'  encoding="UTF-8" ?>
+<rdf:RDF xmlns:cc="http://web.resource.org/cc/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+	<cc:Work rdf:about="http://wiki.lifesciencedb.jp/mw/%E3%83%95%E3%82%A1%E3%82%A4%E3%83%AB:D2R_architecture.png">
+		<dc:title>D2R architecture.png</dc:title>
+		<dc:publisher rdf:resource="http://wiki.lifesciencedb.jp/mw/TogoWiki:TogoWiki%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6" />
+		<dc:language>ja</dc:language>
+		<dc:type>Text</dc:type>
+		<dc:format>text/html</dc:format>
+		<dc:identifier>http://wiki.lifesciencedb.jp/mw/%E3%83%95%E3%82%A1%E3%82%A4%E3%83%AB:D2R_architecture.png</dc:identifier>
+		<dc:date>2014-01-29</dc:date>
+		<dc:creator>TogoWikiの利用者：Fujiwara</dc:creator>

@@ -1,0 +1,334 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html lang="ja" dir="ltr">
+<head>
+<title>SPARQLthon18/EBI-RDF - TogoWiki</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta name="generator" content="MediaWiki 1.16.3" />
+<link rel="shortcut icon" href="http://wiki.lifesciencedb.jp/favicon.ico" />
+<link rel="search" type="application/opensearchdescription+xml" href="http://wiki.lifesciencedb.jp/mw/opensearch_desc.php" title="TogoWiki (ja)" />
+<link title="Creative Commons" type="application/rdf+xml" href="../index.php@title=SPARQLthon18%252FEBI-RDF&amp;action=creativecommons" rel="meta" />
+<link rel="copyright" href="http://creativecommons.org/licenses/by/3.0/" />
+<link rel="alternate" type="application/atom+xml" title="TogoWikiのAtomフィード" href="http://wiki.lifesciencedb.jp/mw/index.php?title=%E7%89%B9%E5%88%A5:%E6%9C%80%E8%BF%91%E3%81%AE%E6%9B%B4%E6%96%B0&amp;feed=atom" />
+<link rel="stylesheet" href="http://wiki.lifesciencedb.jp/mw/skins/common/shared.css?270" media="screen" />
+<link rel="stylesheet" href="http://wiki.lifesciencedb.jp/mw/skins/common/commonPrint.css?270" media="print" />
+<link rel="stylesheet" href="http://wiki.lifesciencedb.jp/mw/skins/monobook/main.css?270" media="screen" />
+<!--[if lt IE 5.5000]><link rel="stylesheet" href="/mw/skins/monobook/IE50Fixes.css?270" media="screen" /><![endif]-->
+<!--[if IE 5.5000]><link rel="stylesheet" href="/mw/skins/monobook/IE55Fixes.css?270" media="screen" /><![endif]-->
+<!--[if IE 6]><link rel="stylesheet" href="/mw/skins/monobook/IE60Fixes.css?270" media="screen" /><![endif]-->
+<!--[if IE 7]><link rel="stylesheet" href="/mw/skins/monobook/IE70Fixes.css?270" media="screen" /><![endif]-->
+<link rel="stylesheet" href="http://wiki.lifesciencedb.jp/mw/index.php?title=MediaWiki:Common.css&amp;usemsgcache=yes&amp;ctype=text%2Fcss&amp;smaxage=18000&amp;action=raw&amp;maxage=18000" />
+<link rel="stylesheet" href="http://wiki.lifesciencedb.jp/mw/index.php?title=MediaWiki:Print.css&amp;usemsgcache=yes&amp;ctype=text%2Fcss&amp;smaxage=18000&amp;action=raw&amp;maxage=18000" media="print" />
+<link rel="stylesheet" href="http://wiki.lifesciencedb.jp/mw/index.php?title=MediaWiki:Monobook.css&amp;usemsgcache=yes&amp;ctype=text%2Fcss&amp;smaxage=18000&amp;action=raw&amp;maxage=18000" />
+<link rel="stylesheet" href="http://wiki.lifesciencedb.jp/mw/index.php?title=-&amp;action=raw&amp;maxage=18000&amp;gen=css" />
+<script>
+var skin="monobook",
+stylepath="/mw/skins",
+wgUrlProtocols="http\\:\\/\\/|https\\:\\/\\/|ftp\\:\\/\\/|irc\\:\\/\\/|gopher\\:\\/\\/|telnet\\:\\/\\/|nntp\\:\\/\\/|worldwind\\:\\/\\/|mailto\\:|news\\:|svn\\:\\/\\/",
+wgArticlePath="/mw/$1",
+wgScriptPath="/mw",
+wgScriptExtension=".php",
+wgScript="/mw/index.php",
+wgVariantArticlePath=false,
+wgActionPaths={},
+wgServer="http://wiki.lifesciencedb.jp",
+wgCanonicalNamespace="",
+wgCanonicalSpecialPageName=false,
+wgNamespaceNumber=0,
+wgPageName="SPARQLthon18/EBI-RDF",
+wgTitle="SPARQLthon18/EBI-RDF",
+wgAction="view",
+wgArticleId=428,
+wgIsArticle=true,
+wgUserName=null,
+wgUserGroups=null,
+wgUserLanguage="ja",
+wgContentLanguage="ja",
+wgBreakFrames=false,
+wgCurRevisionId=12527,
+wgVersion="1.16.3",
+wgEnableAPI=true,
+wgEnableWriteAPI=true,
+wgSeparatorTransformTable=["", ""],
+wgDigitTransformTable=["", ""],
+wgMainPageTitle="メインページ",
+wgFormattedNamespaces={"-2": "メディア", "-1": "特別", "0": "", "1": "ノート", "2": "利用者", "3": "利用者‐会話", "4": "TogoWiki", "5": "TogoWiki‐ノート", "6": "ファイル", "7": "ファイル‐ノート", "8": "MediaWiki", "9": "MediaWiki‐ノート", "10": "Template", "11": "Template‐ノート", "12": "Help", "13": "Help‐ノート", "14": "Category", "15": "Category‐ノート"},
+wgNamespaceIds={"メディア": -2, "特別": -1, "": 0, "ノート": 1, "利用者": 2, "利用者‐会話": 3, "togowiki": 4, "togowiki‐ノート": 5, "ファイル": 6, "ファイル‐ノート": 7, "mediawiki": 8, "mediawiki‐ノート": 9, "template": 10, "template‐ノート": 11, "help": 12, "help‐ノート": 13, "category": 14, "category‐ノート": 15, "画像": 6, "画像‐ノート": 7, "image": 6, "image_talk": 7},
+wgSiteName="TogoWiki",
+wgCategories=[],
+wgRestrictionEdit=[],
+wgRestrictionMove=[];
+</script><script src="http://wiki.lifesciencedb.jp/mw/skins/common/wikibits.js?270"></script>
+<script src="http://wiki.lifesciencedb.jp/mw/skins/common/ajax.js?270"></script>
+<script src="http://wiki.lifesciencedb.jp/mw/index.php?title=-&amp;action=raw&amp;gen=js&amp;useskin=monobook&amp;270"></script>
+
+		<style type='text/css'>
+		li#pt-openidlogin {
+		  background: url(http://wiki.lifesciencedb.jp/mw/extensions/OpenID/skin/icons/openid-inputicon.png) top left no-repeat;
+		  padding-left: 20px;
+		  text-transform: none;
+		}
+		</style>
+</head>
+<body class="mediawiki ltr ns-0 ns-subject page-SPARQLthon18_EBI-RDF skin-monobook">
+<div id="globalWrapper">
+<div id="column-content"><div id="content" >
+	<a id="top"></a>
+	
+	<h1 id="firstHeading" class="firstHeading">SPARQLthon18/EBI-RDF</h1>
+	<div id="bodyContent">
+		<h3 id="siteSub">提供：TogoWiki</h3>
+		<div id="contentSub"></div>
+		<div id="jump-to-nav">移動： <a href="EBI-RDF.html#column-one">案内</a>, <a href="EBI-RDF.html#searchInput">検索</a></div>
+		<!-- start content -->
+<p>Pathway に関する linked data の活用 は microbedb でもまだ実現されていない。
+</p><p>ここではEBI の Reactome, BioModels のRDFでこれが実現可能か調査を行う。
+</p><p>手始めのtargetは大腸菌(K12 MG1655)とする。
+</p><p>Reactomeはbiopax, BioModelsはsbmlをconvert (<a href="https://github.com/sarala/ricordo-rdfconverter" class="external free" rel="nofollow">https://github.com/sarala/ricordo-rdfconverter</a>) したものを lodestar (<a href="https://github.com/EBISPOT/lodestar" class="external free" rel="nofollow">https://github.com/EBISPOT/lodestar</a>) にloadしている模様
+</p><p>(追加)
+</p><p>biopax format で記述された pathway database には reactome 以外にも EcoCyc がある。
+</p><p>EcoCyc の biopax は redistrubute が禁止されているため local の virtuoso server に importし reactome との比較も行った。
+</p><p><br />
+</p>
+<table id="toc" class="toc"><tr><td><div id="toctitle"><h2>目次</h2></div>
+<ul>
+<li class="toclevel-1 tocsection-1"><a href="EBI-RDF.html#.E5.85.AC.E5.BC.8F.E3.82.B5.E3.82.A4.E3.83.88"><span class="tocnumber">1</span> <span class="toctext">公式サイト</span></a></li>
+<li class="toclevel-1 tocsection-2"><a href="EBI-RDF.html#.E3.82.A2.E3.83.97.E3.83.AA"><span class="tocnumber">2</span> <span class="toctext">アプリ</span></a></li>
+<li class="toclevel-1 tocsection-3"><a href="EBI-RDF.html#DBCLS_.E3.81.AE_EBI_RDF_.E3.83.86.E3.82.B9.E3.83.88.E7.94.A8.E3.82.A8.E3.83.B3.E3.83.89.E3.83.9D.E3.82.A4.E3.83.B3.E3.83.88.E3.81.A8.E3.82.B0.E3.83.A9.E3.83.95.E5.90.8D"><span class="tocnumber">3</span> <span class="toctext">DBCLS の EBI RDF テスト用エンドポイントとグラフ名</span></a></li>
+<li class="toclevel-1 tocsection-4"><a href="EBI-RDF.html#EBI.E3.81.8C.E7.94.A8.E6.84.8F.E3.81.99.E3.82.8Bendpoint"><span class="tocnumber">4</span> <span class="toctext">EBIが用意するendpoint</span></a></li>
+<li class="toclevel-1 tocsection-5"><a href="EBI-RDF.html#biomodels.E3.81.AB.E3.81.8A.E3.81.91.E3.82.8B.E5.A4.A7.E8.85.B8.E8.8F.8C.E3.81.AEgenome_scale_metabolic_model"><span class="tocnumber">5</span> <span class="toctext">biomodelsにおける大腸菌のgenome scale metabolic model</span></a>
+<ul>
+<li class="toclevel-2 tocsection-6"><a href="EBI-RDF.html#biomodels.E3.81.AE.E7.89.B9.E6.80.A7"><span class="tocnumber">5.1</span> <span class="toctext">biomodelsの特性</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-7"><a href="EBI-RDF.html#reactome.2C_Ecocyc_.E3.81.AB.E3.81.8A.E3.81.91.E3.82.8B.E5.A4.A7.E8.85.B8.E8.8F.8C.E3.81.AEpathway.28biopax.29"><span class="tocnumber">6</span> <span class="toctext">reactome, Ecocyc における大腸菌のpathway(biopax)</span></a>
+<ul>
+<li class="toclevel-2 tocsection-8"><a href="EBI-RDF.html#biopax.E4.B8.AD.E3.81.AEindividuals.E3.81.AE.E6.AF.94.E8.BC.83"><span class="tocnumber">6.1</span> <span class="toctext">biopax中のindividualsの比較</span></a></li>
+<li class="toclevel-2 tocsection-9"><a href="EBI-RDF.html#class.E3.81.AEhierarchy.E3.81.A8.E5.AD.98.E5.9C.A8.E3.81.99.E3.82.8Bindividuals"><span class="tocnumber">6.2</span> <span class="toctext">classのhierarchyと存在するindividuals</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-10"><a href="EBI-RDF.html#.E7.B5.90.E8.AB.96"><span class="tocnumber">7</span> <span class="toctext">結論</span></a>
+<ul>
+<li class="toclevel-2 tocsection-11"><a href="EBI-RDF.html#biochemical_reaction.E3.81.AB.E3.81.8A.E3.81.91.E3.82.8B_linkdb_.E3.81.AE.E3.82.88.E3.81.86.E3.81.AA.E3.81.97.E3.81.8F.E3.81.BF"><span class="tocnumber">7.1</span> <span class="toctext">biochemical reactionにおける linkdb のようなしくみ</span></a>
+<ul>
+<li class="toclevel-3 tocsection-12"><a href="EBI-RDF.html#Rhea"><span class="tocnumber">7.1.1</span> <span class="toctext">Rhea</span></a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-13"><a href="EBI-RDF.html#memo"><span class="tocnumber">8</span> <span class="toctext">memo</span></a>
+<ul>
+<li class="toclevel-2 tocsection-14"><a href="EBI-RDF.html#biopax_version3_.E3.81.AE_ttl_convert_.E3.81.A8_import"><span class="tocnumber">8.1</span> <span class="toctext">biopax version3 の ttl convert と import</span></a></li>
+</ul>
+</li>
+</ul>
+</td></tr></table><script>if (window.showTocToggle) { var tocShowText = "表示"; var tocHideText = "非表示"; showTocToggle(); } </script>
+<h2> <span class="mw-headline" id=".E5.85.AC.E5.BC.8F.E3.82.B5.E3.82.A4.E3.83.88"> 公式サイト </span></h2>
+<ul><li> <a href="http://www.ebi.ac.uk/rdf/" class="external free" rel="nofollow">http://www.ebi.ac.uk/rdf/</a>
+</li></ul>
+<p><br />
+</p>
+<h2> <span class="mw-headline" id=".E3.82.A2.E3.83.97.E3.83.AA"> アプリ </span></h2>
+<ul><li> <a href="https://twitter.com/jamesmalone/status/443309669218791424" class="external free" rel="nofollow">https://twitter.com/jamesmalone/status/443309669218791424</a>
+</li></ul>
+<pre>James Malone (‏@jamesmalone):
+Congratulations Dominik Schweiger of Innsbruck Medical Uni winner of our RDFApp comp. His app is at <a href="http://sparqlgraph.i-med.ac.at" class="external free" rel="nofollow">http://sparqlgraph.i-med.ac.at</a>  #emblebi #rdf
+</pre>
+<p>これを使うと SPARQL クエリをビジュアルに作れるみたい。EBI 以外にも利用できるかな？
+</p><p><br />
+</p>
+<h2> <span class="mw-headline" id="DBCLS_.E3.81.AE_EBI_RDF_.E3.83.86.E3.82.B9.E3.83.88.E7.94.A8.E3.82.A8.E3.83.B3.E3.83.89.E3.83.9D.E3.82.A4.E3.83.B3.E3.83.88.E3.81.A8.E3.82.B0.E3.83.A9.E3.83.95.E5.90.8D"> DBCLS の EBI RDF テスト用エンドポイントとグラフ名 </span></h2>
+<ul><li> <a href="http://ep.dbcls.jp/sparql7ebi" class="external free" rel="nofollow">http://ep.dbcls.jp/sparql7ebi</a>
+</li></ul>
+<pre> select distinct&nbsp;?g
+ where {
+   graph&nbsp;?g {&nbsp;?s&nbsp;?p&nbsp;?o }
+ }
+</pre>
+<ul><li> <a href="http://rdf.ebi.ac.uk/dataset/biosamples/v20130809" class="external free" rel="nofollow">http://rdf.ebi.ac.uk/dataset/biosamples/v20130809</a>
+</li><li> <a href="http://rdf.ebi.ac.uk/dataset/reactome/r45" class="external free" rel="nofollow">http://rdf.ebi.ac.uk/dataset/reactome/r45</a>
+</li><li> <a href="http://rdf.ebi.ac.uk/dataset/biomodels/25" class="external free" rel="nofollow">http://rdf.ebi.ac.uk/dataset/biomodels/25</a>
+</li><li> <a href="http://rdf.ebi.ac.uk/dataset/chembl/17.0" class="external free" rel="nofollow">http://rdf.ebi.ac.uk/dataset/chembl/17.0</a>
+</li><li> <a href="http://rdf.ebi.ac.uk/dataset/atlas/13.07" class="external free" rel="nofollow">http://rdf.ebi.ac.uk/dataset/atlas/13.07</a>
+</li><li> <a href="http://rdf.ebi.ac.uk/dataset/atlas/description" class="external free" rel="nofollow">http://rdf.ebi.ac.uk/dataset/atlas/description</a>
+</li></ul>
+<p><br />
+</p>
+<h2> <span class="mw-headline" id="EBI.E3.81.8C.E7.94.A8.E6.84.8F.E3.81.99.E3.82.8Bendpoint"> EBIが用意するendpoint </span></h2>
+<ul><li> <a href="http://www.ebi.ac.uk/rdf/services/biomodels/sparql" class="external free" rel="nofollow">http://www.ebi.ac.uk/rdf/services/biomodels/sparql</a>
+</li><li> <a href="http://www.ebi.ac.uk/rdf/services/reactome/sparql" class="external free" rel="nofollow">http://www.ebi.ac.uk/rdf/services/reactome/sparql</a>
+</li></ul>
+<p><br />
+</p>
+<h2> <span class="mw-headline" id="biomodels.E3.81.AB.E3.81.8A.E3.81.91.E3.82.8B.E5.A4.A7.E8.85.B8.E8.8F.8C.E3.81.AEgenome_scale_metabolic_model"> biomodelsにおける大腸菌のgenome scale metabolic model </span></h2>
+<ul><li> <a href="http://www.ebi.ac.uk/biomodels-main/BIOMD0000000469" class="external free" rel="nofollow">http://www.ebi.ac.uk/biomodels-main/BIOMD0000000469</a>
+</li><li> <a href="http://www.ebi.ac.uk/biomodels-main/BIOMD0000000470" class="external free" rel="nofollow">http://www.ebi.ac.uk/biomodels-main/BIOMD0000000470</a>
+</li></ul>
+<p><br />
+</p>
+<h3> <span class="mw-headline" id="biomodels.E3.81.AE.E7.89.B9.E6.80.A7"> biomodelsの特性 </span></h3>
+<ul><li> RDF化したと言っているが実体はSBMLからのautoconvertのためlinked dataとしての有用性に不安。
+</li><li> simulationではgenome scale modelの全体ではなく一部をあつかっていた(下記SPARQLで763がもどってくる。iJO1366に含まれる数はこれより多いことは間違いない。iJOのsplでは異compartmentでのspecies[compound]を異speciesとしてcountしておりその総数は1806。最多数のCytosol中のspeciesの総数だけで1040)。
+</li></ul>
+<pre>SELECT COUNT (distinct&nbsp;?name) WHERE {
+ &lt;<a href="http://identifiers.org/biomodels.db/BIOMD0000000469" class="external free" rel="nofollow">http://identifiers.org/biomodels.db/BIOMD0000000469</a>&gt; sbmlrdf:species&nbsp;?speciesid . 
+&nbsp;?speciesid sbmlrdf:name&nbsp;?name}
+</pre>
+<ul><li> BIOMD0000000469, BIOMD0000000470では各人でgenome scale modelから一部の情報を選択し、simulationの抽象度、parameterが異なっている。このため統合対象としてreactome(biopax format), ecocycを優先することにした。
+</li></ul>
+<h2> <span class="mw-headline" id="reactome.2C_Ecocyc_.E3.81.AB.E3.81.8A.E3.81.91.E3.82.8B.E5.A4.A7.E8.85.B8.E8.8F.8C.E3.81.AEpathway.28biopax.29"> reactome, Ecocyc における大腸菌のpathway(biopax) </span></h2>
+<h3> <span class="mw-headline" id="biopax.E4.B8.AD.E3.81.AEindividuals.E3.81.AE.E6.AF.94.E8.BC.83"> biopax中のindividualsの比較 </span></h3>
+<p>数はEcoCycの方が多いが、EcoCycにはpersistentなresource URIがついていない
+</p>
+<pre>% ag identifiers.org biopax-level3.owl
+%
+</pre>
+<p>EcoCycのbiopax-level3.owl中のRDF idの一部(便宜的に付けられたものでこれらのlink先は無い模様)
+</p>
+<pre> <a href="http://biocyc.org/biopax/biopax-level3RelationshipXref137635" class="external free" rel="nofollow">http://biocyc.org/biopax/biopax-level3RelationshipXref137635</a>
+ <a href="http://biocyc.org/biopax/biopax-level3RelationshipXref85997" class="external free" rel="nofollow">http://biocyc.org/biopax/biopax-level3RelationshipXref85997</a>
+ <a href="http://biocyc.org/biopax/biopax-level3RelationshipXref137636" class="external free" rel="nofollow">http://biocyc.org/biopax/biopax-level3RelationshipXref137636</a>
+ <a href="http://biocyc.org/biopax/biopax-level3BiochemicalPathwayStep151151" class="external free" rel="nofollow">http://biocyc.org/biopax/biopax-level3BiochemicalPathwayStep151151</a>
+ <a href="http://biocyc.org/biopax/biopax-level3RelationshipXref137637" class="external free" rel="nofollow">http://biocyc.org/biopax/biopax-level3RelationshipXref137637</a>
+ <a href="http://biocyc.org/biopax/biopax-level3RelationshipXref85999" class="external free" rel="nofollow">http://biocyc.org/biopax/biopax-level3RelationshipXref85999</a>
+ <a href="http://biocyc.org/biopax/biopax-level3Rna140891" class="external free" rel="nofollow">http://biocyc.org/biopax/biopax-level3Rna140891</a>
+ <a href="http://biocyc.org/biopax/biopax-level3Catalysis107857" class="external free" rel="nofollow">http://biocyc.org/biopax/biopax-level3Catalysis107857</a>
+ <a href="http://biocyc.org/biopax/biopax-level3UnificationXref79589" class="external free" rel="nofollow">http://biocyc.org/biopax/biopax-level3UnificationXref79589</a>
+ <a href="http://biocyc.org/biopax/biopax-level3RelationshipXref92317" class="external free" rel="nofollow">http://biocyc.org/biopax/biopax-level3RelationshipXref92317</a>
+ <a href="http://biocyc.org/biopax/biopax-level3Stoichiometry88030" class="external free" rel="nofollow">http://biocyc.org/biopax/biopax-level3Stoichiometry88030</a>
+ <a href="http://biocyc.org/biopax/biopax-level3UnificationXref79588" class="external free" rel="nofollow">http://biocyc.org/biopax/biopax-level3UnificationXref79588</a>
+ <a href="http://biocyc.org/biopax/biopax-level3UnificationXref79586" class="external free" rel="nofollow">http://biocyc.org/biopax/biopax-level3UnificationXref79586</a>
+</pre>
+<p>下線はそのdatabaseにしか含まれないindividuals
+</p>
+<ul><li> BiochemicalPathwayStepはKEGGのRPAIRとほぼ同義の模様
+</li><li> deltaGはGibbs free energy(EcoCycでは15個しかないがiJO1366ではほとんど全てのreactionのdeltaGの情報が付いている)
+</li><li> FragmentFeatureはSequenceSiteのstartとendで領域を表すもの
+</li></ul>
+<p><a href="../ファイル%253AReactome_ecocyc_diff.png.html" class="image"><img alt="Reactome ecocyc diff.png" src="../images/9/97/Reactome_ecocyc_diff.png" width="1098" height="674" /></a>
+</p>
+<h3> <span class="mw-headline" id="class.E3.81.AEhierarchy.E3.81.A8.E5.AD.98.E5.9C.A8.E3.81.99.E3.82.8Bindividuals"> classのhierarchyと存在するindividuals </span></h3>
+<p>reactiomeのbiopax
+<a href="../ファイル%253AReactome_hier.png.html" class="image"><img alt="Reactome hier.png" src="../images/3/3b/Reactome_hier.png" width="412" height="495" /></a>
+</p><p>ecocycのbiopax
+<a href="../ファイル%253AEcocyc_hier.png.html" class="image"><img alt="Ecocyc hier.png" src="../images/5/54/Ecocyc_hier.png" width="429" height="471" /></a>
+</p>
+<h2> <span class="mw-headline" id=".E7.B5.90.E8.AB.96"> 結論 </span></h2>
+<ul><li> SPARQL活用にはEcoCycにpersistentなURIの付加が必要
+</li><li> 結局linkdbのようなしくみが必要
+</li></ul>
+<h3> <span class="mw-headline" id="biochemical_reaction.E3.81.AB.E3.81.8A.E3.81.91.E3.82.8B_linkdb_.E3.81.AE.E3.82.88.E3.81.86.E3.81.AA.E3.81.97.E3.81.8F.E3.81.BF"> biochemical reactionにおける linkdb のようなしくみ </span></h3>
+<p>Rheaの情報がidentifiers.orgで使われるようになればURI問題は解決?
+</p>
+<h4> <span class="mw-headline" id="Rhea"> Rhea </span></h4>
+<p>EBIが運営するmanual annotated reaction database
+</p><p>rheaのreactionと下記reaction databaseとのcross reference情報がまとめられている
+</p>
+<ul><li> ec number(iubmb)
+</li><li> EcoCyc
+</li><li> KEGG
+</li><li> macie
+</li><li> MetaCyc
+</li><li> Reactome
+</li><li> unipathway
+</li><li> uniprot
+</li></ul>
+<h2> <span class="mw-headline" id="memo"> memo </span></h2>
+<h3> <span class="mw-headline" id="biopax_version3_.E3.81.AE_ttl_convert_.E3.81.A8_import"> biopax version3 の ttl convert と import </span></h3>
+<p>ttl convert
+</p>
+<pre> rapper -g -o turtle biopax-level3.owl &gt; biopax-level3.ttl
+</pre>
+<!-- 
+NewPP limit report
+Preprocessor node count: 55/1000000
+Post-expand include size: 0/2097152 bytes
+Template argument size: 0/2097152 bytes
+Expensive parser function count: 0/100
+-->
+
+<!-- Saved in parser cache with key wikidb-togowiki_:pcache:idhash:428-0!1!0!!ja!2!edit=0 and timestamp 20230604113831 -->
+<div class="printfooter">
+「<a href="EBI-RDF.html">http://wiki.lifesciencedb.jp/mw/SPARQLthon18/EBI-RDF</a>」より作成</div>
+		<div id='catlinks' class='catlinks catlinks-allhidden'></div>		<!-- end content -->
+				<div class="visualClear"></div>
+	</div>
+</div></div>
+<div id="column-one">
+	<div id="p-cactions" class="portlet">
+		<h5>表示</h5>
+		<div class="pBody">
+			<ul>
+				 <li id="ca-nstab-main" class="selected"><a href="EBI-RDF.html" title="本文を表示 [c]" accesskey="c">ページ</a></li>
+				 <li id="ca-talk" class="new"><a href="http://wiki.lifesciencedb.jp/mw/index.php?title=%E3%83%8E%E3%83%BC%E3%83%88:SPARQLthon18/EBI-RDF&amp;action=edit&amp;redlink=1" title="記事についての議論 [t]" accesskey="t">議論</a></li>
+				 <li id="ca-viewsource"><a href="../index.php@title=SPARQLthon18%252FEBI-RDF&amp;action=edit.html" title="このページは保護されています。&#10;ページのソースを閲覧できます。 [e]" accesskey="e">ソースを表示</a></li>
+				 <li id="ca-history"><a href="../index.php@title=SPARQLthon18%252FEBI-RDF&amp;action=history.html" title="このページの過去の版 [h]" accesskey="h">履歴</a></li>
+			</ul>
+		</div>
+	</div>
+	<div class="portlet" id="p-personal">
+		<h5>個人用ツール</h5>
+		<div class="pBody">
+			<ul>
+				<li id="pt-anonuserpage"><a href="http://wiki.lifesciencedb.jp/mw/%E5%88%A9%E7%94%A8%E8%80%85:172.18.8.51" title="自分が編集しているIPアドレスの利用者ページ [.]" accesskey="." class="new">172.18.8.51</a></li>
+				<li id="pt-anontalk"><a href="http://wiki.lifesciencedb.jp/mw/%E5%88%A9%E7%94%A8%E8%80%85%E2%80%90%E4%BC%9A%E8%A9%B1:172.18.8.51" title="このIPアドレスからなされた編集についての議論 [n]" accesskey="n" class="new">このIPアドレスのトーク</a></li>
+				<li id="pt-anonlogin"><a href="../index.php@title=特別%253Aログイン&amp;returnto=SPARQLthon18%252FEBI-RDF.html" title="ログインすることが推奨されます。ただし、必須ではありません。 [o]" accesskey="o">ログイン</a></li>
+				<li id="pt-openidlogin"><a href="../index.php@title=特別%253AOpenIDログイン&amp;returnto=SPARQLthon18%252FEBI-RDF.html">OpenIDでログイン</a></li>
+			</ul>
+		</div>
+	</div>
+	<div class="portlet" id="p-logo">
+		<a style="background-image: url(http://wiki.lifesciencedb.jp/mw/images/togowiki-logo.png);" href="../index.html" title="メインページに移動"></a>
+	</div>
+	<script type="text/javascript"> if (window.isMSIE55) fixalpha(); </script>
+	<div class='generated-sidebar portlet' id='p-navigation'>
+		<h5>案内</h5>
+		<div class='pBody'>
+			<ul>
+				<li id="n-mainpage-description"><a href="../index.html" title="メインページに移動する [z]" accesskey="z">メインページ</a></li>
+				<li id="n-portal"><a href="http://wiki.lifesciencedb.jp/mw/TogoWiki:%E3%82%B3%E3%83%9F%E3%83%A5%E3%83%8B%E3%83%86%E3%82%A3%E3%83%BB%E3%83%9D%E3%83%BC%E3%82%BF%E3%83%AB" title="このプロジェクトについて、できること、情報を入手する場所">コミュニティ・ポータル</a></li>
+				<li id="n-currentevents"><a href="http://wiki.lifesciencedb.jp/mw/TogoWiki:%E6%9C%80%E8%BF%91%E3%81%AE%E5%87%BA%E6%9D%A5%E4%BA%8B" title="最近の出来事について予備知識を得る">最近の出来事</a></li>
+				<li id="n-recentchanges"><a href="http://wiki.lifesciencedb.jp/mw/%E7%89%B9%E5%88%A5:%E6%9C%80%E8%BF%91%E3%81%AE%E6%9B%B4%E6%96%B0" title="ウィキにおける最近の更新の一覧 [r]" accesskey="r">最近の更新</a></li>
+				<li id="n-randompage"><a href="http://wiki.lifesciencedb.jp/mw/%E7%89%B9%E5%88%A5:%E3%81%8A%E3%81%BE%E3%81%8B%E3%81%9B%E8%A1%A8%E7%A4%BA" title="無作為に抽出されたページの読み込み [x]" accesskey="x">おまかせ表示</a></li>
+				<li id="n-help"><a href="http://wiki.lifesciencedb.jp/mw/Help:%E7%9B%AE%E6%AC%A1" title="情報を得る場所">ヘルプ</a></li>
+			</ul>
+		</div>
+	</div>
+	<div id="p-search" class="portlet">
+		<h5><label for="searchInput">検索</label></h5>
+		<div id="searchBody" class="pBody">
+			<form action="http://wiki.lifesciencedb.jp/mw/index.php" id="searchform">
+				<input type='hidden' name="title" value="特別:検索"/>
+				<input id="searchInput" title="TogoWiki内を検索" accesskey="f" type="search" name="search" />
+				<input type='submit' name="go" class="searchButton" id="searchGoButton"	value="表示" title="厳密に一致する名前のページが存在すれば、そのページへ移動します" />&nbsp;
+				<input type='submit' name="fulltext" class="searchButton" id="mw-searchButton" value="検索" title="入力された文字列が含まれるページを検索します" />
+			</form>
+		</div>
+	</div>
+	<div class="portlet" id="p-tb">
+		<h5>ツールボックス</h5>
+		<div class="pBody">
+			<ul>
+				<li id="t-whatlinkshere"><a href="../特別%253Aリンク元/SPARQLthon18/EBI-RDF.html" title="ここにリンクしている全ウィキのページの一覧 [j]" accesskey="j">リンク元</a></li>
+				<li id="t-recentchangeslinked"><a href="../特別%253A関連ページの更新状況/SPARQLthon18/EBI-RDF.html" title="このページからリンクしているページの最近の更新 [k]" accesskey="k">関連ページの更新状況</a></li>
+<li id="t-specialpages"><a href="http://wiki.lifesciencedb.jp/mw/%E7%89%B9%E5%88%A5:%E7%89%B9%E5%88%A5%E3%83%9A%E3%83%BC%E3%82%B8%E4%B8%80%E8%A6%A7" title="特別ページの一覧 [q]" accesskey="q">特別ページ</a></li>
+				<li id="t-print"><a href="../index.php@title=SPARQLthon18%252FEBI-RDF&amp;printable=yes.html" rel="alternate" title="このページの印刷用ページ [p]" accesskey="p">印刷用バージョン</a></li>				<li id="t-permalink"><a href="../index.php@title=SPARQLthon18%252FEBI-RDF&amp;oldid=12527.html" title="ページのこの版への固定リンク">この版への固定リンク</a></li>			</ul>
+		</div>
+	</div>
+</div><!-- end of the left (by default at least) column -->
+<div class="visualClear"></div>
+<div id="footer">
+	<div id="f-poweredbyico"><a href="http://www.mediawiki.org/"><img src="http://wiki.lifesciencedb.jp/mw/skins/common/images/poweredby_mediawiki_88x31.png" height="31" width="88" alt="Powered by MediaWiki" /></a></div>
+	<div id="f-copyrightico"><a href="http://creativecommons.org/licenses/by/3.0/"><img src="http://i.creativecommons.org/l/by/3.0/88x31.png" alt="Attribution 3.0 Unported" width="88" height="31" /></a></div>
+	<ul id="f-list">
+		<li id="lastmod"> このページの最終更新は 2014年3月24日 (月) 09:49 に行われました。</li>
+		<li id="viewcount">このページは12,153回アクセスされました。</li>
+		<li id="copyright">内容は<a href="http://creativecommons.org/licenses/by/3.0/" class="external ">Attribution 3.0 Unported</a>のライセンスで利用することができます。</li>
+		<li id="privacy"><a href="http://wiki.lifesciencedb.jp/mw/TogoWiki:%E3%83%97%E3%83%A9%E3%82%A4%E3%83%90%E3%82%B7%E3%83%BC%E3%83%BB%E3%83%9D%E3%83%AA%E3%82%B7%E3%83%BC" title="TogoWiki:プライバシー・ポリシー">プライバシー・ポリシー</a></li>
+		<li id="about"><a href="http://wiki.lifesciencedb.jp/mw/TogoWiki:TogoWiki%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6" title="TogoWiki:TogoWikiについて">TogoWikiについて</a></li>
+		<li id="disclaimer"><a href="http://wiki.lifesciencedb.jp/mw/TogoWiki:%E5%85%8D%E8%B2%AC%E4%BA%8B%E9%A0%85" title="TogoWiki:免責事項">免責事項</a></li>
+	</ul>
+</div>
+</div>
+
+<script>if (window.runOnloadHook) runOnloadHook();</script>
+<!-- Served in 0.317 secs. --></body></html>

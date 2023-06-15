@@ -1,0 +1,13 @@
+<?xml version='1.0'  encoding="UTF-8" ?>
+<rdf:RDF xmlns:cc="http://web.resource.org/cc/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+	<cc:Work rdf:about="http://wiki.lifesciencedb.jp/mw/%E3%83%95%E3%82%A1%E3%82%A4%E3%83%AB:%E6%A8%AA%E6%96%AD%E6%A4%9C%E7%B4%A2%E3%81%B8%E3%81%AEmicrodata%E3%81%AE%E5%B0%8E%E5%85%A5%E3%81%A8%E6%B4%BB%E7%94%A8%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6_20121219.pdf">
+		<dc:title>横断検索へのmicrodataの導入と活用について 20121219.pdf</dc:title>
+		<dc:publisher rdf:resource="http://wiki.lifesciencedb.jp/mw/TogoWiki:TogoWiki%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6" />
+		<dc:language>ja</dc:language>
+		<dc:type>Text</dc:type>
+		<dc:format>text/html</dc:format>
+		<dc:identifier>http://wiki.lifesciencedb.jp/mw/%E3%83%95%E3%82%A1%E3%82%A4%E3%83%AB:%E6%A8%AA%E6%96%AD%E6%A4%9C%E7%B4%A2%E3%81%B8%E3%81%AEmicrodata%E3%81%AE%E5%B0%8E%E5%85%A5%E3%81%A8%E6%B4%BB%E7%94%A8%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6_20121219.pdf</dc:identifier>
+		<dc:date>2012-12-19</dc:date>
+		<dc:creator>TogoWikiの利用者：Maori</dc:creator>

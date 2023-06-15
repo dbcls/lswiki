@@ -1,0 +1,644 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html lang="ja" dir="ltr">
+<head>
+<title>SPARQLthon - TogoWiki</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta name="generator" content="MediaWiki 1.16.3" />
+<meta name="robots" content="noindex,nofollow" />
+<link rel="shortcut icon" href="/favicon.ico" />
+<link rel="search" type="application/opensearchdescription+xml" href="/mw/opensearch_desc.php" title="TogoWiki (ja)" />
+<link title="Creative Commons" type="application/rdf+xml" href="/mw/index.php?title=SPARQLthon&amp;action=creativecommons" rel="meta" />
+<link rel="copyright" href="http://creativecommons.org/licenses/by/3.0/" />
+<link rel="alternate" type="application/atom+xml" title="TogoWikiのAtomフィード" href="/mw/index.php?title=%E7%89%B9%E5%88%A5:%E6%9C%80%E8%BF%91%E3%81%AE%E6%9B%B4%E6%96%B0&amp;feed=atom" />
+<link rel="stylesheet" href="/mw/skins/common/diff.css?270" />
+<link rel="stylesheet" href="/mw/skins/common/shared.css?270" media="screen" />
+<link rel="stylesheet" href="/mw/skins/common/commonPrint.css?270" media="print" />
+<link rel="stylesheet" href="/mw/skins/monobook/main.css?270" media="screen" />
+<!--[if lt IE 5.5000]><link rel="stylesheet" href="/mw/skins/monobook/IE50Fixes.css?270" media="screen" /><![endif]-->
+<!--[if IE 5.5000]><link rel="stylesheet" href="/mw/skins/monobook/IE55Fixes.css?270" media="screen" /><![endif]-->
+<!--[if IE 6]><link rel="stylesheet" href="/mw/skins/monobook/IE60Fixes.css?270" media="screen" /><![endif]-->
+<!--[if IE 7]><link rel="stylesheet" href="/mw/skins/monobook/IE70Fixes.css?270" media="screen" /><![endif]-->
+<link rel="stylesheet" href="/mw/index.php?title=MediaWiki:Common.css&amp;usemsgcache=yes&amp;ctype=text%2Fcss&amp;smaxage=18000&amp;action=raw&amp;maxage=18000" />
+<link rel="stylesheet" href="/mw/index.php?title=MediaWiki:Print.css&amp;usemsgcache=yes&amp;ctype=text%2Fcss&amp;smaxage=18000&amp;action=raw&amp;maxage=18000" media="print" />
+<link rel="stylesheet" href="/mw/index.php?title=MediaWiki:Monobook.css&amp;usemsgcache=yes&amp;ctype=text%2Fcss&amp;smaxage=18000&amp;action=raw&amp;maxage=18000" />
+<link rel="stylesheet" href="/mw/index.php?title=-&amp;action=raw&amp;maxage=18000&amp;gen=css" />
+<script>
+var skin="monobook",
+stylepath="/mw/skins",
+wgUrlProtocols="http\\:\\/\\/|https\\:\\/\\/|ftp\\:\\/\\/|irc\\:\\/\\/|gopher\\:\\/\\/|telnet\\:\\/\\/|nntp\\:\\/\\/|worldwind\\:\\/\\/|mailto\\:|news\\:|svn\\:\\/\\/",
+wgArticlePath="/mw/$1",
+wgScriptPath="/mw",
+wgScriptExtension=".php",
+wgScript="/mw/index.php",
+wgVariantArticlePath=false,
+wgActionPaths={},
+wgServer="http://wiki.lifesciencedb.jp",
+wgCanonicalNamespace="",
+wgCanonicalSpecialPageName=false,
+wgNamespaceNumber=0,
+wgPageName="SPARQLthon",
+wgTitle="SPARQLthon",
+wgAction="view",
+wgArticleId=409,
+wgIsArticle=true,
+wgUserName=null,
+wgUserGroups=null,
+wgUserLanguage="ja",
+wgContentLanguage="ja",
+wgBreakFrames=false,
+wgCurRevisionId=27211,
+wgVersion="1.16.3",
+wgEnableAPI=true,
+wgEnableWriteAPI=true,
+wgSeparatorTransformTable=["", ""],
+wgDigitTransformTable=["", ""],
+wgMainPageTitle="メインページ",
+wgFormattedNamespaces={"-2": "メディア", "-1": "特別", "0": "", "1": "ノート", "2": "利用者", "3": "利用者‐会話", "4": "TogoWiki", "5": "TogoWiki‐ノート", "6": "ファイル", "7": "ファイル‐ノート", "8": "MediaWiki", "9": "MediaWiki‐ノート", "10": "Template", "11": "Template‐ノート", "12": "Help", "13": "Help‐ノート", "14": "Category", "15": "Category‐ノート"},
+wgNamespaceIds={"メディア": -2, "特別": -1, "": 0, "ノート": 1, "利用者": 2, "利用者‐会話": 3, "togowiki": 4, "togowiki‐ノート": 5, "ファイル": 6, "ファイル‐ノート": 7, "mediawiki": 8, "mediawiki‐ノート": 9, "template": 10, "template‐ノート": 11, "help": 12, "help‐ノート": 13, "category": 14, "category‐ノート": 15, "画像": 6, "画像‐ノート": 7, "image": 6, "image_talk": 7},
+wgSiteName="TogoWiki",
+wgCategories=["SPARQLthon"],
+wgRestrictionEdit=[],
+wgRestrictionMove=[];
+</script><script src="/mw/skins/common/wikibits.js?270"></script>
+<script type="text/javascript" src="/mw/skins/common/diff.js?270"></script>
+<script src="/mw/skins/common/ajax.js?270"></script>
+<script src="/mw/index.php?title=-&amp;action=raw&amp;gen=js&amp;useskin=monobook&amp;270"></script>
+
+		<style type='text/css'>
+		li#pt-openidlogin {
+		  background: url(/mw/extensions/OpenID/skin/icons/openid-inputicon.png) top left no-repeat;
+		  padding-left: 20px;
+		  text-transform: none;
+		}
+		</style>
+</head>
+<body class="mediawiki ltr ns-0 ns-subject page-SPARQLthon skin-monobook">
+<div id="globalWrapper">
+<div id="column-content"><div id="content" >
+	<a id="top"></a>
+	
+	<h1 id="firstHeading" class="firstHeading">SPARQLthon</h1>
+	<div id="bodyContent">
+		<h3 id="siteSub">提供：TogoWiki</h3>
+		<div id="contentSub">（版間での差分）</div>
+		<div id="jump-to-nav">移動： <a href="#column-one">案内</a>, <a href="#searchInput">検索</a></div>
+		<!-- start content -->
+<table class='diff'>
+			<col class='diff-marker' />
+			<col class='diff-content' />
+			<col class='diff-marker' />
+			<col class='diff-content' />
+		<tr valign='top'>
+		<td colspan='2' class='diff-otitle'><div id="mw-diff-otitle1"><strong><a href='/mw/index.php?title=SPARQLthon&amp;oldid=27158'>2023年1月30日 (月) 01:53時点における版</a> (<a href='/mw/index.php?title=SPARQLthon&amp;action=edit&amp;oldid=27158'>ソースを表示</a>)</strong></div><div id="mw-diff-otitle2"><a href="/mw/index.php?title=%E5%88%A9%E7%94%A8%E8%80%85:Uki_moriya&amp;action=edit&amp;redlink=1" class="new mw-userlink" title="利用者:Uki moriya（存在しないページ）">Uki moriya</a>  <span class="mw-usertoollinks">(<a href="/mw/index.php?title=%E5%88%A9%E7%94%A8%E8%80%85%E2%80%90%E4%BC%9A%E8%A9%B1:Uki_moriya&amp;action=edit&amp;redlink=1" class="new" title="利用者‐会話:Uki moriya（存在しないページ）">トーク</a> | <a href="/mw/%E7%89%B9%E5%88%A5:%E6%8A%95%E7%A8%BF%E8%A8%98%E9%8C%B2/Uki_moriya" title="特別:投稿記録/Uki moriya">投稿記録</a>)</span></div><div id="mw-diff-otitle3"></div><div id="mw-diff-otitle4"><a href="/mw/index.php?title=SPARQLthon&amp;diff=prev&amp;oldid=27158" title="SPARQLthon" id="differences-prevlink">←古い編集</a></div></td>
+		<td colspan='2' class='diff-ntitle'><div id="mw-diff-ntitle1"><strong><a href='/mw/index.php?title=SPARQLthon&amp;oldid=27211'>2023年3月14日 (火) 07:49時点における最新版</a> (<a href='/mw/index.php?title=SPARQLthon&amp;action=edit'>ソースを表示</a>)</strong></div><div id="mw-diff-ntitle2"><a href="/mw/index.php?title=%E5%88%A9%E7%94%A8%E8%80%85:Uki_moriya&amp;action=edit&amp;redlink=1" class="new mw-userlink" title="利用者:Uki moriya（存在しないページ）">Uki moriya</a>  <span class="mw-usertoollinks">(<a href="/mw/index.php?title=%E5%88%A9%E7%94%A8%E8%80%85%E2%80%90%E4%BC%9A%E8%A9%B1:Uki_moriya&amp;action=edit&amp;redlink=1" class="new" title="利用者‐会話:Uki moriya（存在しないページ）">トーク</a> | <a href="/mw/%E7%89%B9%E5%88%A5:%E6%8A%95%E7%A8%BF%E8%A8%98%E9%8C%B2/Uki_moriya" title="特別:投稿記録/Uki moriya">投稿記録</a>)</span> </div><div id="mw-diff-ntitle3"></div><div id="mw-diff-ntitle4">&nbsp;</div></td>
+		</tr><tr><td colspan="2" class="diff-lineno">9行：</td>
+<td colspan="2" class="diff-lineno">9行：</td></tr>
+<tr><td class='diff-marker'> </td><td class='diff-context'><div>場所未定のままの場合は、基本的に DBCLS 柏の葉キャンパス駅前での開催となります（2020年4月からは原則オンライン開催となっていましたが、オンラインでは新しいコラボレーションやクリエイティブな議論は難しいことが分かってきたため、開発を停滞させないためにも、コロナ情勢をみながら現地でのオフライン開催に戻していきたいと思います）。</div></td><td class='diff-marker'> </td><td class='diff-context'><div>場所未定のままの場合は、基本的に DBCLS 柏の葉キャンパス駅前での開催となります（2020年4月からは原則オンライン開催となっていましたが、オンラインでは新しいコラボレーションやクリエイティブな議論は難しいことが分かってきたため、開発を停滞させないためにも、コロナ情勢をみながら現地でのオフライン開催に戻していきたいと思います）。</div></td></tr>
+<tr><td class='diff-marker'> </td><td class='diff-context'></td><td class='diff-marker'> </td><td class='diff-context'></td></tr>
+<tr><td class='diff-marker'>-</td><td class='diff-deletedline'><div><del class="diffchange">* 2023/2/21-22 [[Togothon125]] @ DBCLS (柏)</del></div></td><td colspan="2">&nbsp;</td></tr>
+<tr><td class='diff-marker'> </td><td class='diff-context'><div>* 2023/3/23-24 [[Togothon126]] @ DBCLS (柏)</div></td><td class='diff-marker'> </td><td class='diff-context'><div>* 2023/3/23-24 [[Togothon126]] @ DBCLS (柏)</div></td></tr>
+<tr><td class='diff-marker'> </td><td class='diff-context'></td><td class='diff-marker'> </td><td class='diff-context'></td></tr>
+<tr><td colspan="2" class="diff-lineno">190行：</td>
+<td colspan="2" class="diff-lineno">189行：</td></tr>
+<tr><td class='diff-marker'> </td><td class='diff-context'><div>== 開催履歴 ==</div></td><td class='diff-marker'> </td><td class='diff-context'><div>== 開催履歴 ==</div></td></tr>
+<tr><td class='diff-marker'> </td><td class='diff-context'></td><td class='diff-marker'> </td><td class='diff-context'></td></tr>
+<tr><td colspan="2">&nbsp;</td><td class='diff-marker'>+</td><td class='diff-addedline'><div><ins class="diffchange">* 2023/2/21-22 [[Togothon125]] @ DBCLS (柏)</ins></div></td></tr>
+<tr><td class='diff-marker'> </td><td class='diff-context'><div>** 2022/1/25-31 [https://github.com/dbcls/rdfsummit4/wiki RDF summit 4] (京都)</div></td><td class='diff-marker'> </td><td class='diff-context'><div>** 2022/1/25-31 [https://github.com/dbcls/rdfsummit4/wiki RDF summit 4] (京都)</div></td></tr>
+<tr><td class='diff-marker'> </td><td class='diff-context'><div>* 2023/1/19-20 [[Togothon124]] @ DBCLS (柏) (予定していた 26-27 から変更)</div></td><td class='diff-marker'> </td><td class='diff-context'><div>* 2023/1/19-20 [[Togothon124]] @ DBCLS (柏) (予定していた 26-27 から変更)</div></td></tr>
+</table><hr /><h2>2023年3月14日 (火) 07:49時点における最新版</h2>
+<div class="floatright"><a href="/mw/%E3%83%95%E3%82%A1%E3%82%A4%E3%83%AB:Sparqlthon-logo.png" class="image"><img alt="Sparqlthon-logo.png" src="/mw/images/7/7d/Sparqlthon-logo.png" width="240" height="240" /></a></div>
+<p>※ 2022年10月よりTogothonと改称しました。
+</p><p>SPARQLthon (スパークルソンと呼んでいます) はもともと、2013 年度の統合化推進プログラム成果発表に向けて、ゲノム情報の RDF 化を行なっているグループを中心に、オントロジーの構築・RDF の生成の促進と SPARQL 検索技術の向上を目指して 2012 年 10 月から有志によってミニ・ハッカソンのようなカタチで始められました。以後、毎月１回の開催となりライフサイエンスにおけるセマンティック・ウェブ技術の利用や開発に興味のある方が自由に集い、議論し、開発し、実務をこなしつつ交流を図る場となってきています。また 2014 年 4 月からは、1 日目を NBDC/DBCLS による統合化推進プログラムの RDF 化支援を主体に、2 日目をこれまでどおり RDF 化と SPARQL の技術開発に主に充てることとなりました。
+</p>
+<table id="toc" class="toc"><tr><td><div id="toctitle"><h2>目次</h2></div>
+<ul>
+<li class="toclevel-1 tocsection-1"><a href="#.E4.BB.8A.E5.BE.8C.E3.81.AE.E9.96.8B.E5.82.AC.E4.BA.88.E5.AE.9A"><span class="tocnumber">1</span> <span class="toctext">今後の開催予定</span></a></li>
+<li class="toclevel-1 tocsection-2"><a href="#.E3.82.AA.E3.83.B3.E3.83.A9.E3.82.A4.E3.83.B3.E3.83.84.E3.83.BC.E3.83.AB"><span class="tocnumber">2</span> <span class="toctext">オンラインツール</span></a>
+<ul>
+<li class="toclevel-2 tocsection-3"><a href="#.E3.83.A1.E3.83.BC.E3.83.AA.E3.83.B3.E3.82.B0.E3.83.AA.E3.82.B9.E3.83.88"><span class="tocnumber">2.1</span> <span class="toctext">メーリングリスト</span></a></li>
+<li class="toclevel-2 tocsection-4"><a href="#Slack"><span class="tocnumber">2.2</span> <span class="toctext">Slack</span></a></li>
+<li class="toclevel-2 tocsection-5"><a href="#Pragli"><span class="tocnumber">2.3</span> <span class="toctext">Pragli</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-6"><a href="#.E5.8F.82.E5.8A.A0.E8.80.85.E5.8B.9F.E9.9B.86"><span class="tocnumber">3</span> <span class="toctext">参加者募集</span></a></li>
+<li class="toclevel-1 tocsection-7"><a href="#.E9.96.8B.E5.82.AC.E7.9B.AE.E7.9A.84"><span class="tocnumber">4</span> <span class="toctext">開催目的</span></a></li>
+<li class="toclevel-1 tocsection-8"><a href="#.E7.B5.B1.E5.90.88.E5.8C.96.E6.8E.A8.E9.80.B2.E3.83.97.E3.83.AD.E3.82.B0.E3.83.A9.E3.83.A0"><span class="tocnumber">5</span> <span class="toctext">統合化推進プログラム</span></a></li>
+<li class="toclevel-1 tocsection-9"><a href="#.E3.81.93.E3.82.8C.E3.81.BE.E3.81.A7.E3.81.AE.E4.B8.BB.E3.81.AA.E6.88.90.E6.9E.9C"><span class="tocnumber">6</span> <span class="toctext">これまでの主な成果</span></a></li>
+<li class="toclevel-1 tocsection-10"><a href="#.E4.BB.8A.E5.BE.8C.E3.81.AE_SPARQLthon_.E8.A8.88.E7.94.BB"><span class="tocnumber">7</span> <span class="toctext">今後の SPARQLthon 計画</span></a></li>
+<li class="toclevel-1 tocsection-11"><a href="#.E9.96.8B.E5.82.AC.E5.B1.A5.E6.AD.B4"><span class="tocnumber">8</span> <span class="toctext">開催履歴</span></a></li>
+</ul>
+</td></tr></table><script>if (window.showTocToggle) { var tocShowText = "表示"; var tocHideText = "非表示"; showTocToggle(); } </script>
+<h2> <span class="mw-headline" id=".E4.BB.8A.E5.BE.8C.E3.81.AE.E9.96.8B.E5.82.AC.E4.BA.88.E5.AE.9A"> 今後の開催予定 </span></h2>
+<p>場所未定のままの場合は、基本的に DBCLS 柏の葉キャンパス駅前での開催となります（2020年4月からは原則オンライン開催となっていましたが、オンラインでは新しいコラボレーションやクリエイティブな議論は難しいことが分かってきたため、開発を停滞させないためにも、コロナ情勢をみながら現地でのオフライン開催に戻していきたいと思います）。
+</p>
+<ul><li> 2023/3/23-24 <a href="/mw/Togothon126" title="Togothon126">Togothon126</a> @ DBCLS (柏)
+</li></ul>
+<h2> <span class="mw-headline" id=".E3.82.AA.E3.83.B3.E3.83.A9.E3.82.A4.E3.83.B3.E3.83.84.E3.83.BC.E3.83.AB"> オンラインツール </span></h2>
+<h3> <span class="mw-headline" id=".E3.83.A1.E3.83.BC.E3.83.AA.E3.83.B3.E3.82.B0.E3.83.AA.E3.82.B9.E3.83.88"> メーリングリスト </span></h3>
+<p>次回開催のご案内、日程調整の連絡、関連する議論などは <a href="https://groups.google.com/d/forum/biohackathon-jp" class="external text" rel="nofollow">国内版バイオハッカソンのメーリングリスト (biohackathon-jp)</a> で行いますので、興味ある方は各自ご登録頂ければと思います。なお、このメーリングリストは、国内版バイオハッカソン <a href="/mw/BH13.13" title="BH13.13">BH13.13</a> の<a href="http://wiki.lifesciencedb.jp/mw/index.php/BH13.13/Participants" class="external text" rel="nofollow">参加者</a>＋それ以後の希望者が登録されており、参加や退会は自由、投稿内容は参加者だけに公開となっています。
+</p>
+<h3> <span class="mw-headline" id="Slack"> Slack </span></h3>
+<p>2020年4月からのオンライン開催に伴い、<a href="https://sparqlthon.slack.com/" class="external text" rel="nofollow">SPARQLthon 用の Slack</a> を新規に作成しました。メーリングリストよりも細かいアナウンスや議論が進められると思いますので、ぜひご参加ください。最新の招待リンクは次回開催予定の SPARQLthon のページに記載します。
+</p>
+<h3> <span class="mw-headline" id="Pragli"> Pragli </span></h3>
+<p><a href="https://pragli.com/" class="external text" rel="nofollow">Pragli</a> は Slack に似たインターフェイスで、
+</p>
+<ul><li> Slack のワークスペースが Pragli のチーム
+</li><li> Slack のチャンネルが Pragli のルーム
+</li></ul>
+<p>に対応しており、同じチームの同じルームにいる人とテレビ会議（カメラ、もしくはアバターと音声のみを選択）できます。最新の招待リンクは次回開催予定の SPARQLthon のページに記載します。
+</p>
+<ul><li> Pragli の SPARQLthon チームで、自分の取り組みたい課題のルームに参加するか、ルームを作成する
+<ul><li> ルームは下記のように（手作業で）色分けしています
+<ul><li> 赤色：オーガナイザー作成ルーム（初めての方用の #001-entrance やラップアップ用の #wrap-up など）
+</li><li> 紫色：各課題ごとの開発ルーム（打ち合わせや開発には主にこれらのルームを使用）
+</li><li> 水色：非公開プロジェクト関係者だけの鍵付きルーム（入室にはノックと承認が必要）
+</li><li> 黄色：ご自由にお使いくださいルーム（会議の前後には #workout や #coffee を）
+</li><li> 緑色：Pragliがデフォルトで作成するルーム（無言で過ごせる #silent-room など）
+</li></ul>
+</li><li> 新たにルームを作成した場合は、「Pragli 左上のメニュー＞Team settings＞Roomsタブ」でルーム名左の「#」をクリックして色を↑に揃えてください
+</li></ul>
+</li><li> メモ
+<ul><li> 1ルーム17人までの制限あり
+</li><li> P2P など特殊なポート番号へのアクセスをファイアウォールで制限している組織からは繋がらない場合があるようです
+</li><li> 全員に一斉連絡するための機能 (Discussion) がついた模様 (2020/10)
+</li></ul>
+</li></ul>
+<h2> <span class="mw-headline" id=".E5.8F.82.E5.8A.A0.E8.80.85.E5.8B.9F.E9.9B.86"> 参加者募集 </span></h2>
+<p>年１回開催の <a href="http://biohackathon.org" class="external text" rel="nofollow">国際版 BioHackathon</a> や国内版バイオハッカソンでは、様々な進捗がありますが未完成のプロジェクトが残りがちです。SPARQLthon は月１回定期的に顔を合わせることでこれを補完し、立ちあげたプロジェクトをモチベーションをキープしながら着実に進めて成果を出すプロトコルとして有効に機能してきていると思います。アカデミック・企業・デザイナーなどなど所属機関や立場を問わず、様々な分野からの参加者同士で交流が進むことにより、まだなかなか見つけることの難しいセマンティック・ウェブの技術者や研究者の発掘とコミュニティの醸成などにも役立つ場となっています。
+</p><p>ハッカソン（SPARQLthon）形式での会議開催のメリットは、関係者が直接顔を合わせて集中的に取り組むことにより
+</p>
+<ul><li> 話が早い
+</li><li> その場で仕事が進む
+</li><li> 新しい人脈との交流が広がる
+</li></ul>
+<p>といったことが挙げられるかと思います。SPARQLthon は、ライフサイエンスにおけるセマンティック・ウェブに興味のある方であれば誰でも自由に参加して頂ける会です。会場確保の都合で参加登録をお願いすることもあるかと思いますので、参加希望の方は各回の開催予定をご覧ください。
+</p>
+<h2> <span class="mw-headline" id=".E9.96.8B.E5.82.AC.E7.9B.AE.E7.9A.84"> 開催目的 </span></h2>
+<ul><li> オントロジーの開発
+</li><li> RDF の設計と生成
+</li><li> トリプルストアの調査と運用
+</li><li> SPARQL 検索スキルの向上とノウハウの共有
+</li><li> SPARQL 結果のハンドリングと可視化技術
+</li><li> マッシュアップによるアプリケーションの開発
+</li><li> セマンティック・ウェブのための UI デザイン
+</li></ul>
+<h2> <span class="mw-headline" id=".E7.B5.B1.E5.90.88.E5.8C.96.E6.8E.A8.E9.80.B2.E3.83.97.E3.83.AD.E3.82.B0.E3.83.A9.E3.83.A0"> 統合化推進プログラム </span></h2>
+<p>RDF 開発
+</p>
+<ul><li> <a href="https://github.com/dbcls/rdfizing-db-guidelines" class="external text" rel="nofollow">データベースRDF化ガイドライン</a><a href="http://wiki.lifesciencedb.jp/mw/RDFizingDatabaseGuideline" class="external text" rel="nofollow">旧MediaWikiバージョン</a> (<a href="http://wiki.lifesciencedb.jp/mw/BH14.14/RDFingDatabaseGuideline" class="external text" rel="nofollow">旧MediaWikiバージョンドラフト</a>), (<a href="http://wiki.lifesciencedb.jp/mw/BH14.14/RDFizingDatabaseGuidelineEnglishDraft0.1" class="external text" rel="nofollow">英語版ドラフト0.1</a>)
+</li><li> <a href="https://drive.google.com/file/d/0B5fGKO5915HjdmxrWVJETmJqT0U/view?usp=sharingl" class="external text" rel="nofollow">RDFポータルのスキーマ図作成用ライブラリ</a> （ファイルをダウンロードした後、<a href="http://draw.io/" class="external text" rel="nofollow">draw io</a> で「File＞Open from＞Device…」からファイルを選択する）
+</li></ul>
+<ul><li> <a href="http://biohackathon.org/resource/RDF-portal-schema-library.xml" class="external text" rel="nofollow">RDFポータルのスキーマ図作成用ライブラリ（旧バージョン）</a> 
+</li></ul>
+<p><a href="http://biosciencedbc.jp/funding/fund" class="external text" rel="nofollow">統合化推進プログラム</a> (TPP) の RDF 化支援
+</p>
+<ul><li> <a href="/mw/TPP-arita" title="TPP-arita">生物種メタボロームモデル・データベースの構築</a> (有田)
+</li><li> <a href="/mw/TPP-kanehisa" title="TPP-kanehisa">ゲノムとフェノタイプ・疾患・医薬品の統合データベース</a> (金久)
+</li><li> <a href="/mw/TPP-kurokawa" title="TPP-kurokawa">ゲノム・メタゲノム情報統合による微生物ＤＢの超高度化推進</a> (黒川)
+<ul><li> <a href="http://wiki.lifesciencedb.jp/mw/MicrobeDB.jp%E3%83%9D%E3%83%BC%E3%82%BF%E3%83%AB%E9%96%8B%E7%99%BA#SPARQLthon70" class="external text" rel="nofollow">BioSampleデータのキュレーション</a> 
+</li></ul>
+</li><li> <a href="/mw/TPP-sugano" title="TPP-sugano">疾患ヒトゲノム変異の生物学的機能注釈を目指した多階層オミクスデータの統合</a> (菅野)
+</li><li> <a href="/mw/TPP-tabata" title="TPP-tabata">植物ゲノム情報活用のための統合研究基盤の構築</a> (田畑)
+</li><li> <a href="/mw/TPP-tokunaga" title="TPP-tokunaga">個別化医療に向けたヒトゲノムバリエーション</a> (徳永)
+</li><li> <a href="/mw/TPP-nakamura" title="TPP-nakamura">蛋白質構造データバンクの高度化と統合的運用</a> (中村)
+</li><li> <a href="http://wiki.lifesciencedb.jp/mw/TPP2-kinoshita" class="external text" rel="nofollow">糖鎖科学ポータルの構築</a> (木下)
+<ul><li>  <a href="/mw/TPP-narimatsu" title="TPP-narimatsu">糖鎖統合データベースおよび国際糖鎖構造リポジトリの開発</a> (成松)
+</li></ul>
+</li><li> <a href="/mw/TPP-masuya" title="TPP-masuya">生命と環境のフェノーム統合データベース</a> (桝屋)
+</li><li> <a href="/mw/TPP-onami" title="TPP-onami">生命動態システム科学のデータベースの統合化</a>（大浪）
+</li><li> <a href="/mw/TPP-ishihama" title="TPP-ishihama">プロテオーム統合データベース：jPOST</a>（石濱）
+</li></ul>
+<h2> <span class="mw-headline" id=".E3.81.93.E3.82.8C.E3.81.BE.E3.81.A7.E3.81.AE.E4.B8.BB.E3.81.AA.E6.88.90.E6.9E.9C"> これまでの主な成果 </span></h2>
+<p><a href="http://sparqlbook.jp/" class="external text" rel="nofollow">オープンデータ時代の標準Web API SPARQL (インプレスR&amp;D)</a> 刊行 
+</p>
+<ul><li> 日本初のSPARQLの解説本
+</li><li> 著者は、全員 SPARQLthon 参加者
+</li></ul>
+<p><a href="http://integbio.jp/rdf/" class="external text" rel="nofollow">NBDC RDF portal</a>
+</p>
+<ul><li> 日本で開発された生命科学データのRDFを集積
+</li><li> 統合推進プログラムで構築されたRDFデータを多数収録
+</li><li> 掲載RDFデータは、RDFガイドラインに準拠している
+</li></ul>
+<p>統合プロジェクトで開発されたツール類
+</p>
+<ul><li> <a href="https://github.com/togostanza/togostanza" class="external text" rel="nofollow">TogoStanza</a> 最新版
+<ul><li> <a href="https://togostanza.github.io/metastanza/" class="external text" rel="nofollow">MetaStanza</a> TogoStanzaで作成した汎用可視化モジュール
+<ul><li> <a href="http://dev.togostanza.org/metastanza/" class="external text" rel="nofollow">MetaStanza ショーケース</a>
+</li><li> <a href="https://github.com/togostanza/togostanza-themes" class="external text" rel="nofollow">MetaStanza共通CSSテーマ</a>
+</li></ul>
+</li><li> <a href="https://togostanza.github.io/openstanza/" class="external text" rel="nofollow">OpenStanza</a> TogoStanzaで作成するコミュニティ開発のスタンザ
+</li></ul>
+</li></ul>
+<ul><li> TogoStanza 旧版（今後の新規開発は上記最新版をご利用ください)
+<ul><li> <a href="https://github.com/togostanza/togostanza-gem" class="external text" rel="nofollow">TogoStanza(Ruby版)</a>
+<ul><li> SPARQLクエリ: <a href="/mw/BH12.12/TogoStanzaQuery" title="BH12.12/TogoStanzaQuery">旧版</a>, <a href="/mw/BH12.12/TogoStanzaQuery/v201310" title="BH12.12/TogoStanzaQuery/v201310">新版</a>
+</li><li> スタンザ開発例: <a href="/mw/BH12.12/SPARQLthon8/TogoStanza" title="BH12.12/SPARQLthon8/TogoStanza">旧版</a>, <a href="https://github.com/esminc/togostanza-gem/wiki" class="external text" rel="nofollow">新版</a>
+</li></ul>
+</li><li> <a href="https://github.com/togostanza/ts" class="external text" rel="nofollow">TogoStanza(JavaScript版)</a>
+<ul><li> 開発Tips <a href="http://wiki.lifesciencedb.jp/mw/SPARQLthon/togostanza_js" class="external text" rel="nofollow">TogoStanza(JS)版</a>
+</li></ul>
+</li></ul>
+</li></ul>
+<ul><li> <a href="https://github.com/enishitech/sparqlist" class="external text" rel="nofollow">SPARQList</a>
+<ul><li> SPARQL クエリの結果をクライアントに返す REST API を提供するためのミドルウェア
+</li><li> 開発方法 <a href="/mw/SPARQList" title="SPARQList">SPARQList</a>
+</li><li> 記述支援 <a href="http://sparql-support.dbcls.jp/sparqlist-support.html" class="external text" rel="nofollow">SPARQList support</a>
+</li></ul>
+</li></ul>
+<ul><li> <a href="https://github.com/dbcls/sparql-proxy" class="external text" rel="nofollow">SPARQL-proxy</a>
+<ul><li> クライアントと SPARQL エンドポイントの間で動作するミドルウェア
+</li><li> 開発方法 <a href="/mw/SPARQL-proxy" title="SPARQL-proxy">SPARQL-proxy</a>
+</li></ul>
+</li></ul>
+<ul><li> <a href="http://sparql-support.dbcls.jp/" class="external text" rel="nofollow">SPARQL support</a>
+<ul><li> ブラウザ上で動作する補完機能などを有した SPARQL クエリ用エディタ
+</li><li> <a href="http://sparql-support.dbcls.jp/sparql-support.html" class="external text" rel="nofollow">機能とか使い方とか</a>
+</li></ul>
+</li></ul>
+<ul><li> <a href="http://sparql-support.dbcls.jp/endpoint-browser.html" class="external text" rel="nofollow">Endpoint browser</a>
+<ul><li> 視覚的にエンドポイント内のRDFデータを探索するツール
+</li><li> <a href="https://github.com/moriya-dbcls/endpoint_browser" class="external text" rel="nofollow">ローカルで使いたい人用</a>
+</li></ul>
+</li></ul>
+<ul><li> <a href="https://github.com/dbcls/rdf-config" class="external text" rel="nofollow">RDF-config</a>
+<ul><li> 複雑なグラフ構造をもつRDFデータの主要要素をツリー型のモデルに整理しYAML形式で記述することで、スキーマ図やSPARQLクエリの自動生成を行うツール
+</li><li> トーゴーの日2020ポスター <a href="https://biosciencedbc.jp/event/symposium/togo2020/poster/004.html" class="external text" rel="nofollow">機能の概要</a> + BH20.9で収録したTogoTV (<a href="https://www.youtube.com/watch?v=Eew8h7DIwhI&amp;ab_channel=togotv" class="external text" rel="nofollow">RDF-configの使い方</a>, <a href="https://www.youtube.com/watch?v=a8cDtLX_QeM&amp;ab_channel=togotv" class="external text" rel="nofollow">Endpoint browserとの連携</a>) とその<a href="https://docs.google.com/presentation/d/16BPUcqRFqK46Miydi0YjXFXFYpavR025o5rtgnOn9bA/edit#slide=id.p" class="external text" rel="nofollow">資料スライド</a>
+</li></ul>
+</li></ul>
+<p>平成28年度までのまとめページへのリンク集
+</p>
+<ul><li> SPARQL クライアント
+<ul><li> ウェブインターフェイス: <a href="http://sparqlbin.com" class="external text" rel="nofollow">SPARQLbin</a>, <a href="http://yasgui.laurensrietveld.nl/" class="external text" rel="nofollow">YASGUI</a>, <a href="http://openuplabs.tso.co.uk/demos/sparqleditor" class="external text" rel="nofollow">Flint</a>, <a href="https://github.com/dbcls/SNORQL-CM" class="external text" rel="nofollow">SNORQL-CM</a>
+</li><li> コマンドラインツール: <a href="https://gist.github.com/ktym/3385134" class="external text" rel="nofollow">Rubyの場合</a>, <a href="http://jena.apache.org/documentation/query/" class="external text" rel="nofollow">Javaの場合</a> (Jena arq/rsparql) <a href="/mw/BH12.12/SPARQLthon/SPARQLendpoints" title="BH12.12/SPARQLthon/SPARQLendpoints">使用例</a>
+</li><li> Rパッケージ: <a href="http://www.rstudio.com/" class="external text" rel="nofollow">Rstudio</a> で install.packages("SPARQL"); library(SPARQL); help(SPARQL) 結果は data.frame として得られる
+</li></ul>
+</li></ul>
+<ul><li> トリプルストア
+<ul><li> <a href="/mw/BH12.12/SPARQL11test" title="BH12.12/SPARQL11test">SPARQL 1.1 準拠状況</a>
+</li><li> Virtuoso 7: <a href="/mw/BH12.12/SPARQLthon8/TogoGenome-Virtuoso7" title="BH12.12/SPARQLthon8/TogoGenome-Virtuoso7">インストール方法</a>,  <a href="https://github.com/dbcls/rdfsummit/tree/master/virtuoso" class="external text" rel="nofollow">起動管理スクリプト</a>,  <a href="/mw/BH12.12/SPARQLthon9/Virtuoso7" title="BH12.12/SPARQLthon9/Virtuoso7">商用版の場合</a>, <a href="/mw/BH12.12/SPARQLthon2/VirtuosoPerformance" title="BH12.12/SPARQLthon2/VirtuosoPerformance">パフォーマンスについて</a>, <a href="/mw/SPARQLthon19/TripleLoad" title="SPARQLthon19/TripleLoad">ロードやメモリの設定等</a>, <a href="/mw/BH12.12/SPARQLthon10/VirtuosoPL" title="BH12.12/SPARQLthon10/VirtuosoPL">プロシージャの利用</a>
+</li><li> OWLIM: <a href="https://github.com/ktym/owlim-ruby" class="external text" rel="nofollow">owlim-ruby</a>
+</li></ul>
+</li></ul>
+<ul><li> RDF 変換ツール
+<ul><li> RDF/XML, Turtle, N3 などの相互変換: <a href="http://librdf.org/raptor/rapper.html" class="external text" rel="nofollow">rapper</a> 
+</li><li> CSV, TSV, XML, GFF3, GVF, Newick etc. → RDF: <a href="http://www.biointerchange.org/" class="external text" rel="nofollow">BioInterchange</a>, <a href="http://togodb.org/" class="external text" rel="nofollow">TogoDB</a>, <a href="http://togows.org/" class="external text" rel="nofollow">TogoWS</a>
+</li><li> INSDC → RDF: <a href="https://gist.github.com/ktym/5547403" class="external text" rel="nofollow">refseq2ttl.rb</a>, <a href="http://biohackathon.org/resource/faldo" class="external text" rel="nofollow">FALDO</a>, <a href="https://gist.github.com/ktym/4146256" class="external text" rel="nofollow">rs_id.json</a>, <a href="https://gist.github.com/ktym/3650401" class="external text" rel="nofollow">ft_so.json</a>, <a href="https://gist.github.com/ktym/4266185" class="external text" rel="nofollow">insdc.owl</a> → <a href="https://github.com/dbcls/rdfsummit/tree/master/insdc2ttl" class="external text" rel="nofollow">insdc2ttl</a> に集約
+<ul><li> 公開サイト: <a href="http://ddbj.nig.ac.jp/ontologies/nucleotide/" class="external free" rel="nofollow">http://ddbj.nig.ac.jp/ontologies/nucleotide/</a>
+</li></ul>
+</li><li> Taxonomy → OWL: <a href="https://gist.github.com/ktym/8802695" class="external text" rel="nofollow">taxdump2owl.rb</a> → <a href="https://github.com/dbcls/rdfsummit/tree/master/taxdump2owl" class="external text" rel="nofollow">taxdump2owl</a> に集約
+<ul><li> 公開サイト: <a href="http://ddbj.nig.ac.jp/ontologies/taxonomy/" class="external free" rel="nofollow">http://ddbj.nig.ac.jp/ontologies/taxonomy/</a>
+</li></ul>
+</li><li> ConvRDF <a href="http://wiki.lifesciencedb.jp/mw/index.php/BH12.12/ConvRDF" class="external autonumber" rel="nofollow">[1]</a> 1BトリプルレベルのRDF/XMLを安定的にNtriplesに変換。
+</li></ul>
+</li></ul>
+<ul><li> 個別事例: <a href="/mw/BH11.11/%E7%B5%B1%E5%90%88%E6%A4%9C%E7%B4%A2%E3%81%A8RDF%E3%81%8B%E3%82%89%E3%81%AE%E8%A1%A8%E3%83%87%E3%83%BC%E3%82%BF%E7%94%9F%E6%88%90/uniprot_sparql" title="BH11.11/統合検索とRDFからの表データ生成/uniprot sparql">UniProt</a>, <a href="/mw/BH12.12/SPARQLthon9/MBGD" title="BH12.12/SPARQLthon9/MBGD">MBGD</a>, <a href="/mw/BH12.12/SPARQLthon5/MPO" title="BH12.12/SPARQLthon5/MPO">MPO</a>, <a href="/mw/BH12.12/SPARQLthon/TogoAnnotation" title="BH12.12/SPARQLthon/TogoAnnotation">TogoAnnotation</a>, <a href="/mw/BH12.12/SPARQLthon10/EdgeStore" title="BH12.12/SPARQLthon10/EdgeStore">EdgeStore</a>, <a href="/mw/BH12.12/Identifiers.org%E9%80%A3%E6%90%BA" title="BH12.12/Identifiers.org連携">Identifiers.org連携</a>
+</li></ul>
+<ul><li> <a href="/mw/SPARQLendpoints" title="SPARQLendpoints">SPARQLendpoints</a> SPARQLエンドポイント
+</li><li> <a href="http://wiki.lifesciencedb.jp/mw/SPARQLthon/SPARQL_samples" class="external text" rel="nofollow">SPARQL実例集</a>
+</li></ul>
+<p>掲載記事等
+</p>
+<ul><li> <a href="https://www.jsbi.org/media/files/_u/topic/file/nl39.pdf" class="external text" rel="nofollow">JSBi ニュースレター第39号</a>
+<ul><li>特集「バイオインフォマティクスと技術開発コミュニティ」でSPARQLthonの紹介記事が掲載されました
+</li></ul>
+</li></ul>
+<h2> <span class="mw-headline" id=".E4.BB.8A.E5.BE.8C.E3.81.AE_SPARQLthon_.E8.A8.88.E7.94.BB"> 今後の SPARQLthon 計画 </span></h2>
+<ul><li> 今後の開催予定はページ上方に移動しました
+</li></ul>
+<ul><li> 今後の SPARQLthon の日程調整
+<ul><li> <a href="https://www.google.com/calendar/hosted/dbcls.rois.ac.jp/render?cid=bzl1bjE5MTlxMzIza3BwdmYzanVrYThqNGdAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ" class="external text" rel="nofollow">SPARQLthon 用 Google カレンダー</a> に学会等の予定を追記してください。
+</li><li> 書き込み権は DBCLS 片山・川島にメール等で遠慮なくリクエストください。スケジュールの空き状況を見て、わりと先まで決めておこうと思っています。
+</li></ul>
+</li></ul>
+<ul><li> 今後の SPARQLthon の開催場所候補
+<ul><li> <a href="http://dbcls.rois.ac.jp/access" class="external text" rel="nofollow">DBCLS柏ラボ</a> (千葉・柏の葉キャンパス) ← 未定のままの場合、原則はコチラで開催予定
+</li><li> <a href="http://dbcls.rois.ac.jp/access" class="external text" rel="nofollow">DBCLS三島ラボ</a> (三島・遺伝研) 
+</li><li> NBDC (東京・市ヶ谷) ※ JST東京本部別館会議室
+</li><li> NII (東京・神保町)
+</li><li> <a href="http://www.nbrp.jp/office/about/room.html" class="external text" rel="nofollow">NBRP</a> (東京・八重洲) ※狭そう
+</li><li> <a href="http://www.cictokyo.jp/access.html" class="external text" rel="nofollow">東工大</a> (東京・田町)
+</li><li> CBRC (東京・お台場)
+</li><li> 東大理学部３号館 (東京・根津)
+</li><li> 東大先端研 (東京・駒場)
+</li><li> かずさDNA研究所（千葉・木更津）
+</li><li> 基礎生物学研究所（愛知・岡崎）
+</li></ul>
+</li></ul>
+<h2> <span class="mw-headline" id=".E9.96.8B.E5.82.AC.E5.B1.A5.E6.AD.B4"> 開催履歴 </span></h2>
+<ul><li> 2023/2/21-22 <a href="/mw/Togothon125" title="Togothon125">Togothon125</a> @ DBCLS (柏)
+<ul><li> 2022/1/25-31 <a href="https://github.com/dbcls/rdfsummit4/wiki" class="external text" rel="nofollow">RDF summit 4</a> (京都)
+</li></ul>
+</li><li> 2023/1/19-20 <a href="/mw/Togothon124" title="Togothon124">Togothon124</a> @ DBCLS (柏) (予定していた 26-27 から変更)
+</li><li> 2022/12/22-23 <a href="/mw/Togothon123" title="Togothon123">Togothon123</a> @ DBCLS (柏)
+</li><li> 2022/11/24-25 <a href="/mw/Togothon122" title="Togothon122">Togothon122</a> @ DBCLS (柏)
+<ul><li> 2022/11/7-11 ELIXIR BH22 @ Paris
+</li></ul>
+</li><li> 2022/10/20-21 SPARQLthon121 改め <a href="/mw/Togothon121" title="Togothon121">Togothon121</a> @ DBCLS (柏)
+<ul><li> 2022/10/5 トーゴーの日 ＠ 東京
+</li></ul>
+</li><li> 2022/9/29-30 <a href="/mw/SPARQLthon120" title="SPARQLthon120">SPARQLthon120</a> @ DBCLS (柏) 十周年
+<ul><li> 2022/9/13-15 IIBMP2022 @ 大阪
+</li><li> 2022/9/5-9 国内版バイオハッカソン <a href="/mw/BH22.9" title="BH22.9">BH22.9</a> @ 土佐
+</li></ul>
+</li><li> 2022/8/25-26 <a href="/mw/SPARQLthon119" title="SPARQLthon119">SPARQLthon119</a> @ DBCLS (柏)
+</li><li> 2022/7/21-22 <a href="/mw/SPARQLthon118" title="SPARQLthon118">SPARQLthon118</a> @ DBCLS (柏)
+</li><li> 2022/6/23-24 <a href="/mw/SPARQLthon117" title="SPARQLthon117">SPARQLthon117</a> @ DBCLS (柏)
+</li><li> 2022/5/19-20 <a href="/mw/SPARQLthon116" title="SPARQLthon116">SPARQLthon116</a> @ DBCLS (柏)
+</li><li> 2022/4/14-15 <a href="/mw/SPARQLthon115" title="SPARQLthon115">SPARQLthon115</a> @ DBCLS (柏)
+</li><li> 2022/3/17-18 <a href="/mw/SPARQLthon114" title="SPARQLthon114">SPARQLthon114</a> @ DBCLS (柏)
+</li><li> 2022/2/17-18 <a href="/mw/SPARQLthon113" title="SPARQLthon113">SPARQLthon113</a> @ DBCLS (柏＋オンライン)
+</li><li> 2022/1/20-21 <a href="/mw/SPARQLthon112" title="SPARQLthon112">SPARQLthon112</a> @ DBCLS (柏)
+</li><li> 2021/12/16-17 <a href="/mw/SPARQLthon111" title="SPARQLthon111">SPARQLthon111</a> @ DBCLS (柏)
+</li><li> 2021/11/18-19 <a href="/mw/SPARQLthon110" title="SPARQLthon110">SPARQLthon110</a> @ DBCLS (柏)
+</li><li> 2021/10/21-22 <a href="/mw/SPARQLthon109" title="SPARQLthon109">SPARQLthon109</a> @ DBCLS (柏)
+</li><li> 2021/09/16-17 <a href="/mw/SPARQLthon108" title="SPARQLthon108">SPARQLthon108</a> @ DBCLS (柏→オンライン開催)
+<ul><li> 2021/08/23-27 国内版バイオハッカソン<a href="/mw/BH21.8" title="BH21.8">BH21.8</a> @ 青森
+</li></ul>
+</li><li> 2021/08/05-06 <a href="/mw/SPARQLthon107" title="SPARQLthon107">SPARQLthon107</a> @ DBCLS (柏→オンライン開催)
+</li><li> 2021/07/15-16 <a href="/mw/SPARQLthon106" title="SPARQLthon106">SPARQLthon106</a> @ DBCLS (柏)
+</li><li> 2021/06/17-18 <a href="/mw/SPARQLthon105" title="SPARQLthon105">SPARQLthon105</a> @ DBCLS (柏)
+</li><li> 2021/05/20-21 <a href="/mw/SPARQLthon104" title="SPARQLthon104">SPARQLthon104</a> @ DBCLS (柏)
+</li><li> 2021/04/22-23 <a href="/mw/SPARQLthon103" title="SPARQLthon103">SPARQLthon103</a> @ DBCLS (柏)
+</li><li> 2021/03/18-19 <a href="/mw/SPARQLthon102" title="SPARQLthon102">SPARQLthon102</a> @ DBCLS (柏)
+</li><li> 2021/02/25-26 <a href="/mw/SPARQLthon101" title="SPARQLthon101">SPARQLthon101</a> @ オンライン開催
+</li><li> 2021/01/28-29 <a href="/mw/SPARQLthon100" title="SPARQLthon100">SPARQLthon100</a> @ オンライン開催
+</li><li> 2020/12/17-18 <a href="/mw/SPARQLthon99" title="SPARQLthon99">SPARQLthon99</a> @ DBCLS (柏)
+</li><li> 2020/11/26-27 <a href="/mw/SPARQLthon98" title="SPARQLthon98">SPARQLthon98</a> @ DBCLS (柏)
+</li><li> 2020/10/22-23 <a href="/mw/SPARQLthon97" title="SPARQLthon97">SPARQLthon97</a> @ オフライン + オンライン開催 Pragli + Zoom
+</li><li> 2020/09/17-18 <a href="/mw/SPARQLthon96" title="SPARQLthon96">SPARQLthon96</a> @ オンライン開催 Pragli + Zoom
+<ul><li> 2020/09/07-11 国内版バイオハッカソン <a href="/mw/BH20.9" title="BH20.9">BH20.9</a> @ 広島
+</li></ul>
+</li><li> 2020/08/25-26 <a href="/mw/SPARQLthon95" title="SPARQLthon95">SPARQLthon95</a> @ オンライン開催 Pragli + Zoom
+</li><li> 2020/07/30-31 <a href="/mw/SPARQLthon94" title="SPARQLthon94">SPARQLthon94</a> @ オンライン開催 Pragli + Zoom
+</li><li> 2020/06/25-26 <a href="/mw/SPARQLthon93" title="SPARQLthon93">SPARQLthon93</a> @ オンライン開催 Pragli + Zoom
+</li><li> 2020/05/21-22 <a href="/mw/SPARQLthon92" title="SPARQLthon92">SPARQLthon92</a> @ オンライン開催 Pragli
+</li><li> 2020/04/23-24 <a href="/mw/SPARQLthon91" title="SPARQLthon91">SPARQLthon91</a> @ 初オンライン開催🎉 Remo
+</li><li> 2020/03/30-31 <a href="/mw/SPARQLthon90" title="SPARQLthon90">SPARQLthon90</a> @ DBCLS (三島→ 大変残念ですがコロナのため柏開催に変更となりました）※2日目は中止となりました
+</li><li> 2020/02/20-21 <a href="/mw/SPARQLthon89" title="SPARQLthon89">SPARQLthon89</a> @ DBCLS (柏)
+</li><li> 2020/01/23-24 <a href="/mw/SPARQLthon88" title="SPARQLthon88">SPARQLthon88</a> @ DBCLS (柏)
+</li><li> 2019/12/23-24 <a href="/mw/SPARQLthon87" title="SPARQLthon87">SPARQLthon87</a> @ DBCLS (柏) - 寒ブリ大会🐟
+</li><li> 2019/11/28-29 <a href="/mw/SPARQLthon86" title="SPARQLthon86">SPARQLthon86</a> @ DBCLS (三島)
+<ul><li> 2019/10/31 <a href="/mw/RDF-Tutorial4" title="RDF-Tutorial4">第4回RDF講習会</a> ＠ JST/NBDC (市ヶ谷)
+</li></ul>
+</li><li> 2019/10/28-29 <a href="/mw/SPARQLthon85" title="SPARQLthon85">SPARQLthon85</a> @ DBCLS (柏)
+</li><li> 2019/09/26-27 <a href="/mw/SPARQLthon84" title="SPARQLthon84">SPARQLthon84</a> @ DBCLS (柏) - 7周年!! 👏
+<ul><li> 2019/09/01-07 <a href="http://2019.biohackathon.org/" class="external text" rel="nofollow">BioHackathon 2019</a> @ 福岡
+</li></ul>
+</li><li> 2019/08/22-23 <a href="/mw/SPARQLthon83" title="SPARQLthon83">SPARQLthon83</a> @ DBCLS (柏) - Ewan🍻(神田)
+</li><li> 2019/07/29-30 <a href="/mw/SPARQLthon82" title="SPARQLthon82">SPARQLthon82</a> @ DBCLS (三島)
+<ul><li> 2019/07/08-12 国内版バイオハッカソン <a href="/mw/BH19.7" title="BH19.7">BH19.7</a> @ 指宿 (7/7 は<a href="http://ms-bio.info/" class="external text" rel="nofollow">質量分析インフォマティクス</a>・プレミーティング)
+</li></ul>
+</li><li> 2019/06/24-25 <a href="/mw/SPARQLthon81" title="SPARQLthon81">SPARQLthon81</a> @ DBCLS (柏)
+</li><li> 2019/05/23-24 <a href="/mw/SPARQLthon80" title="SPARQLthon80">SPARQLthon80</a> @ DBCLS (柏)
+</li><li> 2019/04/22-23 <a href="/mw/SPARQLthon79" title="SPARQLthon79">SPARQLthon79</a> @ DBCLS (柏)
+</li><li> 2019/03/28-29 <a href="/mw/SPARQLthon78" title="SPARQLthon78">SPARQLthon78</a> @ DBCLS (三島)
+<ul><li> 2019/03/8-10 SIG-BIO, SIG-MBI, オープンバイオ研究会 ＠ JAIST
+</li></ul>
+</li><li> 2019/02/21-22 <a href="/mw/SPARQLthon77" title="SPARQLthon77">SPARQLthon77</a> @ DBCLS (柏)
+</li><li> 2019/01/24-25 <a href="/mw/SPARQLthon76" title="SPARQLthon76">SPARQLthon76</a> @ DBCLS (柏)
+</li><li> 2018/12/20-21 <a href="/mw/SPARQLthon75" title="SPARQLthon75">SPARQLthon75</a> @ DBCLS (柏)
+<ul><li> 2018/12/09-14 <a href="http://2018.biohackathon.org/" class="external text" rel="nofollow">BioHackathon 2018</a> @ 松江
+</li><li> 2018/12/03-06 SWAT4HCLS @ Antwerp
+</li><li> 2018/11/28-30 分子生物学会 @ 横浜
+</li><li> 2018/11/26-28 JIST @ 淡路島
+</li><li> 2018/11/21 <a href="http://genomegraph.jp/meeting008.html" class="external text" rel="nofollow">Genome Graph研究会8</a> @ DBCLS (柏)
+</li></ul>
+</li><li> 2018/11/19-20 <a href="/mw/SPARQLthon74" title="SPARQLthon74">SPARQLthon74</a> ＠ DBCLS (柏)
+<ul><li> 2018/11/12-16 <a href="/mw/ELIXIR-BioHackathon" title="ELIXIR-BioHackathon">ELIXIR BioHackathon 2018</a> @ Paris
+</li><li> 2018/11/01 <a href="/mw/RDF-Tutorial3" title="RDF-Tutorial3">第3回RDF講習会</a> ＠ JST/NBDC (市ヶ谷)
+</li></ul>
+</li><li> 2018/10/29-30 <a href="/mw/SPARQLthon73" title="SPARQLthon73">SPARQLthon73</a> @ DBCLS (三島)
+<ul><li> 2018/10/25 BioHackathon ビール醸造 ＠ 木内酒造
+</li><li> 2018/10/23 <a href="http://genomegraph.jp/meeting007.html" class="external text" rel="nofollow">Genome Graph研究会7 (作業日)</a>
+</li><li> 2018/10/16-20 ASHG @ San Diego
+</li><li> 2018/10/10-13 日本人類遺伝学会
+</li><li> 2018/10/05 トーゴーの日 @ 日本科学未来館
+</li><li> 2018/10/03-05 GA4GH @ Basel
+</li></ul>
+</li><li> 2018/09/27-28 <a href="/mw/SPARQLthon72" title="SPARQLthon72">SPARQLthon72</a> @ DBCLS (柏) - 6周年!! 👏
+<ul><li> 2018/09/27 <a href="http://genomegraph.jp/meeting006.html" class="external text" rel="nofollow">Genome Graph研究会6</a>
+</li><li> 2018/09/19-21 IIBMP @ 鶴岡
+</li></ul>
+</li><li> 2018/08/23-24 <a href="/mw/SPARQLthon71" title="SPARQLthon71">SPARQLthon71</a> @ DBCLS (柏)
+</li><li> 2018/07/26-27 <a href="/mw/SPARQLthon70" title="SPARQLthon70">SPARQLthon70</a> @ DBCLS (三島)
+<ul><li> 2018/07/15-20 国内版バイオハッカソン <a href="/mw/BH18.7" title="BH18.7">BH18.7</a> @ 徳島 (7/15 は<a href="http://ms-bio.info/" class="external text" rel="nofollow">質量分析インフォマティクス</a>・シンポジウム)
+</li></ul>
+</li><li> 2018/06/21-22 <a href="/mw/SPARQLthon69" title="SPARQLthon69">SPARQLthon69</a> @ DBCLS (柏) - マグロ大会🐟
+<ul><li> 2018/06/21 <a href="https://genomegraph.github.io/website/" class="external text" rel="nofollow">Genome Graph研究会4</a> @ DBCLS (柏)
+</li></ul>
+</li><li> 2018/05/24-25 <a href="/mw/SPARQLthon68" title="SPARQLthon68">SPARQLthon68</a> @ DBCLS (柏)
+<ul><li> 2018/05/01 <a href="https://genomegraph.github.io/website/" class="external text" rel="nofollow">Genome Graph研究会3</a> @ DBCLS (柏)
+</li></ul>
+</li><li> 2018/04/26-27 <a href="/mw/SPARQLthon67" title="SPARQLthon67">SPARQLthon67</a> @ DBCLS (柏)
+<ul><li> 2018/03/26 <a href="https://genomegraph.github.io/website/" class="external text" rel="nofollow">Genome Graph研究会2</a> @ DBCLS (柏)
+</li><li> 2018/03/19-23 <a href="https://github.com/dbcls/rdfsummit3" class="external text" rel="nofollow">RDFサミット3</a> ＠ 京大 - Med2RDFとゲノムグラフの日本人ゲノムへの応用
+</li></ul>
+</li><li> 2018/03/15-16 <a href="/mw/SPARQLthon66" title="SPARQLthon66">SPARQLthon66</a> @ DBCLS (柏)
+<ul><li> 2018/03/9 オープンバイオ研究会＠北陸先端大 (3/8 SIG-MBI, 3/10 SIGBIO)
+</li><li> 2018/02/27 <a href="https://genomegraph.github.io/website/" class="external text" rel="nofollow">Genome Graph研究会1</a> @ DBCLS (柏)
+</li></ul>
+</li><li> 2018/02/15-16 <a href="/mw/SPARQLthon65" title="SPARQLthon65">SPARQLthon65</a> @ DBCLS (三島)
+<ul><li> 2018/01/29-31 <a href="https://docs.google.com/document/d/16K_IG5Al8kfdWh2ooewnbp-SV3gV3VobUqRhujsgQHc/edit?usp=sharing" class="external text" rel="nofollow">AMEDハッカソン6</a> ＠ DBCLS (柏)
+</li></ul>
+</li><li> 2018/01/18-19 <a href="/mw/SPARQLthon64" title="SPARQLthon64">SPARQLthon64</a> @ DBCLS (柏)
+<ul><li> 2017/12/19-21 <a href="https://docs.google.com/document/d/19u47kQKk67s6vHVyJXll3ETSwvfOtlYsYl6gFX5tNJ8/edit?usp=sharing" class="external text" rel="nofollow">AMEDハッカソン5</a> ＠ 京都
+</li></ul>
+</li><li> 2017/12/14-15 <a href="/mw/SPARQLthon63" title="SPARQLthon63">SPARQLthon63</a> @ DBCLS (柏)
+<ul><li> 2017/12/4-7 <a href="http://www.swat4ls.org/workshops/rome2017/programme/" class="external text" rel="nofollow">SWAT4HCLS</a> ＠ ローマ
+</li><li> 2017/11/27-12/1 国内版バイオハッカソン <a href="/mw/BH17.11" title="BH17.11">BH17.11</a> @ 熊本
+</li></ul>
+</li><li> 2017/11/9-10 <a href="/mw/SPARQLthon62" title="SPARQLthon62">SPARQLthon62</a> @ DBCLS (柏)
+<ul><li> 2017/11/8-10 <a href="https://docs.google.com/document/d/1YqpGMOjw20M_HUMEFvrvWmLVAHB4FfMPnkez19b0vRM/edit?usp=sharing" class="external text" rel="nofollow">AMEDハッカソン4</a> ＠ DBCLS (柏)
+</li></ul>
+</li><li> 2017/10/23-24 <a href="/mw/SPARQLthon61" title="SPARQLthon61">SPARQLthon61</a> @ DBCLS (柏)
+<ul><li> 2017/10/12-13 <a href="https://docs.google.com/document/d/1PG66HCDhgaBzGCAVEize0cm5fsQ3cZWZm_Qqf-B2ohU/edit?usp=sharing" class="external text" rel="nofollow">AMEDハッカソン3</a> @ 京都
+</li><li> 2017/10/6 <a href="/mw/RDF-Tutorial" title="RDF-Tutorial">RDF-Tutorial</a> <a href="/mw/RDF-Tutorial2" title="RDF-Tutorial2">RDF-Tutorial2</a> 第2回RDF講習会
+</li></ul>
+</li><li> 2017/9/21-22 <a href="/mw/SPARQLthon60" title="SPARQLthon60">SPARQLthon60</a> @ DBCLS (柏) - 5周年!! 🍺 60回記念 👏
+<ul><li> 2017/9/11-13 <a href="https://docs.google.com/document/d/1J7V2Y1-mxbvagSN-ZWkEKymyRW32kjnTJyvV-3DUg3U/edit?usp=sharing" class="external text" rel="nofollow">AMEDハッカソン2</a> @ 盛岡
+</li><li> 2017/9/9-16 <a href="http://2017.biohackathon.org/" class="external text" rel="nofollow">BioHackathon 2017</a> @ NBDC (東京), 盛岡
+</li></ul>
+</li><li> 2017/8/30-31 <a href="/mw/SPARQLthon59" title="SPARQLthon59">SPARQLthon59</a> @- 理研 (和光)
+<ul><li> 2017/8/3-4 <a href="https://docs.google.com/document/d/1NEZiBPdJrBkkqHn4ECkE1SVnx6E7v9EOEwsIPhbCZes/edit" class="external text" rel="nofollow">AMEDハッカソン</a> ＠ DBCLS (柏)
+</li></ul>
+</li><li> 2017/7/27-28 <a href="/mw/SPARQLthon58" title="SPARQLthon58">SPARQLthon58</a> @ DBCLS (三島)
+<ul><li> 2017/7/7 AMEDハッカソン・キックオフ @ DBCLS (柏)
+</li></ul>
+</li><li> 2017/06/22-23 <a href="/mw/SPARQLthon57" title="SPARQLthon57">SPARQLthon57</a> @ DBCLS (柏)
+</li><li> 2017/05/15-16 <a href="/mw/SPARQLthon56" title="SPARQLthon56">SPARQLthon56</a> @ DBCLS（柏）
+</li><li> 2017/04/13-14 <a href="/mw/SPARQLthon55" title="SPARQLthon55">SPARQLthon55</a> @ DBCLS（柏）
+</li><li> 2017/03/13-14 <a href="/mw/SPARQLthon54" title="SPARQLthon54">SPARQLthon54</a> @ DBCLS（三島）
+</li><li> 2017/02/16-17 <a href="/mw/SPARQLthon53" title="SPARQLthon53">SPARQLthon53</a> @ DBCLS（柏）
+</li><li> 2017/01/23-24 <a href="/mw/SPARQLthon52" title="SPARQLthon52">SPARQLthon52</a> @ DBCLS（柏）
+</li><li> 2016/12/13-14 <a href="/mw/SPARQLthon51" title="SPARQLthon51">SPARQLthon51</a> @ 山口市 (<a href="/mw/BH16.12" title="BH16.12">BH16.12</a> と併催)
+<ul><li> 2016/12/12-16 国内版バイオハッカソン <a href="/mw/BH16.12" title="BH16.12">BH16.12</a> @ 山口市
+</li></ul>
+</li><li> 2016/11/21-22 <a href="/mw/SPARQLthon50" title="SPARQLthon50">SPARQLthon50</a> @ DBCLS (柏) - 50回記念 👏
+</li><li> 2016/10/24-25 <a href="/mw/SPARQLthon49" title="SPARQLthon49">SPARQLthon49</a> @ NBDC (市ヶ谷)
+<ul><li> 2016/10/07 <a href="/mw/RDF-Tutorial1" title="RDF-Tutorial1">RDF-Tutorial1</a> 第1回 RDF 講習会
+</li></ul>
+</li><li> 2016/09/20-21 <a href="/mw/SPARQLthon48" title="SPARQLthon48">SPARQLthon48</a> @ DBCLS (柏) - 4周年!! 👏
+</li><li> 2016/08/29-30 <a href="/mw/SPARQLthon47" title="SPARQLthon47">SPARQLthon47</a> @ DBCLS (柏)
+</li><li> 2016/07/25-26 <a href="/mw/SPARQLthon46" title="SPARQLthon46">SPARQLthon46</a> @ 新潟大学
+</li><li> 2016/06/23-24 <a href="/mw/SPARQLthon45" title="SPARQLthon45">SPARQLthon45</a> @ DBCLS (柏)
+</li><li> 2016/05/26-27 <a href="/mw/SPARQLthon44" title="SPARQLthon44">SPARQLthon44</a> @ DBCLS (三島)
+</li><li> 2016/04/25-26 <a href="/mw/SPARQLthon43" title="SPARQLthon43">SPARQLthon43</a> @ DBCLS (柏)
+</li><li> 2016/03/24-25 <a href="/mw/SPARQLthon42" title="SPARQLthon42">SPARQLthon42</a> @ 創価大 (八王子)
+<ul><li> 2016/03/17 国内版バイオハッカソン成果報告, オープンバイオ研究会 @ JAIST
+</li><li> 2016/03/14-16 国内版バイオハッカソン <a href="/mw/BH15.15" title="BH15.15">BH15.15</a> @ 金沢
+</li><li> 2016/02/19-24 <a href="https://github.com/dbcls/rdfsummit2" class="external text" rel="nofollow">RDFサミット2</a> @ ToMMo (仙台) - RDF のゲノムアノテーションと vg によるゲノムグラフの融合
+</li></ul>
+</li><li> 2016/02/16-17 <a href="/mw/SPARQLthon41" title="SPARQLthon41">SPARQLthon41</a> @ 理研 (和光)
+</li><li> 2016/01/14-15 <a href="/mw/SPARQLthon40" title="SPARQLthon40">SPARQLthon40</a> @ 京大 (宇治)
+</li><li> 2015/12/17-18 <a href="/mw/SPARQLthon39" title="SPARQLthon39">SPARQLthon39</a> @ DBCLS (三島)
+</li><li> 2015/11/05-06 <a href="/mw/SPARQLthon38" title="SPARQLthon38">SPARQLthon38</a> @ DBCLS (柏)
+</li><li> 2015/10/07-08 <a href="/mw/SPARQLthon37" title="SPARQLthon37">SPARQLthon37</a> @ DBCLS (柏)
+</li><li> 2015/09/01-02 <a href="/mw/SPARQLthon36" title="SPARQLthon36">SPARQLthon36</a> @ 東大先端研 - 3周年!! 👏
+</li><li> 2015/08/10-11 <a href="/mw/SPARQLthon35" title="SPARQLthon35">SPARQLthon35</a> @ DBCLS (三島)
+</li><li> 2015/07/16-17 <a href="/mw/SPARQLthon34" title="SPARQLthon34">SPARQLthon34</a> @ DBCLS (柏) 糖鎖
+</li><li> 2015/06/22-23 <a href="/mw/SPARQLthon33" title="SPARQLthon33">SPARQLthon33</a> @ DBCLS (柏)
+</li><li> 2015/05/14-15 <a href="/mw/SPARQLthon32" title="SPARQLthon32">SPARQLthon32</a> @ DBCLS (柏)
+</li><li> 2015/04/02-03 <a href="/mw/SPARQLthon31" title="SPARQLthon31">SPARQLthon31</a> @ DBCLS (三島) 
+<ul><li> 2015/03/20-21 <a href="http://open-bio.jp/?meeting19" class="external text" rel="nofollow">第19回オープンバイオ研究会</a> @ JAIST
+</li></ul>
+</li><li> 2015/03/12-13 <a href="/mw/SPARQLthon30" title="SPARQLthon30">SPARQLthon30</a> @ 理研 (和光)
+</li><li> 2015/02/12-13 <a href="/mw/SPARQLthon29" title="SPARQLthon29">SPARQLthon29</a> @ DBCLS (柏)
+<ul><li> 2015/02/02-06 <a href="/mw/BH14.14" title="BH14.14">BH14.14</a> 国内版バイオハッカソン @ 札幌
+</li></ul>
+</li><li> 2015/01/15-16 <a href="/mw/SPARQLthon28" title="SPARQLthon28">SPARQLthon28</a> @ DBCLS (柏)
+</li><li> 2014/12/18-19 <a href="/mw/SPARQLthon27" title="SPARQLthon27">SPARQLthon27</a> @ DBCLS (三島)
+</li><li> 2014/11/17-18 <a href="/mw/SPARQLthon26" title="SPARQLthon26">SPARQLthon26</a> @ DBCLS (柏)
+</li><li> 2014/10/27-28 <a href="/mw/SPARQLthon25" title="SPARQLthon25">SPARQLthon25</a> @ DBCLS (柏)
+<ul><li>2014/10/29-30 <a href="http://www.cvent.com/events/illumina-s-basespace-worldwide-developers-conference-wwdc-in-japan/event-summary-b0df17314f544d1ca576e6d80997ea10.aspx" class="external text" rel="nofollow">イルミナ BaseSpace の開発者会議</a> @DBCLS（柏）
+</li></ul>
+</li><li> 2014/09/25-26 <a href="/mw/SPARQLthon24" title="SPARQLthon24">SPARQLthon24</a> @ DBCLS (柏) - 2周年!!👏
+</li><li> 2014/08/18-19 <a href="/mw/SPARQLthon23" title="SPARQLthon23">SPARQLthon23</a> @ DBCLS (柏)
+</li><li> 2014/07/15-16 <a href="/mw/SPARQLthon22" title="SPARQLthon22">SPARQLthon22</a> @ DBCLS (柏)
+</li><li> 2014/06/18-19 <a href="/mw/SPARQLthon21" title="SPARQLthon21">SPARQLthon21</a> @ DBCLS (柏) - WIki から index.php 省略可に
+<ul><li> 2014/06/02 <a href="http://dbcls.rois.ac.jp/archives/2333" class="external text" rel="nofollow">統合化推進プログラムキックオフミーティング</a> @ NBDC (市ヶ谷)
+</li></ul>
+</li><li> 2014/05/27-28 <a href="/mw/SPARQLthon20" title="SPARQLthon20">SPARQLthon20</a> @ NBDC (市ヶ谷)
+<ul><li> 2014/05/17-20 <a href="https://github.com/dbcls/rdfsummit" class="external text" rel="nofollow">RDFサミット</a> @ DBCLS (柏) - Ensembl RDF と INSDC/RefSeq/TogoGenome で RDF モデル共通化など
+</li></ul>
+</li><li> 2014/04/21-22 <a href="/mw/SPARQLthon19" title="SPARQLthon19">SPARQLthon19</a> @ DBCLS (柏)
+</li><li> 2014/03/13-14 <a href="/mw/SPARQLthon18" title="SPARQLthon18">SPARQLthon18</a> @ DBCLS (柏の初回)
+</li><li> 2014/02/17-18 <a href="/mw/SPARQLthon17" title="SPARQLthon17">SPARQLthon17</a> @ DBCLS (根津の最終回) 
+<ul><li> 2014/02/10 NCBI taxdump に BioSample 用フラグ追加（予定）
+</li></ul>
+</li><li> 2014/01/27-31 <a href="/mw/BH13.13" title="BH13.13">BH13.13</a> 国内版バイオハッカソン@ 沖縄・万国津梁館
+<ul><li> 2014/01/31 <a href="http://www.biorxiv.org/content/early/2014/01/31/002121" class="external text" rel="nofollow">FALDO 論文が bioRxiv で先行公開</a>
+</li><li> 2014/01/30 <a href="http://pubchemblog.ncbi.nlm.nih.gov/2014/01/30/pubchemrdf-is-launched/" class="external text" rel="nofollow">NCBI が PubChem RDF を公開</a>
+</li><li> 2014/01/22 UniProt 2014_01 リリース（FALDO を正式採用）、RefSeq 63 リリース（ストレインは taxid → BioSample）
+</li></ul>
+</li><li> 2014/01/16-17 <a href="/mw/SPARQLthon16" title="SPARQLthon16">SPARQLthon16</a> @ DBCLS (根津)
+</li><li> 2013/12/16-17 <a href="/mw/SPARQLthon15" title="SPARQLthon15">SPARQLthon15</a> @ DBCLS (根津)
+</li><li> 2013/11/25-26 <a href="/mw/SPARQLthon14" title="SPARQLthon14">SPARQLthon14</a> @ DBCLS (根津)
+</li><li> 2013/10/23-24 <a href="/mw/SPARQLthon13" title="SPARQLthon13">SPARQLthon13</a> @ DBCLS (根津)
+<ul><li> 2013/10/08 <a href="http://www.ebi.ac.uk/about/news/press-releases/RDF-platform" class="external text" rel="nofollow">EBI が ChEMBL, Exp Atlas, Reactome, BioSamples, BioModels の RDF を公開</a>
+</li><li> 2013/10/05 トーゴーの日 <a href="http://togogenome.org/" class="external text" rel="nofollow">セマンティック・ウェブによるゲノムデータベース TogoGenome を発表</a>
+</li></ul>
+</li><li> 2013/09/17-18 <a href="/mw/SPARQLthon12" title="SPARQLthon12">SPARQLthon12</a> @ DBCLS (根津)
+</li><li> 2013/08/20-21 <a href="/mw/SPARQLthon11" title="SPARQLthon11">SPARQLthon11</a> @ DBCLS (根津)
+</li><li> 2013/07/30-31 <a href="/mw/SPARQLthon10" title="SPARQLthon10">SPARQLthon10</a> @ DBCLS (根津)
+</li><li> 2013/06/03-04 <a href="/mw/SPARQLthon9" title="SPARQLthon9">SPARQLthon9</a> @ DBCLS (根津)
+</li><li> 2013/05/23-24 <a href="/mw/SPARQLthon8" title="SPARQLthon8">SPARQLthon8</a> @ DBCLS (根津)
+</li><li> 2013/04/17-18 <a href="/mw/SPARQLthon7" title="SPARQLthon7">SPARQLthon7</a> @ DBCLS（根津）
+</li><li> 2013/03/14-15 <a href="/mw/SPARQLthon6" title="SPARQLthon6">SPARQLthon6</a> @ DBCLS（根津）
+</li><li> 2013/02/19-20 <a href="/mw/SPARQLthon5" title="SPARQLthon5">SPARQLthon5</a> @ DBCLS（根津）
+</li><li> 2013/01/18 <a href="/mw/SPARQLthon4" title="SPARQLthon4">SPARQLthon4</a> @ DBCLS（根津）
+<ul><li> 2012/12/19-21 <a href="/mw/BH12.12" title="BH12.12">BH12.12</a> 国内版バイオハッカソン @ DBCLS
+</li></ul>
+</li><li> 2012/12/04-05 <a href="/mw/SPARQLthon3" title="SPARQLthon3">SPARQLthon3</a> @ DBCLS（根津）
+</li><li> 2012/11/14 <a href="/mw/SPARQLthon2" title="SPARQLthon2">SPARQLthon2</a> @ DBCLS（根津）
+</li><li> 2012/10/30-31 <a href="/mw/SPARQLthon1" title="SPARQLthon1">SPARQLthon1</a> @ DBCLS（根津）
+<ul><li> 2011/11/21-25 <a href="/mw/BH11.11" title="BH11.11">BH11.11</a> 国内版バイオハッカソン@ 静岡・ラフォーレ修善寺
+</li><li> 2010/10/18-22 <a href="/mw/BH10.10" title="BH10.10">BH10.10</a> 国内版バイオハッカソン @ 静岡・ラフォーレ修善寺
+</li></ul>
+</li></ul>
+<div class="printfooter">
+「<a href="http://wiki.lifesciencedb.jp/mw/SPARQLthon">http://wiki.lifesciencedb.jp/mw/SPARQLthon</a>」より作成</div>
+		<div id='catlinks' class='catlinks'><div id="mw-normal-catlinks"><a href="/mw/%E7%89%B9%E5%88%A5:%E3%82%AB%E3%83%86%E3%82%B4%E3%83%AA" title="特別:カテゴリ">カテゴリ</a>: <span dir='ltr'><a href="/mw/index.php?title=Category:SPARQLthon&amp;action=edit&amp;redlink=1" class="new" title="Category:SPARQLthon（存在しないページ）">SPARQLthon</a></span></div></div>		<!-- end content -->
+				<div class="visualClear"></div>
+	</div>
+</div></div>
+<div id="column-one">
+	<div id="p-cactions" class="portlet">
+		<h5>表示</h5>
+		<div class="pBody">
+			<ul>
+				 <li id="ca-nstab-main" class="selected"><a href="/mw/SPARQLthon" title="本文を表示 [c]" accesskey="c">ページ</a></li>
+				 <li id="ca-talk" class="new"><a href="/mw/index.php?title=%E3%83%8E%E3%83%BC%E3%83%88:SPARQLthon&amp;action=edit&amp;redlink=1" title="記事についての議論 [t]" accesskey="t">議論</a></li>
+				 <li id="ca-viewsource"><a href="/mw/index.php?title=SPARQLthon&amp;action=edit&amp;oldid=27211" title="このページは保護されています。&#10;ページのソースを閲覧できます。 [e]" accesskey="e">ソースを表示</a></li>
+				 <li id="ca-history"><a href="/mw/index.php?title=SPARQLthon&amp;action=history" title="このページの過去の版 [h]" accesskey="h">履歴</a></li>
+			</ul>
+		</div>
+	</div>
+	<div class="portlet" id="p-personal">
+		<h5>個人用ツール</h5>
+		<div class="pBody">
+			<ul>
+				<li id="pt-anonuserpage"><a href="/mw/%E5%88%A9%E7%94%A8%E8%80%85:172.18.8.51" title="自分が編集しているIPアドレスの利用者ページ [.]" accesskey="." class="new">172.18.8.51</a></li>
+				<li id="pt-anontalk"><a href="/mw/%E5%88%A9%E7%94%A8%E8%80%85%E2%80%90%E4%BC%9A%E8%A9%B1:172.18.8.51" title="このIPアドレスからなされた編集についての議論 [n]" accesskey="n" class="new">このIPアドレスのトーク</a></li>
+				<li id="pt-anonlogin"><a href="/mw/index.php?title=%E7%89%B9%E5%88%A5:%E3%83%AD%E3%82%B0%E3%82%A4%E3%83%B3&amp;returnto=SPARQLthon&amp;returntoquery=diff%3Dprev%26oldid%3D27211" title="ログインすることが推奨されます。ただし、必須ではありません。 [o]" accesskey="o">ログイン</a></li>
+				<li id="pt-openidlogin"><a href="/mw/index.php?title=%E7%89%B9%E5%88%A5:OpenID%E3%83%AD%E3%82%B0%E3%82%A4%E3%83%B3&amp;returnto=SPARQLthon">OpenIDでログイン</a></li>
+			</ul>
+		</div>
+	</div>
+	<div class="portlet" id="p-logo">
+		<a style="background-image: url(/mw/images/togowiki-logo.png);" href="/mw/%E3%83%A1%E3%82%A4%E3%83%B3%E3%83%9A%E3%83%BC%E3%82%B8" title="メインページに移動"></a>
+	</div>
+	<script type="text/javascript"> if (window.isMSIE55) fixalpha(); </script>
+	<div class='generated-sidebar portlet' id='p-navigation'>
+		<h5>案内</h5>
+		<div class='pBody'>
+			<ul>
+				<li id="n-mainpage-description"><a href="/mw/%E3%83%A1%E3%82%A4%E3%83%B3%E3%83%9A%E3%83%BC%E3%82%B8" title="メインページに移動する [z]" accesskey="z">メインページ</a></li>
+				<li id="n-portal"><a href="/mw/TogoWiki:%E3%82%B3%E3%83%9F%E3%83%A5%E3%83%8B%E3%83%86%E3%82%A3%E3%83%BB%E3%83%9D%E3%83%BC%E3%82%BF%E3%83%AB" title="このプロジェクトについて、できること、情報を入手する場所">コミュニティ・ポータル</a></li>
+				<li id="n-currentevents"><a href="/mw/TogoWiki:%E6%9C%80%E8%BF%91%E3%81%AE%E5%87%BA%E6%9D%A5%E4%BA%8B" title="最近の出来事について予備知識を得る">最近の出来事</a></li>
+				<li id="n-recentchanges"><a href="/mw/%E7%89%B9%E5%88%A5:%E6%9C%80%E8%BF%91%E3%81%AE%E6%9B%B4%E6%96%B0" title="ウィキにおける最近の更新の一覧 [r]" accesskey="r">最近の更新</a></li>
+				<li id="n-randompage"><a href="/mw/%E7%89%B9%E5%88%A5:%E3%81%8A%E3%81%BE%E3%81%8B%E3%81%9B%E8%A1%A8%E7%A4%BA" title="無作為に抽出されたページの読み込み [x]" accesskey="x">おまかせ表示</a></li>
+				<li id="n-help"><a href="/mw/Help:%E7%9B%AE%E6%AC%A1" title="情報を得る場所">ヘルプ</a></li>
+			</ul>
+		</div>
+	</div>
+	<div id="p-search" class="portlet">
+		<h5><label for="searchInput">検索</label></h5>
+		<div id="searchBody" class="pBody">
+			<form action="/mw/index.php" id="searchform">
+				<input type='hidden' name="title" value="特別:検索"/>
+				<input id="searchInput" title="TogoWiki内を検索" accesskey="f" type="search" name="search" />
+				<input type='submit' name="go" class="searchButton" id="searchGoButton"	value="表示" title="厳密に一致する名前のページが存在すれば、そのページへ移動します" />&nbsp;
+				<input type='submit' name="fulltext" class="searchButton" id="mw-searchButton" value="検索" title="入力された文字列が含まれるページを検索します" />
+			</form>
+		</div>
+	</div>
+	<div class="portlet" id="p-tb">
+		<h5>ツールボックス</h5>
+		<div class="pBody">
+			<ul>
+				<li id="t-whatlinkshere"><a href="/mw/%E7%89%B9%E5%88%A5:%E3%83%AA%E3%83%B3%E3%82%AF%E5%85%83/SPARQLthon" title="ここにリンクしている全ウィキのページの一覧 [j]" accesskey="j">リンク元</a></li>
+				<li id="t-recentchangeslinked"><a href="/mw/%E7%89%B9%E5%88%A5:%E9%96%A2%E9%80%A3%E3%83%9A%E3%83%BC%E3%82%B8%E3%81%AE%E6%9B%B4%E6%96%B0%E7%8A%B6%E6%B3%81/SPARQLthon" title="このページからリンクしているページの最近の更新 [k]" accesskey="k">関連ページの更新状況</a></li>
+<li id="t-specialpages"><a href="/mw/%E7%89%B9%E5%88%A5:%E7%89%B9%E5%88%A5%E3%83%9A%E3%83%BC%E3%82%B8%E4%B8%80%E8%A6%A7" title="特別ページの一覧 [q]" accesskey="q">特別ページ</a></li>
+				<li id="t-print"><a href="/mw/index.php?title=SPARQLthon&amp;diff=prev&amp;oldid=27211&amp;printable=yes" rel="alternate" title="このページの印刷用ページ [p]" accesskey="p">印刷用バージョン</a></li>				<li id="t-permalink"><a href="/mw/index.php?title=SPARQLthon&amp;oldid=27211" title="ページのこの版への固定リンク">この版への固定リンク</a></li>			</ul>
+		</div>
+	</div>
+</div><!-- end of the left (by default at least) column -->
+<div class="visualClear"></div>
+<div id="footer">
+	<div id="f-poweredbyico"><a href="http://www.mediawiki.org/"><img src="/mw/skins/common/images/poweredby_mediawiki_88x31.png" height="31" width="88" alt="Powered by MediaWiki" /></a></div>
+	<div id="f-copyrightico"><a href="http://creativecommons.org/licenses/by/3.0/"><img src="http://i.creativecommons.org/l/by/3.0/88x31.png" alt="Attribution 3.0 Unported" width="88" height="31" /></a></div>
+	<ul id="f-list">
+		<li id="lastmod"> このページの最終更新は 2023年3月14日 (火) 07:49 に行われました。</li>
+		<li id="viewcount">このページは302,621回アクセスされました。</li>
+		<li id="copyright">内容は<a href="http://creativecommons.org/licenses/by/3.0/" class="external ">Attribution 3.0 Unported</a>のライセンスで利用することができます。</li>
+		<li id="privacy"><a href="/mw/TogoWiki:%E3%83%97%E3%83%A9%E3%82%A4%E3%83%90%E3%82%B7%E3%83%BC%E3%83%BB%E3%83%9D%E3%83%AA%E3%82%B7%E3%83%BC" title="TogoWiki:プライバシー・ポリシー">プライバシー・ポリシー</a></li>
+		<li id="about"><a href="/mw/TogoWiki:TogoWiki%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6" title="TogoWiki:TogoWikiについて">TogoWikiについて</a></li>
+		<li id="disclaimer"><a href="/mw/TogoWiki:%E5%85%8D%E8%B2%AC%E4%BA%8B%E9%A0%85" title="TogoWiki:免責事項">免責事項</a></li>
+	</ul>
+</div>
+</div>
+
+<script>if (window.runOnloadHook) runOnloadHook();</script>
+<!-- Served in 0.747 secs. --></body></html>

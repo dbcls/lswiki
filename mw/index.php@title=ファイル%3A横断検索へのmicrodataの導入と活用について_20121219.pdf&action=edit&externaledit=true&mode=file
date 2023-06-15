@@ -1,0 +1,11 @@
+[Process]
+Type=Edit file
+Engine=MediaWiki
+Script=http://wiki.lifesciencedb.jp/mw/index.php
+Server=http://wiki.lifesciencedb.jp
+Path=/mw
+Special namespace=特別
+
+[File]
+Extension=pdf
+URL=http://wiki.lifesciencedb.jp/mw/images/d/d7/%E6%A8%AA%E6%96%AD%E6%A4%9C%E7%B4%A2%E3%81%B8%E3%81%AEmicrodata%E3%81%AE%E5%B0%8E%E5%85%A5%E3%81%A8%E6%B4%BB%E7%94%A8%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6_20121219.pdf

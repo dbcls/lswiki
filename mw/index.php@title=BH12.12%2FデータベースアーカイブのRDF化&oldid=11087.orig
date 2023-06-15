@@ -1,0 +1,421 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html lang="ja" dir="ltr">
+<head>
+<title>BH12.12/データベースアーカイブのRDF化 - TogoWiki</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta name="generator" content="MediaWiki 1.16.3" />
+<link rel="shortcut icon" href="/favicon.ico" />
+<link rel="search" type="application/opensearchdescription+xml" href="/mw/opensearch_desc.php" title="TogoWiki (ja)" />
+<link title="Creative Commons" type="application/rdf+xml" href="/mw/index.php?title=BH12.12/%E3%83%87%E3%83%BC%E3%82%BF%E3%83%99%E3%83%BC%E3%82%B9%E3%82%A2%E3%83%BC%E3%82%AB%E3%82%A4%E3%83%96%E3%81%AERDF%E5%8C%96&amp;action=creativecommons" rel="meta" />
+<link rel="copyright" href="http://creativecommons.org/licenses/by/3.0/" />
+<link rel="alternate" type="application/atom+xml" title="TogoWikiのAtomフィード" href="/mw/index.php?title=%E7%89%B9%E5%88%A5:%E6%9C%80%E8%BF%91%E3%81%AE%E6%9B%B4%E6%96%B0&amp;feed=atom" />
+<link rel="stylesheet" href="/mw/skins/common/shared.css?270" media="screen" />
+<link rel="stylesheet" href="/mw/skins/common/commonPrint.css?270" media="print" />
+<link rel="stylesheet" href="/mw/skins/monobook/main.css?270" media="screen" />
+<!--[if lt IE 5.5000]><link rel="stylesheet" href="/mw/skins/monobook/IE50Fixes.css?270" media="screen" /><![endif]-->
+<!--[if IE 5.5000]><link rel="stylesheet" href="/mw/skins/monobook/IE55Fixes.css?270" media="screen" /><![endif]-->
+<!--[if IE 6]><link rel="stylesheet" href="/mw/skins/monobook/IE60Fixes.css?270" media="screen" /><![endif]-->
+<!--[if IE 7]><link rel="stylesheet" href="/mw/skins/monobook/IE70Fixes.css?270" media="screen" /><![endif]-->
+<link rel="stylesheet" href="/mw/index.php?title=MediaWiki:Common.css&amp;usemsgcache=yes&amp;ctype=text%2Fcss&amp;smaxage=18000&amp;action=raw&amp;maxage=18000" />
+<link rel="stylesheet" href="/mw/index.php?title=MediaWiki:Print.css&amp;usemsgcache=yes&amp;ctype=text%2Fcss&amp;smaxage=18000&amp;action=raw&amp;maxage=18000" media="print" />
+<link rel="stylesheet" href="/mw/index.php?title=MediaWiki:Monobook.css&amp;usemsgcache=yes&amp;ctype=text%2Fcss&amp;smaxage=18000&amp;action=raw&amp;maxage=18000" />
+<link rel="stylesheet" href="/mw/index.php?title=-&amp;action=raw&amp;maxage=18000&amp;gen=css" />
+<script>
+var skin="monobook",
+stylepath="/mw/skins",
+wgUrlProtocols="http\\:\\/\\/|https\\:\\/\\/|ftp\\:\\/\\/|irc\\:\\/\\/|gopher\\:\\/\\/|telnet\\:\\/\\/|nntp\\:\\/\\/|worldwind\\:\\/\\/|mailto\\:|news\\:|svn\\:\\/\\/",
+wgArticlePath="/mw/$1",
+wgScriptPath="/mw",
+wgScriptExtension=".php",
+wgScript="/mw/index.php",
+wgVariantArticlePath=false,
+wgActionPaths={},
+wgServer="http://wiki.lifesciencedb.jp",
+wgCanonicalNamespace="",
+wgCanonicalSpecialPageName=false,
+wgNamespaceNumber=0,
+wgPageName="BH12.12/データベースアーカイブのRDF化",
+wgTitle="BH12.12/データベースアーカイブのRDF化",
+wgAction="view",
+wgArticleId=166,
+wgIsArticle=true,
+wgUserName=null,
+wgUserGroups=null,
+wgUserLanguage="ja",
+wgContentLanguage="ja",
+wgBreakFrames=false,
+wgCurRevisionId=11087,
+wgVersion="1.16.3",
+wgEnableAPI=true,
+wgEnableWriteAPI=true,
+wgSeparatorTransformTable=["", ""],
+wgDigitTransformTable=["", ""],
+wgMainPageTitle="メインページ",
+wgFormattedNamespaces={"-2": "メディア", "-1": "特別", "0": "", "1": "ノート", "2": "利用者", "3": "利用者‐会話", "4": "TogoWiki", "5": "TogoWiki‐ノート", "6": "ファイル", "7": "ファイル‐ノート", "8": "MediaWiki", "9": "MediaWiki‐ノート", "10": "Template", "11": "Template‐ノート", "12": "Help", "13": "Help‐ノート", "14": "Category", "15": "Category‐ノート"},
+wgNamespaceIds={"メディア": -2, "特別": -1, "": 0, "ノート": 1, "利用者": 2, "利用者‐会話": 3, "togowiki": 4, "togowiki‐ノート": 5, "ファイル": 6, "ファイル‐ノート": 7, "mediawiki": 8, "mediawiki‐ノート": 9, "template": 10, "template‐ノート": 11, "help": 12, "help‐ノート": 13, "category": 14, "category‐ノート": 15, "画像": 6, "画像‐ノート": 7, "image": 6, "image_talk": 7},
+wgSiteName="TogoWiki",
+wgCategories=[],
+wgRestrictionEdit=[],
+wgRestrictionMove=[];
+</script><script src="/mw/skins/common/wikibits.js?270"></script>
+<script src="/mw/skins/common/ajax.js?270"></script>
+<script src="/mw/index.php?title=-&amp;action=raw&amp;gen=js&amp;useskin=monobook&amp;270"></script>
+
+		<style type='text/css'>
+		li#pt-openidlogin {
+		  background: url(/mw/extensions/OpenID/skin/icons/openid-inputicon.png) top left no-repeat;
+		  padding-left: 20px;
+		  text-transform: none;
+		}
+		</style>
+</head>
+<body class="mediawiki ltr ns-0 ns-subject page-BH12_12_データベースアーカイブのRDF化 skin-monobook">
+<div id="globalWrapper">
+<div id="column-content"><div id="content" >
+	<a id="top"></a>
+	
+	<h1 id="firstHeading" class="firstHeading">BH12.12/データベースアーカイブのRDF化</h1>
+	<div id="bodyContent">
+		<h3 id="siteSub">提供：TogoWiki</h3>
+		<div id="contentSub">
+				<div id="mw-revision-info">2014年1月23日 (木) 04:55時点における<a href="/mw/index.php?title=%E5%88%A9%E7%94%A8%E8%80%85:Atsuko&amp;action=edit&amp;redlink=1" class="new mw-userlink" title="利用者:Atsuko（存在しないページ）">Atsuko</a>  <span class="mw-usertoollinks">(<a href="/mw/index.php?title=%E5%88%A9%E7%94%A8%E8%80%85%E2%80%90%E4%BC%9A%E8%A9%B1:Atsuko&amp;action=edit&amp;redlink=1" class="new" title="利用者‐会話:Atsuko（存在しないページ）">トーク</a> | <a href="/mw/%E7%89%B9%E5%88%A5:%E6%8A%95%E7%A8%BF%E8%A8%98%E9%8C%B2/Atsuko" title="特別:投稿記録/Atsuko">投稿記録</a>)</span>による版</div>
+
+				<div id="mw-revision-nav">(<a href="/mw/index.php?title=BH12.12/%E3%83%87%E3%83%BC%E3%82%BF%E3%83%99%E3%83%BC%E3%82%B9%E3%82%A2%E3%83%BC%E3%82%AB%E3%82%A4%E3%83%96%E3%81%AERDF%E5%8C%96&amp;diff=prev&amp;oldid=11087" title="BH12.12/データベースアーカイブのRDF化">差分</a>) <a href="/mw/index.php?title=BH12.12/%E3%83%87%E3%83%BC%E3%82%BF%E3%83%99%E3%83%BC%E3%82%B9%E3%82%A2%E3%83%BC%E3%82%AB%E3%82%A4%E3%83%96%E3%81%AERDF%E5%8C%96&amp;direction=prev&amp;oldid=11087" title="BH12.12/データベースアーカイブのRDF化">←前の版</a> | 最新版 (差分) | 次の版→ (差分)</div>
+			</div>
+		<div id="jump-to-nav">移動： <a href="#column-one">案内</a>, <a href="#searchInput">検索</a></div>
+		<!-- start content -->
+<table id="toc" class="toc"><tr><td><div id="toctitle"><h2>目次</h2></div>
+<ul>
+<li class="toclevel-1 tocsection-1"><a href="#.E7.9B.AE.E6.A8.99"><span class="tocnumber">1</span> <span class="toctext">目標</span></a></li>
+<li class="toclevel-1 tocsection-2"><a href="#.E5.8F.82.E5.8A.A0.E8.80.85.28.E8.87.AA.E7.94.B1.E3.81.AB.E4.BB.98.E3.81.91.E5.8A.A0.E3.81.88.E3.81.A6.E3.81.8F.E3.81.A0.E3.81.95.E3.81.84.29"><span class="tocnumber">2</span> <span class="toctext">参加者(自由に付け加えてください)</span></a></li>
+<li class="toclevel-1 tocsection-3"><a href="#.E3.82.B5.E3.83.9E.E3.83.AA"><span class="tocnumber">3</span> <span class="toctext">サマリ</span></a></li>
+<li class="toclevel-1 tocsection-4"><a href="#.E4.BA.8B.E5.89.8DTODO"><span class="tocnumber">4</span> <span class="toctext">事前TODO</span></a></li>
+<li class="toclevel-1 tocsection-5"><a href="#.E5.BD.93.E6.97.A5TODO"><span class="tocnumber">5</span> <span class="toctext">当日TODO</span></a></li>
+<li class="toclevel-1 tocsection-6"><a href="#.E3.83.A6.E3.83.BC.E3.82.B9.E3.82.B1.E3.83.BC.E3.82.B9.E4.BE.8B"><span class="tocnumber">6</span> <span class="toctext">ユースケース例</span></a></li>
+<li class="toclevel-1 tocsection-7"><a href="#.E5.95.8F.E9.A1.8C.E7.82.B9"><span class="tocnumber">7</span> <span class="toctext">問題点</span></a></li>
+<li class="toclevel-1 tocsection-8"><a href="#Tips"><span class="tocnumber">8</span> <span class="toctext">Tips</span></a></li>
+</ul>
+</td></tr></table><script>if (window.showTocToggle) { var tocShowText = "表示"; var tocHideText = "非表示"; showTocToggle(); } </script>
+<h2> <span class="mw-headline" id=".E7.9B.AE.E6.A8.99">目標</span></h2>
+<ul><li> アーカイブ内の全てのデータ(2012.11時点のもの)を triple store に入れる
+</li><li> 検索のユースケースを考え，その検索に必要なメタデータを付け加える
+</li></ul>
+<h2> <span class="mw-headline" id=".E5.8F.82.E5.8A.A0.E8.80.85.28.E8.87.AA.E7.94.B1.E3.81.AB.E4.BB.98.E3.81.91.E5.8A.A0.E3.81.88.E3.81.A6.E3.81.8F.E3.81.A0.E3.81.95.E3.81.84.29">参加者(自由に付け加えてください)</span></h2>
+<ul><li> 畠中
+</li><li> 櫛田
+</li><li> 大久保
+</li><li> 山口
+</li><li> 呉
+</li></ul>
+<h2> <span class="mw-headline" id=".E3.82.B5.E3.83.9E.E3.83.AA">サマリ</span></h2>
+<p>行ったことの手順
+</p>
+<ul><li> アーカイブ内の全てのデータ(2012.11時点のもの)を triple store に入れる
+<ul><li> <a href="http://dba.dbcls.jp/" class="external free" rel="nofollow">http://dba.dbcls.jp/</a>
+</li></ul>
+</li><li> ユースケースを考える
+<ul><li> ある化合物に対し，その化合物を生体内に含む植物をすべて包含する分類群を求めよ
+</li><li> ラットである病理所見を得られた化合物を含む植物のリストを求めよ
+</li><li> KNApSAcK もしくは Open TG-GATE の化合物からターゲットタンパク質を導く
+</li><li> ある生物群に含まれる生物種のデータを含むデータベースを求めよ
+</li></ul>
+</li><li> ユースケースに必要なデータを追加する
+<ul><li> 各DBに含まれる化合物について共通のIDを追加する (ChEBI, InChI, InChIKey)
+</li><li> 各DBに含まれる生物種について(必要があれば)共通のIDを追加する (NCBI Taxonomy)
+</li></ul>
+</li><li> ユースケースをSPARQL に書き下す
+<ul><li> ある化合物に対し，その化合物を生体内に含む植物をすべて包含する分類群を求めよ-&gt;DONE
+</li><li> ラットである病理所見を得られた化合物を含む植物のリストを求めよ-&gt;DONE
+</li><li> KNApSAcK もしくは Open TG-GATE の化合物からターゲットタンパク質を導く-&gt;DONE
+</li><li> ある生物群に含まれる生物種のデータを含むデータベースを求めよ-&gt;DONE
+</li></ul>
+</li></ul>
+<h2> <span class="mw-headline" id=".E4.BA.8B.E5.89.8DTODO">事前TODO</span></h2>
+<ul><li> triple store の準備(マシン選定済み, 12月中旬に準備予定)
+<ul><li> <a href="http://dba.dbcls.jp/" class="external free" rel="nofollow">http://dba.dbcls.jp/</a> を準備済． Virtuoso 6.4 が利用可能．
+</li></ul>
+</li><li> 検索ユースケースの検討
+<ul><li> 利用可能な外部 SPARQL endpoint リスト
+<ul><li> <a href="http://wiki.lifesciencedb.jp/mw/index.php/BH12.12/SPARQLthon/SPARQLendpoints" class="external free" rel="nofollow">http://wiki.lifesciencedb.jp/mw/index.php/BH12.12/SPARQLthon/SPARQLendpoints</a>
+</li><li> <a href="https://github.com/dbcls/bh12/wiki/Existing-sparql-endpoints" class="external free" rel="nofollow">https://github.com/dbcls/bh12/wiki/Existing-sparql-endpoints</a>
+</li><li> 外部SPARQL endpoint調査
+<ul><li> <a href="http://wg.biosciencedbc.jp/dokuwiki/doku.php?id=sparql_endpoints" class="external free" rel="nofollow">http://wg.biosciencedbc.jp/dokuwiki/doku.php?id=sparql_endpoints</a>
+</li></ul>
+</li></ul>
+</li><li> 利用するオントロジーの選定
+</li></ul>
+</li><li> 初期RDF作成-&gt;DONE 
+<ul><li> 上記 store 準備後，事前に入れておく -&gt; Done
+</li></ul>
+</li><li> ...
+</li></ul>
+<h2> <span class="mw-headline" id=".E5.BD.93.E6.97.A5TODO">当日TODO</span></h2>
+<ul><li> オントロジーの割当
+<ul><li> 各化合物をChEBI に割当
+</li><li> 化合物グループの合意に基づき，InChi, InChiKey も割当てる
+</li><li> 割当時にデータの誤り(DBアーカイブ内，ChEBI)があったので，手動で訂正できるところは訂正する 
+</li></ul>
+</li><li> SPARQL 作成&amp;テスト
+<ul><li> Taxonomy のエンドポイント選定
+</li></ul>
+</li></ul>
+<ul><li>12/19
+<ul><li> KNApSAcK と Open TG-Gates に含まれる化合物で可能なものを全て ChEBI に割当てた
+<ul><li> 割当時にデータの問題をいくつか発見
+<ul><li> 元の TogoDB に入ってた KNApSAcK のデータの問題(デリミタと同じ記号がデータの中もある) → 今回は対応の時間がないため，後日入れ替え
+</li><li> CAS-ChEBI が一対一になってない(一つの CAS に複数の ChEBI がつく例が 20 ほど)→畠中さんが一例一例中を見て手動で対応
+</li></ul>
+</li></ul>
+</li><li> DBアーカイブRDFのβサイトを立ち上げた
+<ul><li>予め入れていた 60 のDBのRDFデータに加え，ChEBI の割当データをアップロードした
+</li></ul>
+</li></ul>
+</li></ul>
+<ul><li>12/20
+<ul><li> KNApSAcK の化合物に InChI, InChIKey を付けた
+<ul><li> KNApSAcK の mol ファイルを本家 KNApSAcK のサイトからダウンロード
+</li><li> IUPAC のサイトからmolファイルをInChI, InChIKey に変換するツールを取得
+</li><li> InChI, InChIKey の記述方法がサイトによってバラバラ(例: 先頭に"InChIKey="を含む含まない)→PubChem, ChemSpider などのサイトに合わせ，InChI は"InChI="を含め，InChIKey は"InChIKey"を含めない方針で
+</li></ul>
+</li><li> CAS-ChEBI が一対一になってない(一つの CAS に複数の ChEBI がつく例が 20 ほど)問題，対応中
+<ul><li> 現状で一番多い原因: 平衡な二種の化合物が CAS では同じになっているが，ChEBI では区別する
+</li></ul>
+</li><li> ある化合物に対し，その化合物を生体内に含む生物種をすべて包含する分類群をLODAC speciesを使って抽出する検索式の検討
+</li><li> 外部Taxonomy endpoint は，subClassOf のインファレンスが使えないか(bio2rdf)，遅いか間違いがあるようなので(LODAC)，自前で OBO の NCBITaxon をダウンロード＆エンドポイント作成
+</li><li> integbio DB カタログは NCBI Taxonomy ID が独自フォーマットであったため，OBO NCBI Taxon に沿って追加データを作成して，追加．
+</li><li> SPARQL 2種
+<ul><li> ラットである病理所見を得られた化合物を含む植物のリストを求めよ
+</li></ul>
+</li></ul>
+</li></ul>
+<pre>SELECT DISTINCT&nbsp;?o WHERE {
+&nbsp;?tggatespatho  &lt;<a href="http://togodb.biosciencedbc.jp/togodb/meta/open_tggates_pathology#find_type" class="external free" rel="nofollow">http://togodb.biosciencedbc.jp/togodb/meta/open_tggates_pathology#find_type</a>&gt; "Hypertrophy" .
+&nbsp;?tggatespatho     &lt;<a href="http://togodb.biosciencedbc.jp/togodb/meta/open_tggates_pathology#compound_name" class="external free" rel="nofollow">http://togodb.biosciencedbc.jp/togodb/meta/open_tggates_pathology#compound_name</a>&gt;&nbsp;?compoundname .
+&nbsp;?tggatesmain &lt;<a href="http://togodb.biosciencedbc.jp/togodb/meta/open_tggates_main#compound_name" class="external free" rel="nofollow">http://togodb.biosciencedbc.jp/togodb/meta/open_tggates_main#compound_name</a>&gt;&nbsp;?compoundname .
+&nbsp;?tggatesmain &lt;<a href="http://togodb.biosciencedbc.jp/togodb/meta/open_tggates_main#chebi" class="external free" rel="nofollow">http://togodb.biosciencedbc.jp/togodb/meta/open_tggates_main#chebi</a>&gt;&nbsp;?chebi .
+&nbsp;?knapsackcore &lt;<a href="http://togodb.biosciencedbc.jp/togodb/meta/knapsack_core#chebi" class="external free" rel="nofollow">http://togodb.biosciencedbc.jp/togodb/meta/knapsack_core#chebi</a>&gt;&nbsp;?chebi .  
+&nbsp;?knapsackcore &lt;<a href="http://togodb.biosciencedbc.jp/togodb/meta/knapsack_core#organism" class="external free" rel="nofollow">http://togodb.biosciencedbc.jp/togodb/meta/knapsack_core#organism</a>&gt;&nbsp;?o}
+</pre>
+<ul><li><ul><li><ul><li> ある生物群に含まれる生物種のデータを含むデータベースを求めよ
+</li></ul>
+</li></ul>
+</li></ul>
+<pre> define input:inference "subClassOf_NCBITaxon"
+ SELECT&nbsp;?dbname WHERE {
+ &nbsp;?taxon rdfs:label "Mammalia"^^&lt;<a href="http://www.w3.org/2001/XMLSchema#string" class="external free" rel="nofollow">http://www.w3.org/2001/XMLSchema#string</a>&gt; .
+ &nbsp;?sub rdfs:subClassOf&nbsp;?taxon .
+ &nbsp;?db &lt;<a href="http://integbio.jp/dbcatalog/meta#dbcat_taxonomy_id" class="external free" rel="nofollow">http://integbio.jp/dbcatalog/meta#dbcat_taxonomy_id</a>&gt;&nbsp;?sub .
+ &nbsp;?db &lt;<a href="http://integbio.jp/dbcatalog/meta#dbcat_db_name" class="external free" rel="nofollow">http://integbio.jp/dbcatalog/meta#dbcat_db_name</a>&gt;&nbsp;?dbname .
+}
+</pre>
+<pre>define input:inference "subClassOf_NCBITaxon"
+ SELECT DISTINCT&nbsp;?dbname WHERE {
+&nbsp;?supertaxon &lt;<a href="http://www.w3.org/2000/01/rdf-schema#label" class="external free" rel="nofollow">http://www.w3.org/2000/01/rdf-schema#label</a>&gt; "Mammalia"^^&lt;<a href="http://www.w3.org/2001/XMLSchema#string" class="external free" rel="nofollow">http://www.w3.org/2001/XMLSchema#string</a>&gt; .
+&nbsp;?taxon rdfs:subClassOf&nbsp;?supertaxon .
+&nbsp;?taxon &lt;<a href="http://www.w3.org/2000/01/rdf-schema#label" class="external free" rel="nofollow">http://www.w3.org/2000/01/rdf-schema#label</a>&gt;&nbsp;?taxonname .
+&nbsp;?database &lt;<a href="http://integbio.jp/dbcatalog/meta#dbcat_organism" class="external free" rel="nofollow">http://integbio.jp/dbcatalog/meta#dbcat_organism</a>&gt;&nbsp;?organism .
+ FILTER(CONTAINS(?organism,&nbsp;?taxonname)) .
+&nbsp;?database &lt;<a href="http://integbio.jp/dbcatalog/meta#dbcat_db_name" class="external free" rel="nofollow">http://integbio.jp/dbcatalog/meta#dbcat_db_name</a>&gt;&nbsp;?dbname .
+}
+</pre>
+<ul><li>12/21
+<ul><li> Open TG-GATE のエントリに ChEBI を通して InChI, InChIKey を付けた
+</li><li> 残り二つのクエリ作成
+<ul><li> ある化合物に対し，その化合物を生体内に含む生物種をすべて包含する分類群を求めよ
+</li></ul>
+</li></ul>
+</li></ul>
+<pre>define input:inference "subClassOf_NCBITaxon"
+SELECT&nbsp;?label (COUNT(?label) AS&nbsp;?totalSuper)
+{
+&nbsp;?knapsackcore &lt;<a href="http://togodb.biosciencedbc.jp/togodb/meta/knapsack_core#metabolite" class="external free" rel="nofollow">http://togodb.biosciencedbc.jp/togodb/meta/knapsack_core#metabolite</a>&gt; "alpha-Thujene" .
+&nbsp;?knapsackcore &lt;<a href="http://togodb.biosciencedbc.jp/togodb/meta/knapsack_core#organism" class="external free" rel="nofollow">http://togodb.biosciencedbc.jp/togodb/meta/knapsack_core#organism</a>&gt;&nbsp;?organism .
+ FILTER(str(?taxonname)=?organism) .
+&nbsp;?taxon &lt;<a href="http://www.w3.org/2000/01/rdf-schema#label" class="external free" rel="nofollow">http://www.w3.org/2000/01/rdf-schema#label</a>&gt;&nbsp;?taxonname .
+&nbsp;?taxon &lt;<a href="http://www.w3.org/2000/01/rdf-schema#subClassOf" class="external free" rel="nofollow">http://www.w3.org/2000/01/rdf-schema#subClassOf</a>&gt; &lt;<a href="http://purl.obolibrary.org/obo/NCBITaxon_3193" class="external free" rel="nofollow">http://purl.obolibrary.org/obo/NCBITaxon_3193</a>&gt; .
+&nbsp;?taxon &lt;<a href="http://www.w3.org/2000/01/rdf-schema#subClassOf" class="external free" rel="nofollow">http://www.w3.org/2000/01/rdf-schema#subClassOf</a>&gt;&nbsp;?super .
+&nbsp;?super &lt;<a href="http://www.w3.org/2000/01/rdf-schema#label" class="external free" rel="nofollow">http://www.w3.org/2000/01/rdf-schema#label</a>&gt;&nbsp;?label.
+}
+GROUP BY&nbsp;?label
+ORDER BY DESC (?totalSuper)
+</pre>
+<ul><li><ul><li><ul><li> KNApSAcKもしくはOpen TG-GATE の化合物からターゲットタンパク質を導く
+</li></ul>
+</li></ul>
+</li></ul>
+<pre>SELECT&nbsp;?target WHERE {
+ &nbsp;?ksid  &lt;<a href="http://togodb.biosciencedbc.jp/togodb/meta/knapsack_core#organism" class="external free" rel="nofollow">http://togodb.biosciencedbc.jp/togodb/meta/knapsack_core#organism</a>&gt; "Vigna unguiculata".
+ &nbsp;?ksid &lt;<a href="http://togodb.biosciencedbc.jp/togodb/meta/knapsack_core#inchi" class="external free" rel="nofollow">http://togodb.biosciencedbc.jp/togodb/meta/knapsack_core#inchi</a>&gt;&nbsp;?inchi .
+  SERVICE &lt;<a href="http://rdf.farmbio.uu.se/chembl/sparql" class="external free" rel="nofollow">http://rdf.farmbio.uu.se/chembl/sparql</a>&gt; {
+     &nbsp;?molecule &lt;<a href="http://www.blueobelisk.org/chemistryblogs/inchi" class="external free" rel="nofollow">http://www.blueobelisk.org/chemistryblogs/inchi</a>&gt;&nbsp;?inchi .
+     &nbsp;?activity &lt;<a href="http://rdf.farmbio.uu.se/chembl/onto/#forMolecule" class="external free" rel="nofollow">http://rdf.farmbio.uu.se/chembl/onto/#forMolecule</a>&gt;&nbsp;?molecule .
+     &nbsp;?activity &lt;<a href="http://rdf.farmbio.uu.se/chembl/onto/#onAssay" class="external free" rel="nofollow">http://rdf.farmbio.uu.se/chembl/onto/#onAssay</a>&gt;&nbsp;?assay .
+     &nbsp;?assay &lt;<a href="http://rdf.farmbio.uu.se/chembl/onto/#hasTarget" class="external free" rel="nofollow">http://rdf.farmbio.uu.se/chembl/onto/#hasTarget</a>&gt;&nbsp;?target .
+  }
+}
+</pre>
+<ul><li><ul><li> この Wiki にサマリ作成
+</li></ul>
+</li></ul>
+<h2> <span class="mw-headline" id=".E3.83.A6.E3.83.BC.E3.82.B9.E3.82.B1.E3.83.BC.E3.82.B9.E4.BE.8B">ユースケース例</span></h2>
+<ul><li> ある化合物に対し，その化合物を生体内に含む生物種をすべて包含する分類群を求めよ
+<ul><li> 必要な作業
+<ul><li> KNApSAcK の生物種をNCBI Taxonomy に沿って書き直す
+</li><li> KNApSAcK の化合物を CHEBI か何かに沿って書き直す
+<ul><li> ChemIDPlus:CAS番号-&gt;KEGG compound:CAS番号-&gt;KEGG Drug:CAS番号-&gt;Label完全一致-&gt;Synonym完全一致 の順で同じものがあるかどうかを確認し，あれば書き足すプログラムを作成．
+</li><li> 本番データで試したところ，ダウンロードデータやRDFデータ内に CAS 番号がないため，Label完全一致-&gt;Synonym完全一致のみを結果的にあてることに．
+</li><li> Label一致Synonym一致を利用した場合, KNApSAcK の 50048件の化合物中，ChEBI にあてられるのはわずかに2363件...．ChEBI のエントリ数が 37882 であることを考慮しても，もう少し増やせるのではないか-&gt;大久保さんから頂いた対応表を使うと3397件に増えた
+</li></ul>
+</li></ul>
+</li></ul>
+</li><li> ラットである病理所見を得られた化合物を含む植物のリストを求めよ
+<ul><li> 必要な作業
+<ul><li> KNApSAcK の化合物を CHEBI か何かに沿って書き直す
+</li><li> Open TG-GATE の化合物を CHEBI か何かに沿って書き直す
+<ul><li> 上記 KNApSAcK と同じプログラムで open_tggates_main.rdf にあてたところ，170件中120件が ChEBI に当てられた．
+</li></ul>
+</li></ul>
+</li></ul>
+</li><li> KNApSAcKもしくはOpen TG-GATE の化合物からターゲットタンパク質を導く
+<ul><li> 必要な作業
+<ul><li>Kegg compound(Drug) ID, CAS registry number, KnapSackIDから、ChEBIを通して、InChIを得る。
+<ul><li><a href="ftp://ftp.ebi.ac.uk/pub/databases/chebi/Flat_file_tab_delimited/chebiId_inchi.tsv" class="external text" rel="nofollow">ChEBI-InchI対応表</a>
+</li></ul>
+</li><li>テスト：　化合物とターゲットタンパク質の関係は<a href="http://rdf.farmbio.uu.se/chembl/sparql" class="external text" rel="nofollow">ChEMBL SPARQL Endpoint</a>で収集可能。この時InChIを入力にする。
+<ul><li><a href="http://wg.biosciencedbc.jp/dokuwiki/doku.php?id=chembl-rdf" class="external text" rel="nofollow">検索例</a>
+</li></ul>
+</li><li>化合物とターゲットタンパク質のDBの調査
+<ul><li><b><a href="https://www.ebi.ac.uk/chembldb/" class="external text" rel="nofollow">ChEMBL</a></b>: <a href="http://rdf.farmbio.uu.se/chembl/sparql" class="external text" rel="nofollow">SPAEQL Endpoint</a>稼働中、<a href="https://www.ebi.ac.uk/chembldb/index.php/downloads" class="external text" rel="nofollow">データダウンロード可能</a>（sql）
+</li><li><b><a href="http://www.drugbank.ca/" class="external text" rel="nofollow">DrugBank</a></b>&nbsp;:<a href="http://wifo5-03.informatik.uni-mannheim.de/drugbank/sparql" class="external text" rel="nofollow">SPAEQL Endpoint</a>利用不可、<a href="http://www.drugbank.ca/downloads" class="external text" rel="nofollow">データダウンロード可能</a>(xml他)
+</li><li><b><a href="http://ctdbase.org/" class="external text" rel="nofollow">CTD</a></b>: SPAEQL Endpointなし、<a href="http://ctdbase.org/downloads/;jsessionid=D565F6B7FC6D227B4233A7815644BD3E" class="external text" rel="nofollow">データダウンロード可能</a>（csv, tsv他）
+</li><li><b><a href="http://www.ncbi.nlm.nih.gov/pcassay" class="external text" rel="nofollow">PubChem BioAssay</a></b>: <a href="http://pubchem.bio2rdf.org/sparql" class="external text" rel="nofollow">SPAEQL Endpoint(Pubchem Bio2RDF)</a>にAssayのデータなし、
+</li><li><b><a href="http://chem-web.genes.nig.ac.jp/pci_home.html" class="external text" rel="nofollow">PCI（Protein-Compound Interaction）DB</a></b>: SPAEQL Endpointなし、<a href="http://chem-web.genes.nig.ac.jp/download.html" class="external text" rel="nofollow">データダウンロード可能</a>（sql）、PCIは上記4つのデータベースを統合したDB。PubChem compoundからターゲット情報を取得できる。
+</li></ul>
+</li></ul>
+</li></ul>
+</li><li> ある生物群に含まれる生物種のデータを含むデータベースを求めよ
+<ul><li> 必要な作業
+<ul><li>NCBI Taxonomyのある生物種を含む全てのタクソンを算出しておく（LODACのSuperTaxon）
+<ul><li>「ある生物群に含まれる生物種」は、<a href="http://lod.ac/species/sparql#" class="external text" rel="nofollow">LODAC Species</a>で検索可能（<a href="http://wg.biosciencedbc.jp/dokuwiki/doku.php?id=lodac_species" class="external text" rel="nofollow">検索例</a>）
+</li></ul>
+</li></ul>
+</li></ul>
+</li></ul>
+<h2> <span class="mw-headline" id=".E5.95.8F.E9.A1.8C.E7.82.B9">問題点</span></h2>
+<ul><li> KnapSack の化合物IDはCASを使っているが，CHEBIのエントリにはCAS番号が振られていないものも多い(実際は対応するにも関わらず)
+<ul><li> 例: Gibberellin A1 (CAS: 545-97-1), <a href="http://purl.obolibrary.org/obo/CHEBI_27718" class="external free" rel="nofollow">http://purl.obolibrary.org/obo/CHEBI_27718</a>
+</li><li> 上記のように，ChemIDPlus:CAS番号-&gt;KEGG compound:CAS番号-&gt;KEGG Drug:CAS番号-&gt;Label完全一致-&gt;Synonym完全一致を確認することで対応．
+</li></ul>
+</li><li>ChEMBLは医薬品低分子化合物を中心にそのターゲットタンパク質の情報を収録しているので、KnapSackが取り扱っている天然化合物に対するターゲットの情報が得られるか確認する必要がある。
+<ul><li>KnapSackID-ChEBIid-InchIリスト作成済み（Knapsack化合物50048件、うち1591件がInchI情報をもつ。さらにその中の250件以上の化合物がChEMBLのターゲットタンパクの情報を持つことを確認）
+</li></ul>
+</li><li><a href="http://rdf.farmbio.uu.se/chembl/sparql" class="external text" rel="nofollow">ChEMBL SPARQL Endpoint</a>が利用可能。ただしデータが少し古い（少ない）。
+<ul><li>例、ChEMBL SPARCL EndPointが617,676アッセイ分を登録しているのに対して、sql版は644,734アッセイを登録。
+</li><li>Open Open TG-GATEsで登場する129個の化合物がChEMBLのターゲットタンパクの情報をもつことを確認（ChEMBL SPARCL EndPointで確認）。
+</li></ul>
+</li><li>１つのCAS番号が２つのChEBIに対応する例：ラセミ体とS体、活性のある光学異性体とない光学異性体、単糖類とアノマーとか開環構造とか、tautomer
+</li></ul>
+<h2> <span class="mw-headline" id="Tips">Tips</span></h2>
+<ul><li> Virtuoso の Inference 設定 (NCBI Taxonomy で subClassOf のinference を行う場合)
+<ul><li> ブラウザで Virtuoso conductor にログイン
+</li><li> メニュー左上の Interactive SQL，あるいは，Database タブから Interactive SQL を開く
+</li><li> 「rdfs:subClassOf rdf:type owl:TransitiveProperty .」をグラフに入れるため，Interactive SQL のテキストボックスに「insert in graph &lt;<a href="http://www.ncbi.nlm.nih.gov/taxonomy" class="external free" rel="nofollow">http://www.ncbi.nlm.nih.gov/taxonomy</a>&gt; {rdfs:subClassOf rdf:type owl:TransitiveProperty .};」と入れて Execute ボタンを押す
+</li><li> rule set を作るため，Interactive SQL のテキストボックスに「rdfs_rule_set ('subClassOf_NCBI', '<a href="http://www.ncbi.nlm.nih.gov/taxonomy');」と入れて" class="external free" rel="nofollow">http://www.ncbi.nlm.nih.gov/taxonomy');」と入れて</a> Execute ボタンを押す
+</li><li> SPARQL を書いて，検索を試す
+<ul><li> 「define input:inference "subClassOf_NCBI" select * from ...」
+</li></ul>
+</li></ul>
+</li></ul>
+
+<!-- 
+NewPP limit report
+Preprocessor node count: 30/1000000
+Post-expand include size: 0/2097152 bytes
+Template argument size: 0/2097152 bytes
+Expensive parser function count: 0/100
+-->
+
+<!-- Saved in parser cache with key wikidb-togowiki_:pcache:idhash:166-0!1!0!!ja!2!edit=0 and timestamp 20230604092623 -->
+<div class="printfooter">
+「<a href="http://wiki.lifesciencedb.jp/mw/BH12.12/%E3%83%87%E3%83%BC%E3%82%BF%E3%83%99%E3%83%BC%E3%82%B9%E3%82%A2%E3%83%BC%E3%82%AB%E3%82%A4%E3%83%96%E3%81%AERDF%E5%8C%96">http://wiki.lifesciencedb.jp/mw/BH12.12/%E3%83%87%E3%83%BC%E3%82%BF%E3%83%99%E3%83%BC%E3%82%B9%E3%82%A2%E3%83%BC%E3%82%AB%E3%82%A4%E3%83%96%E3%81%AERDF%E5%8C%96</a>」より作成</div>
+		<div id='catlinks' class='catlinks catlinks-allhidden'></div>		<!-- end content -->
+				<div class="visualClear"></div>
+	</div>
+</div></div>
+<div id="column-one">
+	<div id="p-cactions" class="portlet">
+		<h5>表示</h5>
+		<div class="pBody">
+			<ul>
+				 <li id="ca-nstab-main" class="selected"><a href="/mw/BH12.12/%E3%83%87%E3%83%BC%E3%82%BF%E3%83%99%E3%83%BC%E3%82%B9%E3%82%A2%E3%83%BC%E3%82%AB%E3%82%A4%E3%83%96%E3%81%AERDF%E5%8C%96" title="本文を表示 [c]" accesskey="c">ページ</a></li>
+				 <li id="ca-talk" class="new"><a href="/mw/index.php?title=%E3%83%8E%E3%83%BC%E3%83%88:BH12.12/%E3%83%87%E3%83%BC%E3%82%BF%E3%83%99%E3%83%BC%E3%82%B9%E3%82%A2%E3%83%BC%E3%82%AB%E3%82%A4%E3%83%96%E3%81%AERDF%E5%8C%96&amp;action=edit&amp;redlink=1" title="記事についての議論 [t]" accesskey="t">議論</a></li>
+				 <li id="ca-viewsource"><a href="/mw/index.php?title=BH12.12/%E3%83%87%E3%83%BC%E3%82%BF%E3%83%99%E3%83%BC%E3%82%B9%E3%82%A2%E3%83%BC%E3%82%AB%E3%82%A4%E3%83%96%E3%81%AERDF%E5%8C%96&amp;action=edit" title="このページは保護されています。&#10;ページのソースを閲覧できます。 [e]" accesskey="e">ソースを表示</a></li>
+				 <li id="ca-history"><a href="/mw/index.php?title=BH12.12/%E3%83%87%E3%83%BC%E3%82%BF%E3%83%99%E3%83%BC%E3%82%B9%E3%82%A2%E3%83%BC%E3%82%AB%E3%82%A4%E3%83%96%E3%81%AERDF%E5%8C%96&amp;action=history" title="このページの過去の版 [h]" accesskey="h">履歴</a></li>
+			</ul>
+		</div>
+	</div>
+	<div class="portlet" id="p-personal">
+		<h5>個人用ツール</h5>
+		<div class="pBody">
+			<ul>
+				<li id="pt-anonuserpage"><a href="/mw/%E5%88%A9%E7%94%A8%E8%80%85:172.18.8.51" title="自分が編集しているIPアドレスの利用者ページ [.]" accesskey="." class="new">172.18.8.51</a></li>
+				<li id="pt-anontalk"><a href="/mw/%E5%88%A9%E7%94%A8%E8%80%85%E2%80%90%E4%BC%9A%E8%A9%B1:172.18.8.51" title="このIPアドレスからなされた編集についての議論 [n]" accesskey="n" class="new">このIPアドレスのトーク</a></li>
+				<li id="pt-anonlogin"><a href="/mw/index.php?title=%E7%89%B9%E5%88%A5:%E3%83%AD%E3%82%B0%E3%82%A4%E3%83%B3&amp;returnto=BH12.12/%E3%83%87%E3%83%BC%E3%82%BF%E3%83%99%E3%83%BC%E3%82%B9%E3%82%A2%E3%83%BC%E3%82%AB%E3%82%A4%E3%83%96%E3%81%AERDF%E5%8C%96&amp;returntoquery=oldid%3D11087" title="ログインすることが推奨されます。ただし、必須ではありません。 [o]" accesskey="o">ログイン</a></li>
+				<li id="pt-openidlogin"><a href="/mw/index.php?title=%E7%89%B9%E5%88%A5:OpenID%E3%83%AD%E3%82%B0%E3%82%A4%E3%83%B3&amp;returnto=BH12.12/%E3%83%87%E3%83%BC%E3%82%BF%E3%83%99%E3%83%BC%E3%82%B9%E3%82%A2%E3%83%BC%E3%82%AB%E3%82%A4%E3%83%96%E3%81%AERDF%E5%8C%96">OpenIDでログイン</a></li>
+			</ul>
+		</div>
+	</div>
+	<div class="portlet" id="p-logo">
+		<a style="background-image: url(/mw/images/togowiki-logo.png);" href="/mw/%E3%83%A1%E3%82%A4%E3%83%B3%E3%83%9A%E3%83%BC%E3%82%B8" title="メインページに移動"></a>
+	</div>
+	<script type="text/javascript"> if (window.isMSIE55) fixalpha(); </script>
+	<div class='generated-sidebar portlet' id='p-navigation'>
+		<h5>案内</h5>
+		<div class='pBody'>
+			<ul>
+				<li id="n-mainpage-description"><a href="/mw/%E3%83%A1%E3%82%A4%E3%83%B3%E3%83%9A%E3%83%BC%E3%82%B8" title="メインページに移動する [z]" accesskey="z">メインページ</a></li>
+				<li id="n-portal"><a href="/mw/TogoWiki:%E3%82%B3%E3%83%9F%E3%83%A5%E3%83%8B%E3%83%86%E3%82%A3%E3%83%BB%E3%83%9D%E3%83%BC%E3%82%BF%E3%83%AB" title="このプロジェクトについて、できること、情報を入手する場所">コミュニティ・ポータル</a></li>
+				<li id="n-currentevents"><a href="/mw/TogoWiki:%E6%9C%80%E8%BF%91%E3%81%AE%E5%87%BA%E6%9D%A5%E4%BA%8B" title="最近の出来事について予備知識を得る">最近の出来事</a></li>
+				<li id="n-recentchanges"><a href="/mw/%E7%89%B9%E5%88%A5:%E6%9C%80%E8%BF%91%E3%81%AE%E6%9B%B4%E6%96%B0" title="ウィキにおける最近の更新の一覧 [r]" accesskey="r">最近の更新</a></li>
+				<li id="n-randompage"><a href="/mw/%E7%89%B9%E5%88%A5:%E3%81%8A%E3%81%BE%E3%81%8B%E3%81%9B%E8%A1%A8%E7%A4%BA" title="無作為に抽出されたページの読み込み [x]" accesskey="x">おまかせ表示</a></li>
+				<li id="n-help"><a href="/mw/Help:%E7%9B%AE%E6%AC%A1" title="情報を得る場所">ヘルプ</a></li>
+			</ul>
+		</div>
+	</div>
+	<div id="p-search" class="portlet">
+		<h5><label for="searchInput">検索</label></h5>
+		<div id="searchBody" class="pBody">
+			<form action="/mw/index.php" id="searchform">
+				<input type='hidden' name="title" value="特別:検索"/>
+				<input id="searchInput" title="TogoWiki内を検索" accesskey="f" type="search" name="search" />
+				<input type='submit' name="go" class="searchButton" id="searchGoButton"	value="表示" title="厳密に一致する名前のページが存在すれば、そのページへ移動します" />&nbsp;
+				<input type='submit' name="fulltext" class="searchButton" id="mw-searchButton" value="検索" title="入力された文字列が含まれるページを検索します" />
+			</form>
+		</div>
+	</div>
+	<div class="portlet" id="p-tb">
+		<h5>ツールボックス</h5>
+		<div class="pBody">
+			<ul>
+				<li id="t-whatlinkshere"><a href="/mw/%E7%89%B9%E5%88%A5:%E3%83%AA%E3%83%B3%E3%82%AF%E5%85%83/BH12.12/%E3%83%87%E3%83%BC%E3%82%BF%E3%83%99%E3%83%BC%E3%82%B9%E3%82%A2%E3%83%BC%E3%82%AB%E3%82%A4%E3%83%96%E3%81%AERDF%E5%8C%96" title="ここにリンクしている全ウィキのページの一覧 [j]" accesskey="j">リンク元</a></li>
+				<li id="t-recentchangeslinked"><a href="/mw/%E7%89%B9%E5%88%A5:%E9%96%A2%E9%80%A3%E3%83%9A%E3%83%BC%E3%82%B8%E3%81%AE%E6%9B%B4%E6%96%B0%E7%8A%B6%E6%B3%81/BH12.12/%E3%83%87%E3%83%BC%E3%82%BF%E3%83%99%E3%83%BC%E3%82%B9%E3%82%A2%E3%83%BC%E3%82%AB%E3%82%A4%E3%83%96%E3%81%AERDF%E5%8C%96" title="このページからリンクしているページの最近の更新 [k]" accesskey="k">関連ページの更新状況</a></li>
+<li id="t-specialpages"><a href="/mw/%E7%89%B9%E5%88%A5:%E7%89%B9%E5%88%A5%E3%83%9A%E3%83%BC%E3%82%B8%E4%B8%80%E8%A6%A7" title="特別ページの一覧 [q]" accesskey="q">特別ページ</a></li>
+				<li id="t-print"><a href="/mw/index.php?title=BH12.12/%E3%83%87%E3%83%BC%E3%82%BF%E3%83%99%E3%83%BC%E3%82%B9%E3%82%A2%E3%83%BC%E3%82%AB%E3%82%A4%E3%83%96%E3%81%AERDF%E5%8C%96&amp;oldid=11087&amp;printable=yes" rel="alternate" title="このページの印刷用ページ [p]" accesskey="p">印刷用バージョン</a></li>				<li id="t-permalink"><a href="/mw/index.php?title=BH12.12/%E3%83%87%E3%83%BC%E3%82%BF%E3%83%99%E3%83%BC%E3%82%B9%E3%82%A2%E3%83%BC%E3%82%AB%E3%82%A4%E3%83%96%E3%81%AERDF%E5%8C%96&amp;oldid=11087" title="ページのこの版への固定リンク">この版への固定リンク</a></li>			</ul>
+		</div>
+	</div>
+</div><!-- end of the left (by default at least) column -->
+<div class="visualClear"></div>
+<div id="footer">
+	<div id="f-poweredbyico"><a href="http://www.mediawiki.org/"><img src="/mw/skins/common/images/poweredby_mediawiki_88x31.png" height="31" width="88" alt="Powered by MediaWiki" /></a></div>
+	<div id="f-copyrightico"><a href="http://creativecommons.org/licenses/by/3.0/"><img src="http://i.creativecommons.org/l/by/3.0/88x31.png" alt="Attribution 3.0 Unported" width="88" height="31" /></a></div>
+	<ul id="f-list">
+		<li id="copyright">内容は<a href="http://creativecommons.org/licenses/by/3.0/" class="external ">Attribution 3.0 Unported</a>のライセンスで利用することができます。</li>
+		<li id="privacy"><a href="/mw/TogoWiki:%E3%83%97%E3%83%A9%E3%82%A4%E3%83%90%E3%82%B7%E3%83%BC%E3%83%BB%E3%83%9D%E3%83%AA%E3%82%B7%E3%83%BC" title="TogoWiki:プライバシー・ポリシー">プライバシー・ポリシー</a></li>
+		<li id="about"><a href="/mw/TogoWiki:TogoWiki%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6" title="TogoWiki:TogoWikiについて">TogoWikiについて</a></li>
+		<li id="disclaimer"><a href="/mw/TogoWiki:%E5%85%8D%E8%B2%AC%E4%BA%8B%E9%A0%85" title="TogoWiki:免責事項">免責事項</a></li>
+	</ul>
+</div>
+</div>
+
+<script>if (window.runOnloadHook) runOnloadHook();</script>
+<!-- Served in 0.599 secs. --></body></html>

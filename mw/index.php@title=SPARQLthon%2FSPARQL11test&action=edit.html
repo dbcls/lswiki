@@ -1,0 +1,902 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html lang="ja" dir="ltr">
+<head>
+<title>ソースを表示 - TogoWiki</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta name="generator" content="MediaWiki 1.16.3" />
+<meta name="robots" content="noindex,nofollow" />
+<link rel="next" href="SPARQLthon/SPARQL11test.html" />
+<link rel="shortcut icon" href="http://wiki.lifesciencedb.jp/favicon.ico" />
+<link rel="search" type="application/opensearchdescription+xml" href="http://wiki.lifesciencedb.jp/mw/opensearch_desc.php" title="TogoWiki (ja)" />
+<link rel="copyright" href="http://creativecommons.org/licenses/by/3.0/" />
+<link rel="alternate" type="application/atom+xml" title="TogoWikiのAtomフィード" href="http://wiki.lifesciencedb.jp/mw/index.php?title=%E7%89%B9%E5%88%A5:%E6%9C%80%E8%BF%91%E3%81%AE%E6%9B%B4%E6%96%B0&amp;feed=atom" />
+<!--[if IE 8]><link rel="stylesheet" href="/mw/skins/common/IE80Fixes.css?270" media="screen" /><![endif]-->
+<link rel="stylesheet" href="http://wiki.lifesciencedb.jp/mw/skins/common/shared.css?270" media="screen" />
+<link rel="stylesheet" href="http://wiki.lifesciencedb.jp/mw/skins/common/commonPrint.css?270" media="print" />
+<link rel="stylesheet" href="http://wiki.lifesciencedb.jp/mw/skins/monobook/main.css?270" media="screen" />
+<!--[if lt IE 5.5000]><link rel="stylesheet" href="/mw/skins/monobook/IE50Fixes.css?270" media="screen" /><![endif]-->
+<!--[if IE 5.5000]><link rel="stylesheet" href="/mw/skins/monobook/IE55Fixes.css?270" media="screen" /><![endif]-->
+<!--[if IE 6]><link rel="stylesheet" href="/mw/skins/monobook/IE60Fixes.css?270" media="screen" /><![endif]-->
+<!--[if IE 7]><link rel="stylesheet" href="/mw/skins/monobook/IE70Fixes.css?270" media="screen" /><![endif]-->
+<link rel="stylesheet" href="http://wiki.lifesciencedb.jp/mw/index.php?title=MediaWiki:Common.css&amp;usemsgcache=yes&amp;ctype=text%2Fcss&amp;smaxage=18000&amp;action=raw&amp;maxage=18000" />
+<link rel="stylesheet" href="http://wiki.lifesciencedb.jp/mw/index.php?title=MediaWiki:Print.css&amp;usemsgcache=yes&amp;ctype=text%2Fcss&amp;smaxage=18000&amp;action=raw&amp;maxage=18000" media="print" />
+<link rel="stylesheet" href="http://wiki.lifesciencedb.jp/mw/index.php?title=MediaWiki:Monobook.css&amp;usemsgcache=yes&amp;ctype=text%2Fcss&amp;smaxage=18000&amp;action=raw&amp;maxage=18000" />
+<link rel="stylesheet" href="http://wiki.lifesciencedb.jp/mw/index.php?title=-&amp;action=raw&amp;maxage=18000&amp;gen=css" />
+<script>
+var skin="monobook",
+stylepath="/mw/skins",
+wgUrlProtocols="http\\:\\/\\/|https\\:\\/\\/|ftp\\:\\/\\/|irc\\:\\/\\/|gopher\\:\\/\\/|telnet\\:\\/\\/|nntp\\:\\/\\/|worldwind\\:\\/\\/|mailto\\:|news\\:|svn\\:\\/\\/",
+wgArticlePath="/mw/$1",
+wgScriptPath="/mw",
+wgScriptExtension=".php",
+wgScript="/mw/index.php",
+wgVariantArticlePath=false,
+wgActionPaths={},
+wgServer="http://wiki.lifesciencedb.jp",
+wgCanonicalNamespace="",
+wgCanonicalSpecialPageName=false,
+wgNamespaceNumber=0,
+wgPageName="SPARQLthon/SPARQL11test",
+wgTitle="SPARQLthon/SPARQL11test",
+wgAction="edit",
+wgArticleId=869,
+wgIsArticle=false,
+wgUserName=null,
+wgUserGroups=null,
+wgUserLanguage="ja",
+wgContentLanguage="ja",
+wgBreakFrames=true,
+wgCurRevisionId=26851,
+wgVersion="1.16.3",
+wgEnableAPI=true,
+wgEnableWriteAPI=true,
+wgSeparatorTransformTable=["", ""],
+wgDigitTransformTable=["", ""],
+wgMainPageTitle="メインページ",
+wgFormattedNamespaces={"-2": "メディア", "-1": "特別", "0": "", "1": "ノート", "2": "利用者", "3": "利用者‐会話", "4": "TogoWiki", "5": "TogoWiki‐ノート", "6": "ファイル", "7": "ファイル‐ノート", "8": "MediaWiki", "9": "MediaWiki‐ノート", "10": "Template", "11": "Template‐ノート", "12": "Help", "13": "Help‐ノート", "14": "Category", "15": "Category‐ノート"},
+wgNamespaceIds={"メディア": -2, "特別": -1, "": 0, "ノート": 1, "利用者": 2, "利用者‐会話": 3, "togowiki": 4, "togowiki‐ノート": 5, "ファイル": 6, "ファイル‐ノート": 7, "mediawiki": 8, "mediawiki‐ノート": 9, "template": 10, "template‐ノート": 11, "help": 12, "help‐ノート": 13, "category": 14, "category‐ノート": 15, "画像": 6, "画像‐ノート": 7, "image": 6, "image_talk": 7},
+wgSiteName="TogoWiki",
+wgCategories=[],
+wgRestrictionEdit=[],
+wgRestrictionMove=[];
+</script><script src="http://wiki.lifesciencedb.jp/mw/skins/common/wikibits.js?270"></script>
+<script src="http://wiki.lifesciencedb.jp/mw/skins/common/edit.js?270"></script>
+<script src="http://wiki.lifesciencedb.jp/mw/skins/common/ajax.js?270"></script>
+<script src="http://wiki.lifesciencedb.jp/mw/index.php?title=-&amp;action=raw&amp;gen=js&amp;useskin=monobook&amp;270"></script>
+
+		<style type='text/css'>
+		li#pt-openidlogin {
+		  background: url(http://wiki.lifesciencedb.jp/mw/extensions/OpenID/skin/icons/openid-inputicon.png) top left no-repeat;
+		  padding-left: 20px;
+		  text-transform: none;
+		}
+		</style>
+</head>
+<body class="mediawiki ltr ns-0 ns-subject page-SPARQLthon_SPARQL11test skin-monobook">
+<div id="globalWrapper">
+<div id="column-content"><div id="content" >
+	<a id="top"></a>
+	
+	<h1 id="firstHeading" class="firstHeading">SPARQLthon/SPARQL11test</h1>
+	<div id="bodyContent">
+		<h3 id="siteSub">提供：TogoWiki</h3>
+		<div id="contentSub"><a href="SPARQLthon/SPARQL11test.html" title="SPARQLthon/SPARQL11test">SPARQLthon/SPARQL11test</a>のソース</div>
+		<div id="jump-to-nav">移動： <a href="index.php@title=SPARQLthon%252FSPARQL11test&amp;action=edit.html#column-one">案内</a>, <a href="index.php@title=SPARQLthon%252FSPARQL11test&amp;action=edit.html#searchInput">検索</a></div>
+		<!-- start content -->
+<p>以下に示された理由により、このページの編集を行うことができません：
+</p>
+<div class="permissions-errors">
+<p>この操作は、<a href="http://wiki.lifesciencedb.jp/mw/index.php?title=TogoWiki:%E5%88%A9%E7%94%A8%E8%80%85&amp;action=edit&amp;redlink=1" class="new" title="TogoWiki:利用者（存在しないページ）">利用者</a>のグループに属する利用者のみが実行できます。
+</p>
+</div>
+<p>このページのソースを閲覧し、コピーすることができます：
+</p><textarea id="wpTextbox1" name="wpTextbox1" cols="80" rows="25" readonly="">ページのサイズが大きくなったので、2018年4月27日時点でダウンロード可能なものについての最新調査結果をこちらに置きました。
+以前のページは[[BH12.12/SPARQL11test]]です。
+
+----
+
+[http://www.learningsparql.com/ Learning SPARQL 2nd Ed.] の[http://www.learningsparql.com/2ndeditionexamples/index.html サンプルSPARQLクエリ]を全て処理させてパーズ可能であるかをテストする。
+様々な実装に対して行うことで、実装間の比較が行える。
+
+* [http://www.w3.org/2009/sparql/docs/tests/ W3Cのテスト用リソース一式] (2013年8月時点でSPARQL1.1Recommendationに準拠か不明。)
+
+== クエリの問題への対処 ==
+
+まずはApache Jenaについて試してみたところ、幾つかのクエリについてはPREFIX指定が抜けているものがあるなど幾つかの問題が判明したので、これを修正した。
+
+=== PREFIX欠落 ===
+* ex025.rq
+* ex048.rq
+* ex049.rq
+* ex114.rq
+* ex269.rq
+* ex528.rq
+
+=== その他の文法間違い ===
+* ex067.rq
+FILTER が抜けている。
+  NOT EXISTS { ?s ab:workTel ?workNum }
+ではなくて、
+  FILTER NOT EXISTS { ?s ab:workTel ?workNum }
+
+=== 本文中で触れられず ===
+下記の両者ともクエリ未完成
+* ex080.rq
+* ex541.rq
+
+=== 全トリプル取得 ===
+末尾にLIMIT 10を挿入
+* ex052.rq
+* ex090.rq
+* ex114.rq
+* ex225.rq
+* ex242.rq
+* ex244.rq
+* ex246.rq
+* ex251.rq
+* ex255.rq
+* ex311.rq
+* ex332.rq
+* ex408.rq
+* ex436.rq
+* ex437.rq
+
+== テスト ==
+テストした実装を以下に列挙していくこととする。
+
+=== [http://www.franz.com/agraph/allegrograph/ AllegroGraph 7.0.0] ===
+
+ $ sh -c 'for f in ../LearningSPARQL2ndEx/ex*.rq ; do o=`basename $f .rq`; ./bin/rsparql --service=http://localhost:21400/repositories/dbcls --query=${f} --debug >&amp; ../LearningSPARQL2ndEx_AllegroGraph_6.4.5/${o}.txt ; done'
+
+ $ head -1 *.txt | grep -v '^==>' | sed -ne '/^./p' | sed -e 's/^--*/-/' | sort | uniq -c | sort -nr
+    172 -
+     21 @prefix err:   &lt;http://www.w3.org/2005/xqt-errors#> .
+     12 @prefix ab:    &lt;http://learningsparql.com/ns/addressbook#> .
+      9 HTTP Exeception
+      3 Ask => No
+      1 @prefix nn:    &lt;http://learningsparql.com/new/namespace/> .
+      1 @prefix im:    &lt;http://learningsparql.com/ns/importedData#> .
+      1 ==== No variables ====
+
+ $ grep -A2 'HTTP Exeception' *.txt | grep -v 'HTTP Exeception' | grep -v '^--' | grep -v 'HttpException' | sed -e 's/^/ /'
+ ex167.txt-     at org.apache.jena.sparql.engine.http.HttpQuery.rewrap(HttpQuery.java:382)
+ ex172.txt-     at org.apache.jena.sparql.engine.http.HttpQuery.rewrap(HttpQuery.java:382)
+ ex178.txt-     at org.apache.jena.sparql.engine.http.HttpQuery.rewrap(HttpQuery.java:382)
+ ex196.txt-     at org.apache.jena.sparql.engine.http.HttpQuery.rewrap(HttpQuery.java:382)
+ ex308.txt-     at org.apache.jena.sparql.engine.http.HttpQuery.rewrap(HttpQuery.java:382)
+ ex474.txt-     at org.apache.jena.sparql.engine.http.HttpQuery.rewrap(HttpQuery.java:382)
+ ex475.txt-     at org.apache.jena.sparql.engine.http.HttpQuery.rewrap(HttpQuery.java:382)
+ ex476.txt-     at org.apache.jena.sparql.engine.http.HttpQuery.rewrap(HttpQuery.java:382)
+ ex539.txt-     at org.apache.jena.sparql.engine.http.HttpQuery.rewrap(HttpQuery.java:382)
+
+* またWHERE外のVALUESの扱いがバグになった。
+* SERVICE句でDBpediaに問い合わせすると得られるデータに以下のものが含まれていて、"1937-3-4"がxsd:date形式に違反しているので、エラーになる。
+ http://dbpedia.org/ontology/deathDate "1937-3-4"^^&lt;http://www.w3.org/2001/XMLSchema#date>
+* そのほか、ex308.rqはARQ独自関数利用のため。
+
+=== [http://www.franz.com/agraph/allegrograph/ AllegroGraph 6.4.5 - 6.6.0] ===
+
+ $ sh -c 'for f in ../LearningSPARQL2ndEx/ex*.rq ; do o=`basename $f .rq`; ./bin/rsparql --service=http://localhost:21400/repositories/dbcls --query=${f} --debug >&amp; ../LearningSPARQL2ndEx_AllegroGraph_6.4.5/${o}.txt ; done'
+
+ $ head -1 *.txt | grep -v '^==>' | sed -ne '/^./p' | sed -e 's/^--*/-/' | sort | uniq -c | sort -nr
+    173 -
+     21 @prefix err:   &lt;http://www.w3.org/2005/xqt-errors#> .
+     11 @prefix ab:    &lt;http://learningsparql.com/ns/addressbook#> .
+     10 HTTP Exeception
+      3 Ask => No
+      1 @prefix nn:    &lt;http://learningsparql.com/new/namespace/> .
+      1 @prefix im:    &lt;http://learningsparql.com/ns/importedData#> .
+
+ $ grep -A2 'HTTP Exeception' *.txt | grep -v 'HTTP Exeception' | grep -v '^--' | grep -v 'HttpException' | sed -e 's/^/ /'
+ ex126.txt-     at org.apache.jena.sparql.engine.http.HttpQuery.rewrap(HttpQuery.java:371)
+ ex172.txt-     at org.apache.jena.sparql.engine.http.HttpQuery.rewrap(HttpQuery.java:371)
+ ex178.txt-     at org.apache.jena.sparql.engine.http.HttpQuery.rewrap(HttpQuery.java:371)
+ ex180.txt-     at org.apache.jena.sparql.engine.http.HttpQuery.rewrap(HttpQuery.java:371)
+ ex196.txt-     at org.apache.jena.sparql.engine.http.HttpQuery.rewrap(HttpQuery.java:371)
+ ex308.txt-     at org.apache.jena.sparql.engine.http.HttpQuery.rewrap(HttpQuery.java:371)
+ ex474.txt-     at org.apache.jena.sparql.engine.http.HttpQuery.rewrap(HttpQuery.java:371)
+ ex475.txt-     at org.apache.jena.sparql.engine.http.HttpQuery.rewrap(HttpQuery.java:371)
+ ex476.txt-     at org.apache.jena.sparql.engine.http.HttpQuery.rewrap(HttpQuery.java:371)
+ ex539.txt-     at org.apache.jena.sparql.engine.http.HttpQuery.rewrap(HttpQuery.java:371)
+
+* ついにWHERE外のVALUESを適切に扱えるようになった。
+* &lt;file_name.ttl>というグラフ名は受け付けられなくなった。
+* ex308.rqはARQ独自関数利用のため。
+* その他、全てSERVICEクエリ周りで、DBpediaの返すリテラル値がxsd:date型としているにもかかわらず、例えば"1937-3-4"となっていることでエラー（400 Bad Request、'Parsing JSON failed due to unhandled error: `1937-3-4` is not of type date'）になっている。この例の場合では、"1937-03-04"としなければならない([http://books.xmlschemata.org/relaxng/ch19-77041.html 参考])。
+
+=== [http://www.franz.com/agraph/allegrograph/ AllegroGraph 6.4.0] ===
+
+ $ sh -c 'for f in ../LearningSPARQL2ndEx/ex*.rq ; do o=`basename $f .rq`; ./bin/rsparql --service=http://localhost:21400/repositories/dbcls --query=${f} --debug >&amp; ../LearningSPARQL2ndEx_AllegroGraph_6.4.0/${o}.txt ; done'
+
+ $ head -1 *.txt | grep -v '^==>' | sed -ne '/^./p' | sed -e 's/^--*/-/' | sort | uniq -c | sort -nr
+    173 -
+     35 @prefix :      &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+      8 HTTP Exeception
+      3 Ask => No
+      1 ==== No variables ====
+
+ $ grep -A2 'HTTP Exeception' *.txt | grep -v 'HTTP Exeception' | grep -v '^--' | grep -v 'HttpException' | sed -e 's/^/ /'
+ ex172.txt-     at com.hp.hpl.jena.sparql.engine.http.HttpQuery.execCommon(HttpQuery.java:446)
+ ex178.txt-     at com.hp.hpl.jena.sparql.engine.http.HttpQuery.execCommon(HttpQuery.java:446)
+ ex196.txt-     at com.hp.hpl.jena.sparql.engine.http.HttpQuery.execCommon(HttpQuery.java:446)
+ ex308.txt-     at com.hp.hpl.jena.sparql.engine.http.HttpQuery.execCommon(HttpQuery.java:446)
+ ex474.txt-     at com.hp.hpl.jena.sparql.engine.http.HttpQuery.execCommon(HttpQuery.java:446)
+ ex475.txt-     at com.hp.hpl.jena.sparql.engine.http.HttpQuery.execCommon(HttpQuery.java:446)
+ ex476.txt-     at com.hp.hpl.jena.sparql.engine.http.HttpQuery.execCommon(HttpQuery.java:446)
+ ex539.txt-     at com.hp.hpl.jena.sparql.engine.http.HttpQuery.execCommon(HttpQuery.java:446)
+
+* 遂にtimezone、tz関数に対応した模様。
+* ex308.rqはARQ独自関数利用のため。
+* ex492.rqはVALUESをWHEREの外に書いている例でこれに未対応の模様。
+* 以上のクエリを除いて全てSERVICEクエリ周りで、DBpediaの返すリテラル値がxsd:date型としているにもかかわらず、例えば"1937-3-4"となっていることでエラー（400 Bad Request、'Parsing JSON failed due to unhandled error: `1937-3-4` is not of type date'）になっている。この例の場合では、"1937-03-04"としなければならない([http://books.xmlschemata.org/relaxng/ch19-77041.html 参考])。
+
+=== [http://jena.apache.org/ Apache Jena 3.7.0] ===
+
+ sh -c 'for f in ../LearningSPARQL2ndEx/ex*.rq ; do o=`basename $f .rq`;  ./bin/qparse --print=op --explain --file ${f} > ../LearningSPARQL2ndEx_Jena-3.0.1/${o}.txt ; done'
+
+ Loading function or property function with old style 'jena.hpl.hp.com' used - preferred style is to use 'jena.apache.org': http://jena.hpl.hp.com/ARQ/property#versionARQ => http://jena.apache.org/ARQ/property#versionARQ
+
+===[http://jena.apache.org/ Apache Jena Fuseki 3.14.0]===
+
+ $ sh -c 'for f in ../LearningSPARQL2ndEx/ex*.rq ; do o=`basename $f .rq`; ./bin/rsparql --service=http://ep:21800/dbcls/query --query=${f} --debug >&amp; ../LearningSPARQL2ndEx_Jena-Fuseki_3.14.0/${o}.txt ; done'
+
+ $ head -1 *.txt | grep -v '^==>' | sed -ne '/^./p' | sed -e 's/^--*/-/' | sort | uniq -c | sort -nr
+    179 -
+     34 @prefix :      &lt;http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#> .
+      3 Ask => No
+      1 @prefix ab:    &lt;http://learningsparql.com/ns/addressbook#> .
+      1 17:22:49 WARN  riot                 :: [line: 18, col: 17] Lexical form '1860-11-7' not valid for datatype XSD date
+
+ $ grep -A2 'HTTP Exeception' *.txt | grep -v 'HTTP Exeception' | grep -v '^--' | grep -v 'HttpException' | sed -e 's/^/ /'
+
+===[http://jena.apache.org/ Apache Jena Fuseki 3.7.0]===
+
+ $ sh -c 'for f in ../LearningSPARQL2ndEx/ex*.rq ; do o=`basename $f .rq`; ./bin/rsparql --service=http://ep:21800/dbcls/query --query=${f} --debug >&amp; ../LearningSPARQL2ndEx_Jena-Fuseki_3.7.0/${o}.txt ; done'
+
+ $ head -1 *.txt | grep -v '^==>' | sed -ne '/^./p' | sed -e 's/^--*/-/' | sort | uniq -c | sort -nr
+    179 -
+     19 @prefix rdf:   &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+     12 @prefix ab:    &lt;http://learningsparql.com/ns/addressbook#> .
+      3 Ask => No
+      2 @prefix d:     &lt;http://learningsparql.com/ns/data#> .
+      1 @prefix nn:    &lt;http://learningsparql.com/new/namespace/> .
+      1 @prefix im:    &lt;http://learningsparql.com/ns/importedData#> .
+      1 12:45:29 WARN  riot                 :: [line: 13, col: 17] Lexical form '1860-11-7' not valid for datatype XSD date
+
+ $ grep -A2 'HTTP Exeception' *.txt | grep -v 'HTTP Exeception' | grep -v '^--' | grep -v 'HttpException' | sed -e 's/^/ /'
+
+===[http://marmotta.incubator.apache.org/download.html Apache Marmotta 3.3.0]===
+
+ $ foreach f ( ../LearningSPARQL2ndEx/ex*.rq )
+ set a=`basename $f .rq`
+ ./bin/rsparql --service='http://localhost:8080/marmotta/sparql' --query ${f} --debug >&amp; ../LearningSPARQL2ndEx_Marmotta_3.3.0/${a}.txt
+ end
+
+ $ head -1 *.txt | grep -v '^==>' | sed -ne '/^./p' | sed -e 's/^--*/-/' | sort | uniq -c | sort -nr
+    174 -
+     15 @prefix rdf:   &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+     12 @prefix ab:    &lt;http://learningsparql.com/ns/addressbook#> .
+      4 HTTP Exeception
+      3 Ask => No
+      3 @prefix :      &lt;http://purl.org/dc/terms/> .
+      1 @prefix owl:   &lt;http://www.w3.org/2002/07/owl#> .
+      1 @prefix nn:    &lt;http://learningsparql.com/new/namespace/> .
+      1 @prefix im:    &lt;http://learningsparql.com/ns/importedData#> .
+      1 @prefix d:     &lt;http://learningsparql.com/ns/data#> .
+      1 ==== No variables ====
+      1 23:02:34 WARN  riot                 :: Lexical form '1860-01-01+02:00' not valid for datatype http://www.w3.org/2001/XMLSchema#gYear
+      1 23:01:32 WARN  riot                 :: {W107} Bad URI: &lt;2014-12-18T22:55:21.000+09:00> Code: 10/SCHEME_MUST_START_WITH_LETTER in SCHEME: The scheme component must start with a letter.
+      1 23:01:07 WARN  riot                 :: Lexical form '1860-01-01+02:00' not valid for datatype http://www.w3.org/2001/XMLSchema#gYear
+      1 23:00:57 WARN  riot                 :: Lexical form '1860-01-01+02:00' not valid for datatype http://www.w3.org/2001/XMLSchema#gYear
+
+ $ grep 'HTTP Exeception' *.txt | sed -e 's/^/ /'
+ ex118.txt:HTTP Exeception
+ ex257.txt:HTTP Exeception
+ ex262.txt:HTTP Exeception
+ ex308.txt:HTTP Exeception
+
+* ex118 はOFFSETだけでなく、LIMITも加えると問題が解消。
+* ex257 はxsd:decimalに非対応。
+* ex262 はxsd:dateTimeに非対応。
+* ex308 はARQ独自関数のため。
+
+=== [https://wiki.blazegraph.com/ Blazegraph Release 2.1.0 - 2.1.6rc] ===
+
+ $ sh -c 'for f in ../LearningSPARQL2ndEx/ex*.rq ; do o=`basename $f .rq`; ./bin/rsparql --service=http://localhost:21300/bigdata/sparql --query=${f} --debug >&amp; ../LearningSPARQL2ndEx_Blazegraph_2.1.0/${o}.txt ; done'
+
+ $ head -1 *.txt | grep -v '^==>' | sed -ne '/^./p' | sed -e 's/^--*/-/' | sort | uniq -c | sort -nr
+    178 -
+     22 @prefix bds:   &lt;http://www.bigdata.com/rdf/search#> .
+      7 @prefix bd:    &lt;http://www.bigdata.com/rdf#> .
+      7 @prefix ab:    &lt;http://learningsparql.com/ns/addressbook#> .
+      3 Ask => No
+      1 HTTP Exeception
+      1 @prefix nn:    &lt;http://learningsparql.com/new/namespace/> .
+      1 16:21:57 ERROR riot                 :: [line: 36, col: 46] Triples not terminated by DOT
+
+ $ grep -A2 'HTTP Exeception' *.txt | grep -v 'HTTP Exeception' | grep -v '^--' | grep -v 'HttpException' | sed -e 's/^/ /'
+ ex308.txt-     at com.hp.hpl.jena.sparql.engine.http.HttpQuery.rewrap(HttpQuery.java:414)
+
+* ex308.rq はarq独自関数を含むため。
+* Federated Queryについては、StardogおよびVirtuosoとの相性が悪い。Apache Fuseki、AllegroGraph、GraphDBはOK。
+
+=== [http://code.google.com/p/cumulusrdf/ CumulusRDF 1.0.1] ===
+
+ $ foreach f ( ../LearningSPARQL2ndEx/ex*.rq )
+ set a=`basename $f .rq`
+ ./bin/rsparql --service='http://localhost:9090/cumulus/sparql' --query ${f} --debug >&amp; ../LearningSPARQL2ndEx_CumulusRDF_1.0.1/${a}.txt
+ end
+
+ $ head -1 *.txt | grep -v '^==>' | sed -ne '/^./p' | sed -e 's/^--*/-/' | sort | uniq -c | sort -nr
+    172 -
+     32 @prefix rdfs:  &lt;http://www.w3.org/2000/01/rdf-schema#> .
+      7 HTTP Exeception
+      3 Ask => No
+      3 @prefix :      &lt;http://dbpedia.org/ontology/> .
+      1 @prefix v:     &lt;http://www.w3.org/2006/vcard/ns#> .
+      1 @prefix dc:    &lt;http://purl.org/dc/elements/1.1/> .
+      1 ==== No variables ====
+
+ $ grep -A2 'HTTP Exeception' *.txt | grep -v 'HTTP Exeception' | grep -v '^--' | grep -v 'HttpException' | sed -e 's/^/ /'
+ ex007.txt-ERROR /cumulus/sparql 400: Not a valid (absolute) URI: ex002.ttl
+ ex123.txt-ERROR /cumulus/sparql 400: Not a valid (absolute) URI: ex069.ttl
+ ex126.txt-ERROR /cumulus/sparql 400: Not a valid (absolute) URI: ex125.ttl
+ ex128.txt-ERROR /cumulus/sparql 400: Not a valid (absolute) URI: ex125.ttl
+ ex130.txt-ERROR /cumulus/sparql 400: Not a valid (absolute) URI: ex069.ttl
+ ex135.txt-ERROR /cumulus/sparql 400: Not a valid (absolute) URI: ex134.ttl
+ ex180.txt-ERROR /cumulus/sparql 400: Not a valid (absolute) URI: ex125.ttl
+
+* "&lt;ex002.ttl>"といったURIに未対応。
+* 他の多くの実装と同様、VALUESがWHERE外にある場合には未対応。
+
+=== [https://github.com/d2rq/d2rq D2RQ 0.8.2dev - 0.8.3dev ] ===
+
+ $ foreach f ( ../LearningSPARQL2ndEx/ex*.rq )
+ set a=`basename $f .rq`
+ ./bin/rsparql --service 'http://xxx/sparql/' --query ${f} --debug >&amp; ../LearningSPARQL2ndEx_D2RQ_0.8.2dev/${a}.txt
+ end
+
+ $ head -1 *.txt | grep -v '^==>' | sed -ne '/^./p' | sed -e 's/^--*/-/' | sort | uniq -c | sort -nr
+    168 -
+     34 @prefix db:    &lt;http://localhost:2020/resource/> .
+     14 HTTP Exeception
+      3 Ask => No
+      1 @prefix dc:    &lt;http://purl.org/dc/elements/1.1/> .
+
+ $ grep -A1 'HTTP Exeception' *.txt | grep -v 'HTTP Exeception' | grep -v '^--' | sed -e 's/-HttpException//' | sed -e 's/^/ /'
+ ex007.txt: 400 This service does not allow the dataset to be specified in the query
+ ex123.txt: 400 This service does not allow the dataset to be specified in the query
+ ex126.txt: 400 This service does not allow the dataset to be specified in the query
+ ex128.txt: 400 This service does not allow the dataset to be specified in the query
+ ex130.txt: 400 This service does not allow the dataset to be specified in the query
+ ex135.txt: 400 This service does not allow the dataset to be specified in the query
+ ex166.txt: 400 This service does not allow the dataset to be specified in the query
+ ex180.txt: 400 This service does not allow the dataset to be specified in the query
+ ex182.txt: 400 This service does not allow the dataset to be specified in the query
+ ex492.txt: 400 Parse error:  PREFIX  dm:   &lt;http://learningsparql.com/ns/demo#>  SELECT  * WHERE   {  } VALUES ( ?color ?direction ) {   ( dm:red "north" )   ( dm:blue "west" ) }   Lexical error at line 6, column 7.  Encountered: " " (32), after : "VALUES"
+ ex496.txt: 400 Parse error:  PREFIX  e:    &lt;http://learningsparql.com/ns/expenses#>  SELECT  ?description ?date ?amount WHERE   { ?meal e:description ?description .     ?meal e:date ?date .     ?meal e:amount ?amount     VALUES ?description { "lunch" "dinner" }   }   Lexical error at line 8, column 11.  Encountered: " " (32), after : "VALUES"
+ ex498.txt: 400 Parse error:  PREFIX  e:    &lt;http://learningsparql.com/ns/expenses#>  SELECT  ?description ?date ?amount WHERE   { ?meal e:description ?description .     ?meal e:date ?date .     ?meal e:amount ?amount     VALUES ( ?date ?description ) {       ( "2011-10-15" "lunch" )       ( "2011-10-16" "dinner" )     }   }   Lexical error at line 8, column 11.  Encountered: " " (32), after : "VALUES"
+ ex500.txt: 400 Parse error:  PREFIX  e:    &lt;http://learningsparql.com/ns/expenses#>  SELECT  ?description ?date ?amount WHERE   { ?meal e:description ?description .     ?meal e:date ?date .     ?meal e:amount ?amount     VALUES ( ?date ?description ) {       ( UNDEF "lunch" )       ( "2011-10-16" UNDEF )     }   }   Lexical error at line 8, column 11.  Encountered: " " (32), after : "VALUES"
+ ex540.txt: 400 This service does not allow the dataset to be specified in the query
+
+FROMとVALUESに非対応。
+
+=== [http://dydra.com/ Dydra (2015/09/15)] ===
+以前のテスト時に比べて格段に対応クエリが増加している。
+
+ $ foreach f ( ../LearningSPARQL2ndEx/ex*.rq )
+ set a=`basename $f .rq`
+ ./bin/rsparql --service 'http://dydra.com/xxx/sparql/' --query ${f} --debug >&amp; ../LearningSPARQL2ndEx_Dydra/${a}.txt
+ end
+
+ $ head -1 *.txt | grep -v '^==>' | sed -ne '/^./p' | sed -e 's/^--*/-/' | sort | uniq -c | sort -nr
+    173 -
+     30 @prefix rdf:   &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+     10 HTTP Exeception
+      3 Ask => No
+      2 @prefix ns5:   &lt;http://www.w3.org/2002/07/owl#> .
+      1 @prefix ns6:   &lt;http://purl.org/dc/terms/> .
+      1 22:17:24 WARN  riot                 :: {W109} The namespace URI: &lt;http%3A%2F%2Fwww.w3.org%2F2002%2F07%2Fowl%23> is relative. Such ...
+
+ $ grep -A2 'HTTP Exeception' *.txt | grep -v 'HTTP Exeception' | grep -v '^--' | grep -v 'HttpException' | sed -e 's/^/ /'
+ ex167.txt-
+ ex170.txt-
+ ex172.txt-
+ ex178.txt-
+ ex196.txt-
+ ex474.txt-
+ ex475.txt-
+ ex476.txt-
+ ex539.txt-
+
+* SERVICEクエリは、dydra内にあるデータセットに対してのみ可能としているらしい。
+
+=== [https://ontotext.com/products/graphdb/ GraphDB 8.5.0 - 9.2.1] ===
+
+ $ sh -c 'for f in ../LearningSPARQL2ndEx/ex*.rq ; do o=`basename $f .rq`; ./bin/rsparql --service=http://ep:21700/repositories/DBCLS --query=${f} --debug >&amp; ../LearningSPARQL2ndEx_GraphDB_8.5.0/${o}.txt ; done'
+
+ $ head -1 *.txt | grep -v '^==>' | sed -ne '/^./p' | sed -e 's/^--*/-/' | sort | uniq -c | sort -nr
+    167 -
+     15 HTTP Exeception
+      4 &lt;http://www.w3.org/2002/07/owl#equivalentProperty>
+      3 Ask => No
+      1 ==== No variables ====
+      1 &lt;http://learningsparql.com/ns/data/book312>
+
+ $ grep -A2 'HTTP Exeception' *.txt | grep -v 'HTTP Exeception' | grep -v '^--' | grep -v 'HttpException' | sed -e 's/^/ /'
+ ex007.txt-     at org.apache.jena.sparql.engine.http.HttpQuery.rewrap(HttpQuery.java:371)
+ ex123.txt-     at org.apache.jena.sparql.engine.http.HttpQuery.rewrap(HttpQuery.java:371)
+ ex126.txt-     at org.apache.jena.sparql.engine.http.HttpQuery.rewrap(HttpQuery.java:371)
+ ex128.txt-     at org.apache.jena.sparql.engine.http.HttpQuery.rewrap(HttpQuery.java:371)
+ ex130.txt-     at org.apache.jena.sparql.engine.http.HttpQuery.rewrap(HttpQuery.java:371)
+ ex135.txt-     at org.apache.jena.sparql.engine.http.HttpQuery.rewrap(HttpQuery.java:371)
+ ex172.txt-     at org.apache.jena.sparql.engine.http.HttpQuery.rewrap(HttpQuery.java:371)
+ ex178.txt-     at org.apache.jena.sparql.engine.http.HttpQuery.rewrap(HttpQuery.java:371)
+ ex180.txt-     at org.apache.jena.sparql.engine.http.HttpQuery.rewrap(HttpQuery.java:371)
+ ex196.txt-     at org.apache.jena.sparql.engine.http.HttpQuery.rewrap(HttpQuery.java:371)
+ ex308.txt-     at org.apache.jena.sparql.engine.http.HttpQuery.rewrap(HttpQuery.java:371)
+ ex474.txt-     at org.apache.jena.sparql.engine.http.HttpQuery.rewrap(HttpQuery.java:374)
+ ex475.txt-     at org.apache.jena.sparql.engine.http.HttpQuery.rewrap(HttpQuery.java:371)
+ ex476.txt-     at org.apache.jena.sparql.engine.http.HttpQuery.rewrap(HttpQuery.java:374)
+ ex539.txt-     at org.apache.jena.sparql.engine.http.HttpQuery.rewrap(HttpQuery.java:374)
+
+* "&lt;ex002.ttl>"といったURIに未対応。(ex007.rq - ex180.rq)
+* DBpedia.orgのSPARQLエンドポイントへはクエリは適切になされているが、得られる結果のデータ型に問題があるためエラーになっている。
+（datatype rdf:langString requires a language tag）
+* ex308.rqはARQ独自関数利用のため。ただ、9.0.0からはエラーにならなくなった。9.2.1で、またエラーに。
+
+=== [http://developer.marklogic.com/free-developer MarkLogic 8.0-6] ===
+
+ $ sh -c 'for f in ../LearningSPARQL2ndEx/ex*.rq ; do o=`basename $f .rq`; curl --anyauth --user user:pass -i -X POST --data-binary @${f} -H "Content-type: application/sparql-query" -H "Accept: application/sparql-results+json" http://localhost:8000/v1/graphs/sparql > ../LearningSPARQL2ndEx_MarkLogic_8.0-6/${o}.txt ; done'
+
+ $ grep '^{' *.txt | grep errorResponse | cut -c1-120 | sed -e 's/^/ /'
+ ex128.txt:{"errorResponse":{"statusCode":400, "status":"Bad Request", "messageCode":"XDMP-COLLXCNNOTFOUND", "message":"X
+ ex130.txt:{"errorResponse":{"statusCode":400, "status":"Bad Request", "messageCode":"XDMP-COLLXCNNOTFOUND", "message":"X
+ ex135.txt:{"errorResponse":{"statusCode":400, "status":"Bad Request", "messageCode":"XDMP-COLLXCNNOTFOUND", "message":"X
+ ex136.txt:{"errorResponse":{"statusCode":400, "status":"Bad Request", "messageCode":"XDMP-COLLXCNNOTFOUND", "message":"X
+ ex167.txt:{"errorResponse":{"statusCode":400, "status":"Bad Request", "messageCode":"XDMP-UNEXPECTED", "message":"XDMP-U
+ ex170.txt:{"errorResponse":{"statusCode":400, "status":"Bad Request", "messageCode":"XDMP-UNEXPECTED", "message":"XDMP-U
+ ex172.txt:{"errorResponse":{"statusCode":400, "status":"Bad Request", "messageCode":"XDMP-UNEXPECTED", "message":"XDMP-U
+ ex176.txt:{"errorResponse":{"statusCode":406, "status":"Unacceptable Type", "messageCode":"REST-UNACCEPTABLETYPE", "mess
+ ex178.txt:{"errorResponse":{"statusCode":400, "status":"Bad Request", "messageCode":"XDMP-UNEXPECTED", "message":"XDMP-U
+ ex180.txt:{"errorResponse":{"statusCode":406, "status":"Unacceptable Type", "messageCode":"REST-UNACCEPTABLETYPE", "mess
+ ex182.txt:{"errorResponse":{"statusCode":406, "status":"Unacceptable Type", "messageCode":"REST-UNACCEPTABLETYPE", "mess
+ ex184.txt:{"errorResponse":{"statusCode":406, "status":"Unacceptable Type", "messageCode":"REST-UNACCEPTABLETYPE", "mess
+ ex185.txt:{"errorResponse":{"statusCode":406, "status":"Unacceptable Type", "messageCode":"REST-UNACCEPTABLETYPE", "mess
+ ex188.txt:{"errorResponse":{"statusCode":406, "status":"Unacceptable Type", "messageCode":"REST-UNACCEPTABLETYPE", "mess
+ ex190.txt:{"errorResponse":{"statusCode":406, "status":"Unacceptable Type", "messageCode":"REST-UNACCEPTABLETYPE", "mess
+ ex192.txt:{"errorResponse":{"statusCode":406, "status":"Unacceptable Type", "messageCode":"REST-UNACCEPTABLETYPE", "mess
+ ex194.txt:{"errorResponse":{"statusCode":406, "status":"Unacceptable Type", "messageCode":"REST-UNACCEPTABLETYPE", "mess
+ ex196.txt:{"errorResponse":{"statusCode":400, "status":"Bad Request", "messageCode":"XDMP-UNEXPECTED", "message":"XDMP-U
+ ex203.txt:{"errorResponse":{"statusCode":406, "status":"Unacceptable Type", "messageCode":"REST-UNACCEPTABLETYPE", "mess
+ ex205.txt:{"errorResponse":{"statusCode":406, "status":"Unacceptable Type", "messageCode":"REST-UNACCEPTABLETYPE", "mess
+ ex207.txt:{"errorResponse":{"statusCode":406, "status":"Unacceptable Type", "messageCode":"REST-UNACCEPTABLETYPE", "mess
+ ex209.txt:{"errorResponse":{"statusCode":406, "status":"Unacceptable Type", "messageCode":"REST-UNACCEPTABLETYPE", "mess
+ ex211.txt:{"errorResponse":{"statusCode":406, "status":"Unacceptable Type", "messageCode":"REST-UNACCEPTABLETYPE", "mess
+ ex212.txt:{"errorResponse":{"statusCode":406, "status":"Unacceptable Type", "messageCode":"REST-UNACCEPTABLETYPE", "mess
+ ex213.txt:{"errorResponse":{"statusCode":406, "status":"Unacceptable Type", "messageCode":"REST-UNACCEPTABLETYPE", "mess
+ ex215.txt:{"errorResponse":{"statusCode":406, "status":"Unacceptable Type", "messageCode":"REST-UNACCEPTABLETYPE", "mess
+ ex216.txt:{"errorResponse":{"statusCode":406, "status":"Unacceptable Type", "messageCode":"REST-UNACCEPTABLETYPE", "mess
+ ex237.txt:{"errorResponse":{"statusCode":406, "status":"Unacceptable Type", "messageCode":"REST-UNACCEPTABLETYPE", "mess
+ ex246.txt:{"errorResponse":{"statusCode":406, "status":"Unacceptable Type", "messageCode":"REST-UNACCEPTABLETYPE", "mess
+ ex248.txt:{"errorResponse":{"statusCode":406, "status":"Unacceptable Type", "messageCode":"REST-UNACCEPTABLETYPE", "mess
+ ex253.txt:{"errorResponse":{"statusCode":406, "status":"Unacceptable Type", "messageCode":"REST-UNACCEPTABLETYPE", "mess
+ ex255.txt:{"errorResponse":{"statusCode":406, "status":"Unacceptable Type", "messageCode":"REST-UNACCEPTABLETYPE", "mess
+ ex267.txt:{"errorResponse":{"statusCode":406, "status":"Unacceptable Type", "messageCode":"REST-UNACCEPTABLETYPE", "mess
+ ex282.txt:{"errorResponse":{"statusCode":406, "status":"Unacceptable Type", "messageCode":"REST-UNACCEPTABLETYPE", "mess
+ ex305.txt:{"errorResponse":{"statusCode":406, "status":"Unacceptable Type", "messageCode":"REST-UNACCEPTABLETYPE", "mess
+ ex308.txt:{"errorResponse":{"statusCode":400, "status":"Bad Request", "messageCode":"XDMP-UNDFUN", "message":"XDMP-UNDFU
+ ex314.txt:{"errorResponse":{"statusCode":406, "status":"Unacceptable Type", "messageCode":"REST-UNACCEPTABLETYPE", "mess
+ ex326.txt:{"errorResponse":{"statusCode":406, "status":"Unacceptable Type", "messageCode":"REST-UNACCEPTABLETYPE", "mess
+ ex332.txt:{"errorResponse":{"statusCode":400, "status":"Bad Request", "messageCode":"XDMP-COLLXCNNOTFOUND", "message":"X
+ ex341.txt:{"errorResponse":{"statusCode":400, "status":"Bad Request", "messageCode":"XDMP-COLLXCNNOTFOUND", "message":"X
+ ex427.txt:{"errorResponse":{"statusCode":406, "status":"Unacceptable Type", "messageCode":"REST-UNACCEPTABLETYPE", "mess
+ ex428.txt:{"errorResponse":{"statusCode":406, "status":"Unacceptable Type", "messageCode":"REST-UNACCEPTABLETYPE", "mess
+ ex437.txt:{"errorResponse":{"statusCode":400, "status":"Bad Request", "messageCode":"XDMP-COLLXCNNOTFOUND", "message":"X
+ ex474.txt:{"errorResponse":{"statusCode":400, "status":"Bad Request", "messageCode":"XDMP-UNEXPECTED", "message":"XDMP-U
+ ex475.txt:{"errorResponse":{"statusCode":400, "status":"Bad Request", "messageCode":"XDMP-UNEXPECTED", "message":"XDMP-U
+ ex476.txt:{"errorResponse":{"statusCode":400, "status":"Bad Request", "messageCode":"XDMP-UNEXPECTED", "message":"XDMP-U
+ ex479.txt:{"errorResponse":{"statusCode":406, "status":"Unacceptable Type", "messageCode":"REST-UNACCEPTABLETYPE", "mess
+ ex480.txt:{"errorResponse":{"statusCode":406, "status":"Unacceptable Type", "messageCode":"REST-UNACCEPTABLETYPE", "mess
+ ex491.txt:{"errorResponse":{"statusCode":406, "status":"Unacceptable Type", "messageCode":"REST-UNACCEPTABLETYPE", "mess
+ ex523.txt:{"errorResponse":{"statusCode":406, "status":"Unacceptable Type", "messageCode":"REST-UNACCEPTABLETYPE", "mess
+ ex538.txt:{"errorResponse":{"statusCode":400, "status":"Bad Request", "messageCode":"XDMP-COLLXCNNOTFOUND", "message":"X
+ ex539.txt:{"errorResponse":{"statusCode":400, "status":"Bad Request", "messageCode":"XDMP-UNEXPECTED", "message":"XDMP-U
+ ex540.txt:{"errorResponse":{"statusCode":406, "status":"Unacceptable Type", "messageCode":"REST-UNACCEPTABLETYPE", "mess
+
+* 現時点ではあまり対応されていない模様。
+
+=== [https://aws.amazon.com/jp/neptune/ Neptune 1.0.1.0] ===
+ $ for f in ./LearningSPARQL2ndEx/ex*.rq ; do o=`basename $f .rq`; ./apache-jena-3.7.0/bin/rsparql --service=http://***.neptune.amazonaws.com:8182/sparql --query=${f} --debug >&amp; ./LearningSPARQL2ndEx_Neptune_1.0.1.0/${o}.txt ; done
+
+ $ head -1 *.txt | grep -v '^==>' | sed -ne '/^./p' | sed -e 's/^--*/-/' | sort | uniq -c | sort -nr
+    172 -
+     19 @prefix owl:   &lt;http://www.w3.org/2002/07/owl#> .
+     12 @prefix ab:    &lt;http://learningsparql.com/ns/addressbook#> .
+     10 HTTP Exeception
+      3 Ask => No
+      1 @prefix rdf:   &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+      1 @prefix nn:    &lt;http://learningsparql.com/new/namespace/> .
+      1 @prefix im:    &lt;http://learningsparql.com/ns/importedData#> .
+      1 @prefix d:     &lt;http://learningsparql.com/ns/data#> .
+
+ $ grep -A2 'HTTP Exeception' *.txt | grep -v 'HTTP Exeception' | grep -v '^--' | grep -v 'HttpException' | sed -e 's/^/ /'
+ ex167.txt-     at org.apache.jena.sparql.engine.http.HttpQuery.rewrap(HttpQuery.java:371)
+ ex170.txt-     at org.apache.jena.sparql.engine.http.HttpQuery.rewrap(HttpQuery.java:371)
+ ex172.txt-     at org.apache.jena.sparql.engine.http.HttpQuery.rewrap(HttpQuery.java:371)
+ ex178.txt-     at org.apache.jena.sparql.engine.http.HttpQuery.rewrap(HttpQuery.java:371)
+ ex196.txt-     at org.apache.jena.sparql.engine.http.HttpQuery.rewrap(HttpQuery.java:371)
+ ex308.txt-     at org.apache.jena.sparql.engine.http.HttpQuery.rewrap(HttpQuery.java:371)
+ ex474.txt-     at org.apache.jena.sparql.engine.http.HttpQuery.rewrap(HttpQuery.java:371)
+ ex475.txt-     at org.apache.jena.sparql.engine.http.HttpQuery.rewrap(HttpQuery.java:371)
+ ex476.txt-     at org.apache.jena.sparql.engine.http.HttpQuery.rewrap(HttpQuery.java:371)
+ ex539.txt-     at org.apache.jena.sparql.engine.http.HttpQuery.rewrap(HttpQuery.java:371)
+
+* Federatedクエリの利用は不可のため、SERVICEを含むクエリ（ex308以外）が失敗している。
+* ex308.rqについてはARQ独自関数が実行できないため。
+
+=== [http://search.cpan.org/~gwilliams/RDF-Endpoint-0.07/ RDF-Endpoint-0.07] ===
+ $ foreach f ( ../LearningSPARQL2ndEx/ex*.rq )
+ set a=`basename $f .rq`
+ ./bin/rsparql --service='http://localhost:5000/sparql' --query ${f} --debug >&amp; ../LearningSPARQL2ndEx_RDF-Endpoint-0.07/${a}.txt
+ end
+
+ $ head -1 *.txt | grep -v '^==>' | sed -ne '/^./p' | sed -e 's/^--*/-/' | sort | uniq -c | sort -nr
+    176 -
+     35 @prefix arq:   &lt;http://jena.hpl.hp.com/ARQ/function#> .
+      3 com.hp.hpl.jena.sparql.resultset.ResultSetException: Not a boolean result
+      3 HTTP Exeception
+
+  $ grep 'Exception' *.txt | grep -v 'Caused by' | sed -e 's/^/ /'
+ ex199.txt:com.hp.hpl.jena.sparql.resultset.ResultSetException: Not a boolean result
+ ex201.txt:com.hp.hpl.jena.sparql.resultset.ResultSetException: Not a boolean result
+ ex202.txt:com.hp.hpl.jena.sparql.resultset.ResultSetException: Not a boolean result
+ ex492.txt:HttpException: 400 Bad Request
+ ex498.txt:HttpException: 400 Bad Request
+ ex500.txt:HttpException: 400 Bad Request
+
+* SERVICEキーワードについては問題が解消された。
+* ASKキーワードには非対応 (ex199.rq, ex201.rq, ex202.rq)。
+* ex492.rq について、VALUESのSELECT句外での使用に非対応の可能性。
+* ex498.rq, ex500.rq について、VALUESキーワードの処理に問題がある模様。
+
+=== [http://rdf4j.org/ RDF4J 3.2.1] ===
+
+ $ sh -c 'for f in ../LearningSPARQL2ndEx/ex*.rq ; do o=`basename $f .rq`; ./bin/rsparql --service=http://localhost:21100/rdf4j-server/repositories/SYSTEM --query=${f} --debug >&amp; ../LearningSPARQL2ndEx_RDF4J_2.2.4/${o}.txt ; done'
+
+ $ head -1 *.txt | grep -v '^==>' | sed -ne '/^./p' | sed -e 's/^--*/-/' | sort | uniq -c | sort -nr
+    166 -
+      7 HTTP Exeception
+      4 &lt;http://www.University0.edu>
+      3 org.apache.jena.atlas.json.JsonParseException: Not a JSON object START: [null]
+      3 org.apache.jena.atlas.json.JsonParseException: Broken token: u
+      3 Ask => No
+      1 ==== No variables ====
+      1 &lt;http://learningsparql.com/ns/data/book312>
+      1 16:29:45 ERROR riot                 :: [line: 54, col: 63] Broken IRI (End of file) 
+
+ $ grep 'Exception' *.txt | grep -vP 'txt:\s'
+ ex007.txt:HttpException: 400
+ ex123.txt:HttpException: 400
+ ex126.txt:HttpException: 400
+ ex128.txt:HttpException: 400
+ ex130.txt:HttpException: 400
+ ex135.txt:HttpException: 400
+ ex167.txt:org.apache.jena.atlas.json.JsonParseException: Broken token: u
+ ex172.txt:org.apache.jena.atlas.json.JsonParseException: Not a JSON object START: [null]
+ ex180.txt:HttpException: 400
+ ex308.txt:org.apache.jena.atlas.json.JsonParseException: Not a JSON object START: [null]
+ ex474.txt:org.apache.jena.atlas.json.JsonParseException: Broken token: u
+ ex475.txt:org.apache.jena.atlas.json.JsonParseException: Not a JSON object START: [null]
+ ex476.txt:org.apache.jena.riot.RiotException: [line: 54, col: 63] Broken IRI (End of file)
+ ex539.txt:org.apache.jena.atlas.json.JsonParseException: Broken token: u
+
+* "&lt;ex002.ttl>"といったURIに未対応。(ex007.rq - ex180.rq) 
+* ex308.rqはARQ独自関数利用のため。
+* ex492.rqについては、期待される結果とは異なっている。("==== No variables ====")
+* また、DBpediaの返すリテラル値にrdf:langString型があるが、言語タグが付いていないことでエラー（500 Internal Server Error）になっている([https://www.w3.org/TR/rdf-schema/#ch_langstring 参考])。ただ、このエラーに対するHTTPステータスが500なのはどうなのか。
+
+=== [http://rdf4j.org/ RDF4J 2.2.4 - 2.4.1] ===
+
+ $ sh -c 'for f in ../LearningSPARQL2ndEx/ex*.rq ; do o=`basename $f .rq`; ./bin/rsparql --service=http://localhost:21100/rdf4j-server/repositories/SYSTEM --query=${f} --debug >&amp; ../LearningSPARQL2ndEx_RDF4J_2.2.4/${o}.txt ; done'
+
+ $ head -1 *.txt | grep -v '^==>' | sed -ne '/^./p' | sed -e 's/^--*/-/' | sort | uniq -c | sort -nr
+    167 -
+     15 HTTP Exeception
+     15 @prefix rdf:   &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+     11 @prefix ab:    &lt;http://learningsparql.com/ns/addressbook#> .
+      4 @prefix :      &lt;http://www.openrdf.org/config/repository#> .
+      3 Ask => No
+      1 @prefix owl:   &lt;http://www.w3.org/2002/07/owl#> .
+      1 @prefix nn:    &lt;http://learningsparql.com/new/namespace/> .
+      1 @prefix im:    &lt;http://learningsparql.com/ns/importedData#> .
+      1 @prefix d:     &lt;http://learningsparql.com/ns/data#> .
+      1 ==== No variables ====
+
+ $ grep -A2 'HTTP Exeception' *.txt | grep -v 'HTTP Exeception' | grep -v '^--' | grep -v 'HttpException' | sed -e 's/^/ /' | cut -c1-100
+ ex007.txt-MALFORMED QUERY: Not a valid (absolute) IRI: ex002.ttl
+ ex123.txt-MALFORMED QUERY: Not a valid (absolute) IRI: ex069.ttl
+ ex126.txt-MALFORMED QUERY: Not a valid (absolute) IRI: ex125.ttl
+ ex128.txt-MALFORMED QUERY: Not a valid (absolute) IRI: ex125.ttl
+ ex130.txt-MALFORMED QUERY: Not a valid (absolute) IRI: ex069.ttl
+ ex135.txt-MALFORMED QUERY: Not a valid (absolute) IRI: ex134.ttl
+ ex172.txt-&lt;!DOCTYPE html>&lt;html>&lt;head>&lt;title>Apache Tomcat/8.0.46 - Error report&lt;/title>&lt;style type=
+ ex178.txt-&lt;!DOCTYPE html>&lt;html>&lt;head>&lt;title>Apache Tomcat/8.0.46 - Error report&lt;/title>&lt;style type=
+ ex180.txt-MALFORMED QUERY: Not a valid (absolute) IRI: ex125.ttl
+ ex196.txt-&lt;!DOCTYPE html>&lt;html>&lt;head>&lt;title>Apache Tomcat/8.0.46 - Error report&lt;/title>&lt;style type=
+ ex308.txt-&lt;!DOCTYPE html>&lt;html>&lt;head>&lt;title>Apache Tomcat/8.0.46 - Error report&lt;/title>&lt;style type=
+ ex474.txt-&lt;!DOCTYPE html>&lt;html>&lt;head>&lt;title>Apache Tomcat/8.0.46 - Error report&lt;/title>&lt;style type=
+ ex475.txt-&lt;!DOCTYPE html>&lt;html>&lt;head>&lt;title>Apache Tomcat/8.0.46 - Error report&lt;/title>&lt;style type=
+ ex476.txt-&lt;!DOCTYPE html>&lt;html>&lt;head>&lt;title>Apache Tomcat/8.0.46 - Error report&lt;/title>&lt;style type=
+ ex539.txt-&lt;!DOCTYPE html>&lt;html>&lt;head>&lt;title>Apache Tomcat/8.0.46 - Error report&lt;/title>&lt;style type=
+
+* "&lt;ex002.ttl>"といったURIに未対応。(ex007.rq - ex180.rq) 
+* ex308.rqはARQ独自関数利用のため。
+* ex492.rqについては、期待される結果とは異なっている。("==== No variables ====")
+* また、DBpediaの返すリテラル値にrdf:langString型があるが、言語タグが付いていないことでエラー（500 Internal Server Error）になっている([https://www.w3.org/TR/rdf-schema/#ch_langstring 参考])。ただ、このエラーに対するHTTPステータスが500なのはどうなのか。
+
+=== [https://github.com/antoniogarrote/rdfstore-js rdfstore-js 0.8.1] ===
+
+ $ foreach f ( ../LearningSPARQL2ndEx/ex*.rq )
+ set a=`basename $f .rq`
+ ./bin/rsparql --service 'http://xxx/sparql' --query ${f} --debug >&amp; ../LearningSPARQL2ndEx_rdfstore-js0.8.1/${a}.txt
+ end
+
+ $ head -1 *.txt | grep -v '^==>' | sed -ne '/^./p' | sed -e 's/^--*/-/' | sort | uniq -c | sort -nr
+    119 ==== No variables ====
+     56 com.hp.hpl.jena.query.QueryException: Endpoint returned Content-Type: application/rdf+xml which is not currently supported for SELECT queries
+     16 @prefix rdf:   &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+      4 HTTP Exeception
+      2 com.hp.hpl.jena.query.QueryException: Endpoint returned Content-Type: application/rdf+xml which is not currently supported for ASK queries
+      2 12:00:33 ERROR riot                 :: Content is not allowed in prolog.
+      2 12:00:31 ERROR riot                 :: Content is not allowed in prolog.
+      1 Ask => No
+      1 12:01:45 ERROR riot                 :: Content is not allowed in prolog.
+      1 12:01:32 ERROR riot                 :: Content is not allowed in prolog.
+      1 12:01:28 ERROR riot                 :: Content is not allowed in prolog.
+      1 12:01:00 ERROR riot                 :: Content is not allowed in prolog.
+      1 12:00:55 ERROR riot                 :: Content is not allowed in prolog.
+      1 12:00:50 ERROR riot                 :: Content is not allowed in prolog.
+      1 12:00:47 ERROR riot                 :: Content is not allowed in prolog.
+      1 12:00:46 ERROR riot                 :: Content is not allowed in prolog.
+      1 12:00:45 ERROR riot                 :: Content is not allowed in prolog.
+      1 12:00:44 ERROR riot                 :: Content is not allowed in prolog.
+      1 12:00:42 ERROR riot                 :: Content is not allowed in prolog.
+      1 12:00:34 ERROR riot                 :: Content is not allowed in prolog.
+      1 12:00:32 ERROR riot                 :: Content is not allowed in prolog.
+      1 12:00:30 ERROR riot                 :: Content is not allowed in prolog.
+      1 12:00:29 ERROR riot                 :: Content is not allowed in prolog.
+      1 12:00:26 ERROR riot                 :: Content is not allowed in prolog.
+      1 12:00:23 ERROR riot                 :: Content is not allowed in prolog.
+      1 12:00:20 ERROR riot                 :: Content is not allowed in prolog.
+
+=== [http://topquadrant.com/repository/spin/org/topbraid/spin/ SPIN API 1.3.1-1.3.2] ===
+TopBraidにより提供されている[http://topbraid.org/spin/api/ SPIN API]に対し、他の実装で試した全てのクエリを処理させ、適切にRDFへの変換、及び逆変換がなされるかを試した。
+結果は全て問題なく処理された。
+
+このテストを行うために、上記URLより取得出来るライブラリ([http://www.topquadrant.com/repository/spin/org/topbraid/spin/1.3.1/ spin-1.3.1-distribution.zip], [http://www.topquadrant.com/repository/spin/org/topbraid/spin/1.3.2/ spin-1.3.2-distribution.zip])と[http://www.apache.org/dist/jena/binaries/ apache-jena-2.11.0.zip]を利用している。
+前者のパッケージに含まれているサンプルプログラムSPINParsingExample.javaを参考にし、標準入力からクエリを受け付け、SELECTだけでなく、ASK、CONSTRUCT、DESCRIBEも処理可能な仕様にした。
+なお、サンプルプログラムのままではSELECTクエリのみが対応可能なので、com.hp.hpl.jena.query.Queryクラスのメソッド、isAskTypeなどを利用してクエリの型を判定する形にした。
+
+=== [http://stardog.com/ Stardog 5.2.3 - 5.3.6] ===
+
+ $ sh -c 'for f in ../LearningSPARQL2ndEx/ex*.rq ; do o=`basename $f .rq`; ./bin/rsparql --service=http://ep:21200/myDB/query --query=${f} --debug >&amp; ../LearningSPARQL2ndEx_Stardog_5.2.3/${o}.txt ; done'
+
+ $ head -1 *.txt | grep -v '^==>' | sed -ne '/^./p' | sed -e 's/^--*/-/' | sort | uniq -c | sort -nr
+    176 -
+     12 @prefix ab:    &lt;http://learningsparql.com/ns/addressbook#> .
+      4 &lt;http://www.Department0.University0.edu>
+      3 HTTP Exeception
+      3 Ask => No
+      3 @prefix rdf:   &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+      2 @prefix xsd:   &lt;http://www.w3.org/2001/XMLSchema#> .
+      2 @prefix dm:    &lt;http://learningsparql.com/ns/demo#> .
+      2 @prefix dcterms: &lt;http://purl.org/dc/terms/> .
+      2 @prefix d:     &lt;http://learningsparql.com/ns/data#> .
+      1 @prefix spin:  &lt;http://spinrdf.org/spin#> .
+      1 @prefix skos:  &lt;http://www.w3.org/2004/02/skos/core#> .
+      1 @prefix owl:   &lt;http://www.w3.org/2002/07/owl#> .
+      1 @prefix nn:    &lt;http://learningsparql.com/new/namespace/> .
+      1 @prefix im:    &lt;http://learningsparql.com/ns/importedData#> .
+      1 @prefix dc:    &lt;http://purl.org/dc/elements/1.1/> .
+      1 ==== No variables ====
+
+ $ grep -A2 'HTTP Exeception' *.txt | grep -v 'HTTP Exeception' | grep -v '^--' | grep -v 'HttpException' | sed -e 's/^/ /'
+ ex474.txt-     at org.apache.jena.sparql.engine.http.HttpQuery.rewrap(HttpQuery.java:371)
+ ex476.txt-     at org.apache.jena.sparql.engine.http.HttpQuery.rewrap(HttpQuery.java:371)
+ ex539.txt-     at org.apache.jena.sparql.engine.http.HttpQuery.rewrap(HttpQuery.java:371)
+
+* 一部DBpediaに対するService句が失敗。おそらくDBpedia（つまりVirtuoso?）が返すヘッダー情報の問題と思われるが、はて。
+* ex492.rqについては、期待される結果とは異なっている。("==== No variables ====")
+
+=== [http://stardog.com/ Stardog 6.1.1 - 7.3.0 ] ===
+
+ $ sh -c 'for f in ../LearningSPARQL2ndEx/ex*.rq ; do o=`basename $f .rq`; ./bin/rsparql --service=http://ep:21200/myDB/query --query=${f} --debug >&amp; ../LearningSPARQL2ndEx_Stardog_6.1.1/${o}.txt ; done'
+
+ $ head -1 *.txt | grep -v '^==>' | sed -ne '/^./p' | sed -e 's/^--*/-/' | sort | uniq -c | sort -nr
+    178 -
+     12 @prefix ab:    &lt;http://learningsparql.com/ns/addressbook#> .
+      3 Ask => No
+      3 @prefix rdf:   &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+      3 &lt;http://www.Department0.University0.edu/GraduateCourse0>
+      2 @prefix xsd:   &lt;http://www.w3.org/2001/XMLSchema#> .
+      2 @prefix dm:    &lt;http://learningsparql.com/ns/demo#> .
+      2 @prefix dcterms: &lt;http://purl.org/dc/terms/> .
+      2 @prefix d:     &lt;http://learningsparql.com/ns/data#> .
+      1 @prefix spin:  &lt;http://spinrdf.org/spin#> .
+      1 @prefix skos:  &lt;http://www.w3.org/2004/02/skos/core#> .
+      1 @prefix owl:   &lt;http://www.w3.org/2002/07/owl#> .
+      1 @prefix nn:    &lt;http://learningsparql.com/new/namespace/> .
+      1 @prefix im:    &lt;http://learningsparql.com/ns/importedData#> .
+      1 @prefix dc:    &lt;http://purl.org/dc/elements/1.1/> .
+      1 ==== No variables ====
+      1 10:40:27 WARN  riot                 :: [line: 6, col: 44] Lexical form '1937-3-4' not valid for datatype XSD date
+
+ $ grep -A2 'HTTP Exeception' *.txt | grep -v 'HTTP Exeception' | grep -v '^--' | grep -v 'HttpException' | sed -e 's/^/ /'
+
+* すべてのクエリで異常終了しなくなったが、ex492.rqについては、期待される結果とは異なっている。("==== No variables ====")
+
+=== [http://virtuoso.openlinksw.com/download/ Virtuoso (VOS) 7.2.0 - 7.2.5 on Linux] ===
+
+ $ sh -c 'for f in ../LearningSPARQL2ndEx/ex*.rq ; do o=`basename $f .rq`; ./bin/rsparql --service=http://ep:21600/sparql --query=${f} --debug >&amp; ../LearningSPARQL2ndEx_Virtuoso_7.2.4/${o}.txt ; done'
+
+ $ foreach f ( ../LearningSPARQL2ndEx/ex*.rq )
+ set a=`basename $f .rq`
+ ./bin/rsparql --service 'xxx' --query ${f} --debug >&amp; ../LearningSPARQL2ndEx_Virtuoso_7.2.0/${a}.txt
+ end
+
+ $ head -1 *.txt | grep -v '^==>' | sed -ne '/^./p' | sed -e 's/^--*/-/' | sort | uniq -c | sort -nr
+    173 -
+     33 @prefix rdf:   &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+      6 HTTP Exeception
+      3 Ask => No
+      1 14:49:41 WARN  riot                 :: Lexical form '1860-01-01+02:00' not valid for datatype http://www.w3.org/2001/XMLSchema#gYear
+      1 14:48:12 ERROR riot                 :: {E211} Base URI is null, but there are relative URIs to resolve.: &lt;http%3A%2F%2Fwww.openlinksw.com%2Fschemas%2Fvirtrdf%23QuadMapFormat>
+      1 14:48:11 ERROR riot                 :: {E211} Base URI is null, but there are relative URIs to resolve.: &lt;http%3A%2F%2Fwww.openlinksw.com%2Fschemas%2Fvirtrdf%23QuadMapFormat>
+      1 14:47:45 WARN  riot                 :: Lexical form '1860-01-01+02:00' not valid for datatype http://www.w3.org/2001/XMLSchema#gYear
+      1 14:47:10 WARN  riot                 :: Lexical form '1860-01-01+02:00' not valid for datatype http://www.w3.org/2001/XMLSchema#gYear
+
+ $ grep -A2 'HTTP Exeception' *.txt | grep 'HttpException' | sed -e 's/^/ /'
+ ex118.txt-HttpException: 500 SPARQL Request Failed
+ ex262.txt-HttpException: 500 SPARQL Request Failed
+ ex308.txt-HttpException: 500 SPARQL Request Failed
+ ex492.txt-HttpException: 500 SPARQL Request Failed
+ ex510.txt-HttpException: 500 SPARQL Request Failed
+ ex511.txt-HttpException: 500 SPARQL Request Failed
+
+7.1.0からの大きな違いはURI関数が追加された点。その他以下の点については変化無し。
+
+* ex118.rqについては、OFFSETだけではどうやらダメらしく、LIMITと同時使用なら問題無し。
+* ex262、ex510、ex511は関数の引数について型が合っていないとエラーになる。
+* ex308.rqはARQの独自関数利用のため。
+* ex492.rqについては恐らく、VALUESがWHERE外にある場合に未対応のため。
+
+=== [https://github.com/oxigraph/oxigraph/releases/tag/v0.3.6 Oxigraph v0.3.6] ===
+
+ $ bash -c 'for f in ./ex*.rq ; do o=`basename $f .rq`; echo ${o}; ../../apache-jena-4.6.0/bin/rsparql --service=http://localhost:7878/query --query=${f} --debug >&amp; ${o}.result ; done'
+
+ $ head -1 *.txt | grep -v '^==>' | sed -ne '/^./p' | sed -e 's/^--*/-/' | sort | uniq -c | sort -nr
+
+    173 - 
+      4 org.apache.jena.sparql.resultset.ResultSetException: Use JsonReader.setLenient(true) to accept malformed JSON at line 1 column 51 path $.results.bindings[0] 
+      2 HTTP Exception 
+      3 Ask => No 
+      2 org.apache.jena.sparql.resultset.ResultSetException: Use JsonReader.setLenient(true) to accept malformed JSON at line 1 column 97 path $.results.bindings[0] 
+      1 &lt;http://learningsparql.com/ns/data/book312> 
+      1 10:21:37 ERROR riot            :: [line: 1, col: 1 ] Out of place: [KEYWORD:The] 
+      1 10:17:07 ERROR riot            :: [line: 1, col: 1 ] Out of place: [KEYWORD:Error] 
+      1 10:16:40 ERROR riot            :: [line: 1, col: 1 ] Out of place: [KEYWORD:Error]
+
+* [http://wiki.lifesciencedb.jp/mw/BH22.9 BH22.9]にて佐藤さん(Lifematics社)と共同で実施。
+
+ $ grep  -l 'malformed JSON' *.result
+ ex167.result
+ ex170.result
+ ex172.result
+ ex474.result
+ ex475.result
+ ex539.result
+
+ $ grep  -l 'ERROR riot' *.result
+ ex178.result
+ ex196.result
+ ex476.result
+
+* 以上の9クエリは全てSERVICE句が原因。
+
+ $ grep  -l 'HTTP Exception' *.result
+ ex080.result
+ ex308.result
+
+* ex080.rq はプロパティパスの回数制限
+* ex308.rq はARQ独自関数
+----
+
+* [http://wiki.lifesciencedb.jp/mw/SPARQLthon SPARQLthonのページ]
+
+[[Category:SPARQLthon]]</textarea><div class='templatesUsed'>
+
+</div>
+<p id="mw-returnto"><a href="SPARQLthon/SPARQL11test.html" title="SPARQLthon/SPARQL11test">SPARQLthon/SPARQL11test</a>に戻る。</p>
+<div class="printfooter">
+「<a href="SPARQLthon/SPARQL11test.html">http://wiki.lifesciencedb.jp/mw/SPARQLthon/SPARQL11test</a>」より作成</div>
+		<div id='catlinks' class='catlinks catlinks-allhidden'></div>		<!-- end content -->
+				<div class="visualClear"></div>
+	</div>
+</div></div>
+<div id="column-one">
+	<div id="p-cactions" class="portlet">
+		<h5>表示</h5>
+		<div class="pBody">
+			<ul>
+				 <li id="ca-nstab-main" class="selected"><a href="SPARQLthon/SPARQL11test.html" title="本文を表示 [c]" accesskey="c">ページ</a></li>
+				 <li id="ca-talk" class="new"><a href="http://wiki.lifesciencedb.jp/mw/index.php?title=%E3%83%8E%E3%83%BC%E3%83%88:SPARQLthon/SPARQL11test&amp;action=edit&amp;redlink=1" title="記事についての議論 [t]" accesskey="t">議論</a></li>
+				 <li id="ca-viewsource" class="selected"><a href="index.php@title=SPARQLthon%252FSPARQL11test&amp;action=edit.html" title="このページは保護されています。&#10;ページのソースを閲覧できます。 [e]" accesskey="e">ソースを表示</a></li>
+				 <li id="ca-history"><a href="index.php@title=SPARQLthon%252FSPARQL11test&amp;action=history.html" title="このページの過去の版 [h]" accesskey="h">履歴</a></li>
+			</ul>
+		</div>
+	</div>
+	<div class="portlet" id="p-personal">
+		<h5>個人用ツール</h5>
+		<div class="pBody">
+			<ul>
+				<li id="pt-anonuserpage"><a href="http://wiki.lifesciencedb.jp/mw/%E5%88%A9%E7%94%A8%E8%80%85:172.18.8.51" title="自分が編集しているIPアドレスの利用者ページ [.]" accesskey="." class="new">172.18.8.51</a></li>
+				<li id="pt-anontalk"><a href="http://wiki.lifesciencedb.jp/mw/%E5%88%A9%E7%94%A8%E8%80%85%E2%80%90%E4%BC%9A%E8%A9%B1:172.18.8.51" title="このIPアドレスからなされた編集についての議論 [n]" accesskey="n" class="new">このIPアドレスのトーク</a></li>
+				<li id="pt-anonlogin"><a href="http://wiki.lifesciencedb.jp/mw/index.php?title=%E7%89%B9%E5%88%A5:%E3%83%AD%E3%82%B0%E3%82%A4%E3%83%B3&amp;returnto=SPARQLthon/SPARQL11test&amp;returntoquery=action%3Dedit" title="ログインすることが推奨されます。ただし、必須ではありません。 [o]" accesskey="o">ログイン</a></li>
+				<li id="pt-openidlogin"><a href="index.php@title=特別%253AOpenIDログイン&amp;returnto=SPARQLthon%252FSPARQL11test.html">OpenIDでログイン</a></li>
+			</ul>
+		</div>
+	</div>
+	<div class="portlet" id="p-logo">
+		<a style="background-image: url(http://wiki.lifesciencedb.jp/mw/images/togowiki-logo.png);" href="index.html" title="メインページに移動"></a>
+	</div>
+	<script type="text/javascript"> if (window.isMSIE55) fixalpha(); </script>
+	<div class='generated-sidebar portlet' id='p-navigation'>
+		<h5>案内</h5>
+		<div class='pBody'>
+			<ul>
+				<li id="n-mainpage-description"><a href="index.html" title="メインページに移動する [z]" accesskey="z">メインページ</a></li>
+				<li id="n-portal"><a href="http://wiki.lifesciencedb.jp/mw/TogoWiki:%E3%82%B3%E3%83%9F%E3%83%A5%E3%83%8B%E3%83%86%E3%82%A3%E3%83%BB%E3%83%9D%E3%83%BC%E3%82%BF%E3%83%AB" title="このプロジェクトについて、できること、情報を入手する場所">コミュニティ・ポータル</a></li>
+				<li id="n-currentevents"><a href="http://wiki.lifesciencedb.jp/mw/TogoWiki:%E6%9C%80%E8%BF%91%E3%81%AE%E5%87%BA%E6%9D%A5%E4%BA%8B" title="最近の出来事について予備知識を得る">最近の出来事</a></li>
+				<li id="n-recentchanges"><a href="http://wiki.lifesciencedb.jp/mw/%E7%89%B9%E5%88%A5:%E6%9C%80%E8%BF%91%E3%81%AE%E6%9B%B4%E6%96%B0" title="ウィキにおける最近の更新の一覧 [r]" accesskey="r">最近の更新</a></li>
+				<li id="n-randompage"><a href="http://wiki.lifesciencedb.jp/mw/%E7%89%B9%E5%88%A5:%E3%81%8A%E3%81%BE%E3%81%8B%E3%81%9B%E8%A1%A8%E7%A4%BA" title="無作為に抽出されたページの読み込み [x]" accesskey="x">おまかせ表示</a></li>
+				<li id="n-help"><a href="http://wiki.lifesciencedb.jp/mw/Help:%E7%9B%AE%E6%AC%A1" title="情報を得る場所">ヘルプ</a></li>
+			</ul>
+		</div>
+	</div>
+	<div id="p-search" class="portlet">
+		<h5><label for="searchInput">検索</label></h5>
+		<div id="searchBody" class="pBody">
+			<form action="http://wiki.lifesciencedb.jp/mw/index.php" id="searchform">
+				<input type='hidden' name="title" value="特別:検索"/>
+				<input id="searchInput" title="TogoWiki内を検索" accesskey="f" type="search" name="search" />
+				<input type='submit' name="go" class="searchButton" id="searchGoButton"	value="表示" title="厳密に一致する名前のページが存在すれば、そのページへ移動します" />&nbsp;
+				<input type='submit' name="fulltext" class="searchButton" id="mw-searchButton" value="検索" title="入力された文字列が含まれるページを検索します" />
+			</form>
+		</div>
+	</div>
+	<div class="portlet" id="p-tb">
+		<h5>ツールボックス</h5>
+		<div class="pBody">
+			<ul>
+				<li id="t-whatlinkshere"><a href="特別%253Aリンク元/SPARQLthon/SPARQL11test.html" title="ここにリンクしている全ウィキのページの一覧 [j]" accesskey="j">リンク元</a></li>
+				<li id="t-recentchangeslinked"><a href="特別%253A関連ページの更新状況/SPARQLthon/SPARQL11test.html" title="このページからリンクしているページの最近の更新 [k]" accesskey="k">関連ページの更新状況</a></li>
+<li id="t-specialpages"><a href="http://wiki.lifesciencedb.jp/mw/%E7%89%B9%E5%88%A5:%E7%89%B9%E5%88%A5%E3%83%9A%E3%83%BC%E3%82%B8%E4%B8%80%E8%A6%A7" title="特別ページの一覧 [q]" accesskey="q">特別ページ</a></li>
+			</ul>
+		</div>
+	</div>
+</div><!-- end of the left (by default at least) column -->
+<div class="visualClear"></div>
+<div id="footer">
+	<div id="f-poweredbyico"><a href="http://www.mediawiki.org/"><img src="http://wiki.lifesciencedb.jp/mw/skins/common/images/poweredby_mediawiki_88x31.png" height="31" width="88" alt="Powered by MediaWiki" /></a></div>
+	<div id="f-copyrightico"><a href="http://creativecommons.org/licenses/by/3.0/"><img src="http://i.creativecommons.org/l/by/3.0/88x31.png" alt="Attribution 3.0 Unported" width="88" height="31" /></a></div>
+	<ul id="f-list">
+		<li id="privacy"><a href="http://wiki.lifesciencedb.jp/mw/TogoWiki:%E3%83%97%E3%83%A9%E3%82%A4%E3%83%90%E3%82%B7%E3%83%BC%E3%83%BB%E3%83%9D%E3%83%AA%E3%82%B7%E3%83%BC" title="TogoWiki:プライバシー・ポリシー">プライバシー・ポリシー</a></li>
+		<li id="about"><a href="http://wiki.lifesciencedb.jp/mw/TogoWiki:TogoWiki%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6" title="TogoWiki:TogoWikiについて">TogoWikiについて</a></li>
+		<li id="disclaimer"><a href="http://wiki.lifesciencedb.jp/mw/TogoWiki:%E5%85%8D%E8%B2%AC%E4%BA%8B%E9%A0%85" title="TogoWiki:免責事項">免責事項</a></li>
+	</ul>
+</div>
+</div>
+
+<script>if (window.runOnloadHook) runOnloadHook();</script>
+<!-- Served in 0.338 secs. --></body></html>

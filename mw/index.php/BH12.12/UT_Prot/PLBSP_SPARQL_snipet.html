@@ -1,0 +1,930 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html lang="ja" dir="ltr">
+<head>
+<title>BH12.12/UT Prot/PLBSP SPARQL snipet - TogoWiki</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta name="generator" content="MediaWiki 1.16.3" />
+<link rel="shortcut icon" href="http://wiki.lifesciencedb.jp/favicon.ico" />
+<link rel="search" type="application/opensearchdescription+xml" href="http://wiki.lifesciencedb.jp/mw/opensearch_desc.php" title="TogoWiki (ja)" />
+<link title="Creative Commons" type="application/rdf+xml" href="../../../index.php@title=BH12.12%252FUT_Prot%252FPLBSP_SPARQL_snipet&amp;action=creativecommons" rel="meta" />
+<link rel="copyright" href="http://creativecommons.org/licenses/by/3.0/" />
+<link rel="alternate" type="application/atom+xml" title="TogoWikiのAtomフィード" href="http://wiki.lifesciencedb.jp/mw/index.php?title=%E7%89%B9%E5%88%A5:%E6%9C%80%E8%BF%91%E3%81%AE%E6%9B%B4%E6%96%B0&amp;feed=atom" />
+<link rel="stylesheet" href="http://wiki.lifesciencedb.jp/mw/skins/common/shared.css?270" media="screen" />
+<link rel="stylesheet" href="http://wiki.lifesciencedb.jp/mw/skins/common/commonPrint.css?270" media="print" />
+<link rel="stylesheet" href="http://wiki.lifesciencedb.jp/mw/skins/monobook/main.css?270" media="screen" />
+<!--[if lt IE 5.5000]><link rel="stylesheet" href="/mw/skins/monobook/IE50Fixes.css?270" media="screen" /><![endif]-->
+<!--[if IE 5.5000]><link rel="stylesheet" href="/mw/skins/monobook/IE55Fixes.css?270" media="screen" /><![endif]-->
+<!--[if IE 6]><link rel="stylesheet" href="/mw/skins/monobook/IE60Fixes.css?270" media="screen" /><![endif]-->
+<!--[if IE 7]><link rel="stylesheet" href="/mw/skins/monobook/IE70Fixes.css?270" media="screen" /><![endif]-->
+<link rel="stylesheet" href="http://wiki.lifesciencedb.jp/mw/index.php?title=MediaWiki:Common.css&amp;usemsgcache=yes&amp;ctype=text%2Fcss&amp;smaxage=18000&amp;action=raw&amp;maxage=18000" />
+<link rel="stylesheet" href="http://wiki.lifesciencedb.jp/mw/index.php?title=MediaWiki:Print.css&amp;usemsgcache=yes&amp;ctype=text%2Fcss&amp;smaxage=18000&amp;action=raw&amp;maxage=18000" media="print" />
+<link rel="stylesheet" href="http://wiki.lifesciencedb.jp/mw/index.php?title=MediaWiki:Monobook.css&amp;usemsgcache=yes&amp;ctype=text%2Fcss&amp;smaxage=18000&amp;action=raw&amp;maxage=18000" />
+<link rel="stylesheet" href="http://wiki.lifesciencedb.jp/mw/index.php?title=-&amp;action=raw&amp;maxage=18000&amp;gen=css" />
+<script>
+var skin="monobook",
+stylepath="/mw/skins",
+wgUrlProtocols="http\\:\\/\\/|https\\:\\/\\/|ftp\\:\\/\\/|irc\\:\\/\\/|gopher\\:\\/\\/|telnet\\:\\/\\/|nntp\\:\\/\\/|worldwind\\:\\/\\/|mailto\\:|news\\:|svn\\:\\/\\/",
+wgArticlePath="/mw/$1",
+wgScriptPath="/mw",
+wgScriptExtension=".php",
+wgScript="/mw/index.php",
+wgVariantArticlePath=false,
+wgActionPaths={},
+wgServer="http://wiki.lifesciencedb.jp",
+wgCanonicalNamespace="",
+wgCanonicalSpecialPageName=false,
+wgNamespaceNumber=0,
+wgPageName="BH12.12/UT_Prot/PLBSP_SPARQL_snipet",
+wgTitle="BH12.12/UT Prot/PLBSP SPARQL snipet",
+wgAction="view",
+wgArticleId=187,
+wgIsArticle=true,
+wgUserName=null,
+wgUserGroups=null,
+wgUserLanguage="ja",
+wgContentLanguage="ja",
+wgBreakFrames=false,
+wgCurRevisionId=4559,
+wgVersion="1.16.3",
+wgEnableAPI=true,
+wgEnableWriteAPI=true,
+wgSeparatorTransformTable=["", ""],
+wgDigitTransformTable=["", ""],
+wgMainPageTitle="メインページ",
+wgFormattedNamespaces={"-2": "メディア", "-1": "特別", "0": "", "1": "ノート", "2": "利用者", "3": "利用者‐会話", "4": "TogoWiki", "5": "TogoWiki‐ノート", "6": "ファイル", "7": "ファイル‐ノート", "8": "MediaWiki", "9": "MediaWiki‐ノート", "10": "Template", "11": "Template‐ノート", "12": "Help", "13": "Help‐ノート", "14": "Category", "15": "Category‐ノート"},
+wgNamespaceIds={"メディア": -2, "特別": -1, "": 0, "ノート": 1, "利用者": 2, "利用者‐会話": 3, "togowiki": 4, "togowiki‐ノート": 5, "ファイル": 6, "ファイル‐ノート": 7, "mediawiki": 8, "mediawiki‐ノート": 9, "template": 10, "template‐ノート": 11, "help": 12, "help‐ノート": 13, "category": 14, "category‐ノート": 15, "画像": 6, "画像‐ノート": 7, "image": 6, "image_talk": 7},
+wgSiteName="TogoWiki",
+wgCategories=[],
+wgRestrictionEdit=[],
+wgRestrictionMove=[];
+</script><script src="http://wiki.lifesciencedb.jp/mw/skins/common/wikibits.js?270"></script>
+<script src="http://wiki.lifesciencedb.jp/mw/skins/common/ajax.js?270"></script>
+<script src="http://wiki.lifesciencedb.jp/mw/index.php?title=-&amp;action=raw&amp;gen=js&amp;useskin=monobook&amp;270"></script>
+
+		<style type='text/css'>
+		li#pt-openidlogin {
+		  background: url(http://wiki.lifesciencedb.jp/mw/extensions/OpenID/skin/icons/openid-inputicon.png) top left no-repeat;
+		  padding-left: 20px;
+		  text-transform: none;
+		}
+		</style>
+</head>
+<body class="mediawiki ltr ns-0 ns-subject page-BH12_12_UT_Prot_PLBSP_SPARQL_snipet skin-monobook">
+<div id="globalWrapper">
+<div id="column-content"><div id="content" >
+	<a id="top"></a>
+	
+	<h1 id="firstHeading" class="firstHeading">BH12.12/UT Prot/PLBSP SPARQL snipet</h1>
+	<div id="bodyContent">
+		<h3 id="siteSub">提供：TogoWiki</h3>
+		<div id="contentSub"></div>
+		<div id="jump-to-nav">移動： <a href="PLBSP_SPARQL_snipet.html#column-one">案内</a>, <a href="PLBSP_SPARQL_snipet.html#searchInput">検索</a></div>
+		<!-- start content -->
+<table id="toc" class="toc"><tr><td><div id="toctitle"><h2>目次</h2></div>
+<ul>
+<li class="toclevel-1 tocsection-1"><a href="PLBSP_SPARQL_snipet.html#PDB_Ligand_.28PDB.E5.81.B4.E3.81.AELigand.E6.83.85.E5.A0.B1.29"><span class="tocnumber">1</span> <span class="toctext">PDB Ligand (PDB側のLigand情報)</span></a>
+<ul>
+<li class="toclevel-2 tocsection-2"><a href="PLBSP_SPARQL_snipet.html#Select_all_three_letter_id_.28pdbo:chem_comp.id.29_about_each_chemical_compound_name_.28pdbo:chem_comp.name.29."><span class="tocnumber">1.1</span> <span class="toctext">Select all three letter id (pdbo:chem_comp.id) about each chemical compound name (pdbo:chem_comp.name).</span></a></li>
+<li class="toclevel-2 tocsection-3"><a href="PLBSP_SPARQL_snipet.html#fileSelect_the_wwPDB_entry_with_the_three_letter_id_.28pdbo:chem_comp.id.29_.27MAN.27."><span class="tocnumber">1.2</span> <span class="toctext">fileSelect the wwPDB entry with the three letter id (pdbo:chem_comp.id) 'MAN'.</span></a></li>
+<li class="toclevel-2 tocsection-4"><a href="PLBSP_SPARQL_snipet.html#Select_the_wwPDB_entry_with_the_three_letter_id_.28pdbo:chem_comp.id.29_.271PA.27_and_SMILES_method_.28pdbo:pdbx_chem_comp_descriptor.descriptor.29."><span class="tocnumber">1.3</span> <span class="toctext">Select the wwPDB entry with the three letter id (pdbo:chem_comp.id) '1PA' and SMILES method (pdbo:pdbx_chem_comp_descriptor.descriptor).</span></a></li>
+<li class="toclevel-2 tocsection-5"><a href="PLBSP_SPARQL_snipet.html#Select_SMILES_formulas_.28pdbo:pdbx_chem_comp_descriptor.descriptor.29_with_the_compound_name_.28pdbo:chem_comp.name.29_.274-.28carboxymethyl.29-L-phenylalanine.27_from_wwPDB."><span class="tocnumber">1.4</span> <span class="toctext">Select SMILES formulas (pdbo:pdbx_chem_comp_descriptor.descriptor) with the compound name (pdbo:chem_comp.name) '4-(carboxymethyl)-L-phenylalanine' from wwPDB.</span></a></li>
+<li class="toclevel-2 tocsection-6"><a href="PLBSP_SPARQL_snipet.html#Select_three_letter_id_with_atom_type_symbol_.27ZN.27_from_wwPDB."><span class="tocnumber">1.5</span> <span class="toctext">Select three letter id with atom type symbol 'ZN' from wwPDB.</span></a></li>
+<li class="toclevel-2 tocsection-7"><a href="PLBSP_SPARQL_snipet.html#Select_all_aromatic_compound_with_three_leter_id_from_wwPDB."><span class="tocnumber">1.6</span> <span class="toctext">Select all aromatic compound with three leter id from wwPDB.</span></a></li>
+<li class="toclevel-2 tocsection-8"><a href="PLBSP_SPARQL_snipet.html#Select_all_coordinates_missing_entries_about_model_and_ideal_PDB_files_using_each_flags_.28pdbo:chem_comp.pdbx_model_coordinates_missing_flag.2C_pdbo:chem_comp.pdbx_ideal_coordinates_missing_flag.29."><span class="tocnumber">1.7</span> <span class="toctext">Select all coordinates missing entries about model and ideal PDB files using each flags (pdbo:chem_comp.pdbx_model_coordinates_missing_flag, pdbo:chem_comp.pdbx_ideal_coordinates_missing_flag).</span></a></li>
+<li class="toclevel-2 tocsection-9"><a href="PLBSP_SPARQL_snipet.html#.E3.80.8EBR.E3.80.8F.E3.82.92.E5.90.AB.E3.82.80PDB.E4.B8.AD.E3.81.AEPDBID.E3.81.AE.E6.95.B0.E3.82.92.E3.82.AB.E3.82.A6.E3.83.B3.E3.83.88.E3.81.99.E3.82.8B"><span class="tocnumber">1.8</span> <span class="toctext">『BR』を含むPDB中のPDBIDの数をカウントする</span></a></li>
+<li class="toclevel-2 tocsection-10"><a href="PLBSP_SPARQL_snipet.html#.E3.80.8EBR.E3.80.8F.E3.82.92.E5.90.AB.E3.82.80PDB.E4.B8.AD.E3.81.AEPDBID.E3.81.AE.E3.83.AA.E3.82.B9.E3.83.88"><span class="tocnumber">1.9</span> <span class="toctext">『BR』を含むPDB中のPDBIDのリスト</span></a></li>
+<li class="toclevel-2 tocsection-11"><a href="PLBSP_SPARQL_snipet.html#.E3.80.8EAS.E3.80.8F.E3.82.92.E5.90.AB.E3.82.80.E5.8C.96.E5.90.88.E7.89.A9.E3.81.AE.E4.B8.89.E6.A1.81ID.E3.81.AE.E3.83.AA.E3.82.B9.E3.83.88"><span class="tocnumber">1.10</span> <span class="toctext">『AS』を含む化合物の三桁IDのリスト</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-12"><a href="PLBSP_SPARQL_snipet.html#PDB.EF.BC.88.E3.82.BF.E3.83.B3.E3.83.91.E3.82.AF.E8.B3.AA.EF.BC.89.E5.81.B4.E3.81.AE.E6.A4.9C.E7.B4.A2"><span class="tocnumber">2</span> <span class="toctext">PDB（タンパク質）側の検索</span></a>
+<ul>
+<li class="toclevel-2 tocsection-13"><a href="PLBSP_SPARQL_snipet.html#PDBID.E3.80.8E3FUJ.E3.80.8F.E3.81.8C.E6.8C.81.E3.81.A4.E3.83.98.E3.83.AA.E3.83.83.E3.82.AF.E3.82.B9.E3.81.94.E3.81.A8.E3.81.AE.E6.AE.8B.E5.9F.BA.E9.95.B7.E3.81.95"><span class="tocnumber">2.1</span> <span class="toctext">PDBID『3FUJ』が持つヘリックスごとの残基長さ</span></a></li>
+<li class="toclevel-2 tocsection-14"><a href="PLBSP_SPARQL_snipet.html#PDBID_3FUJ_.E3.81.AE.E3.83.98.E3.83.AA.E3.83.83.E3.82.AF.E3.82.B9ID_P6_.E3.81.8C.E6.8C.81.E3.81.A4.E3.83.AC.E3.82.B3.E3.83.BC.E3.83.89.E4.B8.80.E8.A6.A7_.EF.BC.88.E3.83.98.E3.83.AA.E3.83.83.E3.82.AF.E3.82.B9.E3.81.AE.E9.96.8B.E5.A7.8B.E3.83.BB.E7.B5.82.E4.BA.86.E6.AE.8B.E5.9F.BA.E3.81.A8.E6.AE.8B.E5.9F.BA.E7.95.AA.E5.8F.B7.E3.80.81.E3.83.81.E3.82.A7.E3.82.A4.E3.83.B3ID.EF.BC.89"><span class="tocnumber">2.2</span> <span class="toctext">PDBID 3FUJ のヘリックスID P6 が持つレコード一覧 （ヘリックスの開始・終了残基と残基番号、チェインID）</span></a></li>
+<li class="toclevel-2 tocsection-15"><a href="PLBSP_SPARQL_snipet.html#PDBID_3A0B_.E3.81.AE.E5.90.84.E3.83.98.E3.83.AA.E3.83.83.E3.82.AF.E3.82.B9.E3.81.AE.E9.96.8B.E5.A7.8B.E6.AE.8B.E5.9F.BA.E3.81.A8.E7.B5.82.E4.BA.86.E6.AE.8B.E5.9F.BA.E3.81.AE.E3.83.81.E3.82.A7.E3.82.A4.E3.83.B3ID.E3.81.AE.E4.B8.80.E8.A6.A7"><span class="tocnumber">2.3</span> <span class="toctext">PDBID 3A0B の各ヘリックスの開始残基と終了残基のチェインIDの一覧</span></a></li>
+<li class="toclevel-2 tocsection-16"><a href="PLBSP_SPARQL_snipet.html#PDBID_3A0B_.E3.81.AE.E5.90.84.E3.83.98.E3.83.AA.E3.83.83.E3.82.AF.E3.82.B9.E3.81.AE.E9.96.8B.E5.A7.8B.E6.AE.8B.E5.9F.BA.E3.81.A8.E7.B5.82.E4.BA.86.E6.AE.8B.E5.9F.BA.E3.81.AE.E3.83.81.E3.82.A7.E3.82.A4.E3.83.B3ID_.E3.81.8C.E7.95.B0.E3.81.AA.E3.82.8B.E3.82.82.E3.81.AE.E3.82.92.E8.A1.A8.E7.A4.BA_.EF.BC.88.E3.83.86.E3.82.B9.E3.83.88.E7.94.A8.EF.BC.9A.E6.99.AE.E9.80.9A.E3.81.AF.E5.87.BA.E5.8A.9B.E3.81.8C.E7.84.A1.E3.81.84.EF.BC.89"><span class="tocnumber">2.4</span> <span class="toctext">PDBID 3A0B の各ヘリックスの開始残基と終了残基のチェインID が異なるものを表示 （テスト用：普通は出力が無い）</span></a></li>
+<li class="toclevel-2 tocsection-17"><a href="PLBSP_SPARQL_snipet.html#PDBID_3A0B_.E3.81.AE.E3.83.81.E3.82.A7.E3.82.A4.E3.83.B3ID_C_.E3.81.AE.E5.90.84.E3.83.98.E3.83.AA.E3.83.83.E3.82.AF.E3.82.B9.E3.81.AE.E6.AE.8B.E5.9F.BA.E9.95.B7"><span class="tocnumber">2.5</span> <span class="toctext">PDBID 3A0B のチェインID C の各ヘリックスの残基長</span></a></li>
+<li class="toclevel-2 tocsection-18"><a href="PLBSP_SPARQL_snipet.html#PDBID_3A0B_.E3.81.AE.E3.83.81.E3.82.A7.E3.82.A4.E3.83.B3ID_C_.E3.81.AE.E5.90.84.E3.83.98.E3.83.AA.E3.83.83.E3.82.AF.E3.82.B9.E3.81.AE.E3.83.98.E3.83.AA.E3.83.83.E3.82.AF.E3.82.B9ID_.E3.81.A8_.E6.AE.8B.E5.9F.BA.E9.95.B7"><span class="tocnumber">2.6</span> <span class="toctext">PDBID 3A0B のチェインID C の各ヘリックスのヘリックスID と 残基長</span></a></li>
+<li class="toclevel-2 tocsection-19"><a href="PLBSP_SPARQL_snipet.html#PDBID_3A0B.E3.81.AE.E3.83.81.E3.82.A7.E3.82.A4.E3.83.B3ID_.E3.81.94.E3.81.A8.E3.81.AE.E3.83.98.E3.83.AA.E3.83.83.E3.82.AF.E3.82.B9.E3.81.AE.E6.AE.8B.E5.9F.BA.E9.95.B7.E4.B8.80.E8.A6.A7"><span class="tocnumber">2.7</span> <span class="toctext">PDBID 3A0BのチェインID ごとのヘリックスの残基長一覧</span></a></li>
+<li class="toclevel-2 tocsection-20"><a href="PLBSP_SPARQL_snipet.html#PDBID_3FUJ.E3.81.AE.E3.83.81.E3.82.A7.E3.82.A4.E3.83.B3.E3.81.94.E3.81.A8.E3.81.AE.CE.B2.E3.82.B7.E3.83.BC.E3.83.88.E3.81.AE.E9.95.B7.E3.81.95.E3.82.92.E5.8F.96.E5.BE.97"><span class="tocnumber">2.8</span> <span class="toctext">PDBID 3FUJのチェインごとのβシートの長さを取得</span></a></li>
+<li class="toclevel-2 tocsection-21"><a href="PLBSP_SPARQL_snipet.html#PDBID_3A0B.E3.81.AE.E3.83.81.E3.82.A7.E3.82.A4.E3.83.B3.E3.81.94.E3.81.A8.E3.81.AE.CE.B2.E3.82.B7.E3.83.BC.E3.83.88.E3.81.AE.E9.95.B7.E3.81.95.E3.81.AE.E5.92.8C"><span class="tocnumber">2.9</span> <span class="toctext">PDBID 3A0Bのチェインごとのβシートの長さの和</span></a></li>
+<li class="toclevel-2 tocsection-22"><a href="PLBSP_SPARQL_snipet.html#PDBID_3A0B.E3.81.AB.E5.90.AB.E3.81.BE.E3.82.8C.E3.82.8B.E5.90.84.E3.83.99.E3.83.BC.E3.82.BF.E3.82.B9.E3.83.88.E3.83.A9.E3.83.B3.E3.83.89.E3.81.AE.E9.95.B7.E3.81.95"><span class="tocnumber">2.10</span> <span class="toctext">PDBID 3A0Bに含まれる各ベータストランドの長さ</span></a></li>
+<li class="toclevel-2 tocsection-23"><a href="PLBSP_SPARQL_snipet.html#PDBID_3A0B.E3.81.AE.E3.83.81.E3.82.A7.E3.82.A4.E3.83.B3.E3.81.94.E3.81.A8.E3.81.AE.CE.B2.E3.82.B7.E3.83.BC.E3.83.88.E3.81.AE.E9.95.B7.E3.81.95.E3.81.AE.E5.90.88.E8.A8.88"><span class="tocnumber">2.11</span> <span class="toctext">PDBID 3A0Bのチェインごとのβシートの長さの合計</span></a></li>
+<li class="toclevel-2 tocsection-24"><a href="PLBSP_SPARQL_snipet.html#PDBID_148L_.E3.83.81.E3.82.A7.E3.82.A4.E3.83.B3.E6.AF.8E.E3.81.AE.E9.85.8D.E5.88.97.E9.95.B7"><span class="tocnumber">2.12</span> <span class="toctext">PDBID 148L チェイン毎の配列長</span></a></li>
+<li class="toclevel-2 tocsection-25"><a href="PLBSP_SPARQL_snipet.html#PDBID_1abr_.E3.81.AE.E5.85.B1.E6.9C.89.E7.B5.90.E5.90.88.E6.83.85.E5.A0.B1.E3.82.92.E3.80.81.E6.AE.8B.E5.9F.BA.E7.95.AA.E5.8F.B7.E3.80.81icode.E3.80.81.E6.AE.8B.E5.9F.BA.E5.90.8D.E3.80.81.E5.8E.9F.E5.AD.90.E5.90.8D.E3.81.AE.E3.83.9A.E3.82.A2.E3.81.A8.E8.B7.9D.E9.9B.A2.E6.83.85.E5.A0.B1.E3.82.92.E7.B5.84.E3.81.BF.E4.BB.98.E3.81.91.E3.81.A6.E5.8F.96.E5.BE.97"><span class="tocnumber">2.13</span> <span class="toctext">PDBID 1abr の共有結合情報を、残基番号、icode、残基名、原子名のペアと距離情報を組み付けて取得</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-26"><a href="PLBSP_SPARQL_snipet.html#Protein_Ligand_Binding_Site_Pair.E3.81.AE.E6.A4.9C.E7.B4.A2"><span class="tocnumber">3</span> <span class="toctext">Protein Ligand Binding Site Pairの検索</span></a>
+<ul>
+<li class="toclevel-2 tocsection-27"><a href="PLBSP_SPARQL_snipet.html#PAIRID_102D_166_489_0_.E3.81.AE.E3.82.A8.E3.83.B3.E3.83.88.E3.83.AA.E3.83.BC.E3.82.92.E5.8F.96.E5.BE.97"><span class="tocnumber">3.1</span> <span class="toctext">PAIRID 102D_166_489_0 のエントリーを取得</span></a></li>
+<li class="toclevel-2 tocsection-28"><a href="PLBSP_SPARQL_snipet.html#PAIRID.E3.81.8B.E3.82.89PDBID.2C_.E3.82.A8.E3.83.B3.E3.83.88.E3.83.AA.E3.83.BC.E3.81.A8.E3.83.AA.E3.83.86.E3.83.A9.E3.83.AB.E3.82.92.E9.81.B8.E6.8A.9E"><span class="tocnumber">3.2</span> <span class="toctext">PAIRIDからPDBID, エントリーとリテラルを選択</span></a></li>
+<li class="toclevel-2 tocsection-29"><a href="PLBSP_SPARQL_snipet.html#PAIRID:102D_165_489_0.E3.81.AE.E3.82.A8.E3.83.B3.E3.83.88.E3.83.AA.E3.83.BC.E3.82.92.E8.A1.A8.E7.A4.BA"><span class="tocnumber">3.3</span> <span class="toctext">PAIRID:102D_165_489_0のエントリーを表示</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-30"><a href="PLBSP_SPARQL_snipet.html#.E3.83.AA.E3.82.AC.E3.83.B3.E3.83.89.E7.B5.90.E5.90.88.E9.83.A8.E4.BD.8D.E3.83.87.E3.83.BC.E3.82.BF.E3.83.99.E3.83.BC.E3.82.B9.E3.81.A8PDB.E3.81.AE.E7.B5.B1.E5.90.88.E6.A4.9C.E7.B4.A2.EF.BC.88.E3.81.9F.E3.81.A0.E3.81.97.EF.BC.91.E5.80.8B.E3.81.AE.E3.82.B0.E3.83.A9.E3.83.95.E3.81.AB.E3.81.B6.E3.81.A1.E8.BE.BC.E3.82.93.E3.81.A7.E3.81.84.E3.81.BE.E3.81.99.EF.BC.89"><span class="tocnumber">4</span> <span class="toctext">リガンド結合部位データベースとPDBの統合検索（ただし１個のグラフにぶち込んでいます）</span></a>
+<ul>
+<li class="toclevel-2 tocsection-31"><a href="PLBSP_SPARQL_snipet.html#PAIRID.E3.81.A8PDBID.E3.81.AE.E7.B5.84.E3.81.BF.E4.BB.98.E3.81.91.E3.83.AA.E3.82.B9.E3.83.88.E3.81.AE200000.E8.A1.8C.E7.9B.AE.E3.81.8B.E3.82.89100000.E8.A1.8C.E5.88.86.E3.81.AE.E3.83.87.E3.83.BC.E3.82.BF.E3.82.92.E7.94.9F.E6.88.90"><span class="tocnumber">4.1</span> <span class="toctext">PAIRIDとPDBIDの組み付けリストの200000行目から100000行分のデータを生成</span></a></li>
+<li class="toclevel-2 tocsection-32"><a href="PLBSP_SPARQL_snipet.html#PAIRID.E3.81.8C.E6.8C.81.E3.81.A4PDBID.E3.81.B8.E3.81.AE.E3.83.AA.E3.83.B3.E3.82.AF.E3.81.8B.E3.82.89PDB.E3.81.8C.E6.8C.81.E3.81.A4Ligand.E3.81.AEID.E3.81.A8.E5.90.8D.E7.A7.B0.E3.82.92.E5.8F.96.E5.BE.97"><span class="tocnumber">4.2</span> <span class="toctext">PAIRIDが持つPDBIDへのリンクからPDBが持つLigandのIDと名称を取得</span></a></li>
+<li class="toclevel-2 tocsection-33"><a href="PLBSP_SPARQL_snipet.html#PAIRID:102D_166_489_0.E3.81.AE.E3.82.BF.E3.83.B3.E3.83.91.E3.82.AF.E8.B3.AA.E3.81.A8.E3.83.AA.E3.82.AC.E3.83.B3.E3.83.89.E3.81.AE.E7.B5.84.E3.81.BF.E5.90.88.E3.82.8F.E3.81.9B.E3.82.92.E5.8F.96.E5.BE.97"><span class="tocnumber">4.3</span> <span class="toctext">PAIRID:102D_166_489_0のタンパク質とリガンドの組み合わせを取得</span></a></li>
+<li class="toclevel-2 tocsection-34"><a href="PLBSP_SPARQL_snipet.html#PDBID.E6.AF.8E.E3.81.AEHet_Atom.E3.81.AE.E4.B8.80.E8.A6.A7.E3.81.8B.E3.82.89.E6.AE.8B.E5.9F.BA.E3.82.92.E3.81.AE.E3.81.9E.E3.81.84.E3.81.A6.E9.81.B8.E6.8A.9E"><span class="tocnumber">4.4</span> <span class="toctext">PDBID毎のHet Atomの一覧から残基をのぞいて選択</span></a></li>
+<li class="toclevel-2 tocsection-35"><a href="PLBSP_SPARQL_snipet.html#PDB_Ligand_ID.E3.80.8EMAN.E3.80.8F.E3.81.AB.E3.81.A4.E3.81.84.E3.81.A6PDB.E3.81.A8PLBSP.E3.81.8B.E3.82.89.E7.B5.B1.E5.90.88.E6.A4.9C.E7.B4.A2.28PDB_Ligand_ID.2C_PDBID.2C_PLBSPID.2C_Protein_Atom_Name.2C_Protein_Atom_ID.2C_Protein_Chain_ID.2C_Residue_Name.2C_Residue_Num.2C_Ligand_Atom_Name.2C_Ligand_Atom_ID.2C_Ligand_Chain_ID.2C_Distance.29"><span class="tocnumber">4.5</span> <span class="toctext">PDB Ligand ID『MAN』についてPDBとPLBSPから統合検索(PDB Ligand ID, PDBID, PLBSPID, Protein Atom Name, Protein Atom ID, Protein Chain ID, Residue Name, Residue Num, Ligand Atom Name, Ligand Atom ID, Ligand Chain ID, Distance)</span></a></li>
+<li class="toclevel-2 tocsection-36"><a href="PLBSP_SPARQL_snipet.html#PLBSP-PDB.E7.B5.B1.E5.90.88.E6.A4.9C.E7.B4.A2_Ligand_ID.E3.80.8ESTR.E3.80.8F.E3.82.92poly_entity.E3.81.AB.E3.81.A4.E3.81.84.E3.81.A6.E3.81.97.E3.81.BC.E3.82.8A.E8.BE.BC.E3.81.BF.2C_.E3.81.8A.E3.82.88.E3.81.B3.E3.82.AF.E3.82.A8.E3.83.AA.E3.81.AE.E6.9C.80.E9.81.A9.E5.8C.96."><span class="tocnumber">4.6</span> <span class="toctext">PLBSP-PDB統合検索 Ligand ID『STR』をpoly_entityについてしぼり込み, およびクエリの最適化.</span></a></li>
+<li class="toclevel-2 tocsection-37"><a href="PLBSP_SPARQL_snipet.html#PLBSP-PDB.E7.B5.B1.E5.90.88.E6.A4.9C.E7.B4.A2_Ligand_ID.E3.80.8ESTR.E3.80.8F.E3.81.A8.E7.B5.90.E5.90.88.E3.81.97.E3.80.81.E4.BA.8C.E6.AC.A1.E6.A7.8B.E9.80.A0.E3.81.8C.E3.83.98.E3.83.AA.E3.83.83.E3.82.AF.E3.82.B9.E3.81.A7.E3.81.82.E3.82.8B_pairid_.E3.81.AE.E4.B8.80.E8.A6.A7"><span class="tocnumber">4.7</span> <span class="toctext">PLBSP-PDB統合検索 Ligand ID『STR』と結合し、二次構造がヘリックスである pairid の一覧</span></a></li>
+</ul>
+</li>
+</ul>
+</td></tr></table><script>if (window.showTocToggle) { var tocShowText = "表示"; var tocHideText = "非表示"; showTocToggle(); } </script>
+<h1> <span class="mw-headline" id="PDB_Ligand_.28PDB.E5.81.B4.E3.81.AELigand.E6.83.85.E5.A0.B1.29">PDB Ligand (PDB側のLigand情報) </span></h1>
+<h2> <span class="mw-headline" id="Select_all_three_letter_id_.28pdbo:chem_comp.id.29_about_each_chemical_compound_name_.28pdbo:chem_comp.name.29.">Select all three letter id (pdbo:chem_comp.id) about each chemical compound name (pdbo:chem_comp.name). </span></h2>
+<pre>
+PREFIX pdbo: &lt;http://rdf.wwpdb.org/schema/pdbx-v40.owl#&gt; 
+SELECT DISTINCT&nbsp;?subject&nbsp;?object 
+WHERE {
+ ?subject pdbo:chem_comp.name&nbsp;?object
+}
+</pre>
+<h2> <span class="mw-headline" id="fileSelect_the_wwPDB_entry_with_the_three_letter_id_.28pdbo:chem_comp.id.29_.27MAN.27.">fileSelect the wwPDB entry with the three letter id (pdbo:chem_comp.id) 'MAN'. </span></h2>
+<pre>
+PREFIX pdbo: &lt;http://rdf.wwpdb.org/schema/pdbx-v40.owl#&gt; 
+SELECT DISTINCT * WHERE {
+ &lt;http://rdf.wwpdb.org/cc/MAN/chem_comp/MAN&gt;&nbsp;?property&nbsp;?object
+}
+</pre>
+<h2> <span class="mw-headline" id="Select_the_wwPDB_entry_with_the_three_letter_id_.28pdbo:chem_comp.id.29_.271PA.27_and_SMILES_method_.28pdbo:pdbx_chem_comp_descriptor.descriptor.29.">Select the wwPDB entry with the three letter id (pdbo:chem_comp.id) '1PA' and SMILES method (pdbo:pdbx_chem_comp_descriptor.descriptor). </span></h2>
+<pre>
+PREFIX pdbo: &lt;http://rdf.wwpdb.org/schema/pdbx-v40.owl#&gt; 
+SELECT DISTINCT * WHERE {
+ &lt;http://rdf.wwpdb.org/cc/1PA/chem_comp/1PA&gt; pdbo:referenced_by_pdbx_chem_comp_descriptor&nbsp;?object.
+ ?object pdbo:pdbx_chem_comp_descriptor.descriptor&nbsp;?smiles
+}
+</pre>
+<h2> <span class="mw-headline" id="Select_SMILES_formulas_.28pdbo:pdbx_chem_comp_descriptor.descriptor.29_with_the_compound_name_.28pdbo:chem_comp.name.29_.274-.28carboxymethyl.29-L-phenylalanine.27_from_wwPDB.">Select SMILES formulas (pdbo:pdbx_chem_comp_descriptor.descriptor) with the compound name (pdbo:chem_comp.name) '4-(carboxymethyl)-L-phenylalanine' from wwPDB.</span></h2>
+<pre>
+PREFIX pdbo: &lt;http://rdf.wwpdb.org/schema/pdbx-v40.owl#&gt; 
+SELECT DISTINCT&nbsp;?chem_com_id&nbsp;?method&nbsp;?smiles WHERE {
+ ?chem_com_id pdbo:chem_comp.name &quot;4-(carboxymethyl)-L-phenylalanine&quot;.
+ ?chem_com_id pdbo:referenced_by_pdbx_chem_comp_descriptor&nbsp;?method.
+ ?method pdbo:pdbx_chem_comp_descriptor.descriptor&nbsp;?smiles
+}
+</pre>
+<h2> <span class="mw-headline" id="Select_three_letter_id_with_atom_type_symbol_.27ZN.27_from_wwPDB.">Select three letter id with atom type symbol 'ZN' from wwPDB. </span></h2>
+<pre>
+PREFIX pdbo: &lt;http://rdf.wwpdb.org/schema/pdbx-v40.owl#&gt; 
+SELECT DISTINCT&nbsp;?chem_comp_id&nbsp;?atom_type_symbol WHERE {
+ ?s pdbo:chem_comp_atom.type_symbol&nbsp;?atom_type_symbol
+ FILTER regex(?atom_type_symbol, &quot;ZN&quot;).
+ ?s pdbo:chem_comp_atom.pdbx_component_comp_id&nbsp;?chem_comp_id
+}
+</pre>
+<h2> <span class="mw-headline" id="Select_all_aromatic_compound_with_three_leter_id_from_wwPDB.">Select all aromatic compound with three leter id from wwPDB. </span></h2>
+<pre>
+PREFIX pdbo: &lt;http://rdf.wwpdb.org/schema/pdbx-v40.owl#&gt; 
+SELECT DISTINCT&nbsp;?aromatic_flag&nbsp;?chem_comp_id 
+WHERE
+{
+ ?s pdbo:chem_comp_atom.pdbx_aromatic_flag&nbsp;?aromatic_flag .
+ ?s2 pdbo:referenced_by_chem_comp_atom&nbsp;?s .
+ ?s2 pdbo:chem_comp.three_letter_code&nbsp;?chem_comp_id
+ FILTER regex(?aromatic_flag, &quot;Y&quot;)
+}
+</pre>
+<h2> <span class="mw-headline" id="Select_all_coordinates_missing_entries_about_model_and_ideal_PDB_files_using_each_flags_.28pdbo:chem_comp.pdbx_model_coordinates_missing_flag.2C_pdbo:chem_comp.pdbx_ideal_coordinates_missing_flag.29.">Select all coordinates missing entries about model and ideal PDB files using each flags (pdbo:chem_comp.pdbx_model_coordinates_missing_flag, pdbo:chem_comp.pdbx_ideal_coordinates_missing_flag). </span></h2>
+<pre>
+PREFIX pdbo: &lt;http://rdf.wwpdb.org/schema/pdbx-v40.owl#&gt; 
+SELECT DISTINCT * WHERE
+{
+ ?s pdbo:chem_comp.pdbx_model_coordinates_missing_flag&nbsp;?model.
+ FILTER regex(?model, &quot;Y&quot;)
+ ?s pdbo:chem_comp.pdbx_ideal_coordinates_missing_flag&nbsp;?ideal
+ FILTER regex(?ideal, &quot;Y&quot;)
+}
+</pre>
+<h2> <span class="mw-headline" id=".E3.80.8EBR.E3.80.8F.E3.82.92.E5.90.AB.E3.82.80PDB.E4.B8.AD.E3.81.AEPDBID.E3.81.AE.E6.95.B0.E3.82.92.E3.82.AB.E3.82.A6.E3.83.B3.E3.83.88.E3.81.99.E3.82.8B">『BR』を含むPDB中のPDBIDの数をカウントする</span></h2>
+<pre>
+PREFIX pdbo: &lt;http://rdf.wwpdb.org/schema/pdbx-v40.owl#&gt; 
+SELECT DISTINCT ((COUNT(?pdbid) AS&nbsp;?cnt - 1) AS&nbsp;?count)
+WHERE {
+
+ ?pdbid pdbo:has_chem_compCategory&nbsp;?pdb2cc_id .
+ ?pdb2cc_id pdbo:has_chem_comp&nbsp;?cc_id .
+ ?cc_id pdbo:chem_comp.id &quot;BR&quot;;
+        pdbo:chem_comp.name&nbsp;?cc_name .
+}
+</pre>
+<h2> <span class="mw-headline" id=".E3.80.8EBR.E3.80.8F.E3.82.92.E5.90.AB.E3.82.80PDB.E4.B8.AD.E3.81.AEPDBID.E3.81.AE.E3.83.AA.E3.82.B9.E3.83.88">『BR』を含むPDB中のPDBIDのリスト</span></h2>
+<pre>
+PREFIX pdbo: &lt;http://rdf.wwpdb.org/schema/pdbx-v40.owl#&gt; 
+SELECT DISTINCT&nbsp;?pdb
+WHERE {
+ ?pdbid pdbo:has_chem_compCategory&nbsp;?pdb2cc_id .
+ ?pdb2cc_id pdbo:has_chem_comp&nbsp;?cc_id .
+ ?cc_id pdbo:chem_comp.id &quot;BR&quot;;
+        pdbo:chem_comp.name&nbsp;?cc_name .
+
+ ?pdbid pdbo:has_structCategory&nbsp;?struct .
+ ?struct pdbo:has_struct&nbsp;?struct_entity .
+ ?struct_entity pdbo:struct.entry_id&nbsp;?pdb .
+}
+</pre>
+<p><br />
+</p>
+<h2> <span class="mw-headline" id=".E3.80.8EAS.E3.80.8F.E3.82.92.E5.90.AB.E3.82.80.E5.8C.96.E5.90.88.E7.89.A9.E3.81.AE.E4.B8.89.E6.A1.81ID.E3.81.AE.E3.83.AA.E3.82.B9.E3.83.88">『AS』を含む化合物の三桁IDのリスト</span></h2>
+<p>※一文字の元素記号（ヨウ素Iなど）を含む化合物を取得しようとすると部分マッチした元素記号（ニッケルNI,イリジウムIR、…など）がヒットしてしまいます。
+</p>
+<pre>
+ PREFIX pdbo: &lt;http://rdf.wwpdb.org/schema/pdbx-v40.owl#&gt; 
+ SELECT DISTINCT&nbsp;?hetid&nbsp;?formula
+ WHERE {
+ ?s pdbo:has_chem_comp&nbsp;?chemcomp.
+ ?chemcomp pdbo:chem_comp.formula&nbsp;?formula.
+ ?chemcomp pdbo:chem_comp.id&nbsp;?hetid.
+
+ FILTER regex(?formula, &quot;AS&quot;)
+ }
+
+</pre>
+<h1> <span class="mw-headline" id="PDB.EF.BC.88.E3.82.BF.E3.83.B3.E3.83.91.E3.82.AF.E8.B3.AA.EF.BC.89.E5.81.B4.E3.81.AE.E6.A4.9C.E7.B4.A2">PDB（タンパク質）側の検索 </span></h1>
+<h2> <span class="mw-headline" id="PDBID.E3.80.8E3FUJ.E3.80.8F.E3.81.8C.E6.8C.81.E3.81.A4.E3.83.98.E3.83.AA.E3.83.83.E3.82.AF.E3.82.B9.E3.81.94.E3.81.A8.E3.81.AE.E6.AE.8B.E5.9F.BA.E9.95.B7.E3.81.95">PDBID『3FUJ』が持つヘリックスごとの残基長さ </span></h2>
+<pre>
+PREFIX pdbo: &lt;http://rdf.wwpdb.org/schema/pdbx-v40.owl#&gt;
+SELECT DISTINCT * WHERE {
+ &lt;http://rdf.wwpdb.org/pdb/3FUJ&gt; pdbo:has_struct_confCategory&nbsp;?o .
+ ?o&nbsp;?p2&nbsp;?o2.
+ ?o2 pdbo:struct_conf.pdbx_PDB_helix_length&nbsp;?o3.
+}
+</pre>
+<h2> <span class="mw-headline" id="PDBID_3FUJ_.E3.81.AE.E3.83.98.E3.83.AA.E3.83.83.E3.82.AF.E3.82.B9ID_P6_.E3.81.8C.E6.8C.81.E3.81.A4.E3.83.AC.E3.82.B3.E3.83.BC.E3.83.89.E4.B8.80.E8.A6.A7_.EF.BC.88.E3.83.98.E3.83.AA.E3.83.83.E3.82.AF.E3.82.B9.E3.81.AE.E9.96.8B.E5.A7.8B.E3.83.BB.E7.B5.82.E4.BA.86.E6.AE.8B.E5.9F.BA.E3.81.A8.E6.AE.8B.E5.9F.BA.E7.95.AA.E5.8F.B7.E3.80.81.E3.83.81.E3.82.A7.E3.82.A4.E3.83.B3ID.EF.BC.89">PDBID 3FUJ のヘリックスID P6 が持つレコード一覧 （ヘリックスの開始・終了残基と残基番号、チェインID）</span></h2>
+<pre>
+PREFIX pdbo: &lt;http://rdf.wwpdb.org/schema/pdbx-v40.owl#&gt;
+SELECT distinct * WHERE {
+ &lt;http://rdf.wwpdb.org/pdb/3FUJ/struct_conf/HELX_P6&gt;&nbsp;?p&nbsp;?o
+}
+</pre>
+<h2> <span class="mw-headline" id="PDBID_3A0B_.E3.81.AE.E5.90.84.E3.83.98.E3.83.AA.E3.83.83.E3.82.AF.E3.82.B9.E3.81.AE.E9.96.8B.E5.A7.8B.E6.AE.8B.E5.9F.BA.E3.81.A8.E7.B5.82.E4.BA.86.E6.AE.8B.E5.9F.BA.E3.81.AE.E3.83.81.E3.82.A7.E3.82.A4.E3.83.B3ID.E3.81.AE.E4.B8.80.E8.A6.A7">PDBID 3A0B の各ヘリックスの開始残基と終了残基のチェインIDの一覧</span></h2>
+<pre>
+PREFIX pdbo: &lt;http://rdf.wwpdb.org/schema/pdbx-v40.owl#&gt;
+
+SELECT DISTINCT&nbsp;?h_id&nbsp;?beg&nbsp;?end WHERE {
+ &lt;http://rdf.wwpdb.org/pdb/3A0B&gt; pdbo:has_struct_confCategory&nbsp;?o .
+ ?o&nbsp;?p&nbsp;?h_id .
+ ?h_id pdbo:struct_conf.beg_label_asym_id&nbsp;?beg.
+ ?h_id pdbo:struct_conf.end_label_asym_id&nbsp;?end.
+}
+</pre>
+<h2> <span class="mw-headline" id="PDBID_3A0B_.E3.81.AE.E5.90.84.E3.83.98.E3.83.AA.E3.83.83.E3.82.AF.E3.82.B9.E3.81.AE.E9.96.8B.E5.A7.8B.E6.AE.8B.E5.9F.BA.E3.81.A8.E7.B5.82.E4.BA.86.E6.AE.8B.E5.9F.BA.E3.81.AE.E3.83.81.E3.82.A7.E3.82.A4.E3.83.B3ID_.E3.81.8C.E7.95.B0.E3.81.AA.E3.82.8B.E3.82.82.E3.81.AE.E3.82.92.E8.A1.A8.E7.A4.BA_.EF.BC.88.E3.83.86.E3.82.B9.E3.83.88.E7.94.A8.EF.BC.9A.E6.99.AE.E9.80.9A.E3.81.AF.E5.87.BA.E5.8A.9B.E3.81.8C.E7.84.A1.E3.81.84.EF.BC.89">PDBID 3A0B の各ヘリックスの開始残基と終了残基のチェインID が異なるものを表示 （テスト用：普通は出力が無い）</span></h2>
+<pre>
+PREFIX pdbo: &lt;http://rdf.wwpdb.org/schema/pdbx-v40.owl#&gt;
+
+SELECT DISTINCT&nbsp;?h_id&nbsp;?beg&nbsp;?end WHERE {
+ &lt;http://rdf.wwpdb.org/pdb/3A0B&gt; pdbo:has_struct_confCategory&nbsp;?o .
+ ?o&nbsp;?p&nbsp;?h_id .
+ ?h_id pdbo:struct_conf.beg_label_asym_id&nbsp;?beg.
+ ?h_id pdbo:struct_conf.end_label_asym_id&nbsp;?end.
+
+ MINUS
+  {
+    &nbsp;?h_id pdbo:struct_conf.beg_label_asym_id&nbsp;?beg.
+    &nbsp;?h_id pdbo:struct_conf.end_label_asym_id&nbsp;?end.
+     FILTER regex(?beg,&nbsp;?end)
+  }
+}
+</pre>
+<h2> <span class="mw-headline" id="PDBID_3A0B_.E3.81.AE.E3.83.81.E3.82.A7.E3.82.A4.E3.83.B3ID_C_.E3.81.AE.E5.90.84.E3.83.98.E3.83.AA.E3.83.83.E3.82.AF.E3.82.B9.E3.81.AE.E6.AE.8B.E5.9F.BA.E9.95.B7">PDBID 3A0B のチェインID C の各ヘリックスの残基長</span></h2>
+<pre>
+PREFIX pdbo: &lt;http://rdf.wwpdb.org/schema/pdbx-v40.owl#&gt;
+
+SELECT DISTINCT&nbsp;?beg&nbsp;?end&nbsp;?h_leng WHERE {
+ &lt;http://rdf.wwpdb.org/pdb/3A0B&gt; pdbo:has_struct_confCategory&nbsp;?o .
+ ?o&nbsp;?p&nbsp;?h_id .
+ ?h_id pdbo:struct_conf.pdbx_PDB_helix_length&nbsp;?h_leng.
+ ?h_id pdbo:struct_conf.beg_label_asym_id&nbsp;?beg.
+ ?h_id pdbo:struct_conf.end_label_asym_id&nbsp;?end.
+
+ FILTER regex(?beg, &quot;C&quot;)
+
+ MINUS{
+ &nbsp;?h_id pdbo:struct_conf.beg_label_asym_id&nbsp;?beg.
+  FILTER regex(?beg, &quot;CA&quot;)
+ }
+}
+</pre>
+<h2> <span class="mw-headline" id="PDBID_3A0B_.E3.81.AE.E3.83.81.E3.82.A7.E3.82.A4.E3.83.B3ID_C_.E3.81.AE.E5.90.84.E3.83.98.E3.83.AA.E3.83.83.E3.82.AF.E3.82.B9.E3.81.AE.E3.83.98.E3.83.AA.E3.83.83.E3.82.AF.E3.82.B9ID_.E3.81.A8_.E6.AE.8B.E5.9F.BA.E9.95.B7">PDBID 3A0B のチェインID C の各ヘリックスのヘリックスID と 残基長</span></h2>
+<pre>
+PREFIX pdbo: &lt;http://rdf.wwpdb.org/schema/pdbx-v40.owl#&gt;
+
+SELECT DISTINCT * 
+WHERE {
+  &lt;http://rdf.wwpdb.org/pdb/3A0B&gt; pdbo:has_struct_confCategory&nbsp;?o .
+ &nbsp;?o&nbsp;?p&nbsp;?h_id .
+ ?h_id pdbo:struct_conf.pdbx_PDB_helix_length&nbsp;?h_leng;
+       pdbo:struct_conf.beg_label_asym_id&nbsp;?beg;
+       pdbo:struct_conf.end_label_asym_id&nbsp;?end.
+
+ FILTER regex(?beg, &quot;C&quot;)
+
+ MINUS{
+ &nbsp;?h_id pdbo:struct_conf.beg_label_asym_id&nbsp;?beg.
+  FILTER regex(?beg, &quot;CA&quot;)
+ }
+}
+</pre>
+<h2> <span class="mw-headline" id="PDBID_3A0B.E3.81.AE.E3.83.81.E3.82.A7.E3.82.A4.E3.83.B3ID_.E3.81.94.E3.81.A8.E3.81.AE.E3.83.98.E3.83.AA.E3.83.83.E3.82.AF.E3.82.B9.E3.81.AE.E6.AE.8B.E5.9F.BA.E9.95.B7.E4.B8.80.E8.A6.A7">PDBID 3A0BのチェインID ごとのヘリックスの残基長一覧</span></h2>
+<pre>
+PREFIX pdbo: &lt;http://rdf.wwpdb.org/schema/pdbx-v40.owl#&gt;
+PREFIX xsd: &lt;http://www.w3.org/2001/XMLSchema#&gt;
+
+SELECT DISTINCT&nbsp;?beg (SUM(xsd:int(?h_leng)) AS&nbsp;?sum_leng)
+WHERE {
+ &lt;http://rdf.wwpdb.org/pdb/3A0B&gt; pdbo:has_struct_confCategory&nbsp;?o .
+ ?o&nbsp;?p&nbsp;?h_id .
+ ?h_id pdbo:struct_conf.pdbx_PDB_helix_length&nbsp;?h_leng;
+       pdbo:struct_conf.beg_label_asym_id&nbsp;?beg;
+       pdbo:struct_conf.end_label_asym_id&nbsp;?end.
+}
+</pre>
+<h2> <span class="mw-headline" id="PDBID_3FUJ.E3.81.AE.E3.83.81.E3.82.A7.E3.82.A4.E3.83.B3.E3.81.94.E3.81.A8.E3.81.AE.CE.B2.E3.82.B7.E3.83.BC.E3.83.88.E3.81.AE.E9.95.B7.E3.81.95.E3.82.92.E5.8F.96.E5.BE.97">PDBID 3FUJのチェインごとのβシートの長さを取得</span></h2>
+<pre>
+PREFIX pdbo: &lt;http://rdf.wwpdb.org/schema/pdbx-v40.owl#&gt;
+PREFIX xsd: &lt;http://www.w3.org/2001/XMLSchema#&gt;
+
+SELECT DISTINCT&nbsp;?beg_ch&nbsp;?end_ch (SUM(xsd:int(?end_nsq) - xsd:int(?beg_nsq) + 1 AS&nbsp;?length) AS&nbsp;? sum_lengt)
+WHERE {
+ &lt;http://rdf.wwpdb.org/pdb/3A0B&gt; pdbo:has_struct_sheet_rangeCategory&nbsp;?o .
+ ?o&nbsp;?p&nbsp;?s_id .
+ ?s_id pdbo:struct_sheet_range.beg_label_seq_id&nbsp;?beg_nsq;
+       pdbo:struct_sheet_range.end_label_seq_id&nbsp;?end_nsq;
+       pdbo:struct_sheet_range.beg_label_asym_id&nbsp;?beg_ch;
+       pdbo:struct_sheet_range.end_label_asym_id&nbsp;?end_ch.
+}
+</pre>
+<h2> <span class="mw-headline" id="PDBID_3A0B.E3.81.AE.E3.83.81.E3.82.A7.E3.82.A4.E3.83.B3.E3.81.94.E3.81.A8.E3.81.AE.CE.B2.E3.82.B7.E3.83.BC.E3.83.88.E3.81.AE.E9.95.B7.E3.81.95.E3.81.AE.E5.92.8C">PDBID 3A0Bのチェインごとのβシートの長さの和</span></h2>
+<pre>
+PREFIX pdbo: &lt;http://rdf.wwpdb.org/schema/pdbx-v40.owl#&gt;
+PREFIX xsd: &lt;http://www.w3.org/2001/XMLSchema#&gt;
+
+SELECT DISTINCT&nbsp;?beg (SUM(xsd:int(?h_leng)) AS&nbsp;?sum_leng)
+WHERE {
+ &lt;http://rdf.wwpdb.org/pdb/3A0B&gt; pdbo:has_struct_confCategory&nbsp;?o .
+ ?o&nbsp;?p&nbsp;?h_id .
+ ?h_id pdbo:struct_conf.pdbx_PDB_helix_length&nbsp;?h_leng;
+       pdbo:struct_conf.beg_label_asym_id&nbsp;?beg;
+       pdbo:struct_conf.end_label_asym_id&nbsp;?end.
+}
+</pre>
+<h2> <span class="mw-headline" id="PDBID_3A0B.E3.81.AB.E5.90.AB.E3.81.BE.E3.82.8C.E3.82.8B.E5.90.84.E3.83.99.E3.83.BC.E3.82.BF.E3.82.B9.E3.83.88.E3.83.A9.E3.83.B3.E3.83.89.E3.81.AE.E9.95.B7.E3.81.95">PDBID 3A0Bに含まれる各ベータストランドの長さ</span></h2>
+<pre>
+PREFIX pdbo: &lt;http://rdf.wwpdb.org/schema/pdbx-v40.owl#&gt;
+PREFIX xsd: &lt;http://www.w3.org/2001/XMLSchema#&gt;
+
+SELECT DISTINCT&nbsp;?s_id (xsd:int(?end_nsq) - xsd:int(?beg_nsq) + 1 AS&nbsp;?length)&nbsp;?beg_ch&nbsp;?end_ch
+WHERE {
+ &lt;http://rdf.wwpdb.org/pdb/3A0B&gt; pdbo:has_struct_sheet_rangeCategory&nbsp;?o .
+ ?o&nbsp;?p&nbsp;?s_id .
+ ?s_id pdbo:struct_sheet_range.beg_label_seq_id&nbsp;?beg_nsq;
+       pdbo:struct_sheet_range.end_label_seq_id&nbsp;?end_nsq;
+       pdbo:struct_sheet_range.beg_label_asym_id&nbsp;?beg_ch;
+       pdbo:struct_sheet_range.end_label_asym_id&nbsp;?end_ch.
+}
+</pre>
+<h2> <span class="mw-headline" id="PDBID_3A0B.E3.81.AE.E3.83.81.E3.82.A7.E3.82.A4.E3.83.B3.E3.81.94.E3.81.A8.E3.81.AE.CE.B2.E3.82.B7.E3.83.BC.E3.83.88.E3.81.AE.E9.95.B7.E3.81.95.E3.81.AE.E5.90.88.E8.A8.88">PDBID 3A0Bのチェインごとのβシートの長さの合計</span></h2>
+<pre>
+PREFIX pdbo: &lt;http://rdf.wwpdb.org/schema/pdbx-v40.owl#&gt;
+PREFIX xsd: &lt;http://www.w3.org/2001/XMLSchema#&gt;
+
+SELECT DISTINCT&nbsp;?s_id&nbsp;?beg_ch&nbsp;?end_ch 
+(SUM(xsd:int(?end_nsq) - xsd:int(?beg_nsq) + 1 AS&nbsp;?length) AS&nbsp;?sum_lengt)
+WHERE {
+ &lt;http://rdf.wwpdb.org/pdb/3A0B&gt; pdbo:has_struct_sheet_rangeCategory&nbsp;?o .
+ ?o&nbsp;?p&nbsp;?s_id .
+ ?s_id pdbo:struct_sheet_range.beg_label_seq_id&nbsp;?beg_nsq;
+       pdbo:struct_sheet_range.end_label_seq_id&nbsp;?end_nsq;
+       pdbo:struct_sheet_range.beg_label_asym_id&nbsp;?beg_ch;
+       pdbo:struct_sheet_range.end_label_asym_id&nbsp;?end_ch.
+}
+</pre>
+<h2> <span class="mw-headline" id="PDBID_148L_.E3.83.81.E3.82.A7.E3.82.A4.E3.83.B3.E6.AF.8E.E3.81.AE.E9.85.8D.E5.88.97.E9.95.B7">PDBID 148L チェイン毎の配列長</span></h2>
+<pre>
+PREFIX pdbo: &lt;http://rdf.wwpdb.org/schema/pdbx-v40.owl#&gt;
+PREFIX xsd: &lt;http://www.w3.org/2001/XMLSchema#&gt;
+
+SELECT&nbsp;?strand_id
+(REPLACE(REPLACE(?one_letter_codes, &quot;\n&quot;, &quot;&quot;) , &quot;[^A-Z].*[^A-Z]&quot;, &quot;&quot;) AS&nbsp;?one_letter)
+(STRLEN(REPLACE(REPLACE(?one_letter_codes, &quot;\n&quot;, &quot;&quot;) , &quot;[^A-Z].*[^A-Z]&quot;, &quot;&quot;)) AS&nbsp;?seq_length)
+WHERE{
+ &lt;http://rdf.wwpdb.org/pdb/148L&gt; pdbo:has_entity_polyCategory&nbsp;?o .
+ ?o pdbo:has_entity_poly&nbsp;?o2 .
+ ?o2 pdbo:entity_poly.pdbx_seq_one_letter_code&nbsp;?one_letter_codes;
+ pdbo:entity_poly.pdbx_strand_id&nbsp;?strand_id.
+}
+</pre>
+<h2> <span class="mw-headline" id="PDBID_1abr_.E3.81.AE.E5.85.B1.E6.9C.89.E7.B5.90.E5.90.88.E6.83.85.E5.A0.B1.E3.82.92.E3.80.81.E6.AE.8B.E5.9F.BA.E7.95.AA.E5.8F.B7.E3.80.81icode.E3.80.81.E6.AE.8B.E5.9F.BA.E5.90.8D.E3.80.81.E5.8E.9F.E5.AD.90.E5.90.8D.E3.81.AE.E3.83.9A.E3.82.A2.E3.81.A8.E8.B7.9D.E9.9B.A2.E6.83.85.E5.A0.B1.E3.82.92.E7.B5.84.E3.81.BF.E4.BB.98.E3.81.91.E3.81.A6.E5.8F.96.E5.BE.97">PDBID 1abr の共有結合情報を、残基番号、icode、残基名、原子名のペアと距離情報を組み付けて取得</span></h2>
+<pre>
+PREFIX pdbo: &lt;http://rdf.wwpdb.org/schema/pdbx-v40.owl#&gt;
+
+SELECT DISTINCT * WHERE {
+
+&lt;http://rdf.wwpdb.org/pdb/1ABR&gt; pdbo:has_struct_connCategory&nbsp;?conncat .
+?conncat pdbo:has_struct_conn&nbsp;?connect.
+?connect pdbo:struct_conn.ptnr1_auth_asym_id&nbsp;?chain1;
+    pdbo:struct_conn.ptnr1_auth_comp_id&nbsp;?res1;
+
+    pdbo:struct_conn.ptnr1_auth_seq_id&nbsp;?seq1;
+    pdbo:struct_conn.ptnr1_label_atom_id&nbsp;?atom1;
+    pdbo:struct_conn.ptnr2_auth_asym_id&nbsp;?chain2;
+
+    pdbo:struct_conn.ptnr2_auth_comp_id&nbsp;?res2;
+    pdbo:struct_conn.ptnr2_auth_seq_id&nbsp;?seq2;
+    pdbo:struct_conn.ptnr2_label_atom_id&nbsp;?atom2;
+    pdbo:struct_conn.pdbx_dist_value&nbsp;?dist.
+
+    OPTIONAL {
+      &nbsp;?connect pdbo:struct_conn.pdbx_ptnr1_PDB_ins_code&nbsp;?ins1;
+                pdbo:struct_conn.pdbx_ptnr2_PDB_ins_code&nbsp;?ins2.
+    } .
+}
+</pre>
+<h1> <span class="mw-headline" id="Protein_Ligand_Binding_Site_Pair.E3.81.AE.E6.A4.9C.E7.B4.A2">Protein Ligand Binding Site Pairの検索</span></h1>
+<h2> <span class="mw-headline" id="PAIRID_102D_166_489_0_.E3.81.AE.E3.82.A8.E3.83.B3.E3.83.88.E3.83.AA.E3.83.BC.E3.82.92.E5.8F.96.E5.BE.97">PAIRID 102D_166_489_0 のエントリーを取得 </span></h2>
+<pre>
+PREFIX pdbo: &lt;http://rdf.wwpdb.org/schema/pdbx-v40.owl#&gt;
+
+SELECT DISTINCT * WHERE {
+ &lt;http://www.bi.a.u-tokyo.ac.jp/rdf/102D_166_489_0&gt;&nbsp;?p&nbsp;?o .
+ ?o&nbsp;?p2&nbsp;?o2 .
+} LIMIT 1000
+</pre>
+<h2> <span class="mw-headline" id="PAIRID.E3.81.8B.E3.82.89PDBID.2C_.E3.82.A8.E3.83.B3.E3.83.88.E3.83.AA.E3.83.BC.E3.81.A8.E3.83.AA.E3.83.86.E3.83.A9.E3.83.AB.E3.82.92.E9.81.B8.E6.8A.9E">PAIRIDからPDBID, エントリーとリテラルを選択</span></h2>
+<pre>
+PREFIX rdf:&lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#&gt;
+PREFIX rdfs:&lt;http://www.w3.org/2000/01/rdf-schema#&gt;
+PREFIX pdbo:&lt;http://rdf.wwpdb.org/schema/pdbx-v40.owl#&gt;
+PREFIX bilab:&lt;http://www.bi.a.u-tokyo.ac.jp/owl#&gt;
+PREFIX ddi:&lt;http://purl.org/ddi/owl#&gt;
+
+SELECT DISTINCT&nbsp;?PDBID&nbsp;?PAIRID&nbsp;?entry&nbsp;?literal
+WHERE {
+ ?PAIRID rdf:type bilab:PAIRID;
+         ddi:distance_to_atom&nbsp;?distance .
+
+ {&nbsp;?PAIRID bilab:has_interact_atom_site&nbsp;?blank_side_p .
+  &nbsp;?blank_side_p&nbsp;?entry&nbsp;?literal . }
+ UNION
+ {&nbsp;?PAIRID bilab:has_interact_chem_comp_atom&nbsp;?blank_side_c .
+  &nbsp;?blank_side_c&nbsp;?entry&nbsp;?literal . }
+
+ ?blank_side_p2 pdbo:has_atom_site&nbsp;?blank_side_p;
+                rdfs:label&nbsp;?PDBID .
+}
+LIMIT 100
+</pre>
+<h2> <span class="mw-headline" id="PAIRID:102D_165_489_0.E3.81.AE.E3.82.A8.E3.83.B3.E3.83.88.E3.83.AA.E3.83.BC.E3.82.92.E8.A1.A8.E7.A4.BA">PAIRID:102D_165_489_0のエントリーを表示</span></h2>
+<pre>
+PREFIX rdf:&lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#&gt;
+PREFIX rdfs:&lt;http://www.w3.org/2000/01/rdf-schema#&gt;
+PREFIX pdbo:&lt;http://rdf.wwpdb.org/schema/pdbx-v40.owl#&gt;
+PREFIX bilab:&lt;http://www.bi.a.u-tokyo.ac.jp/owl#&gt;
+PREFIX ddi:&lt;http://purl.org/ddi/owl#&gt;
+
+SELECT DISTINCT&nbsp;?PAIRID&nbsp;?entry&nbsp;?literal  
+WHERE {
+ &lt;http://www.bi.a.u-tokyo.ac.jp/rdf/102D_165_489_0&gt; ddi:distance_to_atom&nbsp;?distance&nbsp;;
+                                                    rdfs:label&nbsp;?PAIRID&nbsp;;
+                                                    bilab:has_interact_atom_site&nbsp;?blank_side_p&nbsp;;
+                                                    bilab:has_interact_chem_comp_atom&nbsp;? blank_side_c .
+
+ {?blank_side_p&nbsp;?entry&nbsp;?literal .} UNION {?blank_side_c&nbsp;?entry&nbsp;?literal .}
+}
+LIMIT 100
+</pre>
+<h1> <span class="mw-headline" id=".E3.83.AA.E3.82.AC.E3.83.B3.E3.83.89.E7.B5.90.E5.90.88.E9.83.A8.E4.BD.8D.E3.83.87.E3.83.BC.E3.82.BF.E3.83.99.E3.83.BC.E3.82.B9.E3.81.A8PDB.E3.81.AE.E7.B5.B1.E5.90.88.E6.A4.9C.E7.B4.A2.EF.BC.88.E3.81.9F.E3.81.A0.E3.81.97.EF.BC.91.E5.80.8B.E3.81.AE.E3.82.B0.E3.83.A9.E3.83.95.E3.81.AB.E3.81.B6.E3.81.A1.E8.BE.BC.E3.82.93.E3.81.A7.E3.81.84.E3.81.BE.E3.81.99.EF.BC.89">リガンド結合部位データベースとPDBの統合検索（ただし１個のグラフにぶち込んでいます）</span></h1>
+<h2> <span class="mw-headline" id="PAIRID.E3.81.A8PDBID.E3.81.AE.E7.B5.84.E3.81.BF.E4.BB.98.E3.81.91.E3.83.AA.E3.82.B9.E3.83.88.E3.81.AE200000.E8.A1.8C.E7.9B.AE.E3.81.8B.E3.82.89100000.E8.A1.8C.E5.88.86.E3.81.AE.E3.83.87.E3.83.BC.E3.82.BF.E3.82.92.E7.94.9F.E6.88.90">PAIRIDとPDBIDの組み付けリストの200000行目から100000行分のデータを生成</span></h2>
+<p>（実験用サーバでは10万行の出力が限界だったので, OFFSET関数で区切って出力するシェルスクリプトをrubyで書いた）
+</p>
+<pre>
+PREFIX rdf:&lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#&gt;
+PREFIX rdfs:&lt;http://www.w3.org/2000/01/rdf-schema#&gt;
+PREFIX pdbo:&lt;http://rdf.wwpdb.org/schema/pdbx-v40.owl#&gt;
+PREFIX bilab:&lt;http://www.bi.a.u-tokyo.ac.jp/owl#&gt;
+
+CONSTRUCT{ 
+ ?PAIRID pdbo:link_to_pdb&nbsp;?PDBID .
+}
+
+WHERE {
+ ?PAIRID rdf:type bilab:PAIRID .
+
+ ?PAIRID bilab:has_interact_atom_site&nbsp;?blank_side_p .
+
+ ?blank_side_p2 pdbo:has_atom_site&nbsp;?blank_side_p;
+                rdfs:label&nbsp;?PDBID .
+}
+LIMIT  100000
+OFFSET 200000
+</pre>
+<h2> <span class="mw-headline" id="PAIRID.E3.81.8C.E6.8C.81.E3.81.A4PDBID.E3.81.B8.E3.81.AE.E3.83.AA.E3.83.B3.E3.82.AF.E3.81.8B.E3.82.89PDB.E3.81.8C.E6.8C.81.E3.81.A4Ligand.E3.81.AEID.E3.81.A8.E5.90.8D.E7.A7.B0.E3.82.92.E5.8F.96.E5.BE.97">PAIRIDが持つPDBIDへのリンクからPDBが持つLigandのIDと名称を取得</span></h2>
+<pre>
+PREFIX rdf:&lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#&gt;
+PREFIX rdfs:&lt;http://www.w3.org/2000/01/rdf-schema#&gt;
+PREFIX pdbo:&lt;http://rdf.wwpdb.org/schema/pdbx-v40.owl#&gt;
+PREFIX bilab:&lt;http://www.bi.a.u-tokyo.ac.jp/owl#&gt;
+PREFIX ddi:&lt;http://purl.org/ddi/owl#&gt;
+
+SELECT DISTINCT&nbsp;?pairid_label&nbsp;?p_id&nbsp;?p_description&nbsp;?ligand_id&nbsp;?ligand_name     
+WHERE {
+ ?pairid rdf:type bilab:PAIRID .
+ ?pairid pdbo:link_to_pdb&nbsp;?pdbid&nbsp;;
+         ddi:distance_to_atom&nbsp;?distance&nbsp;;
+         rdfs:label&nbsp;?pairid_label&nbsp;;
+         bilab:has_interact_atom_site&nbsp;?blank_side_p&nbsp;;
+         bilab:has_interact_chem_comp_atom&nbsp;?blank_side_c .
+
+        &nbsp;?blank_side_c pdbo:chem_comp.name&nbsp;?ligand_name.
+
+ ?pdbid pdbo:has_structCategory&nbsp;?struct .
+ ?struct pdbo:has_struct&nbsp;?struct_entity .
+ ?struct_entity pdbo:struct.entry_id&nbsp;?p_id&nbsp;;
+                pdbo:struct.title&nbsp;?p_title&nbsp;;
+                pdbo:struct.pdbx_descriptor&nbsp;?p_description .
+
+ ?pdbid pdbo:has_chem_compCategory&nbsp;?pdb2cc_id .
+ ?pdb2cc_id pdbo:has_chem_comp&nbsp;?cc_id .
+ ?cc_id pdbo:chem_comp.id&nbsp;?ligand_id&nbsp;; 
+        pdbo:chem_comp.name&nbsp;?ligand_name .
+
+} 
+LIMIT 1000
+</pre>
+<h2> <span class="mw-headline" id="PAIRID:102D_166_489_0.E3.81.AE.E3.82.BF.E3.83.B3.E3.83.91.E3.82.AF.E8.B3.AA.E3.81.A8.E3.83.AA.E3.82.AC.E3.83.B3.E3.83.89.E3.81.AE.E7.B5.84.E3.81.BF.E5.90.88.E3.82.8F.E3.81.9B.E3.82.92.E5.8F.96.E5.BE.97">PAIRID:102D_166_489_0のタンパク質とリガンドの組み合わせを取得</span></h2>
+<pre>
+PREFIX rdf:&lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#&gt;
+PREFIX rdfs:&lt;http://www.w3.org/2000/01/rdf-schema#&gt;
+PREFIX pdbo:&lt;http://rdf.wwpdb.org/schema/pdbx-v40.owl#&gt;
+PREFIX bilab:&lt;http://www.bi.a.u-tokyo.ac.jp/owl#&gt;
+
+SELECT DISTINCT&nbsp;?pdbid&nbsp;?p_id&nbsp;?p_title&nbsp;?p_description&nbsp;?ligand_id&nbsp;?ligand_name  
+WHERE {
+ &lt;http://www.bi.a.u-tokyo.ac.jp/rdf/102D_166_489_0&gt; rdf:type bilab:PAIRID&nbsp;;
+                                                    pdbo:link_to_pdb&nbsp;?pdbid .
+
+ ?pdbid pdbo:has_structCategory&nbsp;?struct .
+ ?struct pdbo:has_struct&nbsp;?struct_entity .
+ ?struct_entity pdbo:struct.entry_id&nbsp;?p_id&nbsp;;
+                pdbo:struct.title&nbsp;?p_title&nbsp;;
+                pdbo:struct.pdbx_descriptor&nbsp;?p_description .
+
+ ?pdbid pdbo:has_chem_compCategory&nbsp;?pdb2cc_id .
+ ?pdb2cc_id pdbo:has_chem_comp&nbsp;?cc_id .
+ ?cc_id pdbo:chem_comp.id&nbsp;?ligand_id&nbsp;; 
+        pdbo:chem_comp.name&nbsp;?ligand_name .
+
+} 
+LIMIT 100
+</pre>
+<h2> <span class="mw-headline" id="PDBID.E6.AF.8E.E3.81.AEHet_Atom.E3.81.AE.E4.B8.80.E8.A6.A7.E3.81.8B.E3.82.89.E6.AE.8B.E5.9F.BA.E3.82.92.E3.81.AE.E3.81.9E.E3.81.84.E3.81.A6.E9.81.B8.E6.8A.9E">PDBID毎のHet Atomの一覧から残基をのぞいて選択</span></h2>
+<pre>
+PREFIX rdf:&lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#&gt;
+PREFIX rdfs:&lt;http://www.w3.org/2000/01/rdf-schema#&gt;
+PREFIX owl:&lt;http://www.w3.org/2002/07/owl#&gt;
+PREFIX bilab:&lt;http://www.bi.a.u-tokyo.ac.jp/owl#&gt;
+PREFIX pdbo:&lt;http://rdf.wwpdb.org/schema/pdbx-v40.owl#&gt;
+PREFIX pdbr:&lt;http://rdf.wwpdb.org/pdb/&gt;
+PREFIX up:&lt;http://purl.uniprot.org/core/&gt;
+
+SELECT DISTINCT&nbsp;?p_id&nbsp;?p_description&nbsp;?ligand_id&nbsp;?ligand_name     
+WHERE {
+ ?pdbid pdbo:has_structCategory&nbsp;?struct .
+ ?struct pdbo:has_struct&nbsp;?struct_entity .
+ ?struct_entity pdbo:struct.entry_id&nbsp;?p_id&nbsp;;
+                pdbo:struct.title&nbsp;?p_title&nbsp;;
+                pdbo:struct.pdbx_descriptor&nbsp;?p_description .
+
+ ?pdbid pdbo:has_chem_compCategory&nbsp;?pdb2cc_id .
+ ?pdb2cc_id pdbo:has_chem_comp&nbsp;?cc_id .
+ ?cc_id pdbo:chem_comp.id&nbsp;?ligand_id&nbsp;; 
+        pdbo:chem_comp.name&nbsp;?ligand_name .
+
+ MINUS {
+  &nbsp;?cc_id pdbo:chem_comp.id&nbsp;?ligand_id  .
+    FILTER regex(?ligand_id, &quot;ALA&quot;) .
+}
+ MINUS {
+  &nbsp;?cc_id pdbo:chem_comp.id&nbsp;?ligand_id  .
+    FILTER regex(?ligand_id, &quot;VAL&quot;) .
+}
+ MINUS {
+  &nbsp;?cc_id pdbo:chem_comp.id&nbsp;?ligand_id  .
+    FILTER regex(?ligand_id, &quot;LEU&quot;) .
+}
+ MINUS {
+  &nbsp;?cc_id pdbo:chem_comp.id&nbsp;?ligand_id  .
+   FILTER regex(?ligand_id, &quot;ILE&quot;) .
+}
+ MINUS {
+  &nbsp;?cc_id pdbo:chem_comp.id&nbsp;?ligand_id  .
+   FILTER regex(?ligand_id, &quot;PRO&quot;) .
+}
+ MINUS {
+  &nbsp;?cc_id pdbo:chem_comp.id&nbsp;?ligand_id  .
+   FILTER regex(?ligand_id, &quot;PHE&quot;) .
+}
+ MINUS {
+  &nbsp;?cc_id pdbo:chem_comp.id&nbsp;?ligand_id  .
+   FILTER regex(?ligand_id, &quot;TRP&quot;) .
+}
+ MINUS {
+  &nbsp;?cc_id pdbo:chem_comp.id&nbsp;?ligand_id  .
+   FILTER regex(?ligand_id, &quot;CYS&quot;) .
+}
+ MINUS {
+  &nbsp;?cc_id pdbo:chem_comp.id&nbsp;?ligand_id  .
+   FILTER regex(?ligand_id, &quot;GLY&quot;) .
+}
+ MINUS {
+  &nbsp;?cc_id pdbo:chem_comp.id&nbsp;?ligand_id  .
+   FILTER regex(?ligand_id, &quot;SER&quot;) .
+}
+ MINUS {
+  &nbsp;?cc_id pdbo:chem_comp.id&nbsp;?ligand_id  .
+   FILTER regex(?ligand_id, &quot;THR&quot;) .
+}
+ MINUS {
+  &nbsp;?cc_id pdbo:chem_comp.id&nbsp;?ligand_id  .
+   FILTER regex(?ligand_id, &quot;TYR&quot;) .
+ }
+ MINUS {
+  &nbsp;?cc_id pdbo:chem_comp.id&nbsp;?ligand_id  .
+   FILTER regex(?ligand_id, &quot;ASN&quot;) .
+ }
+ MINUS {
+  &nbsp;?cc_id pdbo:chem_comp.id&nbsp;?ligand_id  .
+   FILTER regex(?ligand_id, &quot;GLN&quot;) .
+}
+ MINUS {
+   &nbsp;?cc_id pdbo:chem_comp.id&nbsp;?ligand_id  .
+     FILTER regex(?ligand_id, &quot;ASP&quot;) .
+ }
+ MINUS {
+   &nbsp;?cc_id pdbo:chem_comp.id&nbsp;?ligand_id  .
+     FILTER regex(?ligand_id, &quot;GLU&quot;) .
+ }
+ MINUS {
+   &nbsp;?cc_id pdbo:chem_comp.id&nbsp;?ligand_id  .
+      FILTER regex(?ligand_id, &quot;LYS&quot;) .
+ }
+ MINUS {
+   &nbsp;?cc_id pdbo:chem_comp.id&nbsp;?ligand_id  .
+     FILTER regex(?ligand_id, &quot;ARG&quot;) .
+ }
+ MINUS {
+   &nbsp;?cc_id pdbo:chem_comp.id&nbsp;?ligand_id  .
+     FILTER regex(?ligand_id, &quot;HIS&quot;) .
+ }
+ MINUS {
+   &nbsp;?cc_id pdbo:chem_comp.id&nbsp;?ligand_id  .
+     FILTER regex(?ligand_id, &quot;MET&quot;) .
+ }
+} 
+LIMIT 5000
+</pre>
+<h2> <span class="mw-headline" id="PDB_Ligand_ID.E3.80.8EMAN.E3.80.8F.E3.81.AB.E3.81.A4.E3.81.84.E3.81.A6PDB.E3.81.A8PLBSP.E3.81.8B.E3.82.89.E7.B5.B1.E5.90.88.E6.A4.9C.E7.B4.A2.28PDB_Ligand_ID.2C_PDBID.2C_PLBSPID.2C_Protein_Atom_Name.2C_Protein_Atom_ID.2C_Protein_Chain_ID.2C_Residue_Name.2C_Residue_Num.2C_Ligand_Atom_Name.2C_Ligand_Atom_ID.2C_Ligand_Chain_ID.2C_Distance.29">PDB Ligand ID『MAN』についてPDBとPLBSPから統合検索(PDB Ligand ID, PDBID, PLBSPID, Protein Atom Name, Protein Atom ID, Protein Chain ID, Residue Name, Residue Num, Ligand Atom Name, Ligand Atom ID, Ligand Chain ID, Distance)</span></h2>
+<pre>
+PREFIX rdf:&lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#&gt;
+PREFIX rdfs:&lt;http://www.w3.org/2000/01/rdf-schema#&gt;
+PREFIX owl:&lt;http://www.w3.org/2002/07/owl#&gt;
+PREFIX bilab:&lt;http://www.bi.a.u-tokyo.ac.jp/owl#&gt;
+PREFIX pdbo:&lt;http://rdf.wwpdb.org/schema/pdbx-v40.owl#&gt;
+PREFIX pdbr:&lt;http://rdf.wwpdb.org/pdb/&gt;
+PREFIX up:&lt;http://purl.uniprot.org/core/&gt;
+PREFIX ddi:&lt;http://purl.org/ddi/owl#&gt;
+
+SELECT DISTINCT&nbsp;?ligand_id&nbsp;?p_id&nbsp;?plbspid&nbsp;?protein_atom_name&nbsp;?protein_atom_id&nbsp;?residue_name&nbsp;?residue_num&nbsp;?chain_id&nbsp;?ligand_atom_name&nbsp;?ligand_atom_id&nbsp;?ligand_chain_id&nbsp;?distance 
+WHERE {
+
+ ?pdbid pdbo:has_structCategory&nbsp;?struct .
+ ?struct pdbo:has_struct&nbsp;?struct_entity .
+ ?struct_entity pdbo:struct.entry_id&nbsp;?p_id .
+
+ ?pdbid pdbo:has_chem_compCategory&nbsp;?pdb2cc_id .
+ ?pdb2cc_id pdbo:has_chem_comp&nbsp;?cc_id .
+ ?cc_id pdbo:chem_comp.id&nbsp;?ligand_id .
+ FILTER CONTAINS(?ligand_id, &quot;MAN&quot;) .
+
+ ?pairid pdbo:link_to_pdb&nbsp;?pdbid .
+ ?pairid ddi:distance_to_atom&nbsp;?distance;
+         rdfs:label&nbsp;?plbspid;
+         bilab:has_interact_atom_site&nbsp;?blank_side_p;
+         bilab:has_interact_chem_comp_atom&nbsp;?blank_side_c .
+
+ ?blank_side_p pdbo:atom_site.label_atom_id&nbsp;?protein_atom_id;
+               pdbo:atom_site.type_symbol&nbsp;?protein_atom_name; 
+               pdbo:atom_site.label_asym_id&nbsp;?chain_id;
+               pdbo:atom_site.label_comp_id&nbsp;?residue_name;
+               pdbo:atom_site.label_seq_id&nbsp;?residue_num .
+
+ ?blank_side_c pdbo:atom_site.label_atom_id&nbsp;?ligand_atom_id;
+               pdbo:chem_comp_atom.type_symbol&nbsp;?ligand_atom_name;
+               pdbo:atom_site.label_asym_id&nbsp;?ligand_chain_id.
+} 
+LIMIT 100
+</pre>
+<h2> <span class="mw-headline" id="PLBSP-PDB.E7.B5.B1.E5.90.88.E6.A4.9C.E7.B4.A2_Ligand_ID.E3.80.8ESTR.E3.80.8F.E3.82.92poly_entity.E3.81.AB.E3.81.A4.E3.81.84.E3.81.A6.E3.81.97.E3.81.BC.E3.82.8A.E8.BE.BC.E3.81.BF.2C_.E3.81.8A.E3.82.88.E3.81.B3.E3.82.AF.E3.82.A8.E3.83.AA.E3.81.AE.E6.9C.80.E9.81.A9.E5.8C.96.">PLBSP-PDB統合検索 Ligand ID『STR』をpoly_entityについてしぼり込み, およびクエリの最適化. </span></h2>
+<pre>
+PREFIX rdf:&lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#&gt;
+PREFIX rdfs:&lt;http://www.w3.org/2000/01/rdf-schema#&gt;
+PREFIX owl:&lt;http://www.w3.org/2002/07/owl#&gt;
+PREFIX bilab:&lt;http://www.bi.a.u-tokyo.ac.jp/owl#&gt;
+PREFIX pdbo:&lt;http://rdf.wwpdb.org/schema/pdbx-v40.owl#&gt;
+PREFIX pdbr:&lt;http://rdf.wwpdb.org/pdb/&gt;
+PREFIX up:&lt;http://purl.uniprot.org/core/&gt;
+PREFIX ddi:&lt;http://purl.org/ddi/owl#&gt;
+
+SELECT DISTINCT&nbsp;?p_id&nbsp;?plbspid&nbsp;?protein_atom_name&nbsp;?protein_atom_id&nbsp;?residue_name&nbsp;?residue_num&nbsp;?chain_id&nbsp;?ligand_atom_name  &nbsp;?cc_name&nbsp;?ligand_atom_id&nbsp;?ligand_chain_id&nbsp;?distance&nbsp;?poly_entity
+
+WHERE 
+{
+ ?pdbid pdbo:has_chem_compCategory&nbsp;?pdb2cc_id .
+ ?pdb2cc_id pdbo:has_chem_comp&nbsp;?cc_id .
+ ?cc_id pdbo:chem_comp.id &quot;STR&quot;;
+        pdbo:chem_comp.name&nbsp;?cc_name .
+ 
+ ?pdbid pdbo:has_structCategory&nbsp;?struct .
+ ?struct pdbo:has_struct&nbsp;?struct_entity .
+ ?struct_entity pdbo:struct.entry_id&nbsp;?p_id .
+ ?pdbid pdbo:has_entity_polyCategory&nbsp;?poly.
+ ?poly pdbo:has_entity_poly&nbsp;?poly2.
+ ?ploy2 pdbo:entity_poly.type&nbsp;?poly_entity.
+ FILTER regex(?poly_entity, &quot;polypeptide&quot;)
+
+ ?pairid pdbo:link_to_pdb&nbsp;?pdbid .
+ ?pairid ddi:distance_to_atom&nbsp;?distance;
+         rdfs:label&nbsp;?plbspid;
+         bilab:has_interact_atom_site&nbsp;?blank_side_p;
+         bilab:has_interact_chem_comp_atom&nbsp;?blank_side_c .
+ 
+ ?blank_side_p pdbo:atom_site.label_atom_id&nbsp;?protein_atom_id;
+               pdbo:atom_site.type_symbol&nbsp;?protein_atom_name; 
+               pdbo:atom_site.label_asym_id&nbsp;?chain_id;
+               pdbo:atom_site.label_comp_id&nbsp;?residue_name;
+               pdbo:atom_site.label_seq_id&nbsp;?residue_num .
+ 
+ ?blank_side_c pdbo:atom_site.label_atom_id&nbsp;?ligand_atom_id;
+               pdbo:chem_comp_atom.type_symbol&nbsp;?ligand_atom_name;
+               pdbo:chem_comp.name&nbsp;?cc_name;
+               pdbo:atom_site.label_asym_id&nbsp;?ligand_chain_id.
+}
+ 
+LIMIT 100
+OFFSET 0
+</pre>
+<h2> <span class="mw-headline" id="PLBSP-PDB.E7.B5.B1.E5.90.88.E6.A4.9C.E7.B4.A2_Ligand_ID.E3.80.8ESTR.E3.80.8F.E3.81.A8.E7.B5.90.E5.90.88.E3.81.97.E3.80.81.E4.BA.8C.E6.AC.A1.E6.A7.8B.E9.80.A0.E3.81.8C.E3.83.98.E3.83.AA.E3.83.83.E3.82.AF.E3.82.B9.E3.81.A7.E3.81.82.E3.82.8B_pairid_.E3.81.AE.E4.B8.80.E8.A6.A7">PLBSP-PDB統合検索 Ligand ID『STR』と結合し、二次構造がヘリックスである pairid の一覧</span></h2>
+<pre>
+PREFIX rdf:&lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#&gt;
+PREFIX rdfs:&lt;http://www.w3.org/2000/01/rdf-schema#&gt;
+PREFIX owl:&lt;http://www.w3.org/2002/07/owl#&gt;
+PREFIX bilab:&lt;http://www.bi.a.u-tokyo.ac.jp/owl#&gt;
+PREFIX pdbo:&lt;http://rdf.wwpdb.org/schema/pdbx-v40.owl#&gt;
+PREFIX pdbr:&lt;http://rdf.wwpdb.org/pdb/&gt;
+PREFIX up:&lt;http://purl.uniprot.org/core/&gt;
+PREFIX ddi:&lt;http://purl.org/ddi/owl#&gt;
+
+SELECT DISTINCT&nbsp;?p_id&nbsp;?protein_atom_name&nbsp;?protein_atom_id&nbsp;?residue_name&nbsp;?residue_num&nbsp;?beg_seq&nbsp;?end_seq&nbsp;?ligand_atom_name &nbsp;?cc_name&nbsp;?ligand_atom_id&nbsp;?ligand_chain_id&nbsp;?distance&nbsp;?poly_entity&nbsp;?beg_ch 
+WHERE 
+{
+ ?pdbid pdbo:has_chem_compCategory&nbsp;?pdb2cc_id .
+ ?pdb2cc_id pdbo:has_chem_comp&nbsp;?cc_id .
+ ?cc_id pdbo:chem_comp.id &quot;STR&quot;;
+        pdbo:chem_comp.name&nbsp;?cc_name .
+
+ ?pdbid pdbo:has_structCategory&nbsp;?struct .
+ ?struct pdbo:has_struct&nbsp;?struct_entity .
+ ?struct_entity pdbo:struct.entry_id&nbsp;?p_id .
+
+ ?pdbid pdbo:has_struct_confCategory&nbsp;?conf_cat.
+ ?conf_cat&nbsp;?p&nbsp;?h_id .
+ ?h_id pdbo:struct_conf.beg_auth_asym_id&nbsp;?beg_ch;
+        pdbo:struct_conf.beg_label_seq_id&nbsp;?beg_seq;
+        pdbo:struct_conf.end_label_seq_id&nbsp;?end_seq.
+
+ ?pdbid pdbo:has_entity_polyCategory&nbsp;?poly.
+ ?poly pdbo:has_entity_poly&nbsp;?poly2.
+ ?ploy2 pdbo:entity_poly.type&nbsp;?poly_entity.
+ FILTER regex(?poly_entity, &quot;polypeptide&quot;)
+
+ ?pairid pdbo:link_to_pdb&nbsp;?pdbid .
+ ?pairid ddi:distance_to_atom&nbsp;?distance;
+         rdfs:label&nbsp;?plbspid;
+         bilab:has_interact_atom_site&nbsp;?blank_side_p;
+         bilab:has_interact_chem_comp_atom&nbsp;?blank_side_c .
+
+ ?blank_side_p pdbo:atom_site.label_atom_id&nbsp;?protein_atom_id;
+               pdbo:atom_site.type_symbol&nbsp;?protein_atom_name; 
+               pdbo:atom_site.label_asym_id&nbsp;?beg_ch;
+               pdbo:atom_site.label_comp_id&nbsp;?residue_name;
+               pdbo:atom_site.label_seq_id&nbsp;?residue_num .
+  FILTER (?residue_num &gt;=&nbsp;?beg_seq)
+  FILTER (?residue_num &lt;=&nbsp;?end_seq)
+
+ ?blank_side_c pdbo:atom_site.label_atom_id&nbsp;?ligand_atom_id;
+               pdbo:chem_comp_atom.type_symbol&nbsp;?ligand_atom_name;
+               pdbo:chem_comp.name&nbsp;?cc_name;
+               pdbo:atom_site.label_asym_id&nbsp;?ligand_chain_id.
+} 
+LIMIT 100
+OFFSET 100
+</pre>
+<p><br />
+作成者：込山, 番野 (UT_Prot)
+</p>
+<!-- 
+NewPP limit report
+Preprocessor node count: 437/1000000
+Post-expand include size: 0/2097152 bytes
+Template argument size: 0/2097152 bytes
+Expensive parser function count: 0/100
+-->
+
+<!-- Saved in parser cache with key wikidb-togowiki_:pcache:idhash:187-0!1!0!!ja!2!edit=0 and timestamp 20230605030914 -->
+<div class="printfooter">
+「<a href="../../../BH12.12/UT_Prot/PLBSP_SPARQL_snipet.html">http://wiki.lifesciencedb.jp/mw/BH12.12/UT_Prot/PLBSP_SPARQL_snipet</a>」より作成</div>
+		<div id='catlinks' class='catlinks catlinks-allhidden'></div>		<!-- end content -->
+				<div class="visualClear"></div>
+	</div>
+</div></div>
+<div id="column-one">
+	<div id="p-cactions" class="portlet">
+		<h5>表示</h5>
+		<div class="pBody">
+			<ul>
+				 <li id="ca-nstab-main" class="selected"><a href="../../../BH12.12/UT_Prot/PLBSP_SPARQL_snipet.html" title="本文を表示 [c]" accesskey="c">ページ</a></li>
+				 <li id="ca-talk" class="new"><a href="http://wiki.lifesciencedb.jp/mw/index.php?title=%E3%83%8E%E3%83%BC%E3%83%88:BH12.12/UT_Prot/PLBSP_SPARQL_snipet&amp;action=edit&amp;redlink=1" title="記事についての議論 [t]" accesskey="t">議論</a></li>
+				 <li id="ca-viewsource"><a href="../../../index.php@title=BH12.12%252FUT_Prot%252FPLBSP_SPARQL_snipet&amp;action=edit.html" title="このページは保護されています。&#10;ページのソースを閲覧できます。 [e]" accesskey="e">ソースを表示</a></li>
+				 <li id="ca-history"><a href="../../../index.php@title=BH12.12%252FUT_Prot%252FPLBSP_SPARQL_snipet&amp;action=history.html" title="このページの過去の版 [h]" accesskey="h">履歴</a></li>
+			</ul>
+		</div>
+	</div>
+	<div class="portlet" id="p-personal">
+		<h5>個人用ツール</h5>
+		<div class="pBody">
+			<ul>
+				<li id="pt-anonuserpage"><a href="http://wiki.lifesciencedb.jp/mw/%E5%88%A9%E7%94%A8%E8%80%85:172.18.8.51" title="自分が編集しているIPアドレスの利用者ページ [.]" accesskey="." class="new">172.18.8.51</a></li>
+				<li id="pt-anontalk"><a href="http://wiki.lifesciencedb.jp/mw/%E5%88%A9%E7%94%A8%E8%80%85%E2%80%90%E4%BC%9A%E8%A9%B1:172.18.8.51" title="このIPアドレスからなされた編集についての議論 [n]" accesskey="n" class="new">このIPアドレスのトーク</a></li>
+				<li id="pt-anonlogin"><a href="../../../index.php@title=特別%253Aログイン&amp;returnto=BH12.12%252FUT_Prot%252FPLBSP_SPARQL_snipet.html" title="ログインすることが推奨されます。ただし、必須ではありません。 [o]" accesskey="o">ログイン</a></li>
+				<li id="pt-openidlogin"><a href="../../../index.php@title=特別%253AOpenIDログイン&amp;returnto=BH12.12%252FUT_Prot%252FPLBSP_SPARQL_snipet.html">OpenIDでログイン</a></li>
+			</ul>
+		</div>
+	</div>
+	<div class="portlet" id="p-logo">
+		<a style="background-image: url(http://wiki.lifesciencedb.jp/mw/images/togowiki-logo.png);" href="../../../index.html" title="メインページに移動"></a>
+	</div>
+	<script type="text/javascript"> if (window.isMSIE55) fixalpha(); </script>
+	<div class='generated-sidebar portlet' id='p-navigation'>
+		<h5>案内</h5>
+		<div class='pBody'>
+			<ul>
+				<li id="n-mainpage-description"><a href="../../../index.html" title="メインページに移動する [z]" accesskey="z">メインページ</a></li>
+				<li id="n-portal"><a href="http://wiki.lifesciencedb.jp/mw/TogoWiki:%E3%82%B3%E3%83%9F%E3%83%A5%E3%83%8B%E3%83%86%E3%82%A3%E3%83%BB%E3%83%9D%E3%83%BC%E3%82%BF%E3%83%AB" title="このプロジェクトについて、できること、情報を入手する場所">コミュニティ・ポータル</a></li>
+				<li id="n-currentevents"><a href="http://wiki.lifesciencedb.jp/mw/TogoWiki:%E6%9C%80%E8%BF%91%E3%81%AE%E5%87%BA%E6%9D%A5%E4%BA%8B" title="最近の出来事について予備知識を得る">最近の出来事</a></li>
+				<li id="n-recentchanges"><a href="http://wiki.lifesciencedb.jp/mw/%E7%89%B9%E5%88%A5:%E6%9C%80%E8%BF%91%E3%81%AE%E6%9B%B4%E6%96%B0" title="ウィキにおける最近の更新の一覧 [r]" accesskey="r">最近の更新</a></li>
+				<li id="n-randompage"><a href="http://wiki.lifesciencedb.jp/mw/%E7%89%B9%E5%88%A5:%E3%81%8A%E3%81%BE%E3%81%8B%E3%81%9B%E8%A1%A8%E7%A4%BA" title="無作為に抽出されたページの読み込み [x]" accesskey="x">おまかせ表示</a></li>
+				<li id="n-help"><a href="http://wiki.lifesciencedb.jp/mw/Help:%E7%9B%AE%E6%AC%A1" title="情報を得る場所">ヘルプ</a></li>
+			</ul>
+		</div>
+	</div>
+	<div id="p-search" class="portlet">
+		<h5><label for="searchInput">検索</label></h5>
+		<div id="searchBody" class="pBody">
+			<form action="http://wiki.lifesciencedb.jp/mw/index.php" id="searchform">
+				<input type='hidden' name="title" value="特別:検索"/>
+				<input id="searchInput" title="TogoWiki内を検索" accesskey="f" type="search" name="search" />
+				<input type='submit' name="go" class="searchButton" id="searchGoButton"	value="表示" title="厳密に一致する名前のページが存在すれば、そのページへ移動します" />&nbsp;
+				<input type='submit' name="fulltext" class="searchButton" id="mw-searchButton" value="検索" title="入力された文字列が含まれるページを検索します" />
+			</form>
+		</div>
+	</div>
+	<div class="portlet" id="p-tb">
+		<h5>ツールボックス</h5>
+		<div class="pBody">
+			<ul>
+				<li id="t-whatlinkshere"><a href="../../../特別%253Aリンク元/BH12.12/UT_Prot/PLBSP_SPARQL_snipet.html" title="ここにリンクしている全ウィキのページの一覧 [j]" accesskey="j">リンク元</a></li>
+				<li id="t-recentchangeslinked"><a href="../../../特別%253A関連ページの更新状況/BH12.12/UT_Prot/PLBSP_SPARQL_snipet.html" title="このページからリンクしているページの最近の更新 [k]" accesskey="k">関連ページの更新状況</a></li>
+<li id="t-specialpages"><a href="http://wiki.lifesciencedb.jp/mw/%E7%89%B9%E5%88%A5:%E7%89%B9%E5%88%A5%E3%83%9A%E3%83%BC%E3%82%B8%E4%B8%80%E8%A6%A7" title="特別ページの一覧 [q]" accesskey="q">特別ページ</a></li>
+				<li id="t-print"><a href="../../../index.php@title=BH12.12%252FUT_Prot%252FPLBSP_SPARQL_snipet&amp;printable=yes.html" rel="alternate" title="このページの印刷用ページ [p]" accesskey="p">印刷用バージョン</a></li>				<li id="t-permalink"><a href="../../../index.php@title=BH12.12%252FUT_Prot%252FPLBSP_SPARQL_snipet&amp;oldid=4559.html" title="ページのこの版への固定リンク">この版への固定リンク</a></li>			</ul>
+		</div>
+	</div>
+</div><!-- end of the left (by default at least) column -->
+<div class="visualClear"></div>
+<div id="footer">
+	<div id="f-poweredbyico"><a href="http://www.mediawiki.org/"><img src="http://wiki.lifesciencedb.jp/mw/skins/common/images/poweredby_mediawiki_88x31.png" height="31" width="88" alt="Powered by MediaWiki" /></a></div>
+	<div id="f-copyrightico"><a href="http://creativecommons.org/licenses/by/3.0/"><img src="http://i.creativecommons.org/l/by/3.0/88x31.png" alt="Attribution 3.0 Unported" width="88" height="31" /></a></div>
+	<ul id="f-list">
+		<li id="lastmod"> このページの最終更新は 2012年12月21日 (金) 18:51 に行われました。</li>
+		<li id="viewcount">このページは6,252回アクセスされました。</li>
+		<li id="copyright">内容は<a href="http://creativecommons.org/licenses/by/3.0/" class="external ">Attribution 3.0 Unported</a>のライセンスで利用することができます。</li>
+		<li id="privacy"><a href="http://wiki.lifesciencedb.jp/mw/TogoWiki:%E3%83%97%E3%83%A9%E3%82%A4%E3%83%90%E3%82%B7%E3%83%BC%E3%83%BB%E3%83%9D%E3%83%AA%E3%82%B7%E3%83%BC" title="TogoWiki:プライバシー・ポリシー">プライバシー・ポリシー</a></li>
+		<li id="about"><a href="http://wiki.lifesciencedb.jp/mw/TogoWiki:TogoWiki%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6" title="TogoWiki:TogoWikiについて">TogoWikiについて</a></li>
+		<li id="disclaimer"><a href="http://wiki.lifesciencedb.jp/mw/TogoWiki:%E5%85%8D%E8%B2%AC%E4%BA%8B%E9%A0%85" title="TogoWiki:免責事項">免責事項</a></li>
+	</ul>
+</div>
+</div>
+
+<script>if (window.runOnloadHook) runOnloadHook();</script>
+<!-- Served in 0.501 secs. --></body></html>

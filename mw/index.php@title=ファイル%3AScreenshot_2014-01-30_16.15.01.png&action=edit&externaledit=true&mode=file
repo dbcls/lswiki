@@ -1,0 +1,11 @@
+[Process]
+Type=Edit file
+Engine=MediaWiki
+Script=http://wiki.lifesciencedb.jp/mw/index.php
+Server=http://wiki.lifesciencedb.jp
+Path=/mw
+Special namespace=特別
+
+[File]
+Extension=png
+URL=http://wiki.lifesciencedb.jp/mw/images/e/e2/Screenshot_2014-01-30_16.15.01.png

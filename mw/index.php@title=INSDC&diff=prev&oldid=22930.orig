@@ -1,0 +1,317 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html lang="ja" dir="ltr">
+<head>
+<title>INSDC - TogoWiki</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta name="generator" content="MediaWiki 1.16.3" />
+<meta name="robots" content="noindex,nofollow" />
+<link rel="shortcut icon" href="/favicon.ico" />
+<link rel="search" type="application/opensearchdescription+xml" href="/mw/opensearch_desc.php" title="TogoWiki (ja)" />
+<link title="Creative Commons" type="application/rdf+xml" href="/mw/index.php?title=INSDC&amp;action=creativecommons" rel="meta" />
+<link rel="copyright" href="http://creativecommons.org/licenses/by/3.0/" />
+<link rel="alternate" type="application/atom+xml" title="TogoWikiのAtomフィード" href="/mw/index.php?title=%E7%89%B9%E5%88%A5:%E6%9C%80%E8%BF%91%E3%81%AE%E6%9B%B4%E6%96%B0&amp;feed=atom" />
+<link rel="stylesheet" href="/mw/skins/common/diff.css?270" />
+<link rel="stylesheet" href="/mw/skins/common/shared.css?270" media="screen" />
+<link rel="stylesheet" href="/mw/skins/common/commonPrint.css?270" media="print" />
+<link rel="stylesheet" href="/mw/skins/monobook/main.css?270" media="screen" />
+<!--[if lt IE 5.5000]><link rel="stylesheet" href="/mw/skins/monobook/IE50Fixes.css?270" media="screen" /><![endif]-->
+<!--[if IE 5.5000]><link rel="stylesheet" href="/mw/skins/monobook/IE55Fixes.css?270" media="screen" /><![endif]-->
+<!--[if IE 6]><link rel="stylesheet" href="/mw/skins/monobook/IE60Fixes.css?270" media="screen" /><![endif]-->
+<!--[if IE 7]><link rel="stylesheet" href="/mw/skins/monobook/IE70Fixes.css?270" media="screen" /><![endif]-->
+<link rel="stylesheet" href="/mw/index.php?title=MediaWiki:Common.css&amp;usemsgcache=yes&amp;ctype=text%2Fcss&amp;smaxage=18000&amp;action=raw&amp;maxage=18000" />
+<link rel="stylesheet" href="/mw/index.php?title=MediaWiki:Print.css&amp;usemsgcache=yes&amp;ctype=text%2Fcss&amp;smaxage=18000&amp;action=raw&amp;maxage=18000" media="print" />
+<link rel="stylesheet" href="/mw/index.php?title=MediaWiki:Monobook.css&amp;usemsgcache=yes&amp;ctype=text%2Fcss&amp;smaxage=18000&amp;action=raw&amp;maxage=18000" />
+<link rel="stylesheet" href="/mw/index.php?title=-&amp;action=raw&amp;maxage=18000&amp;gen=css" />
+<script>
+var skin="monobook",
+stylepath="/mw/skins",
+wgUrlProtocols="http\\:\\/\\/|https\\:\\/\\/|ftp\\:\\/\\/|irc\\:\\/\\/|gopher\\:\\/\\/|telnet\\:\\/\\/|nntp\\:\\/\\/|worldwind\\:\\/\\/|mailto\\:|news\\:|svn\\:\\/\\/",
+wgArticlePath="/mw/$1",
+wgScriptPath="/mw",
+wgScriptExtension=".php",
+wgScript="/mw/index.php",
+wgVariantArticlePath=false,
+wgActionPaths={},
+wgServer="http://wiki.lifesciencedb.jp",
+wgCanonicalNamespace="",
+wgCanonicalSpecialPageName=false,
+wgNamespaceNumber=0,
+wgPageName="INSDC",
+wgTitle="INSDC",
+wgAction="view",
+wgArticleId=832,
+wgIsArticle=true,
+wgUserName=null,
+wgUserGroups=null,
+wgUserLanguage="ja",
+wgContentLanguage="ja",
+wgBreakFrames=false,
+wgCurRevisionId=22930,
+wgVersion="1.16.3",
+wgEnableAPI=true,
+wgEnableWriteAPI=true,
+wgSeparatorTransformTable=["", ""],
+wgDigitTransformTable=["", ""],
+wgMainPageTitle="メインページ",
+wgFormattedNamespaces={"-2": "メディア", "-1": "特別", "0": "", "1": "ノート", "2": "利用者", "3": "利用者‐会話", "4": "TogoWiki", "5": "TogoWiki‐ノート", "6": "ファイル", "7": "ファイル‐ノート", "8": "MediaWiki", "9": "MediaWiki‐ノート", "10": "Template", "11": "Template‐ノート", "12": "Help", "13": "Help‐ノート", "14": "Category", "15": "Category‐ノート"},
+wgNamespaceIds={"メディア": -2, "特別": -1, "": 0, "ノート": 1, "利用者": 2, "利用者‐会話": 3, "togowiki": 4, "togowiki‐ノート": 5, "ファイル": 6, "ファイル‐ノート": 7, "mediawiki": 8, "mediawiki‐ノート": 9, "template": 10, "template‐ノート": 11, "help": 12, "help‐ノート": 13, "category": 14, "category‐ノート": 15, "画像": 6, "画像‐ノート": 7, "image": 6, "image_talk": 7},
+wgSiteName="TogoWiki",
+wgCategories=[],
+wgRestrictionEdit=[],
+wgRestrictionMove=[];
+</script><script src="/mw/skins/common/wikibits.js?270"></script>
+<script type="text/javascript" src="/mw/skins/common/diff.js?270"></script>
+<script src="/mw/skins/common/ajax.js?270"></script>
+<script src="/mw/index.php?title=-&amp;action=raw&amp;gen=js&amp;useskin=monobook&amp;270"></script>
+
+		<style type='text/css'>
+		li#pt-openidlogin {
+		  background: url(/mw/extensions/OpenID/skin/icons/openid-inputicon.png) top left no-repeat;
+		  padding-left: 20px;
+		  text-transform: none;
+		}
+		</style>
+</head>
+<body class="mediawiki ltr ns-0 ns-subject page-INSDC skin-monobook">
+<div id="globalWrapper">
+<div id="column-content"><div id="content" >
+	<a id="top"></a>
+	
+	<h1 id="firstHeading" class="firstHeading">INSDC</h1>
+	<div id="bodyContent">
+		<h3 id="siteSub">提供：TogoWiki</h3>
+		<div id="contentSub">（版間での差分）</div>
+		<div id="jump-to-nav">移動： <a href="#column-one">案内</a>, <a href="#searchInput">検索</a></div>
+		<!-- start content -->
+<table class='diff'>
+			<col class='diff-marker' />
+			<col class='diff-content' />
+			<col class='diff-marker' />
+			<col class='diff-content' />
+		<tr valign='top'>
+		<td colspan='2' class='diff-otitle'><div id="mw-diff-otitle1"><strong><a href='/mw/index.php?title=INSDC&amp;oldid=22522'>2017年8月31日 (木) 09:04時点における版</a> (<a href='/mw/index.php?title=INSDC&amp;action=edit&amp;oldid=22522'>ソースを表示</a>)</strong></div><div id="mw-diff-otitle2"><a href="/mw/%E5%88%A9%E7%94%A8%E8%80%85:Tazro_inutano_ohta" title="利用者:Tazro inutano ohta" class="mw-userlink">Tazro inutano ohta</a>  <span class="mw-usertoollinks">(<a href="/mw/index.php?title=%E5%88%A9%E7%94%A8%E8%80%85%E2%80%90%E4%BC%9A%E8%A9%B1:Tazro_inutano_ohta&amp;action=edit&amp;redlink=1" class="new" title="利用者‐会話:Tazro inutano ohta（存在しないページ）">トーク</a> | <a href="/mw/%E7%89%B9%E5%88%A5:%E6%8A%95%E7%A8%BF%E8%A8%98%E9%8C%B2/Tazro_inutano_ohta" title="特別:投稿記録/Tazro inutano ohta">投稿記録</a>)</span></div><div id="mw-diff-otitle3"></div><div id="mw-diff-otitle4"><a href="/mw/index.php?title=INSDC&amp;diff=prev&amp;oldid=22522" title="INSDC" id="differences-prevlink">←古い編集</a></div></td>
+		<td colspan='2' class='diff-ntitle'><div id="mw-diff-ntitle1"><strong><a href='/mw/index.php?title=INSDC&amp;oldid=22930'>2017年10月24日 (火) 09:20時点における最新版</a> (<a href='/mw/index.php?title=INSDC&amp;action=edit'>ソースを表示</a>)</strong></div><div id="mw-diff-ntitle2"><a href="/mw/%E5%88%A9%E7%94%A8%E8%80%85:Tazro_inutano_ohta" title="利用者:Tazro inutano ohta" class="mw-userlink">Tazro inutano ohta</a>  <span class="mw-usertoollinks">(<a href="/mw/index.php?title=%E5%88%A9%E7%94%A8%E8%80%85%E2%80%90%E4%BC%9A%E8%A9%B1:Tazro_inutano_ohta&amp;action=edit&amp;redlink=1" class="new" title="利用者‐会話:Tazro inutano ohta（存在しないページ）">トーク</a> | <a href="/mw/%E7%89%B9%E5%88%A5:%E6%8A%95%E7%A8%BF%E8%A8%98%E9%8C%B2/Tazro_inutano_ohta" title="特別:投稿記録/Tazro inutano ohta">投稿記録</a>)</span> </div><div id="mw-diff-ntitle3"></div><div id="mw-diff-ntitle4">&nbsp;</div></td>
+		</tr><tr><td colspan="2" class="diff-lineno">10行：</td>
+<td colspan="2" class="diff-lineno">10行：</td></tr>
+<tr><td class='diff-marker'> </td><td class='diff-context'><div>* 仲里/おおた (DBCLS/DDBJ DRA検索)</div></td><td class='diff-marker'> </td><td class='diff-context'><div>* 仲里/おおた (DBCLS/DDBJ DRA検索)</div></td></tr>
+<tr><td class='diff-marker'> </td><td class='diff-context'><div>* おおた (ChIP-Atlas)</div></td><td class='diff-marker'> </td><td class='diff-context'><div>* おおた (ChIP-Atlas)</div></td></tr>
+<tr><td colspan="2">&nbsp;</td><td class='diff-marker'>+</td><td class='diff-addedline'><div><ins class="diffchange"></ins></div></td></tr>
+<tr><td colspan="2">&nbsp;</td><td class='diff-marker'>+</td><td class='diff-addedline'><div><ins class="diffchange">== SPARQLthon 61 == </ins></div></td></tr>
+<tr><td colspan="2">&nbsp;</td><td class='diff-marker'>+</td><td class='diff-addedline'><div><ins class="diffchange"></ins></div></td></tr>
+<tr><td colspan="2">&nbsp;</td><td class='diff-marker'>+</td><td class='diff-addedline'><div><ins class="diffchange">* BioProject の変換スクリプトを修正していた</ins></div></td></tr>
+<tr><td colspan="2">&nbsp;</td><td class='diff-marker'>+</td><td class='diff-addedline'><div><ins class="diffchange">** https://github.com/inutano/ld-sra</ins></div></td></tr>
+<tr><td colspan="2">&nbsp;</td><td class='diff-marker'>+</td><td class='diff-addedline'><div><ins class="diffchange">** BioProject のデータ構造が邪悪すぎて心が折れそう</ins></div></td></tr>
+<tr><td colspan="2">&nbsp;</td><td class='diff-marker'>+</td><td class='diff-addedline'><div><ins class="diffchange">*** そもそもなんで Project のデータベースなのに Sample organisms の情報がやたら入っているのか</ins></div></td></tr>
+<tr><td colspan="2">&nbsp;</td><td class='diff-marker'>+</td><td class='diff-addedline'><div><ins class="diffchange">*** それは BioSamples に書くべき情報ではないのか</ins></div></td></tr>
+<tr><td colspan="2">&nbsp;</td><td class='diff-marker'>+</td><td class='diff-addedline'><div><ins class="diffchange">** 例外処理を死ぬほど書くか、すっぱり落とすか悩んでいたが、すっぱり落とすことにした</ins></div></td></tr>
+<tr><td colspan="2">&nbsp;</td><td class='diff-marker'>+</td><td class='diff-addedline'><div><ins class="diffchange"></ins></div></td></tr>
+<tr><td colspan="2">&nbsp;</td><td class='diff-marker'>+</td><td class='diff-addedline'><div><ins class="diffchange">== BioHackathon2017 ==</ins></div></td></tr>
+<tr><td colspan="2">&nbsp;</td><td class='diff-marker'>+</td><td class='diff-addedline'><div><ins class="diffchange"></ins></div></td></tr>
+<tr><td colspan="2">&nbsp;</td><td class='diff-marker'>+</td><td class='diff-addedline'><div><ins class="diffchange">* Thomas と一緒に BioSamples の RDF 化の作業をしました</ins></div></td></tr>
+<tr><td colspan="2">&nbsp;</td><td class='diff-marker'>+</td><td class='diff-addedline'><div><ins class="diffchange">** 現行の EBI BioSamples RDF のモデルは古く、使いにくいと思われているので、変更する</ins></div></td></tr>
+<tr><td colspan="2">&nbsp;</td><td class='diff-marker'>+</td><td class='diff-addedline'><div><ins class="diffchange">** EBI BioSamples API が よしなに構造を綺麗にした JSON を返すので、その構造を元に turtle をつくる script を書いた: github.com/lltommy/REST_to_RDF/</ins></div></td></tr>
+<tr><td colspan="2">&nbsp;</td><td class='diff-marker'>+</td><td class='diff-addedline'><div><ins class="diffchange">*** GWAS の DB でも同じく API -&gt; JSON -&gt; RDF にしたいとのこと</ins></div></td></tr>
+<tr><td colspan="2">&nbsp;</td><td class='diff-marker'>+</td><td class='diff-addedline'><div><ins class="diffchange">** 一緒に RDF モデルを作った</ins></div></td></tr>
+<tr><td colspan="2">&nbsp;</td><td class='diff-marker'>+</td><td class='diff-addedline'><div><ins class="diffchange">*** 特に空白ノードを駆使して key-value の情報を収めるためのデータ構造を設計した</ins></div></td></tr>
+<tr><td colspan="2">&nbsp;</td><td class='diff-marker'>+</td><td class='diff-addedline'><div><ins class="diffchange">** あとは足りない predicate を補うことで ready to deploy な RDF データができる予定</ins></div></td></tr>
+<tr><td colspan="2">&nbsp;</td><td class='diff-marker'>+</td><td class='diff-addedline'><div><ins class="diffchange"></ins></div></td></tr>
+<tr><td colspan="2">&nbsp;</td><td class='diff-marker'>+</td><td class='diff-addedline'><div><ins class="diffchange">* BioProject/SRA については EBI は今のところ何もしない予定なのでこちらでやる</ins></div></td></tr>
+<tr><td colspan="2">&nbsp;</td><td class='diff-marker'>+</td><td class='diff-addedline'><div><ins class="diffchange"></ins></div></td></tr>
+<tr><td colspan="2">&nbsp;</td><td class='diff-marker'>+</td><td class='diff-addedline'><div><ins class="diffchange">== SPARQLthon59 ==</ins></div></td></tr>
+<tr><td colspan="2">&nbsp;</td><td class='diff-marker'>+</td><td class='diff-addedline'><div><ins class="diffchange"></ins></div></td></tr>
+<tr><td colspan="2">&nbsp;</td><td class='diff-marker'>+</td><td class='diff-addedline'><div><ins class="diffchange">以下のような議論をしました。</ins></div></td></tr>
+<tr><td class='diff-marker'> </td><td class='diff-context'></td><td class='diff-marker'> </td><td class='diff-context'></td></tr>
+<tr><td class='diff-marker'> </td><td class='diff-context'><div>=== 対象DB ===</div></td><td class='diff-marker'> </td><td class='diff-context'><div>=== 対象DB ===</div></td></tr>
+</table><hr /><h2>2017年10月24日 (火) 09:20時点における最新版</h2>
+<p>International Nucleotide Sequence Database Collaboration (INSDC) <a href="http://www.insdc.org" class="external free" rel="nofollow">http://www.insdc.org</a> で扱うデータベースについてまとめています。
+</p>
+<table id="toc" class="toc"><tr><td><div id="toctitle"><h2>目次</h2></div>
+<ul>
+<li class="toclevel-1 tocsection-1"><a href="#RDFization"><span class="tocnumber">1</span> <span class="toctext">RDFization</span></a>
+<ul>
+<li class="toclevel-2 tocsection-2"><a href="#.E8.AA.B0"><span class="tocnumber">1.1</span> <span class="toctext">誰</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-3"><a href="#SPARQLthon_61"><span class="tocnumber">2</span> <span class="toctext">SPARQLthon 61</span></a></li>
+<li class="toclevel-1 tocsection-4"><a href="#BioHackathon2017"><span class="tocnumber">3</span> <span class="toctext">BioHackathon2017</span></a></li>
+<li class="toclevel-1 tocsection-5"><a href="#SPARQLthon59"><span class="tocnumber">4</span> <span class="toctext">SPARQLthon59</span></a>
+<ul>
+<li class="toclevel-2 tocsection-6"><a href="#.E5.AF.BE.E8.B1.A1DB"><span class="tocnumber">4.1</span> <span class="toctext">対象DB</span></a></li>
+<li class="toclevel-2 tocsection-7"><a href="#.E3.83.87.E3.83.BC.E3.82.BF.E3.83.A2.E3.83.87.E3.83.AB"><span class="tocnumber">4.2</span> <span class="toctext">データモデル</span></a></li>
+</ul>
+</li>
+</ul>
+</td></tr></table><script>if (window.showTocToggle) { var tocShowText = "表示"; var tocHideText = "非表示"; showTocToggle(); } </script>
+<h2> <span class="mw-headline" id="RDFization"> RDFization </span></h2>
+<h3> <span class="mw-headline" id=".E8.AA.B0"> 誰 </span></h3>
+<ul><li> 藤澤 (DDBJ validator)
+</li><li> 山田 (糖鎖DB)
+</li><li> 小林 (理研metaDB)
+</li><li> 仲里/おおた (DBCLS/DDBJ DRA検索)
+</li><li> おおた (ChIP-Atlas)
+</li></ul>
+<h2> <span class="mw-headline" id="SPARQLthon_61"> SPARQLthon 61 </span></h2>
+<ul><li> BioProject の変換スクリプトを修正していた
+<ul><li> <a href="https://github.com/inutano/ld-sra" class="external free" rel="nofollow">https://github.com/inutano/ld-sra</a>
+</li><li> BioProject のデータ構造が邪悪すぎて心が折れそう
+<ul><li> そもそもなんで Project のデータベースなのに Sample organisms の情報がやたら入っているのか
+</li><li> それは BioSamples に書くべき情報ではないのか
+</li></ul>
+</li><li> 例外処理を死ぬほど書くか、すっぱり落とすか悩んでいたが、すっぱり落とすことにした
+</li></ul>
+</li></ul>
+<h2> <span class="mw-headline" id="BioHackathon2017"> BioHackathon2017 </span></h2>
+<ul><li> Thomas と一緒に BioSamples の RDF 化の作業をしました
+<ul><li> 現行の EBI BioSamples RDF のモデルは古く、使いにくいと思われているので、変更する
+</li><li> EBI BioSamples API が よしなに構造を綺麗にした JSON を返すので、その構造を元に turtle をつくる script を書いた: github.com/lltommy/REST_to_RDF/
+<ul><li> GWAS の DB でも同じく API -&gt; JSON -&gt; RDF にしたいとのこと
+</li></ul>
+</li><li> 一緒に RDF モデルを作った
+<ul><li> 特に空白ノードを駆使して key-value の情報を収めるためのデータ構造を設計した
+</li></ul>
+</li><li> あとは足りない predicate を補うことで ready to deploy な RDF データができる予定
+</li></ul>
+</li></ul>
+<ul><li> BioProject/SRA については EBI は今のところ何もしない予定なのでこちらでやる
+</li></ul>
+<h2> <span class="mw-headline" id="SPARQLthon59"> SPARQLthon59 </span></h2>
+<p>以下のような議論をしました。
+</p>
+<h3> <span class="mw-headline" id=".E5.AF.BE.E8.B1.A1DB"> 対象DB </span></h3>
+<p>2017/08 以下のデータベースをRDF化する必要が生じています。
+</p>
+<ul><li> BioProject
+</li><li> BioSample
+</li><li> SRA metadata
+<ul><li> Submission
+</li><li> Project (deprecated, used as alias of BioProject)
+</li><li> Sample (deprecated, used as alias of BioSample)
+</li><li> Experiment
+</li><li> Run
+</li><li> Analysis
+</li></ul>
+</li></ul>
+<p>このうち、BioSample は EBI が頑張っています。昔は、Expression Atlas に紐づく BioSample だけでしたが、今は NCBI/DDBJ から交換されるものもRDF化されています。さらに、Experimental Factor Ontology (EFO) を使ってキュレーションもしているそうです。なので、BioSample については彼らが作ってくれた RDF を使うことにして、我々はRDFを作らない。BioProject/SRA については、彼らの直近のマイルストーンには含まれないとのことなので、こちらでRDFを作ることにしました。
+</p><p>EBI BioSample をそのまま使うにあたっての問題/懸念もある。
+</p>
+<ul><li> NCBI/DDBJ/EBI の exchange に乗らないもの (INSDCの範囲外) は RDF化されない
+<ul><li> NCBI独自の BioSample がこれに該当する
+<ul><li> ATCC の culture collection とか
+</li></ul>
+</li><li> DDBJ独自の BioSample というものも将来的にできる可能性はある
+</li><li> 誰がどうやって作る/維持する？
+</li></ul>
+</li><li> EBI BioSample は DDBJ/NCBI BioSample と微妙にデータモデルが違う
+<ul><li> EBI BioSample は SampleGroup という概念があるがDDBJ/NCBIにはない
+<ul><li> RDFデータの流用については影響はなさそうなので今は気にしない
+</li></ul>
+</li></ul>
+</li></ul>
+<p>これらについては困ったときに困った人がなんとかすることにして今は気にしない。
+</p>
+<h3> <span class="mw-headline" id=".E3.83.87.E3.83.BC.E3.82.BF.E3.83.A2.E3.83.87.E3.83.AB"> データモデル </span></h3>
+<p>EBI BioSample RDF は幾度かのモデル変更を経て(?)今は下のような感じになっている。
+</p>
+<pre>&lt;<a href="http://rdf.ebi.ac.uk/resource/biosamples/sample/SAMD00035437" class="external free" rel="nofollow">http://rdf.ebi.ac.uk/resource/biosamples/sample/SAMD00035437</a>&gt; a &lt;<a href="http://rdf.ebi.ac.uk/terms/biosd/Sample" class="external free" rel="nofollow">http://rdf.ebi.ac.uk/terms/biosd/Sample</a>&gt;;
+  &lt;<a href="http://rdf.ebi.ac.uk/terms/biosd/has-sample-attribute" class="external free" rel="nofollow">http://rdf.ebi.ac.uk/terms/biosd/has-sample-attribute</a>&gt; &lt;<a href="http://rdf.ebi.ac.uk/resource/biosamples/exp-prop-val/GNC-SAMD00035437#236f55982fd53526660a0b41fbba22dc" class="external free" rel="nofollow">http://rdf.ebi.ac.uk/resource/biosamples/exp-prop-val/GNC-SAMD00035437#236f55982fd53526660a0b41fbba22dc</a>&gt; .
+&lt;<a href="http://rdf.ebi.ac.uk/resource/biosamples/exp-prop-val/GNC-SAMD00035437#236f55982fd53526660a0b41fbba22dc" class="external free" rel="nofollow">http://rdf.ebi.ac.uk/resource/biosamples/exp-prop-val/GNC-SAMD00035437#236f55982fd53526660a0b41fbba22dc</a>&gt; rdfs:label "Mus musculus";
+  a &lt;<a href="http://purl.obolibrary.org/obo/NCBITaxon_10090" class="external free" rel="nofollow">http://purl.obolibrary.org/obo/NCBITaxon_10090</a>&gt; .
+</pre>
+<p>あらゆる属性について、biosample エントリが has-sample-attribute で namedIndividual を持っていて、その下にラベルでオリジナルのメタデータ記述、type指定でアノテーションをつけている。BioSampleは登録者がオリジナルのkeyを指定できるので、keyごとにpredicateを作るとかやらないでいいようになっている。さらに、これを拡張したい(キュレーションしたい)ときは、namedIndividual に type を追加することで実現できる (と思う)。
+</p><p>問題は、
+</p>
+<ul><li> value はラベルに残っとるけど key どこいったんや -&gt; 要調査
+</li><li> named individual の uuid これ管理どうしてんの、アップデートとかしても維持されるの？
+</li><li> identifiers.org の ID 使ってくれよ
+<ul><li> id.org/biosample はちゃんとあるのでRDFの中にもこれ入れてほしい
+</li><li> taxonomy も obo の class 指定だけでなくて id.org の URI にどげんかして繋げてほしい
+</li></ul>
+</li><li> EBI に submit された BioSample 以外はキュレーションしてない？？
+</li></ul>
+<p>このあたりを EBI RDF チームに聞いて/お願いしてみます。
+</p><p>SRA/BioProject は、オリジナルのメタデータが XML で公開されているので、これをまず json-ld に変換する系をつくります (おおた)。モデルは BioSample に従って、オントロジーは既に理研小林さんが作られたものをなるべく流用します。できたRDFはRDFポータルに突っ込んで、ドッグラン大石さんに開発してもらっている SRA/BioSample/BioProject の検索エンジンに組み込んで、検索結果が json-ld で返ってくるようにする (予定)。
+</p><div class="printfooter">
+「<a href="http://wiki.lifesciencedb.jp/mw/INSDC">http://wiki.lifesciencedb.jp/mw/INSDC</a>」より作成</div>
+		<div id='catlinks' class='catlinks catlinks-allhidden'></div>		<!-- end content -->
+				<div class="visualClear"></div>
+	</div>
+</div></div>
+<div id="column-one">
+	<div id="p-cactions" class="portlet">
+		<h5>表示</h5>
+		<div class="pBody">
+			<ul>
+				 <li id="ca-nstab-main" class="selected"><a href="/mw/INSDC" title="本文を表示 [c]" accesskey="c">ページ</a></li>
+				 <li id="ca-talk" class="new"><a href="/mw/index.php?title=%E3%83%8E%E3%83%BC%E3%83%88:INSDC&amp;action=edit&amp;redlink=1" title="記事についての議論 [t]" accesskey="t">議論</a></li>
+				 <li id="ca-viewsource"><a href="/mw/index.php?title=INSDC&amp;action=edit&amp;oldid=22930" title="このページは保護されています。&#10;ページのソースを閲覧できます。 [e]" accesskey="e">ソースを表示</a></li>
+				 <li id="ca-history"><a href="/mw/index.php?title=INSDC&amp;action=history" title="このページの過去の版 [h]" accesskey="h">履歴</a></li>
+			</ul>
+		</div>
+	</div>
+	<div class="portlet" id="p-personal">
+		<h5>個人用ツール</h5>
+		<div class="pBody">
+			<ul>
+				<li id="pt-anonuserpage"><a href="/mw/%E5%88%A9%E7%94%A8%E8%80%85:172.18.8.51" title="自分が編集しているIPアドレスの利用者ページ [.]" accesskey="." class="new">172.18.8.51</a></li>
+				<li id="pt-anontalk"><a href="/mw/%E5%88%A9%E7%94%A8%E8%80%85%E2%80%90%E4%BC%9A%E8%A9%B1:172.18.8.51" title="このIPアドレスからなされた編集についての議論 [n]" accesskey="n" class="new">このIPアドレスのトーク</a></li>
+				<li id="pt-anonlogin"><a href="/mw/index.php?title=%E7%89%B9%E5%88%A5:%E3%83%AD%E3%82%B0%E3%82%A4%E3%83%B3&amp;returnto=INSDC&amp;returntoquery=diff%3Dprev%26oldid%3D22930" title="ログインすることが推奨されます。ただし、必須ではありません。 [o]" accesskey="o">ログイン</a></li>
+				<li id="pt-openidlogin"><a href="/mw/index.php?title=%E7%89%B9%E5%88%A5:OpenID%E3%83%AD%E3%82%B0%E3%82%A4%E3%83%B3&amp;returnto=INSDC">OpenIDでログイン</a></li>
+			</ul>
+		</div>
+	</div>
+	<div class="portlet" id="p-logo">
+		<a style="background-image: url(/mw/images/togowiki-logo.png);" href="/mw/%E3%83%A1%E3%82%A4%E3%83%B3%E3%83%9A%E3%83%BC%E3%82%B8" title="メインページに移動"></a>
+	</div>
+	<script type="text/javascript"> if (window.isMSIE55) fixalpha(); </script>
+	<div class='generated-sidebar portlet' id='p-navigation'>
+		<h5>案内</h5>
+		<div class='pBody'>
+			<ul>
+				<li id="n-mainpage-description"><a href="/mw/%E3%83%A1%E3%82%A4%E3%83%B3%E3%83%9A%E3%83%BC%E3%82%B8" title="メインページに移動する [z]" accesskey="z">メインページ</a></li>
+				<li id="n-portal"><a href="/mw/TogoWiki:%E3%82%B3%E3%83%9F%E3%83%A5%E3%83%8B%E3%83%86%E3%82%A3%E3%83%BB%E3%83%9D%E3%83%BC%E3%82%BF%E3%83%AB" title="このプロジェクトについて、できること、情報を入手する場所">コミュニティ・ポータル</a></li>
+				<li id="n-currentevents"><a href="/mw/TogoWiki:%E6%9C%80%E8%BF%91%E3%81%AE%E5%87%BA%E6%9D%A5%E4%BA%8B" title="最近の出来事について予備知識を得る">最近の出来事</a></li>
+				<li id="n-recentchanges"><a href="/mw/%E7%89%B9%E5%88%A5:%E6%9C%80%E8%BF%91%E3%81%AE%E6%9B%B4%E6%96%B0" title="ウィキにおける最近の更新の一覧 [r]" accesskey="r">最近の更新</a></li>
+				<li id="n-randompage"><a href="/mw/%E7%89%B9%E5%88%A5:%E3%81%8A%E3%81%BE%E3%81%8B%E3%81%9B%E8%A1%A8%E7%A4%BA" title="無作為に抽出されたページの読み込み [x]" accesskey="x">おまかせ表示</a></li>
+				<li id="n-help"><a href="/mw/Help:%E7%9B%AE%E6%AC%A1" title="情報を得る場所">ヘルプ</a></li>
+			</ul>
+		</div>
+	</div>
+	<div id="p-search" class="portlet">
+		<h5><label for="searchInput">検索</label></h5>
+		<div id="searchBody" class="pBody">
+			<form action="/mw/index.php" id="searchform">
+				<input type='hidden' name="title" value="特別:検索"/>
+				<input id="searchInput" title="TogoWiki内を検索" accesskey="f" type="search" name="search" />
+				<input type='submit' name="go" class="searchButton" id="searchGoButton"	value="表示" title="厳密に一致する名前のページが存在すれば、そのページへ移動します" />&nbsp;
+				<input type='submit' name="fulltext" class="searchButton" id="mw-searchButton" value="検索" title="入力された文字列が含まれるページを検索します" />
+			</form>
+		</div>
+	</div>
+	<div class="portlet" id="p-tb">
+		<h5>ツールボックス</h5>
+		<div class="pBody">
+			<ul>
+				<li id="t-whatlinkshere"><a href="/mw/%E7%89%B9%E5%88%A5:%E3%83%AA%E3%83%B3%E3%82%AF%E5%85%83/INSDC" title="ここにリンクしている全ウィキのページの一覧 [j]" accesskey="j">リンク元</a></li>
+				<li id="t-recentchangeslinked"><a href="/mw/%E7%89%B9%E5%88%A5:%E9%96%A2%E9%80%A3%E3%83%9A%E3%83%BC%E3%82%B8%E3%81%AE%E6%9B%B4%E6%96%B0%E7%8A%B6%E6%B3%81/INSDC" title="このページからリンクしているページの最近の更新 [k]" accesskey="k">関連ページの更新状況</a></li>
+<li id="t-specialpages"><a href="/mw/%E7%89%B9%E5%88%A5:%E7%89%B9%E5%88%A5%E3%83%9A%E3%83%BC%E3%82%B8%E4%B8%80%E8%A6%A7" title="特別ページの一覧 [q]" accesskey="q">特別ページ</a></li>
+				<li id="t-print"><a href="/mw/index.php?title=INSDC&amp;diff=prev&amp;oldid=22930&amp;printable=yes" rel="alternate" title="このページの印刷用ページ [p]" accesskey="p">印刷用バージョン</a></li>				<li id="t-permalink"><a href="/mw/index.php?title=INSDC&amp;oldid=22930" title="ページのこの版への固定リンク">この版への固定リンク</a></li>			</ul>
+		</div>
+	</div>
+</div><!-- end of the left (by default at least) column -->
+<div class="visualClear"></div>
+<div id="footer">
+	<div id="f-poweredbyico"><a href="http://www.mediawiki.org/"><img src="/mw/skins/common/images/poweredby_mediawiki_88x31.png" height="31" width="88" alt="Powered by MediaWiki" /></a></div>
+	<div id="f-copyrightico"><a href="http://creativecommons.org/licenses/by/3.0/"><img src="http://i.creativecommons.org/l/by/3.0/88x31.png" alt="Attribution 3.0 Unported" width="88" height="31" /></a></div>
+	<ul id="f-list">
+		<li id="lastmod"> このページの最終更新は 2017年10月24日 (火) 09:20 に行われました。</li>
+		<li id="viewcount">このページは4,668回アクセスされました。</li>
+		<li id="copyright">内容は<a href="http://creativecommons.org/licenses/by/3.0/" class="external ">Attribution 3.0 Unported</a>のライセンスで利用することができます。</li>
+		<li id="privacy"><a href="/mw/TogoWiki:%E3%83%97%E3%83%A9%E3%82%A4%E3%83%90%E3%82%B7%E3%83%BC%E3%83%BB%E3%83%9D%E3%83%AA%E3%82%B7%E3%83%BC" title="TogoWiki:プライバシー・ポリシー">プライバシー・ポリシー</a></li>
+		<li id="about"><a href="/mw/TogoWiki:TogoWiki%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6" title="TogoWiki:TogoWikiについて">TogoWikiについて</a></li>
+		<li id="disclaimer"><a href="/mw/TogoWiki:%E5%85%8D%E8%B2%AC%E4%BA%8B%E9%A0%85" title="TogoWiki:免責事項">免責事項</a></li>
+	</ul>
+</div>
+</div>
+
+<script>if (window.runOnloadHook) runOnloadHook();</script>
+<!-- Served in 0.666 secs. --></body></html>

@@ -1,0 +1,317 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html lang="ja" dir="ltr">
+<head>
+<title>GenomeBentoProject - TogoWiki</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta name="generator" content="MediaWiki 1.16.3" />
+<link rel="shortcut icon" href="/favicon.ico" />
+<link rel="search" type="application/opensearchdescription+xml" href="/mw/opensearch_desc.php" title="TogoWiki (ja)" />
+<link title="Creative Commons" type="application/rdf+xml" href="/mw/index.php?title=GenomeBentoProject&amp;action=creativecommons" rel="meta" />
+<link rel="copyright" href="http://creativecommons.org/licenses/by/3.0/" />
+<link rel="alternate" type="application/atom+xml" title="TogoWikiのAtomフィード" href="/mw/index.php?title=%E7%89%B9%E5%88%A5:%E6%9C%80%E8%BF%91%E3%81%AE%E6%9B%B4%E6%96%B0&amp;feed=atom" />
+<link rel="stylesheet" href="/mw/skins/common/shared.css?270" media="screen" />
+<link rel="stylesheet" href="/mw/skins/common/commonPrint.css?270" media="print" />
+<link rel="stylesheet" href="/mw/skins/monobook/main.css?270" media="screen" />
+<!--[if lt IE 5.5000]><link rel="stylesheet" href="/mw/skins/monobook/IE50Fixes.css?270" media="screen" /><![endif]-->
+<!--[if IE 5.5000]><link rel="stylesheet" href="/mw/skins/monobook/IE55Fixes.css?270" media="screen" /><![endif]-->
+<!--[if IE 6]><link rel="stylesheet" href="/mw/skins/monobook/IE60Fixes.css?270" media="screen" /><![endif]-->
+<!--[if IE 7]><link rel="stylesheet" href="/mw/skins/monobook/IE70Fixes.css?270" media="screen" /><![endif]-->
+<link rel="stylesheet" href="/mw/index.php?title=MediaWiki:Common.css&amp;usemsgcache=yes&amp;ctype=text%2Fcss&amp;smaxage=18000&amp;action=raw&amp;maxage=18000" />
+<link rel="stylesheet" href="/mw/index.php?title=MediaWiki:Print.css&amp;usemsgcache=yes&amp;ctype=text%2Fcss&amp;smaxage=18000&amp;action=raw&amp;maxage=18000" media="print" />
+<link rel="stylesheet" href="/mw/index.php?title=MediaWiki:Monobook.css&amp;usemsgcache=yes&amp;ctype=text%2Fcss&amp;smaxage=18000&amp;action=raw&amp;maxage=18000" />
+<link rel="stylesheet" href="/mw/index.php?title=-&amp;action=raw&amp;maxage=18000&amp;gen=css" />
+<script>
+var skin="monobook",
+stylepath="/mw/skins",
+wgUrlProtocols="http\\:\\/\\/|https\\:\\/\\/|ftp\\:\\/\\/|irc\\:\\/\\/|gopher\\:\\/\\/|telnet\\:\\/\\/|nntp\\:\\/\\/|worldwind\\:\\/\\/|mailto\\:|news\\:|svn\\:\\/\\/",
+wgArticlePath="/mw/$1",
+wgScriptPath="/mw",
+wgScriptExtension=".php",
+wgScript="/mw/index.php",
+wgVariantArticlePath=false,
+wgActionPaths={},
+wgServer="http://wiki.lifesciencedb.jp",
+wgCanonicalNamespace="",
+wgCanonicalSpecialPageName=false,
+wgNamespaceNumber=0,
+wgPageName="GenomeBentoProject",
+wgTitle="GenomeBentoProject",
+wgAction="view",
+wgArticleId=721,
+wgIsArticle=true,
+wgUserName=null,
+wgUserGroups=null,
+wgUserLanguage="ja",
+wgContentLanguage="ja",
+wgBreakFrames=false,
+wgCurRevisionId=25802,
+wgVersion="1.16.3",
+wgEnableAPI=true,
+wgEnableWriteAPI=true,
+wgSeparatorTransformTable=["", ""],
+wgDigitTransformTable=["", ""],
+wgMainPageTitle="メインページ",
+wgFormattedNamespaces={"-2": "メディア", "-1": "特別", "0": "", "1": "ノート", "2": "利用者", "3": "利用者‐会話", "4": "TogoWiki", "5": "TogoWiki‐ノート", "6": "ファイル", "7": "ファイル‐ノート", "8": "MediaWiki", "9": "MediaWiki‐ノート", "10": "Template", "11": "Template‐ノート", "12": "Help", "13": "Help‐ノート", "14": "Category", "15": "Category‐ノート"},
+wgNamespaceIds={"メディア": -2, "特別": -1, "": 0, "ノート": 1, "利用者": 2, "利用者‐会話": 3, "togowiki": 4, "togowiki‐ノート": 5, "ファイル": 6, "ファイル‐ノート": 7, "mediawiki": 8, "mediawiki‐ノート": 9, "template": 10, "template‐ノート": 11, "help": 12, "help‐ノート": 13, "category": 14, "category‐ノート": 15, "画像": 6, "画像‐ノート": 7, "image": 6, "image_talk": 7},
+wgSiteName="TogoWiki",
+wgCategories=[],
+wgRestrictionEdit=[],
+wgRestrictionMove=[];
+</script><script src="/mw/skins/common/wikibits.js?270"></script>
+<script src="/mw/skins/common/ajax.js?270"></script>
+<script src="/mw/index.php?title=-&amp;action=raw&amp;gen=js&amp;useskin=monobook&amp;270"></script>
+
+		<style type='text/css'>
+		li#pt-openidlogin {
+		  background: url(/mw/extensions/OpenID/skin/icons/openid-inputicon.png) top left no-repeat;
+		  padding-left: 20px;
+		  text-transform: none;
+		}
+		</style>
+</head>
+<body class="mediawiki ltr ns-0 ns-subject page-GenomeBentoProject skin-monobook">
+<div id="globalWrapper">
+<div id="column-content"><div id="content" >
+	<a id="top"></a>
+	
+	<h1 id="firstHeading" class="firstHeading">GenomeBentoProject</h1>
+	<div id="bodyContent">
+		<h3 id="siteSub">提供：TogoWiki</h3>
+		<div id="contentSub"></div>
+		<div id="jump-to-nav">移動： <a href="#column-one">案内</a>, <a href="#searchInput">検索</a></div>
+		<!-- start content -->
+<p>2016/12/12-16 に山口で開催する国内版版バイオハッカソン <a href="/mw/BH16.12" title="BH16.12">BH16.12</a> の連動企画として、12/10-11 に山口芸術情報センターの <a href="http://www.ycam.jp/events/2016/ycam-bio-research-open-day-vol5/" class="external text" rel="nofollow">YCAMバイオ・リサーチ・オープンデイ vol.5</a> 「生物とプログラミング」において、ゲノムの決まった生物種だけを食材にした「ゲノム弁当」をもとに、プログラミングによるデータベースの利活用やゲノムの解析・改変を考える市民イベントを開催します。
+</p>
+<table id="toc" class="toc"><tr><td><div id="toctitle"><h2>目次</h2></div>
+<ul>
+<li class="toclevel-1 tocsection-1"><a href="#.E3.83.97.E3.83.AD.E3.82.B0.E3.83.A9.E3.83.9F.E3.83.B3.E3.82.B0.E3.81.AB.E3.82.88.E3.82.8B.E3.82.B2.E3.83.8E.E3.83.A0.E8.A7.A3.E6.9E.90"><span class="tocnumber">1</span> <span class="toctext">プログラミングによるゲノム解析</span></a></li>
+<li class="toclevel-1 tocsection-2"><a href="#.E3.82.B2.E3.83.8E.E3.83.A0.E3.81.9D.E3.81.AE.E3.82.82.E3.81.AE.E3.81.AE.E3.83.97.E3.83.AD.E3.82.B0.E3.83.A9.E3.83.9F.E3.83.B3.E3.82.B0"><span class="tocnumber">2</span> <span class="toctext">ゲノムそのもののプログラミング</span></a></li>
+<li class="toclevel-1 tocsection-3"><a href="#.E8.BF.BD.E8.A8.98.EF.BC.9A.E3.83.95.E3.82.A9.E3.83.AD.E3.83.BC.E3.82.A2.E3.83.83.E3.83.97"><span class="tocnumber">3</span> <span class="toctext">追記：フォローアップ</span></a></li>
+<li class="toclevel-1 tocsection-4"><a href="#.E9.A3.9F.E6.9D.90.E3.82.B2.E3.83.8E.E3.83.A0"><span class="tocnumber">4</span> <span class="toctext">食材ゲノム</span></a></li>
+<li class="toclevel-1 tocsection-5"><a href="#.E3.82.B2.E3.83.8E.E3.83.A0.E3.81.A8.E3.83.87.E3.83.BC.E3.82.BF.E3.83.99.E3.83.BC.E3.82.B9"><span class="tocnumber">5</span> <span class="toctext">ゲノムとデータベース</span></a></li>
+<li class="toclevel-1 tocsection-6"><a href="#.E3.82.B2.E3.83.8E.E3.83.A0.E3.81.A8.E5.93.81.E7.A8.AE.E6.94.B9.E8.89.AF"><span class="tocnumber">6</span> <span class="toctext">ゲノムと品種改良</span></a></li>
+<li class="toclevel-1 tocsection-7"><a href="#.E3.82.B2.E3.83.8E.E3.83.A0.E5.BC.81.E5.BD.93"><span class="tocnumber">7</span> <span class="toctext">ゲノム弁当</span></a>
+<ul>
+<li class="toclevel-2 tocsection-8"><a href="#12.E6.9C.8810.E6.97.A5.EF.BC.88.E5.9C.9F.EF.BC.89.E3.81.AE.E3.83.A1.E3.83.8B.E3.83.A5.E3.83.BC"><span class="tocnumber">7.1</span> <span class="toctext">12月10日（土）のメニュー</span></a></li>
+<li class="toclevel-2 tocsection-9"><a href="#12.E6.9C.8811.E6.97.A5.EF.BC.88.E6.97.A5.EF.BC.89.E3.81.AE.E3.83.A1.E3.83.8B.E3.83.A5.E3.83.BC"><span class="tocnumber">7.2</span> <span class="toctext">12月11日（日）のメニュー</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-10"><a href="#.E3.83.97.E3.83.AD.E3.82.B8.E3.82.A7.E3.82.AF.E3.83.88.E3.82.92.E3.81.8A.E6.89.8B.E4.BC.9D.E3.81.84.E9.A0.82.E3.81.84.E3.81.9F.E6.96.B9.E3.80.85"><span class="tocnumber">8</span> <span class="toctext">プロジェクトをお手伝い頂いた方々</span></a></li>
+</ul>
+</td></tr></table><script>if (window.showTocToggle) { var tocShowText = "表示"; var tocHideText = "非表示"; showTocToggle(); } </script>
+<h3> <span class="mw-headline" id=".E3.83.97.E3.83.AD.E3.82.B0.E3.83.A9.E3.83.9F.E3.83.B3.E3.82.B0.E3.81.AB.E3.82.88.E3.82.8B.E3.82.B2.E3.83.8E.E3.83.A0.E8.A7.A3.E6.9E.90"> プログラミングによるゲノム解析 </span></h3>
+<p>私たちが毎日食べているゴハンやオカズは全て生物由来です。コンピュータを使って生物のもつゲノムを解読し、その機能を調べるにはプログラムを使います。解析結果は論文やデータベースにまとめられ、活用されています。
+</p>
+<h3> <span class="mw-headline" id=".E3.82.B2.E3.83.8E.E3.83.A0.E3.81.9D.E3.81.AE.E3.82.82.E3.81.AE.E3.81.AE.E3.83.97.E3.83.AD.E3.82.B0.E3.83.A9.E3.83.9F.E3.83.B3.E3.82.B0"> ゲノムそのもののプログラミング </span></h3>
+<p>古くから行われてきた品種改良は、実は生物をプログラミングすることそのものです。より病害に強く安全で美味しい作物を作るのも、微生物を活用した発酵食品などの開発でも、ゲノムの情報によって理解が深まってきています。
+</p>
+<h2> <span class="mw-headline" id=".E8.BF.BD.E8.A8.98.EF.BC.9A.E3.83.95.E3.82.A9.E3.83.AD.E3.83.BC.E3.82.A2.E3.83.83.E3.83.97"> 追記：フォローアップ </span></h2>
+<ul><li> 2016年以降の <a href="https://github.com/YCAMInterlab/BioTIPS/blob/master/2016/genomebento.md" class="external text" rel="nofollow">ゲノム弁当開発履歴</a>
+</li><li> 2019年3月開催の <a href="https://github.com/ktym/GenomeBento/" class="external text" rel="nofollow">ゲノム弁当DNA解読</a>
+</li></ul>
+<h2> <span class="mw-headline" id=".E9.A3.9F.E6.9D.90.E3.82.B2.E3.83.8E.E3.83.A0"> 食材ゲノム </span></h2>
+<p>地球上には既知の生物が200万種、未知のものは1000万種以上いるといわれていますが、2016年までにゲノムの決まった生物は9000種以上、不完全なものを含めると10万種に及びます。
+</p><p>今回はそのなかでも身近な食材でゲノムの決まったものを（<a href="/mw/GenomeBentoProjectDraft" title="GenomeBentoProjectDraft">GenomeBentoProjectDraft</a> に挙げられた食材をベースに）100種類くらい集めてみました。
+</p><p>日本人は魚介類や野草なども幅広くいただく食習慣がありますが、お店でよく見かけるお肉や野菜などは多くの食材のゲノムがすでに決まっています。
+</p>
+<ul><li> <a href="https://docs.google.com/spreadsheets/d/1iyh41eZSsOWCkZOS0b5iqjZM4jA6osboCqXFHqVtLx8/edit#gid=335143120" class="external text" rel="nofollow">食材ゲノムの表</a>
+</li></ul>
+<p><a href="/mw/%E3%83%95%E3%82%A1%E3%82%A4%E3%83%AB:Genome-bento-table.png" class="image"><img alt="Genome-bento-table.png" src="/mw/images/4/48/Genome-bento-table.png" width="1279" height="779" /></a>
+</p><p>この表には、食材の名前と対応する学名、ゲノムの大きさや解読年度、発表された論文やデータベースなどへのリンクを集めています。
+</p><p>これをもとに、ゲノム解読年度を追ってゲノムサイズをグラフにすると図のようになっています。2002年に解読されたトラフグは、魚類の中でも極めてゲノムサイズが小さいながらヒトと同じくらいの遺伝子数を持っていると予想されたため、ノーベル賞学者のシドニー・ブレナー氏がゲノム決定のモデル生物として取り上げました。
+</p><p><a href="/mw/%E3%83%95%E3%82%A1%E3%82%A4%E3%83%AB:Genome-bento-graph-image.png" class="image"><img alt="Genome-bento-graph-image.png" src="/mw/images/c/cd/Genome-bento-graph-image.png" width="978" height="437" /></a>
+</p><p><a href="https://ja.wikipedia.org/wiki/%E3%83%92%E3%83%88%E3%82%B2%E3%83%8E%E3%83%A0" class="external text" rel="nofollow">ヒトゲノム</a>の解読完了が2003年で、その後さまざまな生物のゲノム解読が続いています。この中では<a href="https://shigen.nig.ac.jp/wheat/story/chapter3e.jsp" class="external text" rel="nofollow">異質６倍体の変わったゲノムをもつ小麦</a>が17Gbと突出して大きいのですが、その他のゲノム解読は必ずしも大きさで優先順位が決まってきたわけではないようですね。
+</p>
+<h2> <span class="mw-headline" id=".E3.82.B2.E3.83.8E.E3.83.A0.E3.81.A8.E3.83.87.E3.83.BC.E3.82.BF.E3.83.99.E3.83.BC.E3.82.B9"> ゲノムとデータベース </span></h2>
+<p>ゲノムや食材に関連するデータベースは非常にたくさんありますので、ここでは展示担当者の開発したデータベースを紹介しておきます。その他の情報や、その探し方・使い方について興味のある方は、会場で遠慮なくスタッフにお尋ねください。
+</p>
+<ul><li> TogoGenome <a href="http://togogenome.org/" class="external free" rel="nofollow">http://togogenome.org/</a>
+</li><li> KNApSAcK <a href="http://kanaya.naist.jp/KNApSAcK_Family/" class="external free" rel="nofollow">http://kanaya.naist.jp/KNApSAcK_Family/</a>
+</li></ul>
+<h2> <span class="mw-headline" id=".E3.82.B2.E3.83.8E.E3.83.A0.E3.81.A8.E5.93.81.E7.A8.AE.E6.94.B9.E8.89.AF"> ゲノムと品種改良 </span></h2>
+<p>ヒトは長い時間をかけ、気候変動や病害に強く、美味しく、栄養の高い生物を品種改良によって選んできました。良い特徴を持つ品種だけを選んで掛け合わせることで、自然に家畜や野菜のゲノムをプログラミングしてきたのです。また微生物の発酵などを利用して、食材の組み合わせから味噌や酒などを生み出す文化もプログラミングといえます。
+</p><p>しかし、これらの営みは時間のかかる無数の試行錯誤の結果でもあり、うまくいくかどうかは偶然に左右されてきました。21世紀になり、ゲノムから遺伝子の機能を調べられるようになった今、もっと積極的に生物をデザイン（プログラミング）することができるようになってきています。
+</p>
+<h2> <span class="mw-headline" id=".E3.82.B2.E3.83.8E.E3.83.A0.E5.BC.81.E5.BD.93"> ゲノム弁当 </span></h2>
+<p>以上の情報をもとに、YCAM の方々とお弁当業者さんで実際にゲノムの決まった食材だけで作る「ゲノム弁当」のメニューを考えて頂きました。2016/12/10-11 の YCAM バイオ・リサーチ・オープンデイでは、パネル展示と下記のようなお弁当の販売を行います。
+</p>
+<h3> <span class="mw-headline" id="12.E6.9C.8810.E6.97.A5.EF.BC.88.E5.9C.9F.EF.BC.89.E3.81.AE.E3.83.A1.E3.83.8B.E3.83.A5.E3.83.BC"> 12月10日（土）のメニュー </span></h3>
+<p>コンセプト「香りの相性を愉しむ」
+</p>
+<ul><li> みどり豆（山形だだちゃ豆）と香り米（高知ヒエリ）の炊き込み御飯
+<ul><li> 食材：大豆（だだちゃ豆）と香り米は、香り成分（2-アセチル-1-ピロリン）が共通
+</li></ul>
+</li><li> 鳥の味噌麹焼き
+<ul><li> 食材：味噌・みりん・鮭
+</li></ul>
+</li><li> 鮭の塩焼き
+<ul><li> 食材：鮭
+</li></ul>
+</li><li> トウモロコシのコロッケ
+<ul><li> 食材：トウモロコシ・じゃが芋・パン粉・塩・コーン油
+</li></ul>
+</li><li> 煮卵
+<ul><li> 食材：ニワトリ
+</li></ul>
+</li><li> ポテトとりんごのヨーグルトサラダ
+<ul><li> 食材：じゃが芋・りんご・ヨーグルト・塩・オイスターソース
+</li></ul>
+</li><li> タコときゅうりのサワークリームヤンニョム
+<ul><li> 食材：きゅうり・タコ・サワークリーム・味噌・塩
+</li></ul>
+</li><li> レンコンのきんぴら
+<ul><li> 食材：レンコン・人参・甜菜糖・酒・みりん・醤油・塩
+</li></ul>
+</li><li> 春雨サラダ
+<ul><li> 食材：人参・きゅうり・もやし・緑豆・醤油・酢・甜菜糖・ごま油
+</li></ul>
+</li><li> インゲンの胡麻和え
+<ul><li> 食材：インゲン豆・黒胡麻・甜菜糖・醤油
+</li></ul>
+</li><li> キャベツマリネ、トマト
+<ul><li> 食材：キャベツ・トマト・酢・塩
+</li></ul>
+</li><li> 豚汁
+<ul><li> 食材：豚・白菜・豆腐・味噌
+</li></ul>
+</li></ul>
+<h3> <span class="mw-headline" id="12.E6.9C.8811.E6.97.A5.EF.BC.88.E6.97.A5.EF.BC.89.E3.81.AE.E3.83.A1.E3.83.8B.E3.83.A5.E3.83.BC"> 12月11日（日）のメニュー </span></h3>
+<p>コンセプト：「和な地中海ごはん」
+</p>
+<ul><li> 黒米ごはん
+<ul><li> 食材：黒米
+</li></ul>
+</li><li> 塩鷄とプチトマトのグリルの串焼き
+<ul><li> 食材：鶏もも・塩
+</li></ul>
+</li><li> 味噌ディップ
+<ul><li> 食材：味噌・醤油・甜菜糖・オリーブオイル
+</li></ul>
+</li><li> きゅうりのカルパッチョ
+<ul><li> 食材：きゅうり
+</li></ul>
+</li><li> 豚肉のキャベツロール
+<ul><li> 食材：豚・キャベツ
+</li></ul>
+</li><li> 人参のオレンジマリネ
+<ul><li> 食材：人参・オレンジ・酢
+</li></ul>
+</li><li> タコとじゃが芋とオリーブ
+<ul><li> 食材：タコ・ジャガイモ・オリーブ
+</li></ul>
+</li><li> 蓮根のスパニッシュオムレツ
+<ul><li> 食材：レンコン・卵
+</li></ul>
+</li></ul>
+<h2> <span class="mw-headline" id=".E3.83.97.E3.83.AD.E3.82.B8.E3.82.A7.E3.82.AF.E3.83.88.E3.82.92.E3.81.8A.E6.89.8B.E4.BC.9D.E3.81.84.E9.A0.82.E3.81.84.E3.81.9F.E6.96.B9.E3.80.85"> プロジェクトをお手伝い頂いた方々 </span></h2>
+<ul><li> 伊藤隆之 （山口情報芸術センター/YCAM）
+</li><li> 津田和俊 （山口情報芸術センター/YCAM）
+</li><li> 高原文江 （山口情報芸術センター/YCAM）
+</li><li> 金谷重彦 （奈良先端科学技術大学院大学/NAIST）
+</li><li> 有田正規 （国立遺伝学研究所/NIG）
+</li><li> 櫻井　望 （かずさDNA研究所）
+</li><li> 大田達郎 （ライフサイエンス統合データベースセンター/DBCLS）
+</li><li> 小野浩雅 （ライフサイエンス統合データベースセンター/DBCLS）
+</li><li> 川島秀一 （ライフサイエンス統合データベースセンター/DBCLS）
+</li><li> 片山俊明 （ライフサイエンス統合データベースセンター/DBCLS）
+</li><li> <a href="/mw/SPARQLthon" title="SPARQLthon">SPARQLthon</a>, バイオハッカソン <a href="/mw/BH16.12" title="BH16.12">BH16.12</a> 参加者のみなさま
+</li><li> お弁当を作ってくださった方々（ありがとうございます！）
+<ul><li> 津田多江子 （YAMA KITCHEN)
+</li><li> 中谷敦子 （CHEERS!）
+</li></ul>
+</li></ul>
+
+<!-- 
+NewPP limit report
+Preprocessor node count: 39/1000000
+Post-expand include size: 0/2097152 bytes
+Template argument size: 0/2097152 bytes
+Expensive parser function count: 0/100
+-->
+
+<!-- Saved in parser cache with key wikidb-togowiki_:pcache:idhash:721-0!1!0!!ja!2!edit=0 and timestamp 20230604220724 -->
+<div class="printfooter">
+「<a href="http://wiki.lifesciencedb.jp/mw/GenomeBentoProject">http://wiki.lifesciencedb.jp/mw/GenomeBentoProject</a>」より作成</div>
+		<div id='catlinks' class='catlinks catlinks-allhidden'></div>		<!-- end content -->
+				<div class="visualClear"></div>
+	</div>
+</div></div>
+<div id="column-one">
+	<div id="p-cactions" class="portlet">
+		<h5>表示</h5>
+		<div class="pBody">
+			<ul>
+				 <li id="ca-nstab-main" class="selected"><a href="/mw/GenomeBentoProject" title="本文を表示 [c]" accesskey="c">ページ</a></li>
+				 <li id="ca-talk" class="new"><a href="/mw/index.php?title=%E3%83%8E%E3%83%BC%E3%83%88:GenomeBentoProject&amp;action=edit&amp;redlink=1" title="記事についての議論 [t]" accesskey="t">議論</a></li>
+				 <li id="ca-viewsource"><a href="/mw/index.php?title=GenomeBentoProject&amp;action=edit" title="このページは保護されています。&#10;ページのソースを閲覧できます。 [e]" accesskey="e">ソースを表示</a></li>
+				 <li id="ca-history"><a href="/mw/index.php?title=GenomeBentoProject&amp;action=history" title="このページの過去の版 [h]" accesskey="h">履歴</a></li>
+			</ul>
+		</div>
+	</div>
+	<div class="portlet" id="p-personal">
+		<h5>個人用ツール</h5>
+		<div class="pBody">
+			<ul>
+				<li id="pt-anonuserpage"><a href="/mw/%E5%88%A9%E7%94%A8%E8%80%85:172.18.8.51" title="自分が編集しているIPアドレスの利用者ページ [.]" accesskey="." class="new">172.18.8.51</a></li>
+				<li id="pt-anontalk"><a href="/mw/%E5%88%A9%E7%94%A8%E8%80%85%E2%80%90%E4%BC%9A%E8%A9%B1:172.18.8.51" title="このIPアドレスからなされた編集についての議論 [n]" accesskey="n" class="new">このIPアドレスのトーク</a></li>
+				<li id="pt-anonlogin"><a href="/mw/index.php?title=%E7%89%B9%E5%88%A5:%E3%83%AD%E3%82%B0%E3%82%A4%E3%83%B3&amp;returnto=GenomeBentoProject" title="ログインすることが推奨されます。ただし、必須ではありません。 [o]" accesskey="o">ログイン</a></li>
+				<li id="pt-openidlogin"><a href="/mw/index.php?title=%E7%89%B9%E5%88%A5:OpenID%E3%83%AD%E3%82%B0%E3%82%A4%E3%83%B3&amp;returnto=GenomeBentoProject">OpenIDでログイン</a></li>
+			</ul>
+		</div>
+	</div>
+	<div class="portlet" id="p-logo">
+		<a style="background-image: url(/mw/images/togowiki-logo.png);" href="/mw/%E3%83%A1%E3%82%A4%E3%83%B3%E3%83%9A%E3%83%BC%E3%82%B8" title="メインページに移動"></a>
+	</div>
+	<script type="text/javascript"> if (window.isMSIE55) fixalpha(); </script>
+	<div class='generated-sidebar portlet' id='p-navigation'>
+		<h5>案内</h5>
+		<div class='pBody'>
+			<ul>
+				<li id="n-mainpage-description"><a href="/mw/%E3%83%A1%E3%82%A4%E3%83%B3%E3%83%9A%E3%83%BC%E3%82%B8" title="メインページに移動する [z]" accesskey="z">メインページ</a></li>
+				<li id="n-portal"><a href="/mw/TogoWiki:%E3%82%B3%E3%83%9F%E3%83%A5%E3%83%8B%E3%83%86%E3%82%A3%E3%83%BB%E3%83%9D%E3%83%BC%E3%82%BF%E3%83%AB" title="このプロジェクトについて、できること、情報を入手する場所">コミュニティ・ポータル</a></li>
+				<li id="n-currentevents"><a href="/mw/TogoWiki:%E6%9C%80%E8%BF%91%E3%81%AE%E5%87%BA%E6%9D%A5%E4%BA%8B" title="最近の出来事について予備知識を得る">最近の出来事</a></li>
+				<li id="n-recentchanges"><a href="/mw/%E7%89%B9%E5%88%A5:%E6%9C%80%E8%BF%91%E3%81%AE%E6%9B%B4%E6%96%B0" title="ウィキにおける最近の更新の一覧 [r]" accesskey="r">最近の更新</a></li>
+				<li id="n-randompage"><a href="/mw/%E7%89%B9%E5%88%A5:%E3%81%8A%E3%81%BE%E3%81%8B%E3%81%9B%E8%A1%A8%E7%A4%BA" title="無作為に抽出されたページの読み込み [x]" accesskey="x">おまかせ表示</a></li>
+				<li id="n-help"><a href="/mw/Help:%E7%9B%AE%E6%AC%A1" title="情報を得る場所">ヘルプ</a></li>
+			</ul>
+		</div>
+	</div>
+	<div id="p-search" class="portlet">
+		<h5><label for="searchInput">検索</label></h5>
+		<div id="searchBody" class="pBody">
+			<form action="/mw/index.php" id="searchform">
+				<input type='hidden' name="title" value="特別:検索"/>
+				<input id="searchInput" title="TogoWiki内を検索" accesskey="f" type="search" name="search" />
+				<input type='submit' name="go" class="searchButton" id="searchGoButton"	value="表示" title="厳密に一致する名前のページが存在すれば、そのページへ移動します" />&nbsp;
+				<input type='submit' name="fulltext" class="searchButton" id="mw-searchButton" value="検索" title="入力された文字列が含まれるページを検索します" />
+			</form>
+		</div>
+	</div>
+	<div class="portlet" id="p-tb">
+		<h5>ツールボックス</h5>
+		<div class="pBody">
+			<ul>
+				<li id="t-whatlinkshere"><a href="/mw/%E7%89%B9%E5%88%A5:%E3%83%AA%E3%83%B3%E3%82%AF%E5%85%83/GenomeBentoProject" title="ここにリンクしている全ウィキのページの一覧 [j]" accesskey="j">リンク元</a></li>
+				<li id="t-recentchangeslinked"><a href="/mw/%E7%89%B9%E5%88%A5:%E9%96%A2%E9%80%A3%E3%83%9A%E3%83%BC%E3%82%B8%E3%81%AE%E6%9B%B4%E6%96%B0%E7%8A%B6%E6%B3%81/GenomeBentoProject" title="このページからリンクしているページの最近の更新 [k]" accesskey="k">関連ページの更新状況</a></li>
+<li id="t-specialpages"><a href="/mw/%E7%89%B9%E5%88%A5:%E7%89%B9%E5%88%A5%E3%83%9A%E3%83%BC%E3%82%B8%E4%B8%80%E8%A6%A7" title="特別ページの一覧 [q]" accesskey="q">特別ページ</a></li>
+				<li id="t-print"><a href="/mw/index.php?title=GenomeBentoProject&amp;printable=yes" rel="alternate" title="このページの印刷用ページ [p]" accesskey="p">印刷用バージョン</a></li>				<li id="t-permalink"><a href="/mw/index.php?title=GenomeBentoProject&amp;oldid=25802" title="ページのこの版への固定リンク">この版への固定リンク</a></li>			</ul>
+		</div>
+	</div>
+</div><!-- end of the left (by default at least) column -->
+<div class="visualClear"></div>
+<div id="footer">
+	<div id="f-poweredbyico"><a href="http://www.mediawiki.org/"><img src="/mw/skins/common/images/poweredby_mediawiki_88x31.png" height="31" width="88" alt="Powered by MediaWiki" /></a></div>
+	<div id="f-copyrightico"><a href="http://creativecommons.org/licenses/by/3.0/"><img src="http://i.creativecommons.org/l/by/3.0/88x31.png" alt="Attribution 3.0 Unported" width="88" height="31" /></a></div>
+	<ul id="f-list">
+		<li id="lastmod"> このページの最終更新は 2020年5月18日 (月) 06:59 に行われました。</li>
+		<li id="viewcount">このページは29,769回アクセスされました。</li>
+		<li id="copyright">内容は<a href="http://creativecommons.org/licenses/by/3.0/" class="external ">Attribution 3.0 Unported</a>のライセンスで利用することができます。</li>
+		<li id="privacy"><a href="/mw/TogoWiki:%E3%83%97%E3%83%A9%E3%82%A4%E3%83%90%E3%82%B7%E3%83%BC%E3%83%BB%E3%83%9D%E3%83%AA%E3%82%B7%E3%83%BC" title="TogoWiki:プライバシー・ポリシー">プライバシー・ポリシー</a></li>
+		<li id="about"><a href="/mw/TogoWiki:TogoWiki%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6" title="TogoWiki:TogoWikiについて">TogoWikiについて</a></li>
+		<li id="disclaimer"><a href="/mw/TogoWiki:%E5%85%8D%E8%B2%AC%E4%BA%8B%E9%A0%85" title="TogoWiki:免責事項">免責事項</a></li>
+	</ul>
+</div>
+</div>
+
+<script>if (window.runOnloadHook) runOnloadHook();</script>
+<!-- Served in 0.319 secs. --></body></html>

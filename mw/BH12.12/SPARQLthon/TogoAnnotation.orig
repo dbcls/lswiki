@@ -1,0 +1,385 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html lang="ja" dir="ltr">
+<head>
+<title>BH12.12/SPARQLthon/TogoAnnotation - TogoWiki</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta name="generator" content="MediaWiki 1.16.3" />
+<link rel="shortcut icon" href="/favicon.ico" />
+<link rel="search" type="application/opensearchdescription+xml" href="/mw/opensearch_desc.php" title="TogoWiki (ja)" />
+<link title="Creative Commons" type="application/rdf+xml" href="/mw/index.php?title=BH12.12/SPARQLthon/TogoAnnotation&amp;action=creativecommons" rel="meta" />
+<link rel="copyright" href="http://creativecommons.org/licenses/by/3.0/" />
+<link rel="alternate" type="application/atom+xml" title="TogoWikiのAtomフィード" href="/mw/index.php?title=%E7%89%B9%E5%88%A5:%E6%9C%80%E8%BF%91%E3%81%AE%E6%9B%B4%E6%96%B0&amp;feed=atom" />
+<link rel="stylesheet" href="/mw/skins/common/shared.css?270" media="screen" />
+<link rel="stylesheet" href="/mw/skins/common/commonPrint.css?270" media="print" />
+<link rel="stylesheet" href="/mw/skins/monobook/main.css?270" media="screen" />
+<!--[if lt IE 5.5000]><link rel="stylesheet" href="/mw/skins/monobook/IE50Fixes.css?270" media="screen" /><![endif]-->
+<!--[if IE 5.5000]><link rel="stylesheet" href="/mw/skins/monobook/IE55Fixes.css?270" media="screen" /><![endif]-->
+<!--[if IE 6]><link rel="stylesheet" href="/mw/skins/monobook/IE60Fixes.css?270" media="screen" /><![endif]-->
+<!--[if IE 7]><link rel="stylesheet" href="/mw/skins/monobook/IE70Fixes.css?270" media="screen" /><![endif]-->
+<link rel="stylesheet" href="/mw/index.php?title=MediaWiki:Common.css&amp;usemsgcache=yes&amp;ctype=text%2Fcss&amp;smaxage=18000&amp;action=raw&amp;maxage=18000" />
+<link rel="stylesheet" href="/mw/index.php?title=MediaWiki:Print.css&amp;usemsgcache=yes&amp;ctype=text%2Fcss&amp;smaxage=18000&amp;action=raw&amp;maxage=18000" media="print" />
+<link rel="stylesheet" href="/mw/index.php?title=MediaWiki:Monobook.css&amp;usemsgcache=yes&amp;ctype=text%2Fcss&amp;smaxage=18000&amp;action=raw&amp;maxage=18000" />
+<link rel="stylesheet" href="/mw/index.php?title=-&amp;action=raw&amp;maxage=18000&amp;gen=css" />
+<script>
+var skin="monobook",
+stylepath="/mw/skins",
+wgUrlProtocols="http\\:\\/\\/|https\\:\\/\\/|ftp\\:\\/\\/|irc\\:\\/\\/|gopher\\:\\/\\/|telnet\\:\\/\\/|nntp\\:\\/\\/|worldwind\\:\\/\\/|mailto\\:|news\\:|svn\\:\\/\\/",
+wgArticlePath="/mw/$1",
+wgScriptPath="/mw",
+wgScriptExtension=".php",
+wgScript="/mw/index.php",
+wgVariantArticlePath=false,
+wgActionPaths={},
+wgServer="http://wiki.lifesciencedb.jp",
+wgCanonicalNamespace="",
+wgCanonicalSpecialPageName=false,
+wgNamespaceNumber=0,
+wgPageName="BH12.12/SPARQLthon/TogoAnnotation",
+wgTitle="BH12.12/SPARQLthon/TogoAnnotation",
+wgAction="view",
+wgArticleId=161,
+wgIsArticle=true,
+wgUserName=null,
+wgUserGroups=null,
+wgUserLanguage="ja",
+wgContentLanguage="ja",
+wgBreakFrames=false,
+wgCurRevisionId=9116,
+wgVersion="1.16.3",
+wgEnableAPI=true,
+wgEnableWriteAPI=true,
+wgSeparatorTransformTable=["", ""],
+wgDigitTransformTable=["", ""],
+wgMainPageTitle="メインページ",
+wgFormattedNamespaces={"-2": "メディア", "-1": "特別", "0": "", "1": "ノート", "2": "利用者", "3": "利用者‐会話", "4": "TogoWiki", "5": "TogoWiki‐ノート", "6": "ファイル", "7": "ファイル‐ノート", "8": "MediaWiki", "9": "MediaWiki‐ノート", "10": "Template", "11": "Template‐ノート", "12": "Help", "13": "Help‐ノート", "14": "Category", "15": "Category‐ノート"},
+wgNamespaceIds={"メディア": -2, "特別": -1, "": 0, "ノート": 1, "利用者": 2, "利用者‐会話": 3, "togowiki": 4, "togowiki‐ノート": 5, "ファイル": 6, "ファイル‐ノート": 7, "mediawiki": 8, "mediawiki‐ノート": 9, "template": 10, "template‐ノート": 11, "help": 12, "help‐ノート": 13, "category": 14, "category‐ノート": 15, "画像": 6, "画像‐ノート": 7, "image": 6, "image_talk": 7},
+wgSiteName="TogoWiki",
+wgCategories=["TogoAnnotation"],
+wgRestrictionEdit=[],
+wgRestrictionMove=[];
+</script><script src="/mw/skins/common/wikibits.js?270"></script>
+<script src="/mw/skins/common/ajax.js?270"></script>
+<script src="/mw/index.php?title=-&amp;action=raw&amp;gen=js&amp;useskin=monobook&amp;270"></script>
+
+		<style type='text/css'>
+		li#pt-openidlogin {
+		  background: url(/mw/extensions/OpenID/skin/icons/openid-inputicon.png) top left no-repeat;
+		  padding-left: 20px;
+		  text-transform: none;
+		}
+		</style>
+</head>
+<body class="mediawiki ltr ns-0 ns-subject page-BH12_12_SPARQLthon_TogoAnnotation skin-monobook">
+<div id="globalWrapper">
+<div id="column-content"><div id="content" >
+	<a id="top"></a>
+	
+	<h1 id="firstHeading" class="firstHeading">BH12.12/SPARQLthon/TogoAnnotation</h1>
+	<div id="bodyContent">
+		<h3 id="siteSub">提供：TogoWiki</h3>
+		<div id="contentSub"></div>
+		<div id="jump-to-nav">移動： <a href="#column-one">案内</a>, <a href="#searchInput">検索</a></div>
+		<!-- start content -->
+<h2> <span class="mw-headline" id=".E4.BD.9C.E6.A5.AD"> 作業 </span></h2>
+<ul><li> TogoAnnotationのRDF化: exportスクリプトRDF出力を実装
+</li></ul>
+<pre>
+script/export rdf -o genome
+script/export rdf -o gene
+script/export rdf -o reference
+script/export rdf -o annotation [Todo]
+script/export rdf -o bookmark  [Todo]
+script/export rdf -o tag  [Todo]
+</pre>
+<ul><li> 4store@localhostへのデータインストール
+</li></ul>
+<pre>
+4s-backend-setup tga_v1
+4s-backend tga_v1
+4s-import -v tga_v1 -M http://togo.annotation.jp tga/genome.ttl tga/gene.ttl tga/reference.ttl tga/annotation.ttl 
+</pre>
+<ul><li> reference/annotation件数を取得するSPARQLテストとRDFデータのバグ取りのイテレーション
+</li></ul>
+<pre>
+4s-query tga_v1 -f text &lt; query/genome-reference_count.rq 
+4s-query tga_v1 -f text &lt; query/gene-reference_count.rq 
+4s-query tga_v1 -f text &lt; query/pubmed-annotations_count.rq 
+</pre>
+<h2> <span class="mw-headline" id="SPARQL.E5.AE.9F.E4.BE.8B"> SPARQL実例 </span></h2>
+<ul><li> query/genome-reference_count.rq ゲノム毎のreference_countを件数の多い順で取得
+</li></ul>
+<pre>
+PREFIX rdf: &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#&gt;
+PREFIX tga: &lt;http://togo.annotation.jp/sw/&gt;
+PREFIX obo: &lt;http://purl.obolibrary.org/obo/&gt;
+SELECT 
+ * 
+WHERE 
+{
+?genome tga:reference_count&nbsp;?reference_count.
+?genome tga:dsn&nbsp;?dsn.
+?genome rdf:type obo:SO_000034.
+} 
+ORDER BY DESC(?reference_count)
+LIMIT 30
+</pre>
+<p>結果
+</p>
+<pre>
+?genome	?reference_count	?dsn
+&lt;http://genome.kazusa.or.jp/cyanobase/Synechocystis&gt;	2394	&quot;Synechocystis&quot;
+&lt;http://genome.kazusa.or.jp/cyanobase/Anabaena&gt;	905	&quot;Anabaena&quot;
+&lt;http://genome.kazusa.or.jp/cyanobase/SYNPCC7942&gt;	775	&quot;SYNPCC7942&quot;
+&lt;http://genome.kazusa.or.jp/rhizobase/Bradyrhizobium&gt;	549	&quot;Bradyrhizobium&quot;
+&lt;http://genome.kazusa.or.jp/cyanobase/SYNPCC7002&gt;	250	&quot;SYNPCC7002&quot;
+&lt;http://genome.kazusa.or.jp/cyanobase/Thermo&gt;	250	&quot;Thermo&quot;
+&lt;http://genome.kazusa.or.jp/rhizobase/Sinorhizobium&gt;	240	&quot;Sinorhizobium&quot;
+&lt;http://genome.kazusa.or.jp/cyanobase/Chlorobium&gt;	143	&quot;Chlorobium&quot;
+&lt;http://genome.kazusa.or.jp/cyanobase/NPUN&gt;	137	&quot;NPUN&quot;
+&lt;http://genome.kazusa.or.jp/rhizobase/Mesorhizobium&gt;	115	&quot;Mesorhizobium&quot;
+&lt;http://streptomyces.nih.go.jp/gview&gt;	111	&quot;NBRC133050&quot;
+&lt;http://genome.kazusa.or.jp/cyanobase/AVA&gt;	109	&quot;AVA&quot;
+&lt;http://genome.kazusa.or.jp/rhizobase/NGR234&gt;	107	&quot;NGR234&quot;
+&lt;http://genome.kazusa.or.jp/rhizobase/Leguminosarum&gt;	83	&quot;Leguminosarum&quot;
+&lt;http://genome.kazusa.or.jp/cyanobase/MED4&gt;	58	&quot;MED4&quot;
+&lt;http://genome.kazusa.or.jp/cyanobase/Gloeobacter&gt;	44	&quot;Gloeobacter&quot;
+&lt;http://genome.kazusa.or.jp/cyanobase/MIT9313&gt;	40	&quot;MIT9313&quot;
+&lt;http://genome.kazusa.or.jp/cyanobase/SS120&gt;	34	&quot;SS120&quot;
+&lt;http://genome.kazusa.or.jp/rhizobase/NGR234abc&gt;	8	&quot;NGR234abc&quot;
+&lt;http://genome.kazusa.or.jp/cyanobase/NIES39&gt;	7	&quot;NIES39&quot;
+&lt;http://genome.kazusa.or.jp/cyanobase/WH8102&gt;	4	&quot;WH8102&quot;
+&lt;http://genome.kazusa.or.jp/cyanobase/TERY&gt;	1	&quot;TERY&quot;
+&lt;http://genome.kazusa.or.jp/cyanobase/PCC6301&gt;	1	&quot;PCC6301&quot;
+&lt;http://genome.kazusa.or.jp/cyanobase/P9303&gt;	0	&quot;P9303&quot;
+&lt;http://genome.kazusa.or.jp/rhizobase/FRANEAN1&gt;	0	&quot;FRANEAN1&quot;
+&lt;http://genome.kazusa.or.jp/rhizobase/FRANCCI3&gt;	0	&quot;FRANCCI3&quot;
+&lt;http://genome.kazusa.or.jp/cyanobase/NATL1&gt;	0	&quot;NATL1&quot;
+&lt;http://genome.kazusa.or.jp/cyanobase/P9215&gt;	0	&quot;P9215&quot;
+&lt;http://genome.kazusa.or.jp/rhizobase/Etli&gt;	0	&quot;Etli&quot;
+&lt;http://genome.kazusa.or.jp/rhizobase/ORS571&gt;	0	&quot;ORS571&quot;
+#EOR
+</pre>
+<ul><li> query/gene-reference_count.rq 遺伝子毎のreference_countを件数の多い順で取得
+</li></ul>
+<pre>
+PREFIX rdf: &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#&gt;
+PREFIX rdfs: &lt;http://www.w3.org/2000/01/rdf-schema#&gt;
+PREFIX tga: &lt;http://togo.annotation.jp/sw/&gt;
+PREFIX obo: &lt;http://purl.obolibrary.org/obo/&gt;
+SELECT 
+?gene&nbsp;?annotation_id&nbsp;?reference_count&nbsp;?annotation_count&nbsp;?last_bookmarked_at&nbsp;?label 
+WHERE 
+{
+?gene tga:reference_count&nbsp;?reference_count.
+?gene tga:annotation_id&nbsp;?annotation_id.
+?gene tga:annotation_count&nbsp;?annotation_count.
+?gene tga:last_bookmarked_at&nbsp;?last_bookmarked_at.
+?gene rdfs:label&nbsp;?label.
+?gene rdf:type obo:SO_0000704.
+} 
+ORDER BY DESC(?reference_count)
+LIMIT 30
+</pre>
+<p>結果
+</p>
+<pre>
+?gene	?annotation_id	?reference_count	?annotation_count	?last_bookmarked_at	?label
+&lt;http://genome.kazusa.or.jp/cyanobase/Synechocystis/genes/slr1311&gt;	&lt;http://togo.annotation.jp/annotations/86386&gt;	430	2212	1351220054	&quot;psbA2, psba-2, psbA, psbAII&quot;
+&lt;http://genome.kazusa.or.jp/cyanobase/Synechocystis/genes/sll1867&gt;	&lt;http://togo.annotation.jp/annotations/86385&gt;	362	1587	1340503463	&quot;psbA3, psba-3, psbA, psbAIII&quot;
+&lt;http://genome.kazusa.or.jp/cyanobase/Synechocystis/genes/slr1181&gt;	&lt;http://togo.annotation.jp/annotations/86384&gt;	343	1430	1340503642	&quot;psbA1, psba-1, psbA, psbAI&quot;
+&lt;http://genome.kazusa.or.jp/cyanobase/Synechocystis/genes/sll0849&gt;	&lt;http://togo.annotation.jp/annotations/86417&gt;	289	1129	1321521079	&quot;psbD1, psbD, psbD-1, psbDI&quot;
+&lt;http://genome.kazusa.or.jp/cyanobase/Synechocystis/genes/sll0851&gt;	&lt;http://togo.annotation.jp/annotations/86659&gt;	275	1059	1321521184	&quot;psbC&quot;
+&lt;http://genome.kazusa.or.jp/cyanobase/Synechocystis/genes/slr0906&gt;	&lt;http://togo.annotation.jp/annotations/85206&gt;	257	1043	1351042495	&quot;psbB&quot;
+&lt;http://genome.kazusa.or.jp/cyanobase/Synechocystis/genes/slr1834&gt;	&lt;http://togo.annotation.jp/annotations/85191&gt;	250	1097	1321520766	&quot;psaA&quot;
+&lt;http://genome.kazusa.or.jp/cyanobase/Synechocystis/genes/slr0927&gt;	&lt;http://togo.annotation.jp/annotations/86418&gt;	250	864	1321521272	&quot;psbD2, psbD, psbD-2, psbDII&quot;
+&lt;http://genome.kazusa.or.jp/cyanobase/Synechocystis/genes/slr1835&gt;	&lt;http://togo.annotation.jp/annotations/85420&gt;	240	1096	1321520918	&quot;psaB&quot;
+&lt;http://genome.kazusa.or.jp/cyanobase/Synechocystis/genes/slr0737&gt;	&lt;http://togo.annotation.jp/annotations/85197&gt;	163	671	1318718649	&quot;psaD&quot;
+&lt;http://genome.kazusa.or.jp/cyanobase/Anabaena/genes/alr4392&gt;	&lt;http://togo.annotation.jp/annotations/83251&gt;	157	732	1350976117	&quot;ntcA, bifA, VF1&quot;
+&lt;http://genome.kazusa.or.jp/cyanobase/Synechocystis/genes/sll0427&gt;	&lt;http://togo.annotation.jp/annotations/85956&gt;	153	675	1351042996	&quot;psbO&quot;
+&lt;http://genome.kazusa.or.jp/cyanobase/Synechocystis/genes/ssl0563&gt;	&lt;http://togo.annotation.jp/annotations/85209&gt;	139	551	1319021431	&quot;psaC, psaC2&quot;
+&lt;http://genome.kazusa.or.jp/cyanobase/Synechocystis/genes/ssr3451&gt;	&lt;http://togo.annotation.jp/annotations/86674&gt;	138	484	1351037253	&quot;psbE&quot;
+&lt;http://genome.kazusa.or.jp/cyanobase/Anabaena/genes/alr2339&gt;	&lt;http://togo.annotation.jp/annotations/83361&gt;	136	766	1349940899	&quot;hetR, alr2339&quot;
+&lt;http://genome.kazusa.or.jp/cyanobase/SYNPCC7942/genes/Synpcc7942_0424&gt;	&lt;http://togo.annotation.jp/annotations/88868&gt;	133	697	1349152383	&quot;psbAI, psbA, psbA1, psbA-I, ps2B, Synpcc7942_0424&quot;
+&lt;http://genome.kazusa.or.jp/cyanobase/Synechocystis/genes/ssr2831&gt;	&lt;http://togo.annotation.jp/annotations/85199&gt;	131	575	1318718592	&quot;psaE&quot;
+&lt;http://genome.kazusa.or.jp/cyanobase/Anabaena/genes/all1455&gt;	&lt;http://togo.annotation.jp/annotations/84072&gt;	129	417	1348469613	&quot;nifH, all1455&quot;
+&lt;http://streptomyces.nih.go.jp/&gt;	&lt;http://togo.annotation.jp/annotations/148044&gt;	126	912	1351178853	&quot;crt&quot;
+&lt;http://genome.kazusa.or.jp/cyanobase/Synechocystis/genes/smr0006&gt;	&lt;http://togo.annotation.jp/annotations/86686&gt;	121	418	1319710867	&quot;psbF&quot;
+&lt;http://genome.kazusa.or.jp/cyanobase/Anabaena/genes/all1454N&gt;	&lt;http://togo.annotation.jp/annotations/84532&gt;	108	390	1348469753	&quot;nifD&quot;
+&lt;http://genome.kazusa.or.jp/cyanobase/Synechocystis/genes/sll0819&gt;	&lt;http://togo.annotation.jp/annotations/89515&gt;	108	426	1316885994	&quot;psaF&quot;
+&lt;http://genome.kazusa.or.jp/cyanobase/Anabaena/genes/all1454C&gt;	&lt;http://togo.annotation.jp/annotations/84533&gt;	107	369	1348469927	&quot;nifD&quot;
+&lt;http://genome.kazusa.or.jp/cyanobase/synpcc7942/genes/Synpcc7942_1389&gt;	&lt;http://togo.annotation.jp/annotations/63477&gt;	105	502	1348980402	&quot;psbAII, psbA, psbA2, ps2B&quot;
+&lt;http://genome.kazusa.or.jp/cyanobase/Synechocystis/genes/sll1577&gt;	&lt;http://togo.annotation.jp/annotations/85186&gt;	103	354	1315317095	&quot;cpcB&quot;
+&lt;http://genome.kazusa.or.jp/cyanobase/Anabaena/genes/all1440&gt;	&lt;http://togo.annotation.jp/annotations/65137&gt;	99	256	1347972417	&quot;nifK&quot;
+&lt;http://genome.kazusa.or.jp/cyanobase/Synechocystis/genes/sll0247&gt;	&lt;http://togo.annotation.jp/annotations/86241&gt;	98	446	1349151744	&quot;isiA, psbC&quot;
+&lt;http://genome.kazusa.or.jp/cyanobase/Synechocystis/genes/slr2076&gt;	&lt;http://togo.annotation.jp/annotations/90605&gt;	97	334	1337685669	&quot;groEL1, cpn60-1, groEL, groEL-1, slr2076&quot;
+&lt;http://genome.kazusa.or.jp/cyanobase/Synechocystis/genes/slr0009&gt;	&lt;http://togo.annotation.jp/annotations/86407&gt;	96	338	1325674864	&quot;rbcL, slr0009&quot;
+&lt;http://genome.kazusa.or.jp/cyanobase/Synechocystis/genes/sll1578&gt;	&lt;http://togo.annotation.jp/annotations/85185&gt;	96	350	1325630872	&quot;cpcA, sll1578&quot;
+#EOR
+</pre>
+<ul><li> query/pubmed-annotations_count.rq 文献毎のannotation_countを件数の多い順で取得
+</li></ul>
+<pre>
+PREFIX rdf: &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#&gt;
+PREFIX rdfs: &lt;http://www.w3.org/2000/01/rdf-schema#&gt;
+PREFIX tga: &lt;http://togo.annotation.jp/sw/&gt;
+PREFIX obo: &lt;http://purl.obolibrary.org/obo/&gt;
+SELECT 
+?journal&nbsp;?tag_id&nbsp;?annotations_count&nbsp;?journal_title
+WHERE 
+{
+?journal tga:annotations_count&nbsp;?annotations_count.
+?journal tga:tag_id&nbsp;?tag_id.
+?journal rdf:type tga:JournalPublication.
+?journal tga:title&nbsp;?journal_title
+} 
+ORDER BY DESC(?annotations_count)
+LIMIT 30
+</pre>
+<p>結果
+</p>
+<pre>
+?journal	?tag_id	?annotations_count	?journal_title
+&lt;http://pubmed.org/18000013&gt;	&lt;http://togo.annotation.jp/tags/24309&gt;	10374	&quot;A large-scale protein protein interaction analysis in Synechocystis sp. PCC6803.&quot;
+&lt;http://pubmed.org/12597279&gt;	&lt;http://togo.annotation.jp/tags/203400&gt;	8465	&quot;Complete genomic sequence of nitrogen-fixing symbiotic bacterium Bradyrhizobium japonicum USDA110 (supplement).&quot;
+&lt;http://pubmed.org/18192278&gt;	&lt;http://togo.annotation.jp/tags/24316&gt;	7984	&quot;A large scale analysis of protein-protein interactions in the nitrogen-fixing bacterium Mesorhizobium loti.&quot;
+&lt;http://pubmed.org/14621296&gt;	&lt;http://togo.annotation.jp/tags/209836&gt;	4687	&quot;Complete genome structure of Gloeobacter violaceus PCC 7421, a cyanobacterium that lacks thylakoids (supplement).&quot;
+&lt;http://pubmed.org/12240836&gt;	&lt;http://togo.annotation.jp/tags/205290&gt;	2728	&quot;Complete genome structure of the thermophilic cyanobacterium Thermosynechococcus elongatus BP-1 (supplement).&quot;
+&lt;http://pubmed.org/14612435&gt;	&lt;http://togo.annotation.jp/tags/29654&gt;	1333	&quot;Alterations in global patterns of gene expression in Synechocystis sp. PCC 6803 in response to inorganic carbon limitation and the inactivation of ndhR, a LysR family regulator.&quot;
+&lt;http://pubmed.org/12446635&gt;	&lt;http://togo.annotation.jp/tags/18871&gt;	1100	&quot;Global gene expression profiles of the cyanobacterium Synechocystis sp. strain PCC 6803 in response to irradiation with UV-B and white light.&quot;
+&lt;http://pubmed.org/9163424&gt;	&lt;http://togo.annotation.jp/tags/203944&gt;	1085	&quot;Molecular basis of symbiosis between Rhizobium and legumes.&quot;
+&lt;http://pubmed.org/14702322&gt;	&lt;http://togo.annotation.jp/tags/30019&gt;	1060	&quot;An evolutionary hot spot: the pNGR234b replicon of Rhizobium sp. strain NGR234.&quot;
+&lt;http://pubmed.org/19216801&gt;	&lt;http://togo.annotation.jp/tags/204622&gt;	958	&quot;The time course of the transcriptomic response of Sinorhizobium meliloti 1021 following a shift to acidic pH.&quot;
+&lt;http://pubmed.org/11283337&gt;	&lt;http://togo.annotation.jp/tags/17750&gt;	852	&quot;DNA microarray analysis of cyanobacterial gene expression during acclimation to high light.&quot;
+&lt;http://pubmed.org/18511436&gt;	&lt;http://togo.annotation.jp/tags/203244&gt;	726	&quot;Soybean seed extracts preferentially express genomic loci of Bradyrhizobium japonicum in the initial interaction with soybean, Glycine max (L.) Merr.&quot;
+&lt;http://pubmed.org/15289483&gt;	&lt;http://togo.annotation.jp/tags/29838&gt;	701	&quot;Elucidation of gene interaction networks through time-lagged correlation analysis of transcriptional data.&quot;
+&lt;http://pubmed.org/11858227&gt;	&lt;http://togo.annotation.jp/tags/32628&gt;	694	&quot;Characterization of genes encoding multi-domain proteins in the genome of the filamentous nitrogen-fixing Cyanobacterium anabaena sp. strain PCC 7120.&quot;
+&lt;http://pubmed.org/17164256&gt;	&lt;http://togo.annotation.jp/tags/34005&gt;	666	&quot;Genome-wide analysis of ATP-binding cassette (ABC) proteins in a model legume plant, Lotus japonicus: comparison with Arabidopsis ABC protein family.&quot;
+&lt;http://pubmed.org/17600135&gt;	&lt;http://togo.annotation.jp/tags/18664&gt;	654	&quot;Long-term response toward inorganic carbon limitation in wild type and glycolate turnover mutants of the cyanobacterium Synechocystis sp. strain PCC 6803.&quot;
+&lt;http://pubmed.org/20203057&gt;	&lt;http://togo.annotation.jp/tags/208125&gt;	647	&quot;Genomic structure of an economically important cyanobacterium, Arthrospira (Spirulina) platensis NIES-39.&quot;
+&lt;http://pubmed.org/12886952&gt;	&lt;http://togo.annotation.jp/tags/32575&gt;	598	&quot;Genome-wide expression analysis of the responses to nitrogen deprivation in the heterocyst-forming cyanobacterium Anabaena sp. strain PCC 7120.&quot;
+&lt;http://pubmed.org/12480098&gt;	&lt;http://togo.annotation.jp/tags/18903&gt;	595	&quot;Genomic analysis of protein kinases, protein phosphatases and two-component regulatory systems of the cyanobacterium Anabaena sp. strain PCC 7120.&quot;
+&lt;http://pubmed.org/15000396&gt;	&lt;http://togo.annotation.jp/tags/34187&gt;	590	&quot;Global changes in gene expression in Sinorhizobium meliloti 1021 under microoxic and symbiotic conditions.&quot;
+&lt;http://pubmed.org/12913140&gt;	&lt;http://togo.annotation.jp/tags/18975&gt;	557	&quot;Microarray analysis of the genome-wide response to iron deficiency and iron reconstitution in the cyanobacterium Synechocystis sp. PCC 6803.&quot;
+&lt;http://pubmed.org/15141946&gt;	&lt;http://togo.annotation.jp/tags/30107&gt;	551	&quot;Genome-wide comparison of the His-to-Asp phosphorelay signaling components of three symbiotic genera of Rhizobia.&quot;
+&lt;http://pubmed.org/17337580&gt;	&lt;http://togo.annotation.jp/tags/210988&gt;	520	&quot;A-factor and phosphate depletion signals are transmitted to the grixazone biosynthesis genes via the pathway-specific transcriptional activator GriR.&quot;
+&lt;http://pubmed.org/15221452&gt;	&lt;http://togo.annotation.jp/tags/34120&gt;	507	&quot;Global transcriptional analysis of the phosphate starvation response in Sinorhizobium meliloti strains 1021 and 2011.&quot;
+&lt;http://pubmed.org/9298645&gt;	&lt;http://togo.annotation.jp/tags/208039&gt;	499	&quot;Towards a proteome project of cyanobacterium Synechocystis sp. strain PCC6803: linking 130 protein spots with their respective genes.&quot;
+&lt;http://pubmed.org/16622784&gt;	&lt;http://togo.annotation.jp/tags/203775&gt;	482	&quot;High throughput two-dimensional blue-native electrophoresis: a tool for functional proteomics of cytoplasmatic protein complexes from Chlorobium tepidum.&quot;
+&lt;http://pubmed.org/8581740&gt;	&lt;http://togo.annotation.jp/tags/205899&gt;	466	&quot;Assignment of 82 known genes and gene clusters on the genome of the unicellular cyanobacterium Synechocystis sp. strain PCC6803.&quot;
+&lt;http://pubmed.org/12795377&gt;	&lt;http://togo.annotation.jp/tags/67269&gt;	454	&quot;A global analysis of protein expression profiles in Sinorhizobium meliloti: discovery of new genes for nodule occupancy and stress adaptation.&quot;
+&lt;http://pubmed.org/16159767&gt;	&lt;http://togo.annotation.jp/tags/211441&gt;	454	&quot;Three chymotrypsin genes are members of the AdpA regulon in the A-factor regulatory cascade in Streptomyces griseus.&quot;
+&lt;http://pubmed.org/14686584&gt;	&lt;http://togo.annotation.jp/tags/19082&gt;	449	&quot;Structural analysis of four large plasmids harboring in a unicellular cyanobacterium, Synechocystis sp. PCC 6803.&quot;
+#EOR
+</pre>
+<h2> <span class="mw-headline" id="Todo"> Todo </span></h2>
+<ul><li> RDF作成【済】
+<ul><li> script/exportでannotation, bookmark, tagのRDF出力 【済】
+</li><li> 親タグ表現→同種タグセットの取得するクエリーは利用頻度が高そうなのでrdf:type で表現しておく【済】
+</li></ul>
+</li><li> virtuosoにデータインポート【済】
+</li><li> RDF更新
+<ul><li> pubmed URIを<a href="http://identifiers.org/pubmed/" class="external free" rel="nofollow">http://identifiers.org/pubmed/</a> に置き換える Genome-RDF, 菌株reference情報表現とそろえる【SPARQLthon2】
+</li><li> voidでメタデータを記述する
+</li></ul>
+</li><li> SPARQL
+<ul><li> CyanoBaseとのjoin
+</li><li> MicrobeDB.jp関連DBとのjoin
+</li><li> 文献情報とのjoin (journal title, authorなど)
+</li><li> dbpediaとのjoin 例）<a href="http://live.dbpedia.org/page/DNA_polymerase" class="external free" rel="nofollow">http://live.dbpedia.org/page/DNA_polymerase</a>
+</li></ul>
+</li></ul>
+
+<!-- 
+NewPP limit report
+Preprocessor node count: 91/1000000
+Post-expand include size: 0/2097152 bytes
+Template argument size: 0/2097152 bytes
+Expensive parser function count: 0/100
+-->
+
+<!-- Saved in parser cache with key wikidb-togowiki_:pcache:idhash:161-0!1!0!!ja!2!edit=0 and timestamp 20230605011116 -->
+<div class="printfooter">
+「<a href="http://wiki.lifesciencedb.jp/mw/BH12.12/SPARQLthon/TogoAnnotation">http://wiki.lifesciencedb.jp/mw/BH12.12/SPARQLthon/TogoAnnotation</a>」より作成</div>
+		<div id='catlinks' class='catlinks'><div id="mw-normal-catlinks"><a href="/mw/%E7%89%B9%E5%88%A5:%E3%82%AB%E3%83%86%E3%82%B4%E3%83%AA" title="特別:カテゴリ">カテゴリ</a>: <span dir='ltr'><a href="/mw/index.php?title=Category:TogoAnnotation&amp;action=edit&amp;redlink=1" class="new" title="Category:TogoAnnotation（存在しないページ）">TogoAnnotation</a></span></div></div>		<!-- end content -->
+				<div class="visualClear"></div>
+	</div>
+</div></div>
+<div id="column-one">
+	<div id="p-cactions" class="portlet">
+		<h5>表示</h5>
+		<div class="pBody">
+			<ul>
+				 <li id="ca-nstab-main" class="selected"><a href="/mw/BH12.12/SPARQLthon/TogoAnnotation" title="本文を表示 [c]" accesskey="c">ページ</a></li>
+				 <li id="ca-talk" class="new"><a href="/mw/index.php?title=%E3%83%8E%E3%83%BC%E3%83%88:BH12.12/SPARQLthon/TogoAnnotation&amp;action=edit&amp;redlink=1" title="記事についての議論 [t]" accesskey="t">議論</a></li>
+				 <li id="ca-viewsource"><a href="/mw/index.php?title=BH12.12/SPARQLthon/TogoAnnotation&amp;action=edit" title="このページは保護されています。&#10;ページのソースを閲覧できます。 [e]" accesskey="e">ソースを表示</a></li>
+				 <li id="ca-history"><a href="/mw/index.php?title=BH12.12/SPARQLthon/TogoAnnotation&amp;action=history" title="このページの過去の版 [h]" accesskey="h">履歴</a></li>
+			</ul>
+		</div>
+	</div>
+	<div class="portlet" id="p-personal">
+		<h5>個人用ツール</h5>
+		<div class="pBody">
+			<ul>
+				<li id="pt-anonuserpage"><a href="/mw/%E5%88%A9%E7%94%A8%E8%80%85:172.18.8.51" title="自分が編集しているIPアドレスの利用者ページ [.]" accesskey="." class="new">172.18.8.51</a></li>
+				<li id="pt-anontalk"><a href="/mw/%E5%88%A9%E7%94%A8%E8%80%85%E2%80%90%E4%BC%9A%E8%A9%B1:172.18.8.51" title="このIPアドレスからなされた編集についての議論 [n]" accesskey="n" class="new">このIPアドレスのトーク</a></li>
+				<li id="pt-anonlogin"><a href="/mw/index.php?title=%E7%89%B9%E5%88%A5:%E3%83%AD%E3%82%B0%E3%82%A4%E3%83%B3&amp;returnto=BH12.12/SPARQLthon/TogoAnnotation" title="ログインすることが推奨されます。ただし、必須ではありません。 [o]" accesskey="o">ログイン</a></li>
+				<li id="pt-openidlogin"><a href="/mw/index.php?title=%E7%89%B9%E5%88%A5:OpenID%E3%83%AD%E3%82%B0%E3%82%A4%E3%83%B3&amp;returnto=BH12.12/SPARQLthon/TogoAnnotation">OpenIDでログイン</a></li>
+			</ul>
+		</div>
+	</div>
+	<div class="portlet" id="p-logo">
+		<a style="background-image: url(/mw/images/togowiki-logo.png);" href="/mw/%E3%83%A1%E3%82%A4%E3%83%B3%E3%83%9A%E3%83%BC%E3%82%B8" title="メインページに移動"></a>
+	</div>
+	<script type="text/javascript"> if (window.isMSIE55) fixalpha(); </script>
+	<div class='generated-sidebar portlet' id='p-navigation'>
+		<h5>案内</h5>
+		<div class='pBody'>
+			<ul>
+				<li id="n-mainpage-description"><a href="/mw/%E3%83%A1%E3%82%A4%E3%83%B3%E3%83%9A%E3%83%BC%E3%82%B8" title="メインページに移動する [z]" accesskey="z">メインページ</a></li>
+				<li id="n-portal"><a href="/mw/TogoWiki:%E3%82%B3%E3%83%9F%E3%83%A5%E3%83%8B%E3%83%86%E3%82%A3%E3%83%BB%E3%83%9D%E3%83%BC%E3%82%BF%E3%83%AB" title="このプロジェクトについて、できること、情報を入手する場所">コミュニティ・ポータル</a></li>
+				<li id="n-currentevents"><a href="/mw/TogoWiki:%E6%9C%80%E8%BF%91%E3%81%AE%E5%87%BA%E6%9D%A5%E4%BA%8B" title="最近の出来事について予備知識を得る">最近の出来事</a></li>
+				<li id="n-recentchanges"><a href="/mw/%E7%89%B9%E5%88%A5:%E6%9C%80%E8%BF%91%E3%81%AE%E6%9B%B4%E6%96%B0" title="ウィキにおける最近の更新の一覧 [r]" accesskey="r">最近の更新</a></li>
+				<li id="n-randompage"><a href="/mw/%E7%89%B9%E5%88%A5:%E3%81%8A%E3%81%BE%E3%81%8B%E3%81%9B%E8%A1%A8%E7%A4%BA" title="無作為に抽出されたページの読み込み [x]" accesskey="x">おまかせ表示</a></li>
+				<li id="n-help"><a href="/mw/Help:%E7%9B%AE%E6%AC%A1" title="情報を得る場所">ヘルプ</a></li>
+			</ul>
+		</div>
+	</div>
+	<div id="p-search" class="portlet">
+		<h5><label for="searchInput">検索</label></h5>
+		<div id="searchBody" class="pBody">
+			<form action="/mw/index.php" id="searchform">
+				<input type='hidden' name="title" value="特別:検索"/>
+				<input id="searchInput" title="TogoWiki内を検索" accesskey="f" type="search" name="search" />
+				<input type='submit' name="go" class="searchButton" id="searchGoButton"	value="表示" title="厳密に一致する名前のページが存在すれば、そのページへ移動します" />&nbsp;
+				<input type='submit' name="fulltext" class="searchButton" id="mw-searchButton" value="検索" title="入力された文字列が含まれるページを検索します" />
+			</form>
+		</div>
+	</div>
+	<div class="portlet" id="p-tb">
+		<h5>ツールボックス</h5>
+		<div class="pBody">
+			<ul>
+				<li id="t-whatlinkshere"><a href="/mw/%E7%89%B9%E5%88%A5:%E3%83%AA%E3%83%B3%E3%82%AF%E5%85%83/BH12.12/SPARQLthon/TogoAnnotation" title="ここにリンクしている全ウィキのページの一覧 [j]" accesskey="j">リンク元</a></li>
+				<li id="t-recentchangeslinked"><a href="/mw/%E7%89%B9%E5%88%A5:%E9%96%A2%E9%80%A3%E3%83%9A%E3%83%BC%E3%82%B8%E3%81%AE%E6%9B%B4%E6%96%B0%E7%8A%B6%E6%B3%81/BH12.12/SPARQLthon/TogoAnnotation" title="このページからリンクしているページの最近の更新 [k]" accesskey="k">関連ページの更新状況</a></li>
+<li id="t-specialpages"><a href="/mw/%E7%89%B9%E5%88%A5:%E7%89%B9%E5%88%A5%E3%83%9A%E3%83%BC%E3%82%B8%E4%B8%80%E8%A6%A7" title="特別ページの一覧 [q]" accesskey="q">特別ページ</a></li>
+				<li id="t-print"><a href="/mw/index.php?title=BH12.12/SPARQLthon/TogoAnnotation&amp;printable=yes" rel="alternate" title="このページの印刷用ページ [p]" accesskey="p">印刷用バージョン</a></li>				<li id="t-permalink"><a href="/mw/index.php?title=BH12.12/SPARQLthon/TogoAnnotation&amp;oldid=9116" title="ページのこの版への固定リンク">この版への固定リンク</a></li>			</ul>
+		</div>
+	</div>
+</div><!-- end of the left (by default at least) column -->
+<div class="visualClear"></div>
+<div id="footer">
+	<div id="f-poweredbyico"><a href="http://www.mediawiki.org/"><img src="/mw/skins/common/images/poweredby_mediawiki_88x31.png" height="31" width="88" alt="Powered by MediaWiki" /></a></div>
+	<div id="f-copyrightico"><a href="http://creativecommons.org/licenses/by/3.0/"><img src="http://i.creativecommons.org/l/by/3.0/88x31.png" alt="Attribution 3.0 Unported" width="88" height="31" /></a></div>
+	<ul id="f-list">
+		<li id="lastmod"> このページの最終更新は 2013年8月21日 (水) 10:29 に行われました。</li>
+		<li id="viewcount">このページは19,803回アクセスされました。</li>
+		<li id="copyright">内容は<a href="http://creativecommons.org/licenses/by/3.0/" class="external ">Attribution 3.0 Unported</a>のライセンスで利用することができます。</li>
+		<li id="privacy"><a href="/mw/TogoWiki:%E3%83%97%E3%83%A9%E3%82%A4%E3%83%90%E3%82%B7%E3%83%BC%E3%83%BB%E3%83%9D%E3%83%AA%E3%82%B7%E3%83%BC" title="TogoWiki:プライバシー・ポリシー">プライバシー・ポリシー</a></li>
+		<li id="about"><a href="/mw/TogoWiki:TogoWiki%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6" title="TogoWiki:TogoWikiについて">TogoWikiについて</a></li>
+		<li id="disclaimer"><a href="/mw/TogoWiki:%E5%85%8D%E8%B2%AC%E4%BA%8B%E9%A0%85" title="TogoWiki:免責事項">免責事項</a></li>
+	</ul>
+</div>
+</div>
+
+<script>if (window.runOnloadHook) runOnloadHook();</script>
+<!-- Served in 0.732 secs. --></body></html>

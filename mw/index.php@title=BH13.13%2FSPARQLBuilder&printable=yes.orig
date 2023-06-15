@@ -1,0 +1,273 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html lang="ja" dir="ltr">
+<head>
+<title>BH13.13/SPARQLBuilder - TogoWiki</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta name="generator" content="MediaWiki 1.16.3" />
+<meta name="robots" content="noindex,follow" />
+<link rel="shortcut icon" href="/favicon.ico" />
+<link rel="search" type="application/opensearchdescription+xml" href="/mw/opensearch_desc.php" title="TogoWiki (ja)" />
+<link title="Creative Commons" type="application/rdf+xml" href="/mw/index.php?title=BH13.13/SPARQLBuilder&amp;action=creativecommons" rel="meta" />
+<link rel="copyright" href="http://creativecommons.org/licenses/by/3.0/" />
+<link rel="alternate" type="application/atom+xml" title="TogoWikiのAtomフィード" href="/mw/index.php?title=%E7%89%B9%E5%88%A5:%E6%9C%80%E8%BF%91%E3%81%AE%E6%9B%B4%E6%96%B0&amp;feed=atom" />
+<link rel="stylesheet" href="/mw/skins/common/commonPrint.css?270" media="" />
+<link rel="stylesheet" href="/mw/index.php?title=MediaWiki:Common.css&amp;usemsgcache=yes&amp;ctype=text%2Fcss&amp;smaxage=18000&amp;action=raw&amp;maxage=18000" />
+<link rel="stylesheet" href="/mw/index.php?title=MediaWiki:Print.css&amp;usemsgcache=yes&amp;ctype=text%2Fcss&amp;smaxage=18000&amp;action=raw&amp;maxage=18000" media="" />
+<link rel="stylesheet" href="/mw/index.php?title=MediaWiki:Monobook.css&amp;usemsgcache=yes&amp;ctype=text%2Fcss&amp;smaxage=18000&amp;action=raw&amp;maxage=18000" />
+<link rel="stylesheet" href="/mw/index.php?title=-&amp;action=raw&amp;maxage=18000&amp;gen=css" />
+<script>
+var skin="monobook",
+stylepath="/mw/skins",
+wgUrlProtocols="http\\:\\/\\/|https\\:\\/\\/|ftp\\:\\/\\/|irc\\:\\/\\/|gopher\\:\\/\\/|telnet\\:\\/\\/|nntp\\:\\/\\/|worldwind\\:\\/\\/|mailto\\:|news\\:|svn\\:\\/\\/",
+wgArticlePath="/mw/$1",
+wgScriptPath="/mw",
+wgScriptExtension=".php",
+wgScript="/mw/index.php",
+wgVariantArticlePath=false,
+wgActionPaths={},
+wgServer="http://wiki.lifesciencedb.jp",
+wgCanonicalNamespace="",
+wgCanonicalSpecialPageName=false,
+wgNamespaceNumber=0,
+wgPageName="BH13.13/SPARQLBuilder",
+wgTitle="BH13.13/SPARQLBuilder",
+wgAction="view",
+wgArticleId=361,
+wgIsArticle=true,
+wgUserName=null,
+wgUserGroups=null,
+wgUserLanguage="ja",
+wgContentLanguage="ja",
+wgBreakFrames=false,
+wgCurRevisionId=12032,
+wgVersion="1.16.3",
+wgEnableAPI=true,
+wgEnableWriteAPI=true,
+wgSeparatorTransformTable=["", ""],
+wgDigitTransformTable=["", ""],
+wgMainPageTitle="メインページ",
+wgFormattedNamespaces={"-2": "メディア", "-1": "特別", "0": "", "1": "ノート", "2": "利用者", "3": "利用者‐会話", "4": "TogoWiki", "5": "TogoWiki‐ノート", "6": "ファイル", "7": "ファイル‐ノート", "8": "MediaWiki", "9": "MediaWiki‐ノート", "10": "Template", "11": "Template‐ノート", "12": "Help", "13": "Help‐ノート", "14": "Category", "15": "Category‐ノート"},
+wgNamespaceIds={"メディア": -2, "特別": -1, "": 0, "ノート": 1, "利用者": 2, "利用者‐会話": 3, "togowiki": 4, "togowiki‐ノート": 5, "ファイル": 6, "ファイル‐ノート": 7, "mediawiki": 8, "mediawiki‐ノート": 9, "template": 10, "template‐ノート": 11, "help": 12, "help‐ノート": 13, "category": 14, "category‐ノート": 15, "画像": 6, "画像‐ノート": 7, "image": 6, "image_talk": 7},
+wgSiteName="TogoWiki",
+wgCategories=[],
+wgRestrictionEdit=[],
+wgRestrictionMove=[];
+</script><script src="/mw/skins/common/wikibits.js?270"></script>
+<script src="/mw/skins/common/ajax.js?270"></script>
+<script src="/mw/index.php?title=-&amp;action=raw&amp;gen=js&amp;useskin=monobook&amp;270"></script>
+
+		<style type='text/css'>
+		li#pt-openidlogin {
+		  background: url(/mw/extensions/OpenID/skin/icons/openid-inputicon.png) top left no-repeat;
+		  padding-left: 20px;
+		  text-transform: none;
+		}
+		</style>
+</head>
+<body class="mediawiki ltr ns-0 ns-subject page-BH13_13_SPARQLBuilder skin-monobook">
+<div id="globalWrapper">
+<div id="column-content"><div id="content" >
+	<a id="top"></a>
+	
+	<h1 id="firstHeading" class="firstHeading">BH13.13/SPARQLBuilder</h1>
+	<div id="bodyContent">
+		<h3 id="siteSub">提供：TogoWiki</h3>
+		<div id="contentSub"></div>
+		<div id="jump-to-nav">移動： <a href="#column-one">案内</a>, <a href="#searchInput">検索</a></div>
+		<!-- start content -->
+<table id="toc" class="toc"><tr><td><div id="toctitle"><h2>目次</h2></div>
+<ul>
+<li class="toclevel-1 tocsection-1"><a href="#.E6.A6.82.E8.A6.81"><span class="tocnumber">1</span> <span class="toctext">概要</span></a></li>
+<li class="toclevel-1 tocsection-2"><a href="#Members_.28.E3.81.A0.E3.81.84.E3.81.9F.E3.81.84.E8.BE.9E.E6.9B.B8.E9.A0.86.29"><span class="tocnumber">2</span> <span class="toctext">Members (だいたい辞書順)</span></a></li>
+<li class="toclevel-1 tocsection-3"><a href="#.E8.AD.B0.E8.AB.96"><span class="tocnumber">3</span> <span class="toctext">議論</span></a></li>
+<li class="toclevel-1 tocsection-4"><a href="#.E4.BD.9C.E6.88.90.E7.9B.AE.E6.A8.99"><span class="tocnumber">4</span> <span class="toctext">作成目標</span></a></li>
+<li class="toclevel-1 tocsection-5"><a href="#.E3.82.B7.E3.82.B9.E3.83.86.E3.83.A0.E6.A6.82.E8.A6.81"><span class="tocnumber">5</span> <span class="toctext">システム概要</span></a></li>
+<li class="toclevel-1 tocsection-6"><a href="#.E6.AC.B2.E3.81.97.E3.81.84.E6.A9.9F.E8.83.BD"><span class="tocnumber">6</span> <span class="toctext">欲しい機能</span></a></li>
+<li class="toclevel-1 tocsection-7"><a href="#.E5.8F.A4.E3.81.84.E8.A8.98.E4.BA.8B"><span class="tocnumber">7</span> <span class="toctext">古い記事</span></a></li>
+</ul>
+</td></tr></table><script>if (window.showTocToggle) { var tocShowText = "表示"; var tocHideText = "非表示"; showTocToggle(); } </script>
+<h2> <span class="mw-headline" id=".E6.A6.82.E8.A6.81"> 概要 </span></h2>
+<p>　　RDF の検索は SPARQL で行うのが一般的です．しかしながら，SPARQL query を書くためにはその RDF のスキーマを知る必要があり，さらに，ユーザによっては SPARQL query を書くのが困難な場合もあります．
+そこで，半自動的に SPARQL query を作る SPARQL Builder の開発を目指します．
+</p><p>　BH13.13 では，TogoTable 上で利用することを想定して，手元のデータに含まれる特定のクラスのURI群から欲しいクラスのデータを SPARQL endpoint を取り出す SPARQL query を書けることを目標としています．
+</p><p>開発用メモ（GoogleDoc）リンクを知っている人は誰でも編集可能　
+<a href="https://docs.google.com/document/d/1KFauK7wV3_SgSziEPK6annlgBk4kOrqSWXm4LUy51Qk/edit" class="external text" rel="nofollow">GooglDocDocument</a>
+</p><p>開発用メモ用図
+<a href="https://docs.google.com/presentation/d/1IeVB_7QsjvB7zMXHOba9OMrXLjP9hbMApGu-Owbwweo/edit?usp=sharing" class="external text" rel="nofollow">GoogleDocスライド </a>
+</p><p>1/29 ラップアップ用スライド
+<a href="https://docs.google.com/presentation/d/17GchFpOQvn0J3EqKIfUm5Wj1bEn4m2R1WsfRHe_sdx8/edit?usp=sharing" class="external text" rel="nofollow">GoogleDocスライド</a>
+</p><p>1/31 ラップアップ用スライド
+<a href="https://docs.google.com/presentation/d/1oRLG_68DEoQFZedxBL3MJpjvGTmU6lzmpW5oK0bjoOc/edit?usp=sharing" class="external text" rel="nofollow">GoogleDocスライド</a>
+</p><p><a href="http://kiban.dbcls.jp/sparqlbuilder/" class="external text" rel="nofollow">Trac</a>
+<a href="http://kiban.dbcls.jp/svn/sparqlbuilder" class="external text" rel="nofollow">リポジトリ</a>
+</p><p><br />
+</p>
+<h2> <span class="mw-headline" id="Members_.28.E3.81.A0.E3.81.84.E3.81.9F.E3.81.84.E8.BE.9E.E6.9B.B8.E9.A0.86.29"> Members (だいたい辞書順) </span></h2>
+<ul><li> 河野
+</li><li> 呉
+</li><li> 古崎
+</li><li> 小林
+</li><li> 山口
+</li><li> 山中
+</li></ul>
+<h2> <span class="mw-headline" id=".E8.AD.B0.E8.AB.96"> 議論 </span></h2>
+<ul><li> 特定のリソースからRDF データをブラウズして目的のデータに辿り着くのは結構大変．辿り着かない可能性もあるのにえんえんとデータをブラウズするはめになる(効率が悪い)．
+</li><li> 一方，計算で目的のデータまでのパスを計算するのはデータ全体をクロールして計算しないと厳しい．
+</li><li> すべてのインスタンスにクラスが紐付けられ，すべての述語にdomain,range が定義されていれば，インスタンスを辿らなくてもクラス情報と述語の domain, range 情報から，特定のリソースが属するクラスから目的のクラスへのパスを求めることができる．
+</li><li> 次の三つのステップが現実的な解として考えられる，Step1. OWL 情報のみ利用したクラス間のパス，Step2. クラスが紐ついたインスタンスの情報を用いたクラス間のパス，Step3. クラスが紐ついたインスタンスの情報を用いたインスタンスとクラス間のパス
+</li><li> GUI talk
+<ul><li> tree 構造表記
+<ul><li> ディレクトリ型
+</li><li> 中心から広がる型
+</li><li> パスのリスト
+</li></ul>
+</li></ul>
+</li></ul>
+<h2> <span class="mw-headline" id=".E4.BD.9C.E6.88.90.E7.9B.AE.E6.A8.99"> 作成目標 </span></h2>
+<ul><li> 1. OWL が与えられた SPARQL endpoint に対して，始点クラスと終点クラスを入力すると，endpoint から入手した OWL を利用して，クラス間のパスの集合を計算して表示し，さらにパスごとのSPARQLを生成する
+</li><li> 2. OWL がない SPARQL endpoint に対して，始点クラスと終点クラスを入力すると，クラスがついたインスタンスをたどってクラス間のパスの集合を計算して表示し，さらにパスごとの SPARQL を生成する
+</li><li> 3. OWL がない SPARQL endpoint に対して，始点インスタンス(URL)と終点クラスを入力すると，クラスがついたインスタンスをたどってクラス間のパスの集合を計算して表示し，さらにパスごとの SPARQL を生成する
+</li></ul>
+<h2> <span class="mw-headline" id=".E3.82.B7.E3.82.B9.E3.83.86.E3.83.A0.E6.A6.82.E8.A6.81"> システム概要 </span></h2>
+<ul><li> 入力: SPARQL endpoint, 始点クラス＆終点クラス
+<ul><li> 始点クラス＆終点クラスの指定はシステムが候補を提示する
+</li></ul>
+</li><li> 始点クラスから終点クラスへのパス探索
+<ul><li> 必要なデータは都度 endpoint へ問い合わせる
+</li></ul>
+</li><li> 探索されたパスを提示し，ユーザにひとつ選ばせる
+</li><li> 選んだパスから SPARQL を生成する
+</li><li> 生成された SPARQL で検索して，検索結果を表示
+</li></ul>
+<h2> <span class="mw-headline" id=".E6.AC.B2.E3.81.97.E3.81.84.E6.A9.9F.E8.83.BD"> 欲しい機能 </span></h2>
+<ul><li> キーワードからのクラスの候補提示機能 
+</li><li> 含まれるリンク数提示機能
+</li></ul>
+<h2> <span class="mw-headline" id=".E5.8F.A4.E3.81.84.E8.A8.98.E4.BA.8B"> 古い記事 </span></h2>
+<p>SPARQL　builder のprototypeを作ります。
+</p><p>step:
+</p>
+<ul><li> 1. 入力：key word、schema; 出力:keyword を含めるconception(class)。
+</li></ul>
+<ul><li> 2.  入力: conception；出力：Properties。
+</li></ul>
+<p>例：
+</p><p>　　All soccer players, who played as goalkeeper for a club that has a stadium with more than 40000 seats and who are born in a country with more than 10 million inhabitant and who has scored。
+</p><p>入力：
+</p><p>dbpedia Schema;
+</p><p>?soccerPlayers belongedin&nbsp;?club;
+</p><p>position "goalkeeper";
+</p><p><br />
+出力：　
+</p><p>SoccerPlayer　及び　properitie
+</p><p>　
+</p>
+<ul><li> 3.　userはproperitesを選択し、filterを入れる。
+</li></ul>
+<ul><li> 4.　SPARQL　を　generate。
+</li></ul>
+<ul><li> 5.　Refinement。
+</li></ul>
+<p>　
+</p>
+<ul><li> 6.  SPARQL　を　generate。
+</li></ul>
+<p><br />
+</p>
+<hr />
+<p>back to <a href="/mw/BH13.13" title="BH13.13">BH13.13</a>
+</p>
+<!-- 
+NewPP limit report
+Preprocessor node count: 26/1000000
+Post-expand include size: 0/2097152 bytes
+Template argument size: 0/2097152 bytes
+Expensive parser function count: 0/100
+-->
+
+<!-- Saved in parser cache with key wikidb-togowiki_:pcache:idhash:361-0!1!0!!ja!2!edit=0!printable=1 and timestamp 20230605015638 -->
+<div class="printfooter">
+「<a href="http://wiki.lifesciencedb.jp/mw/BH13.13/SPARQLBuilder">http://wiki.lifesciencedb.jp/mw/BH13.13/SPARQLBuilder</a>」より作成</div>
+		<div id='catlinks' class='catlinks catlinks-allhidden'></div>		<!-- end content -->
+				<div class="visualClear"></div>
+	</div>
+</div></div>
+<div id="column-one">
+	<div id="p-cactions" class="portlet">
+		<h5>表示</h5>
+		<div class="pBody">
+			<ul>
+				 <li id="ca-nstab-main" class="selected"><a href="/mw/BH13.13/SPARQLBuilder" title="本文を表示 [c]" accesskey="c">ページ</a></li>
+				 <li id="ca-talk" class="new"><a href="/mw/index.php?title=%E3%83%8E%E3%83%BC%E3%83%88:BH13.13/SPARQLBuilder&amp;action=edit&amp;redlink=1" title="記事についての議論 [t]" accesskey="t">議論</a></li>
+				 <li id="ca-viewsource"><a href="/mw/index.php?title=BH13.13/SPARQLBuilder&amp;action=edit" title="このページは保護されています。&#10;ページのソースを閲覧できます。 [e]" accesskey="e">ソースを表示</a></li>
+				 <li id="ca-history"><a href="/mw/index.php?title=BH13.13/SPARQLBuilder&amp;action=history" title="このページの過去の版 [h]" accesskey="h">履歴</a></li>
+			</ul>
+		</div>
+	</div>
+	<div class="portlet" id="p-personal">
+		<h5>個人用ツール</h5>
+		<div class="pBody">
+			<ul>
+				<li id="pt-anonuserpage"><a href="/mw/%E5%88%A9%E7%94%A8%E8%80%85:172.18.8.51" title="自分が編集しているIPアドレスの利用者ページ [.]" accesskey="." class="new">172.18.8.51</a></li>
+				<li id="pt-anontalk"><a href="/mw/%E5%88%A9%E7%94%A8%E8%80%85%E2%80%90%E4%BC%9A%E8%A9%B1:172.18.8.51" title="このIPアドレスからなされた編集についての議論 [n]" accesskey="n" class="new">このIPアドレスのトーク</a></li>
+				<li id="pt-anonlogin"><a href="/mw/index.php?title=%E7%89%B9%E5%88%A5:%E3%83%AD%E3%82%B0%E3%82%A4%E3%83%B3&amp;returnto=BH13.13/SPARQLBuilder&amp;returntoquery=printable%3Dyes" title="ログインすることが推奨されます。ただし、必須ではありません。 [o]" accesskey="o">ログイン</a></li>
+				<li id="pt-openidlogin"><a href="/mw/index.php?title=%E7%89%B9%E5%88%A5:OpenID%E3%83%AD%E3%82%B0%E3%82%A4%E3%83%B3&amp;returnto=BH13.13/SPARQLBuilder">OpenIDでログイン</a></li>
+			</ul>
+		</div>
+	</div>
+	<div class="portlet" id="p-logo">
+		<a style="background-image: url(/mw/images/togowiki-logo.png);" href="/mw/%E3%83%A1%E3%82%A4%E3%83%B3%E3%83%9A%E3%83%BC%E3%82%B8" title="メインページに移動"></a>
+	</div>
+	<script type="text/javascript"> if (window.isMSIE55) fixalpha(); </script>
+	<div class='generated-sidebar portlet' id='p-navigation'>
+		<h5>案内</h5>
+		<div class='pBody'>
+			<ul>
+				<li id="n-mainpage-description"><a href="/mw/%E3%83%A1%E3%82%A4%E3%83%B3%E3%83%9A%E3%83%BC%E3%82%B8" title="メインページに移動する [z]" accesskey="z">メインページ</a></li>
+				<li id="n-portal"><a href="/mw/TogoWiki:%E3%82%B3%E3%83%9F%E3%83%A5%E3%83%8B%E3%83%86%E3%82%A3%E3%83%BB%E3%83%9D%E3%83%BC%E3%82%BF%E3%83%AB" title="このプロジェクトについて、できること、情報を入手する場所">コミュニティ・ポータル</a></li>
+				<li id="n-currentevents"><a href="/mw/TogoWiki:%E6%9C%80%E8%BF%91%E3%81%AE%E5%87%BA%E6%9D%A5%E4%BA%8B" title="最近の出来事について予備知識を得る">最近の出来事</a></li>
+				<li id="n-recentchanges"><a href="/mw/%E7%89%B9%E5%88%A5:%E6%9C%80%E8%BF%91%E3%81%AE%E6%9B%B4%E6%96%B0" title="ウィキにおける最近の更新の一覧 [r]" accesskey="r">最近の更新</a></li>
+				<li id="n-randompage"><a href="/mw/%E7%89%B9%E5%88%A5:%E3%81%8A%E3%81%BE%E3%81%8B%E3%81%9B%E8%A1%A8%E7%A4%BA" title="無作為に抽出されたページの読み込み [x]" accesskey="x">おまかせ表示</a></li>
+				<li id="n-help"><a href="/mw/Help:%E7%9B%AE%E6%AC%A1" title="情報を得る場所">ヘルプ</a></li>
+			</ul>
+		</div>
+	</div>
+	<div id="p-search" class="portlet">
+		<h5><label for="searchInput">検索</label></h5>
+		<div id="searchBody" class="pBody">
+			<form action="/mw/index.php" id="searchform">
+				<input type='hidden' name="title" value="特別:検索"/>
+				<input id="searchInput" title="TogoWiki内を検索" accesskey="f" type="search" name="search" />
+				<input type='submit' name="go" class="searchButton" id="searchGoButton"	value="表示" title="厳密に一致する名前のページが存在すれば、そのページへ移動します" />&nbsp;
+				<input type='submit' name="fulltext" class="searchButton" id="mw-searchButton" value="検索" title="入力された文字列が含まれるページを検索します" />
+			</form>
+		</div>
+	</div>
+	<div class="portlet" id="p-tb">
+		<h5>ツールボックス</h5>
+		<div class="pBody">
+			<ul>
+				<li id="t-whatlinkshere"><a href="/mw/%E7%89%B9%E5%88%A5:%E3%83%AA%E3%83%B3%E3%82%AF%E5%85%83/BH13.13/SPARQLBuilder" title="ここにリンクしている全ウィキのページの一覧 [j]" accesskey="j">リンク元</a></li>
+				<li id="t-recentchangeslinked"><a href="/mw/%E7%89%B9%E5%88%A5:%E9%96%A2%E9%80%A3%E3%83%9A%E3%83%BC%E3%82%B8%E3%81%AE%E6%9B%B4%E6%96%B0%E7%8A%B6%E6%B3%81/BH13.13/SPARQLBuilder" title="このページからリンクしているページの最近の更新 [k]" accesskey="k">関連ページの更新状況</a></li>
+<li id="t-specialpages"><a href="/mw/%E7%89%B9%E5%88%A5:%E7%89%B9%E5%88%A5%E3%83%9A%E3%83%BC%E3%82%B8%E4%B8%80%E8%A6%A7" title="特別ページの一覧 [q]" accesskey="q">特別ページ</a></li>
+				<li id="t-permalink"><a href="/mw/index.php?title=BH13.13/SPARQLBuilder&amp;oldid=12032" title="ページのこの版への固定リンク">この版への固定リンク</a></li>			</ul>
+		</div>
+	</div>
+</div><!-- end of the left (by default at least) column -->
+<div class="visualClear"></div>
+<div id="footer">
+	<div id="f-poweredbyico"><a href="http://www.mediawiki.org/"><img src="/mw/skins/common/images/poweredby_mediawiki_88x31.png" height="31" width="88" alt="Powered by MediaWiki" /></a></div>
+	<div id="f-copyrightico"><a href="http://creativecommons.org/licenses/by/3.0/"><img src="http://i.creativecommons.org/l/by/3.0/88x31.png" alt="Attribution 3.0 Unported" width="88" height="31" /></a></div>
+	<ul id="f-list">
+		<li id="lastmod"> このページの最終更新は 2014年1月31日 (金) 05:49 に行われました。</li>
+		<li id="viewcount">このページは17,540回アクセスされました。</li>
+		<li id="copyright">内容は<a href="http://creativecommons.org/licenses/by/3.0/" class="external ">Attribution 3.0 Unported</a>のライセンスで利用することができます。</li>
+		<li id="privacy"><a href="/mw/TogoWiki:%E3%83%97%E3%83%A9%E3%82%A4%E3%83%90%E3%82%B7%E3%83%BC%E3%83%BB%E3%83%9D%E3%83%AA%E3%82%B7%E3%83%BC" title="TogoWiki:プライバシー・ポリシー">プライバシー・ポリシー</a></li>
+		<li id="about"><a href="/mw/TogoWiki:TogoWiki%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6" title="TogoWiki:TogoWikiについて">TogoWikiについて</a></li>
+		<li id="disclaimer"><a href="/mw/TogoWiki:%E5%85%8D%E8%B2%AC%E4%BA%8B%E9%A0%85" title="TogoWiki:免責事項">免責事項</a></li>
+	</ul>
+</div>
+</div>
+
+<script>if (window.runOnloadHook) runOnloadHook();</script>
+<!-- Served in 0.379 secs. --></body></html>

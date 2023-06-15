@@ -1,0 +1,260 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html lang="ja" dir="ltr">
+<head>
+<title>ウェブサービスマニフェストの開発とBioDBCore対応 - TogoWiki</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta name="generator" content="MediaWiki 1.16.3" />
+<link rel="shortcut icon" href="/favicon.ico" />
+<link rel="search" type="application/opensearchdescription+xml" href="/mw/opensearch_desc.php" title="TogoWiki (ja)" />
+<link title="Creative Commons" type="application/rdf+xml" href="/mw/index.php?title=%E3%82%A6%E3%82%A7%E3%83%96%E3%82%B5%E3%83%BC%E3%83%93%E3%82%B9%E3%83%9E%E3%83%8B%E3%83%95%E3%82%A7%E3%82%B9%E3%83%88%E3%81%AE%E9%96%8B%E7%99%BA%E3%81%A8BioDBCore%E5%AF%BE%E5%BF%9C&amp;action=creativecommons" rel="meta" />
+<link rel="copyright" href="http://creativecommons.org/licenses/by/3.0/" />
+<link rel="alternate" type="application/atom+xml" title="TogoWikiのAtomフィード" href="/mw/index.php?title=%E7%89%B9%E5%88%A5:%E6%9C%80%E8%BF%91%E3%81%AE%E6%9B%B4%E6%96%B0&amp;feed=atom" />
+<link rel="stylesheet" href="/mw/skins/common/shared.css?270" media="screen" />
+<link rel="stylesheet" href="/mw/skins/common/commonPrint.css?270" media="print" />
+<link rel="stylesheet" href="/mw/skins/monobook/main.css?270" media="screen" />
+<!--[if lt IE 5.5000]><link rel="stylesheet" href="/mw/skins/monobook/IE50Fixes.css?270" media="screen" /><![endif]-->
+<!--[if IE 5.5000]><link rel="stylesheet" href="/mw/skins/monobook/IE55Fixes.css?270" media="screen" /><![endif]-->
+<!--[if IE 6]><link rel="stylesheet" href="/mw/skins/monobook/IE60Fixes.css?270" media="screen" /><![endif]-->
+<!--[if IE 7]><link rel="stylesheet" href="/mw/skins/monobook/IE70Fixes.css?270" media="screen" /><![endif]-->
+<link rel="stylesheet" href="/mw/index.php?title=MediaWiki:Common.css&amp;usemsgcache=yes&amp;ctype=text%2Fcss&amp;smaxage=18000&amp;action=raw&amp;maxage=18000" />
+<link rel="stylesheet" href="/mw/index.php?title=MediaWiki:Print.css&amp;usemsgcache=yes&amp;ctype=text%2Fcss&amp;smaxage=18000&amp;action=raw&amp;maxage=18000" media="print" />
+<link rel="stylesheet" href="/mw/index.php?title=MediaWiki:Monobook.css&amp;usemsgcache=yes&amp;ctype=text%2Fcss&amp;smaxage=18000&amp;action=raw&amp;maxage=18000" />
+<link rel="stylesheet" href="/mw/index.php?title=-&amp;action=raw&amp;maxage=18000&amp;gen=css" />
+<script>
+var skin="monobook",
+stylepath="/mw/skins",
+wgUrlProtocols="http\\:\\/\\/|https\\:\\/\\/|ftp\\:\\/\\/|irc\\:\\/\\/|gopher\\:\\/\\/|telnet\\:\\/\\/|nntp\\:\\/\\/|worldwind\\:\\/\\/|mailto\\:|news\\:|svn\\:\\/\\/",
+wgArticlePath="/mw/$1",
+wgScriptPath="/mw",
+wgScriptExtension=".php",
+wgScript="/mw/index.php",
+wgVariantArticlePath=false,
+wgActionPaths={},
+wgServer="http://wiki.lifesciencedb.jp",
+wgCanonicalNamespace="",
+wgCanonicalSpecialPageName=false,
+wgNamespaceNumber=0,
+wgPageName="ウェブサービスマニフェストの開発とBioDBCore対応",
+wgTitle="ウェブサービスマニフェストの開発とBioDBCore対応",
+wgAction="view",
+wgArticleId=50,
+wgIsArticle=true,
+wgUserName=null,
+wgUserGroups=null,
+wgUserLanguage="ja",
+wgContentLanguage="ja",
+wgBreakFrames=false,
+wgCurRevisionId=926,
+wgVersion="1.16.3",
+wgEnableAPI=true,
+wgEnableWriteAPI=true,
+wgSeparatorTransformTable=["", ""],
+wgDigitTransformTable=["", ""],
+wgMainPageTitle="メインページ",
+wgFormattedNamespaces={"-2": "メディア", "-1": "特別", "0": "", "1": "ノート", "2": "利用者", "3": "利用者‐会話", "4": "TogoWiki", "5": "TogoWiki‐ノート", "6": "ファイル", "7": "ファイル‐ノート", "8": "MediaWiki", "9": "MediaWiki‐ノート", "10": "Template", "11": "Template‐ノート", "12": "Help", "13": "Help‐ノート", "14": "Category", "15": "Category‐ノート"},
+wgNamespaceIds={"メディア": -2, "特別": -1, "": 0, "ノート": 1, "利用者": 2, "利用者‐会話": 3, "togowiki": 4, "togowiki‐ノート": 5, "ファイル": 6, "ファイル‐ノート": 7, "mediawiki": 8, "mediawiki‐ノート": 9, "template": 10, "template‐ノート": 11, "help": 12, "help‐ノート": 13, "category": 14, "category‐ノート": 15, "画像": 6, "画像‐ノート": 7, "image": 6, "image_talk": 7},
+wgSiteName="TogoWiki",
+wgCategories=["Bh10.10"],
+wgRestrictionEdit=[],
+wgRestrictionMove=[];
+</script><script src="/mw/skins/common/wikibits.js?270"></script>
+<script src="/mw/skins/common/ajax.js?270"></script>
+<script src="/mw/index.php?title=-&amp;action=raw&amp;gen=js&amp;useskin=monobook&amp;270"></script>
+
+		<style type='text/css'>
+		li#pt-openidlogin {
+		  background: url(/mw/extensions/OpenID/skin/icons/openid-inputicon.png) top left no-repeat;
+		  padding-left: 20px;
+		  text-transform: none;
+		}
+		</style>
+</head>
+<body class="mediawiki ltr ns-0 ns-subject page-ウェブサービスマニフェストの開発とBioDBCore対応 skin-monobook">
+<div id="globalWrapper">
+<div id="column-content"><div id="content" >
+	<a id="top"></a>
+	
+	<h1 id="firstHeading" class="firstHeading">ウェブサービスマニフェストの開発とBioDBCore対応</h1>
+	<div id="bodyContent">
+		<h3 id="siteSub">提供：TogoWiki</h3>
+		<div id="contentSub"></div>
+		<div id="jump-to-nav">移動： <a href="#column-one">案内</a>, <a href="#searchInput">検索</a></div>
+		<!-- start content -->
+<table id="toc" class="toc"><tr><td><div id="toctitle"><h2>目次</h2></div>
+<ul>
+<li class="toclevel-1 tocsection-1"><a href="#.E6.A6.82.E8.A6.81"><span class="tocnumber">1</span> <span class="toctext">概要</span></a></li>
+<li class="toclevel-1 tocsection-2"><a href="#.E3.83.A1.E3.83.B3.E3.83.90.E3.83.BC"><span class="tocnumber">2</span> <span class="toctext">メンバー</span></a></li>
+<li class="toclevel-1 tocsection-3"><a href="#TODO"><span class="tocnumber">3</span> <span class="toctext">TODO</span></a></li>
+<li class="toclevel-1 tocsection-4"><a href="#.22Odaiba_manifesto.22"><span class="tocnumber">4</span> <span class="toctext">"Odaiba manifesto"</span></a>
+<ul>
+<li class="toclevel-2 tocsection-5"><a href="#.E3.82.A6.E3.82.A7.E3.83.96.E3.82.B5.E3.83.BC.E3.83.93.E3.82.B9.E3.82.AC.E3.82.A4.E3.83.89.E3.83.A9.E3.82.A4.E3.83.B3.40Biohackathon2009_.28REST.26SOAP.29"><span class="tocnumber">4.1</span> <span class="toctext">ウェブサービスガイドライン@Biohackathon2009 (REST&amp;SOAP)</span></a></li>
+<li class="toclevel-2 tocsection-6"><a href="#Tokyo_manifesto.40Biohackathon2010_.28samart_URI.2C_RDF.E5.8C.96.29"><span class="tocnumber">4.2</span> <span class="toctext">Tokyo manifesto@Biohackathon2010 (samart URI, RDF化)</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-7"><a href="#BioDBCore.28.E3.82.B5.E3.82.A4.E3.83.88.E3.83.BB.E8.AB.96.E6.96.87.29"><span class="tocnumber">5</span> <span class="toctext">BioDBCore(サイト・論文)</span></a>
+<ul>
+<li class="toclevel-2 tocsection-8"><a href="#BioHackathon_.E5.81.B4.E3.81.8B.E3.82.89.E6.8F.90.E6.A1.88.E3.81.A7.E3.81.8D.E3.81.9D.E3.81.86.E3.81.AA.E3.81.93.E3.81.A8.E3.81.AB.E3.81.A4.E3.81.84.E3.81.A6"><span class="tocnumber">5.1</span> <span class="toctext">BioHackathon 側から提案できそうなことについて</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-9"><a href="#.E3.81.BE.E3.81.A8.E3.82.81"><span class="tocnumber">6</span> <span class="toctext">まとめ</span></a></li>
+</ul>
+</td></tr></table><script>if (window.showTocToggle) { var tocShowText = "表示"; var tocHideText = "非表示"; showTocToggle(); } </script>
+<h1> <span class="mw-headline" id=".E6.A6.82.E8.A6.81"> 概要 </span></h1>
+<ul><li> Odaiba manifesto@Biocuration2010
+</li><li> ウェブサービスガイドライン@Biohackathon2009 (REST&amp;SOAP)
+</li><li> Tokyo manifesto@Biohackathon2010 (URI, RDF)
+</li><li> Biocuration2010で提案されていた"BioDBCore"との連携？
+</li></ul>
+<h1> <span class="mw-headline" id=".E3.83.A1.E3.83.B3.E3.83.90.E3.83.BC"> メンバー </span></h1>
+<ul><li> 中尾光輝
+</li><li> 片山俊明　←宜しくお願いします
+</li><li> 山口敦子　←宜しくお願いします
+</li><li> 山崎千里
+</li><li> 金城玲
+</li><li> 村上勝彦
+</li></ul>
+<h1> <span class="mw-headline" id="TODO"> TODO </span></h1>
+<h1> <span class="mw-headline" id=".22Odaiba_manifesto.22"> "Odaiba manifesto" </span></h1>
+<p>これまでのBiohachathonで議論してきたガイドラインをBiocurationコミュニティに提案。
+</p><p><a href="/mw/%E3%83%95%E3%82%A1%E3%82%A4%E3%83%AB:OdaibaManifesuto@Biocuration2010.pdf" title="ファイル:OdaibaManifesuto@Biocuration2010.pdf">ファイル:OdaibaManifesuto@Biocuration2010.pdf</a>
+</p>
+<h2> <span class="mw-headline" id=".E3.82.A6.E3.82.A7.E3.83.96.E3.82.B5.E3.83.BC.E3.83.93.E3.82.B9.E3.82.AC.E3.82.A4.E3.83.89.E3.83.A9.E3.82.A4.E3.83.B3.40Biohackathon2009_.28REST.26SOAP.29"> ウェブサービスガイドライン@Biohackathon2009 (REST&amp;SOAP)  </span></h2>
+<ul><li> <a href="http://togows.dbcls.jp/site/ja/rest.html" class="external text" rel="nofollow">日本語（統合WS）</a>
+</li><li>  <a href="http://hackathon2.dbcls.jp/wiki/GuidelineForWebService" class="external text" rel="nofollow">英語</a>
+</li></ul>
+<h2> <span class="mw-headline" id="Tokyo_manifesto.40Biohackathon2010_.28samart_URI.2C_RDF.E5.8C.96.29"> Tokyo manifesto@Biohackathon2010 (samart URI, RDF化)  </span></h2>
+<ul><li> <a href="http://hackathon3.dbcls.jp/wiki/Data_Provider_Session" class="external text" rel="nofollow">Tokyo Manifesto and Data Provider Session</a>
+</li></ul>
+<h1> <span class="mw-headline" id="BioDBCore.28.E3.82.B5.E3.82.A4.E3.83.88.E3.83.BB.E8.AB.96.E6.96.87.29"> BioDBCore(サイト・論文) </span></h1>
+<ul><li> サイト
+</li></ul>
+<p><a href="http://biocurator.org/biodbcore.shtml" class="external free" rel="nofollow">http://biocurator.org/biodbcore.shtml</a>
+</p><p><a href="http://mibbi.org/index.php/Projects/BioDBCore" class="external free" rel="nofollow">http://mibbi.org/index.php/Projects/BioDBCore</a>
+</p>
+<ul><li> 論文
+</li></ul>
+<p><a href="http://nar.oxfordjournals.org/content/early/2010/11/17/nar.gkq1173.full" class="external text" rel="nofollow">Towards BioDBcore: a community-defined information specification for biological databases (2010) Nucleic Acids Res.</a>
+</p><p><a href="http://database.oxfordjournals.org/content/2011/baq027.full?keytype=ref&amp;ijkey=Rb7czMBRiuCjqJ4" class="external text" rel="nofollow">Towards BioDBcore: a community-defined information specification for biological databases (2011) DATABASE</a>
+</p>
+<h2> <span class="mw-headline" id="BioHackathon_.E5.81.B4.E3.81.8B.E3.82.89.E6.8F.90.E6.A1.88.E3.81.A7.E3.81.8D.E3.81.9D.E3.81.86.E3.81.AA.E3.81.93.E3.81.A8.E3.81.AB.E3.81.A4.E3.81.84.E3.81.A6"> BioHackathon 側から提案できそうなことについて</span></h2>
+<p>（金城）
+</p>
+<ul><li> BioDBCore側はミニマルの情報とは何かというのを定義する。
+</li><li> 我々はその内容というよりはそれを提供するサービスの視点からの提案をするのが良いのでは？
+</li></ul>
+<p>というわけで、最低限こちら側から提案できそうなことは
+</p>
+<ol><li> BioDBCoreが提案するチェックリストのOWLオントロジーを作る。
+</li><li> データベースの各エントリにリンク可能なURIを作ることを要求する。
+</li></ol>
+<p>の２点くらいかな？
+</p>
+<ul><li> ２点目に関して、「エントリ」という概念のない（バイオ）DBは存在し得るのか？
+</li></ul>
+<p>（中尾）
+</p>
+<ul><li> ミニマルでないかもしれないけど、検討を提案したいこと
+<ul><li> そのデータベースに関する論文があるなら、そのサイテーション情報
+</li><li> ライセンス
+</li><li> Term of Use のページアドレス
+</li></ul>
+</li><li> DATABASEやNAR DB Issueの場合は、フリーなものが前提なので、そぐわないかもしれない。
+</li></ul>
+<h1> <span class="mw-headline" id=".E3.81.BE.E3.81.A8.E3.82.81"> まとめ </span></h1>
+<ul><li> データベースカタログ情報を共有するRDFフォーマットを議論しています[2011/05/25]（山崎）
+</li></ul>
+
+<!-- 
+NewPP limit report
+Preprocessor node count: 34/1000000
+Post-expand include size: 0/2097152 bytes
+Template argument size: 0/2097152 bytes
+Expensive parser function count: 0/100
+-->
+
+<!-- Saved in parser cache with key wikidb-togowiki_:pcache:idhash:50-0!1!0!!ja!2!edit=0 and timestamp 20230605014550 -->
+<div class="printfooter">
+「<a href="http://wiki.lifesciencedb.jp/mw/%E3%82%A6%E3%82%A7%E3%83%96%E3%82%B5%E3%83%BC%E3%83%93%E3%82%B9%E3%83%9E%E3%83%8B%E3%83%95%E3%82%A7%E3%82%B9%E3%83%88%E3%81%AE%E9%96%8B%E7%99%BA%E3%81%A8BioDBCore%E5%AF%BE%E5%BF%9C">http://wiki.lifesciencedb.jp/mw/%E3%82%A6%E3%82%A7%E3%83%96%E3%82%B5%E3%83%BC%E3%83%93%E3%82%B9%E3%83%9E%E3%83%8B%E3%83%95%E3%82%A7%E3%82%B9%E3%83%88%E3%81%AE%E9%96%8B%E7%99%BA%E3%81%A8BioDBCore%E5%AF%BE%E5%BF%9C</a>」より作成</div>
+		<div id='catlinks' class='catlinks'><div id="mw-normal-catlinks"><a href="/mw/%E7%89%B9%E5%88%A5:%E3%82%AB%E3%83%86%E3%82%B4%E3%83%AA" title="特別:カテゴリ">カテゴリ</a>: <span dir='ltr'><a href="/mw/index.php?title=Category:Bh10.10&amp;action=edit&amp;redlink=1" class="new" title="Category:Bh10.10（存在しないページ）">Bh10.10</a></span></div></div>		<!-- end content -->
+				<div class="visualClear"></div>
+	</div>
+</div></div>
+<div id="column-one">
+	<div id="p-cactions" class="portlet">
+		<h5>表示</h5>
+		<div class="pBody">
+			<ul>
+				 <li id="ca-nstab-main" class="selected"><a href="/mw/%E3%82%A6%E3%82%A7%E3%83%96%E3%82%B5%E3%83%BC%E3%83%93%E3%82%B9%E3%83%9E%E3%83%8B%E3%83%95%E3%82%A7%E3%82%B9%E3%83%88%E3%81%AE%E9%96%8B%E7%99%BA%E3%81%A8BioDBCore%E5%AF%BE%E5%BF%9C" title="本文を表示 [c]" accesskey="c">ページ</a></li>
+				 <li id="ca-talk" class="new"><a href="/mw/index.php?title=%E3%83%8E%E3%83%BC%E3%83%88:%E3%82%A6%E3%82%A7%E3%83%96%E3%82%B5%E3%83%BC%E3%83%93%E3%82%B9%E3%83%9E%E3%83%8B%E3%83%95%E3%82%A7%E3%82%B9%E3%83%88%E3%81%AE%E9%96%8B%E7%99%BA%E3%81%A8BioDBCore%E5%AF%BE%E5%BF%9C&amp;action=edit&amp;redlink=1" title="記事についての議論 [t]" accesskey="t">議論</a></li>
+				 <li id="ca-viewsource"><a href="/mw/index.php?title=%E3%82%A6%E3%82%A7%E3%83%96%E3%82%B5%E3%83%BC%E3%83%93%E3%82%B9%E3%83%9E%E3%83%8B%E3%83%95%E3%82%A7%E3%82%B9%E3%83%88%E3%81%AE%E9%96%8B%E7%99%BA%E3%81%A8BioDBCore%E5%AF%BE%E5%BF%9C&amp;action=edit" title="このページは保護されています。&#10;ページのソースを閲覧できます。 [e]" accesskey="e">ソースを表示</a></li>
+				 <li id="ca-history"><a href="/mw/index.php?title=%E3%82%A6%E3%82%A7%E3%83%96%E3%82%B5%E3%83%BC%E3%83%93%E3%82%B9%E3%83%9E%E3%83%8B%E3%83%95%E3%82%A7%E3%82%B9%E3%83%88%E3%81%AE%E9%96%8B%E7%99%BA%E3%81%A8BioDBCore%E5%AF%BE%E5%BF%9C&amp;action=history" title="このページの過去の版 [h]" accesskey="h">履歴</a></li>
+			</ul>
+		</div>
+	</div>
+	<div class="portlet" id="p-personal">
+		<h5>個人用ツール</h5>
+		<div class="pBody">
+			<ul>
+				<li id="pt-anonuserpage"><a href="/mw/%E5%88%A9%E7%94%A8%E8%80%85:172.18.8.51" title="自分が編集しているIPアドレスの利用者ページ [.]" accesskey="." class="new">172.18.8.51</a></li>
+				<li id="pt-anontalk"><a href="/mw/%E5%88%A9%E7%94%A8%E8%80%85%E2%80%90%E4%BC%9A%E8%A9%B1:172.18.8.51" title="このIPアドレスからなされた編集についての議論 [n]" accesskey="n" class="new">このIPアドレスのトーク</a></li>
+				<li id="pt-anonlogin"><a href="/mw/index.php?title=%E7%89%B9%E5%88%A5:%E3%83%AD%E3%82%B0%E3%82%A4%E3%83%B3&amp;returnto=%E3%82%A6%E3%82%A7%E3%83%96%E3%82%B5%E3%83%BC%E3%83%93%E3%82%B9%E3%83%9E%E3%83%8B%E3%83%95%E3%82%A7%E3%82%B9%E3%83%88%E3%81%AE%E9%96%8B%E7%99%BA%E3%81%A8BioDBCore%E5%AF%BE%E5%BF%9C" title="ログインすることが推奨されます。ただし、必須ではありません。 [o]" accesskey="o">ログイン</a></li>
+				<li id="pt-openidlogin"><a href="/mw/index.php?title=%E7%89%B9%E5%88%A5:OpenID%E3%83%AD%E3%82%B0%E3%82%A4%E3%83%B3&amp;returnto=%E3%82%A6%E3%82%A7%E3%83%96%E3%82%B5%E3%83%BC%E3%83%93%E3%82%B9%E3%83%9E%E3%83%8B%E3%83%95%E3%82%A7%E3%82%B9%E3%83%88%E3%81%AE%E9%96%8B%E7%99%BA%E3%81%A8BioDBCore%E5%AF%BE%E5%BF%9C">OpenIDでログイン</a></li>
+			</ul>
+		</div>
+	</div>
+	<div class="portlet" id="p-logo">
+		<a style="background-image: url(/mw/images/togowiki-logo.png);" href="/mw/%E3%83%A1%E3%82%A4%E3%83%B3%E3%83%9A%E3%83%BC%E3%82%B8" title="メインページに移動"></a>
+	</div>
+	<script type="text/javascript"> if (window.isMSIE55) fixalpha(); </script>
+	<div class='generated-sidebar portlet' id='p-navigation'>
+		<h5>案内</h5>
+		<div class='pBody'>
+			<ul>
+				<li id="n-mainpage-description"><a href="/mw/%E3%83%A1%E3%82%A4%E3%83%B3%E3%83%9A%E3%83%BC%E3%82%B8" title="メインページに移動する [z]" accesskey="z">メインページ</a></li>
+				<li id="n-portal"><a href="/mw/TogoWiki:%E3%82%B3%E3%83%9F%E3%83%A5%E3%83%8B%E3%83%86%E3%82%A3%E3%83%BB%E3%83%9D%E3%83%BC%E3%82%BF%E3%83%AB" title="このプロジェクトについて、できること、情報を入手する場所">コミュニティ・ポータル</a></li>
+				<li id="n-currentevents"><a href="/mw/TogoWiki:%E6%9C%80%E8%BF%91%E3%81%AE%E5%87%BA%E6%9D%A5%E4%BA%8B" title="最近の出来事について予備知識を得る">最近の出来事</a></li>
+				<li id="n-recentchanges"><a href="/mw/%E7%89%B9%E5%88%A5:%E6%9C%80%E8%BF%91%E3%81%AE%E6%9B%B4%E6%96%B0" title="ウィキにおける最近の更新の一覧 [r]" accesskey="r">最近の更新</a></li>
+				<li id="n-randompage"><a href="/mw/%E7%89%B9%E5%88%A5:%E3%81%8A%E3%81%BE%E3%81%8B%E3%81%9B%E8%A1%A8%E7%A4%BA" title="無作為に抽出されたページの読み込み [x]" accesskey="x">おまかせ表示</a></li>
+				<li id="n-help"><a href="/mw/Help:%E7%9B%AE%E6%AC%A1" title="情報を得る場所">ヘルプ</a></li>
+			</ul>
+		</div>
+	</div>
+	<div id="p-search" class="portlet">
+		<h5><label for="searchInput">検索</label></h5>
+		<div id="searchBody" class="pBody">
+			<form action="/mw/index.php" id="searchform">
+				<input type='hidden' name="title" value="特別:検索"/>
+				<input id="searchInput" title="TogoWiki内を検索" accesskey="f" type="search" name="search" />
+				<input type='submit' name="go" class="searchButton" id="searchGoButton"	value="表示" title="厳密に一致する名前のページが存在すれば、そのページへ移動します" />&nbsp;
+				<input type='submit' name="fulltext" class="searchButton" id="mw-searchButton" value="検索" title="入力された文字列が含まれるページを検索します" />
+			</form>
+		</div>
+	</div>
+	<div class="portlet" id="p-tb">
+		<h5>ツールボックス</h5>
+		<div class="pBody">
+			<ul>
+				<li id="t-whatlinkshere"><a href="/mw/%E7%89%B9%E5%88%A5:%E3%83%AA%E3%83%B3%E3%82%AF%E5%85%83/%E3%82%A6%E3%82%A7%E3%83%96%E3%82%B5%E3%83%BC%E3%83%93%E3%82%B9%E3%83%9E%E3%83%8B%E3%83%95%E3%82%A7%E3%82%B9%E3%83%88%E3%81%AE%E9%96%8B%E7%99%BA%E3%81%A8BioDBCore%E5%AF%BE%E5%BF%9C" title="ここにリンクしている全ウィキのページの一覧 [j]" accesskey="j">リンク元</a></li>
+				<li id="t-recentchangeslinked"><a href="/mw/%E7%89%B9%E5%88%A5:%E9%96%A2%E9%80%A3%E3%83%9A%E3%83%BC%E3%82%B8%E3%81%AE%E6%9B%B4%E6%96%B0%E7%8A%B6%E6%B3%81/%E3%82%A6%E3%82%A7%E3%83%96%E3%82%B5%E3%83%BC%E3%83%93%E3%82%B9%E3%83%9E%E3%83%8B%E3%83%95%E3%82%A7%E3%82%B9%E3%83%88%E3%81%AE%E9%96%8B%E7%99%BA%E3%81%A8BioDBCore%E5%AF%BE%E5%BF%9C" title="このページからリンクしているページの最近の更新 [k]" accesskey="k">関連ページの更新状況</a></li>
+<li id="t-specialpages"><a href="/mw/%E7%89%B9%E5%88%A5:%E7%89%B9%E5%88%A5%E3%83%9A%E3%83%BC%E3%82%B8%E4%B8%80%E8%A6%A7" title="特別ページの一覧 [q]" accesskey="q">特別ページ</a></li>
+				<li id="t-print"><a href="/mw/index.php?title=%E3%82%A6%E3%82%A7%E3%83%96%E3%82%B5%E3%83%BC%E3%83%93%E3%82%B9%E3%83%9E%E3%83%8B%E3%83%95%E3%82%A7%E3%82%B9%E3%83%88%E3%81%AE%E9%96%8B%E7%99%BA%E3%81%A8BioDBCore%E5%AF%BE%E5%BF%9C&amp;printable=yes" rel="alternate" title="このページの印刷用ページ [p]" accesskey="p">印刷用バージョン</a></li>				<li id="t-permalink"><a href="/mw/index.php?title=%E3%82%A6%E3%82%A7%E3%83%96%E3%82%B5%E3%83%BC%E3%83%93%E3%82%B9%E3%83%9E%E3%83%8B%E3%83%95%E3%82%A7%E3%82%B9%E3%83%88%E3%81%AE%E9%96%8B%E7%99%BA%E3%81%A8BioDBCore%E5%AF%BE%E5%BF%9C&amp;oldid=926" title="ページのこの版への固定リンク">この版への固定リンク</a></li>			</ul>
+		</div>
+	</div>
+</div><!-- end of the left (by default at least) column -->
+<div class="visualClear"></div>
+<div id="footer">
+	<div id="f-poweredbyico"><a href="http://www.mediawiki.org/"><img src="/mw/skins/common/images/poweredby_mediawiki_88x31.png" height="31" width="88" alt="Powered by MediaWiki" /></a></div>
+	<div id="f-copyrightico"><a href="http://creativecommons.org/licenses/by/3.0/"><img src="http://i.creativecommons.org/l/by/3.0/88x31.png" alt="Attribution 3.0 Unported" width="88" height="31" /></a></div>
+	<ul id="f-list">
+		<li id="lastmod"> このページの最終更新は 2011年5月26日 (木) 08:59 に行われました。</li>
+		<li id="viewcount">このページは19,386回アクセスされました。</li>
+		<li id="copyright">内容は<a href="http://creativecommons.org/licenses/by/3.0/" class="external ">Attribution 3.0 Unported</a>のライセンスで利用することができます。</li>
+		<li id="privacy"><a href="/mw/TogoWiki:%E3%83%97%E3%83%A9%E3%82%A4%E3%83%90%E3%82%B7%E3%83%BC%E3%83%BB%E3%83%9D%E3%83%AA%E3%82%B7%E3%83%BC" title="TogoWiki:プライバシー・ポリシー">プライバシー・ポリシー</a></li>
+		<li id="about"><a href="/mw/TogoWiki:TogoWiki%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6" title="TogoWiki:TogoWikiについて">TogoWikiについて</a></li>
+		<li id="disclaimer"><a href="/mw/TogoWiki:%E5%85%8D%E8%B2%AC%E4%BA%8B%E9%A0%85" title="TogoWiki:免責事項">免責事項</a></li>
+	</ul>
+</div>
+</div>
+
+<script>if (window.runOnloadHook) runOnloadHook();</script>
+<!-- Served in 0.613 secs. --></body></html>

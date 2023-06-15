@@ -1,0 +1,330 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html lang="ja" dir="ltr">
+<head>
+<title>SPARQLthon63/vg - TogoWiki</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta name="generator" content="MediaWiki 1.16.3" />
+<meta name="robots" content="noindex,nofollow" />
+<link rel="shortcut icon" href="/favicon.ico" />
+<link rel="search" type="application/opensearchdescription+xml" href="/mw/opensearch_desc.php" title="TogoWiki (ja)" />
+<link title="Creative Commons" type="application/rdf+xml" href="/mw/index.php?title=SPARQLthon63/vg&amp;action=creativecommons" rel="meta" />
+<link rel="copyright" href="http://creativecommons.org/licenses/by/3.0/" />
+<link rel="alternate" type="application/atom+xml" title="TogoWikiのAtomフィード" href="/mw/index.php?title=%E7%89%B9%E5%88%A5:%E6%9C%80%E8%BF%91%E3%81%AE%E6%9B%B4%E6%96%B0&amp;feed=atom" />
+<link rel="stylesheet" href="/mw/skins/common/diff.css?270" />
+<link rel="stylesheet" href="/mw/skins/common/shared.css?270" media="screen" />
+<link rel="stylesheet" href="/mw/skins/common/commonPrint.css?270" media="print" />
+<link rel="stylesheet" href="/mw/skins/monobook/main.css?270" media="screen" />
+<!--[if lt IE 5.5000]><link rel="stylesheet" href="/mw/skins/monobook/IE50Fixes.css?270" media="screen" /><![endif]-->
+<!--[if IE 5.5000]><link rel="stylesheet" href="/mw/skins/monobook/IE55Fixes.css?270" media="screen" /><![endif]-->
+<!--[if IE 6]><link rel="stylesheet" href="/mw/skins/monobook/IE60Fixes.css?270" media="screen" /><![endif]-->
+<!--[if IE 7]><link rel="stylesheet" href="/mw/skins/monobook/IE70Fixes.css?270" media="screen" /><![endif]-->
+<link rel="stylesheet" href="/mw/index.php?title=MediaWiki:Common.css&amp;usemsgcache=yes&amp;ctype=text%2Fcss&amp;smaxage=18000&amp;action=raw&amp;maxage=18000" />
+<link rel="stylesheet" href="/mw/index.php?title=MediaWiki:Print.css&amp;usemsgcache=yes&amp;ctype=text%2Fcss&amp;smaxage=18000&amp;action=raw&amp;maxage=18000" media="print" />
+<link rel="stylesheet" href="/mw/index.php?title=MediaWiki:Monobook.css&amp;usemsgcache=yes&amp;ctype=text%2Fcss&amp;smaxage=18000&amp;action=raw&amp;maxage=18000" />
+<link rel="stylesheet" href="/mw/index.php?title=-&amp;action=raw&amp;maxage=18000&amp;gen=css" />
+<script>
+var skin="monobook",
+stylepath="/mw/skins",
+wgUrlProtocols="http\\:\\/\\/|https\\:\\/\\/|ftp\\:\\/\\/|irc\\:\\/\\/|gopher\\:\\/\\/|telnet\\:\\/\\/|nntp\\:\\/\\/|worldwind\\:\\/\\/|mailto\\:|news\\:|svn\\:\\/\\/",
+wgArticlePath="/mw/$1",
+wgScriptPath="/mw",
+wgScriptExtension=".php",
+wgScript="/mw/index.php",
+wgVariantArticlePath=false,
+wgActionPaths={},
+wgServer="http://wiki.lifesciencedb.jp",
+wgCanonicalNamespace="",
+wgCanonicalSpecialPageName=false,
+wgNamespaceNumber=0,
+wgPageName="SPARQLthon63/vg",
+wgTitle="SPARQLthon63/vg",
+wgAction="view",
+wgArticleId=855,
+wgIsArticle=true,
+wgUserName=null,
+wgUserGroups=null,
+wgUserLanguage="ja",
+wgContentLanguage="ja",
+wgBreakFrames=false,
+wgCurRevisionId=23248,
+wgVersion="1.16.3",
+wgEnableAPI=true,
+wgEnableWriteAPI=true,
+wgSeparatorTransformTable=["", ""],
+wgDigitTransformTable=["", ""],
+wgMainPageTitle="メインページ",
+wgFormattedNamespaces={"-2": "メディア", "-1": "特別", "0": "", "1": "ノート", "2": "利用者", "3": "利用者‐会話", "4": "TogoWiki", "5": "TogoWiki‐ノート", "6": "ファイル", "7": "ファイル‐ノート", "8": "MediaWiki", "9": "MediaWiki‐ノート", "10": "Template", "11": "Template‐ノート", "12": "Help", "13": "Help‐ノート", "14": "Category", "15": "Category‐ノート"},
+wgNamespaceIds={"メディア": -2, "特別": -1, "": 0, "ノート": 1, "利用者": 2, "利用者‐会話": 3, "togowiki": 4, "togowiki‐ノート": 5, "ファイル": 6, "ファイル‐ノート": 7, "mediawiki": 8, "mediawiki‐ノート": 9, "template": 10, "template‐ノート": 11, "help": 12, "help‐ノート": 13, "category": 14, "category‐ノート": 15, "画像": 6, "画像‐ノート": 7, "image": 6, "image_talk": 7},
+wgSiteName="TogoWiki",
+wgCategories=[],
+wgRestrictionEdit=[],
+wgRestrictionMove=[];
+</script><script src="/mw/skins/common/wikibits.js?270"></script>
+<script type="text/javascript" src="/mw/skins/common/diff.js?270"></script>
+<script src="/mw/skins/common/ajax.js?270"></script>
+<script src="/mw/index.php?title=-&amp;action=raw&amp;gen=js&amp;useskin=monobook&amp;270"></script>
+
+		<style type='text/css'>
+		li#pt-openidlogin {
+		  background: url(/mw/extensions/OpenID/skin/icons/openid-inputicon.png) top left no-repeat;
+		  padding-left: 20px;
+		  text-transform: none;
+		}
+		</style>
+</head>
+<body class="mediawiki ltr ns-0 ns-subject page-SPARQLthon63_vg skin-monobook">
+<div id="globalWrapper">
+<div id="column-content"><div id="content" >
+	<a id="top"></a>
+	
+	<h1 id="firstHeading" class="firstHeading">SPARQLthon63/vg</h1>
+	<div id="bodyContent">
+		<h3 id="siteSub">提供：TogoWiki</h3>
+		<div id="contentSub">（版間での差分）</div>
+		<div id="jump-to-nav">移動： <a href="#column-one">案内</a>, <a href="#searchInput">検索</a></div>
+		<!-- start content -->
+<table class='diff'>
+			<col class='diff-marker' />
+			<col class='diff-content' />
+			<col class='diff-marker' />
+			<col class='diff-content' />
+		<tr valign='top'>
+		<td colspan='2' class='diff-otitle'><div id="mw-diff-otitle1"><strong><a href='/mw/index.php?title=SPARQLthon63/vg&amp;oldid=23247'>2017年12月16日 (土) 09:50時点における版</a> (<a href='/mw/index.php?title=SPARQLthon63/vg&amp;action=edit&amp;oldid=23247'>ソースを表示</a>)</strong></div><div id="mw-diff-otitle2"><a href="/mw/index.php?title=%E5%88%A9%E7%94%A8%E8%80%85:Ktym&amp;action=edit&amp;redlink=1" class="new mw-userlink" title="利用者:Ktym（存在しないページ）">Ktym</a>  <span class="mw-usertoollinks">(<a href="/mw/index.php?title=%E5%88%A9%E7%94%A8%E8%80%85%E2%80%90%E4%BC%9A%E8%A9%B1:Ktym&amp;action=edit&amp;redlink=1" class="new" title="利用者‐会話:Ktym（存在しないページ）">トーク</a> | <a href="/mw/%E7%89%B9%E5%88%A5:%E6%8A%95%E7%A8%BF%E8%A8%98%E9%8C%B2/Ktym" title="特別:投稿記録/Ktym">投稿記録</a>)</span></div><div id="mw-diff-otitle3"> <span class="comment">(<span class="autocomment"><a href="#GRCh37.E3.81.AERefSeq.E3.81.AERDF">→</a>GRCh37のRefSeqのRDF</span>)</span></div><div id="mw-diff-otitle4"><a href="/mw/index.php?title=SPARQLthon63/vg&amp;diff=prev&amp;oldid=23247" title="SPARQLthon63/vg" id="differences-prevlink">←古い編集</a></div></td>
+		<td colspan='2' class='diff-ntitle'><div id="mw-diff-ntitle1"><strong><a href='/mw/index.php?title=SPARQLthon63/vg&amp;oldid=23248'>2017年12月16日 (土) 10:58時点における最新版</a> (<a href='/mw/index.php?title=SPARQLthon63/vg&amp;action=edit'>ソースを表示</a>)</strong></div><div id="mw-diff-ntitle2"><a href="/mw/index.php?title=%E5%88%A9%E7%94%A8%E8%80%85:Yokookbp&amp;action=edit&amp;redlink=1" class="new mw-userlink" title="利用者:Yokookbp（存在しないページ）">Yokookbp</a>  <span class="mw-usertoollinks">(<a href="/mw/index.php?title=%E5%88%A9%E7%94%A8%E8%80%85%E2%80%90%E4%BC%9A%E8%A9%B1:Yokookbp&amp;action=edit&amp;redlink=1" class="new" title="利用者‐会話:Yokookbp（存在しないページ）">トーク</a> | <a href="/mw/%E7%89%B9%E5%88%A5:%E6%8A%95%E7%A8%BF%E8%A8%98%E9%8C%B2/Yokookbp" title="特別:投稿記録/Yokookbp">投稿記録</a>)</span> </div><div id="mw-diff-ntitle3"> <span class="comment">(<span class="autocomment"><a href="#GRCh37.E3.81.AERefSeq.E3.81.AERDF">→</a>GRCh37のRefSeqのRDF</span>)</span></div><div id="mw-diff-ntitle4">&nbsp;</div></td>
+		</tr><tr><td colspan="2" class="diff-lineno">43行：</td>
+<td colspan="2" class="diff-lineno">43行：</td></tr>
+<tr><td class='diff-marker'> </td><td class='diff-context'><div>グラフ名</div></td><td class='diff-marker'> </td><td class='diff-context'><div>グラフ名</div></td></tr>
+<tr><td class='diff-marker'> </td><td class='diff-context'><div>{| class=&quot;wikitable&quot;</div></td><td class='diff-marker'> </td><td class='diff-context'><div>{| class=&quot;wikitable&quot;</div></td></tr>
+<tr><td class='diff-marker'>-</td><td class='diff-deletedline'><div>!グラフURI!!トリプル数</div></td><td class='diff-marker'>+</td><td class='diff-addedline'><div>!グラフURI!!トリプル数<ins class="diffchange diffchange-inline">!!ディレクトリ</ins></div></td></tr>
+<tr><td class='diff-marker'> </td><td class='diff-context'><div>|-</div></td><td class='diff-marker'> </td><td class='diff-context'><div>|-</div></td></tr>
+<tr><td class='diff-marker'>-</td><td class='diff-deletedline'><div>|http://togogenome.org/graph/refseq/human/grch37||16407809</div></td><td class='diff-marker'>+</td><td class='diff-addedline'><div>|http://togogenome.org/graph/refseq/human/grch37||16407809<ins class="diffchange diffchange-inline">||/data/store/rdf/togogenome/refseq/grch37_human/refseq.ttl/9606/PRJNA168/</ins></div></td></tr>
+<tr><td class='diff-marker'> </td><td class='diff-context'><div>|-</div></td><td class='diff-marker'> </td><td class='diff-context'><div>|-</div></td></tr>
+<tr><td class='diff-marker'>-</td><td class='diff-deletedline'><div>|http://togogenome.org/graph/insdc||14238</div></td><td class='diff-marker'>+</td><td class='diff-addedline'><div>|http://togogenome.org/graph/insdc||14238<ins class="diffchange diffchange-inline">||/data/store/rdf/togogenome/ontology/insdc/20171125/nucleotide.ttl</ins></div></td></tr>
+<tr><td class='diff-marker'> </td><td class='diff-context'><div>|-</div></td><td class='diff-marker'> </td><td class='diff-context'><div>|-</div></td></tr>
+<tr><td class='diff-marker'>-</td><td class='diff-deletedline'><div>|http://togogenome.org/graph/so||43060</div></td><td class='diff-marker'>+</td><td class='diff-addedline'><div>|http://togogenome.org/graph/so||43060<ins class="diffchange diffchange-inline">||/data/store/rdf/togogenome/ontology/so/20130618/so.owl</ins></div></td></tr>
+<tr><td class='diff-marker'> </td><td class='diff-context'><div>|-</div></td><td class='diff-marker'> </td><td class='diff-context'><div>|-</div></td></tr>
+<tr><td class='diff-marker'>-</td><td class='diff-deletedline'><div>|http://togogenome.org/graph/faldo||232</div></td><td class='diff-marker'>+</td><td class='diff-addedline'><div>|http://togogenome.org/graph/faldo||232<ins class="diffchange diffchange-inline">||/data/store/rdf/togogenome/ontology/faldo/20171125/faldo.ttl</ins></div></td></tr>
+<tr><td class='diff-marker'> </td><td class='diff-context'><div>|}</div></td><td class='diff-marker'> </td><td class='diff-context'><div>|}</div></td></tr>
+<tr><td class='diff-marker'> </td><td class='diff-context'></td><td class='diff-marker'> </td><td class='diff-context'></td></tr>
+</table><hr /><h2>2017年12月16日 (土) 10:58時点における最新版</h2>
+<table id="toc" class="toc"><tr><td><div id="toctitle"><h2>目次</h2></div>
+<ul>
+<li class="toclevel-1 tocsection-1"><a href="#.E3.82.B2.E3.83.8E.E3.83.A0.E3.83.BB.E3.82.B0.E3.83.A9.E3.83.95"><span class="tocnumber">1</span> <span class="toctext">ゲノム・グラフ</span></a>
+<ul>
+<li class="toclevel-2 tocsection-2"><a href="#.E3.83.8A.E3.83.9D.E3.83.AA.E5.A0.B1.E5.91.8A"><span class="tocnumber">1.1</span> <span class="toctext">ナポリ報告</span></a></li>
+<li class="toclevel-2 tocsection-3"><a href="#.E5.8F.AF.E8.A6.96.E5.8C.96.E3.81.AB.E5.BF.85.E8.A6.81.E3.81.AAAPI"><span class="tocnumber">1.2</span> <span class="toctext">可視化に必要なAPI</span></a>
+<ul>
+<li class="toclevel-3 tocsection-4"><a href="#.E4.BB.8A.E5.BE.8C.E3.81.AE.E8.AA.B2.E9.A1.8C"><span class="tocnumber">1.2.1</span> <span class="toctext">今後の課題</span></a></li>
+<li class="toclevel-3 tocsection-5"><a href="#GRCh37.E3.81.AERefSeq.E3.81.AERDF"><span class="tocnumber">1.2.2</span> <span class="toctext">GRCh37のRefSeqのRDF</span></a></li>
+</ul>
+</li>
+<li class="toclevel-2 tocsection-6"><a href="#Ensembl_RDF_.E3.81.AE_SO_type"><span class="tocnumber">1.3</span> <span class="toctext">Ensembl RDF の SO type</span></a></li>
+<li class="toclevel-2 tocsection-7"><a href="#.E3.82.B2.E3.83.8E.E3.83.A0.E3.83.BB.E3.82.B0.E3.83.A9.E3.83.95.E7.A0.94.E7.A9.B6.E4.BC.9A"><span class="tocnumber">1.4</span> <span class="toctext">ゲノム・グラフ研究会</span></a></li>
+</ul>
+</li>
+</ul>
+</td></tr></table><script>if (window.showTocToggle) { var tocShowText = "表示"; var tocHideText = "非表示"; showTocToggle(); } </script>
+<h2> <span class="mw-headline" id=".E3.82.B2.E3.83.8E.E3.83.A0.E3.83.BB.E3.82.B0.E3.83.A9.E3.83.95"> ゲノム・グラフ </span></h2>
+<h3> <span class="mw-headline" id=".E3.83.8A.E3.83.9D.E3.83.AA.E5.A0.B1.E5.91.8A"> ナポリ報告 </span></h3>
+<p>SWAT4HCLS の出張にあわせて Erik Garrison 氏を訪問し、最新の開発状況について打ち合わせを行った。（片山）
+</p>
+<ul><li> クロモソームをまたぐ translocation は、複数クロモソームを path として持つ vg を作っておき、vg mod -i や vg argument でアノテーションできるらしい
+<ul><li> パスの定義は GAM ファイルを書くことで行うことになりそう
+</li><li> vg find でクロモソーム # の position # に該当するノードを検索、ノードとノードをつなぐパスを GAM に記載という感じ
+</li></ul>
+</li><li> ハプロタイプについては phased/unphased な VCF ファイルから vg index -x で xg もしくは -G で gbwt ファイルを作ることで path としてアノテーションされる
+<ul><li> 参考ページ
+<ul><li> <a href="https://github.com/jltsiren/gbwt/wiki/Query-Interface" class="external free" rel="nofollow">https://github.com/jltsiren/gbwt/wiki/Query-Interface</a>
+</li><li> <a href="https://github.com/jltsiren/gbwt/wiki/Construction-Benchmarks" class="external free" rel="nofollow">https://github.com/jltsiren/gbwt/wiki/Construction-Benchmarks</a>
+</li></ul>
+</li><li> ただし build 版の docker <a href="https://quay.io/repository/vgteam/vg?tag=latest&amp;tab=tags" class="external free" rel="nofollow">https://quay.io/repository/vgteam/vg?tag=latest&amp;tab=tags</a> にはまだこの機能はない
+<ul><li> また GBWT の機能はまだ開発中で、phased と unphased が混ざってる VCF を作って食わせたところバグが判明（イマココ）
+</li></ul>
+</li></ul>
+</li><li> 2018年3月に vg のチュートリアルがポルトガルで行われるらしい
+<ul><li> <a href="https://genomegraph.github.io/website/portugal" class="external free" rel="nofollow">https://genomegraph.github.io/website/portugal</a>
+</li></ul>
+</li></ul>
+<h3> <span class="mw-headline" id=".E5.8F.AF.E8.A6.96.E5.8C.96.E3.81.AB.E5.BF.85.E8.A6.81.E3.81.AAAPI"> 可視化に必要なAPI </span></h3>
+<ul><li> 遺伝子やリピート領域のアノテーションを JSON で受け取って vg の可視化に使いたい
+<ul><li> SPARQList で TogoGenome のエンドポイントからアノテーションを取得すれば良さそう
+</li><li> リピート (Repeat Masker などが出力するタイプのもの) については RefSeq にアノテーションがないっぽい → Ensembl にあるか調べる
+</li></ul>
+</li></ul>
+<p>とりあえず TogoGenome (GRCh38) から gene/mRNA/exon 情報を取得する API を作成した → <a href="http://biohackathon.org/rest/vg_gene_annotation" class="external free" rel="nofollow">http://biohackathon.org/rest/vg_gene_annotation</a>
+</p><p><br />
+</p>
+<h4> <span class="mw-headline" id=".E4.BB.8A.E5.BE.8C.E3.81.AE.E8.AA.B2.E9.A1.8C"> 今後の課題 </span></h4>
+<ul><li> GRCh37のRefSeqのアノテーションも取得できるようになっていてほしい
+<ul><li> 今後の解析はよいかもしれないが、既存の解析はGRCh37で行われているものが多く(cf. 1000人ゲノム)、その可視化をする際にはGRCh37のRefSeqが必要となると考えられる
+</li><li> TogoGenome のサブセットとして GRCh37 版の RefSeq をインストールしたエンドポイントを準備中
+<ul><li> 将来的には TogoVar や Ensembl の API を利用するようにしていきたい
+</li></ul>
+</li></ul>
+</li></ul>
+<ul><li> 得られたJSON結果の後処理
+<ul><li> SPARQListで得られたjsonを、可視化で利用可能な形に整形する必要がある。javascriptで実装し、可能であればSPARQList内のMarkdownに統合する。
+</li></ul>
+</li></ul>
+<ul><li> 遺伝子名や各種アノテーション名を前方一致でオートフィルして、その領域をGRCh37/GRCh38で取得する
+<ul><li> 遺伝子名や各種アノテーション名を前方一致でオートフィルするAPIエンドポイントがあれば、その名前を確定できて、その名前をもとに領域を取得可能
+</li></ul>
+</li></ul>
+<h4> <span class="mw-headline" id="GRCh37.E3.81.AERefSeq.E3.81.AERDF">  GRCh37のRefSeqのRDF </span></h4>
+<p>エンドポイント(暫定): <a href="http://ep.dbcls.jp/sparql71tmp" class="external free" rel="nofollow">http://ep.dbcls.jp/sparql71tmp</a> <br />
+グラフ名
+</p>
+<table class="wikitable">
+<tr>
+<th>グラフURI</th><th>トリプル数</th><th>ディレクトリ
+</th></tr>
+<tr>
+<td><a href="http://togogenome.org/graph/refseq/human/grch37" class="external free" rel="nofollow">http://togogenome.org/graph/refseq/human/grch37</a></td><td>16407809</td><td>/data/store/rdf/togogenome/refseq/grch37_human/refseq.ttl/9606/PRJNA168/
+</td></tr>
+<tr>
+<td><a href="http://togogenome.org/graph/insdc" class="external free" rel="nofollow">http://togogenome.org/graph/insdc</a></td><td>14238</td><td>/data/store/rdf/togogenome/ontology/insdc/20171125/nucleotide.ttl
+</td></tr>
+<tr>
+<td><a href="http://togogenome.org/graph/so" class="external free" rel="nofollow">http://togogenome.org/graph/so</a></td><td>43060</td><td>/data/store/rdf/togogenome/ontology/so/20130618/so.owl
+</td></tr>
+<tr>
+<td><a href="http://togogenome.org/graph/faldo" class="external free" rel="nofollow">http://togogenome.org/graph/faldo</a></td><td>232</td><td>/data/store/rdf/togogenome/ontology/faldo/20171125/faldo.ttl
+</td></tr></table>
+<p>各クロモソームの RefSeq ID を取得
+</p>
+<pre>
+PREFIX insdc: &lt;http://ddbj.nig.ac.jp/ontologies/nucleotide/&gt;
+PREFIX dct: &lt;http://purl.org/dc/elements/1.1/&gt;
+PREFIX graph: &lt;http://togogenome.org/graph/refseq/human/&gt;
+
+SELECT&nbsp;?id
+WHERE {
+  GRAPH graph:grch37 {
+   &nbsp;?chr a insdc:Entry&nbsp;;
+       dct:identifier&nbsp;?id .
+  }
+}
+ORDER BY&nbsp;?id
+</pre>
+<p>API をこれを使ったものに移植
+</p><p><a href="http://biohackathon.org/rest/vg_gene_annotation_grch37" class="external free" rel="nofollow">http://biohackathon.org/rest/vg_gene_annotation_grch37</a>
+</p>
+<h3> <span class="mw-headline" id="Ensembl_RDF_.E3.81.AE_SO_type"> Ensembl RDF の SO type </span></h3>
+<p>grep SO_ release201707_fixed/homo_sapiens*ttl | grep rdf:type | perl -pe 's/.*rdf:type\s+obo:SO_/SO:/g' | sort | uniq -c | sort -rn
+</p><p><a href="http://www.sequenceontology.org/browser/current_svn/term/SO:0002040" class="external free" rel="nofollow">http://www.sequenceontology.org/browser/current_svn/term/SO:0002040</a> などでアノテーションを確認
+</p>
+<pre>
+1322526 SO:0000147 . # exon
+ 104201 SO:0000234 . # mRNA
+  88926 SO:0001877 . # lnc_RNA
+  23527 SO:0001263 . # ncRNA_gene
+  23070 SO:0001217 . # protein_coding_gene
+  16259 SO:0000516 . # pseudogenic_transcript
+  16227 SO:0000336 . # pseudogene
+   2404 SO:0000655 . # ncRNA
+   2059 SO:0000274 . # snRNA
+   1890 SO:0000276 . # miRNA
+   1018 SO:0000275 . # snoRNA
+    571 SO:0000252 . # rRNA
+    388 SO:0000466 . # V_gene_segment
+    117 SO:0000470 . # J_gene_segment
+     69 SO:0000458 . # D_gene_segment
+     53 SO:0000013 . # scRNA
+     42 SO:0000478 . # C_gene_segment
+     22 SO:0000253 . # tRNA
+      1 SO:0002040 . # vaultRNA_primary_transcript
+</pre>
+<p>どうもリピートのアノテーションは Ensembl RDF にも無さそう。
+</p><p>よいヒトゲノムリピートのデータベースがあれば教えてください。
+なければ UCSC から取得して RDF 化を検討するなど。
+</p>
+<h3> <span class="mw-headline" id=".E3.82.B2.E3.83.8E.E3.83.A0.E3.83.BB.E3.82.B0.E3.83.A9.E3.83.95.E7.A0.94.E7.A9.B6.E4.BC.9A"> ゲノム・グラフ研究会 </span></h3>
+<ul><li> ウェブサイト更新 <a href="https://genomegraph.github.io/website/" class="external free" rel="nofollow">https://genomegraph.github.io/website/</a>
+<ul><li> Markdown に移行
+</li></ul>
+</li></ul>
+<div class="printfooter">
+「<a href="http://wiki.lifesciencedb.jp/mw/SPARQLthon63/vg">http://wiki.lifesciencedb.jp/mw/SPARQLthon63/vg</a>」より作成</div>
+		<div id='catlinks' class='catlinks catlinks-allhidden'></div>		<!-- end content -->
+				<div class="visualClear"></div>
+	</div>
+</div></div>
+<div id="column-one">
+	<div id="p-cactions" class="portlet">
+		<h5>表示</h5>
+		<div class="pBody">
+			<ul>
+				 <li id="ca-nstab-main" class="selected"><a href="/mw/SPARQLthon63/vg" title="本文を表示 [c]" accesskey="c">ページ</a></li>
+				 <li id="ca-talk" class="new"><a href="/mw/index.php?title=%E3%83%8E%E3%83%BC%E3%83%88:SPARQLthon63/vg&amp;action=edit&amp;redlink=1" title="記事についての議論 [t]" accesskey="t">議論</a></li>
+				 <li id="ca-viewsource"><a href="/mw/index.php?title=SPARQLthon63/vg&amp;action=edit&amp;oldid=23248" title="このページは保護されています。&#10;ページのソースを閲覧できます。 [e]" accesskey="e">ソースを表示</a></li>
+				 <li id="ca-history"><a href="/mw/index.php?title=SPARQLthon63/vg&amp;action=history" title="このページの過去の版 [h]" accesskey="h">履歴</a></li>
+			</ul>
+		</div>
+	</div>
+	<div class="portlet" id="p-personal">
+		<h5>個人用ツール</h5>
+		<div class="pBody">
+			<ul>
+				<li id="pt-anonuserpage"><a href="/mw/%E5%88%A9%E7%94%A8%E8%80%85:172.18.8.51" title="自分が編集しているIPアドレスの利用者ページ [.]" accesskey="." class="new">172.18.8.51</a></li>
+				<li id="pt-anontalk"><a href="/mw/%E5%88%A9%E7%94%A8%E8%80%85%E2%80%90%E4%BC%9A%E8%A9%B1:172.18.8.51" title="このIPアドレスからなされた編集についての議論 [n]" accesskey="n" class="new">このIPアドレスのトーク</a></li>
+				<li id="pt-anonlogin"><a href="/mw/index.php?title=%E7%89%B9%E5%88%A5:%E3%83%AD%E3%82%B0%E3%82%A4%E3%83%B3&amp;returnto=SPARQLthon63/vg&amp;returntoquery=diff%3Dprev%26oldid%3D23248" title="ログインすることが推奨されます。ただし、必須ではありません。 [o]" accesskey="o">ログイン</a></li>
+				<li id="pt-openidlogin"><a href="/mw/index.php?title=%E7%89%B9%E5%88%A5:OpenID%E3%83%AD%E3%82%B0%E3%82%A4%E3%83%B3&amp;returnto=SPARQLthon63/vg">OpenIDでログイン</a></li>
+			</ul>
+		</div>
+	</div>
+	<div class="portlet" id="p-logo">
+		<a style="background-image: url(/mw/images/togowiki-logo.png);" href="/mw/%E3%83%A1%E3%82%A4%E3%83%B3%E3%83%9A%E3%83%BC%E3%82%B8" title="メインページに移動"></a>
+	</div>
+	<script type="text/javascript"> if (window.isMSIE55) fixalpha(); </script>
+	<div class='generated-sidebar portlet' id='p-navigation'>
+		<h5>案内</h5>
+		<div class='pBody'>
+			<ul>
+				<li id="n-mainpage-description"><a href="/mw/%E3%83%A1%E3%82%A4%E3%83%B3%E3%83%9A%E3%83%BC%E3%82%B8" title="メインページに移動する [z]" accesskey="z">メインページ</a></li>
+				<li id="n-portal"><a href="/mw/TogoWiki:%E3%82%B3%E3%83%9F%E3%83%A5%E3%83%8B%E3%83%86%E3%82%A3%E3%83%BB%E3%83%9D%E3%83%BC%E3%82%BF%E3%83%AB" title="このプロジェクトについて、できること、情報を入手する場所">コミュニティ・ポータル</a></li>
+				<li id="n-currentevents"><a href="/mw/TogoWiki:%E6%9C%80%E8%BF%91%E3%81%AE%E5%87%BA%E6%9D%A5%E4%BA%8B" title="最近の出来事について予備知識を得る">最近の出来事</a></li>
+				<li id="n-recentchanges"><a href="/mw/%E7%89%B9%E5%88%A5:%E6%9C%80%E8%BF%91%E3%81%AE%E6%9B%B4%E6%96%B0" title="ウィキにおける最近の更新の一覧 [r]" accesskey="r">最近の更新</a></li>
+				<li id="n-randompage"><a href="/mw/%E7%89%B9%E5%88%A5:%E3%81%8A%E3%81%BE%E3%81%8B%E3%81%9B%E8%A1%A8%E7%A4%BA" title="無作為に抽出されたページの読み込み [x]" accesskey="x">おまかせ表示</a></li>
+				<li id="n-help"><a href="/mw/Help:%E7%9B%AE%E6%AC%A1" title="情報を得る場所">ヘルプ</a></li>
+			</ul>
+		</div>
+	</div>
+	<div id="p-search" class="portlet">
+		<h5><label for="searchInput">検索</label></h5>
+		<div id="searchBody" class="pBody">
+			<form action="/mw/index.php" id="searchform">
+				<input type='hidden' name="title" value="特別:検索"/>
+				<input id="searchInput" title="TogoWiki内を検索" accesskey="f" type="search" name="search" />
+				<input type='submit' name="go" class="searchButton" id="searchGoButton"	value="表示" title="厳密に一致する名前のページが存在すれば、そのページへ移動します" />&nbsp;
+				<input type='submit' name="fulltext" class="searchButton" id="mw-searchButton" value="検索" title="入力された文字列が含まれるページを検索します" />
+			</form>
+		</div>
+	</div>
+	<div class="portlet" id="p-tb">
+		<h5>ツールボックス</h5>
+		<div class="pBody">
+			<ul>
+				<li id="t-whatlinkshere"><a href="/mw/%E7%89%B9%E5%88%A5:%E3%83%AA%E3%83%B3%E3%82%AF%E5%85%83/SPARQLthon63/vg" title="ここにリンクしている全ウィキのページの一覧 [j]" accesskey="j">リンク元</a></li>
+				<li id="t-recentchangeslinked"><a href="/mw/%E7%89%B9%E5%88%A5:%E9%96%A2%E9%80%A3%E3%83%9A%E3%83%BC%E3%82%B8%E3%81%AE%E6%9B%B4%E6%96%B0%E7%8A%B6%E6%B3%81/SPARQLthon63/vg" title="このページからリンクしているページの最近の更新 [k]" accesskey="k">関連ページの更新状況</a></li>
+<li id="t-specialpages"><a href="/mw/%E7%89%B9%E5%88%A5:%E7%89%B9%E5%88%A5%E3%83%9A%E3%83%BC%E3%82%B8%E4%B8%80%E8%A6%A7" title="特別ページの一覧 [q]" accesskey="q">特別ページ</a></li>
+				<li id="t-print"><a href="/mw/index.php?title=SPARQLthon63/vg&amp;diff=prev&amp;oldid=23248&amp;printable=yes" rel="alternate" title="このページの印刷用ページ [p]" accesskey="p">印刷用バージョン</a></li>				<li id="t-permalink"><a href="/mw/index.php?title=SPARQLthon63/vg&amp;oldid=23248" title="ページのこの版への固定リンク">この版への固定リンク</a></li>			</ul>
+		</div>
+	</div>
+</div><!-- end of the left (by default at least) column -->
+<div class="visualClear"></div>
+<div id="footer">
+	<div id="f-poweredbyico"><a href="http://www.mediawiki.org/"><img src="/mw/skins/common/images/poweredby_mediawiki_88x31.png" height="31" width="88" alt="Powered by MediaWiki" /></a></div>
+	<div id="f-copyrightico"><a href="http://creativecommons.org/licenses/by/3.0/"><img src="http://i.creativecommons.org/l/by/3.0/88x31.png" alt="Attribution 3.0 Unported" width="88" height="31" /></a></div>
+	<ul id="f-list">
+		<li id="lastmod"> このページの最終更新は 2017年12月16日 (土) 10:58 に行われました。</li>
+		<li id="viewcount">このページは3,137回アクセスされました。</li>
+		<li id="copyright">内容は<a href="http://creativecommons.org/licenses/by/3.0/" class="external ">Attribution 3.0 Unported</a>のライセンスで利用することができます。</li>
+		<li id="privacy"><a href="/mw/TogoWiki:%E3%83%97%E3%83%A9%E3%82%A4%E3%83%90%E3%82%B7%E3%83%BC%E3%83%BB%E3%83%9D%E3%83%AA%E3%82%B7%E3%83%BC" title="TogoWiki:プライバシー・ポリシー">プライバシー・ポリシー</a></li>
+		<li id="about"><a href="/mw/TogoWiki:TogoWiki%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6" title="TogoWiki:TogoWikiについて">TogoWikiについて</a></li>
+		<li id="disclaimer"><a href="/mw/TogoWiki:%E5%85%8D%E8%B2%AC%E4%BA%8B%E9%A0%85" title="TogoWiki:免責事項">免責事項</a></li>
+	</ul>
+</div>
+</div>
+
+<script>if (window.runOnloadHook) runOnloadHook();</script>
+<!-- Served in 0.688 secs. --></body></html>

@@ -1,0 +1,462 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html lang="ja" dir="ltr">
+<head>
+<title>ソースを表示 - TogoWiki</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta name="generator" content="MediaWiki 1.16.3" />
+<meta name="robots" content="noindex,nofollow" />
+<link rel="next" href="http://wiki.lifesciencedb.jp/mw/SPARQL_TextSearch" />
+<link rel="shortcut icon" href="/favicon.ico" />
+<link rel="search" type="application/opensearchdescription+xml" href="/mw/opensearch_desc.php" title="TogoWiki (ja)" />
+<link rel="copyright" href="http://creativecommons.org/licenses/by/3.0/" />
+<link rel="alternate" type="application/atom+xml" title="TogoWikiのAtomフィード" href="/mw/index.php?title=%E7%89%B9%E5%88%A5:%E6%9C%80%E8%BF%91%E3%81%AE%E6%9B%B4%E6%96%B0&amp;feed=atom" />
+<!--[if IE 8]><link rel="stylesheet" href="/mw/skins/common/IE80Fixes.css?270" media="screen" /><![endif]-->
+<link rel="stylesheet" href="/mw/skins/common/shared.css?270" media="screen" />
+<link rel="stylesheet" href="/mw/skins/common/commonPrint.css?270" media="print" />
+<link rel="stylesheet" href="/mw/skins/monobook/main.css?270" media="screen" />
+<!--[if lt IE 5.5000]><link rel="stylesheet" href="/mw/skins/monobook/IE50Fixes.css?270" media="screen" /><![endif]-->
+<!--[if IE 5.5000]><link rel="stylesheet" href="/mw/skins/monobook/IE55Fixes.css?270" media="screen" /><![endif]-->
+<!--[if IE 6]><link rel="stylesheet" href="/mw/skins/monobook/IE60Fixes.css?270" media="screen" /><![endif]-->
+<!--[if IE 7]><link rel="stylesheet" href="/mw/skins/monobook/IE70Fixes.css?270" media="screen" /><![endif]-->
+<link rel="stylesheet" href="/mw/index.php?title=MediaWiki:Common.css&amp;usemsgcache=yes&amp;ctype=text%2Fcss&amp;smaxage=18000&amp;action=raw&amp;maxage=18000" />
+<link rel="stylesheet" href="/mw/index.php?title=MediaWiki:Print.css&amp;usemsgcache=yes&amp;ctype=text%2Fcss&amp;smaxage=18000&amp;action=raw&amp;maxage=18000" media="print" />
+<link rel="stylesheet" href="/mw/index.php?title=MediaWiki:Monobook.css&amp;usemsgcache=yes&amp;ctype=text%2Fcss&amp;smaxage=18000&amp;action=raw&amp;maxage=18000" />
+<link rel="stylesheet" href="/mw/index.php?title=-&amp;action=raw&amp;maxage=18000&amp;gen=css" />
+<script>
+var skin="monobook",
+stylepath="/mw/skins",
+wgUrlProtocols="http\\:\\/\\/|https\\:\\/\\/|ftp\\:\\/\\/|irc\\:\\/\\/|gopher\\:\\/\\/|telnet\\:\\/\\/|nntp\\:\\/\\/|worldwind\\:\\/\\/|mailto\\:|news\\:|svn\\:\\/\\/",
+wgArticlePath="/mw/$1",
+wgScriptPath="/mw",
+wgScriptExtension=".php",
+wgScript="/mw/index.php",
+wgVariantArticlePath=false,
+wgActionPaths={},
+wgServer="http://wiki.lifesciencedb.jp",
+wgCanonicalNamespace="",
+wgCanonicalSpecialPageName=false,
+wgNamespaceNumber=0,
+wgPageName="SPARQL_TextSearch",
+wgTitle="SPARQL TextSearch",
+wgAction="edit",
+wgArticleId=472,
+wgIsArticle=false,
+wgUserName=null,
+wgUserGroups=null,
+wgUserLanguage="ja",
+wgContentLanguage="ja",
+wgBreakFrames=true,
+wgCurRevisionId=25848,
+wgVersion="1.16.3",
+wgEnableAPI=true,
+wgEnableWriteAPI=true,
+wgSeparatorTransformTable=["", ""],
+wgDigitTransformTable=["", ""],
+wgMainPageTitle="メインページ",
+wgFormattedNamespaces={"-2": "メディア", "-1": "特別", "0": "", "1": "ノート", "2": "利用者", "3": "利用者‐会話", "4": "TogoWiki", "5": "TogoWiki‐ノート", "6": "ファイル", "7": "ファイル‐ノート", "8": "MediaWiki", "9": "MediaWiki‐ノート", "10": "Template", "11": "Template‐ノート", "12": "Help", "13": "Help‐ノート", "14": "Category", "15": "Category‐ノート"},
+wgNamespaceIds={"メディア": -2, "特別": -1, "": 0, "ノート": 1, "利用者": 2, "利用者‐会話": 3, "togowiki": 4, "togowiki‐ノート": 5, "ファイル": 6, "ファイル‐ノート": 7, "mediawiki": 8, "mediawiki‐ノート": 9, "template": 10, "template‐ノート": 11, "help": 12, "help‐ノート": 13, "category": 14, "category‐ノート": 15, "画像": 6, "画像‐ノート": 7, "image": 6, "image_talk": 7},
+wgSiteName="TogoWiki",
+wgCategories=[],
+wgRestrictionEdit=[],
+wgRestrictionMove=[];
+</script><script src="/mw/skins/common/wikibits.js?270"></script>
+<script src="/mw/skins/common/edit.js?270"></script>
+<script src="/mw/skins/common/ajax.js?270"></script>
+<script src="/mw/index.php?title=-&amp;action=raw&amp;gen=js&amp;useskin=monobook&amp;270"></script>
+
+		<style type='text/css'>
+		li#pt-openidlogin {
+		  background: url(/mw/extensions/OpenID/skin/icons/openid-inputicon.png) top left no-repeat;
+		  padding-left: 20px;
+		  text-transform: none;
+		}
+		</style>
+</head>
+<body class="mediawiki ltr ns-0 ns-subject page-SPARQL_TextSearch skin-monobook">
+<div id="globalWrapper">
+<div id="column-content"><div id="content" >
+	<a id="top"></a>
+	
+	<h1 id="firstHeading" class="firstHeading">SPARQL TextSearch</h1>
+	<div id="bodyContent">
+		<h3 id="siteSub">提供：TogoWiki</h3>
+		<div id="contentSub"><a href="/mw/SPARQL_TextSearch" title="SPARQL TextSearch">SPARQL TextSearch</a>のソース</div>
+		<div id="jump-to-nav">移動： <a href="#column-one">案内</a>, <a href="#searchInput">検索</a></div>
+		<!-- start content -->
+<p>以下に示された理由により、このページの編集を行うことができません：
+</p>
+<div class="permissions-errors">
+<p>この操作は、<a href="/mw/index.php?title=TogoWiki:%E5%88%A9%E7%94%A8%E8%80%85&amp;action=edit&amp;redlink=1" class="new" title="TogoWiki:利用者（存在しないページ）">利用者</a>のグループに属する利用者のみが実行できます。
+</p>
+</div>
+<p>このページのソースを閲覧し、コピーすることができます：
+</p><textarea id="wpTextbox1" name="wpTextbox1" cols="80" rows="25" readonly="">SPARQLでテキスト検索をする方法の調査&lt;br>
+&lt;br>
+SPARQL仕様ではFilter regexを使用してテキスト検索をすることになっているが、データ量が増えると全く使用できないレベルで遅くなる。
+そのため、各トリプルストアは独自に全文検索の仕組みを提供していることがある。&lt;br>
+独自機能であるため記述方法や挙動が異なるため調査する。
+
+
+=SPARQL仕様=
+テキスト完全マッチであればオブジェクトにそのまま指定する。
+
+&lt;pre>
+@prefix rdfs: &lt;http://www.w3.org/2000/01/rdf-schema#> .
+
+&lt;http://example.com/test> rdfs:label "GI:16329170" .
+&lt;/pre>
+
+&lt;pre>
+SELECT ?s ?p
+WHERE
+{ ?s ?p "GI:16329170" .}
+
+------------------------------
+s	p
+http://example.com/test	 http://www.w3.org/2000/01/rdf-schema#label
+&lt;/pre>
+
+
+@prefix rdfs: &lt;http://www.w3.org/2000/01/rdf-schema#> .
+
+&lt;http://example.com/test> rdfs:label "Title"@en .
+
+テキストの言語が指定してある場合には、言語タグまで指定しないとマッチしない。
+&lt;pre>
+@prefix rdfs: &lt;http://www.w3.org/2000/01/rdf-schema#> .
+
+&lt;http://example.com/test> rdfs:label "Tokyo"@en .
+&lt;/pre>
+
+&lt;pre>
+SELECT ?s ?p
+WHERE
+{  ?s ?p "Tokyo" . }
+
+------------------------------
+s	p
+&lt;/pre>
+
+&lt;pre>
+SELECT ?s ?p
+WHERE
+{  ?s ?p "Tokyo"@en . }
+
+------------------------------
+s	p
+http://example.com/test	http://www.w3.org/2000/01/rdf-schema#label
+&lt;/pre>
+テキストのあいまい検索(部分一致)をする場合にはFilter regexを使用する。3番目の引数"i"は大文字小文字を区別しない。
+&lt;pre>
+@prefix rdfs: &lt;http://www.w3.org/2000/01/rdf-schema#> .
+
+&lt;http://example.com/test> rdfs:label "Bacteria"@en .
+&lt;/pre>
+
+&lt;pre>
+SELECT ?text
+WHERE
+{  ?s ?p ?text FILTER regex (?text, "bac", "i") . }
+
+------------------------------
+text
+"Bacteria"@en
+&lt;/pre>
+単語の途中の文字列でもヒットする
+&lt;pre>
+SELECT ?text
+WHERE
+{  ?s ?p ?text FILTER regex (?text, "cte", "i") . }
+
+------------------------------
+text
+"Bacteria"@en
+&lt;/pre>
+
+=Virtuoso=
+SPARQL文に加えて、フルテキスト検索機能としてVirtuoso独自のプレディケート"bif:contains"を使用する。&lt;br>
+&lt;pre>
+SELECT ?text
+WHERE
+{
+ ?s rdfs:label ?text .
+ ?text bif:contains '"Synechocystis"' .
+}
+-----------------------------
+text
+"Synechocystis sp. PCC 6803 chromosome, complete genome."
+&lt;/pre>
+
+==インデックス生成のタイミング==
+フルテキスト検索用インデックスは、データのロードが終了した時点でスケジューラにより自動的に開始され、データ追加等でも自動的で生成される。&lt;br/>
+そのため、ロード直後で'''インデックスの生成が終わらない間は、bif:containsで検索してもヒットしない'''(100億トリプルでロード終了からインデックス生成に3時間掛った)。
+
+===インデックス自動生成設定の確認(参考)===
+スケジューラによって最後にインデック生成コマンドが実行された時刻(SE_LAST_COMPLETED)が確認できる。(SE_INTERVAL=)1分間隔の設定のように見えるが10分間隔で実行される(謎)。尚、このスケジューラは削除できない(削除しても再起動で復活する)&lt;br/>
+&lt;pre>
+SQL>  SELECT SE_SQL , SE_START, SE_LAST_COMPLETED, SE_INTERVAL FROM DB.DBA.SYS_SCHEDULED_EVENT WHERE SE_NAME='VT_INC_INDEX_DB_DBA_RDF_OBJ()';
+SE_SQL                                                                                 SE_START                                            SE_LAST_COMPLETED                      SE_INTERVAL
+_______________________________________________________________________________
+"DB"."DBA"."VT_INC_INDEX_DB_DBA_RDF_OBJ"()    2020.6.16 11:39.1 761837000      2020.6.16 11:49.5 881444000    1
+※SE_LAST_COMPLETEDはインデックス生成コマンド開始時間であり、インデックス生成終了時間ではない
+&lt;/pre>
+
+===インデックス生成完了判定===
+インデックス生成の終了判定は、VTLOG_DB_DBA_RDF_OBJテーブルの件数で判定可能。&lt;br>
+対象のデータは一旦VTLOG_DB_DBA_RDF_OBJテーブルに貯められるので、ロード直後はテーブルにデータがあり終了すると件数が0になる。&lt;br>
+&lt;pre>
+SQL>  SELECT COUNT(*) FROM DB.DBA.VTLOG_DB_DBA_RDF_OBJ;
+_______________________________________________________________________________
+3369621   ※ ロード直後でスケジューラが実行されていない状態(データ量で値は変わる)
+
+SQL>  SELECT COUNT(*) FROM DB.DBA.VTLOG_DB_DBA_RDF_OBJ;
+_______________________________________________________________________________
+1687230   ※ 10分間隔のスケジューラでインデックスが生成が実行され実行中の状態。徐々に件数が減っていく
+
+SQL>  SELECT COUNT(*) FROM DB.DBA.VTLOG_DB_DBA_RDF_OBJ;
+_______________________________________________________________________________
+0                 ※ インデックスが生成が終了した状態。この後別のデータがロードされると増えてスケジューラの実行を待つ
+&lt;/pre>
+
+===インデックス手動生成===
+スケジュールによる自動実行に頼りたくない場合には、ロード後に以下のコマンドを実行する。&lt;br>
+使用例: 軽量なデータをロードして直後から検索インデックスを使用したい場合、インデックス生成が完了したデータでdbファイルを配布したい場合等
+&lt;pre>
+SQL> DB.DBA.VT_INC_INDEX_DB_DBA_RDF_OBJ(); 
+※ インデックス生成が終了するまで応答ない
+&lt;/pre>
+
+===インデックスを生成しない場合===
+"bif:contains"による検索をしない場合、インデックス生成をしない設定もできる。
+ロード前に以下をコマンドを実行する。[http://docs.openlinksw.com/virtuoso/rdfsparqlrulefulltext/ ドキュメント]には'ALL'の部分が'All'と記載されているが大文字指定しないと効かない。&lt;br>
+ロード後(あるいは途中)にこのコマンドを実行しても効かずにインデックスは生成されてしまう(VTLOG_DB_DBA_RDF_OBJテーブルにデータが貯まった後では止められない)
+&lt;pre>
+SQL> DB.DBA.RDF_OBJ_FT_RULE_DEL(null, null, 'ALL');
+&lt;/pre>
+インデックスを生成しないモードでロードしたが後から生成したくなった場合には、RDF_OBJ_FT_RULE_ADDコマンドを実行する。&lt;br>
+ロード済みデータ量が多いと実行に時間がかかるのでオススメしない。
+&lt;pre>
+SQL> DB.DBA.RDF_OBJ_FT_RULE_ADD (null, null, 'ALL');  ※ VTLOG_DB_DBA_RDF_OBJテーブルに一時データが貯まり、次回スケジューラでインデックス生成される
+SQL> DB.DBA.VT_INC_INDEX_DB_DBA_RDF_OBJ(); ※ 即座にインデックス生成を開始し同期処理で完了させたい場合にはこのコマンドも実行する。
+&lt;/pre>
+
+==AND検索==
+&lt;pre>
+SELECT ?text
+WHERE
+{
+ ?s rdfs:label ?text .
+ ?text bif:contains '"Synechocystis" AND "PCC"' .
+}
+-----------------------------
+text
+"Synechocystis sp. PCC 6803 chromosome, complete genome."
+&lt;/pre>
+
+==OR検索==
+&lt;pre>
+SELECT ?text
+WHERE
+{
+ ?s rdfs:label ?text .
+ ?text bif:contains '"Synechocystis" OR "hoge"' .
+}
+-----------------------------
+text
+"Synechocystis sp. PCC 6803 chromosome, complete genome."
+&lt;/pre>
+
+==単語単位の検索になる==
+*単語単位に分解されインデックスが生成されるので(形態素解析)、単語の途中の文字列を指定してもヒットしない。
+&lt;pre>
+SELECT ?text
+WHERE
+{
+ ?s rdfs:label ?text .
+ ?text bif:contains '"Synech"' .
+}
+-----------------------------
+text
+(ヒット無し)
+&lt;/pre>
+
+ワイルドカード「*」は使えるが。。。
+&lt;pre>
+SELECT ?text
+WHERE
+{
+ ?s rdfs:label ?text .
+ ?text bif:contains '"chro*"' .
+}
+-----------------------------
+text
+"Synechocystis sp. PCC 6803 chromosome, complete genome."
+&lt;/pre>
+
+ワイルドカード「*」は形態素解析で区切られた単語のうち頭4文字は指定されなければならない。
+&lt;pre>
+SELECT ?text
+WHERE
+{
+ ?s rdfs:label ?text .
+ ?text bif:contains '"chr*"' .
+}
+-----------------------------
+エラー：Virtuoso 22023 Error FT370: Wildcard word needs at least 4 leading characters
+&lt;/pre>
+
+
+どういうものが単語の区切りになるかは資料がない。
+空白、".", ",", ":"  等で区切られる様子だが、それ以外の記号もあるはず。
+
+&lt;pre>
+@prefix rdfs: &lt;http://www.w3.org/2000/01/rdf-schema#> .
+
+&lt;http://example.com/test> rdfs:label "GI:16329170" .
+&lt;/pre>
+
+"GI:16329170"は":"が区切り文字になり、"GI"と"16329170"に分かれる(と思われる)。&lt;br>
+その上で頭4文字以上の指定が必要なので、"16329170"の頭4文字以上指定しなければエラー
+&lt;pre>
+SELECT ?text
+WHERE
+{
+ ?s rdfs:label ?text .
+ ?text bif:contains '"GI:163*"' .
+}
+-----------------------------
+エラー：Virtuoso 22023 Error FT370: Wildcard word needs at least 4 leading characters
+&lt;/pre>
+
+&lt;pre>
+SELECT ?text
+WHERE
+{
+ ?s rdfs:label ?text .
+ ?text bif:contains '"GI:1632*"' .
+}
+-----------------------------
+text
+"GI:16329170"
+&lt;/pre>
+
+=Jena=
+Jena 2.11.0から新たにテキスト検索用のモジュールがリリースされ、SPARQLに独自のプレディケートを指定する。&lt;br>
+(動作未確認)
+&lt;pre>
+PREFIX text: &lt;http://jena.apache.org/text#>
+PREFIX rdfs: &lt;http://www.w3.org/2000/01/rdf-schema#>
+
+SELECT ?s
+{ ?s text:query (rdfs:label 'word' 10) ; 
+     rdfs:label ?label 
+}
+&lt;/pre>
+[http://jena.apache.org/documentation/query/text-query.html Text searches with SPARQL]&lt;br>
+検索インデックス生成には[http://lucene.apache.org/core/ Apache Lucene]か[http://lucene.apache.org/solr/ Apache Solr]を使用できる様子。&lt;br>
+&lt;br>
+Jena 2.11.0以前は[https://jena.apache.org/documentation/larq/ LARQ]というテキスト検索機能が用意されていた。&lt;br>
+同じくApache Solrと連携しており、独自のプレディケートを記述する形式だが、互換性はなくなった。
+
+LARQ形式(?)
+&lt;pre>
+PREFIX pf: &lt;http://jena.hpl.hp.com/ARQ/property#>
+SELECT ?doc
+{
+    ?lit pf:textMatch '+text' .
+    ?doc ?p ?lit
+}
+&lt;/pre>
+
+=Stardog=
+LARQ()と同等の記述で全文検索をサポートしている様子。
+(動作未確認)
+http://docs.stardog.com/java/ (リンク切れ)
+
+* 最新の仕様は以下のページに [yayamamo追記 2017/2/24]
+https://docs.stardog.com/#_full_text_search</textarea><div class='templatesUsed'>
+
+</div>
+<p id="mw-returnto"><a href="/mw/SPARQL_TextSearch" title="SPARQL TextSearch">SPARQL TextSearch</a>に戻る。</p>
+<div class="printfooter">
+「<a href="http://wiki.lifesciencedb.jp/mw/SPARQL_TextSearch">http://wiki.lifesciencedb.jp/mw/SPARQL_TextSearch</a>」より作成</div>
+		<div id='catlinks' class='catlinks catlinks-allhidden'></div>		<!-- end content -->
+				<div class="visualClear"></div>
+	</div>
+</div></div>
+<div id="column-one">
+	<div id="p-cactions" class="portlet">
+		<h5>表示</h5>
+		<div class="pBody">
+			<ul>
+				 <li id="ca-nstab-main" class="selected"><a href="/mw/SPARQL_TextSearch" title="本文を表示 [c]" accesskey="c">ページ</a></li>
+				 <li id="ca-talk" class="new"><a href="/mw/index.php?title=%E3%83%8E%E3%83%BC%E3%83%88:SPARQL_TextSearch&amp;action=edit&amp;redlink=1" title="記事についての議論 [t]" accesskey="t">議論</a></li>
+				 <li id="ca-viewsource" class="selected"><a href="/mw/index.php?title=SPARQL_TextSearch&amp;action=edit" title="このページは保護されています。&#10;ページのソースを閲覧できます。 [e]" accesskey="e">ソースを表示</a></li>
+				 <li id="ca-history"><a href="/mw/index.php?title=SPARQL_TextSearch&amp;action=history" title="このページの過去の版 [h]" accesskey="h">履歴</a></li>
+			</ul>
+		</div>
+	</div>
+	<div class="portlet" id="p-personal">
+		<h5>個人用ツール</h5>
+		<div class="pBody">
+			<ul>
+				<li id="pt-anonuserpage"><a href="/mw/%E5%88%A9%E7%94%A8%E8%80%85:172.18.8.51" title="自分が編集しているIPアドレスの利用者ページ [.]" accesskey="." class="new">172.18.8.51</a></li>
+				<li id="pt-anontalk"><a href="/mw/%E5%88%A9%E7%94%A8%E8%80%85%E2%80%90%E4%BC%9A%E8%A9%B1:172.18.8.51" title="このIPアドレスからなされた編集についての議論 [n]" accesskey="n" class="new">このIPアドレスのトーク</a></li>
+				<li id="pt-anonlogin"><a href="/mw/index.php?title=%E7%89%B9%E5%88%A5:%E3%83%AD%E3%82%B0%E3%82%A4%E3%83%B3&amp;returnto=SPARQL_TextSearch&amp;returntoquery=action%3Dedit" title="ログインすることが推奨されます。ただし、必須ではありません。 [o]" accesskey="o">ログイン</a></li>
+				<li id="pt-openidlogin"><a href="/mw/index.php?title=%E7%89%B9%E5%88%A5:OpenID%E3%83%AD%E3%82%B0%E3%82%A4%E3%83%B3&amp;returnto=SPARQL_TextSearch">OpenIDでログイン</a></li>
+			</ul>
+		</div>
+	</div>
+	<div class="portlet" id="p-logo">
+		<a style="background-image: url(/mw/images/togowiki-logo.png);" href="/mw/%E3%83%A1%E3%82%A4%E3%83%B3%E3%83%9A%E3%83%BC%E3%82%B8" title="メインページに移動"></a>
+	</div>
+	<script type="text/javascript"> if (window.isMSIE55) fixalpha(); </script>
+	<div class='generated-sidebar portlet' id='p-navigation'>
+		<h5>案内</h5>
+		<div class='pBody'>
+			<ul>
+				<li id="n-mainpage-description"><a href="/mw/%E3%83%A1%E3%82%A4%E3%83%B3%E3%83%9A%E3%83%BC%E3%82%B8" title="メインページに移動する [z]" accesskey="z">メインページ</a></li>
+				<li id="n-portal"><a href="/mw/TogoWiki:%E3%82%B3%E3%83%9F%E3%83%A5%E3%83%8B%E3%83%86%E3%82%A3%E3%83%BB%E3%83%9D%E3%83%BC%E3%82%BF%E3%83%AB" title="このプロジェクトについて、できること、情報を入手する場所">コミュニティ・ポータル</a></li>
+				<li id="n-currentevents"><a href="/mw/TogoWiki:%E6%9C%80%E8%BF%91%E3%81%AE%E5%87%BA%E6%9D%A5%E4%BA%8B" title="最近の出来事について予備知識を得る">最近の出来事</a></li>
+				<li id="n-recentchanges"><a href="/mw/%E7%89%B9%E5%88%A5:%E6%9C%80%E8%BF%91%E3%81%AE%E6%9B%B4%E6%96%B0" title="ウィキにおける最近の更新の一覧 [r]" accesskey="r">最近の更新</a></li>
+				<li id="n-randompage"><a href="/mw/%E7%89%B9%E5%88%A5:%E3%81%8A%E3%81%BE%E3%81%8B%E3%81%9B%E8%A1%A8%E7%A4%BA" title="無作為に抽出されたページの読み込み [x]" accesskey="x">おまかせ表示</a></li>
+				<li id="n-help"><a href="/mw/Help:%E7%9B%AE%E6%AC%A1" title="情報を得る場所">ヘルプ</a></li>
+			</ul>
+		</div>
+	</div>
+	<div id="p-search" class="portlet">
+		<h5><label for="searchInput">検索</label></h5>
+		<div id="searchBody" class="pBody">
+			<form action="/mw/index.php" id="searchform">
+				<input type='hidden' name="title" value="特別:検索"/>
+				<input id="searchInput" title="TogoWiki内を検索" accesskey="f" type="search" name="search" />
+				<input type='submit' name="go" class="searchButton" id="searchGoButton"	value="表示" title="厳密に一致する名前のページが存在すれば、そのページへ移動します" />&nbsp;
+				<input type='submit' name="fulltext" class="searchButton" id="mw-searchButton" value="検索" title="入力された文字列が含まれるページを検索します" />
+			</form>
+		</div>
+	</div>
+	<div class="portlet" id="p-tb">
+		<h5>ツールボックス</h5>
+		<div class="pBody">
+			<ul>
+				<li id="t-whatlinkshere"><a href="/mw/%E7%89%B9%E5%88%A5:%E3%83%AA%E3%83%B3%E3%82%AF%E5%85%83/SPARQL_TextSearch" title="ここにリンクしている全ウィキのページの一覧 [j]" accesskey="j">リンク元</a></li>
+				<li id="t-recentchangeslinked"><a href="/mw/%E7%89%B9%E5%88%A5:%E9%96%A2%E9%80%A3%E3%83%9A%E3%83%BC%E3%82%B8%E3%81%AE%E6%9B%B4%E6%96%B0%E7%8A%B6%E6%B3%81/SPARQL_TextSearch" title="このページからリンクしているページの最近の更新 [k]" accesskey="k">関連ページの更新状況</a></li>
+<li id="t-specialpages"><a href="/mw/%E7%89%B9%E5%88%A5:%E7%89%B9%E5%88%A5%E3%83%9A%E3%83%BC%E3%82%B8%E4%B8%80%E8%A6%A7" title="特別ページの一覧 [q]" accesskey="q">特別ページ</a></li>
+			</ul>
+		</div>
+	</div>
+</div><!-- end of the left (by default at least) column -->
+<div class="visualClear"></div>
+<div id="footer">
+	<div id="f-poweredbyico"><a href="http://www.mediawiki.org/"><img src="/mw/skins/common/images/poweredby_mediawiki_88x31.png" height="31" width="88" alt="Powered by MediaWiki" /></a></div>
+	<div id="f-copyrightico"><a href="http://creativecommons.org/licenses/by/3.0/"><img src="http://i.creativecommons.org/l/by/3.0/88x31.png" alt="Attribution 3.0 Unported" width="88" height="31" /></a></div>
+	<ul id="f-list">
+		<li id="privacy"><a href="/mw/TogoWiki:%E3%83%97%E3%83%A9%E3%82%A4%E3%83%90%E3%82%B7%E3%83%BC%E3%83%BB%E3%83%9D%E3%83%AA%E3%82%B7%E3%83%BC" title="TogoWiki:プライバシー・ポリシー">プライバシー・ポリシー</a></li>
+		<li id="about"><a href="/mw/TogoWiki:TogoWiki%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6" title="TogoWiki:TogoWikiについて">TogoWikiについて</a></li>
+		<li id="disclaimer"><a href="/mw/TogoWiki:%E5%85%8D%E8%B2%AC%E4%BA%8B%E9%A0%85" title="TogoWiki:免責事項">免責事項</a></li>
+	</ul>
+</div>
+</div>
+
+<script>if (window.runOnloadHook) runOnloadHook();</script>
+<!-- Served in 0.350 secs. --></body></html>

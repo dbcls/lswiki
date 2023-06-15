@@ -1,0 +1,1152 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html lang="ja" dir="ltr">
+<head>
+<title>BH12.12/FacetSearchQuery - TogoWiki</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta name="generator" content="MediaWiki 1.16.3" />
+<meta name="robots" content="noindex,nofollow" />
+<link rel="shortcut icon" href="/favicon.ico" />
+<link rel="search" type="application/opensearchdescription+xml" href="/mw/opensearch_desc.php" title="TogoWiki (ja)" />
+<link title="Creative Commons" type="application/rdf+xml" href="/mw/index.php?title=BH12.12/FacetSearchQuery&amp;action=creativecommons" rel="meta" />
+<link rel="copyright" href="http://creativecommons.org/licenses/by/3.0/" />
+<link rel="alternate" type="application/atom+xml" title="TogoWikiのAtomフィード" href="/mw/index.php?title=%E7%89%B9%E5%88%A5:%E6%9C%80%E8%BF%91%E3%81%AE%E6%9B%B4%E6%96%B0&amp;feed=atom" />
+<link rel="stylesheet" href="/mw/skins/common/shared.css?270" media="screen" />
+<link rel="stylesheet" href="/mw/skins/common/commonPrint.css?270" media="print" />
+<link rel="stylesheet" href="/mw/skins/monobook/main.css?270" media="screen" />
+<!--[if lt IE 5.5000]><link rel="stylesheet" href="/mw/skins/monobook/IE50Fixes.css?270" media="screen" /><![endif]-->
+<!--[if IE 5.5000]><link rel="stylesheet" href="/mw/skins/monobook/IE55Fixes.css?270" media="screen" /><![endif]-->
+<!--[if IE 6]><link rel="stylesheet" href="/mw/skins/monobook/IE60Fixes.css?270" media="screen" /><![endif]-->
+<!--[if IE 7]><link rel="stylesheet" href="/mw/skins/monobook/IE70Fixes.css?270" media="screen" /><![endif]-->
+<link rel="stylesheet" href="/mw/index.php?title=MediaWiki:Common.css&amp;usemsgcache=yes&amp;ctype=text%2Fcss&amp;smaxage=18000&amp;action=raw&amp;maxage=18000" />
+<link rel="stylesheet" href="/mw/index.php?title=MediaWiki:Print.css&amp;usemsgcache=yes&amp;ctype=text%2Fcss&amp;smaxage=18000&amp;action=raw&amp;maxage=18000" media="print" />
+<link rel="stylesheet" href="/mw/index.php?title=MediaWiki:Monobook.css&amp;usemsgcache=yes&amp;ctype=text%2Fcss&amp;smaxage=18000&amp;action=raw&amp;maxage=18000" />
+<link rel="stylesheet" href="/mw/index.php?title=-&amp;action=raw&amp;maxage=18000&amp;gen=css" />
+<script>
+var skin="monobook",
+stylepath="/mw/skins",
+wgUrlProtocols="http\\:\\/\\/|https\\:\\/\\/|ftp\\:\\/\\/|irc\\:\\/\\/|gopher\\:\\/\\/|telnet\\:\\/\\/|nntp\\:\\/\\/|worldwind\\:\\/\\/|mailto\\:|news\\:|svn\\:\\/\\/",
+wgArticlePath="/mw/$1",
+wgScriptPath="/mw",
+wgScriptExtension=".php",
+wgScript="/mw/index.php",
+wgVariantArticlePath=false,
+wgActionPaths={},
+wgServer="http://wiki.lifesciencedb.jp",
+wgCanonicalNamespace="",
+wgCanonicalSpecialPageName=false,
+wgNamespaceNumber=0,
+wgPageName="BH12.12/FacetSearchQuery",
+wgTitle="BH12.12/FacetSearchQuery",
+wgAction="view",
+wgArticleId=355,
+wgIsArticle=true,
+wgUserName=null,
+wgUserGroups=null,
+wgUserLanguage="ja",
+wgContentLanguage="ja",
+wgBreakFrames=false,
+wgCurRevisionId=12150,
+wgVersion="1.16.3",
+wgEnableAPI=true,
+wgEnableWriteAPI=true,
+wgSeparatorTransformTable=["", ""],
+wgDigitTransformTable=["", ""],
+wgMainPageTitle="メインページ",
+wgFormattedNamespaces={"-2": "メディア", "-1": "特別", "0": "", "1": "ノート", "2": "利用者", "3": "利用者‐会話", "4": "TogoWiki", "5": "TogoWiki‐ノート", "6": "ファイル", "7": "ファイル‐ノート", "8": "MediaWiki", "9": "MediaWiki‐ノート", "10": "Template", "11": "Template‐ノート", "12": "Help", "13": "Help‐ノート", "14": "Category", "15": "Category‐ノート"},
+wgNamespaceIds={"メディア": -2, "特別": -1, "": 0, "ノート": 1, "利用者": 2, "利用者‐会話": 3, "togowiki": 4, "togowiki‐ノート": 5, "ファイル": 6, "ファイル‐ノート": 7, "mediawiki": 8, "mediawiki‐ノート": 9, "template": 10, "template‐ノート": 11, "help": 12, "help‐ノート": 13, "category": 14, "category‐ノート": 15, "画像": 6, "画像‐ノート": 7, "image": 6, "image_talk": 7},
+wgSiteName="TogoWiki",
+wgCategories=[],
+wgRestrictionEdit=[],
+wgRestrictionMove=[];
+</script><script src="/mw/skins/common/wikibits.js?270"></script>
+<script src="/mw/skins/common/ajax.js?270"></script>
+<script src="/mw/index.php?title=-&amp;action=raw&amp;gen=js&amp;useskin=monobook&amp;270"></script>
+
+		<style type='text/css'>
+		li#pt-openidlogin {
+		  background: url(/mw/extensions/OpenID/skin/icons/openid-inputicon.png) top left no-repeat;
+		  padding-left: 20px;
+		  text-transform: none;
+		}
+		</style>
+</head>
+<body class="mediawiki ltr ns-0 ns-subject page-BH12_12_FacetSearchQuery skin-monobook">
+<div id="globalWrapper">
+<div id="column-content"><div id="content" >
+	<a id="top"></a>
+	
+	<h1 id="firstHeading" class="firstHeading">BH12.12/FacetSearchQuery</h1>
+	<div id="bodyContent">
+		<h3 id="siteSub">提供：TogoWiki</h3>
+		<div id="contentSub">
+				<div id="mw-revision-info">2014年2月12日 (水) 05:00時点における<a href="/mw/index.php?title=%E5%88%A9%E7%94%A8%E8%80%85:Yokookbp&amp;action=edit&amp;redlink=1" class="new mw-userlink" title="利用者:Yokookbp（存在しないページ）">Yokookbp</a>  <span class="mw-usertoollinks">(<a href="/mw/index.php?title=%E5%88%A9%E7%94%A8%E8%80%85%E2%80%90%E4%BC%9A%E8%A9%B1:Yokookbp&amp;action=edit&amp;redlink=1" class="new" title="利用者‐会話:Yokookbp（存在しないページ）">トーク</a> | <a href="/mw/%E7%89%B9%E5%88%A5:%E6%8A%95%E7%A8%BF%E8%A8%98%E9%8C%B2/Yokookbp" title="特別:投稿記録/Yokookbp">投稿記録</a>)</span>による版</div>
+
+				<div id="mw-revision-nav">(<a href="/mw/index.php?title=BH12.12/FacetSearchQuery&amp;diff=prev&amp;oldid=12149" title="BH12.12/FacetSearchQuery">差分</a>) <a href="/mw/index.php?title=BH12.12/FacetSearchQuery&amp;direction=prev&amp;oldid=12149" title="BH12.12/FacetSearchQuery">←前の版</a> | <a href="/mw/BH12.12/FacetSearchQuery" title="BH12.12/FacetSearchQuery">最新版</a> (<a href="/mw/index.php?title=BH12.12/FacetSearchQuery&amp;diff=cur&amp;oldid=12149" title="BH12.12/FacetSearchQuery">差分</a>) | <a href="/mw/index.php?title=BH12.12/FacetSearchQuery&amp;direction=next&amp;oldid=12149" title="BH12.12/FacetSearchQuery">次の版→</a> (<a href="/mw/index.php?title=BH12.12/FacetSearchQuery&amp;diff=next&amp;oldid=12149" title="BH12.12/FacetSearchQuery">差分</a>)</div>
+			</div>
+		<div id="jump-to-nav">移動： <a href="#column-one">案内</a>, <a href="#searchInput">検索</a></div>
+		<!-- start content -->
+<table id="toc" class="toc"><tr><td><div id="toctitle"><h2>目次</h2></div>
+<ul>
+<li class="toclevel-1 tocsection-1"><a href="#.E3.82.AF.E3.82.A8.E3.83.AA"><span class="tocnumber">1</span> <span class="toctext">クエリ</span></a>
+<ul>
+<li class="toclevel-2 tocsection-2"><a href="#.E6.8C.87.E5.AE.9A.E3.81.AA.E3.81.97.28.E5.85.A8.E4.BB.B6.29"><span class="tocnumber">1.1</span> <span class="toctext">指定なし(全件)</span></a></li>
+<li class="toclevel-2 tocsection-3"><a href="#GO.E6.8C.87.E5.AE.9A"><span class="tocnumber">1.2</span> <span class="toctext">GO指定</span></a>
+<ul>
+<li class="toclevel-3 tocsection-4"><a href="#GO"><span class="tocnumber">1.2.1</span> <span class="toctext">GO</span></a></li>
+<li class="toclevel-3 tocsection-5"><a href="#GO_.2B_Tax"><span class="tocnumber">1.2.2</span> <span class="toctext">GO + Tax</span></a></li>
+<li class="toclevel-3 tocsection-6"><a href="#GO_.2B_MEO"><span class="tocnumber">1.2.3</span> <span class="toctext">GO + MEO</span></a></li>
+<li class="toclevel-3 tocsection-7"><a href="#GO_.2B_MPO"><span class="tocnumber">1.2.4</span> <span class="toctext">GO + MPO</span></a></li>
+<li class="toclevel-3 tocsection-8"><a href="#GO_.2B_Tax_.2B_MEO"><span class="tocnumber">1.2.5</span> <span class="toctext">GO + Tax + MEO</span></a></li>
+<li class="toclevel-3 tocsection-9"><a href="#GO_.2B_Tax_.2B_MPO"><span class="tocnumber">1.2.6</span> <span class="toctext">GO + Tax + MPO</span></a></li>
+<li class="toclevel-3 tocsection-10"><a href="#GO_.2B_MEO_.2B_MPO"><span class="tocnumber">1.2.7</span> <span class="toctext">GO + MEO + MPO</span></a></li>
+<li class="toclevel-3 tocsection-11"><a href="#GO_.2B_Tax_.2B_MEO_.2B_MPO"><span class="tocnumber">1.2.8</span> <span class="toctext">GO + Tax + MEO + MPO</span></a></li>
+</ul>
+</li>
+<li class="toclevel-2 tocsection-12"><a href="#Taxonomy.E6.8C.87.E5.AE.9A"><span class="tocnumber">1.3</span> <span class="toctext">Taxonomy指定</span></a>
+<ul>
+<li class="toclevel-3 tocsection-13"><a href="#Tax"><span class="tocnumber">1.3.1</span> <span class="toctext">Tax</span></a></li>
+<li class="toclevel-3 tocsection-14"><a href="#Tax_.2B_MEO"><span class="tocnumber">1.3.2</span> <span class="toctext">Tax + MEO</span></a></li>
+<li class="toclevel-3 tocsection-15"><a href="#Tax_.2B_MPO"><span class="tocnumber">1.3.3</span> <span class="toctext">Tax + MPO</span></a></li>
+<li class="toclevel-3 tocsection-16"><a href="#Tax_.2B_MEO_.2B_MPO"><span class="tocnumber">1.3.4</span> <span class="toctext">Tax + MEO + MPO</span></a></li>
+</ul>
+</li>
+<li class="toclevel-2 tocsection-17"><a href="#MEO.E6.8C.87.E5.AE.9A"><span class="tocnumber">1.4</span> <span class="toctext">MEO指定</span></a>
+<ul>
+<li class="toclevel-3 tocsection-18"><a href="#MEO"><span class="tocnumber">1.4.1</span> <span class="toctext">MEO</span></a></li>
+<li class="toclevel-3 tocsection-19"><a href="#MEO_.2B_MPO"><span class="tocnumber">1.4.2</span> <span class="toctext">MEO + MPO</span></a></li>
+</ul>
+</li>
+<li class="toclevel-2 tocsection-20"><a href="#MPO.E6.8C.87.E5.AE.9A"><span class="tocnumber">1.5</span> <span class="toctext">MPO指定</span></a>
+<ul>
+<li class="toclevel-3 tocsection-21"><a href="#Predicate.E3.83.AA.E3.82.B9.E3.83.88"><span class="tocnumber">1.5.1</span> <span class="toctext">Predicateリスト</span></a></li>
+<li class="toclevel-3 tocsection-22"><a href="#MPO"><span class="tocnumber">1.5.2</span> <span class="toctext">MPO</span></a></li>
+</ul>
+</li>
+<li class="toclevel-2 tocsection-23"><a href="#.E6.A4.9C.E7.B4.A2.E3.83.92.E3.83.83.E3.83.88.E4.BB.B6.E6.95.B0"><span class="tocnumber">1.6</span> <span class="toctext">検索ヒット件数</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-24"><a href="#Facet.E6.A4.9C.E7.B4.A2.E7.94.A8.E3.83.88.E3.83.AA.E3.83.97.E3.83.AB.E7.94.9F.E6.88.90"><span class="tocnumber">2</span> <span class="toctext">Facet検索用トリプル生成</span></a>
+<ul>
+<li class="toclevel-2 tocsection-25"><a href="#GO2Uniprot"><span class="tocnumber">2.1</span> <span class="toctext">GO2Uniprot</span></a>
+<ul>
+<li class="toclevel-3 tocsection-26"><a href="#GO.E3.81.AE.E4.B8.80.E8.A6.A7.E5.8F.96.E5.BE.97"><span class="tocnumber">2.1.1</span> <span class="toctext">GOの一覧取得</span></a></li>
+<li class="toclevel-3 tocsection-27"><a href="#GO.E6.AF.8E.E3.81.AEUniprotID.E3.83.92.E3.83.83.E3.83.88.E4.BB.B6.E6.95.B0.E5.8F.96.E5.BE.97"><span class="tocnumber">2.1.2</span> <span class="toctext">GO毎のUniprotIDヒット件数取得</span></a></li>
+<li class="toclevel-3 tocsection-28"><a href="#GO.E6.AF.8E.E3.81.AEUniprotID.E3.81.AE.E5.8F.96.E5.BE.97"><span class="tocnumber">2.1.3</span> <span class="toctext">GO毎のUniprotIDの取得</span></a></li>
+<li class="toclevel-3 tocsection-29"><a href="#TTL.E3.81.AB.E5.A4.89.E6.8F.9B.EF.BC.86.E3.83.AD.E3.83.BC.E3.83.89"><span class="tocnumber">2.1.4</span> <span class="toctext">TTLに変換＆ロード</span></a></li>
+</ul>
+</li>
+<li class="toclevel-2 tocsection-30"><a href="#MEO_hierarchy"><span class="tocnumber">2.2</span> <span class="toctext">MEO hierarchy</span></a></li>
+<li class="toclevel-2 tocsection-31"><a href="#MPO_hierarchy"><span class="tocnumber">2.3</span> <span class="toctext">MPO hierarchy</span></a></li>
+</ul>
+</li>
+</ul>
+</td></tr></table><script>if (window.showTocToggle) { var tocShowText = "表示"; var tocHideText = "非表示"; showTocToggle(); } </script>
+<h1> <span class="mw-headline" id=".E3.82.AF.E3.82.A8.E3.83.AA">クエリ</span></h1>
+<h2> <span class="mw-headline" id=".E6.8C.87.E5.AE.9A.E3.81.AA.E3.81.97.28.E5.85.A8.E4.BB.B6.29">指定なし(全件)</span></h2>
+<pre>
+DEFINE sql:select-option &quot;order&quot;
+PREFIX mccv: &lt;http://purl.jp/bio/01/mccv#&gt;
+PREFIX meo: &lt;http://purl.jp/bio/11/meo/&gt;
+PREFIX mpo: &lt;http://purl.jp/bio/01/mpo#&gt;
+PREFIX up: &lt;http://purl.uniprot.org/core/&gt;
+PREFIX go: &lt;http://purl.uniprot.org/go/&gt;
+
+SELECT DISTINCT&nbsp;?uniprot_id&nbsp;?uniprot_up&nbsp;?recommended_name&nbsp;?taxonomy_id&nbsp;?taxonomy_name
+WHERE
+{
+  GRAPH &lt;http://togogenome.org/graph/tgtax/&gt;
+  {
+   &nbsp;?taxonomy_id rdfs:subClassOf &lt;http://identifiers.org/taxonomy/1&gt;
+  }
+  GRAPH &lt;http://togogenome.org/graph/taxonomy/&gt;
+  {
+   &nbsp;?taxonomy_id rdfs:label&nbsp;?taxonomy_name .
+  }
+  GRAPH &lt;http://togogenome.org/graph/tgup/&gt;
+  {
+   &nbsp;?togogenome rdfs:seeAlso&nbsp;?taxonomy_id .
+   &nbsp;?togogenome rdfs:seeAlso&nbsp;?uniprot_id .
+   &nbsp;?uniprot_id rdfs:seeAlso&nbsp;?uniprot_up .
+  }
+  GRAPH &lt;http://togogenome.org/graph/uniprot/&gt;
+  {
+   &nbsp;?uniprot_up up:recommendedName/up:fullName&nbsp;?recommended_name .
+  }
+} LIMIT 25
+
+</pre>
+<h2> <span class="mw-headline" id="GO.E6.8C.87.E5.AE.9A">GO指定</span></h2>
+<h3> <span class="mw-headline" id="GO">GO</span></h3>
+<ul><li>単一GO
+</li></ul>
+<pre>
+DEFINE sql:select-option &quot;order&quot;
+PREFIX mccv: &lt;http://purl.jp/bio/01/mccv#&gt;
+PREFIX meo: &lt;http://purl.jp/bio/11/meo/&gt;
+PREFIX mpo: &lt;http://purl.jp/bio/01/mpo#&gt;
+PREFIX up: &lt;http://purl.uniprot.org/core/&gt;
+PREFIX go: &lt;http://purl.uniprot.org/go/&gt;
+
+SELECT DISTINCT&nbsp;?uniprot_id&nbsp;?uniprot_up&nbsp;?recommended_name&nbsp;?taxonomy_id&nbsp;?taxonomy_name
+WHERE
+{
+  GRAPH &lt;http://togogenome.org/graph/goup/&gt;
+  {
+     go:0009987 up:classifiedWith&nbsp;?uniprot_id .
+  }
+  GRAPH &lt;http://togogenome.org/graph/tgup/&gt;
+  {
+   &nbsp;?togogenome rdfs:seeAlso&nbsp;?uniprot_id .
+   &nbsp;?togogenome rdfs:seeAlso&nbsp;?taxonomy_id .
+   &nbsp;?uniprot_id rdfs:seeAlso&nbsp;?uniprot_up .
+  }
+  GRAPH &lt;http://togogenome.org/graph/uniprot/&gt;
+  {
+   &nbsp;?uniprot_up up:recommendedName/up:fullName&nbsp;?recommended_name .
+  }
+  GRAPH &lt;http://togogenome.org/graph/taxonomy/&gt;
+  {
+   &nbsp;?taxonomy_id rdfs:label&nbsp;?taxonomy_name .
+  }
+} LIMIT 25
+</pre>
+<ul><li>複数GO
+</li></ul>
+<pre>
+DEFINE sql:select-option &quot;order&quot;
+PREFIX mccv: &lt;http://purl.jp/bio/01/mccv#&gt;
+PREFIX meo: &lt;http://purl.jp/bio/11/meo/&gt;
+PREFIX mpo: &lt;http://purl.jp/bio/01/mpo#&gt;
+PREFIX up: &lt;http://purl.uniprot.org/core/&gt;
+PREFIX go: &lt;http://purl.uniprot.org/go/&gt;
+
+SELECT DISTINCT&nbsp;?uniprot_id&nbsp;?uniprot_up&nbsp;?recommended_name&nbsp;?taxonomy_id&nbsp;?taxonomy_name
+WHERE
+{
+  GRAPH &lt;http://togogenome.org/graph/goup/&gt;
+  {
+     go:0009987 up:classifiedWith&nbsp;?uniprot_id .
+     go:0003824 up:classifiedWith&nbsp;?uniprot_id .
+     go:0044464 up:classifiedWith&nbsp;?uniprot_id .
+  }
+  GRAPH &lt;http://togogenome.org/graph/tgup/&gt;
+  {
+   &nbsp;?togogenome rdfs:seeAlso&nbsp;?uniprot_id .
+   &nbsp;?togogenome rdfs:seeAlso&nbsp;?taxonomy_id .
+   &nbsp;?uniprot_id rdfs:seeAlso&nbsp;?uniprot_up .
+  }
+  GRAPH &lt;http://togogenome.org/graph/uniprot/&gt;
+  {
+   &nbsp;?uniprot_up up:recommendedName/up:fullName&nbsp;?recommended_name .
+  }
+  GRAPH &lt;http://togogenome.org/graph/taxonomy/&gt;
+  {
+   &nbsp;?taxonomy_id rdfs:label&nbsp;?taxonomy_name .
+  }
+} LIMIT 25
+</pre>
+<h3> <span class="mw-headline" id="GO_.2B_Tax">GO + Tax</span></h3>
+<pre>
+DEFINE sql:select-option &quot;order&quot;
+PREFIX mccv: &lt;http://purl.jp/bio/01/mccv#&gt;
+PREFIX meo: &lt;http://purl.jp/bio/11/meo/&gt;
+PREFIX mpo: &lt;http://purl.jp/bio/01/mpo#&gt;
+PREFIX up: &lt;http://purl.uniprot.org/core/&gt;
+PREFIX go: &lt;http://purl.uniprot.org/go/&gt;
+
+SELECT DISTINCT&nbsp;?uniprot_id&nbsp;?uniprot_up&nbsp;?recommended_name&nbsp;?taxonomy_id&nbsp;?taxonomy_name
+WHERE
+{
+  GRAPH &lt;http://togogenome.org/graph/goup/&gt;
+  {
+    go:0009987 up:classifiedWith&nbsp;?uniprot_id .
+  }
+  GRAPH &lt;http://togogenome.org/graph/tgup/&gt;
+  {
+   &nbsp;?togogenome rdfs:seeAlso&nbsp;?uniprot_id .
+   &nbsp;?togogenome rdfs:seeAlso&nbsp;?taxonomy_id .
+   &nbsp;?uniprot_id rdfs:seeAlso&nbsp;?uniprot_up .
+  }
+  GRAPH &lt;http://togogenome.org/graph/uniprot/&gt;
+  {
+   &nbsp;?uniprot_up up:recommendedName/up:fullName&nbsp;?recommended_name .
+  }
+  GRAPH &lt;http://togogenome.org/graph/taxonomy/&gt;
+  {
+   &nbsp;?taxonomy_id rdfs:label&nbsp;?taxonomy_name .
+  }
+  GRAPH &lt;http://togogenome.org/graph/tgtax/&gt;
+  {
+   &nbsp;?taxonomy_id rdfs:subClassOf &lt;http://identifiers.org/taxonomy/2&gt;
+  }
+} LIMIT 25
+</pre>
+<h3> <span class="mw-headline" id="GO_.2B_MEO">GO + MEO</span></h3>
+<pre>
+DEFINE sql:select-option &quot;order&quot;
+PREFIX mccv: &lt;http://purl.jp/bio/01/mccv#&gt;
+PREFIX meo: &lt;http://purl.jp/bio/11/meo/&gt;
+PREFIX mpo: &lt;http://purl.jp/bio/01/mpo#&gt;
+PREFIX up: &lt;http://purl.uniprot.org/core/&gt;
+PREFIX go: &lt;http://purl.uniprot.org/go/&gt;
+
+SELECT DISTINCT&nbsp;?uniprot_id&nbsp;?uniprot_up&nbsp;?recommended_name&nbsp;?taxonomy_id&nbsp;?taxonomy_name
+WHERE
+{
+  VALUES&nbsp;?gold_meo { meo:MEO_0000437 meo:MEO_0000440 }
+  GRAPH &lt;http://togogenome.org/graph/goup/&gt;
+  {
+    go:0009987 up:classifiedWith&nbsp;?uniprot_id .
+  }
+  GRAPH &lt;http://togogenome.org/graph/tgup/&gt;
+  {
+   &nbsp;?togogenome rdfs:seeAlso&nbsp;?uniprot_id .
+   &nbsp;?togogenome rdfs:seeAlso&nbsp;?taxonomy_id .
+   &nbsp;?uniprot_id rdfs:seeAlso&nbsp;?uniprot_up .
+  }
+  GRAPH &lt;http://togogenome.org/graph/uniprot/&gt;
+  {
+   &nbsp;?uniprot_up up:recommendedName/up:fullName&nbsp;?recommended_name .
+  }
+  GRAPH &lt;http://togogenome.org/graph/taxonomy/&gt;
+  {
+   &nbsp;?taxonomy_id rdfs:label&nbsp;?taxonomy_name .
+  }
+  GRAPH &lt;http://togogenome.org/graph/gold/&gt;
+  {
+   &nbsp;?gold_id mccv:MCCV_000020&nbsp;?taxonomy_id .
+   &nbsp;?gold_id&nbsp;?gold_meo&nbsp;?meo_id .
+  }
+  GRAPH &lt;http://togogenome.org/graph/meo_descendants/&gt;
+  {
+   &nbsp;?meo_id rdfs:subClassOf meo:MEO_0000004 .
+  }
+} LIMIT 25
+</pre>
+<h3> <span class="mw-headline" id="GO_.2B_MPO">GO + MPO</span></h3>
+<p>MPOのpredicateリストの取得 <a href="http://wiki.lifesciencedb.jp/mw/index.php/BH12.12/FacetSearchQuery#Predicate.E3.83.AA.E3.82.B9.E3.83.88" class="external text" rel="nofollow">クエリ</a>
+</p>
+<pre>
+DEFINE sql:select-option &quot;order&quot;
+PREFIX mccv: &lt;http://purl.jp/bio/01/mccv#&gt;
+PREFIX meo: &lt;http://purl.jp/bio/11/meo/&gt;
+PREFIX mpo: &lt;http://purl.jp/bio/01/mpo#&gt;
+PREFIX up: &lt;http://purl.uniprot.org/core/&gt;
+PREFIX go: &lt;http://purl.uniprot.org/go/&gt;
+
+SELECT DISTINCT&nbsp;?uniprot_id&nbsp;?uniprot_up&nbsp;?recommended_name&nbsp;?taxonomy_id&nbsp;?taxonomy_name
+WHERE
+{
+  VALUES&nbsp;?gold_meo { meo:MEO_0000437 meo:MEO_0000440 }
+  GRAPH &lt;http://togogenome.org/graph/goup/&gt;
+  {
+    go:0009987 up:classifiedWith&nbsp;?uniprot_id .
+  }
+  GRAPH &lt;http://togogenome.org/graph/tgup/&gt;
+  {
+   &nbsp;?togogenome rdfs:seeAlso&nbsp;?uniprot_id .
+   &nbsp;?togogenome rdfs:seeAlso&nbsp;?taxonomy_id .
+   &nbsp;?uniprot_id rdfs:seeAlso&nbsp;?uniprot_up .
+  }
+  GRAPH &lt;http://togogenome.org/graph/uniprot/&gt;
+  {
+   &nbsp;?uniprot_up up:recommendedName/up:fullName&nbsp;?recommended_name .
+  }
+  GRAPH &lt;http://togogenome.org/graph/taxonomy/&gt;
+  {
+   &nbsp;?taxonomy_id rdfs:label&nbsp;?taxonomy_name .
+  }
+  GRAPH &lt;http://togogenome.org/graph/gold/&gt;
+  {
+   &nbsp;?taxonomy_id&nbsp;?tax_mpo&nbsp;?mpo_id FILTER (?tax_mpo IN (mpo:MPO_10002, mpo:MPO_10001, mpo:MPO_10003, mpo:MPO_10005, mpo:MPO_10009, mpo:MPO_10010, mpo:MPO_10011, mpo:MPO_10013, mpo:MPO_10014, mpo:MPO_10015, mpo:MPO_10016, mpo:MPO_10006, mpo:MPO_10007)) .
+  }
+  GRAPH &lt;http://togogenome.org/graph/mpo_descendants/&gt;
+  {
+   &nbsp;?mpo_id rdfs:subClassOf mpo:MPO_02000
+  }
+} LIMIT 25
+</pre>
+<h3> <span class="mw-headline" id="GO_.2B_Tax_.2B_MEO">GO + Tax + MEO</span></h3>
+<pre>
+DEFINE sql:select-option &quot;order&quot;
+PREFIX mccv: &lt;http://purl.jp/bio/01/mccv#&gt;
+PREFIX meo: &lt;http://purl.jp/bio/11/meo/&gt;
+PREFIX mpo: &lt;http://purl.jp/bio/01/mpo#&gt;
+PREFIX up: &lt;http://purl.uniprot.org/core/&gt;
+PREFIX go: &lt;http://purl.uniprot.org/go/&gt;
+
+SELECT DISTINCT&nbsp;?uniprot_id&nbsp;?uniprot_up&nbsp;?recommended_name&nbsp;?taxonomy_id&nbsp;?taxonomy_name
+WHERE
+{
+  VALUES&nbsp;?gold_meo { meo:MEO_0000437 meo:MEO_0000440 }
+  GRAPH &lt;http://togogenome.org/graph/goup/&gt;
+  {
+    go:0009987 up:classifiedWith&nbsp;?uniprot_id .
+  }
+  GRAPH &lt;http://togogenome.org/graph/tgup/&gt;
+  {
+   &nbsp;?togogenome rdfs:seeAlso&nbsp;?uniprot_id .
+   &nbsp;?togogenome rdfs:seeAlso&nbsp;?taxonomy_id .
+   &nbsp;?uniprot_id rdfs:seeAlso&nbsp;?uniprot_up .
+  }
+  GRAPH &lt;http://togogenome.org/graph/uniprot/&gt;
+  {
+   &nbsp;?uniprot_up up:recommendedName/up:fullName&nbsp;?recommended_name .
+  }
+  GRAPH &lt;http://togogenome.org/graph/taxonomy/&gt;
+  {
+   &nbsp;?taxonomy_id rdfs:label&nbsp;?taxonomy_name .
+  }
+  GRAPH &lt;http://togogenome.org/graph/tgtax/&gt;
+  {
+   &nbsp;?taxonomy_id rdfs:subClassOf &lt;http://identifiers.org/taxonomy/2&gt;
+  }
+  GRAPH &lt;http://togogenome.org/graph/gold/&gt;
+  {
+   &nbsp;?gold_id mccv:MCCV_000020&nbsp;?taxonomy_id .
+   &nbsp;?gold_id&nbsp;?gold_meo&nbsp;?meo_id .
+  }
+  GRAPH &lt;http://togogenome.org/graph/meo_descendants/&gt;
+  {
+   &nbsp;?meo_id rdfs:subClassOf meo:MEO_0000004 .
+  }
+} LIMIT 25
+</pre>
+<h3> <span class="mw-headline" id="GO_.2B_Tax_.2B_MPO">GO + Tax + MPO</span></h3>
+<p>MPOのpredicateリストの取得 <a href="http://wiki.lifesciencedb.jp/mw/index.php/BH12.12/FacetSearchQuery#Predicate.E3.83.AA.E3.82.B9.E3.83.88" class="external text" rel="nofollow">クエリ</a>
+</p>
+<pre>
+DEFINE sql:select-option &quot;order&quot;
+PREFIX mccv: &lt;http://purl.jp/bio/01/mccv#&gt;
+PREFIX meo: &lt;http://purl.jp/bio/11/meo/&gt;
+PREFIX mpo: &lt;http://purl.jp/bio/01/mpo#&gt;
+PREFIX up: &lt;http://purl.uniprot.org/core/&gt;
+PREFIX go: &lt;http://purl.uniprot.org/go/&gt;
+
+SELECT DISTINCT&nbsp;?uniprot_id&nbsp;?uniprot_up&nbsp;?recommended_name&nbsp;?taxonomy_id&nbsp;?taxonomy_name
+WHERE
+{
+  GRAPH &lt;http://togogenome.org/graph/goup/&gt;
+  {
+    go:0009987 up:classifiedWith&nbsp;?uniprot_id .
+  }
+  GRAPH &lt;http://togogenome.org/graph/tgup/&gt;
+  {
+   &nbsp;?togogenome rdfs:seeAlso&nbsp;?uniprot_id .
+   &nbsp;?togogenome rdfs:seeAlso&nbsp;?taxonomy_id .
+   &nbsp;?uniprot_id rdfs:seeAlso&nbsp;?uniprot_up .
+  }
+  GRAPH &lt;http://togogenome.org/graph/uniprot/&gt;
+  {
+   &nbsp;?uniprot_up up:recommendedName/up:fullName&nbsp;?recommended_name .
+  }
+  GRAPH &lt;http://togogenome.org/graph/taxonomy/&gt;
+  {
+   &nbsp;?taxonomy_id rdfs:label&nbsp;?taxonomy_name .
+  }
+  GRAPH &lt;http://togogenome.org/graph/tgtax/&gt;
+  {
+   &nbsp;?taxonomy_id rdfs:subClassOf &lt;http://identifiers.org/taxonomy/2&gt;
+  }
+  GRAPH &lt;http://togogenome.org/graph/gold/&gt;
+  {
+   &nbsp;?taxonomy_id&nbsp;?tax_mpo&nbsp;?mpo_id FILTER (?tax_mpo IN (mpo:MPO_10002, mpo:MPO_10001, mpo:MPO_10003, mpo:MPO_10005, mpo:MPO_10009, mpo:MPO_10010, mpo:MPO_10011, mpo:MPO_10013, mpo:MPO_10014, mpo:MPO_10015, mpo:MPO_10016, mpo:MPO_10006, mpo:MPO_10007)) .
+  }
+  GRAPH &lt;http://togogenome.org/graph/mpo_descendants/&gt;
+  {
+   &nbsp;?mpo_id rdfs:subClassOf mpo:MPO_02000
+  }
+} LIMIT 25
+</pre>
+<h3> <span class="mw-headline" id="GO_.2B_MEO_.2B_MPO">GO + MEO + MPO</span></h3>
+<p>MPOのpredicateリストの取得 <a href="http://wiki.lifesciencedb.jp/mw/index.php/BH12.12/FacetSearchQuery#Predicate.E3.83.AA.E3.82.B9.E3.83.88" class="external text" rel="nofollow">クエリ</a>
+</p>
+<pre>
+DEFINE sql:select-option &quot;order&quot;
+PREFIX mccv: &lt;http://purl.jp/bio/01/mccv#&gt;
+PREFIX meo: &lt;http://purl.jp/bio/11/meo/&gt;
+PREFIX mpo: &lt;http://purl.jp/bio/01/mpo#&gt;
+PREFIX up: &lt;http://purl.uniprot.org/core/&gt;
+PREFIX go: &lt;http://purl.uniprot.org/go/&gt;
+
+SELECT DISTINCT&nbsp;?uniprot_id&nbsp;?uniprot_up&nbsp;?recommended_name&nbsp;?taxonomy_id&nbsp;?taxonomy_name
+WHERE
+{
+  VALUES&nbsp;?gold_meo { meo:MEO_0000437 meo:MEO_0000440 }
+  GRAPH &lt;http://togogenome.org/graph/goup/&gt;
+  {
+    go:0009987 up:classifiedWith&nbsp;?uniprot_id .
+  }
+  GRAPH &lt;http://togogenome.org/graph/tgup/&gt;
+  {
+   &nbsp;?togogenome rdfs:seeAlso&nbsp;?uniprot_id .
+   &nbsp;?togogenome rdfs:seeAlso&nbsp;?taxonomy_id .
+   &nbsp;?uniprot_id rdfs:seeAlso&nbsp;?uniprot_up .
+  }
+  GRAPH &lt;http://togogenome.org/graph/uniprot/&gt;
+  {
+   &nbsp;?uniprot_up up:recommendedName/up:fullName&nbsp;?recommended_name .
+  }
+  GRAPH &lt;http://togogenome.org/graph/taxonomy/&gt;
+  {
+   &nbsp;?taxonomy_id rdfs:label&nbsp;?taxonomy_name .
+  }
+  GRAPH &lt;http://togogenome.org/graph/gold/&gt;
+  {
+   &nbsp;?gold_id mccv:MCCV_000020&nbsp;?taxonomy_id .
+   &nbsp;?gold_id&nbsp;?gold_meo&nbsp;?meo_id .
+  }
+  GRAPH &lt;http://togogenome.org/graph/meo_descendants/&gt;
+  {
+   &nbsp;?meo_id rdfs:subClassOf meo:MEO_0000004 .
+  }
+  GRAPH &lt;http://togogenome.org/graph/gold/&gt;
+  {
+   &nbsp;?taxonomy_id&nbsp;?tax_mpo&nbsp;?mpo_id FILTER (?tax_mpo IN (mpo:MPO_10002, mpo:MPO_10001, mpo:MPO_10003, mpo:MPO_10005, mpo:MPO_10009, mpo:MPO_10010, mpo:MPO_10011, mpo:MPO_10013, mpo:MPO_10014, mpo:MPO_10015, mpo:MPO_10016, mpo:MPO_10006, mpo:MPO_10007)) .
+  }
+  GRAPH &lt;http://togogenome.org/graph/mpo_descendants/&gt;
+  {
+   &nbsp;?mpo_id rdfs:subClassOf mpo:MPO_02000
+  }
+} LIMIT 25
+</pre>
+<h3> <span class="mw-headline" id="GO_.2B_Tax_.2B_MEO_.2B_MPO">GO + Tax + MEO + MPO</span></h3>
+<p>MPOのpredicateリストの取得 <a href="http://wiki.lifesciencedb.jp/mw/index.php/BH12.12/FacetSearchQuery#Predicate.E3.83.AA.E3.82.B9.E3.83.88" class="external text" rel="nofollow">クエリ</a>
+</p>
+<pre>
+DEFINE sql:select-option &quot;order&quot;
+PREFIX mccv: &lt;http://purl.jp/bio/01/mccv#&gt;
+PREFIX meo: &lt;http://purl.jp/bio/11/meo/&gt;
+PREFIX mpo: &lt;http://purl.jp/bio/01/mpo#&gt;
+PREFIX up: &lt;http://purl.uniprot.org/core/&gt;
+PREFIX go: &lt;http://purl.uniprot.org/go/&gt;
+
+SELECT DISTINCT&nbsp;?uniprot_id&nbsp;?uniprot_up&nbsp;?recommended_name&nbsp;?taxonomy_id&nbsp;?taxonomy_name
+WHERE
+{
+  VALUES&nbsp;?gold_meo { meo:MEO_0000437 meo:MEO_0000440 }
+  GRAPH &lt;http://togogenome.org/graph/goup/&gt;
+  {
+    go:0009987 up:classifiedWith&nbsp;?uniprot_id .
+  }
+  GRAPH &lt;http://togogenome.org/graph/tgup/&gt;
+  {
+   &nbsp;?togogenome rdfs:seeAlso&nbsp;?uniprot_id .
+   &nbsp;?togogenome rdfs:seeAlso&nbsp;?taxonomy_id .
+   &nbsp;?uniprot_id rdfs:seeAlso&nbsp;?uniprot_up .
+  }
+  GRAPH &lt;http://togogenome.org/graph/uniprot/&gt;
+  {
+   &nbsp;?uniprot_up up:recommendedName/up:fullName&nbsp;?recommended_name .
+  }
+  GRAPH &lt;http://togogenome.org/graph/taxonomy/&gt;
+  {
+   &nbsp;?taxonomy_id rdfs:label&nbsp;?taxonomy_name .
+  }
+  GRAPH &lt;http://togogenome.org/graph/tgtax/&gt;
+  {
+   &nbsp;?taxonomy_id rdfs:subClassOf &lt;http://identifiers.org/taxonomy/2&gt;
+  }
+  GRAPH &lt;http://togogenome.org/graph/gold/&gt;
+  {
+   &nbsp;?gold_id mccv:MCCV_000020&nbsp;?taxonomy_id .
+   &nbsp;?gold_id&nbsp;?gold_meo&nbsp;?meo_id .
+  }
+  GRAPH &lt;http://togogenome.org/graph/meo_descendants/&gt;
+  {
+   &nbsp;?meo_id rdfs:subClassOf meo:MEO_0000004 .
+  }
+  GRAPH &lt;http://togogenome.org/graph/gold/&gt;
+  {
+   &nbsp;?taxonomy_id&nbsp;?tax_mpo&nbsp;?mpo_id FILTER (?tax_mpo IN (mpo:MPO_10002, mpo:MPO_10001, mpo:MPO_10003, mpo:MPO_10005, mpo:MPO_10009, mpo:MPO_10010, mpo:MPO_10011, mpo:MPO_10013, mpo:MPO_10014, mpo:MPO_10015, mpo:MPO_10016, mpo:MPO_10006, mpo:MPO_10007)) .
+  }
+  GRAPH &lt;http://togogenome.org/graph/mpo_descendants/&gt;
+  {
+   &nbsp;?mpo_id rdfs:subClassOf mpo:MPO_02000
+  }
+} LIMIT 25
+</pre>
+<h2> <span class="mw-headline" id="Taxonomy.E6.8C.87.E5.AE.9A">Taxonomy指定</span></h2>
+<h3> <span class="mw-headline" id="Tax">Tax</span></h3>
+<pre>
+DEFINE sql:select-option &quot;order&quot;
+PREFIX mccv: &lt;http://purl.jp/bio/01/mccv#&gt;
+PREFIX meo: &lt;http://purl.jp/bio/11/meo/&gt;
+PREFIX mpo: &lt;http://purl.jp/bio/01/mpo#&gt;
+PREFIX up: &lt;http://purl.uniprot.org/core/&gt;
+PREFIX go: &lt;http://purl.uniprot.org/go/&gt;
+
+SELECT DISTINCT&nbsp;?uniprot_id&nbsp;?uniprot_up&nbsp;?recommended_name&nbsp;?taxonomy_id&nbsp;?taxonomy_name
+WHERE
+{
+  GRAPH &lt;http://togogenome.org/graph/tgtax/&gt;
+  {
+   &nbsp;?taxonomy_id rdfs:subClassOf &lt;http://identifiers.org/taxonomy/2&gt;
+  }
+  GRAPH &lt;http://togogenome.org/graph/taxonomy/&gt;
+  {
+   &nbsp;?taxonomy_id rdfs:label&nbsp;?taxonomy_name .
+  }
+  GRAPH &lt;http://togogenome.org/graph/tgup/&gt;
+  {
+   &nbsp;?togogenome rdfs:seeAlso&nbsp;?taxonomy_id .
+   &nbsp;?togogenome rdfs:seeAlso&nbsp;?uniprot_id .
+   &nbsp;?uniprot_id rdfs:seeAlso&nbsp;?uniprot_up .
+  }
+  GRAPH &lt;http://togogenome.org/graph/uniprot/&gt;
+  {
+   &nbsp;?uniprot_up up:recommendedName/up:fullName&nbsp;?recommended_name .
+  }
+} LIMIT 25
+</pre>
+<h3> <span class="mw-headline" id="Tax_.2B_MEO">Tax + MEO</span></h3>
+<pre>
+DEFINE sql:select-option &quot;order&quot;
+PREFIX mccv: &lt;http://purl.jp/bio/01/mccv#&gt;
+PREFIX meo: &lt;http://purl.jp/bio/11/meo/&gt;
+PREFIX mpo: &lt;http://purl.jp/bio/01/mpo#&gt;
+PREFIX up: &lt;http://purl.uniprot.org/core/&gt;
+PREFIX go: &lt;http://purl.uniprot.org/go/&gt;
+
+SELECT DISTINCT&nbsp;?uniprot_id&nbsp;?uniprot_up&nbsp;?recommended_name&nbsp;?taxonomy_id&nbsp;?taxonomy_name
+WHERE
+{
+  VALUES&nbsp;?gold_meo { meo:MEO_0000437 meo:MEO_0000440 }
+  GRAPH &lt;http://togogenome.org/graph/tgtax/&gt;
+  {
+   &nbsp;?taxonomy_id rdfs:subClassOf &lt;http://identifiers.org/taxonomy/2&gt;
+  }
+  GRAPH &lt;http://togogenome.org/graph/taxonomy/&gt;
+  {
+   &nbsp;?taxonomy_id rdfs:label&nbsp;?taxonomy_name .
+  }
+  GRAPH &lt;http://togogenome.org/graph/tgup/&gt;
+  {
+   &nbsp;?togogenome rdfs:seeAlso&nbsp;?taxonomy_id .
+   &nbsp;?togogenome rdfs:seeAlso&nbsp;?uniprot_id .
+   &nbsp;?uniprot_id rdfs:seeAlso&nbsp;?uniprot_up .
+  }
+  GRAPH &lt;http://togogenome.org/graph/uniprot/&gt;
+  {
+   &nbsp;?uniprot_up up:recommendedName/up:fullName&nbsp;?recommended_name .
+  }
+  GRAPH &lt;http://togogenome.org/graph/gold/&gt;
+  {
+   &nbsp;?gold_id mccv:MCCV_000020&nbsp;?taxonomy_id .
+   &nbsp;?gold_id&nbsp;?gold_meo&nbsp;?meo_id .
+  }
+  GRAPH &lt;http://togogenome.org/graph/meo_descendants/&gt;
+  {
+   &nbsp;?meo_id rdfs:subClassOf meo:MEO_0000004 .
+  }
+} LIMIT 25
+</pre>
+<h3> <span class="mw-headline" id="Tax_.2B_MPO">Tax + MPO</span></h3>
+<p>MPOのpredicateリストの取得 <a href="http://wiki.lifesciencedb.jp/mw/index.php/BH12.12/FacetSearchQuery#Predicate.E3.83.AA.E3.82.B9.E3.83.88" class="external text" rel="nofollow">クエリ</a>
+</p>
+<pre>
+DEFINE sql:select-option &quot;order&quot;
+PREFIX mccv: &lt;http://purl.jp/bio/01/mccv#&gt;
+PREFIX meo: &lt;http://purl.jp/bio/11/meo/&gt;
+PREFIX mpo: &lt;http://purl.jp/bio/01/mpo#&gt;
+PREFIX up: &lt;http://purl.uniprot.org/core/&gt;
+PREFIX go: &lt;http://purl.uniprot.org/go/&gt;
+
+SELECT DISTINCT&nbsp;?uniprot_id&nbsp;?uniprot_up&nbsp;?recommended_name&nbsp;?taxonomy_id&nbsp;?taxonomy_name
+WHERE
+{
+  GRAPH &lt;http://togogenome.org/graph/tgtax/&gt;
+  {
+   &nbsp;?taxonomy_id rdfs:subClassOf &lt;http://identifiers.org/taxonomy/2&gt;
+  }
+  GRAPH &lt;http://togogenome.org/graph/taxonomy/&gt;
+  {
+   &nbsp;?taxonomy_id rdfs:label&nbsp;?taxonomy_name .
+  }
+  GRAPH &lt;http://togogenome.org/graph/tgup/&gt;
+  {
+   &nbsp;?togogenome rdfs:seeAlso&nbsp;?taxonomy_id .
+   &nbsp;?togogenome rdfs:seeAlso&nbsp;?uniprot_id .
+   &nbsp;?uniprot_id rdfs:seeAlso&nbsp;?uniprot_up .
+  }
+  GRAPH &lt;http://togogenome.org/graph/uniprot/&gt;
+  {
+   &nbsp;?uniprot_up up:recommendedName/up:fullName&nbsp;?recommended_name .
+  }
+  GRAPH &lt;http://togogenome.org/graph/gold/&gt;
+  {
+   &nbsp;?taxonomy_id&nbsp;?tax_mpo&nbsp;?mpo_id FILTER (?tax_mpo IN (mpo:MPO_10002, mpo:MPO_10001, mpo:MPO_10003, mpo:MPO_10005, mpo:MPO_10009, mpo:MPO_10010, mpo:MPO_10011, mpo:MPO_10013, mpo:MPO_10014, mpo:MPO_10015, mpo:MPO_10016, mpo:MPO_10006, mpo:MPO_10007)) .
+  }
+  GRAPH &lt;http://togogenome.org/graph/mpo_descendants/&gt;
+  {
+   &nbsp;?mpo_id rdfs:subClassOf mpo:MPO_02000
+  }
+} LIMIT 25
+</pre>
+<h3> <span class="mw-headline" id="Tax_.2B_MEO_.2B_MPO">Tax + MEO + MPO</span></h3>
+<p>MPOのpredicateリストの取得 <a href="http://wiki.lifesciencedb.jp/mw/index.php/BH12.12/FacetSearchQuery#Predicate.E3.83.AA.E3.82.B9.E3.83.88" class="external text" rel="nofollow">クエリ</a>
+</p>
+<pre>
+DEFINE sql:select-option &quot;order&quot;
+PREFIX mccv: &lt;http://purl.jp/bio/01/mccv#&gt;
+PREFIX meo: &lt;http://purl.jp/bio/11/meo/&gt;
+PREFIX mpo: &lt;http://purl.jp/bio/01/mpo#&gt;
+PREFIX up: &lt;http://purl.uniprot.org/core/&gt;
+PREFIX go: &lt;http://purl.uniprot.org/go/&gt;
+
+SELECT DISTINCT&nbsp;?uniprot_id&nbsp;?uniprot_up&nbsp;?recommended_name&nbsp;?taxonomy_id&nbsp;?taxonomy_name
+WHERE
+{
+  VALUES&nbsp;?gold_meo { meo:MEO_0000437 meo:MEO_0000440 }
+  GRAPH &lt;http://togogenome.org/graph/tgtax/&gt;
+  {
+   &nbsp;?taxonomy_id rdfs:subClassOf &lt;http://identifiers.org/taxonomy/2&gt;
+  }
+  GRAPH &lt;http://togogenome.org/graph/taxonomy/&gt;
+  {
+   &nbsp;?taxonomy_id rdfs:label&nbsp;?taxonomy_name .
+  }
+  GRAPH &lt;http://togogenome.org/graph/tgup/&gt;
+  {
+   &nbsp;?togogenome rdfs:seeAlso&nbsp;?taxonomy_id .
+   &nbsp;?togogenome rdfs:seeAlso&nbsp;?uniprot_id .
+   &nbsp;?uniprot_id rdfs:seeAlso&nbsp;?uniprot_up .
+  }
+  GRAPH &lt;http://togogenome.org/graph/uniprot/&gt;
+  {
+   &nbsp;?uniprot_up up:recommendedName/up:fullName&nbsp;?recommended_name .
+  }
+  GRAPH &lt;http://togogenome.org/graph/gold/&gt;
+  {
+   &nbsp;?gold_id mccv:MCCV_000020&nbsp;?taxonomy_id .
+   &nbsp;?gold_id&nbsp;?gold_meo&nbsp;?meo_id .
+  }
+  GRAPH &lt;http://togogenome.org/graph/meo_descendants/&gt;
+  {
+   &nbsp;?meo_id rdfs:subClassOf meo:MEO_0000004 .
+  }
+  GRAPH &lt;http://togogenome.org/graph/gold/&gt;
+  {
+   &nbsp;?taxonomy_id&nbsp;?tax_mpo&nbsp;?mpo_id FILTER (?tax_mpo IN (mpo:MPO_10002, mpo:MPO_10001, mpo:MPO_10003, mpo:MPO_10005, mpo:MPO_10009, mpo:MPO_10010, mpo:MPO_10011, mpo:MPO_10013, mpo:MPO_10014, mpo:MPO_10015, mpo:MPO_10016, mpo:MPO_10006, mpo:MPO_10007)) .
+  }
+  GRAPH &lt;http://togogenome.org/graph/mpo_descendants/&gt;
+  {
+   &nbsp;?mpo_id rdfs:subClassOf mpo:MPO_02000
+  }
+} LIMIT 25
+</pre>
+<h2> <span class="mw-headline" id="MEO.E6.8C.87.E5.AE.9A">MEO指定</span></h2>
+<h3> <span class="mw-headline" id="MEO">MEO</span></h3>
+<pre>
+DEFINE sql:select-option &quot;order&quot;
+PREFIX mccv: &lt;http://purl.jp/bio/01/mccv#&gt;
+PREFIX meo: &lt;http://purl.jp/bio/11/meo/&gt;
+PREFIX mpo: &lt;http://purl.jp/bio/01/mpo#&gt;
+PREFIX up: &lt;http://purl.uniprot.org/core/&gt;
+PREFIX go: &lt;http://purl.uniprot.org/go/&gt;
+
+SELECT DISTINCT&nbsp;?uniprot_id&nbsp;?uniprot_up&nbsp;?recommended_name&nbsp;?taxonomy_id&nbsp;?taxonomy_name
+WHERE
+{
+  VALUES&nbsp;?gold_meo { meo:MEO_0000437 meo:MEO_0000440 }
+  GRAPH &lt;http://togogenome.org/graph/meo_descendants/&gt;
+  {
+   &nbsp;?meo_id rdfs:subClassOf meo:MEO_0000004 .
+  }
+  GRAPH &lt;http://togogenome.org/graph/gold/&gt;
+  {
+   &nbsp;?gold_id&nbsp;?gold_meo&nbsp;?meo_id .
+   &nbsp;?gold_id mccv:MCCV_000020&nbsp;?taxonomy_id .
+  }
+  GRAPH &lt;http://togogenome.org/graph/taxonomy/&gt;
+  {
+   &nbsp;?taxonomy_id rdfs:label&nbsp;?taxonomy_name .
+  }
+  GRAPH &lt;http://togogenome.org/graph/tgup/&gt;
+  {
+   &nbsp;?togogenome rdfs:seeAlso&nbsp;?taxonomy_id .
+   &nbsp;?togogenome rdfs:seeAlso&nbsp;?uniprot_id .
+   &nbsp;?uniprot_id rdfs:seeAlso&nbsp;?uniprot_up .
+  }
+  GRAPH &lt;http://togogenome.org/graph/uniprot/&gt;
+  {
+   &nbsp;?uniprot_up up:recommendedName/up:fullName&nbsp;?recommended_name .
+  }
+} LIMIT 25
+</pre>
+<h3> <span class="mw-headline" id="MEO_.2B_MPO">MEO + MPO</span></h3>
+<p>MPOのpredicateリストの取得 <a href="http://wiki.lifesciencedb.jp/mw/index.php/BH12.12/FacetSearchQuery#Predicate.E3.83.AA.E3.82.B9.E3.83.88" class="external text" rel="nofollow">クエリ</a>
+</p>
+<pre>
+DEFINE sql:select-option &quot;order&quot;
+PREFIX mccv: &lt;http://purl.jp/bio/01/mccv#&gt;
+PREFIX meo: &lt;http://purl.jp/bio/11/meo/&gt;
+PREFIX mpo: &lt;http://purl.jp/bio/01/mpo#&gt;
+PREFIX up: &lt;http://purl.uniprot.org/core/&gt;
+PREFIX go: &lt;http://purl.uniprot.org/go/&gt;
+
+SELECT DISTINCT&nbsp;?uniprot_id&nbsp;?uniprot_up&nbsp;?recommended_name&nbsp;?taxonomy_id&nbsp;?taxonomy_name
+WHERE
+{
+  VALUES&nbsp;?gold_meo { meo:MEO_0000437 meo:MEO_0000440 }
+  GRAPH &lt;http://togogenome.org/graph/meo_descendants/&gt;
+  {
+   &nbsp;?meo_id rdfs:subClassOf meo:MEO_0000004 .
+  }
+  GRAPH &lt;http://togogenome.org/graph/gold/&gt;
+  {
+   &nbsp;?gold_id&nbsp;?gold_meo&nbsp;?meo_id .
+   &nbsp;?gold_id mccv:MCCV_000020&nbsp;?taxonomy_id .
+  }
+  GRAPH &lt;http://togogenome.org/graph/gold/&gt;
+  {
+   &nbsp;?taxonomy_id&nbsp;?tax_mpo&nbsp;?mpo_id FILTER (?tax_mpo IN (mpo:MPO_10002, mpo:MPO_10001, mpo:MPO_10003, mpo:MPO_10005, mpo:MPO_10009, mpo:MPO_10010, mpo:MPO_10011, mpo:MPO_10013, mpo:MPO_10014, mpo:MPO_10015, mpo:MPO_10016, mpo:MPO_10006, mpo:MPO_10007)) .
+  }
+  GRAPH &lt;http://togogenome.org/graph/mpo_descendants/&gt;
+  {
+   &nbsp;?mpo_id rdfs:subClassOf mpo:MPO_02000
+  }
+  GRAPH &lt;http://togogenome.org/graph/taxonomy/&gt;
+  {
+   &nbsp;?taxonomy_id rdfs:label&nbsp;?taxonomy_name .
+  }
+  GRAPH &lt;http://togogenome.org/graph/tgup/&gt;
+  {
+   &nbsp;?togogenome rdfs:seeAlso&nbsp;?taxonomy_id .
+   &nbsp;?togogenome rdfs:seeAlso&nbsp;?uniprot_id .
+   &nbsp;?uniprot_id rdfs:seeAlso&nbsp;?uniprot_up .
+  }
+  GRAPH &lt;http://togogenome.org/graph/uniprot/&gt;
+  {
+   &nbsp;?uniprot_up up:recommendedName/up:fullName&nbsp;?recommended_name .
+  }
+} LIMIT 25
+</pre>
+<h2> <span class="mw-headline" id="MPO.E6.8C.87.E5.AE.9A">MPO指定</span></h2>
+<h3> <span class="mw-headline" id="Predicate.E3.83.AA.E3.82.B9.E3.83.88">Predicateリスト</span></h3>
+<p>検索で指定するMPOのpredicate一覧を取得するためのクエリ。
+</p>
+<pre>
+SELECT DISTINCT&nbsp;?p
+FROM &lt;http://togogenome.org/graph/gold/&gt;
+WHERE
+{
+ ?s&nbsp;?p&nbsp;?o FILTER (STRSTARTS(STR(?p),&quot;http://purl.jp/bio/01/mpo#&quot;))
+}
+</pre>
+<h3> <span class="mw-headline" id="MPO">MPO</span></h3>
+<pre>
+DEFINE sql:select-option &quot;order&quot;
+PREFIX mccv: &lt;http://purl.jp/bio/01/mccv#&gt;
+PREFIX meo: &lt;http://purl.jp/bio/11/meo/&gt;
+PREFIX mpo: &lt;http://purl.jp/bio/01/mpo#&gt;
+PREFIX up: &lt;http://purl.uniprot.org/core/&gt;
+PREFIX go: &lt;http://purl.uniprot.org/go/&gt;
+
+SELECT DISTINCT&nbsp;?uniprot_id&nbsp;?uniprot_up&nbsp;?recommended_name&nbsp;?taxonomy_id&nbsp;?taxonomy_name
+WHERE
+{
+  GRAPH &lt;http://togogenome.org/graph/mpo_descendants/&gt;
+  {
+   &nbsp;?mpo_id rdfs:subClassOf mpo:MPO_02000
+  }
+  GRAPH &lt;http://togogenome.org/graph/gold/&gt;
+  {
+   &nbsp;?taxonomy_id&nbsp;?tax_mpo&nbsp;?mpo_id FILTER (?tax_mpo IN (mpo:MPO_10002, mpo:MPO_10001, mpo:MPO_10003, mpo:MPO_10005, mpo:MPO_10009, mpo:MPO_10010, mpo:MPO_10011, mpo:MPO_10013, mpo:MPO_10014, mpo:MPO_10015, mpo:MPO_10016, mpo:MPO_10006, mpo:MPO_10007)) .
+  }
+  GRAPH &lt;http://togogenome.org/graph/taxonomy/&gt;
+  {
+   &nbsp;?taxonomy_id rdfs:label&nbsp;?taxonomy_name .
+  }
+  GRAPH &lt;http://togogenome.org/graph/tgup/&gt;
+  {
+   &nbsp;?togogenome rdfs:seeAlso&nbsp;?taxonomy_id .
+   &nbsp;?togogenome rdfs:seeAlso&nbsp;?uniprot_id .
+   &nbsp;?uniprot_id rdfs:seeAlso&nbsp;?uniprot_up .
+  }
+  GRAPH &lt;http://togogenome.org/graph/uniprot/&gt;
+  {
+   &nbsp;?uniprot_up up:recommendedName/up:fullName&nbsp;?recommended_name .
+  }
+} LIMIT 25
+</pre>
+<h2> <span class="mw-headline" id=".E6.A4.9C.E7.B4.A2.E3.83.92.E3.83.83.E3.83.88.E4.BB.B6.E6.95.B0">検索ヒット件数</span></h2>
+<p>各SPARQLのSELECT句を書き替える。
+</p>
+<pre>
+SELECT (COUNT(DISTINCT&nbsp;?uniprot_id) AS&nbsp;?hit_count)
+</pre>
+<h1> <span class="mw-headline" id="Facet.E6.A4.9C.E7.B4.A2.E7.94.A8.E3.83.88.E3.83.AA.E3.83.97.E3.83.AB.E7.94.9F.E6.88.90">Facet検索用トリプル生成</span></h1>
+<h2> <span class="mw-headline" id="GO2Uniprot">GO2Uniprot</span></h2>
+<h3> <span class="mw-headline" id="GO.E3.81.AE.E4.B8.80.E8.A6.A7.E5.8F.96.E5.BE.97">GOの一覧取得</span></h3>
+<p>Uniprotで使用されているGOの一覧を取得する。
+</p>
+<pre>
+SELECT DISTINCT&nbsp;?go
+FROM &lt;http://togogenome.org/graph/uniprot/&gt;
+WHERE
+{
+ ?go a &lt;http://purl.uniprot.org/core/Concept&gt; FILTER (STRSTARTS(STR(?go),&quot;http://purl.uniprot.org/go&quot;))
+}
+</pre>
+<h3> <span class="mw-headline" id="GO.E6.AF.8E.E3.81.AEUniprotID.E3.83.92.E3.83.83.E3.83.88.E4.BB.B6.E6.95.B0.E5.8F.96.E5.BE.97">GO毎のUniprotIDヒット件数取得</span></h3>
+<p>UniprotID取得時にOFFSET/LIMITを使用するケースがあるため、あらかじめ件数を取得しておく。<br />
+いくつかのGOは件数が多すぎてエンドポイント経由では取得できないため、isql経由で取得する。<br />
+go0044464_up_cnt.rq
+</p>
+<pre>
+SPARQL
+DEFINE sql:select-option &quot;order&quot;
+PREFIX up: &lt;http://purl.uniprot.org/core/&gt;
+CONSTRUCT
+{
+ &lt;http://purl.uniprot.org/go/0044464&gt; &lt;has_uniprot&gt;&nbsp;?cnt
+}
+{
+ {
+  SELECT COUNT(DISTINCT&nbsp;?uniprot_uri)
+  FROM &lt;http://togogenome.org/graph/uniprot/&gt;
+  FROM &lt;http://togogenome.org/graph/tgup/&gt;
+  WHERE
+  {
+  &nbsp;?uniprot_go rdfs:subClassOf* &lt;http://purl.uniprot.org/go/0044464&gt; .
+  &nbsp;?uniprot_bp up:classifiedWith&nbsp;?uniprot_go .
+  &nbsp;?uniprot_bp up:recommendedName/up:fullName&nbsp;?recommended_name .
+  &nbsp;?uniprot_uri rdfs:seeAlso&nbsp;?uniprot_bp .
+  }
+ }
+}
+;
+</pre>
+<p>CONSTRUCT文を発行してファイルに出力するコマンド。<br />
+※ポート番号(1111) とユーザパスワード(dba dba)は実行環境に合わせて変更する
+</p>
+<pre>
+isql 1111 dba dba VERBOSE=OFF BANNER=OFF PROMPT=OFF ECHO=OFF BLOBS=ON ERRORS=stdout &lt; go0044464_up_cnt.rq &gt;&gt;  goup_cnt.txt
+</pre>
+<h3> <span class="mw-headline" id="GO.E6.AF.8E.E3.81.AEUniprotID.E3.81.AE.E5.8F.96.E5.BE.97">GO毎のUniprotIDの取得</span></h3>
+<p>GO:0044464(cell part)に紐づくUniprotIDのリストを生成するCONSTRUCT文<br />
+CONSTRUCT文はVirtuoso.iniファイルのResultSetMaxRowsのトリプルしか出力されないので注意する。<br />
+ResultSetMaxRowsを1,000,000→1,500,000 にあげるか、OFFSET LIMITを使用する<br />
+ここでNT形式出力の指定(DEFINE output:format "NT")をしないのは、出力されたTTLが33行毎に1文字欠けるというVirtuosoの謎のバグがあるため<br />
+</p>
+<pre>
+SPARQL
+DEFINE sql:select-option &quot;order&quot;
+PREFIX up: &lt;http://purl.uniprot.org/core/&gt;
+
+CONSTRUCT
+{
+ &lt;http://purl.uniprot.org/go/0044464&gt; up:classifiedWith&nbsp;?uniprot_uri 
+}
+FROM &lt;http://togogenome.org/graph/uniprot/&gt;
+FROM &lt;http://togogenome.org/graph/tgup/&gt;
+WHERE
+{
+ {
+  SELECT DISTINCT&nbsp;?uniprot_uri
+  WHERE
+  {
+  &nbsp;?uniprot_go rdfs:subClassOf* &lt;http://purl.uniprot.org/go/0044464&gt; .
+  &nbsp;?uniprot_bp up:classifiedWith&nbsp;?uniprot_go .
+  &nbsp;?uniprot_bp up:recommendedName/up:fullName&nbsp;?recommended_name . 
+  &nbsp;?uniprot_uri rdfs:seeAlso&nbsp;?uniprot_bp .
+  }
+ }
+}
+;
+</pre>
+<p>ResultSetMaxRowsの上限を超える場合にはOFFSETで出力する。//あらかじめ紐づくUniprotの件数を調べておく必要がある
+</p>
+<pre>
+SPARQL
+DEFINE sql:select-option &quot;order&quot;
+PREFIX up: &lt;http://purl.uniprot.org/core/&gt;
+
+CONSTRUCT
+{
+ &lt;http://purl.uniprot.org/go/0009987&gt; up:classifiedWith&nbsp;?uniprot_uri 
+}
+FROM &lt;http://togogenome.org/graph/uniprot/&gt;
+FROM &lt;http://togogenome.org/graph/tgup/&gt;
+WHERE
+{
+ {
+  SELECT DISTINCT&nbsp;?uniprot_uri
+  WHERE
+  {
+  &nbsp;?uniprot_go rdfs:subClassOf* &lt;http://purl.uniprot.org/go/0009987&gt; .
+  &nbsp;?uniprot_bp up:classifiedWith&nbsp;?uniprot_go .
+  &nbsp;?uniprot_bp up:recommendedName/up:fullName&nbsp;?recommended_name . 
+  &nbsp;?uniprot_uri rdfs:seeAlso&nbsp;?uniprot_bp .
+  } OFFSET 1000000 LIMIT 1000000
+ }
+}
+;
+</pre>
+<p>CONSTRUCT文を発行してファイルに出力するコマンド。<br />
+※ポート番号(1111) とユーザパスワード(dba dba)は実行環境に合わせて変更する
+</p>
+<pre>
+isql 1111 dba dba VERBOSE=OFF BANNER=OFF PROMPT=OFF ECHO=OFF BLOBS=ON ERRORS=stdout &lt; create_ttl_go0044464_uniprot.rq &gt; go0044464_uniprot.txt
+</pre>
+<h3> <span class="mw-headline" id="TTL.E3.81.AB.E5.A4.89.E6.8F.9B.EF.BC.86.E3.83.AD.E3.83.BC.E3.83.89">TTLに変換＆ロード</span></h3>
+<p>上記のCONSTRUCT文であれば（DEFINE output:format "NT"をつけていないため）、空白区切りで出力されるため、整形してttlに変換する。
+</p>
+<pre>
+perl -pe 's/(\S+)/&lt;$1&gt;/g; s/$/ ./' go0044464_uniprot.txt &gt; go0044464_uniprot.ttl
+</pre>
+<p>データのロード
+</p>
+<pre>
+SQL&gt; ld_dir_all('/data/store/virtuoso7upd2/var/lib/virtuoso/db/goup/'), '*.ttl', 'http://togogenome.org/graph/goup/');
+</pre>
+<h2> <span class="mw-headline" id="MEO_hierarchy">MEO hierarchy</span></h2>
+<p>MEOのsubClassOf*の関係をリーズニングするCONSTRUCT文を生成。出力フォーマットはNTを指定<br />
+create_ttl_meo_descendants.rq
+</p>
+<pre>
+SPARQL
+DEFINE output:format &quot;NT&quot;
+CONSTRUCT
+{
+ ?meo_id rdfs:subClassOf&nbsp;?parent_meo_id
+}
+FROM &lt;http://togogenome.org/graph/meo/&gt;
+WHERE
+{
+ ?meo_id a owl:Class .
+ ?meo_id rdfs:subClassOf*&nbsp;?parent_meo_id
+}
+;
+</pre>
+<p>CONSTRUCT文を発行してファイルに出力するコマンド。
+</p>
+<pre>
+isql 1111 dba dba VERBOSE=OFF BANNER=OFF PROMPT=OFF ECHO=OFF BLOBS=ON ERRORS=stdout &lt; create_ttl_meo_descendants.rq &gt; meo_descendants.ttl
+</pre>
+<p>データのロード
+</p>
+<pre>
+SQL &gt; DB.DBA.TTLP_MT (file_to_string_output('/data/store/virtuoso7upd2/var/lib/virtuoso/db/meo_descendants.ttl'), '', 'http://togogenome.org/graph/meo_descendants/');
+</pre>
+<h2> <span class="mw-headline" id="MPO_hierarchy">MPO hierarchy</span></h2>
+<p>MPOのsubClassOf*の関係をリーズニングするCONSTRUCT文を生成。出力フォーマットはNTを指定<br />
+create_ttl_mpo_descendants.rq
+</p>
+<pre>
+SPARQL
+DEFINE output:format &quot;NT&quot;
+CONSTRUCT
+{
+ ?mpo_id rdfs:subClassOf&nbsp;?parent_mpo_id
+}
+FROM &lt;http://togogenome.org/graph/mpo/&gt;
+WHERE
+{
+ &nbsp;?mpo_id a owl:Class .
+ ?mpo_id rdfs:subClassOf*&nbsp;?parent_mpo_id
+}
+;
+</pre>
+<p>CONSTRUCT文を発行してファイルに出力するコマンド。
+</p>
+<pre>
+$isql 1111 dba dba VERBOSE=OFF BANNER=OFF PROMPT=OFF ECHO=OFF BLOBS=ON ERRORS=stdout &lt; create_ttl_mpo_descendants.rq &gt; mpo_descendants.ttl
+</pre>
+<p>データのロード
+</p>
+<pre>
+SQL&gt; DB.DBA.TTLP_MT (file_to_string_output('/data/store/virtuoso7upd2/var/lib/virtuoso/db/mpo_descendants.ttl'), '', 'http://togogenome.org/graph/mpo_descendants/');
+</pre>
+
+<!-- 
+NewPP limit report
+Preprocessor node count: 401/1000000
+Post-expand include size: 0/2097152 bytes
+Template argument size: 0/2097152 bytes
+Expensive parser function count: 0/100
+-->
+<div class="printfooter">
+「<a href="http://wiki.lifesciencedb.jp/mw/BH12.12/FacetSearchQuery">http://wiki.lifesciencedb.jp/mw/BH12.12/FacetSearchQuery</a>」より作成</div>
+		<div id='catlinks' class='catlinks catlinks-allhidden'></div>		<!-- end content -->
+				<div class="visualClear"></div>
+	</div>
+</div></div>
+<div id="column-one">
+	<div id="p-cactions" class="portlet">
+		<h5>表示</h5>
+		<div class="pBody">
+			<ul>
+				 <li id="ca-nstab-main" class="selected"><a href="/mw/BH12.12/FacetSearchQuery" title="本文を表示 [c]" accesskey="c">ページ</a></li>
+				 <li id="ca-talk" class="new"><a href="/mw/index.php?title=%E3%83%8E%E3%83%BC%E3%83%88:BH12.12/FacetSearchQuery&amp;action=edit&amp;redlink=1" title="記事についての議論 [t]" accesskey="t">議論</a></li>
+				 <li id="ca-viewsource"><a href="/mw/index.php?title=BH12.12/FacetSearchQuery&amp;action=edit&amp;oldid=12149" title="このページは保護されています。&#10;ページのソースを閲覧できます。 [e]" accesskey="e">ソースを表示</a></li>
+				 <li id="ca-history"><a href="/mw/index.php?title=BH12.12/FacetSearchQuery&amp;action=history" title="このページの過去の版 [h]" accesskey="h">履歴</a></li>
+			</ul>
+		</div>
+	</div>
+	<div class="portlet" id="p-personal">
+		<h5>個人用ツール</h5>
+		<div class="pBody">
+			<ul>
+				<li id="pt-anonuserpage"><a href="/mw/%E5%88%A9%E7%94%A8%E8%80%85:172.18.8.51" title="自分が編集しているIPアドレスの利用者ページ [.]" accesskey="." class="new">172.18.8.51</a></li>
+				<li id="pt-anontalk"><a href="/mw/%E5%88%A9%E7%94%A8%E8%80%85%E2%80%90%E4%BC%9A%E8%A9%B1:172.18.8.51" title="このIPアドレスからなされた編集についての議論 [n]" accesskey="n" class="new">このIPアドレスのトーク</a></li>
+				<li id="pt-anonlogin"><a href="/mw/index.php?title=%E7%89%B9%E5%88%A5:%E3%83%AD%E3%82%B0%E3%82%A4%E3%83%B3&amp;returnto=BH12.12/FacetSearchQuery&amp;returntoquery=direction%3Dprev%26oldid%3D12150" title="ログインすることが推奨されます。ただし、必須ではありません。 [o]" accesskey="o">ログイン</a></li>
+				<li id="pt-openidlogin"><a href="/mw/index.php?title=%E7%89%B9%E5%88%A5:OpenID%E3%83%AD%E3%82%B0%E3%82%A4%E3%83%B3&amp;returnto=BH12.12/FacetSearchQuery">OpenIDでログイン</a></li>
+			</ul>
+		</div>
+	</div>
+	<div class="portlet" id="p-logo">
+		<a style="background-image: url(/mw/images/togowiki-logo.png);" href="/mw/%E3%83%A1%E3%82%A4%E3%83%B3%E3%83%9A%E3%83%BC%E3%82%B8" title="メインページに移動"></a>
+	</div>
+	<script type="text/javascript"> if (window.isMSIE55) fixalpha(); </script>
+	<div class='generated-sidebar portlet' id='p-navigation'>
+		<h5>案内</h5>
+		<div class='pBody'>
+			<ul>
+				<li id="n-mainpage-description"><a href="/mw/%E3%83%A1%E3%82%A4%E3%83%B3%E3%83%9A%E3%83%BC%E3%82%B8" title="メインページに移動する [z]" accesskey="z">メインページ</a></li>
+				<li id="n-portal"><a href="/mw/TogoWiki:%E3%82%B3%E3%83%9F%E3%83%A5%E3%83%8B%E3%83%86%E3%82%A3%E3%83%BB%E3%83%9D%E3%83%BC%E3%82%BF%E3%83%AB" title="このプロジェクトについて、できること、情報を入手する場所">コミュニティ・ポータル</a></li>
+				<li id="n-currentevents"><a href="/mw/TogoWiki:%E6%9C%80%E8%BF%91%E3%81%AE%E5%87%BA%E6%9D%A5%E4%BA%8B" title="最近の出来事について予備知識を得る">最近の出来事</a></li>
+				<li id="n-recentchanges"><a href="/mw/%E7%89%B9%E5%88%A5:%E6%9C%80%E8%BF%91%E3%81%AE%E6%9B%B4%E6%96%B0" title="ウィキにおける最近の更新の一覧 [r]" accesskey="r">最近の更新</a></li>
+				<li id="n-randompage"><a href="/mw/%E7%89%B9%E5%88%A5:%E3%81%8A%E3%81%BE%E3%81%8B%E3%81%9B%E8%A1%A8%E7%A4%BA" title="無作為に抽出されたページの読み込み [x]" accesskey="x">おまかせ表示</a></li>
+				<li id="n-help"><a href="/mw/Help:%E7%9B%AE%E6%AC%A1" title="情報を得る場所">ヘルプ</a></li>
+			</ul>
+		</div>
+	</div>
+	<div id="p-search" class="portlet">
+		<h5><label for="searchInput">検索</label></h5>
+		<div id="searchBody" class="pBody">
+			<form action="/mw/index.php" id="searchform">
+				<input type='hidden' name="title" value="特別:検索"/>
+				<input id="searchInput" title="TogoWiki内を検索" accesskey="f" type="search" name="search" />
+				<input type='submit' name="go" class="searchButton" id="searchGoButton"	value="表示" title="厳密に一致する名前のページが存在すれば、そのページへ移動します" />&nbsp;
+				<input type='submit' name="fulltext" class="searchButton" id="mw-searchButton" value="検索" title="入力された文字列が含まれるページを検索します" />
+			</form>
+		</div>
+	</div>
+	<div class="portlet" id="p-tb">
+		<h5>ツールボックス</h5>
+		<div class="pBody">
+			<ul>
+				<li id="t-whatlinkshere"><a href="/mw/%E7%89%B9%E5%88%A5:%E3%83%AA%E3%83%B3%E3%82%AF%E5%85%83/BH12.12/FacetSearchQuery" title="ここにリンクしている全ウィキのページの一覧 [j]" accesskey="j">リンク元</a></li>
+				<li id="t-recentchangeslinked"><a href="/mw/%E7%89%B9%E5%88%A5:%E9%96%A2%E9%80%A3%E3%83%9A%E3%83%BC%E3%82%B8%E3%81%AE%E6%9B%B4%E6%96%B0%E7%8A%B6%E6%B3%81/BH12.12/FacetSearchQuery" title="このページからリンクしているページの最近の更新 [k]" accesskey="k">関連ページの更新状況</a></li>
+<li id="t-specialpages"><a href="/mw/%E7%89%B9%E5%88%A5:%E7%89%B9%E5%88%A5%E3%83%9A%E3%83%BC%E3%82%B8%E4%B8%80%E8%A6%A7" title="特別ページの一覧 [q]" accesskey="q">特別ページ</a></li>
+				<li id="t-print"><a href="/mw/index.php?title=BH12.12/FacetSearchQuery&amp;direction=prev&amp;oldid=12150&amp;printable=yes" rel="alternate" title="このページの印刷用ページ [p]" accesskey="p">印刷用バージョン</a></li>				<li id="t-permalink"><a href="/mw/index.php?title=BH12.12/FacetSearchQuery&amp;oldid=12149" title="ページのこの版への固定リンク">この版への固定リンク</a></li>			</ul>
+		</div>
+	</div>
+</div><!-- end of the left (by default at least) column -->
+<div class="visualClear"></div>
+<div id="footer">
+	<div id="f-poweredbyico"><a href="http://www.mediawiki.org/"><img src="/mw/skins/common/images/poweredby_mediawiki_88x31.png" height="31" width="88" alt="Powered by MediaWiki" /></a></div>
+	<div id="f-copyrightico"><a href="http://creativecommons.org/licenses/by/3.0/"><img src="http://i.creativecommons.org/l/by/3.0/88x31.png" alt="Attribution 3.0 Unported" width="88" height="31" /></a></div>
+	<ul id="f-list">
+		<li id="copyright">内容は<a href="http://creativecommons.org/licenses/by/3.0/" class="external ">Attribution 3.0 Unported</a>のライセンスで利用することができます。</li>
+		<li id="privacy"><a href="/mw/TogoWiki:%E3%83%97%E3%83%A9%E3%82%A4%E3%83%90%E3%82%B7%E3%83%BC%E3%83%BB%E3%83%9D%E3%83%AA%E3%82%B7%E3%83%BC" title="TogoWiki:プライバシー・ポリシー">プライバシー・ポリシー</a></li>
+		<li id="about"><a href="/mw/TogoWiki:TogoWiki%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6" title="TogoWiki:TogoWikiについて">TogoWikiについて</a></li>
+		<li id="disclaimer"><a href="/mw/TogoWiki:%E5%85%8D%E8%B2%AC%E4%BA%8B%E9%A0%85" title="TogoWiki:免責事項">免責事項</a></li>
+	</ul>
+</div>
+</div>
+
+<script>if (window.runOnloadHook) runOnloadHook();</script>
+<!-- Served in 0.700 secs. --></body></html>

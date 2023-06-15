@@ -1,0 +1,447 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html lang="ja" dir="ltr">
+<head>
+<title>SPARQLthon61/MicrobeDB.jp-Umakaviewer - TogoWiki</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta name="generator" content="MediaWiki 1.16.3" />
+<meta name="robots" content="noindex,nofollow" />
+<link rel="shortcut icon" href="/favicon.ico" />
+<link rel="search" type="application/opensearchdescription+xml" href="/mw/opensearch_desc.php" title="TogoWiki (ja)" />
+<link title="Creative Commons" type="application/rdf+xml" href="/mw/index.php?title=SPARQLthon61/MicrobeDB.jp-Umakaviewer&amp;action=creativecommons" rel="meta" />
+<link rel="copyright" href="http://creativecommons.org/licenses/by/3.0/" />
+<link rel="alternate" type="application/atom+xml" title="TogoWikiのAtomフィード" href="/mw/index.php?title=%E7%89%B9%E5%88%A5:%E6%9C%80%E8%BF%91%E3%81%AE%E6%9B%B4%E6%96%B0&amp;feed=atom" />
+<link rel="stylesheet" href="/mw/skins/common/shared.css?270" media="screen" />
+<link rel="stylesheet" href="/mw/skins/common/commonPrint.css?270" media="print" />
+<link rel="stylesheet" href="/mw/skins/monobook/main.css?270" media="screen" />
+<!--[if lt IE 5.5000]><link rel="stylesheet" href="/mw/skins/monobook/IE50Fixes.css?270" media="screen" /><![endif]-->
+<!--[if IE 5.5000]><link rel="stylesheet" href="/mw/skins/monobook/IE55Fixes.css?270" media="screen" /><![endif]-->
+<!--[if IE 6]><link rel="stylesheet" href="/mw/skins/monobook/IE60Fixes.css?270" media="screen" /><![endif]-->
+<!--[if IE 7]><link rel="stylesheet" href="/mw/skins/monobook/IE70Fixes.css?270" media="screen" /><![endif]-->
+<link rel="stylesheet" href="/mw/index.php?title=MediaWiki:Common.css&amp;usemsgcache=yes&amp;ctype=text%2Fcss&amp;smaxage=18000&amp;action=raw&amp;maxage=18000" />
+<link rel="stylesheet" href="/mw/index.php?title=MediaWiki:Print.css&amp;usemsgcache=yes&amp;ctype=text%2Fcss&amp;smaxage=18000&amp;action=raw&amp;maxage=18000" media="print" />
+<link rel="stylesheet" href="/mw/index.php?title=MediaWiki:Monobook.css&amp;usemsgcache=yes&amp;ctype=text%2Fcss&amp;smaxage=18000&amp;action=raw&amp;maxage=18000" />
+<link rel="stylesheet" href="/mw/index.php?title=-&amp;action=raw&amp;maxage=18000&amp;gen=css" />
+<script>
+var skin="monobook",
+stylepath="/mw/skins",
+wgUrlProtocols="http\\:\\/\\/|https\\:\\/\\/|ftp\\:\\/\\/|irc\\:\\/\\/|gopher\\:\\/\\/|telnet\\:\\/\\/|nntp\\:\\/\\/|worldwind\\:\\/\\/|mailto\\:|news\\:|svn\\:\\/\\/",
+wgArticlePath="/mw/$1",
+wgScriptPath="/mw",
+wgScriptExtension=".php",
+wgScript="/mw/index.php",
+wgVariantArticlePath=false,
+wgActionPaths={},
+wgServer="http://wiki.lifesciencedb.jp",
+wgCanonicalNamespace="",
+wgCanonicalSpecialPageName=false,
+wgNamespaceNumber=0,
+wgPageName="SPARQLthon61/MicrobeDB.jp-Umakaviewer",
+wgTitle="SPARQLthon61/MicrobeDB.jp-Umakaviewer",
+wgAction="view",
+wgArticleId=846,
+wgIsArticle=true,
+wgUserName=null,
+wgUserGroups=null,
+wgUserLanguage="ja",
+wgContentLanguage="ja",
+wgBreakFrames=false,
+wgCurRevisionId=22952,
+wgVersion="1.16.3",
+wgEnableAPI=true,
+wgEnableWriteAPI=true,
+wgSeparatorTransformTable=["", ""],
+wgDigitTransformTable=["", ""],
+wgMainPageTitle="メインページ",
+wgFormattedNamespaces={"-2": "メディア", "-1": "特別", "0": "", "1": "ノート", "2": "利用者", "3": "利用者‐会話", "4": "TogoWiki", "5": "TogoWiki‐ノート", "6": "ファイル", "7": "ファイル‐ノート", "8": "MediaWiki", "9": "MediaWiki‐ノート", "10": "Template", "11": "Template‐ノート", "12": "Help", "13": "Help‐ノート", "14": "Category", "15": "Category‐ノート"},
+wgNamespaceIds={"メディア": -2, "特別": -1, "": 0, "ノート": 1, "利用者": 2, "利用者‐会話": 3, "togowiki": 4, "togowiki‐ノート": 5, "ファイル": 6, "ファイル‐ノート": 7, "mediawiki": 8, "mediawiki‐ノート": 9, "template": 10, "template‐ノート": 11, "help": 12, "help‐ノート": 13, "category": 14, "category‐ノート": 15, "画像": 6, "画像‐ノート": 7, "image": 6, "image_talk": 7},
+wgSiteName="TogoWiki",
+wgCategories=[],
+wgRestrictionEdit=[],
+wgRestrictionMove=[];
+</script><script src="/mw/skins/common/wikibits.js?270"></script>
+<script src="/mw/skins/common/ajax.js?270"></script>
+<script src="/mw/index.php?title=-&amp;action=raw&amp;gen=js&amp;useskin=monobook&amp;270"></script>
+
+		<style type='text/css'>
+		li#pt-openidlogin {
+		  background: url(/mw/extensions/OpenID/skin/icons/openid-inputicon.png) top left no-repeat;
+		  padding-left: 20px;
+		  text-transform: none;
+		}
+		</style>
+</head>
+<body class="mediawiki ltr ns-0 ns-subject page-SPARQLthon61_MicrobeDB_jp-Umakaviewer skin-monobook">
+<div id="globalWrapper">
+<div id="column-content"><div id="content" >
+	<a id="top"></a>
+	
+	<h1 id="firstHeading" class="firstHeading">SPARQLthon61/MicrobeDB.jp-Umakaviewer</h1>
+	<div id="bodyContent">
+		<h3 id="siteSub">提供：TogoWiki</h3>
+		<div id="contentSub">
+				<div id="mw-revision-info">2017年10月24日 (火) 09:09時点における<a href="/mw/%E5%88%A9%E7%94%A8%E8%80%85:Tfuji" title="利用者:Tfuji" class="mw-userlink">Tfuji</a>  <span class="mw-usertoollinks">(<a href="/mw/index.php?title=%E5%88%A9%E7%94%A8%E8%80%85%E2%80%90%E4%BC%9A%E8%A9%B1:Tfuji&amp;action=edit&amp;redlink=1" class="new" title="利用者‐会話:Tfuji（存在しないページ）">トーク</a> | <a href="/mw/%E7%89%B9%E5%88%A5:%E6%8A%95%E7%A8%BF%E8%A8%98%E9%8C%B2/Tfuji" title="特別:投稿記録/Tfuji">投稿記録</a>)</span>による版</div>
+
+				<div id="mw-revision-nav">(<a href="/mw/index.php?title=SPARQLthon61/MicrobeDB.jp-Umakaviewer&amp;diff=prev&amp;oldid=22926" title="SPARQLthon61/MicrobeDB.jp-Umakaviewer">差分</a>) <a href="/mw/index.php?title=SPARQLthon61/MicrobeDB.jp-Umakaviewer&amp;direction=prev&amp;oldid=22926" title="SPARQLthon61/MicrobeDB.jp-Umakaviewer">←前の版</a> | <a href="/mw/SPARQLthon61/MicrobeDB.jp-Umakaviewer" title="SPARQLthon61/MicrobeDB.jp-Umakaviewer">最新版</a> (<a href="/mw/index.php?title=SPARQLthon61/MicrobeDB.jp-Umakaviewer&amp;diff=cur&amp;oldid=22926" title="SPARQLthon61/MicrobeDB.jp-Umakaviewer">差分</a>) | <a href="/mw/index.php?title=SPARQLthon61/MicrobeDB.jp-Umakaviewer&amp;direction=next&amp;oldid=22926" title="SPARQLthon61/MicrobeDB.jp-Umakaviewer">次の版→</a> (<a href="/mw/index.php?title=SPARQLthon61/MicrobeDB.jp-Umakaviewer&amp;diff=next&amp;oldid=22926" title="SPARQLthon61/MicrobeDB.jp-Umakaviewer">差分</a>)</div>
+			</div>
+		<div id="jump-to-nav">移動： <a href="#column-one">案内</a>, <a href="#searchInput">検索</a></div>
+		<!-- start content -->
+<p>MicorbeDB.jpのSPARQL epに対してumaka-viewer試用した時の作業ログおよびフィードバック
+</p>
+<table id="toc" class="toc"><tr><td><div id="toctitle"><h2>目次</h2></div>
+<ul>
+<li class="toclevel-1 tocsection-1"><a href="#.E4.BD.9C.E6.A5.AD.E6.89.8B.E9.A0.86"><span class="tocnumber">1</span> <span class="toctext">作業手順</span></a></li>
+<li class="toclevel-1 tocsection-2"><a href="#.E5.AE.9F.E8.A1.8C.E3.82.B3.E3.83.9E.E3.83.B3.E3.83.89"><span class="tocnumber">2</span> <span class="toctext">実行コマンド</span></a>
+<ul>
+<li class="toclevel-2 tocsection-3"><a href="#metadata.E3.81.AE.E3.83.98.E3.83.AB.E3.83.97"><span class="tocnumber">2.1</span> <span class="toctext">metadataのヘルプ</span></a></li>
+<li class="toclevel-2 tocsection-4"><a href="#umakaparser.E3.81.AE.E3.83.98.E3.83.AB.E3.83.97"><span class="tocnumber">2.2</span> <span class="toctext">umakaparserのヘルプ</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-5"><a href="#.E4.BD.9C.E6.A5.AD.E3.83.AD.E3.82.B0.E3.81.AA.E3.81.A9"><span class="tocnumber">3</span> <span class="toctext">作業ログなど</span></a>
+<ul>
+<li class="toclevel-2 tocsection-6"><a href="#version.E3.81.8C.E9.81.95.E3.81.86"><span class="tocnumber">3.1</span> <span class="toctext">versionが違う</span></a></li>
+<li class="toclevel-2 tocsection-7"><a href="#crawlName.E3.81.8C.E3.81.A9.E3.81.93.E3.81.A7.E4.BD.BF.E3.82.8F.E3.82.8C.E3.81.A6.E3.81.84.E3.82.8B.E3.81.8B.E4.B8.8D.E6.98.8E"><span class="tocnumber">3.2</span> <span class="toctext">crawlNameがどこで使われているか不明</span></a></li>
+<li class="toclevel-2 tocsection-8"><a href="#outputFileName.E3.81.AF.E3.83.87.E3.82.A3.E3.83.AC.E3.82.AF.E3.83.88.E3.83.AA.E3.81.AE.E6.8C.87.E5.AE.9A.E3.80.81.E3.83.87.E3.82.A3.E3.83.AC.E3.82.AF.E3.83.88.E3.83.AA.E3.81.8C.E3.81.AA.E3.81.84.E3.81.A8.E5.AE.9F.E8.A1.8C.E5.BE.8C.E3.81.AB.E3.82.A8.E3.83.A9.E3.83.BC.E3.81.AB.E3.81.AA.E3.82.8B"><span class="tocnumber">3.3</span> <span class="toctext">outputFileNameはディレクトリの指定、ディレクトリがないと実行後にエラーになる</span></a></li>
+<li class="toclevel-2 tocsection-9"><a href="#SPARQL_ep..E5.85.A8.E4.BD.93.E3.81.AB.E3.81.8B.E3.81.91.E3.81.9F.E3.81.A8.E3.81.8D.E3.81.AF.E3.80.81fma.E3.81.AA.E3.81.A9.E5.A4.A7.E3.81.8D.E3.81.84.E3.82.AA.E3.83.B3.E3.83.88.E3.83.AD.E3.82.B8.E3.83.BC.E3.82.82.E5.85.A5.E3.81.A3.E3.81.A6.E3.81.84.E3.82.8B.E3.81.A8.E6.99.82.E9.96.93.E3.81.8C.E3.81.8B.E3.81.8B.E3.82.8B"><span class="tocnumber">3.4</span> <span class="toctext">SPARQL ep.全体にかけたときは、fmaなど大きいオントロジーも入っていると時間がかかる</span></a></li>
+<li class="toclevel-2 tocsection-10"><a href="#RefSeq.E3.82.B2.E3.83.8E.E3.83.A0.E3.81.8C.E6.A0.BC.E7.B4.8D.E3.81.95.E3.82.8C.E3.81.9F.E3.82.B0.E3.83.A9.E3.83.95.E3.82.82.E3.82.A8.E3.83.A9.E3.83.BC"><span class="tocnumber">3.5</span> <span class="toctext">RefSeqゲノムが格納されたグラフもエラー</span></a></li>
+<li class="toclevel-2 tocsection-11"><a href="#-gc.E3.81.A7.E3.82.B0.E3.83.A9.E3.83.95.E5.8D.98.E4.BD.8D.E3.81.A7.E3.81.AE.E5.AE.9F.E8.A1.8C.E6.99.82.E3.81.AB.E4.B8.8D.E6.98.8E.E3.81.AA.E3.82.A8.E3.83.A9.E3.83.BC.E5.87.BA.E5.8A.9B.E3.81.95.E3.82.8C.E3.81.9F"><span class="tocnumber">3.6</span> <span class="toctext">-gcでグラフ単位での実行時に不明なエラー出力された</span></a></li>
+<li class="toclevel-2 tocsection-12"><a href="#taxonomy.ttl.E3.81.AEbuild_index.E6.99.82.E3.81.AB.E3.82.A8.E3.83.A9.E3.83.BC"><span class="tocnumber">3.7</span> <span class="toctext">taxonomy.ttlのbuild_index時にエラー</span></a></li>
+<li class="toclevel-2 tocsection-13"><a href="#mccv.ttl_.E3.81.AEbuild_index.E6.99.82.E3.81.AB.E3.82.A8.E3.83.A9.E3.83.BC"><span class="tocnumber">3.8</span> <span class="toctext">mccv.ttl のbuild_index時にエラー</span></a></li>
+<li class="toclevel-2 tocsection-14"><a href="#build_index.E6.88.90.E5.8A.9F"><span class="tocnumber">3.9</span> <span class="toctext">build_index成功</span></a></li>
+<li class="toclevel-2 tocsection-15"><a href="#build.E6.88.90.E5.8A.9F"><span class="tocnumber">3.10</span> <span class="toctext">build成功</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-16"><a href="#.E3.83.95.E3.82.A3.E3.83.BC.E3.83.89.E3.83.90.E3.83.83.E3.82.AF"><span class="tocnumber">4</span> <span class="toctext">フィードバック</span></a></li>
+</ul>
+</td></tr></table><script>if (window.showTocToggle) { var tocShowText = "表示"; var tocHideText = "非表示"; showTocToggle(); } </script>
+<h2> <span class="mw-headline" id=".E4.BD.9C.E6.A5.AD.E6.89.8B.E9.A0.86"> 作業手順 </span></h2>
+<ol><li> SPARQL builder/metadataを実行
+<ul><li> java -jar ../metadata-0.0.1-SNAPSHOT-jar-with-dependencies.jar -gc <a href="http://localhost:18895/sparql" class="external free" rel="nofollow">http://localhost:18895/sparql</a> graph_18895 <a href="http://microbedb.jp/jcm" class="external free" rel="nofollow">http://microbedb.jp/jcm</a> graph_18895
+</li></ul>
+</li><li> umaka-viewer/umakaparser build_indexを実行
+<ul><li> umakaparser build_index sio.ttl ontology/insdc/nucleotide.ttl MEO/meo.ttl so.ttl --dist umaka_index
+</li></ul>
+</li><li> umaka-viewer/umakaparser buildを実行
+<ul><li> umakaparser build graph_18895/turtle_graph_18895_jcm_1.ttl --assets umaka_index --dist umakaviewer_jcm
+</li></ul>
+</li><li> <a href="https://umaka-viewer.dbcls.jp" class="external free" rel="nofollow">https://umaka-viewer.dbcls.jp</a> にサインインして、ファイルアップロード
+</li></ol>
+<p>表示までを確認した <a href="https://umaka-viewer.dbcls.jp/v/jumBPgtanD6t64ACe3yBsfesXncqY_-T" class="external free" rel="nofollow">https://umaka-viewer.dbcls.jp/v/jumBPgtanD6t64ACe3yBsfesXncqY_-T</a>
+</p>
+<h2> <span class="mw-headline" id=".E5.AE.9F.E8.A1.8C.E3.82.B3.E3.83.9E.E3.83.B3.E3.83.89"> 実行コマンド </span></h2>
+<h3> <span class="mw-headline" id="metadata.E3.81.AE.E3.83.98.E3.83.AB.E3.83.97"> metadataのヘルプ </span></h3>
+<pre>
+%java -jar ../metadata-0.0.1-SNAPSHOT-jar-with-dependencies.jar
+  Version: 20161212-1
+Usage: java org.sparqlbuilder.metadata.crawler.sparql.RDFsCrawlerImpl [options]
+   [options]
+       1. to print a list of graphURIs
+            -g endpointURL
+       2. to crawl whole data in the endpoint
+            -ac endpointURL crawlName outputFileName
+       3. to crawl the specified graph in the endpoint
+            -gc endpointURL crawlName graphURI outputFileName
+</pre>
+<h3> <span class="mw-headline" id="umakaparser.E3.81.AE.E3.83.98.E3.83.AB.E3.83.97"> umakaparserのヘルプ </span></h3>
+<p>%umakaparser 
+Usage: umakaparser [OPTIONS] COMMAND [ARGS]...
+</p><p>Options:
+</p>
+<pre> --help  Show this message and exit.
+</pre>
+<p>Commands:
+</p>
+<pre> build        SBMに従うメタデータからモデルデータを作成します。
+ build_index  オントロジーのファイルから、モデルデータ作成のためのassetsを作成します。
+</pre>
+<h2> <span class="mw-headline" id=".E4.BD.9C.E6.A5.AD.E3.83.AD.E3.82.B0.E3.81.AA.E3.81.A9"> 作業ログなど </span></h2>
+<h3> <span class="mw-headline" id="version.E3.81.8C.E9.81.95.E3.81.86"> versionが違う </span></h3>
+<ul><li> metadata実行時の表示は、Version: 20161212-1
+</li><li> umaka-viewerのREADMEには、[Sparql Builder Metadata ver.2015]( <a href="http://www.sparqlbuilder.org/doc/sbm_2015sep/" class="external free" rel="nofollow">http://www.sparqlbuilder.org/doc/sbm_2015sep/</a> )に従うデータ
+</li></ul>
+<p>→ バグフィックスの更新のため問題ない、山口さんに確認済み
+</p>
+<h3> <span class="mw-headline" id="crawlName.E3.81.8C.E3.81.A9.E3.81.93.E3.81.A7.E4.BD.BF.E3.82.8F.E3.82.8C.E3.81.A6.E3.81.84.E3.82.8B.E3.81.8B.E4.B8.8D.E6.98.8E"> crawlNameがどこで使われているか不明 </span></h3>
+<h3> <span class="mw-headline" id="outputFileName.E3.81.AF.E3.83.87.E3.82.A3.E3.83.AC.E3.82.AF.E3.83.88.E3.83.AA.E3.81.AE.E6.8C.87.E5.AE.9A.E3.80.81.E3.83.87.E3.82.A3.E3.83.AC.E3.82.AF.E3.83.88.E3.83.AA.E3.81.8C.E3.81.AA.E3.81.84.E3.81.A8.E5.AE.9F.E8.A1.8C.E5.BE.8C.E3.81.AB.E3.82.A8.E3.83.A9.E3.83.BC.E3.81.AB.E3.81.AA.E3.82.8B"> outputFileNameはディレクトリの指定、ディレクトリがないと実行後にエラーになる </span></h3>
+<pre>
+%java -jar ../metadata-0.0.1-SNAPSHOT-jar-with-dependencies.jar -ac http://localhost:18895/sparql mdb mdb_output.txt
+log4j:WARN No appenders could be found for logger (org.apache.jena.riot.stream.JenaIOEnvironment).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+-----------------------------------------------------------
+  Graph: http://microbedb.jp/assembly        1 / 33
+-----------------------------------------------------------
+/Users/tf/github/metadata/mdb_20171023/mdb_output.txt/turtle_mdb_assembly_1.ttl
+P
+properties
+http://ddbj.nig.ac.jp/ontologies/nucleotide/dblink
+http://www.ncbi.nlm.nih.gov/assembly/refseq_category
+http://www.ncbi.nlm.nih.gov/assembly/asm_name
+http://www.ncbi.nlm.nih.gov/assembly/assembly_level
+http://www.ncbi.nlm.nih.gov/assembly/taxon
+.
+.
+.
+java.io.FileNotFoundException: /Users/tf/github/metadata/mdb_20171023/mdb_output.txt/turtle_mdb_assembly_1.ttl (No such file or directory)
+    at java.io.FileOutputStream.open0(Native Method)
+    at java.io.FileOutputStream.open(FileOutputStream.java:270)
+    at java.io.FileOutputStream.&lt;init&gt;(FileOutputStream.java:213)
+    at java.io.FileOutputStream.&lt;init&gt;(FileOutputStream.java:162)
+    at org.sparqlbuilder.metadata.crawler.datastructure.SchemaCategory.write2File(SchemaCategory.java:20)
+    at org.sparqlbuilder.metadata.crawler.sparql.RDFsCrawlerImpl.crawl(RDFsCrawlerImpl.java:270)
+    at org.sparqlbuilder.metadata.crawler.sparql.RDFsCrawlerImpl.main(RDFsCrawlerImpl.java:86)
+80747 msec.
+Error occured.
+Exception in thread &quot;main&quot; java.lang.Exception: Error occured s(341)
+    at org.sparqlbuilder.metadata.crawler.sparql.RDFsCrawlerImpl.crawl(RDFsCrawlerImpl.java:286)
+    at org.sparqlbuilder.metadata.crawler.sparql.RDFsCrawlerImpl.main(RDFsCrawlerImpl.java:86)
+</pre>
+<ul><li> グラフ単位でも
+</li></ul>
+<pre>
+%java -jar ../metadata-0.0.1-SNAPSHOT-jar-with-dependencies.jar -gc http://localhost:18893/sparql graph_18893 http://microbedb.jp/chebi chebi
+  Version: 20161212-1
+log4j:WARN No appenders could be found for logger (org.apache.jena.riot.stream.JenaIOEnvironment).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+-----------------------------------------------------------
+  Graph: http://microbedb.jp/chebi        1 / 1
+-----------------------------------------------------------
+/Users/tf/github/metadata/mdb_20171023/chebi/turtle_graph_18893_chebi_1.ttl
+.
+.
+.
+#EndpointAccess: 161
+java.io.FileNotFoundException: /Users/tf/github/metadata/mdb_20171023/chebi/turtle_graph_18893_chebi_1.ttl (No such file or directory)
+	at java.io.FileOutputStream.open0(Native Method)
+	at java.io.FileOutputStream.open(FileOutputStream.java:270)
+	at java.io.FileOutputStream.&lt;init&gt;(FileOutputStream.java:213)
+	at java.io.FileOutputStream.&lt;init&gt;(FileOutputStream.java:162)
+	at org.sparqlbuilder.metadata.crawler.datastructure.SchemaCategory.write2File(SchemaCategory.java:20)
+	at org.sparqlbuilder.metadata.crawler.sparql.RDFsCrawlerImpl.crawl(RDFsCrawlerImpl.java:270)
+	at org.sparqlbuilder.metadata.crawler.sparql.RDFsCrawlerImpl.main(RDFsCrawlerImpl.java:103)
+130204 msec.
+Error occured.
+Exception in thread &quot;main&quot; java.lang.Exception: Error occured s(341)
+	at org.sparqlbuilder.metadata.crawler.sparql.RDFsCrawlerImpl.crawl(RDFsCrawlerImpl.java:286)
+	at org.sparqlbuilder.metadata.crawler.sparql.RDFsCrawlerImpl.main(RDFsCrawlerImpl.java:103)
+</pre>
+<h3> <span class="mw-headline" id="SPARQL_ep..E5.85.A8.E4.BD.93.E3.81.AB.E3.81.8B.E3.81.91.E3.81.9F.E3.81.A8.E3.81.8D.E3.81.AF.E3.80.81fma.E3.81.AA.E3.81.A9.E5.A4.A7.E3.81.8D.E3.81.84.E3.82.AA.E3.83.B3.E3.83.88.E3.83.AD.E3.82.B8.E3.83.BC.E3.82.82.E5.85.A5.E3.81.A3.E3.81.A6.E3.81.84.E3.82.8B.E3.81.A8.E6.99.82.E9.96.93.E3.81.8C.E3.81.8B.E3.81.8B.E3.82.8B"> SPARQL ep.全体にかけたときは、fmaなど大きいオントロジーも入っていると時間がかかる </span></h3>
+<p>→ fma, taxonomy, so, sioなどを除きグラフ単位で取得に変更
+以下、グラフ一覧を取得
+</p>
+<pre>
+%java -jar ../metadata-0.0.1-SNAPSHOT-jar-with-dependencies.jar -g http://localhost:18895/sparql
+  Version: 20161212-1
+log4j:WARN No appenders could be found for logger (org.apache.jena.riot.stream.JenaIOEnvironment).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+</pre>
+<p>.
+.
+.
+</p>
+<h3> <span class="mw-headline" id="RefSeq.E3.82.B2.E3.83.8E.E3.83.A0.E3.81.8C.E6.A0.BC.E7.B4.8D.E3.81.95.E3.82.8C.E3.81.9F.E3.82.B0.E3.83.A9.E3.83.95.E3.82.82.E3.82.A8.E3.83.A9.E3.83.BC"> RefSeqゲノムが格納されたグラフもエラー </span></h3>
+<pre>
+%java -jar ../metadata-0.0.1-SNAPSHOT-jar-with-dependencies.jar -gc http://localhost:18895/sparql graph http://microbedb.jp/refsequence graph
+  Version: 20161212-1
+log4j:WARN No appenders could be found for logger (org.apache.jena.riot.stream.JenaIOEnvironment).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+-----------------------------------------------------------
+  Graph: http://microbedb.jp/refsequence        1 / 1
+-----------------------------------------------------------
+/Users/tf/github/metadata/mdb_20171023/graph/turtle_graph_refsequence_1.ttl
+HttpException: 500
+	at com.hp.hpl.jena.sparql.engine.http.HttpQuery.execGet(HttpQuery.java:340)
+	at com.hp.hpl.jena.sparql.engine.http.HttpQuery.exec(HttpQuery.java:276)
+	at com.hp.hpl.jena.sparql.engine.http.QueryEngineHTTP.execSelect(QueryEngineHTTP.java:345)
+	at org.sparqlbuilder.metadata.crawler.sparql.RDFsCrawlerImpl.getRDFProperties(RDFsCrawlerImpl.java:2637)
+	at org.sparqlbuilder.metadata.crawler.sparql.RDFsCrawlerImpl.getRDFProperties(RDFsCrawlerImpl.java:2586)
+	at org.sparqlbuilder.metadata.crawler.sparql.RDFsCrawlerImpl.determineSchemaCategory(RDFsCrawlerImpl.java:395)
+	at org.sparqlbuilder.metadata.crawler.sparql.RDFsCrawlerImpl.crawl(RDFsCrawlerImpl.java:266)
+	at org.sparqlbuilder.metadata.crawler.sparql.RDFsCrawlerImpl.main(RDFsCrawlerImpl.java:103)
+HttpException: 500
+	at com.hp.hpl.jena.sparql.engine.http.HttpQuery.execGet(HttpQuery.java:340)
+	at com.hp.hpl.jena.sparql.engine.http.HttpQuery.exec(HttpQuery.java:276)
+	at com.hp.hpl.jena.sparql.engine.http.QueryEngineHTTP.execSelect(QueryEngineHTTP.java:345)
+	at org.sparqlbuilder.metadata.crawler.sparql.RDFsCrawlerImpl.getRDFProperties(RDFsCrawlerImpl.java:2637)
+	at org.sparqlbuilder.metadata.crawler.sparql.RDFsCrawlerImpl.getRDFProperties(RDFsCrawlerImpl.java:2586)
+	at org.sparqlbuilder.metadata.crawler.sparql.RDFsCrawlerImpl.determineSchemaCategory(RDFsCrawlerImpl.java:395)
+	at org.sparqlbuilder.metadata.crawler.sparql.RDFsCrawlerImpl.crawl(RDFsCrawlerImpl.java:266)
+	at org.sparqlbuilder.metadata.crawler.sparql.RDFsCrawlerImpl.main(RDFsCrawlerImpl.java:103)
+190810 msec.
+Error occured.
+Exception in thread &quot;main&quot; java.lang.Exception: Error occured s(341)
+	at org.sparqlbuilder.metadata.crawler.sparql.RDFsCrawlerImpl.crawl(RDFsCrawlerImpl.java:286)
+	at org.sparqlbuilder.metadata.crawler.sparql.RDFsCrawlerImpl.main(RDFsCrawlerImpl.java:103)
+
+</pre>
+<h3> <span class="mw-headline" id="-gc.E3.81.A7.E3.82.B0.E3.83.A9.E3.83.95.E5.8D.98.E4.BD.8D.E3.81.A7.E3.81.AE.E5.AE.9F.E8.A1.8C.E6.99.82.E3.81.AB.E4.B8.8D.E6.98.8E.E3.81.AA.E3.82.A8.E3.83.A9.E3.83.BC.E5.87.BA.E5.8A.9B.E3.81.95.E3.82.8C.E3.81.9F"> -gcでグラフ単位での実行時に不明なエラー出力された </span></h3>
+<pre>
+ERROR: duplicate PDRD found! (L1144): 
+</pre>
+<p>→ 同一のプロパティでDomain, Rangeが繰り返して定義されている場合に出力されるエラー、おそらくOWLがインポートされたグラフで出力されていると予想される
+</p>
+<h3> <span class="mw-headline" id="taxonomy.ttl.E3.81.AEbuild_index.E6.99.82.E3.81.AB.E3.82.A8.E3.83.A9.E3.83.BC"> taxonomy.ttlのbuild_index時にエラー </span></h3>
+<pre>
+%umakaparser build_index ontology/taxonomy/taxonomy.ttl --dist test_index
+(4, 50300, datetime.timedelta(0, 0, 56585))
+(5, 100300, datetime.timedelta(0, 0, 113394))
+(6, 150300, datetime.timedelta(0, 0, 181359))
+(8, 200300, datetime.timedelta(0, 0, 238139))
+.
+.
+.
+(253, 12450300, datetime.timedelta(0, 17, 255336))
+(254, 12500300, datetime.timedelta(0, 17, 328418))
+Traceback (most recent call last):
+  File &quot;/Users/tf/.anyenv/envs/pyenv/versions/2.7.10/bin/umakaparser&quot;, line 11, in &lt;module&gt;
+  File &quot;/Users/tf/.anyenv/envs/pyenv/versions/2.7.10/lib/python2.7/site-packages/click/core.py&quot;, line 716, in __call__
+  File &quot;/Users/tf/.anyenv/envs/pyenv/versions/2.7.10/lib/python2.7/site-packages/click/core.py&quot;, line 696, in main
+  File &quot;/Users/tf/.anyenv/envs/pyenv/versions/2.7.10/lib/python2.7/site-packages/click/core.py&quot;, line 1060, in invoke
+  File &quot;/Users/tf/.anyenv/envs/pyenv/versions/2.7.10/lib/python2.7/site-packages/click/core.py&quot;, line 889, in invoke
+  File &quot;/Users/tf/.anyenv/envs/pyenv/versions/2.7.10/lib/python2.7/site-packages/click/core.py&quot;, line 534, in invoke
+  File &quot;/Users/tf/.anyenv/envs/pyenv/versions/2.7.10/lib/python2.7/site-packages/umakaviewer/services.py&quot;, line 34, in build_index
+  File &quot;/Users/tf/.anyenv/envs/pyenv/versions/2.7.10/lib/python2.7/site-packages/umakaviewer/scripts/services/assets.py&quot;, line 114, in index_owl
+  File &quot;/Users/tf/.anyenv/envs/pyenv/versions/2.7.10/lib/python2.7/site-packages/umakaviewer/scripts/services/assets.py&quot;, line 50, in separate_large_owl
+  File &quot;/Users/tf/.anyenv/envs/pyenv/versions/2.7.10/lib/python2.7/site-packages/umakaviewer/scripts/services/assets.py&quot;, line 29, in output
+IOError: [Errno 24] Too many open files: '/Users/tf/github/metadata/mdb_20171023/tmpgIsfwy/tmp1p1CMl'
+</pre>
+<h3> <span class="mw-headline" id="mccv.ttl_.E3.81.AEbuild_index.E6.99.82.E3.81.AB.E3.82.A8.E3.83.A9.E3.83.BC"> mccv.ttl のbuild_index時にエラー </span></h3>
+<pre>
+%umakaparser build_index ontology/mccv/mccv.ttl --dist test_index
+(4, 871, datetime.timedelta(0, 0, 8726))
+Traceback (most recent call last):
+  File &quot;/Users/tf/.anyenv/envs/pyenv/versions/2.7.10/bin/umakaparser&quot;, line 11, in &lt;module&gt;
+    sys.exit(cmd())
+  File &quot;/Users/tf/.anyenv/envs/pyenv/versions/2.7.10/lib/python2.7/site-packages/click/core.py&quot;, line 716, in __call__
+    return self.main(*args, **kwargs)
+  File &quot;/Users/tf/.anyenv/envs/pyenv/versions/2.7.10/lib/python2.7/site-packages/click/core.py&quot;, line 696, in main
+    rv = self.invoke(ctx)
+  File &quot;/Users/tf/.anyenv/envs/pyenv/versions/2.7.10/lib/python2.7/site-packages/click/core.py&quot;, line 1060, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+  File &quot;/Users/tf/.anyenv/envs/pyenv/versions/2.7.10/lib/python2.7/site-packages/click/core.py&quot;, line 889, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+  File &quot;/Users/tf/.anyenv/envs/pyenv/versions/2.7.10/lib/python2.7/site-packages/click/core.py&quot;, line 534, in invoke
+    return callback(*args, **kwargs)
+  File &quot;/Users/tf/.anyenv/envs/pyenv/versions/2.7.10/lib/python2.7/site-packages/umakaviewer/services.py&quot;, line 34, in build_index
+    output = index_owl(owl_data_ttl, target_properties, dist)
+  File &quot;/Users/tf/.anyenv/envs/pyenv/versions/2.7.10/lib/python2.7/site-packages/umakaviewer/scripts/services/assets.py&quot;, line 127, in index_owl
+    p.map(output_process, ((prefix, temp_file, output_properties, temp_dir) for temp_file in temp_files))
+  File &quot;/Users/tf/.anyenv/envs/pyenv/versions/2.7.10/lib/python2.7/multiprocessing/pool.py&quot;, line 251, in map
+    return self.map_async(func, iterable, chunksize).get()
+  File &quot;/Users/tf/.anyenv/envs/pyenv/versions/2.7.10/lib/python2.7/multiprocessing/pool.py&quot;, line 567, in get
+    raise self._value
+UnicodeEncodeError: 'ascii' codec can't encode characters in position 1-13: ordinal not in range(128)
+</pre>
+<h3> <span class="mw-headline" id="build_index.E6.88.90.E5.8A.9F"> build_index成功 </span></h3>
+<pre>
+%umakaparser build_index sio.ttl ontology/insdc/nucleotide.ttl MEO/meo.ttl so.ttl --dist umaka_index
+(8, 108788, datetime.timedelta(0, 0, 123357))
+/Users/tf/github/metadata/mdb_20171023/tmpXois1v/tmpOyoo_N
+10.3637402058
+&gt;&gt;&gt; /Users/tf/github/metadata/mdb_20171023/umaka_index
+</pre>
+<h3> <span class="mw-headline" id="build.E6.88.90.E5.8A.9F"> build成功 </span></h3>
+<pre>
+%umakaparser build graph_18895/turtle_graph_18895_jcm_1.ttl --assets umaka_index --dist umakaviewer_jcm
+('classes', 12)
+('properties', 27)
+&gt;&gt;&gt; umakaviewer_jcm
+</pre>
+<h2> <span class="mw-headline" id=".E3.83.95.E3.82.A3.E3.83.BC.E3.83.89.E3.83.90.E3.83.83.E3.82.AF"> フィードバック </span></h2>
+<ul><li> 現状は、数十〜数百ぐらいのクラス関係図を可視化するのは良さそう
+</li><li> SPARQL ep. 全体の俯瞰するためには、RefSeqゲノム、Taxonomy.tllなどおそらくトリプル数の多いデータをSPARQL builder/metadata, umakaparser両方が使える必要がる
+</li><li> オントロジーファイルはウェブからの取得やSPARQL ep.にもインポートされているので、build_indexの入力は、もう少しよきにはからってもらえるとうれしい
+</li></ul>
+
+<!-- 
+NewPP limit report
+Preprocessor node count: 153/1000000
+Post-expand include size: 0/2097152 bytes
+Template argument size: 0/2097152 bytes
+Expensive parser function count: 0/100
+-->
+<div class="printfooter">
+「<a href="http://wiki.lifesciencedb.jp/mw/SPARQLthon61/MicrobeDB.jp-Umakaviewer">http://wiki.lifesciencedb.jp/mw/SPARQLthon61/MicrobeDB.jp-Umakaviewer</a>」より作成</div>
+		<div id='catlinks' class='catlinks catlinks-allhidden'></div>		<!-- end content -->
+				<div class="visualClear"></div>
+	</div>
+</div></div>
+<div id="column-one">
+	<div id="p-cactions" class="portlet">
+		<h5>表示</h5>
+		<div class="pBody">
+			<ul>
+				 <li id="ca-nstab-main" class="selected"><a href="/mw/SPARQLthon61/MicrobeDB.jp-Umakaviewer" title="本文を表示 [c]" accesskey="c">ページ</a></li>
+				 <li id="ca-talk" class="new"><a href="/mw/index.php?title=%E3%83%8E%E3%83%BC%E3%83%88:SPARQLthon61/MicrobeDB.jp-Umakaviewer&amp;action=edit&amp;redlink=1" title="記事についての議論 [t]" accesskey="t">議論</a></li>
+				 <li id="ca-viewsource"><a href="/mw/index.php?title=SPARQLthon61/MicrobeDB.jp-Umakaviewer&amp;action=edit&amp;oldid=22926" title="このページは保護されています。&#10;ページのソースを閲覧できます。 [e]" accesskey="e">ソースを表示</a></li>
+				 <li id="ca-history"><a href="/mw/index.php?title=SPARQLthon61/MicrobeDB.jp-Umakaviewer&amp;action=history" title="このページの過去の版 [h]" accesskey="h">履歴</a></li>
+			</ul>
+		</div>
+	</div>
+	<div class="portlet" id="p-personal">
+		<h5>個人用ツール</h5>
+		<div class="pBody">
+			<ul>
+				<li id="pt-anonuserpage"><a href="/mw/%E5%88%A9%E7%94%A8%E8%80%85:172.18.8.51" title="自分が編集しているIPアドレスの利用者ページ [.]" accesskey="." class="new">172.18.8.51</a></li>
+				<li id="pt-anontalk"><a href="/mw/%E5%88%A9%E7%94%A8%E8%80%85%E2%80%90%E4%BC%9A%E8%A9%B1:172.18.8.51" title="このIPアドレスからなされた編集についての議論 [n]" accesskey="n" class="new">このIPアドレスのトーク</a></li>
+				<li id="pt-anonlogin"><a href="/mw/index.php?title=%E7%89%B9%E5%88%A5:%E3%83%AD%E3%82%B0%E3%82%A4%E3%83%B3&amp;returnto=SPARQLthon61/MicrobeDB.jp-Umakaviewer&amp;returntoquery=direction%3Dprev%26oldid%3D22952" title="ログインすることが推奨されます。ただし、必須ではありません。 [o]" accesskey="o">ログイン</a></li>
+				<li id="pt-openidlogin"><a href="/mw/index.php?title=%E7%89%B9%E5%88%A5:OpenID%E3%83%AD%E3%82%B0%E3%82%A4%E3%83%B3&amp;returnto=SPARQLthon61/MicrobeDB.jp-Umakaviewer">OpenIDでログイン</a></li>
+			</ul>
+		</div>
+	</div>
+	<div class="portlet" id="p-logo">
+		<a style="background-image: url(/mw/images/togowiki-logo.png);" href="/mw/%E3%83%A1%E3%82%A4%E3%83%B3%E3%83%9A%E3%83%BC%E3%82%B8" title="メインページに移動"></a>
+	</div>
+	<script type="text/javascript"> if (window.isMSIE55) fixalpha(); </script>
+	<div class='generated-sidebar portlet' id='p-navigation'>
+		<h5>案内</h5>
+		<div class='pBody'>
+			<ul>
+				<li id="n-mainpage-description"><a href="/mw/%E3%83%A1%E3%82%A4%E3%83%B3%E3%83%9A%E3%83%BC%E3%82%B8" title="メインページに移動する [z]" accesskey="z">メインページ</a></li>
+				<li id="n-portal"><a href="/mw/TogoWiki:%E3%82%B3%E3%83%9F%E3%83%A5%E3%83%8B%E3%83%86%E3%82%A3%E3%83%BB%E3%83%9D%E3%83%BC%E3%82%BF%E3%83%AB" title="このプロジェクトについて、できること、情報を入手する場所">コミュニティ・ポータル</a></li>
+				<li id="n-currentevents"><a href="/mw/TogoWiki:%E6%9C%80%E8%BF%91%E3%81%AE%E5%87%BA%E6%9D%A5%E4%BA%8B" title="最近の出来事について予備知識を得る">最近の出来事</a></li>
+				<li id="n-recentchanges"><a href="/mw/%E7%89%B9%E5%88%A5:%E6%9C%80%E8%BF%91%E3%81%AE%E6%9B%B4%E6%96%B0" title="ウィキにおける最近の更新の一覧 [r]" accesskey="r">最近の更新</a></li>
+				<li id="n-randompage"><a href="/mw/%E7%89%B9%E5%88%A5:%E3%81%8A%E3%81%BE%E3%81%8B%E3%81%9B%E8%A1%A8%E7%A4%BA" title="無作為に抽出されたページの読み込み [x]" accesskey="x">おまかせ表示</a></li>
+				<li id="n-help"><a href="/mw/Help:%E7%9B%AE%E6%AC%A1" title="情報を得る場所">ヘルプ</a></li>
+			</ul>
+		</div>
+	</div>
+	<div id="p-search" class="portlet">
+		<h5><label for="searchInput">検索</label></h5>
+		<div id="searchBody" class="pBody">
+			<form action="/mw/index.php" id="searchform">
+				<input type='hidden' name="title" value="特別:検索"/>
+				<input id="searchInput" title="TogoWiki内を検索" accesskey="f" type="search" name="search" />
+				<input type='submit' name="go" class="searchButton" id="searchGoButton"	value="表示" title="厳密に一致する名前のページが存在すれば、そのページへ移動します" />&nbsp;
+				<input type='submit' name="fulltext" class="searchButton" id="mw-searchButton" value="検索" title="入力された文字列が含まれるページを検索します" />
+			</form>
+		</div>
+	</div>
+	<div class="portlet" id="p-tb">
+		<h5>ツールボックス</h5>
+		<div class="pBody">
+			<ul>
+				<li id="t-whatlinkshere"><a href="/mw/%E7%89%B9%E5%88%A5:%E3%83%AA%E3%83%B3%E3%82%AF%E5%85%83/SPARQLthon61/MicrobeDB.jp-Umakaviewer" title="ここにリンクしている全ウィキのページの一覧 [j]" accesskey="j">リンク元</a></li>
+				<li id="t-recentchangeslinked"><a href="/mw/%E7%89%B9%E5%88%A5:%E9%96%A2%E9%80%A3%E3%83%9A%E3%83%BC%E3%82%B8%E3%81%AE%E6%9B%B4%E6%96%B0%E7%8A%B6%E6%B3%81/SPARQLthon61/MicrobeDB.jp-Umakaviewer" title="このページからリンクしているページの最近の更新 [k]" accesskey="k">関連ページの更新状況</a></li>
+<li id="t-specialpages"><a href="/mw/%E7%89%B9%E5%88%A5:%E7%89%B9%E5%88%A5%E3%83%9A%E3%83%BC%E3%82%B8%E4%B8%80%E8%A6%A7" title="特別ページの一覧 [q]" accesskey="q">特別ページ</a></li>
+				<li id="t-print"><a href="/mw/index.php?title=SPARQLthon61/MicrobeDB.jp-Umakaviewer&amp;direction=prev&amp;oldid=22952&amp;printable=yes" rel="alternate" title="このページの印刷用ページ [p]" accesskey="p">印刷用バージョン</a></li>				<li id="t-permalink"><a href="/mw/index.php?title=SPARQLthon61/MicrobeDB.jp-Umakaviewer&amp;oldid=22926" title="ページのこの版への固定リンク">この版への固定リンク</a></li>			</ul>
+		</div>
+	</div>
+</div><!-- end of the left (by default at least) column -->
+<div class="visualClear"></div>
+<div id="footer">
+	<div id="f-poweredbyico"><a href="http://www.mediawiki.org/"><img src="/mw/skins/common/images/poweredby_mediawiki_88x31.png" height="31" width="88" alt="Powered by MediaWiki" /></a></div>
+	<div id="f-copyrightico"><a href="http://creativecommons.org/licenses/by/3.0/"><img src="http://i.creativecommons.org/l/by/3.0/88x31.png" alt="Attribution 3.0 Unported" width="88" height="31" /></a></div>
+	<ul id="f-list">
+		<li id="copyright">内容は<a href="http://creativecommons.org/licenses/by/3.0/" class="external ">Attribution 3.0 Unported</a>のライセンスで利用することができます。</li>
+		<li id="privacy"><a href="/mw/TogoWiki:%E3%83%97%E3%83%A9%E3%82%A4%E3%83%90%E3%82%B7%E3%83%BC%E3%83%BB%E3%83%9D%E3%83%AA%E3%82%B7%E3%83%BC" title="TogoWiki:プライバシー・ポリシー">プライバシー・ポリシー</a></li>
+		<li id="about"><a href="/mw/TogoWiki:TogoWiki%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6" title="TogoWiki:TogoWikiについて">TogoWikiについて</a></li>
+		<li id="disclaimer"><a href="/mw/TogoWiki:%E5%85%8D%E8%B2%AC%E4%BA%8B%E9%A0%85" title="TogoWiki:免責事項">免責事項</a></li>
+	</ul>
+</div>
+</div>
+
+<script>if (window.runOnloadHook) runOnloadHook();</script>
+<!-- Served in 0.702 secs. --></body></html>

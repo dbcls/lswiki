@@ -1,0 +1,1975 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html lang="ja" dir="ltr">
+<head>
+<title>ソースを表示 - TogoWiki</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta name="generator" content="MediaWiki 1.16.3" />
+<meta name="robots" content="noindex,nofollow" />
+<link rel="next" href="http://wiki.lifesciencedb.jp/mw/BH12.12/TogoStanzaQuery/v201310" />
+<link rel="shortcut icon" href="/favicon.ico" />
+<link rel="search" type="application/opensearchdescription+xml" href="/mw/opensearch_desc.php" title="TogoWiki (ja)" />
+<link rel="copyright" href="http://creativecommons.org/licenses/by/3.0/" />
+<link rel="alternate" type="application/atom+xml" title="TogoWikiのAtomフィード" href="/mw/index.php?title=%E7%89%B9%E5%88%A5:%E6%9C%80%E8%BF%91%E3%81%AE%E6%9B%B4%E6%96%B0&amp;feed=atom" />
+<!--[if IE 8]><link rel="stylesheet" href="/mw/skins/common/IE80Fixes.css?270" media="screen" /><![endif]-->
+<link rel="stylesheet" href="/mw/skins/common/shared.css?270" media="screen" />
+<link rel="stylesheet" href="/mw/skins/common/commonPrint.css?270" media="print" />
+<link rel="stylesheet" href="/mw/skins/monobook/main.css?270" media="screen" />
+<!--[if lt IE 5.5000]><link rel="stylesheet" href="/mw/skins/monobook/IE50Fixes.css?270" media="screen" /><![endif]-->
+<!--[if IE 5.5000]><link rel="stylesheet" href="/mw/skins/monobook/IE55Fixes.css?270" media="screen" /><![endif]-->
+<!--[if IE 6]><link rel="stylesheet" href="/mw/skins/monobook/IE60Fixes.css?270" media="screen" /><![endif]-->
+<!--[if IE 7]><link rel="stylesheet" href="/mw/skins/monobook/IE70Fixes.css?270" media="screen" /><![endif]-->
+<link rel="stylesheet" href="/mw/index.php?title=MediaWiki:Common.css&amp;usemsgcache=yes&amp;ctype=text%2Fcss&amp;smaxage=18000&amp;action=raw&amp;maxage=18000" />
+<link rel="stylesheet" href="/mw/index.php?title=MediaWiki:Print.css&amp;usemsgcache=yes&amp;ctype=text%2Fcss&amp;smaxage=18000&amp;action=raw&amp;maxage=18000" media="print" />
+<link rel="stylesheet" href="/mw/index.php?title=MediaWiki:Monobook.css&amp;usemsgcache=yes&amp;ctype=text%2Fcss&amp;smaxage=18000&amp;action=raw&amp;maxage=18000" />
+<link rel="stylesheet" href="/mw/index.php?title=-&amp;action=raw&amp;maxage=18000&amp;gen=css" />
+<script>
+var skin="monobook",
+stylepath="/mw/skins",
+wgUrlProtocols="http\\:\\/\\/|https\\:\\/\\/|ftp\\:\\/\\/|irc\\:\\/\\/|gopher\\:\\/\\/|telnet\\:\\/\\/|nntp\\:\\/\\/|worldwind\\:\\/\\/|mailto\\:|news\\:|svn\\:\\/\\/",
+wgArticlePath="/mw/$1",
+wgScriptPath="/mw",
+wgScriptExtension=".php",
+wgScript="/mw/index.php",
+wgVariantArticlePath=false,
+wgActionPaths={},
+wgServer="http://wiki.lifesciencedb.jp",
+wgCanonicalNamespace="",
+wgCanonicalSpecialPageName=false,
+wgNamespaceNumber=0,
+wgPageName="BH12.12/TogoStanzaQuery/v201310",
+wgTitle="BH12.12/TogoStanzaQuery/v201310",
+wgAction="edit",
+wgArticleId=324,
+wgIsArticle=false,
+wgUserName=null,
+wgUserGroups=null,
+wgUserLanguage="ja",
+wgContentLanguage="ja",
+wgBreakFrames=true,
+wgCurRevisionId=11693,
+wgVersion="1.16.3",
+wgEnableAPI=true,
+wgEnableWriteAPI=true,
+wgSeparatorTransformTable=["", ""],
+wgDigitTransformTable=["", ""],
+wgMainPageTitle="メインページ",
+wgFormattedNamespaces={"-2": "メディア", "-1": "特別", "0": "", "1": "ノート", "2": "利用者", "3": "利用者‐会話", "4": "TogoWiki", "5": "TogoWiki‐ノート", "6": "ファイル", "7": "ファイル‐ノート", "8": "MediaWiki", "9": "MediaWiki‐ノート", "10": "Template", "11": "Template‐ノート", "12": "Help", "13": "Help‐ノート", "14": "Category", "15": "Category‐ノート"},
+wgNamespaceIds={"メディア": -2, "特別": -1, "": 0, "ノート": 1, "利用者": 2, "利用者‐会話": 3, "togowiki": 4, "togowiki‐ノート": 5, "ファイル": 6, "ファイル‐ノート": 7, "mediawiki": 8, "mediawiki‐ノート": 9, "template": 10, "template‐ノート": 11, "help": 12, "help‐ノート": 13, "category": 14, "category‐ノート": 15, "画像": 6, "画像‐ノート": 7, "image": 6, "image_talk": 7},
+wgSiteName="TogoWiki",
+wgCategories=[],
+wgRestrictionEdit=[],
+wgRestrictionMove=[];
+</script><script src="/mw/skins/common/wikibits.js?270"></script>
+<script src="/mw/skins/common/edit.js?270"></script>
+<script src="/mw/skins/common/ajax.js?270"></script>
+<script src="/mw/index.php?title=-&amp;action=raw&amp;gen=js&amp;useskin=monobook&amp;270"></script>
+
+		<style type='text/css'>
+		li#pt-openidlogin {
+		  background: url(/mw/extensions/OpenID/skin/icons/openid-inputicon.png) top left no-repeat;
+		  padding-left: 20px;
+		  text-transform: none;
+		}
+		</style>
+</head>
+<body class="mediawiki ltr ns-0 ns-subject page-BH12_12_TogoStanzaQuery_v201310 skin-monobook">
+<div id="globalWrapper">
+<div id="column-content"><div id="content" >
+	<a id="top"></a>
+	
+	<h1 id="firstHeading" class="firstHeading">BH12.12/TogoStanzaQuery/v201310</h1>
+	<div id="bodyContent">
+		<h3 id="siteSub">提供：TogoWiki</h3>
+		<div id="contentSub"><a href="/mw/BH12.12/TogoStanzaQuery/v201310" title="BH12.12/TogoStanzaQuery/v201310">BH12.12/TogoStanzaQuery/v201310</a>のソース</div>
+		<div id="jump-to-nav">移動： <a href="#column-one">案内</a>, <a href="#searchInput">検索</a></div>
+		<!-- start content -->
+<p>以下に示された理由により、このページの編集を行うことができません：
+</p>
+<div class="permissions-errors">
+<p>この操作は、<a href="/mw/index.php?title=TogoWiki:%E5%88%A9%E7%94%A8%E8%80%85&amp;action=edit&amp;redlink=1" class="new" title="TogoWiki:利用者（存在しないページ）">利用者</a>のグループに属する利用者のみが実行できます。
+</p>
+</div>
+<p>このページのソースを閲覧し、コピーすることができます：
+</p><textarea id="wpTextbox1" name="wpTextbox1" cols="80" rows="25" readonly="">== グラフ構成 ==
+このページのSPARQLは以下のグラフ構成で動作する。&lt;br>
+[http://wiki.lifesciencedb.jp/mw/index.php/BH12.12/SPARQLthon11/TogoGenome#.E4.BB.8A.E5.BE.8C.E3.81.AE.E3.82.B0.E3.83.A9.E3.83.95.E6.A7.8B.E6.88.90 TogoStanzaエンドポイントグラフ構成]&lt;br>
+
+== Gene Report ==
+
+===Protein names===
+スタンザファイル名：protein_names
+&lt;pre>
+PREFIX up: &lt;http://purl.uniprot.org/core/>
+PREFIX skos: &lt;http://www.w3.org/2004/02/skos/core#>
+PREFIX taxonomy: &lt;http://purl.uniprot.org/taxonomy/>
+
+SELECT DISTINCT ?gene_name ?synonyms_name ?locus_name ?orf_name
+FROM &lt;http://togogenome.org/graph/uniprot/>
+FROM &lt;http://togogenome.org/graph/tgup/>
+WHERE {
+  &lt;http://togogenome.org/gene/103690:all1455> ?p ?id_upid .
+   ?id_upid rdfs:seeAlso ?protein .
+   ?protein a &lt;http://purl.uniprot.org/core/Protein> .
+
+  # Gene names
+  ?protein up:encodedBy ?gene .
+
+  ## Name:
+  OPTIONAL { ?gene skos:prefLabel ?gene_name . }
+
+  ## Synonyms:
+  OPTIONAL { ?gene skos:altLabel ?synonyms_name . }
+
+  ## Ordered Locus Names:
+  OPTIONAL { ?gene up:locusName ?locus_name . }
+
+  ## ORF Names:
+  OPTIONAL { ?gene up:orfName ?orf_name . }
+}
+&lt;/pre>
+&lt;pre>
+PREFIX up: &lt;http://purl.uniprot.org/core/>
+PREFIX taxonomy: &lt;http://purl.uniprot.org/taxonomy/>
+
+SELECT DISTINCT ?recommended_name ?ec_name ?alternative_names ?organism_name ?parent_taxonomy_names
+FROM &lt;http://togogenome.org/graph/uniprot/>
+FROM &lt;http://togogenome.org/graph/tgup/>
+WHERE {
+  &lt;http://togogenome.org/gene/103690:all1455> ?p ?id_upid .
+   ?id_upid rdfs:seeAlso ?protein .
+   ?protein a &lt;http://purl.uniprot.org/core/Protein> ;
+     up:organism ?tax_id .
+
+  # Protein names
+  ## Recommended name:
+  OPTIONAL {
+    ?protein up:recommendedName ?recommended_name_node .
+    ?recommended_name_node up:fullName ?recommended_name .
+  }
+
+  ### EC=
+  OPTIONAL { ?recommended_name_node up:ecName ?ec_name . }
+
+  OPTIONAL {
+    ?protein up:alternativeName ?alternative_names_node .
+    ?alternative_names_node up:fullName ?alternative_names .
+  }
+
+  # Organism
+  OPTIONAL { ?tax_id up:scientificName ?organism_name . }
+
+  # Taxonomic identifier
+
+  # Taxonomic lineage
+  OPTIONAL {
+    ?tax_id rdfs:subClassOf* ?parent_taxonomy .
+    ?parent_taxonomy up:scientificName ?parent_taxonomy_names .
+  }
+}
+&lt;/pre>
+
+===JBrowse===
+====Gene単位====
+locus tagからTaxonomyIDを取得するクエリ。引数gene_id:"slr0473"
+&lt;pre>
+DEFINE sql:select-option "order"
+PREFIX obo: &lt;http://purl.obolibrary.org/obo/>
+PREFIX insdc: &lt;http://ddbj.nig.ac.jp/ontologies/sequence#>
+
+SELECT DISTINCT REPLACE(STR(?taxonomy),"http://identifiers.org/taxonomy/","") AS ?tax_id
+FROM &lt;http://togogenome.org/graph/refseq/>
+FROM &lt;http://togogenome.org/graph/so/>
+WHERE
+{
+  VALUES ?locus_tag { "slr0473" }
+  VALUES ?seq_type  { obo:SO_0000340 obo:SO_0000155 }
+
+  ?gene insdc:locus_tag ?locus_tag ;
+    a ?gene_type ;
+    obo:so_part_of ?seq .
+  ?seq rdf:type ?seq_type ;
+    rdfs:seeAlso ?taxonomy .
+  ?taxonomy a &lt;http://identifiers.org/taxonomy/> .
+}
+&lt;/pre>
+表示範囲を取得するクエリ。引数gene_id:"slr0473"
+&lt;pre>
+DEFINE sql:select-option "order" 
+PREFIX obo: &lt;http://purl.obolibrary.org/obo/>
+PREFIX faldo: &lt;http://biohackathon.org/resource/faldo#>
+PREFIX insdc: &lt;http://ddbj.nig.ac.jp/ontologies/sequence#>
+
+SELECT DISTINCT REPLACE(STR(?refseq),"http://identifiers.org/refseq/","") AS ?seq_label ?start ?end ?seq_length
+FROM &lt;http://togogenome.org/graph/refseq/>
+FROM &lt;http://togogenome.org/graph/so/>
+FROM &lt;http://togogenome.org/graph/faldo/>
+WHERE
+{
+  VALUES ?locus_tag { "slr0473" }
+  VALUES ?seq_type  { obo:SO_0000340 obo:SO_0000155 }
+  VALUES ?gene_type { obo:SO_0000704 obo:SO_0000252 obo:SO_0000253 }
+  VALUES ?faldo_stand_type { faldo:ForwardStrandPosition faldo:ReverseStrandPosition }
+
+  #gene
+  ?gene insdc:locus_tag ?locus_tag ;
+    a ?gene_type ;
+    obo:so_part_of ?seq .
+
+  #position
+  ?gene faldo:location ?faldo .
+  ?faldo faldo:begin/faldo:position ?start .
+  ?faldo faldo:end/faldo:position ?end .
+
+  #sequence
+  ?seq rdfs:seeAlso ?refseq ;
+    a ?seq_type ;
+   insdc:sequence_length ?seq_length.
+  ?refseq a &lt;http://identifiers.org/refseq/> .
+}
+&lt;/pre>
+JBrowseで発行するクエリはOrganismと同一
+
+====Organism単位====
+表示範囲の取得&lt;br>
+最もlengthの長いsequenceを選択する
+&lt;pre>
+DEFINE sql:select-option "order"
+PREFIX obo: &lt;http://purl.obolibrary.org/obo/>
+PREFIX taxid: &lt;http://identifiers.org/taxonomy/>
+PREFIX ddbj: &lt;http://ddbj.nig.ac.jp/ontologies/sequence#>
+
+SELECT ?version ?length
+FROM &lt;http://togogenome.org/graph/refseq/>
+FROM &lt;http://togogenome.org/graph/so/>
+WHERE
+{
+  VALUES ?seq_type  { obo:SO_0000340 obo:SO_0000155 }
+
+  ?seq rdfs:seeAlso taxid:1148 ;
+    rdf:type ?seq_type ;
+    ddbj:sequence_length ?length ;
+    ddbj:sequence_version ?version .
+} ORDER BY DESC(?length) LIMIT 1
+&lt;/pre>
+CDS&lt;br>
+引数例：ref="NC_000911.1", start = 2784787, end = 2816352
+&lt;pre>
+DEFINE sql:select-option "order"
+PREFIX rdf:    &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs:   &lt;http://www.w3.org/2000/01/rdf-schema#>
+PREFIX xsd:    &lt;http://www.w3.org/2001/XMLSchema#>
+PREFIX obo:    &lt;http://purl.obolibrary.org/obo/>
+PREFIX faldo:  &lt;http://biohackathon.org/resource/faldo#>
+PREFIX insdc:  &lt;http://ddbj.nig.ac.jp/ontologies/sequence#>
+
+SELECT DISTINCT ?start ?end ?strand ?type ?name ?description ?uniqueID ?parentUniqueID
+FROM &lt;http://togogenome.org/graph/refseq/>
+FROM &lt;http://togogenome.org/graph/so/>
+FROM &lt;http://togogenome.org/graph/faldo/>
+WHERE
+{
+  {
+    SELECT ?start ?end ?strand ?type ?uniqueID ?parentUniqueID 
+    WHERE
+    {
+      ?seq_id ?p "{ref}" .
+      ?uniqueID obo:so_part_of+ ?seq_id .
+      FILTER ( !(?start > {end} || ?end &lt; {start}) )
+      ?uniqueID faldo:location ?loc .
+      ?loc faldo:begin/faldo:position ?start .
+      ?loc faldo:end/faldo:position ?end .
+      ?loc faldo:begin/rdf:type ?faldo_type FILTER ( ?faldo_type IN (faldo:ForwardStrandPosition, faldo:ReverseStrandPosition, faldo:BothStrandsPosition) ).
+      BIND ( if(?faldo_type = faldo:ForwardStrandPosition, 1, if(?faldo_type = faldo:ReverseStrandPosition, -1, 0)) as ?strand )
+
+      ?uniqueID rdf:type ?uniqueID_type FILTER ( ?uniqueID_type IN( obo:SO_0000316, obo:SO_0000147) ).
+      ?uniqueID_type rdfs:label ?uniqueID_type_label .
+      BIND ( str(?uniqueID_type_label) as ?type ) .
+      ?uniqueID obo:so_part_of ?parentUniqueID FILTER ( ?parentUniqueID != ?seq_id ) . 
+    }
+  }
+  OPTIONAL { ?uniqueID insdc:locus_tag ?name . }
+  OPTIONAL { ?uniqueID insdc:product ?description . }
+}
+&lt;/pre>
+tRNA,rRNA 252,253を入れ替える&lt;br>
+引数例：ref="NC_000911.1", start = 1, end = 10000000
+&lt;pre>
+DEFINE sql:select-option "order"
+PREFIX rdf:    &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs:   &lt;http://www.w3.org/2000/01/rdf-schema#>
+PREFIX xsd:    &lt;http://www.w3.org/2001/XMLSchema#>
+PREFIX obo:    &lt;http://purl.obolibrary.org/obo/>
+PREFIX faldo:  &lt;http://biohackathon.org/resource/faldo#>
+PREFIX insdc:  &lt;http://ddbj.nig.ac.jp/ontologies/sequence#>
+
+SELECT DISTINCT ?start ?end ?strand ?type ?name ?description ?uniqueID ?parentUniqueID
+FROM &lt;http://togogenome.org/graph/refseq/>
+FROM &lt;http://togogenome.org/graph/so/>
+FROM &lt;http://togogenome.org/graph/faldo/>
+WHERE
+{
+  {
+    SELECT ?start ?end ?strand ?type ?uniqueID ?parentUniqueID 
+    WHERE
+    {
+      ?seq_id ?p "{ref}" .
+      ?uniqueID obo:so_part_of+ ?seq_id .
+      FILTER ( !(?start > {end} || ?end &lt; {start}) )
+      ?uniqueID faldo:location ?loc .
+      ?loc faldo:begin/faldo:position ?start .
+      ?loc faldo:end/faldo:position ?end .
+      ?loc faldo:begin/rdf:type ?faldo_type FILTER ( ?faldo_type IN (faldo:ForwardStrandPosition, faldo:ReverseStrandPosition, faldo:BothStrandsPosition) ).
+      BIND ( if(?faldo_type = faldo:ForwardStrandPosition, 1, if(?faldo_type = faldo:ReverseStrandPosition, -1, 0)) as ?strand )
+
+      ?uniqueID rdf:type ?uniqueID_type FILTER ( ?uniqueID_type = obo:SO_0000253 ).
+      ?uniqueID_type rdfs:label ?uniqueID_type_label .
+      BIND ( str(?uniqueID_type_label) as ?type ) .
+      ?uniqueID obo:so_part_of ?parentUniqueID  . 
+    }
+  }
+  OPTIONAL { ?uniqueID insdc:locus_tag ?name . }
+  OPTIONAL { ?uniqueID insdc:product ?description . }
+}
+&lt;/pre>
+
+===Genomic context===
+スタンザファイル名：genome_genomic_contex&lt;br>
+&lt;pre>
+DEFINE sql:select-option "order"
+
+PREFIX rdf:    &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs:   &lt;http://www.w3.org/2000/01/rdf-schema#>
+PREFIX xsd:    &lt;http://www.w3.org/2001/XMLSchema#>
+PREFIX obo:    &lt;http://purl.obolibrary.org/obo/>
+PREFIX faldo:  &lt;http://biohackathon.org/resource/faldo#>
+PREFIX insdc:  &lt;http://ddbj.nig.ac.jp/ontologies/sequence#>
+
+SELECT ?gene ?gene_type ?seq ?seq_type ?gene_loc ?gene_begin ?gene_end ?ncbi_taxid ?obj ?b ?e ?strand ?obj_label ?label ?obj_name ?pb ?pe
+FROM &lt;http://togogenome.org/graph/refseq/>
+FROM &lt;http://togogenome.org/graph/so/>
+FROM &lt;http://togogenome.org/graph/faldo/>
+WHERE
+{
+  {
+    SELECT ?gene ?gene_type ?seq ?seq_type ?gene_loc ?gene_begin ?gene_end ?ncbi_taxid ?obj ?b ?e ?strand ?obj_label
+    WHERE
+    {
+      VALUES ?locus_tag { "slr0473" }
+      VALUES ?seq_type  { obo:SO_0000340 obo:SO_0000155 } # chromosome, plasmid
+      VALUES ?gene_type { obo:SO_0000316 obo:SO_0000252 obo:SO_0000253 } # CDS, rRNA, tRNA
+      VALUES ?faldo_type { faldo:ForwardStrandPosition faldo:ReverseStrandPosition }
+      VALUES ?offset { 2000 }
+
+      # gene
+      ?gene insdc:locus_tag ?locus_tag.
+      ?gene a ?gene_type.
+
+      # seq
+      ?gene obo:so_part_of+ ?seq.
+      ?seq a ?seq_type.
+
+      # faldo
+      ?gene faldo:location ?gene_loc.
+      ?gene_loc faldo:begin/faldo:position ?gene_begin.
+      ?gene_loc faldo:end/faldo:position ?gene_end.
+
+      # taxonomy ncbi
+      ?seq rdfs:seeAlso ?taxonomy .
+      ?taxonomy a &lt;http://identifiers.org/taxonomy/> .
+      ?taxonomy rdfs:label ?ncbi_taxid .
+
+      # objects around the gene
+      ?obj obo:so_part_of+ ?seq . 
+
+      ?obj faldo:location ?faldo .
+      ?faldo faldo:begin/rdf:type ?faldo_type .
+      ?faldo_type rdfs:label ?strand .
+      ?faldo faldo:begin/faldo:position ?b .
+      ?faldo faldo:end/faldo:position ?e .
+      FILTER (!(?b > ?gene_end + ?offset || ?e &lt; ?gene_begin - ?offset))
+
+      ?obj rdf:type ?obj_type .
+      ?obj_type rdfs:label ?obj_label .
+      FILTER (?obj_type != obo:SO_0000704)  # gene
+    }
+  }
+  OPTIONAL { ?obj insdc:locus_tag ?label . }
+  OPTIONAL { ?obj insdc:product ?obj_name . }
+  OPTIONAL
+  {
+    ?obj obo:so_has_part/rdf:rest*/rdf:first ?part .
+    ?part faldo:begin/faldo:position ?pb .
+    ?part faldo:end/faldo:position ?pe .
+  }
+} ORDER BY ?b
+&lt;/pre>
+
+===Gene attributes===
+スタンザファイル名：gene_attributes
+&lt;pre>
+DEFINE sql:select-option "order"
+PREFIX obo: &lt;http://purl.obolibrary.org/obo/>
+PREFIX faldo: &lt;http://biohackathon.org/resource/faldo#>
+PREFIX insdc:  &lt;http://ddbj.nig.ac.jp/ontologies/sequence#>
+
+SELECT DISTINCT ?locus_tag ?gene_type_label ?seq_label ?seq_type_label ?gene_symbol
+  REPLACE(?refseq_label,"RefSeq:","") AS ?refseq_label ?organism ?taxid
+  ?faldo_begin_position ?faldo_end_position ?stand ?insdc_location
+  CONCAT("http://togows.dbcls.jp/entry/nucleotide/", REPLACE(?refseq_label,"RefSeq:",""),"/seq/", ?insdc_location) AS ?seqence
+FROM &lt;http://togogenome.org/graph/refseq/>
+FROM &lt;http://togogenome.org/graph/so/>
+FROM &lt;http://togogenome.org/graph/faldo/>
+{
+  {
+    SELECT DISTINCT ?gene ?locus_tag ?gene_type_label ?seq_label ?seq_type_label
+      ?refseq_label ?organism ?taxid
+      ?faldo_begin_position ?faldo_end_position ?stand ?insdc_location
+    WHERE
+    {
+      VALUES ?locus_tag { "all1455" }
+      VALUES ?seq_type  { obo:SO_0000340 obo:SO_0000155 }
+      VALUES ?gene_type { obo:SO_0000704 obo:SO_0000252 obo:SO_0000253 }
+      VALUES ?faldo_stand_type { faldo:ForwardStrandPosition faldo:ReverseStrandPosition }
+ 
+      ?gene ?p ?locus_tag ;
+        a ?gene_type ;
+        obo:so_part_of ?seq .
+      ?gene_type rdfs:label ?gene_type_label .
+
+      #sequence
+      ?seq rdfs:label ?seq_label ;
+        a ?seq_type ;
+        rdfs:seeAlso ?refseq ;
+        insdc:organism ?organism ;
+        rdfs:seeAlso ?taxonomy .
+      ?seq_type rdfs:label ?seq_type_label .
+      ?refseq a &lt;http://identifiers.org/refseq/> ;
+        rdfs:label ?refseq_label .
+      ?taxonomy a &lt;http://identifiers.org/taxonomy/> ;
+        rdfs:label ?taxid .
+ 
+      #faldo
+      ?gene faldo:location ?faldo .
+      ?faldo insdc:location ?insdc_location ;
+        faldo:begin ?faldo_begin ;
+        faldo:end ?faldo_end .
+      ?faldo_begin faldo:position ?faldo_begin_position ;
+        rdf:type ?faldo_stand_type .
+      ?faldo_end faldo:position ?faldo_end_position .
+      ?faldo_stand_type rdfs:label ?stand .
+    }
+  }
+  OPTIONAL { ?gene insdc:gene ?gene_symbol. }
+}
+&lt;/pre>
+
+===Nucleotide sequence===
+スタンザファイル名：nucleotide_sequences
+&lt;pre>
+DEFINE sql:select-option "order"
+PREFIX obo:    &lt;http://purl.obolibrary.org/obo/>
+PREFIX faldo:  &lt;http://biohackathon.org/resource/faldo#>
+PREFIX insdc:  &lt;http://ddbj.nig.ac.jp/ontologies/sequence#>
+
+SELECT DISTINCT ?locus_tag
+  CONCAT("http://togows.dbcls.jp/entry/nucleotide/", replace(?refseq_label,"RefSeq:",""),"/seq/", ?insdc_location) as ?nuc_seq_pos
+FROM &lt;http://togogenome.org/graph/refseq/>
+FROM &lt;http://togogenome.org/graph/so/>
+WHERE
+{
+  values ?locus_tag {  "all1455" }
+  values ?seq_type  { obo:SO_0000340 obo:SO_0000155 }
+  values ?gene_type { obo:SO_0000704 obo:SO_0000252 obo:SO_0000253 }
+
+  ?gene ?p ?locus_tag ;
+    a ?gene_type ;
+    obo:so_part_of ?seq .
+  ?seq a ?seq_type ;
+    rdfs:seeAlso ?refseq .
+  ?refseq a &lt;http://identifiers.org/refseq/> ;
+    rdfs:label ?refseq_label .
+  ?gene faldo:location ?faldo .
+  ?faldo insdc:location ?insdc_location .
+}
+&lt;/pre>
+
+===Protein attributes===
+スタンザファイル名：protein_attributes
+&lt;pre>
+PREFIX up: &lt;http://purl.uniprot.org/core/>
+PREFIX taxonomy: &lt;http://purl.uniprot.org/taxonomy/>
+
+SELECT DISTINCT ?sequence ?fragment ?precursor ?existence_label
+WHERE {
+  &lt;http://togogenome.org/gene/103690:all1455> ?p ?id_upid .
+   ?id_upid rdfs:seeAlso ?protein .
+   ?protein a &lt;http://purl.uniprot.org/core/Protein> ;
+      up:sequence ?seq .
+
+  # Sequence
+  OPTIONAL {
+    ?seq rdf:value ?sequence .
+  }
+
+  # Sequence status
+  OPTIONAL {
+    ?seq up:fragment ?fragment .
+  }
+
+  # Sequence processing
+  OPTIONAL {
+    ?seq up:precursor ?precursor .
+  }
+
+  # Protein existence
+  OPTIONAL {
+    ?protein up:existence ?existence .
+    ?existence rdfs:label ?existence_label .
+  }
+}
+&lt;/pre>
+
+===Protein sequence===
+スタンザファイル名：protein_sequences
+&lt;pre>
+PREFIX up: &lt;http://purl.uniprot.org/core/>
+PREFIX taxonomy: &lt;http://purl.uniprot.org/taxonomy/>
+
+SELECT DISTINCT ?protein ?value ?mass ?modified ?version ?checksum
+FROM &lt;http://togogenome.org/graph/uniprot/>
+FROM &lt;http://togogenome.org/graph/tgup/>
+WHERE {
+  &lt;http://togogenome.org/gene/103690:all1455> ?p ?id_upid .
+  ?id_upid rdfs:seeAlso ?protein .
+  ?protein a &lt;http://purl.uniprot.org/core/Protein> ;
+    up:sequence ?seq .
+  ?seq rdf:value ?value ;
+       up:mass ?mass ;
+       up:modified ?modified ;
+       up:version ?version ;
+       up:crc64Checksum ?checksum .
+}
+&lt;/pre>
+
+===Protein general annotation===
+スタンザファイル名：protein_general_annotation
+&lt;pre>
+PREFIX up: &lt;http://purl.uniprot.org/core/>
+PREFIX taxonomy: &lt;http://purl.uniprot.org/taxonomy/>
+
+SELECT DISTINCT ?name ?message
+FROM &lt;http://togogenome.org/graph/uniprot/>
+FROM &lt;http://togogenome.org/graph/tgup/>
+WHERE {
+  &lt;http://togogenome.org/gene/103690:all1455> ?p ?id_upid .
+  ?id_upid rdfs:seeAlso ?protein .
+  ?protein a &lt;http://purl.uniprot.org/core/Protein> ;
+    up:annotation ?annotation .
+
+  ?annotation rdf:type up:Annotation .
+
+  # name, message の取得
+  BIND(STR('Miscellaneous') AS ?name) .
+  ?annotation rdfs:comment ?message .
+}
+&lt;/pre>
+&lt;pre>
+PREFIX up: &lt;http://purl.uniprot.org/core/>
+PREFIX taxonomy: &lt;http://purl.uniprot.org/taxonomy/>
+
+SELECT DISTINCT ?name ?message
+FROM &lt;http://togogenome.org/graph/uniprot/>
+FROM &lt;http://togogenome.org/graph/tgup/>
+WHERE {
+  &lt;http://togogenome.org/gene/103690:all1455> ?p ?id_upid .
+  ?id_upid rdfs:seeAlso ?protein .
+  ?protein a &lt;http://purl.uniprot.org/core/Protein> ;
+    up:annotation ?annotation .
+
+  ?type rdfs:subClassOf up:Annotation .
+  ?annotation rdf:type up:Subcellular_Location_Annotation .
+
+  # name, message の取得
+  up:Subcellular_Location_Annotation rdfs:label ?name .
+  ?annotation up:locatedIn ?located_in .
+  ?located_in ?p ?location .
+  ?location up:alias ?message .
+}
+&lt;/pre>
+&lt;pre>
+PREFIX up: &lt;http://purl.uniprot.org/core/>
+PREFIX taxonomy: &lt;http://purl.uniprot.org/taxonomy/>
+
+SELECT DISTINCT ?name ?message
+FROM &lt;http://togogenome.org/graph/uniprot/>
+FROM &lt;http://togogenome.org/graph/tgup/>
+WHERE {
+  &lt;http://togogenome.org/gene/103690:all1455> ?p ?id_upid .
+  ?id_upid rdfs:seeAlso ?protein .
+  ?protein a &lt;http://purl.uniprot.org/core/Protein> ;
+    up:annotation ?annotation .
+
+  ?annotation rdf:type ?type .
+  ?type rdfs:subClassOf up:Annotation .
+  FILTER (?type != up:Subcellular_Location_Annotation)
+
+  # name, message の取得
+  ?type rdfs:label ?name .
+  ?annotation rdfs:comment ?message .
+}
+&lt;/pre>
+
+===Protein ontologies===
+スタンザファイル名：protein_ontologies
+&lt;pre>
+DEFINE sql:select-option "order" 
+PREFIX up: &lt;http://purl.uniprot.org/core/>
+PREFIX taxonomy: &lt;http://purl.uniprot.org/taxonomy/>
+PREFIX skos: &lt;http://www.w3.org/2004/02/skos/core#>
+
+SELECT ?root_name ?concept (GROUP_CONCAT(?name, ', ') AS ?names) {
+  SELECT DISTINCT ?root_name ?concept ?name
+  FROM &lt;http://togogenome.org/graph/uniprot/>
+  FROM &lt;http://togogenome.org/graph/tgup/>
+  WHERE {
+    &lt;http://togogenome.org/gene/103690:all1455> ?p ?id_upid .
+    ?id_upid rdfs:seeAlso ?protein .
+    ?protein a &lt;http://purl.uniprot.org/core/Protein> ;
+      ?p2 ?concept .
+    ?concept rdf:type up:Concept .
+    FILTER regex(str(?concept), 'keywords') .
+
+    ?concept ?label ?name FILTER (?label = skos:prefLabel || ?label = skos:altLabel).
+    ?concept rdfs:subClassOf* ?parents .
+    ?parents skos:prefLabel ?root_name .
+    FILTER (str(?root_name) IN ('Biological process', 'Cellular component', 'Domain', 'Ligand', 'Molecular function', 'Technical term')) .
+  }
+  GROUP BY ?root_name ?concept
+  ORDER BY ?root_name ?concept ?name
+}
+&lt;/pre>
+&lt;pre>
+PREFIX up: &lt;http://purl.uniprot.org/core/>
+PREFIX taxonomy: &lt;http://purl.uniprot.org/taxonomy/>
+
+SELECT DISTINCT ?concept
+FROM &lt;http://togogenome.org/graph/uniprot/>
+FROM &lt;http://togogenome.org/graph/tgup/>
+WHERE {
+  &lt;http://togogenome.org/gene/103690:all1455> ?p ?id_upid .
+  ?id_upid rdfs:seeAlso ?protein .
+  ?protein a &lt;http://purl.uniprot.org/core/Protein> ;
+    ?p_consept ?concept .
+  ?concept rdf:type up:Concept .
+  FILTER regex(str(?concept), 'go') .
+}
+&lt;/pre>
+&lt;pre>
+PREFIX rdfs: &lt;http://www.w3.org/2000/01/rdf-schema#>
+
+SELECT DISTINCT ?name ?root_name ?obo_go_uri
+FROM &lt;http://togogenome.org/graph/go/>
+WHERE {
+  ?obo_go_uri rdfs:label ?name .
+  # comment は無い?
+  # cf) http://lod.dbcls.jp/openrdf-workbench5l/repositories/go/explore?resource=obo%3AGO_0009635
+  #?obo_go_uri rdfs:comment ?comment .
+
+  ?obo_go_uri rdfs:subClassOf* ?parents .
+  ?parents rdfs:label ?root_name .
+  FILTER (str(?root_name) IN ('biological_process', 'cellular_component', 'molecular_function')) .
+  FILTER (?obo_go_uri in (&lt;http://purl.obolibrary.org/obo/GO_0005524>, &lt;http://purl.obolibrary.org/obo/GO_0016163>)) .
+}
+&lt;/pre>
+
+===Protein sequence annotation===
+スタンザファイル名：protein_sequence_annotation
+&lt;pre>
+PREFIX up: &lt;http://purl.uniprot.org/core/>
+PREFIX taxonomy: &lt;http://purl.uniprot.org/taxonomy/>
+
+SELECT DISTINCT ?parent_label ?label ?begin_location ?end_location ?seq_length ?comment (GROUP_CONCAT(?substitution, ", ") AS ?substitutions) ?seq ?feature_identifier
+FROM &lt;http://togogenome.org/graph/uniprot/>
+FROM &lt;http://togogenome.org/graph/tgup/>
+WHERE {
+  &lt;http://togogenome.org/gene/103690:all1455> ?p ?id_upid .
+  ?id_upid rdfs:seeAlso ?protein .
+  ?protein a &lt;http://purl.uniprot.org/core/Protein> ;
+           up:annotation ?annotation .
+
+  ?annotation rdf:type ?type .
+  ?type rdfs:label ?label .
+
+  # sequence annotation 直下のtype のラベルを取得(Region, Site, Molecule Processing, Experimental Information)
+  ?type rdfs:subClassOf* ?parent_type .
+  ?parent_type rdfs:subClassOf up:Sequence_Annotation ;
+               rdfs:label ?parent_label .
+
+  ?annotation up:range ?range .
+  OPTIONAL { ?annotation rdfs:comment ?comment . }
+  ?range up:begin ?begin_location ;
+         up:end ?end_location .
+
+  # description の一部が取得できるが、内容の表示に必要があるのか
+  OPTIONAL{
+    ?annotation up:substitution ?substitution .
+    ?protein up:sequence/rdf:value ?seq .
+  }
+
+  # sequence の長さ取得用
+  OPTIONAL{
+    ?protein up:sequence/rdf:value ?seq_txt .
+    BIND (STRLEN(?seq_txt) AS ?seq_length) .
+  }
+
+  OPTIONAL {
+    ?annotation rdf:type ?type . # Virtuoso 対応
+    BIND (STR(?annotation) AS ?feature_identifier) .
+    FILTER REGEX(STR(?annotation), 'http://purl.uniprot.org/annotation')
+  }
+}
+GROUP BY ?parent_label ?label ?begin_location ?end_location ?seq_length ?comment ?seq ?feature_identifier
+ORDER BY ?parent_label ?label ?begin_location ?end_location
+&lt;/pre>
+
+===Pfam plot===
+スタンザファイル名：protein_pfam_plot
+旧スタンザファイル名：pfam_plot &lt;br>
+&lt;br>
+*Genomeの情報を取得&lt;br>
+Genomeの情報はGenome plotの3クエリをそのまま使用する
+[http://wiki.lifesciencedb.jp/mw/index.php/BH12.12/TogoStanzaQuery/v201310#Genomic_plot クエリ]&lt;br>
+&lt;br>
+*指定されたProteinに含まれるPfam名一覧を取得&lt;br>
+&lt;pre>
+DEFINE sql:select-option "order"
+PREFIX up: &lt;http://purl.uniprot.org/core/>
+PREFIX taxonomy: &lt;http://purl.uniprot.org/taxonomy/>
+PREFIX dct:   &lt;http://purl.org/dc/terms/>
+
+SELECT DISTINCT REPLACE(STR(?ref), "http://purl.uniprot.org/pfam/","") AS ?pfam_id
+FROM &lt;http://togogenome.org/graph/tgup/>
+FROM &lt;http://togogenome.org/graph/uniprot/>
+WHERE
+{
+ &lt;http://togogenome.org/gene/103690:alr3431> ?p ?id_upid .
+ ?id_upid rdfs:seeAlso ?protein .
+ ?protein a &lt;http://purl.uniprot.org/core/Protein> .
+ ?protein rdfs:seeAlso ?ref .
+ ?ref up:database ?database .
+ ?database up:abbreviation ?abbr
+ FILTER (?abbr ='Pfam').
+}
+&lt;/pre>
+*生物種毎に指定したPfamIDの数と種類数を取得&lt;br>
+&lt;pre>
+DEFINE sql:select-option "order"
+
+PREFIX up: &lt;http://purl.uniprot.org/core/>
+PREFIX tax: &lt;http://purl.uniprot.org/taxonomy/>
+PREFIX pfam: &lt;http://purl.uniprot.org/pfam/>
+
+SELECT
+  REPLACE(STR(?tax), "http://purl.uniprot.org/taxonomy/", "http://identifiers.org/taxonomy/") AS ?tax_id
+  (SUM(?hits) as ?num_pfam)
+  (COUNT(DISTINCT(?prot_id)) AS ?num_pfam_protein)
+FROM &lt;http://togogenome.org/graph/uniprot/>
+WHERE
+{
+  ?prot_id rdfs:seeAlso pfam:PF00400 .
+  ?prot_id up:organism ?tax .
+  ?id rdf:subject ?prot_id .
+  ?id rdf:object pfam:PF00400 .
+  ?id up:hits ?hits .
+} GROUP BY ?tax
+&lt;/pre>
+
+===Orthologs===
+スタンザファイル名：protein_orthologs
+*UniProtIDを取得&lt;br>
+&lt;pre>
+SELECT REPLACE(STR(?id_upid),"http://identifiers.org/uniprot/","http://purl.uniprot.org/uniprot/") AS ?upid
+FROM &lt;http://togogenome.org/graph/tgup/>
+WHERE
+{
+ &lt;http://togogenome.org/gene/103690:alr3431> ?p ?id_upid .
+ ?id_upid a &lt;http://identifiers.org/uniprot/> .
+}
+&lt;/pre>
+&lt;br>
+*Proteinのオーソログリストを取得&lt;br>
+※このクエリはmbgdのエンドポイントへ投げる
+&lt;pre>
+PREFIX rdfs: &lt;http://www.w3.org/2000/01/rdf-schema#>
+PREFIX mbgd: &lt;http://mbgd.genome.ad.jp/owl/mbgd.owl#>
+PREFIX orth: &lt;http://mbgd.genome.ad.jp/owl/ortholog.owl#>
+PREFIX uniprot: &lt;http://purl.uniprot.org/uniprot/>
+PREFIX uniprotCore: &lt;http://purl.uniprot.org/core/>
+
+SELECT ?protein
+WHERE
+{
+  ?group a orth:OrthologGroup ;
+    orth:member/mbgd:gene/mbgd:uniprot &lt;http://purl.uniprot.org/uniprot/P00457> ;
+    orth:member/mbgd:gene/mbgd:uniprot ?protein .
+}
+&lt;/pre>
+
+===Protein references===
+スタンザファイル名：protein_references
+&lt;pre>
+DEFINE sql:select-option "order"
+PREFIX up:   &lt;http://purl.uniprot.org/core/>
+PREFIX skos: &lt;http://www.w3.org/2004/02/skos/core#>
+PREFIX taxonomy: &lt;http://purl.uniprot.org/taxonomy/>
+
+SELECT DISTINCT ?pmid ?title (GROUP_CONCAT(?author, ", ") AS ?authors) ?date ?name ?pages ?volume ?same
+FROM &lt;http://togogenome.org/graph/uniprot/>
+FROM &lt;http://togogenome.org/graph/tgup/>
+WHERE {
+  &lt;http://togogenome.org/gene/103690:all1455> ?p ?id_upid .
+  ?id_upid rdfs:seeAlso ?protein .
+  ?protein a &lt;http://purl.uniprot.org/core/Protein> ;
+    up:citation     ?citation .
+  ?citation skos:exactMatch ?pmid .
+  FILTER    REGEX (STR(?pmid), "pubmed") .
+
+  ?citation up:title   ?title ;
+            up:author  ?author ;
+            up:date    ?date ;
+            up:name    ?name ;
+            up:pages   ?pages ;
+            up:volume  ?volume ;
+            owl:sameAs ?same .
+}
+GROUP BY ?pmid ?title ?date ?name ?pages ?volume ?same
+ORDER BY ?date
+&lt;/pre>
+
+===Protein cross references===
+スタンザファイル名：protein_cross_references
+&lt;pre>
+PREFIX up: &lt;http://purl.uniprot.org/core/>
+PREFIX taxonomy: &lt;http://purl.uniprot.org/taxonomy/>
+
+SELECT DISTINCT ?protein ?category ?abbr ?ref ?url_template
+FROM &lt;http://togogenome.org/graph/uniprot/>
+FROM &lt;http://togogenome.org/graph/tgup/>
+WHERE {
+  &lt;http://togogenome.org/gene/103690:all1455> ?p ?id_upid .
+  ?id_upid rdfs:seeAlso ?protein .
+  ?protein a &lt;http://purl.uniprot.org/core/Protein> ;
+    rdfs:seeAlso    ?ref .
+  ?ref      up:database     ?database .
+  ?database up:category     ?category ;
+            up:abbreviation ?abbr ;
+            up:UrlTemplate  ?url_template .
+}
+&lt;/pre>
+
+===Protein  reaction fgc list===
+スタンザファイル名：protein_reaction_fgc_list
+*locus_tagからuniprotIDを取得
+[http://wiki.lifesciencedb.jp/mw/index.php/BH12.12/TogoStanzaQuery#uniprot_url_from_togogenome.28gene_id.29 共通クエリ]
+*uniprotIDからEC_numberを取得
+&lt;pre>
+PREFIX up: &lt;http://purl.uniprot.org/core/>
+PREFIX taxonomy: &lt;http://purl.uniprot.org/taxonomy/>
+
+SELECT DISTINCT ?ec_name
+FROM &lt;http://togogenome.org/graph/uniprot/>
+WHERE
+{
+  ?protein up:organism  taxonomy:103690 ;
+    rdfs:seeAlso &lt;http://purl.uniprot.org/refseq/NP_485497.1> ;
+    up:recommendedName ?recommended_name_node .
+  ?recommended_name_node up:ecName ?ec_name . 
+}
+&lt;/pre>
+*EC_numberからReactionを取得&lt;br>
+※このクエリはreactionontologyのエンドポイントへ投げる
+※reactionのデータは整備中
+&lt;pre>
+PREFIX piero: &lt;http://reactionontology.org/ontology/piero#>
+PREFIX entry: &lt;http://www.kegg.jp/entry/>
+SELECT ?fgc COUNT(?fgc) AS ?cnt
+FROM &lt;http://reactionontology>
+WHERE {
+  entry:1.18.6.1 piero:catalyzes ?reaction. 
+  ?reaction piero:has_rclass ?rclass .
+  ?rclass rdf:instanceOf ?fgc .
+} GROUP BY ?fgc ORDER BY DESC (?cnt)
+&lt;/pre>
+
+== Organism Report ==
+
+===Organism names===
+スタンザファイル名：organism_names
+&lt;pre>
+PREFIX taxo: &lt;http://ddbj.nig.ac.jp/ontologies/taxonomy#>
+PREFIX taxid: &lt;http://identifiers.org/taxonomy/>
+
+SELECT ?name_type ?name_type_label ?name
+FROM &lt;http://togogenome.org/graph/taxonomy/>
+WHERE
+{
+  VALUES ?name_type
+  {
+    taxo:scientificName taxo:synonym taxo:preferredSynonym taxo:acronym taxo:preferredAcronym taxo:anamorph taxo:teleomorph
+    taxo:misnomer taxo:commonName taxo:preferredCommonName taxo:inPart taxo:includes taxo:equivalentName taxo:genbankSynonym taxo:genbankCommonName taxo:authority taxo:misspelling
+  }
+  taxid:1148 ?name_type ?name .
+  ?name_type rdfs:label ?name_type_label .
+}
+&lt;/pre>
+
+===Genome information===
+スタンザファイル名：genome_information&lt;br>
+※クエリはこれでよいはずだが、速度が出ない
+&lt;pre>
+DEFINE sql:select-option "order"
+PREFIX obo: &lt;http://purl.obolibrary.org/obo/>
+PREFIX rdfs: &lt;http://www.w3.org/2000/01/rdf-schema#>
+PREFIX insdc: &lt;http://ddbj.nig.ac.jp/ontologies/sequence#>
+PREFIX idtax: &lt;http://identifiers.org/taxonomy/>
+PREFIX togo: &lt;http://togogenome.org/stats/>
+
+SELECT ?bioproject ?bioproject_id ?refseq_version ?refseq_link ?desc ?replicon_type ?sequence_length
+ ?gene_cnt ?trna_cnt ?rrna_cnt ?other_cnt
+FROM &lt;http://togogenome.org/graph/refseq/>
+FROM &lt;http://togogenome.org/graph/so/>
+FROM &lt;http://togogenome.org/graph/stats/>
+WHERE
+{
+  ?seq rdfs:seeAlso idtax:1148 ;
+    rdfs:label ?desc ;
+    rdfs:seeAlso ?bioproject ;
+    insdc:sequence_version ?refseq_version ;
+    insdc:sequence_length ?sequence_length ;
+    rdfs:seeAlso ?refseq_link ;
+    a ?so FILTER (?so =  obo:SO_0000340 || ?so = obo:SO_0000155) .
+  ?so rdfs:label ?replicon_type .
+  ?bioproject a &lt;http://identifiers.org/bioproject/> ;
+    rdfs:label ?bioproject_id .
+  ?refseq_link a &lt;http://identifiers.org/refseq/> ;
+    togo:gene ?gene_cnt ;
+    togo:rrna ?rrna_cnt ;
+    togo:trna ?trna_cnt ;
+    togo:other ?other_cnt .
+}
+&lt;/pre>
+
+===Ortholog profile===
+スタンザファイル名：taxonomy_ortholog_profile
+&lt;br>
+※このクエリはmbgdのエンドポイントへ投げる
+&lt;pre>
+DEFINE sql:select-option "order"
+PREFIX rdfs: &lt;http://www.w3.org/2000/01/rdf-schema#>
+PREFIX mbgd: &lt;http://mbgd.genome.ad.jp/owl/mbgd.owl#>
+PREFIX orth: &lt;http://mbgd.genome.ad.jp/owl/ortholog.owl#>
+PREFIX uniprot: &lt;http://purl.uniprot.org/uniprot/>
+PREFIX uniprotCore: &lt;http://purl.uniprot.org/core/>
+PREFIX taxon: &lt;http://purl.uniprot.org/taxonomy/>
+
+SELECT ?group ?comment COUNT(?member) AS ?count
+WHERE {
+  ?tax rdfs:subClassOf+ taxon:562 .
+  ?organism orth:taxon ?tax .
+  ?member mbgd:organism ?organism .
+  ?group orth:member ?member ;
+    mbgd:description ?comment ;
+    a orth:OrthologGroup .
+} ORDER BY DESC (?count) limit 10
+&lt;/pre>
+
+===Taxonomic information===
+スタンザファイル名：lineage_information
+
+上位層
+&lt;pre>
+PREFIX taxo: &lt;http://ddbj.nig.ac.jp/ontologies/taxonomy#>
+PREFIX taxid: &lt;http://identifiers.org/taxonomy/>
+
+SELECT
+ REPLACE(STR(?tax), "http://identifiers.org/taxonomy/", "") AS ?tax_no
+ ?tax AS ?tax_link
+ ?tax_label
+ REPLACE(STR(?rank), "http://ddbj.nig.ac.jp/ontologies/taxonomy#", "") AS ?rank
+FROM &lt;http://togogenome.org/graph/taxonomy/>
+WHERE
+{
+  ?search_tax rdfs:label ?o FILTER (?search_tax = taxid:1148 ) .
+  ?search_tax rdfs:subClassOf ?tax OPTION (transitive, t_direction 1, t_min(0), t_step("step_no") as ?step) .
+  ?tax rdfs:label ?tax_label .
+  OPTIONAL { ?tax taxo:rank ?rank . }
+  FILTER(?tax != taxid:1)
+} ORDER BY DESC(?step)
+&lt;/pre>
+
+下位層
+&lt;pre>
+PREFIX taxo: &lt;http://ddbj.nig.ac.jp/ontologies/taxonomy#>
+PREFIX taxid: &lt;http://identifiers.org/taxonomy/>
+
+SELECT
+ REPLACE(STR(?tax) ,"http://identifiers.org/taxonomy/" ,"" ) AS ?tax_no
+ ?tax AS ?tax_link
+ ?tax_label
+ REPLACE(STR(?rank) ,"http://ddbj.nig.ac.jp/ontologies/taxonomy#" ,"" ) AS ?rank
+FROM &lt;http://togogenome.org/graph/taxonomy/>
+WHERE
+{
+  ?search_tax rdfs:label ?label FILTER (?search_tax = taxid:1148 ) .
+  ?tax rdfs:subClassOf ?search_tax .
+  ?tax rdfs:label ?tax_label .
+  OPTIONAL { ?tax taxo:rank ?rank . }
+}
+&lt;/pre>
+
+===Culture collections===
+スタンザファイル名：organism_culture_collections
+&lt;pre>
+PREFIX mccv: &lt;http://purl.jp/bio/01/mccv#>
+PREFIX taxid: &lt;http://identifiers.org/taxonomy/>
+
+SELECT ?strain_id ?strain_number ?strain_name AS ?organism_name
+  ?isolation (sql:GROUP_DIGEST(?env, '||', 1000, 1)) AS ?env_links
+  ?type_strain_label ?application
+  (sql:GROUP_DIGEST(?other_link, ', ', 1000, 1)) AS ?other_collections
+FROM &lt;http://togogenome.org/graph/taxonomy/>
+FROM &lt;http://togogenome.org/graph/brc/>
+FROM &lt;http://togogenome.org/graph/meo/>
+WHERE
+{
+  { SELECT DISTINCT ?strain_id
+    {
+      VALUES ?related_type  { mccv:MCCV_000056 mccv:MCCV_000022 mccv:MCCV_000057 }
+      ?strain_id ?related_type  taxid:43687 .
+    }
+  }
+  OPTIONAL { ?strain_id mccv:MCCV_000010 ?strain_number . }
+  OPTIONAL { ?strain_id mccv:MCCV_000012 ?strain_name . }
+  OPTIONAL { ?strain_id mccv:MCCV_000030 ?isolation . }
+  OPTIONAL
+  {
+    ?strain_id mccv:MCCV_000059|mccv:MCCV_000060 ?meo_id .
+    ?meo_id rdfs:label ?meo_label .
+    BIND (CONCAT(REPLACE(STR(?meo_id),"http://purl.jp/bio/11/meo/",""), ":", ?meo_label) AS ?env )
+  }
+  OPTIONAL { ?strain_id mccv:MCCV_000017 ?type_strain . BIND (IF(?type_strain = 1, "Yes","No") AS ?type_strain_label)}
+  OPTIONAL { ?strain_id mccv:MCCV_000033 ?application . }
+  OPTIONAL { ?strain_id mccv:MCCV_000024/mccv:MCCV_000026 ?other_link . }
+} GROUP BY ?strain_id ?strain_number ?strain_name ?type_strain_label ?isolation ?application
+&lt;/pre>
+
+===Medium===
+スタンザファイル名：organism_medium_information
+taxid「1351」のMedium情報&lt;br>
+培地の基本情報を取得
+&lt;pre>
+DEFINE sql:select-option "order"
+PREFIX mccv: &lt;http://purl.jp/bio/01/mccv#>
+PREFIX gmo: &lt;http://purl.jp/bio/11/gmo#>
+PREFIX taxid: &lt;http://identifiers.org/taxonomy/>
+
+SELECT DISTINCT ?medium_id ?medium_type_label ?medium_name 
+FROM &lt;http://togogenome.org/graph/brc/>
+FROM &lt;http://togogenome.org/graph/gmo/>
+WHERE
+{
+  VALUES ?classification { gmo:GMO_000015 gmo:GMO_000016 gmo:GMO_000008 gmo:GMO_000009 }
+  { SELECT DISTINCT ?medium
+    {
+      ?strain_id mccv:MCCV_000056 taxid:1351 .
+      ?strain_id mccv:MCCV_000018 ?medium . 
+    }
+  }
+  ?medium gmo:GMO_000101 ?medium_id .
+  ?medium gmo:GMO_000111 ?medium_type .
+  ?medium_type rdfs:label ?medium_type_label_general .
+  OPTIONAL { ?medium_type rdfs:label ?medium_type_label_en FILTER (lang(?medium_type_label_en) = "en") }
+  BIND (COALESCE(?medium_type_label_en, ?medium_type_label_general) AS ?medium_type_label)
+  GRAPH &lt;http://togogenome.org/graph/brc/> { OPTIONAL { ?medium gmo:GMO_000102 ?medium_name } } . 
+}
+&lt;/pre>
+
+====medium classification====
+&lt;pre>
+DEFINE sql:select-option "order"
+PREFIX mccv: &lt;http://purl.jp/bio/01/mccv#>
+PREFIX gmo: &lt;http://purl.jp/bio/11/gmo#>
+PREFIX taxid: &lt;http://identifiers.org/taxonomy/>
+
+SELECT ?medium_id ?classification STR(?class_label) AS ?class_label
+  (sql:GROUP_DIGEST(?ingredient_label , ',  ', 1000, 1)) AS ?ingredients
+FROM &lt;http://togogenome.org/graph/brc/>
+FROM &lt;http://togogenome.org/graph/gmo/>
+WHERE
+{
+  VALUES ?classification { gmo:GMO_000015 gmo:GMO_000016 gmo:GMO_000008 gmo:GMO_000009 }
+  { SELECT DISTINCT ?medium
+    {
+      ?strain_id mccv:MCCV_000056 taxid:1351 .
+      ?strain_id mccv:MCCV_000018 ?medium .
+    }
+  }
+  ?medium gmo:GMO_000101 ?medium_id .
+  ?medium gmo:GMO_000104 ?ingredient .
+  ?ingredient rdfs:subClassOf* ?classification .
+  ?ingredient rdfs:label ?ingredient_label FILTER (lang(?ingredient_label) = "en") .
+  ?classification rdfs:label ?class_label .
+} GROUP BY ?medium_id ?classification ?class_label
+&lt;/pre>
+
+===Phenotype information===
+スタンザファイル名：organism_phyenotype
+旧スタンザファイル名：phenotype_information
+&lt;pre>
+PREFIX rdfs: &lt;http://www.w3.org/2000/01/rdf-schema#>
+PREFIX up: &lt;http://purl.uniprot.org/core/>
+PREFIX idtax: &lt;http://purl.uniprot.org/taxonomy/>
+
+SELECT ?mpo ?phenotype (GROUP_CONCAT(?value; SEPARATOR = ", ") AS ?value)
+FROM &lt;http://togogenome.org/graph/mpo/>
+FROM &lt;http://togogenome.org/graph/gold/>
+WHERE
+{
+  idtax:383372 ?mpo ?o .
+  ?mpo rdfs:label ?phenotype .
+  FILTER (lang(?phenotype) = "en") .
+  OPTIONAL
+  {
+    ?o rdfs:label ?o2 .
+    FILTER (lang(?o2) = "en") .
+  }
+  BIND( IF(bound(?o2) ,?o2 , ?o) as ?value )
+} GROUP BY ?mpo ?phenotype ORDER BY ?mpo
+&lt;/pre>
+
+===Organism habitat===
+スタンザファイル名:organism_habitat
+&lt;pre>
+DEFINE sql:select-option "order"
+PREFIX idorg:  &lt;http://rdf.identifiers.org/database/>
+PREFIX mccv: &lt;http://purl.jp/bio/01/mccv#>
+PREFIX meo: &lt;http://purl.jp/bio/11/meo/>
+PREFIX taxid: &lt;http://identifiers.org/taxonomy/>
+
+SELECT DISTINCT ?linage_meo_id ?label ?parent_meo_id ?is_sampled_meo
+FROM &lt;http://togogenome.org/graph/refseq/>
+FROM &lt;http://togogenome.org/graph/gold/>
+FROM &lt;http://togogenome.org/graph/meo/>
+WHERE
+{
+  {
+    SELECT DISTINCT ?meo_id
+    WHERE
+    {
+      VALUES ?p_env { meo:MEO_0000437 meo:MEO_0000440 }
+      ?seq rdfs:seeAlso ?tax_id FILTER (?tax_id = taxid:103690) .
+      ?tax_id a &lt;http://identifiers.org/taxonomy/> .
+      ?gold_id mccv:MCCV_000020 ?tax_id .
+      ?gold_id ?p_env ?meo_id .
+    }
+  }
+  GRAPH &lt;http://togogenome.org/graph/meo/>
+  {
+    ?meo_id rdfs:subClassOf* ?linage_meo_id .
+    OPTIONAL { ?linage_meo_id rdfs:label ?label . }
+    OPTIONAL { ?linage_meo_id rdfs:subClassOf ?parent_meo_id .}
+    BIND ( IF(?meo_id = ?linage_meo_id, "TRUE","FALSE") AS ?is_sampled_meo) .
+  }
+}
+&lt;/pre>
+
+===Genomic plot===
+スタンザファイル名：genome_plot
+旧スタンザファイル名：taxonomy_plot&lt;br>
+&lt;br>
+genomeサイズ + Organism Name + Phenotype
+&lt;pre>
+DEFINE sql:select-option "order"
+PREFIX owl: &lt;http://www.w3.org/2002/07/owl#>
+PREFIX mccv: &lt;http://purl.jp/bio/01/mccv#>
+PREFIX mpo:&lt;http://purl.jp/bio/01/mpo#>
+PREFIX obo: &lt;http://purl.obolibrary.org/obo/>
+PREFIX insdc: &lt;http://ddbj.nig.ac.jp/ontologies/sequence#>
+PREFIX taxo: &lt;http://ddbj.nig.ac.jp/ontologies/taxonomy#>
+
+SELECT
+  ?tax ?organism_name ?bioProject ?genome_length
+  (sql:GROUP_DIGEST (?cell_shape_label, ', ', 1000, 1)) AS ?cell_shape_label
+  (sql:GROUP_DIGEST (?temp_range_label, ', ', 1000, 1)) AS ?temp_range_label
+  (sql:GROUP_DIGEST (?oxy_req_label, ', ', 1000, 1)) AS ?oxy_req_label
+  ?opt_temp ?min_temp ?max_temp ?opt_ph ?min_ph ?max_ph
+FROM &lt;http://togogenome.org/graph/refseq/>
+FROM &lt;http://togogenome.org/graph/mpo/>
+FROM &lt;http://togogenome.org/graph/gold/>
+FROM &lt;http://togogenome.org/graph/taxonomy/>
+{
+  {
+    SELECT ?tax ?bioProject SUM(?seq_len) AS ?genome_length
+    {
+      ?tax rdf:type &lt;http://identifiers.org/taxonomy/> .
+      ?seq rdfs:seeAlso ?tax ;
+      rdf:type ?obo_type FILTER(?obo_type IN (obo:SO_0000340, obo:SO_0000155 )) .
+      ?seq insdc:sequence_length ?seq_len ;
+        rdfs:seeAlso ?bioProject .
+      ?bioProject rdf:type &lt;http://identifiers.org/bioproject/> .
+    } GROUP BY ?tax ?bioProject
+  }
+  OPTIONAL { ?tax mpo:MPO_10001/rdfs:label ?cell_shape_label  FILTER (lang(?cell_shape_label) = "en") . }
+  OPTIONAL { ?tax mpo:MPO_10003/rdfs:label ?temp_range_label  FILTER (lang(?temp_range_label) = "en") . }
+  OPTIONAL { ?tax mpo:MPO_10002/rdfs:label ?oxy_req_label FILTER (lang(?oxy_req_label) = "en") . }
+  OPTIONAL { ?tax mpo:MPO_10009 ?opt_temp . }
+  OPTIONAL { ?tax mpo:MPO_10010 ?min_temp . }
+  OPTIONAL { ?tax mpo:MPO_10011 ?max_temp . }
+  OPTIONAL { ?tax mpo:MPO_10005 ?opt_ph . }
+  OPTIONAL { ?tax mpo:MPO_10006 ?min_ph . }
+  OPTIONAL { ?tax mpo:MPO_10007 ?max_ph . }
+  ?tax taxo:scientificName ?organism_name
+} GROUP BY ?tax ?organism_name ?genome_length ?bioProject  ?opt_temp ?min_temp ?max_temp ?opt_ph ?min_ph ?max_ph
+&lt;/pre>
+環境名(第一階層のみを取得)
+&lt;pre>
+PREFIX owl: &lt;http://www.w3.org/2002/07/owl#>
+PREFIX meo: &lt;http://purl.jp/bio/11/meo/>
+PREFIX mccv: &lt;http://purl.jp/bio/01/mccv#>
+
+SELECT ?tax (sql:GROUP_DIGEST (?label, ', ', 1000, 1)) as ?habitat
+FROM &lt;http://togogenome.org/graph/gold/>
+FROM &lt;http://togogenome.org/graph/meo/>
+WHERE
+{
+  VALUES ?p_env { meo:MEO_0000437 meo:MEO_0000440 }
+  ?gold mccv:MCCV_000020 ?tax FILTER regex(?tax, "^http://identifiers.org/") .
+  ?gold ?p_env ?meo .
+  ?meo a owl:Class ;
+    rdfs:subClassOf* ?parent .
+    ?parent rdfs:label ?label .
+  ?parent meo:MEO_0000442 "1" .
+} GROUP BY ?tax
+&lt;/pre>
+Gene,rRNA,tRNA数の取得&lt;br>
+&lt;pre>
+DEFINE sql:select-option "order"
+PREFIX togo: &lt;http://togogenome.org/stats/>
+
+SELECT ?tax ?bioproject ?num_gene ?num_rrna ?num_trna
+FROM &lt;http://togogenome.org/graph/stats/>
+FROM &lt;http://togogenome.org/graph/refseq/>
+WHERE
+{
+ ?bioproject a &lt;http://identifiers.org/bioproject/> .
+ ?tax rdfs:seeAlso ?bioproject .
+ ?tax a &lt;http://identifiers.org/taxonomy/> .
+ ?bioproject togo:gene ?num_gene .
+ ?bioproject togo:rrna ?num_rrna .
+ ?bioproject togo:trna ?num_trna.
+}
+&lt;/pre>
+
+===Pathogen information===
+スタンザファイル名：organism_pathogen_information
+
+&lt;pre>
+PREFIX pdo: &lt;http://purl.jp/bio/11/pdo/>
+PREFIX taxid: &lt;http://identifiers.org/taxonomy/>
+
+SELECT REPLACE(STR(?tax_id),"http://identifiers.org/taxonomy/","") AS ?tax_no
+ ?bacterialName (GROUP_CONCAT(?diseaseName; SEPARATOR = ", ") AS ?diseaseNameSet) ?infectiousType ?strainType
+FROM &lt;http://togogenome.org/graph/pdo/>
+FROM &lt;http://togogenome.org/graph/pdo_mapping/>
+FROM &lt;http://togogenome.org/graph/taxonomy/>
+WHERE
+{
+  { ?tax_id rdfs:subClassOf+ taxid:1763 }
+  UNION
+  { ?tax_id rdfs:label ?o FILTER (?tax_id = taxid:1763) }
+  ?tax_id rdfs:label ?bacterialName ;
+    pdo:isAssociatedTo ?blank .
+  ?blank ?p ?disease FILTER (?p IN(pdo:mayCaused, pdo:isRelatedTo)).
+  ?disease rdfs:label ?diseaseName .
+  OPTIONAL { ?tax_id pdo:isAssociatedTo/pdo:infectiousType ?infectiousType . }
+  OPTIONAL { ?tax_id pdo:isAssociatedTo/pdo:strainType ?strainType . }
+}
+&lt;/pre>
+
+===Organism cross references===
+スタンザファイル名：organism_cross_references
+&lt;pre>
+PREFIX mccv: &lt;http://purl.jp/bio/01/mccv#>
+PREFIX obo: &lt;http://purl.obolibrary.org/obo/>
+PREFIX insdc: &lt;http://insdc.org/owl/>
+PREFIX idtax: &lt;http://identifiers.org/taxonomy/>
+
+SELECT ?label ?link
+FROM &lt;http://togogenome.org/graph/gold/>
+FROM &lt;http://togogenome.org/graph/refseq/>
+WHERE
+{
+  {
+    SELECT REPLACE(str(?gold),"http://www.genomesonline.org/cgi-bin/GOLD/GOLDCards.cgi\\?goldstamp=", "GOLD:" ) as ?label ?gold as ?link
+    FROM &lt;http://togogenome.org/gold/>
+    WHERE
+    {
+      ?gold mccv:MCCV_000020 idtax:1148 .
+    }
+  }
+  UNION
+  {
+    SELECT DISTINCT ?label ?xref as ?link
+    FROM &lt;http://togogenome.org/graph/refseq/>
+    WHERE
+    {
+      values ?tax_id { idtax:1148 }
+      values ?so { obo:SO_0000340 obo:SO_0000155 }
+      ?seq rdfs:seeAlso ?tax_id .
+      ?seq a ?so .
+      ?seq rdfs:seeAlso ?xref .
+      ?xref rdfs:label ?label .
+    } ORDER BY ?label
+  }
+}
+&lt;/pre>
+
+===Genome cross references===
+スタンザファイル名：genome_cross_references
+&lt;pre>
+DEFINE sql:select-option "order"
+PREFIX obo: &lt;http://purl.obolibrary.org/obo/>
+PREFIX rdfs: &lt;http://www.w3.org/2000/01/rdf-schema#>
+PREFIX insdc: &lt;http://ddbj.nig.ac.jp/ontologies/sequence#>
+PREFIX idorg: &lt;http://rdf.identifiers.org/database/>
+PREFIX idtax: &lt;http://identifiers.org/taxonomy/>
+
+SELECT ?bp ?rs ?desc ?label ?xref
+FROM &lt;http://togogenome.org/graph/refseq/>
+WHERE
+{
+  VALUES ?tax_id { idtax:1148 }
+  VALUES ?so { obo:SO_0000340 obo:SO_0000155 }
+  ?seq rdfs:seeAlso ?tax_id .
+  ?seq a ?so .
+  ?seq rdfs:label ?desc .
+  ?seq insdc:sequence_version ?rs .
+  ?seq rdfs:seeAlso ?xref .
+  ?xref rdfs:label ?label .
+  ?seq rdfs:seeAlso ?xref_bp .
+  ?xref_bp a &lt;http://identifiers.org/bioproject/> .
+  ?xref_bp rdfs:label ?bp .
+}
+&lt;/pre>
+
+== Environment Report ==
+
+===Environment attributes===
+スタンザファイル名：environment_attributes
+&lt;pre>
+DEFINE sql:select-option "order"
+PREFIX meo: &lt;http://purl.jp/bio/11/meo/>
+
+SELECT
+ REPLACE(STR(?meo_id),"http://purl.jp/bio/11/meo/","") AS ?meo_no ?meo_label ?meo_definition AS ?meo_description
+ (sql:GROUP_DIGEST(?exact_synonym, ', ', 1000, 1)) AS ?exact_synonyms
+FROM &lt;http://togogenome.org/graph/meo/>
+WHERE
+{
+  meo:MEO_0000029 rdfs:label ?meo_label .
+  ?meo_id rdfs:label ?meo_label .
+  OPTIONAL { ?meo_id meo:MEO_0000443 ?meo_definition . }
+  OPTIONAL { ?meo_id meo:MEO_0000776 ?exact_synonym . }
+} GROUP BY ?meo_id ?meo_label ?meo_definition
+&lt;/pre>
+
+===Inhabitants statistics===
+スタンザファイル名：environment_inhabitants_statistics
+&lt;pre>
+DEFINE sql:select-option "order"
+PREFIX mccv: &lt;http://purl.jp/bio/01/mccv#>
+PREFIX meo: &lt;http://purl.jp/bio/11/meo/>
+
+SELECT ?type ?cnt
+FROM &lt;http://togogenome.org/graph/gold/>
+FROM &lt;http://togogenome.org/graph/meo/>
+FROM &lt;http://togogenome.org/graph/brc/>
+WHERE
+{
+  {
+    SELECT ?type COUNT(DISTINCT ?gold) AS ?cnt
+    {
+      VALUES ?meo_mapping { meo:MEO_0000437 meo:MEO_0000440 }
+      ?gold_meo_id rdfs:subClassOf* meo:MEO_0000004 .
+      ?gold ?meo_mapping ?gold_meo_id .
+      BIND ("GOLD" AS ?type ). 
+    }
+  }
+  UNION
+  {
+    SELECT ?type COUNT(DISTINCT ?strain) AS ?cnt
+    {
+      VALUES ?meo_strain_mapping { mccv:MCCV_000059 mccv:MCCV_000060 }
+      ?strain_meo_id rdfs:subClassOf* meo:MEO_0000004 .
+      ?strain ?meo_strain_mapping ?strain_meo_id . 
+      BIND (IF(STRSTARTS(STR(?strain), "http://www.nbrc.nite.go.jp/"), "NBRC",IF(STRSTARTS(STR(?strain), "http://www.jcm.riken.go.jp/"),"JCM","")) AS ?type) .
+    } GROUP BY ?type
+  }
+}
+&lt;/pre>
+
+===Inhabitants===
+スタンザファイル名：environment_inhabitants
+GOLD samples
+&lt;pre>
+DEFINE sql:select-option "order"
+
+PREFIX mccv: &lt;http://purl.jp/bio/01/mccv#>
+PREFIX meo: &lt;http://purl.jp/bio/11/meo/>
+PREFIX taxo: &lt;http://ddbj.nig.ac.jp/ontologies/taxonomy#>
+
+SELECT 
+ ?gold AS ?source_link 
+ REPLACE(STR(?gold) ,"http://www.genomesonline.org/cgi-bin/GOLD/GOLDCards.cgi\\?goldstamp=" ,"" ) AS ?source_id
+ ?organism_name REPLACE(STR(?tax_id) ,"http://identifiers.org/taxonomy/" ,"" ) AS ?tax_no "" AS ?isolation
+ (sql:GROUP_DIGEST(?env, '||', 1000, 1)) AS ?env_links
+FROM &lt;http://togogenome.org/graph/gold/>
+FROM &lt;http://togogenome.org/graph/meo/>
+FROM &lt;http://togogenome.org/graph/taxonomy/>
+{
+  VALUES ?meo_mapping { meo:MEO_0000437 meo:MEO_0000440 }
+  ?meo_id rdfs:subClassOf* meo:MEO_0000004 .
+  ?gold ?meo_mapping ?meo_id .
+  ?meo_id rdfs:label ?meo_label .
+  BIND (CONCAT(REPLACE(STR(?meo_id),"http://purl.jp/bio/11/meo/",""), ?meo_label) AS ?env ) 
+  OPTIONAL 
+  {
+    ?gold mccv:MCCV_000020 ?tax_id . 
+    ?tax_id taxo:scientificName ?organism_name
+  }
+} GROUP BY ?gold ?tax_id ?organism_name
+&lt;/pre>
+Culture collections
+&lt;pre>
+PREFIX mccv: &lt;http://purl.jp/bio/01/mccv#>
+PREFIX meo: &lt;http://purl.jp/bio/11/meo/>
+
+SELECT ?strain_id AS ?source_link ?strain_number AS ?source_id ?strain_name AS ?organism_name
+  (sql:GROUP_DIGEST(?tax_no, ', ', 1000, 1)) AS ?tax_no
+  ?isolation (sql:GROUP_DIGEST(?env, '||', 1000, 1)) AS ?env_links
+FROM &lt;http://togogenome.org/graph/taxonomy/>
+FROM &lt;http://togogenome.org/graph/brc/>
+FROM &lt;http://togogenome.org/graph/meo/>
+WHERE
+{
+  VALUES ?related_type { mccv:MCCV_000056 mccv:MCCV_000022 mccv:MCCV_000057 }
+  { SELECT DISTINCT ?strain_id
+    {
+      VALUES ?meo_mapping { mccv:MCCV_000059 mccv:MCCV_000060 }
+      ?meo_id rdfs:subClassOf* meo:MEO_0000029 .
+      ?strain_id ?meo_mapping ?meo_id .
+      ?strain_id rdf:type mccv:MCCV_000001 .
+    }
+  }
+  OPTIONAL { ?strain_id mccv:MCCV_000010 ?strain_number . }
+  OPTIONAL { ?strain_id mccv:MCCV_000012 ?strain_name . }
+  OPTIONAL { ?strain_id mccv:MCCV_000030 ?isolation . }
+  OPTIONAL
+  {
+    ?strain_id mccv:MCCV_000059|mccv:MCCV_000060 ?meo_id .
+    ?meo_id rdfs:label ?meo_label .
+    BIND (CONCAT(REPLACE(STR(?meo_id),"http://purl.jp/bio/11/meo/",""), ?meo_label) AS ?env )
+  }
+  OPTIONAL
+  {
+    ?strain_id ?related_type ?tax_id FILTER (STRSTARTS(STR(?tax_id),"http://identifiers.org/")) .
+    BIND (REPLACE(STR(?tax_id),"http://identifiers.org/taxonomy/","") AS ?tax_no) .
+  }
+} GROUP BY ?strain_id ?strain_number ?strain_name ?isolation ORDER BY DESC (?source_id)
+&lt;/pre>
+
+===Sampling places===
+スタンザファイル名：environment_geographical_map
+&lt;pre>
+PREFIX meo: &lt;http://purl.jp/bio/11/meo/>
+PREFIX msv: &lt;http://purl.jp/bio/11/msv/>
+
+SELECT
+  ?gold REPLACE(STR(?gold),"http://www.genomesonline.org/cgi-bin/GOLD/GOLDCards.cgi\\?goldstamp=","") AS ?gold_id
+  ?gaz AS ?gaz_id ?place_name ?latitude ?longitude
+FROM &lt;http://togogenome.org/graph/gold/>
+FROM &lt;http://togogenome.org/graph/meo/>
+FROM &lt;http://togogenome.org/graph/gazetteer/>
+{
+  ?meo_id rdfs:subClassOf* meo:MEO_0000029 .
+  ?gold meo:MEO_0000437 ?meo_id .
+  ?gold meo:MEO_0000438 ?gaz .
+  ?gaz rdfs:label ?place_name .
+  ?gaz msv:latitude ?latitude .
+  ?gaz msv:longitude ?longitude .
+}
+&lt;/pre>
+
+===Taxonomic composition===
+スタンザファイル名：environment_taxonomic_composition
+&lt;pre>
+DEFINE sql:select-option "order"
+PREFIX mccv: &lt;http://purl.jp/bio/01/mccv#>
+PREFIX meo: &lt;http://purl.jp/bio/11/meo/>
+PREFIX taxo: &lt;http://ddbj.nig.ac.jp/ontologies/taxonomy#>
+PREFIX taxid: &lt;http://identifiers.org/taxonomy/>
+
+SELECT ?tax ?organism_name AS ?tax_label ?parent ?rank
+FROM &lt;http://togogenome.org/graph/meo/>
+FROM &lt;http://togogenome.org/graph/gold/>
+FROM &lt;http://togogenome.org/graph/taxonomy/>
+WHERE
+{
+  {
+    SELECT ?tax
+    {
+      VALUES ?meo_mapping { meo:MEO_0000437 meo:MEO_0000440 }
+      ?meo_id rdfs:subClassOf* meo:MEO_0000004 .
+      ?gold ?meo_mapping ?meo_id .
+      ?gold mccv:MCCV_000020 ?hit_tax FILTER (STRSTARTS(STR(?hit_tax), "http://identifiers.org/taxonomy" )) .
+      ?hit_tax rdfs:subClassOf* ?tax .
+    } GROUP BY ?tax
+  }
+  ?tax taxo:scientificName ?organism_name .
+  OPTIONAL { ?tax rdfs:subClassOf ?parent . }
+  OPTIONAL { ?tax taxo:rank ?rank . }
+}
+&lt;/pre>
+
+===Environment ontology===
+スタンザファイル名：environment_environmental_ontology
+&lt;pre>
+PREFIX meo: &lt;http://purl.jp/bio/11/meo/>
+
+SELECT ?meo_id ?label ?definition ?parent
+FROM &lt;http://togogenome.org/graph/meo/>
+WHERE
+{
+  ?meo_id a owl:Class .
+  OPTIONAL { ?meo_id rdfs:label ?label . }
+  OPTIONAL { ?meo_id meo:MEO_0000443 ?definition . }
+  OPTIONAL { ?meo_id rdfs:subClassOf ?parent . }
+}
+&lt;/pre>
+
+==共通クエリ==
+===uniprot_id_from_togogenome(gene_id)===
+RefSeqのTaxonomy+LocusTagからUniProtIDを返すクエリ。
+&lt;pre>
+SELECT ?upid
+FROM &lt;http://togogenome.org/graph/tgup/>
+WHERE
+{
+ &lt;http://togogenome.org/gene/103690:alr3431> ?p ?upid .
+ ?upid a &lt;http://identifiers.org/uniprot/> .
+}
+&lt;/pre>
+
+==計算用クエリ==
+===Genomic plot用集計結果===
+Genomic plot, Pfam plotで表示する、各ゲノムのgene, trna, rrna数の集計クエリは遅いため、予め集計した数値をトリプルとして持って置く
+====Taxonomy,BioProjectリスト取得====
+Taxonomy及びBioProjectのリストを取得。ひとつのTaonomyに複数のBioProjectが紐づいているケースもあるため、2つをグルーピングのキーにする。
+&lt;pre>
+PREFIX obo: &lt;http://purl.obolibrary.org/obo/>
+PREFIX idorg:&lt;http://rdf.identifiers.org/database/>
+
+SELECT DISTINCT ?tax ?bioProject
+FROM &lt;http://togogenome.org/graph/refseq/>
+WHERE
+{
+  ?tax rdf:type idorg:Taxonomy .
+  ?seq rdfs:seeAlso ?tax ;
+    rdf:type ?obo_type FILTER(?obo_type IN (obo:SO_0000340, obo:SO_0000155 )).
+  ?seq rdfs:seeAlso ?bioProject.
+  ?bioProject rdf:type idorg:BioProject .
+}
+&lt;/pre>
+
+====Gene数集計取得====
+taxonomy"1148", bioproject"57659"の集計結果を出力するクエリ
+&lt;pre>
+DEFINE sql:select-option "order"
+PREFIX obo: &lt;http://purl.obolibrary.org/obo/>
+PREFIX idorg: &lt;http://rdf.identifiers.org/database/>
+PREFIX togo: &lt;http://togogenome.org/stats/>
+
+CONSTRUCT
+{
+  ?tax togo:genome_stats 
+  [
+    rdfs:seeAlso ?bioProject ;
+    togo:gene_number ?num_gene ;
+    togo:rrna_number ?num_rrna ;
+    togo:trna_number ?num_trna ;
+  ]. 
+}
+FROM &lt;http://togogenome.org/graph/refseq/>
+WHERE
+{
+  SELECT ?tax ?bioProject COUNT(?gene) as ?num_gene COUNT(?rrna) AS ?num_rrna COUNT(?trna) AS ?num_trna
+  FROM &lt;http://togogenome.org/graph/refseq/>
+  WHERE
+  {
+    ?seq rdfs:seeAlso ?tax FILTER (?tax = &lt;http://identifiers.org/taxonomy/1148>) .
+    ?seq rdf:type ?obo_type FILTER (?obo_type IN (obo:SO_0000340, obo:SO_0000155 )).
+    ?seq rdfs:seeAlso ?bioProject FILTER (?bioProject = &lt;http://identifiers.org/bioproject/57659>).
+    { ?gene obo:so_part_of ?seq ; rdf:type obo:SO_0000704 . }
+    UNION
+    { ?rrna obo:so_part_of ?seq ; rdf:type obo:SO_0000252 . }
+    UNION
+    { ?trna obo:so_part_of ?seq ; rdf:type obo:SO_0000253 .  }
+  }
+}
+&lt;/pre>
+
+====一括でGene数集計取得====
+*virtuoso.iniの設定変更
+生成するttlが10000行を超えると結果が途中で切れてしまうため、virtuoso.iniで以下の値を設定する。現在(RefSeq v60)では13000件程度の結果。
+&lt;pre>
+ResultSetMaxRows                = 20000
+&lt;/pre>
+&lt;br>
+*CONSTRUCT文の作成
+genome_gene_number_stats.rq
+&lt;pre>
+SPARQL
+DEFINE output:format "NT"
+DEFINE sql:select-option "order"
+PREFIX obo: &lt;http://purl.obolibrary.org/obo/>
+PREFIX idorg: &lt;http://rdf.identifiers.org/database/>
+PREFIX togo: &lt;http://togogenome.org/stats/>
+
+CONSTRUCT
+{
+  ?tax togo:genome_stats 
+  [
+    rdfs:seeAlso ?bioProject ;
+    togo:gene_number ?num_gene ;
+    togo:rrna_number ?num_rrna ;
+    togo:trna_number ?num_trna ;
+  ]. 
+}
+FROM &lt;http://togogenome.org/graph/refseq/>
+WHERE
+{
+ SELECT ?tax ?bioProject COUNT(?gene) as ?num_gene COUNT(?rrna) AS ?num_rrna COUNT(?trna) AS ?num_trna
+ FROM &lt;http://togogenome.org/graph/refseq/>
+ WHERE
+ {
+  ?tax rdf:type idorg:Taxonomy .
+  ?seq rdfs:seeAlso ?tax ;
+    rdf:type ?obo_type FILTER(?obo_type IN (obo:SO_0000340, obo:SO_0000155 )).
+  ?seq rdfs:seeAlso ?bioProject.
+  ?bioProject rdf:type idorg:BioProject .  
+  { ?gene obo:so_part_of ?seq ; rdf:type obo:SO_0000704 . }
+  UNION
+  { ?rrna obo:so_part_of ?seq ; rdf:type obo:SO_0000252 . }
+  UNION
+  { ?trna obo:so_part_of ?seq ; rdf:type obo:SO_0000253 .  }
+ } GROUP BY ?tax ?bioProject
+}
+;
+&lt;/pre>
+検索がタイムアウトしないようであれば、下のCONSTRUCT文をそのままエンドポイントに投げても良い。その場合は冒頭"SPARQL"と最後のセミコロンを削除する&lt;br>
+&lt;br>
+*isqlでクエリ実行&amp;ttl生成
+isqlで実行する(ポートとユーザ・パスワードは適宜読み替える)
+&lt;pre>
+$isql 1111 dba dba VERBOSE=OFF BANNER=OFF PROMPT=OFF ECHO=OFF BLOBS=ON ERRORS=stdout &lt; genome_gene_number_stats.rq > genome_gene_number_stats.ttl
+&lt;/pre>
+
+
+===Facet検索用リーズニンング===
+====GO2Uniprot====
+go:0044464(cell part)に紐づくUniprotIDをTTLを生成するCONSTRUCT文
+&lt;pre>
+DEFINE sql:select-option "order"
+PREFIX up: &lt;http://purl.uniprot.org/core/>
+
+CONSTRUCT
+{
+ &lt;http://purl.uniprot.org/go/0044464> up:classifiedWith ?uniprot_uri 
+}
+FROM &lt;http://togogenome.org/graph/uniprot/>
+FROM &lt;http://togogenome.org/graph/taxonomy/>
+FROM &lt;http://togogenome.org/graph/tgup/>
+WHERE
+{
+ {
+  SELECT DISTINCT ?uniprot_uri
+  WHERE
+  {
+   ?uniprot_go rdfs:subClassOf* &lt;http://purl.uniprot.org/go/0044464> .
+   ?uniprot_bp up:classifiedWith ?uniprot_go .
+   ?uniprot_bp up:recommendedName/up:fullName ?recommended_name . 
+   ?uniprot_uri rdfs:seeAlso ?uniprot_bp .
+  }
+ }
+}
+&lt;/pre>
+
+CONSTRUCT文を発行してファイルに出力するコマンド。&lt;br>
+設定ファイルのResultSetMaxRowsのトリプルしか出力されないので注意する。&lt;br>
+ResultSetMaxRowsを1,000,000→1,500,000 にあげるか、OFFSET LIMITを使用する(DISTINCTをつけないいけないか見直す)
+&lt;pre>
+isql 1111 dba dba VERBOSE=OFF BANNER=OFF PROMPT=OFF ECHO=OFF BLOBS=ON ERRORS=stdout &lt; create_ttl_go0044464_uniprot.rq > go0044464_uniprot.txt
+&lt;/pre>
+上記のCONSTRUCT文であれば（DEFINE output:format "NT"をつけていないため）、空白区切りで出力されるため、整形する。
+&lt;pre>
+perl -pe 's/(\S+)/&lt;$1>/g; s/$/ ./' go0044464_uniprot.txt > go0044464_uniprot.ttl
+&lt;/pre>
+
+データの読み込み
+&lt;pre>
+SQL> DB.DBA.TTLP_MT (file_to_string_output('/data/store/virtuoso7upd2/var/lib/virtuoso/db/go0044464_uniprot.ttl'), '', 'http://togogenome.org/graph/goup/');
+&lt;/pre>
+
+====MEO hierarchy====
+MEOのsubClassOfの関係をリーズニングするCONSTRUCT文を生成。出力フォーマットはNTを指定
+&lt;pre>
+SPARQL
+DEFINE output:format "NT"
+CONSTRUCT
+{
+ ?meo_id rdfs:subClassOf ?parent_meo_id
+}
+FROM &lt;http://togogenome.org/graph/meo/>
+WHERE
+{
+ ?meo_id a owl:Class .
+ ?meo_id rdfs:subClassOf+ ?parent_meo_id
+}
+;
+&lt;/pre>
+
+CONSTRUCT文を発行してファイルに出力するコマンド。
+&lt;pre>
+isql 1111 dba dba VERBOSE=OFF BANNER=OFF PROMPT=OFF ECHO=OFF BLOBS=ON ERRORS=stdout &lt; create_ttl_meo_parent.rq > meo_parent_meo.ttl
+&lt;/pre>
+データの読み込み
+&lt;pre>
+SQL > DB.DBA.TTLP_MT (file_to_string_output('/data/store/virtuoso7upd2/var/lib/virtuoso/db/meo_parent_meo.ttl'), '', 'http://togogenome.org/graph/meo_parent');
+&lt;/pre>
+
+====MPO hierarchy====
+MPOのsubClassOfの関係をリーズニングするCONSTRUCT文を生成。出力フォーマットはNTを指定
+&lt;pre>
+SPARQL
+DEFINE output:format "NT"
+CONSTRUCT
+{
+ ?mpo_id rdfs:subClassOf ?parent_mpo_id
+}
+FROM &lt;http://togogenome.org/graph/mpo/>
+WHERE
+{
+  ?mpo_id a owl:Class .
+ ?mpo_id rdfs:subClassOf+ ?parent_mpo_id
+}
+;
+&lt;/pre>
+CONSTRUCT文を発行してファイルに出力するコマンド。
+&lt;pre>
+$isql 20871 dba dba VERBOSE=OFF BANNER=OFF PROMPT=OFF ECHO=OFF BLOBS=ON ERRORS=stdout &lt; create_ttl_mpo_parent.rq > mpo_parent_mpo.ttl
+&lt;/pre>
+データの読み込み
+&lt;pre>
+SQL> DB.DBA.TTLP_MT (file_to_string_output('/data/store/virtuoso7upd2/var/lib/virtuoso/db/mpo_parent_mpo.ttl'), '', 'http://togogenome.org/graph/mpo_parent');
+&lt;/pre>
+
+==その他==
+===GGGenome用クエリ===
+&lt;pre>
+DEFINE sql:select-option "order"
+PREFIX insdc:  &lt;http://ddbj.nig.ac.jp/ontologies/sequence#>
+PREFIX faldo: &lt;http://biohackathon.org/resource/faldo#>
+PREFIX obo: &lt;http://purl.obolibrary.org/obo/>
+SELECT DISTINCT ?locus_tag ?product ?feature_position_beg ?feature_position_end ?sequence_ontology ?sequence_ontology_name ?bioproject ?taxonomy ?refseq ?position ?name ?position_end ?snippet ?snippet_pos ?snippet_end ?strand
+
+FROM &lt;http://togogenome.org/graph/so/>
+FROM &lt;http://togogenome.org/graph/refseq/>
+WHERE 
+{
+ {
+  SELECT DISTINCT ?feature_position_beg ?feature_position_end ?sequence_ontology ?sequence_ontology_name ?bioproject ?taxonomy ?refseq ?position ?name ?position_end ?snippet ?snippet_pos ?snippet_end ?strand ?f
+  WHERE
+  {
+   VALUES (?bioproject ?name ?position ?position_end ?refseq ?snippet ?snippet_end ?snippet_pos ?strand ?taxonomy) {
+    ( "PRJNA161947" "Escherichia coli BL21(DE3) chromosome, complete genome." 749900 749923 "NC_012971.2" "ACTGGAAAGCGGGCAGTGAGCGCAACGCAATTAATGTAAGTTAGCTCACTCATTAGGCACCCCAGGCTTTACACTTTATGCTTCCGGCTCGTATAATGTGTGGAATTGTGAGCGGATAACAATTTCACACAGGAAACAGCTATGACCATGATTACGGATTCACTGGCCGTCGTTTTACAACGTCGTGACTGGGAAAACCCTGGCGTTACCCAACTTAATCGCCT" "750023" "749800" "+" "469008" )
+    ( "PRJEA161949" "Escherichia coli BL21(DE3), complete genome." 749894 749917 "NC_012892.2" "ACTGGAAAGCGGGCAGTGAGCGCAACGCAATTAATGTAAGTTAGCTCACTCATTAGGCACCCCAGGCTTTACACTTTATGCTTCCGGCTCGTATAATGTGTGGAATTGTGAGCGGATAACAATTTCACACAGGAAACAGCTATGACCATGATTACGGATTCACTGGCCGTCGTTTTACAACGTCGTGACTGGGAAAACCCTGGCGTTACCCAACTTAATCGCCT" "750017" "749794" "+" "469008" )
+    ( "PRJNA161951" "Escherichia coli DH1 chromosome, complete genome." 3504609 3504632 "NC_017625.1" "ACTGGAAAGCGGGCAGTGAGCGCAACGCAATTAATGTGAGTTAGCTCACTCATTAGGCACCCCAGGCTTTACACTTTATGCTTCCGGCTCGTATGTTGTGTGGAATTGTGAGCGGATAACAATTTCACACAGGAAACAGCTATGACCATGATTACGGATTCACTGGCCGTCGTTTTACAACGTCGTGACTGGGAAAACCCTGGCGTTACCCAACTTAATCGCCT" "3504732" "3504509" "+" "536056" )
+    ( "PRJNA57779" "Escherichia coli str. K-12 substr. MG1655, complete genome." 365547 365570 "NC_000913.2" "AGGCGATTAAGTTGGGTAACGCCAGGGTTTTCCCAGTCACGACGTTGTAAAACGACGGCCAGTGAATCCGTAATCATGGTCATAGCTGTTTCCTGTGTGAAATTGTTATCCGCTCACAATTCCACACAACATACGAGCCGGAAGCATAAAGTGTAAAGCCTGGGGTGCCTAATGAGTGAGCTAACTCACATTAATTGCGTTGCGCTCACTGCCCGCTTTCCAGT" "365670" "365447" "-" "511145" )
+    ( "PRJNA57831" "Escherichia coli O157:H7 str. EDL933 chromosome, complete genome." 423101 423124 "NC_002655.2" "AGGCGATTAAGTTGGGTAACGCCAGGGTTTTCCCAGTCACGACGTTGTAAAACGACGGCCAGTGAATCTGTAATCATAGTCATAGCTGTATCCTGTGTGAAATTGTTATCCGCTCACAATTCCACACAACATACGAGCCGGAAGCATAAAGTGTAAAGCXTGGGGTGCCTAATGAGTGAGCTAACTCACATTAATTGCGTTGCGCTCACTGCCCGCTTTCCAGT" "423224" "423001" "-" "155864" )
+    ( "PRJNA58979" "Escherichia coli str. K-12 substr. DH10B chromosome, complete genome." 1384990 1385013 "NC_010473.1" "CATTCGCCATTCAGGCTGCGCAACTGTTGGGAAGGGCGATCGGTGCGGGCCACGACGGCCAGTGAATCCGTAATCATGGTCATAGCTGTTTCCTGTGTGAAATTGTTATCCGCTCACAATTCCACACAACATACGAGCCGGAAGCATAAAGTGTAAAGCCTGGGGTGCCTAATGAGTGAGCTAACTCACATTAATTGCGTTGCGCTCACTGCCCGCTTTCCAGT" "1385113" "1384890" "-" "316385" )
+    ( "PRJNA59245" "Escherichia coli 'BL21-Gold(DE3)pLysS AG' chromosome, complete genome." 3032462 3032485 "NC_012947.1" "AGGCGATTAAGTTGGGTAACGCCAGGGTTTTCCCAGTCACGACGTTGTAAAACGACGGCCAGTGAATCCGTAATCATGGTCATAGCTGTTTCCTGTGTGAAATTGTTATCCGCTCACAATTCCACACATTATACGAGCCGGAAGCATAAAGTGTAAAGCCTGGGGTGCCTAATGAGTGAGCTAACTTACATTAATTGCGTTGCGCTCACTGCCCGCTTTCCAGT" "3032585" "3032362" "-" "866768" )
+    ( "PRJNA59343" "Escherichia coli O127:H6 str. E2348/69 chromosome, complete genome." 340993 341016 "NC_011601.1" "AGGCGATTAAGTTGGGTAACGCCAGGGTTTTCCCAGTCACGACGTTGTAATACGACGGCCAGTGAATCCGTAATCATAGTCATAGCTGTATCCTGTGTGAAATTGTTATCCGCTCACAATTCCACACAACATACGAGCCGGACGCATAAAGTGTAAAGCCTGGGGTGCCTAATGAGTGAGCTGACTCACATTAATTGCGTTGCGCTCACTGCCCGCTTTCGAGT" "341116" "340893" "-" "574521" )
+    ( "PRJNA62981" "Escherichia coli UMN026 chromosome, complete genome." 424685 424708 "NC_011751.1" "AGGCGATTAAGTTGGGTAACGCCAGGGTTTTCCCAGTCACGACGTTGTAATACGACGGCCAGTGAATCCGTAATCATAGTCATAGCTGTATCCTGTGTGAAATTGTTATCCGCTCACAATTCCACACAACATACGAGCCGGACGCATAAAGTGTAAAGCCTGGGGTGCCTAATGAGTGAGCTGACTCACATTAATTGCGTTGCGCTCACTGCCCGCTGCCCGCTTTCCAGT" "365670" "365447" "-" "316407" )
+    ( "PRJDA162051" "Escherichia coli DH1, complete genome." 366747 366770 "NC_017638.1" "AGGCGATTAAGTTGGGTAACGCCAGGGTTTTCCCAGTCACGACGTTGTAAAACGACGGCCAGTGAATCCGTAATCATGGTCATAGCTGTTTCCTGTGTGAAATTGTTATCCGCTCACAATTCCACACAACATACGAGCCGGAAGCATAAAGTGTAAAGCCTGGGGTGCCTAATGAGTGAGCTAACTCACATTAATTGCGTTGCGCTCACTGCCCGCTTTCCAGT" "366870" "366647" "-" "536056" )
+    ( "PRJEA161985" "Escherichia coli 042, complete genome." 429183 429206 "NC_017626.1" "AGGCGATTAAGTTGGGTAACGCCAGGGTTTTCCCAGTCACGACGTTGTAATACGACGGCCAGTGAATCCGTAATCATAGTCATAGCTGTATCCTGTGTGAAATTGTTATCCGCTCACAATTCCACACAACATACGAGCCGGACGCATAAAGTGTAAAGCCTGGGGTGCCTAATGAGTGAGCTGACTCACATTAATTGCGTTGCGCTCACTGCCCGCTTTCGAGT" "429306" "429083" "-" "216592" )
+    ( "PRJNA193705" "Escherichia coli str. K-12 substr. MDS42 DNA, complete genome." 292512 292535 "NC_020518.1" "AGGCGATTAAGTTGGGTAACGCCAGGGTTTTCCCAGTCACGACGTTGTAAAACGACGGCCAGTGAATCCGTAATCATGGTCATAGCTGTTTCCTGTGTGAAATTGTTATCCGCTCACAATTCCACACAACATACGAGCCGGAAGCATAAAGTGTAAAGCCTGGGGTGCCTAATGAGTGAGCTAACTCACATTAATTGCGTTGCGCTCACTGCCCGCTTTCCAGT" "292635" "292412" "-" "1110693" )
+    ( "PRJNA62463" "Bacillus subtilis BSn5 chromosome, complete genome." 2247512 2247535 "NC_014976.1" "TAAATAGTGTATACAATACCCGTTTTAAGGGGAATCTCCAGAGGATCGCCGGGAACCGAGGACGAGTTCGTAATCATGGTCATAGCTGTTTCCTGTGTGAAATTGTTATCCGCTCACAATTCCACACAACATACGAGCCGGAAGCATAAAGTGTAAAGCCTGGGGTGCCTAATGAGTGAGCTAACTCACATTAATTGCGTTGCGCTCACTGCCCGCTTTCCAGT" "2247635" "2247412" "-" "936156" )
+   }
+   FILTER (?feature_position_beg &lt; ?position &amp;&amp; ?position &lt; ?feature_position_end &amp;&amp; ?feature_position_beg != 1)
+   ?sequence insdc:sequence_version ?refseq .
+   ?f obo:so_part_of+ ?sequence .
+   ?f faldo:location ?loc .
+   ?loc faldo:begin ?beg .
+   ?beg faldo:position ?feature_position_beg .
+   ?loc faldo:end ?end .
+   ?end faldo:position ?feature_position_end .
+   ?f a ?sequence_ontology .
+   ?sequence_ontology rdfs:label ?sequence_ontology_name .
+  }
+ }
+  OPTIONAL {?f insdc:locus_tag ?locus_tag . }
+  OPTIONAL {?f insdc:product ?product .}
+}
+&lt;/pre>
+
+===ErrorSparqlSamples===
+====Environment: hydrosphere, Taxonomy: Bacteria, BiologicalProcess: cell killing====
+&lt;pre>
+DEFINE sql:select-option "order"
+PREFIX mccv: &lt;http://purl.jp/bio/01/mccv#>
+PREFIX meo: &lt;http://purl.jp/bio/11/meo/>
+PREFIX mpo: &lt;http://purl.jp/bio/01/mpo#>
+PREFIX up: &lt;http://purl.uniprot.org/core/>
+PREFIX g: &lt;http://purl.uniprot.org/go/>
+
+SELECT DISTINCT ?uniprot_bp ?uniprot_uri ?recommended_name  ?taxonomy_uri ?taxonomy_name
+FROM &lt;http://togogenome.org/graph/uniprot/>
+FROM &lt;http://togogenome.org/graph/taxonomy/>
+FROM &lt;http://togogenome.org/graph/tgup/>
+FROM &lt;http://togogenome.org/graph/gold/>
+FROM &lt;http://togogenome.org/graph/meo/>
+WHERE
+{
+ {
+  SELECT DISTINCT ?uniprot_bp ?uniprot_uri ?recommended_name  ?taxonomy_uri ?taxonomy_name
+  WHERE
+  {
+   VALUES ?uniprot_go { g:0001788 g:0001897 g:0001906 g:0001907 g:0001909 g:0001913 g:0002419 g:0002420 g:0042267 g:0051801 g:0051883 g:0039633 g:0039634 g:0039640 g:0044179 g:0044659 g:0044696 g:0051715 g:0070942 g:0070943 g:0070944 g:0070945 g:0070946 g:0070947 g:0097278 g:0051838 g:0051873 g:0019836 g:0031640 g:0044660 g:0052331 }
+   GRAPH &lt;http://togogenome.org/graph/uniprot/>  { ?uniprot_bp up:classifiedWith ?uniprot_go . }
+    
+   OPTIONAL {?uniprot_bp up:recommendedName/up:fullName ?recommended_name . }
+   ?uniprot_uri rdfs:seeAlso ?uniprot_bp .
+   ?togogenome rdfs:seeAlso ?uniprot_uri .
+   ?togogenome rdfs:seeAlso ?taxonomy_uri .
+   ?taxonomy_uri rdfs:label ?taxonomy_name .
+   ?taxonomy_uri rdfs:subClassOf* ?parents .
+   ?parents ?p ?o 
+   FILTER (?parents = &lt;http://identifiers.org/taxonomy/2>) .
+  }
+ }
+ GRAPH &lt;http://togogenome.org/graph/gold/> 
+ {
+  ?gold_iri mccv:MCCV_000020 ?taxonomy_uri .
+  ?gold_iri ?p_meo ?meo_iri  FILTER (?p_meo IN(meo:MEO_0000437, meo:MEO_0000440)) .
+ }
+ GRAPH &lt;http://togogenome.org/graph/meo/>  
+ {
+  ?meo_iri rdfs:subClassOf* ?parents_meo .
+  ?parents_meo rdfs:label ?label 
+  FILTER (?parents_meo = meo:MEO_0000004).  
+ }
+}
+&lt;/pre>
+
+====Environment: hydrosphere, CellularComponent: cell part, Phenotype: Motility====
+&lt;pre>
+&lt;/pre>
+
+====BiologicalProcess: cell killing, MolecularFunction: binding, CellularComponent: cell part, Phenotype: Motility====
+&lt;pre>
+&lt;/pre></textarea><div class='templatesUsed'>
+
+</div>
+<p id="mw-returnto"><a href="/mw/BH12.12/TogoStanzaQuery/v201310" title="BH12.12/TogoStanzaQuery/v201310">BH12.12/TogoStanzaQuery/v201310</a>に戻る。</p>
+<div class="printfooter">
+「<a href="http://wiki.lifesciencedb.jp/mw/BH12.12/TogoStanzaQuery/v201310">http://wiki.lifesciencedb.jp/mw/BH12.12/TogoStanzaQuery/v201310</a>」より作成</div>
+		<div id='catlinks' class='catlinks catlinks-allhidden'></div>		<!-- end content -->
+				<div class="visualClear"></div>
+	</div>
+</div></div>
+<div id="column-one">
+	<div id="p-cactions" class="portlet">
+		<h5>表示</h5>
+		<div class="pBody">
+			<ul>
+				 <li id="ca-nstab-main" class="selected"><a href="/mw/BH12.12/TogoStanzaQuery/v201310" title="本文を表示 [c]" accesskey="c">ページ</a></li>
+				 <li id="ca-talk" class="new"><a href="/mw/index.php?title=%E3%83%8E%E3%83%BC%E3%83%88:BH12.12/TogoStanzaQuery/v201310&amp;action=edit&amp;redlink=1" title="記事についての議論 [t]" accesskey="t">議論</a></li>
+				 <li id="ca-viewsource" class="selected"><a href="/mw/index.php?title=BH12.12/TogoStanzaQuery/v201310&amp;action=edit" title="このページは保護されています。&#10;ページのソースを閲覧できます。 [e]" accesskey="e">ソースを表示</a></li>
+				 <li id="ca-history"><a href="/mw/index.php?title=BH12.12/TogoStanzaQuery/v201310&amp;action=history" title="このページの過去の版 [h]" accesskey="h">履歴</a></li>
+			</ul>
+		</div>
+	</div>
+	<div class="portlet" id="p-personal">
+		<h5>個人用ツール</h5>
+		<div class="pBody">
+			<ul>
+				<li id="pt-anonuserpage"><a href="/mw/%E5%88%A9%E7%94%A8%E8%80%85:172.18.8.51" title="自分が編集しているIPアドレスの利用者ページ [.]" accesskey="." class="new">172.18.8.51</a></li>
+				<li id="pt-anontalk"><a href="/mw/%E5%88%A9%E7%94%A8%E8%80%85%E2%80%90%E4%BC%9A%E8%A9%B1:172.18.8.51" title="このIPアドレスからなされた編集についての議論 [n]" accesskey="n" class="new">このIPアドレスのトーク</a></li>
+				<li id="pt-anonlogin"><a href="/mw/index.php?title=%E7%89%B9%E5%88%A5:%E3%83%AD%E3%82%B0%E3%82%A4%E3%83%B3&amp;returnto=BH12.12/TogoStanzaQuery/v201310&amp;returntoquery=action%3Dedit" title="ログインすることが推奨されます。ただし、必須ではありません。 [o]" accesskey="o">ログイン</a></li>
+				<li id="pt-openidlogin"><a href="/mw/index.php?title=%E7%89%B9%E5%88%A5:OpenID%E3%83%AD%E3%82%B0%E3%82%A4%E3%83%B3&amp;returnto=BH12.12/TogoStanzaQuery/v201310">OpenIDでログイン</a></li>
+			</ul>
+		</div>
+	</div>
+	<div class="portlet" id="p-logo">
+		<a style="background-image: url(/mw/images/togowiki-logo.png);" href="/mw/%E3%83%A1%E3%82%A4%E3%83%B3%E3%83%9A%E3%83%BC%E3%82%B8" title="メインページに移動"></a>
+	</div>
+	<script type="text/javascript"> if (window.isMSIE55) fixalpha(); </script>
+	<div class='generated-sidebar portlet' id='p-navigation'>
+		<h5>案内</h5>
+		<div class='pBody'>
+			<ul>
+				<li id="n-mainpage-description"><a href="/mw/%E3%83%A1%E3%82%A4%E3%83%B3%E3%83%9A%E3%83%BC%E3%82%B8" title="メインページに移動する [z]" accesskey="z">メインページ</a></li>
+				<li id="n-portal"><a href="/mw/TogoWiki:%E3%82%B3%E3%83%9F%E3%83%A5%E3%83%8B%E3%83%86%E3%82%A3%E3%83%BB%E3%83%9D%E3%83%BC%E3%82%BF%E3%83%AB" title="このプロジェクトについて、できること、情報を入手する場所">コミュニティ・ポータル</a></li>
+				<li id="n-currentevents"><a href="/mw/TogoWiki:%E6%9C%80%E8%BF%91%E3%81%AE%E5%87%BA%E6%9D%A5%E4%BA%8B" title="最近の出来事について予備知識を得る">最近の出来事</a></li>
+				<li id="n-recentchanges"><a href="/mw/%E7%89%B9%E5%88%A5:%E6%9C%80%E8%BF%91%E3%81%AE%E6%9B%B4%E6%96%B0" title="ウィキにおける最近の更新の一覧 [r]" accesskey="r">最近の更新</a></li>
+				<li id="n-randompage"><a href="/mw/%E7%89%B9%E5%88%A5:%E3%81%8A%E3%81%BE%E3%81%8B%E3%81%9B%E8%A1%A8%E7%A4%BA" title="無作為に抽出されたページの読み込み [x]" accesskey="x">おまかせ表示</a></li>
+				<li id="n-help"><a href="/mw/Help:%E7%9B%AE%E6%AC%A1" title="情報を得る場所">ヘルプ</a></li>
+			</ul>
+		</div>
+	</div>
+	<div id="p-search" class="portlet">
+		<h5><label for="searchInput">検索</label></h5>
+		<div id="searchBody" class="pBody">
+			<form action="/mw/index.php" id="searchform">
+				<input type='hidden' name="title" value="特別:検索"/>
+				<input id="searchInput" title="TogoWiki内を検索" accesskey="f" type="search" name="search" />
+				<input type='submit' name="go" class="searchButton" id="searchGoButton"	value="表示" title="厳密に一致する名前のページが存在すれば、そのページへ移動します" />&nbsp;
+				<input type='submit' name="fulltext" class="searchButton" id="mw-searchButton" value="検索" title="入力された文字列が含まれるページを検索します" />
+			</form>
+		</div>
+	</div>
+	<div class="portlet" id="p-tb">
+		<h5>ツールボックス</h5>
+		<div class="pBody">
+			<ul>
+				<li id="t-whatlinkshere"><a href="/mw/%E7%89%B9%E5%88%A5:%E3%83%AA%E3%83%B3%E3%82%AF%E5%85%83/BH12.12/TogoStanzaQuery/v201310" title="ここにリンクしている全ウィキのページの一覧 [j]" accesskey="j">リンク元</a></li>
+				<li id="t-recentchangeslinked"><a href="/mw/%E7%89%B9%E5%88%A5:%E9%96%A2%E9%80%A3%E3%83%9A%E3%83%BC%E3%82%B8%E3%81%AE%E6%9B%B4%E6%96%B0%E7%8A%B6%E6%B3%81/BH12.12/TogoStanzaQuery/v201310" title="このページからリンクしているページの最近の更新 [k]" accesskey="k">関連ページの更新状況</a></li>
+<li id="t-specialpages"><a href="/mw/%E7%89%B9%E5%88%A5:%E7%89%B9%E5%88%A5%E3%83%9A%E3%83%BC%E3%82%B8%E4%B8%80%E8%A6%A7" title="特別ページの一覧 [q]" accesskey="q">特別ページ</a></li>
+			</ul>
+		</div>
+	</div>
+</div><!-- end of the left (by default at least) column -->
+<div class="visualClear"></div>
+<div id="footer">
+	<div id="f-poweredbyico"><a href="http://www.mediawiki.org/"><img src="/mw/skins/common/images/poweredby_mediawiki_88x31.png" height="31" width="88" alt="Powered by MediaWiki" /></a></div>
+	<div id="f-copyrightico"><a href="http://creativecommons.org/licenses/by/3.0/"><img src="http://i.creativecommons.org/l/by/3.0/88x31.png" alt="Attribution 3.0 Unported" width="88" height="31" /></a></div>
+	<ul id="f-list">
+		<li id="privacy"><a href="/mw/TogoWiki:%E3%83%97%E3%83%A9%E3%82%A4%E3%83%90%E3%82%B7%E3%83%BC%E3%83%BB%E3%83%9D%E3%83%AA%E3%82%B7%E3%83%BC" title="TogoWiki:プライバシー・ポリシー">プライバシー・ポリシー</a></li>
+		<li id="about"><a href="/mw/TogoWiki:TogoWiki%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6" title="TogoWiki:TogoWikiについて">TogoWikiについて</a></li>
+		<li id="disclaimer"><a href="/mw/TogoWiki:%E5%85%8D%E8%B2%AC%E4%BA%8B%E9%A0%85" title="TogoWiki:免責事項">免責事項</a></li>
+	</ul>
+</div>
+</div>
+
+<script>if (window.runOnloadHook) runOnloadHook();</script>
+<!-- Served in 0.359 secs. --></body></html>

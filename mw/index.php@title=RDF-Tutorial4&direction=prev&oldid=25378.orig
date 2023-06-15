@@ -1,0 +1,297 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html lang="ja" dir="ltr">
+<head>
+<title>RDF-Tutorial4 - TogoWiki</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta name="generator" content="MediaWiki 1.16.3" />
+<meta name="robots" content="noindex,nofollow" />
+<link rel="shortcut icon" href="/favicon.ico" />
+<link rel="search" type="application/opensearchdescription+xml" href="/mw/opensearch_desc.php" title="TogoWiki (ja)" />
+<link title="Creative Commons" type="application/rdf+xml" href="/mw/index.php?title=RDF-Tutorial4&amp;action=creativecommons" rel="meta" />
+<link rel="copyright" href="http://creativecommons.org/licenses/by/3.0/" />
+<link rel="alternate" type="application/atom+xml" title="TogoWikiのAtomフィード" href="/mw/index.php?title=%E7%89%B9%E5%88%A5:%E6%9C%80%E8%BF%91%E3%81%AE%E6%9B%B4%E6%96%B0&amp;feed=atom" />
+<link rel="stylesheet" href="/mw/skins/common/shared.css?270" media="screen" />
+<link rel="stylesheet" href="/mw/skins/common/commonPrint.css?270" media="print" />
+<link rel="stylesheet" href="/mw/skins/monobook/main.css?270" media="screen" />
+<!--[if lt IE 5.5000]><link rel="stylesheet" href="/mw/skins/monobook/IE50Fixes.css?270" media="screen" /><![endif]-->
+<!--[if IE 5.5000]><link rel="stylesheet" href="/mw/skins/monobook/IE55Fixes.css?270" media="screen" /><![endif]-->
+<!--[if IE 6]><link rel="stylesheet" href="/mw/skins/monobook/IE60Fixes.css?270" media="screen" /><![endif]-->
+<!--[if IE 7]><link rel="stylesheet" href="/mw/skins/monobook/IE70Fixes.css?270" media="screen" /><![endif]-->
+<link rel="stylesheet" href="/mw/index.php?title=MediaWiki:Common.css&amp;usemsgcache=yes&amp;ctype=text%2Fcss&amp;smaxage=18000&amp;action=raw&amp;maxage=18000" />
+<link rel="stylesheet" href="/mw/index.php?title=MediaWiki:Print.css&amp;usemsgcache=yes&amp;ctype=text%2Fcss&amp;smaxage=18000&amp;action=raw&amp;maxage=18000" media="print" />
+<link rel="stylesheet" href="/mw/index.php?title=MediaWiki:Monobook.css&amp;usemsgcache=yes&amp;ctype=text%2Fcss&amp;smaxage=18000&amp;action=raw&amp;maxage=18000" />
+<link rel="stylesheet" href="/mw/index.php?title=-&amp;action=raw&amp;maxage=18000&amp;gen=css" />
+<script>
+var skin="monobook",
+stylepath="/mw/skins",
+wgUrlProtocols="http\\:\\/\\/|https\\:\\/\\/|ftp\\:\\/\\/|irc\\:\\/\\/|gopher\\:\\/\\/|telnet\\:\\/\\/|nntp\\:\\/\\/|worldwind\\:\\/\\/|mailto\\:|news\\:|svn\\:\\/\\/",
+wgArticlePath="/mw/$1",
+wgScriptPath="/mw",
+wgScriptExtension=".php",
+wgScript="/mw/index.php",
+wgVariantArticlePath=false,
+wgActionPaths={},
+wgServer="http://wiki.lifesciencedb.jp",
+wgCanonicalNamespace="",
+wgCanonicalSpecialPageName=false,
+wgNamespaceNumber=0,
+wgPageName="RDF-Tutorial4",
+wgTitle="RDF-Tutorial4",
+wgAction="view",
+wgArticleId=916,
+wgIsArticle=true,
+wgUserName=null,
+wgUserGroups=null,
+wgUserLanguage="ja",
+wgContentLanguage="ja",
+wgBreakFrames=false,
+wgCurRevisionId=25378,
+wgVersion="1.16.3",
+wgEnableAPI=true,
+wgEnableWriteAPI=true,
+wgSeparatorTransformTable=["", ""],
+wgDigitTransformTable=["", ""],
+wgMainPageTitle="メインページ",
+wgFormattedNamespaces={"-2": "メディア", "-1": "特別", "0": "", "1": "ノート", "2": "利用者", "3": "利用者‐会話", "4": "TogoWiki", "5": "TogoWiki‐ノート", "6": "ファイル", "7": "ファイル‐ノート", "8": "MediaWiki", "9": "MediaWiki‐ノート", "10": "Template", "11": "Template‐ノート", "12": "Help", "13": "Help‐ノート", "14": "Category", "15": "Category‐ノート"},
+wgNamespaceIds={"メディア": -2, "特別": -1, "": 0, "ノート": 1, "利用者": 2, "利用者‐会話": 3, "togowiki": 4, "togowiki‐ノート": 5, "ファイル": 6, "ファイル‐ノート": 7, "mediawiki": 8, "mediawiki‐ノート": 9, "template": 10, "template‐ノート": 11, "help": 12, "help‐ノート": 13, "category": 14, "category‐ノート": 15, "画像": 6, "画像‐ノート": 7, "image": 6, "image_talk": 7},
+wgSiteName="TogoWiki",
+wgCategories=[],
+wgRestrictionEdit=[],
+wgRestrictionMove=[];
+</script><script src="/mw/skins/common/wikibits.js?270"></script>
+<script src="/mw/skins/common/ajax.js?270"></script>
+<script src="/mw/index.php?title=-&amp;action=raw&amp;gen=js&amp;useskin=monobook&amp;270"></script>
+
+		<style type='text/css'>
+		li#pt-openidlogin {
+		  background: url(/mw/extensions/OpenID/skin/icons/openid-inputicon.png) top left no-repeat;
+		  padding-left: 20px;
+		  text-transform: none;
+		}
+		</style>
+</head>
+<body class="mediawiki ltr ns-0 ns-subject page-RDF-Tutorial4 skin-monobook">
+<div id="globalWrapper">
+<div id="column-content"><div id="content" >
+	<a id="top"></a>
+	
+	<h1 id="firstHeading" class="firstHeading">RDF-Tutorial4</h1>
+	<div id="bodyContent">
+		<h3 id="siteSub">提供：TogoWiki</h3>
+		<div id="contentSub">
+				<div id="mw-revision-info">2019年11月14日 (木) 02:49時点における<a href="/mw/index.php?title=%E5%88%A9%E7%94%A8%E8%80%85:Shuichi&amp;action=edit&amp;redlink=1" class="new mw-userlink" title="利用者:Shuichi（存在しないページ）">Shuichi</a>  <span class="mw-usertoollinks">(<a href="/mw/index.php?title=%E5%88%A9%E7%94%A8%E8%80%85%E2%80%90%E4%BC%9A%E8%A9%B1:Shuichi&amp;action=edit&amp;redlink=1" class="new" title="利用者‐会話:Shuichi（存在しないページ）">トーク</a> | <a href="/mw/%E7%89%B9%E5%88%A5:%E6%8A%95%E7%A8%BF%E8%A8%98%E9%8C%B2/Shuichi" title="特別:投稿記録/Shuichi">投稿記録</a>)</span>による版</div>
+
+				<div id="mw-revision-nav">(<a href="/mw/index.php?title=RDF-Tutorial4&amp;diff=prev&amp;oldid=25377" title="RDF-Tutorial4">差分</a>) <a href="/mw/index.php?title=RDF-Tutorial4&amp;direction=prev&amp;oldid=25377" title="RDF-Tutorial4">←前の版</a> | <a href="/mw/RDF-Tutorial4" title="RDF-Tutorial4">最新版</a> (<a href="/mw/index.php?title=RDF-Tutorial4&amp;diff=cur&amp;oldid=25377" title="RDF-Tutorial4">差分</a>) | <a href="/mw/index.php?title=RDF-Tutorial4&amp;direction=next&amp;oldid=25377" title="RDF-Tutorial4">次の版→</a> (<a href="/mw/index.php?title=RDF-Tutorial4&amp;diff=next&amp;oldid=25377" title="RDF-Tutorial4">差分</a>)</div>
+			</div>
+		<div id="jump-to-nav">移動： <a href="#column-one">案内</a>, <a href="#searchInput">検索</a></div>
+		<!-- start content -->
+<table id="toc" class="toc"><tr><td><div id="toctitle"><h2>目次</h2></div>
+<ul>
+<li class="toclevel-1 tocsection-1"><a href="#.E7.AC.AC4.E5.9B.9E_RDF_.E8.AC.9B.E7.BF.92.E4.BC.9A"><span class="tocnumber">1</span> <span class="toctext">第4回 RDF 講習会</span></a>
+<ul>
+<li class="toclevel-2 tocsection-2"><a href="#.E9.96.8B.E5.82.AC.E6.A6.82.E8.A6.81"><span class="tocnumber">1.1</span> <span class="toctext">開催概要</span></a>
+<ul>
+<li class="toclevel-3 tocsection-3"><a href="#.E5.86.85.E5.AE.B9.E3.81.8A.E3.82.88.E3.81.B3.E5.AF.BE.E8.B1.A1.E8.80.85"><span class="tocnumber">1.1.1</span> <span class="toctext">内容および対象者</span></a></li>
+<li class="toclevel-3 tocsection-4"><a href="#.E6.97.A5.E6.99.82.E3.81.A8.E4.BC.9A.E5.A0.B4"><span class="tocnumber">1.1.2</span> <span class="toctext">日時と会場</span></a></li>
+<li class="toclevel-3 tocsection-5"><a href="#.E8.AC.9B.E7.BF.92.E4.BC.9A.E3.81.AB.E5.BF.85.E8.A6.81.E3.81.AAPC"><span class="tocnumber">1.1.3</span> <span class="toctext">講習会に必要なPC</span></a></li>
+<li class="toclevel-3 tocsection-6"><a href="#.E3.83.8D.E3.83.83.E3.83.88.E3.83.AF.E3.83.BC.E3.82.AF"><span class="tocnumber">1.1.4</span> <span class="toctext">ネットワーク</span></a></li>
+<li class="toclevel-3 tocsection-7"><a href="#.E7.94.B3.E8.BE.BC.E6.96.B9.E6.B3.95"><span class="tocnumber">1.1.5</span> <span class="toctext">申込方法</span></a></li>
+<li class="toclevel-3 tocsection-8"><a href="#.E4.B8.BB.E5.82.AC"><span class="tocnumber">1.1.6</span> <span class="toctext">主催</span></a></li>
+<li class="toclevel-3 tocsection-9"><a href="#.E5.85.B1.E5.82.AC"><span class="tocnumber">1.1.7</span> <span class="toctext">共催</span></a></li>
+</ul>
+</li>
+<li class="toclevel-2 tocsection-10"><a href="#.E8.AC.9B.E7.BF.92.E5.86.85.E5.AE.B9"><span class="tocnumber">1.2</span> <span class="toctext">講習内容</span></a>
+<ul>
+<li class="toclevel-3 tocsection-11"><a href="#.E6.A6.82.E8.AB.96"><span class="tocnumber">1.2.1</span> <span class="toctext">概論</span></a></li>
+<li class="toclevel-3 tocsection-12"><a href="#RDF"><span class="tocnumber">1.2.2</span> <span class="toctext">RDF</span></a></li>
+<li class="toclevel-3 tocsection-13"><a href="#SPARQL"><span class="tocnumber">1.2.3</span> <span class="toctext">SPARQL</span></a></li>
+<li class="toclevel-3 tocsection-14"><a href="#.E3.83.88.E3.83.AA.E3.83.97.E3.83.AB.E3.82.B9.E3.83.88.E3.82.A2"><span class="tocnumber">1.2.4</span> <span class="toctext">トリプルストア</span></a></li>
+<li class="toclevel-3 tocsection-15"><a href="#.E5.BF.9C.E7.94.A8"><span class="tocnumber">1.2.5</span> <span class="toctext">応用</span></a></li>
+</ul>
+</li>
+<li class="toclevel-2 tocsection-16"><a href="#.E5.8F.82.E5.8A.A0.E8.80.85.E3.82.A2.E3.83.B3.E3.82.B1.E3.83.BC.E3.83.88"><span class="tocnumber">1.3</span> <span class="toctext">参加者アンケート</span></a></li>
+<li class="toclevel-2 tocsection-17"><a href="#.E5.8F.82.E8.80.83.E6.96.87.E7.8C.AE"><span class="tocnumber">1.4</span> <span class="toctext">参考文献</span></a></li>
+</ul>
+</li>
+</ul>
+</td></tr></table><script>if (window.showTocToggle) { var tocShowText = "表示"; var tocHideText = "非表示"; showTocToggle(); } </script>
+<h1> <span class="mw-headline" id=".E7.AC.AC4.E5.9B.9E_RDF_.E8.AC.9B.E7.BF.92.E4.BC.9A"> 第4回 RDF 講習会 </span></h1>
+<p>2019/10/31 に第4回 RDF 講習会を開催します。
+</p>
+<h2> <span class="mw-headline" id=".E9.96.8B.E5.82.AC.E6.A6.82.E8.A6.81"> 開催概要 </span></h2>
+<h3> <span class="mw-headline" id=".E5.86.85.E5.AE.B9.E3.81.8A.E3.82.88.E3.81.B3.E5.AF.BE.E8.B1.A1.E8.80.85">内容および対象者</span></h3>
+<p>これからデータをRDF化し利活用したい研究者や開発者の方々に向けて、セマンティック・ウェブの概念から、RDFの基礎、トリプルストアの使い方、SPARQLクエリ言語の概要を解説します。
+</p><p>既存のRDFデータと、自分がもっているデータを、柔軟に統合して利用できるのがRDFのメリットです。自分のデータをRDF化することで、容易に既存のRDFデータと統合した利用を行うことができます。ところが、世の中に様々なRDFの解説や講義はありますが、意外とRDFの作り方については見かけないのではないでしょうか。これまでに様々なデータベースをRDF化してきた経験から、RDFを作成するためのベストプラクティスを紹介します。なお、RDFそのものについても基本的なことから解説しますので、対象者は、RDFやSPARQLに関しては事前知識がなくても理解できるようにします。
+</p>
+<h3> <span class="mw-headline" id=".E6.97.A5.E6.99.82.E3.81.A8.E4.BC.9A.E5.A0.B4">日時と会場</span></h3>
+<ul><li> 開催期間：2019年10月31日(木)
+<ul><li> 9:30 受付
+</li><li> 10:00〜12:00　講義
+</li><li> 12:00〜13:30　昼休み
+</li><li> 13:30〜16:00　講義
+</li></ul>
+</li><li> 開催場所：千代田区四番町5-3　サイエンスプラザ　科学技術振興機構 (JST) 東京本部B1大会議室
+</li><li> アクセス：<a href="https://www.jst.go.jp/koutsu.html#TOKYO" class="external free" rel="nofollow">https://www.jst.go.jp/koutsu.html#TOKYO</a>
+</li></ul>
+<h3> <span class="mw-headline" id=".E8.AC.9B.E7.BF.92.E4.BC.9A.E3.81.AB.E5.BF.85.E8.A6.81.E3.81.AAPC"> 講習会に必要なPC </span></h3>
+<p>今回は、ご自身のハンズオン形式でご自身のPCを使う講習も行う予定ですので、UNIX系OSの動くラップトップPCをご持参ください（MacやLinuxがインストールされたPCなど）。Windows系OSがインストールされたPCの方も講習会の参加は可能ですが、一部の講習会内容は、UNIX系OSが前提なので聞くだけの参加になる可能性があります。
+</p>
+<h3> <span class="mw-headline" id=".E3.83.8D.E3.83.83.E3.83.88.E3.83.AF.E3.83.BC.E3.82.AF"> ネットワーク </span></h3>
+<ul><li> 無線LANをご利用頂ける予定です (回線速度は100Mbpsベストエフォート)
+</li></ul>
+<h3> <span class="mw-headline" id=".E7.94.B3.E8.BE.BC.E6.96.B9.E6.B3.95"> 申込方法 </span></h3>
+<ul><li> 下記参加登録フォームから申し込みます（10/28（月）16：30締切 ）
+<ul><li>  <a href="https://form.jst.go.jp/enquetes/rdf4" class="external free" rel="nofollow">https://form.jst.go.jp/enquetes/rdf4</a>
+</li></ul>
+</li></ul>
+<p>当日参加も受け付けています。
+</p>
+<h3> <span class="mw-headline" id=".E4.B8.BB.E5.82.AC"> 主催 </span></h3>
+<p><a href="http://dbcls.jp/" class="external text" rel="nofollow">情報・システム研究機構　データサイエンス共同利用基盤施設　ライフサイエンス統合データベースセンター（DBCLS）</a>
+</p>
+<h3> <span class="mw-headline" id=".E5.85.B1.E5.82.AC"> 共催 </span></h3>
+<p><a href="http://biosciencedbc.jp/" class="external text" rel="nofollow">科学技術振興機構　バイオサイエンスデータベースセンター（NBDC）</a>
+</p>
+<h2> <span class="mw-headline" id=".E8.AC.9B.E7.BF.92.E5.86.85.E5.AE.B9"> 講習内容 </span></h2>
+<h3> <span class="mw-headline" id=".E6.A6.82.E8.AB.96"> 概論 </span></h3>
+<p>講師：山本 泰智（ライフサイエンス統合データベースセンター）
+</p>
+<ul><li> セマンティック・ウェブとは
+</li><li> RDF とは
+</li><li> <a href="https://www.dropbox.com/s/7fptfgvv2f0h8ev/RDF%E8%AC%9B%E7%BF%92%E4%BC%9A2019.pdf?dl=0" class="external text" rel="nofollow">発表資料（PDF）</a>
+</li></ul>
+<h3> <span class="mw-headline" id="RDF"> RDF </span></h3>
+<p>講師：川島 秀一（ライフサイエンス統合データベースセンター）
+</p>
+<ul><li> RDF作成のデザインパターン
+</li><li> オントロジー作成の方法
+</li><li> <a href="http://wiki.lifesciencedb.jp/mw/images/b/b5/RDF-lecture-04-skwsm_1_20191031.pdf" class="external text" rel="nofollow">発表資料</a>
+<ul><li> 資料正誤：Protégéのバージョンによっては、"Classes"タブは"Entities"タブの下にあります
+</li></ul>
+</li><li> <a href="http://ep.dbcls.jp/rdf/sakeo/sakeo-r.ttl" class="external text" rel="nofollow">Sake ontology</a>
+</li></ul>
+<h3> <span class="mw-headline" id="SPARQL"> SPARQL </span></h3>
+<p>講師：岡別府陽子（株式会社OKBP）
+</p>
+<ul><li> SPARQLクエリの基本
+</li><li> <a href="https://www.dropbox.com/s/of9alh6yqcar7uq/RDF%E8%AC%9B%E7%BF%92%E4%BC%9A4%28SPARQL%E3%82%AF%E3%82%A8%E3%83%AA%E3%81%AE%E5%9F%BA%E6%9C%AC%29.pdf?dl=0" class="external text" rel="nofollow">発表資料（PDF）</a>
+</li><li> <a href="https://www.dropbox.com/s/j09596yojuctxry/SPARQL%E3%82%B9%E3%83%8B%E3%83%9A%E3%83%83%E3%83%88.txt?dl=0" class="external text" rel="nofollow">SPARQLスニペット</a>
+</li><li> <a href="https://www.dropbox.com/s/etryubsn7j2ejs3/player_list.ttl?dl=0" class="external text" rel="nofollow">サンプルファイル(turtle)</a>
+</li><li> <a href="https://www.dropbox.com/sh/8okr5jdvv2jq6td/AAC08Frtb0SREZFVEZxSPL1Ra?dl=0" class="external text" rel="nofollow">Docker環境(参考)</a>
+</li></ul>
+<h3> <span class="mw-headline" id=".E3.83.88.E3.83.AA.E3.83.97.E3.83.AB.E3.82.B9.E3.83.88.E3.82.A2"> トリプルストア </span></h3>
+<p>講師：片山 俊明（ライフサイエンス統合データベースセンター）
+</p>
+<ul><li> Virtuosoのインストール
+</li><li> Virtuosoの利用方法
+<ul><li> <a href="https://paper.dropbox.com/doc/4RDF-1-Zo8b4Yy0IeN3sNeb6f6I7" class="external free" rel="nofollow">https://paper.dropbox.com/doc/4RDF-1-Zo8b4Yy0IeN3sNeb6f6I7</a>
+</li></ul>
+</li></ul>
+<h3> <span class="mw-headline" id=".E5.BF.9C.E7.94.A8"> 応用 </span></h3>
+<p>講師：片山 俊明（ライフサイエンス統合データベースセンター）
+</p>
+<ul><li> RDF/SPARQLのアプリケーション開発
+<ul><li> <a href="https://paper.dropbox.com/doc/4RDF-2--AnuxVruXskuUwFjyHOZEWm3~Ag-LWa4Ryg0jnYs50ePy4phE" class="external free" rel="nofollow">https://paper.dropbox.com/doc/4RDF-2--AnuxVruXskuUwFjyHOZEWm3~Ag-LWa4Ryg0jnYs50ePy4phE</a>
+</li></ul>
+</li></ul>
+<h2> <span class="mw-headline" id=".E5.8F.82.E5.8A.A0.E8.80.85.E3.82.A2.E3.83.B3.E3.82.B1.E3.83.BC.E3.83.88">参加者アンケート</span></h2>
+<p>--終了しました--
+</p>
+<h2> <span class="mw-headline" id=".E5.8F.82.E8.80.83.E6.96.87.E7.8C.AE"> 参考文献 </span></h2>
+<ul><li> <a href="http://sparqlbook.jp/" class="external text" rel="nofollow">オープンデータ時代の標準 Web API SPARQL</a>
+</li><li> <a href="http://wiki.lifesciencedb.jp/mw/RDF-Tutorial3" class="external text" rel="nofollow">第３回RDF 講習会</a>
+</li><li> <a href="http://wiki.lifesciencedb.jp/mw/RDF-Tutorial2" class="external text" rel="nofollow">第２回RDF 講習会</a>
+</li><li> <a href="http://wiki.lifesciencedb.jp/mw/RDF-Tutorial1" class="external text" rel="nofollow">第１回RDF 講習会</a>
+</li><li> <a href="http://togetter.com/li/1034066" class="external text" rel="nofollow">Togetter: 第1回RDF講習会</a>
+</li></ul>
+
+<!-- 
+NewPP limit report
+Preprocessor node count: 66/1000000
+Post-expand include size: 0/2097152 bytes
+Template argument size: 0/2097152 bytes
+Expensive parser function count: 0/100
+-->
+<div class="printfooter">
+「<a href="http://wiki.lifesciencedb.jp/mw/RDF-Tutorial4">http://wiki.lifesciencedb.jp/mw/RDF-Tutorial4</a>」より作成</div>
+		<div id='catlinks' class='catlinks catlinks-allhidden'></div>		<!-- end content -->
+				<div class="visualClear"></div>
+	</div>
+</div></div>
+<div id="column-one">
+	<div id="p-cactions" class="portlet">
+		<h5>表示</h5>
+		<div class="pBody">
+			<ul>
+				 <li id="ca-nstab-main" class="selected"><a href="/mw/RDF-Tutorial4" title="本文を表示 [c]" accesskey="c">ページ</a></li>
+				 <li id="ca-talk" class="new"><a href="/mw/index.php?title=%E3%83%8E%E3%83%BC%E3%83%88:RDF-Tutorial4&amp;action=edit&amp;redlink=1" title="記事についての議論 [t]" accesskey="t">議論</a></li>
+				 <li id="ca-viewsource"><a href="/mw/index.php?title=RDF-Tutorial4&amp;action=edit&amp;oldid=25377" title="このページは保護されています。&#10;ページのソースを閲覧できます。 [e]" accesskey="e">ソースを表示</a></li>
+				 <li id="ca-history"><a href="/mw/index.php?title=RDF-Tutorial4&amp;action=history" title="このページの過去の版 [h]" accesskey="h">履歴</a></li>
+			</ul>
+		</div>
+	</div>
+	<div class="portlet" id="p-personal">
+		<h5>個人用ツール</h5>
+		<div class="pBody">
+			<ul>
+				<li id="pt-anonuserpage"><a href="/mw/%E5%88%A9%E7%94%A8%E8%80%85:172.18.8.51" title="自分が編集しているIPアドレスの利用者ページ [.]" accesskey="." class="new">172.18.8.51</a></li>
+				<li id="pt-anontalk"><a href="/mw/%E5%88%A9%E7%94%A8%E8%80%85%E2%80%90%E4%BC%9A%E8%A9%B1:172.18.8.51" title="このIPアドレスからなされた編集についての議論 [n]" accesskey="n" class="new">このIPアドレスのトーク</a></li>
+				<li id="pt-anonlogin"><a href="/mw/index.php?title=%E7%89%B9%E5%88%A5:%E3%83%AD%E3%82%B0%E3%82%A4%E3%83%B3&amp;returnto=RDF-Tutorial4&amp;returntoquery=direction%3Dprev%26oldid%3D25378" title="ログインすることが推奨されます。ただし、必須ではありません。 [o]" accesskey="o">ログイン</a></li>
+				<li id="pt-openidlogin"><a href="/mw/index.php?title=%E7%89%B9%E5%88%A5:OpenID%E3%83%AD%E3%82%B0%E3%82%A4%E3%83%B3&amp;returnto=RDF-Tutorial4">OpenIDでログイン</a></li>
+			</ul>
+		</div>
+	</div>
+	<div class="portlet" id="p-logo">
+		<a style="background-image: url(/mw/images/togowiki-logo.png);" href="/mw/%E3%83%A1%E3%82%A4%E3%83%B3%E3%83%9A%E3%83%BC%E3%82%B8" title="メインページに移動"></a>
+	</div>
+	<script type="text/javascript"> if (window.isMSIE55) fixalpha(); </script>
+	<div class='generated-sidebar portlet' id='p-navigation'>
+		<h5>案内</h5>
+		<div class='pBody'>
+			<ul>
+				<li id="n-mainpage-description"><a href="/mw/%E3%83%A1%E3%82%A4%E3%83%B3%E3%83%9A%E3%83%BC%E3%82%B8" title="メインページに移動する [z]" accesskey="z">メインページ</a></li>
+				<li id="n-portal"><a href="/mw/TogoWiki:%E3%82%B3%E3%83%9F%E3%83%A5%E3%83%8B%E3%83%86%E3%82%A3%E3%83%BB%E3%83%9D%E3%83%BC%E3%82%BF%E3%83%AB" title="このプロジェクトについて、できること、情報を入手する場所">コミュニティ・ポータル</a></li>
+				<li id="n-currentevents"><a href="/mw/TogoWiki:%E6%9C%80%E8%BF%91%E3%81%AE%E5%87%BA%E6%9D%A5%E4%BA%8B" title="最近の出来事について予備知識を得る">最近の出来事</a></li>
+				<li id="n-recentchanges"><a href="/mw/%E7%89%B9%E5%88%A5:%E6%9C%80%E8%BF%91%E3%81%AE%E6%9B%B4%E6%96%B0" title="ウィキにおける最近の更新の一覧 [r]" accesskey="r">最近の更新</a></li>
+				<li id="n-randompage"><a href="/mw/%E7%89%B9%E5%88%A5:%E3%81%8A%E3%81%BE%E3%81%8B%E3%81%9B%E8%A1%A8%E7%A4%BA" title="無作為に抽出されたページの読み込み [x]" accesskey="x">おまかせ表示</a></li>
+				<li id="n-help"><a href="/mw/Help:%E7%9B%AE%E6%AC%A1" title="情報を得る場所">ヘルプ</a></li>
+			</ul>
+		</div>
+	</div>
+	<div id="p-search" class="portlet">
+		<h5><label for="searchInput">検索</label></h5>
+		<div id="searchBody" class="pBody">
+			<form action="/mw/index.php" id="searchform">
+				<input type='hidden' name="title" value="特別:検索"/>
+				<input id="searchInput" title="TogoWiki内を検索" accesskey="f" type="search" name="search" />
+				<input type='submit' name="go" class="searchButton" id="searchGoButton"	value="表示" title="厳密に一致する名前のページが存在すれば、そのページへ移動します" />&nbsp;
+				<input type='submit' name="fulltext" class="searchButton" id="mw-searchButton" value="検索" title="入力された文字列が含まれるページを検索します" />
+			</form>
+		</div>
+	</div>
+	<div class="portlet" id="p-tb">
+		<h5>ツールボックス</h5>
+		<div class="pBody">
+			<ul>
+				<li id="t-whatlinkshere"><a href="/mw/%E7%89%B9%E5%88%A5:%E3%83%AA%E3%83%B3%E3%82%AF%E5%85%83/RDF-Tutorial4" title="ここにリンクしている全ウィキのページの一覧 [j]" accesskey="j">リンク元</a></li>
+				<li id="t-recentchangeslinked"><a href="/mw/%E7%89%B9%E5%88%A5:%E9%96%A2%E9%80%A3%E3%83%9A%E3%83%BC%E3%82%B8%E3%81%AE%E6%9B%B4%E6%96%B0%E7%8A%B6%E6%B3%81/RDF-Tutorial4" title="このページからリンクしているページの最近の更新 [k]" accesskey="k">関連ページの更新状況</a></li>
+<li id="t-specialpages"><a href="/mw/%E7%89%B9%E5%88%A5:%E7%89%B9%E5%88%A5%E3%83%9A%E3%83%BC%E3%82%B8%E4%B8%80%E8%A6%A7" title="特別ページの一覧 [q]" accesskey="q">特別ページ</a></li>
+				<li id="t-print"><a href="/mw/index.php?title=RDF-Tutorial4&amp;direction=prev&amp;oldid=25378&amp;printable=yes" rel="alternate" title="このページの印刷用ページ [p]" accesskey="p">印刷用バージョン</a></li>				<li id="t-permalink"><a href="/mw/index.php?title=RDF-Tutorial4&amp;oldid=25377" title="ページのこの版への固定リンク">この版への固定リンク</a></li>			</ul>
+		</div>
+	</div>
+</div><!-- end of the left (by default at least) column -->
+<div class="visualClear"></div>
+<div id="footer">
+	<div id="f-poweredbyico"><a href="http://www.mediawiki.org/"><img src="/mw/skins/common/images/poweredby_mediawiki_88x31.png" height="31" width="88" alt="Powered by MediaWiki" /></a></div>
+	<div id="f-copyrightico"><a href="http://creativecommons.org/licenses/by/3.0/"><img src="http://i.creativecommons.org/l/by/3.0/88x31.png" alt="Attribution 3.0 Unported" width="88" height="31" /></a></div>
+	<ul id="f-list">
+		<li id="copyright">内容は<a href="http://creativecommons.org/licenses/by/3.0/" class="external ">Attribution 3.0 Unported</a>のライセンスで利用することができます。</li>
+		<li id="privacy"><a href="/mw/TogoWiki:%E3%83%97%E3%83%A9%E3%82%A4%E3%83%90%E3%82%B7%E3%83%BC%E3%83%BB%E3%83%9D%E3%83%AA%E3%82%B7%E3%83%BC" title="TogoWiki:プライバシー・ポリシー">プライバシー・ポリシー</a></li>
+		<li id="about"><a href="/mw/TogoWiki:TogoWiki%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6" title="TogoWiki:TogoWikiについて">TogoWikiについて</a></li>
+		<li id="disclaimer"><a href="/mw/TogoWiki:%E5%85%8D%E8%B2%AC%E4%BA%8B%E9%A0%85" title="TogoWiki:免責事項">免責事項</a></li>
+	</ul>
+</div>
+</div>
+
+<script>if (window.runOnloadHook) runOnloadHook();</script>
+<!-- Served in 0.654 secs. --></body></html>

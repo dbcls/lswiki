@@ -1,0 +1,1090 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html lang="ja" dir="ltr">
+<head>
+<title>がんゲノム - TogoWiki</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta name="generator" content="MediaWiki 1.16.3" />
+<link rel="shortcut icon" href="/favicon.ico" />
+<link rel="search" type="application/opensearchdescription+xml" href="/mw/opensearch_desc.php" title="TogoWiki (ja)" />
+<link title="Creative Commons" type="application/rdf+xml" href="/mw/index.php?title=%E3%81%8C%E3%82%93%E3%82%B2%E3%83%8E%E3%83%A0&amp;action=creativecommons" rel="meta" />
+<link rel="copyright" href="http://creativecommons.org/licenses/by/3.0/" />
+<link rel="alternate" type="application/atom+xml" title="TogoWikiのAtomフィード" href="/mw/index.php?title=%E7%89%B9%E5%88%A5:%E6%9C%80%E8%BF%91%E3%81%AE%E6%9B%B4%E6%96%B0&amp;feed=atom" />
+<link rel="stylesheet" href="/mw/skins/common/shared.css?270" media="screen" />
+<link rel="stylesheet" href="/mw/skins/common/commonPrint.css?270" media="print" />
+<link rel="stylesheet" href="/mw/skins/monobook/main.css?270" media="screen" />
+<!--[if lt IE 5.5000]><link rel="stylesheet" href="/mw/skins/monobook/IE50Fixes.css?270" media="screen" /><![endif]-->
+<!--[if IE 5.5000]><link rel="stylesheet" href="/mw/skins/monobook/IE55Fixes.css?270" media="screen" /><![endif]-->
+<!--[if IE 6]><link rel="stylesheet" href="/mw/skins/monobook/IE60Fixes.css?270" media="screen" /><![endif]-->
+<!--[if IE 7]><link rel="stylesheet" href="/mw/skins/monobook/IE70Fixes.css?270" media="screen" /><![endif]-->
+<link rel="stylesheet" href="/mw/index.php?title=MediaWiki:Common.css&amp;usemsgcache=yes&amp;ctype=text%2Fcss&amp;smaxage=18000&amp;action=raw&amp;maxage=18000" />
+<link rel="stylesheet" href="/mw/index.php?title=MediaWiki:Print.css&amp;usemsgcache=yes&amp;ctype=text%2Fcss&amp;smaxage=18000&amp;action=raw&amp;maxage=18000" media="print" />
+<link rel="stylesheet" href="/mw/index.php?title=MediaWiki:Monobook.css&amp;usemsgcache=yes&amp;ctype=text%2Fcss&amp;smaxage=18000&amp;action=raw&amp;maxage=18000" />
+<link rel="stylesheet" href="/mw/index.php?title=-&amp;action=raw&amp;maxage=18000&amp;gen=css" />
+<script>
+var skin="monobook",
+stylepath="/mw/skins",
+wgUrlProtocols="http\\:\\/\\/|https\\:\\/\\/|ftp\\:\\/\\/|irc\\:\\/\\/|gopher\\:\\/\\/|telnet\\:\\/\\/|nntp\\:\\/\\/|worldwind\\:\\/\\/|mailto\\:|news\\:|svn\\:\\/\\/",
+wgArticlePath="/mw/$1",
+wgScriptPath="/mw",
+wgScriptExtension=".php",
+wgScript="/mw/index.php",
+wgVariantArticlePath=false,
+wgActionPaths={},
+wgServer="http://wiki.lifesciencedb.jp",
+wgCanonicalNamespace="",
+wgCanonicalSpecialPageName=false,
+wgNamespaceNumber=0,
+wgPageName="がんゲノム",
+wgTitle="がんゲノム",
+wgAction="view",
+wgArticleId=485,
+wgIsArticle=true,
+wgUserName=null,
+wgUserGroups=null,
+wgUserLanguage="ja",
+wgContentLanguage="ja",
+wgBreakFrames=false,
+wgCurRevisionId=19226,
+wgVersion="1.16.3",
+wgEnableAPI=true,
+wgEnableWriteAPI=true,
+wgSeparatorTransformTable=["", ""],
+wgDigitTransformTable=["", ""],
+wgMainPageTitle="メインページ",
+wgFormattedNamespaces={"-2": "メディア", "-1": "特別", "0": "", "1": "ノート", "2": "利用者", "3": "利用者‐会話", "4": "TogoWiki", "5": "TogoWiki‐ノート", "6": "ファイル", "7": "ファイル‐ノート", "8": "MediaWiki", "9": "MediaWiki‐ノート", "10": "Template", "11": "Template‐ノート", "12": "Help", "13": "Help‐ノート", "14": "Category", "15": "Category‐ノート"},
+wgNamespaceIds={"メディア": -2, "特別": -1, "": 0, "ノート": 1, "利用者": 2, "利用者‐会話": 3, "togowiki": 4, "togowiki‐ノート": 5, "ファイル": 6, "ファイル‐ノート": 7, "mediawiki": 8, "mediawiki‐ノート": 9, "template": 10, "template‐ノート": 11, "help": 12, "help‐ノート": 13, "category": 14, "category‐ノート": 15, "画像": 6, "画像‐ノート": 7, "image": 6, "image_talk": 7},
+wgSiteName="TogoWiki",
+wgCategories=[],
+wgRestrictionEdit=[],
+wgRestrictionMove=[];
+</script><script src="/mw/skins/common/wikibits.js?270"></script>
+<script src="/mw/skins/common/ajax.js?270"></script>
+<script src="/mw/index.php?title=-&amp;action=raw&amp;gen=js&amp;useskin=monobook&amp;270"></script>
+
+		<style type='text/css'>
+		li#pt-openidlogin {
+		  background: url(/mw/extensions/OpenID/skin/icons/openid-inputicon.png) top left no-repeat;
+		  padding-left: 20px;
+		  text-transform: none;
+		}
+		</style>
+</head>
+<body class="mediawiki ltr ns-0 ns-subject page-がんゲノム skin-monobook">
+<div id="globalWrapper">
+<div id="column-content"><div id="content" >
+	<a id="top"></a>
+	
+	<h1 id="firstHeading" class="firstHeading">がんゲノム</h1>
+	<div id="bodyContent">
+		<h3 id="siteSub">提供：TogoWiki</h3>
+		<div id="contentSub">
+				<div id="mw-revision-info">2016年2月16日 (火) 08:28時点における<a href="/mw/index.php?title=%E5%88%A9%E7%94%A8%E8%80%85:Ryotayamanaka&amp;action=edit&amp;redlink=1" class="new mw-userlink" title="利用者:Ryotayamanaka（存在しないページ）">Ryotayamanaka</a>  <span class="mw-usertoollinks">(<a href="/mw/index.php?title=%E5%88%A9%E7%94%A8%E8%80%85%E2%80%90%E4%BC%9A%E8%A9%B1:Ryotayamanaka&amp;action=edit&amp;redlink=1" class="new" title="利用者‐会話:Ryotayamanaka（存在しないページ）">トーク</a> | <a href="/mw/%E7%89%B9%E5%88%A5:%E6%8A%95%E7%A8%BF%E8%A8%98%E9%8C%B2/Ryotayamanaka" title="特別:投稿記録/Ryotayamanaka">投稿記録</a>)</span>による版</div>
+
+				<div id="mw-revision-nav">(<a href="/mw/index.php?title=%E3%81%8C%E3%82%93%E3%82%B2%E3%83%8E%E3%83%A0&amp;diff=prev&amp;oldid=19226" title="がんゲノム">差分</a>) <a href="/mw/index.php?title=%E3%81%8C%E3%82%93%E3%82%B2%E3%83%8E%E3%83%A0&amp;direction=prev&amp;oldid=19226" title="がんゲノム">←前の版</a> | 最新版 (差分) | 次の版→ (差分)</div>
+			</div>
+		<div id="jump-to-nav">移動： <a href="#column-one">案内</a>, <a href="#searchInput">検索</a></div>
+		<!-- start content -->
+<table id="toc" class="toc"><tr><td><div id="toctitle"><h2>目次</h2></div>
+<ul>
+<li class="toclevel-1 tocsection-1"><a href="#.E3.81.8C.E3.82.93.E3.82.B2.E3.83.8E.E3.83.A0.E3.81.A8RDF.E3.81.AE.E6.A6.82.E8.A6.81"><span class="tocnumber">1</span> <span class="toctext">がんゲノムとRDFの概要</span></a>
+<ul>
+<li class="toclevel-2 tocsection-2"><a href="#.E5.8B.95.E6.A9.9F.E3.81.A8.E7.9B.AE.E7.9A.84"><span class="tocnumber">1.1</span> <span class="toctext">動機と目的</span></a></li>
+<li class="toclevel-2 tocsection-3"><a href="#.E6.97.A2.E5.AD.98.E3.81.AERDF.E5.8C.96.E3.83.97.E3.83.AD.E3.82.B8.E3.82.A7.E3.82.AF.E3.83.88"><span class="tocnumber">1.2</span> <span class="toctext">既存のRDF化プロジェクト</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-4"><a href="#Linked_ICGC_.E6.A6.82.E8.A6.81"><span class="tocnumber">2</span> <span class="toctext">Linked ICGC 概要</span></a>
+<ul>
+<li class="toclevel-2 tocsection-5"><a href="#.E3.82.B5.E3.82.A4.E3.83.88"><span class="tocnumber">2.1</span> <span class="toctext">サイト</span></a></li>
+<li class="toclevel-2 tocsection-6"><a href="#.E9.96.8B.E7.99.BA.E6.96.B9.E9.87.9D"><span class="tocnumber">2.2</span> <span class="toctext">開発方針</span></a></li>
+<li class="toclevel-2 tocsection-7"><a href="#.E3.83.87.E3.83.BC.E3.82.BF.E7.B5.B1.E5.90.88.E3.81.A7.E4.BD.95.E3.81.8C.E3.81.A7.E3.81.8D.E3.82.8B.E3.81.8B"><span class="tocnumber">2.3</span> <span class="toctext">データ統合で何ができるか</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-8"><a href="#Linked_ICGC_.E4.BB.95.E7.B5.84.E3.81.BF"><span class="tocnumber">3</span> <span class="toctext">Linked ICGC 仕組み</span></a>
+<ul>
+<li class="toclevel-2 tocsection-9"><a href="#.E3.82.B5.E3.82.A4.E3.83.88_2"><span class="tocnumber">3.1</span> <span class="toctext">サイト</span></a></li>
+<li class="toclevel-2 tocsection-10"><a href="#.E3.82.B9.E3.82.AD.E3.83.BC.E3.83.9E"><span class="tocnumber">3.2</span> <span class="toctext">スキーマ</span></a></li>
+<li class="toclevel-2 tocsection-11"><a href="#ICGC.E3.83.87.E3.83.BC.E3.82.BF"><span class="tocnumber">3.3</span> <span class="toctext">ICGCデータ</span></a></li>
+<li class="toclevel-2 tocsection-12"><a href="#.E4.B8.AD.E7.B6.99.E3.82.B5.E3.83.BC.E3.83.90.E3.83.BC"><span class="tocnumber">3.4</span> <span class="toctext">中継サーバー</span></a></li>
+<li class="toclevel-2 tocsection-13"><a href="#.E3.83.9D.E3.83.BC.E3.82.BF.E3.83.AB"><span class="tocnumber">3.5</span> <span class="toctext">ポータル</span></a></li>
+<li class="toclevel-2 tocsection-14"><a href="#.E6.97.A2.E7.9F.A5.E3.81.AE.E5.95.8F.E9.A1.8C"><span class="tocnumber">3.6</span> <span class="toctext">既知の問題</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-15"><a href="#Linked_ICGC_.EF.BC.88.E3.83.87.E3.83.BC.E3.82.BF.E7.94.9F.E6.88.90.EF.BC.89.E3.81.AE.E6.89.8B.E9.A0.86"><span class="tocnumber">4</span> <span class="toctext">Linked ICGC （データ生成）の手順</span></a>
+<ul>
+<li class="toclevel-2 tocsection-16"><a href="#21_sed.sh:_.E7.A9.BA.E6.96.87.E5.AD.97.E3.82.92NULL.E3.81.AB.E5.A4.89.E6.8F.9B.E3.81.99.E3.82.8B"><span class="tocnumber">4.1</span> <span class="toctext">21_sed.sh: 空文字をNULLに変換する</span></a></li>
+<li class="toclevel-2 tocsection-17"><a href="#22_mysql.sh:_.E4.B8.BB.E3.82.AD.E3.83.BC.E3.81.A8.E5.A4.96.E9.83.A8.E3.82.AD.E3.83.BC"><span class="tocnumber">4.2</span> <span class="toctext">22_mysql.sh: 主キーと外部キー</span></a></li>
+<li class="toclevel-2 tocsection-18"><a href="#23_d2rq.sh:_D2RQ_.E3.81.A7.E3.83.80.E3.83.B3.E3.83.97"><span class="tocnumber">4.3</span> <span class="toctext">23_d2rq.sh: D2RQ でダンプ</span></a></li>
+<li class="toclevel-2 tocsection-19"><a href="#30_load.sh:_Virtuoso.E3.81.B8.E3.81.AE.E3.83.AD.E3.83.BC.E3.83.89"><span class="tocnumber">4.4</span> <span class="toctext">30_load.sh: Virtuosoへのロード</span></a></li>
+<li class="toclevel-2 tocsection-20"><a href="#40_construct.sh:_.E5.A4.96.E9.83.A8.E3.83.87.E3.83.BC.E3.82.BF.E3.81.AE.E5.8F.82.E7.85.A7.E7.94.A8.E3.81.AE.E3.83.88.E3.83.AA.E3.83.97.E3.83.AB.E3.81.AE.E4.BD.9C.E6.88.90"><span class="tocnumber">4.5</span> <span class="toctext">40_construct.sh: 外部データの参照用のトリプルの作成</span></a></li>
+<li class="toclevel-2 tocsection-21"><a href="#50_dump_graph.sh:_Virtuoso.E3.81.A7.E3.82.B0.E3.83.A9.E3.83.95.E3.82.92.E3.83.80.E3.83.B3.E3.83.97.E3.81.99.E3.82.8B"><span class="tocnumber">4.6</span> <span class="toctext">50_dump_graph.sh: Virtuosoでグラフをダンプする</span></a></li>
+<li class="toclevel-2 tocsection-22"><a href="#.E4.B8.8A.E8.A8.98.E3.81.AE.E5.87.A6.E7.90.86.E3.82.92.E9.80.9A.E3.81.97.E3.81.A6.E5.AE.9F.E8.A1.8C"><span class="tocnumber">4.7</span> <span class="toctext">上記の処理を通して実行</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-23"><a href="#Linked_ICGC_.EF.BC.88.E3.83.87.E3.83.BC.E3.82.BF.E7.94.9F.E6.88.90.EF.BC.89.E3.81.AE.E8.A3.9C.E8.B6.B3"><span class="tocnumber">5</span> <span class="toctext">Linked ICGC （データ生成）の補足</span></a>
+<ul>
+<li class="toclevel-2 tocsection-24"><a href="#D2RQ_Mapping.E3.81.AE.E3.81.97.E3.81.8F.E3.81.BF"><span class="tocnumber">5.1</span> <span class="toctext">D2RQ Mappingのしくみ</span></a></li>
+<li class="toclevel-2 tocsection-25"><a href="#D2RQ_Mapper.E3.81.A7.E3.83.9E.E3.83.83.E3.83.94.E3.83.B3.E3.82.B0.E3.82.92.E4.BD.9C.E6.88.90.E3.81.99.E3.82.8B"><span class="tocnumber">5.2</span> <span class="toctext">D2RQ Mapperでマッピングを作成する</span></a></li>
+<li class="toclevel-2 tocsection-26"><a href="#.E3.83.9E.E3.83.83.E3.83.94.E3.83.B3.E3.82.B0.E3.83.95.E3.82.A1.E3.82.A4.E3.83.AB.E3.81.AE.E4.BF.AE.E6.AD.A3"><span class="tocnumber">5.3</span> <span class="toctext">マッピングファイルの修正</span></a></li>
+<li class="toclevel-2 tocsection-27"><a href="#.E3.80.90.E5.8F.82.E8.80.83.E3.80.91Virtuoso.E3.81.AB.E6.8E.A5.E7.B6.9A.E3.81.A7.E3.81.8D.E3.81.AA.E3.81.8F.E3.81.AA.E3.81.A3.E3.81.A6.E3.81.97.E3.81.BE.E3.81.A3.E3.81.9F.E3.81.A8.E3.81.8D"><span class="tocnumber">5.4</span> <span class="toctext">【参考】Virtuosoに接続できなくなってしまったとき</span></a></li>
+<li class="toclevel-2 tocsection-28"><a href="#.E3.80.90.E5.8F.82.E8.80.83.E3.80.91SPARQL.E3.81.AB.E3.82.88.E3.82.8B.E3.82.AF.E3.82.A8.E3.83.AA.E5.AE.9F.E8.A1.8C"><span class="tocnumber">5.5</span> <span class="toctext">【参考】SPARQLによるクエリ実行</span></a></li>
+<li class="toclevel-2 tocsection-29"><a href="#.E3.80.90.E5.8F.A4.E3.81.84.E6.83.85.E5.A0.B1.E3.80.91.E3.83.87.E3.83.BC.E3.82.BF.E3.81.AE.E7.B5.B1.E5.90.88.EF.BC.88HGNC.EF.BC.89"><span class="tocnumber">5.6</span> <span class="toctext">【古い情報】データの統合（HGNC）</span></a></li>
+<li class="toclevel-2 tocsection-30"><a href="#.E3.80.90.E5.8F.A4.E3.81.84.E6.83.85.E5.A0.B1.E3.80.91.E3.83.87.E3.83.BC.E3.82.BF.E3.81.AE.E7.B5.B1.E5.90.88.EF.BC.88UniProt.EF.BC.89"><span class="tocnumber">5.7</span> <span class="toctext">【古い情報】データの統合（UniProt）</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-31"><a href="#Linked_ICGC_.E9.96.8B.E7.99.BA.E3.83.AD.E3.82.B0.EF.BC.88.E4.B8.AD.E7.B6.99.E3.82.B5.E3.83.BC.E3.83.90.E3.83.BC.EF.BC.89"><span class="tocnumber">6</span> <span class="toctext">Linked ICGC 開発ログ（中継サーバー）</span></a>
+<ul>
+<li class="toclevel-2 tocsection-32"><a href="#.E4.B8.AD.E7.B6.99.E3.82.B5.E3.83.BC.E3.83.90.E3.83.BC.E3.81.AB.E3.82.88.E3.82.8B.E3.82.AD.E3.83.A3.E3.83.83.E3.82.B7.E3.83.B3.E3.82.B0"><span class="tocnumber">6.1</span> <span class="toctext">中継サーバーによるキャッシング</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-33"><a href="#Linked_ICGC_.E9.96.8B.E7.99.BA.E3.83.AD.E3.82.B0.EF.BC.88.E3.83.9D.E3.83.BC.E3.82.BF.E3.83.AB.EF.BC.89"><span class="tocnumber">7</span> <span class="toctext">Linked ICGC 開発ログ（ポータル）</span></a>
+<ul>
+<li class="toclevel-2 tocsection-34"><a href="#SPARQL_Tips"><span class="tocnumber">7.1</span> <span class="toctext">SPARQL Tips</span></a>
+<ul>
+<li class="toclevel-3 tocsection-35"><a href="#NULL.E3.81.A0.E3.81.A3.E3.81.9F.E3.82.89.22.28No_Data.29.22.E3.81.A8.E3.81.84.E3.81.86.E6.96.87.E5.AD.97.E5.88.97.E3.82.92.E8.BF.94.E3.81.99.E3.82.88.E3.81.86.E3.81.AB.E3.81.99.E3.82.8B"><span class="tocnumber">7.1.1</span> <span class="toctext">NULLだったら"(No Data)"という文字列を返すようにする</span></a></li>
+<li class="toclevel-3 tocsection-36"><a href="#.E3.81.A9.E3.81.AE.E3.82.A8.E3.83.B3.E3.83.86.E3.82.A3.E3.83.86.E3.82.A3.E3.81.8B.E3.82.89.E7.B5.90.E5.90.88.E3.81.99.E3.82.8B.E3.82.88.E3.81.86.E3.81.AB.E6.9B.B8.E3.81.8F.E3.81.8B"><span class="tocnumber">7.1.2</span> <span class="toctext">どのエンティティから結合するように書くか</span></a></li>
+</ul>
+</li>
+<li class="toclevel-2 tocsection-37"><a href="#d3sparql_.E5.A4.89.E6.9B.B4.E3.83.AA.E3.82.AF.E3.82.A8.E3.82.B9.E3.83.88"><span class="tocnumber">7.2</span> <span class="toctext">d3sparql 変更リクエスト</span></a></li>
+<li class="toclevel-2 tocsection-38"><a href="#.E3.83.AA.E3.83.80.E3.82.A4.E3.83.AC.E3.82.AF.E3.83.88.E8.A8.AD.E5.AE.9A"><span class="tocnumber">7.3</span> <span class="toctext">リダイレクト設定</span></a></li>
+<li class="toclevel-2 tocsection-39"><a href="#Fuseki_.E3.82.92.E4.BD.BF.E3.81.86.E5.A0.B4.E5.90.88.E3.81.AE.E6.B3.A8.E6.84.8F"><span class="tocnumber">7.4</span> <span class="toctext">Fuseki を使う場合の注意</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-40"><a href="#Linked_TCGA"><span class="tocnumber">8</span> <span class="toctext">Linked TCGA</span></a>
+<ul>
+<li class="toclevel-2 tocsection-41"><a href="#Linked_TCGA_.E3.81.AE.E6.A6.82.E8.A6.81"><span class="tocnumber">8.1</span> <span class="toctext">Linked TCGA の概要</span></a></li>
+<li class="toclevel-2 tocsection-42"><a href="#AWS.E3.81.A7.E3.83.AD.E3.83.BC.E3.83.89.E3.81.AE.E6.80.A7.E8.83.BD.E6.B8.AC.E5.AE.9A"><span class="tocnumber">8.2</span> <span class="toctext">AWSでロードの性能測定</span></a></li>
+<li class="toclevel-2 tocsection-43"><a href="#.E3.82.B5.E3.83.B3.E3.83.97.E3.83.ABSPARQL.E3.82.AF.E3.82.A8.E3.83.AA"><span class="tocnumber">8.3</span> <span class="toctext">サンプルSPARQLクエリ</span></a></li>
+</ul>
+</li>
+</ul>
+</td></tr></table><script>if (window.showTocToggle) { var tocShowText = "表示"; var tocHideText = "非表示"; showTocToggle(); } </script>
+<h2> <span class="mw-headline" id=".E3.81.8C.E3.82.93.E3.82.B2.E3.83.8E.E3.83.A0.E3.81.A8RDF.E3.81.AE.E6.A6.82.E8.A6.81"> がんゲノムとRDFの概要 </span></h2>
+<h3> <span class="mw-headline" id=".E5.8B.95.E6.A9.9F.E3.81.A8.E7.9B.AE.E7.9A.84"> 動機と目的 </span></h3>
+<ul><li> がんゲノム・データベースはサンプル（患者さん）の簡易な<b>診断データ</b>を含む。
+<ul><li> 将来は医療システム（電子カルテ等）との連携が考えられる。
+</li></ul>
+</li><li> がんゲノム・データベースは体細胞変異、遺伝子発現、タンパク発現、Metylation等、多様な<b>OMICSデータ</b>を含む。
+<ul><li> ENCODEデータのようなOMICSデータ（BEDファイル・レベルの情報）も今のところRDF化されていない。
+</li><li> BEDファイル・レベルの情報をRDF化するメリットはあるのか？
+</li></ul>
+</li><li> 診断データとOMICSデータを<b>RDF化して統合検索</b>するモデルは作れるか。
+<ul><li> 将来は、電子カルテ（診断）と配列（OMICS）の統合検索が必要になるため、そのひな形になるか。
+</li><li> これに加えて、公共のRDFデータを加えた検索ができるとさらによい。
+</li><li> まずは、<b>ICGC Data Portal 同様の検索画面</b>をRDFベースで作れるか。- <a href="https://dcc.icgc.org/search" class="external free" rel="nofollow">https://dcc.icgc.org/search</a>
+</li><li> もしかしたら、Stanza で開発工数を減らせるか。
+</li></ul>
+</li></ul>
+<h3> <span class="mw-headline" id=".E6.97.A2.E5.AD.98.E3.81.AERDF.E5.8C.96.E3.83.97.E3.83.AD.E3.82.B8.E3.82.A7.E3.82.AF.E3.83.88"> 既存のRDF化プロジェクト </span></h3>
+<ul><li> COSMIC
+<ul><li> D2RQでエンドポイント公開 - <a href="http://journal.embnet.org/index.php/embnetjournal/article/view/585" class="external text" rel="nofollow">リンク</a>
+</li><li> これは紛らわしい名前だが関係ない - <a href="http://tw.rpi.edu/web/cosmic_sparql_tutorial" class="external text" rel="nofollow">COSMIC SPARQL Endpoint</a>
+</li></ul>
+</li><li> TCGA &gt; <a href="http://tcga.deri.ie/" class="external text" rel="nofollow">Linked TCGA</a>
+</li><li> ICGC &gt; <b>ないようなので作る！</b>
+</li></ul>
+<h2> <span class="mw-headline" id="Linked_ICGC_.E6.A6.82.E8.A6.81"> Linked ICGC 概要 </span></h2>
+<h3> <span class="mw-headline" id=".E3.82.B5.E3.82.A4.E3.83.88"> サイト </span></h3>
+<ul><li> ICGC --------&gt; <a href="https://dcc.icgc.org/" class="external free" rel="nofollow">https://dcc.icgc.org/</a>
+</li><li> Linked ICGC --&gt; <a href="http://icgc.link/" class="external free" rel="nofollow">http://icgc.link/</a>
+</li></ul>
+<h3> <span class="mw-headline" id=".E9.96.8B.E7.99.BA.E6.96.B9.E9.87.9D"> 開発方針 </span></h3>
+<ul><li> <b>Linked ICGC</b> データを作って Data Portal の一部を SPARQL ベースで実装
+</li></ul>
+<ol><li> ICGC Data Portal から Clinical Data と Simple Somatic Mutation のデータをダウンロード
+<ul><li> Donor Data - <a href="http://docs.icgc.org/donor-data-file-donor" class="external free" rel="nofollow">http://docs.icgc.org/donor-data-file-donor</a>
+</li><li> Simple Somatic Mutation - <a href="http://docs.icgc.org/icgc-simple-somatic-mutation-format" class="external free" rel="nofollow">http://docs.icgc.org/icgc-simple-somatic-mutation-format</a>
+</li><li> Mutation の ID 付けなど処理済み - <a href="http://docs.icgc.org/methods" class="external free" rel="nofollow">http://docs.icgc.org/methods</a>
+</li></ul>
+</li><li> RDFに変換して、Virtuoso にロード
+<ul><li> RDFに変換（詳細は下記）
+</li><li> Virtuosoにロード、統合するデータもロード、結合用データを生成
+</li><li> 全てをロード
+</li></ul>
+</li><li> SPARQL を発行、D3SPARQLでグラフを描画
+</li></ol>
+<ul><li> <b>ダウンロードできる表データ</b>
+<ul><li> 表データのRDFへの変換 〜 表の正規化とD2RQ（DirectMapping）
+</li><li> ダウンロードできるデータは非正規化されている。 <a href="http://docs.icgc.org/clinical-data-submission-file-specifications" class="external text" rel="nofollow">例、この3つの表は1つになっている</a>
+</li></ul>
+</li></ul>
+<ul><li> そこで、<b>表データのRDF化手順</b>
+</li></ul>
+<ol><li> 表データをMySQLにロードする。この表は正規化されていない可能性がある。
+</li><li> 表をMySQL内の他の表にSELECT-INSERTで第3正規形にする。（後に、主キー列が主語で従属列が目的語のトリプルが生成される。）
+</li><li> D2RQ等でマッピングを生成し、必要に応じてこれを修正する。
+</li></ol>
+<p><br />
+</p>
+<h3> <span class="mw-headline" id=".E3.83.87.E3.83.BC.E3.82.BF.E7.B5.B1.E5.90.88.E3.81.A7.E4.BD.95.E3.81.8C.E3.81.A7.E3.81.8D.E3.82.8B.E3.81.8B"> データ統合で何ができるか </span></h3>
+<ul><li> <b>遺伝子</b>を他のデータセットとリンク
+<ul><li> アノテーションの検索、遺伝子変異の多く見られるパスウェイや GO の抽出
+<ul><li> この機能は本家 ICGC データ・ポータルにも実装されている
+</li><li> WikiPathway など、他のデータセットとも統合が容易といえるか
+</li></ul>
+</li></ul>
+</li></ul>
+<ul><li> <b>変異</b>を他のデータセットとリンク
+<ul><li> 日本人ゲノム情報との統合 &gt;&gt; 変異から日本人レア・バリアントを除外できる
+</li></ul>
+</li></ul>
+<ul><li> <b>ドナー</b>を他のデータセットとリンク
+<ul><li> バイオバンクのドナー情報（+ 標本とサンプルの情報）？
+</li><li> 電子カルテのドナー情報（+ より詳しい診断情報）？
+</li><li> 治験のドナー情報？
+</li></ul>
+</li></ul>
+<h2> <span class="mw-headline" id="Linked_ICGC_.E4.BB.95.E7.B5.84.E3.81.BF"> Linked ICGC 仕組み </span></h2>
+<h3> <span class="mw-headline" id=".E3.82.B5.E3.82.A4.E3.83.88_2"> サイト </span></h3>
+<p>[GitHub] <a href="https://github.com/ryotas/linked-icgc" class="external free" rel="nofollow">https://github.com/ryotas/linked-icgc</a>
+</p>
+<h3> <span class="mw-headline" id=".E3.82.B9.E3.82.AD.E3.83.BC.E3.83.9E"> スキーマ </span></h3>
+<ul><li> スキーマ図
+<ul><li> <a href="https://drive.google.com/file/d/0BzEMcTdQSBd7MzhtRXJUSERNU1E/view?usp=sharing" class="external text" rel="nofollow">v0.2</a>
+</li><li> <a href="https://drive.google.com/file/d/0BzEMcTdQSBd7WmR2MDlhWlFfTkU/view?usp=sharing" class="external text" rel="nofollow">v0.1</a>
+</li><li> <a href="http://wiki.lifesciencedb.jp/mw/%E3%83%95%E3%82%A1%E3%82%A4%E3%83%AB:CancerGenome02.png" class="external text" rel="nofollow">v0.0</a>
+</li></ul>
+</li></ul>
+<ul><li> <b>clinicalデータ</b>と<b>sampleデータ</b>のオリジナルのスキーマは<a href="http://docs.icgc.org/clinical-data-submission-file-specifications" class="external text" rel="nofollow">これ</a>
+</li></ul>
+<p><a href="/mw/%E3%83%95%E3%82%A1%E3%82%A4%E3%83%AB:CancerGenome01.png" class="image"><img alt="CancerGenome01.png" src="/mw/images/0/03/CancerGenome01.png" width="645" height="250" /></a>
+</p>
+<ul><li> <b>ssm (体細胞変異) データ</b>はmutation_idに従属する列と各変異の影響（DNAまたはRNAの置換等）が結合されている
+<ul><li> 正規化された表定義は見当たらないが以下参考
+<ul><li> Primary Analysis - <a href="http://docs.icgc.org/simple-somatic-mutations-ssm-primary-analysis-file-p" class="external free" rel="nofollow">http://docs.icgc.org/simple-somatic-mutations-ssm-primary-analysis-file-p</a>
+</li><li> Analysis Metadata - <a href="http://docs.icgc.org/simple-somatic-mutations-ssm-analysis-metadata-file-m" class="external free" rel="nofollow">http://docs.icgc.org/simple-somatic-mutations-ssm-analysis-metadata-file-m</a>
+</li></ul>
+</li></ul>
+</li></ul>
+<p><br />
+</p>
+<h3> <span class="mw-headline" id="ICGC.E3.83.87.E3.83.BC.E3.82.BF"> ICGCデータ </span></h3>
+<ul><li> <b>二次配布</b> -- 推奨されている。<a href="https://icgc.org/icgc/goals-structure-policies-guidelines/e9-data-management" class="external text" rel="nofollow">E9. Data Management Box 8</a>
+<ul><li> "Other portals: The ICGC should encourage the redistribution, integration and visualization of the data by community bioinformatics portals."
+</li></ul>
+</li><li> ある変異（例えばMU832963）が同じProjectでのみ高頻度に見つかっている場合がある。これは検出バイアスを示唆するか。このようなケースをクエリできるか。
+</li></ul>
+<h3> <span class="mw-headline" id=".E4.B8.AD.E7.B6.99.E3.82.B5.E3.83.BC.E3.83.90.E3.83.BC"> 中継サーバー </span></h3>
+<p>クライアントアプリはSPARQLを直接 SPARQL Endpoint（= DB Server）に投げるのではなく、中継サーバーに投げる。
+</p>
+<ul><li> インストール方法：<a href="https://github.com/ryotas/sparql-gateway" class="external free" rel="nofollow">https://github.com/ryotas/sparql-gateway</a>
+</li></ul>
+<h3> <span class="mw-headline" id=".E3.83.9D.E3.83.BC.E3.82.BF.E3.83.AB"> ポータル </span></h3>
+<p>ポータルはJavaScriptで書かれたクライアントアプリ
+</p>
+<ul><li> ポータル：<a href="https://github.com/ryotas/linked-icgc-portal" class="external free" rel="nofollow">https://github.com/ryotas/linked-icgc-portal</a>
+</li></ul>
+<pre>git clone <a href="https://github.com/ryotas/linked-icgc-portal" class="external free" rel="nofollow">https://github.com/ryotas/linked-icgc-portal</a>
+cp -r ./linked-icgc-portal/* /var/www/html/
+</pre>
+<h3> <span class="mw-headline" id=".E6.97.A2.E7.9F.A5.E3.81.AE.E5.95.8F.E9.A1.8C"> 既知の問題 </span></h3>
+<ul><li> SSM (Mutation) の検出がされていないサンプルについて、本家ではDonor数に数えられるが、Linkedではクエリ上これが出てこないため（donorとdetectionを結合してしまっている）、そのようなサンプルを含むプロジェクト（BLCA-US, BRCA-UK）ではDonor数が少なく見える
+</li></ul>
+<h2> <span class="mw-headline" id="Linked_ICGC_.EF.BC.88.E3.83.87.E3.83.BC.E3.82.BF.E7.94.9F.E6.88.90.EF.BC.89.E3.81.AE.E6.89.8B.E9.A0.86"> Linked ICGC （データ生成）の手順 </span></h2>
+<h3> <span class="mw-headline" id="21_sed.sh:_.E7.A9.BA.E6.96.87.E5.AD.97.E3.82.92NULL.E3.81.AB.E5.A4.89.E6.8F.9B.E3.81.99.E3.82.8B"> 21_sed.sh: 空文字をNULLに変換する </span></h3>
+<p>ダウンロードされたファイルはタブ区切り形式で、値がない場合は空文字（タブが並んでいる）です。データベースには空文字やゼロではなく、NULLとしてロードしたいため、「\N」で空文字を置換します。
+</p>
+<pre>cat clinical.tsv | awk -F"\t" '{for(i=1;i&lt;=NF;i++){if($i==""){$i="\\N"}}OFS="\t";print}' &gt; clinical_sed.tsv
+</pre>
+<h3> <span class="mw-headline" id="22_mysql.sh:_.E4.B8.BB.E3.82.AD.E3.83.BC.E3.81.A8.E5.A4.96.E9.83.A8.E3.82.AD.E3.83.BC"> 22_mysql.sh: 主キーと外部キー </span></h3>
+<p>これらのキーは各 ICGC データを MySQL のデータベースにロードした際に付加しています（22_mysql.sh）。付加することで ICGC からダウンロードしたデータの整合性（IDの一意性、Not NULL、IDの参照）を確認しています。
+</p>
+<ul><li> project
+<ul><li> PK: project_code
+</li></ul>
+</li></ul>
+<ul><li> donor
+<ul><li> PK: icgc_donor_id
+</li><li> FK: project_code --&gt; project.project_code
+</li></ul>
+</li></ul>
+<ul><li> specimen
+<ul><li> PK: icgc_specimen_id
+</li><li> FK: project_code --&gt; project.project_code
+</li><li> FK: icgc_donor_id --&gt; donor.icgc_donor_id
+</li></ul>
+</li></ul>
+<ul><li> sample
+<ul><li> PK: icgc_sample_id
+</li><li> FK: project_code --&gt; project.project_code
+</li><li> FK: icgc_donor_id --&gt; donor.icgc_donor_id
+</li><li> FK: icgc_specimen_id --&gt; specimen.icgc_specimen_id
+</li></ul>
+</li></ul>
+<ul><li> ssm_mutation
+<ul><li> PK: icgc_mutation_id
+</li></ul>
+</li></ul>
+<ul><li> ssm_detection
+<ul><li> PK: icgc_donor_id, icgc_specimen_id, icgc_sample_id, icgc_mutation_id
+</li><li> FK: project_code --&gt; project.project_code
+</li><li> FK: icgc_donor_id --&gt; donor.icgc_donor_id
+</li><li> FK: icgc_specimen_id --&gt; specimen.icgc_specimen_id
+</li><li> FK: icgc_sample_id --&gt; sample.icgc_sample_id
+</li><li> FK: icgc_mutation_id --&gt; ssm_mutation.icgc_mutation_id
+</li></ul>
+</li></ul>
+<ul><li> ssm_effect
+<ul><li> PK: icgc_mutation_id, transcript_affected
+</li><li> FK: icgc_mutation_id --&gt; ssm_mutation.icgc_mutation_id
+</li></ul>
+</li></ul>
+<p>ここで主キーの値はリソース URI を作成するために使用することができるため、これに従ってマッピングを定義します。
+</p><p>例：
+</p>
+<pre>
+map:ssm_effect a d2rq:ClassMap;
+   d2rq:class &lt;Effect&gt;;
+   d2rq:dataStorage map:database;
+   d2rq:uriPattern &quot;Effect/@@ssm_effect.icgc_mutation_id@@_@@ssm_effect.transcript_affected@@&quot; . &lt;-- ssm_effect の主キー
+</pre>
+<h3> <span class="mw-headline" id="23_d2rq.sh:_D2RQ_.E3.81.A7.E3.83.80.E3.83.B3.E3.83.97"> 23_d2rq.sh: D2RQ でダンプ </span></h3>
+<ul><li> MySQL から D2RQ で RDF データをダンプする
+</li></ul>
+<pre>cd d2rq/d2rq-0.8.1
+./dump-rdf -b <a href="http://icgc.link/" class="external free" rel="nofollow">http://icgc.link/</a> --verbose mapping-w3c.ttl &gt; $HOME/data/icgc.nt
+</pre>
+<ul><li> この際、性能向上のため、表の JOIN があるとき（＝ SPO の O が URI であるとき）参照されている列に索引を張っておく
+</li></ul>
+<pre>$ vi sql/31_index.sql
+CREATE INDEX idx_project ON project (project_code);
+CREATE INDEX idx_donor ON donor (donor_id);
+CREATE INDEX idx_ssm_mutation ON ssm_mutation (mutation_id);
+</pre>
+<h3> <span class="mw-headline" id="30_load.sh:_Virtuoso.E3.81.B8.E3.81.AE.E3.83.AD.E3.83.BC.E3.83.89"> 30_load.sh: Virtuosoへのロード </span></h3>
+<p>Virtuosoの設定
+</p>
+<ul><li> t2.medium（メモリ 4GB）で4GB用の設定にするとデータのロード中になぜか落ちてしまうので2GB用の設定にしておく
+</li><li> データ作成時には、r3.xlarge（メモリ 30GB）を使い32GB用の設定にしている
+</li></ul>
+<pre>./virtuoso.sh edit
+;; Uncomment next two lines if there is 2 GB system memory free
+NumberOfBuffers          = 170000
+MaxDirtyBuffers          = 130000
+</pre>
+<ul><li> ロードするファイルを置くディレクトリを指定する
+</li></ul>
+<pre>DirsAllowed    = ., /usr/local/share/virtuoso/vad, /home/ec2-user/linked-icgc/rdfize/output
+</pre>
+<p>Virtuosoを起動
+</p>
+<pre>./virtuoso.sh start
+</pre>
+<p>既存のグラフをクリアする
+</p>
+<pre>./virtuoso.sh clear <a href="http://icgc.link/graph" class="external free" rel="nofollow">http://icgc.link/graph</a>
+</pre>
+<p>Linked-ICGCのロード
+</p>
+<pre>time ./virtuoso.sh loaddir /home/ec2-user/linked-icgc/rdfize/output *.nt <a href="http://icgc.link/graph" class="external free" rel="nofollow">http://icgc.link/graph</a>
+</pre>
+<p>Bio2RDFデータのロード
+</p>
+<ul><li> 引数がよくわからないので loadttl でなく loaddir を使っている
+</li><li> その場合、quad だがグラフの指定は必要、実際にはこのグラフは作成されず、グラフは「<a href="http://bio2rdf.org/hgnc_resource:bio2rdf.dataset.hgnc.R3」となる" class="external free" rel="nofollow">http://bio2rdf.org/hgnc_resource:bio2rdf.dataset.hgnc.R3」となる</a>
+</li></ul>
+<pre>time ./virtuoso.sh loaddir /home/ec2-user/data hgnc_complete_set.nq <a href="http://hoge/" class="external free" rel="nofollow">http://hoge/</a>
+</pre>
+<p>完了次第、EC2をシャットダウンしたいとき
+</p>
+<pre>(time ./virtuoso.sh loaddir /home/ec2-user/data *.nt <a href="http://icgc.link/graph" class="external free" rel="nofollow">http://icgc.link/graph</a> &gt; /home/ec2-user/data/icgc.log; sudo shutdown -h now) &amp;
+</pre>
+<h3> <span class="mw-headline" id="40_construct.sh:_.E5.A4.96.E9.83.A8.E3.83.87.E3.83.BC.E3.82.BF.E3.81.AE.E5.8F.82.E7.85.A7.E7.94.A8.E3.81.AE.E3.83.88.E3.83.AA.E3.83.97.E3.83.AB.E3.81.AE.E4.BD.9C.E6.88.90"> 40_construct.sh: 外部データの参照用のトリプルの作成 </span></h3>
+<p>クエリの実行時間が長いので、タイムアウトしないように設定変更しておく。
+</p>
+<pre>$ ~/virtuoso.sh edit
+;MaxQueryCostEstimationTime     = 400  &nbsp;; in seconds
+MaxQueryExecutionTime           = 6000 &nbsp;; in seconds
+</pre>
+<p>40_construct.sh を実行してトリプルを作成する。
+</p>
+<pre>$ sh 40_construct.sh 
+</pre>
+<p>40_construct.sh では次のように Construct クエリを実行している。
+</p>
+<pre>node ~/sparql-gateway/client.js ./construct/gene.sql ./output/x-gene.nt
+</pre>
+<p>生成されたトリプルをロードする。
+</p>
+<pre>time ~/virtuoso.sh loaddir ~/linked-icgc/output x-gene.nt <a href="http://icgc.link/release_18" class="external free" rel="nofollow">http://icgc.link/release_18</a>
+</pre>
+<h3> <span class="mw-headline" id="50_dump_graph.sh:_Virtuoso.E3.81.A7.E3.82.B0.E3.83.A9.E3.83.95.E3.82.92.E3.83.80.E3.83.B3.E3.83.97.E3.81.99.E3.82.8B"> 50_dump_graph.sh: Virtuosoでグラフをダンプする </span></h3>
+<p>dump_one_graph プロシージャを使用してグラフを .ttl ファイルにダンプし、圧縮します。
+</p><p>dump_one_graph プロシージャを作成するため、以下のページのスクリプトを実行します。
+</p>
+<ul><li> プロシージャ <a href="http://virtuoso.openlinksw.com/dataspace/doc/dav/wiki/Main/VirtRDFDatasetDump" class="external free" rel="nofollow">http://virtuoso.openlinksw.com/dataspace/doc/dav/wiki/Main/VirtRDFDatasetDump</a>
+</li></ul>
+<p>次に、50_dump_graph.sh を実行します。
+</p>
+<pre>$ sh linked-icgc/50_dump_graph.sh
+</pre>
+<p>50_dump_graph.sh の中身は次の通りです。
+</p>
+<pre>#/bin/sh!
+cd /usr/local/var/lib/virtuoso/db
+echo -e "dump_one_graph ('<a href="http://icgc.link/release_18','./data_',50000000000);\n" class="external free" rel="nofollow">http://icgc.link/release_18','./data_',50000000000);\n</a>" | sh ~/virtuoso.sh isql
+</pre>
+<p>データを移動しておきます。
+</p>
+<pre>$ mv /usr/local/var/lib/virtuoso/db/data_000001.ttl.gz ~/linked-icgc_20/output/all_projects.ttl.gz
+</pre>
+<p>展開して、ロードできることを確認します。（圧縮されたままだとロードできません。）
+</p>
+<pre>$ gunzip ~/linked-icgc_20/output/all_projects.ttl.gz
+$ ~/virtuoso.sh loadttl /home/ec2-user/linked-icgc_20/output/all_projects.ttl <a href="http://icgc.link/release_20" class="external free" rel="nofollow">http://icgc.link/release_20</a>
+</pre>
+<h3> <span class="mw-headline" id=".E4.B8.8A.E8.A8.98.E3.81.AE.E5.87.A6.E7.90.86.E3.82.92.E9.80.9A.E3.81.97.E3.81.A6.E5.AE.9F.E8.A1.8C"> 上記の処理を通して実行 </span></h3>
+<p>既存のデータベースを一度削除
+</p>
+<pre>~/virtuoso.sh stop
+~/virtuoso.sh remove
+~/virtuoso.sh start
+</pre>
+<p>RDFの作成からロードまで実行
+</p>
+<pre>cd ~/linked-icgc
+sh 10_download_all.sh projects_all.txt
+sh 20_convert.sh projects_all.txt
+sh 30_load.sh
+sh 40_construct.sh
+sh 50_dump_graph.sh
+</pre>
+<h2> <span class="mw-headline" id="Linked_ICGC_.EF.BC.88.E3.83.87.E3.83.BC.E3.82.BF.E7.94.9F.E6.88.90.EF.BC.89.E3.81.AE.E8.A3.9C.E8.B6.B3"> Linked ICGC （データ生成）の補足 </span></h2>
+<h3> <span class="mw-headline" id="D2RQ_Mapping.E3.81.AE.E3.81.97.E3.81.8F.E3.81.BF"> D2RQ Mappingのしくみ </span></h3>
+<p>ここでは、D2RQ によって自動的に作成されるマッピングについて見てみます。この自動作成機能は ER モデルをどうやって RDF にマッピングできるかを考える上で興味深いもので、似たものとして W3C 勧告の Direct Mapping があります。今回はこの自動作成を使用して作成したマッピングを手作業で修正しています。将来的には、後述の D2RQ Mapper を使用してマッピングを作成することにしたいと考えています。
+</p><p>D2RQ の自動作成機能は、各テーブルの主キーと外部キーから、リソースとなる列やリソース間の関係性の定義を判別しています。このため、各テーブルが第三正規化されていて、主キーと外部キーた意味的に正しく付与されている必要があります。
+</p><p>主キーを与える
+</p>
+<pre>ALTER TABLE ssm_detection ADD PRIMARY KEY (donor_id, mutation_id, specimen_id);
+</pre>
+<p>この場合のURIは次のようになる
+</p>
+<pre><a href="http://localhost:2020/resource/ssm_detection/donor_id=DO46788;mutation_id=MU102219;specimen_id=SP102622" class="external free" rel="nofollow">http://localhost:2020/resource/ssm_detection/donor_id=DO46788;mutation_id=MU102219;specimen_id=SP102622</a>
+</pre>
+<p>外部キーを与える
+</p>
+<pre>ALTER TABLE ssm_detection ADD FOREIGN KEY (donor_id) REFERENCES donor (donor_id);
+</pre>
+<p>そうすることで、表のJOINが可能になる
+</p>
+<pre>SELECT DISTINCT * WHERE {
+ &nbsp;?mutation &lt;<a href="http://localhost:2020/resource/ssm_detection#mutation_id" class="external free" rel="nofollow">http://localhost:2020/resource/ssm_detection#mutation_id</a>&gt;&nbsp;?mutation_id .
+ &nbsp;?mutation &lt;<a href="http://localhost:2020/resource/ssm_detection#ref-donor_id" class="external free" rel="nofollow">http://localhost:2020/resource/ssm_detection#ref-donor_id</a>&gt;&nbsp;?donor .              &lt;-- ref-*** というのができる
+ &nbsp;?donor &lt;<a href="http://localhost:2020/resource/donor#donor_id" class="external free" rel="nofollow">http://localhost:2020/resource/donor#donor_id</a>&gt;&nbsp;?donor_id .
+}
+LIMIT 10
+</pre>
+<ul><li> D2RQのDirectMapping作成機能(--w3cオプション)というのは使えていないようだ
+<ul><li> DirectMappingを使用するために他に使えるソフトウェアは？<a href="http://docs.oracle.com/database/121/RDFRM/sem_relational_views.htm#RDFRM555" class="external text" rel="nofollow">Oracle12c</a>も試したい。
+</li></ul>
+</li></ul>
+<h3> <span class="mw-headline" id="D2RQ_Mapper.E3.81.A7.E3.83.9E.E3.83.83.E3.83.94.E3.83.B3.E3.82.B0.E3.82.92.E4.BD.9C.E6.88.90.E3.81.99.E3.82.8B"> D2RQ Mapperでマッピングを作成する </span></h3>
+<h3> <span class="mw-headline" id=".E3.83.9E.E3.83.83.E3.83.94.E3.83.B3.E3.82.B0.E3.83.95.E3.82.A1.E3.82.A4.E3.83.AB.E3.81.AE.E4.BF.AE.E6.AD.A3"> マッピングファイルの修正 </span></h3>
+<p>D2RQ Mapper を使ったマッピングを後から手作業で修正します
+</p><p>Class の URI を変更します
+</p>
+<ul><li> donor/donor_id=XXXXX    &gt;&gt;    Donor/XXXXX
+</li></ul>
+<p>例：
+</p>
+<pre>
+map:donor a d2rq:ClassMap;
+   d2rq:class &lt;Donor&gt;;
+   d2rq:dataStorage map:database;
+   d2rq:uriPattern &quot;Donor/@@donor.donor_id@@&quot; .
+</pre>
+<p>全ての property は vocab/ にします （各表で行名が同じ場合、意味の異なる property が同じ名前になる可能性があることに注意）
+</p>
+<ul><li> donor#donor_id    &gt;&gt;    vocab/donor_id
+</li><li> project#project_code     &gt;&gt;    vocab/project_code
+</li></ul>
+<p>例：
+</p>
+<pre>
+map:donor_icgc_donor_id a d2rq:PropertyBridge;
+   d2rq:belongsToClassMap map:donor;
+   d2rq:column &quot;donor.icgc_donor_id&quot;;
+   d2rq:property vocab:donor_id .
+</pre>
+<p>外部 URI を参照したい場合は URI をベタ書きします
+</p>
+<pre>
+map:ssm_effect_gene_affected a d2rq:PropertyBridge;
+   d2rq:belongsToClassMap map:ssm_effect;
+   d2rq:property vocab:gene_affected;
+   d2rq:uriPattern &quot;http://purl.uniprot.org/ensembl/@@ssm_effect.gene_affected@@&quot; .
+</pre>
+<p>本当は以下のように PREFIX を使って書きたかったけれど、
+</p>
+<pre>
+@prefix up-ensembl: &lt;http://purl.uniprot.org/ensembl/&gt; .
+
+map:ssm_effect_gene_affected a d2rq:PropertyBridge;
+   d2rq:belongsToClassMap map:ssm_effect;
+   d2rq:property vocab:gene_affected;
+   d2rq:uriPattern &quot;up-ensembl:@@ssm_effect.gene_affected@@&quot; .
+</pre>
+<p>これだと以下のように出力されてしまう。残念。
+</p>
+<pre>(s) (p) &lt;up-ensembl:ENSG00000068078&gt; .
+</pre>
+<p>同じカラムから2つのトリプルは作れない。もしかしたら定義方法があるかもしれないが、この場合は、後からconstructでsameAsのトリプルを作るほうが分かりやすいデータになると考えられる。
+</p>
+<ul><li> 仕様 <a href="http://d2rq.org/d2rq-language#property-bridge-properties" class="external free" rel="nofollow">http://d2rq.org/d2rq-language#property-bridge-properties</a>
+</li></ul>
+<p>つまり、こういう風に書いても、はじめのトリプルしか出力されない。
+</p>
+<pre>
+map:ssm_effect_gene_affected a d2rq:PropertyBridge;
+   d2rq:belongsToClassMap map:ssm_effect;
+   d2rq:property vocab:gene_affected;
+   d2rq:uriPattern &quot;http://purl.uniprot.org/ensembl/@@ssm_effect.gene_affected@@&quot; .
+
+map:ssm_effect_gene_affected a d2rq:PropertyBridge;
+   d2rq:belongsToClassMap map:ssm_effect;
+   d2rq:property vocab:gene_affected;
+   d2rq:uriPattern &quot;http://bio2rdf.org/ensembl:@@ssm_effect.gene_affected@@&quot; .
+</pre>
+<p>このため、ICGC の名前空間で Gene オブジェクトを作っておいて、
+</p>
+<pre>
+map:ssm_effect_gene_affected a d2rq:PropertyBridge;
+   d2rq:belongsToClassMap map:ssm_effect;
+   d2rq:property vocab:gene_affected;
+   d2rq:uriPattern &quot;Gene/@@ssm_effect.gene_affected@@&quot; .
+</pre>
+<p>それと sameAs で UniProt と HGNC にリンクさせる。ついでに、dcterms:identifier も作成しておく。
+</p>
+<ul><li> construct/gene.sql
+</li></ul>
+<pre>
+PREFIX icgc: &lt;http://icgc.link/vocab/&gt;
+PREFIX dcterms: &lt;http://purl.org/dc/terms/&gt;
+CONSTRUCT {
+ &nbsp;?uri_icgc dcterms:identifier&nbsp;?postfix .
+ &nbsp;?uri_icgc owl:sameAs&nbsp;?uri_uniprot .
+ &nbsp;?uri_icgc owl:sameAs&nbsp;?uri_bio2rdf .
+}
+WHERE {
+ &nbsp;?s icgc:gene_affected&nbsp;?uri_icgc .
+  FILTER(!(?postfix=&quot;&quot;))
+  BIND (REPLACE(str(?uri_icgc), &quot;^.*Gene/&quot;, &quot;&quot;) AS&nbsp;?postfix)
+  BIND (IRI(CONCAT(&quot;http://purl.uniprot.org/ensembl/&quot;,?postfix)) as&nbsp;?uri_uniprot)
+  BIND (IRI(CONCAT(&quot;http://bio2rdf.org/ensembl:&quot;,?postfix)) as&nbsp;?uri_bio2rdf)
+}
+</pre>
+<h3> <span class="mw-headline" id=".E3.80.90.E5.8F.82.E8.80.83.E3.80.91Virtuoso.E3.81.AB.E6.8E.A5.E7.B6.9A.E3.81.A7.E3.81.8D.E3.81.AA.E3.81.8F.E3.81.AA.E3.81.A3.E3.81.A6.E3.81.97.E3.81.BE.E3.81.A3.E3.81.9F.E3.81.A8.E3.81.8D"> 【参考】Virtuosoに接続できなくなってしまったとき </span></h3>
+<p>このようなエラーメッセージで接続できない
+</p>
+<pre>*** Error S2801: [Virtuoso Driver]CL033: Connect failed to 1111 = 1111.
+at line 0 of Top-Level:
+</pre>
+<p>そんなときは、lockファイルを削除して再起動
+</p>
+<pre>rm /usr/local/var/lib/virtuoso/db/virtuoso.lck
+</pre>
+<h3> <span class="mw-headline" id=".E3.80.90.E5.8F.82.E8.80.83.E3.80.91SPARQL.E3.81.AB.E3.82.88.E3.82.8B.E3.82.AF.E3.82.A8.E3.83.AA.E5.AE.9F.E8.A1.8C"> 【参考】SPARQLによるクエリ実行 </span></h3>
+<ul><li> 集約関数： COUNT, SUM, MIN, MAX, AVG, GROUP_CONCAT, SAMPLE
+</li><li> 数値関数： ABS, ROUND, CEIL, FLOOR, RAND
+</li></ul>
+<ul><li> アンチパターン（Virtuoso）
+<ul><li> これは遅い WHERE {&nbsp;?s&nbsp;?p&nbsp;?o FILTER(STR(?o) = "ENSG00000005187") } --&nbsp;?o の索引が使えないからか
+</li><li> こうした方がいい WHERE {&nbsp;?s&nbsp;?p&nbsp;?o FILTER(?o = "ENSG00000005187" OR&nbsp;?o = "ENSG00000005187"^^xsd:string) }
+</li></ul>
+</li></ul>
+<h3> <span class="mw-headline" id=".E3.80.90.E5.8F.A4.E3.81.84.E6.83.85.E5.A0.B1.E3.80.91.E3.83.87.E3.83.BC.E3.82.BF.E3.81.AE.E7.B5.B1.E5.90.88.EF.BC.88HGNC.EF.BC.89"> 【古い情報】データの統合（HGNC） </span></h3>
+<ul><li> 遺伝子のクロスリファレンス / Bio2RDF の <a href="http://download.bio2rdf.org/release/3/hgnc/" class="external text" rel="nofollow">HGNC</a> (hgnc_complete_set.nq.gz)
+<ul><li> リテラル（ensemble gene ID）同士を名寄せしなければならないため負荷が大きい。特に型指定が異なることを考慮する必要がある（str()関数を使っている）
+</li><li> 最も簡潔に統合する方法は次のCONSTRUCTか。ICGCのMutationからBio2RDFのGeneに「ssm_effect:gene_affected_bio2rdf」でつながる。
+</li></ul>
+</li></ul>
+<pre>
+CONSTRUCT {
+ &nbsp;?mutation ssm_effect:gene_affected_bio2rdf&nbsp;?gene_id
+} WHERE {
+ &nbsp;?gene_id bio2rdf_vocabulary:identifier&nbsp;?id1 .
+ &nbsp;?mutation ssm_effect:gene_affected&nbsp;?id2 .
+  FILTER (STR(?id1) =&nbsp;?id2)
+}
+</pre>
+<p>IRI関数を使ってIRIを作ってしまう方法もある。これを使えばon-the-flyでもわりと負荷少なくなるかな？
+</p>
+<pre>
+CONSTRUCT {
+ &nbsp;?ssm ssm_effect:gene_affected&nbsp;?iri
+} WHERE {
+ &nbsp;?ssm ssm_effect:gene_affected&nbsp;?id .
+  BIND(IRI(CONCAT(&quot;http://bio2rdf.org/ensembl:&quot;,&nbsp;?id)) AS&nbsp;?iri)
+}
+</pre>
+<p>と思って書いてみたけど、Extimation 402 sec でボツ
+</p>
+<pre>
+SELECT
+  (?gene_uri AS&nbsp;?Gene)
+  (?count AS&nbsp;?Donors)
+WHERE {
+  {
+  SELECT
+   &nbsp;?gene
+    (COUNT(*) AS&nbsp;?count)
+  WHERE {    
+    SELECT DISTINCT
+     &nbsp;?gene
+     &nbsp;?donor
+    WHERE {
+     &nbsp;?effect ssm_effect:ref-mutation_id&nbsp;?mutation .
+     &nbsp;?effect ssm_effect:gene_affected&nbsp;?gene .
+     &nbsp;?mutation ssm_mutation:mutation_id&nbsp;?mutation_id .
+     &nbsp;?detection ssm_detection:ref-mutation_id&nbsp;?mutation .
+     &nbsp;?detection ssm_detection:ref-donor_id&nbsp;?donor .
+    }
+  }
+  GROUP BY&nbsp;?gene
+  }
+ &nbsp;?gene_uri bio2rdf_vocabulary:identifier&nbsp;?iri
+  BIND(IRI(CONCAT(&quot;http://bio2rdf.org/ensembl:&quot;,&nbsp;?gene)) AS&nbsp;?iri)
+}
+ORDER BY DESC(?Donors)
+LIMIT 20
+</pre>
+<p>もうINSERTしかない。これだと、Bio2RDFになりensemble gene IDのトリプルは作成されない。結合が目的ならばこれは正しい。
+</p>
+<pre>
+INSERT {
+  GRAPH &lt;http://icgc.link/graph/insert_01&gt; {
+   &nbsp;?mutation ssm_effect:gene_affected_bio2rdf&nbsp;?gene_id
+  }
+} WHERE {
+ &nbsp;?gene_id bio2rdf_vocabulary:identifier&nbsp;?id1 .
+ &nbsp;?mutation ssm_effect:gene_affected&nbsp;?id2 .
+  FILTER (STR(?id1) =&nbsp;?id2)
+}
+</pre>
+<p>しかし、そういうGeneの分もトリプルを作っておいたほうが結合時にフィルタされる様子がわかりやすそうだ。
+</p>
+<pre>
+INSERT {
+  GRAPH &lt;http://icgc.link/graph/insert_01&gt; {
+   &nbsp;?mutation ssm_effect:gene_affected_bio2rdf&nbsp;?iri
+  }
+} WHERE {
+ &nbsp;?mutation ssm_effect:gene_affected&nbsp;?gene .
+  BIND(IRI(CONCAT(&quot;http://bio2rdf.org/ensembl:&quot;,&nbsp;?gene)) AS&nbsp;?iri)
+}
+</pre>
+<p>こいつを保存しておいた。
+</p>
+<pre>$ ./virtuoso.sh isql
+SQL&gt; load ./data/insert_01.sql;
+</pre>
+<h3> <span class="mw-headline" id=".E3.80.90.E5.8F.A4.E3.81.84.E6.83.85.E5.A0.B1.E3.80.91.E3.83.87.E3.83.BC.E3.82.BF.E3.81.AE.E7.B5.B1.E5.90.88.EF.BC.88UniProt.EF.BC.89"> 【古い情報】データの統合（UniProt） </span></h3>
+<ul><li> UniProt Endpoint: <a href="http://beta.sparql.uniprot.org/" class="external free" rel="nofollow">http://beta.sparql.uniprot.org/</a>
+</li></ul>
+<ul><li> 遺伝子名からタンパク質IDを取ってGOを参照
+</li></ul>
+<pre>
+PREFIX up:&lt;http://purl.uniprot.org/core/&gt; 
+PREFIX taxon:&lt;http://purl.uniprot.org/taxonomy/&gt; 
+PREFIX rdfs:&lt;http://www.w3.org/2000/01/rdf-schema#&gt; 
+PREFIX skos:&lt;http://www.w3.org/2004/02/skos/core#&gt; 
+SELECT DISTINCT&nbsp;?protein&nbsp;?class&nbsp;?o
+WHERE
+{
+ &nbsp;?protein a up:Protein
+.&nbsp;?protein up:organism taxon:9606
+.&nbsp;?protein up:encodedBy&nbsp;?gene
+.&nbsp;?gene skos:prefLabel &quot;TERT&quot;
+.&nbsp;?protein up:classifiedWith&nbsp;?class
+.&nbsp;?class rdfs:label&nbsp;?o
+.&nbsp;?class up:database &lt;http://purl.uniprot.org/database/go&gt;
+}
+</pre>
+<ul><li> 現在のHGNCのGeneオブジェクトから参照できる他のID
+</li></ul>
+<pre>
+PREFIX xsd: &lt;http://www.w3.org/2001/XMLSchema#&gt; 
+PREFIX icgc: &lt;http://icgc.link/vocab/&gt;
+PREFIX hgnc_vocabulary: &lt;http://bio2rdf.org/hgnc_vocabulary:&gt;
+PREFIX bio2rdf_vocabulary: &lt;http://bio2rdf.org/bio2rdf_vocabulary:&gt;
+    SELECT DISTINCT
+     &nbsp;?gene
+     &nbsp;?donor
+     &nbsp;?s&nbsp;?p&nbsp;?o
+    WHERE {
+     &nbsp;?effect icgc:mutation&nbsp;?mutation .
+     &nbsp;?effect icgc:gene_affected_bio2rdf&nbsp;?gene .
+     &nbsp;?s hgnc_vocabulary:x-ensembl&nbsp;?gene .
+     &nbsp;?s&nbsp;?p&nbsp;?o .
+     &nbsp;?mutation icgc:mutation_id&nbsp;?mutation_id .
+     &nbsp;?detection icgc:mutation&nbsp;?mutation .
+     &nbsp;?detection icgc:donor&nbsp;?donor .
+    }
+LIMIT 100
+</pre>
+<ul><li> Reactome のProteinオブジェクトからUniProtIDを参照する
+</li></ul>
+<p><a href="http://www.ebi.ac.uk/rdf/services/reactome/sparql?query=PREFIX+rdf%3A+%3Chttp%3A%2F%2Fwww.w3.org%2F1999%2F02%2F22-rdf-syntax-ns%23%3E%0D%0APREFIX+rdfs%3A+%3Chttp%3A%2F%2Fwww.w3.org%2F2000%2F01%2Frdf-schema%23%3E%0D%0APREFIX+owl%3A+%3Chttp%3A%2F%2Fwww.w3.org%2F2002%2F07%2Fowl%23%3E%0D%0APREFIX+xsd%3A+%3Chttp%3A%2F%2Fwww.w3.org%2F2001%2FXMLSchema%23%3E%0D%0APREFIX+dc%3A+%3Chttp%3A%2F%2Fpurl.org%2Fdc%2Felements%2F1.1%2F%3E%0D%0APREFIX+dcterms%3A+%3Chttp%3A%2F%2Fpurl.org%2Fdc%2Fterms%2F%3E%0D%0APREFIX+foaf%3A+%3Chttp%3A%2F%2Fxmlns.com%2Ffoaf%2F0.1%2F%3E%0D%0APREFIX+skos%3A+%3Chttp%3A%2F%2Fwww.w3.org%2F2004%2F02%2Fskos%2Fcore%23%3E%0D%0APREFIX+biopax3%3A+%3Chttp%3A%2F%2Fwww.biopax.org%2Frelease%2Fbiopax-level3.owl%23%3E%0D%0A%0D%0ASELECT+DISTINCT+%3Fprotein+%3Fp+%3Fo%0D%0AWHERE+%0D%0A%7B%0D%0A++%3Fprotein+%3Fp+%3Fo+.%0D%0A%3Fprotein+biopax3%3AentityReference+%3Chttp%3A%2F%2Fpurl.uniprot.org%2Funiprot%2FP01308%3E+%0D%0A%7D++++%0D%0ALIMIT+100++%0D%0A&amp;render=HTML&amp;limit=25&amp;offset=0#lodestart-sparql-results" class="external free" rel="nofollow">http://www.ebi.ac.uk/rdf/services/reactome/sparql?query=PREFIX+rdf%3A+%3Chttp%3A%2F%2Fwww.w3.org%2F1999%2F02%2F22-rdf-syntax-ns%23%3E%0D%0APREFIX+rdfs%3A+%3Chttp%3A%2F%2Fwww.w3.org%2F2000%2F01%2Frdf-schema%23%3E%0D%0APREFIX+owl%3A+%3Chttp%3A%2F%2Fwww.w3.org%2F2002%2F07%2Fowl%23%3E%0D%0APREFIX+xsd%3A+%3Chttp%3A%2F%2Fwww.w3.org%2F2001%2FXMLSchema%23%3E%0D%0APREFIX+dc%3A+%3Chttp%3A%2F%2Fpurl.org%2Fdc%2Felements%2F1.1%2F%3E%0D%0APREFIX+dcterms%3A+%3Chttp%3A%2F%2Fpurl.org%2Fdc%2Fterms%2F%3E%0D%0APREFIX+foaf%3A+%3Chttp%3A%2F%2Fxmlns.com%2Ffoaf%2F0.1%2F%3E%0D%0APREFIX+skos%3A+%3Chttp%3A%2F%2Fwww.w3.org%2F2004%2F02%2Fskos%2Fcore%23%3E%0D%0APREFIX+biopax3%3A+%3Chttp%3A%2F%2Fwww.biopax.org%2Frelease%2Fbiopax-level3.owl%23%3E%0D%0A%0D%0ASELECT+DISTINCT+%3Fprotein+%3Fp+%3Fo%0D%0AWHERE+%0D%0A%7B%0D%0A++%3Fprotein+%3Fp+%3Fo+.%0D%0A%3Fprotein+biopax3%3AentityReference+%3Chttp%3A%2F%2Fpurl.uniprot.org%2Funiprot%2FP01308%3E+%0D%0A%7D++++%0D%0ALIMIT+100++%0D%0A&amp;render=HTML&amp;limit=25&amp;offset=0#lodestart-sparql-results</a>
+</p>
+<h2> <span class="mw-headline" id="Linked_ICGC_.E9.96.8B.E7.99.BA.E3.83.AD.E3.82.B0.EF.BC.88.E4.B8.AD.E7.B6.99.E3.82.B5.E3.83.BC.E3.83.90.E3.83.BC.EF.BC.89"> Linked ICGC 開発ログ（中継サーバー） </span></h2>
+<h3> <span class="mw-headline" id=".E4.B8.AD.E7.B6.99.E3.82.B5.E3.83.BC.E3.83.90.E3.83.BC.E3.81.AB.E3.82.88.E3.82.8B.E3.82.AD.E3.83.A3.E3.83.83.E3.82.B7.E3.83.B3.E3.82.B0"> 中継サーバーによるキャッシング </span></h3>
+<ul><li> キャッシュサイズの確認
+<ul><li> count: キャッシュの数
+</li><li> size: 使用サイズ (B), storageSize: 確保されているディスク上のサイズ
+</li><li> indexSizes.hashQuery_1: インデックスのサイズ（totalIndexSize がメモリに載るようにしたい）
+</li></ul>
+</li></ul>
+<pre>mongo sparql --eval "printjson(db.queryresults.stats())"
+</pre>
+<ul><li> インデックスをメモリにロード
+<ul><li> DB 起動時はデータ／インデックスともにメモリにはキャッシュされていない
+</li></ul>
+</li></ul>
+<pre>mongo sparql
+db.runCommand({ touch: 'queryresults', data: false, index: true })
+</pre>
+<ul><li> メモリ使用量
+<ul><li> resident: 物理メモリ使用量 (MB)
+</li><li> virtual: 仮想メモリ使用量 (MB)
+</li></ul>
+</li></ul>
+<pre>mongo sparql
+db.serverStatus().mem
+</pre>
+<ul><li> キャッシュのサイズが平均4KB程度 &gt; 10^6 = 1M パターン * 10query * 4KB = 40GB &gt; インデックスは log2(40GB) = 12GB 未満
+<ul><li> パターン数 = プロジェクト 100 * 条件(1-4) 10^4 = 10^6
+</li></ul>
+</li></ul>
+<h2> <span class="mw-headline" id="Linked_ICGC_.E9.96.8B.E7.99.BA.E3.83.AD.E3.82.B0.EF.BC.88.E3.83.9D.E3.83.BC.E3.82.BF.E3.83.AB.EF.BC.89"> Linked ICGC 開発ログ（ポータル） </span></h2>
+<h3> <span class="mw-headline" id="SPARQL_Tips"> SPARQL Tips </span></h3>
+<h4> <span class="mw-headline" id="NULL.E3.81.A0.E3.81.A3.E3.81.9F.E3.82.89.22.28No_Data.29.22.E3.81.A8.E3.81.84.E3.81.86.E6.96.87.E5.AD.97.E5.88.97.E3.82.92.E8.BF.94.E3.81.99.E3.82.88.E3.81.86.E3.81.AB.E3.81.99.E3.82.8B"> NULLだったら"(No Data)"という文字列を返すようにする </span></h4>
+<ul><li> 例: mutation_cancer_distribution.sql
+</li></ul>
+<pre>
+SELECT DISTINCT
+  ..
+  (COALESCE(?tumour_subtype, &quot;(No Data)&quot;) AS&nbsp;?Tumour_Subtype)
+  ..
+WHERE {
+  ..
+  OPTIONAL {&nbsp;?project icgc:tumour_subtype&nbsp;?tumour_subtype . }
+  ..
+</pre>
+<p>NULLの扱いについてはアプリ側でも検討しておくべき。SPARQLの実行結果（例えばJSONで返すとき）にNULLが含まれると、そもそも results の bindings から Tumour_Subtype という要素がなくなる。これを空文字とするような処理が必要か。
+</p>
+<pre>
+{ &quot;head&quot;: { &quot;link&quot;: [], &quot;vars&quot;: [&quot;Project&quot;, &quot;Tumour_Type&quot;, &quot;Tumour_Subtype&quot;, &quot;Donors_Affected&quot;] },
+  &quot;results&quot;: { &quot;distinct&quot;: false, &quot;ordered&quot;: true, &quot;bindings&quot;: [ {
+      &quot;Project&quot;: { &quot;type&quot;: &quot;literal&quot;, &quot;value&quot;: &quot;BOCA-UK&quot; }	, 
+      &quot;Donors_Affected&quot;: { &quot;type&quot;: &quot;typed-literal&quot;, &quot;datatype&quot;: &quot;http://www.w3.org/2001/XMLSchema#integer&quot;, &quot;value&quot;: &quot;7&quot; }
+       # ここに &quot;Tumour_Subtype&quot; はない
+   } ] } }
+</pre>
+<h4> <span class="mw-headline" id=".E3.81.A9.E3.81.AE.E3.82.A8.E3.83.B3.E3.83.86.E3.82.A3.E3.83.86.E3.82.A3.E3.81.8B.E3.82.89.E7.B5.90.E5.90.88.E3.81.99.E3.82.8B.E3.82.88.E3.81.86.E3.81.AB.E6.9B.B8.E3.81.8F.E3.81.8B"> どのエンティティから結合するように書くか </span></h4>
+<p>ある条件で数を集計したいエンティティがある場合、そのエンティティから結合するように書くべきだろうか
+</p><p>結合を使い回すために、いつも Donor から結合するようにしている。しかし、クエリの柔軟性は？性能は？
+</p>
+<ul><li> Donor から結合（facet.sql）
+</li></ul>
+<pre>
+  # TRAVERSAL
+ &nbsp;?donor a &lt;http://icgc.link/Donor&gt; .
+  OPTIONAL {&nbsp;?donor icgc:sex&nbsp;?gender . }
+  OPTIONAL {&nbsp;?donor icgc:vital_status&nbsp;?vital_status . }
+  #OPTIONAL {
+   &nbsp;?donor icgc:project&nbsp;?project .
+    OPTIONAL {&nbsp;?project icgc:project_code&nbsp;?project_code . }
+    OPTIONAL {&nbsp;?project icgc:primary_site&nbsp;?primary_site . }
+  #}
+  OPTIONAL {
+   &nbsp;?donor ^icgc:donor&nbsp;?detection .
+    #OPTIONAL {
+     &nbsp;?detection icgc:mutation&nbsp;?mutation . 
+      OPTIONAL {
+       &nbsp;?mutation ^icgc:mutation&nbsp;?effect .
+        OPTIONAL {&nbsp;?effect icgc:consequence_type&nbsp;?consequence_type . }
+        OPTIONAL {
+         &nbsp;?effect icgc:gene_affected&nbsp;?gene .
+        }
+      }
+    #}
+  }
+</pre>
+<ul><li> Effect から結合（search_mutations_consequence-type.sql）
+</li></ul>
+<pre>
+    # TRAVERSAL
+   &nbsp;?effect a &lt;http://icgc.link/Effect&gt; .
+    OPTIONAL {&nbsp;?effect icgc:consequence_type&nbsp;?consequence_type . }
+    OPTIONAL {
+     &nbsp;?effect icgc:mutation&nbsp;?mutation .
+      OPTIONAL {
+       &nbsp;?mutation ^icgc:mutation&nbsp;?detection .
+        OPTIONAL {
+         &nbsp;?detection icgc:donor&nbsp;?donor .
+          OPTIONAL {&nbsp;?donor icgc:sex&nbsp;?gender . }
+          OPTIONAL {&nbsp;?donor icgc:vital_status&nbsp;?vital_status . }
+          OPTIONAL {
+           &nbsp;?donor icgc:project&nbsp;?project .
+            OPTIONAL {&nbsp;?project icgc:project_code&nbsp;?project_code . }
+            OPTIONAL {&nbsp;?project icgc:primary_site&nbsp;?primary_site . }
+          }
+        }
+      }
+    }
+</pre>
+<h3> <span class="mw-headline" id="d3sparql_.E5.A4.89.E6.9B.B4.E3.83.AA.E3.82.AF.E3.82.A8.E3.82.B9.E3.83.88"> d3sparql 変更リクエスト </span></h3>
+<ul><li> 結果セットにNULL値が含まれる場合に空文字を返すようにする
+</li></ul>
+<ul><li> d3sparql.htmlhash
+</li></ul>
+<ul><li> before
+</li></ul>
+<pre>        return {"head": col, "data": data[col].value}
+</pre>
+<ul><li> after
+</li></ul>
+<pre>        if (data[col]&nbsp;!= null) {
+          return {"head": col, "data": data[col].value}
+        } else {
+          return {"head": col, "data": ""}
+        }
+</pre>
+<h3> <span class="mw-headline" id=".E3.83.AA.E3.83.80.E3.82.A4.E3.83.AC.E3.82.AF.E3.83.88.E8.A8.AD.E5.AE.9A"> リダイレクト設定 </span></h3>
+<p>グラフ URI およびリソース URI を解決して「有用な情報」を返せるように、適切な URI にリダイレクトを設定する。
+</p>
+<ul><li> /etc/httpd/conf/httpd.conf
+</li></ul>
+<pre>
+&lt;Directory &quot;/var/www/html&quot;&gt;
+    AllowOverride All
+</pre>
+<ul><li> .htaccess
+</li></ul>
+<pre>
+RedirectMatch 301 ^/(release.*)$ http://icgc.link/repository/$1/
+RedirectMatch 301 Project/(.*)$ http://icgc.link/project.html?project_code=$1
+RedirectMatch 301 Donor/(.*)$ http://icgc.link/donor.html?donor_id=$1
+RedirectMatch 301 Gene/(.*)$ http://icgc.link/gene.html?gene_id=$1
+RedirectMatch 301 Mutation/(.*)$ http://icgc.link/mutation.html?mutation_id=$1
+</pre>
+<h3> <span class="mw-headline" id="Fuseki_.E3.82.92.E4.BD.BF.E3.81.86.E5.A0.B4.E5.90.88.E3.81.AE.E6.B3.A8.E6.84.8F"> Fuseki を使う場合の注意 </span></h3>
+<p>Update: 2016-02-16
+</p><p>Oracle 12c を使用する場合はエンドポイントを通常 Fuseki で作成する。
+</p>
+<dl><dt> COALESCE の変数
+</dt></dl>
+<pre>(coalesce(?project_code, "No Data") AS&nbsp;?project_code)
+</pre>
+<p>のように&nbsp;?project_code から&nbsp;?project_code に投影することが Virtuoso では許されるが、Fuseki では以下のエラー
+</p><p>Variable used when already in-scope でエラーになる
+</p>
+<pre>(coalesce(?project_code, "No Data") AS&nbsp;?project_code_2)
+</pre>
+<p>のように変数名を変更する必要がある
+</p>
+<h2> <span class="mw-headline" id="Linked_TCGA"> Linked TCGA </span></h2>
+<h3> <span class="mw-headline" id="Linked_TCGA_.E3.81.AE.E6.A6.82.E8.A6.81"> Linked TCGA の概要 </span></h3>
+<ul><li> TCGAのデータをRDF化している。RDF化されているのはデータの一部であり、<b>体細胞変異のデータはRDF化されていない</b>。
+<ul><li> RDF化されているデータ: 診断、治療歴、RNA発現、miRNA発現、タンパク発現
+</li><li> 現在はデータ・タイプで分かれた別々のVirtuosoノードの<b>エンドポイントが癌種10種分のみ公開</b>されている。
+</li><li> RDFのダンプは癌種は27種分全てが公開されている。<a href="http://tcga.deri.ie/dumps/" class="external free" rel="nofollow">http://tcga.deri.ie/dumps/</a>
+</li><li> と思いきや、これらの<b>ダンプはRDF化されたトリプルの一部</b>のようだ（臨床データについてはsampleやpatientもない！）
+</li></ul>
+</li></ul>
+<ul><li>元データとRDFデータの一覧は以下。
+<ul><li> 元のTCGAのデータ一覧 - <a href="https://tcga-data.nci.nih.gov/tcga/tcgaDataType.jsp" class="external free" rel="nofollow">https://tcga-data.nci.nih.gov/tcga/tcgaDataType.jsp</a>
+</li><li> Linked TCGAのデータのスキーマ - <a href="http://tcga.deri.ie/#schema" class="external free" rel="nofollow">http://tcga.deri.ie/#schema</a>
+</li></ul>
+</li></ul>
+<ul><li> TopFed という Federated query processing をこの Linked TCGA 用に開発している。
+<ul><li> 構成の詳細はここに記載されている。<a href="http://www.jbiomedsem.com/imedia/1543416435123551_article.pdf" class="external free" rel="nofollow">http://www.jbiomedsem.com/imedia/1543416435123551_article.pdf</a>
+</li><li> 200億トリプルを17(2+6+9)のノードのVirtuoso (オープンソース版)にロードしている。（ページ31）
+</li><li> ただし、TopFedによる Federation Search のエンドポイントはない。（本当に動くのか？）
+</li><li> これをセットアップするには多数のVirtuosoノードが必要なためAWSが便利そう、でも検証は見送り。
+</li></ul>
+</li></ul>
+<ul><li> LTCGAのチームはPubMedやUniProtを加えた検索の事例を論文にしている。
+<ul><li> <a href="http://insight-centre.org/sites/default/files/publications/cshals_2014_camera_ready.pdf" class="external free" rel="nofollow">http://insight-centre.org/sites/default/files/publications/cshals_2014_camera_ready.pdf</a>
+</li></ul>
+</li></ul>
+<h3> <span class="mw-headline" id="AWS.E3.81.A7.E3.83.AD.E3.83.BC.E3.83.89.E3.81.AE.E6.80.A7.E8.83.BD.E6.B8.AC.E5.AE.9A"> AWSでロードの性能測定 </span></h3>
+<ul><li> Virtuosoへのデータ・ロードには大容量メモリのマシンが望ましいか？
+<ul><li> ダンプは癌種毎で、最大は2959Mトリプル（BRCA）、最小は35Mトリプル（DLBC）
+</li><li> メモリサイズの異なるEC2メモリ最適化インスタンスでバッファサイズを変更して測定する。
+</li><li> EC2の場合、大容量メモリでロードして、その後に低料金のインスタンスに変更できる。
+</li></ul>
+</li><li> EC2メモリ最適化インスタンス
+</li></ul>
+<pre>r3.xlarge (4vCPU, 30.5GiB) $0.420/h
+r3.2xlarge (8vCPU, 61GiB) $0.840/h
+r3.4xlarge (16vCPU, 122GiB) $1.680/h
+r3.8xlarge (32vCPU, 244GiB) $3.360/h
+</pre>
+<ul><li> 2959Mトリプル（BRCA）をロード
+<ul><li> データベース・ファイルの格納にはSSD (300GiB, 最低900-最大3000IOPS) を使用
+</li><li> 1buffer = 8KB でメモリ使用量を計算（実際には8.5KBくらいらしい）
+</li></ul>
+</li></ul>
+<pre>インスタンス (NumberOfBuffers = メモリ使用量目安) 処理時間 = 処理時間をマイクロ秒から計算
+r3.xlarge (2720K = 21.25GB) 45.29h = (159389223+3659429)/1000/60/60
+r3.2xlarge (2720K = 21.25GB) 39.18h = (136517653+4547384)/1000/60/60 ※ 性能はバッファサイズに依存していることがわかる。
+r3.2xlarge (5450K = 42.50GB) 5.69h = (19529858+946258)/1000/60/60
+r3.4xlarge (10900K = 85.00GB) 4.00h = (13322055+1097985)/1000/60/60
+r3.8xlarge (21800K = 170.00GB) 3.98h = (12898282+1426560)/1000/60/60 ※ NumberOfBuffers=10900K で充分だったことがわかる。
+</pre>
+<h3> <span class="mw-headline" id=".E3.82.B5.E3.83.B3.E3.83.97.E3.83.ABSPARQL.E3.82.AF.E3.82.A8.E3.83.AA"> サンプルSPARQLクエリ </span></h3>
+<ul><li> あるサンプルの情報 - <a href="http://digital.path.uab.edu/sparql" class="external free" rel="nofollow">http://digital.path.uab.edu/sparql</a> <a href="http://digital.path.uab.edu/sparql?default-graph-uri=&amp;query=PREFIX+tcga%3A+%3Chttp%3A%2F%2Ftcga.deri.ie%2F%3E%0D%0APREFIX+tcgas%3A+%3Chttp%3A%2F%2Ftcga.deri.ie%2Fschema%2F%3E%0D%0ASELECT+*+WHERE+%7Btcga%3ATCGA-HT-8010+%3Fp+%3Fo%7D+LIMIT+100&amp;format=text%2Fhtml&amp;timeout=0&amp;debug=on" class="external text" rel="nofollow">クエリ結果</a>
+</li></ul>
+<pre>
+PREFIX tcga: &lt;http://tcga.deri.ie/&gt;
+PREFIX tcgas: &lt;http://tcga.deri.ie/schema/&gt;
+SELECT * WHERE {tcga:TCGA-HT-8010&nbsp;?p&nbsp;?o} LIMIT 100
+</pre>
+<ul><li> 全てのサンプルのID - <a href="http://digital.path.uab.edu/sparql" class="external free" rel="nofollow">http://digital.path.uab.edu/sparql</a>
+</li></ul>
+<pre>
+PREFIX tcga: &lt;http://tcga.deri.ie/&gt;
+PREFIX tcgas: &lt;http://tcga.deri.ie/schema/&gt;
+SELECT * WHERE {
+ &nbsp;?s a tcgas:patient
+.&nbsp;?s tcgas:tumor_tissue_site&nbsp;?s
+} LIMIT 100
+</pre>
+<ul><li> 全てのサンプルの生存日数（<a href="http://digital.path.uab.edu/sparql）" class="external free" rel="nofollow">http://digital.path.uab.edu/sparql）</a>
+</li></ul>
+<pre>
+PREFIX tcga: &lt;http://tcga.deri.ie/&gt;
+PREFIX tcgas: &lt;http://tcga.deri.ie/schema/&gt;
+SELECT * WHERE {
+ &nbsp;?s&nbsp;?p tcgas:patient
+.&nbsp;?s days_to_deth
+} LIMIT 100
+</pre>
+<ul><li> ある遺伝子発現（<a href="http://digital.path.uab.edu/sparql）" class="external free" rel="nofollow">http://digital.path.uab.edu/sparql）</a>
+</li></ul>
+<pre>
+PREFIX tcga: &lt;http://tcga.deri.ie/&gt;
+PREFIX tcgas: &lt;http://tcga.deri.ie/schema/&gt;
+SELECT * WHERE {tcga:TCGA-HT-8010-g1&nbsp;?p&nbsp;?o} LIMIT 100
+</pre>
+<ul><li> あるサンプルのmiRNA（<a href="http://digital.path.uab.edu/sparql）" class="external free" rel="nofollow">http://digital.path.uab.edu/sparql）</a>
+</li></ul>
+<pre>
+PREFIX tcga: &lt;http://tcga.deri.ie/&gt;
+PREFIX tcgas: &lt;http://tcga.deri.ie/schema/&gt;
+SELECT * WHERE {
+  tcga:TCGA-HT-8010 tcgas:result&nbsp;?r
+.&nbsp;?r a tcgas:miRNA_result
+.&nbsp;?r togas:reads_per_million_miRNA_mapped&nbsp;?o
+.&nbsp;?r tcgas:chromosome&nbsp;?chr
+.&nbsp;?r tcgas:start&nbsp;?start
+.&nbsp;?r tcgas:stop&nbsp;?stop
+} ORDER BY DESC(?o) LIMIT 100
+</pre>
+<ul><li> あるサンプルの遺伝子発現（<a href="http://digital.path.uab.edu/sparql）" class="external free" rel="nofollow">http://digital.path.uab.edu/sparql）</a><a href="http://digital.path.uab.edu/sparql?default-graph-uri=&amp;query=PREFIX+tcga%3A+%3Chttp%3A%2F%2Ftcga.deri.ie%2F%3E%0D%0APREFIX+tcgas%3A+%3Chttp%3A%2F%2Ftcga.deri.ie%2Fschema%2F%3E%0D%0ASELECT+*+WHERE+%7B%0D%0A++tcga%3ATCGA-HT-8010+tcgas%3Aresult+%3Fr%0D%0A.+%3Fr+a+tcgas%3Aexpression_gene_result%0D%0A.+%3Fr+tcgas%3Ascaled_estimate+%3Fo%0D%0A.+%3Fr+tcgas%3Achromosome+%3Fchr%0D%0A.+%3Fr+tcgas%3Astart+%3Fstart%0D%0A.+%3Fr+tcgas%3Astop+%3Fstop%0D%0A%7D+ORDER+BY+DESC%28%3Fo%29+LIMIT+100&amp;format=text%2Fhtml&amp;timeout=0&amp;debug=on" class="external text" rel="nofollow">クエリ結果</a>
+</li></ul>
+<pre>
+PREFIX tcga: &lt;http://tcga.deri.ie/&gt;
+PREFIX tcgas: &lt;http://tcga.deri.ie/schema/&gt;
+SELECT * WHERE {
+  tcga:TCGA-HT-8010 tcgas:result&nbsp;?r
+.&nbsp;?r a tcgas:expression_gene_result
+.&nbsp;?r tcgas:scaled_estimate&nbsp;?o
+.&nbsp;?r tcgas:chromosome&nbsp;?chr
+.&nbsp;?r tcgas:start&nbsp;?start
+.&nbsp;?r tcgas:stop&nbsp;?stop
+} ORDER BY DESC(?o) LIMIT 100
+</pre>
+
+<!-- 
+NewPP limit report
+Preprocessor node count: 377/1000000
+Post-expand include size: 0/2097152 bytes
+Template argument size: 0/2097152 bytes
+Expensive parser function count: 0/100
+-->
+
+<!-- Saved in parser cache with key wikidb-togowiki_:pcache:idhash:485-0!1!0!!ja!2!edit=0 and timestamp 20230605013653 -->
+<div class="printfooter">
+「<a href="http://wiki.lifesciencedb.jp/mw/%E3%81%8C%E3%82%93%E3%82%B2%E3%83%8E%E3%83%A0">http://wiki.lifesciencedb.jp/mw/%E3%81%8C%E3%82%93%E3%82%B2%E3%83%8E%E3%83%A0</a>」より作成</div>
+		<div id='catlinks' class='catlinks catlinks-allhidden'></div>		<!-- end content -->
+				<div class="visualClear"></div>
+	</div>
+</div></div>
+<div id="column-one">
+	<div id="p-cactions" class="portlet">
+		<h5>表示</h5>
+		<div class="pBody">
+			<ul>
+				 <li id="ca-nstab-main" class="selected"><a href="/mw/%E3%81%8C%E3%82%93%E3%82%B2%E3%83%8E%E3%83%A0" title="本文を表示 [c]" accesskey="c">ページ</a></li>
+				 <li id="ca-talk" class="new"><a href="/mw/index.php?title=%E3%83%8E%E3%83%BC%E3%83%88:%E3%81%8C%E3%82%93%E3%82%B2%E3%83%8E%E3%83%A0&amp;action=edit&amp;redlink=1" title="記事についての議論 [t]" accesskey="t">議論</a></li>
+				 <li id="ca-viewsource"><a href="/mw/index.php?title=%E3%81%8C%E3%82%93%E3%82%B2%E3%83%8E%E3%83%A0&amp;action=edit" title="このページは保護されています。&#10;ページのソースを閲覧できます。 [e]" accesskey="e">ソースを表示</a></li>
+				 <li id="ca-history"><a href="/mw/index.php?title=%E3%81%8C%E3%82%93%E3%82%B2%E3%83%8E%E3%83%A0&amp;action=history" title="このページの過去の版 [h]" accesskey="h">履歴</a></li>
+			</ul>
+		</div>
+	</div>
+	<div class="portlet" id="p-personal">
+		<h5>個人用ツール</h5>
+		<div class="pBody">
+			<ul>
+				<li id="pt-anonuserpage"><a href="/mw/%E5%88%A9%E7%94%A8%E8%80%85:172.18.8.51" title="自分が編集しているIPアドレスの利用者ページ [.]" accesskey="." class="new">172.18.8.51</a></li>
+				<li id="pt-anontalk"><a href="/mw/%E5%88%A9%E7%94%A8%E8%80%85%E2%80%90%E4%BC%9A%E8%A9%B1:172.18.8.51" title="このIPアドレスからなされた編集についての議論 [n]" accesskey="n" class="new">このIPアドレスのトーク</a></li>
+				<li id="pt-anonlogin"><a href="/mw/index.php?title=%E7%89%B9%E5%88%A5:%E3%83%AD%E3%82%B0%E3%82%A4%E3%83%B3&amp;returnto=%E3%81%8C%E3%82%93%E3%82%B2%E3%83%8E%E3%83%A0&amp;returntoquery=oldid%3D19226" title="ログインすることが推奨されます。ただし、必須ではありません。 [o]" accesskey="o">ログイン</a></li>
+				<li id="pt-openidlogin"><a href="/mw/index.php?title=%E7%89%B9%E5%88%A5:OpenID%E3%83%AD%E3%82%B0%E3%82%A4%E3%83%B3&amp;returnto=%E3%81%8C%E3%82%93%E3%82%B2%E3%83%8E%E3%83%A0">OpenIDでログイン</a></li>
+			</ul>
+		</div>
+	</div>
+	<div class="portlet" id="p-logo">
+		<a style="background-image: url(/mw/images/togowiki-logo.png);" href="/mw/%E3%83%A1%E3%82%A4%E3%83%B3%E3%83%9A%E3%83%BC%E3%82%B8" title="メインページに移動"></a>
+	</div>
+	<script type="text/javascript"> if (window.isMSIE55) fixalpha(); </script>
+	<div class='generated-sidebar portlet' id='p-navigation'>
+		<h5>案内</h5>
+		<div class='pBody'>
+			<ul>
+				<li id="n-mainpage-description"><a href="/mw/%E3%83%A1%E3%82%A4%E3%83%B3%E3%83%9A%E3%83%BC%E3%82%B8" title="メインページに移動する [z]" accesskey="z">メインページ</a></li>
+				<li id="n-portal"><a href="/mw/TogoWiki:%E3%82%B3%E3%83%9F%E3%83%A5%E3%83%8B%E3%83%86%E3%82%A3%E3%83%BB%E3%83%9D%E3%83%BC%E3%82%BF%E3%83%AB" title="このプロジェクトについて、できること、情報を入手する場所">コミュニティ・ポータル</a></li>
+				<li id="n-currentevents"><a href="/mw/TogoWiki:%E6%9C%80%E8%BF%91%E3%81%AE%E5%87%BA%E6%9D%A5%E4%BA%8B" title="最近の出来事について予備知識を得る">最近の出来事</a></li>
+				<li id="n-recentchanges"><a href="/mw/%E7%89%B9%E5%88%A5:%E6%9C%80%E8%BF%91%E3%81%AE%E6%9B%B4%E6%96%B0" title="ウィキにおける最近の更新の一覧 [r]" accesskey="r">最近の更新</a></li>
+				<li id="n-randompage"><a href="/mw/%E7%89%B9%E5%88%A5:%E3%81%8A%E3%81%BE%E3%81%8B%E3%81%9B%E8%A1%A8%E7%A4%BA" title="無作為に抽出されたページの読み込み [x]" accesskey="x">おまかせ表示</a></li>
+				<li id="n-help"><a href="/mw/Help:%E7%9B%AE%E6%AC%A1" title="情報を得る場所">ヘルプ</a></li>
+			</ul>
+		</div>
+	</div>
+	<div id="p-search" class="portlet">
+		<h5><label for="searchInput">検索</label></h5>
+		<div id="searchBody" class="pBody">
+			<form action="/mw/index.php" id="searchform">
+				<input type='hidden' name="title" value="特別:検索"/>
+				<input id="searchInput" title="TogoWiki内を検索" accesskey="f" type="search" name="search" />
+				<input type='submit' name="go" class="searchButton" id="searchGoButton"	value="表示" title="厳密に一致する名前のページが存在すれば、そのページへ移動します" />&nbsp;
+				<input type='submit' name="fulltext" class="searchButton" id="mw-searchButton" value="検索" title="入力された文字列が含まれるページを検索します" />
+			</form>
+		</div>
+	</div>
+	<div class="portlet" id="p-tb">
+		<h5>ツールボックス</h5>
+		<div class="pBody">
+			<ul>
+				<li id="t-whatlinkshere"><a href="/mw/%E7%89%B9%E5%88%A5:%E3%83%AA%E3%83%B3%E3%82%AF%E5%85%83/%E3%81%8C%E3%82%93%E3%82%B2%E3%83%8E%E3%83%A0" title="ここにリンクしている全ウィキのページの一覧 [j]" accesskey="j">リンク元</a></li>
+				<li id="t-recentchangeslinked"><a href="/mw/%E7%89%B9%E5%88%A5:%E9%96%A2%E9%80%A3%E3%83%9A%E3%83%BC%E3%82%B8%E3%81%AE%E6%9B%B4%E6%96%B0%E7%8A%B6%E6%B3%81/%E3%81%8C%E3%82%93%E3%82%B2%E3%83%8E%E3%83%A0" title="このページからリンクしているページの最近の更新 [k]" accesskey="k">関連ページの更新状況</a></li>
+<li id="t-specialpages"><a href="/mw/%E7%89%B9%E5%88%A5:%E7%89%B9%E5%88%A5%E3%83%9A%E3%83%BC%E3%82%B8%E4%B8%80%E8%A6%A7" title="特別ページの一覧 [q]" accesskey="q">特別ページ</a></li>
+				<li id="t-print"><a href="/mw/index.php?title=%E3%81%8C%E3%82%93%E3%82%B2%E3%83%8E%E3%83%A0&amp;oldid=19226&amp;printable=yes" rel="alternate" title="このページの印刷用ページ [p]" accesskey="p">印刷用バージョン</a></li>				<li id="t-permalink"><a href="/mw/index.php?title=%E3%81%8C%E3%82%93%E3%82%B2%E3%83%8E%E3%83%A0&amp;oldid=19226" title="ページのこの版への固定リンク">この版への固定リンク</a></li>			</ul>
+		</div>
+	</div>
+</div><!-- end of the left (by default at least) column -->
+<div class="visualClear"></div>
+<div id="footer">
+	<div id="f-poweredbyico"><a href="http://www.mediawiki.org/"><img src="/mw/skins/common/images/poweredby_mediawiki_88x31.png" height="31" width="88" alt="Powered by MediaWiki" /></a></div>
+	<div id="f-copyrightico"><a href="http://creativecommons.org/licenses/by/3.0/"><img src="http://i.creativecommons.org/l/by/3.0/88x31.png" alt="Attribution 3.0 Unported" width="88" height="31" /></a></div>
+	<ul id="f-list">
+		<li id="copyright">内容は<a href="http://creativecommons.org/licenses/by/3.0/" class="external ">Attribution 3.0 Unported</a>のライセンスで利用することができます。</li>
+		<li id="privacy"><a href="/mw/TogoWiki:%E3%83%97%E3%83%A9%E3%82%A4%E3%83%90%E3%82%B7%E3%83%BC%E3%83%BB%E3%83%9D%E3%83%AA%E3%82%B7%E3%83%BC" title="TogoWiki:プライバシー・ポリシー">プライバシー・ポリシー</a></li>
+		<li id="about"><a href="/mw/TogoWiki:TogoWiki%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6" title="TogoWiki:TogoWikiについて">TogoWikiについて</a></li>
+		<li id="disclaimer"><a href="/mw/TogoWiki:%E5%85%8D%E8%B2%AC%E4%BA%8B%E9%A0%85" title="TogoWiki:免責事項">免責事項</a></li>
+	</ul>
+</div>
+</div>
+
+<script>if (window.runOnloadHook) runOnloadHook();</script>
+<!-- Served in 0.588 secs. --></body></html>

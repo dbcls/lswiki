@@ -1,0 +1,465 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html lang="ja" dir="ltr">
+<head>
+<title>実用的なバイオオントロジー関連技術の調査 - TogoWiki</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta name="generator" content="MediaWiki 1.16.3" />
+<link rel="shortcut icon" href="/favicon.ico" />
+<link rel="search" type="application/opensearchdescription+xml" href="/mw/opensearch_desc.php" title="TogoWiki (ja)" />
+<link title="Creative Commons" type="application/rdf+xml" href="/mw/index.php?title=%E5%AE%9F%E7%94%A8%E7%9A%84%E3%81%AA%E3%83%90%E3%82%A4%E3%82%AA%E3%82%AA%E3%83%B3%E3%83%88%E3%83%AD%E3%82%B8%E3%83%BC%E9%96%A2%E9%80%A3%E6%8A%80%E8%A1%93%E3%81%AE%E8%AA%BF%E6%9F%BB&amp;action=creativecommons" rel="meta" />
+<link rel="copyright" href="http://creativecommons.org/licenses/by/3.0/" />
+<link rel="alternate" type="application/atom+xml" title="TogoWikiのAtomフィード" href="/mw/index.php?title=%E7%89%B9%E5%88%A5:%E6%9C%80%E8%BF%91%E3%81%AE%E6%9B%B4%E6%96%B0&amp;feed=atom" />
+<link rel="stylesheet" href="/mw/skins/common/commonPrint.css?270" media="" />
+<link rel="stylesheet" href="/mw/index.php?title=MediaWiki:Common.css&amp;usemsgcache=yes&amp;ctype=text%2Fcss&amp;smaxage=18000&amp;action=raw&amp;maxage=18000" />
+<link rel="stylesheet" href="/mw/index.php?title=MediaWiki:Print.css&amp;usemsgcache=yes&amp;ctype=text%2Fcss&amp;smaxage=18000&amp;action=raw&amp;maxage=18000" media="" />
+<link rel="stylesheet" href="/mw/index.php?title=MediaWiki:Monobook.css&amp;usemsgcache=yes&amp;ctype=text%2Fcss&amp;smaxage=18000&amp;action=raw&amp;maxage=18000" />
+<link rel="stylesheet" href="/mw/index.php?title=-&amp;action=raw&amp;maxage=18000&amp;gen=css" />
+<script>
+var skin="monobook",
+stylepath="/mw/skins",
+wgUrlProtocols="http\\:\\/\\/|https\\:\\/\\/|ftp\\:\\/\\/|irc\\:\\/\\/|gopher\\:\\/\\/|telnet\\:\\/\\/|nntp\\:\\/\\/|worldwind\\:\\/\\/|mailto\\:|news\\:|svn\\:\\/\\/",
+wgArticlePath="/mw/$1",
+wgScriptPath="/mw",
+wgScriptExtension=".php",
+wgScript="/mw/index.php",
+wgVariantArticlePath=false,
+wgActionPaths={},
+wgServer="http://wiki.lifesciencedb.jp",
+wgCanonicalNamespace="",
+wgCanonicalSpecialPageName=false,
+wgNamespaceNumber=0,
+wgPageName="実用的なバイオオントロジー関連技術の調査",
+wgTitle="実用的なバイオオントロジー関連技術の調査",
+wgAction="view",
+wgArticleId=49,
+wgIsArticle=true,
+wgUserName=null,
+wgUserGroups=null,
+wgUserLanguage="ja",
+wgContentLanguage="ja",
+wgBreakFrames=false,
+wgCurRevisionId=735,
+wgVersion="1.16.3",
+wgEnableAPI=true,
+wgEnableWriteAPI=true,
+wgSeparatorTransformTable=["", ""],
+wgDigitTransformTable=["", ""],
+wgMainPageTitle="メインページ",
+wgFormattedNamespaces={"-2": "メディア", "-1": "特別", "0": "", "1": "ノート", "2": "利用者", "3": "利用者‐会話", "4": "TogoWiki", "5": "TogoWiki‐ノート", "6": "ファイル", "7": "ファイル‐ノート", "8": "MediaWiki", "9": "MediaWiki‐ノート", "10": "Template", "11": "Template‐ノート", "12": "Help", "13": "Help‐ノート", "14": "Category", "15": "Category‐ノート"},
+wgNamespaceIds={"メディア": -2, "特別": -1, "": 0, "ノート": 1, "利用者": 2, "利用者‐会話": 3, "togowiki": 4, "togowiki‐ノート": 5, "ファイル": 6, "ファイル‐ノート": 7, "mediawiki": 8, "mediawiki‐ノート": 9, "template": 10, "template‐ノート": 11, "help": 12, "help‐ノート": 13, "category": 14, "category‐ノート": 15, "画像": 6, "画像‐ノート": 7, "image": 6, "image_talk": 7},
+wgSiteName="TogoWiki",
+wgCategories=["Bh10.10"],
+wgRestrictionEdit=[],
+wgRestrictionMove=[];
+</script><script src="/mw/skins/common/wikibits.js?270"></script>
+<script src="/mw/skins/common/ajax.js?270"></script>
+<script src="/mw/index.php?title=-&amp;action=raw&amp;gen=js&amp;useskin=monobook&amp;270"></script>
+
+		<style type='text/css'>
+		li#pt-openidlogin {
+		  background: url(/mw/extensions/OpenID/skin/icons/openid-inputicon.png) top left no-repeat;
+		  padding-left: 20px;
+		  text-transform: none;
+		}
+		</style>
+</head>
+<body class="mediawiki ltr ns-0 ns-subject page-実用的なバイオオントロジー関連技術の調査 skin-monobook">
+<div id="globalWrapper">
+<div id="column-content"><div id="content" >
+	<a id="top"></a>
+	
+	<h1 id="firstHeading" class="firstHeading">実用的なバイオオントロジー関連技術の調査</h1>
+	<div id="bodyContent">
+		<h3 id="siteSub">提供：TogoWiki</h3>
+		<div id="contentSub">
+				<div id="mw-revision-info">2010年10月22日 (金) 06:14時点における<a href="/mw/index.php?title=%E5%88%A9%E7%94%A8%E8%80%85:Shuichi&amp;action=edit&amp;redlink=1" class="new mw-userlink" title="利用者:Shuichi（存在しないページ）">Shuichi</a>  <span class="mw-usertoollinks">(<a href="/mw/index.php?title=%E5%88%A9%E7%94%A8%E8%80%85%E2%80%90%E4%BC%9A%E8%A9%B1:Shuichi&amp;action=edit&amp;redlink=1" class="new" title="利用者‐会話:Shuichi（存在しないページ）">トーク</a> | <a href="/mw/%E7%89%B9%E5%88%A5:%E6%8A%95%E7%A8%BF%E8%A8%98%E9%8C%B2/Shuichi" title="特別:投稿記録/Shuichi">投稿記録</a>)</span>による版</div>
+
+				<div id="mw-revision-nav">(<a href="/mw/index.php?title=%E5%AE%9F%E7%94%A8%E7%9A%84%E3%81%AA%E3%83%90%E3%82%A4%E3%82%AA%E3%82%AA%E3%83%B3%E3%83%88%E3%83%AD%E3%82%B8%E3%83%BC%E9%96%A2%E9%80%A3%E6%8A%80%E8%A1%93%E3%81%AE%E8%AA%BF%E6%9F%BB&amp;diff=prev&amp;oldid=735" title="実用的なバイオオントロジー関連技術の調査">差分</a>) <a href="/mw/index.php?title=%E5%AE%9F%E7%94%A8%E7%9A%84%E3%81%AA%E3%83%90%E3%82%A4%E3%82%AA%E3%82%AA%E3%83%B3%E3%83%88%E3%83%AD%E3%82%B8%E3%83%BC%E9%96%A2%E9%80%A3%E6%8A%80%E8%A1%93%E3%81%AE%E8%AA%BF%E6%9F%BB&amp;direction=prev&amp;oldid=735" title="実用的なバイオオントロジー関連技術の調査">←前の版</a> | 最新版 (差分) | 次の版→ (差分)</div>
+			</div>
+		<div id="jump-to-nav">移動： <a href="#column-one">案内</a>, <a href="#searchInput">検索</a></div>
+		<!-- start content -->
+<table id="toc" class="toc"><tr><td><div id="toctitle"><h2>目次</h2></div>
+<ul>
+<li class="toclevel-1 tocsection-1"><a href="#OBO.E3.81.AE.E8.AA.BF.E6.9F.BB"><span class="tocnumber">1</span> <span class="toctext">OBOの調査</span></a>
+<ul>
+<li class="toclevel-2 tocsection-2"><a href="#OBO"><span class="tocnumber">1.1</span> <span class="toctext">OBO</span></a></li>
+<li class="toclevel-2 tocsection-3"><a href="#OBO_.E3.83.95.E3.82.A9.E3.83.BC.E3.83.9E.E3.83.83.E3.83.88"><span class="tocnumber">1.2</span> <span class="toctext">OBO フォーマット</span></a>
+<ul>
+<li class="toclevel-3 tocsection-4"><a href="#.5BTerm.5D_Stanza:_required_tags"><span class="tocnumber">1.2.1</span> <span class="toctext">[Term] Stanza: required tags</span></a></li>
+<li class="toclevel-3 tocsection-5"><a href="#.5BTerm.5D_Stanza:_optional_tags"><span class="tocnumber">1.2.2</span> <span class="toctext">[Term] Stanza: optional tags</span></a></li>
+<li class="toclevel-3 tocsection-6"><a href="#.5BTypedef.5D_Stanza:_tags"><span class="tocnumber">1.2.3</span> <span class="toctext">[Typedef] Stanza: tags</span></a></li>
+<li class="toclevel-3 tocsection-7"><a href="#.5BInstance.5D_Stanza:_tags"><span class="tocnumber">1.2.4</span> <span class="toctext">[Instance] Stanza: tags</span></a></li>
+</ul>
+</li>
+<li class="toclevel-2 tocsection-8"><a href="#OBO.E7.94.A8.E8.A8.80.E8.AA.9E.E3.83.A9.E3.82.A4.E3.83.96.E3.83.A9.E3.83.AA.E3.83.BC"><span class="tocnumber">1.3</span> <span class="toctext">OBO用言語ライブラリー</span></a></li>
+<li class="toclevel-2 tocsection-9"><a href="#OBO_Edit_.E3.81.AE.E4.BD.BF.E3.81.84.E6.96.B9.E8.AA.BF.E6.9F.BB"><span class="tocnumber">1.4</span> <span class="toctext">OBO Edit の使い方調査</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-10"><a href="#.E6.96.B0.E8.A6.8F.E3.82.AA.E3.83.B3.E3.83.88.E3.83.AD.E3.82.B8.E3.83.BC.E3.81.AE.E6.A7.8B.E7.AF.89"><span class="tocnumber">2</span> <span class="toctext">新規オントロジーの構築</span></a></li>
+<li class="toclevel-1 tocsection-11"><a href="#.E5.8F.82.E5.8A.A0.E8.80.85"><span class="tocnumber">3</span> <span class="toctext">参加者</span></a></li>
+</ul>
+</td></tr></table><script>if (window.showTocToggle) { var tocShowText = "表示"; var tocHideText = "非表示"; showTocToggle(); } </script>
+<h2> <span class="mw-headline" id="OBO.E3.81.AE.E8.AA.BF.E6.9F.BB"> OBOの調査 </span></h2>
+<p>Semantic Webによるデータベースの統合を見据えると、統合されたデータを柔軟に検索するのに、
+オントロジーの効果的な利用が必要ではないかと考え、既存のオントロジーの調査を行った。
+</p>
+<h3> <span class="mw-headline" id="OBO"> OBO </span></h3>
+<p>The Open Biological and Biomedical Ontologes <a href="http://www.obofoundry.org/" class="external autonumber" rel="nofollow">[1]</a>
+</p>
+<pre>ontologies provided in obo format 72
+ontologies provided in owl format 14
+ontologies provided in other format 2
+</pre>
+<table style="color:black; background-color:#ffffee;" cellpadding="2" cellspacing="0" border="1">
+<tr>
+<th> 生物種
+</th><th> 数
+</th><th> オントロジー
+</th></tr>
+<tr>
+<td> アフリカツメガエル </td><td> 1 </td><td> xenopus_anatomy.obo
+</td></tr>
+<tr>
+<td> ゼブラフィッシュ </td><td> 1 </td><td> zebrafish_anatomy.obo
+</td></tr>
+<tr>
+<td> 両生類 </td><td> 2 </td><td>  amphibian_anatomy.obo, amphibian_taxonomy.obo
+</td></tr>
+<tr>
+<td> 左右相称動物 </td><td> 1 </td><td> bilateria_mrca.obo
+</td></tr>
+<tr>
+<td> C.elegans </td><td> 3 </td><td> worm_development.obo, WBbt.obo, worm_phenotype.obo
+</td></tr>
+<tr>
+<td> 穀草 </td><td> 1 </td><td> plant_trait.obo
+</td></tr>
+<tr>
+<td> 粘菌 </td><td> 1 </td><td> dictyostelium_anatomy.obo
+</td></tr>
+<tr>
+<td> ショウジョウバエ </td><td> 3 </td><td> fly_anatomy.obo, fly_development.obo, fly_taxonomy.obo
+</td></tr>
+<tr>
+<td> 菌類 </td><td> 1 </td><td> dictyostelium_anatomy.obo
+</td></tr>
+<tr>
+<td> ヒト </td><td>  15 </td><td> human-dev-anat-abstract.obo, human-phenotype-ontology.obo, human-dev-anat-abstract2.obo, human_disease.obo,
+<p>human-dev-anat-staged.obo, evoc_v2.7_obo (microarrayplatform.obo, anatomicalsystem.obo, pathology.obo, associatedwith.obo, pooling.obo, celltype.obo, tissuepreparation.obo, developmentstage.obo, treatment.obo,
+experimentaltechnique.obo  
+)
+</p>
+</td></tr>
+<tr>
+<td> マウス </td><td>  3 </td><td> mouse_pathology.obo, adult_mouse_anatomy.obo, EMAP.obo
+</td></tr>
+<tr>
+<td> マラリア原虫 </td><td> 1 </td><td> IDOMAL.obo
+</td></tr>
+<tr>
+<td> メダカ </td><td> 1 </td><td> medaka_ontology.obo
+</td></tr>
+<tr>
+<td> 蚊 </td><td> 2 </td><td> mosquito_anatomy.obo, mosquito_insecticide_resistance.obo
+</td></tr>
+<tr>
+<td> インフルエンザ </td><td> 2 </td><td> flu.owl
+</td></tr>
+<tr>
+<td> 硬骨魚 </td><td> 2 </td><td> teleost_anatomy.obo, teleost_taxonomy.obo
+</td></tr>
+<tr>
+<td> ダニ </td><td> 1 </td><td> tick_anatomy.obo
+</td></tr>
+<tr>
+<td> クモ </td><td> 1 </td><td> spider_comparative_biology.obo
+</td></tr></table>
+<h3> <span class="mw-headline" id="OBO_.E3.83.95.E3.82.A9.E3.83.BC.E3.83.9E.E3.83.83.E3.83.88"> OBO フォーマット </span></h3>
+<h4> <span class="mw-headline" id=".5BTerm.5D_Stanza:_required_tags"> [Term] Stanza: required tags </span></h4>
+<table style="color:black; background-color:#ffffee;" cellpadding="2" cellspacing="0" border="1">
+<tr>
+<th> Tag
+</th><th> 説明
+</th><th> 利用例
+</th></tr>
+<tr>
+<td> id </td><td> このTermのユニークなID </td><td>
+</td></tr>
+<tr>
+<td> name </td><td> Termの名前 </td><td>
+</td></tr></table>
+<h4> <span class="mw-headline" id=".5BTerm.5D_Stanza:_optional_tags"> [Term] Stanza: optional tags </span></h4>
+<table style="color:black; background-color:#ffffee;" cellpadding="2" cellspacing="0" border="1">
+<tr>
+<th> Tag
+</th><th> 説明
+</th><th> 利用例
+</th></tr>
+<tr>
+<td> is_anonymous </td><td> anonymous id を持っているかどうか </td><td>  使われたことがない
+</td></tr>
+<tr>
+<td> alt_id </td><td> 別のID。複数持つことが可能 </td><td>
+</td></tr>
+<tr>
+<td> def </td><td> Termの定義。複数のdefを定義するのは禁止されている。クオートされた文章と、その後に、dbxref のリストが続く。dbxrefの定義は後で。</td><td>
+</td></tr>
+<tr>
+<td> comment </td><td> Termへのコメント。複数のcommentを定義するのは禁止されている。 </td><td>
+</td></tr>
+<tr>
+<td> subset </td><td>  </td><td>
+</td></tr>
+<tr>
+<td> synonym </td><td>  </td><td>
+</td></tr>
+<tr>
+<td> exact_synonym </td><td>  </td><td>
+</td></tr>
+<tr>
+<td> narrow_synonym </td><td>  </td><td>
+</td></tr>
+<tr>
+<td> broad_synonym </td><td>  </td><td>
+</td></tr>
+<tr>
+<td> xref </td><td> 他の用語セット類似Termのクロスリファレンス。複数のクロスリファレンスを定義できる </td><td>
+</td></tr>
+<tr>
+<td> xref_analog </td><td> 廃止予定。xrefの別名 </td><td>
+</td></tr>
+<tr>
+<td> xref_unk </td><td> 廃止予定。xrefの別名 </td><td>
+</td></tr>
+<tr>
+<td> is_a </td><td> 他のTermへのis_a関係の定義。 </td><td>
+</td></tr>
+<tr>
+<td> intersection_of </td><td>  </td><td>
+</td></tr>
+<tr>
+<td> union_of </td><td>  </td><td>
+</td></tr>
+<tr>
+<td> disjoint_from </td><td>  </td><td>
+</td></tr>
+<tr>
+<td> relationship </td><td>  </td><td>
+</td></tr>
+<tr>
+<td> is_obsolete </td><td>  </td><td>
+</td></tr>
+<tr>
+<td> replaced_by </td><td>  </td><td>
+</td></tr>
+<tr>
+<td> consider </td><td>  </td><td>
+</td></tr>
+<tr>
+<td> use_term </td><td>  </td><td>
+</td></tr>
+<tr>
+<td> builtin </td><td>  </td><td>
+</td></tr></table>
+<p><br />
+</p>
+<h4> <span class="mw-headline" id=".5BTypedef.5D_Stanza:_tags"> [Typedef] Stanza: tags </span></h4>
+<p>[Typedef] Stanzaは、[Term] Stanzaのタグをほとんどサポートしている。
+</p><p>[Term] Stanzaのタグのうち、[Typedef] Stanzaがサポートしないのは、次の３つ
+</p>
+<pre>union_of
+instersection_of
+disjoin_from
+</pre>
+<p>次のタグは、[Typedef] Stanza だけで利用が許可されているもの。
+</p>
+<table style="color:black; background-color:#ffffee;" cellpadding="2" cellspacing="0" border="1">
+<tr>
+<th> Tag
+</th><th> 説明
+</th><th> 利用例
+</th></tr>
+<tr>
+<td> domain </td><td>  </td><td>
+</td></tr>
+<tr>
+<td> range </td><td>  </td><td>
+</td></tr>
+<tr>
+<td> inverse_of </td><td>  </td><td>
+</td></tr>
+<tr>
+<td> transitive_over </td><td>  </td><td>
+</td></tr>
+<tr>
+<td> is_cyclic </td><td>  </td><td> chebi.obo だけで使われている
+</td></tr>
+<tr>
+<td> is_reflexive </td><td>  </td><td>
+</td></tr>
+<tr>
+<td> is_symmetric </td><td>  </td><td>
+</td></tr>
+<tr>
+<td> is_anti_symmetric </td><td>  </td><td>
+</td></tr>
+<tr>
+<td> is_transitive </td><td>  </td><td>
+</td></tr>
+<tr>
+<td> is_metadata_tag </td><td>  </td><td>
+</td></tr></table>
+<h4> <span class="mw-headline" id=".5BInstance.5D_Stanza:_tags"> [Instance] Stanza: tags </span></h4>
+<table style="color:black; background-color:#ffffee;" cellpadding="2" cellspacing="0" border="1">
+<tr>
+<th> Tag
+</th><th> 説明
+</th><th> 備考
+</th></tr>
+<tr>
+<td> id </td><td> そのタームのユニークなID </td><td> required tag
+</td></tr>
+<tr>
+<td> name </td><td> そのタームの名前。ひとつしか定義できない </td><td> required tag
+</td></tr>
+<tr>
+<td> instance_of </td><td> そのインスタンスのクラス </td><td> required tag
+</td></tr>
+<tr>
+<td> property_value </td><td>  </td><td> optionaly tag
+</td></tr></table>
+<h3> <span class="mw-headline" id="OBO.E7.94.A8.E8.A8.80.E8.AA.9E.E3.83.A9.E3.82.A4.E3.83.96.E3.83.A9.E3.83.AA.E3.83.BC"> OBO用言語ライブラリー </span></h3>
+<p>For Perl
+</p>
+<pre>go-perl モジュール
+obo フォーマットや、GO gene association フォーマットが扱える。
+[ <a href="http://search.cpan.org/~cmungall/go-perl/" class="external free" rel="nofollow">http://search.cpan.org/~cmungall/go-perl/</a> ]
+</pre>
+<pre>ONTO-PERL モジュール
+Cell Cycle Ontology と、OBOフォーマットを扱える。
+[ <a href="http://search.cpan.org/dist/ONTO-PERL/" class="external free" rel="nofollow">http://search.cpan.org/dist/ONTO-PERL/</a> ]
+</pre>
+<p>For Ruby
+</p>
+<pre>BioRuby
+以前のバージョンのGene Ontology 用のパーザ（by 中尾さん）は、存在するが、OBOフォーマットパーザはない
+</pre>
+<h3> <span class="mw-headline" id="OBO_Edit_.E3.81.AE.E4.BD.BF.E3.81.84.E6.96.B9.E8.AA.BF.E6.9F.BB"> OBO Edit の使い方調査 </span></h3>
+<pre><a href="http://oboedit.org/" class="external free" rel="nofollow">http://oboedit.org/</a>
+</pre>
+<h2> <span class="mw-headline" id=".E6.96.B0.E8.A6.8F.E3.82.AA.E3.83.B3.E3.83.88.E3.83.AD.E3.82.B8.E3.83.BC.E3.81.AE.E6.A7.8B.E7.AF.89"> 新規オントロジーの構築 </span></h2>
+<p>具体例として、OBO-Edit を用いて、すでにゲノム配列が報告されているセンモウヒラムシのオントロジーを構築を試みた。
+</p><p>（背景）
+センモウヒラムシは、海産の無脊椎動物である。系統学的位置は未確定であるが、いくつかの研究からは、
+三胚葉性の生物の登場以前に分岐した系統で、刺胞動物に比較的近縁であると考えられている。
+この動物について、これまでに行われた研究報告は数多くはないものの、行動や生態、細胞の形態観察などを
+中心としておこなわれており、その数は少しずつふえている。いくつかの分子生物学的な手法で、重要な発生
+遺伝子について機能解析がおこなわれた報告もある。が、まだまだ未知な点が多い動物である。この理由は、
+一つには、ラボ内での培養系が確立されておらず、一般的な意味での分子生物学が困難であったからであると思われる。
+このゲノム配列は、2009年に解読されており、したがって今後は、カスタムアレイサービスを利用した
+DNAマイクロアレイによる網羅的な遺伝子発現解析や、質量分析計を用いた網羅的なタンパク質解析が
+むしろ主流になることが予想される。
+</p><p>しかしながら系統学的な位置が、モデル生物から大きく離れたこの生物においては、モデル生物を主流として
+作成されているGene Ontologyなどではカバーできない遺伝子機能なども多いことが想像され、このために
+DNAマイクロアレイなどにおいて、計算機による解析結果の解釈をする際に不便が生ずることが予想される。
+たとえば具体的には、この動物にはfissionとreproductionの二種類の増殖方法が報告されているが、これに
+対応する遺伝子群をマイクロアレイで解析した場合に、関連づけるオントロジーは、既存のGene Ontologyには
+存在しない。また同様に、発生ステージについては、卵、小円状、64細胞期原腸胚、成熟成体などが知られているが
+これらについてもオントロジーが必要と考えられる。
+</p>
+<h2> <span class="mw-headline" id=".E5.8F.82.E5.8A.A0.E8.80.85"> 参加者 </span></h2>
+<p>川島秀一
+</p><p>川島武士
+</p>
+<!-- 
+NewPP limit report
+Preprocessor node count: 42/1000000
+Post-expand include size: 0/2097152 bytes
+Template argument size: 0/2097152 bytes
+Expensive parser function count: 0/100
+-->
+
+<!-- Saved in parser cache with key wikidb-togowiki_:pcache:idhash:49-0!1!0!!ja!2!edit=0!printable=1 and timestamp 20230605031726 -->
+<div class="printfooter">
+「<a href="http://wiki.lifesciencedb.jp/mw/%E5%AE%9F%E7%94%A8%E7%9A%84%E3%81%AA%E3%83%90%E3%82%A4%E3%82%AA%E3%82%AA%E3%83%B3%E3%83%88%E3%83%AD%E3%82%B8%E3%83%BC%E9%96%A2%E9%80%A3%E6%8A%80%E8%A1%93%E3%81%AE%E8%AA%BF%E6%9F%BB">http://wiki.lifesciencedb.jp/mw/%E5%AE%9F%E7%94%A8%E7%9A%84%E3%81%AA%E3%83%90%E3%82%A4%E3%82%AA%E3%82%AA%E3%83%B3%E3%83%88%E3%83%AD%E3%82%B8%E3%83%BC%E9%96%A2%E9%80%A3%E6%8A%80%E8%A1%93%E3%81%AE%E8%AA%BF%E6%9F%BB</a>」より作成</div>
+		<div id='catlinks' class='catlinks'><div id="mw-normal-catlinks"><a href="/mw/%E7%89%B9%E5%88%A5:%E3%82%AB%E3%83%86%E3%82%B4%E3%83%AA" title="特別:カテゴリ">カテゴリ</a>: <span dir='ltr'><a href="/mw/index.php?title=Category:Bh10.10&amp;action=edit&amp;redlink=1" class="new" title="Category:Bh10.10（存在しないページ）">Bh10.10</a></span></div></div>		<!-- end content -->
+				<div class="visualClear"></div>
+	</div>
+</div></div>
+<div id="column-one">
+	<div id="p-cactions" class="portlet">
+		<h5>表示</h5>
+		<div class="pBody">
+			<ul>
+				 <li id="ca-nstab-main" class="selected"><a href="/mw/%E5%AE%9F%E7%94%A8%E7%9A%84%E3%81%AA%E3%83%90%E3%82%A4%E3%82%AA%E3%82%AA%E3%83%B3%E3%83%88%E3%83%AD%E3%82%B8%E3%83%BC%E9%96%A2%E9%80%A3%E6%8A%80%E8%A1%93%E3%81%AE%E8%AA%BF%E6%9F%BB" title="本文を表示 [c]" accesskey="c">ページ</a></li>
+				 <li id="ca-talk" class="new"><a href="/mw/index.php?title=%E3%83%8E%E3%83%BC%E3%83%88:%E5%AE%9F%E7%94%A8%E7%9A%84%E3%81%AA%E3%83%90%E3%82%A4%E3%82%AA%E3%82%AA%E3%83%B3%E3%83%88%E3%83%AD%E3%82%B8%E3%83%BC%E9%96%A2%E9%80%A3%E6%8A%80%E8%A1%93%E3%81%AE%E8%AA%BF%E6%9F%BB&amp;action=edit&amp;redlink=1" title="記事についての議論 [t]" accesskey="t">議論</a></li>
+				 <li id="ca-viewsource"><a href="/mw/index.php?title=%E5%AE%9F%E7%94%A8%E7%9A%84%E3%81%AA%E3%83%90%E3%82%A4%E3%82%AA%E3%82%AA%E3%83%B3%E3%83%88%E3%83%AD%E3%82%B8%E3%83%BC%E9%96%A2%E9%80%A3%E6%8A%80%E8%A1%93%E3%81%AE%E8%AA%BF%E6%9F%BB&amp;action=edit" title="このページは保護されています。&#10;ページのソースを閲覧できます。 [e]" accesskey="e">ソースを表示</a></li>
+				 <li id="ca-history"><a href="/mw/index.php?title=%E5%AE%9F%E7%94%A8%E7%9A%84%E3%81%AA%E3%83%90%E3%82%A4%E3%82%AA%E3%82%AA%E3%83%B3%E3%83%88%E3%83%AD%E3%82%B8%E3%83%BC%E9%96%A2%E9%80%A3%E6%8A%80%E8%A1%93%E3%81%AE%E8%AA%BF%E6%9F%BB&amp;action=history" title="このページの過去の版 [h]" accesskey="h">履歴</a></li>
+			</ul>
+		</div>
+	</div>
+	<div class="portlet" id="p-personal">
+		<h5>個人用ツール</h5>
+		<div class="pBody">
+			<ul>
+				<li id="pt-anonuserpage"><a href="/mw/%E5%88%A9%E7%94%A8%E8%80%85:172.18.8.51" title="自分が編集しているIPアドレスの利用者ページ [.]" accesskey="." class="new">172.18.8.51</a></li>
+				<li id="pt-anontalk"><a href="/mw/%E5%88%A9%E7%94%A8%E8%80%85%E2%80%90%E4%BC%9A%E8%A9%B1:172.18.8.51" title="このIPアドレスからなされた編集についての議論 [n]" accesskey="n" class="new">このIPアドレスのトーク</a></li>
+				<li id="pt-anonlogin"><a href="/mw/index.php?title=%E7%89%B9%E5%88%A5:%E3%83%AD%E3%82%B0%E3%82%A4%E3%83%B3&amp;returnto=%E5%AE%9F%E7%94%A8%E7%9A%84%E3%81%AA%E3%83%90%E3%82%A4%E3%82%AA%E3%82%AA%E3%83%B3%E3%83%88%E3%83%AD%E3%82%B8%E3%83%BC%E9%96%A2%E9%80%A3%E6%8A%80%E8%A1%93%E3%81%AE%E8%AA%BF%E6%9F%BB&amp;returntoquery=oldid%3D735%26printable%3Dyes" title="ログインすることが推奨されます。ただし、必須ではありません。 [o]" accesskey="o">ログイン</a></li>
+				<li id="pt-openidlogin"><a href="/mw/index.php?title=%E7%89%B9%E5%88%A5:OpenID%E3%83%AD%E3%82%B0%E3%82%A4%E3%83%B3&amp;returnto=%E5%AE%9F%E7%94%A8%E7%9A%84%E3%81%AA%E3%83%90%E3%82%A4%E3%82%AA%E3%82%AA%E3%83%B3%E3%83%88%E3%83%AD%E3%82%B8%E3%83%BC%E9%96%A2%E9%80%A3%E6%8A%80%E8%A1%93%E3%81%AE%E8%AA%BF%E6%9F%BB">OpenIDでログイン</a></li>
+			</ul>
+		</div>
+	</div>
+	<div class="portlet" id="p-logo">
+		<a style="background-image: url(/mw/images/togowiki-logo.png);" href="/mw/%E3%83%A1%E3%82%A4%E3%83%B3%E3%83%9A%E3%83%BC%E3%82%B8" title="メインページに移動"></a>
+	</div>
+	<script type="text/javascript"> if (window.isMSIE55) fixalpha(); </script>
+	<div class='generated-sidebar portlet' id='p-navigation'>
+		<h5>案内</h5>
+		<div class='pBody'>
+			<ul>
+				<li id="n-mainpage-description"><a href="/mw/%E3%83%A1%E3%82%A4%E3%83%B3%E3%83%9A%E3%83%BC%E3%82%B8" title="メインページに移動する [z]" accesskey="z">メインページ</a></li>
+				<li id="n-portal"><a href="/mw/TogoWiki:%E3%82%B3%E3%83%9F%E3%83%A5%E3%83%8B%E3%83%86%E3%82%A3%E3%83%BB%E3%83%9D%E3%83%BC%E3%82%BF%E3%83%AB" title="このプロジェクトについて、できること、情報を入手する場所">コミュニティ・ポータル</a></li>
+				<li id="n-currentevents"><a href="/mw/TogoWiki:%E6%9C%80%E8%BF%91%E3%81%AE%E5%87%BA%E6%9D%A5%E4%BA%8B" title="最近の出来事について予備知識を得る">最近の出来事</a></li>
+				<li id="n-recentchanges"><a href="/mw/%E7%89%B9%E5%88%A5:%E6%9C%80%E8%BF%91%E3%81%AE%E6%9B%B4%E6%96%B0" title="ウィキにおける最近の更新の一覧 [r]" accesskey="r">最近の更新</a></li>
+				<li id="n-randompage"><a href="/mw/%E7%89%B9%E5%88%A5:%E3%81%8A%E3%81%BE%E3%81%8B%E3%81%9B%E8%A1%A8%E7%A4%BA" title="無作為に抽出されたページの読み込み [x]" accesskey="x">おまかせ表示</a></li>
+				<li id="n-help"><a href="/mw/Help:%E7%9B%AE%E6%AC%A1" title="情報を得る場所">ヘルプ</a></li>
+			</ul>
+		</div>
+	</div>
+	<div id="p-search" class="portlet">
+		<h5><label for="searchInput">検索</label></h5>
+		<div id="searchBody" class="pBody">
+			<form action="/mw/index.php" id="searchform">
+				<input type='hidden' name="title" value="特別:検索"/>
+				<input id="searchInput" title="TogoWiki内を検索" accesskey="f" type="search" name="search" />
+				<input type='submit' name="go" class="searchButton" id="searchGoButton"	value="表示" title="厳密に一致する名前のページが存在すれば、そのページへ移動します" />&nbsp;
+				<input type='submit' name="fulltext" class="searchButton" id="mw-searchButton" value="検索" title="入力された文字列が含まれるページを検索します" />
+			</form>
+		</div>
+	</div>
+	<div class="portlet" id="p-tb">
+		<h5>ツールボックス</h5>
+		<div class="pBody">
+			<ul>
+				<li id="t-whatlinkshere"><a href="/mw/%E7%89%B9%E5%88%A5:%E3%83%AA%E3%83%B3%E3%82%AF%E5%85%83/%E5%AE%9F%E7%94%A8%E7%9A%84%E3%81%AA%E3%83%90%E3%82%A4%E3%82%AA%E3%82%AA%E3%83%B3%E3%83%88%E3%83%AD%E3%82%B8%E3%83%BC%E9%96%A2%E9%80%A3%E6%8A%80%E8%A1%93%E3%81%AE%E8%AA%BF%E6%9F%BB" title="ここにリンクしている全ウィキのページの一覧 [j]" accesskey="j">リンク元</a></li>
+				<li id="t-recentchangeslinked"><a href="/mw/%E7%89%B9%E5%88%A5:%E9%96%A2%E9%80%A3%E3%83%9A%E3%83%BC%E3%82%B8%E3%81%AE%E6%9B%B4%E6%96%B0%E7%8A%B6%E6%B3%81/%E5%AE%9F%E7%94%A8%E7%9A%84%E3%81%AA%E3%83%90%E3%82%A4%E3%82%AA%E3%82%AA%E3%83%B3%E3%83%88%E3%83%AD%E3%82%B8%E3%83%BC%E9%96%A2%E9%80%A3%E6%8A%80%E8%A1%93%E3%81%AE%E8%AA%BF%E6%9F%BB" title="このページからリンクしているページの最近の更新 [k]" accesskey="k">関連ページの更新状況</a></li>
+<li id="t-specialpages"><a href="/mw/%E7%89%B9%E5%88%A5:%E7%89%B9%E5%88%A5%E3%83%9A%E3%83%BC%E3%82%B8%E4%B8%80%E8%A6%A7" title="特別ページの一覧 [q]" accesskey="q">特別ページ</a></li>
+				<li id="t-permalink"><a href="/mw/index.php?title=%E5%AE%9F%E7%94%A8%E7%9A%84%E3%81%AA%E3%83%90%E3%82%A4%E3%82%AA%E3%82%AA%E3%83%B3%E3%83%88%E3%83%AD%E3%82%B8%E3%83%BC%E9%96%A2%E9%80%A3%E6%8A%80%E8%A1%93%E3%81%AE%E8%AA%BF%E6%9F%BB&amp;oldid=735" title="ページのこの版への固定リンク">この版への固定リンク</a></li>			</ul>
+		</div>
+	</div>
+</div><!-- end of the left (by default at least) column -->
+<div class="visualClear"></div>
+<div id="footer">
+	<div id="f-poweredbyico"><a href="http://www.mediawiki.org/"><img src="/mw/skins/common/images/poweredby_mediawiki_88x31.png" height="31" width="88" alt="Powered by MediaWiki" /></a></div>
+	<div id="f-copyrightico"><a href="http://creativecommons.org/licenses/by/3.0/"><img src="http://i.creativecommons.org/l/by/3.0/88x31.png" alt="Attribution 3.0 Unported" width="88" height="31" /></a></div>
+	<ul id="f-list">
+		<li id="copyright">内容は<a href="http://creativecommons.org/licenses/by/3.0/" class="external ">Attribution 3.0 Unported</a>のライセンスで利用することができます。</li>
+		<li id="privacy"><a href="/mw/TogoWiki:%E3%83%97%E3%83%A9%E3%82%A4%E3%83%90%E3%82%B7%E3%83%BC%E3%83%BB%E3%83%9D%E3%83%AA%E3%82%B7%E3%83%BC" title="TogoWiki:プライバシー・ポリシー">プライバシー・ポリシー</a></li>
+		<li id="about"><a href="/mw/TogoWiki:TogoWiki%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6" title="TogoWiki:TogoWikiについて">TogoWikiについて</a></li>
+		<li id="disclaimer"><a href="/mw/TogoWiki:%E5%85%8D%E8%B2%AC%E4%BA%8B%E9%A0%85" title="TogoWiki:免責事項">免責事項</a></li>
+	</ul>
+</div>
+</div>
+
+<script>if (window.runOnloadHook) runOnloadHook();</script>
+<!-- Served in 0.678 secs. --></body></html>

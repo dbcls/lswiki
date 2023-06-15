@@ -1,0 +1,11 @@
+[Process]
+Type=Edit file
+Engine=MediaWiki
+Script=http://wiki.lifesciencedb.jp/mw/index.php
+Server=http://wiki.lifesciencedb.jp
+Path=/mw
+Special namespace=特別
+
+[File]
+Extension=jpg
+URL=http://wiki.lifesciencedb.jp/mw/images/f/f2/IMG_0307.small.jpg

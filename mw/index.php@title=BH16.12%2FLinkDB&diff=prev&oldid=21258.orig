@@ -1,0 +1,435 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html lang="ja" dir="ltr">
+<head>
+<title>BH16.12/LinkDB - TogoWiki</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta name="generator" content="MediaWiki 1.16.3" />
+<meta name="robots" content="noindex,nofollow" />
+<link rel="shortcut icon" href="/favicon.ico" />
+<link rel="search" type="application/opensearchdescription+xml" href="/mw/opensearch_desc.php" title="TogoWiki (ja)" />
+<link title="Creative Commons" type="application/rdf+xml" href="/mw/index.php?title=BH16.12/LinkDB&amp;action=creativecommons" rel="meta" />
+<link rel="copyright" href="http://creativecommons.org/licenses/by/3.0/" />
+<link rel="alternate" type="application/atom+xml" title="TogoWikiのAtomフィード" href="/mw/index.php?title=%E7%89%B9%E5%88%A5:%E6%9C%80%E8%BF%91%E3%81%AE%E6%9B%B4%E6%96%B0&amp;feed=atom" />
+<link rel="stylesheet" href="/mw/skins/common/diff.css?270" />
+<link rel="stylesheet" href="/mw/skins/common/shared.css?270" media="screen" />
+<link rel="stylesheet" href="/mw/skins/common/commonPrint.css?270" media="print" />
+<link rel="stylesheet" href="/mw/skins/monobook/main.css?270" media="screen" />
+<!--[if lt IE 5.5000]><link rel="stylesheet" href="/mw/skins/monobook/IE50Fixes.css?270" media="screen" /><![endif]-->
+<!--[if IE 5.5000]><link rel="stylesheet" href="/mw/skins/monobook/IE55Fixes.css?270" media="screen" /><![endif]-->
+<!--[if IE 6]><link rel="stylesheet" href="/mw/skins/monobook/IE60Fixes.css?270" media="screen" /><![endif]-->
+<!--[if IE 7]><link rel="stylesheet" href="/mw/skins/monobook/IE70Fixes.css?270" media="screen" /><![endif]-->
+<link rel="stylesheet" href="/mw/index.php?title=MediaWiki:Common.css&amp;usemsgcache=yes&amp;ctype=text%2Fcss&amp;smaxage=18000&amp;action=raw&amp;maxage=18000" />
+<link rel="stylesheet" href="/mw/index.php?title=MediaWiki:Print.css&amp;usemsgcache=yes&amp;ctype=text%2Fcss&amp;smaxage=18000&amp;action=raw&amp;maxage=18000" media="print" />
+<link rel="stylesheet" href="/mw/index.php?title=MediaWiki:Monobook.css&amp;usemsgcache=yes&amp;ctype=text%2Fcss&amp;smaxage=18000&amp;action=raw&amp;maxage=18000" />
+<link rel="stylesheet" href="/mw/index.php?title=-&amp;action=raw&amp;maxage=18000&amp;gen=css" />
+<script>
+var skin="monobook",
+stylepath="/mw/skins",
+wgUrlProtocols="http\\:\\/\\/|https\\:\\/\\/|ftp\\:\\/\\/|irc\\:\\/\\/|gopher\\:\\/\\/|telnet\\:\\/\\/|nntp\\:\\/\\/|worldwind\\:\\/\\/|mailto\\:|news\\:|svn\\:\\/\\/",
+wgArticlePath="/mw/$1",
+wgScriptPath="/mw",
+wgScriptExtension=".php",
+wgScript="/mw/index.php",
+wgVariantArticlePath=false,
+wgActionPaths={},
+wgServer="http://wiki.lifesciencedb.jp",
+wgCanonicalNamespace="",
+wgCanonicalSpecialPageName=false,
+wgNamespaceNumber=0,
+wgPageName="BH16.12/LinkDB",
+wgTitle="BH16.12/LinkDB",
+wgAction="view",
+wgArticleId=742,
+wgIsArticle=true,
+wgUserName=null,
+wgUserGroups=null,
+wgUserLanguage="ja",
+wgContentLanguage="ja",
+wgBreakFrames=false,
+wgCurRevisionId=21258,
+wgVersion="1.16.3",
+wgEnableAPI=true,
+wgEnableWriteAPI=true,
+wgSeparatorTransformTable=["", ""],
+wgDigitTransformTable=["", ""],
+wgMainPageTitle="メインページ",
+wgFormattedNamespaces={"-2": "メディア", "-1": "特別", "0": "", "1": "ノート", "2": "利用者", "3": "利用者‐会話", "4": "TogoWiki", "5": "TogoWiki‐ノート", "6": "ファイル", "7": "ファイル‐ノート", "8": "MediaWiki", "9": "MediaWiki‐ノート", "10": "Template", "11": "Template‐ノート", "12": "Help", "13": "Help‐ノート", "14": "Category", "15": "Category‐ノート"},
+wgNamespaceIds={"メディア": -2, "特別": -1, "": 0, "ノート": 1, "利用者": 2, "利用者‐会話": 3, "togowiki": 4, "togowiki‐ノート": 5, "ファイル": 6, "ファイル‐ノート": 7, "mediawiki": 8, "mediawiki‐ノート": 9, "template": 10, "template‐ノート": 11, "help": 12, "help‐ノート": 13, "category": 14, "category‐ノート": 15, "画像": 6, "画像‐ノート": 7, "image": 6, "image_talk": 7},
+wgSiteName="TogoWiki",
+wgCategories=[],
+wgRestrictionEdit=[],
+wgRestrictionMove=[];
+</script><script src="/mw/skins/common/wikibits.js?270"></script>
+<script type="text/javascript" src="/mw/skins/common/diff.js?270"></script>
+<script src="/mw/skins/common/ajax.js?270"></script>
+<script src="/mw/index.php?title=-&amp;action=raw&amp;gen=js&amp;useskin=monobook&amp;270"></script>
+
+		<style type='text/css'>
+		li#pt-openidlogin {
+		  background: url(/mw/extensions/OpenID/skin/icons/openid-inputicon.png) top left no-repeat;
+		  padding-left: 20px;
+		  text-transform: none;
+		}
+		</style>
+</head>
+<body class="mediawiki ltr ns-0 ns-subject page-BH16_12_LinkDB skin-monobook">
+<div id="globalWrapper">
+<div id="column-content"><div id="content" >
+	<a id="top"></a>
+	
+	<h1 id="firstHeading" class="firstHeading">BH16.12/LinkDB</h1>
+	<div id="bodyContent">
+		<h3 id="siteSub">提供：TogoWiki</h3>
+		<div id="contentSub">（版間での差分）</div>
+		<div id="jump-to-nav">移動： <a href="#column-one">案内</a>, <a href="#searchInput">検索</a></div>
+		<!-- start content -->
+<table class='diff'>
+			<col class='diff-marker' />
+			<col class='diff-content' />
+			<col class='diff-marker' />
+			<col class='diff-content' />
+		<tr valign='top'>
+		<td colspan='2' class='diff-otitle'><div id="mw-diff-otitle1"><strong><a href='/mw/index.php?title=BH16.12/LinkDB&amp;oldid=21241'>2016年12月14日 (水) 07:59時点における版</a> (<a href='/mw/index.php?title=BH16.12/LinkDB&amp;action=edit&amp;oldid=21241'>ソースを表示</a>)</strong></div><div id="mw-diff-otitle2"><a href="/mw/index.php?title=%E5%88%A9%E7%94%A8%E8%80%85:Ktym&amp;action=edit&amp;redlink=1" class="new mw-userlink" title="利用者:Ktym（存在しないページ）">Ktym</a>  <span class="mw-usertoollinks">(<a href="/mw/index.php?title=%E5%88%A9%E7%94%A8%E8%80%85%E2%80%90%E4%BC%9A%E8%A9%B1:Ktym&amp;action=edit&amp;redlink=1" class="new" title="利用者‐会話:Ktym（存在しないページ）">トーク</a> | <a href="/mw/%E7%89%B9%E5%88%A5:%E6%8A%95%E7%A8%BF%E8%A8%98%E9%8C%B2/Ktym" title="特別:投稿記録/Ktym">投稿記録</a>)</span></div><div id="mw-diff-otitle3"> <span class="comment">(<span class="autocomment"><a href="#TODO">→</a>TODO</span>)</span></div><div id="mw-diff-otitle4"><a href="/mw/index.php?title=BH16.12/LinkDB&amp;diff=prev&amp;oldid=21241" title="BH16.12/LinkDB" id="differences-prevlink">←古い編集</a></div></td>
+		<td colspan='2' class='diff-ntitle'><div id="mw-diff-ntitle1"><strong><a href='/mw/index.php?title=BH16.12/LinkDB&amp;oldid=21258'>2016年12月14日 (水) 09:39時点における最新版</a> (<a href='/mw/index.php?title=BH16.12/LinkDB&amp;action=edit'>ソースを表示</a>)</strong></div><div id="mw-diff-ntitle2"><a href="/mw/index.php?title=%E5%88%A9%E7%94%A8%E8%80%85:Ktym&amp;action=edit&amp;redlink=1" class="new mw-userlink" title="利用者:Ktym（存在しないページ）">Ktym</a>  <span class="mw-usertoollinks">(<a href="/mw/index.php?title=%E5%88%A9%E7%94%A8%E8%80%85%E2%80%90%E4%BC%9A%E8%A9%B1:Ktym&amp;action=edit&amp;redlink=1" class="new" title="利用者‐会話:Ktym（存在しないページ）">トーク</a> | <a href="/mw/%E7%89%B9%E5%88%A5:%E6%8A%95%E7%A8%BF%E8%A8%98%E9%8C%B2/Ktym" title="特別:投稿記録/Ktym">投稿記録</a>)</span> </div><div id="mw-diff-ntitle3"> <span class="comment">(<span class="autocomment"><a href="#TODO">→</a>TODO</span>)</span></div><div id="mw-diff-ntitle4">&nbsp;</div></td>
+		</tr><tr><td colspan="2" class="diff-lineno">218行：</td>
+<td colspan="2" class="diff-lineno">218行：</td></tr>
+<tr><td class='diff-marker'> </td><td class='diff-context'><div>* IPI http://identifiers.org/ipi/</div></td><td class='diff-marker'> </td><td class='diff-context'><div>* IPI http://identifiers.org/ipi/</div></td></tr>
+<tr><td class='diff-marker'> </td><td class='diff-context'><div>** IPIは2011年に開発が終了しUniProtに引き継がれているが、IPIの配列が使われることが今でもあるので、配列相同性などでUniProtに対応付けして利用したい。</div></td><td class='diff-marker'> </td><td class='diff-context'><div>** IPIは2011年に開発が終了しUniProtに引き継がれているが、IPIの配列が使われることが今でもあるので、配列相同性などでUniProtに対応付けして利用したい。</div></td></tr>
+<tr><td colspan="2">&nbsp;</td><td class='diff-marker'>+</td><td class='diff-addedline'><div><ins class="diffchange">* NextProt</ins></div></td></tr>
+<tr><td colspan="2">&nbsp;</td><td class='diff-marker'>+</td><td class='diff-addedline'><div><ins class="diffchange">** ヒトのタンパク（断片含む）を網羅的に集めているので拾いたい（UniProt の RDF には NextProt へのリンクは含まれている → 逆はどうか？）</ins></div></td></tr>
+<tr><td class='diff-marker'> </td><td class='diff-context'><div>* Affymetrix http://identifiers.org/affy.probeset/</div></td><td class='diff-marker'> </td><td class='diff-context'><div>* Affymetrix http://identifiers.org/affy.probeset/</div></td></tr>
+</table><hr /><h2>2016年12月14日 (水) 09:39時点における最新版</h2>
+<table id="toc" class="toc"><tr><td><div id="toctitle"><h2>目次</h2></div>
+<ul>
+<li class="toclevel-1 tocsection-1"><a href="#PDBj.E3.81.A8DDBJ.E3.82.92.E3.81.A4.E3.81.AA.E3.81.90"><span class="tocnumber">1</span> <span class="toctext">PDBjとDDBJをつなぐ</span></a>
+<ul>
+<li class="toclevel-2 tocsection-2"><a href="#UniProt.E3.81.AEidmapping.E3.81.ABPDB_chain_.E3.81.A8_insd_protein_id_.E3.81.AE.E5.AF.BE.E5.BF.9C.E3.81.8C.E3.81.82.E3.82.8B.E3.81.8C.E3.80.81.E5.B0.91.E3.81.97.E6.B3.A8.E6.84.8F.E3.82.92.E8.A6.81.E3.81.99.E3.82.8B.E3.80.82"><span class="tocnumber">1.1</span> <span class="toctext">UniProtのidmappingにPDB chain と insd protein_id の対応があるが、少し注意を要する。</span></a></li>
+<li class="toclevel-2 tocsection-3"><a href="#auth_asym_id_.E3.81.AF.E5.88.86.E5.AD.90.E3.82.92unique.E3.81.AB.E5.AE.9A.E3.82.81.E3.81.AA.E3.81.84"><span class="tocnumber">1.2</span> <span class="toctext">auth_asym_id は分子をuniqueに定めない</span></a></li>
+<li class="toclevel-2 tocsection-4"><a href="#.E5.8C.96.E5.90.88.E7.89.A9.E5.9B.BA.E6.9C.89.E3.81.AEID_entity_id"><span class="tocnumber">1.3</span> <span class="toctext">化合物固有のID entity_id</span></a></li>
+<li class="toclevel-2 tocsection-5"><a href="#.E4.BC.9D.E7.B5.B1.E7.9A.84chain_ID.E3.81.A8.E5.8C.96.E5.90.88.E7.89.A9ID.E3.81.AE.E5.AF.BE.E5.BF.9C"><span class="tocnumber">1.4</span> <span class="toctext">伝統的chain IDと化合物IDの対応</span></a></li>
+<li class="toclevel-2 tocsection-6"><a href="#.E3.81.BE.E3.81.A8.E3.82.81"><span class="tocnumber">1.5</span> <span class="toctext">まとめ</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-7"><a href="#SPARQL_queries"><span class="tocnumber">2</span> <span class="toctext">SPARQL queries</span></a>
+<ul>
+<li class="toclevel-2 tocsection-8"><a href="#.E6.BA.96.E5.82.99.E9.81.8B.E5.8B.95"><span class="tocnumber">2.1</span> <span class="toctext">準備運動</span></a></li>
+<li class="toclevel-2 tocsection-9"><a href="#.E6.9C.AC.E7.95.AA.EF.BC.9F"><span class="tocnumber">2.2</span> <span class="toctext">本番？</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-10"><a href="#TODO"><span class="tocnumber">3</span> <span class="toctext">TODO</span></a></li>
+</ul>
+</td></tr></table><script>if (window.showTocToggle) { var tocShowText = "表示"; var tocHideText = "非表示"; showTocToggle(); } </script>
+<h2> <span class="mw-headline" id="PDBj.E3.81.A8DDBJ.E3.82.92.E3.81.A4.E3.81.AA.E3.81.90"> PDBjとDDBJをつなぐ </span></h2>
+<h3> <span class="mw-headline" id="UniProt.E3.81.AEidmapping.E3.81.ABPDB_chain_.E3.81.A8_insd_protein_id_.E3.81.AE.E5.AF.BE.E5.BF.9C.E3.81.8C.E3.81.82.E3.82.8B.E3.81.8C.E3.80.81.E5.B0.91.E3.81.97.E6.B3.A8.E6.84.8F.E3.82.92.E8.A6.81.E3.81.99.E3.82.8B.E3.80.82"> UniProtのidmappingにPDB chain と insd protein_id の対応があるが、少し注意を要する。</span></h3>
+<p>いわゆるchain IDには <b>auth_asym_id</b> と <b>label_asym_id</b> の２種類がある。
+</p>
+<ul><li> auth_asym_id -&gt; 伝統的なchain IDで、登録者が勝手に決める。必ずしも A から始まらない。例： <a href="http://pdbj.org/mine/summary/2hkh" class="external text" rel="nofollow">2HKH</a> (抗体） の  L (light chain), H (heavy chain)
+</li></ul>
+<ul><li> label_asym_id -&gt; PDB側で統一的に定めたchain ID で必ず A, B, C ... の順で割り振られる。2HKHでは auth_asym_id = L -&gt; label_asym_id = A;  auth_asym_id H -&gt; label_asym_id = B になる。
+</li></ul>
+<h3> <span class="mw-headline" id="auth_asym_id_.E3.81.AF.E5.88.86.E5.AD.90.E3.82.92unique.E3.81.AB.E5.AE.9A.E3.82.81.E3.81.AA.E3.81.84"> auth_asym_id は分子をuniqueに定めない </span></h3>
+<p>例えば、ヘモグロビン <a href="http://pdbj.org/mine/summary/1hbb" class="external text" rel="nofollow">1HBB</a> (ヘモグロビン）の場合、アルファ鎖のひとつは auth_asym_id = Aだが、それに結合しているヘム及び水分子もauth_asym_id = Aになる。label_asym_id は A (蛋白質）、E(ヘム）、I（水）となる。
+</p><p>したがって、auth_asym_id ではPDBエントリーの蛋白質分子に固有のURLが定まらない。（これが便利な場合もある：タンパク質とそのリガンドを同時に指定したい場合など。）
+</p>
+<h3> <span class="mw-headline" id=".E5.8C.96.E5.90.88.E7.89.A9.E5.9B.BA.E6.9C.89.E3.81.AEID_entity_id"> 化合物固有のID entity_id </span></h3>
+<p>なおPDBには分子の化合物のIDとしてentity_id がある。上記 1HBBの場合、ヘモグロビンのα鎖は２分子含まれており、 label_asym_id = AとCが割り当てられているが、それらのentity_idは共に"1"にである。
+</p>
+<dl><dd>- <a href="http://rdf.wwpdb.org/pdb/1HBB/struct_asym/A" class="external free" rel="nofollow">http://rdf.wwpdb.org/pdb/1HBB/struct_asym/A</a>
+</dd><dd>- <a href="http://rdf.wwpdb.org/pdb/1HBB/struct_asym/C" class="external free" rel="nofollow">http://rdf.wwpdb.org/pdb/1HBB/struct_asym/C</a>
+</dd><dd>- <a href="http://rdf.wwpdb.org/pdb/1HBB/entity/1" class="external free" rel="nofollow">http://rdf.wwpdb.org/pdb/1HBB/entity/1</a>
+</dd></dl>
+<p>chain IDによる指定はある意味"redundant"になる。これが良いか悪いかは目的次第だが、今回はredandancyを除いて entity_id を用いることにする。
+</p>
+<h3> <span class="mw-headline" id=".E4.BC.9D.E7.B5.B1.E7.9A.84chain_ID.E3.81.A8.E5.8C.96.E5.90.88.E7.89.A9ID.E3.81.AE.E5.AF.BE.E5.BF.9C"> 伝統的chain IDと化合物IDの対応 </span></h3>
+<p>[<a href="http://pdbj.org/mine/sql" class="external text" rel="nofollow">PDBj Mine SQL</a>]サービスを使うと対応が取れる。
+</p>
+<pre>
+SELECT UPPER(e.pdbid), e.entity_id, UNNEST(string_to_array(e.pdbx_strand_id,',')) AS auth_asym_id
+FROM entity_poly e
+</pre>
+<p>[<a href="http://pdbj.org/mine/sql?query=SELECT+UPPER(e.pdbid)%2C+e.entity_id%2C+UNNEST(string_to_array(e.pdbx_strand_id%2C%27%2C%27))+AS+auth_asym_id%0AFROM+entity_poly+e%0A" class="external text" rel="nofollow">結果</a>]
+(TSVでダウンロードできます。[<a href="http://pdbj.org/help/rest-interface" class="external text" rel="nofollow">REST API</a>]もあります。）
+</p><p>label_asym_idとの対応も含めたい場合、
+</p>
+<pre>
+SELECT UPPER(e.pdbid), e.entity_id, a.id AS label_asym_id, UNNEST(string_to_array(e.pdbx_strand_id,',')) AS auth_asym_id
+FROM entity_poly e
+JOIN struct_asym a ON a.pdbid = e.pdbid AND a.entity_id = e.entity_id
+</pre>
+<p>[<a href="http://pdbj.org/mine/sql?query=SELECT+UPPER(e.pdbid)%2C+e.entity_id%2C+a.id+AS+label_asym_id%2C+UNNEST(string_to_array(e.pdbx_strand_id%2C%27%2C%27))+AS+auth_asym_id%0AFROM+entity_poly+e%0AJOIN+struct_asym+a+ON+a.pdbid+%3D+e.pdbid+AND+a.entity_id+%3D+e.entity_id%0A" class="external text" rel="nofollow">結果</a>]
+</p>
+<h3> <span class="mw-headline" id=".E3.81.BE.E3.81.A8.E3.82.81"> まとめ </span></h3>
+<p>このBHでは、PDBの化合物IDとINSDのprotein IDの対応をUniProt の提供する idmapping_selected.tab.gz から生成した。
+</p>
+<h2> <span class="mw-headline" id="SPARQL_queries"> SPARQL queries </span></h2>
+<p>RDF Portal のDDBJグラフにリンク情報を入れてもらった。
+</p>
+<h3> <span class="mw-headline" id=".E6.BA.96.E5.82.99.E9.81.8B.E5.8B.95"> 準備運動 </span></h3>
+<ul><li> PDB関連のリンクを取り出す。
+</li></ul>
+<pre>
+SELECT&nbsp;?s&nbsp;?o
+WHERE {?s &lt;https://www.w3.org/2000/01/rdf-schema#seeAlso&gt;&nbsp;?o 
+          FILTER(regex(?s,'^http://rdf.wwpdb.org/pdb'))
+      } LIMIT 100
+</pre>
+<p>（rdfs:seeAlso はURLベタ書きの必要あり。このポータルでは、rdfs:はhttpsではなくてhttpで定義されているため。）
+</p>
+<ul><li> ヒトのBioSample を取り出す。
+</li></ul>
+<pre>
+#DEFINE sql:select-option &quot;order&quot;
+PREFIX insdc: &lt;http://ddbj.nig.ac.jp/ontologies/nucleotide/&gt;
+PREFIX obo:   &lt;http://purl.obolibrary.org/obo/&gt;
+SELECT DISTINCT&nbsp;?biosample 
+WHERE
+{
+ &nbsp;?nucleotide a insdc:Entry.
+ &nbsp;?nucleotide insdc:dblink&nbsp;?biosample.
+ &nbsp;?biosample a &lt;http://ddbj.nig.ac.jp/ontologies/nucleotide/BioSample&gt;.
+ &nbsp;?nucleotide insdc:sequence&nbsp;?seq.
+ &nbsp;?source  obo:so_part_of&nbsp;?seq .
+ &nbsp;?source rdfs:seeAlso &lt;http://identifiers.org/taxonomy/9606&gt; .
+}
+limit 100 offset 1
+</pre>
+<ul><li> ヒトのBioSampleとprotein IDの対応
+</li></ul>
+<pre>
+#DEFINE sql:select-option &quot;order&quot;
+PREFIX insdc: &lt;http://ddbj.nig.ac.jp/ontologies/nucleotide/&gt;
+PREFIX obo:   &lt;http://purl.obolibrary.org/obo/&gt;
+SELECT&nbsp;?biosample&nbsp;?nucleotide&nbsp;?protein
+WHERE
+{
+ &nbsp;?nucleotide a insdc:Entry.
+ &nbsp;?nucleotide insdc:dblink&nbsp;?biosample.
+ &nbsp;?biosample a &lt;http://ddbj.nig.ac.jp/ontologies/nucleotide/BioSample&gt;.
+ &nbsp;?nucleotide insdc:sequence&nbsp;?seq.
+
+ &nbsp;?source  obo:so_part_of&nbsp;?seq .
+ &nbsp;?source rdfs:seeAlso &lt;http://identifiers.org/taxonomy/9606&gt; .
+
+ &nbsp;?feature obo:so_part_of+&nbsp;?seq.
+ &nbsp;?feature rdfs:seeAlso&nbsp;?protein.
+ &nbsp;?protein a insdc:Protein.
+}
+limit 100 offset 1
+</pre>
+<ul><li> ヒトのBioSampleのタンパク質数
+</li></ul>
+<pre>
+#DEFINE sql:select-option &quot;order&quot;
+PREFIX insdc: &lt;http://ddbj.nig.ac.jp/ontologies/nucleotide/&gt;
+PREFIX obo:   &lt;http://purl.obolibrary.org/obo/&gt;
+SELECT&nbsp;?biosample count(distinct&nbsp;?protein)
+WHERE
+{
+ &nbsp;?nucleotide a insdc:Entry.
+ &nbsp;?nucleotide insdc:dblink&nbsp;?biosample.
+ &nbsp;?biosample a &lt;http://ddbj.nig.ac.jp/ontologies/nucleotide/BioSample&gt;.
+ &nbsp;?nucleotide insdc:sequence&nbsp;?seq.
+
+ &nbsp;?source  obo:so_part_of&nbsp;?seq .
+ &nbsp;?source rdfs:seeAlso &lt;http://identifiers.org/taxonomy/9606&gt; .
+
+ &nbsp;?feature obo:so_part_of+&nbsp;?seq.
+ &nbsp;?feature rdfs:seeAlso&nbsp;?protein.
+ &nbsp;?protein a insdc:Protein.
+}
+group by&nbsp;?biosample
+having (count(distinct&nbsp;?protein) &gt; 1)
+</pre>
+<dl><dd>- <a href="http://identifiers.org/biosample/SAMN02981219" class="external free" rel="nofollow">http://identifiers.org/biosample/SAMN02981219</a> は64479個のたんぱく質を含む。
+</dd><dd>- <a href="http://identifiers.org/biosample/SAMN02981216" class="external free" rel="nofollow">http://identifiers.org/biosample/SAMN02981216</a> は709個
+</dd></dl>
+<h3> <span class="mw-headline" id=".E6.9C.AC.E7.95.AA.EF.BC.9F"> 本番？ </span></h3>
+<ul><li> BioSample - Nucleotide - INSDC Protein - PDBのリンクを取り出す
+</li></ul>
+<pre>
+PREFIX insdc: &lt;http://ddbj.nig.ac.jp/ontologies/nucleotide/&gt;
+PREFIX obo:   &lt;http://purl.obolibrary.org/obo/&gt;
+SELECT
+distinct&nbsp;?biosample&nbsp;?s as&nbsp;?sequence&nbsp;?protein&nbsp;?pdb
+WHERE
+{
+ &nbsp;?pdb &lt;https://www.w3.org/2000/01/rdf-schema#seeAlso&gt;&nbsp;?protein.
+  filter(regex(?pdb,'^http://rdf.wwpdb.org/pdb'))
+  #filter(?feature&nbsp;!=&nbsp;?pdb)
+ &nbsp;?s a insdc:Entry.
+  #filter(?s = &lt;http://identifiers.org/insdc/CP002459.1&gt;)
+ &nbsp;?s insdc:dblink&nbsp;?biosample.
+ &nbsp;?biosample a &lt;http://ddbj.nig.ac.jp/ontologies/nucleotide/BioSample&gt;.
+ &nbsp;?s insdc:sequence&nbsp;?seq.
+ &nbsp;?feature obo:so_part_of+&nbsp;?seq.
+ &nbsp;?feature rdfs:seeAlso&nbsp;?protein.
+ &nbsp;?protein a insdc:Protein.
+}
+limit 100 offset 1
+</pre>
+<ul><li> ヒトデータ（tax_id=9606）を絞り込む
+</li></ul>
+<pre>
+#DEFINE sql:select-option &quot;order&quot;
+
+PREFIX insdc: &lt;http://ddbj.nig.ac.jp/ontologies/nucleotide/&gt;
+PREFIX obo:   &lt;http://purl.obolibrary.org/obo/&gt;
+SELECT
+DISTINCT&nbsp;?biosample
+#distinct&nbsp;?biosample&nbsp;?nucleotide&nbsp;?protein&nbsp;?pdb
+WHERE
+{
+ &nbsp;?pdb &lt;https://www.w3.org/2000/01/rdf-schema#seeAlso&gt;&nbsp;?protein.
+  filter(regex(?pdb,'^http://rdf.wwpdb.org/pdb'))
+ &nbsp;?protein a insdc:Protein.
+ &nbsp;?feature rdfs:seeAlso&nbsp;?protein.
+ &nbsp;?feature obo:so_part_of+&nbsp;?seq.
+ &nbsp;?seq obo:RO_0002162&nbsp;?taxonomy.
+ &nbsp;?nucleotide insdc:sequence&nbsp;?seq.
+ &nbsp;?nucleotide a insdc:Entry.
+  #values&nbsp;?biosample {&lt;http://identifiers.org/biosample/SAMN02981219&gt;}
+  values&nbsp;?taxonomy {&lt;http://identifiers.org/taxonomy/9606&gt;}
+ &nbsp;?nucleotide insdc:dblink&nbsp;?biosample.
+ &nbsp;?biosample a &lt;http://ddbj.nig.ac.jp/ontologies/nucleotide/BioSample&gt;.
+}
+limit 100
+</pre>
+<p>これで拾えるBioSampleは <a href="http://identifiers.org/biosample/SAMN02981216" class="external free" rel="nofollow">http://identifiers.org/biosample/SAMN02981216</a> のみ。なんで？？？
+→RO:in_taxonを使うようにSPARQL修正した結果、２件ヒットになりました。
+</p>
+<ul><li> <a href="http://info.identifiers.org/biosample/SAMN02981219" class="external text" rel="nofollow">http://identifiers.org/biosample/SAMN02981219</a>
+</li><li> <a href="http://info.identifiers.org/biosample/SAMN02981216" class="external text" rel="nofollow">http://identifiers.org/biosample/SAMN02981216</a>
+</li></ul>
+<p>→ SPARQL再修正しました。BioSample件数：2件
+</p>
+<ul><li> PDB chain IDから塩基配列の座標を取得する
+</li></ul>
+<pre>
+#DEFINE sql:select-option &quot;order&quot;
+PREFIX insdc: &lt;http://ddbj.nig.ac.jp/ontologies/nucleotide/&gt;
+PREFIX obo:   &lt;http://purl.obolibrary.org/obo/&gt;
+PREFIX faldo: &lt;http://biohackathon.org/resource/faldo#&gt;
+SELECT
+distinct&nbsp;?pdb&nbsp;?organism&nbsp;?nucleotide&nbsp;?begin_position&nbsp;?end_position IF(?direction_type = &lt;http://biohackathon.org/resource/faldo#ReverseStrandPosition&gt;, '-','+') as&nbsp;?direction
+WHERE
+{
+  values&nbsp;?direction_type {faldo:ForwardStrandPosition faldo:ReverseStrandPosition }
+  #values&nbsp;?taxonomy {&lt;http://identifiers.org/taxonomy/9606&gt;}
+ &nbsp;?pdb &lt;https://www.w3.org/2000/01/rdf-schema#seeAlso&gt;&nbsp;?protein.
+ &nbsp;?protein a insdc:Protein.
+  filter(regex(?pdb,'^http://rdf.wwpdb.org/pdb'))
+ &nbsp;?feature rdfs:seeAlso&nbsp;?protein.
+ &nbsp;?feature faldo:location&nbsp;?location.
+ &nbsp;?location faldo:begin&nbsp;?begin.
+ &nbsp;?location faldo:end&nbsp;?end.
+ &nbsp;?begin faldo:position&nbsp;?begin_position.
+ &nbsp;?end faldo:position&nbsp;?end_position.
+ &nbsp;?begin a&nbsp;?direction_type.
+ &nbsp;?begin faldo:reference&nbsp;?reference.
+ &nbsp;?feature obo:so_part_of+&nbsp;?seq.
+ &nbsp;?nucleotide insdc:sequence&nbsp;?seq.
+ &nbsp;?nucleotide a insdc:Entry.
+ &nbsp;?source  obo:so_part_of&nbsp;?seq .
+ &nbsp;?source rdfs:seeAlso&nbsp;?taxonomy.
+ &nbsp;?source insdc:organism&nbsp;?organism.
+  #OPTIONAL {?source insdc:chromosome&nbsp;?chromosome_name.}
+  #?source insdc:chromosome&nbsp;?chromosome_name.
+ &nbsp;?taxonomy rdf:type        insdc:Taxonomy.
+
+}
+limit 100
+</pre>
+<h2> <span class="mw-headline" id="TODO"> TODO </span></h2>
+<ul><li> IPI <a href="http://identifiers.org/ipi/" class="external free" rel="nofollow">http://identifiers.org/ipi/</a>
+<ul><li> IPIは2011年に開発が終了しUniProtに引き継がれているが、IPIの配列が使われることが今でもあるので、配列相同性などでUniProtに対応付けして利用したい。
+</li></ul>
+</li><li> NextProt
+<ul><li> ヒトのタンパク（断片含む）を網羅的に集めているので拾いたい（UniProt の RDF には NextProt へのリンクは含まれている → 逆はどうか？）
+</li></ul>
+</li><li> Affymetrix <a href="http://identifiers.org/affy.probeset/" class="external free" rel="nofollow">http://identifiers.org/affy.probeset/</a>
+</li></ul>
+<div class="printfooter">
+「<a href="http://wiki.lifesciencedb.jp/mw/BH16.12/LinkDB">http://wiki.lifesciencedb.jp/mw/BH16.12/LinkDB</a>」より作成</div>
+		<div id='catlinks' class='catlinks catlinks-allhidden'></div>		<!-- end content -->
+				<div class="visualClear"></div>
+	</div>
+</div></div>
+<div id="column-one">
+	<div id="p-cactions" class="portlet">
+		<h5>表示</h5>
+		<div class="pBody">
+			<ul>
+				 <li id="ca-nstab-main" class="selected"><a href="/mw/BH16.12/LinkDB" title="本文を表示 [c]" accesskey="c">ページ</a></li>
+				 <li id="ca-talk" class="new"><a href="/mw/index.php?title=%E3%83%8E%E3%83%BC%E3%83%88:BH16.12/LinkDB&amp;action=edit&amp;redlink=1" title="記事についての議論 [t]" accesskey="t">議論</a></li>
+				 <li id="ca-viewsource"><a href="/mw/index.php?title=BH16.12/LinkDB&amp;action=edit&amp;oldid=21258" title="このページは保護されています。&#10;ページのソースを閲覧できます。 [e]" accesskey="e">ソースを表示</a></li>
+				 <li id="ca-history"><a href="/mw/index.php?title=BH16.12/LinkDB&amp;action=history" title="このページの過去の版 [h]" accesskey="h">履歴</a></li>
+			</ul>
+		</div>
+	</div>
+	<div class="portlet" id="p-personal">
+		<h5>個人用ツール</h5>
+		<div class="pBody">
+			<ul>
+				<li id="pt-anonuserpage"><a href="/mw/%E5%88%A9%E7%94%A8%E8%80%85:172.18.8.51" title="自分が編集しているIPアドレスの利用者ページ [.]" accesskey="." class="new">172.18.8.51</a></li>
+				<li id="pt-anontalk"><a href="/mw/%E5%88%A9%E7%94%A8%E8%80%85%E2%80%90%E4%BC%9A%E8%A9%B1:172.18.8.51" title="このIPアドレスからなされた編集についての議論 [n]" accesskey="n" class="new">このIPアドレスのトーク</a></li>
+				<li id="pt-anonlogin"><a href="/mw/index.php?title=%E7%89%B9%E5%88%A5:%E3%83%AD%E3%82%B0%E3%82%A4%E3%83%B3&amp;returnto=BH16.12/LinkDB&amp;returntoquery=diff%3Dprev%26oldid%3D21258" title="ログインすることが推奨されます。ただし、必須ではありません。 [o]" accesskey="o">ログイン</a></li>
+				<li id="pt-openidlogin"><a href="/mw/index.php?title=%E7%89%B9%E5%88%A5:OpenID%E3%83%AD%E3%82%B0%E3%82%A4%E3%83%B3&amp;returnto=BH16.12/LinkDB">OpenIDでログイン</a></li>
+			</ul>
+		</div>
+	</div>
+	<div class="portlet" id="p-logo">
+		<a style="background-image: url(/mw/images/togowiki-logo.png);" href="/mw/%E3%83%A1%E3%82%A4%E3%83%B3%E3%83%9A%E3%83%BC%E3%82%B8" title="メインページに移動"></a>
+	</div>
+	<script type="text/javascript"> if (window.isMSIE55) fixalpha(); </script>
+	<div class='generated-sidebar portlet' id='p-navigation'>
+		<h5>案内</h5>
+		<div class='pBody'>
+			<ul>
+				<li id="n-mainpage-description"><a href="/mw/%E3%83%A1%E3%82%A4%E3%83%B3%E3%83%9A%E3%83%BC%E3%82%B8" title="メインページに移動する [z]" accesskey="z">メインページ</a></li>
+				<li id="n-portal"><a href="/mw/TogoWiki:%E3%82%B3%E3%83%9F%E3%83%A5%E3%83%8B%E3%83%86%E3%82%A3%E3%83%BB%E3%83%9D%E3%83%BC%E3%82%BF%E3%83%AB" title="このプロジェクトについて、できること、情報を入手する場所">コミュニティ・ポータル</a></li>
+				<li id="n-currentevents"><a href="/mw/TogoWiki:%E6%9C%80%E8%BF%91%E3%81%AE%E5%87%BA%E6%9D%A5%E4%BA%8B" title="最近の出来事について予備知識を得る">最近の出来事</a></li>
+				<li id="n-recentchanges"><a href="/mw/%E7%89%B9%E5%88%A5:%E6%9C%80%E8%BF%91%E3%81%AE%E6%9B%B4%E6%96%B0" title="ウィキにおける最近の更新の一覧 [r]" accesskey="r">最近の更新</a></li>
+				<li id="n-randompage"><a href="/mw/%E7%89%B9%E5%88%A5:%E3%81%8A%E3%81%BE%E3%81%8B%E3%81%9B%E8%A1%A8%E7%A4%BA" title="無作為に抽出されたページの読み込み [x]" accesskey="x">おまかせ表示</a></li>
+				<li id="n-help"><a href="/mw/Help:%E7%9B%AE%E6%AC%A1" title="情報を得る場所">ヘルプ</a></li>
+			</ul>
+		</div>
+	</div>
+	<div id="p-search" class="portlet">
+		<h5><label for="searchInput">検索</label></h5>
+		<div id="searchBody" class="pBody">
+			<form action="/mw/index.php" id="searchform">
+				<input type='hidden' name="title" value="特別:検索"/>
+				<input id="searchInput" title="TogoWiki内を検索" accesskey="f" type="search" name="search" />
+				<input type='submit' name="go" class="searchButton" id="searchGoButton"	value="表示" title="厳密に一致する名前のページが存在すれば、そのページへ移動します" />&nbsp;
+				<input type='submit' name="fulltext" class="searchButton" id="mw-searchButton" value="検索" title="入力された文字列が含まれるページを検索します" />
+			</form>
+		</div>
+	</div>
+	<div class="portlet" id="p-tb">
+		<h5>ツールボックス</h5>
+		<div class="pBody">
+			<ul>
+				<li id="t-whatlinkshere"><a href="/mw/%E7%89%B9%E5%88%A5:%E3%83%AA%E3%83%B3%E3%82%AF%E5%85%83/BH16.12/LinkDB" title="ここにリンクしている全ウィキのページの一覧 [j]" accesskey="j">リンク元</a></li>
+				<li id="t-recentchangeslinked"><a href="/mw/%E7%89%B9%E5%88%A5:%E9%96%A2%E9%80%A3%E3%83%9A%E3%83%BC%E3%82%B8%E3%81%AE%E6%9B%B4%E6%96%B0%E7%8A%B6%E6%B3%81/BH16.12/LinkDB" title="このページからリンクしているページの最近の更新 [k]" accesskey="k">関連ページの更新状況</a></li>
+<li id="t-specialpages"><a href="/mw/%E7%89%B9%E5%88%A5:%E7%89%B9%E5%88%A5%E3%83%9A%E3%83%BC%E3%82%B8%E4%B8%80%E8%A6%A7" title="特別ページの一覧 [q]" accesskey="q">特別ページ</a></li>
+				<li id="t-print"><a href="/mw/index.php?title=BH16.12/LinkDB&amp;diff=prev&amp;oldid=21258&amp;printable=yes" rel="alternate" title="このページの印刷用ページ [p]" accesskey="p">印刷用バージョン</a></li>				<li id="t-permalink"><a href="/mw/index.php?title=BH16.12/LinkDB&amp;oldid=21258" title="ページのこの版への固定リンク">この版への固定リンク</a></li>			</ul>
+		</div>
+	</div>
+</div><!-- end of the left (by default at least) column -->
+<div class="visualClear"></div>
+<div id="footer">
+	<div id="f-poweredbyico"><a href="http://www.mediawiki.org/"><img src="/mw/skins/common/images/poweredby_mediawiki_88x31.png" height="31" width="88" alt="Powered by MediaWiki" /></a></div>
+	<div id="f-copyrightico"><a href="http://creativecommons.org/licenses/by/3.0/"><img src="http://i.creativecommons.org/l/by/3.0/88x31.png" alt="Attribution 3.0 Unported" width="88" height="31" /></a></div>
+	<ul id="f-list">
+		<li id="lastmod"> このページの最終更新は 2016年12月14日 (水) 09:39 に行われました。</li>
+		<li id="viewcount">このページは9,170回アクセスされました。</li>
+		<li id="copyright">内容は<a href="http://creativecommons.org/licenses/by/3.0/" class="external ">Attribution 3.0 Unported</a>のライセンスで利用することができます。</li>
+		<li id="privacy"><a href="/mw/TogoWiki:%E3%83%97%E3%83%A9%E3%82%A4%E3%83%90%E3%82%B7%E3%83%BC%E3%83%BB%E3%83%9D%E3%83%AA%E3%82%B7%E3%83%BC" title="TogoWiki:プライバシー・ポリシー">プライバシー・ポリシー</a></li>
+		<li id="about"><a href="/mw/TogoWiki:TogoWiki%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6" title="TogoWiki:TogoWikiについて">TogoWikiについて</a></li>
+		<li id="disclaimer"><a href="/mw/TogoWiki:%E5%85%8D%E8%B2%AC%E4%BA%8B%E9%A0%85" title="TogoWiki:免責事項">免責事項</a></li>
+	</ul>
+</div>
+</div>
+
+<script>if (window.runOnloadHook) runOnloadHook();</script>
+<!-- Served in 0.676 secs. --></body></html>

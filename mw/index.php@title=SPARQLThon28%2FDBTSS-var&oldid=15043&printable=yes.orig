@@ -1,0 +1,1029 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html lang="ja" dir="ltr">
+<head>
+<title>SPARQLThon28/DBTSS-var - TogoWiki</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta name="generator" content="MediaWiki 1.16.3" />
+<link rel="shortcut icon" href="/favicon.ico" />
+<link rel="search" type="application/opensearchdescription+xml" href="/mw/opensearch_desc.php" title="TogoWiki (ja)" />
+<link title="Creative Commons" type="application/rdf+xml" href="/mw/index.php?title=SPARQLThon28/DBTSS-var&amp;action=creativecommons" rel="meta" />
+<link rel="copyright" href="http://creativecommons.org/licenses/by/3.0/" />
+<link rel="alternate" type="application/atom+xml" title="TogoWikiのAtomフィード" href="/mw/index.php?title=%E7%89%B9%E5%88%A5:%E6%9C%80%E8%BF%91%E3%81%AE%E6%9B%B4%E6%96%B0&amp;feed=atom" />
+<link rel="stylesheet" href="/mw/skins/common/commonPrint.css?270" media="" />
+<link rel="stylesheet" href="/mw/index.php?title=MediaWiki:Common.css&amp;usemsgcache=yes&amp;ctype=text%2Fcss&amp;smaxage=18000&amp;action=raw&amp;maxage=18000" />
+<link rel="stylesheet" href="/mw/index.php?title=MediaWiki:Print.css&amp;usemsgcache=yes&amp;ctype=text%2Fcss&amp;smaxage=18000&amp;action=raw&amp;maxage=18000" media="" />
+<link rel="stylesheet" href="/mw/index.php?title=MediaWiki:Monobook.css&amp;usemsgcache=yes&amp;ctype=text%2Fcss&amp;smaxage=18000&amp;action=raw&amp;maxage=18000" />
+<link rel="stylesheet" href="/mw/index.php?title=-&amp;action=raw&amp;maxage=18000&amp;gen=css" />
+<script>
+var skin="monobook",
+stylepath="/mw/skins",
+wgUrlProtocols="http\\:\\/\\/|https\\:\\/\\/|ftp\\:\\/\\/|irc\\:\\/\\/|gopher\\:\\/\\/|telnet\\:\\/\\/|nntp\\:\\/\\/|worldwind\\:\\/\\/|mailto\\:|news\\:|svn\\:\\/\\/",
+wgArticlePath="/mw/$1",
+wgScriptPath="/mw",
+wgScriptExtension=".php",
+wgScript="/mw/index.php",
+wgVariantArticlePath=false,
+wgActionPaths={},
+wgServer="http://wiki.lifesciencedb.jp",
+wgCanonicalNamespace="",
+wgCanonicalSpecialPageName=false,
+wgNamespaceNumber=0,
+wgPageName="SPARQLThon28/DBTSS-var",
+wgTitle="SPARQLThon28/DBTSS-var",
+wgAction="view",
+wgArticleId=540,
+wgIsArticle=true,
+wgUserName=null,
+wgUserGroups=null,
+wgUserLanguage="ja",
+wgContentLanguage="ja",
+wgBreakFrames=false,
+wgCurRevisionId=15043,
+wgVersion="1.16.3",
+wgEnableAPI=true,
+wgEnableWriteAPI=true,
+wgSeparatorTransformTable=["", ""],
+wgDigitTransformTable=["", ""],
+wgMainPageTitle="メインページ",
+wgFormattedNamespaces={"-2": "メディア", "-1": "特別", "0": "", "1": "ノート", "2": "利用者", "3": "利用者‐会話", "4": "TogoWiki", "5": "TogoWiki‐ノート", "6": "ファイル", "7": "ファイル‐ノート", "8": "MediaWiki", "9": "MediaWiki‐ノート", "10": "Template", "11": "Template‐ノート", "12": "Help", "13": "Help‐ノート", "14": "Category", "15": "Category‐ノート"},
+wgNamespaceIds={"メディア": -2, "特別": -1, "": 0, "ノート": 1, "利用者": 2, "利用者‐会話": 3, "togowiki": 4, "togowiki‐ノート": 5, "ファイル": 6, "ファイル‐ノート": 7, "mediawiki": 8, "mediawiki‐ノート": 9, "template": 10, "template‐ノート": 11, "help": 12, "help‐ノート": 13, "category": 14, "category‐ノート": 15, "画像": 6, "画像‐ノート": 7, "image": 6, "image_talk": 7},
+wgSiteName="TogoWiki",
+wgCategories=[],
+wgRestrictionEdit=[],
+wgRestrictionMove=[];
+</script><script src="/mw/skins/common/wikibits.js?270"></script>
+<script src="/mw/skins/common/ajax.js?270"></script>
+<script src="/mw/index.php?title=-&amp;action=raw&amp;gen=js&amp;useskin=monobook&amp;270"></script>
+
+		<style type='text/css'>
+		li#pt-openidlogin {
+		  background: url(/mw/extensions/OpenID/skin/icons/openid-inputicon.png) top left no-repeat;
+		  padding-left: 20px;
+		  text-transform: none;
+		}
+		</style>
+</head>
+<body class="mediawiki ltr ns-0 ns-subject page-SPARQLThon28_DBTSS-var skin-monobook">
+<div id="globalWrapper">
+<div id="column-content"><div id="content" >
+	<a id="top"></a>
+	
+	<h1 id="firstHeading" class="firstHeading">SPARQLThon28/DBTSS-var</h1>
+	<div id="bodyContent">
+		<h3 id="siteSub">提供：TogoWiki</h3>
+		<div id="contentSub">
+				<div id="mw-revision-info">2015年1月15日 (木) 08:01時点における<a href="/mw/index.php?title=%E5%88%A9%E7%94%A8%E8%80%85:Orenodbcls&amp;action=edit&amp;redlink=1" class="new mw-userlink" title="利用者:Orenodbcls（存在しないページ）">Orenodbcls</a>  <span class="mw-usertoollinks">(<a href="/mw/index.php?title=%E5%88%A9%E7%94%A8%E8%80%85%E2%80%90%E4%BC%9A%E8%A9%B1:Orenodbcls&amp;action=edit&amp;redlink=1" class="new" title="利用者‐会話:Orenodbcls（存在しないページ）">トーク</a> | <a href="/mw/%E7%89%B9%E5%88%A5:%E6%8A%95%E7%A8%BF%E8%A8%98%E9%8C%B2/Orenodbcls" title="特別:投稿記録/Orenodbcls">投稿記録</a>)</span>による版</div>
+
+				<div id="mw-revision-nav">(差分) ←前の版 | 最新版 (差分) | 次の版→ (差分)</div>
+			</div>
+		<div id="jump-to-nav">移動： <a href="#column-one">案内</a>, <a href="#searchInput">検索</a></div>
+		<!-- start content -->
+<pre>@prefix rdf:  &lt;<a href="http://www.w3.org/1999/02/22-rdf-syntax-ns#" class="external free" rel="nofollow">http://www.w3.org/1999/02/22-rdf-syntax-ns#</a>&gt; .
+@prefix rdfs:  &lt;<a href="http://www.w3.org/2000/01/rdf-schema#" class="external free" rel="nofollow">http://www.w3.org/2000/01/rdf-schema#</a>&gt; .
+@prefix xsd:  &lt;<a href="http://www.w3.org/2001/XMLSchema#" class="external free" rel="nofollow">http://www.w3.org/2001/XMLSchema#</a>&gt; .
+@prefix obo:  &lt;<a href="http://purl.obolibrary.org/obo/" class="external free" rel="nofollow">http://purl.obolibrary.org/obo/</a>&gt; .
+@prefix faldo:  &lt;<a href="http://biohackathon.org/resource/faldo#" class="external free" rel="nofollow">http://biohackathon.org/resource/faldo#</a>&gt; .
+@prefix dbtss:  &lt;<a href="http://dbtss.hgc.jp/rdf/" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/</a>&gt; .
+@prefix  dbtss_variant:  &lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/hg38/snv/la_cellline_26/LC2ad_snv" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/hg38/snv/la_cellline_26/LC2ad_snv</a>&gt; .
+
+&lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/hg38/snv/la_cellline_26/LC2ad_snv" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/hg38/snv/la_cellline_26/LC2ad_snv</a>&gt; a dbtss:DBTSS_SNV .
+&lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/hg38/snv/la_cellline_26/LC2ad_snv" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/hg38/snv/la_cellline_26/LC2ad_snv</a>&gt; dbtss:dbtssVersion "9" .
+&lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/hg38/snv/la_cellline_26/LC2ad_snv" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/hg38/snv/la_cellline_26/LC2ad_snv</a>&gt; dbtss:genomeVersion "hg38" .
+&lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/hg38/snv/la_cellline_26/LC2ad_snv" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/hg38/snv/la_cellline_26/LC2ad_snv</a>&gt; dbtss:cellLine "LC2ad" .
+&lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/hg38/snv/la_cellline_26/LC2ad_snv" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/hg38/snv/la_cellline_26/LC2ad_snv</a>&gt; dbtss:hasVariant  dbtss_variant:c1.fa#10234 .
+dbtss_variant:c1.fa#10234 a obo:SO_0001483 .
+dbtss_variant:c1.fa#10234 rdfs:seeAlso  &lt;<a href="http://identifiers.org/dbsnp/rs145599635" class="external free" rel="nofollow">http://identifiers.org/dbsnp/rs145599635</a>&gt; .
+dbtss_variant:c1.fa#10234 faldo:location  &lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:10234-10234:1" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:10234-10234:1</a>&gt; .
+&lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:10234-10234:1" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:10234-10234:1</a>&gt; a faldo:Region .
+&lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:10234-10234:1" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:10234-10234:1</a>&gt; rdfs:label "chromosome 1:10234-10234:1" .
+&lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:10234-10234:1" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:10234-10234:1</a>&gt; faldo:begin  &lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:10234:1" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:10234:1</a>&gt; .
+&lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:10234-10234:1" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:10234-10234:1</a>&gt; faldo:end  &lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:10234:1" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:10234:1</a>&gt; .
+&lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:10234-10234:1" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:10234-10234:1</a>&gt; faldo:reference  &lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1</a>&gt; .
+&lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1</a>&gt; a faldo:ExactPosition .
+&lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1</a>&gt; a faldo:ForwardStrandPosition .
+&lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1</a>&gt; faldo:position 10234 .
+dbtss_variant:c1.fa#10234 dbtss:has_allele  dbtss_variant:c1.fa#10234#C .
+dbtss_variant:c1.fa#10234#C a dbtss:reference_allele .
+dbtss_variant:c1.fa#10234#C rdfs:label "C" .
+dbtss_variant:c1.fa#10234#T a dbtss:derived_allele .
+dbtss_variant:c1.fa#10234#T rdfs:label "T" .
+dbtss_variant:c1.fa#10234 dbtss:quality "72.66"^^xsd:float .
+&lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/hg38/snv/la_cellline_26/LC2ad_snv" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/hg38/snv/la_cellline_26/LC2ad_snv</a>&gt; dbtss:hasVariant  dbtss_variant:c1.fa#10235 .
+dbtss_variant:c1.fa#10235 a obo:SO_0001483 .
+dbtss_variant:c1.fa#10235 faldo:location  &lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:10235-10235:1" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:10235-10235:1</a>&gt; .
+&lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:10235-10235:1" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:10235-10235:1</a>&gt; a faldo:Region .
+&lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:10235-10235:1" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:10235-10235:1</a>&gt; rdfs:label "chromosome 1:10235-10235:1" .
+&lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:10235-10235:1" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:10235-10235:1</a>&gt; faldo:begin  &lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:10235:1" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:10235:1</a>&gt; .
+&lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:10235-10235:1" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:10235-10235:1</a>&gt; faldo:end  &lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:10235:1" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:10235:1</a>&gt; .
+&lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:10235-10235:1" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:10235-10235:1</a>&gt; faldo:reference  &lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1</a>&gt; .
+&lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1</a>&gt; a faldo:ExactPosition .
+&lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1</a>&gt; a faldo:ForwardStrandPosition .
+&lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1</a>&gt; faldo:position 10235 .
+dbtss_variant:c1.fa#10235 dbtss:has_allele  dbtss_variant:c1.fa#10235#T .
+dbtss_variant:c1.fa#10235#T a dbtss:reference_allele .
+dbtss_variant:c1.fa#10235#T rdfs:label "T" .
+dbtss_variant:c1.fa#10235#A a dbtss:derived_allele .
+dbtss_variant:c1.fa#10235#A rdfs:label "A" .
+dbtss_variant:c1.fa#10235 dbtss:quality "106.33"^^xsd:float .
+&lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/hg38/snv/la_cellline_26/LC2ad_snv" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/hg38/snv/la_cellline_26/LC2ad_snv</a>&gt; dbtss:hasVariant  dbtss_variant:c1.fa#14907 .
+dbtss_variant:c1.fa#14907 a obo:SO_0001483 .
+dbtss_variant:c1.fa#14907 rdfs:seeAlso  &lt;<a href="http://identifiers.org/dbsnp/rs79585140" class="external free" rel="nofollow">http://identifiers.org/dbsnp/rs79585140</a>&gt; .
+dbtss_variant:c1.fa#14907 faldo:location  &lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:14907-14907:1" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:14907-14907:1</a>&gt; .
+&lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:14907-14907:1" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:14907-14907:1</a>&gt; a faldo:Region .
+&lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:14907-14907:1" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:14907-14907:1</a>&gt; rdfs:label "chromosome 1:14907-14907:1" .
+&lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:14907-14907:1" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:14907-14907:1</a>&gt; faldo:begin  &lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:14907:1" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:14907:1</a>&gt; .
+&lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:14907-14907:1" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:14907-14907:1</a>&gt; faldo:end  &lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:14907:1" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:14907:1</a>&gt; .
+&lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:14907-14907:1" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:14907-14907:1</a>&gt; faldo:reference  &lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1</a>&gt; .
+&lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1</a>&gt; a faldo:ExactPosition .
+&lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1</a>&gt; a faldo:ForwardStrandPosition .
+&lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1</a>&gt; faldo:position 14907 .
+dbtss_variant:c1.fa#14907 dbtss:has_allele  dbtss_variant:c1.fa#14907#A .
+dbtss_variant:c1.fa#14907#A a dbtss:reference_allele .
+dbtss_variant:c1.fa#14907#A rdfs:label "A" .
+dbtss_variant:c1.fa#14907#G a dbtss:derived_allele .
+dbtss_variant:c1.fa#14907#G rdfs:label "G" .
+dbtss_variant:c1.fa#14907 dbtss:quality "101.53"^^xsd:float .
+&lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/hg38/snv/la_cellline_26/LC2ad_snv" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/hg38/snv/la_cellline_26/LC2ad_snv</a>&gt; dbtss:hasVariant  dbtss_variant:c1.fa#14930 .
+dbtss_variant:c1.fa#14930 a obo:SO_0001483 .
+dbtss_variant:c1.fa#14930 rdfs:seeAlso  &lt;<a href="http://identifiers.org/dbsnp/rs75454623" class="external free" rel="nofollow">http://identifiers.org/dbsnp/rs75454623</a>&gt; .
+dbtss_variant:c1.fa#14930 faldo:location  &lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:14930-14930:1" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:14930-14930:1</a>&gt; .
+&lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:14930-14930:1" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:14930-14930:1</a>&gt; a faldo:Region .
+&lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:14930-14930:1" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:14930-14930:1</a>&gt; rdfs:label "chromosome 1:14930-14930:1" .
+&lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:14930-14930:1" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:14930-14930:1</a>&gt; faldo:begin  &lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:14930:1" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:14930:1</a>&gt; .
+&lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:14930-14930:1" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:14930-14930:1</a>&gt; faldo:end  &lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:14930:1" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:14930:1</a>&gt; .
+&lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:14930-14930:1" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:14930-14930:1</a>&gt; faldo:reference  &lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1</a>&gt; .
+&lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1</a>&gt; a faldo:ExactPosition .
+&lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1</a>&gt; a faldo:ForwardStrandPosition .
+&lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1</a>&gt; faldo:position 14930 .
+dbtss_variant:c1.fa#14930 dbtss:has_allele  dbtss_variant:c1.fa#14930#A .
+dbtss_variant:c1.fa#14930#A a dbtss:reference_allele .
+dbtss_variant:c1.fa#14930#A rdfs:label "A" .
+dbtss_variant:c1.fa#14930#G a dbtss:derived_allele .
+dbtss_variant:c1.fa#14930#G rdfs:label "G" .
+dbtss_variant:c1.fa#14930 dbtss:quality "104.68"^^xsd:float .
+&lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/hg38/snv/la_cellline_26/LC2ad_snv" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/hg38/snv/la_cellline_26/LC2ad_snv</a>&gt; dbtss:hasVariant  dbtss_variant:c1.fa#16378 .
+dbtss_variant:c1.fa#16378 a obo:SO_0001483 .
+dbtss_variant:c1.fa#16378 rdfs:seeAlso  &lt;<a href="http://identifiers.org/dbsnp/rs148220436" class="external free" rel="nofollow">http://identifiers.org/dbsnp/rs148220436</a>&gt; .
+dbtss_variant:c1.fa#16378 faldo:location  &lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:16378-16378:1" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:16378-16378:1</a>&gt; .
+&lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:16378-16378:1" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:16378-16378:1</a>&gt; a faldo:Region .
+&lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:16378-16378:1" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:16378-16378:1</a>&gt; rdfs:label "chromosome 1:16378-16378:1" .
+&lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:16378-16378:1" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:16378-16378:1</a>&gt; faldo:begin  &lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:16378:1" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:16378:1</a>&gt; .
+&lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:16378-16378:1" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:16378-16378:1</a>&gt; faldo:end  &lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:16378:1" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:16378:1</a>&gt; .
+&lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:16378-16378:1" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:16378-16378:1</a>&gt; faldo:reference  &lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1</a>&gt; .
+&lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1</a>&gt; a faldo:ExactPosition .
+&lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1</a>&gt; a faldo:ForwardStrandPosition .
+&lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1</a>&gt; faldo:position 16378 .
+dbtss_variant:c1.fa#16378 dbtss:has_allele  dbtss_variant:c1.fa#16378#T .
+dbtss_variant:c1.fa#16378#T a dbtss:reference_allele .
+dbtss_variant:c1.fa#16378#T rdfs:label "T" .
+dbtss_variant:c1.fa#16378#C a dbtss:derived_allele .
+dbtss_variant:c1.fa#16378#C rdfs:label "C" .
+dbtss_variant:c1.fa#16378 dbtss:quality "66.58"^^xsd:float .
+&lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/hg38/snv/la_cellline_26/LC2ad_snv" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/hg38/snv/la_cellline_26/LC2ad_snv</a>&gt; dbtss:hasVariant  dbtss_variant:c1.fa#16495 .
+dbtss_variant:c1.fa#16495 a obo:SO_0001483 .
+dbtss_variant:c1.fa#16495 rdfs:seeAlso  &lt;<a href="http://identifiers.org/dbsnp/rs141130360" class="external free" rel="nofollow">http://identifiers.org/dbsnp/rs141130360</a>&gt; .
+dbtss_variant:c1.fa#16495 faldo:location  &lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:16495-16495:1" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:16495-16495:1</a>&gt; .
+&lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:16495-16495:1" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:16495-16495:1</a>&gt; a faldo:Region .
+&lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:16495-16495:1" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:16495-16495:1</a>&gt; rdfs:label "chromosome 1:16495-16495:1" .
+&lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:16495-16495:1" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:16495-16495:1</a>&gt; faldo:begin  &lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:16495:1" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:16495:1</a>&gt; .
+&lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:16495-16495:1" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:16495-16495:1</a>&gt; faldo:end  &lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:16495:1" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:16495:1</a>&gt; .
+&lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:16495-16495:1" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:16495-16495:1</a>&gt; faldo:reference  &lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1</a>&gt; .
+&lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1</a>&gt; a faldo:ExactPosition .
+&lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1</a>&gt; a faldo:ForwardStrandPosition .
+&lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1</a>&gt; faldo:position 16495 .
+dbtss_variant:c1.fa#16495 dbtss:has_allele  dbtss_variant:c1.fa#16495#G .
+dbtss_variant:c1.fa#16495#G a dbtss:reference_allele .
+dbtss_variant:c1.fa#16495#G rdfs:label "G" .
+dbtss_variant:c1.fa#16495#C a dbtss:derived_allele .
+dbtss_variant:c1.fa#16495#C rdfs:label "C" .
+dbtss_variant:c1.fa#16495 dbtss:quality "279.99"^^xsd:float .
+&lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/hg38/snv/la_cellline_26/LC2ad_snv" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/hg38/snv/la_cellline_26/LC2ad_snv</a>&gt; dbtss:hasVariant  dbtss_variant:c1.fa#17452 .
+dbtss_variant:c1.fa#17452 a obo:SO_0001483 .
+dbtss_variant:c1.fa#17452 rdfs:seeAlso  &lt;<a href="http://identifiers.org/dbsnp/rs200503540" class="external free" rel="nofollow">http://identifiers.org/dbsnp/rs200503540</a>&gt; .
+dbtss_variant:c1.fa#17452 faldo:location  &lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:17452-17452:1" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:17452-17452:1</a>&gt; .
+&lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:17452-17452:1" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:17452-17452:1</a>&gt; a faldo:Region .
+&lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:17452-17452:1" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:17452-17452:1</a>&gt; rdfs:label "chromosome 1:17452-17452:1" .
+&lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:17452-17452:1" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:17452-17452:1</a>&gt; faldo:begin  &lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:17452:1" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:17452:1</a>&gt; .
+&lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:17452-17452:1" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:17452-17452:1</a>&gt; faldo:end  &lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:17452:1" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:17452:1</a>&gt; .
+&lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:17452-17452:1" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:17452-17452:1</a>&gt; faldo:reference  &lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1</a>&gt; .
+&lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1</a>&gt; a faldo:ExactPosition .
+&lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1</a>&gt; a faldo:ForwardStrandPosition .
+&lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1</a>&gt; faldo:position 17452 .
+dbtss_variant:c1.fa#17452 dbtss:has_allele  dbtss_variant:c1.fa#17452#C .
+dbtss_variant:c1.fa#17452#C a dbtss:reference_allele .
+dbtss_variant:c1.fa#17452#C rdfs:label "C" .
+dbtss_variant:c1.fa#17452#T a dbtss:derived_allele .
+dbtss_variant:c1.fa#17452#T rdfs:label "T" .
+dbtss_variant:c1.fa#17452 dbtss:quality "123.52"^^xsd:float .
+&lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/hg38/snv/la_cellline_26/LC2ad_snv" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/hg38/snv/la_cellline_26/LC2ad_snv</a>&gt; dbtss:hasVariant  dbtss_variant:c1.fa#30860 .
+dbtss_variant:c1.fa#30860 a obo:SO_0001483 .
+dbtss_variant:c1.fa#30860 faldo:location  &lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:30860-30860:1" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:30860-30860:1</a>&gt; .
+&lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:30860-30860:1" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:30860-30860:1</a>&gt; a faldo:Region .
+&lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:30860-30860:1" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:30860-30860:1</a>&gt; rdfs:label "chromosome 1:30860-30860:1" .
+&lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:30860-30860:1" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:30860-30860:1</a>&gt; faldo:begin  &lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:30860:1" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:30860:1</a>&gt; .
+&lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:30860-30860:1" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:30860-30860:1</a>&gt; faldo:end  &lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:30860:1" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:30860:1</a>&gt; .
+&lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:30860-30860:1" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:30860-30860:1</a>&gt; faldo:reference  &lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1</a>&gt; .
+&lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1</a>&gt; a faldo:ExactPosition .
+&lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1</a>&gt; a faldo:ForwardStrandPosition .
+&lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1</a>&gt; faldo:position 30860 .
+dbtss_variant:c1.fa#30860 dbtss:has_allele  dbtss_variant:c1.fa#30860#G .
+dbtss_variant:c1.fa#30860#G a dbtss:reference_allele .
+dbtss_variant:c1.fa#30860#G rdfs:label "G" .
+dbtss_variant:c1.fa#30860#C a dbtss:derived_allele .
+dbtss_variant:c1.fa#30860#C rdfs:label "C" .
+dbtss_variant:c1.fa#30860 dbtss:quality "177.80"^^xsd:float .
+&lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/hg38/snv/la_cellline_26/LC2ad_snv" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/hg38/snv/la_cellline_26/LC2ad_snv</a>&gt; dbtss:hasVariant  dbtss_variant:c1.fa#30923 .
+dbtss_variant:c1.fa#30923 a obo:SO_0001483 .
+dbtss_variant:c1.fa#30923 rdfs:seeAlso  &lt;<a href="http://identifiers.org/dbsnp/rs140337953" class="external free" rel="nofollow">http://identifiers.org/dbsnp/rs140337953</a>&gt; .
+dbtss_variant:c1.fa#30923 faldo:location  &lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:30923-30923:1" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:30923-30923:1</a>&gt; .
+&lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:30923-30923:1" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:30923-30923:1</a>&gt; a faldo:Region .
+&lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:30923-30923:1" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:30923-30923:1</a>&gt; rdfs:label "chromosome 1:30923-30923:1" .
+&lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:30923-30923:1" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:30923-30923:1</a>&gt; faldo:begin  &lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:30923:1" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:30923:1</a>&gt; .
+&lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:30923-30923:1" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:30923-30923:1</a>&gt; faldo:end  &lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:30923:1" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:30923:1</a>&gt; .
+&lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:30923-30923:1" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:30923-30923:1</a>&gt; faldo:reference  &lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1</a>&gt; .
+&lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1</a>&gt; a faldo:ExactPosition .
+&lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1</a>&gt; a faldo:ForwardStrandPosition .
+&lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1</a>&gt; faldo:position 30923 .
+dbtss_variant:c1.fa#30923 dbtss:has_allele  dbtss_variant:c1.fa#30923#G .
+dbtss_variant:c1.fa#30923#G a dbtss:reference_allele .
+dbtss_variant:c1.fa#30923#G rdfs:label "G" .
+dbtss_variant:c1.fa#30923#T a dbtss:derived_allele .
+dbtss_variant:c1.fa#30923#T rdfs:label "T" .
+dbtss_variant:c1.fa#30923 dbtss:quality "471.49"^^xsd:float .
+&lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/hg38/snv/la_cellline_26/LC2ad_snv" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/hg38/snv/la_cellline_26/LC2ad_snv</a>&gt; dbtss:hasVariant  dbtss_variant:c1.fa#54421 .
+dbtss_variant:c1.fa#54421 a obo:SO_0001483 .
+dbtss_variant:c1.fa#54421 rdfs:seeAlso  &lt;<a href="http://identifiers.org/dbsnp/rs146477069" class="external free" rel="nofollow">http://identifiers.org/dbsnp/rs146477069</a>&gt; .
+dbtss_variant:c1.fa#54421 faldo:location  &lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:54421-54421:1" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:54421-54421:1</a>&gt; .
+&lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:54421-54421:1" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:54421-54421:1</a>&gt; a faldo:Region .
+&lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:54421-54421:1" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:54421-54421:1</a>&gt; rdfs:label "chromosome 1:54421-54421:1" .
+&lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:54421-54421:1" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:54421-54421:1</a>&gt; faldo:begin  &lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:54421:1" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:54421:1</a>&gt; .
+&lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:54421-54421:1" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:54421-54421:1</a>&gt; faldo:end  &lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:54421:1" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:54421:1</a>&gt; .
+&lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:54421-54421:1" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:54421-54421:1</a>&gt; faldo:reference  &lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1</a>&gt; .
+&lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1</a>&gt; a faldo:ExactPosition .
+&lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1</a>&gt; a faldo:ForwardStrandPosition .
+&lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1</a>&gt; faldo:position 54421 .
+dbtss_variant:c1.fa#54421 dbtss:has_allele  dbtss_variant:c1.fa#54421#A .
+dbtss_variant:c1.fa#54421#A a dbtss:reference_allele .
+dbtss_variant:c1.fa#54421#A rdfs:label "A" .
+dbtss_variant:c1.fa#54421#G a dbtss:derived_allele .
+dbtss_variant:c1.fa#54421#G rdfs:label "G" .
+dbtss_variant:c1.fa#54421 dbtss:quality "481.64"^^xsd:float .
+&lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/hg38/snv/la_cellline_26/LC2ad_snv" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/hg38/snv/la_cellline_26/LC2ad_snv</a>&gt; dbtss:hasVariant  dbtss_variant:c1.fa#55164 .
+dbtss_variant:c1.fa#55164 a obo:SO_0001483 .
+dbtss_variant:c1.fa#55164 rdfs:seeAlso  &lt;<a href="http://identifiers.org/dbsnp/rs3091274" class="external free" rel="nofollow">http://identifiers.org/dbsnp/rs3091274</a>&gt; .
+dbtss_variant:c1.fa#55164 faldo:location  &lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:55164-55164:1" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:55164-55164:1</a>&gt; .
+&lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:55164-55164:1" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:55164-55164:1</a>&gt; a faldo:Region .
+&lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:55164-55164:1" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:55164-55164:1</a>&gt; rdfs:label "chromosome 1:55164-55164:1" .
+&lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:55164-55164:1" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:55164-55164:1</a>&gt; faldo:begin  &lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:55164:1" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:55164:1</a>&gt; .
+&lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:55164-55164:1" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:55164-55164:1</a>&gt; faldo:end  &lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:55164:1" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:55164:1</a>&gt; .
+&lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:55164-55164:1" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:55164-55164:1</a>&gt; faldo:reference  &lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1</a>&gt; .
+&lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1</a>&gt; a faldo:ExactPosition .
+&lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1</a>&gt; a faldo:ForwardStrandPosition .
+&lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1</a>&gt; faldo:position 55164 .
+dbtss_variant:c1.fa#55164 dbtss:has_allele  dbtss_variant:c1.fa#55164#C .
+dbtss_variant:c1.fa#55164#C a dbtss:reference_allele .
+dbtss_variant:c1.fa#55164#C rdfs:label "C" .
+dbtss_variant:c1.fa#55164#A a dbtss:derived_allele .
+dbtss_variant:c1.fa#55164#A rdfs:label "A" .
+dbtss_variant:c1.fa#55164 dbtss:quality "80.95"^^xsd:float .
+&lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/hg38/snv/la_cellline_26/LC2ad_snv" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/hg38/snv/la_cellline_26/LC2ad_snv</a>&gt; dbtss:hasVariant  dbtss_variant:c1.fa#55299 .
+dbtss_variant:c1.fa#55299 a obo:SO_0001483 .
+dbtss_variant:c1.fa#55299 rdfs:seeAlso  &lt;<a href="http://identifiers.org/dbsnp/rs10399749" class="external free" rel="nofollow">http://identifiers.org/dbsnp/rs10399749</a>&gt; .
+dbtss_variant:c1.fa#55299 faldo:location  &lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:55299-55299:1" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:55299-55299:1</a>&gt; .
+&lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:55299-55299:1" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:55299-55299:1</a>&gt; a faldo:Region .
+&lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:55299-55299:1" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:55299-55299:1</a>&gt; rdfs:label "chromosome 1:55299-55299:1" .
+&lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:55299-55299:1" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:55299-55299:1</a>&gt; faldo:begin  &lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:55299:1" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:55299:1</a>&gt; .
+&lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:55299-55299:1" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:55299-55299:1</a>&gt; faldo:end  &lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:55299:1" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:55299:1</a>&gt; .
+&lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:55299-55299:1" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:55299-55299:1</a>&gt; faldo:reference  &lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1</a>&gt; .
+&lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1</a>&gt; a faldo:ExactPosition .
+&lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1</a>&gt; a faldo:ForwardStrandPosition .
+&lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1</a>&gt; faldo:position 55299 .
+dbtss_variant:c1.fa#55299 dbtss:has_allele  dbtss_variant:c1.fa#55299#C .
+dbtss_variant:c1.fa#55299#C a dbtss:reference_allele .
+dbtss_variant:c1.fa#55299#C rdfs:label "C" .
+dbtss_variant:c1.fa#55299#T a dbtss:derived_allele .
+dbtss_variant:c1.fa#55299#T rdfs:label "T" .
+dbtss_variant:c1.fa#55299 dbtss:quality "651.05"^^xsd:float .
+&lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/hg38/snv/la_cellline_26/LC2ad_snv" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/hg38/snv/la_cellline_26/LC2ad_snv</a>&gt; dbtss:hasVariant  dbtss_variant:c1.fa#55326 .
+dbtss_variant:c1.fa#55326 a obo:SO_0001483 .
+dbtss_variant:c1.fa#55326 rdfs:seeAlso  &lt;<a href="http://identifiers.org/dbsnp/rs3107975" class="external free" rel="nofollow">http://identifiers.org/dbsnp/rs3107975</a>&gt; .
+dbtss_variant:c1.fa#55326 faldo:location  &lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:55326-55326:1" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:55326-55326:1</a>&gt; .
+&lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:55326-55326:1" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:55326-55326:1</a>&gt; a faldo:Region .
+&lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:55326-55326:1" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:55326-55326:1</a>&gt; rdfs:label "chromosome 1:55326-55326:1" .
+&lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:55326-55326:1" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:55326-55326:1</a>&gt; faldo:begin  &lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:55326:1" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:55326:1</a>&gt; .
+&lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:55326-55326:1" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:55326-55326:1</a>&gt; faldo:end  &lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:55326:1" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:55326:1</a>&gt; .
+&lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:55326-55326:1" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:55326-55326:1</a>&gt; faldo:reference  &lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1</a>&gt; .
+&lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1</a>&gt; a faldo:ExactPosition .
+&lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1</a>&gt; a faldo:ForwardStrandPosition .
+&lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1</a>&gt; faldo:position 55326 .
+dbtss_variant:c1.fa#55326 dbtss:has_allele  dbtss_variant:c1.fa#55326#T .
+dbtss_variant:c1.fa#55326#T a dbtss:reference_allele .
+dbtss_variant:c1.fa#55326#T rdfs:label "T" .
+dbtss_variant:c1.fa#55326#C a dbtss:derived_allele .
+dbtss_variant:c1.fa#55326#C rdfs:label "C" .
+dbtss_variant:c1.fa#55326 dbtss:quality "398.26"^^xsd:float .
+&lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/hg38/snv/la_cellline_26/LC2ad_snv" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/hg38/snv/la_cellline_26/LC2ad_snv</a>&gt; dbtss:hasVariant  dbtss_variant:c1.fa#55545 .
+dbtss_variant:c1.fa#55545 a obo:SO_0001483 .
+dbtss_variant:c1.fa#55545 rdfs:seeAlso  &lt;<a href="http://identifiers.org/dbsnp/rs28396308" class="external free" rel="nofollow">http://identifiers.org/dbsnp/rs28396308</a>&gt; .
+dbtss_variant:c1.fa#55545 faldo:location  &lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:55545-55545:1" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:55545-55545:1</a>&gt; .
+&lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:55545-55545:1" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:55545-55545:1</a>&gt; a faldo:Region .
+&lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:55545-55545:1" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:55545-55545:1</a>&gt; rdfs:label "chromosome 1:55545-55545:1" .
+&lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:55545-55545:1" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:55545-55545:1</a>&gt; faldo:begin  &lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:55545:1" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:55545:1</a>&gt; .
+&lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:55545-55545:1" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:55545-55545:1</a>&gt; faldo:end  &lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:55545:1" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:55545:1</a>&gt; .
+&lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:55545-55545:1" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:55545-55545:1</a>&gt; faldo:reference  &lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1</a>&gt; .
+&lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1</a>&gt; a faldo:ExactPosition .
+&lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1</a>&gt; a faldo:ForwardStrandPosition .
+&lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1</a>&gt; faldo:position 55545 .
+dbtss_variant:c1.fa#55545 dbtss:has_allele  dbtss_variant:c1.fa#55545#C .
+dbtss_variant:c1.fa#55545#C a dbtss:reference_allele .
+dbtss_variant:c1.fa#55545#C rdfs:label "C" .
+dbtss_variant:c1.fa#55545#T a dbtss:derived_allele .
+dbtss_variant:c1.fa#55545#T rdfs:label "T" .
+dbtss_variant:c1.fa#55545 dbtss:quality "315.31"^^xsd:float .
+&lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/hg38/snv/la_cellline_26/LC2ad_snv" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/hg38/snv/la_cellline_26/LC2ad_snv</a>&gt; dbtss:hasVariant  dbtss_variant:c1.fa#57158 .
+dbtss_variant:c1.fa#57158 a obo:SO_0001483 .
+dbtss_variant:c1.fa#57158 rdfs:seeAlso  &lt;<a href="http://identifiers.org/dbsnp/rs200506058" class="external free" rel="nofollow">http://identifiers.org/dbsnp/rs200506058</a>&gt; .
+dbtss_variant:c1.fa#57158 faldo:location  &lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:57158-57158:1" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:57158-57158:1</a>&gt; .
+&lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:57158-57158:1" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:57158-57158:1</a>&gt; a faldo:Region .
+&lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:57158-57158:1" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:57158-57158:1</a>&gt; rdfs:label "chromosome 1:57158-57158:1" .
+&lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:57158-57158:1" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:57158-57158:1</a>&gt; faldo:begin  &lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:57158:1" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:57158:1</a>&gt; .
+&lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:57158-57158:1" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:57158-57158:1</a>&gt; faldo:end  &lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:57158:1" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:57158:1</a>&gt; .
+&lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:57158-57158:1" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:57158-57158:1</a>&gt; faldo:reference  &lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1</a>&gt; .
+&lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1</a>&gt; a faldo:ExactPosition .
+&lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1</a>&gt; a faldo:ForwardStrandPosition .
+&lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1</a>&gt; faldo:position 57158 .
+dbtss_variant:c1.fa#57158 dbtss:has_allele  dbtss_variant:c1.fa#57158#G .
+dbtss_variant:c1.fa#57158#G a dbtss:reference_allele .
+dbtss_variant:c1.fa#57158#G rdfs:label "G" .
+dbtss_variant:c1.fa#57158#C a dbtss:derived_allele .
+dbtss_variant:c1.fa#57158#C rdfs:label "C" .
+dbtss_variant:c1.fa#57158 dbtss:quality "130.78"^^xsd:float .
+&lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/hg38/snv/la_cellline_26/LC2ad_snv" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/hg38/snv/la_cellline_26/LC2ad_snv</a>&gt; dbtss:hasVariant  dbtss_variant:c1.fa#57292 .
+dbtss_variant:c1.fa#57292 a obo:SO_0001483 .
+dbtss_variant:c1.fa#57292 rdfs:seeAlso  &lt;<a href="http://identifiers.org/dbsnp/rs201418760" class="external free" rel="nofollow">http://identifiers.org/dbsnp/rs201418760</a>&gt; .
+dbtss_variant:c1.fa#57292 faldo:location  &lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:57292-57292:1" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:57292-57292:1</a>&gt; .
+&lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:57292-57292:1" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:57292-57292:1</a>&gt; a faldo:Region .
+&lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:57292-57292:1" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:57292-57292:1</a>&gt; rdfs:label "chromosome 1:57292-57292:1" .
+&lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:57292-57292:1" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:57292-57292:1</a>&gt; faldo:begin  &lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:57292:1" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:57292:1</a>&gt; .
+&lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:57292-57292:1" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:57292-57292:1</a>&gt; faldo:end  &lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:57292:1" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:57292:1</a>&gt; .
+&lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:57292-57292:1" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:57292-57292:1</a>&gt; faldo:reference  &lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1</a>&gt; .
+&lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1</a>&gt; a faldo:ExactPosition .
+&lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1</a>&gt; a faldo:ForwardStrandPosition .
+&lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1</a>&gt; faldo:position 57292 .
+dbtss_variant:c1.fa#57292 dbtss:has_allele  dbtss_variant:c1.fa#57292#C .
+dbtss_variant:c1.fa#57292#C a dbtss:reference_allele .
+dbtss_variant:c1.fa#57292#C rdfs:label "C" .
+dbtss_variant:c1.fa#57292#T a dbtss:derived_allele .
+dbtss_variant:c1.fa#57292#T rdfs:label "T" .
+dbtss_variant:c1.fa#57292 dbtss:quality "471.73"^^xsd:float .
+&lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/hg38/snv/la_cellline_26/LC2ad_snv" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/hg38/snv/la_cellline_26/LC2ad_snv</a>&gt; dbtss:hasVariant  dbtss_variant:c1.fa#58814 .
+dbtss_variant:c1.fa#58814 a obo:SO_0001483 .
+dbtss_variant:c1.fa#58814 rdfs:seeAlso  &lt;<a href="http://identifiers.org/dbsnp/rs114420996" class="external free" rel="nofollow">http://identifiers.org/dbsnp/rs114420996</a>&gt; .
+dbtss_variant:c1.fa#58814 faldo:location  &lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:58814-58814:1" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:58814-58814:1</a>&gt; .
+&lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:58814-58814:1" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:58814-58814:1</a>&gt; a faldo:Region .
+&lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:58814-58814:1" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:58814-58814:1</a>&gt; rdfs:label "chromosome 1:58814-58814:1" .
+&lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:58814-58814:1" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:58814-58814:1</a>&gt; faldo:begin  &lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:58814:1" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:58814:1</a>&gt; .
+&lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:58814-58814:1" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:58814-58814:1</a>&gt; faldo:end  &lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:58814:1" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:58814:1</a>&gt; .
+&lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:58814-58814:1" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:58814-58814:1</a>&gt; faldo:reference  &lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1</a>&gt; .
+&lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1</a>&gt; a faldo:ExactPosition .
+&lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1</a>&gt; a faldo:ForwardStrandPosition .
+&lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1</a>&gt; faldo:position 58814 .
+dbtss_variant:c1.fa#58814 dbtss:has_allele  dbtss_variant:c1.fa#58814#G .
+dbtss_variant:c1.fa#58814#G a dbtss:reference_allele .
+dbtss_variant:c1.fa#58814#G rdfs:label "G" .
+dbtss_variant:c1.fa#58814#A a dbtss:derived_allele .
+dbtss_variant:c1.fa#58814#A rdfs:label "A" .
+dbtss_variant:c1.fa#58814 dbtss:quality "125.01"^^xsd:float .
+&lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/hg38/snv/la_cellline_26/LC2ad_snv" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/hg38/snv/la_cellline_26/LC2ad_snv</a>&gt; dbtss:hasVariant  dbtss_variant:c1.fa#59040 .
+dbtss_variant:c1.fa#59040 a obo:SO_0001483 .
+dbtss_variant:c1.fa#59040 rdfs:seeAlso  &lt;<a href="http://identifiers.org/dbsnp/rs149755937" class="external free" rel="nofollow">http://identifiers.org/dbsnp/rs149755937</a>&gt; .
+dbtss_variant:c1.fa#59040 faldo:location  &lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:59040-59040:1" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:59040-59040:1</a>&gt; .
+&lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:59040-59040:1" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:59040-59040:1</a>&gt; a faldo:Region .
+&lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:59040-59040:1" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:59040-59040:1</a>&gt; rdfs:label "chromosome 1:59040-59040:1" .
+&lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:59040-59040:1" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:59040-59040:1</a>&gt; faldo:begin  &lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:59040:1" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:59040:1</a>&gt; .
+&lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:59040-59040:1" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:59040-59040:1</a>&gt; faldo:end  &lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:59040:1" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:59040:1</a>&gt; .
+&lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:59040-59040:1" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:59040-59040:1</a>&gt; faldo:reference  &lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1</a>&gt; .
+&lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1</a>&gt; a faldo:ExactPosition .
+&lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1</a>&gt; a faldo:ForwardStrandPosition .
+&lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1</a>&gt; faldo:position 59040 .
+dbtss_variant:c1.fa#59040 dbtss:has_allele  dbtss_variant:c1.fa#59040#T .
+dbtss_variant:c1.fa#59040#T a dbtss:reference_allele .
+dbtss_variant:c1.fa#59040#T rdfs:label "T" .
+dbtss_variant:c1.fa#59040#C a dbtss:derived_allele .
+dbtss_variant:c1.fa#59040#C rdfs:label "C" .
+dbtss_variant:c1.fa#59040 dbtss:quality "108.84"^^xsd:float .
+&lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/hg38/snv/la_cellline_26/LC2ad_snv" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/hg38/snv/la_cellline_26/LC2ad_snv</a>&gt; dbtss:hasVariant  dbtss_variant:c1.fa#60351 .
+dbtss_variant:c1.fa#60351 a obo:SO_0001483 .
+dbtss_variant:c1.fa#60351 faldo:location  &lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:60351-60351:1" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:60351-60351:1</a>&gt; .
+&lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:60351-60351:1" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:60351-60351:1</a>&gt; a faldo:Region .
+&lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:60351-60351:1" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:60351-60351:1</a>&gt; rdfs:label "chromosome 1:60351-60351:1" .
+&lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:60351-60351:1" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:60351-60351:1</a>&gt; faldo:begin  &lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:60351:1" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:60351:1</a>&gt; .
+&lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:60351-60351:1" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:60351-60351:1</a>&gt; faldo:end  &lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:60351:1" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:60351:1</a>&gt; .
+&lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:60351-60351:1" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:60351-60351:1</a>&gt; faldo:reference  &lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1</a>&gt; .
+&lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1</a>&gt; a faldo:ExactPosition .
+&lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1</a>&gt; a faldo:ForwardStrandPosition .
+&lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1</a>&gt; faldo:position 60351 .
+dbtss_variant:c1.fa#60351 dbtss:has_allele  dbtss_variant:c1.fa#60351#A .
+dbtss_variant:c1.fa#60351#A a dbtss:reference_allele .
+dbtss_variant:c1.fa#60351#A rdfs:label "A" .
+dbtss_variant:c1.fa#60351#G a dbtss:derived_allele .
+dbtss_variant:c1.fa#60351#G rdfs:label "G" .
+dbtss_variant:c1.fa#60351 dbtss:quality "249.69"^^xsd:float .
+&lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/hg38/snv/la_cellline_26/LC2ad_snv" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/hg38/snv/la_cellline_26/LC2ad_snv</a>&gt; dbtss:hasVariant  dbtss_variant:c1.fa#61442 .
+dbtss_variant:c1.fa#61442 a obo:SO_0001483 .
+dbtss_variant:c1.fa#61442 rdfs:seeAlso  &lt;<a href="http://identifiers.org/dbsnp/rs74970982" class="external free" rel="nofollow">http://identifiers.org/dbsnp/rs74970982</a>&gt; .
+dbtss_variant:c1.fa#61442 faldo:location  &lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:61442-61442:1" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:61442-61442:1</a>&gt; .
+&lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:61442-61442:1" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:61442-61442:1</a>&gt; a faldo:Region .
+&lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:61442-61442:1" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:61442-61442:1</a>&gt; rdfs:label "chromosome 1:61442-61442:1" .
+&lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:61442-61442:1" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:61442-61442:1</a>&gt; faldo:begin  &lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:61442:1" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:61442:1</a>&gt; .
+&lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:61442-61442:1" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:61442-61442:1</a>&gt; faldo:end  &lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:61442:1" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:61442:1</a>&gt; .
+&lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:61442-61442:1" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:61442-61442:1</a>&gt; faldo:reference  &lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1</a>&gt; .
+&lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1</a>&gt; a faldo:ExactPosition .
+&lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1</a>&gt; a faldo:ForwardStrandPosition .
+&lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1</a>&gt; faldo:position 61442 .
+dbtss_variant:c1.fa#61442 dbtss:has_allele  dbtss_variant:c1.fa#61442#A .
+dbtss_variant:c1.fa#61442#A a dbtss:reference_allele .
+dbtss_variant:c1.fa#61442#A rdfs:label "A" .
+dbtss_variant:c1.fa#61442#G a dbtss:derived_allele .
+dbtss_variant:c1.fa#61442#G rdfs:label "G" .
+dbtss_variant:c1.fa#61442 dbtss:quality "446.15"^^xsd:float .
+&lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/hg38/snv/la_cellline_26/LC2ad_snv" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/hg38/snv/la_cellline_26/LC2ad_snv</a>&gt; dbtss:hasVariant  dbtss_variant:c1.fa#62738 .
+dbtss_variant:c1.fa#62738 a obo:SO_0001483 .
+dbtss_variant:c1.fa#62738 rdfs:seeAlso  &lt;<a href="http://identifiers.org/dbsnp/rs202181220" class="external free" rel="nofollow">http://identifiers.org/dbsnp/rs202181220</a>&gt; .
+dbtss_variant:c1.fa#62738 faldo:location  &lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:62738-62738:1" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:62738-62738:1</a>&gt; .
+&lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:62738-62738:1" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:62738-62738:1</a>&gt; a faldo:Region .
+&lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:62738-62738:1" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:62738-62738:1</a>&gt; rdfs:label "chromosome 1:62738-62738:1" .
+&lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:62738-62738:1" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:62738-62738:1</a>&gt; faldo:begin  &lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:62738:1" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:62738:1</a>&gt; .
+&lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:62738-62738:1" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:62738-62738:1</a>&gt; faldo:end  &lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:62738:1" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:62738:1</a>&gt; .
+&lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:62738-62738:1" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:62738-62738:1</a>&gt; faldo:reference  &lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1</a>&gt; .
+&lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1</a>&gt; a faldo:ExactPosition .
+&lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1</a>&gt; a faldo:ForwardStrandPosition .
+&lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1</a>&gt; faldo:position 62738 .
+dbtss_variant:c1.fa#62738 dbtss:has_allele  dbtss_variant:c1.fa#62738#T .
+dbtss_variant:c1.fa#62738#T a dbtss:reference_allele .
+dbtss_variant:c1.fa#62738#T rdfs:label "T" .
+dbtss_variant:c1.fa#62738#C a dbtss:derived_allele .
+dbtss_variant:c1.fa#62738#C rdfs:label "C" .
+dbtss_variant:c1.fa#62738 dbtss:quality "107.43"^^xsd:float .
+&lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/hg38/snv/la_cellline_26/LC2ad_snv" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/hg38/snv/la_cellline_26/LC2ad_snv</a>&gt; dbtss:hasVariant  dbtss_variant:c1.fa#63268 .
+dbtss_variant:c1.fa#63268 a obo:SO_0001483 .
+dbtss_variant:c1.fa#63268 rdfs:seeAlso  &lt;<a href="http://identifiers.org/dbsnp/rs75478250" class="external free" rel="nofollow">http://identifiers.org/dbsnp/rs75478250</a>&gt; .
+dbtss_variant:c1.fa#63268 faldo:location  &lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:63268-63268:1" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:63268-63268:1</a>&gt; .
+&lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:63268-63268:1" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:63268-63268:1</a>&gt; a faldo:Region .
+&lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:63268-63268:1" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:63268-63268:1</a>&gt; rdfs:label "chromosome 1:63268-63268:1" .
+&lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:63268-63268:1" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:63268-63268:1</a>&gt; faldo:begin  &lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:63268:1" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:63268:1</a>&gt; .
+&lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:63268-63268:1" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:63268-63268:1</a>&gt; faldo:end  &lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:63268:1" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:63268:1</a>&gt; .
+&lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:63268-63268:1" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:63268-63268:1</a>&gt; faldo:reference  &lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1</a>&gt; .
+&lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1</a>&gt; a faldo:ExactPosition .
+&lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1</a>&gt; a faldo:ForwardStrandPosition .
+&lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1</a>&gt; faldo:position 63268 .
+dbtss_variant:c1.fa#63268 dbtss:has_allele  dbtss_variant:c1.fa#63268#T .
+dbtss_variant:c1.fa#63268#T a dbtss:reference_allele .
+dbtss_variant:c1.fa#63268#T rdfs:label "T" .
+dbtss_variant:c1.fa#63268#C a dbtss:derived_allele .
+dbtss_variant:c1.fa#63268#C rdfs:label "C" .
+dbtss_variant:c1.fa#63268 dbtss:quality "52.28"^^xsd:float .
+&lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/hg38/snv/la_cellline_26/LC2ad_snv" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/hg38/snv/la_cellline_26/LC2ad_snv</a>&gt; dbtss:hasVariant  dbtss_variant:c1.fa#63697 .
+dbtss_variant:c1.fa#63697 a obo:SO_0001483 .
+dbtss_variant:c1.fa#63697 rdfs:seeAlso  &lt;<a href="http://identifiers.org/dbsnp/rs201582574" class="external free" rel="nofollow">http://identifiers.org/dbsnp/rs201582574</a>&gt; .
+dbtss_variant:c1.fa#63697 faldo:location  &lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:63697-63697:1" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:63697-63697:1</a>&gt; .
+&lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:63697-63697:1" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:63697-63697:1</a>&gt; a faldo:Region .
+&lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:63697-63697:1" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:63697-63697:1</a>&gt; rdfs:label "chromosome 1:63697-63697:1" .
+&lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:63697-63697:1" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:63697-63697:1</a>&gt; faldo:begin  &lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:63697:1" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:63697:1</a>&gt; .
+&lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:63697-63697:1" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:63697-63697:1</a>&gt; faldo:end  &lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:63697:1" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:63697:1</a>&gt; .
+&lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:63697-63697:1" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:63697-63697:1</a>&gt; faldo:reference  &lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1</a>&gt; .
+&lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1</a>&gt; a faldo:ExactPosition .
+&lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1</a>&gt; a faldo:ForwardStrandPosition .
+&lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1</a>&gt; faldo:position 63697 .
+dbtss_variant:c1.fa#63697 dbtss:has_allele  dbtss_variant:c1.fa#63697#T .
+dbtss_variant:c1.fa#63697#T a dbtss:reference_allele .
+dbtss_variant:c1.fa#63697#T rdfs:label "T" .
+dbtss_variant:c1.fa#63697#C a dbtss:derived_allele .
+dbtss_variant:c1.fa#63697#C rdfs:label "C" .
+dbtss_variant:c1.fa#63697 dbtss:quality "206.91"^^xsd:float .
+&lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/hg38/snv/la_cellline_26/LC2ad_snv" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/hg38/snv/la_cellline_26/LC2ad_snv</a>&gt; dbtss:hasVariant  dbtss_variant:c1.fa#64931 .
+dbtss_variant:c1.fa#64931 a obo:SO_0001483 .
+dbtss_variant:c1.fa#64931 faldo:location  &lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:64931-64931:1" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:64931-64931:1</a>&gt; .
+&lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:64931-64931:1" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:64931-64931:1</a>&gt; a faldo:Region .
+&lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:64931-64931:1" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:64931-64931:1</a>&gt; rdfs:label "chromosome 1:64931-64931:1" .
+&lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:64931-64931:1" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:64931-64931:1</a>&gt; faldo:begin  &lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:64931:1" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:64931:1</a>&gt; .
+&lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:64931-64931:1" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:64931-64931:1</a>&gt; faldo:end  &lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:64931:1" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:64931:1</a>&gt; .
+&lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:64931-64931:1" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:64931-64931:1</a>&gt; faldo:reference  &lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1</a>&gt; .
+&lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1</a>&gt; a faldo:ExactPosition .
+&lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1</a>&gt; a faldo:ForwardStrandPosition .
+&lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1</a>&gt; faldo:position 64931 .
+dbtss_variant:c1.fa#64931 dbtss:has_allele  dbtss_variant:c1.fa#64931#G .
+dbtss_variant:c1.fa#64931#G a dbtss:reference_allele .
+dbtss_variant:c1.fa#64931#G rdfs:label "G" .
+dbtss_variant:c1.fa#64931#A a dbtss:derived_allele .
+dbtss_variant:c1.fa#64931#A rdfs:label "A" .
+dbtss_variant:c1.fa#64931 dbtss:quality "345.29"^^xsd:float .
+&lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/hg38/snv/la_cellline_26/LC2ad_snv" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/hg38/snv/la_cellline_26/LC2ad_snv</a>&gt; dbtss:hasVariant  dbtss_variant:c1.fa#76838 .
+dbtss_variant:c1.fa#76838 a obo:SO_0001483 .
+dbtss_variant:c1.fa#76838 faldo:location  &lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:76838-76838:1" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:76838-76838:1</a>&gt; .
+&lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:76838-76838:1" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:76838-76838:1</a>&gt; a faldo:Region .
+&lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:76838-76838:1" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:76838-76838:1</a>&gt; rdfs:label "chromosome 1:76838-76838:1" .
+&lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:76838-76838:1" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:76838-76838:1</a>&gt; faldo:begin  &lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:76838:1" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:76838:1</a>&gt; .
+&lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:76838-76838:1" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:76838-76838:1</a>&gt; faldo:end  &lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:76838:1" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:76838:1</a>&gt; .
+&lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:76838-76838:1" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:76838-76838:1</a>&gt; faldo:reference  &lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1</a>&gt; .
+&lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1</a>&gt; a faldo:ExactPosition .
+&lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1</a>&gt; a faldo:ForwardStrandPosition .
+&lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1</a>&gt; faldo:position 76838 .
+dbtss_variant:c1.fa#76838 dbtss:has_allele  dbtss_variant:c1.fa#76838#T .
+dbtss_variant:c1.fa#76838#T a dbtss:reference_allele .
+dbtss_variant:c1.fa#76838#T rdfs:label "T" .
+dbtss_variant:c1.fa#76838#G a dbtss:derived_allele .
+dbtss_variant:c1.fa#76838#G rdfs:label "G" .
+dbtss_variant:c1.fa#76838 dbtss:quality "103.93"^^xsd:float .
+&lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/hg38/snv/la_cellline_26/LC2ad_snv" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/hg38/snv/la_cellline_26/LC2ad_snv</a>&gt; dbtss:hasVariant  dbtss_variant:c1.fa#77089 .
+dbtss_variant:c1.fa#77089 a obo:SO_0001483 .
+dbtss_variant:c1.fa#77089 rdfs:seeAlso  &lt;<a href="http://identifiers.org/dbsnp/rs201904388" class="external free" rel="nofollow">http://identifiers.org/dbsnp/rs201904388</a>&gt; .
+dbtss_variant:c1.fa#77089 faldo:location  &lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:77089-77089:1" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:77089-77089:1</a>&gt; .
+&lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:77089-77089:1" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:77089-77089:1</a>&gt; a faldo:Region .
+&lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:77089-77089:1" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:77089-77089:1</a>&gt; rdfs:label "chromosome 1:77089-77089:1" .
+&lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:77089-77089:1" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:77089-77089:1</a>&gt; faldo:begin  &lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:77089:1" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:77089:1</a>&gt; .
+&lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:77089-77089:1" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:77089-77089:1</a>&gt; faldo:end  &lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:77089:1" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:77089:1</a>&gt; .
+&lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:77089-77089:1" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:77089-77089:1</a>&gt; faldo:reference  &lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1</a>&gt; .
+&lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1</a>&gt; a faldo:ExactPosition .
+&lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1</a>&gt; a faldo:ForwardStrandPosition .
+&lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1</a>&gt; faldo:position 77089 .
+dbtss_variant:c1.fa#77089 dbtss:has_allele  dbtss_variant:c1.fa#77089#C .
+dbtss_variant:c1.fa#77089#C a dbtss:reference_allele .
+dbtss_variant:c1.fa#77089#C rdfs:label "C" .
+dbtss_variant:c1.fa#77089#T a dbtss:derived_allele .
+dbtss_variant:c1.fa#77089#T rdfs:label "T" .
+dbtss_variant:c1.fa#77089 dbtss:quality "110.25"^^xsd:float .
+&lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/hg38/snv/la_cellline_26/LC2ad_snv" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/hg38/snv/la_cellline_26/LC2ad_snv</a>&gt; dbtss:hasVariant  dbtss_variant:c1.fa#77866 .
+dbtss_variant:c1.fa#77866 a obo:SO_0001483 .
+dbtss_variant:c1.fa#77866 faldo:location  &lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:77866-77866:1" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:77866-77866:1</a>&gt; .
+&lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:77866-77866:1" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:77866-77866:1</a>&gt; a faldo:Region .
+&lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:77866-77866:1" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:77866-77866:1</a>&gt; rdfs:label "chromosome 1:77866-77866:1" .
+&lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:77866-77866:1" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:77866-77866:1</a>&gt; faldo:begin  &lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:77866:1" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:77866:1</a>&gt; .
+&lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:77866-77866:1" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:77866-77866:1</a>&gt; faldo:end  &lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:77866:1" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:77866:1</a>&gt; .
+&lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:77866-77866:1" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:77866-77866:1</a>&gt; faldo:reference  &lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1</a>&gt; .
+&lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1</a>&gt; a faldo:ExactPosition .
+&lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1</a>&gt; a faldo:ForwardStrandPosition .
+&lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1</a>&gt; faldo:position 77866 .
+dbtss_variant:c1.fa#77866 dbtss:has_allele  dbtss_variant:c1.fa#77866#C .
+dbtss_variant:c1.fa#77866#C a dbtss:reference_allele .
+dbtss_variant:c1.fa#77866#C rdfs:label "C" .
+dbtss_variant:c1.fa#77866#T a dbtss:derived_allele .
+dbtss_variant:c1.fa#77866#T rdfs:label "T" .
+dbtss_variant:c1.fa#77866 dbtss:quality "301.21"^^xsd:float .
+&lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/hg38/snv/la_cellline_26/LC2ad_snv" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/hg38/snv/la_cellline_26/LC2ad_snv</a>&gt; dbtss:hasVariant  dbtss_variant:c1.fa#77874 .
+dbtss_variant:c1.fa#77874 a obo:SO_0001483 .
+dbtss_variant:c1.fa#77874 rdfs:seeAlso  &lt;<a href="http://identifiers.org/dbsnp/rs184538873" class="external free" rel="nofollow">http://identifiers.org/dbsnp/rs184538873</a>&gt; .
+dbtss_variant:c1.fa#77874 faldo:location  &lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:77874-77874:1" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:77874-77874:1</a>&gt; .
+&lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:77874-77874:1" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:77874-77874:1</a>&gt; a faldo:Region .
+&lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:77874-77874:1" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:77874-77874:1</a>&gt; rdfs:label "chromosome 1:77874-77874:1" .
+&lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:77874-77874:1" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:77874-77874:1</a>&gt; faldo:begin  &lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:77874:1" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:77874:1</a>&gt; .
+&lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:77874-77874:1" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:77874-77874:1</a>&gt; faldo:end  &lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:77874:1" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:77874:1</a>&gt; .
+&lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:77874-77874:1" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:77874-77874:1</a>&gt; faldo:reference  &lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1</a>&gt; .
+&lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1</a>&gt; a faldo:ExactPosition .
+&lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1</a>&gt; a faldo:ForwardStrandPosition .
+&lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1</a>&gt; faldo:position 77874 .
+dbtss_variant:c1.fa#77874 dbtss:has_allele  dbtss_variant:c1.fa#77874#G .
+dbtss_variant:c1.fa#77874#G a dbtss:reference_allele .
+dbtss_variant:c1.fa#77874#G rdfs:label "G" .
+dbtss_variant:c1.fa#77874#A a dbtss:derived_allele .
+dbtss_variant:c1.fa#77874#A rdfs:label "A" .
+dbtss_variant:c1.fa#77874 dbtss:quality "310.27"^^xsd:float .
+&lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/hg38/snv/la_cellline_26/LC2ad_snv" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/hg38/snv/la_cellline_26/LC2ad_snv</a>&gt; dbtss:hasVariant  dbtss_variant:c1.fa#80346 .
+dbtss_variant:c1.fa#80346 a obo:SO_0001483 .
+dbtss_variant:c1.fa#80346 faldo:location  &lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:80346-80346:1" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:80346-80346:1</a>&gt; .
+&lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:80346-80346:1" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:80346-80346:1</a>&gt; a faldo:Region .
+&lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:80346-80346:1" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:80346-80346:1</a>&gt; rdfs:label "chromosome 1:80346-80346:1" .
+&lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:80346-80346:1" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:80346-80346:1</a>&gt; faldo:begin  &lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:80346:1" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:80346:1</a>&gt; .
+&lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:80346-80346:1" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:80346-80346:1</a>&gt; faldo:end  &lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:80346:1" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:80346:1</a>&gt; .
+&lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:80346-80346:1" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:80346-80346:1</a>&gt; faldo:reference  &lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1</a>&gt; .
+&lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1</a>&gt; a faldo:ExactPosition .
+&lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1</a>&gt; a faldo:ForwardStrandPosition .
+&lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1</a>&gt; faldo:position 80346 .
+dbtss_variant:c1.fa#80346 dbtss:has_allele  dbtss_variant:c1.fa#80346#C .
+dbtss_variant:c1.fa#80346#C a dbtss:reference_allele .
+dbtss_variant:c1.fa#80346#C rdfs:label "C" .
+dbtss_variant:c1.fa#80346#G a dbtss:derived_allele .
+dbtss_variant:c1.fa#80346#G rdfs:label "G" .
+dbtss_variant:c1.fa#80346 dbtss:quality "80.21"^^xsd:float .
+&lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/hg38/snv/la_cellline_26/LC2ad_snv" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/hg38/snv/la_cellline_26/LC2ad_snv</a>&gt; dbtss:hasVariant  dbtss_variant:c1.fa#83827 .
+dbtss_variant:c1.fa#83827 a obo:SO_0001483 .
+dbtss_variant:c1.fa#83827 faldo:location  &lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:83827-83827:1" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:83827-83827:1</a>&gt; .
+&lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:83827-83827:1" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:83827-83827:1</a>&gt; a faldo:Region .
+&lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:83827-83827:1" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:83827-83827:1</a>&gt; rdfs:label "chromosome 1:83827-83827:1" .
+&lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:83827-83827:1" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:83827-83827:1</a>&gt; faldo:begin  &lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:83827:1" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:83827:1</a>&gt; .
+&lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:83827-83827:1" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:83827-83827:1</a>&gt; faldo:end  &lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:83827:1" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:83827:1</a>&gt; .
+&lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:83827-83827:1" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:83827-83827:1</a>&gt; faldo:reference  &lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1</a>&gt; .
+&lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1</a>&gt; a faldo:ExactPosition .
+&lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1</a>&gt; a faldo:ForwardStrandPosition .
+&lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1</a>&gt; faldo:position 83827 .
+dbtss_variant:c1.fa#83827 dbtss:has_allele  dbtss_variant:c1.fa#83827#A .
+dbtss_variant:c1.fa#83827#A a dbtss:reference_allele .
+dbtss_variant:c1.fa#83827#A rdfs:label "A" .
+dbtss_variant:c1.fa#83827#G a dbtss:derived_allele .
+dbtss_variant:c1.fa#83827#G rdfs:label "G" .
+dbtss_variant:c1.fa#83827 dbtss:quality "63.19"^^xsd:float .
+&lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/hg38/snv/la_cellline_26/LC2ad_snv" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/hg38/snv/la_cellline_26/LC2ad_snv</a>&gt; dbtss:hasVariant  dbtss_variant:c1.fa#83829 .
+dbtss_variant:c1.fa#83829 a obo:SO_0001483 .
+dbtss_variant:c1.fa#83829 faldo:location  &lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:83829-83829:1" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:83829-83829:1</a>&gt; .
+&lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:83829-83829:1" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:83829-83829:1</a>&gt; a faldo:Region .
+&lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:83829-83829:1" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:83829-83829:1</a>&gt; rdfs:label "chromosome 1:83829-83829:1" .
+&lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:83829-83829:1" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:83829-83829:1</a>&gt; faldo:begin  &lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:83829:1" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:83829:1</a>&gt; .
+&lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:83829-83829:1" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:83829-83829:1</a>&gt; faldo:end  &lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:83829:1" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:83829:1</a>&gt; .
+&lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:83829-83829:1" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:83829-83829:1</a>&gt; faldo:reference  &lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1</a>&gt; .
+&lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1</a>&gt; a faldo:ExactPosition .
+&lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1</a>&gt; a faldo:ForwardStrandPosition .
+&lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1</a>&gt; faldo:position 83829 .
+dbtss_variant:c1.fa#83829 dbtss:has_allele  dbtss_variant:c1.fa#83829#G .
+dbtss_variant:c1.fa#83829#G a dbtss:reference_allele .
+dbtss_variant:c1.fa#83829#G rdfs:label "G" .
+dbtss_variant:c1.fa#83829#A a dbtss:derived_allele .
+dbtss_variant:c1.fa#83829#A rdfs:label "A" .
+dbtss_variant:c1.fa#83829 dbtss:quality "62.39"^^xsd:float .
+&lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/hg38/snv/la_cellline_26/LC2ad_snv" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/hg38/snv/la_cellline_26/LC2ad_snv</a>&gt; dbtss:hasVariant  dbtss_variant:c1.fa#86192 .
+dbtss_variant:c1.fa#86192 a obo:SO_0001483 .
+dbtss_variant:c1.fa#86192 faldo:location  &lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:86192-86192:1" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:86192-86192:1</a>&gt; .
+&lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:86192-86192:1" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:86192-86192:1</a>&gt; a faldo:Region .
+&lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:86192-86192:1" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:86192-86192:1</a>&gt; rdfs:label "chromosome 1:86192-86192:1" .
+&lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:86192-86192:1" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:86192-86192:1</a>&gt; faldo:begin  &lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:86192:1" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:86192:1</a>&gt; .
+&lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:86192-86192:1" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:86192-86192:1</a>&gt; faldo:end  &lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:86192:1" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:86192:1</a>&gt; .
+&lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:86192-86192:1" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:86192-86192:1</a>&gt; faldo:reference  &lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1</a>&gt; .
+&lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1</a>&gt; a faldo:ExactPosition .
+&lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1</a>&gt; a faldo:ForwardStrandPosition .
+&lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1</a>&gt; faldo:position 86192 .
+dbtss_variant:c1.fa#86192 dbtss:has_allele  dbtss_variant:c1.fa#86192#G .
+dbtss_variant:c1.fa#86192#G a dbtss:reference_allele .
+dbtss_variant:c1.fa#86192#G rdfs:label "G" .
+dbtss_variant:c1.fa#86192#A a dbtss:derived_allele .
+dbtss_variant:c1.fa#86192#A rdfs:label "A" .
+dbtss_variant:c1.fa#86192 dbtss:quality "75.92"^^xsd:float .
+&lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/hg38/snv/la_cellline_26/LC2ad_snv" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/hg38/snv/la_cellline_26/LC2ad_snv</a>&gt; dbtss:hasVariant  dbtss_variant:c1.fa#87190 .
+dbtss_variant:c1.fa#87190 a obo:SO_0001483 .
+dbtss_variant:c1.fa#87190 rdfs:seeAlso  &lt;<a href="http://identifiers.org/dbsnp/rs1524602" class="external free" rel="nofollow">http://identifiers.org/dbsnp/rs1524602</a>&gt; .
+dbtss_variant:c1.fa#87190 faldo:location  &lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:87190-87190:1" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:87190-87190:1</a>&gt; .
+&lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:87190-87190:1" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:87190-87190:1</a>&gt; a faldo:Region .
+&lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:87190-87190:1" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:87190-87190:1</a>&gt; rdfs:label "chromosome 1:87190-87190:1" .
+&lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:87190-87190:1" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:87190-87190:1</a>&gt; faldo:begin  &lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:87190:1" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:87190:1</a>&gt; .
+&lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:87190-87190:1" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:87190-87190:1</a>&gt; faldo:end  &lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:87190:1" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:87190:1</a>&gt; .
+&lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:87190-87190:1" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:87190-87190:1</a>&gt; faldo:reference  &lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1</a>&gt; .
+&lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1</a>&gt; a faldo:ExactPosition .
+&lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1</a>&gt; a faldo:ForwardStrandPosition .
+&lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1</a>&gt; faldo:position 87190 .
+dbtss_variant:c1.fa#87190 dbtss:has_allele  dbtss_variant:c1.fa#87190#G .
+dbtss_variant:c1.fa#87190#G a dbtss:reference_allele .
+dbtss_variant:c1.fa#87190#G rdfs:label "G" .
+dbtss_variant:c1.fa#87190#A a dbtss:derived_allele .
+dbtss_variant:c1.fa#87190#A rdfs:label "A" .
+dbtss_variant:c1.fa#87190 dbtss:quality "1233.76"^^xsd:float .
+&lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/hg38/snv/la_cellline_26/LC2ad_snv" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/hg38/snv/la_cellline_26/LC2ad_snv</a>&gt; dbtss:hasVariant  dbtss_variant:c1.fa#88169 .
+dbtss_variant:c1.fa#88169 a obo:SO_0001483 .
+dbtss_variant:c1.fa#88169 rdfs:seeAlso  &lt;<a href="http://identifiers.org/dbsnp/rs940550" class="external free" rel="nofollow">http://identifiers.org/dbsnp/rs940550</a>&gt; .
+dbtss_variant:c1.fa#88169 faldo:location  &lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:88169-88169:1" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:88169-88169:1</a>&gt; .
+&lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:88169-88169:1" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:88169-88169:1</a>&gt; a faldo:Region .
+&lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:88169-88169:1" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:88169-88169:1</a>&gt; rdfs:label "chromosome 1:88169-88169:1" .
+&lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:88169-88169:1" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:88169-88169:1</a>&gt; faldo:begin  &lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:88169:1" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:88169:1</a>&gt; .
+&lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:88169-88169:1" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:88169-88169:1</a>&gt; faldo:end  &lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:88169:1" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:88169:1</a>&gt; .
+&lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:88169-88169:1" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:88169-88169:1</a>&gt; faldo:reference  &lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1</a>&gt; .
+&lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1</a>&gt; a faldo:ExactPosition .
+&lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1</a>&gt; a faldo:ForwardStrandPosition .
+&lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1</a>&gt; faldo:position 88169 .
+dbtss_variant:c1.fa#88169 dbtss:has_allele  dbtss_variant:c1.fa#88169#C .
+dbtss_variant:c1.fa#88169#C a dbtss:reference_allele .
+dbtss_variant:c1.fa#88169#C rdfs:label "C" .
+dbtss_variant:c1.fa#88169#T a dbtss:derived_allele .
+dbtss_variant:c1.fa#88169#T rdfs:label "T" .
+dbtss_variant:c1.fa#88169 dbtss:quality "736.83"^^xsd:float .
+&lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/hg38/snv/la_cellline_26/LC2ad_snv" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/hg38/snv/la_cellline_26/LC2ad_snv</a>&gt; dbtss:hasVariant  dbtss_variant:c1.fa#88338 .
+dbtss_variant:c1.fa#88338 a obo:SO_0001483 .
+dbtss_variant:c1.fa#88338 rdfs:seeAlso  &lt;<a href="http://identifiers.org/dbsnp/rs55700207" class="external free" rel="nofollow">http://identifiers.org/dbsnp/rs55700207</a>&gt; .
+dbtss_variant:c1.fa#88338 faldo:location  &lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:88338-88338:1" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:88338-88338:1</a>&gt; .
+&lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:88338-88338:1" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:88338-88338:1</a>&gt; a faldo:Region .
+&lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:88338-88338:1" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:88338-88338:1</a>&gt; rdfs:label "chromosome 1:88338-88338:1" .
+&lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:88338-88338:1" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:88338-88338:1</a>&gt; faldo:begin  &lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:88338:1" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:88338:1</a>&gt; .
+&lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:88338-88338:1" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:88338-88338:1</a>&gt; faldo:end  &lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:88338:1" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:88338:1</a>&gt; .
+&lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:88338-88338:1" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:88338-88338:1</a>&gt; faldo:reference  &lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1</a>&gt; .
+&lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1</a>&gt; a faldo:ExactPosition .
+&lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1</a>&gt; a faldo:ForwardStrandPosition .
+&lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1</a>&gt; faldo:position 88338 .
+dbtss_variant:c1.fa#88338 dbtss:has_allele  dbtss_variant:c1.fa#88338#G .
+dbtss_variant:c1.fa#88338#G a dbtss:reference_allele .
+dbtss_variant:c1.fa#88338#G rdfs:label "G" .
+dbtss_variant:c1.fa#88338#A a dbtss:derived_allele .
+dbtss_variant:c1.fa#88338#A rdfs:label "A" .
+dbtss_variant:c1.fa#88338 dbtss:quality "1187.99"^^xsd:float .
+&lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/hg38/snv/la_cellline_26/LC2ad_snv" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/hg38/snv/la_cellline_26/LC2ad_snv</a>&gt; dbtss:hasVariant  dbtss_variant:c1.fa#104186 .
+dbtss_variant:c1.fa#104186 a obo:SO_0001483 .
+dbtss_variant:c1.fa#104186 rdfs:seeAlso  &lt;<a href="http://identifiers.org/dbsnp/rs200455936" class="external free" rel="nofollow">http://identifiers.org/dbsnp/rs200455936</a>&gt; .
+dbtss_variant:c1.fa#104186 faldo:location  &lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:104186-104186:1" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:104186-104186:1</a>&gt; .
+&lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:104186-104186:1" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:104186-104186:1</a>&gt; a faldo:Region .
+&lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:104186-104186:1" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:104186-104186:1</a>&gt; rdfs:label "chromosome 1:104186-104186:1" .
+&lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:104186-104186:1" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:104186-104186:1</a>&gt; faldo:begin  &lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:104186:1" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:104186:1</a>&gt; .
+&lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:104186-104186:1" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:104186-104186:1</a>&gt; faldo:end  &lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:104186:1" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:104186:1</a>&gt; .
+&lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:104186-104186:1" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:104186-104186:1</a>&gt; faldo:reference  &lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1</a>&gt; .
+&lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1</a>&gt; a faldo:ExactPosition .
+&lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1</a>&gt; a faldo:ForwardStrandPosition .
+&lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1</a>&gt; faldo:position 104186 .
+dbtss_variant:c1.fa#104186 dbtss:has_allele  dbtss_variant:c1.fa#104186#T .
+dbtss_variant:c1.fa#104186#T a dbtss:reference_allele .
+dbtss_variant:c1.fa#104186#T rdfs:label "T" .
+dbtss_variant:c1.fa#104186#C a dbtss:derived_allele .
+dbtss_variant:c1.fa#104186#C rdfs:label "C" .
+dbtss_variant:c1.fa#104186 dbtss:quality "368.97"^^xsd:float .
+&lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/hg38/snv/la_cellline_26/LC2ad_snv" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/hg38/snv/la_cellline_26/LC2ad_snv</a>&gt; dbtss:hasVariant  dbtss_variant:c1.fa#109640 .
+dbtss_variant:c1.fa#109640 a obo:SO_0001483 .
+dbtss_variant:c1.fa#109640 rdfs:seeAlso  &lt;<a href="http://identifiers.org/dbsnp/rs201327920" class="external free" rel="nofollow">http://identifiers.org/dbsnp/rs201327920</a>&gt; .
+dbtss_variant:c1.fa#109640 faldo:location  &lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:109640-109640:1" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:109640-109640:1</a>&gt; .
+&lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:109640-109640:1" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:109640-109640:1</a>&gt; a faldo:Region .
+&lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:109640-109640:1" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:109640-109640:1</a>&gt; rdfs:label "chromosome 1:109640-109640:1" .
+&lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:109640-109640:1" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:109640-109640:1</a>&gt; faldo:begin  &lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:109640:1" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:109640:1</a>&gt; .
+&lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:109640-109640:1" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:109640-109640:1</a>&gt; faldo:end  &lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:109640:1" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:109640:1</a>&gt; .
+&lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:109640-109640:1" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:109640-109640:1</a>&gt; faldo:reference  &lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1</a>&gt; .
+&lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1</a>&gt; a faldo:ExactPosition .
+&lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1</a>&gt; a faldo:ForwardStrandPosition .
+&lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1</a>&gt; faldo:position 109640 .
+dbtss_variant:c1.fa#109640 dbtss:has_allele  dbtss_variant:c1.fa#109640#T .
+dbtss_variant:c1.fa#109640#T a dbtss:reference_allele .
+dbtss_variant:c1.fa#109640#T rdfs:label "T" .
+dbtss_variant:c1.fa#109640#A a dbtss:derived_allele .
+dbtss_variant:c1.fa#109640#A rdfs:label "A" .
+dbtss_variant:c1.fa#109640 dbtss:quality "183.07"^^xsd:float .
+&lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/hg38/snv/la_cellline_26/LC2ad_snv" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/hg38/snv/la_cellline_26/LC2ad_snv</a>&gt; dbtss:hasVariant  dbtss_variant:c1.fa#118617 .
+dbtss_variant:c1.fa#118617 a obo:SO_0001483 .
+dbtss_variant:c1.fa#118617 faldo:location  &lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:118617-118617:1" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:118617-118617:1</a>&gt; .
+&lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:118617-118617:1" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:118617-118617:1</a>&gt; a faldo:Region .
+&lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:118617-118617:1" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:118617-118617:1</a>&gt; rdfs:label "chromosome 1:118617-118617:1" .
+&lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:118617-118617:1" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:118617-118617:1</a>&gt; faldo:begin  &lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:118617:1" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:118617:1</a>&gt; .
+&lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:118617-118617:1" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:118617-118617:1</a>&gt; faldo:end  &lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:118617:1" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:118617:1</a>&gt; .
+&lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:118617-118617:1" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:118617-118617:1</a>&gt; faldo:reference  &lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1</a>&gt; .
+&lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1</a>&gt; a faldo:ExactPosition .
+&lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1</a>&gt; a faldo:ForwardStrandPosition .
+&lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1</a>&gt; faldo:position 118617 .
+dbtss_variant:c1.fa#118617 dbtss:has_allele  dbtss_variant:c1.fa#118617#T .
+dbtss_variant:c1.fa#118617#T a dbtss:reference_allele .
+dbtss_variant:c1.fa#118617#T rdfs:label "T" .
+dbtss_variant:c1.fa#118617#C a dbtss:derived_allele .
+dbtss_variant:c1.fa#118617#C rdfs:label "C" .
+dbtss_variant:c1.fa#118617 dbtss:quality "1502.73"^^xsd:float .
+&lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/hg38/snv/la_cellline_26/LC2ad_snv" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/hg38/snv/la_cellline_26/LC2ad_snv</a>&gt; dbtss:hasVariant  dbtss_variant:c1.fa#121009 .
+dbtss_variant:c1.fa#121009 a obo:SO_0001483 .
+dbtss_variant:c1.fa#121009 rdfs:seeAlso  &lt;<a href="http://identifiers.org/dbsnp/rs1851943" class="external free" rel="nofollow">http://identifiers.org/dbsnp/rs1851943</a>&gt; .
+dbtss_variant:c1.fa#121009 faldo:location  &lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:121009-121009:1" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:121009-121009:1</a>&gt; .
+&lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:121009-121009:1" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:121009-121009:1</a>&gt; a faldo:Region .
+&lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:121009-121009:1" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:121009-121009:1</a>&gt; rdfs:label "chromosome 1:121009-121009:1" .
+&lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:121009-121009:1" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:121009-121009:1</a>&gt; faldo:begin  &lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:121009:1" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:121009:1</a>&gt; .
+&lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:121009-121009:1" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:121009-121009:1</a>&gt; faldo:end  &lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:121009:1" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:121009:1</a>&gt; .
+&lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:121009-121009:1" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:121009-121009:1</a>&gt; faldo:reference  &lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1</a>&gt; .
+&lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1</a>&gt; a faldo:ExactPosition .
+&lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1</a>&gt; a faldo:ForwardStrandPosition .
+&lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1</a>&gt; faldo:position 121009 .
+dbtss_variant:c1.fa#121009 dbtss:has_allele  dbtss_variant:c1.fa#121009#C .
+dbtss_variant:c1.fa#121009#C a dbtss:reference_allele .
+dbtss_variant:c1.fa#121009#C rdfs:label "C" .
+dbtss_variant:c1.fa#121009#T a dbtss:derived_allele .
+dbtss_variant:c1.fa#121009#T rdfs:label "T" .
+dbtss_variant:c1.fa#121009 dbtss:quality "80.12"^^xsd:float .
+&lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/hg38/snv/la_cellline_26/LC2ad_snv" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/hg38/snv/la_cellline_26/LC2ad_snv</a>&gt; dbtss:hasVariant  dbtss_variant:c1.fa#133129 .
+dbtss_variant:c1.fa#133129 a obo:SO_0001483 .
+dbtss_variant:c1.fa#133129 faldo:location  &lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:133129-133129:1" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:133129-133129:1</a>&gt; .
+&lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:133129-133129:1" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:133129-133129:1</a>&gt; a faldo:Region .
+&lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:133129-133129:1" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:133129-133129:1</a>&gt; rdfs:label "chromosome 1:133129-133129:1" .
+&lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:133129-133129:1" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:133129-133129:1</a>&gt; faldo:begin  &lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:133129:1" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:133129:1</a>&gt; .
+&lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:133129-133129:1" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:133129-133129:1</a>&gt; faldo:end  &lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:133129:1" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:133129:1</a>&gt; .
+&lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:133129-133129:1" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:133129-133129:1</a>&gt; faldo:reference  &lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1</a>&gt; .
+&lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1</a>&gt; a faldo:ExactPosition .
+&lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1</a>&gt; a faldo:ForwardStrandPosition .
+&lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1</a>&gt; faldo:position 133129 .
+dbtss_variant:c1.fa#133129 dbtss:has_allele  dbtss_variant:c1.fa#133129#G .
+dbtss_variant:c1.fa#133129#G a dbtss:reference_allele .
+dbtss_variant:c1.fa#133129#G rdfs:label "G" .
+dbtss_variant:c1.fa#133129#A a dbtss:derived_allele .
+dbtss_variant:c1.fa#133129#A rdfs:label "A" .
+dbtss_variant:c1.fa#133129 dbtss:quality "207.76"^^xsd:float .
+&lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/hg38/snv/la_cellline_26/LC2ad_snv" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/hg38/snv/la_cellline_26/LC2ad_snv</a>&gt; dbtss:hasVariant  dbtss_variant:c1.fa#136437 .
+dbtss_variant:c1.fa#136437 a obo:SO_0001483 .
+dbtss_variant:c1.fa#136437 faldo:location  &lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:136437-136437:1" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:136437-136437:1</a>&gt; .
+&lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:136437-136437:1" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:136437-136437:1</a>&gt; a faldo:Region .
+&lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:136437-136437:1" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:136437-136437:1</a>&gt; rdfs:label "chromosome 1:136437-136437:1" .
+&lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:136437-136437:1" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:136437-136437:1</a>&gt; faldo:begin  &lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:136437:1" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:136437:1</a>&gt; .
+&lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:136437-136437:1" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:136437-136437:1</a>&gt; faldo:end  &lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:136437:1" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:136437:1</a>&gt; .
+&lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:136437-136437:1" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:136437-136437:1</a>&gt; faldo:reference  &lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1</a>&gt; .
+&lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1</a>&gt; a faldo:ExactPosition .
+&lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1</a>&gt; a faldo:ForwardStrandPosition .
+&lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1</a>&gt; faldo:position 136437 .
+dbtss_variant:c1.fa#136437 dbtss:has_allele  dbtss_variant:c1.fa#136437#T .
+dbtss_variant:c1.fa#136437#T a dbtss:reference_allele .
+dbtss_variant:c1.fa#136437#T rdfs:label "T" .
+dbtss_variant:c1.fa#136437#C a dbtss:derived_allele .
+dbtss_variant:c1.fa#136437#C rdfs:label "C" .
+dbtss_variant:c1.fa#136437 dbtss:quality "159.83"^^xsd:float .
+&lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/hg38/snv/la_cellline_26/LC2ad_snv" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/hg38/snv/la_cellline_26/LC2ad_snv</a>&gt; dbtss:hasVariant  dbtss_variant:c1.fa#136603 .
+dbtss_variant:c1.fa#136603 a obo:SO_0001483 .
+dbtss_variant:c1.fa#136603 faldo:location  &lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:136603-136603:1" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:136603-136603:1</a>&gt; .
+&lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:136603-136603:1" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:136603-136603:1</a>&gt; a faldo:Region .
+&lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:136603-136603:1" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:136603-136603:1</a>&gt; rdfs:label "chromosome 1:136603-136603:1" .
+&lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:136603-136603:1" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:136603-136603:1</a>&gt; faldo:begin  &lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:136603:1" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:136603:1</a>&gt; .
+&lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:136603-136603:1" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:136603-136603:1</a>&gt; faldo:end  &lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:136603:1" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:136603:1</a>&gt; .
+&lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:136603-136603:1" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:136603-136603:1</a>&gt; faldo:reference  &lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1</a>&gt; .
+&lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1</a>&gt; a faldo:ExactPosition .
+&lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1</a>&gt; a faldo:ForwardStrandPosition .
+&lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1</a>&gt; faldo:position 136603 .
+dbtss_variant:c1.fa#136603 dbtss:has_allele  dbtss_variant:c1.fa#136603#A .
+dbtss_variant:c1.fa#136603#A a dbtss:reference_allele .
+dbtss_variant:c1.fa#136603#A rdfs:label "A" .
+dbtss_variant:c1.fa#136603#G a dbtss:derived_allele .
+dbtss_variant:c1.fa#136603#G rdfs:label "G" .
+dbtss_variant:c1.fa#136603 dbtss:quality "124.35"^^xsd:float .
+&lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/hg38/snv/la_cellline_26/LC2ad_snv" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/hg38/snv/la_cellline_26/LC2ad_snv</a>&gt; dbtss:hasVariant  dbtss_variant:c1.fa#136652 .
+dbtss_variant:c1.fa#136652 a obo:SO_0001483 .
+dbtss_variant:c1.fa#136652 faldo:location  &lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:136652-136652:1" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:136652-136652:1</a>&gt; .
+&lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:136652-136652:1" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:136652-136652:1</a>&gt; a faldo:Region .
+&lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:136652-136652:1" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:136652-136652:1</a>&gt; rdfs:label "chromosome 1:136652-136652:1" .
+&lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:136652-136652:1" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:136652-136652:1</a>&gt; faldo:begin  &lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:136652:1" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:136652:1</a>&gt; .
+&lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:136652-136652:1" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:136652-136652:1</a>&gt; faldo:end  &lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:136652:1" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:136652:1</a>&gt; .
+&lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:136652-136652:1" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:136652-136652:1</a>&gt; faldo:reference  &lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1</a>&gt; .
+&lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1</a>&gt; a faldo:ExactPosition .
+&lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1</a>&gt; a faldo:ForwardStrandPosition .
+&lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1</a>&gt; faldo:position 136652 .
+dbtss_variant:c1.fa#136652 dbtss:has_allele  dbtss_variant:c1.fa#136652#A .
+dbtss_variant:c1.fa#136652#A a dbtss:reference_allele .
+dbtss_variant:c1.fa#136652#A rdfs:label "A" .
+dbtss_variant:c1.fa#136652#G a dbtss:derived_allele .
+dbtss_variant:c1.fa#136652#G rdfs:label "G" .
+dbtss_variant:c1.fa#136652 dbtss:quality "77.33"^^xsd:float .
+&lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/hg38/snv/la_cellline_26/LC2ad_snv" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/hg38/snv/la_cellline_26/LC2ad_snv</a>&gt; dbtss:hasVariant  dbtss_variant:c1.fa#136731 .
+dbtss_variant:c1.fa#136731 a obo:SO_0001483 .
+dbtss_variant:c1.fa#136731 faldo:location  &lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:136731-136731:1" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:136731-136731:1</a>&gt; .
+&lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:136731-136731:1" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:136731-136731:1</a>&gt; a faldo:Region .
+&lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:136731-136731:1" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:136731-136731:1</a>&gt; rdfs:label "chromosome 1:136731-136731:1" .
+&lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:136731-136731:1" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:136731-136731:1</a>&gt; faldo:begin  &lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:136731:1" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:136731:1</a>&gt; .
+&lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:136731-136731:1" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:136731-136731:1</a>&gt; faldo:end  &lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:136731:1" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:136731:1</a>&gt; .
+&lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:136731-136731:1" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:136731-136731:1</a>&gt; faldo:reference  &lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1</a>&gt; .
+&lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1</a>&gt; a faldo:ExactPosition .
+&lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1</a>&gt; a faldo:ForwardStrandPosition .
+&lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1</a>&gt; faldo:position 136731 .
+dbtss_variant:c1.fa#136731 dbtss:has_allele  dbtss_variant:c1.fa#136731#G .
+dbtss_variant:c1.fa#136731#G a dbtss:reference_allele .
+dbtss_variant:c1.fa#136731#G rdfs:label "G" .
+dbtss_variant:c1.fa#136731#A a dbtss:derived_allele .
+dbtss_variant:c1.fa#136731#A rdfs:label "A" .
+dbtss_variant:c1.fa#136731 dbtss:quality "440.60"^^xsd:float .
+&lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/hg38/snv/la_cellline_26/LC2ad_snv" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/hg38/snv/la_cellline_26/LC2ad_snv</a>&gt; dbtss:hasVariant  dbtss_variant:c1.fa#136836 .
+dbtss_variant:c1.fa#136836 a obo:SO_0001483 .
+dbtss_variant:c1.fa#136836 faldo:location  &lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:136836-136836:1" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:136836-136836:1</a>&gt; .
+&lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:136836-136836:1" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:136836-136836:1</a>&gt; a faldo:Region .
+&lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:136836-136836:1" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:136836-136836:1</a>&gt; rdfs:label "chromosome 1:136836-136836:1" .
+&lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:136836-136836:1" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:136836-136836:1</a>&gt; faldo:begin  &lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:136836:1" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:136836:1</a>&gt; .
+&lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:136836-136836:1" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:136836-136836:1</a>&gt; faldo:end  &lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:136836:1" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:136836:1</a>&gt; .
+&lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:136836-136836:1" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:136836-136836:1</a>&gt; faldo:reference  &lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1</a>&gt; .
+&lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1</a>&gt; a faldo:ExactPosition .
+&lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1</a>&gt; a faldo:ForwardStrandPosition .
+&lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1</a>&gt; faldo:position 136836 .
+dbtss_variant:c1.fa#136836 dbtss:has_allele  dbtss_variant:c1.fa#136836#G .
+dbtss_variant:c1.fa#136836#G a dbtss:reference_allele .
+dbtss_variant:c1.fa#136836#G rdfs:label "G" .
+dbtss_variant:c1.fa#136836#A a dbtss:derived_allele .
+dbtss_variant:c1.fa#136836#A rdfs:label "A" .
+dbtss_variant:c1.fa#136836 dbtss:quality "81.73"^^xsd:float .
+&lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/hg38/snv/la_cellline_26/LC2ad_snv" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/hg38/snv/la_cellline_26/LC2ad_snv</a>&gt; dbtss:hasVariant  dbtss_variant:c1.fa#136962 .
+dbtss_variant:c1.fa#136962 a obo:SO_0001483 .
+dbtss_variant:c1.fa#136962 faldo:location  &lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:136962-136962:1" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:136962-136962:1</a>&gt; .
+&lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:136962-136962:1" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:136962-136962:1</a>&gt; a faldo:Region .
+&lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:136962-136962:1" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:136962-136962:1</a>&gt; rdfs:label "chromosome 1:136962-136962:1" .
+&lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:136962-136962:1" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:136962-136962:1</a>&gt; faldo:begin  &lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:136962:1" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:136962:1</a>&gt; .
+&lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:136962-136962:1" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:136962-136962:1</a>&gt; faldo:end  &lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:136962:1" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:136962:1</a>&gt; .
+&lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:136962-136962:1" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:136962-136962:1</a>&gt; faldo:reference  &lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1</a>&gt; .
+&lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1</a>&gt; a faldo:ExactPosition .
+&lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1</a>&gt; a faldo:ForwardStrandPosition .
+&lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1</a>&gt; faldo:position 136962 .
+dbtss_variant:c1.fa#136962 dbtss:has_allele  dbtss_variant:c1.fa#136962#C .
+dbtss_variant:c1.fa#136962#C a dbtss:reference_allele .
+dbtss_variant:c1.fa#136962#C rdfs:label "C" .
+dbtss_variant:c1.fa#136962#T a dbtss:derived_allele .
+dbtss_variant:c1.fa#136962#T rdfs:label "T" .
+dbtss_variant:c1.fa#136962 dbtss:quality "146.41"^^xsd:float .
+&lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/hg38/snv/la_cellline_26/LC2ad_snv" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/hg38/snv/la_cellline_26/LC2ad_snv</a>&gt; dbtss:hasVariant  dbtss_variant:c1.fa#139233 .
+dbtss_variant:c1.fa#139233 a obo:SO_0001483 .
+dbtss_variant:c1.fa#139233 faldo:location  &lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:139233-139233:1" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:139233-139233:1</a>&gt; .
+&lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:139233-139233:1" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:139233-139233:1</a>&gt; a faldo:Region .
+&lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:139233-139233:1" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:139233-139233:1</a>&gt; rdfs:label "chromosome 1:139233-139233:1" .
+&lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:139233-139233:1" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:139233-139233:1</a>&gt; faldo:begin  &lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:139233:1" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:139233:1</a>&gt; .
+&lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:139233-139233:1" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:139233-139233:1</a>&gt; faldo:end  &lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:139233:1" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:139233:1</a>&gt; .
+&lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:139233-139233:1" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:139233-139233:1</a>&gt; faldo:reference  &lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1</a>&gt; .
+&lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1</a>&gt; a faldo:ExactPosition .
+&lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1</a>&gt; a faldo:ForwardStrandPosition .
+&lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1</a>&gt; faldo:position 139233 .
+dbtss_variant:c1.fa#139233 dbtss:has_allele  dbtss_variant:c1.fa#139233#C .
+dbtss_variant:c1.fa#139233#C a dbtss:reference_allele .
+dbtss_variant:c1.fa#139233#C rdfs:label "C" .
+dbtss_variant:c1.fa#139233#A a dbtss:derived_allele .
+dbtss_variant:c1.fa#139233#A rdfs:label "A" .
+dbtss_variant:c1.fa#139233 dbtss:quality "263.19"^^xsd:float .
+&lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/hg38/snv/la_cellline_26/LC2ad_snv" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/hg38/snv/la_cellline_26/LC2ad_snv</a>&gt; dbtss:hasVariant  dbtss_variant:c1.fa#158006 .
+dbtss_variant:c1.fa#158006 a obo:SO_0001483 .
+dbtss_variant:c1.fa#158006 faldo:location  &lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:158006-158006:1" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:158006-158006:1</a>&gt; .
+&lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:158006-158006:1" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:158006-158006:1</a>&gt; a faldo:Region .
+&lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:158006-158006:1" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:158006-158006:1</a>&gt; rdfs:label "chromosome 1:158006-158006:1" .
+&lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:158006-158006:1" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:158006-158006:1</a>&gt; faldo:begin  &lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:158006:1" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:158006:1</a>&gt; .
+&lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:158006-158006:1" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:158006-158006:1</a>&gt; faldo:end  &lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:158006:1" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:158006:1</a>&gt; .
+&lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:158006-158006:1" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1:158006-158006:1</a>&gt; faldo:reference  &lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1</a>&gt; .
+&lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1</a>&gt; a faldo:ExactPosition .
+&lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1</a>&gt; a faldo:ForwardStrandPosition .
+&lt;<a href="http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1" class="external free" rel="nofollow">http://dbtss.hgc.jp/rdf/dbtss_ver9/chromosome:hg38:1</a>&gt; faldo:position 158006 .
+dbtss_variant:c1.fa#158006 dbtss:has_allele  dbtss_variant:c1.fa#158006#A .
+dbtss_variant:c1.fa#158006#A a dbtss:reference_allele .
+dbtss_variant:c1.fa#158006#A rdfs:label "A" .
+dbtss_variant:c1.fa#158006#T a dbtss:derived_allele .
+dbtss_variant:c1.fa#158006#T rdfs:label "T" .
+dbtss_variant:c1.fa#158006 dbtss:quality "140.80"^^xsd:float .
+</pre>
+<!-- 
+NewPP limit report
+Preprocessor node count: 1/1000000
+Post-expand include size: 0/2097152 bytes
+Template argument size: 0/2097152 bytes
+Expensive parser function count: 0/100
+-->
+
+<!-- Saved in parser cache with key wikidb-togowiki_:pcache:idhash:540-0!1!0!!ja!2!edit=0!printable=1 and timestamp 20230605024921 -->
+<div class="printfooter">
+「<a href="http://wiki.lifesciencedb.jp/mw/SPARQLThon28/DBTSS-var">http://wiki.lifesciencedb.jp/mw/SPARQLThon28/DBTSS-var</a>」より作成</div>
+		<div id='catlinks' class='catlinks catlinks-allhidden'></div>		<!-- end content -->
+				<div class="visualClear"></div>
+	</div>
+</div></div>
+<div id="column-one">
+	<div id="p-cactions" class="portlet">
+		<h5>表示</h5>
+		<div class="pBody">
+			<ul>
+				 <li id="ca-nstab-main" class="selected"><a href="/mw/SPARQLThon28/DBTSS-var" title="本文を表示 [c]" accesskey="c">ページ</a></li>
+				 <li id="ca-talk" class="new"><a href="/mw/index.php?title=%E3%83%8E%E3%83%BC%E3%83%88:SPARQLThon28/DBTSS-var&amp;action=edit&amp;redlink=1" title="記事についての議論 [t]" accesskey="t">議論</a></li>
+				 <li id="ca-viewsource"><a href="/mw/index.php?title=SPARQLThon28/DBTSS-var&amp;action=edit" title="このページは保護されています。&#10;ページのソースを閲覧できます。 [e]" accesskey="e">ソースを表示</a></li>
+				 <li id="ca-history"><a href="/mw/index.php?title=SPARQLThon28/DBTSS-var&amp;action=history" title="このページの過去の版 [h]" accesskey="h">履歴</a></li>
+			</ul>
+		</div>
+	</div>
+	<div class="portlet" id="p-personal">
+		<h5>個人用ツール</h5>
+		<div class="pBody">
+			<ul>
+				<li id="pt-anonuserpage"><a href="/mw/%E5%88%A9%E7%94%A8%E8%80%85:172.18.8.51" title="自分が編集しているIPアドレスの利用者ページ [.]" accesskey="." class="new">172.18.8.51</a></li>
+				<li id="pt-anontalk"><a href="/mw/%E5%88%A9%E7%94%A8%E8%80%85%E2%80%90%E4%BC%9A%E8%A9%B1:172.18.8.51" title="このIPアドレスからなされた編集についての議論 [n]" accesskey="n" class="new">このIPアドレスのトーク</a></li>
+				<li id="pt-anonlogin"><a href="/mw/index.php?title=%E7%89%B9%E5%88%A5:%E3%83%AD%E3%82%B0%E3%82%A4%E3%83%B3&amp;returnto=SPARQLThon28/DBTSS-var&amp;returntoquery=oldid%3D15043%26printable%3Dyes" title="ログインすることが推奨されます。ただし、必須ではありません。 [o]" accesskey="o">ログイン</a></li>
+				<li id="pt-openidlogin"><a href="/mw/index.php?title=%E7%89%B9%E5%88%A5:OpenID%E3%83%AD%E3%82%B0%E3%82%A4%E3%83%B3&amp;returnto=SPARQLThon28/DBTSS-var">OpenIDでログイン</a></li>
+			</ul>
+		</div>
+	</div>
+	<div class="portlet" id="p-logo">
+		<a style="background-image: url(/mw/images/togowiki-logo.png);" href="/mw/%E3%83%A1%E3%82%A4%E3%83%B3%E3%83%9A%E3%83%BC%E3%82%B8" title="メインページに移動"></a>
+	</div>
+	<script type="text/javascript"> if (window.isMSIE55) fixalpha(); </script>
+	<div class='generated-sidebar portlet' id='p-navigation'>
+		<h5>案内</h5>
+		<div class='pBody'>
+			<ul>
+				<li id="n-mainpage-description"><a href="/mw/%E3%83%A1%E3%82%A4%E3%83%B3%E3%83%9A%E3%83%BC%E3%82%B8" title="メインページに移動する [z]" accesskey="z">メインページ</a></li>
+				<li id="n-portal"><a href="/mw/TogoWiki:%E3%82%B3%E3%83%9F%E3%83%A5%E3%83%8B%E3%83%86%E3%82%A3%E3%83%BB%E3%83%9D%E3%83%BC%E3%82%BF%E3%83%AB" title="このプロジェクトについて、できること、情報を入手する場所">コミュニティ・ポータル</a></li>
+				<li id="n-currentevents"><a href="/mw/TogoWiki:%E6%9C%80%E8%BF%91%E3%81%AE%E5%87%BA%E6%9D%A5%E4%BA%8B" title="最近の出来事について予備知識を得る">最近の出来事</a></li>
+				<li id="n-recentchanges"><a href="/mw/%E7%89%B9%E5%88%A5:%E6%9C%80%E8%BF%91%E3%81%AE%E6%9B%B4%E6%96%B0" title="ウィキにおける最近の更新の一覧 [r]" accesskey="r">最近の更新</a></li>
+				<li id="n-randompage"><a href="/mw/%E7%89%B9%E5%88%A5:%E3%81%8A%E3%81%BE%E3%81%8B%E3%81%9B%E8%A1%A8%E7%A4%BA" title="無作為に抽出されたページの読み込み [x]" accesskey="x">おまかせ表示</a></li>
+				<li id="n-help"><a href="/mw/Help:%E7%9B%AE%E6%AC%A1" title="情報を得る場所">ヘルプ</a></li>
+			</ul>
+		</div>
+	</div>
+	<div id="p-search" class="portlet">
+		<h5><label for="searchInput">検索</label></h5>
+		<div id="searchBody" class="pBody">
+			<form action="/mw/index.php" id="searchform">
+				<input type='hidden' name="title" value="特別:検索"/>
+				<input id="searchInput" title="TogoWiki内を検索" accesskey="f" type="search" name="search" />
+				<input type='submit' name="go" class="searchButton" id="searchGoButton"	value="表示" title="厳密に一致する名前のページが存在すれば、そのページへ移動します" />&nbsp;
+				<input type='submit' name="fulltext" class="searchButton" id="mw-searchButton" value="検索" title="入力された文字列が含まれるページを検索します" />
+			</form>
+		</div>
+	</div>
+	<div class="portlet" id="p-tb">
+		<h5>ツールボックス</h5>
+		<div class="pBody">
+			<ul>
+				<li id="t-whatlinkshere"><a href="/mw/%E7%89%B9%E5%88%A5:%E3%83%AA%E3%83%B3%E3%82%AF%E5%85%83/SPARQLThon28/DBTSS-var" title="ここにリンクしている全ウィキのページの一覧 [j]" accesskey="j">リンク元</a></li>
+				<li id="t-recentchangeslinked"><a href="/mw/%E7%89%B9%E5%88%A5:%E9%96%A2%E9%80%A3%E3%83%9A%E3%83%BC%E3%82%B8%E3%81%AE%E6%9B%B4%E6%96%B0%E7%8A%B6%E6%B3%81/SPARQLThon28/DBTSS-var" title="このページからリンクしているページの最近の更新 [k]" accesskey="k">関連ページの更新状況</a></li>
+<li id="t-specialpages"><a href="/mw/%E7%89%B9%E5%88%A5:%E7%89%B9%E5%88%A5%E3%83%9A%E3%83%BC%E3%82%B8%E4%B8%80%E8%A6%A7" title="特別ページの一覧 [q]" accesskey="q">特別ページ</a></li>
+				<li id="t-permalink"><a href="/mw/index.php?title=SPARQLThon28/DBTSS-var&amp;oldid=15043" title="ページのこの版への固定リンク">この版への固定リンク</a></li>			</ul>
+		</div>
+	</div>
+</div><!-- end of the left (by default at least) column -->
+<div class="visualClear"></div>
+<div id="footer">
+	<div id="f-poweredbyico"><a href="http://www.mediawiki.org/"><img src="/mw/skins/common/images/poweredby_mediawiki_88x31.png" height="31" width="88" alt="Powered by MediaWiki" /></a></div>
+	<div id="f-copyrightico"><a href="http://creativecommons.org/licenses/by/3.0/"><img src="http://i.creativecommons.org/l/by/3.0/88x31.png" alt="Attribution 3.0 Unported" width="88" height="31" /></a></div>
+	<ul id="f-list">
+		<li id="copyright">内容は<a href="http://creativecommons.org/licenses/by/3.0/" class="external ">Attribution 3.0 Unported</a>のライセンスで利用することができます。</li>
+		<li id="privacy"><a href="/mw/TogoWiki:%E3%83%97%E3%83%A9%E3%82%A4%E3%83%90%E3%82%B7%E3%83%BC%E3%83%BB%E3%83%9D%E3%83%AA%E3%82%B7%E3%83%BC" title="TogoWiki:プライバシー・ポリシー">プライバシー・ポリシー</a></li>
+		<li id="about"><a href="/mw/TogoWiki:TogoWiki%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6" title="TogoWiki:TogoWikiについて">TogoWikiについて</a></li>
+		<li id="disclaimer"><a href="/mw/TogoWiki:%E5%85%8D%E8%B2%AC%E4%BA%8B%E9%A0%85" title="TogoWiki:免責事項">免責事項</a></li>
+	</ul>
+</div>
+</div>
+
+<script>if (window.runOnloadHook) runOnloadHook();</script>
+<!-- Served in 0.629 secs. --></body></html>

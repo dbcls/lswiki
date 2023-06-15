@@ -1,0 +1,492 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html lang="ja" dir="ltr">
+<head>
+<title>SPARQLthon25/DDBJ - TogoWiki</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta name="generator" content="MediaWiki 1.16.3" />
+<link rel="shortcut icon" href="/favicon.ico" />
+<link rel="search" type="application/opensearchdescription+xml" href="/mw/opensearch_desc.php" title="TogoWiki (ja)" />
+<link title="Creative Commons" type="application/rdf+xml" href="/mw/index.php?title=SPARQLthon25/DDBJ&amp;action=creativecommons" rel="meta" />
+<link rel="copyright" href="http://creativecommons.org/licenses/by/3.0/" />
+<link rel="alternate" type="application/atom+xml" title="TogoWikiのAtomフィード" href="/mw/index.php?title=%E7%89%B9%E5%88%A5:%E6%9C%80%E8%BF%91%E3%81%AE%E6%9B%B4%E6%96%B0&amp;feed=atom" />
+<link rel="stylesheet" href="/mw/skins/common/shared.css?270" media="screen" />
+<link rel="stylesheet" href="/mw/skins/common/commonPrint.css?270" media="print" />
+<link rel="stylesheet" href="/mw/skins/monobook/main.css?270" media="screen" />
+<!--[if lt IE 5.5000]><link rel="stylesheet" href="/mw/skins/monobook/IE50Fixes.css?270" media="screen" /><![endif]-->
+<!--[if IE 5.5000]><link rel="stylesheet" href="/mw/skins/monobook/IE55Fixes.css?270" media="screen" /><![endif]-->
+<!--[if IE 6]><link rel="stylesheet" href="/mw/skins/monobook/IE60Fixes.css?270" media="screen" /><![endif]-->
+<!--[if IE 7]><link rel="stylesheet" href="/mw/skins/monobook/IE70Fixes.css?270" media="screen" /><![endif]-->
+<link rel="stylesheet" href="/mw/index.php?title=MediaWiki:Common.css&amp;usemsgcache=yes&amp;ctype=text%2Fcss&amp;smaxage=18000&amp;action=raw&amp;maxage=18000" />
+<link rel="stylesheet" href="/mw/index.php?title=MediaWiki:Print.css&amp;usemsgcache=yes&amp;ctype=text%2Fcss&amp;smaxage=18000&amp;action=raw&amp;maxage=18000" media="print" />
+<link rel="stylesheet" href="/mw/index.php?title=MediaWiki:Monobook.css&amp;usemsgcache=yes&amp;ctype=text%2Fcss&amp;smaxage=18000&amp;action=raw&amp;maxage=18000" />
+<link rel="stylesheet" href="/mw/index.php?title=-&amp;action=raw&amp;maxage=18000&amp;gen=css" />
+<script>
+var skin="monobook",
+stylepath="/mw/skins",
+wgUrlProtocols="http\\:\\/\\/|https\\:\\/\\/|ftp\\:\\/\\/|irc\\:\\/\\/|gopher\\:\\/\\/|telnet\\:\\/\\/|nntp\\:\\/\\/|worldwind\\:\\/\\/|mailto\\:|news\\:|svn\\:\\/\\/",
+wgArticlePath="/mw/$1",
+wgScriptPath="/mw",
+wgScriptExtension=".php",
+wgScript="/mw/index.php",
+wgVariantArticlePath=false,
+wgActionPaths={},
+wgServer="http://wiki.lifesciencedb.jp",
+wgCanonicalNamespace="",
+wgCanonicalSpecialPageName=false,
+wgNamespaceNumber=0,
+wgPageName="SPARQLthon25/DDBJ",
+wgTitle="SPARQLthon25/DDBJ",
+wgAction="view",
+wgArticleId=509,
+wgIsArticle=true,
+wgUserName=null,
+wgUserGroups=null,
+wgUserLanguage="ja",
+wgContentLanguage="ja",
+wgBreakFrames=false,
+wgCurRevisionId=14436,
+wgVersion="1.16.3",
+wgEnableAPI=true,
+wgEnableWriteAPI=true,
+wgSeparatorTransformTable=["", ""],
+wgDigitTransformTable=["", ""],
+wgMainPageTitle="メインページ",
+wgFormattedNamespaces={"-2": "メディア", "-1": "特別", "0": "", "1": "ノート", "2": "利用者", "3": "利用者‐会話", "4": "TogoWiki", "5": "TogoWiki‐ノート", "6": "ファイル", "7": "ファイル‐ノート", "8": "MediaWiki", "9": "MediaWiki‐ノート", "10": "Template", "11": "Template‐ノート", "12": "Help", "13": "Help‐ノート", "14": "Category", "15": "Category‐ノート"},
+wgNamespaceIds={"メディア": -2, "特別": -1, "": 0, "ノート": 1, "利用者": 2, "利用者‐会話": 3, "togowiki": 4, "togowiki‐ノート": 5, "ファイル": 6, "ファイル‐ノート": 7, "mediawiki": 8, "mediawiki‐ノート": 9, "template": 10, "template‐ノート": 11, "help": 12, "help‐ノート": 13, "category": 14, "category‐ノート": 15, "画像": 6, "画像‐ノート": 7, "image": 6, "image_talk": 7},
+wgSiteName="TogoWiki",
+wgCategories=[],
+wgRestrictionEdit=[],
+wgRestrictionMove=[];
+</script><script src="/mw/skins/common/wikibits.js?270"></script>
+<script src="/mw/skins/common/ajax.js?270"></script>
+<script src="/mw/index.php?title=-&amp;action=raw&amp;gen=js&amp;useskin=monobook&amp;270"></script>
+
+		<style type='text/css'>
+		li#pt-openidlogin {
+		  background: url(/mw/extensions/OpenID/skin/icons/openid-inputicon.png) top left no-repeat;
+		  padding-left: 20px;
+		  text-transform: none;
+		}
+		</style>
+</head>
+<body class="mediawiki ltr ns-0 ns-subject page-SPARQLthon25_DDBJ skin-monobook">
+<div id="globalWrapper">
+<div id="column-content"><div id="content" >
+	<a id="top"></a>
+	
+	<h1 id="firstHeading" class="firstHeading">SPARQLthon25/DDBJ</h1>
+	<div id="bodyContent">
+		<h3 id="siteSub">提供：TogoWiki</h3>
+		<div id="contentSub"></div>
+		<div id="jump-to-nav">移動： <a href="#column-one">案内</a>, <a href="#searchInput">検索</a></div>
+		<!-- start content -->
+<table id="toc" class="toc"><tr><td><div id="toctitle"><h2>目次</h2></div>
+<ul>
+<li class="toclevel-1 tocsection-1"><a href="#DDBJ.E3.83.AA.E3.82.BD.E3.83.BC.E3.82.B9.E3.81.8B.E3.82.89OWL.E5.A4.89.E6.8F.9B"><span class="tocnumber">1</span> <span class="toctext">DDBJリソースからOWL変換</span></a></li>
+<li class="toclevel-1 tocsection-2"><a href="#.E4.BE.8B.EF.BC.89DDBJ_Division"><span class="tocnumber">2</span> <span class="toctext">例）DDBJ Division</span></a>
+<ul>
+<li class="toclevel-2 tocsection-3"><a href="#json.E5.BD.A2.E5.BC.8F"><span class="tocnumber">2.1</span> <span class="toctext">json形式</span></a></li>
+<li class="toclevel-2 tocsection-4"><a href="#OWL.E5.BD.A2.E5.BC.8F"><span class="tocnumber">2.2</span> <span class="toctext">OWL形式</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-5"><a href="#.E5.8F.82.E8.80.83"><span class="tocnumber">3</span> <span class="toctext">参考</span></a></li>
+</ul>
+</td></tr></table><script>if (window.showTocToggle) { var tocShowText = "表示"; var tocHideText = "非表示"; showTocToggle(); } </script>
+<h2> <span class="mw-headline" id="DDBJ.E3.83.AA.E3.82.BD.E3.83.BC.E3.82.B9.E3.81.8B.E3.82.89OWL.E5.A4.89.E6.8F.9B"> DDBJリソースからOWL変換 </span></h2>
+<ol><li> DDBJ HPの情報をgoogle spreadsheetで取得、編集
+<ul><li> <a href="https://docs.google.com/spreadsheets/d/1lcquFaRHHUs6weBd6_C6kgz6jBZ_HHYtnfgZx6vOeKA/edit#gid=1863655812" class="external free" rel="nofollow">https://docs.google.com/spreadsheets/d/1lcquFaRHHUs6weBd6_C6kgz6jBZ_HHYtnfgZx6vOeKA/edit#gid=1863655812</a>
+</li></ul>
+</li><li> Google Visualization APIを用いてデータ取得
+<ul><li> html形式 <a href="https://docs.google.com/spreadsheets/d/1lcquFaRHHUs6weBd6_C6kgz6jBZ_HHYtnfgZx6vOeKA/gviz/tq?tqx=out:html&amp;headers=1&amp;tq=SELECT%20A,B,C,D,F,G,H,I%20WHERE%20C%20IS%20NOT%20NULL" class="external free" rel="nofollow">https://docs.google.com/spreadsheets/d/1lcquFaRHHUs6weBd6_C6kgz6jBZ_HHYtnfgZx6vOeKA/gviz/tq?tqx=out:html&amp;headers=1&amp;tq=SELECT%20A,B,C,D,F,G,H,I%20WHERE%20C%20IS%20NOT%20NULL</a>
+</li><li> json形式 <a href="https://docs.google.com/spreadsheets/d/1lcquFaRHHUs6weBd6_C6kgz6jBZ_HHYtnfgZx6vOeKA/gviz/tq?tqx=out:json&amp;headers=1&amp;tq=SELECT%20A,B,C,D,F,G,H,I%20WHERE%20C%20IS%20NOT%20NULL" class="external free" rel="nofollow">https://docs.google.com/spreadsheets/d/1lcquFaRHHUs6weBd6_C6kgz6jBZ_HHYtnfgZx6vOeKA/gviz/tq?tqx=out:json&amp;headers=1&amp;tq=SELECT%20A,B,C,D,F,G,H,I%20WHERE%20C%20IS%20NOT%20NULL</a>
+</li><li> csv形式 <a href="https://docs.google.com/spreadsheets/d/1lcquFaRHHUs6weBd6_C6kgz6jBZ_HHYtnfgZx6vOeKA/gviz/tq?tqx=out:csv&amp;headers=1&amp;tq=SELECT%20A,B,C,D,F,G,H,I%20WHERE%20C%20IS%20NOT%20NULL" class="external free" rel="nofollow">https://docs.google.com/spreadsheets/d/1lcquFaRHHUs6weBd6_C6kgz6jBZ_HHYtnfgZx6vOeKA/gviz/tq?tqx=out:csv&amp;headers=1&amp;tq=SELECT%20A,B,C,D,F,G,H,I%20WHERE%20C%20IS%20NOT%20NULL</a>
+</li></ul>
+</li><li> ftdoc2ttl.rbでjsonを利用してOWL形式に変換
+<ul><li> Divisionを更新
+<ul><li> Division &gt; DDBJ_Division &gt; Taxonomic division, Other divisionをクラスで定義
+</li><li> HUM, PRIのリソースはIndividiual で定義
+</li></ul>
+</li></ul>
+</li></ol>
+<h2> <span class="mw-headline" id=".E4.BE.8B.EF.BC.89DDBJ_Division"> 例）DDBJ Division </span></h2>
+<ul><li> <a href="http://www.ddbj.nig.ac.jp/sub/locus-j.html#division" class="external free" rel="nofollow">http://www.ddbj.nig.ac.jp/sub/locus-j.html#division</a>
+</li></ul>
+<h3> <span class="mw-headline" id="json.E5.BD.A2.E5.BC.8F"> json形式 </span></h3>
+<pre>{"cols"=&gt;
+ [{"id"=&gt;"A", "label"=&gt;"feature", "type"=&gt;"string"},
+  {"id"=&gt;"B", "label"=&gt;"qualifier", "type"=&gt;"string"},
+  {"id"=&gt;"C", "label"=&gt;"value", "type"=&gt;"string"},
+  {"id"=&gt;"D", "label"=&gt;"label_en", "type"=&gt;"string"},
+  {"id"=&gt;"F", "label"=&gt;"label_ja", "type"=&gt;"string"},
+  {"id"=&gt;"G", "label"=&gt;"type_en", "type"=&gt;"string"},
+  {"id"=&gt;"H", "label"=&gt;"type_ja", "type"=&gt;"string"},
+  {"id"=&gt;"I", "label"=&gt;"uri", "type"=&gt;"string"}],
+"rows"=&gt;
+ [{"c"=&gt;
+    [{"v"=&gt;"DIVISION"},
+     {"v"=&gt;"division"},
+     {"v"=&gt;"HUM"},
+     {"v"=&gt;"human"},
+     {"v"=&gt;"ヒト"},
+     {"v"=&gt;"taxonomic division"},
+     {"v"=&gt;"由来生物種に基づく分類"},
+     {"v"=&gt;"<a href="http://ddbj.nig.ac.jp/ontologies/nucleotide/division.HUM" class="external free" rel="nofollow">http://ddbj.nig.ac.jp/ontologies/nucleotide/division.HUM</a>"}]},
+  {"c"=&gt;
+    [{"v"=&gt;"DIVISION"},
+     {"v"=&gt;"division"},
+     {"v"=&gt;"PRI"},
+     {"v"=&gt;"primates (other than human)"},
+     {"v"=&gt;"霊長類 (ヒトを除く)"},
+     {"v"=&gt;"taxonomic division"},
+     {"v"=&gt;"由来生物種に基づく分類"},
+     {"v"=&gt;"<a href="http://ddbj.nig.ac.jp/ontologies/nucleotide/division.PRI" class="external free" rel="nofollow">http://ddbj.nig.ac.jp/ontologies/nucleotide/division.PRI</a>"}]},
+  {"c"=&gt;
+    [{"v"=&gt;"DIVISION"},
+     {"v"=&gt;"division"},
+     {"v"=&gt;"ROD"},
+     {"v"=&gt;"rodents"},
+     {"v"=&gt;"齧歯類"},
+     {"v"=&gt;"taxonomic division"},
+     {"v"=&gt;"由来生物種に基づく分類"},
+     {"v"=&gt;"<a href="http://ddbj.nig.ac.jp/ontologies/nucleotide/division.ROD" class="external free" rel="nofollow">http://ddbj.nig.ac.jp/ontologies/nucleotide/division.ROD</a>"}]},
+  {"c"=&gt;
+    [{"v"=&gt;"DIVISION"},
+     {"v"=&gt;"division"},
+     {"v"=&gt;"MAM"},
+     {"v"=&gt;"mammals (other than primates and rodents)"},
+     {"v"=&gt;"哺乳類 (ヒト，霊長類，齧歯類を除く)"},
+     {"v"=&gt;"taxonomic division"},
+     {"v"=&gt;"由来生物種に基づく分類"},
+     {"v"=&gt;"<a href="http://ddbj.nig.ac.jp/ontologies/nucleotide/division.MAM" class="external free" rel="nofollow">http://ddbj.nig.ac.jp/ontologies/nucleotide/division.MAM</a>"}]},
+.
+.
+.
+( 略）
+</pre>
+<h3> <span class="mw-headline" id="OWL.E5.BD.A2.E5.BC.8F"> OWL形式 </span></h3>
+<pre>###  <a href="http://ddbj.nig.ac.jp/ontologies/nucleotide/Division" class="external free" rel="nofollow">http://ddbj.nig.ac.jp/ontologies/nucleotide/Division</a>
+
+:Division rdf:type owl:Class&nbsp;;
+        
+         rdfs:subClassOf owl:Thing .
+
+
+###  <a href="http://ddbj.nig.ac.jp/ontologies/nucleotide/DDBJ_Division" class="external free" rel="nofollow">http://ddbj.nig.ac.jp/ontologies/nucleotide/DDBJ_Division</a>
+
+:DDBJ_Division rdf:type owl:Class&nbsp;;
+             
+              rdfs:subClassOf&nbsp;:Division .
+
+
+###  <a href="http://ddbj.nig.ac.jp/ontologies/nucleotide/Taxonomic_division" class="external free" rel="nofollow">http://ddbj.nig.ac.jp/ontologies/nucleotide/Taxonomic_division</a>
+
+:Taxonomic_division rdf:type owl:Class&nbsp;;
+                  
+                   rdfs:subClassOf&nbsp;:DDBJ_Division .
+
+
+###  <a href="http://ddbj.nig.ac.jp/ontologies/nucleotide/Other_Division" class="external free" rel="nofollow">http://ddbj.nig.ac.jp/ontologies/nucleotide/Other_Division</a>
+
+:Other_Division rdf:type owl:Class&nbsp;;
+              
+               rdfs:subClassOf&nbsp;:DDBJ_Division .
+</pre>
+<p><br />
+</p>
+<pre>###  <a href="http://ddbj.nig.ac.jp/ontologies/nucleotide/Division#HUM" class="external free" rel="nofollow">http://ddbj.nig.ac.jp/ontologies/nucleotide/Division#HUM</a>
+
+:Division#HUM rdf:type&nbsp;:Taxonomic_Division ,
+              owl:NamedIndividual&nbsp;;
+     
+     rdfs:label "human"@en ,
+                "ヒト"@ja .
+###  <a href="http://ddbj.nig.ac.jp/ontologies/nucleotide/Division#PRI" class="external free" rel="nofollow">http://ddbj.nig.ac.jp/ontologies/nucleotide/Division#PRI</a>
+
+:Division#PRI rdf:type&nbsp;:Taxonomic_Division ,
+              owl:NamedIndividual&nbsp;;
+     
+     rdfs:label "primates (other than human)"@en ,
+                "霊長類 (ヒトを除く)"@ja .
+###  <a href="http://ddbj.nig.ac.jp/ontologies/nucleotide/Division#ROD" class="external free" rel="nofollow">http://ddbj.nig.ac.jp/ontologies/nucleotide/Division#ROD</a>
+
+:Division#ROD rdf:type&nbsp;:Taxonomic_Division ,
+              owl:NamedIndividual&nbsp;;
+     
+     rdfs:label "rodents"@en ,
+                "齧歯類"@ja .
+###  <a href="http://ddbj.nig.ac.jp/ontologies/nucleotide/Division#MAM" class="external free" rel="nofollow">http://ddbj.nig.ac.jp/ontologies/nucleotide/Division#MAM</a>
+
+:Division#MAM rdf:type&nbsp;:Taxonomic_Division ,
+              owl:NamedIndividual&nbsp;;
+     
+     rdfs:label "mammals (other than primates and rodents)"@en ,
+                "哺乳類 (ヒト，霊長類，齧歯類を除く)"@ja .
+###  <a href="http://ddbj.nig.ac.jp/ontologies/nucleotide/Division#VRT" class="external free" rel="nofollow">http://ddbj.nig.ac.jp/ontologies/nucleotide/Division#VRT</a>
+
+:Division#VRT rdf:type&nbsp;:Taxonomic_Division ,
+              owl:NamedIndividual&nbsp;;
+     
+     rdfs:label "vertebrates (other than mammals)"@en ,
+                "脊椎動物 (ヒト，霊長類，齧歯類，哺乳類を除く)"@ja .
+###  <a href="http://ddbj.nig.ac.jp/ontologies/nucleotide/Division#INV" class="external free" rel="nofollow">http://ddbj.nig.ac.jp/ontologies/nucleotide/Division#INV</a>
+
+:Division#INV rdf:type&nbsp;:Taxonomic_Division ,
+              owl:NamedIndividual&nbsp;;
+     
+     rdfs:label "invertebrates (animals other than vertebrates)"@en ,
+                "無脊椎動物"@ja .
+###  <a href="http://ddbj.nig.ac.jp/ontologies/nucleotide/Division#PLN" class="external free" rel="nofollow">http://ddbj.nig.ac.jp/ontologies/nucleotide/Division#PLN</a>
+
+:Division#PLN rdf:type&nbsp;:Taxonomic_Division ,
+              owl:NamedIndividual&nbsp;;
+     
+     rdfs:label "plants, fungi, plastids (eukaryotes other than animals)"@en ,
+                "植物・真菌類 など"@ja .
+###  <a href="http://ddbj.nig.ac.jp/ontologies/nucleotide/Division#BCT" class="external free" rel="nofollow">http://ddbj.nig.ac.jp/ontologies/nucleotide/Division#BCT</a>
+
+:Division#BCT rdf:type&nbsp;:Taxonomic_Division ,
+              owl:NamedIndividual&nbsp;;
+     
+     rdfs:label "bacteria (including both Eubacteria and Archaea)"@en ,
+                "バクテリア"@ja .
+###  <a href="http://ddbj.nig.ac.jp/ontologies/nucleotide/Division#VRL" class="external free" rel="nofollow">http://ddbj.nig.ac.jp/ontologies/nucleotide/Division#VRL</a>
+
+:Division#VRL rdf:type&nbsp;:Taxonomic_Division ,
+              owl:NamedIndividual&nbsp;;
+     
+     rdfs:label "viruses"@en ,
+                "ウイルス"@ja .
+###  <a href="http://ddbj.nig.ac.jp/ontologies/nucleotide/Division#PHG" class="external free" rel="nofollow">http://ddbj.nig.ac.jp/ontologies/nucleotide/Division#PHG</a>
+
+:Division#PHG rdf:type&nbsp;:Taxonomic_Division ,
+              owl:NamedIndividual&nbsp;;
+     
+     rdfs:label "bacteriophages"@en ,
+                "バクテリオファージ"@ja .
+###  <a href="http://ddbj.nig.ac.jp/ontologies/nucleotide/Division#PAT" class="external free" rel="nofollow">http://ddbj.nig.ac.jp/ontologies/nucleotide/Division#PAT</a>
+
+:Division#PAT rdf:type&nbsp;:Other_Division ,
+              owl:NamedIndividual&nbsp;;
+     
+     rdfs:label "sequence data related to patent application
+The data those which Japan Patent Office (JPO), United States Patent and 
+Trademark Office (USPTO),
+European Patent Office (EPO), and Korean Intellectual Property Office 
+(KIPO) collected, processed and released."@en ,
+                "特許出願に含まれる塩基配列データ
+Japan Patent Office (JPO), European Patent Office (EPO), United States 
+Patent and Trademark Office (USPTO), Korean Intellectual Property Office 
+(KIPO) が収集・処理したデータ"@ja .
+###  <a href="http://ddbj.nig.ac.jp/ontologies/nucleotide/Division#ENV" class="external free" rel="nofollow">http://ddbj.nig.ac.jp/ontologies/nucleotide/Division#ENV</a>
+
+:Division#ENV rdf:type&nbsp;:Other_Division ,
+              owl:NamedIndividual&nbsp;;
+     
+     rdfs:label "sequences obtained via environmental sampling methods"@en ,
+                "PCR, DGGE、あるいは、その他の方法で直接、分子を単離した環境上のサンプルに由来した配列"@ja .
+###  <a href="http://ddbj.nig.ac.jp/ontologies/nucleotide/Division#SYN" class="external free" rel="nofollow">http://ddbj.nig.ac.jp/ontologies/nucleotide/Division#SYN</a>
+
+:Division#SYN rdf:type&nbsp;:Other_Division ,
+              owl:NamedIndividual&nbsp;;
+     
+     rdfs:label "synthetic constructs; artificially constructed sequences"@en ,
+                "synthetic constructs
+人為的に構成された配列"@ja .
+###  <a href="http://ddbj.nig.ac.jp/ontologies/nucleotide/Division#EST" class="external free" rel="nofollow">http://ddbj.nig.ac.jp/ontologies/nucleotide/Division#EST</a>
+
+:Division#EST rdf:type&nbsp;:Other_Division ,
+              owl:NamedIndividual&nbsp;;
+     
+     rdfs:label "expressed sequence tags; short single pass cDNA sequences"@en ,
+                "expressed sequence tags
+short single pass の cDNA 配列"@ja .
+###  <a href="http://ddbj.nig.ac.jp/ontologies/nucleotide/Division#TSA" class="external free" rel="nofollow">http://ddbj.nig.ac.jp/ontologies/nucleotide/Division#TSA</a>
+
+:Division#TSA rdf:type&nbsp;:Other_Division ,
+              owl:NamedIndividual&nbsp;;
+     
+     rdfs:label "transcriptome shotgun assemblies; assembled mRNA sequences"@en ,
+                "transcriptome shotgun assemblies
+再構成された (assembled) mRNA 配列"@ja .
+###  <a href="http://ddbj.nig.ac.jp/ontologies/nucleotide/Division#GSS" class="external free" rel="nofollow">http://ddbj.nig.ac.jp/ontologies/nucleotide/Division#GSS</a>
+
+:Division#GSS rdf:type&nbsp;:Other_Division ,
+              owl:NamedIndividual&nbsp;;
+     
+     rdfs:label "genome survey sequences; short single pass genomic sequences"@en ,
+                "genome survey sequences
+short single pass のゲノム配列"@ja .
+###  <a href="http://ddbj.nig.ac.jp/ontologies/nucleotide/Division#HTC" class="external free" rel="nofollow">http://ddbj.nig.ac.jp/ontologies/nucleotide/Division#HTC</a>
+
+:Division#HTC rdf:type&nbsp;:Other_Division ,
+              owl:NamedIndividual&nbsp;;
+     
+     rdfs:label "high throughput cDNA sequences;
+The sequence submitted from cDNA sequencing projects except for EST. This 
+division is to include unfinished high throughput cDNA sequences, each of 
+which has 5'UTR and 3'UTR at both ends and part of a coding region. The 
+sequence may also include introns. When the sequence becomes finished 
+later, it moves to the corresponding taxonomic division."@en ,
+                "high throughput cDNA sequences
+EST 以外の大規模 cDNA 配列プロジェクトに由来し，更新が期待されるデータ。
+配列が finish した後，生物種による division に移される場合があります。"@ja .
+###  <a href="http://ddbj.nig.ac.jp/ontologies/nucleotide/Division#HTG" class="external free" rel="nofollow">http://ddbj.nig.ac.jp/ontologies/nucleotide/Division#HTG</a>
+
+:Division#HTG rdf:type&nbsp;:Other_Division ,
+              owl:NamedIndividual&nbsp;;
+     
+     rdfs:label "high throughput genomic sequences
+The sequence submitted mainly from genome sequencing projects which 
+regarded a clone as a sequencing unit."@en ,
+                "high throughput genomic sequences
+ゲノムプロジェクトに由来し，頻繁に update されることが期待されるデータで，段階に応じて以下の 3 phase 
+に分類されます。その配列がいずれの phase であるかは KEYWORD 行に記載されます。配列が更新されると phase が上がり，finish 
+した後は生物種による division に移されます。 
+
+
+   - phase0; piece contig が構築される以前の配列
+   - phase1; 構築された piece contig の向きや順序が未確定の配列
+   - phase2; piece contig の向きや順序が確定した unfinished の配列"@ja .
+###  <a href="http://ddbj.nig.ac.jp/ontologies/nucleotide/Division#STS" class="external free" rel="nofollow">http://ddbj.nig.ac.jp/ontologies/nucleotide/Division#STS</a>
+
+:Division#STS rdf:type&nbsp;:Other_Division ,
+              owl:NamedIndividual&nbsp;;
+     
+     rdfs:label "sequence tagged sites
+The tag site for genome sequencing. The information of chromosome, map, 
+PCR_condition is necessary for this division."@en ,
+                "sequence tagged sites
+Genome sequencing の tag となる配列。
+chromosome, map, PCR_condition 等の情報が必要です。"@ja .
+###  <a href="http://ddbj.nig.ac.jp/ontologies/nucleotide/Division#UNA" class="external free" rel="nofollow">http://ddbj.nig.ac.jp/ontologies/nucleotide/Division#UNA</a>
+
+:Division#UNA rdf:type&nbsp;:Other_Division ,
+              owl:NamedIndividual&nbsp;;
+     
+     rdfs:label "the data not annotated
+
+The UNA division is not used recently."@en ,
+                "未注釈データ
+
+最近は UNA division は使用していません。"@ja .
+###  <a href="http://ddbj.nig.ac.jp/ontologies/nucleotide/Division#CON" class="external free" rel="nofollow">http://ddbj.nig.ac.jp/ontologies/nucleotide/Division#CON</a>
+
+:Division#CON rdf:type&nbsp;:Other_Division ,
+              owl:NamedIndividual&nbsp;;
+     
+     rdfs:label "Contig / Constructed
+To conjugate a series of entries, such as those submitted from a genome 
+project, each of the three data banks constructs an entry and assign an 
+accession number to a large scale sequence dataset. Such entries are 
+classified into the CON division. The entry in the CON division has the 
+information of joined accession numbers instead of the sequence data. The 
+corresponding entries of the CON entry have been submitted to other 
+divisions."@en ,
+                "Contig / Constructed
+ゲノムプロジェクトのように個々に登録された一連の配列データをデータバンク側が結合し，１つのアクセッション番号を付与した長大なデータ。CON 
+division 
+に格納されるエントリには長大な配列を構成する配列のアクセッション番号が記載され，塩基配列は記載されません。また，すでに登録されている個々のデータのエントリは、他の 
+division に保存されています。
+CON division への直接のデータ登録は受け付けていません。まず、CON エントリを構成する個々の配列データを登録して頂きます。その上で 
+CON エントリの構築が適当と判断された場合に、データバンク側で CON エントリを構築します。CON 
+エントリを構成する個々の配列データが更新された場合には、CON エントリもバンク側で更新します。"@ja .
+</pre>
+<h2> <span class="mw-headline" id=".E5.8F.82.E8.80.83"> 参考 </span></h2>
+<ul><li> Google Spreadsheets を簡易 SQL DB に！「Google Visualization API」 <a href="http://webos-goodies.jp/archives/51310352.html" class="external free" rel="nofollow">http://webos-goodies.jp/archives/51310352.html</a>
+</li><li> スプレッドシートからJavaScriptで値を取得する(Google Visualization APIと旧スプレッドシートを使用)  <a href="http://basato.no-blog.jp/a2/2014/07/post-3.html" class="external free" rel="nofollow">http://basato.no-blog.jp/a2/2014/07/post-3.html</a>
+</li></ul>
+
+<!-- 
+NewPP limit report
+Preprocessor node count: 18/1000000
+Post-expand include size: 0/2097152 bytes
+Template argument size: 0/2097152 bytes
+Expensive parser function count: 0/100
+-->
+
+<!-- Saved in parser cache with key wikidb-togowiki_:pcache:idhash:509-0!1!0!!ja!2!edit=0 and timestamp 20230604050638 -->
+<div class="printfooter">
+「<a href="http://wiki.lifesciencedb.jp/mw/SPARQLthon25/DDBJ">http://wiki.lifesciencedb.jp/mw/SPARQLthon25/DDBJ</a>」より作成</div>
+		<div id='catlinks' class='catlinks catlinks-allhidden'></div>		<!-- end content -->
+				<div class="visualClear"></div>
+	</div>
+</div></div>
+<div id="column-one">
+	<div id="p-cactions" class="portlet">
+		<h5>表示</h5>
+		<div class="pBody">
+			<ul>
+				 <li id="ca-nstab-main" class="selected"><a href="/mw/SPARQLthon25/DDBJ" title="本文を表示 [c]" accesskey="c">ページ</a></li>
+				 <li id="ca-talk" class="new"><a href="/mw/index.php?title=%E3%83%8E%E3%83%BC%E3%83%88:SPARQLthon25/DDBJ&amp;action=edit&amp;redlink=1" title="記事についての議論 [t]" accesskey="t">議論</a></li>
+				 <li id="ca-viewsource"><a href="/mw/index.php?title=SPARQLthon25/DDBJ&amp;action=edit" title="このページは保護されています。&#10;ページのソースを閲覧できます。 [e]" accesskey="e">ソースを表示</a></li>
+				 <li id="ca-history"><a href="/mw/index.php?title=SPARQLthon25/DDBJ&amp;action=history" title="このページの過去の版 [h]" accesskey="h">履歴</a></li>
+			</ul>
+		</div>
+	</div>
+	<div class="portlet" id="p-personal">
+		<h5>個人用ツール</h5>
+		<div class="pBody">
+			<ul>
+				<li id="pt-anonuserpage"><a href="/mw/%E5%88%A9%E7%94%A8%E8%80%85:172.18.8.51" title="自分が編集しているIPアドレスの利用者ページ [.]" accesskey="." class="new">172.18.8.51</a></li>
+				<li id="pt-anontalk"><a href="/mw/%E5%88%A9%E7%94%A8%E8%80%85%E2%80%90%E4%BC%9A%E8%A9%B1:172.18.8.51" title="このIPアドレスからなされた編集についての議論 [n]" accesskey="n" class="new">このIPアドレスのトーク</a></li>
+				<li id="pt-anonlogin"><a href="/mw/index.php?title=%E7%89%B9%E5%88%A5:%E3%83%AD%E3%82%B0%E3%82%A4%E3%83%B3&amp;returnto=SPARQLthon25/DDBJ" title="ログインすることが推奨されます。ただし、必須ではありません。 [o]" accesskey="o">ログイン</a></li>
+				<li id="pt-openidlogin"><a href="/mw/index.php?title=%E7%89%B9%E5%88%A5:OpenID%E3%83%AD%E3%82%B0%E3%82%A4%E3%83%B3&amp;returnto=SPARQLthon25/DDBJ">OpenIDでログイン</a></li>
+			</ul>
+		</div>
+	</div>
+	<div class="portlet" id="p-logo">
+		<a style="background-image: url(/mw/images/togowiki-logo.png);" href="/mw/%E3%83%A1%E3%82%A4%E3%83%B3%E3%83%9A%E3%83%BC%E3%82%B8" title="メインページに移動"></a>
+	</div>
+	<script type="text/javascript"> if (window.isMSIE55) fixalpha(); </script>
+	<div class='generated-sidebar portlet' id='p-navigation'>
+		<h5>案内</h5>
+		<div class='pBody'>
+			<ul>
+				<li id="n-mainpage-description"><a href="/mw/%E3%83%A1%E3%82%A4%E3%83%B3%E3%83%9A%E3%83%BC%E3%82%B8" title="メインページに移動する [z]" accesskey="z">メインページ</a></li>
+				<li id="n-portal"><a href="/mw/TogoWiki:%E3%82%B3%E3%83%9F%E3%83%A5%E3%83%8B%E3%83%86%E3%82%A3%E3%83%BB%E3%83%9D%E3%83%BC%E3%82%BF%E3%83%AB" title="このプロジェクトについて、できること、情報を入手する場所">コミュニティ・ポータル</a></li>
+				<li id="n-currentevents"><a href="/mw/TogoWiki:%E6%9C%80%E8%BF%91%E3%81%AE%E5%87%BA%E6%9D%A5%E4%BA%8B" title="最近の出来事について予備知識を得る">最近の出来事</a></li>
+				<li id="n-recentchanges"><a href="/mw/%E7%89%B9%E5%88%A5:%E6%9C%80%E8%BF%91%E3%81%AE%E6%9B%B4%E6%96%B0" title="ウィキにおける最近の更新の一覧 [r]" accesskey="r">最近の更新</a></li>
+				<li id="n-randompage"><a href="/mw/%E7%89%B9%E5%88%A5:%E3%81%8A%E3%81%BE%E3%81%8B%E3%81%9B%E8%A1%A8%E7%A4%BA" title="無作為に抽出されたページの読み込み [x]" accesskey="x">おまかせ表示</a></li>
+				<li id="n-help"><a href="/mw/Help:%E7%9B%AE%E6%AC%A1" title="情報を得る場所">ヘルプ</a></li>
+			</ul>
+		</div>
+	</div>
+	<div id="p-search" class="portlet">
+		<h5><label for="searchInput">検索</label></h5>
+		<div id="searchBody" class="pBody">
+			<form action="/mw/index.php" id="searchform">
+				<input type='hidden' name="title" value="特別:検索"/>
+				<input id="searchInput" title="TogoWiki内を検索" accesskey="f" type="search" name="search" />
+				<input type='submit' name="go" class="searchButton" id="searchGoButton"	value="表示" title="厳密に一致する名前のページが存在すれば、そのページへ移動します" />&nbsp;
+				<input type='submit' name="fulltext" class="searchButton" id="mw-searchButton" value="検索" title="入力された文字列が含まれるページを検索します" />
+			</form>
+		</div>
+	</div>
+	<div class="portlet" id="p-tb">
+		<h5>ツールボックス</h5>
+		<div class="pBody">
+			<ul>
+				<li id="t-whatlinkshere"><a href="/mw/%E7%89%B9%E5%88%A5:%E3%83%AA%E3%83%B3%E3%82%AF%E5%85%83/SPARQLthon25/DDBJ" title="ここにリンクしている全ウィキのページの一覧 [j]" accesskey="j">リンク元</a></li>
+				<li id="t-recentchangeslinked"><a href="/mw/%E7%89%B9%E5%88%A5:%E9%96%A2%E9%80%A3%E3%83%9A%E3%83%BC%E3%82%B8%E3%81%AE%E6%9B%B4%E6%96%B0%E7%8A%B6%E6%B3%81/SPARQLthon25/DDBJ" title="このページからリンクしているページの最近の更新 [k]" accesskey="k">関連ページの更新状況</a></li>
+<li id="t-specialpages"><a href="/mw/%E7%89%B9%E5%88%A5:%E7%89%B9%E5%88%A5%E3%83%9A%E3%83%BC%E3%82%B8%E4%B8%80%E8%A6%A7" title="特別ページの一覧 [q]" accesskey="q">特別ページ</a></li>
+				<li id="t-print"><a href="/mw/index.php?title=SPARQLthon25/DDBJ&amp;printable=yes" rel="alternate" title="このページの印刷用ページ [p]" accesskey="p">印刷用バージョン</a></li>				<li id="t-permalink"><a href="/mw/index.php?title=SPARQLthon25/DDBJ&amp;oldid=14436" title="ページのこの版への固定リンク">この版への固定リンク</a></li>			</ul>
+		</div>
+	</div>
+</div><!-- end of the left (by default at least) column -->
+<div class="visualClear"></div>
+<div id="footer">
+	<div id="f-poweredbyico"><a href="http://www.mediawiki.org/"><img src="/mw/skins/common/images/poweredby_mediawiki_88x31.png" height="31" width="88" alt="Powered by MediaWiki" /></a></div>
+	<div id="f-copyrightico"><a href="http://creativecommons.org/licenses/by/3.0/"><img src="http://i.creativecommons.org/l/by/3.0/88x31.png" alt="Attribution 3.0 Unported" width="88" height="31" /></a></div>
+	<ul id="f-list">
+		<li id="lastmod"> このページの最終更新は 2014年10月28日 (火) 09:00 に行われました。</li>
+		<li id="viewcount">このページは5,653回アクセスされました。</li>
+		<li id="copyright">内容は<a href="http://creativecommons.org/licenses/by/3.0/" class="external ">Attribution 3.0 Unported</a>のライセンスで利用することができます。</li>
+		<li id="privacy"><a href="/mw/TogoWiki:%E3%83%97%E3%83%A9%E3%82%A4%E3%83%90%E3%82%B7%E3%83%BC%E3%83%BB%E3%83%9D%E3%83%AA%E3%82%B7%E3%83%BC" title="TogoWiki:プライバシー・ポリシー">プライバシー・ポリシー</a></li>
+		<li id="about"><a href="/mw/TogoWiki:TogoWiki%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6" title="TogoWiki:TogoWikiについて">TogoWikiについて</a></li>
+		<li id="disclaimer"><a href="/mw/TogoWiki:%E5%85%8D%E8%B2%AC%E4%BA%8B%E9%A0%85" title="TogoWiki:免責事項">免責事項</a></li>
+	</ul>
+</div>
+</div>
+
+<script>if (window.runOnloadHook) runOnloadHook();</script>
+<!-- Served in 0.310 secs. --></body></html>

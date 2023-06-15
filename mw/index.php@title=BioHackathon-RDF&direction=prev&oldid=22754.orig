@@ -1,0 +1,313 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html lang="ja" dir="ltr">
+<head>
+<title>BioHackathon-RDF - TogoWiki</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta name="generator" content="MediaWiki 1.16.3" />
+<meta name="robots" content="noindex,nofollow" />
+<link rel="shortcut icon" href="/favicon.ico" />
+<link rel="search" type="application/opensearchdescription+xml" href="/mw/opensearch_desc.php" title="TogoWiki (ja)" />
+<link title="Creative Commons" type="application/rdf+xml" href="/mw/index.php?title=BioHackathon-RDF&amp;action=creativecommons" rel="meta" />
+<link rel="copyright" href="http://creativecommons.org/licenses/by/3.0/" />
+<link rel="alternate" type="application/atom+xml" title="TogoWikiのAtomフィード" href="/mw/index.php?title=%E7%89%B9%E5%88%A5:%E6%9C%80%E8%BF%91%E3%81%AE%E6%9B%B4%E6%96%B0&amp;feed=atom" />
+<link rel="stylesheet" href="/mw/skins/common/shared.css?270" media="screen" />
+<link rel="stylesheet" href="/mw/skins/common/commonPrint.css?270" media="print" />
+<link rel="stylesheet" href="/mw/skins/monobook/main.css?270" media="screen" />
+<!--[if lt IE 5.5000]><link rel="stylesheet" href="/mw/skins/monobook/IE50Fixes.css?270" media="screen" /><![endif]-->
+<!--[if IE 5.5000]><link rel="stylesheet" href="/mw/skins/monobook/IE55Fixes.css?270" media="screen" /><![endif]-->
+<!--[if IE 6]><link rel="stylesheet" href="/mw/skins/monobook/IE60Fixes.css?270" media="screen" /><![endif]-->
+<!--[if IE 7]><link rel="stylesheet" href="/mw/skins/monobook/IE70Fixes.css?270" media="screen" /><![endif]-->
+<link rel="stylesheet" href="/mw/index.php?title=MediaWiki:Common.css&amp;usemsgcache=yes&amp;ctype=text%2Fcss&amp;smaxage=18000&amp;action=raw&amp;maxage=18000" />
+<link rel="stylesheet" href="/mw/index.php?title=MediaWiki:Print.css&amp;usemsgcache=yes&amp;ctype=text%2Fcss&amp;smaxage=18000&amp;action=raw&amp;maxage=18000" media="print" />
+<link rel="stylesheet" href="/mw/index.php?title=MediaWiki:Monobook.css&amp;usemsgcache=yes&amp;ctype=text%2Fcss&amp;smaxage=18000&amp;action=raw&amp;maxage=18000" />
+<link rel="stylesheet" href="/mw/index.php?title=-&amp;action=raw&amp;maxage=18000&amp;gen=css" />
+<script>
+var skin="monobook",
+stylepath="/mw/skins",
+wgUrlProtocols="http\\:\\/\\/|https\\:\\/\\/|ftp\\:\\/\\/|irc\\:\\/\\/|gopher\\:\\/\\/|telnet\\:\\/\\/|nntp\\:\\/\\/|worldwind\\:\\/\\/|mailto\\:|news\\:|svn\\:\\/\\/",
+wgArticlePath="/mw/$1",
+wgScriptPath="/mw",
+wgScriptExtension=".php",
+wgScript="/mw/index.php",
+wgVariantArticlePath=false,
+wgActionPaths={},
+wgServer="http://wiki.lifesciencedb.jp",
+wgCanonicalNamespace="",
+wgCanonicalSpecialPageName=false,
+wgNamespaceNumber=0,
+wgPageName="BioHackathon-RDF",
+wgTitle="BioHackathon-RDF",
+wgAction="view",
+wgArticleId=831,
+wgIsArticle=true,
+wgUserName=null,
+wgUserGroups=null,
+wgUserLanguage="ja",
+wgContentLanguage="ja",
+wgBreakFrames=false,
+wgCurRevisionId=22754,
+wgVersion="1.16.3",
+wgEnableAPI=true,
+wgEnableWriteAPI=true,
+wgSeparatorTransformTable=["", ""],
+wgDigitTransformTable=["", ""],
+wgMainPageTitle="メインページ",
+wgFormattedNamespaces={"-2": "メディア", "-1": "特別", "0": "", "1": "ノート", "2": "利用者", "3": "利用者‐会話", "4": "TogoWiki", "5": "TogoWiki‐ノート", "6": "ファイル", "7": "ファイル‐ノート", "8": "MediaWiki", "9": "MediaWiki‐ノート", "10": "Template", "11": "Template‐ノート", "12": "Help", "13": "Help‐ノート", "14": "Category", "15": "Category‐ノート"},
+wgNamespaceIds={"メディア": -2, "特別": -1, "": 0, "ノート": 1, "利用者": 2, "利用者‐会話": 3, "togowiki": 4, "togowiki‐ノート": 5, "ファイル": 6, "ファイル‐ノート": 7, "mediawiki": 8, "mediawiki‐ノート": 9, "template": 10, "template‐ノート": 11, "help": 12, "help‐ノート": 13, "category": 14, "category‐ノート": 15, "画像": 6, "画像‐ノート": 7, "image": 6, "image_talk": 7},
+wgSiteName="TogoWiki",
+wgCategories=[],
+wgRestrictionEdit=[],
+wgRestrictionMove=[];
+</script><script src="/mw/skins/common/wikibits.js?270"></script>
+<script src="/mw/skins/common/ajax.js?270"></script>
+<script src="/mw/index.php?title=-&amp;action=raw&amp;gen=js&amp;useskin=monobook&amp;270"></script>
+
+		<style type='text/css'>
+		li#pt-openidlogin {
+		  background: url(/mw/extensions/OpenID/skin/icons/openid-inputicon.png) top left no-repeat;
+		  padding-left: 20px;
+		  text-transform: none;
+		}
+		</style>
+</head>
+<body class="mediawiki ltr ns-0 ns-subject page-BioHackathon-RDF skin-monobook">
+<div id="globalWrapper">
+<div id="column-content"><div id="content" >
+	<a id="top"></a>
+	
+	<h1 id="firstHeading" class="firstHeading">BioHackathon-RDF</h1>
+	<div id="bodyContent">
+		<h3 id="siteSub">提供：TogoWiki</h3>
+		<div id="contentSub">
+				<div id="mw-revision-info">2017年9月23日 (土) 05:34時点における<a href="/mw/index.php?title=%E5%88%A9%E7%94%A8%E8%80%85:Ktym&amp;action=edit&amp;redlink=1" class="new mw-userlink" title="利用者:Ktym（存在しないページ）">Ktym</a>  <span class="mw-usertoollinks">(<a href="/mw/index.php?title=%E5%88%A9%E7%94%A8%E8%80%85%E2%80%90%E4%BC%9A%E8%A9%B1:Ktym&amp;action=edit&amp;redlink=1" class="new" title="利用者‐会話:Ktym（存在しないページ）">トーク</a> | <a href="/mw/%E7%89%B9%E5%88%A5:%E6%8A%95%E7%A8%BF%E8%A8%98%E9%8C%B2/Ktym" title="特別:投稿記録/Ktym">投稿記録</a>)</span>による版</div>
+
+				<div id="mw-revision-nav">(<a href="/mw/index.php?title=BioHackathon-RDF&amp;diff=prev&amp;oldid=22721" title="BioHackathon-RDF">差分</a>) <a href="/mw/index.php?title=BioHackathon-RDF&amp;direction=prev&amp;oldid=22721" title="BioHackathon-RDF">←前の版</a> | <a href="/mw/BioHackathon-RDF" title="BioHackathon-RDF">最新版</a> (<a href="/mw/index.php?title=BioHackathon-RDF&amp;diff=cur&amp;oldid=22721" title="BioHackathon-RDF">差分</a>) | <a href="/mw/index.php?title=BioHackathon-RDF&amp;direction=next&amp;oldid=22721" title="BioHackathon-RDF">次の版→</a> (<a href="/mw/index.php?title=BioHackathon-RDF&amp;diff=next&amp;oldid=22721" title="BioHackathon-RDF">差分</a>)</div>
+			</div>
+		<div id="jump-to-nav">移動： <a href="#column-one">案内</a>, <a href="#searchInput">検索</a></div>
+		<!-- start content -->
+<table id="toc" class="toc"><tr><td><div id="toctitle"><h2>目次</h2></div>
+<ul>
+<li class="toclevel-1 tocsection-1"><a href="#RDF"><span class="tocnumber">1</span> <span class="toctext">RDF</span></a></li>
+<li class="toclevel-1 tocsection-2"><a href="#SPARQL"><span class="tocnumber">2</span> <span class="toctext">SPARQL</span></a>
+<ul>
+<li class="toclevel-2 tocsection-3"><a href="#.E4.B8.80.E8.A6.A7.E8.A1.A8.E7.A4.BA"><span class="tocnumber">2.1</span> <span class="toctext">一覧表示</span></a></li>
+<li class="toclevel-2 tocsection-4"><a href="#.E7.89.B9.E5.AE.9A.E3.81.AE.E3.82.A4.E3.83.99.E3.83.B3.E3.83.88.E3.81.AB.E9.96.A2.E3.81.99.E3.82.8B.E3.82.AF.E3.82.A8.E3.83.AA"><span class="tocnumber">2.2</span> <span class="toctext">特定のイベントに関するクエリ</span></a></li>
+<li class="toclevel-2 tocsection-5"><a href="#.E5.8F.82.E5.8A.A0.E8.80.85.E3.81.AB.E9.96.A2.E3.81.99.E3.82.8B.E3.82.AF.E3.82.A8.E3.83.AA"><span class="tocnumber">2.3</span> <span class="toctext">参加者に関するクエリ</span></a></li>
+<li class="toclevel-2 tocsection-6"><a href="#.E3.81.9D.E3.81.AE.E4.BB.96.E3.81.AE.E3.82.AF.E3.82.A8.E3.83.AA"><span class="tocnumber">2.4</span> <span class="toctext">その他のクエリ</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-7"><a href="#Stanza"><span class="tocnumber">3</span> <span class="toctext">Stanza</span></a></li>
+</ul>
+</td></tr></table><script>if (window.showTocToggle) { var tocShowText = "表示"; var tocHideText = "非表示"; showTocToggle(); } </script>
+<h2> <span class="mw-headline" id="RDF"> RDF </span></h2>
+<ul><li> <a href="http://biohackathon.org/10years" class="external text" rel="nofollow">本番サイト</a> TODO: ほんとは stanza を <a href="http://db-dev.jpostdb.org/ts/stanza/" class="external free" rel="nofollow">http://db-dev.jpostdb.org/ts/stanza/</a> からこちらのサイトにコピーすべき
+</li></ul>
+<ul><li> <a href="http://biohackathon.org/sparql" class="external text" rel="nofollow">本番endpoint</a>
+</li></ul>
+<ul><li> <a href="http://ep.dbcls.jp/sparql71tmp" class="external text" rel="nofollow">test endpoint</a>
+</li></ul>
+<ul><li> <a href="http://wiki.lifesciencedb.jp/mw/images/9/9a/BH10thAnniv.pdf" class="external text" rel="nofollow">グラフ構造</a> (TripleDataProfilerの結果を加工して、GraphVizで描画したもの)
+</li></ul>
+<p><a href="http://wiki.lifesciencedb.jp/mw/images/9/9b/BHRDF2017.png.001.png" class="external text" rel="nofollow">scheme</a>
+</p>
+<h2> <span class="mw-headline" id="SPARQL"> SPARQL </span></h2>
+<h4> <span class="mw-headline" id=".E4.B8.80.E8.A6.A7.E8.A1.A8.E7.A4.BA"> 一覧表示 </span></h4>
+<ul><li> 開催地一覧 <a href="http://sparql-support.dbcls.jp/?query=PREFIX+rdfs%3A+%3Chttp%3A%2F%2Fwww.w3.org%2F2000%2F01%2Frdf-schema%23%3E%0APREFIX+time%3A+%3Chttp%3A%2F%2Fwww.w3.org%2F2006%2Ftime%23%3E%0APREFIX+vcard%3A+%3Chttp%3A%2F%2Fwww.w3.org%2F2006%2Fvcard%2Fns%23%3E%0APREFIX+event%3A+%3Chttp%3A%2F%2Fpurl.org%2FNET%2Fc4dm%2Fevent.owl%23%3E%0A%0ASELECT+%3Fyear+%3Fregion+%3Flocality+%3Fplace_label+%3Fdays+%3Fbegin_date+%3Fend_date+%3Flocation_label+%3Flongitude+%3Flatitude%0AFROM+%3Chttp%3A%2F%2Fbiohackathon.org%2F%3E%0AWHERE+%7B%0A++%3Fbh+a+event%3AEvent+%3B%0A++++++time%3Ayear+%3Fyear+%3B%0A++++++event%3Atime+%3Finterval+%3B%0A++++++event%3Aplace+%3Fplace+.%0A++%3Fplace+rdfs%3Alabel+%3Fplace_label+%3B%0A++++++vcard%3AhasGeo+%3Fgeo+%3B%0A++++++vcard%3Aaddress+%3Flocation+.%0A++%3Flocation+rdfs%3Alabel+%3Flocation_label+%3B%0A++++++vcard%3Alocality+%3Flocality+%3B%0A++++++vcard%3Aregion+%3Fregion+.%0A++%3Finterval+time%3AhasBeginning%2Ftime%3AinXSDDate+%3Fbegin_date+%3B%0A++++++++++++time%3AhasEnd%2Ftime%3AinXSDDate+%3Fend_date+.%0A++%3Fgeo+vcard%3Alongitude+%3Flongitude+%3B%0A+++++++vcard%3Alatitude+%3Flatitude+.%0A++BIND%28%28day%28%3Fend_date%29+-+day%28%3Fbegin_date%29+%2B+1%29+AS+%3Fdays%29%0A%7D+%0AORDER+BY+%3Fyear%0A%0A&amp;endpoint=http%3A%2F%2Fep.dbcls.jp%2Fsparql71tmp" class="external text" rel="nofollow">exec</a>
+</li></ul>
+<ul><li> 各回の参加者数、そのうち海外からの参加者数、計何カ国が参加したかなど <a href="http://sparql-support.dbcls.jp/?query=PREFIX+time%3A+%3Chttp%3A%2F%2Fwww.w3.org%2F2006%2Ftime%23%3E%0APREFIX+bho%3A+%3Chttp%3A%2F%2Fpurl.jp%2Fbio%2F10%2Fbh%2Fontology%23%3E%0APREFIX+vcard%3A+%3Chttp%3A%2F%2Fwww.w3.org%2F2006%2Fvcard%2Fns%23%3E%0APREFIX+event%3A+%3Chttp%3A%2F%2Fpurl.org%2FNET%2Fc4dm%2Fevent.owl%23%3E%0APREFIX+foaf%3A+%3Chttp%3A%2F%2Fxmlns.com%2Ffoaf%2F0.1%2F%3E%0A%0ASELECT+%3Fyear+%3Fregion+%3Fdays+%3Fcountries+%28COUNT%28%3Fagent%29+AS+%3Fparticipants%29+%3Fabroad+%3Fdomestic+%28%28%3Fparticipants+-+%3Fdomestic+-+%3Fabroad%29+AS+%3Fundefined%29+%3Flogo%0AFROM+%3Chttp%3A%2F%2Fbiohackathon.org%2F%3E%0AWHERE+%7B%0A++%3Fbh+a+event%3AEvent+%3B%0A++++++time%3Ayear+%3Fyear+%3B%0A++++++event%3Atime+%3Finterval+%3B%0A++++++foaf%3Adepiction+%3Flogo+%3B%0A++++++event%3Aagent+%3Fagent+%3B%0A++++++event%3Aplace%2Fvcard%3Aaddress%2Fvcard%3Aregion+%3Fregion+.%0A++%3Finterval+time%3AhasBeginning%2Ftime%3AinXSDDate+%3Fbegin_date+%3B%0A++++++++++++time%3AhasEnd%2Ftime%3AinXSDDate+%3Fend_date+.%0A++BIND%28%28day%28%3Fend_date%29+-+day%28%3Fbegin_date%29+%2B+1%29+AS+%3Fdays%29%0A++%7B%0A++++++SELECT+%3Fbh+%28COUNT%28%3Fagent%29+AS+%3Fdomestic%29%0A++++++WHERE+%7B%0A%09++%3Fbh+event%3Aagent+%3Fagent+.%0A%09++%3Fagent+bho%3Aaffiliation%2Fvcard%3Acountry-name+%3Fcountry_name+.%0A%09++FILTER%28%3Fcountry_name+%3D+%22Japan%22%29%0A++++++%7D%0A++%7D%0A++%7B%0A++++++SELECT+%3Fbh+%28COUNT%28%3Fagent%29+AS+%3Fabroad%29%0A++++++WHERE+%7B%0A%09++%3Fbh+event%3Aagent+%3Fagent+.%0A%09++%3Fagent+bho%3Aaffiliation%2Fvcard%3Acountry-name+%3Fcountry_name+.%0A%09++FILTER%28%3Fcountry_name+%21%3D+%22Japan%22+%26%26+strlen%28%3Fcountry_name%29+%3E+0%29%0A++++++%7D%0A++%7D%0A++%7B%0A++++++SELECT+%3Fbh+%28COUNT%28DISTINCT+%3Fcountry_name%29+AS+%3Fcountries%29%0A++++++WHERE+%7B%0A%09++%3Fbh+event%3Aagent%2Fbho%3Aaffiliation%2Fvcard%3Acountry-name+%3Fcountry_name+.%0A%09++FILTER%28strlen%28%3Fcountry_name%29+%3E+0%29%0A++++++%7D%0A++%7D%0A%7D+%0AORDER+BY+%3Fyear%0A%0A&amp;endpoint=http%3A%2F%2Fep.dbcls.jp%2Fsparql71tmp" class="external text" rel="nofollow">exec</a>
+</li></ul>
+<ul><li> どのような組織から参加があったか <a href="http://sparql-support.dbcls.jp/?query=PREFIX+rdfs%3A+%3Chttp%3A%2F%2Fwww.w3.org%2F2000%2F01%2Frdf-schema%23%3E%0APREFIX+time%3A+%3Chttp%3A%2F%2Fwww.w3.org%2F2006%2Ftime%23%3E%0APREFIX+bho%3A+%3Chttp%3A%2F%2Fpurl.jp%2Fbio%2F10%2Fbh%2Fontology%23%3E%0APREFIX+vcard%3A+%3Chttp%3A%2F%2Fwww.w3.org%2F2006%2Fvcard%2Fns%23%3E%0APREFIX+event%3A+%3Chttp%3A%2F%2Fpurl.org%2FNET%2Fc4dm%2Fevent.owl%23%3E%0A%0ASELECT+%3Faffiliation+%3Flabel+%3Fcountry+%3Fyears+%28COUNT%28%3Fagent%29+AS+%3Fcount%29%0AFROM+%3Chttp%3A%2F%2Fbiohackathon.org%2F%3E%0AWHERE+%7B%0A++%3Fbh+a+event%3AEvent+%3B%0A++++++event%3Aagent+%3Fagent+.%0A++%3Fagent+bho%3Aaffiliation+%3Faffiliation+.%0A++%3Faffiliation+rdfs%3Alabel+%3Flabel+%3B%0A++++++vcard%3Acountry-name+%3Fcountry+.%0A++FILTER%28lang%28%3Flabel%29+%3D+%22en%22%29%0A++%7B%0A++++++SELECT+%3Faffiliation+%28GROUP_CONCAT%28DISTINCT+%3Fyear+%3B+SEPARATOR+%3D+%22%2C%22%29+AS+%3Fyears%29%0A++++++WHERE+%7B%0A%09++%3Fevent+event%3Aagent%2Fbho%3Aaffiliation+%3Faffiliation+%3B%0A%09+++++++++time%3Ayear+%3Fyear+.%0A++++++%7D%0A++%7D%0A%7D%0AORDER+BY+%3Fcountry+%3Fyears+DESC%28%3Fcount%29+%3Fname%0A%0A&amp;endpoint=http%3A%2F%2Fep.dbcls.jp%2Fsparql71tmp" class="external text" rel="nofollow">exec</a>
+</li></ul>
+<p><br />
+</p>
+<h4> <span class="mw-headline" id=".E7.89.B9.E5.AE.9A.E3.81.AE.E3.82.A4.E3.83.99.E3.83.B3.E3.83.88.E3.81.AB.E9.96.A2.E3.81.99.E3.82.8B.E3.82.AF.E3.82.A8.E3.83.AA"> 特定のイベントに関するクエリ </span></h4>
+<ul><li> 2011年開催のBioHackathonの情報 <a href="http://sparql-support.dbcls.jp/?query=PREFIX+rdfs%3A+%3Chttp%3A%2F%2Fwww.w3.org%2F2000%2F01%2Frdf-schema%23%3E%0APREFIX+time%3A+%3Chttp%3A%2F%2Fwww.w3.org%2F2006%2Ftime%23%3E%0APREFIX+vcard%3A+%3Chttp%3A%2F%2Fwww.w3.org%2F2006%2Fvcard%2Fns%23%3E%0APREFIX+event%3A+%3Chttp%3A%2F%2Fpurl.org%2FNET%2Fc4dm%2Fevent.owl%23%3E%0A%0ASELECT+%3Flabel+%28COUNT%28%3Fagent%29+AS+%3Fnumber_of_participants%29+%3Fplace_label+%3Fbegin_date+%3Fend_date+%3Faddress_string+%3Flat+%3Flon%0AFROM+%3Chttp%3A%2F%2Fbiohackathon.org%2F%3E%0AWHERE+%7B%0A++%3Fbh+a+event%3AEvent+.%0A++%3Fbh+event%3Aagent+%3Fagent+.%0A++%3Fbh+rdfs%3Alabel+%3Flabel+.%0A++%3Fbh+time%3Ayear+2011+.%0A++%3Fbh+event%3Atime+%3Finterval+.%0A++%3Finterval+time%3AhasBeginning+%3Fbegin+.%0A++%3Fbegin+time%3AinXSDDate+%3Fbegin_date+.%0A++%3Finterval+time%3AhasEnd+%3Fend+.%0A++%3Fend+time%3AinXSDDate+%3Fend_date+.%0A++%3Fbh+event%3Aplace+%3Fplace+.%0A++%3Fplace+rdfs%3Alabel+%3Fplace_label+.%0A++%3Fplace+vcard%3Aaddress+%3Faddress+.%0A++%3Faddress+rdfs%3Alabel+%3Faddress_string+.%0A++%3Fplace+vcard%3AhasGeo+%3Fgeo+.%0A++%3Fgeo+vcard%3Alatitude+%3Flat+.%0A++%3Fgeo+vcard%3Alongitude+%3Flon+.%0A%7D+%0A&amp;endpoint=http%3A%2F%2Fep.dbcls.jp%2Fsparql71tmp" class="external text" rel="nofollow">exec</a>
+</li></ul>
+<pre>prefix rdf: &lt;<a href="http://www.w3.org/1999/02/22-rdf-syntax-ns#" class="external free" rel="nofollow">http://www.w3.org/1999/02/22-rdf-syntax-ns#</a>&gt;
+prefix owl: &lt;<a href="http://www.w3.org/2002/07/owl#" class="external free" rel="nofollow">http://www.w3.org/2002/07/owl#</a>&gt;
+prefix xsd: &lt;<a href="http://www.w3.org/2001/XMLSchema#" class="external free" rel="nofollow">http://www.w3.org/2001/XMLSchema#</a>&gt;
+prefix bh: &lt;<a href="http://purl.jp/bio/10/bh/" class="external free" rel="nofollow">http://purl.jp/bio/10/bh/</a>&gt;
+prefix bho: &lt;<a href="http://purl.jp/bio/10/bh/ontology#" class="external free" rel="nofollow">http://purl.jp/bio/10/bh/ontology#</a>&gt;
+prefix event: &lt;<a href="http://purl.org/NET/c4dm/event.owl#" class="external free" rel="nofollow">http://purl.org/NET/c4dm/event.owl#</a>&gt;
+prefix rdfs: &lt;<a href="http://www.w3.org/2000/01/rdf-schema#" class="external free" rel="nofollow">http://www.w3.org/2000/01/rdf-schema#</a>&gt;
+prefix foaf: &lt;<a href="http://xmlns.com/foaf/0.1/" class="external free" rel="nofollow">http://xmlns.com/foaf/0.1/</a>&gt;
+prefix vcard: &lt;<a href="http://www.w3.org/2006/vcard/ns#" class="external free" rel="nofollow">http://www.w3.org/2006/vcard/ns#</a>&gt;
+prefix time: &lt;<a href="http://www.w3.org/2006/time#" class="external free" rel="nofollow">http://www.w3.org/2006/time#</a>&gt;
+prefix geo: &lt;<a href="http://www.w3.org/2003/01/geo/wgs84_pos#" class="external free" rel="nofollow">http://www.w3.org/2003/01/geo/wgs84_pos#</a>&gt;
+prefix skos: &lt;<a href="http://www.w3.org/2004/02/skos/core#" class="external free" rel="nofollow">http://www.w3.org/2004/02/skos/core#</a>&gt;
+
+SELECT&nbsp;?label (COUNT(?agent) AS&nbsp;?number_of_participants)&nbsp;?place_label&nbsp;?begin_date&nbsp;?end_date&nbsp;?address_string&nbsp;?lat&nbsp;?lon
+FROM &lt;<a href="http://biohackathon.org/" class="external free" rel="nofollow">http://biohackathon.org/</a>&gt;
+WHERE {
+ &nbsp;?bh a event:Event .
+ &nbsp;?bh event:agent&nbsp;?agent .
+ &nbsp;?bh rdfs:label&nbsp;?label .
+ &nbsp;?bh time:year 2011 .
+ &nbsp;?bh event:time&nbsp;?interval .
+ &nbsp;?interval time:hasBeginning&nbsp;?begin .
+ &nbsp;?begin time:inXSDDate&nbsp;?begin_date .
+ &nbsp;?interval time:hasEnd&nbsp;?end .
+ &nbsp;?end time:inXSDDate&nbsp;?end_date .
+ &nbsp;?bh event:place&nbsp;?place .
+ &nbsp;?place rdfs:label&nbsp;?place_label .
+ &nbsp;?place vcard:address&nbsp;?address .
+ &nbsp;?address rdfs:label&nbsp;?address_string .
+ &nbsp;?place vcard:hasGeo&nbsp;?geo .
+ &nbsp;?geo vcard:latitude&nbsp;?lat .
+ &nbsp;?geo vcard:longitude&nbsp;?lon .
+} 
+</pre>
+<p><br />
+</p>
+<ul><li> 2011年の参加者一覧 (他の年に参加しているか等も含めて) <a href="http://sparql-support.dbcls.jp/?query=PREFIX+rdfs%3A+%3Chttp%3A%2F%2Fwww.w3.org%2F2000%2F01%2Frdf-schema%23%3E%0APREFIX+time%3A+%3Chttp%3A%2F%2Fwww.w3.org%2F2006%2Ftime%23%3E%0APREFIX+bho%3A+%3Chttp%3A%2F%2Fpurl.jp%2Fbio%2F10%2Fbh%2Fontology%23%3E%0APREFIX+vcard%3A+%3Chttp%3A%2F%2Fwww.w3.org%2F2006%2Fvcard%2Fns%23%3E%0APREFIX+event%3A+%3Chttp%3A%2F%2Fpurl.org%2FNET%2Fc4dm%2Fevent.owl%23%3E%0APREFIX+foaf%3A+%3Chttp%3A%2F%2Fxmlns.com%2Ffoaf%2F0.1%2F%3E%0A%0ASELECT+%3Fperson+%3Fname+%3Fcountry+%3Faffiliations+%28GROUP_CONCAT%28%3Fyear+%3B+SEPARATOR+%3D+%22%2C%22%29+AS+%3Fyears%29%0AWHERE+%7B%0A++++%7B%0A++++++++SELECT+%3Fperson+%3Fname+%3Fcountry+%28GROUP_CONCAT%28%3Faffiliation+%3B+SEPARATOR+%3D+%22%2C%22%29+AS+%3Faffiliations%29%0A++++++++FROM+%3Chttp%3A%2F%2Fbiohackathon.org%2F%3E%0A++++++++WHERE+%7B%0A++++++++++++%3Fevent+a+event%3AEvent+%3B%0A+++++++++++++++++++time%3Ayear+2011+%3B%0A+++++++++++++++++++event%3Aagent+%3Fagent+.%0A++++++++++++%3Fagent+rdfs%3AseeAlso+%3Fperson+%3B%0A%09%09+++bho%3Aaffiliation+%3Faffil+.+++%0A++++++++++++%3Fperson+foaf%3Aname+%3Fname+.%0A++++++++++++OPTIONAL+%7B%0A++++++++++++++++%3Faffil+rdfs%3Alabel+%3Faffiliation+%3B%0A%09%09+++++++vcard%3Acountry-name+%3Fcountry+.%0A++++++++++++%7D%0A%09++++FILTER%28%21bound%28%3Faffiliation%29+%7C%7C+lang%28%3Faffiliation%29+%3D+%22en%22%29%0A++++++++%7D%0A++++%7D%0A++++%3Fevent+a+event%3AEvent+%3B%0A+++++++++++time%3Ayear+%3Fyear+%3B%0A+++++++++++event%3Aagent%2Frdfs%3AseeAlso+%3Fperson+.%0A%7D%0AORDER+BY+%3Fcountry+%3Faffiliations+%3Fyears+%3Fname%0A%0A&amp;endpoint=http%3A%2F%2Fep.dbcls.jp%2Fsparql71tmp" class="external text" rel="nofollow">exec</a>
+</li></ul>
+<ul><li> 2011年の参加者の所属を集計 <a href="http://sparql-support.dbcls.jp/?query=PREFIX+rdfs%3A+%3Chttp%3A%2F%2Fwww.w3.org%2F2000%2F01%2Frdf-schema%23%3E%0APREFIX+time%3A+%3Chttp%3A%2F%2Fwww.w3.org%2F2006%2Ftime%23%3E%0APREFIX+bho%3A+%3Chttp%3A%2F%2Fpurl.jp%2Fbio%2F10%2Fbh%2Fontology%23%3E%0APREFIX+vcard%3A+%3Chttp%3A%2F%2Fwww.w3.org%2F2006%2Fvcard%2Fns%23%3E%0APREFIX+event%3A+%3Chttp%3A%2F%2Fpurl.org%2FNET%2Fc4dm%2Fevent.owl%23%3E%0A%0ASELECT+%28COUNT%28%3Fagent%29+AS+%3Fcount%29+%3Fcountry+%3Faffiliations%0A%7B%0A++++SELECT+%3Fagent+%3Fcountry+%28GROUP_CONCAT%28%3Faffiliation+%3B+SEPARATOR+%3D+%22%2C+%22%29+AS+%3Faffiliations%29%0A++++FROM+%3Chttp%3A%2F%2Fbiohackathon.org%2F%3E%0A++++WHERE+%7B%0A++++++++%3Fbh+a+event%3AEvent+%3B%0A++++++++++++time%3Ayear+2011+%3B%0A++++++++++++event%3Aagent+%3Fagent+.%0A++++++++%3Fagent+bho%3Aaffiliation+%3Faffi+.%0A++++++++OPTIONAL+%7B%0A++++++++++++%3Faffi+rdfs%3Alabel+%3Faffiliation+%3B%0A++++++++++++vcard%3Acountry-name+%3Fcountry+.%0A++++++++%7D%0A++++++++FILTER%28%21bound%28%3Faffiliation%29+%7C%7C+lang%28%3Faffiliation%29+%3D+%22en%22%29%0A++++%7D%0A%7D%0AORDER+BY+%3Fcountry+%3Faffiliations%0A%0A&amp;endpoint=http%3A%2F%2Fep.dbcls.jp%2Fsparql71tmp" class="external text" rel="nofollow">exec</a>
+</li></ul>
+<ul><li> 2011年の参加国を集計 <a href="http://sparql-support.dbcls.jp/?query=PREFIX+time%3A+%3Chttp%3A%2F%2Fwww.w3.org%2F2006%2Ftime%23%3E%0APREFIX+bho%3A+%3Chttp%3A%2F%2Fpurl.jp%2Fbio%2F10%2Fbh%2Fontology%23%3E%0APREFIX+vcard%3A+%3Chttp%3A%2F%2Fwww.w3.org%2F2006%2Fvcard%2Fns%23%3E%0APREFIX+event%3A+%3Chttp%3A%2F%2Fpurl.org%2FNET%2Fc4dm%2Fevent.owl%23%3E%0A%0ASELECT+%3Fcountry+%28COUNT%28%3Fcountry%29+AS+%3Fcount%29%0AFROM+%3Chttp%3A%2F%2Fbiohackathon.org%2F%3E%0AWHERE+%7B%0A++%3Fbh+a+event%3AEvent+%3B%0A++++++time%3Ayear+2011+%3B%0A++++++event%3Aagent+%3Fagent+.%0A++OPTIONAL+%7B%0A++++%3Fagent+bho%3Aaffiliation%2Fvcard%3Acountry-name+%3Fcountry_name+.%0A++%7D%0A++BIND%28IF%28bound%28%3Fcountry_name%29%2C+%3Fcountry_name%2C+%22-undefined-%22%29+AS+%3Fcountry%29%0A%7D%0AORDER+BY+DESC%28%3Fcount%29%0A%0A&amp;endpoint=http%3A%2F%2Fep.dbcls.jp%2Fsparql71tmp" class="external text" rel="nofollow">exec</a>
+</li></ul>
+<p><br />
+</p>
+<h4> <span class="mw-headline" id=".E5.8F.82.E5.8A.A0.E8.80.85.E3.81.AB.E9.96.A2.E3.81.99.E3.82.8B.E3.82.AF.E3.82.A8.E3.83.AA"> 参加者に関するクエリ </span></h4>
+<ul><li> 参加者一覧（参加回数順）<a href="http://sparql-support.dbcls.jp/?query=PREFIX+rdfs%3A+%3Chttp%3A%2F%2Fwww.w3.org%2F2000%2F01%2Frdf-schema%23%3E%0APREFIX+event%3A+%3Chttp%3A%2F%2Fpurl.org%2FNET%2Fc4dm%2Fevent.owl%23%3E%0APREFIX+foaf%3A+%3Chttp%3A%2F%2Fxmlns.com%2Ffoaf%2F0.1%2F%3E%0A%0ASELECT+%3Fperson+%3Fname+%28COUNT%28%3Fbh%29+AS+%3Fbh%29+%0AFROM+%3Chttp%3A%2F%2Fbiohackathon.org%2F%3E%0AWHERE+%7B%0A++%3Fbh+event%3Aagent+%3Fparticipant+.%0A++%3Fparticipant+rdfs%3AseeAlso+%3Fperson+.%0A++%3Fperson+foaf%3Aname+%3Fname+.%0A%7D+ORDER+BY+DESC+%28%3Fbh%29%0A%0A&amp;endpoint=http%3A%2F%2Fep.dbcls.jp%2Fsparql71tmp" class="external text" rel="nofollow">exec</a>
+</li></ul>
+<pre>prefix rdf: &lt;<a href="http://www.w3.org/1999/02/22-rdf-syntax-ns#" class="external free" rel="nofollow">http://www.w3.org/1999/02/22-rdf-syntax-ns#</a>&gt;
+prefix owl: &lt;<a href="http://www.w3.org/2002/07/owl#" class="external free" rel="nofollow">http://www.w3.org/2002/07/owl#</a>&gt;
+prefix xsd: &lt;<a href="http://www.w3.org/2001/XMLSchema#" class="external free" rel="nofollow">http://www.w3.org/2001/XMLSchema#</a>&gt;
+prefix bh: &lt;<a href="http://purl.jp/bio/10/bh/" class="external free" rel="nofollow">http://purl.jp/bio/10/bh/</a>&gt;
+prefix bho: &lt;<a href="http://purl.jp/bio/10/bh/ontology#" class="external free" rel="nofollow">http://purl.jp/bio/10/bh/ontology#</a>&gt;
+prefix event: &lt;<a href="http://purl.org/NET/c4dm/event.owl#" class="external free" rel="nofollow">http://purl.org/NET/c4dm/event.owl#</a>&gt;
+prefix rdfs: &lt;<a href="http://www.w3.org/2000/01/rdf-schema#" class="external free" rel="nofollow">http://www.w3.org/2000/01/rdf-schema#</a>&gt;
+prefix foaf: &lt;<a href="http://xmlns.com/foaf/0.1/" class="external free" rel="nofollow">http://xmlns.com/foaf/0.1/</a>&gt;
+prefix vcard: &lt;<a href="http://www.w3.org/2006/vcard/ns#" class="external free" rel="nofollow">http://www.w3.org/2006/vcard/ns#</a>&gt;
+prefix time: &lt;<a href="http://www.w3.org/2006/time#" class="external free" rel="nofollow">http://www.w3.org/2006/time#</a>&gt;
+prefix geo: &lt;<a href="http://www.w3.org/2003/01/geo/wgs84_pos#" class="external free" rel="nofollow">http://www.w3.org/2003/01/geo/wgs84_pos#</a>&gt;
+prefix skos: &lt;<a href="http://www.w3.org/2004/02/skos/core#" class="external free" rel="nofollow">http://www.w3.org/2004/02/skos/core#</a>&gt;
+
+SELECT&nbsp;?person&nbsp;?name (COUNT(?bh) AS&nbsp;?bh) 
+FROM &lt;<a href="http://biohackathon.org/" class="external free" rel="nofollow">http://biohackathon.org/</a>&gt;
+WHERE {
+ &nbsp;?bh event:agent&nbsp;?participant .
+ &nbsp;?participant rdfs:seeAlso&nbsp;?person .
+ &nbsp;?person foaf:name&nbsp;?name .
+} ORDER BY DESC (?bh)
+</pre>
+<p><br />
+</p>
+<ul><li> 参加者一覧 (with 国, 参加した年) <a href="http://sparql-support.dbcls.jp/?query=PREFIX+rdfs%3A+%3Chttp%3A%2F%2Fwww.w3.org%2F2000%2F01%2Frdf-schema%23%3E%0APREFIX+time%3A+%3Chttp%3A%2F%2Fwww.w3.org%2F2006%2Ftime%23%3E%0APREFIX+bho%3A+%3Chttp%3A%2F%2Fpurl.jp%2Fbio%2F10%2Fbh%2Fontology%23%3E%0APREFIX+vcard%3A+%3Chttp%3A%2F%2Fwww.w3.org%2F2006%2Fvcard%2Fns%23%3E%0APREFIX+event%3A+%3Chttp%3A%2F%2Fpurl.org%2FNET%2Fc4dm%2Fevent.owl%23%3E%0APREFIX+foaf%3A+%3Chttp%3A%2F%2Fxmlns.com%2Ffoaf%2F0.1%2F%3E%0A%0ASELECT+%3Fperson+%3Fname+%3Fcountries+%28GROUP_CONCAT%28%3Fyear+%3B+SEPARATOR+%3D+%22%2C%22%29+AS+%3Fyears%29%0AWHERE+%7B%0A++++%7B%0A++++++++SELECT+%3Fperson+%3Fname+%28GROUP_CONCAT%28DISTINCT+%3Fcountry+%3B+SEPARATOR+%3D+%22%2C%22%29+AS+%3Fcountries%29%0A++++++++FROM+%3Chttp%3A%2F%2Fbiohackathon.org%2F%3E%0A++++++++WHERE+%7B%0A++++++++++++%3Fevent+a+event%3AEvent+%3B%0A+++++++++++++++++++event%3Aagent+%3Fagent+.%0A++++++++++++%3Fagent+rdfs%3AseeAlso+%3Fperson+.%0A++++++++++++%3Fperson+foaf%3Aname+%3Fname+.%0A++++++++++++OPTIONAL+%7B%0A++++++++++++++++%3Fagent+bho%3Aaffiliation%2Fvcard%3Acountry-name+%3Fcountry_name+.%0A++++++++++++%7D%0A++++++++++++BIND%28IF%28bound%28%3Fcountry_name%29%2C+%3Fcountry_name%2C+%22undef%22%29+AS+%3Fcountry%29%0A++++++++%7D%0A++++%7D%0A++++%3Fevent+a+event%3AEvent+%3B%0A+++++++++++time%3Ayear+%3Fyear+%3B%0A+++++++++++event%3Aagent%2Frdfs%3AseeAlso+%3Fperson+.%0A%7D%0AORDER+BY+%3Fyears+%3Fcountries+%3Fname%0A%0A&amp;endpoint=http%3A%2F%2Fep.dbcls.jp%2Fsparql71tmp" class="external text" rel="nofollow">exec</a>
+</li></ul>
+<ul><li> 特定の組織からの参加履歴 (例: SIB) <a href="http://sparql-support.dbcls.jp/?query=PREFIX+rdfs%3A+%3Chttp%3A%2F%2Fwww.w3.org%2F2000%2F01%2Frdf-schema%23%3E%0APREFIX+time%3A+%3Chttp%3A%2F%2Fwww.w3.org%2F2006%2Ftime%23%3E%0APREFIX+bho%3A+%3Chttp%3A%2F%2Fpurl.jp%2Fbio%2F10%2Fbh%2Fontology%23%3E%0APREFIX+event%3A+%3Chttp%3A%2F%2Fpurl.org%2FNET%2Fc4dm%2Fevent.owl%23%3E%0APREFIX+foaf%3A+%3Chttp%3A%2F%2Fxmlns.com%2Ffoaf%2F0.1%2F%3E%0A%0ASELECT+%3Fyear+%28GROUP_CONCAT%28%3Fname+%3B+SEPARATOR%3D%22%2C+%22%29+AS+%3Fnames%29%0A%7B%0A++++SELECT+%3Fyear+%3Fname%0A++++FROM+%3Chttp%3A%2F%2Fbiohackathon.org%2F%3E%0A++++WHERE+%7B%0A%09%3Fevent+a+event%3AEvent+%3B%0A+++++++++++++++time%3Ayear+%3Fyear+%3B%0A%09+++++++event%3Aagent+%3Fagent+.%0A%09%3Fagent+bho%3Aaffiliation+%3Chttp%3A%2F%2Fpurl.jp%2Fbi0%2F10%2Fbh%2Faffiliation%2F15%3E+%3B%0A+++++++++++++++rdfs%3AseeAlso%2Ffoaf%3Aname+%3Fname+.%0A++++%7D%0A++++ORDER+BY+%3Fname%0A%7D%0AORDER+BY+%3Fyear%0A%0A&amp;endpoint=http%3A%2F%2Fep.dbcls.jp%2Fsparql71tmp" class="external text" rel="nofollow">exec</a>
+</li></ul>
+<ul><li> 特定の人の参加履歴 (例: Rutger) <a href="http://sparql-support.dbcls.jp/?query=PREFIX+rdfs%3A+%3Chttp%3A%2F%2Fwww.w3.org%2F2000%2F01%2Frdf-schema%23%3E%0APREFIX+time%3A+%3Chttp%3A%2F%2Fwww.w3.org%2F2006%2Ftime%23%3E%0APREFIX+bho%3A+%3Chttp%3A%2F%2Fpurl.jp%2Fbio%2F10%2Fbh%2Fontology%23%3E%0APREFIX+vcard%3A+%3Chttp%3A%2F%2Fwww.w3.org%2F2006%2Fvcard%2Fns%23%3E%0APREFIX+event%3A+%3Chttp%3A%2F%2Fpurl.org%2FNET%2Fc4dm%2Fevent.owl%23%3E%0APREFIX+foaf%3A+%3Chttp%3A%2F%2Fxmlns.com%2Ffoaf%2F0.1%2F%3E%0A%0ASELECT+%3Fyear+%3Fname+%3Fcounty+%3Flabel%0AFROM+%3Chttp%3A%2F%2Fbiohackathon.org%2F%3E%0AWHERE+%7B%0A++++%3Chttp%3A%2F%2Fpurl.jp%2Fbio%2F10%2Fbh%2Fperson%2F37%3E+%5Erdfs%3AseeAlso+%3Fagent+%3B%0A++++++++foaf%3Aname+%3Fname+.%0A++++%3Fbh+event%3Aagent+%3Fagent+%3B%0A++++++++time%3Ayear+%3Fyear+.%0A++++%3Fagent+bho%3Aaffiliation+%3Faffiliation+.%0A++++%3Faffiliation+vcard%3Acountry-name+%3Fcounty+%3B%0A++++++++rdfs%3Alabel+%3Flabel+.%0A%7D%0AORDER+BY+%3Fyear%0A%0A&amp;endpoint=http%3A%2F%2Fep.dbcls.jp%2Fsparql71tmp" class="external text" rel="nofollow">exec</a>
+</li></ul>
+<p><br />
+</p>
+<h4> <span class="mw-headline" id=".E3.81.9D.E3.81.AE.E4.BB.96.E3.81.AE.E3.82.AF.E3.82.A8.E3.83.AA"> その他のクエリ </span></h4>
+<ul><li> ボトル一覧 <a href="http://sparql-support.dbcls.jp/?query=PREFIX+rdfs%3A+%3Chttp%3A%2F%2Fwww.w3.org%2F2000%2F01%2Frdf-schema%23%3E%0APREFIX+skos%3A+%3Chttp%3A%2F%2Fwww.w3.org%2F2004%2F02%2Fskos%2Fcore%23%3E%0APREFIX+bho%3A+%3Chttp%3A%2F%2Fpurl.jp%2Fbio%2F10%2Fbh%2Fontology%23%3E%0APREFIX+foaf%3A+%3Chttp%3A%2F%2Fxmlns.com%2Ffoaf%2F0.1%2F%3E%0A%0ASELECT+%3Fcountry+%3Fcategory+%3Fdescription+%3Flabel+%3Fpercentage+%3Fpicture%0AFROM+%3Chttp%3A%2F%2Fbiohackathon.org%2F%3E%0AWHERE+%7B%0A++++%3Fbottle+a+bho%3ABottle+%3B%0A++++++++bho%3Abeverage_country+%3Fcountry+%3B%0A++++++++bho%3Abeverage_category+%3Fcategory+%3B%0A++++++++skos%3Adescription+%3Fdescription+%3B%0A++++++++rdfs%3Alabel+%3Flabel+%3B%0A++++++++foaf%3Adepiction+%3Fpicture+.%0A++++OPTIONAL+%7B%0A++++++++%3Fbottle+bho%3Apercentage+%3Fpercentage+.%0A++++%7D%0A%7D%0AORDER+BY+%3Fcountry+%3Fcategory+%3Flabel%0A%0A&amp;endpoint=http%3A%2F%2Fep.dbcls.jp%2Fsparql71tmp" class="external text" rel="nofollow">exec</a>
+</li></ul>
+<p><br />
+</p>
+<h2> <span class="mw-headline" id="Stanza"> Stanza </span></h2>
+<ul><li> イベント情報
+<ul><li> <a href="http://db-dev.jpostdb.org/ts/stanza/bh4/help.html" class="external free" rel="nofollow">http://db-dev.jpostdb.org/ts/stanza/bh4/help.html</a>
+</li></ul>
+</li><li> 参加者リスト + ソート
+<ul><li> <a href="http://db-dev.jpostdb.org/ts/stanza/bh2/help.html" class="external free" rel="nofollow">http://db-dev.jpostdb.org/ts/stanza/bh2/help.html</a>
+</li></ul>
+</li><li> 年ごとの参加回数stanza
+<ul><li> <a href="http://db-dev.jpostdb.org/ts/stanza/bh/help.html" class="external free" rel="nofollow">http://db-dev.jpostdb.org/ts/stanza/bh/help.html</a>
+</li></ul>
+</li><li> word cloud + アニメーション
+<ul><li> <a href="http://db-dev.jpostdb.org/ts/stanza/bh3/help.html" class="external free" rel="nofollow">http://db-dev.jpostdb.org/ts/stanza/bh3/help.html</a>
+</li></ul>
+</li></ul>
+
+<!-- 
+NewPP limit report
+Preprocessor node count: 26/1000000
+Post-expand include size: 0/2097152 bytes
+Template argument size: 0/2097152 bytes
+Expensive parser function count: 0/100
+-->
+<div class="printfooter">
+「<a href="http://wiki.lifesciencedb.jp/mw/BioHackathon-RDF">http://wiki.lifesciencedb.jp/mw/BioHackathon-RDF</a>」より作成</div>
+		<div id='catlinks' class='catlinks catlinks-allhidden'></div>		<!-- end content -->
+				<div class="visualClear"></div>
+	</div>
+</div></div>
+<div id="column-one">
+	<div id="p-cactions" class="portlet">
+		<h5>表示</h5>
+		<div class="pBody">
+			<ul>
+				 <li id="ca-nstab-main" class="selected"><a href="/mw/BioHackathon-RDF" title="本文を表示 [c]" accesskey="c">ページ</a></li>
+				 <li id="ca-talk" class="new"><a href="/mw/index.php?title=%E3%83%8E%E3%83%BC%E3%83%88:BioHackathon-RDF&amp;action=edit&amp;redlink=1" title="記事についての議論 [t]" accesskey="t">議論</a></li>
+				 <li id="ca-viewsource"><a href="/mw/index.php?title=BioHackathon-RDF&amp;action=edit&amp;oldid=22721" title="このページは保護されています。&#10;ページのソースを閲覧できます。 [e]" accesskey="e">ソースを表示</a></li>
+				 <li id="ca-history"><a href="/mw/index.php?title=BioHackathon-RDF&amp;action=history" title="このページの過去の版 [h]" accesskey="h">履歴</a></li>
+			</ul>
+		</div>
+	</div>
+	<div class="portlet" id="p-personal">
+		<h5>個人用ツール</h5>
+		<div class="pBody">
+			<ul>
+				<li id="pt-anonuserpage"><a href="/mw/%E5%88%A9%E7%94%A8%E8%80%85:172.18.8.51" title="自分が編集しているIPアドレスの利用者ページ [.]" accesskey="." class="new">172.18.8.51</a></li>
+				<li id="pt-anontalk"><a href="/mw/%E5%88%A9%E7%94%A8%E8%80%85%E2%80%90%E4%BC%9A%E8%A9%B1:172.18.8.51" title="このIPアドレスからなされた編集についての議論 [n]" accesskey="n" class="new">このIPアドレスのトーク</a></li>
+				<li id="pt-anonlogin"><a href="/mw/index.php?title=%E7%89%B9%E5%88%A5:%E3%83%AD%E3%82%B0%E3%82%A4%E3%83%B3&amp;returnto=BioHackathon-RDF&amp;returntoquery=direction%3Dprev%26oldid%3D22754" title="ログインすることが推奨されます。ただし、必須ではありません。 [o]" accesskey="o">ログイン</a></li>
+				<li id="pt-openidlogin"><a href="/mw/index.php?title=%E7%89%B9%E5%88%A5:OpenID%E3%83%AD%E3%82%B0%E3%82%A4%E3%83%B3&amp;returnto=BioHackathon-RDF">OpenIDでログイン</a></li>
+			</ul>
+		</div>
+	</div>
+	<div class="portlet" id="p-logo">
+		<a style="background-image: url(/mw/images/togowiki-logo.png);" href="/mw/%E3%83%A1%E3%82%A4%E3%83%B3%E3%83%9A%E3%83%BC%E3%82%B8" title="メインページに移動"></a>
+	</div>
+	<script type="text/javascript"> if (window.isMSIE55) fixalpha(); </script>
+	<div class='generated-sidebar portlet' id='p-navigation'>
+		<h5>案内</h5>
+		<div class='pBody'>
+			<ul>
+				<li id="n-mainpage-description"><a href="/mw/%E3%83%A1%E3%82%A4%E3%83%B3%E3%83%9A%E3%83%BC%E3%82%B8" title="メインページに移動する [z]" accesskey="z">メインページ</a></li>
+				<li id="n-portal"><a href="/mw/TogoWiki:%E3%82%B3%E3%83%9F%E3%83%A5%E3%83%8B%E3%83%86%E3%82%A3%E3%83%BB%E3%83%9D%E3%83%BC%E3%82%BF%E3%83%AB" title="このプロジェクトについて、できること、情報を入手する場所">コミュニティ・ポータル</a></li>
+				<li id="n-currentevents"><a href="/mw/TogoWiki:%E6%9C%80%E8%BF%91%E3%81%AE%E5%87%BA%E6%9D%A5%E4%BA%8B" title="最近の出来事について予備知識を得る">最近の出来事</a></li>
+				<li id="n-recentchanges"><a href="/mw/%E7%89%B9%E5%88%A5:%E6%9C%80%E8%BF%91%E3%81%AE%E6%9B%B4%E6%96%B0" title="ウィキにおける最近の更新の一覧 [r]" accesskey="r">最近の更新</a></li>
+				<li id="n-randompage"><a href="/mw/%E7%89%B9%E5%88%A5:%E3%81%8A%E3%81%BE%E3%81%8B%E3%81%9B%E8%A1%A8%E7%A4%BA" title="無作為に抽出されたページの読み込み [x]" accesskey="x">おまかせ表示</a></li>
+				<li id="n-help"><a href="/mw/Help:%E7%9B%AE%E6%AC%A1" title="情報を得る場所">ヘルプ</a></li>
+			</ul>
+		</div>
+	</div>
+	<div id="p-search" class="portlet">
+		<h5><label for="searchInput">検索</label></h5>
+		<div id="searchBody" class="pBody">
+			<form action="/mw/index.php" id="searchform">
+				<input type='hidden' name="title" value="特別:検索"/>
+				<input id="searchInput" title="TogoWiki内を検索" accesskey="f" type="search" name="search" />
+				<input type='submit' name="go" class="searchButton" id="searchGoButton"	value="表示" title="厳密に一致する名前のページが存在すれば、そのページへ移動します" />&nbsp;
+				<input type='submit' name="fulltext" class="searchButton" id="mw-searchButton" value="検索" title="入力された文字列が含まれるページを検索します" />
+			</form>
+		</div>
+	</div>
+	<div class="portlet" id="p-tb">
+		<h5>ツールボックス</h5>
+		<div class="pBody">
+			<ul>
+				<li id="t-whatlinkshere"><a href="/mw/%E7%89%B9%E5%88%A5:%E3%83%AA%E3%83%B3%E3%82%AF%E5%85%83/BioHackathon-RDF" title="ここにリンクしている全ウィキのページの一覧 [j]" accesskey="j">リンク元</a></li>
+				<li id="t-recentchangeslinked"><a href="/mw/%E7%89%B9%E5%88%A5:%E9%96%A2%E9%80%A3%E3%83%9A%E3%83%BC%E3%82%B8%E3%81%AE%E6%9B%B4%E6%96%B0%E7%8A%B6%E6%B3%81/BioHackathon-RDF" title="このページからリンクしているページの最近の更新 [k]" accesskey="k">関連ページの更新状況</a></li>
+<li id="t-specialpages"><a href="/mw/%E7%89%B9%E5%88%A5:%E7%89%B9%E5%88%A5%E3%83%9A%E3%83%BC%E3%82%B8%E4%B8%80%E8%A6%A7" title="特別ページの一覧 [q]" accesskey="q">特別ページ</a></li>
+				<li id="t-print"><a href="/mw/index.php?title=BioHackathon-RDF&amp;direction=prev&amp;oldid=22754&amp;printable=yes" rel="alternate" title="このページの印刷用ページ [p]" accesskey="p">印刷用バージョン</a></li>				<li id="t-permalink"><a href="/mw/index.php?title=BioHackathon-RDF&amp;oldid=22721" title="ページのこの版への固定リンク">この版への固定リンク</a></li>			</ul>
+		</div>
+	</div>
+</div><!-- end of the left (by default at least) column -->
+<div class="visualClear"></div>
+<div id="footer">
+	<div id="f-poweredbyico"><a href="http://www.mediawiki.org/"><img src="/mw/skins/common/images/poweredby_mediawiki_88x31.png" height="31" width="88" alt="Powered by MediaWiki" /></a></div>
+	<div id="f-copyrightico"><a href="http://creativecommons.org/licenses/by/3.0/"><img src="http://i.creativecommons.org/l/by/3.0/88x31.png" alt="Attribution 3.0 Unported" width="88" height="31" /></a></div>
+	<ul id="f-list">
+		<li id="copyright">内容は<a href="http://creativecommons.org/licenses/by/3.0/" class="external ">Attribution 3.0 Unported</a>のライセンスで利用することができます。</li>
+		<li id="privacy"><a href="/mw/TogoWiki:%E3%83%97%E3%83%A9%E3%82%A4%E3%83%90%E3%82%B7%E3%83%BC%E3%83%BB%E3%83%9D%E3%83%AA%E3%82%B7%E3%83%BC" title="TogoWiki:プライバシー・ポリシー">プライバシー・ポリシー</a></li>
+		<li id="about"><a href="/mw/TogoWiki:TogoWiki%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6" title="TogoWiki:TogoWikiについて">TogoWikiについて</a></li>
+		<li id="disclaimer"><a href="/mw/TogoWiki:%E5%85%8D%E8%B2%AC%E4%BA%8B%E9%A0%85" title="TogoWiki:免責事項">免責事項</a></li>
+	</ul>
+</div>
+</div>
+
+<script>if (window.runOnloadHook) runOnloadHook();</script>
+<!-- Served in 0.647 secs. --></body></html>

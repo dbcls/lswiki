@@ -1,0 +1,267 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html lang="ja" dir="ltr">
+<head>
+<title>SPARQLthon41/HumanGeneHistory - TogoWiki</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta name="generator" content="MediaWiki 1.16.3" />
+<meta name="robots" content="noindex,nofollow" />
+<link rel="shortcut icon" href="/favicon.ico" />
+<link rel="search" type="application/opensearchdescription+xml" href="/mw/opensearch_desc.php" title="TogoWiki (ja)" />
+<link title="Creative Commons" type="application/rdf+xml" href="/mw/index.php?title=SPARQLthon41/HumanGeneHistory&amp;action=creativecommons" rel="meta" />
+<link rel="copyright" href="http://creativecommons.org/licenses/by/3.0/" />
+<link rel="alternate" type="application/atom+xml" title="TogoWikiのAtomフィード" href="/mw/index.php?title=%E7%89%B9%E5%88%A5:%E6%9C%80%E8%BF%91%E3%81%AE%E6%9B%B4%E6%96%B0&amp;feed=atom" />
+<link rel="stylesheet" href="/mw/skins/common/diff.css?270" />
+<link rel="stylesheet" href="/mw/skins/common/shared.css?270" media="screen" />
+<link rel="stylesheet" href="/mw/skins/common/commonPrint.css?270" media="print" />
+<link rel="stylesheet" href="/mw/skins/monobook/main.css?270" media="screen" />
+<!--[if lt IE 5.5000]><link rel="stylesheet" href="/mw/skins/monobook/IE50Fixes.css?270" media="screen" /><![endif]-->
+<!--[if IE 5.5000]><link rel="stylesheet" href="/mw/skins/monobook/IE55Fixes.css?270" media="screen" /><![endif]-->
+<!--[if IE 6]><link rel="stylesheet" href="/mw/skins/monobook/IE60Fixes.css?270" media="screen" /><![endif]-->
+<!--[if IE 7]><link rel="stylesheet" href="/mw/skins/monobook/IE70Fixes.css?270" media="screen" /><![endif]-->
+<link rel="stylesheet" href="/mw/index.php?title=MediaWiki:Common.css&amp;usemsgcache=yes&amp;ctype=text%2Fcss&amp;smaxage=18000&amp;action=raw&amp;maxage=18000" />
+<link rel="stylesheet" href="/mw/index.php?title=MediaWiki:Print.css&amp;usemsgcache=yes&amp;ctype=text%2Fcss&amp;smaxage=18000&amp;action=raw&amp;maxage=18000" media="print" />
+<link rel="stylesheet" href="/mw/index.php?title=MediaWiki:Monobook.css&amp;usemsgcache=yes&amp;ctype=text%2Fcss&amp;smaxage=18000&amp;action=raw&amp;maxage=18000" />
+<link rel="stylesheet" href="/mw/index.php?title=-&amp;action=raw&amp;maxage=18000&amp;gen=css" />
+<script>
+var skin="monobook",
+stylepath="/mw/skins",
+wgUrlProtocols="http\\:\\/\\/|https\\:\\/\\/|ftp\\:\\/\\/|irc\\:\\/\\/|gopher\\:\\/\\/|telnet\\:\\/\\/|nntp\\:\\/\\/|worldwind\\:\\/\\/|mailto\\:|news\\:|svn\\:\\/\\/",
+wgArticlePath="/mw/$1",
+wgScriptPath="/mw",
+wgScriptExtension=".php",
+wgScript="/mw/index.php",
+wgVariantArticlePath=false,
+wgActionPaths={},
+wgServer="http://wiki.lifesciencedb.jp",
+wgCanonicalNamespace="",
+wgCanonicalSpecialPageName=false,
+wgNamespaceNumber=0,
+wgPageName="SPARQLthon41/HumanGeneHistory",
+wgTitle="SPARQLthon41/HumanGeneHistory",
+wgAction="view",
+wgArticleId=671,
+wgIsArticle=true,
+wgUserName=null,
+wgUserGroups=null,
+wgUserLanguage="ja",
+wgContentLanguage="ja",
+wgBreakFrames=false,
+wgCurRevisionId=22853,
+wgVersion="1.16.3",
+wgEnableAPI=true,
+wgEnableWriteAPI=true,
+wgSeparatorTransformTable=["", ""],
+wgDigitTransformTable=["", ""],
+wgMainPageTitle="メインページ",
+wgFormattedNamespaces={"-2": "メディア", "-1": "特別", "0": "", "1": "ノート", "2": "利用者", "3": "利用者‐会話", "4": "TogoWiki", "5": "TogoWiki‐ノート", "6": "ファイル", "7": "ファイル‐ノート", "8": "MediaWiki", "9": "MediaWiki‐ノート", "10": "Template", "11": "Template‐ノート", "12": "Help", "13": "Help‐ノート", "14": "Category", "15": "Category‐ノート"},
+wgNamespaceIds={"メディア": -2, "特別": -1, "": 0, "ノート": 1, "利用者": 2, "利用者‐会話": 3, "togowiki": 4, "togowiki‐ノート": 5, "ファイル": 6, "ファイル‐ノート": 7, "mediawiki": 8, "mediawiki‐ノート": 9, "template": 10, "template‐ノート": 11, "help": 12, "help‐ノート": 13, "category": 14, "category‐ノート": 15, "画像": 6, "画像‐ノート": 7, "image": 6, "image_talk": 7},
+wgSiteName="TogoWiki",
+wgCategories=[],
+wgRestrictionEdit=[],
+wgRestrictionMove=[];
+</script><script src="/mw/skins/common/wikibits.js?270"></script>
+<script type="text/javascript" src="/mw/skins/common/diff.js?270"></script>
+<script src="/mw/skins/common/ajax.js?270"></script>
+<script src="/mw/index.php?title=-&amp;action=raw&amp;gen=js&amp;useskin=monobook&amp;270"></script>
+
+		<style type='text/css'>
+		li#pt-openidlogin {
+		  background: url(/mw/extensions/OpenID/skin/icons/openid-inputicon.png) top left no-repeat;
+		  padding-left: 20px;
+		  text-transform: none;
+		}
+		</style>
+</head>
+<body class="mediawiki ltr ns-0 ns-subject page-SPARQLthon41_HumanGeneHistory skin-monobook">
+<div id="globalWrapper">
+<div id="column-content"><div id="content" >
+	<a id="top"></a>
+	
+	<h1 id="firstHeading" class="firstHeading">SPARQLthon41/HumanGeneHistory</h1>
+	<div id="bodyContent">
+		<h3 id="siteSub">提供：TogoWiki</h3>
+		<div id="contentSub">（版間での差分）</div>
+		<div id="jump-to-nav">移動： <a href="#column-one">案内</a>, <a href="#searchInput">検索</a></div>
+		<!-- start content -->
+<table class='diff'>
+			<col class='diff-marker' />
+			<col class='diff-content' />
+			<col class='diff-marker' />
+			<col class='diff-content' />
+		<tr valign='top'>
+		<td colspan='2' class='diff-otitle'><div id="mw-diff-otitle1"><strong><a href='/mw/index.php?title=SPARQLthon41/HumanGeneHistory&amp;oldid=19751'>2016年2月19日 (金) 03:48時点における版</a> (<a href='/mw/index.php?title=SPARQLthon41/HumanGeneHistory&amp;action=edit&amp;oldid=19751'>ソースを表示</a>)</strong></div><div id="mw-diff-otitle2"><a href="/mw/index.php?title=%E5%88%A9%E7%94%A8%E8%80%85:Chi&amp;action=edit&amp;redlink=1" class="new mw-userlink" title="利用者:Chi（存在しないページ）">Chi</a>  <span class="mw-usertoollinks">(<a href="/mw/index.php?title=%E5%88%A9%E7%94%A8%E8%80%85%E2%80%90%E4%BC%9A%E8%A9%B1:Chi&amp;action=edit&amp;redlink=1" class="new" title="利用者‐会話:Chi（存在しないページ）">トーク</a> | <a href="/mw/%E7%89%B9%E5%88%A5:%E6%8A%95%E7%A8%BF%E8%A8%98%E9%8C%B2/Chi" title="特別:投稿記録/Chi">投稿記録</a>)</span></div><div id="mw-diff-otitle3"> <span class="comment">(<span class="autocomment"><a href="#RDF">→</a>RDF</span>)</span></div><div id="mw-diff-otitle4"><a href="/mw/index.php?title=SPARQLthon41/HumanGeneHistory&amp;diff=prev&amp;oldid=19751" title="SPARQLthon41/HumanGeneHistory" id="differences-prevlink">←古い編集</a></div></td>
+		<td colspan='2' class='diff-ntitle'><div id="mw-diff-ntitle1"><strong><a href='/mw/index.php?title=SPARQLthon41/HumanGeneHistory&amp;oldid=22853'>2017年10月23日 (月) 07:00時点における最新版</a> (<a href='/mw/index.php?title=SPARQLthon41/HumanGeneHistory&amp;action=edit'>ソースを表示</a>)</strong></div><div id="mw-diff-ntitle2"><a href="/mw/index.php?title=%E5%88%A9%E7%94%A8%E8%80%85:Chi&amp;action=edit&amp;redlink=1" class="new mw-userlink" title="利用者:Chi（存在しないページ）">Chi</a>  <span class="mw-usertoollinks">(<a href="/mw/index.php?title=%E5%88%A9%E7%94%A8%E8%80%85%E2%80%90%E4%BC%9A%E8%A9%B1:Chi&amp;action=edit&amp;redlink=1" class="new" title="利用者‐会話:Chi（存在しないページ）">トーク</a> | <a href="/mw/%E7%89%B9%E5%88%A5:%E6%8A%95%E7%A8%BF%E8%A8%98%E9%8C%B2/Chi" title="特別:投稿記録/Chi">投稿記録</a>)</span> </div><div id="mw-diff-ntitle3"> <span class="comment">(<span class="autocomment"><a href="#Discussion">→</a>Discussion</span>)</span></div><div id="mw-diff-ntitle4">&nbsp;</div></td>
+		</tr><tr><td colspan="2" class="diff-lineno">30行：</td>
+<td colspan="2" class="diff-lineno">30行：</td></tr>
+<tr><td class='diff-marker'> </td><td class='diff-context'><div>** SWEET (Semantic&nbsp; Web for Earth and Environmental Terminology) というのがある [https://sweet.jpl.nasa.gov]</div></td><td class='diff-marker'> </td><td class='diff-context'><div>** SWEET (Semantic&nbsp; Web for Earth and Environmental Terminology) というのがある [https://sweet.jpl.nasa.gov]</div></td></tr>
+<tr><td class='diff-marker'> </td><td class='diff-context'><div>** 各年代の特徴をvisualに表現できるか</div></td><td class='diff-marker'> </td><td class='diff-context'><div>** 各年代の特徴をvisualに表現できるか</div></td></tr>
+<tr><td colspan="2">&nbsp;</td><td class='diff-marker'>+</td><td class='diff-addedline'><div><ins class="diffchange">**「生命と地球の共進化」</ins></div></td></tr>
+<tr><td class='diff-marker'> </td><td class='diff-context'></td><td class='diff-marker'> </td><td class='diff-context'></td></tr>
+<tr><td class='diff-marker'> </td><td class='diff-context'><div>== Todo ==</div></td><td class='diff-marker'> </td><td class='diff-context'><div>== Todo ==</div></td></tr>
+</table><hr /><h2>2017年10月23日 (月) 07:00時点における最新版</h2>
+<table id="toc" class="toc"><tr><td><div id="toctitle"><h2>目次</h2></div>
+<ul>
+<li class="toclevel-1 tocsection-1"><a href="#Human_gene_history_.E3.81.AERDF.E5.8C.96"><span class="tocnumber">1</span> <span class="toctext">Human gene history のRDF化</span></a>
+<ul>
+<li class="toclevel-2 tocsection-2"><a href="#Data_source"><span class="tocnumber">1.1</span> <span class="toctext">Data source</span></a></li>
+<li class="toclevel-2 tocsection-3"><a href="#RDF"><span class="tocnumber">1.2</span> <span class="toctext">RDF</span></a></li>
+<li class="toclevel-2 tocsection-4"><a href="#SPARQL"><span class="tocnumber">1.3</span> <span class="toctext">SPARQL</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-5"><a href="#Discussion"><span class="tocnumber">2</span> <span class="toctext">Discussion</span></a></li>
+<li class="toclevel-1 tocsection-6"><a href="#Todo"><span class="tocnumber">3</span> <span class="toctext">Todo</span></a></li>
+<li class="toclevel-1 tocsection-7"><a href="#.E9.9B.91.E8.A8.98.E5.B8.B3"><span class="tocnumber">4</span> <span class="toctext">雑記帳</span></a></li>
+</ul>
+</td></tr></table><script>if (window.showTocToggle) { var tocShowText = "表示"; var tocHideText = "非表示"; showTocToggle(); } </script>
+<h2> <span class="mw-headline" id="Human_gene_history_.E3.81.AERDF.E5.8C.96"> Human gene history のRDF化 </span></h2>
+<h4> <span class="mw-headline" id="Data_source"> Data source </span></h4>
+<ul><li> <a href="http://web.stanford.edu/group/meyerlab/hOPMAPServer/index.html" class="external text" rel="nofollow">hOP server</a> から、ヒト中心のオーソログ情報をダウンロード
+</li></ul>
+<ul><li> 比較されている生物種について、<a href="http://www.timetree.org" class="external text" rel="nofollow">TimeTree</a>でヒトとの分岐年代を調べた：<a href="https://docs.google.com/spreadsheets/d/1PDNPIPw_kZKYfRn_U1kUQ6m2aYoaA9CrnRKaKY-CSGc/edit#gid=0" class="external text" rel="nofollow">summary</a>
+</li></ul>
+<h4> <span class="mw-headline" id="RDF"> RDF </span></h4>
+<p><a href="http://purl.org/net/orthordf/archive/hop.ttl" class="external free" rel="nofollow">http://purl.org/net/orthordf/archive/hop.ttl</a> (1,906,198 トリプル) <a href="http://mbgd.genome.ad.jp/sparql/archive/hop.pdf" class="external text" rel="nofollow">グラフ構造</a>
+</p>
+<h4> <span class="mw-headline" id="SPARQL"> SPARQL </span></h4>
+<p><a href="http://mbgd.genome.ad.jp/sparql/example.php?category=human_gene_ancestor" class="external text" rel="nofollow">テストクエリ</a>
+</p>
+<h2> <span class="mw-headline" id="Discussion"> Discussion </span></h2>
+<ul><li> GOタームから検索を開始するなど
+<ul><li> こういう酵素群は、いつぐらいにぱらぱら出てきた、とか分かるかな
+</li><li> GOカテゴリに含まれる複数の遺伝子を見てみたらどうなるか
+</li></ul>
+</li></ul>
+<ul><li> ある遺伝子をクエリにすると、その遺伝子が過去にduplicationを経験した時間の系列が得られる（gene duplication times: GDTとよぶことにしよう）
+<ul><li> GDTの同じ遺伝子には、何か共通するものがあるのでは？
+</li><li> GDTを用いた解析をすると、遺伝子のある/なしに基づく phylogenetic profile analysis とは違うものが見えてくるのでは
+<ul><li> 今までは、違うと扱っていたものを、同じと扱うことになる
+</li><li> これまで似ていると認識できなかったもの同士を、似ていると認識することができる可能性があるのでは
+</li><li> ゲノム上の近い場所にあるものが、似た系列を示したりするか
+</li></ul>
+</li><li> 関連文献：The Temporal Distribution of Gene Duplication Events in a Set of Highly Conserved Human Gene Families (2003) <a href="https://mbe.oxfordjournals.org/content/20/1/154.full" class="external autonumber" rel="nofollow">[1]</a>
+</li></ul>
+</li></ul>
+<ul><li> 地質年代につなげる
+<ul><li> 地質的なイベントと関連付けられるか：地殻の変動、大気の組成、海水の組成、etc.？
+</li><li> SWEET (Semantic  Web for Earth and Environmental Terminology) というのがある <a href="https://sweet.jpl.nasa.gov" class="external autonumber" rel="nofollow">[2]</a>
+</li><li> 各年代の特徴をvisualに表現できるか
+</li><li>「生命と地球の共進化」
+</li></ul>
+</li></ul>
+<h2> <span class="mw-headline" id="Todo"> Todo </span></h2>
+<ul><li> NCBI gene ID から GO ID につなげる RDF はある？
+</li><li> NCBI taxonomy treeで、対象生物種の分岐がどうなっているか確認しておきたい
+</li><li> ネームスペースを修正するか
+</li></ul>
+<pre>
+http://purl.org/net/orthordf/resource/hOP/
+</pre>
+<ul><li> TimeTreeの網羅的利用
+</li></ul>
+<h2> <span class="mw-headline" id=".E9.9B.91.E8.A8.98.E5.B8.B3"> 雑記帳 </span></h2>
+<pre>
+
+Estimating metazoan divergence times with a molecular clock
+
+http://www.pnas.org/content/101/17/6536.full
+
+—
+Broad phylogenomic sampling improves resolution of the animal tree of life
+
+http://www.nature.com/nature/journal/v452/n7188/abs/nature06614.html
+
+進化：有櫛動物のゲノムと神経系の進化的起源
+
+http://www.nature.com/nature/journal/v510/n7503/abs/nature13400.html
+
+—
+Sea Anemone Genome Reveals Ancestral Eumetazoan Gene Repertoire and Genomic Organization
+
+http://www.sciencemag.org/content/317/5834/86.short
+
+</pre>
+<div class="printfooter">
+「<a href="http://wiki.lifesciencedb.jp/mw/SPARQLthon41/HumanGeneHistory">http://wiki.lifesciencedb.jp/mw/SPARQLthon41/HumanGeneHistory</a>」より作成</div>
+		<div id='catlinks' class='catlinks catlinks-allhidden'></div>		<!-- end content -->
+				<div class="visualClear"></div>
+	</div>
+</div></div>
+<div id="column-one">
+	<div id="p-cactions" class="portlet">
+		<h5>表示</h5>
+		<div class="pBody">
+			<ul>
+				 <li id="ca-nstab-main" class="selected"><a href="/mw/SPARQLthon41/HumanGeneHistory" title="本文を表示 [c]" accesskey="c">ページ</a></li>
+				 <li id="ca-talk" class="new"><a href="/mw/index.php?title=%E3%83%8E%E3%83%BC%E3%83%88:SPARQLthon41/HumanGeneHistory&amp;action=edit&amp;redlink=1" title="記事についての議論 [t]" accesskey="t">議論</a></li>
+				 <li id="ca-viewsource"><a href="/mw/index.php?title=SPARQLthon41/HumanGeneHistory&amp;action=edit&amp;oldid=22853" title="このページは保護されています。&#10;ページのソースを閲覧できます。 [e]" accesskey="e">ソースを表示</a></li>
+				 <li id="ca-history"><a href="/mw/index.php?title=SPARQLthon41/HumanGeneHistory&amp;action=history" title="このページの過去の版 [h]" accesskey="h">履歴</a></li>
+			</ul>
+		</div>
+	</div>
+	<div class="portlet" id="p-personal">
+		<h5>個人用ツール</h5>
+		<div class="pBody">
+			<ul>
+				<li id="pt-anonuserpage"><a href="/mw/%E5%88%A9%E7%94%A8%E8%80%85:172.18.8.51" title="自分が編集しているIPアドレスの利用者ページ [.]" accesskey="." class="new">172.18.8.51</a></li>
+				<li id="pt-anontalk"><a href="/mw/%E5%88%A9%E7%94%A8%E8%80%85%E2%80%90%E4%BC%9A%E8%A9%B1:172.18.8.51" title="このIPアドレスからなされた編集についての議論 [n]" accesskey="n" class="new">このIPアドレスのトーク</a></li>
+				<li id="pt-anonlogin"><a href="/mw/index.php?title=%E7%89%B9%E5%88%A5:%E3%83%AD%E3%82%B0%E3%82%A4%E3%83%B3&amp;returnto=SPARQLthon41/HumanGeneHistory&amp;returntoquery=diff%3Dprev%26oldid%3D22853" title="ログインすることが推奨されます。ただし、必須ではありません。 [o]" accesskey="o">ログイン</a></li>
+				<li id="pt-openidlogin"><a href="/mw/index.php?title=%E7%89%B9%E5%88%A5:OpenID%E3%83%AD%E3%82%B0%E3%82%A4%E3%83%B3&amp;returnto=SPARQLthon41/HumanGeneHistory">OpenIDでログイン</a></li>
+			</ul>
+		</div>
+	</div>
+	<div class="portlet" id="p-logo">
+		<a style="background-image: url(/mw/images/togowiki-logo.png);" href="/mw/%E3%83%A1%E3%82%A4%E3%83%B3%E3%83%9A%E3%83%BC%E3%82%B8" title="メインページに移動"></a>
+	</div>
+	<script type="text/javascript"> if (window.isMSIE55) fixalpha(); </script>
+	<div class='generated-sidebar portlet' id='p-navigation'>
+		<h5>案内</h5>
+		<div class='pBody'>
+			<ul>
+				<li id="n-mainpage-description"><a href="/mw/%E3%83%A1%E3%82%A4%E3%83%B3%E3%83%9A%E3%83%BC%E3%82%B8" title="メインページに移動する [z]" accesskey="z">メインページ</a></li>
+				<li id="n-portal"><a href="/mw/TogoWiki:%E3%82%B3%E3%83%9F%E3%83%A5%E3%83%8B%E3%83%86%E3%82%A3%E3%83%BB%E3%83%9D%E3%83%BC%E3%82%BF%E3%83%AB" title="このプロジェクトについて、できること、情報を入手する場所">コミュニティ・ポータル</a></li>
+				<li id="n-currentevents"><a href="/mw/TogoWiki:%E6%9C%80%E8%BF%91%E3%81%AE%E5%87%BA%E6%9D%A5%E4%BA%8B" title="最近の出来事について予備知識を得る">最近の出来事</a></li>
+				<li id="n-recentchanges"><a href="/mw/%E7%89%B9%E5%88%A5:%E6%9C%80%E8%BF%91%E3%81%AE%E6%9B%B4%E6%96%B0" title="ウィキにおける最近の更新の一覧 [r]" accesskey="r">最近の更新</a></li>
+				<li id="n-randompage"><a href="/mw/%E7%89%B9%E5%88%A5:%E3%81%8A%E3%81%BE%E3%81%8B%E3%81%9B%E8%A1%A8%E7%A4%BA" title="無作為に抽出されたページの読み込み [x]" accesskey="x">おまかせ表示</a></li>
+				<li id="n-help"><a href="/mw/Help:%E7%9B%AE%E6%AC%A1" title="情報を得る場所">ヘルプ</a></li>
+			</ul>
+		</div>
+	</div>
+	<div id="p-search" class="portlet">
+		<h5><label for="searchInput">検索</label></h5>
+		<div id="searchBody" class="pBody">
+			<form action="/mw/index.php" id="searchform">
+				<input type='hidden' name="title" value="特別:検索"/>
+				<input id="searchInput" title="TogoWiki内を検索" accesskey="f" type="search" name="search" />
+				<input type='submit' name="go" class="searchButton" id="searchGoButton"	value="表示" title="厳密に一致する名前のページが存在すれば、そのページへ移動します" />&nbsp;
+				<input type='submit' name="fulltext" class="searchButton" id="mw-searchButton" value="検索" title="入力された文字列が含まれるページを検索します" />
+			</form>
+		</div>
+	</div>
+	<div class="portlet" id="p-tb">
+		<h5>ツールボックス</h5>
+		<div class="pBody">
+			<ul>
+				<li id="t-whatlinkshere"><a href="/mw/%E7%89%B9%E5%88%A5:%E3%83%AA%E3%83%B3%E3%82%AF%E5%85%83/SPARQLthon41/HumanGeneHistory" title="ここにリンクしている全ウィキのページの一覧 [j]" accesskey="j">リンク元</a></li>
+				<li id="t-recentchangeslinked"><a href="/mw/%E7%89%B9%E5%88%A5:%E9%96%A2%E9%80%A3%E3%83%9A%E3%83%BC%E3%82%B8%E3%81%AE%E6%9B%B4%E6%96%B0%E7%8A%B6%E6%B3%81/SPARQLthon41/HumanGeneHistory" title="このページからリンクしているページの最近の更新 [k]" accesskey="k">関連ページの更新状況</a></li>
+<li id="t-specialpages"><a href="/mw/%E7%89%B9%E5%88%A5:%E7%89%B9%E5%88%A5%E3%83%9A%E3%83%BC%E3%82%B8%E4%B8%80%E8%A6%A7" title="特別ページの一覧 [q]" accesskey="q">特別ページ</a></li>
+				<li id="t-print"><a href="/mw/index.php?title=SPARQLthon41/HumanGeneHistory&amp;diff=prev&amp;oldid=22853&amp;printable=yes" rel="alternate" title="このページの印刷用ページ [p]" accesskey="p">印刷用バージョン</a></li>				<li id="t-permalink"><a href="/mw/index.php?title=SPARQLthon41/HumanGeneHistory&amp;oldid=22853" title="ページのこの版への固定リンク">この版への固定リンク</a></li>			</ul>
+		</div>
+	</div>
+</div><!-- end of the left (by default at least) column -->
+<div class="visualClear"></div>
+<div id="footer">
+	<div id="f-poweredbyico"><a href="http://www.mediawiki.org/"><img src="/mw/skins/common/images/poweredby_mediawiki_88x31.png" height="31" width="88" alt="Powered by MediaWiki" /></a></div>
+	<div id="f-copyrightico"><a href="http://creativecommons.org/licenses/by/3.0/"><img src="http://i.creativecommons.org/l/by/3.0/88x31.png" alt="Attribution 3.0 Unported" width="88" height="31" /></a></div>
+	<ul id="f-list">
+		<li id="lastmod"> このページの最終更新は 2017年10月23日 (月) 07:00 に行われました。</li>
+		<li id="viewcount">このページは18,890回アクセスされました。</li>
+		<li id="copyright">内容は<a href="http://creativecommons.org/licenses/by/3.0/" class="external ">Attribution 3.0 Unported</a>のライセンスで利用することができます。</li>
+		<li id="privacy"><a href="/mw/TogoWiki:%E3%83%97%E3%83%A9%E3%82%A4%E3%83%90%E3%82%B7%E3%83%BC%E3%83%BB%E3%83%9D%E3%83%AA%E3%82%B7%E3%83%BC" title="TogoWiki:プライバシー・ポリシー">プライバシー・ポリシー</a></li>
+		<li id="about"><a href="/mw/TogoWiki:TogoWiki%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6" title="TogoWiki:TogoWikiについて">TogoWikiについて</a></li>
+		<li id="disclaimer"><a href="/mw/TogoWiki:%E5%85%8D%E8%B2%AC%E4%BA%8B%E9%A0%85" title="TogoWiki:免責事項">免責事項</a></li>
+	</ul>
+</div>
+</div>
+
+<script>if (window.runOnloadHook) runOnloadHook();</script>
+<!-- Served in 0.571 secs. --></body></html>

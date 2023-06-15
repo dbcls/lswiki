@@ -1,0 +1,450 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html lang="ja" dir="ltr">
+<head>
+<title>BH11.11/ヒト・環境メタゲノムメタデータのオントロジー整備とRDF化/ontology mapping manual - TogoWiki</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta name="generator" content="MediaWiki 1.16.3" />
+<meta name="robots" content="noindex,nofollow" />
+<link rel="shortcut icon" href="http://wiki.lifesciencedb.jp/favicon.ico" />
+<link rel="search" type="application/opensearchdescription+xml" href="http://wiki.lifesciencedb.jp/mw/opensearch_desc.php" title="TogoWiki (ja)" />
+<link title="Creative Commons" type="application/rdf+xml" href="index.php@title=BH11.11%252Fヒト・環境メタゲノムメタデータのオントロジー整備とRDF化%252Fontology_mapping_manual&amp;action=creativecommons" rel="meta" />
+<link rel="copyright" href="http://creativecommons.org/licenses/by/3.0/" />
+<link rel="alternate" type="application/atom+xml" title="TogoWikiのAtomフィード" href="http://wiki.lifesciencedb.jp/mw/index.php?title=%E7%89%B9%E5%88%A5:%E6%9C%80%E8%BF%91%E3%81%AE%E6%9B%B4%E6%96%B0&amp;feed=atom" />
+<link rel="stylesheet" href="http://wiki.lifesciencedb.jp/mw/skins/common/shared.css?270" media="screen" />
+<link rel="stylesheet" href="http://wiki.lifesciencedb.jp/mw/skins/common/commonPrint.css?270" media="print" />
+<link rel="stylesheet" href="http://wiki.lifesciencedb.jp/mw/skins/monobook/main.css?270" media="screen" />
+<!--[if lt IE 5.5000]><link rel="stylesheet" href="/mw/skins/monobook/IE50Fixes.css?270" media="screen" /><![endif]-->
+<!--[if IE 5.5000]><link rel="stylesheet" href="/mw/skins/monobook/IE55Fixes.css?270" media="screen" /><![endif]-->
+<!--[if IE 6]><link rel="stylesheet" href="/mw/skins/monobook/IE60Fixes.css?270" media="screen" /><![endif]-->
+<!--[if IE 7]><link rel="stylesheet" href="/mw/skins/monobook/IE70Fixes.css?270" media="screen" /><![endif]-->
+<link rel="stylesheet" href="http://wiki.lifesciencedb.jp/mw/index.php?title=MediaWiki:Common.css&amp;usemsgcache=yes&amp;ctype=text%2Fcss&amp;smaxage=18000&amp;action=raw&amp;maxage=18000" />
+<link rel="stylesheet" href="http://wiki.lifesciencedb.jp/mw/index.php?title=MediaWiki:Print.css&amp;usemsgcache=yes&amp;ctype=text%2Fcss&amp;smaxage=18000&amp;action=raw&amp;maxage=18000" media="print" />
+<link rel="stylesheet" href="http://wiki.lifesciencedb.jp/mw/index.php?title=MediaWiki:Monobook.css&amp;usemsgcache=yes&amp;ctype=text%2Fcss&amp;smaxage=18000&amp;action=raw&amp;maxage=18000" />
+<link rel="stylesheet" href="http://wiki.lifesciencedb.jp/mw/index.php?title=-&amp;action=raw&amp;maxage=18000&amp;gen=css" />
+<script>
+var skin="monobook",
+stylepath="/mw/skins",
+wgUrlProtocols="http\\:\\/\\/|https\\:\\/\\/|ftp\\:\\/\\/|irc\\:\\/\\/|gopher\\:\\/\\/|telnet\\:\\/\\/|nntp\\:\\/\\/|worldwind\\:\\/\\/|mailto\\:|news\\:|svn\\:\\/\\/",
+wgArticlePath="/mw/$1",
+wgScriptPath="/mw",
+wgScriptExtension=".php",
+wgScript="/mw/index.php",
+wgVariantArticlePath=false,
+wgActionPaths={},
+wgServer="http://wiki.lifesciencedb.jp",
+wgCanonicalNamespace="",
+wgCanonicalSpecialPageName=false,
+wgNamespaceNumber=0,
+wgPageName="BH11.11/ヒト・環境メタゲノムメタデータのオントロジー整備とRDF化/ontology_mapping_manual",
+wgTitle="BH11.11/ヒト・環境メタゲノムメタデータのオントロジー整備とRDF化/ontology mapping manual",
+wgAction="view",
+wgArticleId=96,
+wgIsArticle=true,
+wgUserName=null,
+wgUserGroups=null,
+wgUserLanguage="ja",
+wgContentLanguage="ja",
+wgBreakFrames=false,
+wgCurRevisionId=1811,
+wgVersion="1.16.3",
+wgEnableAPI=true,
+wgEnableWriteAPI=true,
+wgSeparatorTransformTable=["", ""],
+wgDigitTransformTable=["", ""],
+wgMainPageTitle="メインページ",
+wgFormattedNamespaces={"-2": "メディア", "-1": "特別", "0": "", "1": "ノート", "2": "利用者", "3": "利用者‐会話", "4": "TogoWiki", "5": "TogoWiki‐ノート", "6": "ファイル", "7": "ファイル‐ノート", "8": "MediaWiki", "9": "MediaWiki‐ノート", "10": "Template", "11": "Template‐ノート", "12": "Help", "13": "Help‐ノート", "14": "Category", "15": "Category‐ノート"},
+wgNamespaceIds={"メディア": -2, "特別": -1, "": 0, "ノート": 1, "利用者": 2, "利用者‐会話": 3, "togowiki": 4, "togowiki‐ノート": 5, "ファイル": 6, "ファイル‐ノート": 7, "mediawiki": 8, "mediawiki‐ノート": 9, "template": 10, "template‐ノート": 11, "help": 12, "help‐ノート": 13, "category": 14, "category‐ノート": 15, "画像": 6, "画像‐ノート": 7, "image": 6, "image_talk": 7},
+wgSiteName="TogoWiki",
+wgCategories=[],
+wgRestrictionEdit=[],
+wgRestrictionMove=[];
+</script><script src="http://wiki.lifesciencedb.jp/mw/skins/common/wikibits.js?270"></script>
+<script src="http://wiki.lifesciencedb.jp/mw/skins/common/ajax.js?270"></script>
+<script src="http://wiki.lifesciencedb.jp/mw/index.php?title=-&amp;action=raw&amp;gen=js&amp;useskin=monobook&amp;270"></script>
+
+		<style type='text/css'>
+		li#pt-openidlogin {
+		  background: url(http://wiki.lifesciencedb.jp/mw/extensions/OpenID/skin/icons/openid-inputicon.png) top left no-repeat;
+		  padding-left: 20px;
+		  text-transform: none;
+		}
+		</style>
+</head>
+<body class="mediawiki ltr ns-0 ns-subject page-BH11_11_ヒト・環境メタゲノムメタデータのオントロジー整備とRDF化_ontology_mapping_manual skin-monobook">
+<div id="globalWrapper">
+<div id="column-content"><div id="content" >
+	<a id="top"></a>
+	
+	<h1 id="firstHeading" class="firstHeading">BH11.11/ヒト・環境メタゲノムメタデータのオントロジー整備とRDF化/ontology mapping manual</h1>
+	<div id="bodyContent">
+		<h3 id="siteSub">提供：TogoWiki</h3>
+		<div id="contentSub">
+				<div id="mw-revision-info">2011年11月25日 (金) 05:02時点における<a href="http://wiki.lifesciencedb.jp/mw/index.php?title=%E5%88%A9%E7%94%A8%E8%80%85:Synobu&amp;action=edit&amp;redlink=1" class="new mw-userlink" title="利用者:Synobu（存在しないページ）">Synobu</a>  <span class="mw-usertoollinks">(<a href="http://wiki.lifesciencedb.jp/mw/index.php?title=%E5%88%A9%E7%94%A8%E8%80%85%E2%80%90%E4%BC%9A%E8%A9%B1:Synobu&amp;action=edit&amp;redlink=1" class="new" title="利用者‐会話:Synobu（存在しないページ）">トーク</a> | <a href="特別%253A投稿記録/Synobu.html" title="特別:投稿記録/Synobu">投稿記録</a>)</span>による版</div>
+
+				<div id="mw-revision-nav">(<a href="http://wiki.lifesciencedb.jp/mw/index.php?title=BH11.11/%E3%83%92%E3%83%88%E3%83%BB%E7%92%B0%E5%A2%83%E3%83%A1%E3%82%BF%E3%82%B2%E3%83%8E%E3%83%A0%E3%83%A1%E3%82%BF%E3%83%87%E3%83%BC%E3%82%BF%E3%81%AE%E3%82%AA%E3%83%B3%E3%83%88%E3%83%AD%E3%82%B8%E3%83%BC%E6%95%B4%E5%82%99%E3%81%A8RDF%E5%8C%96/ontology_mapping_manual&amp;diff=prev&amp;oldid=1809" title="BH11.11/ヒト・環境メタゲノムメタデータのオントロジー整備とRDF化/ontology mapping manual">差分</a>) <a href="http://wiki.lifesciencedb.jp/mw/index.php?title=BH11.11/%E3%83%92%E3%83%88%E3%83%BB%E7%92%B0%E5%A2%83%E3%83%A1%E3%82%BF%E3%82%B2%E3%83%8E%E3%83%A0%E3%83%A1%E3%82%BF%E3%83%87%E3%83%BC%E3%82%BF%E3%81%AE%E3%82%AA%E3%83%B3%E3%83%88%E3%83%AD%E3%82%B8%E3%83%BC%E6%95%B4%E5%82%99%E3%81%A8RDF%E5%8C%96/ontology_mapping_manual&amp;direction=prev&amp;oldid=1809" title="BH11.11/ヒト・環境メタゲノムメタデータのオントロジー整備とRDF化/ontology mapping manual">←前の版</a> | <a href="BH11.11/ヒト・環境メタゲノムメタデータのオントロジー整備とRDF化/ontology_mapping_manual.html" title="BH11.11/ヒト・環境メタゲノムメタデータのオントロジー整備とRDF化/ontology mapping manual">最新版</a> (<a href="http://wiki.lifesciencedb.jp/mw/index.php?title=BH11.11/%E3%83%92%E3%83%88%E3%83%BB%E7%92%B0%E5%A2%83%E3%83%A1%E3%82%BF%E3%82%B2%E3%83%8E%E3%83%A0%E3%83%A1%E3%82%BF%E3%83%87%E3%83%BC%E3%82%BF%E3%81%AE%E3%82%AA%E3%83%B3%E3%83%88%E3%83%AD%E3%82%B8%E3%83%BC%E6%95%B4%E5%82%99%E3%81%A8RDF%E5%8C%96/ontology_mapping_manual&amp;diff=cur&amp;oldid=1809" title="BH11.11/ヒト・環境メタゲノムメタデータのオントロジー整備とRDF化/ontology mapping manual">差分</a>) | <a href="http://wiki.lifesciencedb.jp/mw/index.php?title=BH11.11/%E3%83%92%E3%83%88%E3%83%BB%E7%92%B0%E5%A2%83%E3%83%A1%E3%82%BF%E3%82%B2%E3%83%8E%E3%83%A0%E3%83%A1%E3%82%BF%E3%83%87%E3%83%BC%E3%82%BF%E3%81%AE%E3%82%AA%E3%83%B3%E3%83%88%E3%83%AD%E3%82%B8%E3%83%BC%E6%95%B4%E5%82%99%E3%81%A8RDF%E5%8C%96/ontology_mapping_manual&amp;direction=next&amp;oldid=1809" title="BH11.11/ヒト・環境メタゲノムメタデータのオントロジー整備とRDF化/ontology mapping manual">次の版→</a> (<a href="http://wiki.lifesciencedb.jp/mw/index.php?title=BH11.11/%E3%83%92%E3%83%88%E3%83%BB%E7%92%B0%E5%A2%83%E3%83%A1%E3%82%BF%E3%82%B2%E3%83%8E%E3%83%A0%E3%83%A1%E3%82%BF%E3%83%87%E3%83%BC%E3%82%BF%E3%81%AE%E3%82%AA%E3%83%B3%E3%83%88%E3%83%AD%E3%82%B8%E3%83%BC%E6%95%B4%E5%82%99%E3%81%A8RDF%E5%8C%96/ontology_mapping_manual&amp;diff=next&amp;oldid=1809" title="BH11.11/ヒト・環境メタゲノムメタデータのオントロジー整備とRDF化/ontology mapping manual">差分</a>)</div>
+			</div>
+		<div id="jump-to-nav">移動： <a href="index.php@title=BH11.11%252Fヒト・環境メタゲノムメタデータのオントロジー整備とRDF化%252Fontology_mapping_manual&amp;direction=prev&amp;oldid=1811.html#column-one">案内</a>, <a href="index.php@title=BH11.11%252Fヒト・環境メタゲノムメタデータのオントロジー整備とRDF化%252Fontology_mapping_manual&amp;direction=prev&amp;oldid=1811.html#searchInput">検索</a></div>
+		<!-- start content -->
+<table id="toc" class="toc"><tr><td><div id="toctitle"><h2>目次</h2></div>
+<ul>
+<li class="toclevel-1 tocsection-1"><a href="index.php@title=BH11.11%252Fヒト・環境メタゲノムメタデータのオントロジー整備とRDF化%252Fontology_mapping_manual&amp;direction=prev&amp;oldid=1811.html#.E3.83.A1.E3.82.BF.E3.83.87.E3.83.BC.E3.82.BF-.E3.82.AA.E3.83.B3.E3.83.88.E3.83.AD.E3.82.B8.E3.83.BC.E3.83.9E.E3.83.83.E3.83.94.E3.83.B3.E3.82.B0.E4.BD.9C.E6.A5.AD.E3.83.9E.E3.83.8B.E3.83.A5.E3.82.A2.E3.83.AB_.E6.9B.B4.E6.96.B0.E5.B1.A5.E6.AD.B4"><span class="tocnumber">1</span> <span class="toctext">メタデータ-オントロジーマッピング作業マニュアル 更新履歴</span></a></li>
+<li class="toclevel-1 tocsection-2"><a href="index.php@title=BH11.11%252Fヒト・環境メタゲノムメタデータのオントロジー整備とRDF化%252Fontology_mapping_manual&amp;direction=prev&amp;oldid=1811.html#.E7.92.B0.E5.A2.83.E3.83.A1.E3.82.BF.E3.82.B2.E3.83.8E.E3.83.A0.EF.BC.88.E6.8E.A1.E5.8F.96.E5.A0.B4.E6.89.80.E3.80.81.E7.94.9F.E8.82.B2.E5.A0.B4.E6.89.80.EF.BC.89.E3.83.A1.E3.82.BF.E3.83.87.E3.83.BC.E3.82.BF.E3.81.AE.E3.82.AA.E3.83.B3.E3.83.88.E3.83.AD.E3.82.B8.E3.83.BC.E3.83.9E.E3.83.83.E3.83.94.E3.83.B3.E3.82.B0.E4.BD.9C.E6.A5.AD.E3.83.9E.E3.83.8B.E3.83.A5.E3.82.A2.E3.83.AB"><span class="tocnumber">2</span> <span class="toctext">環境メタゲノム（採取場所、生育場所）メタデータのオントロジーマッピング作業マニュアル</span></a></li>
+<li class="toclevel-1 tocsection-3"><a href="index.php@title=BH11.11%252Fヒト・環境メタゲノムメタデータのオントロジー整備とRDF化%252Fontology_mapping_manual&amp;direction=prev&amp;oldid=1811.html#SKOS_.E3.83.9E.E3.83.83.E3.83.94.E3.83.B3.E3.82.B0.E3.83.97.E3.83.AD.E3.83.91.E3.83.86.E3.82.A3.E3.83.BC"><span class="tocnumber">3</span> <span class="toctext">SKOS マッピングプロパティー</span></a></li>
+<li class="toclevel-1 tocsection-4"><a href="index.php@title=BH11.11%252Fヒト・環境メタゲノムメタデータのオントロジー整備とRDF化%252Fontology_mapping_manual&amp;direction=prev&amp;oldid=1811.html#SKOS.E3.83.9E.E3.83.83.E3.83.94.E3.83.B3.E3.82.B0.E3.83.BB.E3.83.97.E3.83.AD.E3.83.91.E3.83.86.E3.82.A3.E3.83.BC.E8.AA.9E.E5.BD.99"><span class="tocnumber">4</span> <span class="toctext">SKOSマッピング・プロパティー語彙</span></a></li>
+<li class="toclevel-1 tocsection-5"><a href="index.php@title=BH11.11%252Fヒト・環境メタゲノムメタデータのオントロジー整備とRDF化%252Fontology_mapping_manual&amp;direction=prev&amp;oldid=1811.html#skos:exactMatch"><span class="tocnumber">5</span> <span class="toctext">skos:exactMatch</span></a></li>
+<li class="toclevel-1 tocsection-6"><a href="index.php@title=BH11.11%252Fヒト・環境メタゲノムメタデータのオントロジー整備とRDF化%252Fontology_mapping_manual&amp;direction=prev&amp;oldid=1811.html#skos:narrowMatch"><span class="tocnumber">6</span> <span class="toctext">skos:narrowMatch</span></a></li>
+<li class="toclevel-1 tocsection-7"><a href="index.php@title=BH11.11%252Fヒト・環境メタゲノムメタデータのオントロジー整備とRDF化%252Fontology_mapping_manual&amp;direction=prev&amp;oldid=1811.html#skos:broadMatch"><span class="tocnumber">7</span> <span class="toctext">skos:broadMatch</span></a></li>
+<li class="toclevel-1 tocsection-8"><a href="index.php@title=BH11.11%252Fヒト・環境メタゲノムメタデータのオントロジー整備とRDF化%252Fontology_mapping_manual&amp;direction=prev&amp;oldid=1811.html#skos.E6.A7.8B.E9.80.A0"><span class="tocnumber">8</span> <span class="toctext">skos構造</span></a></li>
+<li class="toclevel-1 tocsection-9"><a href="index.php@title=BH11.11%252Fヒト・環境メタゲノムメタデータのオントロジー整備とRDF化%252Fontology_mapping_manual&amp;direction=prev&amp;oldid=1811.html#.E8.A9.A6.E3.81.97.E3.81.AE.E4.BD.9C.E6.A5.AD.E7.B5.90.E6.9E.9C"><span class="tocnumber">9</span> <span class="toctext">試しの作業結果</span></a></li>
+<li class="toclevel-1 tocsection-10"><a href="index.php@title=BH11.11%252Fヒト・環境メタゲノムメタデータのオントロジー整備とRDF化%252Fontology_mapping_manual&amp;direction=prev&amp;oldid=1811.html#.E3.82.A2.E3.83.89.E3.83.90.E3.82.A4.E3.82.B9"><span class="tocnumber">10</span> <span class="toctext">アドバイス</span></a></li>
+</ul>
+</td></tr></table><script>if (window.showTocToggle) { var tocShowText = "表示"; var tocHideText = "非表示"; showTocToggle(); } </script>
+<h2> <span class="mw-headline" id=".E3.83.A1.E3.82.BF.E3.83.87.E3.83.BC.E3.82.BF-.E3.82.AA.E3.83.B3.E3.83.88.E3.83.AD.E3.82.B8.E3.83.BC.E3.83.9E.E3.83.83.E3.83.94.E3.83.B3.E3.82.B0.E4.BD.9C.E6.A5.AD.E3.83.9E.E3.83.8B.E3.83.A5.E3.82.A2.E3.83.AB_.E6.9B.B4.E6.96.B0.E5.B1.A5.E6.AD.B4"> メタデータ-オントロジーマッピング作業マニュアル 更新履歴 </span></h2>
+<ul><li> Ver. 0.4 Last update 2011-11-25
+<ul><li> 2011-11-25 Ver. 0.4 データ取得からマッピング作業までのフローを記述
+</li><li> 2011-11-24 Ver. 0.3 ターム生成ワークフローの整理、オントロジーの追加
+</li><li> 2011-11-22 Ver. 0.2 skos:closeMatchとしていた例題をskos:exactMatchに昇格
+</li><li> 2011-11-22 Ver. 0.1 リリース. skosの採用、マニュアルに関しては加藤さんに相談した
+</li></ul>
+</li></ul>
+<h2> <span class="mw-headline" id=".E7.92.B0.E5.A2.83.E3.83.A1.E3.82.BF.E3.82.B2.E3.83.8E.E3.83.A0.EF.BC.88.E6.8E.A1.E5.8F.96.E5.A0.B4.E6.89.80.E3.80.81.E7.94.9F.E8.82.B2.E5.A0.B4.E6.89.80.EF.BC.89.E3.83.A1.E3.82.BF.E3.83.87.E3.83.BC.E3.82.BF.E3.81.AE.E3.82.AA.E3.83.B3.E3.83.88.E3.83.AD.E3.82.B8.E3.83.BC.E3.83.9E.E3.83.83.E3.83.94.E3.83.B3.E3.82.B0.E4.BD.9C.E6.A5.AD.E3.83.9E.E3.83.8B.E3.83.A5.E3.82.A2.E3.83.AB"> 環境メタゲノム（採取場所、生育場所）メタデータのオントロジーマッピング作業マニュアル </span></h2>
+<ol><li> SRAよりサンプルデータを取得（手動）
+</li><li> メタゲノムのデータの選抜（手動）
+<ul><li> キーワード検索による選抜（metagenom, environment, rRNA)
+</li></ul>
+</li><li> 選抜データのゴミ取り（手動）
+<ul><li> 今回のファイル 11434語
+</li></ul>
+</li><li> メタデータの抜き出し（自動）
+<ul><li> htmlパーサ（perlスクリプト）
+</li><li> 4054サンプル,  627カテゴリーのファイル
+</li></ul>
+</li><li> 生育場所情報の記述されたカテゴリーの選抜（手動）
+<ul><li> ゆくゆくは設定ファイル化したい
+</li></ul>
+</li><li> 選抜データのゴミ取り（手動）
+<ul><li> "ID", "notitle" の除去
+</li><li> habitatの情報の入っていないものを除去
+</li><li> uniq → 401語
+</li><li> <a href="index.php/BH11.11/山本作業記録.html" class="external text" rel="nofollow">bigramに対してphonetic (発音の頻度）を比較するアルゴリズム</a> → 427語（自動）-yy
+</li></ul>
+</li><li> 生育場所を表す語をマニュアルでNERする
+<ul><li> <a href="index.php/BH11.11/山本作業記録.html" class="external text" rel="nofollow">任意のオントロジー語辞書に対して完全マッチする語を抽出するアルゴリズム</a>（自動）-yy
+</li></ul>
+</li><li> マッピング作業（手動）
+<ul><li> 環境メタゲノム（採取場所、生育場所）メタデータタームをEnvO, FMA, PO, GAZETTER, Tax_IDのタームにマッピングする
+</li><li> predicateはskosのマッピングプロパティーをつかう
+</li></ul>
+</li></ol>
+<p><br />
+<a href="index.php/ファイル%253AMbenv_term.jpeg.html" class="external text" rel="nofollow">ワークフロー（ポストパッド）</a>
+</p>
+<h2> <span class="mw-headline" id="SKOS_.E3.83.9E.E3.83.83.E3.83.94.E3.83.B3.E3.82.B0.E3.83.97.E3.83.AD.E3.83.91.E3.83.86.E3.82.A3.E3.83.BC"> SKOS マッピングプロパティー </span></h2>
+<ul><li> <a href="http://www.asahi-net.or.jp/~ax2s-kmtn/internet/skos/REC-skos-reference-20090818.html#mapping" class="external free" rel="nofollow">http://www.asahi-net.or.jp/~ax2s-kmtn/internet/skos/REC-skos-reference-20090818.html#mapping</a>
+</li><li> <a href="http://www.kanzaki.com/memo/2008/01/29-1" class="external free" rel="nofollow">http://www.kanzaki.com/memo/2008/01/29-1</a>
+</li></ul>
+<h2> <span class="mw-headline" id="SKOS.E3.83.9E.E3.83.83.E3.83.94.E3.83.B3.E3.82.B0.E3.83.BB.E3.83.97.E3.83.AD.E3.83.91.E3.83.86.E3.82.A3.E3.83.BC.E8.AA.9E.E5.BD.99">  SKOSマッピング・プロパティー語彙 </span></h2>
+<table class="wikitable">
+
+<tr>
+<th> predicate
+</th><th> 説明
+</th></tr>
+<tr>
+<td>skos:closeMatch
+</td><td> 一部の情報検索アプリケーションで交換して使用できるほど同じである2つの概念をリンクするために用いられます。2つ以上の概念体系にまたがるマッピングを結合するときには、「複合エラー」の可能性を避けるために、skos:closeMatchは、推移的なプロパティーであると宣言されません。
+</td></tr>
+<tr>
+<td>skos:exactMatch
+</td><td>2つの概念をリンクするために用いられ、その概念は幅広い情報検索アプリケーションにまたがって交換して使用できるほどの高い信頼性を示します。skos:exactMatchは、推移的なプロパティーであり、skos:closeMatchのサブプロパティーです。
+</td></tr>
+<tr>
+<td>skos:broadMatch
+</td><td>2つの概念間の階層マッピング・リンクを記述るために用いられる
+</td></tr>
+<tr>
+<td>skos:narrowMatch
+</td><td>2つの概念間の階層マッピング・リンクを記述るために用いられる
+</td></tr>
+<tr>
+<td>skos:relatedMatch
+</td><td>2つの概念間の関連マッピング・リンクを記述するために用いられる
+</td></tr></table>
+<h2> <span class="mw-headline" id="skos:exactMatch"> skos:exactMatch </span></h2>
+<ul><li> 表記ゆれの範囲は, skos:exactMatchとする
+</li></ul>
+<table class="wikitable">
+
+<tr>
+<th> GOLD term
+</th><th> EnvO ID
+</th><th> predicate
+</th><th> EnvO term
+</th></tr>
+<tr>
+<td>Salinewater
+</td><td>Node( &lt;<a href="http://purl.org/obo/owlapi/envo#ENVO_00002010" class="external free" rel="nofollow">http://purl.org/obo/owlapi/envo#ENVO_00002010</a>&gt; )
+</td><td>skos:exactMatch
+</td><td>saline water
+</td></tr>
+<tr>
+<td>Salt marsh
+</td><td>Node( &lt;<a href="http://purl.org/obo/owlapi/envo#ENVO_00000054" class="external free" rel="nofollow">http://purl.org/obo/owlapi/envo#ENVO_00000054</a>&gt; )
+</td><td>skos:exactMatch
+</td><td>saline marsh
+</td></tr>
+<tr>
+<td>Sand
+</td><td>Node( &lt;<a href="http://purl.org/obo/owlapi/envo#ENVO_01000017" class="external free" rel="nofollow">http://purl.org/obo/owlapi/envo#ENVO_01000017</a>&gt; )
+</td><td>skos:exactMatch
+</td><td>sand
+</td></tr>
+<tr>
+<td>Sea water
+</td><td>Node( &lt;<a href="http://purl.org/obo/owlapi/envo#ENVO_00002149" class="external free" rel="nofollow">http://purl.org/obo/owlapi/envo#ENVO_00002149</a>&gt; )
+</td><td>skos:exactMatch
+</td><td>sea water
+</td></tr></table>
+<h2> <span class="mw-headline" id="skos:narrowMatch"> skos:narrowMatch </span></h2>
+<table class="wikitable">
+
+<tr>
+<th> GOLD term
+</th><th> EnvO ID
+</th><th> predicate
+</th><th> EnvO term
+</th></tr>
+<tr>
+<td>Root nodule
+</td><td>Node( &lt;<a href="http://purl.org/obo/owlapi/envo#ENVO_01000171" class="external free" rel="nofollow">http://purl.org/obo/owlapi/envo#ENVO_01000171</a>&gt; )
+</td><td>skos:narrowMatch
+</td><td>indeterminate root nodule nitrogen fixation zone
+</td></tr>
+<tr>
+<td>Self-heated organic materials
+</td><td>Node( &lt;<a href="http://purl.org/obo/owlapi/envo#ENVO_00002207" class="external free" rel="nofollow">http://purl.org/obo/owlapi/envo#ENVO_00002207</a>&gt; )
+</td><td>skos:narrowMatch
+</td><td>self-heating coal mine waste
+</td></tr>
+<tr>
+<td>Fruits
+</td><td>Node( &lt;<a href="http://purl.org/obo/owlapi/envo#ENVO_00003877" class="external free" rel="nofollow">http://purl.org/obo/owlapi/envo#ENVO_00003877</a>&gt; )
+</td><td>skos:narrowMatch
+</td><td>plant fruit food product
+</td></tr></table>
+<h2> <span class="mw-headline" id="skos:broadMatch"> skos:broadMatch </span></h2>
+<table class="wikitable">
+
+<tr>
+<th> GOLD term
+</th><th> EnvO ID
+</th><th> predicate
+</th><th> EnvO term
+</th></tr>
+<tr>
+<td>Human airways
+</td><td>Node( &lt;<a href="http://purl.org/obo/owlapi/envo#ENVO_00009003" class="external free" rel="nofollow">http://purl.org/obo/owlapi/envo#ENVO_00009003</a>&gt; )
+</td><td>skos:broadMatch
+</td><td>human-associated habitat
+</td></tr>
+<tr>
+<td>Human fecal
+</td><td>Node( &lt;<a href="http://purl.org/obo/owlapi/envo#ENVO_00009003" class="external free" rel="nofollow">http://purl.org/obo/owlapi/envo#ENVO_00009003</a>&gt; )
+</td><td>skos:broadMatch
+</td><td>human-associated habitat
+</td></tr>
+<tr>
+<td>Human intestinal microflora
+</td><td>Node( &lt;<a href="http://purl.org/obo/owlapi/envo#ENVO_00009003" class="external free" rel="nofollow">http://purl.org/obo/owlapi/envo#ENVO_00009003</a>&gt; )
+</td><td>skos:broadMatch
+</td><td>human-associated habitat
+</td></tr>
+<tr>
+<td>Human nasopharyngeal microflora
+</td><td>Node( &lt;<a href="http://purl.org/obo/owlapi/envo#ENVO_00009003" class="external free" rel="nofollow">http://purl.org/obo/owlapi/envo#ENVO_00009003</a>&gt; )
+</td><td>skos:broadMatch
+</td><td>human-associated habitat
+</td></tr>
+<tr>
+<td>Human oral microflora
+</td><td>Node( &lt;<a href="http://purl.org/obo/owlapi/envo#ENVO_00009003" class="external free" rel="nofollow">http://purl.org/obo/owlapi/envo#ENVO_00009003</a>&gt; )
+</td><td>skos:broadMatch
+</td><td>human-associated habitat
+</td></tr>
+<tr>
+<td>Human skin
+</td><td>Node( &lt;<a href="http://purl.org/obo/owlapi/envo#ENVO_00009003" class="external free" rel="nofollow">http://purl.org/obo/owlapi/envo#ENVO_00009003</a>&gt; )
+</td><td>skos:broadMatch
+</td><td>human-associated habitat
+</td></tr>
+<tr>
+<td>Human stomach
+</td><td>Node( &lt;<a href="http://purl.org/obo/owlapi/envo#ENVO_00009003" class="external free" rel="nofollow">http://purl.org/obo/owlapi/envo#ENVO_00009003</a>&gt; )
+</td><td>skos:broadMatch
+</td><td>human-associated habitat
+</td></tr></table>
+<h2> <span class="mw-headline" id="skos.E6.A7.8B.E9.80.A0"> skos構造 </span></h2>
+<pre>skos:semanticRelation
+ |
+ +- skos:related
+ |   |
+ |   +- skos:relatedMatch
+ |
+ +- skos:broaderTransitive
+ |   |
+ |   +- skos:broader
+ |       |
+ |       +- skos:broadMatch
+ |
+ +- skos:narrowerTransitive
+ |   |
+ |   +- skos:narrower
+ |       |
+ |       +- skos:narrowMatch
+ |
+ +- skos:mappingRelation
+     |
+     +- skos:closeMatch
+     |   |
+     |   +- skos:exactMatch
+     |
+     +- skos:relatedMatch
+     |
+     +- skos:broadMatch
+     |
+     +- skos:narrowMatch
+</pre>
+<h2> <span class="mw-headline" id=".E8.A9.A6.E3.81.97.E3.81.AE.E4.BD.9C.E6.A5.AD.E7.B5.90.E6.9E.9C"> 試しの作業結果 </span></h2>
+<table class="wikitable">
+
+<tr>
+<td>MeO term
+</td><td>skos
+</td><td>EnvO term
+</td><td>EnvO ID
+</td></tr></table>
+<pre>soil metagenome	skos:broaderMatch	soil	ENVO:00001998
+terrestrial biome	skos:exactMatch	terrestrial biome	ENVO:00000446
+anthropogenic habitat	skos:exactMatch	anthropogenic habitat	ENVO:00002031
+oil contaminated soil	skos:exactMatch	oil contaminated soil	ENVO:00002875
+soil	skos:exactMatch	soil	ENVO:00001998
+greenhouse soil	skos:exactMatch	greenhouse soil	ENVO:00005780
+marine metagenome			
+arch/bact biological mat from diffuse flow sample alphanumeric			
+arch/bact rock sample from active sulfide chimney alphanumeric			
+arch/bact rock sample from active sulfide flange alphanumeric			
+arch/bact sample from active sulfide chimney alphanumeric			
+arch/bact sample from active sulfide flange alphanumeric			
+vents Alphanumeric	skos:closeMatch	geyser	ENVO:00000050
+NW Rota Background Seawater Alphanumeric			
+Background seawater Alphanumeric			
+Forecast Background Seawater on ROV ascent Alphanumeric			
+Top Vent Alphanumeric	skos:closeMatch	geyser	ENVO:00000050
+Nikko Background seawater Alphanumeric	skos:broaderMatch	sea water	ENVO:00002149
+Axial Background seawater Alphanumeric	skos:broaderMatch	sea water	ENVO:00002150
+Peles Pit Background Seawater Alphanumeric	skos:broaderMatch	sea water	ENVO:00002151
+Background seawater Alphanumeric	skos:broaderMatch	sea water	ENVO:00002152
+bact/arch rock sample of active sulfide chimney-bottom alphanumeric	skos:broaderMatch	rock	
+bact/arch rock sample of active sulfide chimney-top alphanumeric	skos:broaderMatch	rock	
+Biofilm sample alphanumeric	skos:broaderMatch	biofilm	ENVO:00002034
+Coastal lagoon waters alphanumeric	skos:broaderMatch	lagoon	ENVO:00000038
+</pre>
+<h2> <span class="mw-headline" id=".E3.82.A2.E3.83.89.E3.83.90.E3.82.A4.E3.82.B9"> アドバイス </span></h2>
+<ul><li> 加藤さん
+<ul><li> マッピング作業のpredicateの開発は現在も議論がある（論文2009 ）harry halpin
+</li><li> owl sameAsでは強いのでskos mappingが作られている経緯がある
+</li><li> scindicaなどでも利用できている
+</li><li> skos:relatedMatchはrdfs:seeAlso（プロパティー名を決められないとき）を用いる感じに近いかもしれない
+</li></ul>
+</li></ul>
+
+<!-- 
+NewPP limit report
+Preprocessor node count: 38/1000000
+Post-expand include size: 0/2097152 bytes
+Template argument size: 0/2097152 bytes
+Expensive parser function count: 0/100
+-->
+<div class="printfooter">
+「<a href="BH11.11/ヒト・環境メタゲノムメタデータのオントロジー整備とRDF化/ontology_mapping_manual.html">http://wiki.lifesciencedb.jp/mw/BH11.11/%E3%83%92%E3%83%88%E3%83%BB%E7%92%B0%E5%A2%83%E3%83%A1%E3%82%BF%E3%82%B2%E3%83%8E%E3%83%A0%E3%83%A1%E3%82%BF%E3%83%87%E3%83%BC%E3%82%BF%E3%81%AE%E3%82%AA%E3%83%B3%E3%83%88%E3%83%AD%E3%82%B8%E3%83%BC%E6%95%B4%E5%82%99%E3%81%A8RDF%E5%8C%96/ontology_mapping_manual</a>」より作成</div>
+		<div id='catlinks' class='catlinks catlinks-allhidden'></div>		<!-- end content -->
+				<div class="visualClear"></div>
+	</div>
+</div></div>
+<div id="column-one">
+	<div id="p-cactions" class="portlet">
+		<h5>表示</h5>
+		<div class="pBody">
+			<ul>
+				 <li id="ca-nstab-main" class="selected"><a href="BH11.11/ヒト・環境メタゲノムメタデータのオントロジー整備とRDF化/ontology_mapping_manual.html" title="本文を表示 [c]" accesskey="c">ページ</a></li>
+				 <li id="ca-talk" class="new"><a href="http://wiki.lifesciencedb.jp/mw/index.php?title=%E3%83%8E%E3%83%BC%E3%83%88:BH11.11/%E3%83%92%E3%83%88%E3%83%BB%E7%92%B0%E5%A2%83%E3%83%A1%E3%82%BF%E3%82%B2%E3%83%8E%E3%83%A0%E3%83%A1%E3%82%BF%E3%83%87%E3%83%BC%E3%82%BF%E3%81%AE%E3%82%AA%E3%83%B3%E3%83%88%E3%83%AD%E3%82%B8%E3%83%BC%E6%95%B4%E5%82%99%E3%81%A8RDF%E5%8C%96/ontology_mapping_manual&amp;action=edit&amp;redlink=1" title="記事についての議論 [t]" accesskey="t">議論</a></li>
+				 <li id="ca-viewsource"><a href="http://wiki.lifesciencedb.jp/mw/index.php?title=BH11.11/%E3%83%92%E3%83%88%E3%83%BB%E7%92%B0%E5%A2%83%E3%83%A1%E3%82%BF%E3%82%B2%E3%83%8E%E3%83%A0%E3%83%A1%E3%82%BF%E3%83%87%E3%83%BC%E3%82%BF%E3%81%AE%E3%82%AA%E3%83%B3%E3%83%88%E3%83%AD%E3%82%B8%E3%83%BC%E6%95%B4%E5%82%99%E3%81%A8RDF%E5%8C%96/ontology_mapping_manual&amp;action=edit&amp;oldid=1809" title="このページは保護されています。&#10;ページのソースを閲覧できます。 [e]" accesskey="e">ソースを表示</a></li>
+				 <li id="ca-history"><a href="index.php@title=BH11.11%252Fヒト・環境メタゲノムメタデータのオントロジー整備とRDF化%252Fontology_mapping_manual&amp;action=history.html" title="このページの過去の版 [h]" accesskey="h">履歴</a></li>
+			</ul>
+		</div>
+	</div>
+	<div class="portlet" id="p-personal">
+		<h5>個人用ツール</h5>
+		<div class="pBody">
+			<ul>
+				<li id="pt-anonuserpage"><a href="http://wiki.lifesciencedb.jp/mw/%E5%88%A9%E7%94%A8%E8%80%85:172.18.8.51" title="自分が編集しているIPアドレスの利用者ページ [.]" accesskey="." class="new">172.18.8.51</a></li>
+				<li id="pt-anontalk"><a href="http://wiki.lifesciencedb.jp/mw/%E5%88%A9%E7%94%A8%E8%80%85%E2%80%90%E4%BC%9A%E8%A9%B1:172.18.8.51" title="このIPアドレスからなされた編集についての議論 [n]" accesskey="n" class="new">このIPアドレスのトーク</a></li>
+				<li id="pt-anonlogin"><a href="http://wiki.lifesciencedb.jp/mw/index.php?title=%E7%89%B9%E5%88%A5:%E3%83%AD%E3%82%B0%E3%82%A4%E3%83%B3&amp;returnto=BH11.11/%E3%83%92%E3%83%88%E3%83%BB%E7%92%B0%E5%A2%83%E3%83%A1%E3%82%BF%E3%82%B2%E3%83%8E%E3%83%A0%E3%83%A1%E3%82%BF%E3%83%87%E3%83%BC%E3%82%BF%E3%81%AE%E3%82%AA%E3%83%B3%E3%83%88%E3%83%AD%E3%82%B8%E3%83%BC%E6%95%B4%E5%82%99%E3%81%A8RDF%E5%8C%96/ontology_mapping_manual&amp;returntoquery=direction%3Dprev%26oldid%3D1811" title="ログインすることが推奨されます。ただし、必須ではありません。 [o]" accesskey="o">ログイン</a></li>
+				<li id="pt-openidlogin"><a href="index.php@title=特別%253AOpenIDログイン&amp;returnto=BH11.11%252Fヒト・環境メタゲノムメタデータのオントロジー整備とRDF化%252Fontology_mapping_manual.html">OpenIDでログイン</a></li>
+			</ul>
+		</div>
+	</div>
+	<div class="portlet" id="p-logo">
+		<a style="background-image: url(http://wiki.lifesciencedb.jp/mw/images/togowiki-logo.png);" href="index.html" title="メインページに移動"></a>
+	</div>
+	<script type="text/javascript"> if (window.isMSIE55) fixalpha(); </script>
+	<div class='generated-sidebar portlet' id='p-navigation'>
+		<h5>案内</h5>
+		<div class='pBody'>
+			<ul>
+				<li id="n-mainpage-description"><a href="index.html" title="メインページに移動する [z]" accesskey="z">メインページ</a></li>
+				<li id="n-portal"><a href="http://wiki.lifesciencedb.jp/mw/TogoWiki:%E3%82%B3%E3%83%9F%E3%83%A5%E3%83%8B%E3%83%86%E3%82%A3%E3%83%BB%E3%83%9D%E3%83%BC%E3%82%BF%E3%83%AB" title="このプロジェクトについて、できること、情報を入手する場所">コミュニティ・ポータル</a></li>
+				<li id="n-currentevents"><a href="http://wiki.lifesciencedb.jp/mw/TogoWiki:%E6%9C%80%E8%BF%91%E3%81%AE%E5%87%BA%E6%9D%A5%E4%BA%8B" title="最近の出来事について予備知識を得る">最近の出来事</a></li>
+				<li id="n-recentchanges"><a href="http://wiki.lifesciencedb.jp/mw/%E7%89%B9%E5%88%A5:%E6%9C%80%E8%BF%91%E3%81%AE%E6%9B%B4%E6%96%B0" title="ウィキにおける最近の更新の一覧 [r]" accesskey="r">最近の更新</a></li>
+				<li id="n-randompage"><a href="http://wiki.lifesciencedb.jp/mw/%E7%89%B9%E5%88%A5:%E3%81%8A%E3%81%BE%E3%81%8B%E3%81%9B%E8%A1%A8%E7%A4%BA" title="無作為に抽出されたページの読み込み [x]" accesskey="x">おまかせ表示</a></li>
+				<li id="n-help"><a href="http://wiki.lifesciencedb.jp/mw/Help:%E7%9B%AE%E6%AC%A1" title="情報を得る場所">ヘルプ</a></li>
+			</ul>
+		</div>
+	</div>
+	<div id="p-search" class="portlet">
+		<h5><label for="searchInput">検索</label></h5>
+		<div id="searchBody" class="pBody">
+			<form action="http://wiki.lifesciencedb.jp/mw/index.php" id="searchform">
+				<input type='hidden' name="title" value="特別:検索"/>
+				<input id="searchInput" title="TogoWiki内を検索" accesskey="f" type="search" name="search" />
+				<input type='submit' name="go" class="searchButton" id="searchGoButton"	value="表示" title="厳密に一致する名前のページが存在すれば、そのページへ移動します" />&nbsp;
+				<input type='submit' name="fulltext" class="searchButton" id="mw-searchButton" value="検索" title="入力された文字列が含まれるページを検索します" />
+			</form>
+		</div>
+	</div>
+	<div class="portlet" id="p-tb">
+		<h5>ツールボックス</h5>
+		<div class="pBody">
+			<ul>
+				<li id="t-whatlinkshere"><a href="特別%253Aリンク元/BH11.11/ヒト・環境メタゲノムメタデータのオントロジー整備とRDF化/ontology_mapping_manual.html" title="ここにリンクしている全ウィキのページの一覧 [j]" accesskey="j">リンク元</a></li>
+				<li id="t-recentchangeslinked"><a href="特別%253A関連ページの更新状況/BH11.11/ヒト・環境メタゲノムメタデータのオントロジー整備とRDF化/ontology_mapping_manual.html" title="このページからリンクしているページの最近の更新 [k]" accesskey="k">関連ページの更新状況</a></li>
+<li id="t-specialpages"><a href="http://wiki.lifesciencedb.jp/mw/%E7%89%B9%E5%88%A5:%E7%89%B9%E5%88%A5%E3%83%9A%E3%83%BC%E3%82%B8%E4%B8%80%E8%A6%A7" title="特別ページの一覧 [q]" accesskey="q">特別ページ</a></li>
+				<li id="t-print"><a href="http://wiki.lifesciencedb.jp/mw/index.php?title=BH11.11/%E3%83%92%E3%83%88%E3%83%BB%E7%92%B0%E5%A2%83%E3%83%A1%E3%82%BF%E3%82%B2%E3%83%8E%E3%83%A0%E3%83%A1%E3%82%BF%E3%83%87%E3%83%BC%E3%82%BF%E3%81%AE%E3%82%AA%E3%83%B3%E3%83%88%E3%83%AD%E3%82%B8%E3%83%BC%E6%95%B4%E5%82%99%E3%81%A8RDF%E5%8C%96/ontology_mapping_manual&amp;direction=prev&amp;oldid=1811&amp;printable=yes" rel="alternate" title="このページの印刷用ページ [p]" accesskey="p">印刷用バージョン</a></li>				<li id="t-permalink"><a href="http://wiki.lifesciencedb.jp/mw/index.php?title=BH11.11/%E3%83%92%E3%83%88%E3%83%BB%E7%92%B0%E5%A2%83%E3%83%A1%E3%82%BF%E3%82%B2%E3%83%8E%E3%83%A0%E3%83%A1%E3%82%BF%E3%83%87%E3%83%BC%E3%82%BF%E3%81%AE%E3%82%AA%E3%83%B3%E3%83%88%E3%83%AD%E3%82%B8%E3%83%BC%E6%95%B4%E5%82%99%E3%81%A8RDF%E5%8C%96/ontology_mapping_manual&amp;oldid=1809" title="ページのこの版への固定リンク">この版への固定リンク</a></li>			</ul>
+		</div>
+	</div>
+</div><!-- end of the left (by default at least) column -->
+<div class="visualClear"></div>
+<div id="footer">
+	<div id="f-poweredbyico"><a href="http://www.mediawiki.org/"><img src="http://wiki.lifesciencedb.jp/mw/skins/common/images/poweredby_mediawiki_88x31.png" height="31" width="88" alt="Powered by MediaWiki" /></a></div>
+	<div id="f-copyrightico"><a href="http://creativecommons.org/licenses/by/3.0/"><img src="http://i.creativecommons.org/l/by/3.0/88x31.png" alt="Attribution 3.0 Unported" width="88" height="31" /></a></div>
+	<ul id="f-list">
+		<li id="copyright">内容は<a href="http://creativecommons.org/licenses/by/3.0/" class="external ">Attribution 3.0 Unported</a>のライセンスで利用することができます。</li>
+		<li id="privacy"><a href="http://wiki.lifesciencedb.jp/mw/TogoWiki:%E3%83%97%E3%83%A9%E3%82%A4%E3%83%90%E3%82%B7%E3%83%BC%E3%83%BB%E3%83%9D%E3%83%AA%E3%82%B7%E3%83%BC" title="TogoWiki:プライバシー・ポリシー">プライバシー・ポリシー</a></li>
+		<li id="about"><a href="http://wiki.lifesciencedb.jp/mw/TogoWiki:TogoWiki%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6" title="TogoWiki:TogoWikiについて">TogoWikiについて</a></li>
+		<li id="disclaimer"><a href="http://wiki.lifesciencedb.jp/mw/TogoWiki:%E5%85%8D%E8%B2%AC%E4%BA%8B%E9%A0%85" title="TogoWiki:免責事項">免責事項</a></li>
+	</ul>
+</div>
+</div>
+
+<script>if (window.runOnloadHook) runOnloadHook();</script>
+<!-- Served in 0.724 secs. --></body></html>

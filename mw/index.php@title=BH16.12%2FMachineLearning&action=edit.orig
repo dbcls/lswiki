@@ -1,0 +1,749 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html lang="ja" dir="ltr">
+<head>
+<title>ソースを表示 - TogoWiki</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta name="generator" content="MediaWiki 1.16.3" />
+<meta name="robots" content="noindex,nofollow" />
+<link rel="next" href="http://wiki.lifesciencedb.jp/mw/BH16.12/MachineLearning" />
+<link rel="shortcut icon" href="/favicon.ico" />
+<link rel="search" type="application/opensearchdescription+xml" href="/mw/opensearch_desc.php" title="TogoWiki (ja)" />
+<link rel="copyright" href="http://creativecommons.org/licenses/by/3.0/" />
+<link rel="alternate" type="application/atom+xml" title="TogoWikiのAtomフィード" href="/mw/index.php?title=%E7%89%B9%E5%88%A5:%E6%9C%80%E8%BF%91%E3%81%AE%E6%9B%B4%E6%96%B0&amp;feed=atom" />
+<!--[if IE 8]><link rel="stylesheet" href="/mw/skins/common/IE80Fixes.css?270" media="screen" /><![endif]-->
+<link rel="stylesheet" href="/mw/skins/common/shared.css?270" media="screen" />
+<link rel="stylesheet" href="/mw/skins/common/commonPrint.css?270" media="print" />
+<link rel="stylesheet" href="/mw/skins/monobook/main.css?270" media="screen" />
+<!--[if lt IE 5.5000]><link rel="stylesheet" href="/mw/skins/monobook/IE50Fixes.css?270" media="screen" /><![endif]-->
+<!--[if IE 5.5000]><link rel="stylesheet" href="/mw/skins/monobook/IE55Fixes.css?270" media="screen" /><![endif]-->
+<!--[if IE 6]><link rel="stylesheet" href="/mw/skins/monobook/IE60Fixes.css?270" media="screen" /><![endif]-->
+<!--[if IE 7]><link rel="stylesheet" href="/mw/skins/monobook/IE70Fixes.css?270" media="screen" /><![endif]-->
+<link rel="stylesheet" href="/mw/index.php?title=MediaWiki:Common.css&amp;usemsgcache=yes&amp;ctype=text%2Fcss&amp;smaxage=18000&amp;action=raw&amp;maxage=18000" />
+<link rel="stylesheet" href="/mw/index.php?title=MediaWiki:Print.css&amp;usemsgcache=yes&amp;ctype=text%2Fcss&amp;smaxage=18000&amp;action=raw&amp;maxage=18000" media="print" />
+<link rel="stylesheet" href="/mw/index.php?title=MediaWiki:Monobook.css&amp;usemsgcache=yes&amp;ctype=text%2Fcss&amp;smaxage=18000&amp;action=raw&amp;maxage=18000" />
+<link rel="stylesheet" href="/mw/index.php?title=-&amp;action=raw&amp;maxage=18000&amp;gen=css" />
+<script>
+var skin="monobook",
+stylepath="/mw/skins",
+wgUrlProtocols="http\\:\\/\\/|https\\:\\/\\/|ftp\\:\\/\\/|irc\\:\\/\\/|gopher\\:\\/\\/|telnet\\:\\/\\/|nntp\\:\\/\\/|worldwind\\:\\/\\/|mailto\\:|news\\:|svn\\:\\/\\/",
+wgArticlePath="/mw/$1",
+wgScriptPath="/mw",
+wgScriptExtension=".php",
+wgScript="/mw/index.php",
+wgVariantArticlePath=false,
+wgActionPaths={},
+wgServer="http://wiki.lifesciencedb.jp",
+wgCanonicalNamespace="",
+wgCanonicalSpecialPageName=false,
+wgNamespaceNumber=0,
+wgPageName="BH16.12/MachineLearning",
+wgTitle="BH16.12/MachineLearning",
+wgAction="edit",
+wgArticleId=737,
+wgIsArticle=false,
+wgUserName=null,
+wgUserGroups=null,
+wgUserLanguage="ja",
+wgContentLanguage="ja",
+wgBreakFrames=true,
+wgCurRevisionId=21557,
+wgVersion="1.16.3",
+wgEnableAPI=true,
+wgEnableWriteAPI=true,
+wgSeparatorTransformTable=["", ""],
+wgDigitTransformTable=["", ""],
+wgMainPageTitle="メインページ",
+wgFormattedNamespaces={"-2": "メディア", "-1": "特別", "0": "", "1": "ノート", "2": "利用者", "3": "利用者‐会話", "4": "TogoWiki", "5": "TogoWiki‐ノート", "6": "ファイル", "7": "ファイル‐ノート", "8": "MediaWiki", "9": "MediaWiki‐ノート", "10": "Template", "11": "Template‐ノート", "12": "Help", "13": "Help‐ノート", "14": "Category", "15": "Category‐ノート"},
+wgNamespaceIds={"メディア": -2, "特別": -1, "": 0, "ノート": 1, "利用者": 2, "利用者‐会話": 3, "togowiki": 4, "togowiki‐ノート": 5, "ファイル": 6, "ファイル‐ノート": 7, "mediawiki": 8, "mediawiki‐ノート": 9, "template": 10, "template‐ノート": 11, "help": 12, "help‐ノート": 13, "category": 14, "category‐ノート": 15, "画像": 6, "画像‐ノート": 7, "image": 6, "image_talk": 7},
+wgSiteName="TogoWiki",
+wgCategories=[],
+wgRestrictionEdit=[],
+wgRestrictionMove=[];
+</script><script src="/mw/skins/common/wikibits.js?270"></script>
+<script src="/mw/skins/common/edit.js?270"></script>
+<script src="/mw/skins/common/ajax.js?270"></script>
+<script src="/mw/index.php?title=-&amp;action=raw&amp;gen=js&amp;useskin=monobook&amp;270"></script>
+
+		<style type='text/css'>
+		li#pt-openidlogin {
+		  background: url(/mw/extensions/OpenID/skin/icons/openid-inputicon.png) top left no-repeat;
+		  padding-left: 20px;
+		  text-transform: none;
+		}
+		</style>
+</head>
+<body class="mediawiki ltr ns-0 ns-subject page-BH16_12_MachineLearning skin-monobook">
+<div id="globalWrapper">
+<div id="column-content"><div id="content" >
+	<a id="top"></a>
+	
+	<h1 id="firstHeading" class="firstHeading">BH16.12/MachineLearning</h1>
+	<div id="bodyContent">
+		<h3 id="siteSub">提供：TogoWiki</h3>
+		<div id="contentSub"><a href="/mw/BH16.12/MachineLearning" title="BH16.12/MachineLearning">BH16.12/MachineLearning</a>のソース</div>
+		<div id="jump-to-nav">移動： <a href="#column-one">案内</a>, <a href="#searchInput">検索</a></div>
+		<!-- start content -->
+<p>以下に示された理由により、このページの編集を行うことができません：
+</p>
+<div class="permissions-errors">
+<p>この操作は、<a href="/mw/index.php?title=TogoWiki:%E5%88%A9%E7%94%A8%E8%80%85&amp;action=edit&amp;redlink=1" class="new" title="TogoWiki:利用者（存在しないページ）">利用者</a>のグループに属する利用者のみが実行できます。
+</p>
+</div>
+<p>このページのソースを閲覧し、コピーすることができます：
+</p><textarea id="wpTextbox1" name="wpTextbox1" cols="80" rows="25" readonly="">[[BH16.12]]
+
+JSTシソーラス - MeSH - 遺伝子 - 様々な特徴 を学習して、遺伝子と表現型（病気など）のアノテーション（関係）を見つける機械学習 (AI) をつくる
+
+* 参加者：金城・片山
+* サポート：渡辺・櫛田
+
+参考：[https://arxiv.org/abs/1612.04256 Robert's paper]
+
+== 特徴ベクトル ==
+
+* JSTシソーラスのRDFから特徴ベクトルを作成
+** ランダムウォークでタームごとの URI 周辺のグラフパターンを学習
+** ターム毎に特徴ベクトルを生成
+
+* 遺伝子アノテーションの特徴ベクトルを生成
+** UniProtやTogoGenomeのエントリからMeSHを含むリンクを抽出
+** MeSHとJSTのタームの対応を学習
+
+== データセット ==
+
+* JSTシソーラス
+** https://stirdf.jglobal.jst.go.jp/page/lodchallenge_2016.html から利用申請
+** 使いたいトリプル
+*** rdfs:seeAlso
+*** dct:subject
+*** skos:related
+*** skos:broader
+*** skos:narrower
+** [https://gist.github.com/ktym/99c9c64b568a31f0d2397d71e125e0b0 jst-csv2nt.rb] で jst-mesh.nt を生成 (62MB; gzip 872KB)
+*** JSTシソーラスに skos:Concept のついているタームは 244832 個
+*** このうち、rdfs:seeAlso で MeSH への対応がついているものが 15945 個
+*** [https://stirdf.jglobal.jst.go.jp/page/term_example.svg スキーマ図] を参照し、これの dct:subject, skos:related, broader, narrower のトリプルを取得
+* これにMeSHのRDFを加える？ https://id.nlm.nih.gov/mesh/ 
+** MeSH RDF trivia
+*** 超最新版のURI https://id.nlm.nih.gov/mesh/D017538
+*** 最新版のURL http://id.nlm.nih.gov/mesh/D017538
+*** 2016年版のURL http://id.nlm.nih.gov/mesh/2016/D017538 &lt;- "/2016" が余分に入る。
+*** JSTのデータは2016年版で「最新版」の形式のリンクが入っているが、本日(2016/12/12)時点での最新版は2017年版なので、整合性が取れない…要Hack
+
+* 遺伝子アノテーション
+** TogoGenome, DDBJ, PDBj, UniProt などの RDF から、遺伝子の特徴に関わるトリプルと MeSH へのリンクを収集
+
+=== UniProt ===
+
+UniProt から MeSH に辿るには、下記の predicate を辿れば OK そう。disease と mesh の対応は diseases.rdf に含まれている。
+
+&lt;pre>
+&lt;uniprot/#> :annotation &lt;SHA-384/#> :disease &lt;diseases/#> rdfs:seeAlso &lt;mesh/#>
+&lt;/pre>
+
+例としては
+
+&lt;pre>
+prefix : &lt;http://purl.uniprot.org/core/>
+select *
+where {
+  &lt;http://purl.uniprot.org/uniprot/Q9UDR5> :annotation ?a .
+  ?a :disease ?d  .
+  ?d rdfs:seeAlso ?m .
+  FILTER strstarts(str(?m), "https://id.nlm.nih.gov/mesh/")
+}
+&lt;/pre>
+
+要注意なのは、現状の TogoGenome のエンドポイントのデータは少し古い（[[BH16.12/TogoGenome]]） ため
+
+* 最新版の MeSH URI https://id.nlm.nih.gov/mesh/D020167
+* 旧版の MeSH URI http://purl.uniprot.org/mesh/D020167
+
+のうち、旧版の URI を使ったものになる（いずれにしても JST シソーラスのために URI を書き換える必要があるのと、2016 年前半時点のデータを使いたいのである意味ちょうどよかった？）。
+
+&lt;pre>
+prefix : &lt;http://purl.uniprot.org/core/>
+construct {
+  ?u :annotation ?a .
+  ?a :disease ?d .
+  ?d rdfs:seeAlso ?mesh2016 .
+}
+where {
+  VALUES ?u { &lt;http://purl.uniprot.org/uniprot/Q9UDR5> }
+  ?u :annotation ?a .
+  ?a :disease ?d  .
+  ?d rdfs:seeAlso ?m .
+  FILTER strstarts(str(?m), "http://purl.uniprot.org/mesh/")
+  BIND (iri(concat("https://id.nlm.nih.gov/mesh/", "2016/", strafter(str(?m), "mesh/"))) AS ?mesh2016)
+}
+&lt;/pre>
+
+MeSH 以外にどのような情報をひろうかを検討 → タンパク個別の情報は拾いたいが意味的に関連しないものにやたらとつながりがちな provenance/evidence 系の情報は拾わないことにするため、
+
+* :attribution
+* :citation
+
+は無視することにし、あまり意味のない
+
+* :alternativeName
+* :conflictingSequence
+* :created
+* :modified
+* :replaces
+* :reviewed
+* :version
+
+も捨てて、
+
+&lt;pre>
+&lt;uniprot/Q9UDR5> (a :Protein)
+  :organism &lt;taxonomy/9606>
+  :mnemonic "AASS_HUMAN"
+  :recommendedName/:fullName "Alpha-aminoadipic semialdehyde synthase, mitochondrial" (a :Structured_Name)
+  :annotation/:disease &lt;diseases/1773> (a :Disease_Annotation)
+  :annotation/rdfs:comment "The disease is caused by mutations affecting the gene represented in this entry." (a :Disease_Annotation)
+  :annotation/rdfs:comment "N6-acetyllysine; alternate" (a :Modified_Residue_Annotation)
+  :annotation/rdfs:comment "In the N-terminal section; belongs to the AlaDH/PNT family." (a :Similarity_Annotation)
+  :annotation/rdfs:comment "Saccharopine dehydrogenase" (a :Region_Annotation)
+  :annotation/rdfs:comment "Induced by starvation." (a :Induction_Annotation)
+  :annotation/rdfs:comment "Expressed in all 16 tissues examined with highest expression in the liver." (a :Tissue_Specificity_Annotation)
+  :annotation/rdfs:comment "Mitochondrion" (a :Transit_Peptide_Annotation)
+  :annotation/rdfs:comment "N(6)-(L-1,3-dicarboxypropyl)-L-lysine + NADP(+) + H(2)O = L-lysine + 2-oxoglutarate + NADPH." (a :Catalytic_Activity_Annotation)
+  :annotation/rdfs:comment "Lysine-ketoglutarate reductase" (a :Region_Annotation)
+  :annotation/rdfs:comment "Homodimer." (a :Subunit_Annotation)
+  :annotation/rdfs:comment "Bifunctional enzyme that catalyzes the first two steps in lysine degradation. The N-terminal and the C-terminal contain lysine-ketoglutarate reductase and saccharopine dehydrogenase activity, respectively." (a :Function_Annotation)
+  :annotation/rdfs:comment "In the C-terminal section; belongs to the saccharopine dehydrogenase family." (a :Similarity_Annotation)
+  :annotation/rdfs:comment "Alpha-aminoadipic semialdehyde synthase, mitochondrial" (a :Chain_Annotation)
+  :annotation/:locatedIn/:cellularComponent &lt;locations/173> (a :Subcellular_Location_Annotation)
+  :annotation/rdfs:seeAlso &lt;unipathway/427.868.419.835> (a :Pathway_Annotation)
+  :classifiedWith &lt;http://purl.obolibrary.org/obo/GO_0004753>
+  :classifiedWith &lt;keywords/1185>
+  :domain/:enzyme &lt;enzyme/1.5.1.8> (a :Part)
+  :encodedBy/skos:prefLabel "AASS" (a :Gene)
+  :existence :Evidence_at_Protein_Level_Existence
+  :isolatedFrom &lt;tissues/564>
+  :proteome &lt;proteomes/UP000005640#Chromosome%207>
+  :sequence &lt;isoforms/Q9UDR5-1> 
+  :sequence/:mass "102132" (a :Simple_Sequence)
+  :sequence/rdf:value ""MLQVHRTGLGRLGV ...."
+  rdfs:seeAlso &lt;http://identifiers.org/ncbigene/10157>
+  rdfs:seeAlso/:database &lt;database/DisGeNET> (a :Resource)
+  rdfs:seeAlso &lt;http://identifiers.org/reactome/R-HSA-71064>
+  rdfs:seeAlso/:database &lt;database/Reactome> (a Resource)
+  rdfs:seeAlso/rdfs:comment "Lysine catabolism" (a Resource)
+    :
+&lt;/pre>
+
+このあたりを &lt;SHA-384/#> も含めて拾うことに。
+
+ただ、http://www.uniprot.org/uniprot/Q9UDR5 からダウンロードした RDF/XML に含まれる SHA-384 の URI をブラウザで開くと DESCRIBEが実行されるが、
+
+* ヒットするもの
+** http://purl.uniprot.org/SHA-384/ACB87331D17D2460F1FA8D686155044D4053D0FC575AEB433F5D74F2CFAF5A84B1449AE0068947CE4675EE8BB71B0A26
+*** → http://sparql.uniprot.org/sparql/?query=DESCRIBE%20%3Chttp://purl.uniprot.org/SHA-384/ACB87331D17D2460F1FA8D686155044D4053D0FC575AEB433F5D74F2CFAF5A84B1449AE0068947CE4675EE8BB71B0A26%3E&amp;format=html
+
+&lt;pre>
+select *
+where {
+  ?s ?p &lt;http://purl.uniprot.org/SHA-384/ACB87331D17D2460F1FA8D686155044D4053D0FC575AEB433F5D74F2CFAF5A84B1449AE0068947CE4675EE8BB71B0A26>
+}
+limit 100
+&lt;/pre>
+
+* ヒットしないもの
+** http://purl.uniprot.org/SHA-384/E2AA67B236D056422CB4A02B42561C44A901BADA4F19813CF481F77D6DFB1E7B193931927AE9E39A972E74F293E44890
+*** → http://sparql.uniprot.org/sparql/?query=DESCRIBE%20%3Chttp://purl.uniprot.org/SHA-384/E2AA67B236D056422CB4A02B42561C44A901BADA4F19813CF481F77D6DFB1E7B193931927AE9E39A972E74F293E44890%3E&amp;format=html
+
+&lt;pre>
+select *
+where {
+  ?s ?p &lt;http://purl.uniprot.org/SHA-384/E2AA67B236D056422CB4A02B42561C44A901BADA4F19813CF481F77D6DFB1E7B193931927AE9E39A972E74F293E44890>
+}
+limit 100
+&lt;/pre>
+
+があり、ヒットしない URI は SPARQL で使っても当然出てこない。最新のエントリに含まれる SHA-384 の ID と UniProt の公開エンドポイントに入っている RDF データは同期されていない（古い）のだろうか？
+
+&lt;pre>
+PREFIX : &lt;http://purl.uniprot.org/core/>
+CONSTRUCT {
+  ?uniprot :organism ?organism .
+  ?uniprot :annotation ?annotation .
+  ?annotation :disease ?disease .
+  ?disease rdfs:seeAlso ?mesh2016 .
+  ?uniprot :mnemonic ?mnemonic .
+  ?uniprot :recommendedName ?recommendedName .
+  ?recommendedName :fullName ?fullName .
+  ?annotation rdfs:comment ?comment .
+  ?annotation :locatedIn ?locatedIn .
+  ?locatedIn :cellularComponent ?cellularComponent .
+  ?annotation rdfs:seeAlso ?pathway .
+  ?uniprot :classifiedWith ?classifiedWith .
+  ?uniprot :domain ?domain .
+  ?domain :enzyme ?enzyme .
+  ?uniprot :encodedBy ?encodedBy .
+  ?encodedBy skos:prefLabel ?prefLabel .
+  ?uniprot :existence ?existence .
+  ?uniprot :isolatedFrom ?isolatedFrom .
+  ?uniprot :proteome ?proteome .
+  ?uniprot :sequence ?sequence .
+  ?sequence :mass ?mass .
+  ?uniprot rdfs:seeAlso ?seeAlso .
+  ?seeAlso :database ?database .
+  ?seeAlso rdfs:comment ?comment .
+}
+WHERE {
+  VALUES ?organism { &lt;http://purl.uniprot.org/taxonomy/9606> }
+  ?uniprot :organism ?organism .
+  ### 以下は全て OPTIONAL に ###
+  ?uniprot :annotation ?annotation .
+  # MeSH との対応
+  ?annotation :disease ?disease  .
+  ?disease rdfs:seeAlso ?mesh .
+  FILTER strstarts(str(?mesh), "http://purl.uniprot.org/mesh/")
+  BIND (iri(concat("https://id.nlm.nih.gov/mesh/", "2016/", strafter(str(?mesh), "mesh/"))) AS ?mesh2016)
+  # その他
+  ?uniprot :mnemonic ?mnemonic .
+  ?uniprot :recommendedName ?recommendedName .
+  ?recommendedName :fullName ?fullName .
+  ?annotation rdfs:comment ?comment .
+  ?annotation :locatedIn ?locatedIn .
+  ?locatedIn :cellularComponent ?cellularComponent .
+  ?annotation rdfs:seeAlso ?pathway .
+  ?uniprot :classifiedWith ?classifiedWith .
+  ?uniprot :domain ?domain .
+  ?domain :enzyme ?enzyme .
+  ?uniprot :encodedBy ?encodedBy .
+  ?encodedBy skos:prefLabel ?prefLabel .
+  ?uniprot :existence ?existence .
+  ?uniprot :isolatedFrom ?isolatedFrom .
+  ?uniprot :proteome ?proteome .
+  ?uniprot :sequence ?sequence .
+  ?sequence :mass ?mass .
+  ?uniprot rdfs:seeAlso ?seeAlso .
+  ?seeAlso :database ?database .
+  ?seeAlso rdfs:comment ?comment .
+}
+&lt;/pre>
+
+ということで
+
+&lt;pre>
+PREFIX : &lt;http://purl.uniprot.org/core/>
+CONSTRUCT {
+  ?uniprot :organism ?organism .
+  ?uniprot :annotation ?annotation .
+  ?annotation :disease ?disease .
+  ?disease rdfs:seeAlso ?mesh2016 .
+  ?uniprot :mnemonic ?mnemonic .
+  ?uniprot :recommendedName ?recommendedName .
+  ?recommendedName :fullName ?fullName .
+  ?annotation rdfs:comment ?comment .
+  ?annotation :locatedIn ?locatedIn .
+  ?locatedIn :cellularComponent ?cellularComponent .
+  ?annotation rdfs:seeAlso ?pathway .
+  ?uniprot :classifiedWith ?classifiedWith .
+  ?uniprot :domain ?domain .
+  ?domain :enzyme ?enzyme .
+  ?uniprot :encodedBy ?encodedBy .
+  ?encodedBy skos:prefLabel ?prefLabel .
+  ?uniprot :existence ?existence .
+  ?uniprot :isolatedFrom ?isolatedFrom .
+  ?uniprot :proteome ?proteome .
+  ?uniprot :sequence ?sequence .
+  ?sequence :mass ?mass .
+  ?uniprot rdfs:seeAlso ?seeAlso .
+  ?seeAlso :database ?database .
+  ?seeAlso rdfs:comment ?comment .
+}
+WHERE {
+  VALUES ?organism { &lt;http://purl.uniprot.org/taxonomy/9606> }
+  ?uniprot :organism ?organism .
+  ?uniprot :mnemonic ?mnemonic .
+  ?uniprot :recommendedName ?recommendedName .
+  ?recommendedName :fullName ?fullName .
+  # 以下は全て OPTIONAL に
+  OPTIONAL {
+    ?uniprot :annotation ?annotation .
+    OPTIONAL {
+      # MeSH との対応
+      ?annotation :disease ?disease  .
+      ?disease rdfs:seeAlso ?mesh .
+      FILTER strstarts(str(?mesh), "http://purl.uniprot.org/mesh/")
+      BIND (iri(concat("https://id.nlm.nih.gov/mesh/", "2016/", strafter(str(?mesh), "mesh/"))) AS ?mesh2016)
+    }
+    # その他の annotation
+    OPTIONAL {
+      ?annotation rdfs:comment ?comment .
+    }
+    OPTIONAL {
+      ?annotation :locatedIn ?locatedIn .
+      ?locatedIn :cellularComponent ?cellularComponent .
+    }
+    OPTIONAL {
+      ?annotation rdfs:seeAlso ?pathway .
+    }
+  }
+  OPTIONAL {
+    ?uniprot :classifiedWith ?classifiedWith .
+  }
+  OPTIONAL {
+    ?uniprot :domain ?domain .
+    ?domain :enzyme ?enzyme .
+  }
+  OPTIONAL {
+    ?uniprot :encodedBy ?encodedBy .
+    ?encodedBy skos:prefLabel ?prefLabel .
+  }
+  OPTIONAL {
+    ?uniprot :existence ?existence .
+  }
+  OPTIONAL {
+    ?uniprot :isolatedFrom ?isolatedFrom .
+  }
+  OPTIONAL {
+    ?uniprot :proteome ?proteome .
+  }
+  OPTIONAL {
+    ?uniprot :sequence ?sequence .
+    OPTIONAL {
+      ?sequence :mass ?mass .
+    }
+  }
+  OPTIONAL {
+    ?uniprot rdfs:seeAlso ?seeAlso .
+    OPTIONAL {
+      ?seeAlso :database ?database .
+    }
+    OPTIONAL {
+      ?seeAlso rdfs:comment ?comment .
+    }
+  }
+}
+&lt;/pre>
+
+これを SPARQL エンドポイントで実行しても LIMIT 10000 くらいでないとレスポンスが帰ってこないので、construct-optional.rq として保存し、isql から実行することに。
+
+&lt;pre>
+#!/usr/bin/env ruby
+
+head = &lt;&lt;HEAD
+sparql
+DEFINE output:format "NT"
+HEAD
+
+body = File.read("construct-optional.rq")
+
+offset = 1
+limit = 100000
+
+input = "input.rq"
+output = "output.nt"
+before = 0
+after = 1
+
+while before &lt; after do
+  tail = "OFFSET #{offset} LIMIT #{limit};"
+  File.open(input, "w") do |query|
+    query.puts head
+    query.puts body
+    query.puts tail
+  end
+  before = File.size(output)
+  system("isql VERBOSE=OFF BANNER=OFF PROMPT=OFF ECHO=OFF BLOBS=ON &lt; #{input} >> #{output}")
+  after = File.size(output)
+  $stderr.puts "OFFSET #{offset} LIMIT #{limit} before: #{before} after: #{after}"
+  offset += limit
+end
+&lt;/pre>
+
+== 機械学習 ==
+
+=== DeepWalk ===
+* Robert's implementation: https://github.com/bio-ontology-research-group/walking-rdf-and-owl
+* DeepWalk:  [https://arxiv.org/abs/1403.6652 paper] and [https://github.com/phanein/deepwalk implementation].
+
+# Robert の前処理プログラム RDFWrapper がうまく動かない。Java のライブラリの問題？→しょうがないので、自前で前処理プログラムを作り、originalのDeepWalkプログラムを使うことにする。
+# OCaml RDF libraryの都合により、ntriples -> turtleに変換。（rapper を使ったが、文字コードの問題で一部トリプルが省かれるみたい。）
+# jst-mesh2016.ntとmesh2016.ntをマージしたグラフのデータを作った。ノード数 5,401,382
+# DeepWalkを走らせてベクトルを作り始めた(2016/12/13 3PMごろ）。→まだ終わらない(17:52)　→翌朝には終わっていた。
+
+=== Prediction ===
+あるタンパク質が、ある病気に関連するか否かを予測する（？）
+* 必要なデータ
+:- positive/negative sets 
+:- training/testing sets
+
+* UniProt のヒトタンパク質に関連づけられているMeSH(病気）トップ２０
+全部で973 Mesh terms のうち357個は１つのUniProtエントリにしか関連づけられていない。
+# 151 https://id.nlm.nih.gov/mesh/D008607 "Intellectual Disability"
+# 106 https://id.nlm.nih.gov/mesh/D006319 "Hearing Loss, Sensorineural"
+# 83 https://id.nlm.nih.gov/mesh/D012174
+# 59 https://id.nlm.nih.gov/mesh/D007153
+# 57 https://id.nlm.nih.gov/mesh/D008831
+# 53 https://id.nlm.nih.gov/mesh/D038901
+# 51 https://id.nlm.nih.gov/mesh/D015419
+# 50 https://id.nlm.nih.gov/mesh/D002607
+# 49 https://id.nlm.nih.gov/mesh/D017237
+# 49 https://id.nlm.nih.gov/mesh/D010009
+# 49 https://id.nlm.nih.gov/mesh/D000015
+# 46 https://id.nlm.nih.gov/mesh/D028361
+# 45 https://id.nlm.nih.gov/mesh/D005124
+# 45 https://id.nlm.nih.gov/mesh/D002386
+# 43 https://id.nlm.nih.gov/mesh/D052177
+# 42 https://id.nlm.nih.gov/mesh/D004392
+# 41 https://id.nlm.nih.gov/mesh/D018981
+# 39 https://id.nlm.nih.gov/mesh/D002524
+# 39 https://id.nlm.nih.gov/mesh/D002311
+# 37 https://id.nlm.nih.gov/mesh/D004476
+
+
+* 機械学習のライブラリ
+** TensorFlow
+*** https://www.tensorflow.org/
+*** https://cloud.google.com/ml/
+** Chainer
+*** http://chainer.org/
+** SVM?
+
+==== Chainerによる実装 ====
+* 使ったデータ
+:- UniProt-human-subset.nt （片山さん製作 12/15 18:30現在まだ一部のみ）
+:- mesh2016.nt (MeSHからとってきた）
+:- go.nt (from UniProt)
+:- pathways.nt (from UniProt)
+:- enzyme.nt (from UniProt)
+:- jst-mesh2016.nt (JST thesaurus)
+
+これらを一つにまとめて、DeepWalkを走らせる。
+* DeepWalk
+&lt;pre>
+% ./src/rdfwrapper -map all.map all.nt > all.edgelist # 自前のプログラムで前処理
+% deepwalk --input all.edgelist --format edgelist --workers 4 --output all.vec --max-memory-data-size 3000000000   
+&lt;/pre>
+
+
+[https://github.com/pfnet/chainer/blob/master/examples/mnist/train_mnist.py チュートリアルのコード]をちょっとだけ書き換えたもの。
+&lt;pre>
+#!/usr/bin/env python
+from __future__ import print_function
+import argparse
+
+import numpy as np
+import chainer
+import chainer.functions as F
+import chainer.links as L
+from chainer.datasets import tuple_dataset
+from chainer import training
+from chainer.training import extensions
+
+
+# Network definition
+class MLP(chainer.Chain):
+
+    def __init__(self, n_units, n_out):
+        super(MLP, self).__init__(
+            # the size of the inputs to each layer will be inferred
+            l1=L.Linear(None, n_units),  # n_in -> n_units
+            l2=L.Linear(None, n_units),  # n_units -> n_units
+            l3=L.Linear(None, n_out),  # n_units -> n_out
+        )
+
+    def __call__(self, x):
+        h1 = F.relu(self.l1(x))
+        h2 = F.relu(self.l2(h1))
+        y = F.relu(self.l3(h2))
+#        print("hoge {}".format(y.data))
+        return y
+
+
+def main():
+    parser = argparse.ArgumentParser(description='Chainer example: MNIST')
+    parser.add_argument('--batchsize', '-b', type=int, default=100,
+                        help='Number of images in each mini-batch')
+    parser.add_argument('--epoch', '-e', type=int, default=20,
+                        help='Number of sweeps over the dataset to train')
+    parser.add_argument('--gpu', '-g', type=int, default=-1,
+                        help='GPU ID (negative value indicates CPU)')
+    parser.add_argument('--out', '-o', default='result',
+                        help='Directory to output the result')
+    parser.add_argument('--resume', '-r', default='',
+                        help='Resume the training from snapshot')
+    parser.add_argument('--unit', '-u', type=int, default=100,
+                        help='Number of units')
+    args = parser.parse_args()
+
+    print('GPU: {}'.format(args.gpu))
+    print('# unit: {}'.format(args.unit))
+    print('# Minibatch-size: {}'.format(args.batchsize))
+    print('# epoch: {}'.format(args.epoch))
+    print('')
+
+    # Set up a neural network to train
+    # Classifier reports softmax cross entropy loss and accuracy at every
+    # iteration, which will be used by the PrintReport extension below.
+    model = L.Classifier(MLP(args.unit, 2))
+    if args.gpu >= 0:
+        chainer.cuda.get_device(args.gpu).use()  # Make a specified GPU current
+        model.to_gpu()  # Copy the model to the GPU
+
+    # Setup an optimizer
+    optimizer = chainer.optimizers.Adam()
+    optimizer.setup(model)
+
+# データの入力：ここを書き換えた
+# (URI) (UniProt エントリのベクトル64次元）（Meshのベクトル64次元）（０または１）の形式の空白区切りファイルを読み込む。
+    train_data = np.loadtxt("train.vec",delimiter=" ",skiprows=1,dtype=np.float32)
+    test_data= np.loadtxt("test.vec",delimiter=" ",skiprows=1,dtype=np.float32)
+    train = tuple_dataset.TupleDataset(train_data[:,1:-1],np.int32(train_data[:,-1]))
+    test = tuple_dataset.TupleDataset(test_data[:,1:-1],np.int32(test_data[:,-1]))
+
+
+    train_iter = chainer.iterators.SerialIterator(train, args.batchsize)
+    test_iter = chainer.iterators.SerialIterator(test, args.batchsize,
+                                                 repeat=False, shuffle=False)
+
+    # Set up a trainer
+    updater = training.StandardUpdater(train_iter, optimizer, device=args.gpu)
+    trainer = training.Trainer(updater, (args.epoch, 'epoch'), out=args.out)
+
+    # Evaluate the model with the test dataset for each epoch
+    trainer.extend(extensions.Evaluator(test_iter, model, device=args.gpu))
+
+    # Dump a computational graph from 'loss' variable at the first iteration
+    # The "main" refers to the target link of the "main" optimizer.
+    trainer.extend(extensions.dump_graph('main/loss'))
+
+    # Take a snapshot at each epoch
+    trainer.extend(extensions.snapshot(), trigger=(args.epoch, 'epoch'))
+
+    # Write a log of evaluation statistics for each epoch
+    trainer.extend(extensions.LogReport())
+
+    # Print selected entries of the log to stdout
+    # Here "main" refers to the target link of the "main" optimizer again, and
+    # "validation" refers to the default name of the Evaluator extension.
+    # Entries other than 'epoch' are reported by the Classifier link, called by
+    # either the updater or the evaluator.
+    trainer.extend(extensions.PrintReport(
+        ['epoch', 'main/loss', 'validation/main/loss',
+         'main/accuracy', 'validation/main/accuracy', 'elapsed_time']))
+
+    # Print a progress bar to stdout
+    trainer.extend(extensions.ProgressBar())
+
+    if args.resume:
+        # Resume from a snapshot
+        chainer.serializers.load_npz(args.resume, trainer)
+
+    # Run the training
+    trainer.run()
+
+if __name__ == '__main__':
+    main()
+&lt;/pre>
+
+==== 実行 ====
+動いた！
+&lt;pre>
+[akinjo@cat ~/work/bh16.12/machinelearning]$ python ./chainer/train_deepwalk.py --epoch 100
+GPU: -1
+# unit: 100
+# Minibatch-size: 100
+# epoch: 100
+
+epoch       main/loss   validation/main/loss  main/accuracy  validation/main/accuracy  elapsed_time
+1           0.492939    0.386433              0.824571       0.834586                  0.114298      
+2           0.367239    0.363791              0.834857       0.834586                  0.227231      
+3           0.340371    0.348169              0.835143       0.834586                  0.337782      
+...
+97          0.000272794  0.968715              1              0.843739                  10.7034       
+98          0.000258798  0.975599              1              0.847072                  10.8188       
+99          0.000256288  0.979051              1              0.848183                  10.9319       
+100         0.000244974  0.983407              1              0.849295                  11.0407  
+&lt;/pre></textarea><div class='templatesUsed'>
+
+</div>
+<p id="mw-returnto"><a href="/mw/BH16.12/MachineLearning" title="BH16.12/MachineLearning">BH16.12/MachineLearning</a>に戻る。</p>
+<div class="printfooter">
+「<a href="http://wiki.lifesciencedb.jp/mw/BH16.12/MachineLearning">http://wiki.lifesciencedb.jp/mw/BH16.12/MachineLearning</a>」より作成</div>
+		<div id='catlinks' class='catlinks catlinks-allhidden'></div>		<!-- end content -->
+				<div class="visualClear"></div>
+	</div>
+</div></div>
+<div id="column-one">
+	<div id="p-cactions" class="portlet">
+		<h5>表示</h5>
+		<div class="pBody">
+			<ul>
+				 <li id="ca-nstab-main" class="selected"><a href="/mw/BH16.12/MachineLearning" title="本文を表示 [c]" accesskey="c">ページ</a></li>
+				 <li id="ca-talk" class="new"><a href="/mw/index.php?title=%E3%83%8E%E3%83%BC%E3%83%88:BH16.12/MachineLearning&amp;action=edit&amp;redlink=1" title="記事についての議論 [t]" accesskey="t">議論</a></li>
+				 <li id="ca-viewsource" class="selected"><a href="/mw/index.php?title=BH16.12/MachineLearning&amp;action=edit" title="このページは保護されています。&#10;ページのソースを閲覧できます。 [e]" accesskey="e">ソースを表示</a></li>
+				 <li id="ca-history"><a href="/mw/index.php?title=BH16.12/MachineLearning&amp;action=history" title="このページの過去の版 [h]" accesskey="h">履歴</a></li>
+			</ul>
+		</div>
+	</div>
+	<div class="portlet" id="p-personal">
+		<h5>個人用ツール</h5>
+		<div class="pBody">
+			<ul>
+				<li id="pt-anonuserpage"><a href="/mw/%E5%88%A9%E7%94%A8%E8%80%85:172.18.8.51" title="自分が編集しているIPアドレスの利用者ページ [.]" accesskey="." class="new">172.18.8.51</a></li>
+				<li id="pt-anontalk"><a href="/mw/%E5%88%A9%E7%94%A8%E8%80%85%E2%80%90%E4%BC%9A%E8%A9%B1:172.18.8.51" title="このIPアドレスからなされた編集についての議論 [n]" accesskey="n" class="new">このIPアドレスのトーク</a></li>
+				<li id="pt-anonlogin"><a href="/mw/index.php?title=%E7%89%B9%E5%88%A5:%E3%83%AD%E3%82%B0%E3%82%A4%E3%83%B3&amp;returnto=BH16.12/MachineLearning&amp;returntoquery=action%3Dedit" title="ログインすることが推奨されます。ただし、必須ではありません。 [o]" accesskey="o">ログイン</a></li>
+				<li id="pt-openidlogin"><a href="/mw/index.php?title=%E7%89%B9%E5%88%A5:OpenID%E3%83%AD%E3%82%B0%E3%82%A4%E3%83%B3&amp;returnto=BH16.12/MachineLearning">OpenIDでログイン</a></li>
+			</ul>
+		</div>
+	</div>
+	<div class="portlet" id="p-logo">
+		<a style="background-image: url(/mw/images/togowiki-logo.png);" href="/mw/%E3%83%A1%E3%82%A4%E3%83%B3%E3%83%9A%E3%83%BC%E3%82%B8" title="メインページに移動"></a>
+	</div>
+	<script type="text/javascript"> if (window.isMSIE55) fixalpha(); </script>
+	<div class='generated-sidebar portlet' id='p-navigation'>
+		<h5>案内</h5>
+		<div class='pBody'>
+			<ul>
+				<li id="n-mainpage-description"><a href="/mw/%E3%83%A1%E3%82%A4%E3%83%B3%E3%83%9A%E3%83%BC%E3%82%B8" title="メインページに移動する [z]" accesskey="z">メインページ</a></li>
+				<li id="n-portal"><a href="/mw/TogoWiki:%E3%82%B3%E3%83%9F%E3%83%A5%E3%83%8B%E3%83%86%E3%82%A3%E3%83%BB%E3%83%9D%E3%83%BC%E3%82%BF%E3%83%AB" title="このプロジェクトについて、できること、情報を入手する場所">コミュニティ・ポータル</a></li>
+				<li id="n-currentevents"><a href="/mw/TogoWiki:%E6%9C%80%E8%BF%91%E3%81%AE%E5%87%BA%E6%9D%A5%E4%BA%8B" title="最近の出来事について予備知識を得る">最近の出来事</a></li>
+				<li id="n-recentchanges"><a href="/mw/%E7%89%B9%E5%88%A5:%E6%9C%80%E8%BF%91%E3%81%AE%E6%9B%B4%E6%96%B0" title="ウィキにおける最近の更新の一覧 [r]" accesskey="r">最近の更新</a></li>
+				<li id="n-randompage"><a href="/mw/%E7%89%B9%E5%88%A5:%E3%81%8A%E3%81%BE%E3%81%8B%E3%81%9B%E8%A1%A8%E7%A4%BA" title="無作為に抽出されたページの読み込み [x]" accesskey="x">おまかせ表示</a></li>
+				<li id="n-help"><a href="/mw/Help:%E7%9B%AE%E6%AC%A1" title="情報を得る場所">ヘルプ</a></li>
+			</ul>
+		</div>
+	</div>
+	<div id="p-search" class="portlet">
+		<h5><label for="searchInput">検索</label></h5>
+		<div id="searchBody" class="pBody">
+			<form action="/mw/index.php" id="searchform">
+				<input type='hidden' name="title" value="特別:検索"/>
+				<input id="searchInput" title="TogoWiki内を検索" accesskey="f" type="search" name="search" />
+				<input type='submit' name="go" class="searchButton" id="searchGoButton"	value="表示" title="厳密に一致する名前のページが存在すれば、そのページへ移動します" />&nbsp;
+				<input type='submit' name="fulltext" class="searchButton" id="mw-searchButton" value="検索" title="入力された文字列が含まれるページを検索します" />
+			</form>
+		</div>
+	</div>
+	<div class="portlet" id="p-tb">
+		<h5>ツールボックス</h5>
+		<div class="pBody">
+			<ul>
+				<li id="t-whatlinkshere"><a href="/mw/%E7%89%B9%E5%88%A5:%E3%83%AA%E3%83%B3%E3%82%AF%E5%85%83/BH16.12/MachineLearning" title="ここにリンクしている全ウィキのページの一覧 [j]" accesskey="j">リンク元</a></li>
+				<li id="t-recentchangeslinked"><a href="/mw/%E7%89%B9%E5%88%A5:%E9%96%A2%E9%80%A3%E3%83%9A%E3%83%BC%E3%82%B8%E3%81%AE%E6%9B%B4%E6%96%B0%E7%8A%B6%E6%B3%81/BH16.12/MachineLearning" title="このページからリンクしているページの最近の更新 [k]" accesskey="k">関連ページの更新状況</a></li>
+<li id="t-specialpages"><a href="/mw/%E7%89%B9%E5%88%A5:%E7%89%B9%E5%88%A5%E3%83%9A%E3%83%BC%E3%82%B8%E4%B8%80%E8%A6%A7" title="特別ページの一覧 [q]" accesskey="q">特別ページ</a></li>
+			</ul>
+		</div>
+	</div>
+</div><!-- end of the left (by default at least) column -->
+<div class="visualClear"></div>
+<div id="footer">
+	<div id="f-poweredbyico"><a href="http://www.mediawiki.org/"><img src="/mw/skins/common/images/poweredby_mediawiki_88x31.png" height="31" width="88" alt="Powered by MediaWiki" /></a></div>
+	<div id="f-copyrightico"><a href="http://creativecommons.org/licenses/by/3.0/"><img src="http://i.creativecommons.org/l/by/3.0/88x31.png" alt="Attribution 3.0 Unported" width="88" height="31" /></a></div>
+	<ul id="f-list">
+		<li id="privacy"><a href="/mw/TogoWiki:%E3%83%97%E3%83%A9%E3%82%A4%E3%83%90%E3%82%B7%E3%83%BC%E3%83%BB%E3%83%9D%E3%83%AA%E3%82%B7%E3%83%BC" title="TogoWiki:プライバシー・ポリシー">プライバシー・ポリシー</a></li>
+		<li id="about"><a href="/mw/TogoWiki:TogoWiki%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6" title="TogoWiki:TogoWikiについて">TogoWikiについて</a></li>
+		<li id="disclaimer"><a href="/mw/TogoWiki:%E5%85%8D%E8%B2%AC%E4%BA%8B%E9%A0%85" title="TogoWiki:免責事項">免責事項</a></li>
+	</ul>
+</div>
+</div>
+
+<script>if (window.runOnloadHook) runOnloadHook();</script>
+<!-- Served in 0.364 secs. --></body></html>

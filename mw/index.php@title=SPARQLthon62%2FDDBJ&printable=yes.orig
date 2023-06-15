@@ -1,0 +1,367 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html lang="ja" dir="ltr">
+<head>
+<title>SPARQLthon62/DDBJ - TogoWiki</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta name="generator" content="MediaWiki 1.16.3" />
+<meta name="robots" content="noindex,follow" />
+<link rel="shortcut icon" href="/favicon.ico" />
+<link rel="search" type="application/opensearchdescription+xml" href="/mw/opensearch_desc.php" title="TogoWiki (ja)" />
+<link title="Creative Commons" type="application/rdf+xml" href="/mw/index.php?title=SPARQLthon62/DDBJ&amp;action=creativecommons" rel="meta" />
+<link rel="copyright" href="http://creativecommons.org/licenses/by/3.0/" />
+<link rel="alternate" type="application/atom+xml" title="TogoWikiのAtomフィード" href="/mw/index.php?title=%E7%89%B9%E5%88%A5:%E6%9C%80%E8%BF%91%E3%81%AE%E6%9B%B4%E6%96%B0&amp;feed=atom" />
+<link rel="stylesheet" href="/mw/skins/common/commonPrint.css?270" media="" />
+<link rel="stylesheet" href="/mw/index.php?title=MediaWiki:Common.css&amp;usemsgcache=yes&amp;ctype=text%2Fcss&amp;smaxage=18000&amp;action=raw&amp;maxage=18000" />
+<link rel="stylesheet" href="/mw/index.php?title=MediaWiki:Print.css&amp;usemsgcache=yes&amp;ctype=text%2Fcss&amp;smaxage=18000&amp;action=raw&amp;maxage=18000" media="" />
+<link rel="stylesheet" href="/mw/index.php?title=MediaWiki:Monobook.css&amp;usemsgcache=yes&amp;ctype=text%2Fcss&amp;smaxage=18000&amp;action=raw&amp;maxage=18000" />
+<link rel="stylesheet" href="/mw/index.php?title=-&amp;action=raw&amp;maxage=18000&amp;gen=css" />
+<script>
+var skin="monobook",
+stylepath="/mw/skins",
+wgUrlProtocols="http\\:\\/\\/|https\\:\\/\\/|ftp\\:\\/\\/|irc\\:\\/\\/|gopher\\:\\/\\/|telnet\\:\\/\\/|nntp\\:\\/\\/|worldwind\\:\\/\\/|mailto\\:|news\\:|svn\\:\\/\\/",
+wgArticlePath="/mw/$1",
+wgScriptPath="/mw",
+wgScriptExtension=".php",
+wgScript="/mw/index.php",
+wgVariantArticlePath=false,
+wgActionPaths={},
+wgServer="http://wiki.lifesciencedb.jp",
+wgCanonicalNamespace="",
+wgCanonicalSpecialPageName=false,
+wgNamespaceNumber=0,
+wgPageName="SPARQLthon62/DDBJ",
+wgTitle="SPARQLthon62/DDBJ",
+wgAction="view",
+wgArticleId=851,
+wgIsArticle=true,
+wgUserName=null,
+wgUserGroups=null,
+wgUserLanguage="ja",
+wgContentLanguage="ja",
+wgBreakFrames=false,
+wgCurRevisionId=23278,
+wgVersion="1.16.3",
+wgEnableAPI=true,
+wgEnableWriteAPI=true,
+wgSeparatorTransformTable=["", ""],
+wgDigitTransformTable=["", ""],
+wgMainPageTitle="メインページ",
+wgFormattedNamespaces={"-2": "メディア", "-1": "特別", "0": "", "1": "ノート", "2": "利用者", "3": "利用者‐会話", "4": "TogoWiki", "5": "TogoWiki‐ノート", "6": "ファイル", "7": "ファイル‐ノート", "8": "MediaWiki", "9": "MediaWiki‐ノート", "10": "Template", "11": "Template‐ノート", "12": "Help", "13": "Help‐ノート", "14": "Category", "15": "Category‐ノート"},
+wgNamespaceIds={"メディア": -2, "特別": -1, "": 0, "ノート": 1, "利用者": 2, "利用者‐会話": 3, "togowiki": 4, "togowiki‐ノート": 5, "ファイル": 6, "ファイル‐ノート": 7, "mediawiki": 8, "mediawiki‐ノート": 9, "template": 10, "template‐ノート": 11, "help": 12, "help‐ノート": 13, "category": 14, "category‐ノート": 15, "画像": 6, "画像‐ノート": 7, "image": 6, "image_talk": 7},
+wgSiteName="TogoWiki",
+wgCategories=[],
+wgRestrictionEdit=[],
+wgRestrictionMove=[];
+</script><script src="/mw/skins/common/wikibits.js?270"></script>
+<script src="/mw/skins/common/ajax.js?270"></script>
+<script src="/mw/index.php?title=-&amp;action=raw&amp;gen=js&amp;useskin=monobook&amp;270"></script>
+
+		<style type='text/css'>
+		li#pt-openidlogin {
+		  background: url(/mw/extensions/OpenID/skin/icons/openid-inputicon.png) top left no-repeat;
+		  padding-left: 20px;
+		  text-transform: none;
+		}
+		</style>
+</head>
+<body class="mediawiki ltr ns-0 ns-subject page-SPARQLthon62_DDBJ skin-monobook">
+<div id="globalWrapper">
+<div id="column-content"><div id="content" >
+	<a id="top"></a>
+	
+	<h1 id="firstHeading" class="firstHeading">SPARQLthon62/DDBJ</h1>
+	<div id="bodyContent">
+		<h3 id="siteSub">提供：TogoWiki</h3>
+		<div id="contentSub"></div>
+		<div id="jump-to-nav">移動： <a href="#column-one">案内</a>, <a href="#searchInput">検索</a></div>
+		<!-- start content -->
+<table id="toc" class="toc"><tr><td><div id="toctitle"><h2>目次</h2></div>
+<ul>
+<li class="toclevel-1 tocsection-1"><a href="#DDBJ_RDF.E3.81.AERDF_portal.E6.9F.BB.E5.AE.9A.E3.81.AB.E3.81.A8.E3.82.82.E3.81.AA.E3.81.86.E6.A4.9C.E8.A8.8E.E9.A0.85.E7.9B.AE"><span class="tocnumber">1</span> <span class="toctext">DDBJ RDFのRDF portal査定にともなう検討項目</span></a>
+<ul>
+<li class="toclevel-2 tocsection-2"><a href="#insdc:Entry.E3.81.AE.E3.82.A4.E3.83.B3.E3.82.B9.E3.82.BF.E3.83.B3.E3.82.B9.E3.81.ABdcterms:identifier.2C_rdfs:label.E3.81.AE.E3.83.88.E3.83.AA.E3.83.97.E3.83.AB.E3.82.92.E8.A8.98.E8.BF.B0"><span class="tocnumber">1.1</span> <span class="toctext">insdc:Entryのインスタンスにdcterms:identifier, rdfs:labelのトリプルを記述</span></a></li>
+<li class="toclevel-2 tocsection-3"><a href="#dc_.E3.81.A7.E3.81.AF.E3.81.AA.E3.81.8F.E3.81.A6_dcterms_.E3.82.92.E4.BD.BF.E3.81.86.E3.80.82"><span class="tocnumber">1.2</span> <span class="toctext">dc ではなくて dcterms を使う。</span></a></li>
+<li class="toclevel-2 tocsection-4"><a href="#so_part_of.E3.81.AE.E5.88.A9.E7.94.A8.E3.81.AE.E7.90.86.E7.94.B1.E3.81.AB.E3.81.A4.E3.81.84.E3.81.A6"><span class="tocnumber">1.3</span> <span class="toctext">so_part_ofの利用の理由について</span></a></li>
+<li class="toclevel-2 tocsection-5"><a href="#.E6.96.87.E7.8C.AE.E3.82.92.E5.8F.82.E7.85.A7.E3.81.99.E3.82.8B.E9.9A.9B.E3.81.AE.E3.83.97.E3.83.AD.E3.83.91.E3.83.86.E3.82.A3_PubMed_.E3.82.84_DOI_.E3.81.AEURI.E3.82.92.E5.8F.82.E7.85.A7.E3.81.99.E3.82.8B.E9.9A.9B.E3.81.AF.E3.80.81rdfs:seeAlso_.E3.81.A7.E3.81.AF.E3.81.AA.E3.81.8F.E3.80.81dcterms:references_.E3.82.92.E4.BD.BF.E3.81.A3.E3.81.A6.E9.A0.82.E3.81.91.E3.81.AA.E3.81.84.E3.81.A7.E3.81.97.E3.82.87.E3.81.86.E3.81.8B.E3.80.82"><span class="tocnumber">1.4</span> <span class="toctext">文献を参照する際のプロパティ PubMed や DOI のURIを参照する際は、rdfs:seeAlso ではなく、dcterms:references を使って頂けないでしょうか。</span></a></li>
+<li class="toclevel-2 tocsection-6"><a href="#.E6.96.87.E7.8C.AE.E6.83.85.E5.A0.B1.E3.81.AE.E5.86.97.E9.95.B7.E8.A8.98.E8.BF.B0.E3.81.AB.E3.81.A4.E3.81.84.E3.81.A6"><span class="tocnumber">1.5</span> <span class="toctext">文献情報の冗長記述について</span></a></li>
+<li class="toclevel-2 tocsection-7"><a href="#Bibliographic_Ontology_.E3.81.AE.E5.88.A9.E7.94.A8.E3.81.AB.E3.81.A4.E3.81.84.E3.81.A6"><span class="tocnumber">1.6</span> <span class="toctext">Bibliographic Ontology の利用について</span></a></li>
+<li class="toclevel-2 tocsection-8"><a href="#sio:has-value_.E2.86.92_rdf:value_.E3.81.AE.E6.8F.90.E6.A1.88"><span class="tocnumber">1.7</span> <span class="toctext">sio:has-value → rdf:value の提案</span></a></li>
+<li class="toclevel-2 tocsection-9"><a href="#.E3.82.B9.E3.82.AD.E3.83.BC.E3.83.9E.E5.9B.B3.E3.81.AB.E6.9B.B8.E3.81.8B.E3.82.8C.E3.81.A6.E3.81.84.E3.82.8B.E3.83.88.E3.83.AA.E3.83.97.E3.83.AB.E3.81.8C.E5.AD.98.E5.9C.A8.E3.81.97.E3.81.AA.E3.81.84"><span class="tocnumber">1.8</span> <span class="toctext">スキーマ図に書かれているトリプルが存在しない</span></a></li>
+<li class="toclevel-2 tocsection-10"><a href="#.E3.82.B9.E3.82.AD.E3.83.BC.E3.83.9E.E5.9B.B3.E3.81.AE.E3.82.BF.E3.82.A4.E3.83.9D.E7.AD.89"><span class="tocnumber">1.9</span> <span class="toctext">スキーマ図のタイポ等</span></a></li>
+<li class="toclevel-2 tocsection-11"><a href="#InterPro.E3.81.AEdb_xref.E3.81.AB.E7.A9.BA.E7.99.BD.E3.81.8C.E5.90.AB.E3.81.BE.E3.82.8C.E3.82.8B.E5.A0.B4.E5.90.88.E3.81.AB.E4.B8.8D.E6.AD.A3.E3.81.AAURI.E3.81.AB.E3.81.AA.E3.82.8B"><span class="tocnumber">1.10</span> <span class="toctext">InterProのdb_xrefに空白が含まれる場合に不正なURIになる</span></a>
+<ul>
+<li class="toclevel-3 tocsection-12"><a href="#.E5.AF.BE.E5.BF.9C.E6.A1.88"><span class="tocnumber">1.10.1</span> <span class="toctext">対応案</span></a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-13"><a href="#.E5.AF.BE.E5.BF.9C.E4.BA.8B.E9.A0.85"><span class="tocnumber">2</span> <span class="toctext">対応事項</span></a></li>
+</ul>
+</td></tr></table><script>if (window.showTocToggle) { var tocShowText = "表示"; var tocHideText = "非表示"; showTocToggle(); } </script>
+<h2> <span class="mw-headline" id="DDBJ_RDF.E3.81.AERDF_portal.E6.9F.BB.E5.AE.9A.E3.81.AB.E3.81.A8.E3.82.82.E3.81.AA.E3.81.86.E6.A4.9C.E8.A8.8E.E9.A0.85.E7.9B.AE"> DDBJ RDFのRDF portal査定にともなう検討項目 </span></h2>
+<h3> <span class="mw-headline" id="insdc:Entry.E3.81.AE.E3.82.A4.E3.83.B3.E3.82.B9.E3.82.BF.E3.83.B3.E3.82.B9.E3.81.ABdcterms:identifier.2C_rdfs:label.E3.81.AE.E3.83.88.E3.83.AA.E3.83.97.E3.83.AB.E3.82.92.E8.A8.98.E8.BF.B0"> insdc:Entryのインスタンスにdcterms:identifier, rdfs:labelのトリプルを記述 </span></h3>
+<pre>
+# 主なクラスのインスタンスに必要な情報
+# 主なクラスの定義は明確ではないですが、DDBJの場合、少なくとも、insdc:Entry は主なクラスだと思います。
+insdc:Entry のインスタンスにIDのリテラルと、ラベルがついていません。
+　　dcterms:identifier プロパティで、IDラベルを
+　　rdfs:label で、ラベルを
+付けていただきたいです。
+</pre>
+<p>→ トリプル追加 or 変更。INSDCの語彙を利用する＋トリプル数を増やさない視点では、Ontologyに subproperyとして記述したいところ。
+→ <b>合意事項: dcterms:identifier, rdfs:label のトリプルを追加する</b>
+</p>
+<pre>
+&lt;http://identifiers.org/insdc/AE006470.1&gt;;    rdf:type    insdc:Entry .
+&lt;http://identifiers.org/insdc/AE006470.1&gt;;    insdc:sequence_version    &quot;AE006470.1&quot; .
+&lt;http://identifiers.org/insdc/AE006470.1&gt;;    dcterms:identifier    &quot;AE006470.1&quot; .
+&lt;http://identifiers.org/insdc/AE006470.1&gt;;    rdfs:label    &quot;AE006470.1&quot; .
+</pre>
+<h3> <span class="mw-headline" id="dc_.E3.81.A7.E3.81.AF.E3.81.AA.E3.81.8F.E3.81.A6_dcterms_.E3.82.92.E4.BD.BF.E3.81.86.E3.80.82"> dc ではなくて dcterms を使う。</span></h3>
+<pre>
+Feature や Taxonomy では、identifier  を記載するのに、dc:identifier が使われていますが、これをdcterms:identifier に変更して頂きたいです。
+</pre>
+<p>→ 変更
+→ <b>合意事項: prefixを変更</b>
+</p>
+<pre>
+Before: @prefix    dc:    &lt;http://purl.org/dc/elements/1.1/&gt;; .
+After: @prefix    dc:    http://purl.org/dc/terms/; .
+</pre>
+<p>（参考）
+</p>
+<ul><li> <a href="http://prefix.cc/dc" class="external free" rel="nofollow">http://prefix.cc/dc</a>
+</li><li> <a href="http://prefix.cc/dct" class="external free" rel="nofollow">http://prefix.cc/dct</a>
+</li></ul>
+<h3> <span class="mw-headline" id="so_part_of.E3.81.AE.E5.88.A9.E7.94.A8.E3.81.AE.E7.90.86.E7.94.B1.E3.81.AB.E3.81.A4.E3.81.84.E3.81.A6"> so_part_ofの利用の理由について </span></h3>
+<pre>
+# so_part_of
+
+これは質問なのですが、insdc:Sequence と Feature や Source Feature をつなぐのに
+
+　&lt;Feature&gt; obo:so_part_of &lt;Sequence&gt;  .
+
+と記載されています。スキーマ図的には、
+
+　&lt;Sequence&gt; obo:so_has_part &lt;Feature&gt; .
+
+としたほうが自然な気がするのですが、何か理由があるのでしょうか。
+</pre>
+<p>→ 変更なし。1st RDFsummitで？GFF等ID, Parentの関係からFeatureを上にたどるほうが将来の相互変換の視点でも合理的かとおもいます。→ <b>合意事項: 変更なし</b>
+</p>
+<h3> <span class="mw-headline" id=".E6.96.87.E7.8C.AE.E3.82.92.E5.8F.82.E7.85.A7.E3.81.99.E3.82.8B.E9.9A.9B.E3.81.AE.E3.83.97.E3.83.AD.E3.83.91.E3.83.86.E3.82.A3_PubMed_.E3.82.84_DOI_.E3.81.AEURI.E3.82.92.E5.8F.82.E7.85.A7.E3.81.99.E3.82.8B.E9.9A.9B.E3.81.AF.E3.80.81rdfs:seeAlso_.E3.81.A7.E3.81.AF.E3.81.AA.E3.81.8F.E3.80.81dcterms:references_.E3.82.92.E4.BD.BF.E3.81.A3.E3.81.A6.E9.A0.82.E3.81.91.E3.81.AA.E3.81.84.E3.81.A7.E3.81.97.E3.82.87.E3.81.86.E3.81.8B.E3.80.82"> 文献を参照する際のプロパティ PubMed や DOI のURIを参照する際は、rdfs:seeAlso ではなく、dcterms:references を使って頂けないでしょうか。 </span></h3>
+<p>　
+→ プロパティの変更
+→ <b>合意事項: rdfs:seeAlso から dcterms:references に変更</b>
+</p>
+<pre>
+Before: &lt;http://identifiers.org/insdc/AE006470.1&gt;;    rdfs:seeAlso    &lt;http://identifiers.org/pubmed/12093901&gt;; .
+After: &lt;http://identifiers.org/insdc/AE006470.1&gt;;    dcterms:references    &lt;http://identifiers.org/pubmed/12093901&gt;; .
+</pre>
+<h3> <span class="mw-headline" id=".E6.96.87.E7.8C.AE.E6.83.85.E5.A0.B1.E3.81.AE.E5.86.97.E9.95.B7.E8.A8.98.E8.BF.B0.E3.81.AB.E3.81.A4.E3.81.84.E3.81.A6"> 文献情報の冗長記述について </span></h3>
+<pre>
+ところで、文献については、insdc:Entry から直接参照されているのと、それ以外に
+insdc:Entry から、insdc:reference　によって文献のinsdc:Entry  を指して、そこに詳細な文献情報が記載される
+のと２回記載されています。ガイドライン的には冗長なことはあまり問題にしていないのですが、
+insdc:reference で文献が記述されているなら、配列のEntry から直接参照するトリプルは必要ないかも
+しれません（両者が同じ文献を指していると仮定しています。違う場合があるならすいません）。
+</pre>
+<p>→ 要相談。database間link表現を揃えるために、冗長に記載した経緯あり。DirectSubmissionのrefrence情報は外部リンクを持たない。
+→ <b>合意事項: 対応不要</b>
+</p>
+<h3> <span class="mw-headline" id="Bibliographic_Ontology_.E3.81.AE.E5.88.A9.E7.94.A8.E3.81.AB.E3.81.A4.E3.81.84.E3.81.A6"> Bibliographic Ontology の利用について </span></h3>
+<pre>
+この insdc:reference が指す文献インスタンス以下は、insdcref: (http://ddbj.nig.ac.jp/ontologies/nucleotide/reference)
+の語彙が利用されているのですが、ガイドラインでは、Bibliographic Ontology の利用を推奨しています。
+
+その場合、
+
+@prefix basic: &lt;http://prismstandard.org/namespaces/1.2/basic/&gt; . とすると
+
+insdcref:journal -&gt; basic:publicationName
+insdcref:volume -&gt; basic:volume
+insdcref:pages  -&gt;  basic:pages
+insdcref:author  -&gt;  basic:authorList  ( これ目的語に、rdf:List か rdf:Seq をとるので嫌かもしれません)
+
+のようになります。また、bibo:Article クラスのインスタンスになります。
+</pre>
+<p>→  要相談。authorList 対応は避けたい。また、DirectSubmissionのrefrence情報について、typeをどう扱うか。
+→ <b>合意事項: 対応不要</b>
+</p>
+<h3> <span class="mw-headline" id="sio:has-value_.E2.86.92_rdf:value_.E3.81.AE.E6.8F.90.E6.A1.88"> sio:has-value → rdf:value の提案 </span></h3>
+<pre>
+あと、文献のインスタンスから、sio:has-value を利用して、数値が記載されています。
+文献の連番かと思いますが、より一般的な、rdf:value  を利用してはいかがでしょうか。
+</pre>
+<p>→ 要相談。sio:is-part-ofにそろえておそらくsio:has-value を利用したはず。変更する？ 
+→ <b>合意事項: sio:has-value から rdf:value に変更</b>
+</p>
+<pre>
+&lt;http://identifiers.org/insdc/AE006470.1&gt;;    insdc:reference    &lt;http://identifiers.org/insdc/AE006470.1#reference.1&gt;; .
+&lt;http://identifiers.org/insdc/AE006470.1#reference.1&gt;;    sio:SIO_000300    1 .  # sio:has-value
+&lt;http://identifiers.org/pubmed/12093901&gt;;    sio:SIO_000068    &lt;http://identifiers.org/pubmed&gt;; .  # sio:is-part-of
+</pre>
+<h3> <span class="mw-headline" id=".E3.82.B9.E3.82.AD.E3.83.BC.E3.83.9E.E5.9B.B3.E3.81.AB.E6.9B.B8.E3.81.8B.E3.82.8C.E3.81.A6.E3.81.84.E3.82.8B.E3.83.88.E3.83.AA.E3.83.97.E3.83.AB.E3.81.8C.E5.AD.98.E5.9C.A8.E3.81.97.E3.81.AA.E3.81.84"> スキーマ図に書かれているトリプルが存在しない </span></h3>
+<pre>
+##スキーマ図の文献例
+
+なお、スキーマ図では、insdc:Entry のインスタンス（例としてAP014957.1が使われています）
+から直接 rdfs:seeAlso  により文献 &lt;http://identifiers.org/pubmed/24280374&gt; が参照されていますが、
+実際のデータでは、このトリプルは無いように見えます。
+他のEntryインスタンスでは文献参照のトリプルがあるので、スキーマとして正しいのかと思いますが
+せっかくなので実在する例の使ったほうがいいかと思います（もしかしてある時点で無くなったの
+でしょうか）。
+</pre>
+<p>→ 要調査、おそらくGenBank, DDBJ形式ファイル実データの差異による
+→ <b>確認事項: AP014957.1 の実データに即して、スキーマ図を変更する</b>
+</p>
+<h3> <span class="mw-headline" id=".E3.82.B9.E3.82.AD.E3.83.BC.E3.83.9E.E5.9B.B3.E3.81.AE.E3.82.BF.E3.82.A4.E3.83.9D.E7.AD.89"> スキーマ図のタイポ等 </span></h3>
+<pre>
+2箇所、refs:label　となっているところがあります （正しくは、rdfs:label）。
+insdcref:pubmed 
+</pre>
+<p>→修正した
+</p>
+<h3> <span class="mw-headline" id="InterPro.E3.81.AEdb_xref.E3.81.AB.E7.A9.BA.E7.99.BD.E3.81.8C.E5.90.AB.E3.81.BE.E3.82.8C.E3.82.8B.E5.A0.B4.E5.90.88.E3.81.AB.E4.B8.8D.E6.AD.A3.E3.81.AAURI.E3.81.AB.E3.81.AA.E3.82.8B"> InterProのdb_xrefに空白が含まれる場合に不正なURIになる </span></h3>
+<pre>
+&lt;http://identifiers.org/insdc/CP002632.1#feature:915-1331:1:CDS.289540&gt;	rdfs:seeAlso	&lt;http://identifiers.org/interpro/Copper amine oxidase, N2/N3-terminal&gt; .
+</pre>
+<p>InterProのdb_xrefに空白が含まれるケースは元からあって、特定のシーケンスIDに対してアドホックな処理を入れている<a href="https://github.com/dbcls/rdfsummit/blob/ddbj-rdf-guideline/insdc2ttl/insdc2ttl.rb#L786-#L796" class="external text" rel="nofollow">コード</a>。
+</p><p>EntryIDの正規表現は/^IPR\d{6}$/のようだが<a href="https://www.ebi.ac.uk/miriam/main/datatypes/MIR:00000011" class="external text" rel="nofollow">identifier</a>、GenBankファイルには色々なIDやテキストが含まれている<a href="https://www.ncbi.nlm.nih.gov/nuccore/563399545" class="external text" rel="nofollow">NC_022987.1の例</a>。
+</p>
+<pre>
+/db_xref=&quot;InterPro:IPR001098&quot;
+/db_xref=&quot;InterPro:IPR002298&quot;
+/db_xref=&quot;InterPro:PF00476&quot;
+/db_xref=&quot;InterPro:PR00868&quot;
+/db_xref=&quot;InterPro:PTHR10133&quot;
+/db_xref=&quot;InterPro:SM00482&quot;
+/db_xref=&quot;InterPro:SSF56672&quot;
+</pre>
+<h4> <span class="mw-headline" id=".E5.AF.BE.E5.BF.9C.E6.A1.88">対応案</span></h4>
+<p>IDが/^IPR\d{6}$/の場合には従来のdb_xrefを出力し、それ以外はGenBankのページリンクを真似て下のURLを組み立てる
+</p>
+<ul><li> IDが/^IPR\d{6}$/の場合
+</li></ul>
+<pre>
+&lt;http://identifiers.org/refseq/NC_002330.1#feature:208-2592:1:CDS.1&gt;    rdfs:seeAlso    &lt;http://identifiers.org/interpro/IPR001337&gt; .
+&lt;http://identifiers.org/interpro/IPR001337&gt;     rdfs:label      &quot;IPR001337&quot; .
+&lt;http://identifiers.org/interpro/IPR001337&gt;     dc:identifier   &quot;IPR001337&quot; .
+&lt;http://identifiers.org/interpro/IPR001337&gt;     rdf:type        insdc:InterPro .
+&lt;http://identifiers.org/interpro/IPR001337&gt;     sio:SIO_000068  &lt;http://identifiers.org/interpro&gt; .  # sio:is-part-of
+</pre>
+<ul><li> IDが/^IPR\d{6}$/ではない場合
+</li></ul>
+<pre>
+&lt;http://identifiers.org/refseq/NC_002330.1#feature:208-2592:1:CDS.1&gt;    rdfs:seeAlso  &lt;http://www.ebi.ac.uk/interpro/ISearch?mode=ipr&amp;query=#{URLエスケープした文字列}&gt;
+</pre>
+<h2> <span class="mw-headline" id=".E5.AF.BE.E5.BF.9C.E4.BA.8B.E9.A0.85"> 対応事項 </span></h2>
+<p>dbcls/rdfsummitレポジトリのinsdc2ttl.rbの変更 （片山）
+</p>
+<ul><li><ol><li> &lt;Entry&gt; dcterms:identifier "[sequence_version]". トリプルの追加
+</li><li> &lt;Entry&gt; rdfs:label  "[sequence_version]". トリプルの追加
+</li><li> @prefix    dc:    &lt;<a href="http://purl.org/dc/elements/1.1/" class="external free" rel="nofollow">http://purl.org/dc/elements/1.1/</a>&gt;; . → @prefix    dc:    <a href="http://purl.org/dc/terms/" class="external free" rel="nofollow">http://purl.org/dc/terms/</a>; . に変更
+</li><li> リファレンス番号を記述しているトリプルのプロパティを sio:has-value から rdf:value に変更
+</li></ol>
+</li><li> スキーマ図の更新 v2 → v3 -tf（藤澤）
+<ol><li> スキーマ図に書かれている存在しないトリプルの関係図を消す
+</li><li> タイポの修正
+</li></ol>
+</li><li> DDBJ RDFの更新（藤澤）
+</li><li> TogoGenomeの対応（岡別府）
+</li></ul>
+
+<!-- 
+NewPP limit report
+Preprocessor node count: 194/1000000
+Post-expand include size: 0/2097152 bytes
+Template argument size: 0/2097152 bytes
+Expensive parser function count: 0/100
+-->
+
+<!-- Saved in parser cache with key wikidb-togowiki_:pcache:idhash:851-0!1!0!!ja!2!edit=0!printable=1 and timestamp 20230605022520 -->
+<div class="printfooter">
+「<a href="http://wiki.lifesciencedb.jp/mw/SPARQLthon62/DDBJ">http://wiki.lifesciencedb.jp/mw/SPARQLthon62/DDBJ</a>」より作成</div>
+		<div id='catlinks' class='catlinks catlinks-allhidden'></div>		<!-- end content -->
+				<div class="visualClear"></div>
+	</div>
+</div></div>
+<div id="column-one">
+	<div id="p-cactions" class="portlet">
+		<h5>表示</h5>
+		<div class="pBody">
+			<ul>
+				 <li id="ca-nstab-main" class="selected"><a href="/mw/SPARQLthon62/DDBJ" title="本文を表示 [c]" accesskey="c">ページ</a></li>
+				 <li id="ca-talk" class="new"><a href="/mw/index.php?title=%E3%83%8E%E3%83%BC%E3%83%88:SPARQLthon62/DDBJ&amp;action=edit&amp;redlink=1" title="記事についての議論 [t]" accesskey="t">議論</a></li>
+				 <li id="ca-viewsource"><a href="/mw/index.php?title=SPARQLthon62/DDBJ&amp;action=edit" title="このページは保護されています。&#10;ページのソースを閲覧できます。 [e]" accesskey="e">ソースを表示</a></li>
+				 <li id="ca-history"><a href="/mw/index.php?title=SPARQLthon62/DDBJ&amp;action=history" title="このページの過去の版 [h]" accesskey="h">履歴</a></li>
+			</ul>
+		</div>
+	</div>
+	<div class="portlet" id="p-personal">
+		<h5>個人用ツール</h5>
+		<div class="pBody">
+			<ul>
+				<li id="pt-anonuserpage"><a href="/mw/%E5%88%A9%E7%94%A8%E8%80%85:172.18.8.51" title="自分が編集しているIPアドレスの利用者ページ [.]" accesskey="." class="new">172.18.8.51</a></li>
+				<li id="pt-anontalk"><a href="/mw/%E5%88%A9%E7%94%A8%E8%80%85%E2%80%90%E4%BC%9A%E8%A9%B1:172.18.8.51" title="このIPアドレスからなされた編集についての議論 [n]" accesskey="n" class="new">このIPアドレスのトーク</a></li>
+				<li id="pt-anonlogin"><a href="/mw/index.php?title=%E7%89%B9%E5%88%A5:%E3%83%AD%E3%82%B0%E3%82%A4%E3%83%B3&amp;returnto=SPARQLthon62/DDBJ&amp;returntoquery=printable%3Dyes" title="ログインすることが推奨されます。ただし、必須ではありません。 [o]" accesskey="o">ログイン</a></li>
+				<li id="pt-openidlogin"><a href="/mw/index.php?title=%E7%89%B9%E5%88%A5:OpenID%E3%83%AD%E3%82%B0%E3%82%A4%E3%83%B3&amp;returnto=SPARQLthon62/DDBJ">OpenIDでログイン</a></li>
+			</ul>
+		</div>
+	</div>
+	<div class="portlet" id="p-logo">
+		<a style="background-image: url(/mw/images/togowiki-logo.png);" href="/mw/%E3%83%A1%E3%82%A4%E3%83%B3%E3%83%9A%E3%83%BC%E3%82%B8" title="メインページに移動"></a>
+	</div>
+	<script type="text/javascript"> if (window.isMSIE55) fixalpha(); </script>
+	<div class='generated-sidebar portlet' id='p-navigation'>
+		<h5>案内</h5>
+		<div class='pBody'>
+			<ul>
+				<li id="n-mainpage-description"><a href="/mw/%E3%83%A1%E3%82%A4%E3%83%B3%E3%83%9A%E3%83%BC%E3%82%B8" title="メインページに移動する [z]" accesskey="z">メインページ</a></li>
+				<li id="n-portal"><a href="/mw/TogoWiki:%E3%82%B3%E3%83%9F%E3%83%A5%E3%83%8B%E3%83%86%E3%82%A3%E3%83%BB%E3%83%9D%E3%83%BC%E3%82%BF%E3%83%AB" title="このプロジェクトについて、できること、情報を入手する場所">コミュニティ・ポータル</a></li>
+				<li id="n-currentevents"><a href="/mw/TogoWiki:%E6%9C%80%E8%BF%91%E3%81%AE%E5%87%BA%E6%9D%A5%E4%BA%8B" title="最近の出来事について予備知識を得る">最近の出来事</a></li>
+				<li id="n-recentchanges"><a href="/mw/%E7%89%B9%E5%88%A5:%E6%9C%80%E8%BF%91%E3%81%AE%E6%9B%B4%E6%96%B0" title="ウィキにおける最近の更新の一覧 [r]" accesskey="r">最近の更新</a></li>
+				<li id="n-randompage"><a href="/mw/%E7%89%B9%E5%88%A5:%E3%81%8A%E3%81%BE%E3%81%8B%E3%81%9B%E8%A1%A8%E7%A4%BA" title="無作為に抽出されたページの読み込み [x]" accesskey="x">おまかせ表示</a></li>
+				<li id="n-help"><a href="/mw/Help:%E7%9B%AE%E6%AC%A1" title="情報を得る場所">ヘルプ</a></li>
+			</ul>
+		</div>
+	</div>
+	<div id="p-search" class="portlet">
+		<h5><label for="searchInput">検索</label></h5>
+		<div id="searchBody" class="pBody">
+			<form action="/mw/index.php" id="searchform">
+				<input type='hidden' name="title" value="特別:検索"/>
+				<input id="searchInput" title="TogoWiki内を検索" accesskey="f" type="search" name="search" />
+				<input type='submit' name="go" class="searchButton" id="searchGoButton"	value="表示" title="厳密に一致する名前のページが存在すれば、そのページへ移動します" />&nbsp;
+				<input type='submit' name="fulltext" class="searchButton" id="mw-searchButton" value="検索" title="入力された文字列が含まれるページを検索します" />
+			</form>
+		</div>
+	</div>
+	<div class="portlet" id="p-tb">
+		<h5>ツールボックス</h5>
+		<div class="pBody">
+			<ul>
+				<li id="t-whatlinkshere"><a href="/mw/%E7%89%B9%E5%88%A5:%E3%83%AA%E3%83%B3%E3%82%AF%E5%85%83/SPARQLthon62/DDBJ" title="ここにリンクしている全ウィキのページの一覧 [j]" accesskey="j">リンク元</a></li>
+				<li id="t-recentchangeslinked"><a href="/mw/%E7%89%B9%E5%88%A5:%E9%96%A2%E9%80%A3%E3%83%9A%E3%83%BC%E3%82%B8%E3%81%AE%E6%9B%B4%E6%96%B0%E7%8A%B6%E6%B3%81/SPARQLthon62/DDBJ" title="このページからリンクしているページの最近の更新 [k]" accesskey="k">関連ページの更新状況</a></li>
+<li id="t-specialpages"><a href="/mw/%E7%89%B9%E5%88%A5:%E7%89%B9%E5%88%A5%E3%83%9A%E3%83%BC%E3%82%B8%E4%B8%80%E8%A6%A7" title="特別ページの一覧 [q]" accesskey="q">特別ページ</a></li>
+				<li id="t-permalink"><a href="/mw/index.php?title=SPARQLthon62/DDBJ&amp;oldid=23278" title="ページのこの版への固定リンク">この版への固定リンク</a></li>			</ul>
+		</div>
+	</div>
+</div><!-- end of the left (by default at least) column -->
+<div class="visualClear"></div>
+<div id="footer">
+	<div id="f-poweredbyico"><a href="http://www.mediawiki.org/"><img src="/mw/skins/common/images/poweredby_mediawiki_88x31.png" height="31" width="88" alt="Powered by MediaWiki" /></a></div>
+	<div id="f-copyrightico"><a href="http://creativecommons.org/licenses/by/3.0/"><img src="http://i.creativecommons.org/l/by/3.0/88x31.png" alt="Attribution 3.0 Unported" width="88" height="31" /></a></div>
+	<ul id="f-list">
+		<li id="lastmod"> このページの最終更新は 2018年1月16日 (火) 00:57 に行われました。</li>
+		<li id="viewcount">このページは4,494回アクセスされました。</li>
+		<li id="copyright">内容は<a href="http://creativecommons.org/licenses/by/3.0/" class="external ">Attribution 3.0 Unported</a>のライセンスで利用することができます。</li>
+		<li id="privacy"><a href="/mw/TogoWiki:%E3%83%97%E3%83%A9%E3%82%A4%E3%83%90%E3%82%B7%E3%83%BC%E3%83%BB%E3%83%9D%E3%83%AA%E3%82%B7%E3%83%BC" title="TogoWiki:プライバシー・ポリシー">プライバシー・ポリシー</a></li>
+		<li id="about"><a href="/mw/TogoWiki:TogoWiki%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6" title="TogoWiki:TogoWikiについて">TogoWikiについて</a></li>
+		<li id="disclaimer"><a href="/mw/TogoWiki:%E5%85%8D%E8%B2%AC%E4%BA%8B%E9%A0%85" title="TogoWiki:免責事項">免責事項</a></li>
+	</ul>
+</div>
+</div>
+
+<script>if (window.runOnloadHook) runOnloadHook();</script>
+<!-- Served in 0.375 secs. --></body></html>

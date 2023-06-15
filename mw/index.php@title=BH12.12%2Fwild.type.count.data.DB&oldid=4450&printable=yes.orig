@@ -1,0 +1,408 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html lang="ja" dir="ltr">
+<head>
+<title>BH12.12/wild.type.count.data.DB - TogoWiki</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta name="generator" content="MediaWiki 1.16.3" />
+<link rel="shortcut icon" href="/favicon.ico" />
+<link rel="search" type="application/opensearchdescription+xml" href="/mw/opensearch_desc.php" title="TogoWiki (ja)" />
+<link title="Creative Commons" type="application/rdf+xml" href="/mw/index.php?title=BH12.12/wild.type.count.data.DB&amp;action=creativecommons" rel="meta" />
+<link rel="copyright" href="http://creativecommons.org/licenses/by/3.0/" />
+<link rel="alternate" type="application/atom+xml" title="TogoWikiのAtomフィード" href="/mw/index.php?title=%E7%89%B9%E5%88%A5:%E6%9C%80%E8%BF%91%E3%81%AE%E6%9B%B4%E6%96%B0&amp;feed=atom" />
+<link rel="stylesheet" href="/mw/skins/common/commonPrint.css?270" media="" />
+<link rel="stylesheet" href="/mw/index.php?title=MediaWiki:Common.css&amp;usemsgcache=yes&amp;ctype=text%2Fcss&amp;smaxage=18000&amp;action=raw&amp;maxage=18000" />
+<link rel="stylesheet" href="/mw/index.php?title=MediaWiki:Print.css&amp;usemsgcache=yes&amp;ctype=text%2Fcss&amp;smaxage=18000&amp;action=raw&amp;maxage=18000" media="" />
+<link rel="stylesheet" href="/mw/index.php?title=MediaWiki:Monobook.css&amp;usemsgcache=yes&amp;ctype=text%2Fcss&amp;smaxage=18000&amp;action=raw&amp;maxage=18000" />
+<link rel="stylesheet" href="/mw/index.php?title=-&amp;action=raw&amp;maxage=18000&amp;gen=css" />
+<script>
+var skin="monobook",
+stylepath="/mw/skins",
+wgUrlProtocols="http\\:\\/\\/|https\\:\\/\\/|ftp\\:\\/\\/|irc\\:\\/\\/|gopher\\:\\/\\/|telnet\\:\\/\\/|nntp\\:\\/\\/|worldwind\\:\\/\\/|mailto\\:|news\\:|svn\\:\\/\\/",
+wgArticlePath="/mw/$1",
+wgScriptPath="/mw",
+wgScriptExtension=".php",
+wgScript="/mw/index.php",
+wgVariantArticlePath=false,
+wgActionPaths={},
+wgServer="http://wiki.lifesciencedb.jp",
+wgCanonicalNamespace="",
+wgCanonicalSpecialPageName=false,
+wgNamespaceNumber=0,
+wgPageName="BH12.12/wild.type.count.data.DB",
+wgTitle="BH12.12/wild.type.count.data.DB",
+wgAction="view",
+wgArticleId=182,
+wgIsArticle=true,
+wgUserName=null,
+wgUserGroups=null,
+wgUserLanguage="ja",
+wgContentLanguage="ja",
+wgBreakFrames=false,
+wgCurRevisionId=4450,
+wgVersion="1.16.3",
+wgEnableAPI=true,
+wgEnableWriteAPI=true,
+wgSeparatorTransformTable=["", ""],
+wgDigitTransformTable=["", ""],
+wgMainPageTitle="メインページ",
+wgFormattedNamespaces={"-2": "メディア", "-1": "特別", "0": "", "1": "ノート", "2": "利用者", "3": "利用者‐会話", "4": "TogoWiki", "5": "TogoWiki‐ノート", "6": "ファイル", "7": "ファイル‐ノート", "8": "MediaWiki", "9": "MediaWiki‐ノート", "10": "Template", "11": "Template‐ノート", "12": "Help", "13": "Help‐ノート", "14": "Category", "15": "Category‐ノート"},
+wgNamespaceIds={"メディア": -2, "特別": -1, "": 0, "ノート": 1, "利用者": 2, "利用者‐会話": 3, "togowiki": 4, "togowiki‐ノート": 5, "ファイル": 6, "ファイル‐ノート": 7, "mediawiki": 8, "mediawiki‐ノート": 9, "template": 10, "template‐ノート": 11, "help": 12, "help‐ノート": 13, "category": 14, "category‐ノート": 15, "画像": 6, "画像‐ノート": 7, "image": 6, "image_talk": 7},
+wgSiteName="TogoWiki",
+wgCategories=[],
+wgRestrictionEdit=[],
+wgRestrictionMove=[];
+</script><script src="/mw/skins/common/wikibits.js?270"></script>
+<script src="/mw/skins/common/ajax.js?270"></script>
+<script src="/mw/index.php?title=-&amp;action=raw&amp;gen=js&amp;useskin=monobook&amp;270"></script>
+
+		<style type='text/css'>
+		li#pt-openidlogin {
+		  background: url(/mw/extensions/OpenID/skin/icons/openid-inputicon.png) top left no-repeat;
+		  padding-left: 20px;
+		  text-transform: none;
+		}
+		</style>
+</head>
+<body class="mediawiki ltr ns-0 ns-subject page-BH12_12_wild_type_count_data_DB skin-monobook">
+<div id="globalWrapper">
+<div id="column-content"><div id="content" >
+	<a id="top"></a>
+	
+	<h1 id="firstHeading" class="firstHeading">BH12.12/wild.type.count.data.DB</h1>
+	<div id="bodyContent">
+		<h3 id="siteSub">提供：TogoWiki</h3>
+		<div id="contentSub">
+				<div id="mw-revision-info">2012年12月21日 (金) 06:42時点における<a href="/mw/index.php?title=%E5%88%A9%E7%94%A8%E8%80%85:Kohijiri&amp;action=edit&amp;redlink=1" class="new mw-userlink" title="利用者:Kohijiri（存在しないページ）">Kohijiri</a>  <span class="mw-usertoollinks">(<a href="/mw/index.php?title=%E5%88%A9%E7%94%A8%E8%80%85%E2%80%90%E4%BC%9A%E8%A9%B1:Kohijiri&amp;action=edit&amp;redlink=1" class="new" title="利用者‐会話:Kohijiri（存在しないページ）">トーク</a> | <a href="/mw/%E7%89%B9%E5%88%A5:%E6%8A%95%E7%A8%BF%E8%A8%98%E9%8C%B2/Kohijiri" title="特別:投稿記録/Kohijiri">投稿記録</a>)</span>による版</div>
+
+				<div id="mw-revision-nav">(<a href="/mw/index.php?title=BH12.12/wild.type.count.data.DB&amp;diff=prev&amp;oldid=4450" title="BH12.12/wild.type.count.data.DB">差分</a>) <a href="/mw/index.php?title=BH12.12/wild.type.count.data.DB&amp;direction=prev&amp;oldid=4450" title="BH12.12/wild.type.count.data.DB">←前の版</a> | 最新版 (差分) | 次の版→ (差分)</div>
+			</div>
+		<div id="jump-to-nav">移動： <a href="#column-one">案内</a>, <a href="#searchInput">検索</a></div>
+		<!-- start content -->
+<table id="toc" class="toc"><tr><td><div id="toctitle"><h2>目次</h2></div>
+<ul>
+<li class="toclevel-1 tocsection-1"><a href="#.E7.9B.AE.E6.A8.99"><span class="tocnumber">1</span> <span class="toctext">目標</span></a></li>
+<li class="toclevel-1 tocsection-2"><a href="#.E5.8F.82.E5.8A.A0.E8.80.85.EF.BC.88.E8.87.AA.E7.94.B1.E3.81.AB.E4.BB.98.E3.81.91.E5.8A.A0.E3.81.88.E3.81.A6.E3.81.8F.E3.81.A0.E3.81.95.E3.81.84.EF.BC.89"><span class="tocnumber">2</span> <span class="toctext">参加者（自由に付け加えてください）</span></a></li>
+<li class="toclevel-1 tocsection-3"><a href="#.E5.BD.93.E6.97.A5TODO.EF.BC.88.E8.87.AA.E7.94.B1.E3.81.AB.E4.BB.98.E3.81.91.E5.8A.A0.E3.81.88.E3.81.A6.E3.81.8F.E3.81.A0.E3.81.95.E3.81.84.EF.BC.89"><span class="tocnumber">3</span> <span class="toctext">当日TODO（自由に付け加えてください）</span></a>
+<ul>
+<li class="toclevel-2 tocsection-4"><a href="#DAY3.EF.BC.88.E7.B5.90.E6.9E.9C.EF.BC.89"><span class="tocnumber">3.1</span> <span class="toctext">DAY3（結果）</span></a></li>
+<li class="toclevel-2 tocsection-5"><a href="#DAY2"><span class="tocnumber">3.2</span> <span class="toctext">DAY2</span></a></li>
+<li class="toclevel-2 tocsection-6"><a href="#DAY1"><span class="tocnumber">3.3</span> <span class="toctext">DAY1</span></a>
+<ul>
+<li class="toclevel-3 tocsection-7"><a href="#.E8.A7.A3.E6.9E.90.E5.89.8D.E3.81.AE.E3.83.87.E3.83.BC.E3.82.BF.E3.82.84.E8.A7.A3.E6.9E.90.E3.83.84.E3.83.BC.E3.83.AB.E3.81.AE.E3.83.97.E3.83.AD.E3.83.91.E3.83.86.E3.82.A3"><span class="tocnumber">3.3.1</span> <span class="toctext">解析前のデータや解析ツールのプロパティ</span></a></li>
+<li class="toclevel-3 tocsection-8"><a href="#.E8.A7.A3.E6.9E.90.E5.BE.8C.E3.81.AE.E3.83.87.E3.83.BC.E3.82.BF.E3.81.AE.E3.83.97.E3.83.AD.E3.83.91.E3.83.86.E3.82.A3"><span class="tocnumber">3.3.2</span> <span class="toctext">解析後のデータのプロパティ</span></a></li>
+<li class="toclevel-3 tocsection-9"><a href="#.E3.83.87.E3.83.BC.E3.82.BF.E6.8A.BD.E5.87.BA"><span class="tocnumber">3.3.3</span> <span class="toctext">データ抽出</span></a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-10"><a href="#TIPS.EF.BC.88.E8.87.AA.E7.94.B1.E3.81.AB.E4.BB.98.E3.81.91.E5.8A.A0.E3.81.88.E3.81.A6.E3.81.8F.E3.81.A0.E3.81.95.E3.81.84.EF.BC.89"><span class="tocnumber">4</span> <span class="toctext">TIPS（自由に付け加えてください）</span></a></li>
+<li class="toclevel-1 tocsection-11"><a href="#.E4.BA.8B.E5.89.8DTODO.EF.BC.88.E8.87.AA.E7.94.B1.E3.81.AB.E4.BB.98.E3.81.91.E5.8A.A0.E3.81.88.E3.81.A6.E3.81.8F.E3.81.A0.E3.81.95.E3.81.84.EF.BC.89"><span class="tocnumber">5</span> <span class="toctext">事前TODO（自由に付け加えてください）</span></a>
+<ul>
+<li class="toclevel-2 tocsection-12"><a href="#.E5.AF.BE.E8.B1.A1.E3.81.A8.E3.81.99.E3.82.8B.E4.BD.93.E7.B5.84.E7.B9.94"><span class="tocnumber">5.1</span> <span class="toctext">対象とする体組織</span></a></li>
+<li class="toclevel-2 tocsection-13"><a href="#.E3.83.97.E3.83.AD.E3.83.91.E3.83.86.E3.82.A3"><span class="tocnumber">5.2</span> <span class="toctext">プロパティ</span></a></li>
+<li class="toclevel-2 tocsection-14"><a href="#RDF.E6.8A.95.E5.85.A5.E5.89.8D.E3.83.95.E3.82.A9.E3.83.BC.E3.83.9E.E3.83.83.E3.83.88"><span class="tocnumber">5.3</span> <span class="toctext">RDF投入前フォーマット</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-15"><a href="#.E8.8D.89.E6.A1.88.EF.BC.88.E8.87.AA.E7.94.B1.E3.81.AB.E4.BB.98.E3.81.91.E5.8A.A0.E3.81.88.E3.81.A6.E3.81.8F.E3.81.A0.E3.81.95.E3.81.84.EF.BC.89"><span class="tocnumber">6</span> <span class="toctext">草案（自由に付け加えてください）</span></a></li>
+<li class="toclevel-1 tocsection-16"><a href="#.E3.82.A2.E3.82.A4.E3.83.87.E3.82.A2.E5.87.BA.E3.81.97.EF.BC.88.E8.87.AA.E7.94.B1.E3.81.AB.E4.BB.98.E3.81.91.E5.8A.A0.E3.81.88.E3.81.A6.E3.81.8F.E3.81.A0.E3.81.95.E3.81.84.EF.BC.89"><span class="tocnumber">7</span> <span class="toctext">アイデア出し（自由に付け加えてください）</span></a></li>
+</ul>
+</td></tr></table><script>if (window.showTocToggle) { var tocShowText = "表示"; var tocHideText = "非表示"; showTocToggle(); } </script>
+<h2> <span class="mw-headline" id=".E7.9B.AE.E6.A8.99">目標</span></h2>
+<ul><li>wild.type.count.data.DB (野生型発現量DB)
+<ul><li>count dataがRDF化されているデータベースが存在しないため（たぶん）、RDF化してみる
+<ul><li>行列型のcount dataをRDF化にする意義はあるかどうかを、作ってから考える
+</li><li>count dataにメタ情報を関連付ける
+</li></ul>
+</li></ul>
+</li></ul>
+<p><br />
+</p>
+<ul><li><a href="http://wiki.lifesciencedb.jp/mw/index.php/BH12.12/UT_Prot" class="external text" rel="nofollow">UT_Prot</a> (UniProt/PDBで物足らない部分を補完するデータのRDF化)
+</li></ul>
+<dl><dd>同じコミュニティのプロジェクト（参考）
+</dd></dl>
+<h2> <span class="mw-headline" id=".E5.8F.82.E5.8A.A0.E8.80.85.EF.BC.88.E8.87.AA.E7.94.B1.E3.81.AB.E4.BB.98.E3.81.91.E5.8A.A0.E3.81.88.E3.81.A6.E3.81.8F.E3.81.A0.E3.81.95.E3.81.84.EF.BC.89">参加者（自由に付け加えてください）</span></h2>
+<ul><li> ◯孫建強 （東大・農）[アグリバイオインフォマティクス, NGS担当] Twitter <a href="https://twitter.com/wukong08" class="external text" rel="nofollow">@wukong08</a> | Skyepe:
+</li><li> 込山悠介 （東大・農）[LOD化担当, 監修] Twitter: <a href="https://twitter.com/YusukeKomiyama" class="external text" rel="nofollow">@YusukeKomiyama</a> | Skyepe: hoehoe2nd
+</li></ul>
+<h2> <span class="mw-headline" id=".E5.BD.93.E6.97.A5TODO.EF.BC.88.E8.87.AA.E7.94.B1.E3.81.AB.E4.BB.98.E3.81.91.E5.8A.A0.E3.81.88.E3.81.A6.E3.81.8F.E3.81.A0.E3.81.95.E3.81.84.EF.BC.89">当日TODO（自由に付け加えてください）</span></h2>
+<h3> <span class="mw-headline" id="DAY3.EF.BC.88.E7.B5.90.E6.9E.9C.EF.BC.89">DAY3（結果）</span></h3>
+<ul><li>目標
+<ul><li>リードカウントデータをRDF化
+</li><li>サンプルの組織名やマッピング方法などを指定すると、RDFデータベース中からリードカウントのデータを行列型データととして落としてくる
+</li></ul>
+</li></ul>
+<ul><li>結果
+<ul><li>RDFの定義を甘く見すぎてた
+<ul><li>RDF化に至らず
+</li></ul>
+</li><li>フラットファイルを利用したサンプル
+<ul><li>発現量データを取ってくるRのコードを簡単に作ってみた<a href="https://github.com/BILAB/BH12.12/blob/sun/sun/Kashiwa_1.0.tar.gz" class="external autonumber" rel="nofollow">[1]</a>
+</li><li>Rのコードはこんな感じに利用する
+</li><li>これをRDF DB対応に拡張したい
+</li></ul>
+</li></ul>
+</li></ul>
+<pre>
+library(Kashiwa)
+
+kashiwa &lt;- Kashiwa$new(index = &quot;index&quot;, DB = &quot;count&quot;)
+
+count &lt;- kashiwa$getCounts(SRR = c(&quot;SRR037453&quot;, &quot;SRR037457&quot;))
+head(count)
+
+
+count &lt;- kashiwa$getCounts(PMID = c(18978789, 20167110, 21029860))
+head(count)
+ </pre>
+<p><br />
+</p>
+<ul><li>リードカウントのデータベース化について
+<ul><li><ul><li>非変異型のサンプルをたくさん集めることで、リードの分布パラメーターを計算できるかもしれません
+<ul><li>サンプル組織別とか
+</li><li>マッピングツール別とか
+</li><li>replicateなしのデータの解析の際に、利用できそう
+</li></ul>
+</li></ul>
+</li></ul>
+</li></ul>
+<h3> <span class="mw-headline" id="DAY2">DAY2</span></h3>
+<ul><li>RDF化にする前のファイルを作成した<a href="https://github.com/BILAB/BH12.12/blob/sun/sun/MainTable.csv" class="external autonumber" rel="nofollow">[2]</a>
+<ul><li>全50件のSRRファイルを特定した（ヒト・非変異型のSRR）
+<ul><li>サンプルの組織は主に脳（その他にすい臓、血球なども含む）
+</li><li>SRR037452〜SRR037453のファイルに対して、リードカウントのデータを結びつけた
+<ul><li>マッピングツールやオプション情報など
+</li></ul>
+</li></ul>
+</li></ul>
+</li></ul>
+<h3> <span class="mw-headline" id="DAY1">DAY1</span></h3>
+<h4> <span class="mw-headline" id=".E8.A7.A3.E6.9E.90.E5.89.8D.E3.81.AE.E3.83.87.E3.83.BC.E3.82.BF.E3.82.84.E8.A7.A3.E6.9E.90.E3.83.84.E3.83.BC.E3.83.AB.E3.81.AE.E3.83.97.E3.83.AD.E3.83.91.E3.83.86.E3.82.A3">解析前のデータや解析ツールのプロパティ</span></h4>
+<p>データベース化に利用するプロパティ
+</p>
+<table border="1">
+<tr><td>プロパティ</td><td>フォーマット</td><td>URI</td></tr>
+<tr><td>PubMed id</td><td>1000000</td><td><a href="http://purl.obolibrary.org/obo/OBI_0001617" class="external free" rel="nofollow">http://purl.obolibrary.org/obo/OBI_0001617</a></td></tr>
+<tr><td>SRR番号</td><td>SRR000000</td><td></td></tr>
+<tr><td>サンプルの採取組織</td><td>brain</td><td><a href="http://purl.obolibrary.org/obo/FMA_9637" class="external free" rel="nofollow">http://purl.obolibrary.org/obo/FMA_9637</a></td></tr>
+<tr><td>プラットフォーム</td><td>HiSeq 2000</td><td><a href="http://bioontology.org/projects/ontologies/birnlex#birnlex_2408" class="external free" rel="nofollow">http://bioontology.org/projects/ontologies/birnlex#birnlex_2408</a></td></tr>
+<tr><td>生物種</td><td>Homo sapiens</td><td><a href="http://purl.obolibrary.org/obo/NCBITaxon_species" class="external free" rel="nofollow">http://purl.obolibrary.org/obo/NCBITaxon_species</a></td></tr>
+<tr><td>マッピングツール</td><td>bowtie2 2.0.0</td><td><a href="http://edamontology.org/topic_0102" class="external free" rel="nofollow">http://edamontology.org/topic_0102</a></td></tr>
+<tr><td>マッピングツールオプション</td><td>-D 5 -R 1 -N 0 -L 22 -i S,0,2.50 -x &lt;bt2-idx&gt; {-1 &lt;m1&gt; -2 &lt;m2&gt; | -U &lt;r&gt;} -S [&lt;hit&gt;]</td><td>URI</td></tr>
+<tr><td>解析ツール</td><td>HTSeq 0.5.0</td><td><a href="http://edamontology.org/operation_2498" class="external free" rel="nofollow">http://edamontology.org/operation_2498</a></td></tr>
+<tr><td>解析ツールオプション</td><td>-m union -a -t exon </td><td>URI</td></tr>
+<tr><td>Ensembl ID</td><td></td><td><a href="http://edamontology.org/data_2610" class="external free" rel="nofollow">http://edamontology.org/data_2610</a></td></tr>
+<tr><td>タグ（リード）カウント</td><td></td><td><a href="http://purl.obolibrary.org/obo/GO_0010467" class="external free" rel="nofollow">http://purl.obolibrary.org/obo/GO_0010467</a></td></tr>
+</table>
+<h4> <span class="mw-headline" id=".E8.A7.A3.E6.9E.90.E5.BE.8C.E3.81.AE.E3.83.87.E3.83.BC.E3.82.BF.E3.81.AE.E3.83.97.E3.83.AD.E3.83.91.E3.83.86.E3.82.A3"><del>解析後のデータのプロパティ</del></span></h4>
+<p><del>
+メインテーブルからリンクされる。
+解析後のデータは行列型のデータとする。
+遺伝子名はEnsembl IDに統一する。
+</del>
+</p>
+<table border="1">
+<tr><td>Ensembl ID</td><td>Count</td></tr>
+<tr><td>ENSG00000141510</td><td>10</td></tr>
+<tr><td>ENSG00000141511</td><td>13</td></tr>
+<tr><td>ENSG00000141512</td><td>2</td></tr>
+</table>
+<h4> <span class="mw-headline" id=".E3.83.87.E3.83.BC.E3.82.BF.E6.8A.BD.E5.87.BA">データ抽出</span></h4>
+<ul><li><ul><li>PubMedId.brain.txtにある59論文のabstractをダウンロード
+</li><li>SRR番号、PubMed ID、プラットフォームなどを記録
+</li><li>19件調べた（うち、10件は欲しいデータがなかった）
+</li></ul>
+</li></ul>
+<h2> <span class="mw-headline" id="TIPS.EF.BC.88.E8.87.AA.E7.94.B1.E3.81.AB.E4.BB.98.E3.81.91.E5.8A.A0.E3.81.88.E3.81.A6.E3.81.8F.E3.81.A0.E3.81.95.E3.81.84.EF.BC.89"> TIPS（自由に付け加えてください）</span></h2>
+<ul><li>ツール
+</li></ul>
+<dl><dd><a href="https://github.com/BILAB/BH12.12" class="external text" rel="nofollow">GitHub BH12.12</a>
+</dd></dl>
+<ul><li>データベース
+<ul><li><a href="http://sra.dbcls.jp" class="external text" rel="nofollow">DBCLS SRA</a>
+</li></ul>
+</li></ul>
+<dl><dd>SRA, DRAの統合検索ができるデータベース
+</dd></dl>
+<ul><li><ul><li><a href="http://g86.dbcls.jp/kusarinoko" class="external text" rel="nofollow">"kusarinoko: Search SRA Entries with PubMed Article (Beta)"</a>
+</li></ul>
+</li></ul>
+<dl><dd>SRAとPubMedの統合検索ができるデータベース
+</dd></dl>
+<ul><li>リファレンス
+</li></ul>
+<h2> <span class="mw-headline" id=".E4.BA.8B.E5.89.8DTODO.EF.BC.88.E8.87.AA.E7.94.B1.E3.81.AB.E4.BB.98.E3.81.91.E5.8A.A0.E3.81.88.E3.81.A6.E3.81.8F.E3.81.A0.E3.81.95.E3.81.84.EF.BC.89">事前TODO（自由に付け加えてください）</span></h2>
+<ul><li>SRAまたはDRAに登録されているデータのカテゴリ分けルールを調べる
+</li><li>カウントデータをRDF化する際のフォーマットを考える
+</li><li>TopHatとHTSeqのオプションのチューニング
+<ul><li>今回はBowtie2を利用してマッピングしたデータをサンプルに用いる
+</li></ul>
+</li></ul>
+<dl><dd><dl><dd>human brainに関して解析済みのカウントデータのSRRのIDをリストアップ
+</dd><dd><a href="https://github.com/BILAB/BH12.12/blob/sun/sun/SRR.wild-type-sample-id.txt" class="external text" rel="nofollow">SRR.wild-type-sample-id.txt</a>
+</dd></dl>
+</dd></dl>
+<h4> <span class="mw-headline" id=".E5.AF.BE.E8.B1.A1.E3.81.A8.E3.81.99.E3.82.8B.E4.BD.93.E7.B5.84.E7.B9.94">対象とする体組織</span></h4>
+<dl><dd>実際には複数の組織の野生株のカウントデータを対象にしたいが, 本ハッカソン中はこれに着目ヒト・脳にしぼり取り扱う.
+</dd></dl>
+<ul><li>kusarinoko にてクエリを"wild brain"でhumanを検索. SRAのIDを持つPubMed中の論文は59件ヒット. resultのPMIDをリスト化した.
+</li></ul>
+<dl><dd><dl><dd><a href="https://github.com/BILAB/BH12.12/blob/sun/sun/PubMedId.brain.txt" class="external text" rel="nofollow">PubMedId.brain.txt</a>
+</dd></dl>
+</dd></dl>
+<h4> <span class="mw-headline" id=".E3.83.97.E3.83.AD.E3.83.91.E3.83.86.E3.82.A3">プロパティ</span></h4>
+<table>
+<tr><td>SRR番号</td><td></td></tr>
+<tr><td>細胞が属する組織の名前</td><td><a href="http://purl.obolibrary.org/obo/FMA_9637" class="external free" rel="nofollow">http://purl.obolibrary.org/obo/FMA_9637</a></td></tr>
+<tr><td>シーケンサーの種類</td><td><a href="http://bioontology.org/projects/ontologies/birnlex#birnlex_2408" class="external free" rel="nofollow">http://bioontology.org/projects/ontologies/birnlex#birnlex_2408</a></td></tr>
+<tr><td>生物の種名</td><td><a href="http://purl.obolibrary.org/obo/NCBITaxon_species" class="external free" rel="nofollow">http://purl.obolibrary.org/obo/NCBITaxon_species</a></td></tr>
+<tr><td>リードをリファレンスへマッピングするソフトウェアの名前</td><td><a href="http://edamontology.org/topic_0102" class="external free" rel="nofollow">http://edamontology.org/topic_0102</a></td></tr>
+<tr><td>マッピング結果からカウントデータを計算するソフトウェアの名前　</td><td><a href="http://edamontology.org/operation_2498" class="external free" rel="nofollow">http://edamontology.org/operation_2498</a></td></tr>
+<tr><td>タグカウントデータ</td><td><a href="http://purl.obolibrary.org/obo/GO_0010467" class="external free" rel="nofollow">http://purl.obolibrary.org/obo/GO_0010467</a></td></tr>
+<tr><td>Ensembl ID</td><td><a href="http://edamontology.org/data_2610" class="external free" rel="nofollow">http://edamontology.org/data_2610</a></td></tr>
+</table>
+<h4> <span class="mw-headline" id="RDF.E6.8A.95.E5.85.A5.E5.89.8D.E3.83.95.E3.82.A9.E3.83.BC.E3.83.9E.E3.83.83.E3.83.88">RDF投入前フォーマット</span></h4>
+<p>RDF投入前のフォーマット
+</p>
+<table border="1" style="border-collapse:collapse;padding:3px;">
+<tr><td>id</td><td>SRR番号</td><td>サンプルの組織名</td><td>シーケンサ種類</td><td>種名</td><td>マッピングツール</td><td>解析ツール</td><td>BodyParts3D id</td><td></td></tr>
+<tr><td>1</td><td>SRR00000</td><td>brain</td><td>HiSeq 2000</td><td>Homo sapiens</td><td>Bowtie2</td><td>HTSeq</td><td>FMA_0000</td><td>？</td></tr>
+<tr><td>2</td><td>SRR00001</td><td>brain</td><td>5500 SOLiD</td><td>Homo sapiens</td><td>TopHat</td><td>HTSeq</td><td>FMA_0000</td><td>？</td></tr>
+</table>
+<p><br />
+</p>
+<table border="1" style="border-collapse:collapse;padding:3px;">
+<tr><td>Ensembl ID</td><td>発現量（タグカウントデータ）</td></tr>
+<tr><td>ENSG00000141510</td><td>20</td></tr>
+<tr><td>ENSG00000141511</td><td>2</td></tr>
+</table>
+<h2> <span class="mw-headline" id=".E8.8D.89.E6.A1.88.EF.BC.88.E8.87.AA.E7.94.B1.E3.81.AB.E4.BB.98.E3.81.91.E5.8A.A0.E3.81.88.E3.81.A6.E3.81.8F.E3.81.A0.E3.81.95.E3.81.84.EF.BC.89">草案（自由に付け加えてください）</span></h2>
+<p>◯count.data DBの作成（孫）
+</p>
+<ul><li>ヒトとシロイヌナズナのシーケンサーデータを集める
+<ul><li>シーケンサーデータをSRAまたはDRAから集める
+</li><li>そのデータに関連する論文を取り出す
+</li><li>論文からデータに関するメタ情報（サンプルの組織や実験環境など）を抽出する
+</li><li>野生株のデータだけをピックアップ
+</li></ul>
+</li><li>マッピングや発現量の計算など
+<ul><li>TopHat
+</li><li>HTSeq
+</li><li>RSEM
+</li></ul>
+</li><li>RDF化
+<ul><li>計算されたカウントデータと論文から抽出したメタ情報の関連付けを行う
+</li><li>RDF化する
+</li></ul>
+</li></ul>
+<h2> <span class="mw-headline" id=".E3.82.A2.E3.82.A4.E3.83.87.E3.82.A2.E5.87.BA.E3.81.97.EF.BC.88.E8.87.AA.E7.94.B1.E3.81.AB.E4.BB.98.E3.81.91.E5.8A.A0.E3.81.88.E3.81.A6.E3.81.8F.E3.81.A0.E3.81.95.E3.81.84.EF.BC.89">アイデア出し（自由に付け加えてください）</span></h2>
+<ul><li>ゲノムアノテーション, op.ENcodeやテキストマイニングのグループとも協調する
+</li></ul>
+<pre>
+kusarinoko
+   |
+   |
+ PubMed id  -----&gt; togows
+ SRA id -----        |
+            |       \|/
+            |       注釈（細胞組織、シーケンサーの型など）
+            |        | 
+            |       \|/
+            -----&gt; RDF化
+                    /|\
+BodyParts3D ---------|
+(FMA id)
+</pre>
+
+<!-- 
+NewPP limit report
+Preprocessor node count: 78/1000000
+Post-expand include size: 0/2097152 bytes
+Template argument size: 0/2097152 bytes
+Expensive parser function count: 0/100
+-->
+
+<!-- Saved in parser cache with key wikidb-togowiki_:pcache:idhash:182-0!1!0!!ja!2!edit=0!printable=1 and timestamp 20230605030910 -->
+<div class="printfooter">
+「<a href="http://wiki.lifesciencedb.jp/mw/BH12.12/wild.type.count.data.DB">http://wiki.lifesciencedb.jp/mw/BH12.12/wild.type.count.data.DB</a>」より作成</div>
+		<div id='catlinks' class='catlinks catlinks-allhidden'></div>		<!-- end content -->
+				<div class="visualClear"></div>
+	</div>
+</div></div>
+<div id="column-one">
+	<div id="p-cactions" class="portlet">
+		<h5>表示</h5>
+		<div class="pBody">
+			<ul>
+				 <li id="ca-nstab-main" class="selected"><a href="/mw/BH12.12/wild.type.count.data.DB" title="本文を表示 [c]" accesskey="c">ページ</a></li>
+				 <li id="ca-talk" class="new"><a href="/mw/index.php?title=%E3%83%8E%E3%83%BC%E3%83%88:BH12.12/wild.type.count.data.DB&amp;action=edit&amp;redlink=1" title="記事についての議論 [t]" accesskey="t">議論</a></li>
+				 <li id="ca-viewsource"><a href="/mw/index.php?title=BH12.12/wild.type.count.data.DB&amp;action=edit" title="このページは保護されています。&#10;ページのソースを閲覧できます。 [e]" accesskey="e">ソースを表示</a></li>
+				 <li id="ca-history"><a href="/mw/index.php?title=BH12.12/wild.type.count.data.DB&amp;action=history" title="このページの過去の版 [h]" accesskey="h">履歴</a></li>
+			</ul>
+		</div>
+	</div>
+	<div class="portlet" id="p-personal">
+		<h5>個人用ツール</h5>
+		<div class="pBody">
+			<ul>
+				<li id="pt-anonuserpage"><a href="/mw/%E5%88%A9%E7%94%A8%E8%80%85:172.18.8.51" title="自分が編集しているIPアドレスの利用者ページ [.]" accesskey="." class="new">172.18.8.51</a></li>
+				<li id="pt-anontalk"><a href="/mw/%E5%88%A9%E7%94%A8%E8%80%85%E2%80%90%E4%BC%9A%E8%A9%B1:172.18.8.51" title="このIPアドレスからなされた編集についての議論 [n]" accesskey="n" class="new">このIPアドレスのトーク</a></li>
+				<li id="pt-anonlogin"><a href="/mw/index.php?title=%E7%89%B9%E5%88%A5:%E3%83%AD%E3%82%B0%E3%82%A4%E3%83%B3&amp;returnto=BH12.12/wild.type.count.data.DB&amp;returntoquery=oldid%3D4450%26printable%3Dyes" title="ログインすることが推奨されます。ただし、必須ではありません。 [o]" accesskey="o">ログイン</a></li>
+				<li id="pt-openidlogin"><a href="/mw/index.php?title=%E7%89%B9%E5%88%A5:OpenID%E3%83%AD%E3%82%B0%E3%82%A4%E3%83%B3&amp;returnto=BH12.12/wild.type.count.data.DB">OpenIDでログイン</a></li>
+			</ul>
+		</div>
+	</div>
+	<div class="portlet" id="p-logo">
+		<a style="background-image: url(/mw/images/togowiki-logo.png);" href="/mw/%E3%83%A1%E3%82%A4%E3%83%B3%E3%83%9A%E3%83%BC%E3%82%B8" title="メインページに移動"></a>
+	</div>
+	<script type="text/javascript"> if (window.isMSIE55) fixalpha(); </script>
+	<div class='generated-sidebar portlet' id='p-navigation'>
+		<h5>案内</h5>
+		<div class='pBody'>
+			<ul>
+				<li id="n-mainpage-description"><a href="/mw/%E3%83%A1%E3%82%A4%E3%83%B3%E3%83%9A%E3%83%BC%E3%82%B8" title="メインページに移動する [z]" accesskey="z">メインページ</a></li>
+				<li id="n-portal"><a href="/mw/TogoWiki:%E3%82%B3%E3%83%9F%E3%83%A5%E3%83%8B%E3%83%86%E3%82%A3%E3%83%BB%E3%83%9D%E3%83%BC%E3%82%BF%E3%83%AB" title="このプロジェクトについて、できること、情報を入手する場所">コミュニティ・ポータル</a></li>
+				<li id="n-currentevents"><a href="/mw/TogoWiki:%E6%9C%80%E8%BF%91%E3%81%AE%E5%87%BA%E6%9D%A5%E4%BA%8B" title="最近の出来事について予備知識を得る">最近の出来事</a></li>
+				<li id="n-recentchanges"><a href="/mw/%E7%89%B9%E5%88%A5:%E6%9C%80%E8%BF%91%E3%81%AE%E6%9B%B4%E6%96%B0" title="ウィキにおける最近の更新の一覧 [r]" accesskey="r">最近の更新</a></li>
+				<li id="n-randompage"><a href="/mw/%E7%89%B9%E5%88%A5:%E3%81%8A%E3%81%BE%E3%81%8B%E3%81%9B%E8%A1%A8%E7%A4%BA" title="無作為に抽出されたページの読み込み [x]" accesskey="x">おまかせ表示</a></li>
+				<li id="n-help"><a href="/mw/Help:%E7%9B%AE%E6%AC%A1" title="情報を得る場所">ヘルプ</a></li>
+			</ul>
+		</div>
+	</div>
+	<div id="p-search" class="portlet">
+		<h5><label for="searchInput">検索</label></h5>
+		<div id="searchBody" class="pBody">
+			<form action="/mw/index.php" id="searchform">
+				<input type='hidden' name="title" value="特別:検索"/>
+				<input id="searchInput" title="TogoWiki内を検索" accesskey="f" type="search" name="search" />
+				<input type='submit' name="go" class="searchButton" id="searchGoButton"	value="表示" title="厳密に一致する名前のページが存在すれば、そのページへ移動します" />&nbsp;
+				<input type='submit' name="fulltext" class="searchButton" id="mw-searchButton" value="検索" title="入力された文字列が含まれるページを検索します" />
+			</form>
+		</div>
+	</div>
+	<div class="portlet" id="p-tb">
+		<h5>ツールボックス</h5>
+		<div class="pBody">
+			<ul>
+				<li id="t-whatlinkshere"><a href="/mw/%E7%89%B9%E5%88%A5:%E3%83%AA%E3%83%B3%E3%82%AF%E5%85%83/BH12.12/wild.type.count.data.DB" title="ここにリンクしている全ウィキのページの一覧 [j]" accesskey="j">リンク元</a></li>
+				<li id="t-recentchangeslinked"><a href="/mw/%E7%89%B9%E5%88%A5:%E9%96%A2%E9%80%A3%E3%83%9A%E3%83%BC%E3%82%B8%E3%81%AE%E6%9B%B4%E6%96%B0%E7%8A%B6%E6%B3%81/BH12.12/wild.type.count.data.DB" title="このページからリンクしているページの最近の更新 [k]" accesskey="k">関連ページの更新状況</a></li>
+<li id="t-specialpages"><a href="/mw/%E7%89%B9%E5%88%A5:%E7%89%B9%E5%88%A5%E3%83%9A%E3%83%BC%E3%82%B8%E4%B8%80%E8%A6%A7" title="特別ページの一覧 [q]" accesskey="q">特別ページ</a></li>
+				<li id="t-permalink"><a href="/mw/index.php?title=BH12.12/wild.type.count.data.DB&amp;oldid=4450" title="ページのこの版への固定リンク">この版への固定リンク</a></li>			</ul>
+		</div>
+	</div>
+</div><!-- end of the left (by default at least) column -->
+<div class="visualClear"></div>
+<div id="footer">
+	<div id="f-poweredbyico"><a href="http://www.mediawiki.org/"><img src="/mw/skins/common/images/poweredby_mediawiki_88x31.png" height="31" width="88" alt="Powered by MediaWiki" /></a></div>
+	<div id="f-copyrightico"><a href="http://creativecommons.org/licenses/by/3.0/"><img src="http://i.creativecommons.org/l/by/3.0/88x31.png" alt="Attribution 3.0 Unported" width="88" height="31" /></a></div>
+	<ul id="f-list">
+		<li id="copyright">内容は<a href="http://creativecommons.org/licenses/by/3.0/" class="external ">Attribution 3.0 Unported</a>のライセンスで利用することができます。</li>
+		<li id="privacy"><a href="/mw/TogoWiki:%E3%83%97%E3%83%A9%E3%82%A4%E3%83%90%E3%82%B7%E3%83%BC%E3%83%BB%E3%83%9D%E3%83%AA%E3%82%B7%E3%83%BC" title="TogoWiki:プライバシー・ポリシー">プライバシー・ポリシー</a></li>
+		<li id="about"><a href="/mw/TogoWiki:TogoWiki%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6" title="TogoWiki:TogoWikiについて">TogoWikiについて</a></li>
+		<li id="disclaimer"><a href="/mw/TogoWiki:%E5%85%8D%E8%B2%AC%E4%BA%8B%E9%A0%85" title="TogoWiki:免責事項">免責事項</a></li>
+	</ul>
+</div>
+</div>
+
+<script>if (window.runOnloadHook) runOnloadHook();</script>
+<!-- Served in 0.639 secs. --></body></html>

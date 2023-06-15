@@ -1,0 +1,333 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html lang="ja" dir="ltr">
+<head>
+<title>オルソログクラスターへの自動命名手法の開発 - TogoWiki</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta name="generator" content="MediaWiki 1.16.3" />
+<meta name="robots" content="noindex,nofollow" />
+<link rel="shortcut icon" href="http://wiki.lifesciencedb.jp/favicon.ico" />
+<link rel="search" type="application/opensearchdescription+xml" href="http://wiki.lifesciencedb.jp/mw/opensearch_desc.php" title="TogoWiki (ja)" />
+<link title="Creative Commons" type="application/rdf+xml" href="index.php@title=オルソログクラスターへの自動命名手法の開発&amp;action=creativecommons" rel="meta" />
+<link rel="copyright" href="http://creativecommons.org/licenses/by/3.0/" />
+<link rel="alternate" type="application/atom+xml" title="TogoWikiのAtomフィード" href="http://wiki.lifesciencedb.jp/mw/index.php?title=%E7%89%B9%E5%88%A5:%E6%9C%80%E8%BF%91%E3%81%AE%E6%9B%B4%E6%96%B0&amp;feed=atom" />
+<link rel="stylesheet" href="http://wiki.lifesciencedb.jp/mw/skins/common/diff.css?270" />
+<link rel="stylesheet" href="http://wiki.lifesciencedb.jp/mw/skins/common/shared.css?270" media="screen" />
+<link rel="stylesheet" href="http://wiki.lifesciencedb.jp/mw/skins/common/commonPrint.css?270" media="print" />
+<link rel="stylesheet" href="http://wiki.lifesciencedb.jp/mw/skins/monobook/main.css?270" media="screen" />
+<!--[if lt IE 5.5000]><link rel="stylesheet" href="/mw/skins/monobook/IE50Fixes.css?270" media="screen" /><![endif]-->
+<!--[if IE 5.5000]><link rel="stylesheet" href="/mw/skins/monobook/IE55Fixes.css?270" media="screen" /><![endif]-->
+<!--[if IE 6]><link rel="stylesheet" href="/mw/skins/monobook/IE60Fixes.css?270" media="screen" /><![endif]-->
+<!--[if IE 7]><link rel="stylesheet" href="/mw/skins/monobook/IE70Fixes.css?270" media="screen" /><![endif]-->
+<link rel="stylesheet" href="http://wiki.lifesciencedb.jp/mw/index.php?title=MediaWiki:Common.css&amp;usemsgcache=yes&amp;ctype=text%2Fcss&amp;smaxage=18000&amp;action=raw&amp;maxage=18000" />
+<link rel="stylesheet" href="http://wiki.lifesciencedb.jp/mw/index.php?title=MediaWiki:Print.css&amp;usemsgcache=yes&amp;ctype=text%2Fcss&amp;smaxage=18000&amp;action=raw&amp;maxage=18000" media="print" />
+<link rel="stylesheet" href="http://wiki.lifesciencedb.jp/mw/index.php?title=MediaWiki:Monobook.css&amp;usemsgcache=yes&amp;ctype=text%2Fcss&amp;smaxage=18000&amp;action=raw&amp;maxage=18000" />
+<link rel="stylesheet" href="http://wiki.lifesciencedb.jp/mw/index.php?title=-&amp;action=raw&amp;maxage=18000&amp;gen=css" />
+<script>
+var skin="monobook",
+stylepath="/mw/skins",
+wgUrlProtocols="http\\:\\/\\/|https\\:\\/\\/|ftp\\:\\/\\/|irc\\:\\/\\/|gopher\\:\\/\\/|telnet\\:\\/\\/|nntp\\:\\/\\/|worldwind\\:\\/\\/|mailto\\:|news\\:|svn\\:\\/\\/",
+wgArticlePath="/mw/$1",
+wgScriptPath="/mw",
+wgScriptExtension=".php",
+wgScript="/mw/index.php",
+wgVariantArticlePath=false,
+wgActionPaths={},
+wgServer="http://wiki.lifesciencedb.jp",
+wgCanonicalNamespace="",
+wgCanonicalSpecialPageName=false,
+wgNamespaceNumber=0,
+wgPageName="オルソログクラスターへの自動命名手法の開発",
+wgTitle="オルソログクラスターへの自動命名手法の開発",
+wgAction="view",
+wgArticleId=46,
+wgIsArticle=true,
+wgUserName=null,
+wgUserGroups=null,
+wgUserLanguage="ja",
+wgContentLanguage="ja",
+wgBreakFrames=false,
+wgCurRevisionId=9110,
+wgVersion="1.16.3",
+wgEnableAPI=true,
+wgEnableWriteAPI=true,
+wgSeparatorTransformTable=["", ""],
+wgDigitTransformTable=["", ""],
+wgMainPageTitle="メインページ",
+wgFormattedNamespaces={"-2": "メディア", "-1": "特別", "0": "", "1": "ノート", "2": "利用者", "3": "利用者‐会話", "4": "TogoWiki", "5": "TogoWiki‐ノート", "6": "ファイル", "7": "ファイル‐ノート", "8": "MediaWiki", "9": "MediaWiki‐ノート", "10": "Template", "11": "Template‐ノート", "12": "Help", "13": "Help‐ノート", "14": "Category", "15": "Category‐ノート"},
+wgNamespaceIds={"メディア": -2, "特別": -1, "": 0, "ノート": 1, "利用者": 2, "利用者‐会話": 3, "togowiki": 4, "togowiki‐ノート": 5, "ファイル": 6, "ファイル‐ノート": 7, "mediawiki": 8, "mediawiki‐ノート": 9, "template": 10, "template‐ノート": 11, "help": 12, "help‐ノート": 13, "category": 14, "category‐ノート": 15, "画像": 6, "画像‐ノート": 7, "image": 6, "image_talk": 7},
+wgSiteName="TogoWiki",
+wgCategories=["Bh10.10", "TogoAnnotator"],
+wgRestrictionEdit=[],
+wgRestrictionMove=[];
+</script><script src="http://wiki.lifesciencedb.jp/mw/skins/common/wikibits.js?270"></script>
+<script type="text/javascript" src="http://wiki.lifesciencedb.jp/mw/skins/common/diff.js?270"></script>
+<script src="http://wiki.lifesciencedb.jp/mw/skins/common/ajax.js?270"></script>
+<script src="http://wiki.lifesciencedb.jp/mw/index.php?title=-&amp;action=raw&amp;gen=js&amp;useskin=monobook&amp;270"></script>
+
+		<style type='text/css'>
+		li#pt-openidlogin {
+		  background: url(http://wiki.lifesciencedb.jp/mw/extensions/OpenID/skin/icons/openid-inputicon.png) top left no-repeat;
+		  padding-left: 20px;
+		  text-transform: none;
+		}
+		</style>
+</head>
+<body class="mediawiki ltr ns-0 ns-subject page-オルソログクラスターへの自動命名手法の開発 skin-monobook">
+<div id="globalWrapper">
+<div id="column-content"><div id="content" >
+	<a id="top"></a>
+	
+	<h1 id="firstHeading" class="firstHeading">オルソログクラスターへの自動命名手法の開発</h1>
+	<div id="bodyContent">
+		<h3 id="siteSub">提供：TogoWiki</h3>
+		<div id="contentSub">（版間での差分）</div>
+		<div id="jump-to-nav">移動： <a href="index.php@title=オルソログクラスターへの自動命名手法の開発&amp;diff=prev&amp;oldid=9110.html#column-one">案内</a>, <a href="index.php@title=オルソログクラスターへの自動命名手法の開発&amp;diff=prev&amp;oldid=9110.html#searchInput">検索</a></div>
+		<!-- start content -->
+<table class='diff'>
+			<col class='diff-marker' />
+			<col class='diff-content' />
+			<col class='diff-marker' />
+			<col class='diff-content' />
+		<tr valign='top'>
+		<td colspan='2' class='diff-otitle'><div id="mw-diff-otitle1"><strong><a href='http://wiki.lifesciencedb.jp/mw/index.php?title=%E3%82%AA%E3%83%AB%E3%82%BD%E3%83%AD%E3%82%B0%E3%82%AF%E3%83%A9%E3%82%B9%E3%82%BF%E3%83%BC%E3%81%B8%E3%81%AE%E8%87%AA%E5%8B%95%E5%91%BD%E5%90%8D%E6%89%8B%E6%B3%95%E3%81%AE%E9%96%8B%E7%99%BA&amp;oldid=830'>2010年11月15日 (月) 06:26時点における版</a> (<a href='http://wiki.lifesciencedb.jp/mw/index.php?title=%E3%82%AA%E3%83%AB%E3%82%BD%E3%83%AD%E3%82%B0%E3%82%AF%E3%83%A9%E3%82%B9%E3%82%BF%E3%83%BC%E3%81%B8%E3%81%AE%E8%87%AA%E5%8B%95%E5%91%BD%E5%90%8D%E6%89%8B%E6%B3%95%E3%81%AE%E9%96%8B%E7%99%BA&amp;action=edit&amp;oldid=830'>ソースを表示</a>)</strong></div><div id="mw-diff-otitle2"><a href="http://wiki.lifesciencedb.jp/mw/index.php?title=%E5%88%A9%E7%94%A8%E8%80%85:Synobu&amp;action=edit&amp;redlink=1" class="new mw-userlink" title="利用者:Synobu（存在しないページ）">Synobu</a>  <span class="mw-usertoollinks">(<a href="http://wiki.lifesciencedb.jp/mw/index.php?title=%E5%88%A9%E7%94%A8%E8%80%85%E2%80%90%E4%BC%9A%E8%A9%B1:Synobu&amp;action=edit&amp;redlink=1" class="new" title="利用者‐会話:Synobu（存在しないページ）">トーク</a> | <a href="特別%253A投稿記録/Synobu.html" title="特別:投稿記録/Synobu">投稿記録</a>)</span></div><div id="mw-diff-otitle3"> <span class="comment">(<span class="autocomment"><a href="index.php@title=オルソログクラスターへの自動命名手法の開発&amp;diff=prev&amp;oldid=9110.html#.E5.8F.82.E5.8A.A0.E8.80.85">→</a>参加者</span>)</span></div><div id="mw-diff-otitle4"><a href="http://wiki.lifesciencedb.jp/mw/index.php?title=%E3%82%AA%E3%83%AB%E3%82%BD%E3%83%AD%E3%82%B0%E3%82%AF%E3%83%A9%E3%82%B9%E3%82%BF%E3%83%BC%E3%81%B8%E3%81%AE%E8%87%AA%E5%8B%95%E5%91%BD%E5%90%8D%E6%89%8B%E6%B3%95%E3%81%AE%E9%96%8B%E7%99%BA&amp;diff=prev&amp;oldid=830" title="オルソログクラスターへの自動命名手法の開発" id="differences-prevlink">←古い編集</a></div></td>
+		<td colspan='2' class='diff-ntitle'><div id="mw-diff-ntitle1"><strong><a href='index.php@title=オルソログクラスターへの自動命名手法の開発&amp;oldid=9110.html'>2013年8月21日 (水) 10:26時点における最新版</a> (<a href='index.php@title=オルソログクラスターへの自動命名手法の開発&amp;action=edit.html'>ソースを表示</a>)</strong></div><div id="mw-diff-ntitle2"><a href="http://wiki.lifesciencedb.jp/mw/%E5%88%A9%E7%94%A8%E8%80%85:Tfuji" title="利用者:Tfuji" class="mw-userlink">Tfuji</a>  <span class="mw-usertoollinks">(<a href="http://wiki.lifesciencedb.jp/mw/index.php?title=%E5%88%A9%E7%94%A8%E8%80%85%E2%80%90%E4%BC%9A%E8%A9%B1:Tfuji&amp;action=edit&amp;redlink=1" class="new" title="利用者‐会話:Tfuji（存在しないページ）">トーク</a> | <a href="http://wiki.lifesciencedb.jp/mw/%E7%89%B9%E5%88%A5:%E6%8A%95%E7%A8%BF%E8%A8%98%E9%8C%B2/Tfuji" title="特別:投稿記録/Tfuji">投稿記録</a>)</span> </div><div id="mw-diff-ntitle3"></div><div id="mw-diff-ntitle4">&nbsp;</div></td>
+		</tr><tr><td colspan="2" class="diff-lineno">112行：</td>
+<td colspan="2" class="diff-lineno">112行：</td></tr>
+<tr><td class='diff-marker'> </td><td class='diff-context'></td><td class='diff-marker'> </td><td class='diff-context'></td></tr>
+<tr><td class='diff-marker'> </td><td class='diff-context'><div>[[Category:bh10.10]]</div></td><td class='diff-marker'> </td><td class='diff-context'><div>[[Category:bh10.10]]</div></td></tr>
+<tr><td colspan="2">&nbsp;</td><td class='diff-marker'>+</td><td class='diff-addedline'><div><ins class="diffchange">[[Category:TogoAnnotator]]</ins></div></td></tr>
+</table><hr /><h2>2013年8月21日 (水) 10:26時点における最新版</h2>
+<table id="toc" class="toc"><tr><td><div id="toctitle"><h2>目次</h2></div>
+<ul>
+<li class="toclevel-1 tocsection-1"><a href="index.php@title=オルソログクラスターへの自動命名手法の開発&amp;diff=prev&amp;oldid=9110.html#togoAnnotator"><span class="tocnumber">1</span> <span class="toctext">togoAnnotator</span></a></li>
+<li class="toclevel-1 tocsection-2"><a href="index.php@title=オルソログクラスターへの自動命名手法の開発&amp;diff=prev&amp;oldid=9110.html#.E3.83.86.E3.82.AF.E3.83.8B.E3.82.AB.E3.83.AB.E3.82.BF.E3.83.BC.E3.83.A0.E3.81.AE.E7.B5.B1.E4.B8.80_-all"><span class="tocnumber">2</span> <span class="toctext">テクニカルタームの統一 -all</span></a></li>
+<li class="toclevel-1 tocsection-3"><a href="index.php@title=オルソログクラスターへの自動命名手法の開発&amp;diff=prev&amp;oldid=9110.html#.E6.A9.9F.E8.83.BD.E6.94.B9.E5.96.84_-all"><span class="tocnumber">3</span> <span class="toctext">機能改善 -all</span></a></li>
+<li class="toclevel-1 tocsection-4"><a href="index.php@title=オルソログクラスターへの自動命名手法の開発&amp;diff=prev&amp;oldid=9110.html#.E5.85.A5.E5.87.BA.E5.8A.9B.E3.83.87.E3.83.BC.E3.82.BF_-all"><span class="tocnumber">4</span> <span class="toctext">入出力データ -all</span></a></li>
+<li class="toclevel-1 tocsection-5"><a href="index.php@title=オルソログクラスターへの自動命名手法の開発&amp;diff=prev&amp;oldid=9110.html#.E5.85.A5.E5.8A.9B.E3.83.87.E3.83.BC.E3.82.BF.E3.83.BC.E3.81.AE.E5.89.8D.E5.87.A6.E7.90.86.E3.81.AB.E3.81.A4.E3.81.84.E3.81.A6_-tf.2C_so"><span class="tocnumber">5</span> <span class="toctext">入力データーの前処理について -tf, so</span></a></li>
+<li class="toclevel-1 tocsection-6"><a href="index.php@title=オルソログクラスターへの自動命名手法の開発&amp;diff=prev&amp;oldid=9110.html#.E5.87.BA.E5.8A.9B.E7.B5.90.E6.9E.9C.E3.81.AE.E8.A9.95.E4.BE.A1.EF.BC.88.E5.86.8D.E8.A8.AD.E8.A8.88.EF.BC.89_-all"><span class="tocnumber">6</span> <span class="toctext">出力結果の評価（再設計） -all</span></a></li>
+<li class="toclevel-1 tocsection-7"><a href="index.php@title=オルソログクラスターへの自動命名手法の開発&amp;diff=prev&amp;oldid=9110.html#.E3.82.B5.E3.83.BC.E3.83.93.E3.82.B9_-all"><span class="tocnumber">7</span> <span class="toctext">サービス -all</span></a></li>
+<li class="toclevel-1 tocsection-8"><a href="index.php@title=オルソログクラスターへの自動命名手法の開発&amp;diff=prev&amp;oldid=9110.html#Biocuration_2010.E3.81.AE.E7.B7.8F.E6.8B.AC_-yy"><span class="tocnumber">8</span> <span class="toctext">Biocuration 2010の総括 -yy</span></a></li>
+<li class="toclevel-1 tocsection-9"><a href="index.php@title=オルソログクラスターへの自動命名手法の開発&amp;diff=prev&amp;oldid=9110.html#.E5.95.8F.E9.A1.8C.E7.82.B9_-all"><span class="tocnumber">9</span> <span class="toctext">問題点 -all</span></a></li>
+<li class="toclevel-1 tocsection-10"><a href="index.php@title=オルソログクラスターへの自動命名手法の開発&amp;diff=prev&amp;oldid=9110.html#.E5.8F.82.E5.8A.A0.E8.80.85"><span class="tocnumber">10</span> <span class="toctext">参加者</span></a></li>
+</ul>
+</td></tr></table><script>if (window.showTocToggle) { var tocShowText = "表示"; var tocHideText = "非表示"; showTocToggle(); } </script>
+<h2> <span class="mw-headline" id="togoAnnotator"> togoAnnotator </span></h2>
+<h2> <span class="mw-headline" id=".E3.83.86.E3.82.AF.E3.83.8B.E3.82.AB.E3.83.AB.E3.82.BF.E3.83.BC.E3.83.A0.E3.81.AE.E7.B5.B1.E4.B8.80_-all"> テクニカルタームの統一 -all </span></h2>
+<table border="1" cellpadding="2">
+
+<tr>
+<td> 今までのターム </td><td>新ターム
+</td></tr>
+<tr>
+<td>B. USDA110 Kazusa gene def. term set</td><td>Reference Gene Definition
+</td></tr>
+<tr>
+<td>B. USDA110 OC gene def. term set</td><td>Source Gene Definition
+</td></tr>
+<tr>
+<td>辞書生成プロセス１</td><td>Dictionary construction
+</td></tr>
+<tr>
+<td>Ref. GDとSource GD共通部分</td><td>n-Longest Common Substrings, n-LCS
+</td></tr>
+<tr>
+<td>パーツ</td><td>Common substring
+</td></tr>
+<tr>
+<td>辞書</td><td>Dictionary = Common substring set
+</td></tr>
+<tr>
+<td>コーパス、共起性</td><td>Cooccurrence terms
+</td></tr>
+<tr>
+<td>クラスター解析実験</td><td>Output, Candidate
+</td></tr>
+<tr>
+<td>ガラガラポン</td><td>Top scored candidate
+</td></tr>
+<tr>
+<td>推薦</td><td>Candidate
+</td></tr>
+<tr>
+<td>プロセス2</td><td>Gene annotation
+</td></tr>
+<tr>
+<td>被覆（評価で候補を全部合わせると正解を再現）</td><td>Combined partial match
+</td></tr>
+</table>
+<h2> <span class="mw-headline" id=".E6.A9.9F.E8.83.BD.E6.94.B9.E5.96.84_-all"> 機能改善 -all </span></h2>
+<ul><li> 共起情報を利用した新しいアルゴリズムについて
+</li></ul>
+<ol><li> Ref. GDから作成したDic. の頻度情報、共起情報、順序情報を辞書マッチでも利用するようなアルゴリズムにする
+</li><li> 辞書マッチを行う際に、Ref. GDから得られた前後に出現しやすいタームに関する情報を利用して、Combined Partial Matchを行う
+</li><li> 複数 candidate が得られた場合には、それらの間の包含関係も考慮する (他の candidate に包含される candidate があれば、それは除外する)
+</li></ol>
+<h2> <span class="mw-headline" id=".E5.85.A5.E5.87.BA.E5.8A.9B.E3.83.87.E3.83.BC.E3.82.BF_-all"> 入出力データ -all </span></h2>
+<ul><li> 入力：Source GDをクエリとして与える
+</li><li> 入力：配列をクエリとして与える
+</li><li> 出力：API postの入力をJSONで返す
+</li></ul>
+<h2> <span class="mw-headline" id=".E5.85.A5.E5.8A.9B.E3.83.87.E3.83.BC.E3.82.BF.E3.83.BC.E3.81.AE.E5.89.8D.E5.87.A6.E7.90.86.E3.81.AB.E3.81.A4.E3.81.84.E3.81.A6_-tf.2C_so"> 入力データーの前処理について -tf, so </span></h2>
+<ul><li> Gene Definitionの「書式」<a href="http://wiki.kazusa.or.jp/Projects:CGA1#.5Btransfer.5D_Definition.E3.81.AE.E3.83.97.E3.83.AD.E3.82.B0.E3.83.A9.E3.83.A0.E3.81.AB.E3.82.88.E3.82.8B.E5.BE.8C.E5.87.A6.E7.90.86" class="external text" rel="nofollow">整形ルール</a>の明文化とスクリプト化（改善しつづける余地あり）
+</li></ul>
+<ol><li> 先頭および末尾の空白文字、タブ文字を削除
+</li><li> Swiss-Prot, COGのIdentifierを削除
+</li><li> 頭文字を小文字に置換 (不完全）
+</li><li> Swiss-Prot 個別の処理
+<ol><li>Swiss-ProtのOS,GN,PE,SVを消去 ex.) OS=Bradyrhizobium japonicum GN=clpP1 PE=3 SV=1
+</li><li>末端wordがGNと一致していた場合、頭文字を大文字に置換にしてタンパク質シンボル表記に置換
+</li></ol>
+</li><li> セミコロン以降の削除（例外処理あり）
+</li><li> 末端カッコ () や [] の削除（例外処理あり）
+</li><li> カンマ以降の削除（例外処理あり）
+<ol><li> ", putative"や", conserved"を前方修飾に置換
+</li><li> , XXX domainをcontaning XXX domainに置換
+</li><li> , XXX subunitを後方に結合
+</li></ol>
+</li><li> CGA1個別データの置換
+<ol><li> "trasfer RNA"を"transfer RNA"に置換
+</li><li> ABC transporterの名寄せ
+</li><li> transcriptional regulatorの名寄せ
+</li></ol>
+</li><li> "similar to "を"putative "に置換
+</li><li> "conserved hypothetical protein","UPF protein"を"hypothetical protein"に置換
+<ol><li> hypothetical protein "locus_tag"の "locus_tag"を削除
+</li></ol>
+</li><li>probable/putative処理
+</li><li>Swiss-ProtのGNからgene symbolの自動追加
+</li></ol>
+<h2> <span class="mw-headline" id=".E5.87.BA.E5.8A.9B.E7.B5.90.E6.9E.9C.E3.81.AE.E8.A9.95.E4.BE.A1.EF.BC.88.E5.86.8D.E8.A8.AD.E8.A8.88.EF.BC.89_-all"> 出力結果の評価（再設計） -all </span></h2>
+<ol><li> 系統的に比較的近縁な、よくアノテーションされているバクテリア2種を選定
+</li><li> 片方をリファレンスにして辞書作成
+</li><li> もう一方のアノテーションを隠した状態で、自動アノテーションシステムにかける 
+</li><li> 自動アノテーションの結果とtogoAnnotatorの出力結果を元のアノテーションと比較して再現性を評価
+</li></ol>
+<ul><li> 自動アノテーションシステム
+<ul><li> <a href="http://img.jgi.doe.gov/cgi-bin/pub/main.cgi" class="external text" rel="nofollow">Integrated Microbial Genomes (IGM)</a>
+</li><li> <a href="http://rast.nmpdr.org" class="external text" rel="nofollow">Rapid Annotation using Subsystems Technology (RAST)</a>
+</li><li> <a href="http://www.jcvi.org/cms/research/projects/annotation-service/overview" class="external text" rel="nofollow">JCVI Annotation Service</a> サービス停止中の模様
+</li><li> <a href="http://migap.lifesciencedb.jp/" class="external text" rel="nofollow">MiGap</a>
+</li></ul>
+</li><li> データソースについて
+<ul><li> 対象生物
+<ul><li> <a href="http://genome.kazusa.or.jp/cyanobase/Synechocystis" class="external text" rel="nofollow">Synechocystis sp. PCC6803</a>
+</li><li> <a href="http://genome.kazusa.or.jp/cyanobase/SYNPCC7942" class="external text" rel="nofollow">Synechococcus sp. PCC7942</a>
+</li></ul>
+</li><li> Source gene definition (OC)
+<ul><li> KEGG OCのサブ階層からつくる - kwsmさんからデータをいただいてる
+</li></ul>
+</li></ul>
+</li></ul>
+<h2> <span class="mw-headline" id=".E3.82.B5.E3.83.BC.E3.83.93.E3.82.B9_-all"> サービス -all </span></h2>
+<ul><li> <a href="http://migap.lifesciencedb.jp/" class="external text" rel="nofollow">MiGAP</a>への組み込み
+</li><li> Source GDとしてBlast検索などの結果をBookmarkletから入力してJSONで返す→TogoWS Blastの結果を入力できる？
+</li></ul>
+<h2> <span class="mw-headline" id="Biocuration_2010.E3.81.AE.E7.B7.8F.E6.8B.AC_-yy"> Biocuration 2010の総括 -yy </span></h2>
+<ul><li> マニュアルキュレーションされた良い名前ならGO termをつかうべき。ないGO termがあれば作ればいい
+</li><li> 私たちも悩んでるので出来たらぜひ使いたい
+</li><li> オルソログクラスターは何を使うのか？→eggNOG, KEGG OC...任意の遺伝子セット
+</li><li> どうやってつかうのか？→尤もらしい名前をひとつだけ推薦する、アノテーターに複数の候補を推薦
+</li><li> オルソログクラスターの生物毎の対応は？→系統的にリファレンスセットの用意など
+</li></ul>
+<h2> <span class="mw-headline" id=".E5.95.8F.E9.A1.8C.E7.82.B9_-all"> 問題点 -all </span></h2>
+<ul><li> 統計情報が貧弱な遺伝子の命名ルールの処理はどうしたらいいか -yy
+<ul><li> 個別のルールベースでの解決？
+</li><li> KO, GOなどのマニュアルDBを補完的に使うべき -kwsm
+</li><li> サービスはトータル性能でしか評価されない -kwsm
+<ul><li> 統計情報が豊富に得られる遺伝子の命名手法を素直なアプローチで改善する部分から取り組み、統計情報が貧弱な部分は後回しにする
+</li><li> 統計情報が貧弱な部分は、KO, GOなど、マニュアルDBによる名前が付いている遺伝子の名前を転載するアプローチなどで補完すればよいのではないか
+</li></ul>
+</li></ul>
+</li></ul>
+<h2> <span class="mw-headline" id=".E5.8F.82.E5.8A.A0.E8.80.85"> 参加者 </span></h2>
+<ul><li> 岡本 (so)
+</li><li> 山本 (yy)
+</li><li> 藤澤 (tf)
+</li><li> 川島 (kwsm)
+</li><li> BH10.10 2010.10.20-23
+</li></ul>
+<div class="printfooter">
+「<a href="オルソログクラスターへの自動命名手法の開発.html">http://wiki.lifesciencedb.jp/mw/%E3%82%AA%E3%83%AB%E3%82%BD%E3%83%AD%E3%82%B0%E3%82%AF%E3%83%A9%E3%82%B9%E3%82%BF%E3%83%BC%E3%81%B8%E3%81%AE%E8%87%AA%E5%8B%95%E5%91%BD%E5%90%8D%E6%89%8B%E6%B3%95%E3%81%AE%E9%96%8B%E7%99%BA</a>」より作成</div>
+		<div id='catlinks' class='catlinks'><div id="mw-normal-catlinks"><a href="特別%253Aカテゴリ.html" title="特別:カテゴリ">カテゴリ</a>: <span dir='ltr'><a href="index.php@title=Category%253ABh10.10&amp;action=edit&amp;redlink=1.html" class="new" title="Category:Bh10.10（存在しないページ）">Bh10.10</a></span> | <span dir='ltr'><a href="index.php@title=Category%253ATogoAnnotator&amp;action=edit&amp;redlink=1.html" class="new" title="Category:TogoAnnotator（存在しないページ）">TogoAnnotator</a></span></div></div>		<!-- end content -->
+				<div class="visualClear"></div>
+	</div>
+</div></div>
+<div id="column-one">
+	<div id="p-cactions" class="portlet">
+		<h5>表示</h5>
+		<div class="pBody">
+			<ul>
+				 <li id="ca-nstab-main" class="selected"><a href="オルソログクラスターへの自動命名手法の開発.html" title="本文を表示 [c]" accesskey="c">ページ</a></li>
+				 <li id="ca-talk" class="new"><a href="http://wiki.lifesciencedb.jp/mw/index.php?title=%E3%83%8E%E3%83%BC%E3%83%88:%E3%82%AA%E3%83%AB%E3%82%BD%E3%83%AD%E3%82%B0%E3%82%AF%E3%83%A9%E3%82%B9%E3%82%BF%E3%83%BC%E3%81%B8%E3%81%AE%E8%87%AA%E5%8B%95%E5%91%BD%E5%90%8D%E6%89%8B%E6%B3%95%E3%81%AE%E9%96%8B%E7%99%BA&amp;action=edit&amp;redlink=1" title="記事についての議論 [t]" accesskey="t">議論</a></li>
+				 <li id="ca-viewsource"><a href="http://wiki.lifesciencedb.jp/mw/index.php?title=%E3%82%AA%E3%83%AB%E3%82%BD%E3%83%AD%E3%82%B0%E3%82%AF%E3%83%A9%E3%82%B9%E3%82%BF%E3%83%BC%E3%81%B8%E3%81%AE%E8%87%AA%E5%8B%95%E5%91%BD%E5%90%8D%E6%89%8B%E6%B3%95%E3%81%AE%E9%96%8B%E7%99%BA&amp;action=edit&amp;oldid=9110" title="このページは保護されています。&#10;ページのソースを閲覧できます。 [e]" accesskey="e">ソースを表示</a></li>
+				 <li id="ca-history"><a href="index.php@title=オルソログクラスターへの自動命名手法の開発&amp;action=history.html" title="このページの過去の版 [h]" accesskey="h">履歴</a></li>
+			</ul>
+		</div>
+	</div>
+	<div class="portlet" id="p-personal">
+		<h5>個人用ツール</h5>
+		<div class="pBody">
+			<ul>
+				<li id="pt-anonuserpage"><a href="http://wiki.lifesciencedb.jp/mw/%E5%88%A9%E7%94%A8%E8%80%85:172.18.8.51" title="自分が編集しているIPアドレスの利用者ページ [.]" accesskey="." class="new">172.18.8.51</a></li>
+				<li id="pt-anontalk"><a href="http://wiki.lifesciencedb.jp/mw/%E5%88%A9%E7%94%A8%E8%80%85%E2%80%90%E4%BC%9A%E8%A9%B1:172.18.8.51" title="このIPアドレスからなされた編集についての議論 [n]" accesskey="n" class="new">このIPアドレスのトーク</a></li>
+				<li id="pt-anonlogin"><a href="http://wiki.lifesciencedb.jp/mw/index.php?title=%E7%89%B9%E5%88%A5:%E3%83%AD%E3%82%B0%E3%82%A4%E3%83%B3&amp;returnto=%E3%82%AA%E3%83%AB%E3%82%BD%E3%83%AD%E3%82%B0%E3%82%AF%E3%83%A9%E3%82%B9%E3%82%BF%E3%83%BC%E3%81%B8%E3%81%AE%E8%87%AA%E5%8B%95%E5%91%BD%E5%90%8D%E6%89%8B%E6%B3%95%E3%81%AE%E9%96%8B%E7%99%BA&amp;returntoquery=diff%3Dprev%26oldid%3D9110" title="ログインすることが推奨されます。ただし、必須ではありません。 [o]" accesskey="o">ログイン</a></li>
+				<li id="pt-openidlogin"><a href="index.php@title=特別%253AOpenIDログイン&amp;returnto=オルソログクラスターへの自動命名手法の開発.html">OpenIDでログイン</a></li>
+			</ul>
+		</div>
+	</div>
+	<div class="portlet" id="p-logo">
+		<a style="background-image: url(http://wiki.lifesciencedb.jp/mw/images/togowiki-logo.png);" href="index.html" title="メインページに移動"></a>
+	</div>
+	<script type="text/javascript"> if (window.isMSIE55) fixalpha(); </script>
+	<div class='generated-sidebar portlet' id='p-navigation'>
+		<h5>案内</h5>
+		<div class='pBody'>
+			<ul>
+				<li id="n-mainpage-description"><a href="index.html" title="メインページに移動する [z]" accesskey="z">メインページ</a></li>
+				<li id="n-portal"><a href="http://wiki.lifesciencedb.jp/mw/TogoWiki:%E3%82%B3%E3%83%9F%E3%83%A5%E3%83%8B%E3%83%86%E3%82%A3%E3%83%BB%E3%83%9D%E3%83%BC%E3%82%BF%E3%83%AB" title="このプロジェクトについて、できること、情報を入手する場所">コミュニティ・ポータル</a></li>
+				<li id="n-currentevents"><a href="http://wiki.lifesciencedb.jp/mw/TogoWiki:%E6%9C%80%E8%BF%91%E3%81%AE%E5%87%BA%E6%9D%A5%E4%BA%8B" title="最近の出来事について予備知識を得る">最近の出来事</a></li>
+				<li id="n-recentchanges"><a href="http://wiki.lifesciencedb.jp/mw/%E7%89%B9%E5%88%A5:%E6%9C%80%E8%BF%91%E3%81%AE%E6%9B%B4%E6%96%B0" title="ウィキにおける最近の更新の一覧 [r]" accesskey="r">最近の更新</a></li>
+				<li id="n-randompage"><a href="http://wiki.lifesciencedb.jp/mw/%E7%89%B9%E5%88%A5:%E3%81%8A%E3%81%BE%E3%81%8B%E3%81%9B%E8%A1%A8%E7%A4%BA" title="無作為に抽出されたページの読み込み [x]" accesskey="x">おまかせ表示</a></li>
+				<li id="n-help"><a href="http://wiki.lifesciencedb.jp/mw/Help:%E7%9B%AE%E6%AC%A1" title="情報を得る場所">ヘルプ</a></li>
+			</ul>
+		</div>
+	</div>
+	<div id="p-search" class="portlet">
+		<h5><label for="searchInput">検索</label></h5>
+		<div id="searchBody" class="pBody">
+			<form action="http://wiki.lifesciencedb.jp/mw/index.php" id="searchform">
+				<input type='hidden' name="title" value="特別:検索"/>
+				<input id="searchInput" title="TogoWiki内を検索" accesskey="f" type="search" name="search" />
+				<input type='submit' name="go" class="searchButton" id="searchGoButton"	value="表示" title="厳密に一致する名前のページが存在すれば、そのページへ移動します" />&nbsp;
+				<input type='submit' name="fulltext" class="searchButton" id="mw-searchButton" value="検索" title="入力された文字列が含まれるページを検索します" />
+			</form>
+		</div>
+	</div>
+	<div class="portlet" id="p-tb">
+		<h5>ツールボックス</h5>
+		<div class="pBody">
+			<ul>
+				<li id="t-whatlinkshere"><a href="特別%253Aリンク元/オルソログクラスターへの自動命名手法の開発.html" title="ここにリンクしている全ウィキのページの一覧 [j]" accesskey="j">リンク元</a></li>
+				<li id="t-recentchangeslinked"><a href="特別%253A関連ページの更新状況/オルソログクラスターへの自動命名手法の開発.html" title="このページからリンクしているページの最近の更新 [k]" accesskey="k">関連ページの更新状況</a></li>
+<li id="t-specialpages"><a href="http://wiki.lifesciencedb.jp/mw/%E7%89%B9%E5%88%A5:%E7%89%B9%E5%88%A5%E3%83%9A%E3%83%BC%E3%82%B8%E4%B8%80%E8%A6%A7" title="特別ページの一覧 [q]" accesskey="q">特別ページ</a></li>
+				<li id="t-print"><a href="http://wiki.lifesciencedb.jp/mw/index.php?title=%E3%82%AA%E3%83%AB%E3%82%BD%E3%83%AD%E3%82%B0%E3%82%AF%E3%83%A9%E3%82%B9%E3%82%BF%E3%83%BC%E3%81%B8%E3%81%AE%E8%87%AA%E5%8B%95%E5%91%BD%E5%90%8D%E6%89%8B%E6%B3%95%E3%81%AE%E9%96%8B%E7%99%BA&amp;diff=prev&amp;oldid=9110&amp;printable=yes" rel="alternate" title="このページの印刷用ページ [p]" accesskey="p">印刷用バージョン</a></li>				<li id="t-permalink"><a href="index.php@title=オルソログクラスターへの自動命名手法の開発&amp;oldid=9110.html" title="ページのこの版への固定リンク">この版への固定リンク</a></li>			</ul>
+		</div>
+	</div>
+</div><!-- end of the left (by default at least) column -->
+<div class="visualClear"></div>
+<div id="footer">
+	<div id="f-poweredbyico"><a href="http://www.mediawiki.org/"><img src="http://wiki.lifesciencedb.jp/mw/skins/common/images/poweredby_mediawiki_88x31.png" height="31" width="88" alt="Powered by MediaWiki" /></a></div>
+	<div id="f-copyrightico"><a href="http://creativecommons.org/licenses/by/3.0/"><img src="http://i.creativecommons.org/l/by/3.0/88x31.png" alt="Attribution 3.0 Unported" width="88" height="31" /></a></div>
+	<ul id="f-list">
+		<li id="lastmod"> このページの最終更新は 2013年8月21日 (水) 10:26 に行われました。</li>
+		<li id="viewcount">このページは43,121回アクセスされました。</li>
+		<li id="copyright">内容は<a href="http://creativecommons.org/licenses/by/3.0/" class="external ">Attribution 3.0 Unported</a>のライセンスで利用することができます。</li>
+		<li id="privacy"><a href="http://wiki.lifesciencedb.jp/mw/TogoWiki:%E3%83%97%E3%83%A9%E3%82%A4%E3%83%90%E3%82%B7%E3%83%BC%E3%83%BB%E3%83%9D%E3%83%AA%E3%82%B7%E3%83%BC" title="TogoWiki:プライバシー・ポリシー">プライバシー・ポリシー</a></li>
+		<li id="about"><a href="http://wiki.lifesciencedb.jp/mw/TogoWiki:TogoWiki%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6" title="TogoWiki:TogoWikiについて">TogoWikiについて</a></li>
+		<li id="disclaimer"><a href="http://wiki.lifesciencedb.jp/mw/TogoWiki:%E5%85%8D%E8%B2%AC%E4%BA%8B%E9%A0%85" title="TogoWiki:免責事項">免責事項</a></li>
+	</ul>
+</div>
+</div>
+
+<script>if (window.runOnloadHook) runOnloadHook();</script>
+<!-- Served in 0.656 secs. --></body></html>

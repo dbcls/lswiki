@@ -1,0 +1,456 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html lang="ja" dir="ltr">
+<head>
+<title>SPARQLtester - TogoWiki</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta name="generator" content="MediaWiki 1.16.3" />
+<link rel="shortcut icon" href="/favicon.ico" />
+<link rel="search" type="application/opensearchdescription+xml" href="/mw/opensearch_desc.php" title="TogoWiki (ja)" />
+<link title="Creative Commons" type="application/rdf+xml" href="/mw/index.php?title=SPARQLtester&amp;action=creativecommons" rel="meta" />
+<link rel="copyright" href="http://creativecommons.org/licenses/by/3.0/" />
+<link rel="alternate" type="application/atom+xml" title="TogoWikiのAtomフィード" href="/mw/index.php?title=%E7%89%B9%E5%88%A5:%E6%9C%80%E8%BF%91%E3%81%AE%E6%9B%B4%E6%96%B0&amp;feed=atom" />
+<link rel="stylesheet" href="/mw/skins/common/shared.css?270" media="screen" />
+<link rel="stylesheet" href="/mw/skins/common/commonPrint.css?270" media="print" />
+<link rel="stylesheet" href="/mw/skins/monobook/main.css?270" media="screen" />
+<!--[if lt IE 5.5000]><link rel="stylesheet" href="/mw/skins/monobook/IE50Fixes.css?270" media="screen" /><![endif]-->
+<!--[if IE 5.5000]><link rel="stylesheet" href="/mw/skins/monobook/IE55Fixes.css?270" media="screen" /><![endif]-->
+<!--[if IE 6]><link rel="stylesheet" href="/mw/skins/monobook/IE60Fixes.css?270" media="screen" /><![endif]-->
+<!--[if IE 7]><link rel="stylesheet" href="/mw/skins/monobook/IE70Fixes.css?270" media="screen" /><![endif]-->
+<link rel="stylesheet" href="/mw/index.php?title=MediaWiki:Common.css&amp;usemsgcache=yes&amp;ctype=text%2Fcss&amp;smaxage=18000&amp;action=raw&amp;maxage=18000" />
+<link rel="stylesheet" href="/mw/index.php?title=MediaWiki:Print.css&amp;usemsgcache=yes&amp;ctype=text%2Fcss&amp;smaxage=18000&amp;action=raw&amp;maxage=18000" media="print" />
+<link rel="stylesheet" href="/mw/index.php?title=MediaWiki:Monobook.css&amp;usemsgcache=yes&amp;ctype=text%2Fcss&amp;smaxage=18000&amp;action=raw&amp;maxage=18000" />
+<link rel="stylesheet" href="/mw/index.php?title=-&amp;action=raw&amp;maxage=18000&amp;gen=css" />
+<script>
+var skin="monobook",
+stylepath="/mw/skins",
+wgUrlProtocols="http\\:\\/\\/|https\\:\\/\\/|ftp\\:\\/\\/|irc\\:\\/\\/|gopher\\:\\/\\/|telnet\\:\\/\\/|nntp\\:\\/\\/|worldwind\\:\\/\\/|mailto\\:|news\\:|svn\\:\\/\\/",
+wgArticlePath="/mw/$1",
+wgScriptPath="/mw",
+wgScriptExtension=".php",
+wgScript="/mw/index.php",
+wgVariantArticlePath=false,
+wgActionPaths={},
+wgServer="http://wiki.lifesciencedb.jp",
+wgCanonicalNamespace="",
+wgCanonicalSpecialPageName=false,
+wgNamespaceNumber=0,
+wgPageName="SPARQLtester",
+wgTitle="SPARQLtester",
+wgAction="view",
+wgArticleId=473,
+wgIsArticle=true,
+wgUserName=null,
+wgUserGroups=null,
+wgUserLanguage="ja",
+wgContentLanguage="ja",
+wgBreakFrames=false,
+wgCurRevisionId=14214,
+wgVersion="1.16.3",
+wgEnableAPI=true,
+wgEnableWriteAPI=true,
+wgSeparatorTransformTable=["", ""],
+wgDigitTransformTable=["", ""],
+wgMainPageTitle="メインページ",
+wgFormattedNamespaces={"-2": "メディア", "-1": "特別", "0": "", "1": "ノート", "2": "利用者", "3": "利用者‐会話", "4": "TogoWiki", "5": "TogoWiki‐ノート", "6": "ファイル", "7": "ファイル‐ノート", "8": "MediaWiki", "9": "MediaWiki‐ノート", "10": "Template", "11": "Template‐ノート", "12": "Help", "13": "Help‐ノート", "14": "Category", "15": "Category‐ノート"},
+wgNamespaceIds={"メディア": -2, "特別": -1, "": 0, "ノート": 1, "利用者": 2, "利用者‐会話": 3, "togowiki": 4, "togowiki‐ノート": 5, "ファイル": 6, "ファイル‐ノート": 7, "mediawiki": 8, "mediawiki‐ノート": 9, "template": 10, "template‐ノート": 11, "help": 12, "help‐ノート": 13, "category": 14, "category‐ノート": 15, "画像": 6, "画像‐ノート": 7, "image": 6, "image_talk": 7},
+wgSiteName="TogoWiki",
+wgCategories=["SPARQLthon"],
+wgRestrictionEdit=[],
+wgRestrictionMove=[];
+</script><script src="/mw/skins/common/wikibits.js?270"></script>
+<script src="/mw/skins/common/ajax.js?270"></script>
+<script src="/mw/index.php?title=-&amp;action=raw&amp;gen=js&amp;useskin=monobook&amp;270"></script>
+
+		<style type='text/css'>
+		li#pt-openidlogin {
+		  background: url(/mw/extensions/OpenID/skin/icons/openid-inputicon.png) top left no-repeat;
+		  padding-left: 20px;
+		  text-transform: none;
+		}
+		</style>
+</head>
+<body class="mediawiki ltr ns-0 ns-subject page-SPARQLtester skin-monobook">
+<div id="globalWrapper">
+<div id="column-content"><div id="content" >
+	<a id="top"></a>
+	
+	<h1 id="firstHeading" class="firstHeading">SPARQLtester</h1>
+	<div id="bodyContent">
+		<h3 id="siteSub">提供：TogoWiki</h3>
+		<div id="contentSub"></div>
+		<div id="jump-to-nav">移動： <a href="#column-one">案内</a>, <a href="#searchInput">検索</a></div>
+		<!-- start content -->
+<p><a href="/mw/%E5%88%A9%E7%94%A8%E8%80%85:Yayamamo" title="利用者:Yayamamo">利用者:Yayamamo</a>が、<a href="/mw/BH12.12/SPARQL11test" title="BH12.12/SPARQL11test">BH12.12/SPARQL11test</a>で行っているテストについて、Javaを用いて自動でSPARQLクエリを発行するツールを開発中。
+</p><p>クエリをSPINによりRDFで表現し、それを利用することから、クエリセットを対象としたときに、どのような関数やSPARQLのキーワードが使われているかについての情報が的確に得られたり、特定のSPARQLキーワードが使われているクエリのみ抽出して試したりすることが効率的に行える。
+</p><p><a href="http://sourceforge.net/projects/sesame/files/Sesame%202/" class="external text" rel="nofollow">OpenRDF Sesame Ver. 2.7.12</a>を対象として行った結果は以下の様に取得できる。
+</p>
+<pre>
+http://dbcls.jp/ns#ex001.rq     [sp:Select]     Ok.
+http://dbcls.jp/ns#ex003.rq     [sp:Select]     Ok.
+http://dbcls.jp/ns#ex006.rq     [sp:Select]     Ok.
+http://dbcls.jp/ns#ex007.rq     [sp:Select]     Ok.
+http://dbcls.jp/ns#ex008.rq     [sp:Select]     Ok.
+http://dbcls.jp/ns#ex010.rq     [sp:Select]     Ok.
+http://dbcls.jp/ns#ex013.rq     [sp:Select]     Ok.
+http://dbcls.jp/ns#ex015.rq     [sp:Select]     Ok.
+http://dbcls.jp/ns#ex017.rq     [sp:Select]     Ok.
+http://dbcls.jp/ns#ex019.rq     [sp:Select]     Ok.
+http://dbcls.jp/ns#ex021.rq     [sp:regex, sp:Filter, sp:Select]        Ok.
+http://dbcls.jp/ns#ex023.rq     [sp:Select]     Ok.
+http://dbcls.jp/ns#ex025.rq     [sp:Select]     Ok.
+http://dbcls.jp/ns#ex047.rq     [sp:Select]     Ok.
+http://dbcls.jp/ns#ex048.rq     [sp:Select]     Ok.
+http://dbcls.jp/ns#ex049.rq     [sp:Filter, sp:eq, sp:Select, sp:lang]  Ok.
+http://dbcls.jp/ns#ex052.rq     [sp:Select]     Ok.
+http://dbcls.jp/ns#ex055.rq     [sp:Select]     Ok.
+http://dbcls.jp/ns#ex057.rq     [sp:Select, sp:Optional]        Ok.
+http://dbcls.jp/ns#ex059.rq     [sp:Select, sp:Optional]        Ok.
+http://dbcls.jp/ns#ex061.rq     [sp:Select, sp:Optional]        Ok.
+http://dbcls.jp/ns#ex063.rq     [sp:Select, sp:Optional]        Ok.
+http://dbcls.jp/ns#ex065.rq     [sp:Filter, sp:not, sp:Select, sp:bound, sp:Optional]   Ok.
+http://dbcls.jp/ns#ex067.rq     [sp:Filter, sp:Select, sp:notExists]    Ok.
+http://dbcls.jp/ns#ex068.rq     [sp:Minus, sp:Select]   Ok.
+http://dbcls.jp/ns#ex070.rq     [sp:Select]     Ok.
+http://dbcls.jp/ns#ex075.rq     [sp:AltPath, sp:TriplePath, sp:Select]  Ok.
+http://dbcls.jp/ns#ex077.rq     [sp:Select]     Ok.
+http://dbcls.jp/ns#ex078.rq     [sp:TriplePath, sp:Select, sp:ModPath]  Ok.
+http://dbcls.jp/ns#ex080.rq     [sp:TriplePath, sp:Select, sp:ModPath]  Parse Error.
+http://dbcls.jp/ns#ex082.rq     [sp:TriplePath, sp:Select, sp:SeqPath]  Ok.
+http://dbcls.jp/ns#ex083.rq     [sp:ReversePath, sp:TriplePath, sp:Select]      Ok.
+http://dbcls.jp/ns#ex084.rq     [sp:ReversePath, sp:Filter, sp:ne, sp:TriplePath, sp:Select, sp:SeqPath]        Ok.
+http://dbcls.jp/ns#ex086.rq     [sp:Select]     Ok.
+http://dbcls.jp/ns#ex088.rq     [sp:Select]     Ok.
+http://dbcls.jp/ns#ex090.rq     [sp:Select]     Ok.
+http://dbcls.jp/ns#ex092.rq     [sp:Select]     Ok.
+http://dbcls.jp/ns#ex094.rq     [sp:Select]     Ok.
+http://dbcls.jp/ns#ex098.rq     [sp:Union, sp:Select]   Ok.
+http://dbcls.jp/ns#ex101.rq     [sp:Union, sp:Select]   Ok.
+http://dbcls.jp/ns#ex103.rq     [sp:Union, sp:Select]   Ok.
+http://dbcls.jp/ns#ex105.rq     [sp:Filter, sp:lt, sp:Select]   Ok.
+http://dbcls.jp/ns#ex107.rq     [sp:isURI, sp:Filter, sp:not, sp:Select]        Ok.
+http://dbcls.jp/ns#ex109.rq     [sp:Filter, sp:in, sp:Select]   Ok.
+http://dbcls.jp/ns#ex111.rq     [sp:Filter, sp:Select, sp:in]   Ok.
+http://dbcls.jp/ns#ex112.rq     [sp:Filter, sp:notIn, sp:Select]        Ok.
+http://dbcls.jp/ns#ex114.rq     [sp:Select]     Ok.
+http://dbcls.jp/ns#ex116.rq     [sp:Select]     Ok.
+http://dbcls.jp/ns#ex118.rq     [sp:Select]     Ok.
+http://dbcls.jp/ns#ex120.rq     [sp:Select]     Ok.
+http://dbcls.jp/ns#ex123.rq     [sp:Select]     Ok.
+http://dbcls.jp/ns#ex126.rq     [sp:Union, sp:NamedGraph, sp:Select]    Ok.
+http://dbcls.jp/ns#ex128.rq     [sp:Select, sp:NamedGraph]      Ok.
+http://dbcls.jp/ns#ex130.rq     [sp:Union, sp:NamedGraph, sp:Select]    Ok.
+http://dbcls.jp/ns#ex135.rq     [sp:Select, sp:NamedGraph]      Ok.
+http://dbcls.jp/ns#ex136.rq     [sp:NamedGraph, sp:Select]      Ok.
+http://dbcls.jp/ns#ex137.rq     [sp:SubQuery, sp:Select]        Ok.
+http://dbcls.jp/ns#ex139.rq     [sp:add, sp:Select, sp:mul]     Ok.
+http://dbcls.jp/ns#ex141.rq     [sp:substr, sp:Select, sp:ucase]        Ok.
+http://dbcls.jp/ns#ex143.rq     [sp:substr, sp:SubQuery, sp:Select, sp:ucase]   Ok.
+http://dbcls.jp/ns#ex144.rq     [sp:substr, sp:Select, sp:Bind, sp:ucase]       Ok.
+http://dbcls.jp/ns#ex146.rq     [sp:Select]     Ok.
+http://dbcls.jp/ns#ex148.rq     [sp:Select, sp:Desc]    Ok.
+http://dbcls.jp/ns#ex149.rq     [sp:Select, sp:Desc]    Ok.
+http://dbcls.jp/ns#ex151.rq     [sp:Select, sp:Desc]    Ok.
+http://dbcls.jp/ns#ex153.rq     [sp:Max, sp:Select]     Ok.
+http://dbcls.jp/ns#ex155.rq     [sp:Max, sp:SubQuery, sp:Select]        Ok.
+http://dbcls.jp/ns#ex156.rq     [sp:Avg, sp:Select]     Ok.
+http://dbcls.jp/ns#ex158.rq     [sp:GroupConcat, sp:Select]     Ok.
+http://dbcls.jp/ns#ex160.rq     [sp:Select, sp:Sum]     Ok.
+http://dbcls.jp/ns#ex162.rq     [sp:Count, sp:Select]   Ok.
+http://dbcls.jp/ns#ex164.rq     [sp:gt, sp:Select, sp:Sum]      Ok.
+http://dbcls.jp/ns#ex166.rq     [sp:Select]     Ok.
+http://dbcls.jp/ns#ex167.rq     [sp:Service, sp:SubQuery, sp:Select]    Ok.
+http://dbcls.jp/ns#ex170.rq     [sp:Service, sp:Select] Ok.
+http://dbcls.jp/ns#ex172.rq     [sp:Service, sp:Select] Ok.
+http://dbcls.jp/ns#ex174.rq     [sp:Select]     Ok.
+http://dbcls.jp/ns#ex176.rq     [sp:Construct]  Ok.
+http://dbcls.jp/ns#ex178.rq     [sp:Service, sp:Construct]      Ok.
+http://dbcls.jp/ns#ex180.rq     [sp:Construct, sp:NamedGraph]   Ok.
+http://dbcls.jp/ns#ex182.rq     [sp:Construct]  Ok.
+http://dbcls.jp/ns#ex184.rq     [sp:Construct]  Ok.
+http://dbcls.jp/ns#ex185.rq     [sp:substr, sp:Construct, sp:Bind]      Ok.
+http://dbcls.jp/ns#ex188.rq     [sp:Construct]  Ok.
+http://dbcls.jp/ns#ex190.rq     [sp:Filter, sp:ne, sp:Construct]        Ok.
+http://dbcls.jp/ns#ex192.rq     [sp:Filter, sp:ne, sp:Construct]        Ok.
+http://dbcls.jp/ns#ex194.rq     [sp:Construct, sp:Optional]     Ok.
+http://dbcls.jp/ns#ex196.rq     [sp:Service, sp:Construct]      Ok.
+http://dbcls.jp/ns#ex199.rq     [sp:isURI, sp:Filter, sp:not, sp:Ask]   Ok.
+http://dbcls.jp/ns#ex201.rq     [sp:Filter, sp:datatype, sp:ne, sp:Ask] Ok.
+http://dbcls.jp/ns#ex202.rq     [sp:or, sp:lt, sp:gt, sp:Filter, sp:not, sp:and, sp:Bind, sp:bound, sp:Optional, sp:Ask, sp:mul]        Ok.
+http://dbcls.jp/ns#ex203.rq     [sp:isURI, sp:Filter, sp:Construct, sp:not]     Ok.
+http://dbcls.jp/ns#ex205.rq     [sp:Filter, sp:datatype, sp:ne, sp:Construct]   Ok.
+http://dbcls.jp/ns#ex207.rq     [sp:or, sp:gt, sp:lt, sp:Filter, sp:Construct, sp:not, sp:and, sp:Bind, sp:bound, sp:Optional, sp:mul]  Ok.
+http://dbcls.jp/ns#ex209.rq     [sp:isURI, sp:datatype, sp:Construct, sp:ne, sp:not, sp:and, sp:bound, sp:or, sp:Filter, sp:lt, sp:gt, sp:Union, sp:Bind, sp:Optional, sp:mul]  Ok.
+http://dbcls.jp/ns#ex211.rq     [sp:isURI, sp:Filter, sp:Construct, sp:not]     Ok.
+http://dbcls.jp/ns#ex212.rq     [sp:isURI, sp:Filter, sp:Construct, sp:not]     Ok.
+http://dbcls.jp/ns#ex213.rq     [sp:Describe]   Ok.
+http://dbcls.jp/ns#ex215.rq     [sp:Describe]   Ok.
+http://dbcls.jp/ns#ex216.rq     [sp:Describe]   Ok.
+http://dbcls.jp/ns#ex218.rq     [sp:Select]     Ok.
+http://dbcls.jp/ns#ex220.rq     [sp:Select]     Ok.
+http://dbcls.jp/ns#ex221.rq     [sp:Select]     Ok.
+http://dbcls.jp/ns#ex222.rq     [sp:Select]     Ok.
+http://dbcls.jp/ns#ex223.rq     [sp:Filter, sp:eq, sp:Select, sp:str]   Ok.
+http://dbcls.jp/ns#ex225.rq     [sp:Select]     Ok.
+http://dbcls.jp/ns#ex228.rq     [sp:Filter, sp:lt, sp:Select]   Ok.
+http://dbcls.jp/ns#ex230.rq     [sp:Filter, sp:ge, sp:Select]   Ok.
+http://dbcls.jp/ns#ex232.rq     [sp:add, sp:Select, sp:Bind, sp:mul]    Ok.
+http://dbcls.jp/ns#ex233.rq     [sp:Select, sp:Bind, sp:mul]    Ok.
+http://dbcls.jp/ns#ex235.rq     [sp:if, sp:gt, sp:Select, sp:Bind]      Ok.
+http://dbcls.jp/ns#ex237.rq     [sp:isURI, sp:if, sp:concat, sp:uri, sp:Construct, sp:Bind, sp:encode_for_uri]  Ok.
+http://dbcls.jp/ns#ex239.rq     [sp:coalesce, sp:Select, sp:Bind, sp:Optional]  Ok.
+http://dbcls.jp/ns#ex242.rq     [sp:isURI, sp:isBlank, sp:isIRI, sp:isNumeric, sp:Select, sp:Bind, sp:isLiteral]        Ok.
+http://dbcls.jp/ns#ex244.rq     [sp:datatype, sp:Select, sp:Bind]       Ok.
+http://dbcls.jp/ns#ex246.rq     [sp:uri, sp:Construct, sp:Bind] Ok.
+http://dbcls.jp/ns#ex248.rq     [sp:uri, sp:Construct, sp:Bind, sp:encode_for_uri]      Ok.
+http://dbcls.jp/ns#ex251.rq     [sp:Select, sp:str, sp:Bind]    Ok.
+http://dbcls.jp/ns#ex253.rq     [sp:uri, sp:Construct, sp:str, sp:Bind, sp:encode_for_uri]      Ok.
+http://dbcls.jp/ns#ex255.rq     [sp:isURI, sp:if, sp:uri, sp:Construct, sp:str, sp:Bind, sp:encode_for_uri]     Ok.
+http://dbcls.jp/ns#ex257.rq     [xsd:double, xsd:float, xsd:decimal, sp:Select, sp:Bind, xsd:integer]   Ok.
+http://dbcls.jp/ns#ex260.rq     [sp:Select, sp:Bind, xsd:string, xsd:boolean]   Ok.
+http://dbcls.jp/ns#ex262.rq     [sp:Select, sp:Bind, xsd:dateTime]      Ok.
+http://dbcls.jp/ns#ex264.rq     [sp:strdt, sp:Select, sp:str, sp:Bind]  Ok.
+http://dbcls.jp/ns#ex267.rq     [sp:strdt, sp:concat, sp:uri, sp:Construct, sp:Bind]    Ok.
+http://dbcls.jp/ns#ex269.rq     [sp:Filter, sp:eq, sp:Select, sp:lang]  Ok.
+http://dbcls.jp/ns#ex270.rq     [sp:Select]     Ok.
+http://dbcls.jp/ns#ex271.rq     [sp:Filter, sp:eq, sp:Select, sp:lang]  Ok.
+http://dbcls.jp/ns#ex273.rq     [sp:Filter, sp:eq, sp:Select, sp:str, sp:lang, sp:Bind] Ok.
+http://dbcls.jp/ns#ex276.rq     [sp:Filter, sp:Select, sp:lang, sp:str, sp:Bind, sp:langMatches]        Ok.
+http://dbcls.jp/ns#ex279.rq     [sp:Filter, sp:not, sp:Select, sp:lang, sp:langMatches] Ok.
+http://dbcls.jp/ns#ex282.rq     [sp:strlang, sp:uri, sp:concat, sp:Construct, sp:str, sp:Bind]  Ok.
+http://dbcls.jp/ns#ex285.rq     [sp:substr, sp:lcase, sp:Select, sp:Bind, sp:strlen, sp:ucase]  Ok.
+http://dbcls.jp/ns#ex287.rq     [sp:regex, sp:contains, sp:Select, sp:Bind, sp:strends, sp:strstarts]   Ok.
+http://dbcls.jp/ns#ex290.rq     [sp:Select, sp:Bind, sp:encode_for_uri] Ok.
+http://dbcls.jp/ns#ex293.rq     [sp:Select, sp:Bind, sp:ceil, sp:floor, sp:abs, sp:round]       Ok.
+http://dbcls.jp/ns#ex295.rq     [sp:rand, sp:add, sp:Select, sp:Bind, sp:floor, sp:mul] Ok.
+http://dbcls.jp/ns#ex299.rq     [sp:month, sp:year, sp:Select, sp:hours, sp:minutes, sp:Bind, sp:day]   Ok.
+http://dbcls.jp/ns#ex301.rq     [sp:timezone, sp:Select, sp:Bind, sp:tz]        Ok.
+http://dbcls.jp/ns#ex303.rq     [sp:Select, sp:now, sp:Bind, sp:seconds]        Ok.
+http://dbcls.jp/ns#ex305.rq     [sp:Construct, sp:Bind, sp:sha1]        Ok.
+http://dbcls.jp/ns#ex308.rq     [ARQ:namespace, sp:Select, ARQ:localname, sp:Bind]      Error: HTTP 500 error making the query: Query evaluation error: Unknown function 'http://jena.hpl.hp.com/ARQ/function#lo
+http://dbcls.jp/ns#ex311.rq     [sp:Select]     Ok.
+http://dbcls.jp/ns#ex312.ru     [sp:InsertData] Error: 415 - Unsupported Media Type     Cause: null     Exception: org.apache.jena.atlas.web.HttpException: 415 - Unsupported Media Type
+http://dbcls.jp/ns#ex313.ru     [sp:Modify]     Error: 415 - Unsupported Media Type     Cause: null     Exception: org.apache.jena.atlas.web.HttpException: 415 - Unsupported Media Type
+http://dbcls.jp/ns#ex314.rq     [sp:Construct]  Ok.
+http://dbcls.jp/ns#ex316.ru     [sp:Modify]     Error: 415 - Unsupported Media Type     Cause: null     Exception: org.apache.jena.atlas.web.HttpException: 415 - Unsupported Media Type
+http://dbcls.jp/ns#ex317.ru     [sp:Load]       Error: 415 - Unsupported Media Type     Cause: null     Exception: org.apache.jena.atlas.web.HttpException: 415 - Unsupported Media Type
+http://dbcls.jp/ns#ex318.rq     [sp:Select]     Ok.
+http://dbcls.jp/ns#ex320.ru     [sp:DeleteData] Error: 415 - Unsupported Media Type     Cause: null     Exception: org.apache.jena.atlas.web.HttpException: 415 - Unsupported Media Type
+http://dbcls.jp/ns#ex321.ru     [sp:Modify]     Error: 415 - Unsupported Media Type     Cause: null     Exception: org.apache.jena.atlas.web.HttpException: 415 - Unsupported Media Type
+http://dbcls.jp/ns#ex322.ru     [sp:Modify]     Error: 415 - Unsupported Media Type     Cause: null     Exception: org.apache.jena.atlas.web.HttpException: 415 - Unsupported Media Type
+http://dbcls.jp/ns#ex323.ru     [sp:DeleteWhere]        Error: 415 - Unsupported Media Type     Cause: null     Exception: org.apache.jena.atlas.web.HttpException: 415 - Unsupported Media Type
+http://dbcls.jp/ns#ex324.ru     [sp:Clear]      Error: 415 - Unsupported Media Type     Cause: null     Exception: org.apache.jena.atlas.web.HttpException: 415 - Unsupported Media Type
+http://dbcls.jp/ns#ex325.ru     [sp:Modify]     Error: 415 - Unsupported Media Type     Cause: null     Exception: org.apache.jena.atlas.web.HttpException: 415 - Unsupported Media Type
+http://dbcls.jp/ns#ex326.rq     [sp:Construct]  Ok.
+http://dbcls.jp/ns#ex329.ru     [sp:Modify, sp:uri, sp:concat, sp:str, sp:Bind, sp:encode_for_uri]      Error: 415 - Unsupported Media Type     Cause: null     Exception: org.apache.jena.atlas.web.HttpExcepti
+http://dbcls.jp/ns#ex330.ru     [sp:Clear, sp:InsertData]       Error: 415 - Unsupported Media Type     Cause: null     Exception: org.apache.jena.atlas.web.HttpException: 415 - Unsupported Media Type
+http://dbcls.jp/ns#ex330.ru             Error: 415 - Unsupported Media Type     Cause: null     Exception: org.apache.jena.atlas.web.HttpException: 415 - Unsupported Media Type
+http://dbcls.jp/ns#ex351.ru     [sp:Drop, sp:NamedGraph, sp:InsertData] Error: 415 - Unsupported Media Type     Cause: null     Exception: org.apache.jena.atlas.web.HttpException: 415 - Unsupported Media Type
+http://dbcls.jp/ns#ex351.ru             Error: 415 - Unsupported Media Type     Cause: null     Exception: org.apache.jena.atlas.web.HttpException: 415 - Unsupported Media Type
+http://dbcls.jp/ns#ex352.ru     [sp:Modify, sp:NamedGraph, sp:InsertData]       Error: 415 - Unsupported Media Type     Cause: null     Exception: org.apache.jena.atlas.web.HttpException: 415 - Unsupported Me
+http://dbcls.jp/ns#ex352.ru             Error: 415 - Unsupported Media Type     Cause: null     Exception: org.apache.jena.atlas.web.HttpException: 415 - Unsupported Media Type
+http://dbcls.jp/ns#ex353.ru     [sp:Drop, sp:NamedGraph, sp:InsertData] Error: 415 - Unsupported Media Type     Cause: null     Exception: org.apache.jena.atlas.web.HttpException: 415 - Unsupported Media Type
+http://dbcls.jp/ns#ex353.ru             Error: 415 - Unsupported Media Type     Cause: null     Exception: org.apache.jena.atlas.web.HttpException: 415 - Unsupported Media Type
+http://dbcls.jp/ns#ex331.ru     [sp:NamedGraph, sp:InsertData]  Error: 415 - Unsupported Media Type     Cause: null     Exception: org.apache.jena.atlas.web.HttpException: 415 - Unsupported Media Type
+http://dbcls.jp/ns#ex332.rq     [sp:Union, sp:Select, sp:NamedGraph]    Ok.
+http://dbcls.jp/ns#ex333.ru     [sp:NamedGraph, sp:InsertData]  Error: 415 - Unsupported Media Type     Cause: null     Exception: org.apache.jena.atlas.web.HttpException: 415 - Unsupported Media Type
+http://dbcls.jp/ns#ex334.ru     [sp:NamedGraph, sp:InsertData]  Error: 415 - Unsupported Media Type     Cause: null     Exception: org.apache.jena.atlas.web.HttpException: 415 - Unsupported Media Type
+http://dbcls.jp/ns#ex335.ru     [sp:Drop]       Error: 415 - Unsupported Media Type     Cause: null     Exception: org.apache.jena.atlas.web.HttpException: 415 - Unsupported Media Type
+http://dbcls.jp/ns#ex336.ru     [sp:Drop]       Error: 415 - Unsupported Media Type     Cause: null     Exception: org.apache.jena.atlas.web.HttpException: 415 - Unsupported Media Type
+http://dbcls.jp/ns#ex337.ru     [sp:Drop]       Error: 415 - Unsupported Media Type     Cause: null     Exception: org.apache.jena.atlas.web.HttpException: 415 - Unsupported Media Type
+http://dbcls.jp/ns#ex338.ru     [sp:NamedGraph, sp:InsertData]  Error: 415 - Unsupported Media Type     Cause: null     Exception: org.apache.jena.atlas.web.HttpException: 415 - Unsupported Media Type
+http://dbcls.jp/ns#ex339.ru     [sp:Drop]       Error: 415 - Unsupported Media Type     Cause: null     Exception: org.apache.jena.atlas.web.HttpException: 415 - Unsupported Media Type
+http://dbcls.jp/ns#ex340.ru     [sp:Create]     Error: 415 - Unsupported Media Type     Cause: null     Exception: org.apache.jena.atlas.web.HttpException: 415 - Unsupported Media Type
+http://dbcls.jp/ns#ex341.rq     [sp:NamedGraph, sp:Select]      Ok.
+http://dbcls.jp/ns#ex342.ru     [sp:Modify]     Error: 415 - Unsupported Media Type     Cause: null     Exception: org.apache.jena.atlas.web.HttpException: 415 - Unsupported Media Type
+http://dbcls.jp/ns#ex343.ru     [sp:InsertData] Error: 415 - Unsupported Media Type     Cause: null     Exception: org.apache.jena.atlas.web.HttpException: 415 - Unsupported Media Type
+http://dbcls.jp/ns#ex344.ru     [sp:Modify, sp:NamedGraph]      Error: 415 - Unsupported Media Type     Cause: null     Exception: org.apache.jena.atlas.web.HttpException: 415 - Unsupported Media Type
+http://dbcls.jp/ns#ex345.ru     [sp:Modify, sp:NamedGraph]      Error: 415 - Unsupported Media Type     Cause: null     Exception: org.apache.jena.atlas.web.HttpException: 415 - Unsupported Media Type
+http://dbcls.jp/ns#ex346.ru     [sp:NamedGraph, sp:DeleteData]  Error: 415 - Unsupported Media Type     Cause: null     Exception: org.apache.jena.atlas.web.HttpException: 415 - Unsupported Media Type
+http://dbcls.jp/ns#ex347.ru     [sp:Modify, sp:NamedGraph]      Error: 415 - Unsupported Media Type     Cause: null     Exception: org.apache.jena.atlas.web.HttpException: 415 - Unsupported Media Type
+http://dbcls.jp/ns#ex348.ru     [sp:Modify]     Error: 415 - Unsupported Media Type     Cause: null     Exception: org.apache.jena.atlas.web.HttpException: 415 - Unsupported Media Type
+http://dbcls.jp/ns#ex349.ru     [sp:Modify, sp:NamedGraph]      Error: 415 - Unsupported Media Type     Cause: null     Exception: org.apache.jena.atlas.web.HttpException: 415 - Unsupported Media Type
+http://dbcls.jp/ns#ex350.ru     [sp:Modify]     Error: 415 - Unsupported Media Type     Cause: null     Exception: org.apache.jena.atlas.web.HttpException: 415 - Unsupported Media Type
+http://dbcls.jp/ns#ex354.rq     [sp:NamedGraph, sp:Select]      Ok.
+http://dbcls.jp/ns#ex355.rq     [sp:Select]     Ok.
+http://dbcls.jp/ns#ex406.rq     [sp:Filter, sp:Select, sp:eq, sp:lang]  Ok.
+http://dbcls.jp/ns#ex408.rq     [sp:Select]     Ok.
+http://dbcls.jp/ns#ex415.rq     [sp:Select]     Ok.
+http://dbcls.jp/ns#ex418.rq     [sp:Select]     Ok.
+http://dbcls.jp/ns#ex422.rq     [sp:Select]     Ok.
+http://dbcls.jp/ns#ex425.rq     [sp:Select]     Ok.
+http://dbcls.jp/ns#ex427.rq     [sp:Construct]  Ok.
+http://dbcls.jp/ns#ex428.rq     [sp:Construct]  Ok.
+http://dbcls.jp/ns#ex430.rq     [sp:Select]     Ok.
+http://dbcls.jp/ns#ex432.rq     [sp:TriplePath, sp:Select, sp:ModPath]  Ok.
+http://dbcls.jp/ns#ex434.rq     [sp:Select]     Ok.
+http://dbcls.jp/ns#ex436.rq     [sp:Select]     Ok.
+http://dbcls.jp/ns#ex437.rq     [sp:Union, sp:NamedGraph, sp:Select]    Ok.
+http://dbcls.jp/ns#ex439.rq     [sp:Union, sp:Select]   Ok.
+http://dbcls.jp/ns#ex440.rq     [sp:Select]     Ok.
+http://dbcls.jp/ns#ex444.rq     [sp:Select]     Ok.
+http://dbcls.jp/ns#ex445.rq     [sp:TriplePath, sp:Select, sp:ModPath]  Ok.
+http://dbcls.jp/ns#ex447.rq     [sp:Select]     Ok.
+http://dbcls.jp/ns#ex449.rq     [sp:Select]     Ok.
+http://dbcls.jp/ns#ex451.rq     [sp:Select]     Ok.
+http://dbcls.jp/ns#ex453.rq     [sp:Count, sp:Select]   Ok.
+http://dbcls.jp/ns#ex454.rq     [sp:Count, sp:Select, sp:Desc]  Ok.
+http://dbcls.jp/ns#ex456.rq     [sp:Count, sp:Select]   Ok.
+http://dbcls.jp/ns#ex457.rq     [sp:Count, sp:Select, sp:Desc]  Ok.
+http://dbcls.jp/ns#ex459.rq     [sp:Select, sp:Optional]        Ok.
+http://dbcls.jp/ns#ex461.rq     [sp:Select]     Ok.
+http://dbcls.jp/ns#ex463.rq     [sp:Select]     Ok.
+http://dbcls.jp/ns#ex465.rq     [sp:Select]     Ok.
+http://dbcls.jp/ns#ex467.rq     [sp:Select]     Ok.
+http://dbcls.jp/ns#ex469.rq     [sp:Select]     Ok.
+http://dbcls.jp/ns#ex471.rq     [sp:Select]     Ok.
+http://dbcls.jp/ns#ex473.rq     [sp:lcase, sp:contains, sp:Filter, sp:Select, sp:str]   Ok.
+http://dbcls.jp/ns#ex474.rq     [sp:Service, sp:Select] Ok.
+http://dbcls.jp/ns#ex475.rq     [sp:Service, sp:Select] Ok.
+http://dbcls.jp/ns#ex476.rq     [sp:Service, sp:Construct]      Ok.
+http://dbcls.jp/ns#ex478.ru     [sp:Modify]     Error: 415 - Unsupported Media Type     Cause: null     Exception: org.apache.jena.atlas.web.HttpException: 415 - Unsupported Media Type
+http://dbcls.jp/ns#ex479.rq     [sp:Construct]  Ok.
+http://dbcls.jp/ns#ex480.rq     [sp:Construct]  Ok.
+http://dbcls.jp/ns#ex481.ru     [sp:Modify, sp:Optional]        Error: 415 - Unsupported Media Type     Cause: null     Exception: org.apache.jena.atlas.web.HttpException: 415 - Unsupported Media Type
+http://dbcls.jp/ns#ex482.ru     [sp:Modify]     Error: 415 - Unsupported Media Type     Cause: null     Exception: org.apache.jena.atlas.web.HttpException: 415 - Unsupported Media Type
+http://dbcls.jp/ns#ex484.ru     [sp:Modify, sp:Bind, xsd:integer]       Error: 415 - Unsupported Media Type     Cause: null     Exception: org.apache.jena.atlas.web.HttpException: 415 - Unsupported Media Type
+http://dbcls.jp/ns#ex485.rq     [sp:Minus, sp:Select]   Ok.
+http://dbcls.jp/ns#ex487.rq     [sp:isIRI, sp:Filter, sp:not, sp:Select]        Ok.
+http://dbcls.jp/ns#ex488.ru     [sp:Modify]     Error: 415 - Unsupported Media Type     Cause: null     Exception: org.apache.jena.atlas.web.HttpException: 415 - Unsupported Media Type
+http://dbcls.jp/ns#ex489.rq     [sp:lcase, sp:Filter, sp:contains, sp:Select, sp:str]   Ok.
+http://dbcls.jp/ns#ex491.rq     [sp:uri, sp:concat, sp:Construct, sp:Bind, sp:encode_for_uri, sp:Optional]      Ok.
+http://dbcls.jp/ns#ex492.rq     [sp:Select]     Ok.
+http://dbcls.jp/ns#ex494.rq     [sp:Select]     Ok.
+http://dbcls.jp/ns#ex496.rq     [sp:Values, sp:Select]  Ok.
+http://dbcls.jp/ns#ex498.rq     [sp:Values, sp:Select]  Ok.
+http://dbcls.jp/ns#ex500.rq     [sp:Values, sp:Select]  Ok.
+http://dbcls.jp/ns#ex507.rq     [sp:Filter, sp:regex, sp:Select, sp:Optional]   Ok.
+http://dbcls.jp/ns#ex508.rq     [sp:Filter, sp:Select, sp:eq]   Ok.
+http://dbcls.jp/ns#ex509.rq     [sp:Select]     Ok.
+http://dbcls.jp/ns#ex510.rq     [sp:lcase, sp:Filter, sp:contains, sp:Select]   Ok.
+http://dbcls.jp/ns#ex511.rq     [sp:Filter, sp:Select, sp:strends]      Ok.
+http://dbcls.jp/ns#ex512.rq     [sp:Select]     Ok.
+http://dbcls.jp/ns#ex513.rq     [sp:Select]     Ok.
+http://dbcls.jp/ns#ex514.rq     [sp:Select]     Ok.
+http://dbcls.jp/ns#ex515.rq     [sp:Select]     Ok.
+http://dbcls.jp/ns#ex516.rq     [sp:Select]     Ok.
+http://dbcls.jp/ns#ex517.rq     [sp:contains, sp:Filter, sp:Select, sp:Optional]        Ok.
+http://dbcls.jp/ns#ex520.rq     [sp:contains, sp:Filter, sp:Select, sp:Optional]        Ok.
+http://dbcls.jp/ns#ex522.rq     [sp:Filter, sp:Select, sp:sameTerm]     Ok.
+http://dbcls.jp/ns#ex523.rq     [sp:Filter, sp:Construct, sp:not, sp:sameTerm]  Ok.
+http://dbcls.jp/ns#ex524.rq     [sp:Select]     Ok.
+http://dbcls.jp/ns#ex526.rq     [sp:Select, sp:Bind, sp:mul]    Ok.
+http://dbcls.jp/ns#ex528.rq     [sp:Select]     Ok.
+http://dbcls.jp/ns#ex532.rq     [sp:Select]     Ok.
+http://dbcls.jp/ns#ex533.rq     [sp:Select]     Ok.
+http://dbcls.jp/ns#ex537.rq     [sp:Select]     Ok.
+http://dbcls.jp/ns#ex538.rq     [sp:Union, sp:Select, sp:NamedGraph]    Ok.
+http://dbcls.jp/ns#ex539.rq     [sp:Service, sp:Select] Ok.
+http://dbcls.jp/ns#ex540.rq     [sp:Construct]  Ok.
+http://dbcls.jp/ns#ex541.rq     [sp:substr, sp:Select, sp:ucase]        Parse Error.
+http://dbcls.jp/ns#ex543.ru     [sp:Modify, sp:NamedGraph]      Error: 415 - Unsupported Media Type     Cause: null     Exception: org.apache.jena.atlas.web.HttpException: 415 - Unsupported Media Type
+http://dbcls.jp/ns#ex544.rq     [sp:Select]     Ok.
+http://dbcls.jp/ns#ex546.ru     [sp:Load]       Error: 415 - Unsupported Media Type     Cause: null     Exception: org.apache.jena.atlas.web.HttpException: 415 - Unsupported Media Type
+http://dbcls.jp/ns#ex547.rq     [sp:Select]     Ok.
+http://dbcls.jp/ns#ex548.ru     [sp:DeleteData] Error: 415 - Unsupported Media Type     Cause: null     Exception: org.apache.jena.atlas.web.HttpException: 415 - Unsupported Media Type
+http://dbcls.jp/ns#ex549.ru     [sp:Modify]     Error: 415 - Unsupported Media Type     Cause: null     Exception: org.apache.jena.atlas.web.HttpException: 415 - Unsupported Media Type
+http://dbcls.jp/ns#ex550.ru     [sp:Modify]     Error: 415 - Unsupported Media Type     Cause: null     Exception: org.apache.jena.atlas.web.HttpException: 415 - Unsupported Media Type
+http://dbcls.jp/ns#ex551.ru     [sp:DeleteWhere]        Error: 415 - Unsupported Media Type     Cause: null     Exception: org.apache.jena.atlas.web.HttpException: 415 - Unsupported Media Type
+</pre>
+<hr />
+<ul><li> <a href="/mw/SPARQLthon21" title="SPARQLthon21">SPARQLthon21</a>
+</li></ul>
+
+<!-- 
+NewPP limit report
+Preprocessor node count: 4/1000000
+Post-expand include size: 0/2097152 bytes
+Template argument size: 0/2097152 bytes
+Expensive parser function count: 0/100
+-->
+
+<!-- Saved in parser cache with key wikidb-togowiki_:pcache:idhash:473-0!1!0!!ja!2!edit=0 and timestamp 20230605014042 -->
+<div class="printfooter">
+「<a href="http://wiki.lifesciencedb.jp/mw/SPARQLtester">http://wiki.lifesciencedb.jp/mw/SPARQLtester</a>」より作成</div>
+		<div id='catlinks' class='catlinks'><div id="mw-normal-catlinks"><a href="/mw/%E7%89%B9%E5%88%A5:%E3%82%AB%E3%83%86%E3%82%B4%E3%83%AA" title="特別:カテゴリ">カテゴリ</a>: <span dir='ltr'><a href="/mw/index.php?title=Category:SPARQLthon&amp;action=edit&amp;redlink=1" class="new" title="Category:SPARQLthon（存在しないページ）">SPARQLthon</a></span></div></div>		<!-- end content -->
+				<div class="visualClear"></div>
+	</div>
+</div></div>
+<div id="column-one">
+	<div id="p-cactions" class="portlet">
+		<h5>表示</h5>
+		<div class="pBody">
+			<ul>
+				 <li id="ca-nstab-main" class="selected"><a href="/mw/SPARQLtester" title="本文を表示 [c]" accesskey="c">ページ</a></li>
+				 <li id="ca-talk" class="new"><a href="/mw/index.php?title=%E3%83%8E%E3%83%BC%E3%83%88:SPARQLtester&amp;action=edit&amp;redlink=1" title="記事についての議論 [t]" accesskey="t">議論</a></li>
+				 <li id="ca-viewsource"><a href="/mw/index.php?title=SPARQLtester&amp;action=edit" title="このページは保護されています。&#10;ページのソースを閲覧できます。 [e]" accesskey="e">ソースを表示</a></li>
+				 <li id="ca-history"><a href="/mw/index.php?title=SPARQLtester&amp;action=history" title="このページの過去の版 [h]" accesskey="h">履歴</a></li>
+			</ul>
+		</div>
+	</div>
+	<div class="portlet" id="p-personal">
+		<h5>個人用ツール</h5>
+		<div class="pBody">
+			<ul>
+				<li id="pt-anonuserpage"><a href="/mw/%E5%88%A9%E7%94%A8%E8%80%85:172.18.8.51" title="自分が編集しているIPアドレスの利用者ページ [.]" accesskey="." class="new">172.18.8.51</a></li>
+				<li id="pt-anontalk"><a href="/mw/%E5%88%A9%E7%94%A8%E8%80%85%E2%80%90%E4%BC%9A%E8%A9%B1:172.18.8.51" title="このIPアドレスからなされた編集についての議論 [n]" accesskey="n" class="new">このIPアドレスのトーク</a></li>
+				<li id="pt-anonlogin"><a href="/mw/index.php?title=%E7%89%B9%E5%88%A5:%E3%83%AD%E3%82%B0%E3%82%A4%E3%83%B3&amp;returnto=SPARQLtester" title="ログインすることが推奨されます。ただし、必須ではありません。 [o]" accesskey="o">ログイン</a></li>
+				<li id="pt-openidlogin"><a href="/mw/index.php?title=%E7%89%B9%E5%88%A5:OpenID%E3%83%AD%E3%82%B0%E3%82%A4%E3%83%B3&amp;returnto=SPARQLtester">OpenIDでログイン</a></li>
+			</ul>
+		</div>
+	</div>
+	<div class="portlet" id="p-logo">
+		<a style="background-image: url(/mw/images/togowiki-logo.png);" href="/mw/%E3%83%A1%E3%82%A4%E3%83%B3%E3%83%9A%E3%83%BC%E3%82%B8" title="メインページに移動"></a>
+	</div>
+	<script type="text/javascript"> if (window.isMSIE55) fixalpha(); </script>
+	<div class='generated-sidebar portlet' id='p-navigation'>
+		<h5>案内</h5>
+		<div class='pBody'>
+			<ul>
+				<li id="n-mainpage-description"><a href="/mw/%E3%83%A1%E3%82%A4%E3%83%B3%E3%83%9A%E3%83%BC%E3%82%B8" title="メインページに移動する [z]" accesskey="z">メインページ</a></li>
+				<li id="n-portal"><a href="/mw/TogoWiki:%E3%82%B3%E3%83%9F%E3%83%A5%E3%83%8B%E3%83%86%E3%82%A3%E3%83%BB%E3%83%9D%E3%83%BC%E3%82%BF%E3%83%AB" title="このプロジェクトについて、できること、情報を入手する場所">コミュニティ・ポータル</a></li>
+				<li id="n-currentevents"><a href="/mw/TogoWiki:%E6%9C%80%E8%BF%91%E3%81%AE%E5%87%BA%E6%9D%A5%E4%BA%8B" title="最近の出来事について予備知識を得る">最近の出来事</a></li>
+				<li id="n-recentchanges"><a href="/mw/%E7%89%B9%E5%88%A5:%E6%9C%80%E8%BF%91%E3%81%AE%E6%9B%B4%E6%96%B0" title="ウィキにおける最近の更新の一覧 [r]" accesskey="r">最近の更新</a></li>
+				<li id="n-randompage"><a href="/mw/%E7%89%B9%E5%88%A5:%E3%81%8A%E3%81%BE%E3%81%8B%E3%81%9B%E8%A1%A8%E7%A4%BA" title="無作為に抽出されたページの読み込み [x]" accesskey="x">おまかせ表示</a></li>
+				<li id="n-help"><a href="/mw/Help:%E7%9B%AE%E6%AC%A1" title="情報を得る場所">ヘルプ</a></li>
+			</ul>
+		</div>
+	</div>
+	<div id="p-search" class="portlet">
+		<h5><label for="searchInput">検索</label></h5>
+		<div id="searchBody" class="pBody">
+			<form action="/mw/index.php" id="searchform">
+				<input type='hidden' name="title" value="特別:検索"/>
+				<input id="searchInput" title="TogoWiki内を検索" accesskey="f" type="search" name="search" />
+				<input type='submit' name="go" class="searchButton" id="searchGoButton"	value="表示" title="厳密に一致する名前のページが存在すれば、そのページへ移動します" />&nbsp;
+				<input type='submit' name="fulltext" class="searchButton" id="mw-searchButton" value="検索" title="入力された文字列が含まれるページを検索します" />
+			</form>
+		</div>
+	</div>
+	<div class="portlet" id="p-tb">
+		<h5>ツールボックス</h5>
+		<div class="pBody">
+			<ul>
+				<li id="t-whatlinkshere"><a href="/mw/%E7%89%B9%E5%88%A5:%E3%83%AA%E3%83%B3%E3%82%AF%E5%85%83/SPARQLtester" title="ここにリンクしている全ウィキのページの一覧 [j]" accesskey="j">リンク元</a></li>
+				<li id="t-recentchangeslinked"><a href="/mw/%E7%89%B9%E5%88%A5:%E9%96%A2%E9%80%A3%E3%83%9A%E3%83%BC%E3%82%B8%E3%81%AE%E6%9B%B4%E6%96%B0%E7%8A%B6%E6%B3%81/SPARQLtester" title="このページからリンクしているページの最近の更新 [k]" accesskey="k">関連ページの更新状況</a></li>
+<li id="t-specialpages"><a href="/mw/%E7%89%B9%E5%88%A5:%E7%89%B9%E5%88%A5%E3%83%9A%E3%83%BC%E3%82%B8%E4%B8%80%E8%A6%A7" title="特別ページの一覧 [q]" accesskey="q">特別ページ</a></li>
+				<li id="t-print"><a href="/mw/index.php?title=SPARQLtester&amp;printable=yes" rel="alternate" title="このページの印刷用ページ [p]" accesskey="p">印刷用バージョン</a></li>				<li id="t-permalink"><a href="/mw/index.php?title=SPARQLtester&amp;oldid=14214" title="ページのこの版への固定リンク">この版への固定リンク</a></li>			</ul>
+		</div>
+	</div>
+</div><!-- end of the left (by default at least) column -->
+<div class="visualClear"></div>
+<div id="footer">
+	<div id="f-poweredbyico"><a href="http://www.mediawiki.org/"><img src="/mw/skins/common/images/poweredby_mediawiki_88x31.png" height="31" width="88" alt="Powered by MediaWiki" /></a></div>
+	<div id="f-copyrightico"><a href="http://creativecommons.org/licenses/by/3.0/"><img src="http://i.creativecommons.org/l/by/3.0/88x31.png" alt="Attribution 3.0 Unported" width="88" height="31" /></a></div>
+	<ul id="f-list">
+		<li id="lastmod"> このページの最終更新は 2014年10月7日 (火) 16:17 に行われました。</li>
+		<li id="viewcount">このページは4,119回アクセスされました。</li>
+		<li id="copyright">内容は<a href="http://creativecommons.org/licenses/by/3.0/" class="external ">Attribution 3.0 Unported</a>のライセンスで利用することができます。</li>
+		<li id="privacy"><a href="/mw/TogoWiki:%E3%83%97%E3%83%A9%E3%82%A4%E3%83%90%E3%82%B7%E3%83%BC%E3%83%BB%E3%83%9D%E3%83%AA%E3%82%B7%E3%83%BC" title="TogoWiki:プライバシー・ポリシー">プライバシー・ポリシー</a></li>
+		<li id="about"><a href="/mw/TogoWiki:TogoWiki%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6" title="TogoWiki:TogoWikiについて">TogoWikiについて</a></li>
+		<li id="disclaimer"><a href="/mw/TogoWiki:%E5%85%8D%E8%B2%AC%E4%BA%8B%E9%A0%85" title="TogoWiki:免責事項">免責事項</a></li>
+	</ul>
+</div>
+</div>
+
+<script>if (window.runOnloadHook) runOnloadHook();</script>
+<!-- Served in 0.622 secs. --></body></html>

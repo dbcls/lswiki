@@ -1,0 +1,621 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html lang="ja" dir="ltr">
+<head>
+<title>ソースを表示 - TogoWiki</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta name="generator" content="MediaWiki 1.16.3" />
+<meta name="robots" content="noindex,nofollow" />
+<link rel="next" href="BH11.11/セマンティックゲノムアノテーションデータベースの試作.html" />
+<link rel="shortcut icon" href="http://wiki.lifesciencedb.jp/favicon.ico" />
+<link rel="search" type="application/opensearchdescription+xml" href="http://wiki.lifesciencedb.jp/mw/opensearch_desc.php" title="TogoWiki (ja)" />
+<link rel="copyright" href="http://creativecommons.org/licenses/by/3.0/" />
+<link rel="alternate" type="application/atom+xml" title="TogoWikiのAtomフィード" href="http://wiki.lifesciencedb.jp/mw/index.php?title=%E7%89%B9%E5%88%A5:%E6%9C%80%E8%BF%91%E3%81%AE%E6%9B%B4%E6%96%B0&amp;feed=atom" />
+<!--[if IE 8]><link rel="stylesheet" href="/mw/skins/common/IE80Fixes.css?270" media="screen" /><![endif]-->
+<link rel="stylesheet" href="http://wiki.lifesciencedb.jp/mw/skins/common/shared.css?270" media="screen" />
+<link rel="stylesheet" href="http://wiki.lifesciencedb.jp/mw/skins/common/commonPrint.css?270" media="print" />
+<link rel="stylesheet" href="http://wiki.lifesciencedb.jp/mw/skins/monobook/main.css?270" media="screen" />
+<!--[if lt IE 5.5000]><link rel="stylesheet" href="/mw/skins/monobook/IE50Fixes.css?270" media="screen" /><![endif]-->
+<!--[if IE 5.5000]><link rel="stylesheet" href="/mw/skins/monobook/IE55Fixes.css?270" media="screen" /><![endif]-->
+<!--[if IE 6]><link rel="stylesheet" href="/mw/skins/monobook/IE60Fixes.css?270" media="screen" /><![endif]-->
+<!--[if IE 7]><link rel="stylesheet" href="/mw/skins/monobook/IE70Fixes.css?270" media="screen" /><![endif]-->
+<link rel="stylesheet" href="http://wiki.lifesciencedb.jp/mw/index.php?title=MediaWiki:Common.css&amp;usemsgcache=yes&amp;ctype=text%2Fcss&amp;smaxage=18000&amp;action=raw&amp;maxage=18000" />
+<link rel="stylesheet" href="http://wiki.lifesciencedb.jp/mw/index.php?title=MediaWiki:Print.css&amp;usemsgcache=yes&amp;ctype=text%2Fcss&amp;smaxage=18000&amp;action=raw&amp;maxage=18000" media="print" />
+<link rel="stylesheet" href="http://wiki.lifesciencedb.jp/mw/index.php?title=MediaWiki:Monobook.css&amp;usemsgcache=yes&amp;ctype=text%2Fcss&amp;smaxage=18000&amp;action=raw&amp;maxage=18000" />
+<link rel="stylesheet" href="http://wiki.lifesciencedb.jp/mw/index.php?title=-&amp;action=raw&amp;maxage=18000&amp;gen=css" />
+<script>
+var skin="monobook",
+stylepath="/mw/skins",
+wgUrlProtocols="http\\:\\/\\/|https\\:\\/\\/|ftp\\:\\/\\/|irc\\:\\/\\/|gopher\\:\\/\\/|telnet\\:\\/\\/|nntp\\:\\/\\/|worldwind\\:\\/\\/|mailto\\:|news\\:|svn\\:\\/\\/",
+wgArticlePath="/mw/$1",
+wgScriptPath="/mw",
+wgScriptExtension=".php",
+wgScript="/mw/index.php",
+wgVariantArticlePath=false,
+wgActionPaths={},
+wgServer="http://wiki.lifesciencedb.jp",
+wgCanonicalNamespace="",
+wgCanonicalSpecialPageName=false,
+wgNamespaceNumber=0,
+wgPageName="BH11.11/セマンティックゲノムアノテーションデータベースの試作",
+wgTitle="BH11.11/セマンティックゲノムアノテーションデータベースの試作",
+wgAction="edit",
+wgArticleId=86,
+wgIsArticle=false,
+wgUserName=null,
+wgUserGroups=null,
+wgUserLanguage="ja",
+wgContentLanguage="ja",
+wgBreakFrames=true,
+wgCurRevisionId=9119,
+wgVersion="1.16.3",
+wgEnableAPI=true,
+wgEnableWriteAPI=true,
+wgSeparatorTransformTable=["", ""],
+wgDigitTransformTable=["", ""],
+wgMainPageTitle="メインページ",
+wgFormattedNamespaces={"-2": "メディア", "-1": "特別", "0": "", "1": "ノート", "2": "利用者", "3": "利用者‐会話", "4": "TogoWiki", "5": "TogoWiki‐ノート", "6": "ファイル", "7": "ファイル‐ノート", "8": "MediaWiki", "9": "MediaWiki‐ノート", "10": "Template", "11": "Template‐ノート", "12": "Help", "13": "Help‐ノート", "14": "Category", "15": "Category‐ノート"},
+wgNamespaceIds={"メディア": -2, "特別": -1, "": 0, "ノート": 1, "利用者": 2, "利用者‐会話": 3, "togowiki": 4, "togowiki‐ノート": 5, "ファイル": 6, "ファイル‐ノート": 7, "mediawiki": 8, "mediawiki‐ノート": 9, "template": 10, "template‐ノート": 11, "help": 12, "help‐ノート": 13, "category": 14, "category‐ノート": 15, "画像": 6, "画像‐ノート": 7, "image": 6, "image_talk": 7},
+wgSiteName="TogoWiki",
+wgCategories=[],
+wgRestrictionEdit=[],
+wgRestrictionMove=[];
+</script><script src="http://wiki.lifesciencedb.jp/mw/skins/common/wikibits.js?270"></script>
+<script src="http://wiki.lifesciencedb.jp/mw/skins/common/edit.js?270"></script>
+<script src="http://wiki.lifesciencedb.jp/mw/skins/common/ajax.js?270"></script>
+<script src="http://wiki.lifesciencedb.jp/mw/index.php?title=-&amp;action=raw&amp;gen=js&amp;useskin=monobook&amp;270"></script>
+
+		<style type='text/css'>
+		li#pt-openidlogin {
+		  background: url(http://wiki.lifesciencedb.jp/mw/extensions/OpenID/skin/icons/openid-inputicon.png) top left no-repeat;
+		  padding-left: 20px;
+		  text-transform: none;
+		}
+		</style>
+</head>
+<body class="mediawiki ltr ns-0 ns-subject page-BH11_11_セマンティックゲノムアノテーションデータベースの試作 skin-monobook">
+<div id="globalWrapper">
+<div id="column-content"><div id="content" >
+	<a id="top"></a>
+	
+	<h1 id="firstHeading" class="firstHeading">BH11.11/セマンティックゲノムアノテーションデータベースの試作</h1>
+	<div id="bodyContent">
+		<h3 id="siteSub">提供：TogoWiki</h3>
+		<div id="contentSub"><a href="BH11.11/セマンティックゲノムアノテーションデータベースの試作.html" title="BH11.11/セマンティックゲノムアノテーションデータベースの試作">BH11.11/セマンティックゲノムアノテーションデータベースの試作</a>のソース</div>
+		<div id="jump-to-nav">移動： <a href="index.php@title=BH11.11%252Fセマンティックゲノムアノテーションデータベースの試作&amp;action=edit.html#column-one">案内</a>, <a href="index.php@title=BH11.11%252Fセマンティックゲノムアノテーションデータベースの試作&amp;action=edit.html#searchInput">検索</a></div>
+		<!-- start content -->
+<p>以下に示された理由により、このページの編集を行うことができません：
+</p>
+<div class="permissions-errors">
+<p>この操作は、<a href="http://wiki.lifesciencedb.jp/mw/index.php?title=TogoWiki:%E5%88%A9%E7%94%A8%E8%80%85&amp;action=edit&amp;redlink=1" class="new" title="TogoWiki:利用者（存在しないページ）">利用者</a>のグループに属する利用者のみが実行できます。
+</p>
+</div>
+<p>このページのソースを閲覧し、コピーすることができます：
+</p><textarea id="wpTextbox1" name="wpTextbox1" cols="80" rows="25" readonly="">== 目的 ==
+* DBCLSにおいて環境などの様々なデータを取り込む上でRDFを利用しゲノム座標系に対してのデータ統合やアノテーション編集が可能なゲノムデータベースの開発試作
+* 統合DB微生物グループにおいてデータ連携・統合に向けたRDF開発と改良
+
+== 作業手順 ==
+# ゲノムDB毎のゲノム情報レポートを構成する要素（Stanza）の調査および整理
+## UniProtとCyanoBaseから抽出したstanza確認 -11/21
+## RDF表現のDB調査 -11/21,22
+## Stanzaを構成する元情報のリストおよびRDF要素をKeynoteにまとめ
+# サンプルRDF開発、作成および収集
+# Stanzaを構成する情報収集するSPARQL設計
+# Visualizationの設計
+
+== 作業項目 == 
+=== ゲノムDB毎のゲノム情報レポートを構成する要素（Stanza）の調査および整理 -11/21 ===
+* UniProtとCyanoBaseから抽出したstanza確認 - 事前調査済 -ktym, so [[ファイル:JSBi-poster-page05.png|thumb|right|600px|Typical constitution of seq DBs]]
+*# General summary of organisms
+*# General summary
+*# Genomic context
+*# Transcript attributes
+*# Protein attributes
+*# Protein-protein interactions
+*# Visual annotation format
+*# Table annotation format
+*# Homologs (in NR)
+*# Homologs (in selected orgs)
+*# Gene annotation (GO etc.)
+*# References
+*# External links
+*# Mutants
+*# Revision history
+*# API
+
+=== RDF表現等のDB調査  -11/21,22 ===
+* RDF表現の調査
+*# [http://wiki.lifesciencedb.jp/mw/index.php?title=BH11.11/%E3%82%BB%E3%83%9E%E3%83%B3%E3%83%86%E3%82%A3%E3%83%83%E3%82%AF%E3%82%B2%E3%83%8E%E3%83%A0%E3%82%A2%E3%83%8E%E3%83%86%E3%83%BC%E3%82%B7%E3%83%A7%E3%83%B3%E3%83%87%E3%83%BC%E3%82%BF%E3%83%99%E3%83%BC%E3%82%B9%E3%81%AE%E8%A9%A6%E4%BD%9C/UniProt UniProt] -片山
+*# [http://wiki.lifesciencedb.jp/mw/index.php?title=BH11.11/%E3%82%BB%E3%83%9E%E3%83%B3%E3%83%86%E3%82%A3%E3%83%83%E3%82%AF%E3%82%B2%E3%83%8E%E3%83%A0%E3%82%A2%E3%83%8E%E3%83%86%E3%83%BC%E3%82%B7%E3%83%A7%E3%83%B3%E3%83%87%E3%83%BC%E3%82%BF%E3%83%99%E3%83%BC%E3%82%B9%E3%81%AE%E8%A9%A6%E4%BD%9C/DDBJ_GTPS DDBJ, GTPS] - 重元
+*# [http://wiki.lifesciencedb.jp/mw/index.php?title=BH11.11/%E3%82%BB%E3%83%9E%E3%83%B3%E3%83%86%E3%82%A3%E3%83%83%E3%82%AF%E3%82%B2%E3%83%8E%E3%83%A0%E3%82%A2%E3%83%8E%E3%83%86%E3%83%BC%E3%82%B7%E3%83%A7%E3%83%B3%E3%83%87%E3%83%BC%E3%82%BF%E3%83%99%E3%83%BC%E3%82%B9%E3%81%AE%E8%A9%A6%E4%BD%9C/CyanoBase CyanoBase, RhizoBase]  - 藤澤
+
+* その他の参考DB
+*# Refseq
+*# ensembl, UCSC -内藤さん siRNA、犬田 SRA
+*# WormBase -GFF3
+
+* GFF3 Id/Parent関係表現しているRDF調査
+** yeast.owl '''[Todo]'''
+=== セマンティックゲノムアノテーションデータベースで表現したいSOデータタイプの確認 -11/21,22===
+* replicon (SO:0001235)
+** '''chromosome (SO:0000340)'''
+** '''plasmid (SO:0000155)'''
+* '''gene (SO:0000704)'''
+** gene_member_region (SO:0000831) 
+*** '''transcript (SO:0000673)''' -- '''CDS (SO:0000316)''' --  '''polypeptide (SO:0000104)'''
+** '''ncRNA_gene (SO:0001263)'''
+*** '''tRNA (SO:0000253)'''
+*** '''rRNA (SO:0000252)'''
+*** small_regulatory_ncRNA (SO:0000370)
+**** '''tmRNA (SO:0000584)'''
+** '''protein_coding_gene (SO:0001217)'''
+** pseudogene (SO:0000336)
+** predicted_gene (SO:0000996)
+** fusion_gene (SO:0000287)
+** gene_with_polycistronic_transcript (SO:0000690)
+** gene_with_trans_spliced_transcript (SO:0000459)
+* '''mobile_genetic_element (SO:0001037)'''
+
+==== 参考 ====
+* [http://sequenceontology.org/ Sequence Ontology]
+* [http://insdc.org/rna_vocab.html Controlled vocabulary for ncRNA classes@INSDC]
+* [http://sequenceontology.org/resources/mapping/FT_SO.html FT SO mapping]
+
+=== StanzaとGTPS (INSDC feature/qualifer) およびUniProtの要素との対応表 -11/22,23 ===
+[http://wiki.lifesciencedb.jp/mw/index.php/BH11.11/%E3%82%BB%E3%83%9E%E3%83%B3%E3%83%86%E3%82%A3%E3%83%83%E3%82%AF%E3%82%B2%E3%83%8E%E3%83%A0%E3%82%A2%E3%83%8E%E3%83%86%E3%83%BC%E3%82%B7%E3%83%A7%E3%83%B3%E3%83%87%E3%83%BC%E3%82%BF%E3%83%99%E3%83%BC%E3%82%B9%E3%81%AE%E8%A9%A6%E4%BD%9C/Stanza%E5%AF%BE%E5%BF%9C%E8%A1%A8 Stanza対応表（書きかけ）]　'''[Todo]'''
+
+=== Stanzaを構成するRDF設計 -11/21 ===
+* 全員：元となるゲノム・遺伝子のデータには GTPS や RefSeq が候補としてあげられた
+* 全員：このうち GTPS をベースとすることが合意された
+* 重元：GTPS の RDF に対し、feature 毎に ID を付与、適切な SO を付与、SO を利用した exon 単位での遺伝子モデル表現を追加
+* 内山：GTPS と RefSeq の対応を location ベースで判定（3' の同一性を基準）、まずは syn についてサンプルデータを生成
+* 川島：GTPS からは Protein ID がとれる。UniProt の RDF には embl-cds に Protein ID があるので、UniProt の RDF があれば対応可能
+
+  &lt;rdf:Description rdf:about="http://purl.uniprot.org/uniprot/Q55168">
+    &lt;rdfs:seeAlso rdf:resource="http://purl.uniprot.org/embl-cds/BAA10307.1"/>
+
+* 渡辺：その他の UniProt から使えそうなデータについては [[BH11.11/セマンティックゲノムアノテーションデータベースの試作/UniProt]] にまとめる
+* 片山：文献については UniProt のエントリにあるものはそれを活用すればよいし、TogoWS の PMID → Turtle 生成で RDF 化できる（subject の pmid:7890027 が QName として不正なのを修正する）
+* 片山：Gene Ontology については、[[BH11.11/統合検索とRDFからの表データ生成#Gene_Ontology]] で geneontology.org の OWL, RDF のインポートを試みている（が現状では失敗）
+* 岡本：微生物単位での環境アノテーションを用意
+* 岡本：syn と ana について gene index による遺伝子 ID と文献 ID の対応を用意
+* 内山：GTPS に含まれるゲノム間でのオーソログ対応のデータを用意
+* 川島：OMIM については LinkDB に omim-kegg-hsa のデータがあるため、NCBI GeneID との対応は可能。OMIM の今後の更新は不明
+
+これで少なくとも、微生物統合に必要なゲノムと遺伝子セットについて、UniProt + α の情報をもつ RDF ベースのデータベースを構築でき、環境などメタデータの付与や、遺伝子予測レベルごとのファセットブラウジング、統計的なデータの可視化、新規アノテーション付けとデータ公開までいけそう。
+
+==== GTPS-Refseq対応表のRDF化 -11/22 ====
+TogoDB2 で変換して http://bh.dbcls.jp/ に投入した
+
+  select ?gtps ?refseq where {
+    ?s &lt;http://togodb.dbcls.jp/refseq_gtps_syn/metadata/gtps_gene> ?gtps .
+    ?s &lt;http://togodb.dbcls.jp/refseq_gtps_syn/metadata/refseq_gene> ?refseq .
+  }
+
+{| border="1" cellspacing="0"
+! gtps !! refseq
+|-
+| ST15 || SLR0316
+|-
+| ST12 || SLR0099
+|- 
+| ST2 || SLL0488
+|-
+| : || :
+|}
+
+GTPS の ID に生物種名を prefix しないと GTPS との RDF と対応が取れないということで
+
+  select ?gtps ?refseq 
+  from &lt;http://refseq/>
+  where {
+     ?s &lt;http://togodb.dbcls.jp/refseq_gtps_syn/metadata/gtps_gene> ?gtps .
+     ?s &lt;http://togodb.dbcls.jp/refseq_gtps_syn/metadata/refseq_gene> ?refseq .
+   }
+
+{| border="1" cellspacing="0"
+! gtps !! refseq
+|-
+| Syne_PCC6803:ST1975	|| SLR0954
+|-
+| Syne_PCC6803:ST517	|| SLL0993
+|-
+| Syne_PCC6803:PL2919	|| SLL0508
+|-
+| : || :
+|}
+
+=== データベースのID表記の整理 (Syechocystis sp. PCC 6803, slr1311）-11/24,11/25 ===
+* ゲノム／生物種
+{| class="wikitable"
+! database
+! label
+! uri
+|-
+! GTPS
+| Syne_PCC6803
+| http://gtps.ddbj.nig.ac.jp/single/index.php?chid=Syne_PCC6803  
+|-
+! Refseq
+| 57659
+| http://www.ncbi.nlm.nih.gov/bioproject/57659
+|-
+! MBGD
+| syn
+| http://mbgd.genome.ad.jp/htbin/MBGD_whole_html.pl?spec=syn
+|-
+! UniProt
+| 1148
+| http://www.uniprot.org/taxonomy/1148
+|}
+
+* 遺伝子／タンパク質
+{| class="wikitable"
+! rowspan="2" | database
+! colspan="2" align="center" | gene
+! colspan="2" align="center" | protein
+|-
+
+! label
+! uri
+! label
+! uri
+|-
+! GTPS
+| Syne_PCC6803:ST203
+| http://gtps.ddbj.nig.ac.jp/common/info.php?spid=Syne_PCC6803&amp;ftid=13  
+| BAA16586.1
+| http://gib.genes.nig.ac.jp/gtop/info.php?spid=Syne_PCC6803&amp;prot=BAA16586.1
+|-
+! GTPS/RDF
+|
+|http://gtps.ddbj.nig.ac.jp/2010/BA000022/feature_14
+|
+|
+|-
+! Refseq
+| 951890
+| http://www.ncbi.nlm.nih.gov/sites/entrez?db=gene&amp;cmd=Retrieve&amp;dopt=full_report&amp;list_uids=951890    
+| 16329178
+| http://www.ncbi.nlm.nih.gov/protein/16329178
+|-
+! MBGD
+| syn:SLR1311
+| http://mbgd.genome.ad.jp/htbin/MBGD_gene_info_frame.pl?name=syn:SLR1311
+|   
+|
+|-
+! UniProt
+|   
+| 
+| P16033
+| http://www.uniprot.org/uniprot/P16033
+|-
+! UniProt/RDF
+|    
+| 
+| P16033
+| http://purl.uniprot.org/uniprot/P1603
+|}
+
+=== Synechocystis sp. PCC 6803を用いたサンプルデータの作成および収集 -11/21,22,23,24,25 ===
+{| class="sortable wikitable"
+|-
+!型
+! データ
+| 担当者
+! RDF化
+! データストア
+|-
+|ID関係
+|GTPS-Refseq対応表
+| 内山
+|済（togodb→turtle変換)
+|済
+|-
+| ゲノム／遺伝子
+| GTPS (syn)
+| 重元
+| [http://gtps.ddbj.nig.ac.jp/rdf/ 済]
+| 
+|-
+| ゲノム／遺伝子
+| Refseq (syn)
+| 片山
+| 済
+| 
+|-
+| タンパク質
+| UniProt (syn.ana)
+| UniProt
+| 済
+| 済
+|-
+| ID関係
+| Refseq ID-Pubmed対応表 (Gene Indexing、syn.ana)
+| 岡本
+| 済
+| 済
+|-
+| 文献
+| Pubmed (syn.ana)
+| TogoWS
+| 済
+| 済
+|-
+|ID関係
+|MBGD ID-Refseq ID対応表
+|千葉
+|済（togodb→turtle変換)
+|
+|-
+|オーソロググループ
+|MBGD (syn）
+|西出
+|済
+|
+|-
+|転写産物
+|ユーザのデータ（例、[http://www.cyanolab.de/Supplementary.html HessさんのSyn6803TSS.gbk]）
+| 藤澤
+| 済（togows/convert/genbank.ttl変換）
+| 
+|}
+
+----
+
+=== サンプルデータを用いた実装 ===
+
+=== Visualizationの設計 ===
+* 利用できそうなツール 
+** [http://www.jibbering.com/rdf-parser/ rdf-parse]
+**  [http://mbostock.github.com/protovis/ protovis]
+
+=== 応用例 ===
+* 微生物統合DB（GTPS）に対して BLAST 検索した結果を RDF に集積されたデータを活用して enrichment
+* ゲノムの領域を指定して領域に含まれるデータを返す API を用意し、BioDAS を超える。メタゲノムや RNA-Seq のマッピングデータを効率的にストリーミング。genoDiveで可視化
+* １つ以上のゲノムを１エントリーとしたゲノム差分情報を表現したデータベース開発 -11/25追加
+
+== 作業ログ ==
+==== 11/23 ====
+* Sequence Ontology-GTPS Feature/qualifier対応作成と確認
+* GTPS RDF表現の変更とサンプルデータ作成
+** RDFを可視化する方法
+ rapper -o dot http://www.uniprot.org/uniprot/P16033.rdf?include=yes  >P16033y.dot
+ dot -Tgif P16033y.dot -o P16033y.gif
+
+==== 11/24 ====
+* GTPS/RDF修正および議論
+** INSDのCDSとの比較情報(grade)とBLASTやInterProScan、アノテーションによるフラグ情報(flag)の要素をばらして表現　←ファセッティングでの利用を想定
+** DDBJやGTPSのRDF表現で現在、ddbj名前空間をINSDCとする方向が望ましいが、現時点ではinsdc.orgにitemを指すURIが存在しないため変更なしとした
+* [http://wiki.lifesciencedb.jp/mw/index.php/BH11.11/%E3%82%BB%E3%83%9E%E3%83%B3%E3%83%86%E3%82%A3%E3%83%83%E3%82%AF%E3%82%B2%E3%83%8E%E3%83%A0%E3%82%A2%E3%83%8E%E3%83%86%E3%83%BC%E3%82%B7%E3%83%A7%E3%83%B3%E3%83%87%E3%83%BC%E3%82%BF%E3%83%99%E3%83%BC%E3%82%B9%E3%81%AE%E8%A9%A6%E4%BD%9C/MBGD MBGD/RDF開発]
+** MBGD-Refseq対応表
+* Syn6803TSS.gbk/RDF作成
+* togowsでgenbank形式ファイルをturtle形式ファイルに変換した
+ wget --post-file Syn6803TSS.gbk http://togows.dbcls.jp/convert/genbank.ttl
+
+** 名前空間ns0はinsdcが望ましいのでは？という議論
+ &lt;?xml version="1.0" encoding="utf-8"?>
+ &lt;rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  &lt;rdf:Description rdf:nodeID="g641410638">
+    &lt;rdf:type rdf:resource="http://sabi.ddbj.nig.ac.jp/core/feature/TATA"/>
+  &lt;/rdf:Description>
+  &lt;rdf:Description rdf:nodeID="g641410638">
+    &lt;ns0:locus_tag xmlns:ns0="http://sabi.ddbj.nig.ac.jp/core/qualifier/">slr1179&lt;/ns0:locus_tag>
+  &lt;/rdf:Description>
+  &lt;rdf:Description rdf:nodeID="g638353598">
+    &lt;ns0:note xmlns:ns0="http://sabi.ddbj.nig.ac.jp/core/qualifier/">hypothetical protein &lt;/ns0:note>
+  &lt;/rdf:Description>
+  &lt;rdf:Description rdf:nodeID="g638353598">
+    &lt;ns0:product xmlns:ns0="http://sabi.ddbj.nig.ac.jp/core/qualifier/">hypothetical protein&lt;/ns0:product>  &lt;/rdf:Description>
+  &lt;rdf:Description rdf:nodeID="g638353598">
+    &lt;ns0:db_xref xmlns:ns0="http://sabi.ddbj.nig.ac.jp/core/qualifier/">GeneID:953832&lt;/ns0:db_xref>
+  &lt;/rdf:Description>
+  &lt;rdf:Description rdf:nodeID="g638353598">
+    &lt;rdf:type rdf:resource="http://sabi.ddbj.nig.ac.jp/core/feature/CDS"/>
+  &lt;/rdf:Description>
+  &lt;rdf:Description rdf:nodeID="g638353598">
+    &lt;ns0:locus_tag xmlns:ns0="http://sabi.ddbj.nig.ac.jp/core/qualifier/">slr1394&lt;/ns0:locus_tag>
+  &lt;/rdf:Description>
+  &lt;rdf:Description rdf:nodeID="g638353598">
+    &lt;ns0:translation xmlns:ns0="http://sabi.ddbj.nig.ac.jp/core/qualifier/">MQDFGAVFHNQVLLISLAACFLAQGIKAIVEIFRNGKINLRSLVSTGGMPSAHSALVGALATGVGLQKGWGSNEFAIACLFAVIVMYDAAGVRQAAGKQARILNQLIDELFQEDQSLTEERLKELLGHTPVQVFAGLALGIAIAFFAVPAQ&lt;/ns0:translation>
+  &lt;/rdf:Description>
+
+* IDの対応関係を整理した
+[[ファイル:TogoMicrobe_ID.png]]
+
+==== 11/25 ====
+* Syn6803TSS.ttl作成
+* MBGD ID-Refseq ID対応表
+** MBGD/RDFのMBGD geneIDがURI表記のため対応表をURIに変更した
+
+ perl -ne 's/\t/,/;s/^/http:\/\/mbgd.genome.ad.jp\/rdf\/gene\//;print $_;' mbgdGeneId_refseqGeneId.syn.3625 > mbgdGeneId_refseqGeneId.syn.3625.csv
+
+{| class="wikitable"
+! mbgd_gene
+! refseq_protein
+|-
+|http://mbgd.genome.ad.jp/rdf/gene/syn:SLL7001
+|NP_942289.1
+|-
+|http://mbgd.genome.ad.jp/rdf/gene/syn:SSL5001
+|NP_942157.1
+|-
+|http://mbgd.genome.ad.jp/rdf/gene/syn:SLR6001
+|NP_942444.1
+|-
+| ..
+| ..
+|}
+
+** togows/convert/csv.ttlを使ってみたらURLが変換されて新たなURLが生成された
+
+ @prefix rdf: &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+ 
+ &lt;http://togodb.dbcls.jp/212974066c90b484cd52b4ec49679ab8/show/1>
+     &lt;http://togodb.dbcls.jp/212974066c90b484cd52b4ec49679ab8/metadata/NP_942289.1> "NP_942157.1" ;
+     &lt;http://togodb.dbcls.jp/212974066c90b484cd52b4ec49679ab8/metadata/http___mbgd.genome.ad.jp_rdf_gene_syn_SLL7001> "http://mbgd.genome.ad.jp/rdf/gene/syn:SSL5001" .
+ 
+ &lt;http://togodb.dbcls.jp/212974066c90b484cd52b4ec49679ab8/show/10>
+     &lt;http://togodb.dbcls.jp/212974066c90b484cd52b4ec49679ab8/metadata/NP_942289.1> "NP_942292.1" ;
+     &lt;http://togodb.dbcls.jp/212974066c90b484cd52b4ec49679ab8/metadata/http___mbgd.genome.ad.jp_rdf_gene_syn_SLL7001> "http://mbgd.genome.ad.jp/rdf/gene/syn:SSL7004" .
+
+** togodb2に入れてみた
+*** togodbでtutleの取得方法を片山さんに聞く
+**** コンフィグメニューのreleaseをクリックするとturtleが作成された
+** 対応表のRefseq IDはRefseq proteinのAccessionのため千葉さんに確認
+*** mbgdにおいてrefseqのgene idおよびprotein idを確認して対応表を作り直した
+
+{| class="wikitable"
+! mbgd_gene
+! refseq_gene
+! refseq_protein
+|-
+|http://mbgd.genome.ad.jp/rdf/gene/syn:SLL7001
+|SLL7001
+|NP_942289.1
+|-
+|http://mbgd.genome.ad.jp/rdf/gene/syn:SSL5001
+|SSL5001
+|NP_942157.1
+|-
+|http://mbgd.genome.ad.jp/rdf/gene/syn:SLR6001
+|SLR6001
+|NP_942444.1
+|-
+| ..
+| ..
+| ..
+|}
+
+* togodb2を利用してturtleファイルの作成した
+ @prefix rdf: &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+ 
+ &lt;http://togodb.dbcls.jp/mbgd_refseq_syn/show/1>
+     &lt;http://togodb.dbcls.jp/mbgd_refseq_syn/metadata/mbgd> &lt;http://mbgd.genome.ad.jp/rdf/gene/syn:SLL7001> ;
+     &lt;http://togodb.dbcls.jp/mbgd_refseq_syn/metadata/refseq_gene> "SLL7001" ;
+     &lt;http://togodb.dbcls.jp/mbgd_refseq_syn/metadata/refseq_protein> "NP_942289.1" .
+ 
+ &lt;http://togodb.dbcls.jp/mbgd_refseq_syn/show/10>
+     &lt;http://togodb.dbcls.jp/mbgd_refseq_syn/metadata/mbgd> &lt;http://mbgd.genome.ad.jp/rdf/gene/syn:SLR0613> ;
+     &lt;http://togodb.dbcls.jp/mbgd_refseq_syn/metadata/refseq_gene> "SLR0613" ;
+     &lt;http://togodb.dbcls.jp/mbgd_refseq_syn/metadata/refseq_protein> "NP_439901.1" .
+ 
+ &lt;http://togodb.dbcls.jp/mbgd_refseq_syn/show/100>
+     &lt;http://togodb.dbcls.jp/mbgd_refseq_syn/metadata/mbgd> &lt;http://mbgd.genome.ad.jp/rdf/gene/syn:SLR5016> ;
+     &lt;http://togodb.dbcls.jp/mbgd_refseq_syn/metadata/refseq_gene> "SLR5016" ;
+     &lt;http://togodb.dbcls.jp/mbgd_refseq_syn/metadata/refseq_protein> "NP_942172.1" .
+
+
+== BH11.11での成果 ==
+# 統合DB微生物のデータ連携・統合に向けたRDF開発と改善の実施
+## DDBJ/RDF形式をベースにGTPS/RDFの開発およびデータ統合および利用を想定し7項目についてRDFの表現の見直しおよび変更を実施した
+##* 変更については、DDBJ/RDFにも反影する予定
+## オーソログデータベースMBGDのRDF開発および３項目についての表現の変更を実施
+# セマンティクゲノムアノテーションデータベース試作のためのSynechocystis sp. PCC 6803のRDFデータの作成および収集が完了した
+
+== 課題 ==
+* データ統合する上で適切な名前空間、ID表現方法、rdf:typeに関するガイドライン策定
+* stanza毎のSPARQL設計およびRDFのチューニング
+* GFF3 Id/Parent関係表現についてのRDF開発
+----
+
+== メンバ==
+* 片山
+* 岡本
+* 藤澤
+* 重元
+* 内山
+* 千葉
+* 西出
+
+
+----
+* [http://wiki.lifesciencedb.jp/mw/index.php/BH11.11 BH11.11 Top page]
+[[Category:BH11.11]]
+[[Category:CyanoBase]]</textarea><div class='templatesUsed'>
+
+</div>
+<p id="mw-returnto"><a href="BH11.11/セマンティックゲノムアノテーションデータベースの試作.html" title="BH11.11/セマンティックゲノムアノテーションデータベースの試作">BH11.11/セマンティックゲノムアノテーションデータベースの試作</a>に戻る。</p>
+<div class="printfooter">
+「<a href="BH11.11/セマンティックゲノムアノテーションデータベースの試作.html">http://wiki.lifesciencedb.jp/mw/BH11.11/%E3%82%BB%E3%83%9E%E3%83%B3%E3%83%86%E3%82%A3%E3%83%83%E3%82%AF%E3%82%B2%E3%83%8E%E3%83%A0%E3%82%A2%E3%83%8E%E3%83%86%E3%83%BC%E3%82%B7%E3%83%A7%E3%83%B3%E3%83%87%E3%83%BC%E3%82%BF%E3%83%99%E3%83%BC%E3%82%B9%E3%81%AE%E8%A9%A6%E4%BD%9C</a>」より作成</div>
+		<div id='catlinks' class='catlinks catlinks-allhidden'></div>		<!-- end content -->
+				<div class="visualClear"></div>
+	</div>
+</div></div>
+<div id="column-one">
+	<div id="p-cactions" class="portlet">
+		<h5>表示</h5>
+		<div class="pBody">
+			<ul>
+				 <li id="ca-nstab-main" class="selected"><a href="BH11.11/セマンティックゲノムアノテーションデータベースの試作.html" title="本文を表示 [c]" accesskey="c">ページ</a></li>
+				 <li id="ca-talk" class="new"><a href="http://wiki.lifesciencedb.jp/mw/index.php?title=%E3%83%8E%E3%83%BC%E3%83%88:BH11.11/%E3%82%BB%E3%83%9E%E3%83%B3%E3%83%86%E3%82%A3%E3%83%83%E3%82%AF%E3%82%B2%E3%83%8E%E3%83%A0%E3%82%A2%E3%83%8E%E3%83%86%E3%83%BC%E3%82%B7%E3%83%A7%E3%83%B3%E3%83%87%E3%83%BC%E3%82%BF%E3%83%99%E3%83%BC%E3%82%B9%E3%81%AE%E8%A9%A6%E4%BD%9C&amp;action=edit&amp;redlink=1" title="記事についての議論 [t]" accesskey="t">議論</a></li>
+				 <li id="ca-viewsource" class="selected"><a href="index.php@title=BH11.11%252Fセマンティックゲノムアノテーションデータベースの試作&amp;action=edit.html" title="このページは保護されています。&#10;ページのソースを閲覧できます。 [e]" accesskey="e">ソースを表示</a></li>
+				 <li id="ca-history"><a href="index.php@title=BH11.11%252Fセマンティックゲノムアノテーションデータベースの試作&amp;action=history.html" title="このページの過去の版 [h]" accesskey="h">履歴</a></li>
+			</ul>
+		</div>
+	</div>
+	<div class="portlet" id="p-personal">
+		<h5>個人用ツール</h5>
+		<div class="pBody">
+			<ul>
+				<li id="pt-anonuserpage"><a href="http://wiki.lifesciencedb.jp/mw/%E5%88%A9%E7%94%A8%E8%80%85:172.18.8.51" title="自分が編集しているIPアドレスの利用者ページ [.]" accesskey="." class="new">172.18.8.51</a></li>
+				<li id="pt-anontalk"><a href="http://wiki.lifesciencedb.jp/mw/%E5%88%A9%E7%94%A8%E8%80%85%E2%80%90%E4%BC%9A%E8%A9%B1:172.18.8.51" title="このIPアドレスからなされた編集についての議論 [n]" accesskey="n" class="new">このIPアドレスのトーク</a></li>
+				<li id="pt-anonlogin"><a href="http://wiki.lifesciencedb.jp/mw/index.php?title=%E7%89%B9%E5%88%A5:%E3%83%AD%E3%82%B0%E3%82%A4%E3%83%B3&amp;returnto=BH11.11/%E3%82%BB%E3%83%9E%E3%83%B3%E3%83%86%E3%82%A3%E3%83%83%E3%82%AF%E3%82%B2%E3%83%8E%E3%83%A0%E3%82%A2%E3%83%8E%E3%83%86%E3%83%BC%E3%82%B7%E3%83%A7%E3%83%B3%E3%83%87%E3%83%BC%E3%82%BF%E3%83%99%E3%83%BC%E3%82%B9%E3%81%AE%E8%A9%A6%E4%BD%9C&amp;returntoquery=action%3Dedit" title="ログインすることが推奨されます。ただし、必須ではありません。 [o]" accesskey="o">ログイン</a></li>
+				<li id="pt-openidlogin"><a href="index.php@title=特別%253AOpenIDログイン&amp;returnto=BH11.11%252Fセマンティックゲノムアノテーションデータベースの試作.html">OpenIDでログイン</a></li>
+			</ul>
+		</div>
+	</div>
+	<div class="portlet" id="p-logo">
+		<a style="background-image: url(http://wiki.lifesciencedb.jp/mw/images/togowiki-logo.png);" href="index.html" title="メインページに移動"></a>
+	</div>
+	<script type="text/javascript"> if (window.isMSIE55) fixalpha(); </script>
+	<div class='generated-sidebar portlet' id='p-navigation'>
+		<h5>案内</h5>
+		<div class='pBody'>
+			<ul>
+				<li id="n-mainpage-description"><a href="index.html" title="メインページに移動する [z]" accesskey="z">メインページ</a></li>
+				<li id="n-portal"><a href="http://wiki.lifesciencedb.jp/mw/TogoWiki:%E3%82%B3%E3%83%9F%E3%83%A5%E3%83%8B%E3%83%86%E3%82%A3%E3%83%BB%E3%83%9D%E3%83%BC%E3%82%BF%E3%83%AB" title="このプロジェクトについて、できること、情報を入手する場所">コミュニティ・ポータル</a></li>
+				<li id="n-currentevents"><a href="http://wiki.lifesciencedb.jp/mw/TogoWiki:%E6%9C%80%E8%BF%91%E3%81%AE%E5%87%BA%E6%9D%A5%E4%BA%8B" title="最近の出来事について予備知識を得る">最近の出来事</a></li>
+				<li id="n-recentchanges"><a href="http://wiki.lifesciencedb.jp/mw/%E7%89%B9%E5%88%A5:%E6%9C%80%E8%BF%91%E3%81%AE%E6%9B%B4%E6%96%B0" title="ウィキにおける最近の更新の一覧 [r]" accesskey="r">最近の更新</a></li>
+				<li id="n-randompage"><a href="http://wiki.lifesciencedb.jp/mw/%E7%89%B9%E5%88%A5:%E3%81%8A%E3%81%BE%E3%81%8B%E3%81%9B%E8%A1%A8%E7%A4%BA" title="無作為に抽出されたページの読み込み [x]" accesskey="x">おまかせ表示</a></li>
+				<li id="n-help"><a href="http://wiki.lifesciencedb.jp/mw/Help:%E7%9B%AE%E6%AC%A1" title="情報を得る場所">ヘルプ</a></li>
+			</ul>
+		</div>
+	</div>
+	<div id="p-search" class="portlet">
+		<h5><label for="searchInput">検索</label></h5>
+		<div id="searchBody" class="pBody">
+			<form action="http://wiki.lifesciencedb.jp/mw/index.php" id="searchform">
+				<input type='hidden' name="title" value="特別:検索"/>
+				<input id="searchInput" title="TogoWiki内を検索" accesskey="f" type="search" name="search" />
+				<input type='submit' name="go" class="searchButton" id="searchGoButton"	value="表示" title="厳密に一致する名前のページが存在すれば、そのページへ移動します" />&nbsp;
+				<input type='submit' name="fulltext" class="searchButton" id="mw-searchButton" value="検索" title="入力された文字列が含まれるページを検索します" />
+			</form>
+		</div>
+	</div>
+	<div class="portlet" id="p-tb">
+		<h5>ツールボックス</h5>
+		<div class="pBody">
+			<ul>
+				<li id="t-whatlinkshere"><a href="特別%253Aリンク元/BH11.11/セマンティックゲノムアノテーションデータベースの試作.html" title="ここにリンクしている全ウィキのページの一覧 [j]" accesskey="j">リンク元</a></li>
+				<li id="t-recentchangeslinked"><a href="特別%253A関連ページの更新状況/BH11.11/セマンティックゲノムアノテーションデータベースの試作.html" title="このページからリンクしているページの最近の更新 [k]" accesskey="k">関連ページの更新状況</a></li>
+<li id="t-specialpages"><a href="http://wiki.lifesciencedb.jp/mw/%E7%89%B9%E5%88%A5:%E7%89%B9%E5%88%A5%E3%83%9A%E3%83%BC%E3%82%B8%E4%B8%80%E8%A6%A7" title="特別ページの一覧 [q]" accesskey="q">特別ページ</a></li>
+			</ul>
+		</div>
+	</div>
+</div><!-- end of the left (by default at least) column -->
+<div class="visualClear"></div>
+<div id="footer">
+	<div id="f-poweredbyico"><a href="http://www.mediawiki.org/"><img src="http://wiki.lifesciencedb.jp/mw/skins/common/images/poweredby_mediawiki_88x31.png" height="31" width="88" alt="Powered by MediaWiki" /></a></div>
+	<div id="f-copyrightico"><a href="http://creativecommons.org/licenses/by/3.0/"><img src="http://i.creativecommons.org/l/by/3.0/88x31.png" alt="Attribution 3.0 Unported" width="88" height="31" /></a></div>
+	<ul id="f-list">
+		<li id="privacy"><a href="http://wiki.lifesciencedb.jp/mw/TogoWiki:%E3%83%97%E3%83%A9%E3%82%A4%E3%83%90%E3%82%B7%E3%83%BC%E3%83%BB%E3%83%9D%E3%83%AA%E3%82%B7%E3%83%BC" title="TogoWiki:プライバシー・ポリシー">プライバシー・ポリシー</a></li>
+		<li id="about"><a href="http://wiki.lifesciencedb.jp/mw/TogoWiki:TogoWiki%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6" title="TogoWiki:TogoWikiについて">TogoWikiについて</a></li>
+		<li id="disclaimer"><a href="http://wiki.lifesciencedb.jp/mw/TogoWiki:%E5%85%8D%E8%B2%AC%E4%BA%8B%E9%A0%85" title="TogoWiki:免責事項">免責事項</a></li>
+	</ul>
+</div>
+</div>
+
+<script>if (window.runOnloadHook) runOnloadHook();</script>
+<!-- Served in 0.338 secs. --></body></html>

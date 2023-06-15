@@ -1,0 +1,930 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html lang="ja" dir="ltr">
+<head>
+<title>BH12.12/UT Prot - TogoWiki</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta name="generator" content="MediaWiki 1.16.3" />
+<meta name="robots" content="noindex,nofollow" />
+<link rel="shortcut icon" href="/favicon.ico" />
+<link rel="search" type="application/opensearchdescription+xml" href="/mw/opensearch_desc.php" title="TogoWiki (ja)" />
+<link title="Creative Commons" type="application/rdf+xml" href="/mw/index.php?title=BH12.12/UT_Prot&amp;action=creativecommons" rel="meta" />
+<link rel="copyright" href="http://creativecommons.org/licenses/by/3.0/" />
+<link rel="alternate" type="application/atom+xml" title="TogoWikiのAtomフィード" href="/mw/index.php?title=%E7%89%B9%E5%88%A5:%E6%9C%80%E8%BF%91%E3%81%AE%E6%9B%B4%E6%96%B0&amp;feed=atom" />
+<link rel="stylesheet" href="/mw/skins/common/shared.css?270" media="screen" />
+<link rel="stylesheet" href="/mw/skins/common/commonPrint.css?270" media="print" />
+<link rel="stylesheet" href="/mw/skins/monobook/main.css?270" media="screen" />
+<!--[if lt IE 5.5000]><link rel="stylesheet" href="/mw/skins/monobook/IE50Fixes.css?270" media="screen" /><![endif]-->
+<!--[if IE 5.5000]><link rel="stylesheet" href="/mw/skins/monobook/IE55Fixes.css?270" media="screen" /><![endif]-->
+<!--[if IE 6]><link rel="stylesheet" href="/mw/skins/monobook/IE60Fixes.css?270" media="screen" /><![endif]-->
+<!--[if IE 7]><link rel="stylesheet" href="/mw/skins/monobook/IE70Fixes.css?270" media="screen" /><![endif]-->
+<link rel="stylesheet" href="/mw/index.php?title=MediaWiki:Common.css&amp;usemsgcache=yes&amp;ctype=text%2Fcss&amp;smaxage=18000&amp;action=raw&amp;maxage=18000" />
+<link rel="stylesheet" href="/mw/index.php?title=MediaWiki:Print.css&amp;usemsgcache=yes&amp;ctype=text%2Fcss&amp;smaxage=18000&amp;action=raw&amp;maxage=18000" media="print" />
+<link rel="stylesheet" href="/mw/index.php?title=MediaWiki:Monobook.css&amp;usemsgcache=yes&amp;ctype=text%2Fcss&amp;smaxage=18000&amp;action=raw&amp;maxage=18000" />
+<link rel="stylesheet" href="/mw/index.php?title=-&amp;action=raw&amp;maxage=18000&amp;gen=css" />
+<script>
+var skin="monobook",
+stylepath="/mw/skins",
+wgUrlProtocols="http\\:\\/\\/|https\\:\\/\\/|ftp\\:\\/\\/|irc\\:\\/\\/|gopher\\:\\/\\/|telnet\\:\\/\\/|nntp\\:\\/\\/|worldwind\\:\\/\\/|mailto\\:|news\\:|svn\\:\\/\\/",
+wgArticlePath="/mw/$1",
+wgScriptPath="/mw",
+wgScriptExtension=".php",
+wgScript="/mw/index.php",
+wgVariantArticlePath=false,
+wgActionPaths={},
+wgServer="http://wiki.lifesciencedb.jp",
+wgCanonicalNamespace="",
+wgCanonicalSpecialPageName=false,
+wgNamespaceNumber=0,
+wgPageName="BH12.12/UT_Prot",
+wgTitle="BH12.12/UT Prot",
+wgAction="view",
+wgArticleId=181,
+wgIsArticle=true,
+wgUserName=null,
+wgUserGroups=null,
+wgUserLanguage="ja",
+wgContentLanguage="ja",
+wgBreakFrames=false,
+wgCurRevisionId=4553,
+wgVersion="1.16.3",
+wgEnableAPI=true,
+wgEnableWriteAPI=true,
+wgSeparatorTransformTable=["", ""],
+wgDigitTransformTable=["", ""],
+wgMainPageTitle="メインページ",
+wgFormattedNamespaces={"-2": "メディア", "-1": "特別", "0": "", "1": "ノート", "2": "利用者", "3": "利用者‐会話", "4": "TogoWiki", "5": "TogoWiki‐ノート", "6": "ファイル", "7": "ファイル‐ノート", "8": "MediaWiki", "9": "MediaWiki‐ノート", "10": "Template", "11": "Template‐ノート", "12": "Help", "13": "Help‐ノート", "14": "Category", "15": "Category‐ノート"},
+wgNamespaceIds={"メディア": -2, "特別": -1, "": 0, "ノート": 1, "利用者": 2, "利用者‐会話": 3, "togowiki": 4, "togowiki‐ノート": 5, "ファイル": 6, "ファイル‐ノート": 7, "mediawiki": 8, "mediawiki‐ノート": 9, "template": 10, "template‐ノート": 11, "help": 12, "help‐ノート": 13, "category": 14, "category‐ノート": 15, "画像": 6, "画像‐ノート": 7, "image": 6, "image_talk": 7},
+wgSiteName="TogoWiki",
+wgCategories=[],
+wgRestrictionEdit=[],
+wgRestrictionMove=[];
+</script><script src="/mw/skins/common/wikibits.js?270"></script>
+<script src="/mw/skins/common/ajax.js?270"></script>
+<script src="/mw/index.php?title=-&amp;action=raw&amp;gen=js&amp;useskin=monobook&amp;270"></script>
+
+		<style type='text/css'>
+		li#pt-openidlogin {
+		  background: url(/mw/extensions/OpenID/skin/icons/openid-inputicon.png) top left no-repeat;
+		  padding-left: 20px;
+		  text-transform: none;
+		}
+		</style>
+</head>
+<body class="mediawiki ltr ns-0 ns-subject page-BH12_12_UT_Prot skin-monobook">
+<div id="globalWrapper">
+<div id="column-content"><div id="content" >
+	<a id="top"></a>
+	
+	<h1 id="firstHeading" class="firstHeading">BH12.12/UT Prot</h1>
+	<div id="bodyContent">
+		<h3 id="siteSub">提供：TogoWiki</h3>
+		<div id="contentSub">
+				<div id="mw-revision-info">2012年12月21日 (金) 08:43時点における<a href="/mw/index.php?title=%E5%88%A9%E7%94%A8%E8%80%85:Choge&amp;action=edit&amp;redlink=1" class="new mw-userlink" title="利用者:Choge（存在しないページ）">Choge</a>  <span class="mw-usertoollinks">(<a href="/mw/index.php?title=%E5%88%A9%E7%94%A8%E8%80%85%E2%80%90%E4%BC%9A%E8%A9%B1:Choge&amp;action=edit&amp;redlink=1" class="new" title="利用者‐会話:Choge（存在しないページ）">トーク</a> | <a href="/mw/%E7%89%B9%E5%88%A5:%E6%8A%95%E7%A8%BF%E8%A8%98%E9%8C%B2/Choge" title="特別:投稿記録/Choge">投稿記録</a>)</span>による版</div>
+
+				<div id="mw-revision-nav">(<a href="/mw/index.php?title=BH12.12/UT_Prot&amp;diff=prev&amp;oldid=4551" title="BH12.12/UT Prot">差分</a>) <a href="/mw/index.php?title=BH12.12/UT_Prot&amp;direction=prev&amp;oldid=4551" title="BH12.12/UT Prot">←前の版</a> | <a href="/mw/BH12.12/UT_Prot" title="BH12.12/UT Prot">最新版</a> (<a href="/mw/index.php?title=BH12.12/UT_Prot&amp;diff=cur&amp;oldid=4551" title="BH12.12/UT Prot">差分</a>) | <a href="/mw/index.php?title=BH12.12/UT_Prot&amp;direction=next&amp;oldid=4551" title="BH12.12/UT Prot">次の版→</a> (<a href="/mw/index.php?title=BH12.12/UT_Prot&amp;diff=next&amp;oldid=4551" title="BH12.12/UT Prot">差分</a>)</div>
+			</div>
+		<div id="jump-to-nav">移動： <a href="#column-one">案内</a>, <a href="#searchInput">検索</a></div>
+		<!-- start content -->
+<table id="toc" class="toc"><tr><td><div id="toctitle"><h2>目次</h2></div>
+<ul>
+<li class="toclevel-1 tocsection-1"><a href="#.E7.9B.AE.E6.A8.99"><span class="tocnumber">1</span> <span class="toctext">目標</span></a></li>
+<li class="toclevel-1 tocsection-2"><a href="#.E5.8F.82.E5.8A.A0.E8.80.85.EF.BC.88.E8.87.AA.E7.94.B1.E3.81.AB.E4.BB.98.E3.81.91.E5.8A.A0.E3.81.88.E3.81.A6.E3.81.8F.E3.81.A0.E3.81.95.E3.81.84.EF.BC.89"><span class="tocnumber">2</span> <span class="toctext">参加者（自由に付け加えてください）</span></a></li>
+<li class="toclevel-1 tocsection-3"><a href="#.E3.83.AC.E3.83.9D.E3.83.BC.E3.83.88.EF.BC.88.E8.87.AA.E7.94.B1.E3.81.AB.E4.BB.98.E3.81.91.E5.8A.A0.E3.81.88.E3.81.A6.E3.81.8F.E3.81.A0.E3.81.95.E3.81.84.EF.BC.89"><span class="tocnumber">3</span> <span class="toctext">レポート（自由に付け加えてください）</span></a>
+<ul>
+<li class="toclevel-2 tocsection-4"><a href="#DAY3.EF.BC.88.E8.87.AA.E7.94.B1.E3.81.AB.E4.BB.98.E3.81.91.E5.8A.A0.E3.81.88.E3.81.A6.E3.81.8F.E3.81.A0.E3.81.95.E3.81.84.EF.BC.89"><span class="tocnumber">3.1</span> <span class="toctext">DAY3（自由に付け加えてください）</span></a>
+<ul>
+<li class="toclevel-3 tocsection-5"><a href="#SUBA.E3.81.AERDF.E5.8C.96"><span class="tocnumber">3.1.1</span> <span class="toctext">SUBAのRDF化</span></a></li>
+</ul>
+</li>
+<li class="toclevel-2 tocsection-6"><a href="#DAY2.EF.BC.88.E8.87.AA.E7.94.B1.E3.81.AB.E4.BB.98.E3.81.91.E5.8A.A0.E3.81.88.E3.81.A6.E3.81.8F.E3.81.A0.E3.81.95.E3.81.84.EF.BC.89"><span class="tocnumber">3.2</span> <span class="toctext">DAY2（自由に付け加えてください）</span></a>
+<ul>
+<li class="toclevel-3 tocsection-7"><a href="#SUBA.E3.81.AERDF.E5.8C.96.28.E8.86.9C.E3.82.BF.E3.83.B3.E3.83.91.E3.82.AF.E8.B3.AA.29"><span class="tocnumber">3.2.1</span> <span class="toctext">SUBAのRDF化(膜タンパク質)</span></a></li>
+</ul>
+</li>
+<li class="toclevel-2 tocsection-8"><a href="#.E7.B3.96.E9.8E.96"><span class="tocnumber">3.3</span> <span class="toctext">糖鎖</span></a></li>
+<li class="toclevel-2 tocsection-9"><a href="#DAY1.EF.BC.88.E8.87.AA.E7.94.B1.E3.81.AB.E4.BB.98.E3.81.91.E5.8A.A0.E3.81.88.E3.81.A6.E3.81.8F.E3.81.A0.E3.81.95.E3.81.84.EF.BC.89"><span class="tocnumber">3.4</span> <span class="toctext">DAY1（自由に付け加えてください）</span></a>
+<ul>
+<li class="toclevel-3 tocsection-10"><a href="#PLBSP_.28Protein_Ligand_Binding_Site_Pair.29"><span class="tocnumber">3.4.1</span> <span class="toctext">PLBSP (Protein Ligand Binding Site Pair)</span></a></li>
+<li class="toclevel-3 tocsection-11"><a href="#.E6.A7.8B.E9.80.A0.E7.94.9F.E7.89.A9.E5.AD.A6.E3.81.AB.E3.81.8A.E3.81.91.E3.82.8B.E5.8C.96.E5.90.88.E7.89.A9"><span class="tocnumber">3.4.2</span> <span class="toctext">構造生物学における化合物</span></a></li>
+<li class="toclevel-3 tocsection-12"><a href="#.E8.86.9C.E3.82.BF.E3.83.B3.E3.83.91.E3.82.AF"><span class="tocnumber">3.4.3</span> <span class="toctext">膜タンパク</span></a></li>
+<li class="toclevel-3 tocsection-13"><a href="#.E9.87.91.E5.B1.9E"><span class="tocnumber">3.4.4</span> <span class="toctext">金属</span></a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-14"><a href="#.E4.BA.8B.E5.89.8DTODO.EF.BC.88.E8.87.AA.E7.94.B1.E3.81.AB.E4.BB.98.E3.81.91.E5.8A.A0.E3.81.88.E3.81.A6.E3.81.8F.E3.81.A0.E3.81.95.E3.81.84.EF.BC.89"><span class="tocnumber">4</span> <span class="toctext">事前TODO（自由に付け加えてください）</span></a></li>
+<li class="toclevel-1 tocsection-15"><a href="#.E4.BB.95.E4.BA.8B.E9.81.93.E5.85.B7.EF.BC.88.E8.87.AA.E7.94.B1.E3.81.AB.E4.BB.98.E3.81.91.E5.8A.A0.E3.81.88.E3.81.A6.E3.81.8F.E3.81.A0.E3.81.95.E3.81.84.EF.BC.89"><span class="tocnumber">5</span> <span class="toctext">仕事道具（自由に付け加えてください）</span></a>
+<ul>
+<li class="toclevel-2 tocsection-16"><a href="#.E3.82.BB.E3.83.9E.E3.83.B3.E3.83.86.E3.82.A3.E3.83.83.E3.82.AF.E3.83.BB.E3.82.A6.E3.82.A7.E3.83.96.E9.96.A2.E9.80.A3.E3.83.84.E3.83.BC.E3.83.AB.E4.B8.80.E8.A6.A7"><span class="tocnumber">5.1</span> <span class="toctext">セマンティック・ウェブ関連ツール一覧</span></a></li>
+<li class="toclevel-2 tocsection-17"><a href="#.E3.82.BF.E3.83.B3.E3.83.91.E3.82.AF.E8.B3.AA.E3.81.A8.E3.83.AA.E3.82.AC.E3.83.B3.E3.83.89.E3.81.8A.E3.82.88.E3.81.B3.E6.96.87.E7.8C.AE.E3.83.9E.E3.82.A4.E3.83.8B.E3.83.B3.E3.82.B0.E3.81.AE.E3.81.9F.E3.82.81.E3.81.AESPARQL_endpoint.E4.B8.80.E8.A6.A7"><span class="tocnumber">5.2</span> <span class="toctext">タンパク質とリガンドおよび文献マイニングのためのSPARQL endpoint一覧</span></a></li>
+<li class="toclevel-2 tocsection-18"><a href="#.E3.82.AA.E3.83.B3.E3.83.88.E3.83.AD.E3.82.B8.E3.83.BC.E4.B8.80.E8.A6.A7"><span class="tocnumber">5.3</span> <span class="toctext">オントロジー一覧</span></a></li>
+<li class="toclevel-2 tocsection-19"><a href="#SPARQL_endpoint_.E4.BB.A5.E5.A4.96.E3.81.AEWS"><span class="tocnumber">5.4</span> <span class="toctext">SPARQL endpoint 以外のWS</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-20"><a href="#.E8.8D.89.E6.A1.88.EF.BC.88.E8.87.AA.E7.94.B1.E3.81.AB.E4.BB.98.E3.81.91.E5.8A.A0.E3.81.88.E3.81.A6.E3.81.8F.E3.81.A0.E3.81.95.E3.81.84.EF.BC.89"><span class="tocnumber">6</span> <span class="toctext">草案（自由に付け加えてください）</span></a></li>
+<li class="toclevel-1 tocsection-21"><a href="#.E3.82.A2.E3.82.A4.E3.83.87.E3.82.A2.E5.87.BA.E3.81.97.EF.BC.88.E8.87.AA.E7.94.B1.E3.81.AB.E4.BB.98.E3.81.91.E5.8A.A0.E3.81.88.E3.81.A6.E3.81.8F.E3.81.A0.E3.81.95.E3.81.84.EF.BC.89"><span class="tocnumber">7</span> <span class="toctext">アイデア出し（自由に付け加えてください）</span></a>
+<ul>
+<li class="toclevel-2 tocsection-22"><a href="#.E9.87.8D.E5.85.89"><span class="tocnumber">7.1</span> <span class="toctext">重光</span></a></li>
+<li class="toclevel-2 tocsection-23"><a href="#.E7.95.AA.E9.87.8E"><span class="tocnumber">7.2</span> <span class="toctext">番野</span></a></li>
+<li class="toclevel-2 tocsection-24"><a href="#.E8.BE.BC.E5.B1.B1"><span class="tocnumber">7.3</span> <span class="toctext">込山</span></a></li>
+</ul>
+</li>
+</ul>
+</td></tr></table><script>if (window.showTocToggle) { var tocShowText = "表示"; var tocHideText = "非表示"; showTocToggle(); } </script>
+<h2> <span class="mw-headline" id=".E7.9B.AE.E6.A8.99">目標</span></h2>
+<ul><li>UT_Prot (UniProt/PDBで物足らない部分を補完するデータのRDF化)
+</li></ul>
+<dl><dd>タンパク質機能・構造予測のための機械学習分野において利用頻度が高い二次データベースのRDF化を行い, UniProtやPDBなどのリソースデータベースとリンクさせLOD化を図る. 
+</dd></dl>
+<ul><li><ul><li><a href="http://wiki.lifesciencedb.jp/mw/index.php/BH12.12/wild.type.count.data.DB" class="external text" rel="nofollow">wild.type.count.data.DB</a> (野生型発現量DB) 
+</li></ul>
+</li></ul>
+<dl><dd>派生プロジェクト
+</dd></dl>
+<h2> <span class="mw-headline" id=".E5.8F.82.E5.8A.A0.E8.80.85.EF.BC.88.E8.87.AA.E7.94.B1.E3.81.AB.E4.BB.98.E3.81.91.E5.8A.A0.E3.81.88.E3.81.A6.E3.81.8F.E3.81.A0.E3.81.95.E3.81.84.EF.BC.89">参加者（自由に付け加えてください）</span></h2>
+<ul><li> ◯込山悠介 （東大・農）[化合物・金属タンパク質担当, 監修] Twitter: <a href="https://twitter.com/YusukeKomiyama" class="external text" rel="nofollow">@YusukeKomiyama</a> | Skyepe: hoehoe2nd
+</li><li> 番野雅城 （東大・農）[糖鎖担当] Twitter: | Skyepe: 
+</li><li> 重光俊亮 （東大・農）[膜タンパク質担当] Twitter: <a href="https://twitter.com/choge_" class="external text" rel="nofollow">@choge_</a> | Skyepe: choge0319
+</li><li> 孫建強 （東大・農）[アグリバイオインフォマティクス, NGS担当] Twitter <a href="https://twitter.com/wukong08" class="external text" rel="nofollow">@wukong08</a> | Skyepe:
+</li></ul>
+<h2> <span class="mw-headline" id=".E3.83.AC.E3.83.9D.E3.83.BC.E3.83.88.EF.BC.88.E8.87.AA.E7.94.B1.E3.81.AB.E4.BB.98.E3.81.91.E5.8A.A0.E3.81.88.E3.81.A6.E3.81.8F.E3.81.A0.E3.81.95.E3.81.84.EF.BC.89">レポート（自由に付け加えてください）</span></h2>
+<h3> <span class="mw-headline" id="DAY3.EF.BC.88.E8.87.AA.E7.94.B1.E3.81.AB.E4.BB.98.E3.81.91.E5.8A.A0.E3.81.88.E3.81.A6.E3.81.8F.E3.81.A0.E3.81.95.E3.81.84.EF.BC.89">DAY3（自由に付け加えてください）</span></h3>
+<h4> <span class="mw-headline" id="SUBA.E3.81.AERDF.E5.8C.96">SUBAのRDF化</span></h4>
+<p><small><del>
+<a href="http://bilab.choge.me/img/suba_mapping.png" class="external text" rel="nofollow">Mapping</a>
+</p>
+<ul><li>前日エラーが出ていたものを再パースして原因を探る。
+</li></ul>
+<dl><dd>→ ファイルの分割が不完全だったことに起因しているようだった。分割をもっとしっかりやってから、もう一回やってみる。
+</dd><dd>→  N-triples、不完全なデータ。ファイルがでかいです。
+</dd></dl>
+<pre>http://bilab.choge.me/data/SUBA/suba.nt</pre>
+<ul><li>データができた後：lang属性(?)が今は"en"のみになっているので、"en-US"に変更する。
+</li></ul>
+<dl><dd><table class="sortable wikitable">
+</dd><dd><tr><th>AGI code</th><th>GO ID</th><th>ECO ID</th><th>PMID</th><th>Predictor</th></tr>
+</dd><dd><tr><td><a href="http://purl.uniprot.org/tair/AtXgYYYYYY" class="external free" rel="nofollow">http://purl.uniprot.org/tair/AtXgYYYYYY</a></td><td><a href="http://bio2rdf.org/go:XXXXXXX" class="external free" rel="nofollow">http://bio2rdf.org/go:XXXXXXX</a></td><td><a href="http://bio2rdf.org/eco:XXXXXX" class="external free" rel="nofollow">http://bio2rdf.org/eco:XXXXXX</a></td><td><a href="http://bio2rdf.org/pmid:XXXXXX" class="external free" rel="nofollow">http://bio2rdf.org/pmid:XXXXXX</a></td><td>bilab:XXXXX</td></tr>
+</dd><dd></table>
+</dd></dl>
+<p>この形を再現するなら<a href="https://www.lucidchart.com/documents/view/44e8-5514-50d3e38b-b139-0ede0ace2a7f" class="external text" rel="nofollow">こういう形</a>のほうがいい気もするんだけど、どうなんだろう。</del></small>
+</p>
+<ul><li>パース中。<a href="https://www.lucidchart.com/documents/view/44e8-5514-50d3e38b-b139-0ede0ace2a7f" class="external text" rel="nofollow">マッピングを変更</a>
+<ul><li>約3,000,000 Triplesくらいになりそう。
+</li></ul>
+</li></ul>
+<hr style="margin-top: 40px;" />
+<h3> <span class="mw-headline" id="DAY2.EF.BC.88.E8.87.AA.E7.94.B1.E3.81.AB.E4.BB.98.E3.81.91.E5.8A.A0.E3.81.88.E3.81.A6.E3.81.8F.E3.81.A0.E3.81.95.E3.81.84.EF.BC.89">DAY2（自由に付け加えてください）</span></h3>
+<p><a href="https://docs.google.com/presentation/d/147MwLSACdIlAuxoKLO96rlFAq_OEshBtR4M84L8Z448/edit" class="external text" rel="nofollow">Slides at GoogleDrive</a>
+</p>
+<h4> <span class="mw-headline" id="SUBA.E3.81.AERDF.E5.8C.96.28.E8.86.9C.E3.82.BF.E3.83.B3.E3.83.91.E3.82.AF.E8.B3.AA.29">SUBAのRDF化(膜タンパク質)</span></h4>
+<ul><li><a href="https://www.lucidchart.com/documents/view/439f-f57c-50d1197d-bc13-7a4f0ad60ba0" class="external text" rel="nofollow">Mapping</a>
+</li></ul>
+<ul><li>Perlおよび<a href="https://metacpan.org/module/RDF::Helper" class="external text" rel="nofollow">RDF::Helper</a>というモジュールを使用してパーサーを書いてみた。
+</li></ul>
+<dl><dd><a href="https://github.com/BILAB/BH12.12/tree/ss_uniprot_suba/ss/uniprot2suba" class="external text" rel="nofollow">ソースコードおよび出力されたRDFとN-triples(GitHub)</a>
+</dd></dl>
+<ul><li><ul><li>が、ど素人なのですごく遅い気がする。
+</li></ul>
+</li></ul>
+<dl><dd><dl><dd>given文を使っているから？<small>Perlのgivenはスマートマッチを使っているため遅いってどこかで聞いた気がする</small>
+</dd><dd>→ 直した。
+</dd><dd>RDF::HelperでSerializeするときって、一旦ぜんぶ$rdfオブジェクトみたいなものにResourceを蓄えてるんだろうか。もしそうなら、SUBA全体を処理することはメモリ的に無理かも？
+</dd></dl>
+</dd></dl>
+<dl><dd><dl><dd><dl><dd>ソースコードを拝見しました, SUBAのtsvをRDF/XMLにシリアライズするのが suba_mkrdf.plで
+</dd><dd>AGIIDとUniProtIDへのリンクを作成するのが, link.plという認識でよろしいでしょうか？
+</dd><dd>気づいた点を箇条書きでメモしておきますDAY2で検証しましょう. (追記：込山 12/20 9:00)
+</dd><dd>ありがとうございます。(重光)
+</dd></dl>
+</dd></dl>
+</dd></dl>
+<ul><li><ul><li><ul><li>サンプルのRDF/XMLの出力冒頭のbaseがローカルディレクトリになっているのでbilabのresourceのURIを考える 
+</li></ul>
+</li></ul>
+</li></ul>
+<pre>
+&lt;rdf:RDF xml:base=&quot;file:/Users/choge/Repositories/BH12.12/ss/uniprot2suba&quot; 
+</pre>
+<p>→BaseURIは、
+</p>
+<pre>http://www.bi.a.u-tokyo.ac.jp/rdf/</pre>
+<p>にした。
+</p>
+<ul><li><ul><li><ul><li>predictorのリソースとプロパティのURI分けた方がよい. プロパティとクラスはオントロジーでよい.
+</li></ul>
+</li></ul>
+</li></ul>
+<pre>
+xmlns:predictor=&quot;http://www.bi.a.u-tokyo.ac.jp/owl#predictor:&quot; 
+</pre>
+<p>→ predictorのリソースは<a href="http://www.bi.a.u-tokyo.ac.jp/resources/predictor" class="external free" rel="nofollow">http://www.bi.a.u-tokyo.ac.jp/resources/predictor</a>: とした。
+</p>
+<ul><li><ul><li><ul><li>N-TriplesではPrefixは使用できないので, URIをフルで書く, リソースは＜＞で, リテラルはダブルコーテーションで囲む. 行末にはピリオド. ブランクノードは_:で記述.
+</li></ul>
+</li></ul>
+</li></ul>
+<dl><dd><dl><dd><dl><dd><a href="http://www.ibm.com/developerworks/jp/xml/library/x-think17/index.html" class="external free" rel="nofollow">http://www.ibm.com/developerworks/jp/xml/library/x-think17/index.html</a>
+</dd></dl>
+</dd></dl>
+</dd></dl>
+<ul><li><ul><li><ul><li>GO:タームというリソースURIが存在するか確認する.
+</li></ul>
+</li></ul>
+</li></ul>
+<dl><dd><dl><dd><dl><dd>→ こちらについては、スクリプトのバグに起因するものでした。現在はgo:hogehogeのようなものはもう出なくなっています。
+</dd></dl>
+</dd></dl>
+</dd></dl>
+<ul><li><ul><li><ul><li>Subcellular locationがわからないもの(SUBA中でunclearのもの)
+</li></ul>
+</li></ul>
+</li></ul>
+<dl><dd><dl><dd><dl><dd><a href="http://bio2rdf.org/GO:0005575" class="external text" rel="nofollow">GO:0005575</a>のNarrow SynonymでCellular Component Unknownというのがあった。Literalのような気がするので使えないかも？
+</dd><dd>↑のは微妙なので、NCI Thesaurusの<a href="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Unknown" class="external text" rel="nofollow">Unknown</a>とした。
+</dd></dl>
+</dd></dl>
+</dd></dl>
+<ul><li><ul><li><ul><li>UniprotへのseeAlsoを追加したい。
+</li></ul>
+</li></ul>
+</li></ul>
+<dl><dd><dl><dd><dl><dd>Resource URIは<a href="http://www.uniprot.org/uniprot/XXXXXX" class="external free" rel="nofollow">http://www.uniprot.org/uniprot/XXXXXX</a> でいいのか？？
+</dd></dl>
+</dd></dl>
+</dd></dl>
+<ul><li><a href="http://www.w3.org/RDF/Validator/" class="external text" rel="nofollow">RDF Validator</a>を使うとエラーが出る。
+</li></ul>
+<pre>Error: {W124} The namespace URI: &lt;bilab:&gt; is not well formed.[Line = 3, Column = 83]
+Error: {W124} The namespace URI: &lt;rdfs:&gt; is not well formed.[Line = 3, Column = 83]</pre>
+<p>→ 原因がわからないので、とりあえず現在の状況で出力をはじめてみた。元データを24分割して、それをN-triplesに。<br />
+→ AGI codeの小数点以下の部分は捨てた方がいいかもしれない(たまにResourceが存在していない)<br />
+→ 5時半までには終わるかなー →だいたい終わった。24分割したうちの1つがうまくパースできてないみたい。(no.8)<br />
+→ トリプルの数は1037603個 <small>(うまくパースできなかったものを除く)</small>
+</p>
+<ul><li>TODO
+<ul><li>もう一回マッピングが現在のもので大丈夫か確認する。
+<ul><li>配列(AGI code)が持つLocation(GO ID)に対して、個々の配列毎に異なるpredictorとかPMIDとかが付随していて欲しいけど、それができているのか？
+</li></ul>
+</li></ul>
+</li></ul>
+<dl><dd><table class="sortable wikitable">
+</dd><dd><tr><th>AGI code</th><th>GO ID</th><th>ECO ID</th><th>PMID</th><th>Predictor</th></tr>
+</dd><dd><tr><td><a href="http://purl.uniprot.org/tair/AtXgYYYYYY" class="external free" rel="nofollow">http://purl.uniprot.org/tair/AtXgYYYYYY</a></td><td><a href="http://bio2rdf.org/go:XXXXXXX" class="external free" rel="nofollow">http://bio2rdf.org/go:XXXXXXX</a></td><td><a href="http://bio2rdf.org/eco:XXXXXX" class="external free" rel="nofollow">http://bio2rdf.org/eco:XXXXXX</a></td><td><a href="http://bio2rdf.org/pmid:XXXXXX" class="external free" rel="nofollow">http://bio2rdf.org/pmid:XXXXXX</a></td><td>bilab:XXXXX</td></tr>
+</dd><dd></table>
+</dd></dl>
+<p>この形のテーブルも一応作成した。
+</p>
+<hr style="margin-top: 40px;" />
+<h3> <span class="mw-headline" id=".E7.B3.96.E9.8E.96">糖鎖</span></h3>
+<p>糖鎖関連データベース
+</p>
+<ul><li>glyco sciences.de (ツールも充実している)
+</li><li>RINGS (糖鎖記述フォーマット間の変換ツールが充実)
+</li><li>JCGGDB
+</li><li>glycome DB (数は一番多い)
+</li></ul>
+<p>PDB中の糖鎖
+糖鎖の結晶構造を決めるのは相当難しい<br />
+ソーキングしてるか発現系から入り込んでいるものかどうかは、キュレーションした方が良い。<br />
+PDB中の糖鎖構造は誤っているものが多い。 <br />
+</p>
+<ul><li>結合距離が間違っているもの。
+</li><li>HETATM の三桁IDが間違ってるもの。
+</li><li>ただしく修正するプログラムが近々オープンソースで公開されるらしい。
+</li></ul>
+<p><br />
+PDB から GlycomeDB へのマッピング
+</p>
+<ul><li>PDB2linucs で linucs コードへ変換可能
+</li><li>glycan builder(オープンソース) の内部に糖鎖フォーマット変換プログラムがある。
+</li><li>PDB →(PDB2linucs)→ Linucs → (glycan builder) → KCF で glycomeCTへマッピングが可能
+</li><li>基本的に糖鎖データベース間で相互リンクされているので他データベースへのリンクは可能
+</li></ul>
+<p>PDB から pubchem,chembleへ
+</p>
+<ul><li>PDBファイル中に書かれているCONNECT レコードからPDBファイル中に含まれている糖鎖ごとにMOLファイルを生成することは可能
+</li><li>OpenBabel で PDBファイルから inchi,smiles へ変換することが可能。
+</li><li>PDB →(OpenBabel)→ inchi,smiles → Chembi,Pubchem で、PDB中の糖鎖を他化合物データベースへマッピングできそう。
+</li></ul>
+<p>糖鎖結合タンパク質データベース
+</p>
+<ul><li>レクチンフロンティアデータベースがある。
+</li><li>レクチンの種類ごとにどの糖鎖と結合するのか実験的に調べて、その結果をデータベースとして公開している。
+</li><li>PDBともリンクされている。
+</li><li>RDF化の話題も出ており、将来的にRDFとして公開されるかも。
+</li></ul>
+<h3> <span class="mw-headline" id="DAY1.EF.BC.88.E8.87.AA.E7.94.B1.E3.81.AB.E4.BB.98.E3.81.91.E5.8A.A0.E3.81.88.E3.81.A6.E3.81.8F.E3.81.A0.E3.81.95.E3.81.84.EF.BC.89">DAY1（自由に付け加えてください）</span></h3>
+<h4> <span class="mw-headline" id="PLBSP_.28Protein_Ligand_Binding_Site_Pair.29">PLBSP (Protein Ligand Binding Site Pair)</span></h4>
+<dl><dd>輸送したサーバーをセンターに設置してデータベースを起動, SPARQL endpointを利用可能にした.
+</dd></dl>
+<h4> <span class="mw-headline" id=".E6.A7.8B.E9.80.A0.E7.94.9F.E7.89.A9.E5.AD.A6.E3.81.AB.E3.81.8A.E3.81.91.E3.82.8B.E5.8C.96.E5.90.88.E7.89.A9">構造生物学における化合物</span></h4>
+<dl><dd>午前中, ハッカソンの化合物グループでディスカッションおよび
+</dd><dd>ChEMBL, ChEBI, Chem Spieder, KEGG COMPOUND, PDB LigandのRDF, OWLの仕様調査を行った. 
+</dd><dd>化合物を唯一に特定するにはInChI, InChIKeyを使うのが現状では最も良策である.
+</dd><dd>将来的に統合化合物データベースや化合物の統一オントロジーができた際に, そこにリンクする.
+</dd></dl>
+<p><br />
+</p>
+<dl><dd>構造生物学, 生物物理でタンパク質とリガンドの分野においては, 
+</dd><dd>PDB Ligandの３桁ID (Het ID)が最も利用されているが, 
+</dd><dd>他の化合物データベースとLOD化することで, より上質なアノテーションを取得できることが期待される.
+</dd></dl>
+<p><br />
+</p>
+<dl><dd>グループディスカッションではInChIについての注意点も指摘された.
+<dl><dd>InChIには各種ツールからコンバートできるが標準フォーマットで無いデータベースも存在.
+</dd><dd>InChIの冒頭にSがついている場合はスタンダードInChIであるので, なるべくこれを使う.
+</dd><dd>InChI --&gt; InChIKey は1:1だが InChIKey --&gt; InChI は1:Nとなる場合が極稀にある.
+</dd><dd>InChIKeyはデータベースで取り扱いやすいためよく使用されているが, その場合は作成したツール名とバージョンもRDFに記述する必要がある.
+</dd><dd>RDFを作成する際スタンダードInChIかどうかを判別する場合に, hasStandardInChI などのpropertyを作成し, 付加的にリテラルとして booleanでTかFなどと入れてはどうか？
+</dd></dl>
+</dd></dl>
+<h4> <span class="mw-headline" id=".E8.86.9C.E3.82.BF.E3.83.B3.E3.83.91.E3.82.AF">膜タンパク</span></h4>
+<dl><dd>Arabidopsisの膜タンパクLODを作るためのマッピング作業. 
+</dd><dd>並行してグラフモデルの推敲.
+</dd></dl>
+<ul><li>Mappingの決定
+</li></ul>
+<dl><dd><a href="https://www.lucidchart.com/documents/view/439f-f57c-50d1197d-bc13-7a4f0ad60ba0" class="external text" rel="nofollow">at LucidChart</a>
+</dd><dd><table class="sortable wikitable">
+</dd><dd><tr><th>AGI code</th><th>GO ID</th><th>ECO ID</th><th>PMID</th><th>Predictor</th></tr>
+</dd><dd><tr><td><a href="http://purl.uniprot.org/tair/AtXgYYYYYY" class="external free" rel="nofollow">http://purl.uniprot.org/tair/AtXgYYYYYY</a></td><td><a href="http://bio2rdf.org/go:XXXXXXX" class="external free" rel="nofollow">http://bio2rdf.org/go:XXXXXXX</a></td><td><a href="http://bio2rdf.org/eco:XXXXXX" class="external free" rel="nofollow">http://bio2rdf.org/eco:XXXXXX</a></td><td><a href="http://bio2rdf.org/pmid:XXXXXX" class="external free" rel="nofollow">http://bio2rdf.org/pmid:XXXXXX</a></td><td>bilab:XXXXX</td></tr>
+</dd><dd></table>
+</dd></dl>
+<ul><li>Resourceの決定
+<ul><li>GO ID
+</li></ul>
+</li></ul>
+<dl><dd><dl><dd><dl><dd><table class="sortable wikitable" width="70%">
+</dd><dd><tr><th>Organella</th><th>Corresponding GO</th><th>Label of the GO</th></tr>
+</dd><dd><tr><td>cytoskelton</td><td><a href="http://bio2rdf.org/go:0005856" class="external free" rel="nofollow">http://bio2rdf.org/go:0005856</a></td><td></td></tr>
+</dd><dd><tr><td>cytosol</td><td><a href="http://bio2rdf.org/go:0005737" class="external free" rel="nofollow">http://bio2rdf.org/go:0005737</a></td><td>Cytoplasm</td></tr>
+</dd><dd><tr><td>endoplasmic reticulum</td><td><a href="http://bio2rdf.org/go:0005783" class="external free" rel="nofollow">http://bio2rdf.org/go:0005783</a></td><td>endoplasmic reticulum</td></tr>
+</dd><dd><tr><td>extracellular</td><td><a href="http://bio2rdf.org/go:0005576" class="external free" rel="nofollow">http://bio2rdf.org/go:0005576</a></td><td>extracellular region</td></tr>
+</dd><dd><tr><td>golgi</td><td><a href="http://bio2rdf.org/go:0005794" class="external free" rel="nofollow">http://bio2rdf.org/go:0005794</a></td><td>Golgi apparatus</td></tr>
+</dd><dd><tr><td>mitochondrion</td><td><a href="http://bio2rdf.org/go:0005739" class="external free" rel="nofollow">http://bio2rdf.org/go:0005739</a></td><td>mitochondrion</td></tr>
+</dd><dd><tr><td>nucleus</td><td><a href="http://bio2rdf.org/go:0005634" class="external free" rel="nofollow">http://bio2rdf.org/go:0005634</a></td><td>nucleus</td></tr>
+</dd><dd><tr><td>peroxisome</td><td><a href="http://bio2rdf.org/go:0005777" class="external free" rel="nofollow">http://bio2rdf.org/go:0005777</a></td><td>peroxisome</td></tr>
+</dd><dd><tr><td>plasma membrane</td><td><a href="http://bio2rdf.org/go:0005886" class="external free" rel="nofollow">http://bio2rdf.org/go:0005886</a></td><td>plasma membrane</td></tr>
+</dd><dd><tr><td>plastid</td><td><a href="http://bio2rdf.org/go:0009536" class="external free" rel="nofollow">http://bio2rdf.org/go:0009536</a></td><td>plastid</td></tr>
+</dd><dd><tr><td>vacuole</td><td><a href="http://bio2rdf.org/go:0005773" class="external free" rel="nofollow">http://bio2rdf.org/go:0005773</a></td><td>vacuole</td></tr>
+</dd><dd><tr><td>unclear</td><td></td><td></td></tr>
+</dd><dd></table>
+<ul><li>SUBAに記述されている実験方法
+</li></ul>
+</dd><dd><table class="sortable wikitable" width="70%">
+</dd><dd><tr><th>Experiments</th><th>Corresponding ECO</th><th>Label of the ECO</th></tr>
+</dd><dd><tr><td>GFP</td><td><a href="http://bio2rdf.org/eco:0000126" class="external free" rel="nofollow">http://bio2rdf.org/eco:0000126</a></td><td>green fluorescent protein fusion protein localization evidence</td></tr>
+</dd><dd><tr><td>MSMS</td><td><a href="http://bio2rdf.org/eco:0000004" class="external free" rel="nofollow">http://bio2rdf.org/eco:0000004</a></td><td>cell fractionation evidence</td></tr>
+</dd><dd><tr><td>Computational method</td><td><a href="http://bio2rdf.org/eco:0000053" class="external free" rel="nofollow">http://bio2rdf.org/eco:0000053</a></td><td>computational combinatorial evidence</td></tr>
+</dd><dd></table>
+</dd><dd><small>MSMSはあんまり自信ないです。Computational methodについても、あんまりcombinatorialじゃない気がする。</small>
+<ul><li>SUBAに載っている予測器
+</li></ul>
+</dd><dd><table class="sortable wikitable" width="70%">
+</dd><dd><tr><th>Name</th><th>Prediction</th></tr>
+</dd><dd><tr><td>AdaBoost</td><td>cytosol</td></tr>
+</dd><dd><tr><td>ATP</td><td>no data</td></tr>
+</dd><dd><tr><td>BaCelLo</td><td>cytosol</td></tr>
+</dd><dd><tr><td>ChloroP</td><td>no data</td></tr>
+</dd><dd><tr><td>EpiLoc</td><td>mitochondrion</td></tr>
+</dd><dd><tr><td>iPSORT</td><td>mitochondrion</td></tr>
+</dd><dd><tr><td>MitoPred</td><td>no data</td></tr>
+</dd><dd><tr><td>Mitoprot 2</td><td>mitochondrion</td></tr>
+</dd><dd><tr><td>MultiLoc</td><td>mitochondrion</td></tr>
+</dd><dd><tr><td>Nucleo</td><td>no data</td></tr>
+</dd><dd><tr><td>PCLR</td><td>no data</td></tr>
+</dd><dd><tr><td>Plant-mPloc</td><td>mitochondrion</td></tr>
+</dd><dd><tr><td>Predotar</td><td>mitochondrion</td></tr>
+</dd><dd><tr><td>PredSL</td><td>mitochondrion</td></tr>
+</dd><dd><tr><td>PProwler</td><td>mitochondrion</td></tr>
+</dd><dd><tr><td>PTS1</td><td>no data</td></tr>
+</dd><dd><tr><td>SLPFA</td><td>mitochondrion</td></tr>
+</dd><dd><tr><td>SLP-Local</td><td>mitochondrion</td></tr>
+</dd><dd><tr><td>SubLoc</td><td>mitochondrion</td></tr>
+</dd><dd><tr><td>TargetP</td><td>mitochondrion</td></tr>
+</dd><dd><tr><td>WoLF PSORT</td><td>mitochondrion</td></tr>
+</dd><dd><tr><td>YLoc</td><td>mitochondrion</td></tr>
+</dd><dd></table>
+</dd><dd><small>既存のオントロジーはなさそうなので(どなたかご存じでしたら教えてください＞＜)、個々のツールのウェブサーバへのリンクにする。</small>
+</dd></dl>
+</dd></dl>
+</dd></dl>
+<ul><li>明日やりたいこと
+<ul><li>他のデータベースの情報(TAIR, Uniprotを指しているColumnをどうするか)
+</li></ul>
+</li></ul>
+<h4> <span class="mw-headline" id=".E9.87.91.E5.B1.9E">金属</span></h4>
+<ul><li><a href="http://wiki.lifesciencedb.jp/mw/index.php/BH12.12/LOD_Metalloprotein" class="external text" rel="nofollow">LOD_Metalloprotein</a>のグループとディスカッション,
+</li></ul>
+<dl><dd>PLBSPのRDFやSPARQLクエリを金属タンパク質のLODに利用できないか提案した.
+</dd></dl>
+<h2> <span class="mw-headline" id=".E4.BA.8B.E5.89.8DTODO.EF.BC.88.E8.87.AA.E7.94.B1.E3.81.AB.E4.BB.98.E3.81.91.E5.8A.A0.E3.81.88.E3.81.A6.E3.81.8F.E3.81.A0.E3.81.95.E3.81.84.EF.BC.89">事前TODO（自由に付け加えてください）</span></h2>
+<ul><li>サーバー
+<ul><li>PLBSP-DB, wwPDBをロードしたVirtuosoの入ったサーバー機を弥生から浅野へ運ぶ
+</li><li>有線LANへ接続する許可をオーガナイザーにもらう
+</li><li>成果物のアップロードおよび作業用臨時サーバーを<a href="http://aws.amazon.com/jp/" class="external text" rel="nofollow">Amazon WS</a>で準備した. (12/18)
+</li><li>一時的なものですが↑へのドメインを設定しました：<a href="http://bilab.choge.me/" class="external autonumber" rel="nofollow">[1]</a>
+</li></ul>
+</li></ul>
+<ul><li>ツール
+<ul><li><a href="https://github.com/BILAB/BH12.12" class="external text" rel="nofollow">BILAB GitHub BH12.12</a>
+</li></ul>
+</li></ul>
+<ul><li>リンク
+<ul><li>BH12 (夏の国際版)
+</li><li><a href="https://github.com/dbcls/bh12/wiki" class="external free" rel="nofollow">https://github.com/dbcls/bh12/wiki</a>
+</li><li>BH11以前へのリンク
+</li><li><a href="http://www.biohackathon.org" class="external free" rel="nofollow">http://www.biohackathon.org</a> 
+</li></ul>
+</li></ul>
+<ul><li>（非セマンティックウェブの）既存DB
+</li></ul>
+<ul><li>リファレンス
+</li></ul>
+<h2> <span class="mw-headline" id=".E4.BB.95.E4.BA.8B.E9.81.93.E5.85.B7.EF.BC.88.E8.87.AA.E7.94.B1.E3.81.AB.E4.BB.98.E3.81.91.E5.8A.A0.E3.81.88.E3.81.A6.E3.81.8F.E3.81.A0.E3.81.95.E3.81.84.EF.BC.89">仕事道具（自由に付け加えてください）</span></h2>
+<h3> <span class="mw-headline" id=".E3.82.BB.E3.83.9E.E3.83.B3.E3.83.86.E3.82.A3.E3.83.83.E3.82.AF.E3.83.BB.E3.82.A6.E3.82.A7.E3.83.96.E9.96.A2.E9.80.A3.E3.83.84.E3.83.BC.E3.83.AB.E4.B8.80.E8.A6.A7">セマンティック・ウェブ関連ツール一覧</span></h3>
+<ul><li><a href="http://linkdata.org" class="external text" rel="nofollow">Link Data</a>
+</li></ul>
+<dl><dd><dl><dd>小規模サイズのRDFデータ作成(~数MB)
+</dd></dl>
+</dd></dl>
+<ul><li><a href="http://semantic.togodb.dbcls.jp" class="external text" rel="nofollow">Semantic TogoDB</a>
+</li></ul>
+<dl><dd><dl><dd>中規模サイズのCSVのRDF化＆データベース化
+</dd></dl>
+</dd></dl>
+<ul><li><a href="http://code.google.com/p/google-refine/" class="external text" rel="nofollow">google-refine</a>
+</li></ul>
+<dl><dd><dl><dd>中規模サイズのデータ整形用 (~数百MB)
+</dd></dl>
+</dd></dl>
+<ul><li><a href="http://refine.deri.ie" class="external text" rel="nofollow">GRefine RDF Extension</a>
+</li></ul>
+<dl><dd><dl><dd>google-refine時代のRDFモデリング＆出力のためのプラグイン
+</dd></dl>
+</dd></dl>
+<ul><li><a href="https://github.com/OpenRefine/OpenRefine" class="external text" rel="nofollow">OpenRefine</a>
+</li></ul>
+<dl><dd>google-refineの後継プロジェクト, google-refineと変わらず動作するか検証しておきたい. pluginも.
+<dl><dd>従来のように ./refineで起動させるとロゴしか表示されなかった.
+</dd></dl>
+</dd></dl>
+<ul><li><a href="https://github.com/OpenRefine/grefine-rdf-extension" class="external text" rel="nofollow">OpenRefine/grefine-rdf-extension</a>
+</li></ul>
+<dl><dd><dl><dd>OpenRefineプロジェクト下で継続されているみたい.
+</dd></dl>
+</dd></dl>
+<ul><li><a href="http://librdf.org/raptor/rapper.html" class="external text" rel="nofollow">Raptor RDF Syntax Library - Raptor RDF parser utility</a>
+</li></ul>
+<dl><dd><dl><dd>RDFのフォーマット変換やトリプル数のカウントができるユーティリティ. ubuntuだとパッケージに入っている
+</dd></dl>
+</dd></dl>
+<ul><li><a href="http://www.l3s.de/~minack/rdf2rdf/" class="external text" rel="nofollow">RDF2RDF</a>
+</li></ul>
+<dl><dd><dl><dd>raptorのrapperのバージョンによってn3に変換できない（？）場合や, .rdf.gz → .nt.gz のような圧縮ファイルから圧縮ファイルへ変換したい場合のコンバータ. java
+</dd></dl>
+</dd></dl>
+<ul><li><a href="http://www.w3.org/RDF/Validator/" class="external text" rel="nofollow">W3C RDF Validation Service</a>
+</li></ul>
+<dl><dd><dl><dd>作成したRDFの文法チェックとグラフ可視化ができるウェブサービス. （〜数MB）
+</dd></dl>
+</dd></dl>
+<ul><li><a href="http://protege.stanford.edu" class="external text" rel="nofollow">Protege</a>
+</li></ul>
+<dl><dd><dl><dd>伝統的なオントロジーエディタ, オントロジーを作成したり読む際に使用
+</dd></dl>
+</dd></dl>
+<h3> <span class="mw-headline" id=".E3.82.BF.E3.83.B3.E3.83.91.E3.82.AF.E8.B3.AA.E3.81.A8.E3.83.AA.E3.82.AC.E3.83.B3.E3.83.89.E3.81.8A.E3.82.88.E3.81.B3.E6.96.87.E7.8C.AE.E3.83.9E.E3.82.A4.E3.83.8B.E3.83.B3.E3.82.B0.E3.81.AE.E3.81.9F.E3.82.81.E3.81.AESPARQL_endpoint.E4.B8.80.E8.A6.A7">タンパク質とリガンドおよび文献マイニングのためのSPARQL endpoint一覧</span></h3>
+<ul><li><a href="http://192.168.0.15:8890/sparql" class="external text" rel="nofollow">PLBSP</a>
+</li></ul>
+<dl><dd><dl><dd>Protein Ligand Binding Site Pair のRDFデータベース. UT ProtのコアでPDB/PDB Ligandへリンク, UniProtへ拡張の準備中. ローカルサーバーで試験運用中のためリンクは当日貼ります.
+</dd><dd>BH12.12中は有線LAN接続で <a href="http://192.168.0.15:8890/sparql" class="external free" rel="nofollow">http://192.168.0.15:8890/sparql</a> で利用できます.  (12/19)
+</dd><dd>比較的大きなデータを取得するためにタイムアウトを長く設定しています, LIMITを書くなどしてサーバー負荷軽減にご協力ください.
+</dd></dl>
+</dd></dl>
+<ul><li>wwPDB/chem_comp (PLBSPと同じグラフに入っています)
+</li></ul>
+<dl><dd><dl><dd>wwPDBから取得できるRDFの誤植を修正しVirtuosoにロード可能なように修正. PLBSPと同一のサーバーにロード済. 当日にリンクを貼ります.
+</dd><dd>wwPDB(4桁PDBIDのProtein), chem_comp(3桁のHet IDのLigand) の意味です.
+</dd></dl>
+</dd></dl>
+<ul><li><ul><li><a href="http://54.248.221.4/img/plbsp_model.png" class="external text" rel="nofollow">PLBSPのRDFモデル</a>
+</li><li><a href="http://wiki.lifesciencedb.jp/mw/index.php/BH12.12/UT_Prot/PLBSP_SPARQL_snipet" class="external text" rel="nofollow">PLBSP_SPARQL_snipet</a>
+</li></ul>
+</li></ul>
+<dl><dd><dl><dd>PLBSPとPDB/PDB LigandのSPARQLクエリ例
+</dd></dl>
+</dd></dl>
+<p>（会場に運んだサーバーのtriple store には上記のデータをロード済み）
+</p><p><br />
+</p>
+<hr />
+<ul><li><a href="http://beta.sparql.uniprot.org" class="external text" rel="nofollow">UniProt</a>
+</li></ul>
+<dl><dd><dl><dd>beta UniProt SPARQL endpoint
+</dd></dl>
+</dd></dl>
+<ul><li><a href="http://rdf.farmbio.uu.se/chembl/sparql" class="external text" rel="nofollow">ChEMBL</a>
+</li></ul>
+<dl><dd><dl><dd>ChEMBL（医薬品化合物のデータベース)
+</dd></dl>
+</dd></dl>
+<ul><li><a href="http://data.allie.dbcls.jp/sparql" class="external text" rel="nofollow">Allie</a>
+</li></ul>
+<dl><dd><dl><dd>生命科学の略語と展開の検索サービス
+</dd><dd>参考：<a href="http://data.allie.dbcls.jp" class="external free" rel="nofollow">http://data.allie.dbcls.jp</a>
+</dd></dl>
+</dd></dl>
+<ul><li><a href="http://dbpedia.org/sparql" class="external text" rel="nofollow">DBPedia</a>
+</li></ul>
+<dl><dd><dl><dd>DBPedia 本家, データは英語版Wikipedia
+</dd><dd>参考：<a href="http://dbpedia.org/About" class="external free" rel="nofollow">http://dbpedia.org/About</a>
+</dd></dl>
+</dd></dl>
+<ul><li><a href="http://ja.dbpedia.org/sparql" class="external text" rel="nofollow">DBPedia Japanese</a>
+</li></ul>
+<dl><dd><dl><dd>日本語WikipediaをベースにしたDBPedia
+</dd><dd>参考：<a href="http://ja.dbpedia.org" class="external free" rel="nofollow">http://ja.dbpedia.org</a>
+</dd></dl>
+</dd></dl>
+<h3> <span class="mw-headline" id=".E3.82.AA.E3.83.B3.E3.83.88.E3.83.AD.E3.82.B8.E3.83.BC.E4.B8.80.E8.A6.A7">オントロジー一覧</span></h3>
+<ul><li><a href="http://bioportal.bioontology.org" class="external text" rel="nofollow">NCBO</a>
+</li></ul>
+<dl><dd>生命科学のオントロジーのレポジトリ, 検索サービス.
+</dd></dl>
+<ul><li><a href="http://rdf.wwpdb.org/schema/pdbx-v40.owl" class="external text" rel="nofollow">PDBx ongology</a>
+</li></ul>
+<dl><dd><pre>http://rdf.wwpdb.org/schema/pdbx-v40.owl</pre>
+</dd></dl>
+<ul><li><a href="http://purl.uniprot.org/core/" class="external text" rel="nofollow">UniProt core</a>
+</li></ul>
+<dl><dd><pre>http://purl.uniprot.org/core/</pre>
+</dd><dd>OWLファイルの所在：<a href="ftp://ftp.uniprot.org/pub/databases/uniprot/current_release/rdf/core.owl" class="external free" rel="nofollow">ftp://ftp.uniprot.org/pub/databases/uniprot/current_release/rdf/core.owl</a>
+</dd></dl>
+<ul><li><a href="http://allie.dbcls.jp/ontology/201108" class="external text" rel="nofollow">Allie</a>
+</li></ul>
+<dl><dd><pre>http://allie.dbcls.jp/ontology/201108</pre>
+</dd></dl>
+<h3> <span class="mw-headline" id="SPARQL_endpoint_.E4.BB.A5.E5.A4.96.E3.81.AEWS">SPARQL endpoint 以外のWS</span></h3>
+<ul><li><a href="http://togows.dbcls.jp/site/ja/rest.html" class="external text" rel="nofollow">TogoWS</a>
+</li></ul>
+<dl><dd><dl><dd>参考：<a href="http://togows.dbcls.jp/site/ja/index.html" class="external free" rel="nofollow">http://togows.dbcls.jp/site/ja/index.html</a>
+</dd></dl>
+</dd></dl>
+<h2> <span class="mw-headline" id=".E8.8D.89.E6.A1.88.EF.BC.88.E8.87.AA.E7.94.B1.E3.81.AB.E4.BB.98.E3.81.91.E5.8A.A0.E3.81.88.E3.81.A6.E3.81.8F.E3.81.A0.E3.81.95.E3.81.84.EF.BC.89">草案（自由に付け加えてください）</span></h2>
+<p>初期案<br />
+</p>
+<ul><li>Protein Ligand Binding Site Pair DB の拡張 (込山) <br />
+<ul><li>PLBSP-DB <br />
+<ul><li>化合物&nbsp;: PDB Ligand, ChEBI, DrugBankなどへのリンク拡張<br />
+</li><li>UniProt：PLBSP-DB, PDBと同時にグラフ検索するには大きすぎるので, IDのみの対応表を作って実行可能なクエリを書く<br />
+</li><li>wwPDB：提供されているRDF全般でuniprot taxnomyへのリンクURLの誤植がある. 
+</li></ul>
+</li></ul>
+</li></ul>
+<dl><dd><dl><dd>（正）http://purl.uniprot.org/taxonomy/4932 が（誤）http://pur.uniprot.org/taxonomy/4932 の様になっている.
+</dd><dd>2012/10/9~2012/12/9のタイムスタンプのもの<br />
+</dd></dl>
+</dd></dl>
+<ul><li><ul><li>既存のタンパク質-リガンド結合DBのRDF化<br />
+<ul><li>LIPID MAPS<br />
+</li></ul>
+</li><li>Triple Storeのパフォーマンス, チューニング手法<br />
+</li><li>UniProtの3大データ(uniref, uniparc, uniprot)のロードを効率よく行うための手法の調査<br />
+</li></ul>
+</li><li>PDBで分断されている糖鎖を他の既存DBへ対応付け (番野)<br />
+<ul><li>KEGG GlycanのDBのライセンスの確認<br />
+<ul><li>糖鎖関係は全てKEGG Glycanに接続されている<br />
+</li></ul>
+</li></ul>
+</li><li>UniProtから生物種ごとのDBへのリンクを充実 (重光)<br />
+<ul><li><ul><li>The Human Protein ATLAS<small>(すでにあった)</small><br />
+</li></ul>
+</li></ul>
+</li></ul>
+<dl><dd><dl><dd><dl><dd>既存DBのビュー内（ドキュメントのウェブ）にリソースデータベースへのリンクがあったとしても, セマンティックウェブ（データのウェブ）としてリンクが張られていないのであれば, 新たにモデル構築する意義がある. 候補から外す必要はないと思う.(追記：込山)<br />
+</dd><dd>了解しました、もう一度候補に追加しておきます (追記：重光)
+</dd></dl>
+</dd></dl>
+</dd></dl>
+<ul><li><ul><li><ul><li>SUBA<br />
+</li><li>yeastgfp<br />
+</li></ul>
+</li></ul>
+</li></ul>
+<ul><li><ul><li>UniProtと生物種ごとのDBの食い違いを修正したい<br />
+<ul><li>TAIR, SUBA, SGDとUniProt<br />
+</li></ul>
+</li></ul>
+</li></ul>
+<h2> <span class="mw-headline" id=".E3.82.A2.E3.82.A4.E3.83.87.E3.82.A2.E5.87.BA.E3.81.97.EF.BC.88.E8.87.AA.E7.94.B1.E3.81.AB.E4.BB.98.E3.81.91.E5.8A.A0.E3.81.88.E3.81.A6.E3.81.8F.E3.81.A0.E3.81.95.E3.81.84.EF.BC.89">アイデア出し（自由に付け加えてください）</span></h2>
+<h3> <span class="mw-headline" id=".E9.87.8D.E5.85.89">重光</span></h3>
+<p>やりたいこと<br />
+</p>
+<ul><li>Uniprotのデータから、細胞内局在化部位のDBをつなぎたい。
+</li></ul>
+<ul><li><ul><li><a href="http://www.proteinatlas.org/" class="external text" rel="nofollow">The human protein atlas</a>
+</li></ul>
+</li></ul>
+<dl><dd><dl><dd><small>(Uniprotから飛べるので不要？)</small>
+</dd><dd><small>ただ、アノテーション情報としてここの情報が書いてあるとうれしい</small>
+</dd></dl>
+</dd></dl>
+<ul><li><ul><li><a href="http://yeastgfp.yeastgenome.org/" class="external text" rel="nofollow">The yeast GFP fusion Localization Database</a>
+</li></ul>
+</li></ul>
+<dl><dd><dl><dd><small>(SGDからはいける;SGDにはだいたい飛べる)</small>
+</dd></dl>
+</dd></dl>
+<ul><li><ul><li><a href="http://suba.plantenergy.uwa.edu.au/" class="external text" rel="nofollow">SUBA</a>
+</li></ul>
+</li></ul>
+<dl><dd><dl><dd><small>(TAIRのIDが必要;Uniprotからは飛べない;SUBAからは飛べる)</small>
+</dd><dd><small>(ライセンス的にありなら)SUBAをRDF化する？</small>
+<dl><dd><small>SUBAは一つのColumnに複数のデータ(ReferenceのID)が入っていることがあるので、そいつらを別のRowに落とし込まなくては。</small>
+</dd><dd><small>実験方法については、[<a href="http://bioportal.bioontology.org/ontologies/1012/?p=terms" class="external text" rel="nofollow">ECO(Evidence Codes Ontology)</a>]を見れば良さそう</small>
+</dd><dd><b><a href="https://www.lucidchart.com/documents/view/48c3-8650-50d073f3-b09c-73750ad60ba0" class="external text" rel="nofollow">Mapping案(閲覧専用)</a>　　<a href="http://www.lucidchart.com/invitations/accept/50d09bb4-9f3c-477f-bb4c-5dba0a40476b" class="external text" rel="nofollow">Mapping案(編集可)</a></b>
+</dd><dd><small>Googleのアカウントなどでサインインしたあと、Documentsで”Suba Ontology (2)”を選択してください。</small><br /><br />
+</dd><dd><u>Ontology案</u>
+<ul><li>SUBAに存在するオルガネラ
+</li></ul>
+</dd><dd><a href="http://www.bioontology.org/wiki/index.php/BioPortal_REST_services#RDF_Term_Service" class="external text" rel="nofollow">ここ</a>から一気に取るといいらしい。
+</dd></dl>
+</dd></dl>
+</dd></dl>
+<p><br />
+</p>
+<dl><dd><dl><dd><dl><dd><u>SUBAのTSVのマッピングにおいて主要データベースのリソースは<a href="http://bio2rdf.org" class="external text" rel="nofollow">bio2rdf</a>のものを利用するのはどうか</u>. 
+</dd><dd><a href="http://data.allie.dbcls.jp/vocab.html" class="external text" rel="nofollow">Allieの語彙使用例</a>がモデリングの参考なると思います.
+</dd><dd><a href="http://54.248.221.4/img/plbsp_model.png" class="external text" rel="nofollow">PLBSPで使用した語彙</a>と<a href="http://54.248.221.4/img/PLBSP_mapping_table.pdf" class="external text" rel="nofollow">マッピング</a>はこちらにあります.
+</dd><dd>(追記：込山)
+</dd><dd>PropertyについてはUniprotのもの(LocatedIn, source ...etc)を使う予定です。
+</dd></dl>
+</dd></dl>
+</dd></dl>
+<hr style="margin: 15px 0px;" />
+<dl><dd><dl><dd><b>現状での疑問点など</b>(11:06 2012/12/19)
+<ul><li>AGI codeのResourceはどこにあるのかよくわからない。
+</li></ul>
+<dl><dd><small>→ UniprotのRDFは<a href="http://purl.uniprot.org/tair/At5g21990" class="external free" rel="nofollow">http://purl.uniprot.org/tair/At5g21990</a> のような形になっていると思う。これを使ってもいいのかな</small>
+</dd></dl>
+<ul><li><ul><li>AGI codeからUniprotIDへのProperty。link_to or seeAlso&nbsp;? (どこにあるかはわかってない)
+</li><li>AGI codeから実験へのPropery：uniprot:experimentsというのがあるけど、DataTypePropertyだから使えない？
+</li></ul>
+</li><li>細胞内局在化部位がCytoskelton, UnclearのOntology
+</li><li>LocationとExperiment、ExperimentとPMIDを結ぶProperty。いくつか良さそうなのがあるけど、どれを使うべきなのか。
+<ul><li>Location → Experiment：uniprot:method or uniprot:source；個人的にはmethodがいい気がする
+</li><li>Experiment → PMID：uniprot:source, uniprot:annotation or uniprot:citation
+</li></ul>
+</li><li>Prediction ToolのResource、AGI codeからのProperty。
+<ul><li>Resourceは勝手に作ってしまう？
+</li></ul>
+</li><li>UniprotのPropertyにはRangeが設定されているけど、自分で定義したResourceをつなぐときは使えない？
+</li></ul>
+</dd></dl>
+</dd></dl>
+<p><br />
+</p>
+<dl><dd><u>動機：UniprotのIDから細胞内局在化部位/膜貫通領域のアノテーションを一括して手に入れたい。</u>
+</dd><dd>”Subcellular Location”のセクションを見れば現状でもできるが、問題点もある。
+<ul><li>上記のものに比べるとかなり情報が限られている(SUBAにあってUniprotには無いものも多い。<small>これは単にReviewedじゃないだけかも・・・</small>)
+</li><li>論文へのReferenceなので、具体的にどうやって決めたかの情報が無い(SUBAレベルの情報が欲しい)。
+</li></ul>
+<dl><dd>欲を言えば、膜貫通の情報も調べたい。けど、その証拠はさらに輪をかけて少ない気がする(Gene ontologyのIntegral to membraneを調べてReferenceをたどる必要あり)
+</dd></dl>
+</dd></dl>
+<table class="sortable wikitable" style="width: 80%">
+<caption><b>TODO List Template</b></caption>
+<tr>
+  <th>進捗</th>
+  <th>作業内容</th>
+</tr>
+<tr>
+  <td>✓</td> 
+  <td>AGIとUniprotIDの対応付け</td>
+</tr>
+<tr>
+  <td>✓</td>
+  <td>SUBAのデータを持ってくる</td>
+</tr>
+<tr>
+  <td>未</td>
+  <td>酵母のIDとの対応付け</td>
+</tr>
+<tr>
+  <td>未</td>
+  <td>ヒトのUniprotとHPA間の対応付け</td>
+</tr>
+</table>
+<p><br />
+</p>
+<ul><li>Uniprotのデータと生物種ごとのDBとの食い違いをどうにかしたい。(というか、Uniprotのデータが不十分なことが多々ある)
+</li><li>配列ベースの膜タンパク質のDB。ReferenceというかEvidenceが充実しているとうれしい。
+</li></ul>
+<dl><dd><u>動機：簡単にデータセットを作りたい</u> (今はUniprotとかでKeywordサーチしないといけない)
+</dd></dl>
+<ul><li>NOTE
+</li></ul>
+<dl><dd>NCBO REST RDF Term Serch問い合わせのサンプル
+</dd><dd><a href="http://rest.bioontology.org/bioportal/search/?query=$buf&amp;isexactmatch=1&amp;light=1&amp;norelations=1&amp;apikey=APIKEY" class="external free" rel="nofollow">http://rest.bioontology.org/bioportal/search/?query=$buf&amp;isexactmatch=1&amp;light=1&amp;norelations=1&amp;apikey=APIKEY</a>
+</dd></dl>
+<h3> <span class="mw-headline" id=".E7.95.AA.E9.87.8E">番野</span></h3>
+<p>やりたいこと<br />
+</p>
+<dl><dd>PDBと既存の糖鎖データベースの対応付け<br />
+</dd></dl>
+<p>動機： <u>PDBでは糖鎖のような高分子のリガンドはモノマー単位で登録されている。<br />
+そのため、そのPDBにどのような糖鎖が登録されているかは、単糖同士の結合を各自で調べていいく必要がある。<br />
+PDBIDとデータに含まれる糖鎖構造の対応表を作成し、PDBと既存の糖鎖データベースを対応付けをしていきたい。</u><br />
+</p>
+<ul><li>PDBと糖鎖データベースのデータをどのように対応付けるか
+</li><li>既存の糖鎖データベースにどのようなものがあるかの調査
+</li></ul>
+<p><br />
+PDB中のコネクト情報の取得は下記Sparqlで取得可能
+</p>
+<pre>
+PREFIX pdbo: &lt;http://rdf.wwpdb.org/schema/pdbx-v40.owl#&gt;
+
+SELECT DISTINCT * WHERE {
+
+&lt;http://rdf.wwpdb.org/pdb/1ABR&gt; pdbo:has_struct_connCategory&nbsp;?conncat .
+?conncat pdbo:has_struct_conn&nbsp;?connect.
+?connect pdbo:struct_conn.ptnr1_auth_asym_id&nbsp;?chain1;
+    pdbo:struct_conn.ptnr1_auth_comp_id&nbsp;?res1;
+
+    pdbo:struct_conn.ptnr1_auth_seq_id&nbsp;?seq1;
+    pdbo:struct_conn.ptnr1_label_atom_id&nbsp;?atom1;
+    pdbo:struct_conn.ptnr2_auth_asym_id&nbsp;?chain2;
+
+    pdbo:struct_conn.ptnr2_auth_comp_id&nbsp;?res2;
+    pdbo:struct_conn.ptnr2_auth_seq_id&nbsp;?seq2;
+    pdbo:struct_conn.ptnr2_label_atom_id&nbsp;?atom2;
+    pdbo:struct_conn.pdbx_dist_value&nbsp;?dist.
+
+    OPTIONAL {
+      &nbsp;?connect pdbo:struct_conn.pdbx_ptnr1_PDB_ins_code&nbsp;?ins1;
+                pdbo:struct_conn.pdbx_ptnr2_PDB_ins_code&nbsp;?ins2.
+    } .
+}
+</pre>
+<p>この情報をもとに、単糖ごとの共有結合情報を明かにして
+PDB中に含まれる糖鎖一個ごとに一つのPDBファイルにまとめた。<br />
+openbabel を利用して PDB → inchi,inchikey, smiles などへ変換することができた。 <br />
+試しに、1ABR に含まれていた糖鎖をJCGGDBと inchikey で対応付けようとしたが、
+完全マッチする糖鎖は見つからなかった<br />
+（部分マッチは存在した）。 <br />
+糖鎖同士の類似度の取得法や、既存データベースとどのように対応付ければよいか、
+今後調査する予定です。 <br />
+</p>
+<h3> <span class="mw-headline" id=".E8.BE.BC.E5.B1.B1">込山</span></h3>
+<p>やりたいこと<br />
+</p>
+<ul><li>PLBSP-DBと結び付く可能性がある既存RDFデータ/DBの洗い出し. 無ければRDF化. <br />
+</li><li> 糖鎖・膜・化合物DBの統合.<br /> 
+</li></ul>
+<dl><dd>→NBDCのグループが調査している化合物DBのセマンティック・ウェブ化を, PLBSP-DBの拡張に利用できないか彼らと議論したい.<br />
+</dd><dd>→<a href="http://wiki.lifesciencedb.jp/mw/index.php/BH12.12/LOD_Metalloprotein" class="external text" rel="nofollow">Metalloprotein</a>のグループにも関心があるので可能な限り協力する.
+</dd></dl>
+<ul><li>Triple Store (Virtuoso)の効率化運用のための技術開発.<br /> 
+</li><li>実務レベルのWebアプリケーションに必要な技術の吸収.<br />
+</li><li>UT Protメンバーを他の関連グループの参加者に紹介.<br />
+</li></ul>
+<p>動機：
+</p>
+<dl><dd><u>タンパク質の機械学習研究におけるデータセット作成の場面では, UniProtやPDB以外の配列, 二次構造, 立体構造の情報で編纂されたデータベースを特徴量としてとらえることがある.
+</dd></dl>
+<p>特に利用する頻度が高い二次DBの調査. 利用可能なRDFやオントロジーは存在するかを知りたい</u><br />
+</p>
+<dl><dd>例→<a href="http://www.lipidmaps.org/downloads/index.html" class="external text" rel="nofollow">LIPID MAPS</a><br />
+</dd></dl>
+<p>メモ:
+</p>
+<dl><dd>孫さんが作成中の<a href="http://wiki.lifesciencedb.jp/mw/index.php/BH12.12/wild.type.count.data.DB" class="external text" rel="nofollow">wild.type.count.data.DB</a> (野生型発現量DB) に対してfederated searchを行うためにユースケースはヒト・脳に向けて考えてみる.
+</dd></dl>
+<p><br />
+</p>
+<table class="sortable wikitable" style="width: 80%">
+<caption><b>Virtuosoへロード済みのRDF</b></caption>
+<tr>
+  <th>ファイル名（フォーマット）</th>
+  <th>triple数</th>
+ <th>解説</th> 
+</tr><tr>
+  <td>PLBSP_MASTER_20121023.nt</td> 
+  <td>1,462,812,014</td>
+  <td>Protein Ligand Binding Site Pair Database のコアRDF</td>
+</tr>
+<tr>
+  <td>plbsp2pdb_20121109.nt</td>
+  <td>53,102,251</td>
+  <td>PLBSPIDからPDBIDへのリンクRDF</td>
+</tr>
+<tr>
+  <td>wwPDBrdf_without_comma_20121107.nt</td>
+  <td>12,522,413</td>
+  <td>wwPDBが提供するRDFの誤植を除き, Virtuosoへロード可能にしたRDF</td>
+</tr>
+<tr>
+  <td>wwPDB_error_fix_20121112.nt</td>
+  <td>371,533</td>
+  <td>wwPDBのエラーを修正した差分</td>
+</tr>
+<tr>
+  <td>wwPDB_chem_comp_20121024.nt</td>
+  <td>28,040,847</td>
+  <td>wwPDBが提供するPDB LigandのRDF.</td>
+</tr>
+</table>
+
+<!-- 
+NewPP limit report
+Preprocessor node count: 258/1000000
+Post-expand include size: 0/2097152 bytes
+Template argument size: 0/2097152 bytes
+Expensive parser function count: 0/100
+-->
+<div class="printfooter">
+「<a href="http://wiki.lifesciencedb.jp/mw/BH12.12/UT_Prot">http://wiki.lifesciencedb.jp/mw/BH12.12/UT_Prot</a>」より作成</div>
+		<div id='catlinks' class='catlinks catlinks-allhidden'></div>		<!-- end content -->
+				<div class="visualClear"></div>
+	</div>
+</div></div>
+<div id="column-one">
+	<div id="p-cactions" class="portlet">
+		<h5>表示</h5>
+		<div class="pBody">
+			<ul>
+				 <li id="ca-nstab-main" class="selected"><a href="/mw/BH12.12/UT_Prot" title="本文を表示 [c]" accesskey="c">ページ</a></li>
+				 <li id="ca-talk" class="new"><a href="/mw/index.php?title=%E3%83%8E%E3%83%BC%E3%83%88:BH12.12/UT_Prot&amp;action=edit&amp;redlink=1" title="記事についての議論 [t]" accesskey="t">議論</a></li>
+				 <li id="ca-viewsource"><a href="/mw/index.php?title=BH12.12/UT_Prot&amp;action=edit&amp;oldid=4551" title="このページは保護されています。&#10;ページのソースを閲覧できます。 [e]" accesskey="e">ソースを表示</a></li>
+				 <li id="ca-history"><a href="/mw/index.php?title=BH12.12/UT_Prot&amp;action=history" title="このページの過去の版 [h]" accesskey="h">履歴</a></li>
+			</ul>
+		</div>
+	</div>
+	<div class="portlet" id="p-personal">
+		<h5>個人用ツール</h5>
+		<div class="pBody">
+			<ul>
+				<li id="pt-anonuserpage"><a href="/mw/%E5%88%A9%E7%94%A8%E8%80%85:172.18.8.51" title="自分が編集しているIPアドレスの利用者ページ [.]" accesskey="." class="new">172.18.8.51</a></li>
+				<li id="pt-anontalk"><a href="/mw/%E5%88%A9%E7%94%A8%E8%80%85%E2%80%90%E4%BC%9A%E8%A9%B1:172.18.8.51" title="このIPアドレスからなされた編集についての議論 [n]" accesskey="n" class="new">このIPアドレスのトーク</a></li>
+				<li id="pt-anonlogin"><a href="/mw/index.php?title=%E7%89%B9%E5%88%A5:%E3%83%AD%E3%82%B0%E3%82%A4%E3%83%B3&amp;returnto=BH12.12/UT_Prot&amp;returntoquery=direction%3Dprev%26oldid%3D4553" title="ログインすることが推奨されます。ただし、必須ではありません。 [o]" accesskey="o">ログイン</a></li>
+				<li id="pt-openidlogin"><a href="/mw/index.php?title=%E7%89%B9%E5%88%A5:OpenID%E3%83%AD%E3%82%B0%E3%82%A4%E3%83%B3&amp;returnto=BH12.12/UT_Prot">OpenIDでログイン</a></li>
+			</ul>
+		</div>
+	</div>
+	<div class="portlet" id="p-logo">
+		<a style="background-image: url(/mw/images/togowiki-logo.png);" href="/mw/%E3%83%A1%E3%82%A4%E3%83%B3%E3%83%9A%E3%83%BC%E3%82%B8" title="メインページに移動"></a>
+	</div>
+	<script type="text/javascript"> if (window.isMSIE55) fixalpha(); </script>
+	<div class='generated-sidebar portlet' id='p-navigation'>
+		<h5>案内</h5>
+		<div class='pBody'>
+			<ul>
+				<li id="n-mainpage-description"><a href="/mw/%E3%83%A1%E3%82%A4%E3%83%B3%E3%83%9A%E3%83%BC%E3%82%B8" title="メインページに移動する [z]" accesskey="z">メインページ</a></li>
+				<li id="n-portal"><a href="/mw/TogoWiki:%E3%82%B3%E3%83%9F%E3%83%A5%E3%83%8B%E3%83%86%E3%82%A3%E3%83%BB%E3%83%9D%E3%83%BC%E3%82%BF%E3%83%AB" title="このプロジェクトについて、できること、情報を入手する場所">コミュニティ・ポータル</a></li>
+				<li id="n-currentevents"><a href="/mw/TogoWiki:%E6%9C%80%E8%BF%91%E3%81%AE%E5%87%BA%E6%9D%A5%E4%BA%8B" title="最近の出来事について予備知識を得る">最近の出来事</a></li>
+				<li id="n-recentchanges"><a href="/mw/%E7%89%B9%E5%88%A5:%E6%9C%80%E8%BF%91%E3%81%AE%E6%9B%B4%E6%96%B0" title="ウィキにおける最近の更新の一覧 [r]" accesskey="r">最近の更新</a></li>
+				<li id="n-randompage"><a href="/mw/%E7%89%B9%E5%88%A5:%E3%81%8A%E3%81%BE%E3%81%8B%E3%81%9B%E8%A1%A8%E7%A4%BA" title="無作為に抽出されたページの読み込み [x]" accesskey="x">おまかせ表示</a></li>
+				<li id="n-help"><a href="/mw/Help:%E7%9B%AE%E6%AC%A1" title="情報を得る場所">ヘルプ</a></li>
+			</ul>
+		</div>
+	</div>
+	<div id="p-search" class="portlet">
+		<h5><label for="searchInput">検索</label></h5>
+		<div id="searchBody" class="pBody">
+			<form action="/mw/index.php" id="searchform">
+				<input type='hidden' name="title" value="特別:検索"/>
+				<input id="searchInput" title="TogoWiki内を検索" accesskey="f" type="search" name="search" />
+				<input type='submit' name="go" class="searchButton" id="searchGoButton"	value="表示" title="厳密に一致する名前のページが存在すれば、そのページへ移動します" />&nbsp;
+				<input type='submit' name="fulltext" class="searchButton" id="mw-searchButton" value="検索" title="入力された文字列が含まれるページを検索します" />
+			</form>
+		</div>
+	</div>
+	<div class="portlet" id="p-tb">
+		<h5>ツールボックス</h5>
+		<div class="pBody">
+			<ul>
+				<li id="t-whatlinkshere"><a href="/mw/%E7%89%B9%E5%88%A5:%E3%83%AA%E3%83%B3%E3%82%AF%E5%85%83/BH12.12/UT_Prot" title="ここにリンクしている全ウィキのページの一覧 [j]" accesskey="j">リンク元</a></li>
+				<li id="t-recentchangeslinked"><a href="/mw/%E7%89%B9%E5%88%A5:%E9%96%A2%E9%80%A3%E3%83%9A%E3%83%BC%E3%82%B8%E3%81%AE%E6%9B%B4%E6%96%B0%E7%8A%B6%E6%B3%81/BH12.12/UT_Prot" title="このページからリンクしているページの最近の更新 [k]" accesskey="k">関連ページの更新状況</a></li>
+<li id="t-specialpages"><a href="/mw/%E7%89%B9%E5%88%A5:%E7%89%B9%E5%88%A5%E3%83%9A%E3%83%BC%E3%82%B8%E4%B8%80%E8%A6%A7" title="特別ページの一覧 [q]" accesskey="q">特別ページ</a></li>
+				<li id="t-print"><a href="/mw/index.php?title=BH12.12/UT_Prot&amp;direction=prev&amp;oldid=4553&amp;printable=yes" rel="alternate" title="このページの印刷用ページ [p]" accesskey="p">印刷用バージョン</a></li>				<li id="t-permalink"><a href="/mw/index.php?title=BH12.12/UT_Prot&amp;oldid=4551" title="ページのこの版への固定リンク">この版への固定リンク</a></li>			</ul>
+		</div>
+	</div>
+</div><!-- end of the left (by default at least) column -->
+<div class="visualClear"></div>
+<div id="footer">
+	<div id="f-poweredbyico"><a href="http://www.mediawiki.org/"><img src="/mw/skins/common/images/poweredby_mediawiki_88x31.png" height="31" width="88" alt="Powered by MediaWiki" /></a></div>
+	<div id="f-copyrightico"><a href="http://creativecommons.org/licenses/by/3.0/"><img src="http://i.creativecommons.org/l/by/3.0/88x31.png" alt="Attribution 3.0 Unported" width="88" height="31" /></a></div>
+	<ul id="f-list">
+		<li id="copyright">内容は<a href="http://creativecommons.org/licenses/by/3.0/" class="external ">Attribution 3.0 Unported</a>のライセンスで利用することができます。</li>
+		<li id="privacy"><a href="/mw/TogoWiki:%E3%83%97%E3%83%A9%E3%82%A4%E3%83%90%E3%82%B7%E3%83%BC%E3%83%BB%E3%83%9D%E3%83%AA%E3%82%B7%E3%83%BC" title="TogoWiki:プライバシー・ポリシー">プライバシー・ポリシー</a></li>
+		<li id="about"><a href="/mw/TogoWiki:TogoWiki%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6" title="TogoWiki:TogoWikiについて">TogoWikiについて</a></li>
+		<li id="disclaimer"><a href="/mw/TogoWiki:%E5%85%8D%E8%B2%AC%E4%BA%8B%E9%A0%85" title="TogoWiki:免責事項">免責事項</a></li>
+	</ul>
+</div>
+</div>
+
+<script>if (window.runOnloadHook) runOnloadHook();</script>
+<!-- Served in 0.831 secs. --></body></html>

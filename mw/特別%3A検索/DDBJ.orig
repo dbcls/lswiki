@@ -1,0 +1,320 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html lang="ja" dir="ltr">
+<head>
+<title>検索 - TogoWiki</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta name="generator" content="MediaWiki 1.16.3" />
+<meta name="robots" content="noindex,nofollow" />
+<link rel="shortcut icon" href="/favicon.ico" />
+<link rel="search" type="application/opensearchdescription+xml" href="/mw/opensearch_desc.php" title="TogoWiki (ja)" />
+<link rel="copyright" href="http://creativecommons.org/licenses/by/3.0/" />
+<link rel="alternate" type="application/atom+xml" title="TogoWikiのAtomフィード" href="/mw/index.php?title=%E7%89%B9%E5%88%A5:%E6%9C%80%E8%BF%91%E3%81%AE%E6%9B%B4%E6%96%B0&amp;feed=atom" />
+<link rel="stylesheet" href="/mw/skins/common/shared.css?270" media="screen" />
+<link rel="stylesheet" href="/mw/skins/common/commonPrint.css?270" media="print" />
+<link rel="stylesheet" href="/mw/skins/monobook/main.css?270" media="screen" />
+<!--[if lt IE 5.5000]><link rel="stylesheet" href="/mw/skins/monobook/IE50Fixes.css?270" media="screen" /><![endif]-->
+<!--[if IE 5.5000]><link rel="stylesheet" href="/mw/skins/monobook/IE55Fixes.css?270" media="screen" /><![endif]-->
+<!--[if IE 6]><link rel="stylesheet" href="/mw/skins/monobook/IE60Fixes.css?270" media="screen" /><![endif]-->
+<!--[if IE 7]><link rel="stylesheet" href="/mw/skins/monobook/IE70Fixes.css?270" media="screen" /><![endif]-->
+<link rel="stylesheet" href="/mw/index.php?title=MediaWiki:Common.css&amp;usemsgcache=yes&amp;ctype=text%2Fcss&amp;smaxage=18000&amp;action=raw&amp;maxage=18000" />
+<link rel="stylesheet" href="/mw/index.php?title=MediaWiki:Print.css&amp;usemsgcache=yes&amp;ctype=text%2Fcss&amp;smaxage=18000&amp;action=raw&amp;maxage=18000" media="print" />
+<link rel="stylesheet" href="/mw/index.php?title=MediaWiki:Monobook.css&amp;usemsgcache=yes&amp;ctype=text%2Fcss&amp;smaxage=18000&amp;action=raw&amp;maxage=18000" />
+<link rel="stylesheet" href="/mw/index.php?title=-&amp;action=raw&amp;maxage=18000&amp;gen=css" />
+<script>
+var skin="monobook",
+stylepath="/mw/skins",
+wgUrlProtocols="http\\:\\/\\/|https\\:\\/\\/|ftp\\:\\/\\/|irc\\:\\/\\/|gopher\\:\\/\\/|telnet\\:\\/\\/|nntp\\:\\/\\/|worldwind\\:\\/\\/|mailto\\:|news\\:|svn\\:\\/\\/",
+wgArticlePath="/mw/$1",
+wgScriptPath="/mw",
+wgScriptExtension=".php",
+wgScript="/mw/index.php",
+wgVariantArticlePath=false,
+wgActionPaths={},
+wgServer="http://wiki.lifesciencedb.jp",
+wgCanonicalNamespace="Special",
+wgCanonicalSpecialPageName="Search",
+wgNamespaceNumber=-1,
+wgPageName="特別:検索",
+wgTitle="検索",
+wgAction="view",
+wgArticleId=0,
+wgIsArticle=false,
+wgUserName=null,
+wgUserGroups=null,
+wgUserLanguage="ja",
+wgContentLanguage="ja",
+wgBreakFrames=false,
+wgCurRevisionId=0,
+wgVersion="1.16.3",
+wgEnableAPI=true,
+wgEnableWriteAPI=true,
+wgSeparatorTransformTable=["", ""],
+wgDigitTransformTable=["", ""],
+wgMainPageTitle="メインページ",
+wgFormattedNamespaces={"-2": "メディア", "-1": "特別", "0": "", "1": "ノート", "2": "利用者", "3": "利用者‐会話", "4": "TogoWiki", "5": "TogoWiki‐ノート", "6": "ファイル", "7": "ファイル‐ノート", "8": "MediaWiki", "9": "MediaWiki‐ノート", "10": "Template", "11": "Template‐ノート", "12": "Help", "13": "Help‐ノート", "14": "Category", "15": "Category‐ノート"},
+wgNamespaceIds={"メディア": -2, "特別": -1, "": 0, "ノート": 1, "利用者": 2, "利用者‐会話": 3, "togowiki": 4, "togowiki‐ノート": 5, "ファイル": 6, "ファイル‐ノート": 7, "mediawiki": 8, "mediawiki‐ノート": 9, "template": 10, "template‐ノート": 11, "help": 12, "help‐ノート": 13, "category": 14, "category‐ノート": 15, "画像": 6, "画像‐ノート": 7, "image": 6, "image_talk": 7},
+wgSiteName="TogoWiki",
+wgCategories=[],
+wgRestrictionEdit=[],
+wgRestrictionMove=[];
+</script><script src="/mw/skins/common/wikibits.js?270"></script>
+<script src="/mw/skins/common/search.js?270"></script>
+<script src="/mw/skins/common/search.js?270"></script>
+<script src="/mw/skins/common/ajax.js?270"></script>
+<script src="/mw/index.php?title=-&amp;action=raw&amp;gen=js&amp;useskin=monobook&amp;270"></script>
+
+		<style type='text/css'>
+		li#pt-openidlogin {
+		  background: url(/mw/extensions/OpenID/skin/icons/openid-inputicon.png) top left no-repeat;
+		  padding-left: 20px;
+		  text-transform: none;
+		}
+		</style>
+</head>
+<body class="mediawiki ltr ns--1 ns-special page-特別_検索_DDBJ skin-monobook">
+<div id="globalWrapper">
+<div id="column-content"><div id="content" >
+	<a id="top"></a>
+	
+	<h1 id="firstHeading" class="firstHeading">検索結果</h1>
+	<div id="bodyContent">
+		<h3 id="siteSub">提供：TogoWiki</h3>
+		<div id="contentSub"></div>
+		<div id="jump-to-nav">移動： <a href="#column-one">案内</a>, <a href="#searchInput">検索</a></div>
+		<!-- start content -->
+<form id="search" method="get" action="/mw/index.php"><table id="mw-search-top-table" border="0" cellpadding="0" cellspacing="0"><tr><td>
+<input type="hidden" value="特別:検索" name="title" />
+<input type="hidden" value="0" name="redirs" />
+<input id="searchText" size="50" autofocus="" type="search" value="DDBJ" name="search" />
+<input type="hidden" value="Search" name="fulltext" />
+<input type="submit" value="検索" />
+</td></tr></table><div class="mw-search-formheader"><div class="search-types"><ul><li class="current"><a href="/mw/index.php?title=%E7%89%B9%E5%88%A5:%E6%A4%9C%E7%B4%A2&amp;search=DDBJ&amp;fulltext=%E6%A4%9C%E7%B4%A2&amp;ns0=1&amp;redirs=0" title="（標準）で検索" onmousedown="mwSearchHeaderClick(this);" onkeydown="mwSearchHeaderClick(this);">記事</a></li><li class="normal"><a href="/mw/index.php?title=%E7%89%B9%E5%88%A5:%E6%A4%9C%E7%B4%A2&amp;search=DDBJ&amp;fulltext=%E6%A4%9C%E7%B4%A2&amp;ns6=1&amp;redirs=0" title="ファイルを検索" onmousedown="mwSearchHeaderClick(this);" onkeydown="mwSearchHeaderClick(this);">マルチメディア</a></li><li class="normal"><a href="/mw/index.php?title=%E7%89%B9%E5%88%A5:%E6%A4%9C%E7%B4%A2&amp;search=DDBJ&amp;fulltext=%E6%A4%9C%E7%B4%A2&amp;ns4=1&amp;ns12=1&amp;redirs=0" title="TogoWiki、Helpで検索" onmousedown="mwSearchHeaderClick(this);" onkeydown="mwSearchHeaderClick(this);">ヘルプとプロジェクトページ</a></li><li class="normal"><a href="/mw/index.php?title=%E7%89%B9%E5%88%A5:%E6%A4%9C%E7%B4%A2&amp;search=DDBJ&amp;fulltext=%E6%A4%9C%E7%B4%A2&amp;ns0=1&amp;ns1=1&amp;ns2=1&amp;ns3=1&amp;ns4=1&amp;ns5=1&amp;ns6=1&amp;ns7=1&amp;ns8=1&amp;ns9=1&amp;ns10=1&amp;ns11=1&amp;ns12=1&amp;ns13=1&amp;ns14=1&amp;ns15=1&amp;redirs=0" title="全ページ（トークページ含む）を検索" onmousedown="mwSearchHeaderClick(this);" onkeydown="mwSearchHeaderClick(this);">すべて</a></li><li class="normal"><a href="/mw/index.php?title=%E7%89%B9%E5%88%A5:%E6%A4%9C%E7%B4%A2&amp;search=DDBJ&amp;fulltext=%E6%A4%9C%E7%B4%A2&amp;advanced=1&amp;ns0=1&amp;redirs=0" title="特定の名前空間を検索" onmousedown="mwSearchHeaderClick(this);" onkeydown="mwSearchHeaderClick(this);">詳細</a></li></ul></div><div class="results-info"><ul><li><b>1</b>件目からの<b>20</b>件を表示しています。</li></ul></div><div style="clear:both"></div></div><input type="hidden" value="1" name="ns0" /></form><div class='searchresults'><p></p><h2> <span class="mw-headline" id=".E3.83.9A.E3.83.BC.E3.82.B8.E5.90.8D.E3.81.A8.E4.B8.80.E8.87.B4">ページ名と一致</span></h2>
+<ul class='mw-search-results'>
+<li><a href="/mw/BH11.11/%E3%82%BB%E3%83%9E%E3%83%B3%E3%83%86%E3%82%A3%E3%83%83%E3%82%AF%E3%82%B2%E3%83%8E%E3%83%A0%E3%82%A2%E3%83%8E%E3%83%86%E3%83%BC%E3%82%B7%E3%83%A7%E3%83%B3%E3%83%87%E3%83%BC%E3%82%BF%E3%83%99%E3%83%BC%E3%82%B9%E3%81%AE%E8%A9%A6%E4%BD%9C/DDBJ_GTPS" title="BH11.11/セマンティックゲノムアノテーションデータベースの試作/DDBJ GTPS">BH11.11/セマンティックゲノムアノテーションデータベースの試作/DDBJ GTPS</a>   <div class='searchresult'><span class='searchmatch'>DDBJ</span> RDFにその開発内容を反映する。
+<span class='searchmatch'>DDBJ</span>(大腸菌 MG1655株)、最後のアクセッション番号部分 U00096 �
+</div>
+<div class='mw-search-result-data'>5キロバイト（449単語） - 2013年8月21日 (水) 10:13</div></li>
+<li><a href="/mw/Ddbj_sparql" title="Ddbj sparql">Ddbj sparql</a>   <div class='searchresult'></div>
+<div class='mw-search-result-data'>0バイト（0単語） - 2011年11月24日 (木) 06:23</div></li>
+<li><a href="/mw/BH11.11/%E7%B5%B1%E5%90%88%E6%A4%9C%E7%B4%A2%E3%81%A8RDF%E3%81%8B%E3%82%89%E3%81%AE%E8%A1%A8%E3%83%87%E3%83%BC%E3%82%BF%E7%94%9F%E6%88%90/ddbj_sparql" title="BH11.11/統合検索とRDFからの表データ生成/ddbj sparql">BH11.11/統合検索とRDFからの表データ生成/ddbj sparql</a>   <div class='searchresult'> FROM &lt;http://bh.dbcls.jp/DAV/<span class='searchmatch'>ddbj</span>&gt;
+ ?id &lt;http://sabi.<span class='searchmatch'>ddbj</span>.nig.ac.jp/core/item/locus&gt; ?locus
+</div>
+<div class='mw-search-result-data'>352バイト（59単語） - 2011年11月24日 (木) 06:43</div></li>
+<li><a href="/mw/BH12.12/SPARQLthon16/DDBJ" title="BH12.12/SPARQLthon16/DDBJ">BH12.12/SPARQLthon16/DDBJ</a>   <div class='searchresult'><span class='searchmatch'>DDBJ</span>エントリーのRDFをトリプルストアにロードする。トリプ�
+[http://wiki.lifesciencedb.jp/mw/index.php/BH12.12/SPARQLthon10/<span class='searchmatch'>DDBJ</span> SPARQLthon10]&lt;br&gt;
+</div>
+<div class='mw-search-result-data'>16キロバイト（1,108単語） - 2014年1月24日 (金) 08:42</div></li>
+<li><a href="/mw/BH12.12/SPARQLthon10/DDBJ" title="BH12.12/SPARQLthon10/DDBJ">BH12.12/SPARQLthon10/DDBJ</a>   <div class='searchresult'>= <span class='searchmatch'>DDBJ</span>/SW =
+== <span class='searchmatch'>DDBJ</span>エントリーRDF化 ==
+</div>
+<div class='mw-search-result-data'>42キロバイト（5,055単語） - 2013年8月21日 (水) 10:11</div></li>
+<li><a href="/mw/BH12.12/SPARQLthon11/DDBJ" title="BH12.12/SPARQLthon11/DDBJ">BH12.12/SPARQLthon11/DDBJ</a>   <div class='searchresult'>== <span class='searchmatch'>DDBJ</span>エントリーRDF利用 ==
+<span class='searchmatch'>DDBJ</span>/RDFを利用してBCT divisionの全エントリーからproduct をSPARQL�
+</div>
+<div class='mw-search-result-data'>3キロバイト（359単語） - 2013年8月21日 (水) 10:27</div></li>
+<li><a href="/mw/BH12.12/SPARQLthon15/DDBJ" title="BH12.12/SPARQLthon15/DDBJ">BH12.12/SPARQLthon15/DDBJ</a>   <div class='searchresult'>== INSDC/<span class='searchmatch'>DDBJ</span>オントロジー ==
+* INSDC オントロジー &lt;http://<span class='searchmatch'>ddbj</span>.nig.ac.jp/ontologies/sequence#&gt;
+</div>
+<div class='mw-search-result-data'>19キロバイト（1,326単語） - 2014年1月30日 (木) 07:35</div></li>
+<li><a href="/mw/BH13.13/DDBJ" title="BH13.13/DDBJ">BH13.13/DDBJ</a>   <div class='searchresult'><span class='searchmatch'>DDBJ</span>; DNA Data Bank of Japan は生命科学の研究活動をサポートする
+[[ノート:BH13.13/<span class='searchmatch'>DDBJ</span>]]
+</div>
+<div class='mw-search-result-data'>4キロバイト（239単語） - 2016年12月20日 (火) 08:07</div></li>
+<li><a href="/mw/BH13.13/DDBJ/RefGS" title="BH13.13/DDBJ/RefGS">BH13.13/DDBJ/RefGS</a>   <div class='searchresult'></div>
+<div class='mw-search-result-data'>2キロバイト（76単語） - 2014年1月21日 (火) 10:32</div></li>
+<li><a href="/mw/SPARQLthon17/DDBJ" title="SPARQLthon17/DDBJ">SPARQLthon17/DDBJ</a>   <div class='searchresult'><span class='searchmatch'>DDBJ</span>エントリーのRDFをトリプルストアにロードする。トリプ�
+[http://wiki.lifesciencedb.jp/mw/index.php/BH12.12/SPARQLthon10/<span class='searchmatch'>DDBJ</span> SPARQLthon10]&lt;br&gt;
+</div>
+<div class='mw-search-result-data'>12キロバイト（1,264単語） - 2014年3月1日 (土) 15:48</div></li>
+<li><a href="/mw/SPARQLthon18/DDBJ" title="SPARQLthon18/DDBJ">SPARQLthon18/DDBJ</a>   <div class='searchresult'><span class='searchmatch'>DDBJ</span>エントリーのRDFをトリプルストアにロードする。トリプ�
+[http://wiki.lifesciencedb.jp/mw/index.php/BH12.12/SPARQLthon10/<span class='searchmatch'>DDBJ</span> SPARQLthon10]&lt;br&gt;
+</div>
+<div class='mw-search-result-data'>2キロバイト（153単語） - 2014年3月6日 (木) 05:09</div></li>
+<li><a href="/mw/SPARQLthon24/DDBJ" title="SPARQLthon24/DDBJ">SPARQLthon24/DDBJ</a>   <div class='searchresult'>== <span class='searchmatch'>DDBJ</span> OWL ==
+ &gt; @base &lt;http://<span class='searchmatch'>ddbj</span>.nig.ac.jp/ontologies/nucleotide/&gt; .
+</div>
+<div class='mw-search-result-data'>11キロバイト（1,145単語） - 2014年9月26日 (金) 09:55</div></li>
+<li><a href="/mw/SPARQLthon23/DDBJ" title="SPARQLthon23/DDBJ">SPARQLthon23/DDBJ</a>   <div class='searchresult'>* タクソノミーそのもののオントロジーは http://<span class='searchmatch'>ddbj</span>.nig.ac.jp/ontologies/taxonomy/ を prefix に、
+これから <span class='searchmatch'>DDBJ</span>, NCBI, UniProt, OBO などの taxonomy URI に対するリンクをつけ�
+</div>
+<div class='mw-search-result-data'>6キロバイト（433単語） - 2014年9月25日 (木) 07:17</div></li>
+<li><a href="/mw/SPARQLthon25/DDBJ" title="SPARQLthon25/DDBJ">SPARQLthon25/DDBJ</a>   <div class='searchresult'>== <span class='searchmatch'>DDBJ</span>リソースからOWL変換 ==
+# <span class='searchmatch'>DDBJ</span> HPの情報をgoogle spreadsheetで取得、編集
+</div>
+<div class='mw-search-result-data'>13キロバイト（1,242単語） - 2014年10月28日 (火) 09:00</div></li>
+<li><a href="/mw/SPARQLthon46/DDBJ" title="SPARQLthon46/DDBJ">SPARQLthon46/DDBJ</a>   <div class='searchresult'>== <span class='searchmatch'>DDBJ</span> Annotated sequence RDF ==
+* FTPサイト公開に向けた調整、手続き、準備 ftp://ftp.<span class='searchmatch'>ddbj</span>.nig.ac.jp/rdf （予定）
+</div>
+<div class='mw-search-result-data'>6キロバイト（617単語） - 2016年7月26日 (火) 08:37</div></li>
+<li><a href="/mw/BH16.12/DDBJ" title="BH16.12/DDBJ">BH16.12/DDBJ</a>   <div class='searchresult'>== <span class='searchmatch'>DDBJ</span> rel. 105 に記載されている外部アノテーションリソースの
+ LOCUS       [http://getentry.<span class='searchmatch'>ddbj</span>.nig.ac.jp/getentry/na/AP014946/?filetype=html AP014946]             4586237
+</div>
+<div class='mw-search-result-data'>9キロバイト（553単語） - 2017年6月2日 (金) 08:31</div></li>
+<li><a href="/mw/BH13.13/DDBJ/product_rule" title="BH13.13/DDBJ/product rule">BH13.13/DDBJ/product rule</a>   <div class='searchresult'>/product qualifier の値を考える上で、<span class='searchmatch'>DDBJ</span> 登録査定において推奨する記載則
+* [http://www.insdc.org INSDC] (<span class='searchmatch'>DDBJ</span>/EMBL-Bank/GenBank) 自体
+</div>
+<div class='mw-search-result-data'>9キロバイト（532単語） - 2016年12月20日 (火) 16:30</div></li>
+<li><a href="/mw/SPARQLthon62/DDBJ" title="SPARQLthon62/DDBJ">SPARQLthon62/DDBJ</a>   <div class='searchresult'>== <span class='searchmatch'>DDBJ</span> RDFのRDF portal査定にともなう検討項目 ==
+# 主なクラスの定義は明確ではないですが、<span class='searchmatch'>DDBJ</span>の場合、少なくとも、insdc:Entry は主なクラスだと思いま�
+</div>
+<div class='mw-search-result-data'>9キロバイト（566単語） - 2018年1月16日 (火) 00:57</div></li>
+<li><a href="/mw/SPARQLthon60/DDBJ" title="SPARQLthon60/DDBJ">SPARQLthon60/DDBJ</a>   <div class='searchresult'>= <span class='searchmatch'>DDBJ</span> RDFサンプルSPARQL =
+#  Search for a <span class='searchmatch'>DDBJ</span> entry &quot;CP002459.1&quot; and the metadata.
+</div>
+<div class='mw-search-result-data'>4キロバイト（537単語） - 2017年10月2日 (月) 08:41</div></li>
+</ul>
+<h2> <span class="mw-headline" id=".E3.83.9A.E3.83.BC.E3.82.B8.E6.9C.AC.E6.96.87.E3.81.A8.E4.B8.80.E8.87.B4">ページ本文と一致</span></h2>
+<ul class='mw-search-results'>
+<li><a href="/mw/BH10.10" title="BH10.10">BH10.10</a>   <div class='searchresult'>* 共催：[http://www.<span class='searchmatch'>ddbj</span>.nig.ac.jp 国立遺伝学研究所 <span class='searchmatch'>DDBJ</span>]
+* 大久保 公策（NIG <span class='searchmatch'>DDBJ</span>センター長）：ウェルカムメッセージ
+</div>
+<div class='mw-search-result-data'>16キロバイト（296単語） - 2010年11月4日 (木) 06:14</div></li>
+<li><a href="/mw/BH10.10/%E5%8F%82%E5%8A%A0%E8%80%85" title="BH10.10/参加者">BH10.10/参加者</a>   <div class='searchresult'>* 大久保公策（国立遺伝学研究所 生命情報・<span class='searchmatch'>DDBJ</span>研究センター）
+* 神沼英里（国立遺伝学研究所 <span class='searchmatch'>DDBJ</span>）
+</div>
+<div class='mw-search-result-data'>4キロバイト（58単語） - 2010年10月28日 (木) 07:33</div></li>
+<li><a href="/mw/Galaxy_%E3%83%84%E3%83%BC%E3%83%AB%E3%82%92%E4%BD%9C%E3%82%8B" title="Galaxy ツールを作る">Galaxy ツールを作る</a>   <div class='searchresult'>* Assembly用評価/グラフ生成workflow :そのうち<span class='searchmatch'>DDBJ</span> Pipelineから出します (神沼)
+</div>
+<div class='mw-search-result-data'>20キロバイト（1,608単語） - 2011年1月25日 (火) 09:22</div></li>
+<li><a href="/mw/TogoWS,_TogoDB_%E3%81%AE%E9%96%8B%E7%99%BA" title="TogoWS, TogoDB の開発">TogoWS, TogoDB の開発</a>   <div class='searchresult'>=== <span class='searchmatch'>DDBJ</span>, PDBj のキーワード検索 ===
+http//togows.dbcls.jp/search で <span class='searchmatch'>ddbj</span>, pdbj に対応できていないのは、
+</div>
+<div class='mw-search-result-data'>20キロバイト（1,318単語） - 2010年10月22日 (金) 08:22</div></li>
+<li><a href="/mw/BH11.11" title="BH11.11">BH11.11</a>   <div class='searchresult'>* 共催：[http://www.<span class='searchmatch'>ddbj</span>.nig.ac.jp 国立遺伝学研究所 <span class='searchmatch'>DDBJ</span>]
+...つつ，開催の目的を上記の開発に絞ったうえで，遺伝研<span class='searchmatch'>DDBJ</span>との共催により11/21-25の日程で昨年同様に修善寺にて合�
+</div>
+<div class='mw-search-result-data'>8キロバイト（167単語） - 2011年11月28日 (月) 01:20</div></li>
+<li><a href="/mw/BH11.11/%E3%83%92%E3%83%88%E3%83%BB%E7%92%B0%E5%A2%83%E3%83%A1%E3%82%BF%E3%82%B2%E3%83%8E%E3%83%A0%E3%83%A1%E3%82%BF%E3%83%87%E3%83%BC%E3%82%BF%E3%81%AE%E3%82%AA%E3%83%B3%E3%83%88%E3%83%AD%E3%82%B8%E3%83%BC%E6%95%B4%E5%82%99%E3%81%A8RDF%E5%8C%96" title="BH11.11/ヒト・環境メタゲノムメタデータのオントロジー整備とRDF化">BH11.11/ヒト・環境メタゲノムメタデータのオントロジー整備とRDF化</a>   <div class='searchresult'>** sanger (<span class='searchmatch'>DDBJ</span> FlatFile)の内容を検討 -kmn
+**  <span class='searchmatch'>DDBJ</span>(GenBank flatfile)のENV divisionデータの整理: 
+</div>
+<div class='mw-search-result-data'>16キロバイト（999単語） - 2012年1月31日 (火) 12:24</div></li>
+<li><a href="/mw/BH11.11/%E3%82%BB%E3%83%9E%E3%83%B3%E3%83%86%E3%82%A3%E3%83%83%E3%82%AF%E3%82%B2%E3%83%8E%E3%83%A0%E3%82%A2%E3%83%8E%E3%83%86%E3%83%BC%E3%82%B7%E3%83%A7%E3%83%B3%E3%83%87%E3%83%BC%E3%82%BF%E3%83%99%E3%83%BC%E3%82%B9%E3%81%AE%E8%A9%A6%E4%BD%9C" title="BH11.11/セマンティックゲノムアノテーションデータベースの試作">BH11.11/セマンティックゲノムアノテーションデータベースの試作</a>   <div class='searchresult'>...C%E3%82%BF%E3%83%99%E3%83%BC%E3%82%B9%E3%81%AE%E8%A9%A6%E4%BD%9C/DDBJ_GTPS <span class='searchmatch'>DDBJ</span>, GTPS] - 重元
+| http://gtps.<span class='searchmatch'>ddbj</span>.nig.ac.jp/single/index.php?chid=Syne_PCC6803  
+</div>
+<div class='mw-search-result-data'>17キロバイト（1,707単語） - 2013年8月21日 (水) 10:32</div></li>
+<li><a href="/mw/BH11.11/dbarchive-rdf/" title="BH11.11/dbarchive-rdf/">BH11.11/dbarchive-rdf/</a>   <div class='searchresult'>...列，アミノ酸配列，UniProt ID (AC, IDいずれも), Genbank/EMBL/<span class='searchmatch'>DDBJ</span> アクセッション， PubMed ID, Chromosome, Taxonomy ID (to be continue
+...R*}/) の３種のいずれかで書かれていることがわかった．<span class='searchmatch'>DDBJ</span>/ACCESSION　で他のDBとつなげる方針（８５％の大多数がつ�
+</div>
+<div class='mw-search-result-data'>18キロバイト（1,629単語） - 2011年11月25日 (金) 06:52</div></li>
+<li><a href="/mw/BH11.11/%E7%B5%B1%E5%90%88%E6%A4%9C%E7%B4%A2%E3%81%A8RDF%E3%81%8B%E3%82%89%E3%81%AE%E8%A1%A8%E3%83%87%E3%83%BC%E3%82%BF%E7%94%9F%E6%88%90" title="BH11.11/統合検索とRDFからの表データ生成">BH11.11/統合検索とRDFからの表データ生成</a>   <div class='searchresult'>** <span class='searchmatch'>DDBJ</span>
+...E3%81%AE%E8%A1%A8%E3%83%87%E3%83%BC%E3%82%BF%E7%94%9F%E6%88%90/ddbj_sparql|<span class='searchmatch'>ddbj</span>]]
+</div>
+<div class='mw-search-result-data'>12キロバイト（1,228単語） - 2011年11月25日 (金) 06:09</div></li>
+<li><a href="/mw/BH11.11/%E3%82%AA%E3%83%BC%E3%83%97%E3%83%B3%E3%83%90%E3%82%A4%E3%82%AA" title="BH11.11/オープンバイオ">BH11.11/オープンバイオ</a>   <div class='searchresult'>*** Feature付き配列データの<span class='searchmatch'>DDBJ</span> RDF 出力に対応
+*** 後日の課題: <span class='searchmatch'>DDBJ</span>のRDFが更新されるのでそれに追従
+</div>
+<div class='mw-search-result-data'>3キロバイト（149単語） - 2011年11月25日 (金) 06:13</div></li>
+<li><a href="/mw/BH11.11/%E3%82%BB%E3%83%9E%E3%83%B3%E3%83%86%E3%82%A3%E3%83%83%E3%82%AF%E3%82%B2%E3%83%8E%E3%83%A0%E3%82%A2%E3%83%8E%E3%83%86%E3%83%BC%E3%82%B7%E3%83%A7%E3%83%B3%E3%83%87%E3%83%BC%E3%82%BF%E3%83%99%E3%83%BC%E3%82%B9%E3%81%AE%E8%A9%A6%E4%BD%9C/DDBJ_GTPS" title="BH11.11/セマンティックゲノムアノテーションデータベースの試作/DDBJ GTPS">BH11.11/セマンティックゲノムアノテーションデータベースの試作/DDBJ GTPS</a>   <div class='searchresult'><span class='searchmatch'>DDBJ</span> RDFにその開発内容を反映する。
+<span class='searchmatch'>DDBJ</span>(大腸菌 MG1655株)、最後のアクセッション番号部分 U00096 �
+</div>
+<div class='mw-search-result-data'>5キロバイト（449単語） - 2013年8月21日 (水) 10:13</div></li>
+<li><a href="/mw/BH11.11/%E7%B5%B1%E5%90%88%E6%A4%9C%E7%B4%A2%E3%81%A8RDF%E3%81%8B%E3%82%89%E3%81%AE%E8%A1%A8%E3%83%87%E3%83%BC%E3%82%BF%E7%94%9F%E6%88%90/uniprot_sparql" title="BH11.11/統合検索とRDFからの表データ生成/uniprot sparql">BH11.11/統合検索とRDFからの表データ生成/uniprot sparql</a>   <div class='searchresult'>* '''EMBL/GenBank/<span class='searchmatch'>DDBJ</span>''', '''IPI''', '''PIR''', '''RefSeq''', '''UniGene'''
+</div>
+<div class='mw-search-result-data'>24キロバイト（3,098単語） - 2014年4月7日 (月) 11:55</div></li>
+<li><a href="/mw/BH12.12" title="BH12.12">BH12.12</a>   <div class='searchresult'>**  [[BH12.12/INSDCオントロジー|INSDC/<span class='searchmatch'>DDBJ</span>オントロジー]]
+** [[BH12.12/VariationRDF|Variation RDF]] : <span class='searchmatch'>DDBJ</span>パイプライン + H-inv + 変異関連データのRDF化
+</div>
+<div class='mw-search-result-data'>6キロバイト（204単語） - 2014年1月31日 (金) 17:36</div></li>
+<li><a href="/mw/BH12.12/SPARQLthon/SPARQLendpoints" title="BH12.12/SPARQLthon/SPARQLendpoints">BH12.12/SPARQLthon/SPARQLendpoints</a>   <div class='searchresult'> % ssh gw.<span class='searchmatch'>ddbj</span>.nig.ac.jp
+* <span class='searchmatch'>DDBJ</span>
+</div>
+<div class='mw-search-result-data'>4キロバイト（503単語） - 2012年12月19日 (水) 06:37</div></li>
+<li><a href="/mw/BH12.12/SPARQLthon/MBGD" title="BH12.12/SPARQLthon/MBGD">BH12.12/SPARQLthon/MBGD</a>   <div class='searchresult'>* <span class='searchmatch'>DDBJ</span>のスパコンから、MBGDのエンドポイントに、REST APIでアク�
+</div>
+<div class='mw-search-result-data'>11キロバイト（1,173単語） - 2015年6月28日 (日) 19:22</div></li>
+<li><a href="/mw/BH12.12/SPARQLthon/NBRCMedium" title="BH12.12/SPARQLthon/NBRCMedium">BH12.12/SPARQLthon/NBRCMedium</a>   <div class='searchresult'>* <span class='searchmatch'>DDBJ</span>の triplestore に蓄積されている、RefSeq GenomeRDF や UniProt RDF 
+</div>
+<div class='mw-search-result-data'>9キロバイト（877単語） - 2012年10月31日 (水) 07:31</div></li>
+<li><a href="/mw/BH12.12/SPARQLthon2/NBRCMedium" title="BH12.12/SPARQLthon2/NBRCMedium">BH12.12/SPARQLthon2/NBRCMedium</a>   <div class='searchresult'>* <span class='searchmatch'>DDBJ</span>の triplestore に蓄積されている、RefSeq GenomeRDF や UniProt RDF 
+</div>
+<div class='mw-search-result-data'>7キロバイト（600単語） - 2012年11月19日 (月) 05:48</div></li>
+<li><a href="/mw/BH12.12/SPARQLthon3/NBRCMedium" title="BH12.12/SPARQLthon3/NBRCMedium">BH12.12/SPARQLthon3/NBRCMedium</a>   <div class='searchresult'>* <span class='searchmatch'>DDBJ</span>の triplestore に蓄積されている、RefSeq GenomeRDF や UniProt RDF 
+</div>
+<div class='mw-search-result-data'>6キロバイト（409単語） - 2012年12月5日 (水) 09:05</div></li>
+<li><a href="/mw/BH12.12/INSDC%E3%82%AA%E3%83%B3%E3%83%88%E3%83%AD%E3%82%B8%E3%83%BC" title="BH12.12/INSDCオントロジー">BH12.12/INSDCオントロジー</a>   <div class='searchresult'>INSDC配列エントリー（Genbank, EMBL, <span class='searchmatch'>DDBJ</span> 形式）のRDF化のためのオントロジー開発
+* <span class='searchmatch'>DDBJ</span>オントロジー開発
+</div>
+<div class='mw-search-result-data'>4キロバイト（343単語） - 2013年8月21日 (水) 10:19</div></li>
+<li><a href="/mw/BH12.12/Identifiers.org%E9%80%A3%E6%90%BA" title="BH12.12/Identifiers.org連携">BH12.12/Identifiers.org連携</a>   <div class='searchresult'>INSDC (GenBank/<span class='searchmatch'>DDBJ</span>/EMBL) で使われている /db_xref の DB 名のリストは下記にあ�
+[[Category:INSDC]][[Category:<span class='searchmatch'>DDBJ</span>]]
+</div>
+<div class='mw-search-result-data'>17キロバイト（1,939単語） - 2013年8月21日 (水) 10:18</div></li>
+</ul>
+</div><p class='mw-search-pager-bottom'>（前の20件 | <a href="/mw/index.php?title=%E7%89%B9%E5%88%A5:%E6%A4%9C%E7%B4%A2&amp;limit=20&amp;offset=20&amp;ns0=1&amp;redirs=0&amp;search=DDBJ" title="次の20結果" class="mw-nextlink">次の20件</a>）（<a href="/mw/index.php?title=%E7%89%B9%E5%88%A5:%E6%A4%9C%E7%B4%A2&amp;ns0=1&amp;redirs=0&amp;search=DDBJ&amp;limit=20&amp;offset=0" title="ページあたり20件の結果を表示" class="mw-numlink">20</a> | <a href="/mw/index.php?title=%E7%89%B9%E5%88%A5:%E6%A4%9C%E7%B4%A2&amp;ns0=1&amp;redirs=0&amp;search=DDBJ&amp;limit=50&amp;offset=0" title="ページあたり50件の結果を表示" class="mw-numlink">50</a> | <a href="/mw/index.php?title=%E7%89%B9%E5%88%A5:%E6%A4%9C%E7%B4%A2&amp;ns0=1&amp;redirs=0&amp;search=DDBJ&amp;limit=100&amp;offset=0" title="ページあたり100件の結果を表示" class="mw-numlink">100</a> | <a href="/mw/index.php?title=%E7%89%B9%E5%88%A5:%E6%A4%9C%E7%B4%A2&amp;ns0=1&amp;redirs=0&amp;search=DDBJ&amp;limit=250&amp;offset=0" title="ページあたり250件の結果を表示" class="mw-numlink">250</a> | <a href="/mw/index.php?title=%E7%89%B9%E5%88%A5:%E6%A4%9C%E7%B4%A2&amp;ns0=1&amp;redirs=0&amp;search=DDBJ&amp;limit=500&amp;offset=0" title="ページあたり500件の結果を表示" class="mw-numlink">500</a>）を表示</p>
+<div class="printfooter">
+「<a href="http://wiki.lifesciencedb.jp/mw/%E7%89%B9%E5%88%A5:%E6%A4%9C%E7%B4%A2/DDBJ">http://wiki.lifesciencedb.jp/mw/%E7%89%B9%E5%88%A5:%E6%A4%9C%E7%B4%A2/DDBJ</a>」より作成</div>
+		<div id='catlinks' class='catlinks catlinks-allhidden'></div>		<!-- end content -->
+				<div class="visualClear"></div>
+	</div>
+</div></div>
+<div id="column-one">
+	<div id="p-cactions" class="portlet">
+		<h5>表示</h5>
+		<div class="pBody">
+			<ul>
+				 <li id="ca-nstab-special" class="selected"><a href="/mw/%E7%89%B9%E5%88%A5:%E6%A4%9C%E7%B4%A2/DDBJ" title="これは特別ページです。編集することはできません。">特別ページ</a></li>
+			</ul>
+		</div>
+	</div>
+	<div class="portlet" id="p-personal">
+		<h5>個人用ツール</h5>
+		<div class="pBody">
+			<ul>
+				<li id="pt-anonuserpage"><a href="/mw/%E5%88%A9%E7%94%A8%E8%80%85:172.18.8.51" title="自分が編集しているIPアドレスの利用者ページ [.]" accesskey="." class="new">172.18.8.51</a></li>
+				<li id="pt-anontalk"><a href="/mw/%E5%88%A9%E7%94%A8%E8%80%85%E2%80%90%E4%BC%9A%E8%A9%B1:172.18.8.51" title="このIPアドレスからなされた編集についての議論 [n]" accesskey="n" class="new">このIPアドレスのトーク</a></li>
+				<li id="pt-anonlogin"><a href="/mw/index.php?title=%E7%89%B9%E5%88%A5:%E3%83%AD%E3%82%B0%E3%82%A4%E3%83%B3&amp;returnto=%E7%89%B9%E5%88%A5:%E6%A4%9C%E7%B4%A2/DDBJ" title="ログインすることが推奨されます。ただし、必須ではありません。 [o]" accesskey="o">ログイン</a></li>
+				<li id="pt-openidlogin"><a href="/mw/index.php?title=%E7%89%B9%E5%88%A5:OpenID%E3%83%AD%E3%82%B0%E3%82%A4%E3%83%B3&amp;returnto=%E7%89%B9%E5%88%A5:%E6%A4%9C%E7%B4%A2/DDBJ">OpenIDでログイン</a></li>
+			</ul>
+		</div>
+	</div>
+	<div class="portlet" id="p-logo">
+		<a style="background-image: url(/mw/images/togowiki-logo.png);" href="/mw/%E3%83%A1%E3%82%A4%E3%83%B3%E3%83%9A%E3%83%BC%E3%82%B8" title="メインページに移動"></a>
+	</div>
+	<script type="text/javascript"> if (window.isMSIE55) fixalpha(); </script>
+	<div class='generated-sidebar portlet' id='p-navigation'>
+		<h5>案内</h5>
+		<div class='pBody'>
+			<ul>
+				<li id="n-mainpage-description"><a href="/mw/%E3%83%A1%E3%82%A4%E3%83%B3%E3%83%9A%E3%83%BC%E3%82%B8" title="メインページに移動する [z]" accesskey="z">メインページ</a></li>
+				<li id="n-portal"><a href="/mw/TogoWiki:%E3%82%B3%E3%83%9F%E3%83%A5%E3%83%8B%E3%83%86%E3%82%A3%E3%83%BB%E3%83%9D%E3%83%BC%E3%82%BF%E3%83%AB" title="このプロジェクトについて、できること、情報を入手する場所">コミュニティ・ポータル</a></li>
+				<li id="n-currentevents"><a href="/mw/TogoWiki:%E6%9C%80%E8%BF%91%E3%81%AE%E5%87%BA%E6%9D%A5%E4%BA%8B" title="最近の出来事について予備知識を得る">最近の出来事</a></li>
+				<li id="n-recentchanges"><a href="/mw/%E7%89%B9%E5%88%A5:%E6%9C%80%E8%BF%91%E3%81%AE%E6%9B%B4%E6%96%B0" title="ウィキにおける最近の更新の一覧 [r]" accesskey="r">最近の更新</a></li>
+				<li id="n-randompage"><a href="/mw/%E7%89%B9%E5%88%A5:%E3%81%8A%E3%81%BE%E3%81%8B%E3%81%9B%E8%A1%A8%E7%A4%BA" title="無作為に抽出されたページの読み込み [x]" accesskey="x">おまかせ表示</a></li>
+				<li id="n-help"><a href="/mw/Help:%E7%9B%AE%E6%AC%A1" title="情報を得る場所">ヘルプ</a></li>
+			</ul>
+		</div>
+	</div>
+	<div id="p-search" class="portlet">
+		<h5><label for="searchInput">検索</label></h5>
+		<div id="searchBody" class="pBody">
+			<form action="/mw/index.php" id="searchform">
+				<input type='hidden' name="title" value="特別:検索"/>
+				<input id="searchInput" title="TogoWiki内を検索" accesskey="f" type="search" name="search" />
+				<input type='submit' name="go" class="searchButton" id="searchGoButton"	value="表示" title="厳密に一致する名前のページが存在すれば、そのページへ移動します" />&nbsp;
+				<input type='submit' name="fulltext" class="searchButton" id="mw-searchButton" value="検索" title="入力された文字列が含まれるページを検索します" />
+			</form>
+		</div>
+	</div>
+	<div class="portlet" id="p-tb">
+		<h5>ツールボックス</h5>
+		<div class="pBody">
+			<ul>
+<li id="t-specialpages"><a href="/mw/%E7%89%B9%E5%88%A5:%E7%89%B9%E5%88%A5%E3%83%9A%E3%83%BC%E3%82%B8%E4%B8%80%E8%A6%A7" title="特別ページの一覧 [q]" accesskey="q">特別ページ</a></li>
+			</ul>
+		</div>
+	</div>
+</div><!-- end of the left (by default at least) column -->
+<div class="visualClear"></div>
+<div id="footer">
+	<div id="f-poweredbyico"><a href="http://www.mediawiki.org/"><img src="/mw/skins/common/images/poweredby_mediawiki_88x31.png" height="31" width="88" alt="Powered by MediaWiki" /></a></div>
+	<div id="f-copyrightico"><a href="http://creativecommons.org/licenses/by/3.0/"><img src="http://i.creativecommons.org/l/by/3.0/88x31.png" alt="Attribution 3.0 Unported" width="88" height="31" /></a></div>
+	<ul id="f-list">
+		<li id="privacy"><a href="/mw/TogoWiki:%E3%83%97%E3%83%A9%E3%82%A4%E3%83%90%E3%82%B7%E3%83%BC%E3%83%BB%E3%83%9D%E3%83%AA%E3%82%B7%E3%83%BC" title="TogoWiki:プライバシー・ポリシー">プライバシー・ポリシー</a></li>
+		<li id="about"><a href="/mw/TogoWiki:TogoWiki%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6" title="TogoWiki:TogoWikiについて">TogoWikiについて</a></li>
+		<li id="disclaimer"><a href="/mw/TogoWiki:%E5%85%8D%E8%B2%AC%E4%BA%8B%E9%A0%85" title="TogoWiki:免責事項">免責事項</a></li>
+	</ul>
+</div>
+</div>
+
+<script>if (window.runOnloadHook) runOnloadHook();</script>
+<!-- Served in 1.137 secs. --></body></html>

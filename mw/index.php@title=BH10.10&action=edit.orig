@@ -1,0 +1,393 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html lang="ja" dir="ltr">
+<head>
+<title>ソースを表示 - TogoWiki</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta name="generator" content="MediaWiki 1.16.3" />
+<meta name="robots" content="noindex,nofollow" />
+<link rel="next" href="http://wiki.lifesciencedb.jp/mw/BH10.10" />
+<link rel="shortcut icon" href="/favicon.ico" />
+<link rel="search" type="application/opensearchdescription+xml" href="/mw/opensearch_desc.php" title="TogoWiki (ja)" />
+<link rel="copyright" href="http://creativecommons.org/licenses/by/3.0/" />
+<link rel="alternate" type="application/atom+xml" title="TogoWikiのAtomフィード" href="/mw/index.php?title=%E7%89%B9%E5%88%A5:%E6%9C%80%E8%BF%91%E3%81%AE%E6%9B%B4%E6%96%B0&amp;feed=atom" />
+<!--[if IE 8]><link rel="stylesheet" href="/mw/skins/common/IE80Fixes.css?270" media="screen" /><![endif]-->
+<link rel="stylesheet" href="/mw/skins/common/shared.css?270" media="screen" />
+<link rel="stylesheet" href="/mw/skins/common/commonPrint.css?270" media="print" />
+<link rel="stylesheet" href="/mw/skins/monobook/main.css?270" media="screen" />
+<!--[if lt IE 5.5000]><link rel="stylesheet" href="/mw/skins/monobook/IE50Fixes.css?270" media="screen" /><![endif]-->
+<!--[if IE 5.5000]><link rel="stylesheet" href="/mw/skins/monobook/IE55Fixes.css?270" media="screen" /><![endif]-->
+<!--[if IE 6]><link rel="stylesheet" href="/mw/skins/monobook/IE60Fixes.css?270" media="screen" /><![endif]-->
+<!--[if IE 7]><link rel="stylesheet" href="/mw/skins/monobook/IE70Fixes.css?270" media="screen" /><![endif]-->
+<link rel="stylesheet" href="/mw/index.php?title=MediaWiki:Common.css&amp;usemsgcache=yes&amp;ctype=text%2Fcss&amp;smaxage=18000&amp;action=raw&amp;maxage=18000" />
+<link rel="stylesheet" href="/mw/index.php?title=MediaWiki:Print.css&amp;usemsgcache=yes&amp;ctype=text%2Fcss&amp;smaxage=18000&amp;action=raw&amp;maxage=18000" media="print" />
+<link rel="stylesheet" href="/mw/index.php?title=MediaWiki:Monobook.css&amp;usemsgcache=yes&amp;ctype=text%2Fcss&amp;smaxage=18000&amp;action=raw&amp;maxage=18000" />
+<link rel="stylesheet" href="/mw/index.php?title=-&amp;action=raw&amp;maxage=18000&amp;gen=css" />
+<script>
+var skin="monobook",
+stylepath="/mw/skins",
+wgUrlProtocols="http\\:\\/\\/|https\\:\\/\\/|ftp\\:\\/\\/|irc\\:\\/\\/|gopher\\:\\/\\/|telnet\\:\\/\\/|nntp\\:\\/\\/|worldwind\\:\\/\\/|mailto\\:|news\\:|svn\\:\\/\\/",
+wgArticlePath="/mw/$1",
+wgScriptPath="/mw",
+wgScriptExtension=".php",
+wgScript="/mw/index.php",
+wgVariantArticlePath=false,
+wgActionPaths={},
+wgServer="http://wiki.lifesciencedb.jp",
+wgCanonicalNamespace="",
+wgCanonicalSpecialPageName=false,
+wgNamespaceNumber=0,
+wgPageName="BH10.10",
+wgTitle="BH10.10",
+wgAction="edit",
+wgArticleId=2,
+wgIsArticle=false,
+wgUserName=null,
+wgUserGroups=null,
+wgUserLanguage="ja",
+wgContentLanguage="ja",
+wgBreakFrames=true,
+wgCurRevisionId=808,
+wgVersion="1.16.3",
+wgEnableAPI=true,
+wgEnableWriteAPI=true,
+wgSeparatorTransformTable=["", ""],
+wgDigitTransformTable=["", ""],
+wgMainPageTitle="メインページ",
+wgFormattedNamespaces={"-2": "メディア", "-1": "特別", "0": "", "1": "ノート", "2": "利用者", "3": "利用者‐会話", "4": "TogoWiki", "5": "TogoWiki‐ノート", "6": "ファイル", "7": "ファイル‐ノート", "8": "MediaWiki", "9": "MediaWiki‐ノート", "10": "Template", "11": "Template‐ノート", "12": "Help", "13": "Help‐ノート", "14": "Category", "15": "Category‐ノート"},
+wgNamespaceIds={"メディア": -2, "特別": -1, "": 0, "ノート": 1, "利用者": 2, "利用者‐会話": 3, "togowiki": 4, "togowiki‐ノート": 5, "ファイル": 6, "ファイル‐ノート": 7, "mediawiki": 8, "mediawiki‐ノート": 9, "template": 10, "template‐ノート": 11, "help": 12, "help‐ノート": 13, "category": 14, "category‐ノート": 15, "画像": 6, "画像‐ノート": 7, "image": 6, "image_talk": 7},
+wgSiteName="TogoWiki",
+wgCategories=[],
+wgRestrictionEdit=[],
+wgRestrictionMove=[];
+</script><script src="/mw/skins/common/wikibits.js?270"></script>
+<script src="/mw/skins/common/edit.js?270"></script>
+<script src="/mw/skins/common/ajax.js?270"></script>
+<script src="/mw/index.php?title=-&amp;action=raw&amp;gen=js&amp;useskin=monobook&amp;270"></script>
+
+		<style type='text/css'>
+		li#pt-openidlogin {
+		  background: url(/mw/extensions/OpenID/skin/icons/openid-inputicon.png) top left no-repeat;
+		  padding-left: 20px;
+		  text-transform: none;
+		}
+		</style>
+</head>
+<body class="mediawiki ltr ns-0 ns-subject page-BH10_10 skin-monobook">
+<div id="globalWrapper">
+<div id="column-content"><div id="content" >
+	<a id="top"></a>
+	
+	<h1 id="firstHeading" class="firstHeading">BH10.10</h1>
+	<div id="bodyContent">
+		<h3 id="siteSub">提供：TogoWiki</h3>
+		<div id="contentSub"><a href="/mw/BH10.10" title="BH10.10">BH10.10</a>のソース</div>
+		<div id="jump-to-nav">移動： <a href="#column-one">案内</a>, <a href="#searchInput">検索</a></div>
+		<!-- start content -->
+<p>以下に示された理由により、このページの編集を行うことができません：
+</p>
+<div class="permissions-errors">
+<p>この操作は、<a href="/mw/index.php?title=TogoWiki:%E5%88%A9%E7%94%A8%E8%80%85&amp;action=edit&amp;redlink=1" class="new" title="TogoWiki:利用者（存在しないページ）">利用者</a>のグループに属する利用者のみが実行できます。
+</p>
+</div>
+<p>このページのソースを閲覧し、コピーすることができます：
+</p><textarea id="wpTextbox1" name="wpTextbox1" cols="80" rows="25" readonly="">統合データベース技術情報交換ワークショップ
+
+１０月１８日から２２日に伊豆修善寺にて、国内のライフサイエンスデータベースの構築者と利用者向けの技術勉強会を開催いたします。
+ここ数年にわたって、ライフサイエンス統合データベースプロジェクトで蓄積してきた技術的なノウハウと国内のデータベース利用者のノウハウの交換を促し、今後に向けて国内のライフサイエンスデータベース技術のバージョンアップを目的としています。
+
+* 主催：[http://dbcls.jp ライフサイエンス統合データベースセンター]
+* 共催：[http://www.ddbj.nig.ac.jp 国立遺伝学研究所 DDBJ]
+
+== 開催趣意書 ==
+本年度は、内閣府の主導で平成１８年度より始まった[http://lifesciencedb.mext.go.jp/ 文部科学省ライフサイエンス統合データベースプロジェクト]の最終年度にあたります。
+
+ライフサイエンス統合データベースプロジェクトは、生命科学分野のデータベースを効率よく利用できるような環境を整備し、利用者にとっての利便性を高めることを目指して、様々な課題に取り組んできました。それらの取り組みには、研究期間が終わったデータベースを継続して維持していくことや、データベースのポータルサイトを構築するなどのデータベースインフラ整備、データベース利用のリテラシーを高めてもらうための教育活動、研究の成果情報や著作物の公開に関わる制度上の問題を整理し解決することなどが含まれます。また、より高度な利用を視野に入れたデータベースの統合には、国際的な技術連携や情報収集も必要と考え、[[国際開発者会議バイオハッカソン]]を３年に渡って開催してきました。
+
+このような活動を通して、データベース統合に有用な知見を蓄積してきましたが、プロジェクトの最終年度にあたって、本プロジェクト以外の日本国内のデータベース開発に携わる方々と技術的な情報共有をする機会が必要ではないかと考えました。そこで、次世代のライフサイエンスデータベースをより利便性の高いものとすることを目指して、これまでに蓄積された実務レベルの知識を参加者の間で共有することをテーマに「統合データベース技術情報交流ワークショップ」の開催することにしました。内容としては、各省庁の統合プロジェクトを通して蓄積した実務レベルのノウハウを交換する講習会、シンポジウム、テーマ別のハッカソンを行います。また、参加者からの自発的な勉強会の開催なども歓迎します。参加者は国内から広く募集します。各省庁の統合データベースプロジェクトの実務者から、統合プロジェクト参画機関や協力機関、さらに、日本国内の学術機関ならびに企業のライフサイエンスデータベース構築者や利用者にもひろく参加して頂きたいと考えています。
+
+本ワークショップが、日本のライフサイエンスにおける、技術情報の共有促進と実務者コミュニティの醸成の場となることを願っています。
+
+== 参加募集要項 ==
+* 開催期間：２０１０年１０月１８日（月）〜２２日（金）（注：前半二日、後半三日のみの参加も可能です）
+* 開催場所：静岡県修善寺 [http://www.laforet.co.jp/lfhotels/szj/ ラフォーレ修善寺]
+* 参加費用：無料（宿泊代金食事代自己負担、１泊 １０５００円前後）
+* 参加資格：国内のライフサイエンスデータベースの構築や利用をおこなっている実務者であること
+* 参加条件：すべての参加者にプレゼンテーションをお願いします。５分程度の発表からチュートリアル企画、ワークショップ企画まで幅広く選択いただけます。
+* 応募締切：&lt;del>８月３１日&lt;/del>　９月１５日 （延長しました）
+
+参加をご希望の方は、募集〆切り日までに mn@dbcls.jp までメール（Subject: BH10.10参加登録）にて下記の内容を添えて登録をお願いします。
+
+* お名前
+* ご所属
+* 関連プロジェクト名
+* 関連プロジェクトでの役割
+* 可能なプレゼンテーションのタイトルと簡単な説明
+* メールアドレス
+* 性別（相部屋の割当のために）
+* コメント
+
+ご不明な点がございましたら、mn@dbcls.jp までお問い合わせください。
+== 会場 ==
+ワークショップのメイン会場は、ラフォーレ修善寺ホテル棟 3F の研修室 35です。
+
+* [http://www.laforet.co.jp/lfhotels/szj/conference_layout.html ラフォーレホテルズ&amp;リゾーツ｜総合リゾートホテル ラフォーレ修善寺｜カンファレンス - 会場別レイアウト収容人数一覧表]
+
+===アクセス ===
+ラフォーレ修善寺までのアクセスについては、電車でお越しの方には、伊豆箱根鉄道の[http://ja.wikipedia.org/wiki/修善寺駅 修善寺駅]からシャトルバスが出ておりますので、そちらのご利用をお勧めします。シャトルバスにて「ホテル棟イーストフロント」でお降りいただくと会場に最も近いです。
+[http://www.laforet.co.jp/lfhotels/szj/access.html#bus 時刻表]をご参照ください。
+
+ホテル棟にはいられましたら、エレベータで3Fまで上がり、右手が研修室になります。ホテル棟 3F にワークショップの 案内板を出しておきますので、案内板に従って会場までお越しください。
+
+* [http://www.laforet.co.jp/lfhotels/szj/access.html ラフォーレホテルズ&amp;リゾーツ｜総合リゾートホテル ラフォーレ修善寺｜アクセス]
+
+=== ネットワーク環境 ===
+研修室内およびロビーで無線LAN が利用可能です。研修室は会期中一日開放しますので、そちらでアクセスしていただければと存じます。研修室では、有線LANの提供もございます。LANケーブルをご持参いただければご利用可能です。
+
+携帯電話の電波状況は、docomo と au が良好で、SoftBankがやや不良、WIllcom、WiMAXが不良とのことです。
+イーモバイルは現地で問題無く接続出来ます。
+
+== 参加者 ==
+[[BH10.10/参加者]]
+
+== スケジュール ==
+* ８月１２日 参加募集開始
+* ８月３１日 参加募集〆切り
+* ９月１５日 参加募集〆切り（延長しました）
+* １０月１０日 演題〆切り
+
+== プログラム ==
+=== 2010-10-18（月）===
+==== 13:30-14:00 オープニング ====
+* 中尾 光輝（DBCLS）：開催趣旨説明
+* 大久保 公策（NIG DDBJセンター長）：ウェルカムメッセージ
+
+====  14:00-15:00 シンポジウム・セッション１：統合データベースプロジェクト ====
+* 川本 祥子（DBCLS）：文部科学省ライフサイエンス統合データベースプロジェクトとDBCLSのサービス概要とポータル・横断検索
+* 村上勝彦、山崎千里（AIST）：経済産業省ライフサイエンス統合データベースプロジェクト
+
+==== 15:00-17:00 ライトニングトーク ====
+* 参加者全員、一人３分の[[４コマプレゼンテーション]]
+
+==== 17:00-18:00 ポスターセッション ====
+* [[４コマプレゼンテーション]]をA4四枚に印刷したものを掲示。
+
+==== 18:00- 懇親会 ====
+=== 2010-10-19（火）===
+==== 9:30-12:00 シンポジウム・セッション２：データベース ====
+* 中村保一（DDBJ）：DDBJってみんなの役にたつんだろうか
+* 飯田啓介（DBCLS）：データベースと編集（仮）
+* 熊谷禎洋 （日立ソリューションズ）：データベース受け入れ事業
+* 岡本忍（DBCLS）：KazusaAnnotationによるゲノムアノテーション協働作業手法の開発
+* 五十嵐芳暢（医薬基盤研究所）：トキシコゲノミクスインフォマティクスプロジェクト
+* 河野信（DBCLS）：統合TVとスクリーンキャスト（仮）
+* 荒川和晴（慶應義塾大学先端生命科学研究所）：ウェブサービス統合のためのユーザインタフェース
+* 櫻井望（かずさDNA研究所）：プロジェクト専用データベースの事後公開にあたって
+
+==== 13:00-15:00 シンポジウム・セッション３：サービス・技術 ====
+* 西山智明（金沢大学／ERATO長谷部分化全能性）：SOLiDシーケンスデータの解析
+* 川路英哉（RIKEN）：公共DBへのデータ登録とフォーマット
+* 粕川雄也（RIKEN CDB）：Brain Star のAPIと可視化（仮）
+* 木下聖子（Soka University）：糖鎖情報の統合を目指して
+* 金 進東（DBCLS）：バイオ文献からの情報抽出ー世界の動向
+
+==== 15:00-19:00 チュートリアル ====
+* 牧口大旭（三井情報）、杉崎太一朗（三井情報）：[[横断検索のP2P型データベース統合]]
+** 注：聴講のみも歓迎しますがハンズオンでチュートリアルを受けるためにはHyper Estraierをインストールしてご参加ください。
+* 片山俊明（HGC）：TogoDB/TogoWS
+* 神沼英里（DDBJ）：DDBJパイプライン
+* 三橋信孝（DBCLS）：[[BodyParts3D/Anatomography]]
+* 西田孝三（NAIST）：[[CytoscapeへのKEGGデータベース情報の取り込みと実験情報のマッピング]]
+* 大林武（東北大学）：共発現データベースATTED-IIが広く利用されるようになった訳
+* 荒川和晴（慶應義塾大学先端生命科学研究所）：[[Dashcode 3による次世代ウェブアプリケーション開発]]
+** 注：聴講のみも歓迎しますがハンズオンでチュートリアルを受けるためにはMac OS X 10.6 (Snow Leopard)に開発者ツールをインストールしてご参加ください。
+
+=== 2010-10-20（水）===
+====  9:30-11:00 ワークショップ１ ====
+* 西田孝三：[[Cytoscapeを用いたデータベースクライアント、可視化]]
+* 後藤直久：[[BioRuby]] と [[ソースコードレポジトリ]]
+
+==== 11:00-12:00 オープンスペース ====
+これまでの話題から、掘り下げて議論や調査、開発するトピックを列挙します。
+
+==== 13:00-18:00 ハッカソン１ ====
+ハッカソンでは、調査や開発、議論を小グループに別れて実施します。
+* [[データベースのRDF化]] 金城
+* [[実用的なバイオオントロジー関連技術の調査]] 川島
+* [[ウェブサービスマニフェストの開発とBioDBCore対応]] 山崎
+* データベースのライセンス問題
+* [[糖鎖API標準化部分の実装]] 木下
+* [[TogoWS, TogoDB の開発]] 片山
+* [[BioRuby]] 後藤
+* [http://img.skitch.com/20101020-r46t9x9gyegb499bmrrfspd1yp.jpg iPhone アプリ]
+* ブックマークレット開発
+* バイオデータ可視化
+* [[Cytoscapeプラグインを作る]]
+* [[Galaxy ツールを作る]] 神田
+* R/Bioconductor パッケージを作る
+* [[OSQAを利用したあたらしいQAサイトもしくはサイトホスティング]] 中尾、神田
+* [[オルソログクラスターへの自動命名手法の開発]] 岡本
+* [[ウェブサービスAPI とCytoscapeプラグイン]]- 大林，笠原、西田
+
+18:00から今日のまとめ。
+
+=== 2010-10-21（木）===
+==== 9:30-12:00 ハッカソン３ ====
+11:45 午前のまとめ
+
+==== 13:00-19:00 ハッカソン４ ====
+18:30 今日のまとめ
+
+=== 2010-10-22（金）===
+==== 9:30-12:00 ハッカソン５ ====
+==== 13:00-15:00 ハッカソン６ ====
+期間中の取り組みをまとめてください。
+
+==== 15:00-16:00 まとめ ====
+これまででた話題と議論をまとめます。一人５分。
+* [[データベースのRDF化]] - 金城
+* [[糖鎖API標準化部分の実装]] - 木下
+* [[BioRuby]] - 後藤
+* [[RubyからRの機能を使う]] - 後藤,片山
+* [[TogoWS, TogoDB の開発]] - 片山
+* [[実用的なバイオオントロジー関連技術の調査]] - 川島
+* [[オルソログクラスターへの自動命名手法の開発]] - 岡本
+* [[Galaxy ツールを作る]] - 神田
+* [[ウェブサービスAPI とCytoscapeプラグイン]]- 大林，笠原、西田
+* [[BrainStarsデータベースAPI実装]] - 粕川
+* [[ウェブサービスマニフェストの開発とBioDBCore対応]] - 山崎、中尾
+* [[OSQAを利用したあたらしいQAサイトもしくはサイトホスティング]] - 中尾、神田
+（敬称略）
+
+== 発表テンプレート ==
+参加者間の交流を促進するために、全員にポスター発表と、自己紹介を兼ねた３分間のライトニングトークをお願いいたします。
+
+ポスター発表は、18日 17:00-18:00 の予定です。スペースの都合もありますので、横向きの A4 用紙４枚を縦方向に並べた、[[４コマプレゼンテーション]]でお願いします。
+ポスターは事前に PDF ファイルでお送り頂ければ、こちらで印刷してお持ちします。
+
+ライトニングトークは、ポスター発表に先立って 18日 15:00-17:00 の予定です。ポスターのスライド４枚をそのまま流用して話していただいても構いませんし、３分間以内のボリュームであれば別途スライドをご用意いただいても構いません。
+
+ポスターとライトニングトークの内容としては、
+# いま関わっているプロジェクトの良かったこと
+# 実施していて問題となったこと
+# 次にまたプロジェクトを実施するとしたら取り組みたいこと（例えば（２）の対策案など）
+について、触れていただければと思います。
+
+* ４コマプレゼンの例：[[ファイル:Nakao-a44p.pdf]]
+* [http://dl.dropbox.com/u/152468/nakao-a44p.key.zip Keynote テンプレート利用例]
+* [http://dl.dropbox.com/u/152468/nakao-a44p.ppt PowerPoint テンプレート利用例]
+
+== ログ ==
+Twitter ハッシュタグ： [http://twitter.com/#!/search/%23bh10 #bh10] [http://twitter.com/#!/search/%23bh1010 #bh1010] [http://twitter.com/#!/search/%23bh2010 #bh2010]
+
+Togetter
+* [http://togetter.com/li/60759 「#bh1010 統合データベース技術情報交換ワークショップ一日目」]
+* [http://togetter.com/li/61352 「#bh2010 統合データベース技術情報交換ワークショップ二日目」]
+* [http://togetter.com/li/61353 「#bh2010 統合データベース技術情報交換ワークショップ三日目」]
+* [http://togetter.com/li/61657 「#bh2010 統合データベース技術情報交換ワークショップ四日目」]
+* [http://togetter.com/li/61829 「#bh2010 統合データベース技術情報交換ワークショップ五日目」]
+
+ただいま、[[BH10.10/ふりかえり]] 中です。
+
+== Ustream 配信 ==
+http://ustream.tv/channel/DBCLS
+
+== オーガナイザー ==
+* 中尾光輝（ライフサイエンス統合データベースセンター）
+* 山口敦子（ライフサイエンス統合データベースセンター）
+* 山本泰智（ライフサイエンス統合データベースセンター）
+* 金 進東（ライフサイエンス統合データベースセンター）
+* 大内田賢太（ライフサイエンス統合データベースセンター）
+* 片山俊明（東京大学医科学研究所）
+* 川島秀一（東京大学医科学研究所）
+* 高木利久（バイオサイエンスデータベースセンター準備室、国立遺伝学研究所DDBJ、東京大学）
+* 中村保一（国立遺伝学研究所DDBJ）
+* 小笠原 理（国立遺伝学研究所DDBJ）
+* 神沼 英里（国立遺伝学研究所DDBJ）
+* 大久保 公策（国立遺伝学研究所DDBJ、ライフサイエンス統合データベースセンター）
+
+[[Category:bh10.10]]</textarea><div class='templatesUsed'>
+
+</div>
+<p id="mw-returnto"><a href="/mw/BH10.10" title="BH10.10">BH10.10</a>に戻る。</p>
+<div class="printfooter">
+「<a href="http://wiki.lifesciencedb.jp/mw/BH10.10">http://wiki.lifesciencedb.jp/mw/BH10.10</a>」より作成</div>
+		<div id='catlinks' class='catlinks catlinks-allhidden'></div>		<!-- end content -->
+				<div class="visualClear"></div>
+	</div>
+</div></div>
+<div id="column-one">
+	<div id="p-cactions" class="portlet">
+		<h5>表示</h5>
+		<div class="pBody">
+			<ul>
+				 <li id="ca-nstab-main" class="selected"><a href="/mw/BH10.10" title="本文を表示 [c]" accesskey="c">ページ</a></li>
+				 <li id="ca-talk" class="new"><a href="/mw/index.php?title=%E3%83%8E%E3%83%BC%E3%83%88:BH10.10&amp;action=edit&amp;redlink=1" title="記事についての議論 [t]" accesskey="t">議論</a></li>
+				 <li id="ca-viewsource" class="selected"><a href="/mw/index.php?title=BH10.10&amp;action=edit" title="このページは保護されています。&#10;ページのソースを閲覧できます。 [e]" accesskey="e">ソースを表示</a></li>
+				 <li id="ca-history"><a href="/mw/index.php?title=BH10.10&amp;action=history" title="このページの過去の版 [h]" accesskey="h">履歴</a></li>
+			</ul>
+		</div>
+	</div>
+	<div class="portlet" id="p-personal">
+		<h5>個人用ツール</h5>
+		<div class="pBody">
+			<ul>
+				<li id="pt-anonuserpage"><a href="/mw/%E5%88%A9%E7%94%A8%E8%80%85:172.18.8.51" title="自分が編集しているIPアドレスの利用者ページ [.]" accesskey="." class="new">172.18.8.51</a></li>
+				<li id="pt-anontalk"><a href="/mw/%E5%88%A9%E7%94%A8%E8%80%85%E2%80%90%E4%BC%9A%E8%A9%B1:172.18.8.51" title="このIPアドレスからなされた編集についての議論 [n]" accesskey="n" class="new">このIPアドレスのトーク</a></li>
+				<li id="pt-anonlogin"><a href="/mw/index.php?title=%E7%89%B9%E5%88%A5:%E3%83%AD%E3%82%B0%E3%82%A4%E3%83%B3&amp;returnto=BH10.10&amp;returntoquery=action%3Dedit" title="ログインすることが推奨されます。ただし、必須ではありません。 [o]" accesskey="o">ログイン</a></li>
+				<li id="pt-openidlogin"><a href="/mw/index.php?title=%E7%89%B9%E5%88%A5:OpenID%E3%83%AD%E3%82%B0%E3%82%A4%E3%83%B3&amp;returnto=BH10.10">OpenIDでログイン</a></li>
+			</ul>
+		</div>
+	</div>
+	<div class="portlet" id="p-logo">
+		<a style="background-image: url(/mw/images/togowiki-logo.png);" href="/mw/%E3%83%A1%E3%82%A4%E3%83%B3%E3%83%9A%E3%83%BC%E3%82%B8" title="メインページに移動"></a>
+	</div>
+	<script type="text/javascript"> if (window.isMSIE55) fixalpha(); </script>
+	<div class='generated-sidebar portlet' id='p-navigation'>
+		<h5>案内</h5>
+		<div class='pBody'>
+			<ul>
+				<li id="n-mainpage-description"><a href="/mw/%E3%83%A1%E3%82%A4%E3%83%B3%E3%83%9A%E3%83%BC%E3%82%B8" title="メインページに移動する [z]" accesskey="z">メインページ</a></li>
+				<li id="n-portal"><a href="/mw/TogoWiki:%E3%82%B3%E3%83%9F%E3%83%A5%E3%83%8B%E3%83%86%E3%82%A3%E3%83%BB%E3%83%9D%E3%83%BC%E3%82%BF%E3%83%AB" title="このプロジェクトについて、できること、情報を入手する場所">コミュニティ・ポータル</a></li>
+				<li id="n-currentevents"><a href="/mw/TogoWiki:%E6%9C%80%E8%BF%91%E3%81%AE%E5%87%BA%E6%9D%A5%E4%BA%8B" title="最近の出来事について予備知識を得る">最近の出来事</a></li>
+				<li id="n-recentchanges"><a href="/mw/%E7%89%B9%E5%88%A5:%E6%9C%80%E8%BF%91%E3%81%AE%E6%9B%B4%E6%96%B0" title="ウィキにおける最近の更新の一覧 [r]" accesskey="r">最近の更新</a></li>
+				<li id="n-randompage"><a href="/mw/%E7%89%B9%E5%88%A5:%E3%81%8A%E3%81%BE%E3%81%8B%E3%81%9B%E8%A1%A8%E7%A4%BA" title="無作為に抽出されたページの読み込み [x]" accesskey="x">おまかせ表示</a></li>
+				<li id="n-help"><a href="/mw/Help:%E7%9B%AE%E6%AC%A1" title="情報を得る場所">ヘルプ</a></li>
+			</ul>
+		</div>
+	</div>
+	<div id="p-search" class="portlet">
+		<h5><label for="searchInput">検索</label></h5>
+		<div id="searchBody" class="pBody">
+			<form action="/mw/index.php" id="searchform">
+				<input type='hidden' name="title" value="特別:検索"/>
+				<input id="searchInput" title="TogoWiki内を検索" accesskey="f" type="search" name="search" />
+				<input type='submit' name="go" class="searchButton" id="searchGoButton"	value="表示" title="厳密に一致する名前のページが存在すれば、そのページへ移動します" />&nbsp;
+				<input type='submit' name="fulltext" class="searchButton" id="mw-searchButton" value="検索" title="入力された文字列が含まれるページを検索します" />
+			</form>
+		</div>
+	</div>
+	<div class="portlet" id="p-tb">
+		<h5>ツールボックス</h5>
+		<div class="pBody">
+			<ul>
+				<li id="t-whatlinkshere"><a href="/mw/%E7%89%B9%E5%88%A5:%E3%83%AA%E3%83%B3%E3%82%AF%E5%85%83/BH10.10" title="ここにリンクしている全ウィキのページの一覧 [j]" accesskey="j">リンク元</a></li>
+				<li id="t-recentchangeslinked"><a href="/mw/%E7%89%B9%E5%88%A5:%E9%96%A2%E9%80%A3%E3%83%9A%E3%83%BC%E3%82%B8%E3%81%AE%E6%9B%B4%E6%96%B0%E7%8A%B6%E6%B3%81/BH10.10" title="このページからリンクしているページの最近の更新 [k]" accesskey="k">関連ページの更新状況</a></li>
+<li id="t-specialpages"><a href="/mw/%E7%89%B9%E5%88%A5:%E7%89%B9%E5%88%A5%E3%83%9A%E3%83%BC%E3%82%B8%E4%B8%80%E8%A6%A7" title="特別ページの一覧 [q]" accesskey="q">特別ページ</a></li>
+			</ul>
+		</div>
+	</div>
+</div><!-- end of the left (by default at least) column -->
+<div class="visualClear"></div>
+<div id="footer">
+	<div id="f-poweredbyico"><a href="http://www.mediawiki.org/"><img src="/mw/skins/common/images/poweredby_mediawiki_88x31.png" height="31" width="88" alt="Powered by MediaWiki" /></a></div>
+	<div id="f-copyrightico"><a href="http://creativecommons.org/licenses/by/3.0/"><img src="http://i.creativecommons.org/l/by/3.0/88x31.png" alt="Attribution 3.0 Unported" width="88" height="31" /></a></div>
+	<ul id="f-list">
+		<li id="privacy"><a href="/mw/TogoWiki:%E3%83%97%E3%83%A9%E3%82%A4%E3%83%90%E3%82%B7%E3%83%BC%E3%83%BB%E3%83%9D%E3%83%AA%E3%82%B7%E3%83%BC" title="TogoWiki:プライバシー・ポリシー">プライバシー・ポリシー</a></li>
+		<li id="about"><a href="/mw/TogoWiki:TogoWiki%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6" title="TogoWiki:TogoWikiについて">TogoWikiについて</a></li>
+		<li id="disclaimer"><a href="/mw/TogoWiki:%E5%85%8D%E8%B2%AC%E4%BA%8B%E9%A0%85" title="TogoWiki:免責事項">免責事項</a></li>
+	</ul>
+</div>
+</div>
+
+<script>if (window.runOnloadHook) runOnloadHook();</script>
+<!-- Served in 0.338 secs. --></body></html>

@@ -1,0 +1,796 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html lang="ja" dir="ltr">
+<head>
+<title>BH12.12/SPARQLthon10/DDBJ - TogoWiki</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta name="generator" content="MediaWiki 1.16.3" />
+<link rel="shortcut icon" href="/favicon.ico" />
+<link rel="search" type="application/opensearchdescription+xml" href="/mw/opensearch_desc.php" title="TogoWiki (ja)" />
+<link title="Creative Commons" type="application/rdf+xml" href="/mw/index.php?title=BH12.12/SPARQLthon10/DDBJ&amp;action=creativecommons" rel="meta" />
+<link rel="copyright" href="http://creativecommons.org/licenses/by/3.0/" />
+<link rel="alternate" type="application/atom+xml" title="TogoWikiのAtomフィード" href="/mw/index.php?title=%E7%89%B9%E5%88%A5:%E6%9C%80%E8%BF%91%E3%81%AE%E6%9B%B4%E6%96%B0&amp;feed=atom" />
+<link rel="stylesheet" href="/mw/skins/common/shared.css?270" media="screen" />
+<link rel="stylesheet" href="/mw/skins/common/commonPrint.css?270" media="print" />
+<link rel="stylesheet" href="/mw/skins/monobook/main.css?270" media="screen" />
+<!--[if lt IE 5.5000]><link rel="stylesheet" href="/mw/skins/monobook/IE50Fixes.css?270" media="screen" /><![endif]-->
+<!--[if IE 5.5000]><link rel="stylesheet" href="/mw/skins/monobook/IE55Fixes.css?270" media="screen" /><![endif]-->
+<!--[if IE 6]><link rel="stylesheet" href="/mw/skins/monobook/IE60Fixes.css?270" media="screen" /><![endif]-->
+<!--[if IE 7]><link rel="stylesheet" href="/mw/skins/monobook/IE70Fixes.css?270" media="screen" /><![endif]-->
+<link rel="stylesheet" href="/mw/index.php?title=MediaWiki:Common.css&amp;usemsgcache=yes&amp;ctype=text%2Fcss&amp;smaxage=18000&amp;action=raw&amp;maxage=18000" />
+<link rel="stylesheet" href="/mw/index.php?title=MediaWiki:Print.css&amp;usemsgcache=yes&amp;ctype=text%2Fcss&amp;smaxage=18000&amp;action=raw&amp;maxage=18000" media="print" />
+<link rel="stylesheet" href="/mw/index.php?title=MediaWiki:Monobook.css&amp;usemsgcache=yes&amp;ctype=text%2Fcss&amp;smaxage=18000&amp;action=raw&amp;maxage=18000" />
+<link rel="stylesheet" href="/mw/index.php?title=-&amp;action=raw&amp;maxage=18000&amp;gen=css" />
+<script>
+var skin="monobook",
+stylepath="/mw/skins",
+wgUrlProtocols="http\\:\\/\\/|https\\:\\/\\/|ftp\\:\\/\\/|irc\\:\\/\\/|gopher\\:\\/\\/|telnet\\:\\/\\/|nntp\\:\\/\\/|worldwind\\:\\/\\/|mailto\\:|news\\:|svn\\:\\/\\/",
+wgArticlePath="/mw/$1",
+wgScriptPath="/mw",
+wgScriptExtension=".php",
+wgScript="/mw/index.php",
+wgVariantArticlePath=false,
+wgActionPaths={},
+wgServer="http://wiki.lifesciencedb.jp",
+wgCanonicalNamespace="",
+wgCanonicalSpecialPageName=false,
+wgNamespaceNumber=0,
+wgPageName="BH12.12/SPARQLthon10/DDBJ",
+wgTitle="BH12.12/SPARQLthon10/DDBJ",
+wgAction="view",
+wgArticleId=290,
+wgIsArticle=true,
+wgUserName=null,
+wgUserGroups=null,
+wgUserLanguage="ja",
+wgContentLanguage="ja",
+wgBreakFrames=false,
+wgCurRevisionId=9104,
+wgVersion="1.16.3",
+wgEnableAPI=true,
+wgEnableWriteAPI=true,
+wgSeparatorTransformTable=["", ""],
+wgDigitTransformTable=["", ""],
+wgMainPageTitle="メインページ",
+wgFormattedNamespaces={"-2": "メディア", "-1": "特別", "0": "", "1": "ノート", "2": "利用者", "3": "利用者‐会話", "4": "TogoWiki", "5": "TogoWiki‐ノート", "6": "ファイル", "7": "ファイル‐ノート", "8": "MediaWiki", "9": "MediaWiki‐ノート", "10": "Template", "11": "Template‐ノート", "12": "Help", "13": "Help‐ノート", "14": "Category", "15": "Category‐ノート"},
+wgNamespaceIds={"メディア": -2, "特別": -1, "": 0, "ノート": 1, "利用者": 2, "利用者‐会話": 3, "togowiki": 4, "togowiki‐ノート": 5, "ファイル": 6, "ファイル‐ノート": 7, "mediawiki": 8, "mediawiki‐ノート": 9, "template": 10, "template‐ノート": 11, "help": 12, "help‐ノート": 13, "category": 14, "category‐ノート": 15, "画像": 6, "画像‐ノート": 7, "image": 6, "image_talk": 7},
+wgSiteName="TogoWiki",
+wgCategories=["DDBJ"],
+wgRestrictionEdit=[],
+wgRestrictionMove=[];
+</script><script src="/mw/skins/common/wikibits.js?270"></script>
+<script src="/mw/skins/common/ajax.js?270"></script>
+<script src="/mw/index.php?title=-&amp;action=raw&amp;gen=js&amp;useskin=monobook&amp;270"></script>
+
+		<style type='text/css'>
+		li#pt-openidlogin {
+		  background: url(/mw/extensions/OpenID/skin/icons/openid-inputicon.png) top left no-repeat;
+		  padding-left: 20px;
+		  text-transform: none;
+		}
+		</style>
+</head>
+<body class="mediawiki ltr ns-0 ns-subject page-BH12_12_SPARQLthon10_DDBJ skin-monobook">
+<div id="globalWrapper">
+<div id="column-content"><div id="content" >
+	<a id="top"></a>
+	
+	<h1 id="firstHeading" class="firstHeading">BH12.12/SPARQLthon10/DDBJ</h1>
+	<div id="bodyContent">
+		<h3 id="siteSub">提供：TogoWiki</h3>
+		<div id="contentSub"></div>
+		<div id="jump-to-nav">移動： <a href="#column-one">案内</a>, <a href="#searchInput">検索</a></div>
+		<!-- start content -->
+<table id="toc" class="toc"><tr><td><div id="toctitle"><h2>目次</h2></div>
+<ul>
+<li class="toclevel-1 tocsection-1"><a href="#DDBJ.2FSW"><span class="tocnumber">1</span> <span class="toctext">DDBJ/SW</span></a>
+<ul>
+<li class="toclevel-2 tocsection-2"><a href="#DDBJ.E3.82.A8.E3.83.B3.E3.83.88.E3.83.AA.E3.83.BCRDF.E5.8C.96"><span class="tocnumber">1.1</span> <span class="toctext">DDBJエントリーRDF化</span></a></li>
+<li class="toclevel-2 tocsection-3"><a href="#virtuoso7.E3.82.A4.E3.83.B3.E3.83.9D.E3.83.BC.E3.83.88"><span class="tocnumber">1.2</span> <span class="toctext">virtuoso7インポート</span></a></li>
+<li class="toclevel-2 tocsection-4"><a href="#.E3.83.81.E3.83.A5.E3.83.BC.E3.83.8B.E3.83.B3.E3.82.B0"><span class="tocnumber">1.3</span> <span class="toctext">チューニング</span></a></li>
+<li class="toclevel-2 tocsection-5"><a href="#.E7.B5.90.E6.9E.9C"><span class="tocnumber">1.4</span> <span class="toctext">結果</span></a></li>
+<li class="toclevel-2 tocsection-6"><a href="#.E3.83.95.E3.82.A1.E3.82.A4.E3.83.AB.E6.AF.8E.E3.81.AE.E3.83.88.E3.83.AA.E3.83.97.E3.83.AB.E6.95.B0.E9.9B.86.E8.A8.88"><span class="tocnumber">1.5</span> <span class="toctext">ファイル毎のトリプル数集計</span></a></li>
+</ul>
+</li>
+</ul>
+</td></tr></table><script>if (window.showTocToggle) { var tocShowText = "表示"; var tocHideText = "非表示"; showTocToggle(); } </script>
+<h1> <span class="mw-headline" id="DDBJ.2FSW"> DDBJ/SW </span></h1>
+<h2> <span class="mw-headline" id="DDBJ.E3.82.A8.E3.83.B3.E3.83.88.E3.83.AA.E3.83.BCRDF.E5.8C.96"> DDBJエントリーRDF化 </span></h2>
+<p>DDBJ release 93をRDF化した (SPARQLthon前に準備）
+</p>
+<ul><li> 424ファイル、870175MB
+</li><li> <a href="http://www.ddbj.nig.ac.jp/sub/locus-e.html#division" class="external text" rel="nofollow">DDBJ/Division</a> 毎にファイルが生成されている
+</li></ul>
+<table class="wikitable sortable" style="text-align:right">
+<caption> DDBJ/Division毎のトリプル数集計
+</caption><tr>
+<th>Division </th><th> トリプル数
+</th></tr>
+<tr>
+<td> htc
+</td><td> 26415372
+</td></tr>
+<tr>
+<td> pat
+</td><td> 884902311
+</td></tr>
+<tr>
+<td> tsa
+</td><td> 433895526
+</td></tr>
+<tr>
+<td> gss
+</td><td> 1426527901
+</td></tr>
+<tr>
+<td> hum
+</td><td> 122700779
+</td></tr>
+<tr>
+<td> pln
+</td><td> 296267558
+</td></tr>
+<tr>
+<td> vrt
+</td><td> 117076826
+</td></tr>
+<tr>
+<td> inv
+</td><td> 182803780
+</td></tr>
+<tr>
+<td> vrl
+</td><td> 160349238
+</td></tr>
+<tr>
+<td> con
+</td><td> 1937771600
+</td></tr>
+<tr>
+<td> bct
+</td><td> 573891151
+</td></tr>
+<tr>
+<td> mam
+</td><td> 36026615
+</td></tr>
+<tr>
+<td> una
+</td><td> 25005
+</td></tr>
+<tr>
+<td> pri
+</td><td> 10844907
+</td></tr>
+<tr>
+<td> rod
+</td><td> 95120648
+</td></tr>
+<tr>
+<td> phg
+</td><td> 8880161
+</td></tr>
+<tr>
+<td> env
+</td><td> 315899525
+</td></tr>
+<tr>
+<td> htg
+</td><td> 72319257
+</td></tr>
+<tr>
+<td> est
+</td><td> 2956573095
+</td></tr>
+<tr>
+<td> sts
+</td><td> 76468372
+</td></tr>
+<tr>
+<td> syn
+</td><td> 27636486
+</td></tr>
+<tr>
+<td> 合計
+</td><td> 9762396113
+</td></tr></table>
+<h2> <span class="mw-headline" id="virtuoso7.E3.82.A4.E3.83.B3.E3.83.9D.E3.83.BC.E3.83.88"> virtuoso7インポート </span></h2>
+<p>bct divisionデータ5.7億トリプル、インポートに2.5-3時間程度
+</p>
+<pre> SQL&gt; select * from DB.DBA.LOAD_LIST where ll_file like '/home/sw/tf/ddbj/release_93_rdf_v1//ddbjbct%';
+ ll_file                                                                           ll_graph                                                                          ll_state    ll_started           ll_done              ll_host     ll_work_time  ll_error
+ VARCHAR NOT NULL                                                                  VARCHAR                                                                           INTEGER     TIMESTAMP            TIMESTAMP            INTEGER     INTEGER     VARCHAR
+ _______________________________________________________________________________
+ 
+ /home/sw/tf/ddbj/release_93_rdf_v1//ddbjbct1.ttl                                  <a href="http://ddbj.nig.ac.jp/sequence/" class="external free" rel="nofollow">http://ddbj.nig.ac.jp/sequence/</a>                                                   2           2013.7.31 13:26.1 0  2013.7.31 13:30.40 0  0           NULL        NULL
+ /home/sw/tf/ddbj/release_93_rdf_v1//ddbjbct10.ttl                                 <a href="http://ddbj.nig.ac.jp/sequence/" class="external free" rel="nofollow">http://ddbj.nig.ac.jp/sequence/</a>                                                   2           2013.7.31 13:26.1 0  2013.7.31 13:30.55 0  0           NULL        NULL
+ /home/sw/tf/ddbj/release_93_rdf_v1//ddbjbct11.ttl                                 <a href="http://ddbj.nig.ac.jp/sequence/" class="external free" rel="nofollow">http://ddbj.nig.ac.jp/sequence/</a>                                                   2           2013.7.31 13:26.1 0  2013.7.31 13:30.36 0  0           NULL        NULL
+ /home/sw/tf/ddbj/release_93_rdf_v1//ddbjbct12.ttl                                 <a href="http://ddbj.nig.ac.jp/sequence/" class="external free" rel="nofollow">http://ddbj.nig.ac.jp/sequence/</a>                                                   2           2013.7.31 13:26.1 0  2013.7.31 13:30.42 0  0           NULL        NULL
+ /home/sw/tf/ddbj/release_93_rdf_v1//ddbjbct13.ttl                                 <a href="http://ddbj.nig.ac.jp/sequence/" class="external free" rel="nofollow">http://ddbj.nig.ac.jp/sequence/</a>                                                   2           2013.7.31 13:30.36 0  2013.7.31 13:56.18 0  0           NULL        NULL
+ /home/sw/tf/ddbj/release_93_rdf_v1//ddbjbct14.ttl                                 <a href="http://ddbj.nig.ac.jp/sequence/" class="external free" rel="nofollow">http://ddbj.nig.ac.jp/sequence/</a>                                                   2           2013.7.31 13:30.40 0  2013.7.31 13:53.35 0  0           NULL        NULL
+ /home/sw/tf/ddbj/release_93_rdf_v1//ddbjbct15.ttl                                 <a href="http://ddbj.nig.ac.jp/sequence/" class="external free" rel="nofollow">http://ddbj.nig.ac.jp/sequence/</a>                                                   2           2013.7.31 13:30.42 0  2013.7.31 13:56.27 0  0           NULL        NULL
+ /home/sw/tf/ddbj/release_93_rdf_v1//ddbjbct16.ttl                                 <a href="http://ddbj.nig.ac.jp/sequence/" class="external free" rel="nofollow">http://ddbj.nig.ac.jp/sequence/</a>                                                   2           2013.7.31 13:30.55 0  2013.7.31 13:34.33 0  0           NULL        NULL
+ /home/sw/tf/ddbj/release_93_rdf_v1//ddbjbct2.ttl                                  <a href="http://ddbj.nig.ac.jp/sequence/" class="external free" rel="nofollow">http://ddbj.nig.ac.jp/sequence/</a>                                                   2           2013.7.31 13:34.33 0  2013.7.31 14:1.22 0  0           NULL        NULL
+ /home/sw/tf/ddbj/release_93_rdf_v1//ddbjbct3.ttl                                  <a href="http://ddbj.nig.ac.jp/sequence/" class="external free" rel="nofollow">http://ddbj.nig.ac.jp/sequence/</a>                                                   2           2013.7.31 13:53.35 0  2013.7.31 14:30.18 0  0           NULL        NULL
+ /home/sw/tf/ddbj/release_93_rdf_v1//ddbjbct4.ttl                                  <a href="http://ddbj.nig.ac.jp/sequence/" class="external free" rel="nofollow">http://ddbj.nig.ac.jp/sequence/</a>                                                   2           2013.7.31 13:56.18 0  2013.7.31 14:30.8 0  0           NULL        NULL
+ /home/sw/tf/ddbj/release_93_rdf_v1//ddbjbct5.ttl                                  <a href="http://ddbj.nig.ac.jp/sequence/" class="external free" rel="nofollow">http://ddbj.nig.ac.jp/sequence/</a>                                                   2           2013.7.31 13:56.27 0  2013.7.31 14:30.42 0  0           NULL        NULL
+ /home/sw/tf/ddbj/release_93_rdf_v1//ddbjbct6.ttl                                  <a href="http://ddbj.nig.ac.jp/sequence/" class="external free" rel="nofollow">http://ddbj.nig.ac.jp/sequence/</a>                                                   2           2013.7.31 14:1.22 0  2013.7.31 14:35.29 0  0           NULL        NULL
+ /home/sw/tf/ddbj/release_93_rdf_v1//ddbjbct7.ttl                                  <a href="http://ddbj.nig.ac.jp/sequence/" class="external free" rel="nofollow">http://ddbj.nig.ac.jp/sequence/</a>                                                   2           2013.7.31 14:30.8 0  2013.7.31 16:8.36 0  0           NULL        NULL
+ /home/sw/tf/ddbj/release_93_rdf_v1//ddbjbct8.ttl                                  <a href="http://ddbj.nig.ac.jp/sequence/" class="external free" rel="nofollow">http://ddbj.nig.ac.jp/sequence/</a>                                                   2           2013.7.31 14:30.18 0  2013.7.31 16:24.26 0  0           NULL        NULL
+ /home/sw/tf/ddbj/release_93_rdf_v1//ddbjbct9.ttl                                  <a href="http://ddbj.nig.ac.jp/sequence/" class="external free" rel="nofollow">http://ddbj.nig.ac.jp/sequence/</a>                                                   2           2013.7.31 14:30.42 0  2013.7.31 16:41.51 0  0           NULL        NULL
+ 
+ 16 Rows. -- 2805 msec.
+</pre>
+<p>ファイルインポート毎に時間が増えていく問題。
+- checkpointの頻度を上げるコメントをいただいた。
+</p>
+<h2> <span class="mw-headline" id=".E3.83.81.E3.83.A5.E3.83.BC.E3.83.8B.E3.83.B3.E3.82.B0"> チューニング </span></h2>
+<ul><li> checkpoint_interval(10)に変更 
+</li><li> MaxCheckpointRemapを増やす <a href="http://joernhees.de/blog/2010/10/31/setting-up-a-local-dbpedia-mirror-with-virtuoso/" class="external text" rel="nofollow">参考リンク</a>
+</li></ul>
+<pre>[Database]
+MaxCheckpointRemap = 625000
+# set this to 1/4th of NumberOfBuffers
+</pre>
+<ul><li> ４並列 <a href="http://virtuoso.openlinksw.com/dataspace/doc/dav/wiki/Main/VirtBulkRDFLoader#Running%20multiple%20Loaders" class="external text" rel="nofollow">参考リンク</a>
+</li></ul>
+<p>ld_dir('/home/sw/tf/ddbj/release_93_rdf_v1/','ddbj*.ttl', '<a href="http://ddbj.nig.ac.jp/sequence/'" class="external free" rel="nofollow">http://ddbj.nig.ac.jp/sequence/'</a>); した後
+bulk_load.sh
+</p>
+<pre> isql 1111 dba dba exec="rdf_loader_run();" &amp; 
+ isql 1111 dba dba exec="rdf_loader_run();" &amp; 
+ isql 1111 dba dba exec="rdf_loader_run();" &amp; 
+ isql 1111 dba dba exec="rdf_loader_run();" &amp; 
+ wait 
+ isql 111 dba dba exec="checkpoint;" 
+</pre>
+<h2> <span class="mw-headline" id=".E7.B5.90.E6.9E.9C"> 結果 </span></h2>
+<pre> SQL&gt; select * from DB.DBA.LOAD_LIST where ll_file like '/home/sw/tf/ddbj/release_93_rdf_v1//ddbjbct%';
+ ll_file                                                                           ll_graph                                                                          ll_state    ll_started           ll_done              ll_host     ll_work_time  ll_error
+ VARCHAR NOT NULL                                                                  VARCHAR                                                                           INTEGER     TIMESTAMP            TIMESTAMP            INTEGER     INTEGER     VARCHAR
+ _______________________________________________________________________________
+ 
+ /home/sw/tf/ddbj/release_93_rdf_v1//ddbjbct1.ttl                                  <a href="http://ddbj.nig.ac.jp/sequence/" class="external free" rel="nofollow">http://ddbj.nig.ac.jp/sequence/</a>                                                   2           2013.7.31 17:38.29 0  2013.7.31 17:43.48 0  0           NULL        NULL
+ /home/sw/tf/ddbj/release_93_rdf_v1//ddbjbct10.ttl                                 <a href="http://ddbj.nig.ac.jp/sequence/" class="external free" rel="nofollow">http://ddbj.nig.ac.jp/sequence/</a>                                                   2           2013.7.31 17:38.29 0  2013.7.31 17:44.51 0  0           NULL        NULL
+ /home/sw/tf/ddbj/release_93_rdf_v1//ddbjbct11.ttl                                 <a href="http://ddbj.nig.ac.jp/sequence/" class="external free" rel="nofollow">http://ddbj.nig.ac.jp/sequence/</a>                                                   2           2013.7.31 17:38.29 0  2013.7.31 17:44.51 0  0           NULL        NULL
+ /home/sw/tf/ddbj/release_93_rdf_v1//ddbjbct12.ttl                                 <a href="http://ddbj.nig.ac.jp/sequence/" class="external free" rel="nofollow">http://ddbj.nig.ac.jp/sequence/</a>                                                   2           2013.7.31 17:38.29 0  2013.7.31 17:44.37 0  0           NULL        NULL
+ /home/sw/tf/ddbj/release_93_rdf_v1//ddbjbct13.ttl                                 <a href="http://ddbj.nig.ac.jp/sequence/" class="external free" rel="nofollow">http://ddbj.nig.ac.jp/sequence/</a>                                                   2           2013.7.31 17:43.49 0  2013.7.31 17:56.55 0  0           NULL        NULL
+ /home/sw/tf/ddbj/release_93_rdf_v1//ddbjbct14.ttl                                 <a href="http://ddbj.nig.ac.jp/sequence/" class="external free" rel="nofollow">http://ddbj.nig.ac.jp/sequence/</a>                                                   2           2013.7.31 17:44.37 0  2013.7.31 17:57.10 0  0           NULL        NULL
+ /home/sw/tf/ddbj/release_93_rdf_v1//ddbjbct15.ttl                                 <a href="http://ddbj.nig.ac.jp/sequence/" class="external free" rel="nofollow">http://ddbj.nig.ac.jp/sequence/</a>                                                   2           2013.7.31 17:44.51 0  2013.7.31 17:57.12 0  0           NULL        NULL
+ /home/sw/tf/ddbj/release_93_rdf_v1//ddbjbct16.ttl                                 <a href="http://ddbj.nig.ac.jp/sequence/" class="external free" rel="nofollow">http://ddbj.nig.ac.jp/sequence/</a>                                                   2           2013.7.31 17:44.51 0  2013.7.31 17:47.22 0  0           NULL        NULL
+ /home/sw/tf/ddbj/release_93_rdf_v1//ddbjbct2.ttl                                  <a href="http://ddbj.nig.ac.jp/sequence/" class="external free" rel="nofollow">http://ddbj.nig.ac.jp/sequence/</a>                                                   2           2013.7.31 17:47.22 0  2013.7.31 17:58.31 0  0           NULL        NULL
+ /home/sw/tf/ddbj/release_93_rdf_v1//ddbjbct3.ttl                                  <a href="http://ddbj.nig.ac.jp/sequence/" class="external free" rel="nofollow">http://ddbj.nig.ac.jp/sequence/</a>                                                   2           2013.7.31 17:56.55 0  2013.7.31 18:0.16 0  0           NULL        NULL
+ /home/sw/tf/ddbj/release_93_rdf_v1//ddbjbct4.ttl                                  <a href="http://ddbj.nig.ac.jp/sequence/" class="external free" rel="nofollow">http://ddbj.nig.ac.jp/sequence/</a>                                                   2           2013.7.31 17:57.10 0  2013.7.31 18:0.51 0  0           NULL        NULL
+ /home/sw/tf/ddbj/release_93_rdf_v1//ddbjbct5.ttl                                  <a href="http://ddbj.nig.ac.jp/sequence/" class="external free" rel="nofollow">http://ddbj.nig.ac.jp/sequence/</a>                                                   2           2013.7.31 17:57.12 0  2013.7.31 18:1.8 0   0           NULL        NULL
+ /home/sw/tf/ddbj/release_93_rdf_v1//ddbjbct6.ttl                                  <a href="http://ddbj.nig.ac.jp/sequence/" class="external free" rel="nofollow">http://ddbj.nig.ac.jp/sequence/</a>                                                   2           2013.7.31 17:58.31 0  2013.7.31 18:2.44 0  0           NULL        NULL
+ /home/sw/tf/ddbj/release_93_rdf_v1//ddbjbct7.ttl                                  <a href="http://ddbj.nig.ac.jp/sequence/" class="external free" rel="nofollow">http://ddbj.nig.ac.jp/sequence/</a>                                                   2           2013.7.31 18:0.16 0  2013.7.31 18:4.39 0  0           NULL        NULL
+ /home/sw/tf/ddbj/release_93_rdf_v1//ddbjbct8.ttl                                  <a href="http://ddbj.nig.ac.jp/sequence/" class="external free" rel="nofollow">http://ddbj.nig.ac.jp/sequence/</a>                                                   2           2013.7.31 18:0.51 0  2013.7.31 18:5.4 0   0           NULL        NULL
+ /home/sw/tf/ddbj/release_93_rdf_v1//ddbjbct9.ttl                                  <a href="http://ddbj.nig.ac.jp/sequence/" class="external free" rel="nofollow">http://ddbj.nig.ac.jp/sequence/</a>                                                   2           2013.7.31 18:1.8 0   2013.7.31 18:5.22 0  0           NULL        NULL
+ 
+ 16 Rows. -- 395 msec.
+ SQL&gt; 
+ 
+</pre>
+<p>ファイルインポート毎に時間が増えていく問題は解決してインポート時間が大幅に短縮した。約27分!
+</p><p><br /> 
+</p>
+<hr />
+<h2> <span class="mw-headline" id=".E3.83.95.E3.82.A1.E3.82.A4.E3.83.AB.E6.AF.8E.E3.81.AE.E3.83.88.E3.83.AA.E3.83.97.E3.83.AB.E6.95.B0.E9.9B.86.E8.A8.88"> ファイル毎のトリプル数集計 </span></h2>
+<pre> processing... /home/sw/tf/ddbj/release_93_rdf_v1/ddbjbct1.ttl: 36366031
+ processing... /home/sw/tf/ddbj/release_93_rdf_v1/ddbjbct10.ttl: 38830578
+ processing... /home/sw/tf/ddbj/release_93_rdf_v1/ddbjbct11.ttl: 38871853
+ processing... /home/sw/tf/ddbj/release_93_rdf_v1/ddbjbct12.ttl: 38107674
+ processing... /home/sw/tf/ddbj/release_93_rdf_v1/ddbjbct13.ttl: 37735419
+ processing... /home/sw/tf/ddbj/release_93_rdf_v1/ddbjbct14.ttl: 34719263
+ processing... /home/sw/tf/ddbj/release_93_rdf_v1/ddbjbct15.ttl: 35276584
+ processing... /home/sw/tf/ddbj/release_93_rdf_v1/ddbjbct16.ttl: 16172124
+ processing... /home/sw/tf/ddbj/release_93_rdf_v1/ddbjbct2.ttl: 31491748
+ processing... /home/sw/tf/ddbj/release_93_rdf_v1/ddbjbct3.ttl: 35387649
+ processing... /home/sw/tf/ddbj/release_93_rdf_v1/ddbjbct4.ttl: 38802177
+ processing... /home/sw/tf/ddbj/release_93_rdf_v1/ddbjbct5.ttl: 38940930
+ processing... /home/sw/tf/ddbj/release_93_rdf_v1/ddbjbct6.ttl: 38978882
+ processing... /home/sw/tf/ddbj/release_93_rdf_v1/ddbjbct7.ttl: 38244313
+ processing... /home/sw/tf/ddbj/release_93_rdf_v1/ddbjbct8.ttl: 37641433
+ processing... /home/sw/tf/ddbj/release_93_rdf_v1/ddbjbct9.ttl: 38324493
+ processing... /home/sw/tf/ddbj/release_93_rdf_v1/ddbjcon1.ttl: 77811394
+ processing... /home/sw/tf/ddbj/release_93_rdf_v1/ddbjcon10.ttl: 41779310
+ processing... /home/sw/tf/ddbj/release_93_rdf_v1/ddbjcon11.ttl: 38282163
+ processing... /home/sw/tf/ddbj/release_93_rdf_v1/ddbjcon12.ttl: 43708089
+ processing... /home/sw/tf/ddbj/release_93_rdf_v1/ddbjcon13.ttl: 44429161
+ processing... /home/sw/tf/ddbj/release_93_rdf_v1/ddbjcon14.ttl: 43280575
+ processing... /home/sw/tf/ddbj/release_93_rdf_v1/ddbjcon15.ttl: 46705978
+ processing... /home/sw/tf/ddbj/release_93_rdf_v1/ddbjcon16.ttl: 50088779
+ processing... /home/sw/tf/ddbj/release_93_rdf_v1/ddbjcon17.ttl: 50662338
+ processing... /home/sw/tf/ddbj/release_93_rdf_v1/ddbjcon18.ttl: 61477145
+ processing... /home/sw/tf/ddbj/release_93_rdf_v1/ddbjcon19.ttl: 79315620
+ processing... /home/sw/tf/ddbj/release_93_rdf_v1/ddbjcon2.ttl: 63745193
+ processing... /home/sw/tf/ddbj/release_93_rdf_v1/ddbjcon20.ttl: 66045120
+ processing... /home/sw/tf/ddbj/release_93_rdf_v1/ddbjcon21.ttl: 113991338
+ processing... /home/sw/tf/ddbj/release_93_rdf_v1/ddbjcon22.ttl: 78793514
+ processing... /home/sw/tf/ddbj/release_93_rdf_v1/ddbjcon23.ttl: 69620162
+ processing... /home/sw/tf/ddbj/release_93_rdf_v1/ddbjcon24.ttl: 63698167
+ processing... /home/sw/tf/ddbj/release_93_rdf_v1/ddbjcon25.ttl: 68685530
+ processing... /home/sw/tf/ddbj/release_93_rdf_v1/ddbjcon26.ttl: 58716344
+ processing... /home/sw/tf/ddbj/release_93_rdf_v1/ddbjcon27.ttl: 90684332
+ processing... /home/sw/tf/ddbj/release_93_rdf_v1/ddbjcon28.ttl: 70821723
+ processing... /home/sw/tf/ddbj/release_93_rdf_v1/ddbjcon29.ttl: 65896806
+ processing... /home/sw/tf/ddbj/release_93_rdf_v1/ddbjcon3.ttl: 69466463
+ processing... /home/sw/tf/ddbj/release_93_rdf_v1/ddbjcon30.ttl: 69153630
+ processing... /home/sw/tf/ddbj/release_93_rdf_v1/ddbjcon31.ttl: 55495555
+ processing... /home/sw/tf/ddbj/release_93_rdf_v1/ddbjcon32.ttl: 40277590
+ processing... /home/sw/tf/ddbj/release_93_rdf_v1/ddbjcon4.ttl: 67631310
+ processing... /home/sw/tf/ddbj/release_93_rdf_v1/ddbjcon5.ttl: 34154376
+ processing... /home/sw/tf/ddbj/release_93_rdf_v1/ddbjcon6.ttl: 57454067
+ processing... /home/sw/tf/ddbj/release_93_rdf_v1/ddbjcon7.ttl: 51911962
+ processing... /home/sw/tf/ddbj/release_93_rdf_v1/ddbjcon8.ttl: 51963958
+ processing... /home/sw/tf/ddbj/release_93_rdf_v1/ddbjcon9.ttl: 52023908
+ processing... /home/sw/tf/ddbj/release_93_rdf_v1/ddbjenv1.ttl: 33278079
+ processing... /home/sw/tf/ddbj/release_93_rdf_v1/ddbjenv10.ttl: 20362839
+ processing... /home/sw/tf/ddbj/release_93_rdf_v1/ddbjenv2.ttl: 34460268
+ processing... /home/sw/tf/ddbj/release_93_rdf_v1/ddbjenv3.ttl: 34917200
+ processing... /home/sw/tf/ddbj/release_93_rdf_v1/ddbjenv4.ttl: 34226984
+ processing... /home/sw/tf/ddbj/release_93_rdf_v1/ddbjenv5.ttl: 38235373
+ processing... /home/sw/tf/ddbj/release_93_rdf_v1/ddbjenv6.ttl: 32423611
+ processing... /home/sw/tf/ddbj/release_93_rdf_v1/ddbjenv7.ttl: 27223912
+ processing... /home/sw/tf/ddbj/release_93_rdf_v1/ddbjenv8.ttl: 34066306
+ processing... /home/sw/tf/ddbj/release_93_rdf_v1/ddbjenv9.ttl: 26704953
+ processing... /home/sw/tf/ddbj/release_93_rdf_v1/ddbjest1.ttl: 18342882
+ processing... /home/sw/tf/ddbj/release_93_rdf_v1/ddbjest10.ttl: 20080945
+ processing... /home/sw/tf/ddbj/release_93_rdf_v1/ddbjest100.ttl: 25196385
+ processing... /home/sw/tf/ddbj/release_93_rdf_v1/ddbjest101.ttl: 17915415
+ processing... /home/sw/tf/ddbj/release_93_rdf_v1/ddbjest102.ttl: 21881830
+ processing... /home/sw/tf/ddbj/release_93_rdf_v1/ddbjest103.ttl: 18758869
+ processing... /home/sw/tf/ddbj/release_93_rdf_v1/ddbjest104.ttl: 18473457
+ processing... /home/sw/tf/ddbj/release_93_rdf_v1/ddbjest105.ttl: 20681797
+ processing... /home/sw/tf/ddbj/release_93_rdf_v1/ddbjest106.ttl: 22277237
+ processing... /home/sw/tf/ddbj/release_93_rdf_v1/ddbjest107.ttl: 19581489
+ processing... /home/sw/tf/ddbj/release_93_rdf_v1/ddbjest108.ttl: 16480064
+ processing... /home/sw/tf/ddbj/release_93_rdf_v1/ddbjest109.ttl: 18256288
+ processing... /home/sw/tf/ddbj/release_93_rdf_v1/ddbjest11.ttl: 18150150
+ processing... /home/sw/tf/ddbj/release_93_rdf_v1/ddbjest110.ttl: 17116632
+ processing... /home/sw/tf/ddbj/release_93_rdf_v1/ddbjest111.ttl: 17733462
+ processing... /home/sw/tf/ddbj/release_93_rdf_v1/ddbjest112.ttl: 16626686
+ processing... /home/sw/tf/ddbj/release_93_rdf_v1/ddbjest113.ttl: 15676818
+ processing... /home/sw/tf/ddbj/release_93_rdf_v1/ddbjest114.ttl: 17851578
+ processing... /home/sw/tf/ddbj/release_93_rdf_v1/ddbjest115.ttl: 16677287
+ processing... /home/sw/tf/ddbj/release_93_rdf_v1/ddbjest116.ttl: 16759878
+ processing... /home/sw/tf/ddbj/release_93_rdf_v1/ddbjest117.ttl: 17790759
+ processing... /home/sw/tf/ddbj/release_93_rdf_v1/ddbjest118.ttl: 14312569
+ processing... /home/sw/tf/ddbj/release_93_rdf_v1/ddbjest119.ttl: 18414678
+ processing... /home/sw/tf/ddbj/release_93_rdf_v1/ddbjest12.ttl: 15520108
+ processing... /home/sw/tf/ddbj/release_93_rdf_v1/ddbjest120.ttl: 18383194
+ processing... /home/sw/tf/ddbj/release_93_rdf_v1/ddbjest121.ttl: 15547038
+ processing... /home/sw/tf/ddbj/release_93_rdf_v1/ddbjest122.ttl: 18749446
+ processing... /home/sw/tf/ddbj/release_93_rdf_v1/ddbjest123.ttl: 15426094
+ processing... /home/sw/tf/ddbj/release_93_rdf_v1/ddbjest124.ttl: 13764648
+ processing... /home/sw/tf/ddbj/release_93_rdf_v1/ddbjest125.ttl: 16793675
+ processing... /home/sw/tf/ddbj/release_93_rdf_v1/ddbjest126.ttl: 23757265
+ processing... /home/sw/tf/ddbj/release_93_rdf_v1/ddbjest127.ttl: 19261212
+ processing... /home/sw/tf/ddbj/release_93_rdf_v1/ddbjest128.ttl: 19150019
+ processing... /home/sw/tf/ddbj/release_93_rdf_v1/ddbjest129.ttl: 23838499
+ processing... /home/sw/tf/ddbj/release_93_rdf_v1/ddbjest13.ttl: 10457072
+ processing... /home/sw/tf/ddbj/release_93_rdf_v1/ddbjest130.ttl: 20308471
+ processing... /home/sw/tf/ddbj/release_93_rdf_v1/ddbjest131.ttl: 19791444
+ processing... /home/sw/tf/ddbj/release_93_rdf_v1/ddbjest132.ttl: 19919500
+ processing... /home/sw/tf/ddbj/release_93_rdf_v1/ddbjest133.ttl: 21115259
+ processing... /home/sw/tf/ddbj/release_93_rdf_v1/ddbjest134.ttl: 19869746
+ processing... /home/sw/tf/ddbj/release_93_rdf_v1/ddbjest135.ttl: 22045112
+ processing... /home/sw/tf/ddbj/release_93_rdf_v1/ddbjest136.ttl: 21042529
+ processing... /home/sw/tf/ddbj/release_93_rdf_v1/ddbjest137.ttl: 18786897
+ processing... /home/sw/tf/ddbj/release_93_rdf_v1/ddbjest138.ttl: 16726536
+ processing... /home/sw/tf/ddbj/release_93_rdf_v1/ddbjest139.ttl: 17122516
+ processing... /home/sw/tf/ddbj/release_93_rdf_v1/ddbjest14.ttl: 10456463
+ processing... /home/sw/tf/ddbj/release_93_rdf_v1/ddbjest140.ttl: 18666547
+ processing... /home/sw/tf/ddbj/release_93_rdf_v1/ddbjest141.ttl: 15480233
+ processing... /home/sw/tf/ddbj/release_93_rdf_v1/ddbjest142.ttl: 18087239
+ processing... /home/sw/tf/ddbj/release_93_rdf_v1/ddbjest143.ttl: 18125749
+ processing... /home/sw/tf/ddbj/release_93_rdf_v1/ddbjest144.ttl: 17283238
+ processing... /home/sw/tf/ddbj/release_93_rdf_v1/ddbjest145.ttl: 18273837
+ processing... /home/sw/tf/ddbj/release_93_rdf_v1/ddbjest146.ttl: 17107815
+ processing... /home/sw/tf/ddbj/release_93_rdf_v1/ddbjest147.ttl: 18604931
+ processing... /home/sw/tf/ddbj/release_93_rdf_v1/ddbjest148.ttl: 16191927
+ processing... /home/sw/tf/ddbj/release_93_rdf_v1/ddbjest149.ttl: 12330321
+ processing... /home/sw/tf/ddbj/release_93_rdf_v1/ddbjest15.ttl: 13505282
+ processing... /home/sw/tf/ddbj/release_93_rdf_v1/ddbjest150.ttl: 15209583
+ processing... /home/sw/tf/ddbj/release_93_rdf_v1/ddbjest151.ttl: 17537945
+ processing... /home/sw/tf/ddbj/release_93_rdf_v1/ddbjest152.ttl: 18449025
+ processing... /home/sw/tf/ddbj/release_93_rdf_v1/ddbjest153.ttl: 18377258
+ processing... /home/sw/tf/ddbj/release_93_rdf_v1/ddbjest154.ttl: 20846007
+ processing... /home/sw/tf/ddbj/release_93_rdf_v1/ddbjest155.ttl: 15644572
+ processing... /home/sw/tf/ddbj/release_93_rdf_v1/ddbjest156.ttl: 21084046
+ processing... /home/sw/tf/ddbj/release_93_rdf_v1/ddbjest157.ttl: 20160229
+ processing... /home/sw/tf/ddbj/release_93_rdf_v1/ddbjest158.ttl: 19561900
+ processing... /home/sw/tf/ddbj/release_93_rdf_v1/ddbjest159.ttl: 16226657
+ processing... /home/sw/tf/ddbj/release_93_rdf_v1/ddbjest16.ttl: 18622824
+ processing... /home/sw/tf/ddbj/release_93_rdf_v1/ddbjest160.ttl: 20393627
+ processing... /home/sw/tf/ddbj/release_93_rdf_v1/ddbjest161.ttl: 17107334
+ processing... /home/sw/tf/ddbj/release_93_rdf_v1/ddbjest162.ttl: 18904942
+ processing... /home/sw/tf/ddbj/release_93_rdf_v1/ddbjest163.ttl: 19353798
+ processing... /home/sw/tf/ddbj/release_93_rdf_v1/ddbjest164.ttl: 19543065
+ processing... /home/sw/tf/ddbj/release_93_rdf_v1/ddbjest165.ttl: 4709067
+ processing... /home/sw/tf/ddbj/release_93_rdf_v1/ddbjest17.ttl: 18255635
+ processing... /home/sw/tf/ddbj/release_93_rdf_v1/ddbjest18.ttl: 17771841
+ processing... /home/sw/tf/ddbj/release_93_rdf_v1/ddbjest19.ttl: 17567968
+ processing... /home/sw/tf/ddbj/release_93_rdf_v1/ddbjest2.ttl: 18931632
+ processing... /home/sw/tf/ddbj/release_93_rdf_v1/ddbjest20.ttl: 18278076
+ processing... /home/sw/tf/ddbj/release_93_rdf_v1/ddbjest21.ttl: 17532536
+ processing... /home/sw/tf/ddbj/release_93_rdf_v1/ddbjest22.ttl: 18828934
+ processing... /home/sw/tf/ddbj/release_93_rdf_v1/ddbjest23.ttl: 17326677
+ processing... /home/sw/tf/ddbj/release_93_rdf_v1/ddbjest24.ttl: 18112140
+ processing... /home/sw/tf/ddbj/release_93_rdf_v1/ddbjest25.ttl: 20566330
+ processing... /home/sw/tf/ddbj/release_93_rdf_v1/ddbjest26.ttl: 19538364
+ processing... /home/sw/tf/ddbj/release_93_rdf_v1/ddbjest27.ttl: 16174668
+ processing... /home/sw/tf/ddbj/release_93_rdf_v1/ddbjest28.ttl: 17165123
+ processing... /home/sw/tf/ddbj/release_93_rdf_v1/ddbjest29.ttl: 19789471
+ processing... /home/sw/tf/ddbj/release_93_rdf_v1/ddbjest3.ttl: 19287053
+ processing... /home/sw/tf/ddbj/release_93_rdf_v1/ddbjest30.ttl: 19543595
+ processing... /home/sw/tf/ddbj/release_93_rdf_v1/ddbjest31.ttl: 17255546
+ processing... /home/sw/tf/ddbj/release_93_rdf_v1/ddbjest32.ttl: 17338874
+ processing... /home/sw/tf/ddbj/release_93_rdf_v1/ddbjest33.ttl: 17314774
+ processing... /home/sw/tf/ddbj/release_93_rdf_v1/ddbjest34.ttl: 16629734
+ processing... /home/sw/tf/ddbj/release_93_rdf_v1/ddbjest35.ttl: 22061089
+ processing... /home/sw/tf/ddbj/release_93_rdf_v1/ddbjest36.ttl: 22535607
+ processing... /home/sw/tf/ddbj/release_93_rdf_v1/ddbjest37.ttl: 19278744
+ processing... /home/sw/tf/ddbj/release_93_rdf_v1/ddbjest38.ttl: 15221026
+ processing... /home/sw/tf/ddbj/release_93_rdf_v1/ddbjest39.ttl: 9882401
+ processing... /home/sw/tf/ddbj/release_93_rdf_v1/ddbjest4.ttl: 18584328
+ processing... /home/sw/tf/ddbj/release_93_rdf_v1/ddbjest40.ttl: 9852900
+ processing... /home/sw/tf/ddbj/release_93_rdf_v1/ddbjest41.ttl: 13441063
+ processing... /home/sw/tf/ddbj/release_93_rdf_v1/ddbjest42.ttl: 18154620
+ processing... /home/sw/tf/ddbj/release_93_rdf_v1/ddbjest43.ttl: 18832495
+ processing... /home/sw/tf/ddbj/release_93_rdf_v1/ddbjest44.ttl: 17308923
+ processing... /home/sw/tf/ddbj/release_93_rdf_v1/ddbjest45.ttl: 19188842
+ processing... /home/sw/tf/ddbj/release_93_rdf_v1/ddbjest46.ttl: 19589184
+ processing... /home/sw/tf/ddbj/release_93_rdf_v1/ddbjest47.ttl: 17155086
+ processing... /home/sw/tf/ddbj/release_93_rdf_v1/ddbjest48.ttl: 21345435
+ processing... /home/sw/tf/ddbj/release_93_rdf_v1/ddbjest49.ttl: 16690939
+ processing... /home/sw/tf/ddbj/release_93_rdf_v1/ddbjest5.ttl: 21836288
+ processing... /home/sw/tf/ddbj/release_93_rdf_v1/ddbjest50.ttl: 16120471
+ processing... /home/sw/tf/ddbj/release_93_rdf_v1/ddbjest51.ttl: 9628732
+ processing... /home/sw/tf/ddbj/release_93_rdf_v1/ddbjest52.ttl: 9895230
+ processing... /home/sw/tf/ddbj/release_93_rdf_v1/ddbjest53.ttl: 11211055
+ processing... /home/sw/tf/ddbj/release_93_rdf_v1/ddbjest54.ttl: 15150205
+ processing... /home/sw/tf/ddbj/release_93_rdf_v1/ddbjest55.ttl: 21072169
+ processing... /home/sw/tf/ddbj/release_93_rdf_v1/ddbjest56.ttl: 17067173
+ processing... /home/sw/tf/ddbj/release_93_rdf_v1/ddbjest57.ttl: 17417727
+ processing... /home/sw/tf/ddbj/release_93_rdf_v1/ddbjest58.ttl: 18593556
+ processing... /home/sw/tf/ddbj/release_93_rdf_v1/ddbjest59.ttl: 16873281
+ processing... /home/sw/tf/ddbj/release_93_rdf_v1/ddbjest6.ttl: 20898785
+ processing... /home/sw/tf/ddbj/release_93_rdf_v1/ddbjest60.ttl: 18584422
+ processing... /home/sw/tf/ddbj/release_93_rdf_v1/ddbjest61.ttl: 18004307
+ processing... /home/sw/tf/ddbj/release_93_rdf_v1/ddbjest62.ttl: 16534997
+ processing... /home/sw/tf/ddbj/release_93_rdf_v1/ddbjest63.ttl: 18972276
+ processing... /home/sw/tf/ddbj/release_93_rdf_v1/ddbjest64.ttl: 19544154
+ processing... /home/sw/tf/ddbj/release_93_rdf_v1/ddbjest65.ttl: 17467290
+ processing... /home/sw/tf/ddbj/release_93_rdf_v1/ddbjest66.ttl: 17215042
+ processing... /home/sw/tf/ddbj/release_93_rdf_v1/ddbjest67.ttl: 17401718
+ processing... /home/sw/tf/ddbj/release_93_rdf_v1/ddbjest68.ttl: 15060535
+ processing... /home/sw/tf/ddbj/release_93_rdf_v1/ddbjest69.ttl: 15817028
+ processing... /home/sw/tf/ddbj/release_93_rdf_v1/ddbjest7.ttl: 21320570
+ processing... /home/sw/tf/ddbj/release_93_rdf_v1/ddbjest70.ttl: 16293125
+ processing... /home/sw/tf/ddbj/release_93_rdf_v1/ddbjest71.ttl: 16384383
+ processing... /home/sw/tf/ddbj/release_93_rdf_v1/ddbjest72.ttl: 16670199
+ processing... /home/sw/tf/ddbj/release_93_rdf_v1/ddbjest73.ttl: 17358928
+ processing... /home/sw/tf/ddbj/release_93_rdf_v1/ddbjest74.ttl: 20365139
+ processing... /home/sw/tf/ddbj/release_93_rdf_v1/ddbjest75.ttl: 20299075
+ processing... /home/sw/tf/ddbj/release_93_rdf_v1/ddbjest76.ttl: 22595674
+ processing... /home/sw/tf/ddbj/release_93_rdf_v1/ddbjest77.ttl: 18230407
+ processing... /home/sw/tf/ddbj/release_93_rdf_v1/ddbjest78.ttl: 15472605
+ processing... /home/sw/tf/ddbj/release_93_rdf_v1/ddbjest79.ttl: 18806779
+ processing... /home/sw/tf/ddbj/release_93_rdf_v1/ddbjest8.ttl: 16815275
+ processing... /home/sw/tf/ddbj/release_93_rdf_v1/ddbjest80.ttl: 17724816
+ processing... /home/sw/tf/ddbj/release_93_rdf_v1/ddbjest81.ttl: 14875288
+ processing... /home/sw/tf/ddbj/release_93_rdf_v1/ddbjest82.ttl: 14773743
+ processing... /home/sw/tf/ddbj/release_93_rdf_v1/ddbjest83.ttl: 16002845
+ processing... /home/sw/tf/ddbj/release_93_rdf_v1/ddbjest84.ttl: 16293320
+ processing... /home/sw/tf/ddbj/release_93_rdf_v1/ddbjest85.ttl: 18810735
+ processing... /home/sw/tf/ddbj/release_93_rdf_v1/ddbjest86.ttl: 17222153
+ processing... /home/sw/tf/ddbj/release_93_rdf_v1/ddbjest87.ttl: 20091960
+ processing... /home/sw/tf/ddbj/release_93_rdf_v1/ddbjest88.ttl: 23023664
+ processing... /home/sw/tf/ddbj/release_93_rdf_v1/ddbjest89.ttl: 18603251
+ processing... /home/sw/tf/ddbj/release_93_rdf_v1/ddbjest9.ttl: 17900573
+ processing... /home/sw/tf/ddbj/release_93_rdf_v1/ddbjest90.ttl: 18906572
+ processing... /home/sw/tf/ddbj/release_93_rdf_v1/ddbjest91.ttl: 19247683
+ processing... /home/sw/tf/ddbj/release_93_rdf_v1/ddbjest92.ttl: 24635031
+ processing... /home/sw/tf/ddbj/release_93_rdf_v1/ddbjest93.ttl: 21875560
+ processing... /home/sw/tf/ddbj/release_93_rdf_v1/ddbjest94.ttl: 18390442
+ processing... /home/sw/tf/ddbj/release_93_rdf_v1/ddbjest95.ttl: 19606595
+ processing... /home/sw/tf/ddbj/release_93_rdf_v1/ddbjest96.ttl: 21727214
+ processing... /home/sw/tf/ddbj/release_93_rdf_v1/ddbjest97.ttl: 19830478
+ processing... /home/sw/tf/ddbj/release_93_rdf_v1/ddbjest98.ttl: 19383675
+ processing... /home/sw/tf/ddbj/release_93_rdf_v1/ddbjest99.ttl: 16078348
+ processing... /home/sw/tf/ddbj/release_93_rdf_v1/ddbjgss1.ttl: 18488868
+ processing... /home/sw/tf/ddbj/release_93_rdf_v1/ddbjgss10.ttl: 21103497
+ processing... /home/sw/tf/ddbj/release_93_rdf_v1/ddbjgss11.ttl: 19925076
+ processing... /home/sw/tf/ddbj/release_93_rdf_v1/ddbjgss12.ttl: 19989028
+ processing... /home/sw/tf/ddbj/release_93_rdf_v1/ddbjgss13.ttl: 20025563
+ processing... /home/sw/tf/ddbj/release_93_rdf_v1/ddbjgss14.ttl: 18738884
+ processing... /home/sw/tf/ddbj/release_93_rdf_v1/ddbjgss15.ttl: 22411012
+ processing... /home/sw/tf/ddbj/release_93_rdf_v1/ddbjgss16.ttl: 24874987
+ processing... /home/sw/tf/ddbj/release_93_rdf_v1/ddbjgss17.ttl: 21330224
+ processing... /home/sw/tf/ddbj/release_93_rdf_v1/ddbjgss18.ttl: 20797274
+ processing... /home/sw/tf/ddbj/release_93_rdf_v1/ddbjgss19.ttl: 19943519
+ processing... /home/sw/tf/ddbj/release_93_rdf_v1/ddbjgss2.ttl: 16857016
+ processing... /home/sw/tf/ddbj/release_93_rdf_v1/ddbjgss20.ttl: 20901675
+ processing... /home/sw/tf/ddbj/release_93_rdf_v1/ddbjgss21.ttl: 23082801
+ processing... /home/sw/tf/ddbj/release_93_rdf_v1/ddbjgss22.ttl: 23568632
+ processing... /home/sw/tf/ddbj/release_93_rdf_v1/ddbjgss23.ttl: 19698643
+ processing... /home/sw/tf/ddbj/release_93_rdf_v1/ddbjgss24.ttl: 19515923
+ processing... /home/sw/tf/ddbj/release_93_rdf_v1/ddbjgss25.ttl: 20402704
+ processing... /home/sw/tf/ddbj/release_93_rdf_v1/ddbjgss26.ttl: 20083125
+ processing... /home/sw/tf/ddbj/release_93_rdf_v1/ddbjgss27.ttl: 20734398
+ processing... /home/sw/tf/ddbj/release_93_rdf_v1/ddbjgss28.ttl: 23671681
+ processing... /home/sw/tf/ddbj/release_93_rdf_v1/ddbjgss29.ttl: 22343087
+ processing... /home/sw/tf/ddbj/release_93_rdf_v1/ddbjgss3.ttl: 19686775
+ processing... /home/sw/tf/ddbj/release_93_rdf_v1/ddbjgss30.ttl: 20514021
+ processing... /home/sw/tf/ddbj/release_93_rdf_v1/ddbjgss31.ttl: 19182314
+ processing... /home/sw/tf/ddbj/release_93_rdf_v1/ddbjgss32.ttl: 18922784
+ processing... /home/sw/tf/ddbj/release_93_rdf_v1/ddbjgss33.ttl: 20626960
+ processing... /home/sw/tf/ddbj/release_93_rdf_v1/ddbjgss34.ttl: 21254639
+ processing... /home/sw/tf/ddbj/release_93_rdf_v1/ddbjgss35.ttl: 17242719
+ processing... /home/sw/tf/ddbj/release_93_rdf_v1/ddbjgss36.ttl: 20348332
+ processing... /home/sw/tf/ddbj/release_93_rdf_v1/ddbjgss37.ttl: 29843048
+ processing... /home/sw/tf/ddbj/release_93_rdf_v1/ddbjgss38.ttl: 22018430
+ processing... /home/sw/tf/ddbj/release_93_rdf_v1/ddbjgss39.ttl: 15875492
+ processing... /home/sw/tf/ddbj/release_93_rdf_v1/ddbjgss4.ttl: 22284140
+ processing... /home/sw/tf/ddbj/release_93_rdf_v1/ddbjgss40.ttl: 15938240
+ processing... /home/sw/tf/ddbj/release_93_rdf_v1/ddbjgss41.ttl: 16489560
+ processing... /home/sw/tf/ddbj/release_93_rdf_v1/ddbjgss42.ttl: 16129800
+ processing... /home/sw/tf/ddbj/release_93_rdf_v1/ddbjgss43.ttl: 16436720
+ processing... /home/sw/tf/ddbj/release_93_rdf_v1/ddbjgss44.ttl: 16361920
+ processing... /home/sw/tf/ddbj/release_93_rdf_v1/ddbjgss45.ttl: 16070080
+ processing... /home/sw/tf/ddbj/release_93_rdf_v1/ddbjgss46.ttl: 19318351
+ processing... /home/sw/tf/ddbj/release_93_rdf_v1/ddbjgss47.ttl: 21139474
+ processing... /home/sw/tf/ddbj/release_93_rdf_v1/ddbjgss48.ttl: 20868073
+ processing... /home/sw/tf/ddbj/release_93_rdf_v1/ddbjgss49.ttl: 20545308
+ processing... /home/sw/tf/ddbj/release_93_rdf_v1/ddbjgss5.ttl: 19170306
+ processing... /home/sw/tf/ddbj/release_93_rdf_v1/ddbjgss50.ttl: 18563225
+ processing... /home/sw/tf/ddbj/release_93_rdf_v1/ddbjgss51.ttl: 19315259
+ processing... /home/sw/tf/ddbj/release_93_rdf_v1/ddbjgss52.ttl: 19933360
+ processing... /home/sw/tf/ddbj/release_93_rdf_v1/ddbjgss53.ttl: 23260416
+ processing... /home/sw/tf/ddbj/release_93_rdf_v1/ddbjgss54.ttl: 20833962
+ processing... /home/sw/tf/ddbj/release_93_rdf_v1/ddbjgss55.ttl: 23304204
+ processing... /home/sw/tf/ddbj/release_93_rdf_v1/ddbjgss56.ttl: 19854424
+ processing... /home/sw/tf/ddbj/release_93_rdf_v1/ddbjgss57.ttl: 19820491
+ processing... /home/sw/tf/ddbj/release_93_rdf_v1/ddbjgss58.ttl: 20671295
+ processing... /home/sw/tf/ddbj/release_93_rdf_v1/ddbjgss59.ttl: 20850187
+ processing... /home/sw/tf/ddbj/release_93_rdf_v1/ddbjgss6.ttl: 18683213
+ processing... /home/sw/tf/ddbj/release_93_rdf_v1/ddbjgss60.ttl: 23075120
+ processing... /home/sw/tf/ddbj/release_93_rdf_v1/ddbjgss61.ttl: 19533082
+ processing... /home/sw/tf/ddbj/release_93_rdf_v1/ddbjgss62.ttl: 17741837
+ processing... /home/sw/tf/ddbj/release_93_rdf_v1/ddbjgss63.ttl: 18526527
+ processing... /home/sw/tf/ddbj/release_93_rdf_v1/ddbjgss64.ttl: 18990079
+ processing... /home/sw/tf/ddbj/release_93_rdf_v1/ddbjgss65.ttl: 25270571
+ processing... /home/sw/tf/ddbj/release_93_rdf_v1/ddbjgss66.ttl: 24874733
+ processing... /home/sw/tf/ddbj/release_93_rdf_v1/ddbjgss67.ttl: 20997504
+ processing... /home/sw/tf/ddbj/release_93_rdf_v1/ddbjgss68.ttl: 18101437
+ processing... /home/sw/tf/ddbj/release_93_rdf_v1/ddbjgss69.ttl: 24004244
+ processing... /home/sw/tf/ddbj/release_93_rdf_v1/ddbjgss7.ttl: 15522161
+ processing... /home/sw/tf/ddbj/release_93_rdf_v1/ddbjgss70.ttl: 19837897
+ processing... /home/sw/tf/ddbj/release_93_rdf_v1/ddbjgss71.ttl: 15438965
+ processing... /home/sw/tf/ddbj/release_93_rdf_v1/ddbjgss8.ttl: 15730967
+ processing... /home/sw/tf/ddbj/release_93_rdf_v1/ddbjgss9.ttl: 19037638
+ processing... /home/sw/tf/ddbj/release_93_rdf_v1/ddbjhtc1.ttl: 14252427
+ processing... /home/sw/tf/ddbj/release_93_rdf_v1/ddbjhtc2.ttl: 12162945
+ processing... /home/sw/tf/ddbj/release_93_rdf_v1/ddbjhtg1.ttl: 5278690
+ processing... /home/sw/tf/ddbj/release_93_rdf_v1/ddbjhtg10.ttl: 3197040
+ processing... /home/sw/tf/ddbj/release_93_rdf_v1/ddbjhtg11.ttl: 4062293
+ processing... /home/sw/tf/ddbj/release_93_rdf_v1/ddbjhtg12.ttl: 4583266
+ processing... /home/sw/tf/ddbj/release_93_rdf_v1/ddbjhtg13.ttl: 3135413
+ processing... /home/sw/tf/ddbj/release_93_rdf_v1/ddbjhtg14.ttl: 3826661
+ processing... /home/sw/tf/ddbj/release_93_rdf_v1/ddbjhtg15.ttl: 3305585
+ processing... /home/sw/tf/ddbj/release_93_rdf_v1/ddbjhtg16.ttl: 3167038
+ processing... /home/sw/tf/ddbj/release_93_rdf_v1/ddbjhtg17.ttl: 3158008
+ processing... /home/sw/tf/ddbj/release_93_rdf_v1/ddbjhtg18.ttl: 2090543
+ processing... /home/sw/tf/ddbj/release_93_rdf_v1/ddbjhtg19.ttl: 10105917
+ processing... /home/sw/tf/ddbj/release_93_rdf_v1/ddbjhtg2.ttl: 5351473
+ processing... /home/sw/tf/ddbj/release_93_rdf_v1/ddbjhtg20.ttl: 2524131
+ processing... /home/sw/tf/ddbj/release_93_rdf_v1/ddbjhtg21.ttl: 1096703
+ processing... /home/sw/tf/ddbj/release_93_rdf_v1/ddbjhtg22.ttl: 1163627
+ processing... /home/sw/tf/ddbj/release_93_rdf_v1/ddbjhtg23.ttl: 1333763
+ processing... /home/sw/tf/ddbj/release_93_rdf_v1/ddbjhtg3.ttl: 2872350
+ processing... /home/sw/tf/ddbj/release_93_rdf_v1/ddbjhtg4.ttl: 2029903
+ processing... /home/sw/tf/ddbj/release_93_rdf_v1/ddbjhtg5.ttl: 1456366
+ processing... /home/sw/tf/ddbj/release_93_rdf_v1/ddbjhtg6.ttl: 1395390
+ processing... /home/sw/tf/ddbj/release_93_rdf_v1/ddbjhtg7.ttl: 2666281
+ processing... /home/sw/tf/ddbj/release_93_rdf_v1/ddbjhtg8.ttl: 1833611
+ processing... /home/sw/tf/ddbj/release_93_rdf_v1/ddbjhtg9.ttl: 2685205
+ processing... /home/sw/tf/ddbj/release_93_rdf_v1/ddbjhum1.ttl: 19002080
+ processing... /home/sw/tf/ddbj/release_93_rdf_v1/ddbjhum2.ttl: 19698100
+ processing... /home/sw/tf/ddbj/release_93_rdf_v1/ddbjhum3.ttl: 16133982
+ processing... /home/sw/tf/ddbj/release_93_rdf_v1/ddbjhum4.ttl: 5101646
+ processing... /home/sw/tf/ddbj/release_93_rdf_v1/ddbjhum5.ttl: 31103300
+ processing... /home/sw/tf/ddbj/release_93_rdf_v1/ddbjhum6.ttl: 31661671
+ processing... /home/sw/tf/ddbj/release_93_rdf_v1/ddbjinv1.ttl: 25309975
+ processing... /home/sw/tf/ddbj/release_93_rdf_v1/ddbjinv2.ttl: 37626629
+ processing... /home/sw/tf/ddbj/release_93_rdf_v1/ddbjinv3.ttl: 33554550
+ processing... /home/sw/tf/ddbj/release_93_rdf_v1/ddbjinv4.ttl: 32698497
+ processing... /home/sw/tf/ddbj/release_93_rdf_v1/ddbjinv5.ttl: 41717837
+ processing... /home/sw/tf/ddbj/release_93_rdf_v1/ddbjinv6.ttl: 11896292
+ processing... /home/sw/tf/ddbj/release_93_rdf_v1/ddbjmam1.ttl: 23471321
+ processing... /home/sw/tf/ddbj/release_93_rdf_v1/ddbjmam2.ttl: 12555294
+ processing... /home/sw/tf/ddbj/release_93_rdf_v1/ddbjpat1.ttl: 33246443
+ processing... /home/sw/tf/ddbj/release_93_rdf_v1/ddbjpat10.ttl: 39960370
+ processing... /home/sw/tf/ddbj/release_93_rdf_v1/ddbjpat11.ttl: 16983238
+ processing... /home/sw/tf/ddbj/release_93_rdf_v1/ddbjpat12.ttl: 27924880
+ processing... /home/sw/tf/ddbj/release_93_rdf_v1/ddbjpat13.ttl: 7495470
+ processing... /home/sw/tf/ddbj/release_93_rdf_v1/ddbjpat14.ttl: 23720678
+ processing... /home/sw/tf/ddbj/release_93_rdf_v1/ddbjpat15.ttl: 22128526
+ processing... /home/sw/tf/ddbj/release_93_rdf_v1/ddbjpat16.ttl: 31587054
+ processing... /home/sw/tf/ddbj/release_93_rdf_v1/ddbjpat17.ttl: 32213368
+ processing... /home/sw/tf/ddbj/release_93_rdf_v1/ddbjpat18.ttl: 28970672
+ processing... /home/sw/tf/ddbj/release_93_rdf_v1/ddbjpat19.ttl: 38921525
+ processing... /home/sw/tf/ddbj/release_93_rdf_v1/ddbjpat2.ttl: 27635074
+ processing... /home/sw/tf/ddbj/release_93_rdf_v1/ddbjpat20.ttl: 30847559
+ processing... /home/sw/tf/ddbj/release_93_rdf_v1/ddbjpat21.ttl: 41196923
+ processing... /home/sw/tf/ddbj/release_93_rdf_v1/ddbjpat22.ttl: 14754202
+ processing... /home/sw/tf/ddbj/release_93_rdf_v1/ddbjpat23.ttl: 27977035
+ processing... /home/sw/tf/ddbj/release_93_rdf_v1/ddbjpat24.ttl: 29791972
+ processing... /home/sw/tf/ddbj/release_93_rdf_v1/ddbjpat25.ttl: 47461905
+ processing... /home/sw/tf/ddbj/release_93_rdf_v1/ddbjpat26.ttl: 30585059
+ processing... /home/sw/tf/ddbj/release_93_rdf_v1/ddbjpat27.ttl: 46569621
+ processing... /home/sw/tf/ddbj/release_93_rdf_v1/ddbjpat28.ttl: 38997147
+ processing... /home/sw/tf/ddbj/release_93_rdf_v1/ddbjpat29.ttl: 20933001
+ processing... /home/sw/tf/ddbj/release_93_rdf_v1/ddbjpat3.ttl: 24028378
+ processing... /home/sw/tf/ddbj/release_93_rdf_v1/ddbjpat30.ttl: 19383706
+ processing... /home/sw/tf/ddbj/release_93_rdf_v1/ddbjpat31.ttl: 26055508
+ processing... /home/sw/tf/ddbj/release_93_rdf_v1/ddbjpat32.ttl: 13708991
+ processing... /home/sw/tf/ddbj/release_93_rdf_v1/ddbjpat4.ttl: 27496176
+ processing... /home/sw/tf/ddbj/release_93_rdf_v1/ddbjpat5.ttl: 27871798
+ processing... /home/sw/tf/ddbj/release_93_rdf_v1/ddbjpat6.ttl: 23478326
+ processing... /home/sw/tf/ddbj/release_93_rdf_v1/ddbjpat7.ttl: 20774850
+ processing... /home/sw/tf/ddbj/release_93_rdf_v1/ddbjpat8.ttl: 19945042
+ processing... /home/sw/tf/ddbj/release_93_rdf_v1/ddbjpat9.ttl: 22257814
+ processing... /home/sw/tf/ddbj/release_93_rdf_v1/ddbjphg1.ttl: 8880161
+ processing... /home/sw/tf/ddbj/release_93_rdf_v1/ddbjpln1.ttl: 15343229
+ processing... /home/sw/tf/ddbj/release_93_rdf_v1/ddbjpln10.ttl: 41964372
+ processing... /home/sw/tf/ddbj/release_93_rdf_v1/ddbjpln11.ttl: 3947735
+ processing... /home/sw/tf/ddbj/release_93_rdf_v1/ddbjpln2.ttl: 23170293
+ processing... /home/sw/tf/ddbj/release_93_rdf_v1/ddbjpln3.ttl: 19208757
+ processing... /home/sw/tf/ddbj/release_93_rdf_v1/ddbjpln4.ttl: 27769257
+ processing... /home/sw/tf/ddbj/release_93_rdf_v1/ddbjpln5.ttl: 23250882
+ processing... /home/sw/tf/ddbj/release_93_rdf_v1/ddbjpln6.ttl: 41691785
+ processing... /home/sw/tf/ddbj/release_93_rdf_v1/ddbjpln7.ttl: 32874127
+ processing... /home/sw/tf/ddbj/release_93_rdf_v1/ddbjpln8.ttl: 28953784
+ processing... /home/sw/tf/ddbj/release_93_rdf_v1/ddbjpln9.ttl: 38093337
+ processing... /home/sw/tf/ddbj/release_93_rdf_v1/ddbjpri1.ttl: 3139664
+ processing... /home/sw/tf/ddbj/release_93_rdf_v1/ddbjpri2.ttl: 7705243
+ processing... /home/sw/tf/ddbj/release_93_rdf_v1/ddbjrod1.ttl: 27746493
+ processing... /home/sw/tf/ddbj/release_93_rdf_v1/ddbjrod2.ttl: 19107434
+ processing... /home/sw/tf/ddbj/release_93_rdf_v1/ddbjrod3.ttl: 13784072
+ processing... /home/sw/tf/ddbj/release_93_rdf_v1/ddbjrod4.ttl: 12047601
+ processing... /home/sw/tf/ddbj/release_93_rdf_v1/ddbjrod5.ttl: 22435048
+ processing... /home/sw/tf/ddbj/release_93_rdf_v1/ddbjsts1.ttl: 23941291
+ processing... /home/sw/tf/ddbj/release_93_rdf_v1/ddbjsts2.ttl: 17743359
+ processing... /home/sw/tf/ddbj/release_93_rdf_v1/ddbjsts3.ttl: 34144335
+ processing... /home/sw/tf/ddbj/release_93_rdf_v1/ddbjsts4.ttl: 639387
+ processing... /home/sw/tf/ddbj/release_93_rdf_v1/ddbjsyn1.ttl: 25016294
+ processing... /home/sw/tf/ddbj/release_93_rdf_v1/ddbjsyn2.ttl: 2620192
+ processing... /home/sw/tf/ddbj/release_93_rdf_v1/ddbjtsa1.ttl: 25937386
+ processing... /home/sw/tf/ddbj/release_93_rdf_v1/ddbjtsa10.ttl: 19768942
+ processing... /home/sw/tf/ddbj/release_93_rdf_v1/ddbjtsa11.ttl: 21104009
+ processing... /home/sw/tf/ddbj/release_93_rdf_v1/ddbjtsa12.ttl: 19582685
+ processing... /home/sw/tf/ddbj/release_93_rdf_v1/ddbjtsa13.ttl: 19264528
+ processing... /home/sw/tf/ddbj/release_93_rdf_v1/ddbjtsa14.ttl: 16244352
+ processing... /home/sw/tf/ddbj/release_93_rdf_v1/ddbjtsa15.ttl: 17395877
+ processing... /home/sw/tf/ddbj/release_93_rdf_v1/ddbjtsa16.ttl: 19970919
+ processing... /home/sw/tf/ddbj/release_93_rdf_v1/ddbjtsa17.ttl: 19265868
+ processing... /home/sw/tf/ddbj/release_93_rdf_v1/ddbjtsa18.ttl: 20334946
+ processing... /home/sw/tf/ddbj/release_93_rdf_v1/ddbjtsa19.ttl: 15351845
+ processing... /home/sw/tf/ddbj/release_93_rdf_v1/ddbjtsa2.ttl: 20580890
+ processing... /home/sw/tf/ddbj/release_93_rdf_v1/ddbjtsa20.ttl: 17089425
+ processing... /home/sw/tf/ddbj/release_93_rdf_v1/ddbjtsa21.ttl: 18784697
+ processing... /home/sw/tf/ddbj/release_93_rdf_v1/ddbjtsa22.ttl: 17095532
+ processing... /home/sw/tf/ddbj/release_93_rdf_v1/ddbjtsa23.ttl: 4379499
+ processing... /home/sw/tf/ddbj/release_93_rdf_v1/ddbjtsa3.ttl: 22743356
+ processing... /home/sw/tf/ddbj/release_93_rdf_v1/ddbjtsa4.ttl: 19355888
+ processing... /home/sw/tf/ddbj/release_93_rdf_v1/ddbjtsa5.ttl: 20532743
+ processing... /home/sw/tf/ddbj/release_93_rdf_v1/ddbjtsa6.ttl: 20195356
+ processing... /home/sw/tf/ddbj/release_93_rdf_v1/ddbjtsa7.ttl: 22886668
+ processing... /home/sw/tf/ddbj/release_93_rdf_v1/ddbjtsa8.ttl: 18790111
+ processing... /home/sw/tf/ddbj/release_93_rdf_v1/ddbjtsa9.ttl: 17240004
+ processing... /home/sw/tf/ddbj/release_93_rdf_v1/ddbjuna1.ttl: 25005
+ processing... /home/sw/tf/ddbj/release_93_rdf_v1/ddbjvrl1.ttl: 40719482
+ processing... /home/sw/tf/ddbj/release_93_rdf_v1/ddbjvrl2.ttl: 40125826
+ processing... /home/sw/tf/ddbj/release_93_rdf_v1/ddbjvrl3.ttl: 39251346
+ processing... /home/sw/tf/ddbj/release_93_rdf_v1/ddbjvrl4.ttl: 37703943
+ processing... /home/sw/tf/ddbj/release_93_rdf_v1/ddbjvrl5.ttl: 2548641
+ processing... /home/sw/tf/ddbj/release_93_rdf_v1/ddbjvrt1.ttl: 23107431
+ processing... /home/sw/tf/ddbj/release_93_rdf_v1/ddbjvrt2.ttl: 6172583
+ processing... /home/sw/tf/ddbj/release_93_rdf_v1/ddbjvrt3.ttl: 22980450
+ processing... /home/sw/tf/ddbj/release_93_rdf_v1/ddbjvrt4.ttl: 38792389
+ processing... /home/sw/tf/ddbj/release_93_rdf_v1/ddbjvrt5.ttl: 26023973
+</pre>
+<!-- 
+NewPP limit report
+Preprocessor node count: 22/1000000
+Post-expand include size: 0/2097152 bytes
+Template argument size: 0/2097152 bytes
+Expensive parser function count: 0/100
+-->
+
+<!-- Saved in parser cache with key wikidb-togowiki_:pcache:idhash:290-0!1!0!!ja!2!edit=0 and timestamp 20230605014304 -->
+<div class="printfooter">
+「<a href="http://wiki.lifesciencedb.jp/mw/BH12.12/SPARQLthon10/DDBJ">http://wiki.lifesciencedb.jp/mw/BH12.12/SPARQLthon10/DDBJ</a>」より作成</div>
+		<div id='catlinks' class='catlinks'><div id="mw-normal-catlinks"><a href="/mw/%E7%89%B9%E5%88%A5:%E3%82%AB%E3%83%86%E3%82%B4%E3%83%AA" title="特別:カテゴリ">カテゴリ</a>: <span dir='ltr'><a href="/mw/index.php?title=Category:DDBJ&amp;action=edit&amp;redlink=1" class="new" title="Category:DDBJ（存在しないページ）">DDBJ</a></span></div></div>		<!-- end content -->
+				<div class="visualClear"></div>
+	</div>
+</div></div>
+<div id="column-one">
+	<div id="p-cactions" class="portlet">
+		<h5>表示</h5>
+		<div class="pBody">
+			<ul>
+				 <li id="ca-nstab-main" class="selected"><a href="/mw/BH12.12/SPARQLthon10/DDBJ" title="本文を表示 [c]" accesskey="c">ページ</a></li>
+				 <li id="ca-talk" class="new"><a href="/mw/index.php?title=%E3%83%8E%E3%83%BC%E3%83%88:BH12.12/SPARQLthon10/DDBJ&amp;action=edit&amp;redlink=1" title="記事についての議論 [t]" accesskey="t">議論</a></li>
+				 <li id="ca-viewsource"><a href="/mw/index.php?title=BH12.12/SPARQLthon10/DDBJ&amp;action=edit" title="このページは保護されています。&#10;ページのソースを閲覧できます。 [e]" accesskey="e">ソースを表示</a></li>
+				 <li id="ca-history"><a href="/mw/index.php?title=BH12.12/SPARQLthon10/DDBJ&amp;action=history" title="このページの過去の版 [h]" accesskey="h">履歴</a></li>
+			</ul>
+		</div>
+	</div>
+	<div class="portlet" id="p-personal">
+		<h5>個人用ツール</h5>
+		<div class="pBody">
+			<ul>
+				<li id="pt-anonuserpage"><a href="/mw/%E5%88%A9%E7%94%A8%E8%80%85:172.18.8.51" title="自分が編集しているIPアドレスの利用者ページ [.]" accesskey="." class="new">172.18.8.51</a></li>
+				<li id="pt-anontalk"><a href="/mw/%E5%88%A9%E7%94%A8%E8%80%85%E2%80%90%E4%BC%9A%E8%A9%B1:172.18.8.51" title="このIPアドレスからなされた編集についての議論 [n]" accesskey="n" class="new">このIPアドレスのトーク</a></li>
+				<li id="pt-anonlogin"><a href="/mw/index.php?title=%E7%89%B9%E5%88%A5:%E3%83%AD%E3%82%B0%E3%82%A4%E3%83%B3&amp;returnto=BH12.12/SPARQLthon10/DDBJ" title="ログインすることが推奨されます。ただし、必須ではありません。 [o]" accesskey="o">ログイン</a></li>
+				<li id="pt-openidlogin"><a href="/mw/index.php?title=%E7%89%B9%E5%88%A5:OpenID%E3%83%AD%E3%82%B0%E3%82%A4%E3%83%B3&amp;returnto=BH12.12/SPARQLthon10/DDBJ">OpenIDでログイン</a></li>
+			</ul>
+		</div>
+	</div>
+	<div class="portlet" id="p-logo">
+		<a style="background-image: url(/mw/images/togowiki-logo.png);" href="/mw/%E3%83%A1%E3%82%A4%E3%83%B3%E3%83%9A%E3%83%BC%E3%82%B8" title="メインページに移動"></a>
+	</div>
+	<script type="text/javascript"> if (window.isMSIE55) fixalpha(); </script>
+	<div class='generated-sidebar portlet' id='p-navigation'>
+		<h5>案内</h5>
+		<div class='pBody'>
+			<ul>
+				<li id="n-mainpage-description"><a href="/mw/%E3%83%A1%E3%82%A4%E3%83%B3%E3%83%9A%E3%83%BC%E3%82%B8" title="メインページに移動する [z]" accesskey="z">メインページ</a></li>
+				<li id="n-portal"><a href="/mw/TogoWiki:%E3%82%B3%E3%83%9F%E3%83%A5%E3%83%8B%E3%83%86%E3%82%A3%E3%83%BB%E3%83%9D%E3%83%BC%E3%82%BF%E3%83%AB" title="このプロジェクトについて、できること、情報を入手する場所">コミュニティ・ポータル</a></li>
+				<li id="n-currentevents"><a href="/mw/TogoWiki:%E6%9C%80%E8%BF%91%E3%81%AE%E5%87%BA%E6%9D%A5%E4%BA%8B" title="最近の出来事について予備知識を得る">最近の出来事</a></li>
+				<li id="n-recentchanges"><a href="/mw/%E7%89%B9%E5%88%A5:%E6%9C%80%E8%BF%91%E3%81%AE%E6%9B%B4%E6%96%B0" title="ウィキにおける最近の更新の一覧 [r]" accesskey="r">最近の更新</a></li>
+				<li id="n-randompage"><a href="/mw/%E7%89%B9%E5%88%A5:%E3%81%8A%E3%81%BE%E3%81%8B%E3%81%9B%E8%A1%A8%E7%A4%BA" title="無作為に抽出されたページの読み込み [x]" accesskey="x">おまかせ表示</a></li>
+				<li id="n-help"><a href="/mw/Help:%E7%9B%AE%E6%AC%A1" title="情報を得る場所">ヘルプ</a></li>
+			</ul>
+		</div>
+	</div>
+	<div id="p-search" class="portlet">
+		<h5><label for="searchInput">検索</label></h5>
+		<div id="searchBody" class="pBody">
+			<form action="/mw/index.php" id="searchform">
+				<input type='hidden' name="title" value="特別:検索"/>
+				<input id="searchInput" title="TogoWiki内を検索" accesskey="f" type="search" name="search" />
+				<input type='submit' name="go" class="searchButton" id="searchGoButton"	value="表示" title="厳密に一致する名前のページが存在すれば、そのページへ移動します" />&nbsp;
+				<input type='submit' name="fulltext" class="searchButton" id="mw-searchButton" value="検索" title="入力された文字列が含まれるページを検索します" />
+			</form>
+		</div>
+	</div>
+	<div class="portlet" id="p-tb">
+		<h5>ツールボックス</h5>
+		<div class="pBody">
+			<ul>
+				<li id="t-whatlinkshere"><a href="/mw/%E7%89%B9%E5%88%A5:%E3%83%AA%E3%83%B3%E3%82%AF%E5%85%83/BH12.12/SPARQLthon10/DDBJ" title="ここにリンクしている全ウィキのページの一覧 [j]" accesskey="j">リンク元</a></li>
+				<li id="t-recentchangeslinked"><a href="/mw/%E7%89%B9%E5%88%A5:%E9%96%A2%E9%80%A3%E3%83%9A%E3%83%BC%E3%82%B8%E3%81%AE%E6%9B%B4%E6%96%B0%E7%8A%B6%E6%B3%81/BH12.12/SPARQLthon10/DDBJ" title="このページからリンクしているページの最近の更新 [k]" accesskey="k">関連ページの更新状況</a></li>
+<li id="t-specialpages"><a href="/mw/%E7%89%B9%E5%88%A5:%E7%89%B9%E5%88%A5%E3%83%9A%E3%83%BC%E3%82%B8%E4%B8%80%E8%A6%A7" title="特別ページの一覧 [q]" accesskey="q">特別ページ</a></li>
+				<li id="t-print"><a href="/mw/index.php?title=BH12.12/SPARQLthon10/DDBJ&amp;printable=yes" rel="alternate" title="このページの印刷用ページ [p]" accesskey="p">印刷用バージョン</a></li>				<li id="t-permalink"><a href="/mw/index.php?title=BH12.12/SPARQLthon10/DDBJ&amp;oldid=9104" title="ページのこの版への固定リンク">この版への固定リンク</a></li>			</ul>
+		</div>
+	</div>
+</div><!-- end of the left (by default at least) column -->
+<div class="visualClear"></div>
+<div id="footer">
+	<div id="f-poweredbyico"><a href="http://www.mediawiki.org/"><img src="/mw/skins/common/images/poweredby_mediawiki_88x31.png" height="31" width="88" alt="Powered by MediaWiki" /></a></div>
+	<div id="f-copyrightico"><a href="http://creativecommons.org/licenses/by/3.0/"><img src="http://i.creativecommons.org/l/by/3.0/88x31.png" alt="Attribution 3.0 Unported" width="88" height="31" /></a></div>
+	<ul id="f-list">
+		<li id="lastmod"> このページの最終更新は 2013年8月21日 (水) 10:11 に行われました。</li>
+		<li id="viewcount">このページは4,049回アクセスされました。</li>
+		<li id="copyright">内容は<a href="http://creativecommons.org/licenses/by/3.0/" class="external ">Attribution 3.0 Unported</a>のライセンスで利用することができます。</li>
+		<li id="privacy"><a href="/mw/TogoWiki:%E3%83%97%E3%83%A9%E3%82%A4%E3%83%90%E3%82%B7%E3%83%BC%E3%83%BB%E3%83%9D%E3%83%AA%E3%82%B7%E3%83%BC" title="TogoWiki:プライバシー・ポリシー">プライバシー・ポリシー</a></li>
+		<li id="about"><a href="/mw/TogoWiki:TogoWiki%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6" title="TogoWiki:TogoWikiについて">TogoWikiについて</a></li>
+		<li id="disclaimer"><a href="/mw/TogoWiki:%E5%85%8D%E8%B2%AC%E4%BA%8B%E9%A0%85" title="TogoWiki:免責事項">免責事項</a></li>
+	</ul>
+</div>
+</div>
+
+<script>if (window.runOnloadHook) runOnloadHook();</script>
+<!-- Served in 0.687 secs. --></body></html>

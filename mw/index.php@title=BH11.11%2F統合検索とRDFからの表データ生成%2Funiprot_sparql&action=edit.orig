@@ -1,0 +1,941 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html lang="ja" dir="ltr">
+<head>
+<title>ソースを表示 - TogoWiki</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta name="generator" content="MediaWiki 1.16.3" />
+<meta name="robots" content="noindex,nofollow" />
+<link rel="next" href="http://wiki.lifesciencedb.jp/mw/BH11.11/%E7%B5%B1%E5%90%88%E6%A4%9C%E7%B4%A2%E3%81%A8RDF%E3%81%8B%E3%82%89%E3%81%AE%E8%A1%A8%E3%83%87%E3%83%BC%E3%82%BF%E7%94%9F%E6%88%90/uniprot_sparql" />
+<link rel="shortcut icon" href="/favicon.ico" />
+<link rel="search" type="application/opensearchdescription+xml" href="/mw/opensearch_desc.php" title="TogoWiki (ja)" />
+<link rel="copyright" href="http://creativecommons.org/licenses/by/3.0/" />
+<link rel="alternate" type="application/atom+xml" title="TogoWikiのAtomフィード" href="/mw/index.php?title=%E7%89%B9%E5%88%A5:%E6%9C%80%E8%BF%91%E3%81%AE%E6%9B%B4%E6%96%B0&amp;feed=atom" />
+<!--[if IE 8]><link rel="stylesheet" href="/mw/skins/common/IE80Fixes.css?270" media="screen" /><![endif]-->
+<link rel="stylesheet" href="/mw/skins/common/shared.css?270" media="screen" />
+<link rel="stylesheet" href="/mw/skins/common/commonPrint.css?270" media="print" />
+<link rel="stylesheet" href="/mw/skins/monobook/main.css?270" media="screen" />
+<!--[if lt IE 5.5000]><link rel="stylesheet" href="/mw/skins/monobook/IE50Fixes.css?270" media="screen" /><![endif]-->
+<!--[if IE 5.5000]><link rel="stylesheet" href="/mw/skins/monobook/IE55Fixes.css?270" media="screen" /><![endif]-->
+<!--[if IE 6]><link rel="stylesheet" href="/mw/skins/monobook/IE60Fixes.css?270" media="screen" /><![endif]-->
+<!--[if IE 7]><link rel="stylesheet" href="/mw/skins/monobook/IE70Fixes.css?270" media="screen" /><![endif]-->
+<link rel="stylesheet" href="/mw/index.php?title=MediaWiki:Common.css&amp;usemsgcache=yes&amp;ctype=text%2Fcss&amp;smaxage=18000&amp;action=raw&amp;maxage=18000" />
+<link rel="stylesheet" href="/mw/index.php?title=MediaWiki:Print.css&amp;usemsgcache=yes&amp;ctype=text%2Fcss&amp;smaxage=18000&amp;action=raw&amp;maxage=18000" media="print" />
+<link rel="stylesheet" href="/mw/index.php?title=MediaWiki:Monobook.css&amp;usemsgcache=yes&amp;ctype=text%2Fcss&amp;smaxage=18000&amp;action=raw&amp;maxage=18000" />
+<link rel="stylesheet" href="/mw/index.php?title=-&amp;action=raw&amp;maxage=18000&amp;gen=css" />
+<script>
+var skin="monobook",
+stylepath="/mw/skins",
+wgUrlProtocols="http\\:\\/\\/|https\\:\\/\\/|ftp\\:\\/\\/|irc\\:\\/\\/|gopher\\:\\/\\/|telnet\\:\\/\\/|nntp\\:\\/\\/|worldwind\\:\\/\\/|mailto\\:|news\\:|svn\\:\\/\\/",
+wgArticlePath="/mw/$1",
+wgScriptPath="/mw",
+wgScriptExtension=".php",
+wgScript="/mw/index.php",
+wgVariantArticlePath=false,
+wgActionPaths={},
+wgServer="http://wiki.lifesciencedb.jp",
+wgCanonicalNamespace="",
+wgCanonicalSpecialPageName=false,
+wgNamespaceNumber=0,
+wgPageName="BH11.11/統合検索とRDFからの表データ生成/uniprot_sparql",
+wgTitle="BH11.11/統合検索とRDFからの表データ生成/uniprot sparql",
+wgAction="edit",
+wgArticleId=118,
+wgIsArticle=false,
+wgUserName=null,
+wgUserGroups=null,
+wgUserLanguage="ja",
+wgContentLanguage="ja",
+wgBreakFrames=true,
+wgCurRevisionId=12653,
+wgVersion="1.16.3",
+wgEnableAPI=true,
+wgEnableWriteAPI=true,
+wgSeparatorTransformTable=["", ""],
+wgDigitTransformTable=["", ""],
+wgMainPageTitle="メインページ",
+wgFormattedNamespaces={"-2": "メディア", "-1": "特別", "0": "", "1": "ノート", "2": "利用者", "3": "利用者‐会話", "4": "TogoWiki", "5": "TogoWiki‐ノート", "6": "ファイル", "7": "ファイル‐ノート", "8": "MediaWiki", "9": "MediaWiki‐ノート", "10": "Template", "11": "Template‐ノート", "12": "Help", "13": "Help‐ノート", "14": "Category", "15": "Category‐ノート"},
+wgNamespaceIds={"メディア": -2, "特別": -1, "": 0, "ノート": 1, "利用者": 2, "利用者‐会話": 3, "togowiki": 4, "togowiki‐ノート": 5, "ファイル": 6, "ファイル‐ノート": 7, "mediawiki": 8, "mediawiki‐ノート": 9, "template": 10, "template‐ノート": 11, "help": 12, "help‐ノート": 13, "category": 14, "category‐ノート": 15, "画像": 6, "画像‐ノート": 7, "image": 6, "image_talk": 7},
+wgSiteName="TogoWiki",
+wgCategories=[],
+wgRestrictionEdit=[],
+wgRestrictionMove=[];
+</script><script src="/mw/skins/common/wikibits.js?270"></script>
+<script src="/mw/skins/common/edit.js?270"></script>
+<script src="/mw/skins/common/ajax.js?270"></script>
+<script src="/mw/index.php?title=-&amp;action=raw&amp;gen=js&amp;useskin=monobook&amp;270"></script>
+
+		<style type='text/css'>
+		li#pt-openidlogin {
+		  background: url(/mw/extensions/OpenID/skin/icons/openid-inputicon.png) top left no-repeat;
+		  padding-left: 20px;
+		  text-transform: none;
+		}
+		</style>
+</head>
+<body class="mediawiki ltr ns-0 ns-subject page-BH11_11_統合検索とRDFからの表データ生成_uniprot_sparql skin-monobook">
+<div id="globalWrapper">
+<div id="column-content"><div id="content" >
+	<a id="top"></a>
+	
+	<h1 id="firstHeading" class="firstHeading">BH11.11/統合検索とRDFからの表データ生成/uniprot sparql</h1>
+	<div id="bodyContent">
+		<h3 id="siteSub">提供：TogoWiki</h3>
+		<div id="contentSub"><a href="/mw/BH11.11/%E7%B5%B1%E5%90%88%E6%A4%9C%E7%B4%A2%E3%81%A8RDF%E3%81%8B%E3%82%89%E3%81%AE%E8%A1%A8%E3%83%87%E3%83%BC%E3%82%BF%E7%94%9F%E6%88%90/uniprot_sparql" title="BH11.11/統合検索とRDFからの表データ生成/uniprot sparql">BH11.11/統合検索とRDFからの表データ生成/uniprot sparql</a>のソース</div>
+		<div id="jump-to-nav">移動： <a href="#column-one">案内</a>, <a href="#searchInput">検索</a></div>
+		<!-- start content -->
+<p>以下に示された理由により、このページの編集を行うことができません：
+</p>
+<div class="permissions-errors">
+<p>この操作は、<a href="/mw/index.php?title=TogoWiki:%E5%88%A9%E7%94%A8%E8%80%85&amp;action=edit&amp;redlink=1" class="new" title="TogoWiki:利用者（存在しないページ）">利用者</a>のグループに属する利用者のみが実行できます。
+</p>
+</div>
+<p>このページのソースを閲覧し、コピーすることができます：
+</p><textarea id="wpTextbox1" name="wpTextbox1" cols="80" rows="25" readonly="">== Names and origin ==
+=== Protein names ===
+==== Recommended name ====
+[[ファイル:RecommendedName.png‎]]
+===== Full name =====
+ SELECT ?id ?recommended_name
+ FROM &lt;http://bh.dbcls.jp/DAV>
+ WHERE {
+ ?recommended_name_node &lt;http://purl.uniprot.org/core/fullName> ?recommended_name .
+ ?id &lt;http://purl.uniprot.org/core/recommendedName> ?recommended_name_node
+ }
+
+====== Short name(s) ======
+ SELECT ?id ?short_name
+ FROM &lt;http://bh.dbcls.jp/DAV>
+ WHERE {
+ ?recommended_name_node &lt;http://purl.uniprot.org/core/shortName> ?short_name .
+ ?id &lt;http://purl.uniprot.org/core/recommendedName> ?recommended_name_node
+ }
+
+====== EC ======
+ SELECT ?id ?ec
+ FROM &lt;http://bh.dbcls.jp/DAV>
+ WHERE {
+ ?recommended_name_node &lt;http://purl.uniprot.org/core/ecName> ?ec .
+ ?id &lt;http://purl.uniprot.org/core/recommendedName> ?recommended_name_node
+ }
+
+==== Alternative name(s) ====
+===== Full name =====
+ SELECT ?id ?alternative_names
+ FROM &lt;http://bh.dbcls.jp/DAV>
+ WHERE {
+ ?alternative_names_node &lt;http://purl.uniprot.org/core/fullName> ?alternative_names .
+ ?id &lt;http://purl.uniprot.org/core/alternativeName> ?alternative_names_node
+ }
+
+====== Short name(s) ======
+ SELECT ?id ?short_name 
+ FROM &lt;http://bh.dbcls.jp/DAV>
+ WHERE {
+ ?alternative_name_node &lt;http://purl.uniprot.org/core/shortName> ?short_name .
+ ?id &lt;http://purl.uniprot.org/core/alternativeName> ?alternative_name_node
+ }
+
+====== EC ======
+ SELECT ?id ?ec
+ FROM &lt;http://bh.dbcls.jp/DAV>
+ WHERE {
+ ?alternative_name_node &lt;http://purl.uniprot.org/core/ecName> ?ec .
+ ?id &lt;http://purl.uniprot.org/core/alternativeName> ?alternative_name_node
+ }
+
+
+===== Allergen =====
+ SELECT ?id ?allergen
+ FROM &lt;http://bh.dbcls.jp/DAV>
+ WHERE {
+ ?alternative_name_node &lt;http://purl.uniprot.org/core/allergenName> ?allergen .
+ ?id &lt;http://purl.uniprot.org/core/alternativeName> ?alternative_name_node
+ }
+
+===== Biotech =====
+ SELECT ?id ?biotech
+ FROM &lt;http://bh.dbcls.jp/DAV>
+ WHERE {
+ ?alternative_name_node &lt;http://purl.uniprot.org/core/biotechName> ?biotech .
+ ?id &lt;http://purl.uniprot.org/core/alternativeName> ?alternative_name_node
+ }
+
+===== CD_antigen =====
+ SELECT ?id ?cd_antigen
+ FROM &lt;http://bh.dbcls.jp/DAV>
+ WHERE {
+ ?alternative_name_node &lt;http://purl.uniprot.org/core/cdAntigenName> ?cd_antigen .
+ ?id &lt;http://purl.uniprot.org/core/alternativeName> ?alternative_name_node
+ }
+
+===== INN =====
+ SELECT ?id ?inn
+ FROM &lt;http://bh.dbcls.jp/DAV>
+ WHERE {
+ ?alternative_name_node &lt;http://purl.uniprot.org/core/internationalNonproprietaryName> ?inn .
+ ?id &lt;http://purl.uniprot.org/core/alternativeName> ?alternative_name_node
+ }
+
+=== Gene names ===
+==== Name ====
+ SELECT ?id ?gene_names
+ FROM &lt;http://bh.dbcls.jp/DAV>
+ WHERE {
+ ?gene_names_node &lt;http://www.w3.org/2004/02/skos/core#prefLabel> ?gene_names .
+ ?id &lt;http://purl.uniprot.org/core/encodedBy> ?gene_names_node
+ }
+
+==== Synonyms ====
+ SELECT ?id ?alt_name
+ FROM &lt;http://bh.dbcls.jp/DAV>
+ WHERE {
+ ?gene_names_node &lt;http://www.w3.org/2004/02/skos/core#altLabel> ?alt_name .
+ ?id &lt;http://purl.uniprot.org/core/encodedBy> ?gene_names_node
+ }
+
+==== Ordered Locus Names ====
+ SELECT ?id ?locus_name
+ FROM &lt;http://bh.dbcls.jp/DAV>
+ WHERE {
+ ?encoded_by &lt;http://purl.uniprot.org/core/locusName> ?locus_name .
+ ?id &lt;http://purl.uniprot.org/core/encodedBy> ?encoded_by
+ }
+
+==== ORF Names ====
+ SELECT ?id ?orf_name
+ FROM &lt;http://bh.dbcls.jp/DAV>
+ WHERE {
+ ?encoded_by &lt;http://purl.uniprot.org/core/orfName> ?orf_name .
+ ?id &lt;http://purl.uniprot.org/core/encodedBy> ?encoded_by
+ }
+
+=== Encoded on ===
+ SELECT ?id ?organelle ?label
+ WHERE {
+ ?encoded_in &lt;http://www.w3.org/2000/01/rdf-schema#label> ?label .
+ ?encoded_in &lt;http://www.w3.org/2000/01/rdf-schema#subClassOf> ?organelle .
+ ?id &lt;http://purl.uniprot.org/core/encodedIn> ?encoded_in
+ }
+
+=== Organism ===
+ SELECT ?id ?organism
+ FROM &lt;http://bh.dbcls.jp/DAV>
+ WHERE {
+ ?taxonomy_id &lt;http://purl.uniprot.org/core/scientificName> ?organism .
+ ?id &lt;http://purl.uniprot.org/core/organism> ?taxonomy_id
+ }
+include=yes でRDFを取得した場合。オプションを付けずにRDFを取得した場合にはtaxonomy_idのみ取れる（その他の情報はtaxonomyのグラフから取る）
+
+=== Taxonomic identifier ===
+ SELECT ?id ?taxonomic_identifier
+ FROM &lt;http://bh.dbcls.jp/DAV>
+ WHERE {
+ ?id &lt;http://purl.uniprot.org/core/organism> ?taxonomic_identifier
+ }
+
+=== Taxonomic lineage ===
+
+=== Virus host ===
+ SELECT ?id ?host
+ FROM &lt;http://bh.dbcls.jp/DAV>
+ WHERE {
+  ?taxonomy_id &lt;http://purl.uniprot.org/core/host> ?host .
+ ?id &lt;http://purl.uniprot.org/core/organism> ?taxonomic_identifier
+ }
+
+== Protein attributes ==
+=== Sequence length ===
+ SELECT ?id ?sequence
+ FROM &lt;http://bh.dbcls.jp/DAV>
+ WHERE {
+ ?seq &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#value> ?sequence .
+ ?id &lt;http://purl.uniprot.org/core/sequence> ?seq
+ FILTER regex (?id, "uniprot") 
+ }
+で返ってくる文字列の長さ
+
+=== Sequence status ===
+ SELECT ?id ?value
+ FROM &lt;http://bh.dbcls.jp/DAV>
+ WHERE {
+ ?seq &lt;http://purl.uniprot.org/core/fragment> ?value .
+ ?id &lt;http://purl.uniprot.org/core/sequence> ?seq
+ }
+* if ?value == "single" then "Fragment" elsif ?value == "multiple" then "Fragments" elsif ?value == nil then "Complete"
+
+=== Sequence processing ===
+
+=== Protein existence ===
+ SELECT *
+ FROM &lt;http://bh.dbcls.jp/DAV>
+ WHERE {
+ ?id &lt;http://purl.uniprot.org/core/existence> ?existence
+ }
+* 5 types of evidence for the existence: 'Evidence at protein level', 'Evidence at transcript level', 'Inferred from homology', 'Predicted', 'Uncertain'
+
+== General annotation (Comments) ==
+ SELECT ?id ?type ?comment
+ FROM &lt;http://bh.dbcls.jp/DAV>
+ WHERE {
+ ?annotation &lt;http://www.w3.org/2000/01/rdf-schema#comment> ?comment .
+ ?annotation &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?type .
+ ?id &lt;http://purl.uniprot.org/core/annotation> ?annotation
+ }
+* ?type からどの項目のアノテーションか判別可能
+
+Function
+ SELECT ?id ?type ?function_annotation_comment
+ FROM &lt;http://bh.dbcls.jp/DAV>
+ WHERE {
+ ?annotation &lt;http://www.w3.org/2000/01/rdf-schema#comment> ?function_annotation_comment .
+ ?annotation &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#type> &lt;http://purl.uniprot.org/core/Function_Annotation> .
+ ?id &lt;http://purl.uniprot.org/core/annotation> ?annotation
+ }
+
+Catalytic activity
+ SELECT ?id ?catalytic_activity_annotation_comment
+ FROM &lt;http://bh.dbcls.jp/DAV>
+ WHERE {
+ ?annotation &lt;http://www.w3.org/2000/01/rdf-schema#comment> ?catalytic_activity_annotation_comment .
+ ?annotation &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#type> &lt;http://purl.uniprot.org/core/Catalytic_Activity_Annotation> .
+ ?id &lt;http://purl.uniprot.org/core/annotation> ?annotation
+ }
+
+Cofactor
+ SELECT ?id ?cofactor_annotation_comment
+ FROM &lt;http://bh.dbcls.jp/DAV>
+ WHERE {
+ ?annotation &lt;http://www.w3.org/2000/01/rdf-schema#comment> ?cofactor_annotation_comment .
+ ?annotation &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#type> &lt;http://purl.uniprot.org/core/Cofactor_Annotation> .
+ ?id &lt;http://purl.uniprot.org/core/annotation> ?annotation
+ }
+
+Enzyme regulation
+ SELECT ?id ?enzyme_regulation_comment
+ FROM &lt;http://bh.dbcls.jp/DAV>
+ WHERE {
+ ?annotation &lt;http://www.w3.org/2000/01/rdf-schema#comment> ?enzyme_regulation_comment .
+ ?annotation &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#type> &lt;http://purl.uniprot.org/core/Enzyme_Regulation_Annotation> .
+ ?id &lt;http://purl.uniprot.org/core/annotation> ?annotation
+ }
+
+Biophysicochemical properties
+*?type = http://purl.uniprot.org/core/Biophysicochemical_Annotation
+
+Subunit structure
+ SELECT ?id ?subunit_annotation_comment
+ FROM &lt;http://bh.dbcls.jp/DAV>
+ WHERE {
+ ?annotation &lt;http://www.w3.org/2000/01/rdf-schema#comment> ?subunit_annotation_comment .
+ ?annotation &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#type> &lt;http://purl.uniprot.org/core/Subunit_Annotation> .
+ ?id &lt;http://purl.uniprot.org/core/annotation> ?annotation
+ }
+
+Pathway
+ SELECT ?id ?pathway_annotation_comment
+ FROM &lt;http://bh.dbcls.jp/DAV>
+ WHERE {
+ ?annotation &lt;http://www.w3.org/2000/01/rdf-schema#comment> ?pathway_annotation_comment .
+ ?annotation &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#type> &lt;http://purl.uniprot.org/core/Pathway_Annotation> .
+ ?id &lt;http://purl.uniprot.org/core/annotation> ?annotation
+ }
+
+Subcellular location
+ SELECT ?id ?location ?subcellular_location_annotation_comment
+ FROM &lt;http://bh.dbcls.jp/DAV>
+ WHERE {
+ ?annotation &lt;http://www.w3.org/2000/01/rdf-schema#comment> ?subcellular_location_annotation_comment .
+ ?located_in ?p ?location .
+ ?annotation &lt;http://purl.uniprot.org/core/locatedIn> ?located_in .
+ ?annotation &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#type> &lt;http://purl.uniprot.org/core/Subcellular_Location_Annotation> .
+ ?id &lt;http://purl.uniprot.org/core/annotation> ?annotation
+ }
+
+Tissue specificity
+ SELECT ?id ?tissue_specificity_annotation_comment
+ FROM &lt;http://bh.dbcls.jp/DAV>
+ WHERE {
+ ?annotation &lt;http://www.w3.org/2000/01/rdf-schema#comment> ?tissue_specificity_annotation_comment .
+ ?annotation &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#type> &lt;http://purl.uniprot.org/core/Tissue_Specificity_Annotation> .
+ ?id &lt;http://purl.uniprot.org/core/annotation> ?annotation
+ }
+
+Developmental stage
+ SELECT ?id ?developmental_stage_annotation_comment
+ FROM &lt;http://bh.dbcls.jp/DAV>
+ WHERE {
+ ?annotation &lt;http://www.w3.org/2000/01/rdf-schema#comment> ?developmental_stage_annotation_comment .
+ ?annotation &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#type> &lt;http://purl.uniprot.org/core/Developmental_Stage_Annotation> .
+ ?id &lt;http://purl.uniprot.org/core/annotation> ?annotation
+ }
+
+Induction
+ SELECT ?id ?induction_annotation_comment
+ FROM &lt;http://bh.dbcls.jp/DAV>
+ WHERE {
+ ?annotation &lt;http://www.w3.org/2000/01/rdf-schema#comment> ?induction_annotation_comment .
+ ?annotation &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#type> &lt;http://purl.uniprot.org/core/Induction_Annotation> .
+ ?id &lt;http://purl.uniprot.org/core/annotation> ?annotation
+ }
+
+Domain
+ SELECT ?id ?domain_annotation_comment
+ FROM &lt;http://bh.dbcls.jp/DAV>
+ WHERE {
+ ?annotation &lt;http://www.w3.org/2000/01/rdf-schema#comment> ?domain_annotation_comment .
+ ?annotation &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#type> &lt;http://purl.uniprot.org/core/Domain_Annotation> .
+ ?id &lt;http://purl.uniprot.org/core/annotation> ?annotation
+ }
+
+Post-translational modification	
+ SELECT ?id ?ptm_annotation_comment
+ FROM &lt;http://bh.dbcls.jp/DAV>
+ WHERE {
+ ?annotation &lt;http://www.w3.org/2000/01/rdf-schema#comment> ?ptm_annotation_comment .
+ ?annotation &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#type> &lt;http://purl.uniprot.org/core/PTM_Annotation> .
+ ?id &lt;http://purl.uniprot.org/core/annotation> ?annotation
+ }
+
+RNA editing
+*?type = http://purl.uniprot.org/core/RNA_Editing_Annotation
+
+Mass spectrometry
+*?type = http://purl.uniprot.org/core/Mass_Spectrometry_Annotation
+
+Polymorphism
+*?type = http://purl.uniprot.org/core/Polymorphism_Annotation
+
+Involvement in disease
+*?type = http://purl.uniprot.org/core/Disease_Annotation ?
+
+Disruption phenotype
+*?type = http://purl.uniprot.org/core/Disruption_Phenotype_Annotation
+
+Allergenic properties
+*?type = http://purl.uniprot.org/core/Allergen_Annotation ?
+
+Toxic dose
+*?type = http://purl.uniprot.org/core/Toxic_Dose_Annotation
+
+Biotechnological use
+*?type = http://purl.uniprot.org/core/Biotechnology_Annotation ?
+
+Pharmaceutical use
+*?type = http://purl.uniprot.org/core/Pharmaceutical_Annotation
+
+Miscellaneous
+
+Sequence similarities
+ SELECT ?id ?similarity_annotation_comment
+ FROM &lt;http://bh.dbcls.jp/DAV>
+ WHERE {
+ ?annotation &lt;http://www.w3.org/2000/01/rdf-schema#comment> ?similarity_annotation_comment .
+ ?annotation &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#type> &lt;http://purl.uniprot.org/core/Similarity_Annotation> .
+ ?id &lt;http://purl.uniprot.org/core/annotation> ?annotation
+ }
+
+Caution
+*?type = http://purl.uniprot.org/core/Caution_Annotation
+
+Sequence caution
+*?type = http://purl.uniprot.org/core/Sequence_Caution_Annotation
+
+== Ontologies ==
+=== Keywords ===
+Biological process
+
+Cellular component
+
+Coding sequence diversity
+
+Developmental stage
+
+Disease
+
+Domain
+
+Ligand
+
+Molecular function
+
+Post-translational modification
+
+Technical term
+
+=== Gene Ontology (GO) ===
+Biological process
+
+Cellular component
+
+Molecular function
+
+== Binary interactions ==
+ SELECT ?id ?interact_with ?interact_entry ?num_experiments ?participant ?xeno
+ FROM &lt;http://bh.dbcls.jp/DAV>
+ WHERE {
+ ?participant1 &lt;http://www.w3.org/2000/01/rdf-schema#label> ?interact_with .
+ ?participant1 &lt;http://www.w3.org/2002/07/owl#sameAs> ?interact_entry .
+ ?interaction &lt;http://purl.uniprot.org/core/xeno> ?xeno .
+ ?interaction &lt;http://purl.uniprot.org/core/experiments> ?num_experiments .
+ ?interaction &lt;http://purl.uniprot.org/core/participant> ?participant1 .
+ ?interaction &lt;http://purl.uniprot.org/core/participant> ?participant .
+ ?id &lt;http://purl.uniprot.org/core/interaction> ?interaction
+ }
+* with, entry, #Exp., IntAct, Notes の5項目で一セットの情報
+
+== Alternative products ==
+=== General information ===
+
+=== Isoform-specific information ===
+Identifier
+
+Name and synonym(s)
+
+Description of the sequence differences
+
+Additional comments
+
+== Sequence annotation (Features) ==
+=== Molecule processing ===
+Initiator methionine
+
+Signal
+
+Transit peptide
+* Mitochondrion, Apicoplast, Chromoplast, Chloroplast, Cyanelle, Thylakoid, Amyloplast, Peroxisome, Glyoxysome, Hydrogenosome
+
+Propeptide
+ SELECT ?id ?begin ?end ?comment ?annotation
+ FROM &lt;http://bh.dbcls.jp/DAV>
+ WHERE {
+ ?range &lt;http://purl.uniprot.org/core/end> ?end .
+ ?range &lt;http://purl.uniprot.org/core/begin> ?begin .
+ ?annotation &lt;http://purl.uniprot.org/core/range> ?range .
+ ?annotation &lt;http://www.w3.org/2000/01/rdf-schema#comment> ?comment .
+ ?annotation &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#type> &lt;http://purl.uniprot.org/core/Propeptide_Annotation> .
+ ?id &lt;http://purl.uniprot.org/core/annotation> ?annotation
+ }
+
+Chain
+ SELECT ?id ?begin ?end ?comment ?annotation
+ FROM &lt;http://bh.dbcls.jp/DAV>
+ WHERE {
+ ?range &lt;http://purl.uniprot.org/core/end> ?end .
+ ?range &lt;http://purl.uniprot.org/core/begin> ?begin .
+ ?annotation &lt;http://purl.uniprot.org/core/range> ?range .
+ ?annotation &lt;http://www.w3.org/2000/01/rdf-schema#comment> ?comment .
+ ?annotation &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#type> &lt;http://purl.uniprot.org/core/Chain_Annotation> .
+ ?id &lt;http://purl.uniprot.org/core/annotation> ?annotation
+ }
+
+Peptide
+
+=== Regions ===
+Topological domain
+
+Transmembrane
+
+Intramembrane
+
+Domain
+
+Repeat
+
+Calcium binding
+
+Zinc finger
+
+DNA binding
+
+Nucleotide binding
+ SELECT ?id ?begin ?end ?comment
+ FROM &lt;http://bh.dbcls.jp/DAV>
+ WHERE {
+ ?range &lt;http://purl.uniprot.org/core/end> ?end .
+ ?range &lt;http://purl.uniprot.org/core/begin> ?begin .
+ ?annotation &lt;http://purl.uniprot.org/core/range> ?range .
+ ?annotation &lt;http://www.w3.org/2000/01/rdf-schema#comment> ?comment .
+ ?annotation &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#type> &lt;http://purl.uniprot.org/core/NP_Binding_Annotation> .
+ ?id &lt;http://purl.uniprot.org/core/annotation> ?annotation
+ }
+
+Region
+ SELECT ?id ?begin ?end (?comment AS ?merge) 
+ WHERE { OPTIONAL {
+ ?range &lt;http://purl.uniprot.org/core/end> ?end .
+ ?range &lt;http://purl.uniprot.org/core/begin> ?begin .
+ ?annotation &lt;http://purl.uniprot.org/core/range> ?range .
+ ?annotation &lt;http://www.w3.org/2000/01/rdf-schema#comment> ?comment .
+ ?annotation &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#type> &lt;http://purl.uniprot.org/core/Region_Annotation> .
+ ?id &lt;http://purl.uniprot.org/core/annotation> ?annotation .
+ }}
+
+Coiled coil
+
+Motif
+ SELECT ?id ?begin ?end ?comment
+ FROM &lt;http://bh.dbcls.jp/DAV>
+ WHERE {
+ ?range &lt;http://purl.uniprot.org/core/end> ?end .
+ ?range &lt;http://purl.uniprot.org/core/begin> ?begin .
+ ?annotation &lt;http://purl.uniprot.org/core/range> ?range .
+ ?annotation &lt;http://www.w3.org/2000/01/rdf-schema#comment> ?comment .
+ ?annotation &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#type> &lt;http://purl.uniprot.org/core/Motif_Annotation> .
+ ?id &lt;http://purl.uniprot.org/core/annotation> ?annotation
+ }
+
+Compositional bias
+
+=== Sites ===
+Active site
+
+Metal binding
+
+Binding site
+
+Site
+
+=== Amino acid modifications ===
+Non-standard residue
+
+Modified residue
+ SELECT ?id ?begin ?end ?comment
+ FROM &lt;http://bh.dbcls.jp/DAV>
+ WHERE {
+ ?range &lt;http://purl.uniprot.org/core/end> ?end .
+ ?range &lt;http://purl.uniprot.org/core/begin> ?begin .
+ ?annotation &lt;http://purl.uniprot.org/core/range> ?range .
+ ?annotation &lt;http://www.w3.org/2000/01/rdf-schema#comment> ?comment .
+ ?annotation &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#type> &lt;http://purl.uniprot.org/core/Modified_Residue_Annotation> .
+ ?id &lt;http://purl.uniprot.org/core/annotation> ?annotation
+ }
+
+Lipidation
+ SELECT ?id ?begin ?end ?comment
+ FROM &lt;http://bh.dbcls.jp/DAV>
+ WHERE {
+ ?range &lt;http://purl.uniprot.org/core/end> ?end .
+ ?range &lt;http://purl.uniprot.org/core/begin> ?begin .
+ ?annotation &lt;http://purl.uniprot.org/core/range> ?range .
+ ?annotation &lt;http://www.w3.org/2000/01/rdf-schema#comment> ?comment .
+ ?annotation &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#type> &lt;http://purl.uniprot.org/core/Lipidation_Annotation> .
+ ?id &lt;http://purl.uniprot.org/core/annotation> ?annotation
+ }
+
+Glycosylation
+
+Disulfide bond
+
+Cross-link
+
+=== Natural variations ===
+Alternative sequence
+ SELECT ?id ?begin ?end ?comment
+ FROM &lt;http://bh.dbcls.jp/DAV>
+ WHERE {
+ ?range &lt;http://purl.uniprot.org/core/end> ?end .
+ ?range &lt;http://purl.uniprot.org/core/begin> ?begin .
+ ?annotation &lt;http://purl.uniprot.org/core/range> ?range .
+ ?annotation &lt;http://www.w3.org/2000/01/rdf-schema#comment> ?comment .
+ ?annotation &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#type> &lt;http://purl.uniprot.org/core/Alternative_Sequence_Annotation> .
+ ?id &lt;http://purl.uniprot.org/core/annotation> ?annotation
+ }
+
+Natural variant
+
+=== Experimental info ===
+Mutagenesis
+ SELECT ?id ?begin ?end ?substitution ?comment
+ FROM &lt;http://bh.dbcls.jp/DAV>
+ WHERE {
+ ?range &lt;http://purl.uniprot.org/core/end> ?end .
+ ?range &lt;http://purl.uniprot.org/core/begin> ?begin .
+ ?annotation &lt;http://purl.uniprot.org/core/range> ?range .
+ ?annotation &lt;http://purl.uniprot.org/core/substitution> ?substitution .
+ ?annotation &lt;http://www.w3.org/2000/01/rdf-schema#comment> ?comment .
+ ?annotation &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#type> &lt;http://purl.uniprot.org/core/Mutagenesis_Annotation> .
+ ?id &lt;http://purl.uniprot.org/core/annotation> ?annotation
+ }
+
+Sequence uncertainty
+
+Sequence conflict
+
+Non-adjacent residues
+
+Non-terminal residue
+
+=== Secondary structure ===
+Helix
+ SELECT ?id ?begin ?end
+ FROM &lt;http://bh.dbcls.jp/DAV>
+ WHERE {
+ ?range &lt;http://purl.uniprot.org/core/end> ?end .
+ ?range &lt;http://purl.uniprot.org/core/begin> ?begin .
+ ?annotation &lt;http://purl.uniprot.org/core/range> ?range .
+ ?annotation &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#type> &lt;http://purl.uniprot.org/core/Helix_Annotation> .
+ ?id &lt;http://purl.uniprot.org/core/annotation> ?annotation
+ }
+
+Turn
+ SELECT ?id ?begin ?end
+ FROM &lt;http://bh.dbcls.jp/DAV>
+ WHERE {
+ ?range &lt;http://purl.uniprot.org/core/end> ?end .
+ ?range &lt;http://purl.uniprot.org/core/begin> ?begin .
+ ?annotation &lt;http://purl.uniprot.org/core/range> ?range .
+ ?annotation &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#type> &lt;http://purl.uniprot.org/core/Turn_Annotation> .
+ ?id &lt;http://purl.uniprot.org/core/annotation> ?annotation
+ }
+
+Beta strand
+ SELECT ?id ?begin ?end
+ FROM &lt;http://bh.dbcls.jp/DAV>
+ WHERE {
+ ?range &lt;http://purl.uniprot.org/core/end> ?end .
+ ?range &lt;http://purl.uniprot.org/core/begin> ?begin .
+ ?annotation &lt;http://purl.uniprot.org/core/range> ?range .
+ ?annotation &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#type> &lt;http://purl.uniprot.org/core/Beta_Strand_Annotation> .
+ ?id &lt;http://purl.uniprot.org/core/annotation> ?annotation
+ }
+
+== Sequences ==
+Sequence
+ SELECT ?id ?sequence
+ FROM &lt;http://bh.dbcls.jp/DAV>
+ WHERE {
+ ?seq &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#value> ?sequence .
+ ?id &lt;http://purl.uniprot.org/core/sequence> ?seq
+ FILTER regex (?id, "uniprot") 
+ }
+
+Length
+* ↑Sequenceの結果返ってくる文字列の長さ
+
+Mass (Da)
+ SELECT ?id ?mass
+ FROM &lt;http://bh.dbcls.jp/DAV>
+ WHERE {
+ ?seq &lt;http://purl.uniprot.org/core/mass> ?mass .
+ ?id &lt;http://purl.uniprot.org/core/sequence> ?seq
+ FILTER regex (?id, "uniprot") 
+ }
+
+== References ==
+Number
+
+Title
+
+Author(s) names
+
+Reference information
+
+Cross-references
+ SELECT ?id ?o ?pmid
+ FROM &lt;http://bh.dbcls.jp/DAV>
+ WHERE {
+ ?o &lt;http://www.w3.org/2004/02/skos/core#exactMatch> ?pmid .
+ ?id &lt;http://purl.uniprot.org/core/citation> ?o
+ FILTER regex (?pmid, "pubmed")
+ }
+http://purl.uniprot.org/pubmed/#{pmid}
+
+Citation content (Cited for)
+
+Sequence origin
+
+== Web resources ==
+
+== Cross-references ==
+ SELECT ?id ?xref_id
+ FROM &lt;http://bh.dbcls.jp/DAV>
+ WHERE {
+ ?id &lt;http://www.w3.org/2000/01/rdf-schema#seeAlso> ?xref_id
+ }
+http://purl.uniprot.org/#{DB_name}/#{id}
+
+* total 145 DBs
+=== 2D gel databases ===
+* &lt;del>2DBase-Ecoli&lt;/del>, &lt;del>ANU-2DPAGE&lt;/del>, &lt;del>COMPLUYEAST-2DPAGE&lt;/del>, &lt;del>Cornea-2DPAGE&lt;/del>, &lt;del>DOSAC-COBS-2DPAGE&lt;/del>, &lt;del>OGP&lt;/del>, &lt;del>PHCI-2DPAGE&lt;/del>, &lt;del>PMMA-2DPAGE&lt;/del>, &lt;del>Rat-heart-2DPAGE&lt;/del>, &lt;del>REPRODUCTION-2DPAGE&lt;/del>, &lt;del>Siena-2DPAGE&lt;/del>, &lt;del>SWISS-2DPAGE&lt;/del>, &lt;del>UCD-2DPAGE&lt;/del>, &lt;del>World-2DPAGE&lt;/del>, &lt;del>Aarhus/Ghent-2DPAGE&lt;/del>, &lt;del>ECO2DBASE&lt;/del>
+* 16 DBs (0 DB)
+
+=== 3D structure databases ===
+* '''DisProt''', &lt;del>HSSP&lt;/del>, &lt;del>ModBase&lt;/del>, '''PDB''', &lt;del>PDBsum&lt;/del>, &lt;del>ProteinModelPortal&lt;/del>, &lt;del>SMR&lt;/del>
+* 7 DBs (2 DBs)
+
+=== Enzyme and pathway databases ===
+* '''BioCyc''', '''BRENDA''', &lt;del>ENZYME&lt;/del>, '''Pathway_Interaction_DB''', '''Reactome'''
+* 5 DBs
+
+=== Family and domain databases ===
+* '''Gene3D''', '''HAMAP''', '''InterPro''', '''KO''', '''PANTHER''', '''Pfam''', '''PIRSF''', '''PRINTS''', '''ProDom''', '''PROSITE''', '''SMART''', '''SUPFAM''', '''TIGRFAMs'''
+* 13 DBs (13 DBs)
+
+=== Gene expression databases ===
+* &lt;del>ArrayExpress&lt;/del>, &lt;del>Bgee&lt;/del>, '''CleanEx''', &lt;del>Genevestigator&lt;/del>, '''GermOnline'''
+* 5 DBs
+
+=== Genome annotation databases ===
+* &lt;del>CMR&lt;/del>, '''Ensembl''', '''EnsemblBacteria''', '''EnsemblFungi''', '''EnsemblMetazoa''', '''EnsemblPlants''', '''EnsemblProtists''', '''GeneID''', '''GenomeReviews''', '''KEGG''', '''NMPDR''', '''TIGR''', '''VectorBase''', '''UCSC''', '''PATRIC'''
+* 15 DBs (14 DBs)
+
+=== Ontologies ===
+* GO
+* 1 DB
+
+=== Organism-specific databases ===
+* '''AGD''', '''ArachnoServer''', '''CGD''', '''ConoServer''', '''CTD''', '''CYGD''', '''dictyBase''', '''EchoBASE''', '''EcoGene''', '''euHCVdb''', '''EuPathDB''', '''FlyBase''', &lt;del>GenAtlas&lt;/del>, '''GeneCards''', '''GeneDB_Spombe''', '''GeneFarm''', '''GenoList''', &lt;del>Gramene&lt;/del>, '''H-InvDB''', '''HGNC''', '''HPA''', &lt;del>HUGE&lt;/del>, '''LegioList''', '''Leproma''', '''MaizeGDB''', '''MGI''', &lt;del>Micado&lt;/del>, '''MIM''', '''neXtProt''', '''Orphanet''', '''PharmGKB''', '''PseudoCAP''', '''RGD''', &lt;del>Rouge&lt;/del>, '''SGD''', '''TAIR''', '''TubercuList''', '''WormBase''', '''Xenbase''', '''ZFIN'''
+* 40 DBs
+
+=== Phylogenomic databases ===
+* '''eggNOG''', '''GeneTree''', '''HOGENOM''', '''HOVERGEN''', &lt;del>InParanoid&lt;/del>, '''OMA''', '''OrthoDB''', &lt;del>PhylomeDB&lt;/del>, '''ProtClustDB'''
+* 9 DBs
+
+=== Polymorphism databases ===
+* dbSNP (in Natural variations), '''DMDM'''
+* 2 DBs (1DB)
+
+=== &lt;del>Protocols and materials databases&lt;/del> ===
+* &lt;del>SBKB&lt;/del>
+* 1 DB (0 DB)
+
+=== Proteomic databases ===
+* &lt;del>PeptideAtlas&lt;/del>, &lt;del>PRIDE&lt;/del>, &lt;del>ProMEX&lt;/del>
+* 3 DBs (0 DB)
+
+=== Protein-protein interaction databases ===
+* '''DIP''', &lt;del>IntAct&lt;/del>, '''MINT''', &lt;del>STRING&lt;/del>
+* 4 DBs (2 DBs)
+
+=== Protein family/group databases ===
+* '''Allergome''', &lt;del>AraC-XylS&lt;/del>, '''CAZy''', &lt;del>GPCRDB&lt;/del>, &lt;del>IMGT&lt;/del>, '''MEROPS''', '''PeroxiBase''', '''PptaseDB''', '''REBASE''', '''TCDB'''
+* 10 DBs (7 DBs)
+
+=== &lt;del>PTM databases&lt;/del> ===
+* &lt;del>GlycoSuiteDB&lt;/del>, &lt;del>PhosphoSite&lt;/del>, &lt;del>PhosSite&lt;/del>
+* 3 DBs (0 DB)
+
+=== Sequence databases ===
+* '''EMBL/GenBank/DDBJ''', '''IPI''', '''PIR''', '''RefSeq''', '''UniGene'''
+* 7 DBs (5 DBs)
+
+=== Other ===
+* &lt;del>BindingDB&lt;/del>, '''DrugBank''', '''NextBio''', &lt;del>PMAP-CutDB&lt;/del>, &lt;del>ProtoNet&lt;/del>, &lt;del>SOURCE&lt;/del>
+* 6 DBs (2 DBs)
+
+== Entry information ==
+Entry name
+ SELECT ?id ?entry_name
+ FROM &lt;http://bh.dbcls.jp/DAV>
+ WHERE { ?id &lt;http://purl.uniprot.org/core/mnemonic> ?entry_name
+ FILTER regex(?id, "http://purl.uniprot.org/uniprot")
+ }
+
+Accession
+* UniProt ID itself
+
+Entry history
+
+Entry status
+ SELECT ?id ?reviewed
+ FROM &lt;http://bh.dbcls.jp/DAV>
+ WHERE { ?id &lt;http://purl.uniprot.org/core/reviewed> ?reviewed
+ FILTER regex(?id, "http://purl.uniprot.org/uniprot")
+ }
+* 1=reviewed, 0=unreviewed
+
+== General annotation and Sequence annotation ==
+ SELECT ?id ?type ?comment
+ FROM &lt;http://bh.dbcls.jp/DAV>
+ WHERE {
+ ?annotation &lt;http://www.w3.org/2000/01/rdf-schema#comment> ?comment .
+ ?annotation &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?type .
+ ?id &lt;http://purl.uniprot.org/core/annotation> ?annotation
+ }
+
+* typeから、どの項目のアノテーションか判別可能</textarea><div class='templatesUsed'>
+
+</div>
+<p id="mw-returnto"><a href="/mw/BH11.11/%E7%B5%B1%E5%90%88%E6%A4%9C%E7%B4%A2%E3%81%A8RDF%E3%81%8B%E3%82%89%E3%81%AE%E8%A1%A8%E3%83%87%E3%83%BC%E3%82%BF%E7%94%9F%E6%88%90/uniprot_sparql" title="BH11.11/統合検索とRDFからの表データ生成/uniprot sparql">BH11.11/統合検索とRDFからの表データ生成/uniprot sparql</a>に戻る。</p>
+<div class="printfooter">
+「<a href="http://wiki.lifesciencedb.jp/mw/BH11.11/%E7%B5%B1%E5%90%88%E6%A4%9C%E7%B4%A2%E3%81%A8RDF%E3%81%8B%E3%82%89%E3%81%AE%E8%A1%A8%E3%83%87%E3%83%BC%E3%82%BF%E7%94%9F%E6%88%90/uniprot_sparql">http://wiki.lifesciencedb.jp/mw/BH11.11/%E7%B5%B1%E5%90%88%E6%A4%9C%E7%B4%A2%E3%81%A8RDF%E3%81%8B%E3%82%89%E3%81%AE%E8%A1%A8%E3%83%87%E3%83%BC%E3%82%BF%E7%94%9F%E6%88%90/uniprot_sparql</a>」より作成</div>
+		<div id='catlinks' class='catlinks catlinks-allhidden'></div>		<!-- end content -->
+				<div class="visualClear"></div>
+	</div>
+</div></div>
+<div id="column-one">
+	<div id="p-cactions" class="portlet">
+		<h5>表示</h5>
+		<div class="pBody">
+			<ul>
+				 <li id="ca-nstab-main" class="selected"><a href="/mw/BH11.11/%E7%B5%B1%E5%90%88%E6%A4%9C%E7%B4%A2%E3%81%A8RDF%E3%81%8B%E3%82%89%E3%81%AE%E8%A1%A8%E3%83%87%E3%83%BC%E3%82%BF%E7%94%9F%E6%88%90/uniprot_sparql" title="本文を表示 [c]" accesskey="c">ページ</a></li>
+				 <li id="ca-talk" class="new"><a href="/mw/index.php?title=%E3%83%8E%E3%83%BC%E3%83%88:BH11.11/%E7%B5%B1%E5%90%88%E6%A4%9C%E7%B4%A2%E3%81%A8RDF%E3%81%8B%E3%82%89%E3%81%AE%E8%A1%A8%E3%83%87%E3%83%BC%E3%82%BF%E7%94%9F%E6%88%90/uniprot_sparql&amp;action=edit&amp;redlink=1" title="記事についての議論 [t]" accesskey="t">議論</a></li>
+				 <li id="ca-viewsource" class="selected"><a href="/mw/index.php?title=BH11.11/%E7%B5%B1%E5%90%88%E6%A4%9C%E7%B4%A2%E3%81%A8RDF%E3%81%8B%E3%82%89%E3%81%AE%E8%A1%A8%E3%83%87%E3%83%BC%E3%82%BF%E7%94%9F%E6%88%90/uniprot_sparql&amp;action=edit" title="このページは保護されています。&#10;ページのソースを閲覧できます。 [e]" accesskey="e">ソースを表示</a></li>
+				 <li id="ca-history"><a href="/mw/index.php?title=BH11.11/%E7%B5%B1%E5%90%88%E6%A4%9C%E7%B4%A2%E3%81%A8RDF%E3%81%8B%E3%82%89%E3%81%AE%E8%A1%A8%E3%83%87%E3%83%BC%E3%82%BF%E7%94%9F%E6%88%90/uniprot_sparql&amp;action=history" title="このページの過去の版 [h]" accesskey="h">履歴</a></li>
+			</ul>
+		</div>
+	</div>
+	<div class="portlet" id="p-personal">
+		<h5>個人用ツール</h5>
+		<div class="pBody">
+			<ul>
+				<li id="pt-anonuserpage"><a href="/mw/%E5%88%A9%E7%94%A8%E8%80%85:172.18.8.51" title="自分が編集しているIPアドレスの利用者ページ [.]" accesskey="." class="new">172.18.8.51</a></li>
+				<li id="pt-anontalk"><a href="/mw/%E5%88%A9%E7%94%A8%E8%80%85%E2%80%90%E4%BC%9A%E8%A9%B1:172.18.8.51" title="このIPアドレスからなされた編集についての議論 [n]" accesskey="n" class="new">このIPアドレスのトーク</a></li>
+				<li id="pt-anonlogin"><a href="/mw/index.php?title=%E7%89%B9%E5%88%A5:%E3%83%AD%E3%82%B0%E3%82%A4%E3%83%B3&amp;returnto=BH11.11/%E7%B5%B1%E5%90%88%E6%A4%9C%E7%B4%A2%E3%81%A8RDF%E3%81%8B%E3%82%89%E3%81%AE%E8%A1%A8%E3%83%87%E3%83%BC%E3%82%BF%E7%94%9F%E6%88%90/uniprot_sparql&amp;returntoquery=action%3Dedit" title="ログインすることが推奨されます。ただし、必須ではありません。 [o]" accesskey="o">ログイン</a></li>
+				<li id="pt-openidlogin"><a href="/mw/index.php?title=%E7%89%B9%E5%88%A5:OpenID%E3%83%AD%E3%82%B0%E3%82%A4%E3%83%B3&amp;returnto=BH11.11/%E7%B5%B1%E5%90%88%E6%A4%9C%E7%B4%A2%E3%81%A8RDF%E3%81%8B%E3%82%89%E3%81%AE%E8%A1%A8%E3%83%87%E3%83%BC%E3%82%BF%E7%94%9F%E6%88%90/uniprot_sparql">OpenIDでログイン</a></li>
+			</ul>
+		</div>
+	</div>
+	<div class="portlet" id="p-logo">
+		<a style="background-image: url(/mw/images/togowiki-logo.png);" href="/mw/%E3%83%A1%E3%82%A4%E3%83%B3%E3%83%9A%E3%83%BC%E3%82%B8" title="メインページに移動"></a>
+	</div>
+	<script type="text/javascript"> if (window.isMSIE55) fixalpha(); </script>
+	<div class='generated-sidebar portlet' id='p-navigation'>
+		<h5>案内</h5>
+		<div class='pBody'>
+			<ul>
+				<li id="n-mainpage-description"><a href="/mw/%E3%83%A1%E3%82%A4%E3%83%B3%E3%83%9A%E3%83%BC%E3%82%B8" title="メインページに移動する [z]" accesskey="z">メインページ</a></li>
+				<li id="n-portal"><a href="/mw/TogoWiki:%E3%82%B3%E3%83%9F%E3%83%A5%E3%83%8B%E3%83%86%E3%82%A3%E3%83%BB%E3%83%9D%E3%83%BC%E3%82%BF%E3%83%AB" title="このプロジェクトについて、できること、情報を入手する場所">コミュニティ・ポータル</a></li>
+				<li id="n-currentevents"><a href="/mw/TogoWiki:%E6%9C%80%E8%BF%91%E3%81%AE%E5%87%BA%E6%9D%A5%E4%BA%8B" title="最近の出来事について予備知識を得る">最近の出来事</a></li>
+				<li id="n-recentchanges"><a href="/mw/%E7%89%B9%E5%88%A5:%E6%9C%80%E8%BF%91%E3%81%AE%E6%9B%B4%E6%96%B0" title="ウィキにおける最近の更新の一覧 [r]" accesskey="r">最近の更新</a></li>
+				<li id="n-randompage"><a href="/mw/%E7%89%B9%E5%88%A5:%E3%81%8A%E3%81%BE%E3%81%8B%E3%81%9B%E8%A1%A8%E7%A4%BA" title="無作為に抽出されたページの読み込み [x]" accesskey="x">おまかせ表示</a></li>
+				<li id="n-help"><a href="/mw/Help:%E7%9B%AE%E6%AC%A1" title="情報を得る場所">ヘルプ</a></li>
+			</ul>
+		</div>
+	</div>
+	<div id="p-search" class="portlet">
+		<h5><label for="searchInput">検索</label></h5>
+		<div id="searchBody" class="pBody">
+			<form action="/mw/index.php" id="searchform">
+				<input type='hidden' name="title" value="特別:検索"/>
+				<input id="searchInput" title="TogoWiki内を検索" accesskey="f" type="search" name="search" />
+				<input type='submit' name="go" class="searchButton" id="searchGoButton"	value="表示" title="厳密に一致する名前のページが存在すれば、そのページへ移動します" />&nbsp;
+				<input type='submit' name="fulltext" class="searchButton" id="mw-searchButton" value="検索" title="入力された文字列が含まれるページを検索します" />
+			</form>
+		</div>
+	</div>
+	<div class="portlet" id="p-tb">
+		<h5>ツールボックス</h5>
+		<div class="pBody">
+			<ul>
+				<li id="t-whatlinkshere"><a href="/mw/%E7%89%B9%E5%88%A5:%E3%83%AA%E3%83%B3%E3%82%AF%E5%85%83/BH11.11/%E7%B5%B1%E5%90%88%E6%A4%9C%E7%B4%A2%E3%81%A8RDF%E3%81%8B%E3%82%89%E3%81%AE%E8%A1%A8%E3%83%87%E3%83%BC%E3%82%BF%E7%94%9F%E6%88%90/uniprot_sparql" title="ここにリンクしている全ウィキのページの一覧 [j]" accesskey="j">リンク元</a></li>
+				<li id="t-recentchangeslinked"><a href="/mw/%E7%89%B9%E5%88%A5:%E9%96%A2%E9%80%A3%E3%83%9A%E3%83%BC%E3%82%B8%E3%81%AE%E6%9B%B4%E6%96%B0%E7%8A%B6%E6%B3%81/BH11.11/%E7%B5%B1%E5%90%88%E6%A4%9C%E7%B4%A2%E3%81%A8RDF%E3%81%8B%E3%82%89%E3%81%AE%E8%A1%A8%E3%83%87%E3%83%BC%E3%82%BF%E7%94%9F%E6%88%90/uniprot_sparql" title="このページからリンクしているページの最近の更新 [k]" accesskey="k">関連ページの更新状況</a></li>
+<li id="t-specialpages"><a href="/mw/%E7%89%B9%E5%88%A5:%E7%89%B9%E5%88%A5%E3%83%9A%E3%83%BC%E3%82%B8%E4%B8%80%E8%A6%A7" title="特別ページの一覧 [q]" accesskey="q">特別ページ</a></li>
+			</ul>
+		</div>
+	</div>
+</div><!-- end of the left (by default at least) column -->
+<div class="visualClear"></div>
+<div id="footer">
+	<div id="f-poweredbyico"><a href="http://www.mediawiki.org/"><img src="/mw/skins/common/images/poweredby_mediawiki_88x31.png" height="31" width="88" alt="Powered by MediaWiki" /></a></div>
+	<div id="f-copyrightico"><a href="http://creativecommons.org/licenses/by/3.0/"><img src="http://i.creativecommons.org/l/by/3.0/88x31.png" alt="Attribution 3.0 Unported" width="88" height="31" /></a></div>
+	<ul id="f-list">
+		<li id="privacy"><a href="/mw/TogoWiki:%E3%83%97%E3%83%A9%E3%82%A4%E3%83%90%E3%82%B7%E3%83%BC%E3%83%BB%E3%83%9D%E3%83%AA%E3%82%B7%E3%83%BC" title="TogoWiki:プライバシー・ポリシー">プライバシー・ポリシー</a></li>
+		<li id="about"><a href="/mw/TogoWiki:TogoWiki%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6" title="TogoWiki:TogoWikiについて">TogoWikiについて</a></li>
+		<li id="disclaimer"><a href="/mw/TogoWiki:%E5%85%8D%E8%B2%AC%E4%BA%8B%E9%A0%85" title="TogoWiki:免責事項">免責事項</a></li>
+	</ul>
+</div>
+</div>
+
+<script>if (window.runOnloadHook) runOnloadHook();</script>
+<!-- Served in 0.323 secs. --></body></html>

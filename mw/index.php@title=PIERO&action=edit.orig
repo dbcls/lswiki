@@ -1,0 +1,628 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html lang="ja" dir="ltr">
+<head>
+<title>ソースを表示 - TogoWiki</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta name="generator" content="MediaWiki 1.16.3" />
+<meta name="robots" content="noindex,nofollow" />
+<link rel="next" href="http://wiki.lifesciencedb.jp/mw/PIERO" />
+<link rel="shortcut icon" href="/favicon.ico" />
+<link rel="search" type="application/opensearchdescription+xml" href="/mw/opensearch_desc.php" title="TogoWiki (ja)" />
+<link rel="copyright" href="http://creativecommons.org/licenses/by/3.0/" />
+<link rel="alternate" type="application/atom+xml" title="TogoWikiのAtomフィード" href="/mw/index.php?title=%E7%89%B9%E5%88%A5:%E6%9C%80%E8%BF%91%E3%81%AE%E6%9B%B4%E6%96%B0&amp;feed=atom" />
+<!--[if IE 8]><link rel="stylesheet" href="/mw/skins/common/IE80Fixes.css?270" media="screen" /><![endif]-->
+<link rel="stylesheet" href="/mw/skins/common/shared.css?270" media="screen" />
+<link rel="stylesheet" href="/mw/skins/common/commonPrint.css?270" media="print" />
+<link rel="stylesheet" href="/mw/skins/monobook/main.css?270" media="screen" />
+<!--[if lt IE 5.5000]><link rel="stylesheet" href="/mw/skins/monobook/IE50Fixes.css?270" media="screen" /><![endif]-->
+<!--[if IE 5.5000]><link rel="stylesheet" href="/mw/skins/monobook/IE55Fixes.css?270" media="screen" /><![endif]-->
+<!--[if IE 6]><link rel="stylesheet" href="/mw/skins/monobook/IE60Fixes.css?270" media="screen" /><![endif]-->
+<!--[if IE 7]><link rel="stylesheet" href="/mw/skins/monobook/IE70Fixes.css?270" media="screen" /><![endif]-->
+<link rel="stylesheet" href="/mw/index.php?title=MediaWiki:Common.css&amp;usemsgcache=yes&amp;ctype=text%2Fcss&amp;smaxage=18000&amp;action=raw&amp;maxage=18000" />
+<link rel="stylesheet" href="/mw/index.php?title=MediaWiki:Print.css&amp;usemsgcache=yes&amp;ctype=text%2Fcss&amp;smaxage=18000&amp;action=raw&amp;maxage=18000" media="print" />
+<link rel="stylesheet" href="/mw/index.php?title=MediaWiki:Monobook.css&amp;usemsgcache=yes&amp;ctype=text%2Fcss&amp;smaxage=18000&amp;action=raw&amp;maxage=18000" />
+<link rel="stylesheet" href="/mw/index.php?title=-&amp;action=raw&amp;maxage=18000&amp;gen=css" />
+<script>
+var skin="monobook",
+stylepath="/mw/skins",
+wgUrlProtocols="http\\:\\/\\/|https\\:\\/\\/|ftp\\:\\/\\/|irc\\:\\/\\/|gopher\\:\\/\\/|telnet\\:\\/\\/|nntp\\:\\/\\/|worldwind\\:\\/\\/|mailto\\:|news\\:|svn\\:\\/\\/",
+wgArticlePath="/mw/$1",
+wgScriptPath="/mw",
+wgScriptExtension=".php",
+wgScript="/mw/index.php",
+wgVariantArticlePath=false,
+wgActionPaths={},
+wgServer="http://wiki.lifesciencedb.jp",
+wgCanonicalNamespace="",
+wgCanonicalSpecialPageName=false,
+wgNamespaceNumber=0,
+wgPageName="PIERO",
+wgTitle="PIERO",
+wgAction="edit",
+wgArticleId=613,
+wgIsArticle=false,
+wgUserName=null,
+wgUserGroups=null,
+wgUserLanguage="ja",
+wgContentLanguage="ja",
+wgBreakFrames=true,
+wgCurRevisionId=18510,
+wgVersion="1.16.3",
+wgEnableAPI=true,
+wgEnableWriteAPI=true,
+wgSeparatorTransformTable=["", ""],
+wgDigitTransformTable=["", ""],
+wgMainPageTitle="メインページ",
+wgFormattedNamespaces={"-2": "メディア", "-1": "特別", "0": "", "1": "ノート", "2": "利用者", "3": "利用者‐会話", "4": "TogoWiki", "5": "TogoWiki‐ノート", "6": "ファイル", "7": "ファイル‐ノート", "8": "MediaWiki", "9": "MediaWiki‐ノート", "10": "Template", "11": "Template‐ノート", "12": "Help", "13": "Help‐ノート", "14": "Category", "15": "Category‐ノート"},
+wgNamespaceIds={"メディア": -2, "特別": -1, "": 0, "ノート": 1, "利用者": 2, "利用者‐会話": 3, "togowiki": 4, "togowiki‐ノート": 5, "ファイル": 6, "ファイル‐ノート": 7, "mediawiki": 8, "mediawiki‐ノート": 9, "template": 10, "template‐ノート": 11, "help": 12, "help‐ノート": 13, "category": 14, "category‐ノート": 15, "画像": 6, "画像‐ノート": 7, "image": 6, "image_talk": 7},
+wgSiteName="TogoWiki",
+wgCategories=[],
+wgRestrictionEdit=[],
+wgRestrictionMove=[];
+</script><script src="/mw/skins/common/wikibits.js?270"></script>
+<script src="/mw/skins/common/edit.js?270"></script>
+<script src="/mw/skins/common/ajax.js?270"></script>
+<script src="/mw/index.php?title=-&amp;action=raw&amp;gen=js&amp;useskin=monobook&amp;270"></script>
+
+		<style type='text/css'>
+		li#pt-openidlogin {
+		  background: url(/mw/extensions/OpenID/skin/icons/openid-inputicon.png) top left no-repeat;
+		  padding-left: 20px;
+		  text-transform: none;
+		}
+		</style>
+</head>
+<body class="mediawiki ltr ns-0 ns-subject page-PIERO skin-monobook">
+<div id="globalWrapper">
+<div id="column-content"><div id="content" >
+	<a id="top"></a>
+	
+	<h1 id="firstHeading" class="firstHeading">PIERO</h1>
+	<div id="bodyContent">
+		<h3 id="siteSub">提供：TogoWiki</h3>
+		<div id="contentSub"><a href="/mw/PIERO" title="PIERO">PIERO</a>のソース</div>
+		<div id="jump-to-nav">移動： <a href="#column-one">案内</a>, <a href="#searchInput">検索</a></div>
+		<!-- start content -->
+<p>以下に示された理由により、このページの編集を行うことができません：
+</p>
+<div class="permissions-errors">
+<p>この操作は、<a href="/mw/index.php?title=TogoWiki:%E5%88%A9%E7%94%A8%E8%80%85&amp;action=edit&amp;redlink=1" class="new" title="TogoWiki:利用者（存在しないページ）">利用者</a>のグループに属する利用者のみが実行できます。
+</p>
+</div>
+<p>このページのソースを閲覧し、コピーすることができます：
+</p><textarea id="wpTextbox1" name="wpTextbox1" cols="80" rows="25" readonly="">=PIERO情報=
+==ウェブページと論文==
+* PIERO reaction ontology 公式ページ http://reactionontology.org/
+* PIERO in BioPortal http://bioportal.bioontology.org/ontologies/PIERO/
+* PIERO論文 http://www.worldscientific.com/doi/abs/10.1142/S0219720014420013
+* KCF-S論文 http://www.biomedcentral.com/1752-0509/7/S6/S2/
+
+==データ==
+* http://reactionontology.org/piero/
+* [http://wiki.lifesciencedb.jp/mw/index.php?title=BH14.14/BulkloadPieroTtl PIEROのttlのbulkload方法]
+* KCF-Sの最新情報をタブ区切りファイルにまとめました（さらにv0.4に更新予定）
+** [https://dl.dropboxusercontent.com/u/69217989/KCF-S/kcfs2count_v0.3.txt.zip kcfs2count_v0.3.txt.zip] KCF-S のIDとその意味
+** [https://dl.dropboxusercontent.com/u/69217989/KCF-S/kcfs2map_v0.3.txt.zip kcfs2map_v0.3.txt.zip] KCF-S とKEGG pathway mapとの関係
+** [https://dl.dropboxusercontent.com/u/69217989/KCF-S/kgcpd_kcfsd_v0.3.txt.zip kgcpd_kcfsd_v0.3.txt.zip] KCF-S と KEGG compound との関係
+** [https://dl.dropboxusercontent.com/u/69217989/KCF-S/kgdrg_kcfsd_v0.3.txt.zip kgdrg_kcfsd_v0.3.txt.zip] KCF-S と KEGG drug との関係
+** [https://dl.dropboxusercontent.com/u/69217989/KCF-S/knapsack_kcfsd_v0.3.txt.zip knapsack_kcfsd_v0.3.txt.zip] KCF-S と KNApSAcK との関係
+
+=PIEROとKCF-Sとの関係（[http://wiki.lifesciencedb.jp/mw/SPARQLthon30 SPARQLthon30]）=
+== 現状 ==
+
+*現在KCF-Sと呼んでいるもの
+** C1a-C1b-N1aとかのラベル = piero:kcfs
+** S00000123T とかのIDを与えた
+
+*現在substructureと呼んでいるもの = piero:substructure
+** たとえば C00002 の 20-22-22 とかいう原子の並び
+
+*現在KCFSDと呼んでいるもの
+** たとえば C00002 に S00000123T が 3個 とかを表したベクトル
+
+==理想==
+
+*個々の分子がMolfileとして持つ情報
+**分子（kegg:compound） C00002 という分子
+**分子中の原子（kegg:cpdatm）     C00002:20 C00002:21 などの原子
+**部分構造（kegg:kcfsatom）　C00002:20-21 などの部分構造（原子情報付き）
+**原子ラベル　分子中のどの原子が Carbon = C, Nitrogen = N なのか。
+
+*個々の分子がKCFまたはKCF-Sとして持つ情報
+**分子中のどの原子（kegg:cpdatom）がどのKEGGatomラベル(kegg:atom)を持つか
+**分子中のどの部分構造（kegg:kcfsatom）がどのKCF-S(kcfs:id)を持つか
+**どの原子がどのKEGGatomラベルを持つか　kcfs:cpdatmとkcfs:idの関係
+**どの部分構造がどのKCF-Sを持つか kcfs:subsatmとkcfs:idの関係 
+
+*一般的な定義（分子）
+**KEGGatom (kegg:atom) C1a, N1a など
+**KCFSlabel (kcfs:label) P1b-O1c など
+**KCFSid (kcfs:id) KEGGatomまたはKCFSlabelに与えられたID S00123Bなど
+**P1b は P1b-O1c に含まれる、などの包含関係　kcfs:idとkcfs:idの関係
+**KCFSatom (kcfs:kcfsatom)一般化したKCFS中でどの原子か指定するためのID たとえば S000123B:1 とか
+
+*一般的な反応
+**C1a は C1b に変換される、などのアラインメント情報　kcfs:idとkcfs:idの関係
+**一般化されたアラインメント（kcfs:idとkcfs:idの関係）の中でどの原子がどの原子になるか kcfs:kcfsatomとkcfs:kcfsatomの関係
+**C1a-C1b 結合が切断される、などの反応情報　kcfs:idとkcfs:idの関係
+
+*具体的な反応
+**RP0000x において C0000x:12が C0000y:13になる　kcfs:cpdatmとkcfs:cpdatmとの関係
+**RP0000x において C0000x:20-21 が C0000y:21-22になる　kcfs:subsatom と kcfs:subsatom の関係（要らない可能性）
+
+==SPARQLthon30進捗==
+* KCF-S部分構造間の階層関係
+     @prefix piero:                   &lt;http://reactionontology.org/piero/> .
+     @prefix kegg:                    &lt;http://www.kegg.jp/entry/> .
+     @prefix rdfs:                    &lt;http://www.w3.org/2000/01/rdf-schema#> .
+     @prefix kcfs:                    &lt;http://reactionontology.org/piero/kcfs#> .
+     
+     # 原子環境の階層関係
+     kcfs:S00000002A rdfs:label "C" .
+     kcfs:S00000002A rdfs:subClassOf kcfs:ATOM .
+     
+     kcfs:S00000011A rdfs:label "C8" .
+     kcfs:S00000011A rdfs:subClassOf kcfs:S00000002A .
+     
+     kcfs:S00000015A rdfs:label "C8y" .
+     kcfs:S00000015A rdfs:subClassOf kcfs:S00000011A .
+     
+     kcfs:S00000019A rdfs:label "C8x" .
+     kcfs:S00000019A rdfs:subClassOf kcfs:S00000011A .
+     
+     #部分構造の階層関係
+     kcfs:S00000039R rdfs:label               "C-C-C-C-C-C" .
+     kcfs:S00000039R rdfs:subClassOf     kcfs:RING .
+     kcfs:S00000151S rdfs:label               "C-C-C-C-C-C" .
+     kcfs:S00000151S rdfs:subClassOf     kcfs:SKELETON .
+     
+     kcfs:S00000058R rdfs:label              "C8-C8-C8-C8-C8-C8" .
+     kcfs:S00000058R rdfs:subClassOf    kcfs:S00000039R .
+     
+     kcfs:S00000740S rdfs:label              "C8-C8-C8-C8-C8-C8" .
+     kcfs:S00000740S rdfs:subClassOf     kcfs:S00000151S .
+     
+     kcfs:S00000225R rdfs:label              "C8x-C8x-C8y-C8x-C8y-C8y" .
+     kcfs:S00000225R rdfs:subClassOf    kcfs:S00000058R .
+     
+     kcfs:S00002241S rdfs:label              "C8x-C8x-C8y-C8x-C8y-C8y" .
+     kcfs:S00002241S rdfs:subClassOf    kcfs:S00000740S .
+     
+     #部分構造の含有関係
+     kcfs:S00000225R piero:hasPart kcfs:S00000019A .
+     kcfs:S00000225R piero:hasPart kcfs:S00000015A .
+     kcfs:S00000225R piero:hasPart kcfs:S00000017B .
+     kcfs:S00000225R piero:hasPart kcfs:S00000048B .
+     kcfs:S00000225R piero:hasPart kcfs:S00000028B .
+     kcfs:S00000225R piero:hasPart kcfs:S00000043T .
+     kcfs:S00000225R piero:hasPart kcfs:S00000032T .
+     kcfs:S00000225R piero:hasPart kcfs:S00000077T .
+     kcfs:S00000225R piero:hasPart kcfs:S00000072T .
+* 具体的な化合物中のKCF-S部分構造 [[http://www.genome.jp/Fig/compound/C00220.gif]]
+     @prefix piero:                   &lt;http://reactionontology.org/piero/> .
+     @prefix kegg:                    &lt;http://www.kegg.jp/entry/> .
+     @prefix rdfs:                    &lt;http://www.w3.org/2000/01/rdf-schema#> .
+     @prefix kcfs:                    &lt;http://reactionontology.org/piero/kcfs#> .
+     
+     # 化合物ID
+     kegg:C00220 rdfs:label "C00220" .
+     kegg:C00220 rdfs:subClassOf kegg:compound .
+     
+     # 化合物が持つ原子の記述
+     kegg:C00220 piero:hasCpdAtom kegg:C00220_A4 .
+     kegg:C00220_A4 rdf:type kcfs:S00000019A .
+     kegg:C00220 piero:hasCpdAtom kegg:C00220_A6 .
+     kegg:C00220_A6 rdf:type kcfs:S00000019A .
+     kegg:C00220 piero:hasCpdAtom kegg:C00220_A10 .
+     .....
+     kegg:C00220 piero:hasCpdAtom kegg:C00220_A2 .
+     kegg:C00220_A2 rdf:type kcfs:S00000015A .
+     kegg:C00220 piero:hasCpdAtom kegg:C00220_A7 .
+     kegg:C00220_A7 rdf:type kcfs:S00000015A .
+     
+     # 化合物が持つ部分構造の記述
+     kegg:C00220 piero:hasCpdRing kegg:C00220_R1 .
+     kegg:C00220_R1 piero:hasCpdAtom kegg:C00220_A6 .
+     kegg:C00220_R1 piero:hasCpdAtom kegg:C00220_A10 .
+     kegg:C00220_R1 piero:hasCpdAtom kegg:C00220_A8 .
+     kegg:C00220_R1 piero:hasCpdAtom kegg:C00220_A4 .
+     kegg:C00220_R1 piero:hasCpdAtom kegg:C00220_A1 .
+     kegg:C00220_R1 piero:hasCpdAtom kegg:C00220_A2 .
+     kegg:C00220_R1 rdf:type kcfs:S00000225R .
+     .....
+     kegg:C00220 piero:hasCpdRing kegg:C00220_R2 .
+     kegg:C00220_R2 piero:hasCpdAtom kegg:C00220_A13 .
+     kegg:C00220_R2 piero:hasCpdAtom kegg:C00220_A17 .
+     kegg:C00220_R2 piero:hasCpdAtom kegg:C00220_A14 .
+     kegg:C00220_R2 piero:hasCpdAtom kegg:C00220_A11 .
+     kegg:C00220_R2 piero:hasCpdAtom kegg:C00220_A7 .
+     kegg:C00220_R2 piero:hasCpdAtom kegg:C00220_A9 .
+     kegg:C00220_R2 rdf:type kcfs:S00000225R .
+     .....
+     kegg:C00220 piero:hasCpdRing kegg:C00220_R3 .
+     kegg:C00220_R3 piero:hasCpdAtom kegg:C00220_A13 .
+     kegg:C00220_R3 piero:hasCpdAtom kegg:C00220_A17 .
+     kegg:C00220_R3 piero:hasCpdAtom kegg:C00220_A14 .
+     kegg:C00220_R3 piero:hasCpdAtom kegg:C00220_A11 .
+     kegg:C00220_R3 piero:hasCpdAtom kegg:C00220_A7 .
+     kegg:C00220_R3 piero:hasCpdAtom kegg:C00220_A3 .
+     kegg:C00220_R3 piero:hasCpdAtom kegg:C00220_A1 .
+     kegg:C00220_R3 piero:hasCpdAtom kegg:C00220_A2 .
+     kegg:C00220_R3 piero:hasCpdAtom kegg:C00220_A5 .
+     kegg:C00220_R3 piero:hasCpdAtom kegg:C00220_A9 .
+     kegg:C00220_R3 rdf:type kcfs:S00033119R .
+
+* 酵素反応中の基質・生成物ペア (RPAIR; ReactantPair) における化合物アラインメント
+     @prefix piero:                   &lt;http://reactionontology.org/piero/> .
+     @prefix kegg:                    &lt;http://www.kegg.jp/entry/> .
+     @prefix rdfs:                    &lt;http://www.w3.org/2000/01/rdf-schema#> .
+     @prefix kcfs:                    &lt;http://reactionontology.org/piero/kcfs#> .
+     
+     # 水素化・脱水素化反応の例
+     kegg:RP00001 a piero:ReactantPair ; 
+     kegg:RP00001 piero:hasAlignment piero:RP00001_A1 .
+     kegg:RP00001 piero:hasSubstrate kegg:C00005 .
+     kegg:RP00001 piero:hasProduct   kegg:C00006 .
+     piero:RP00001_A1 a piero:Alignment .
+     piero:RP00001_A1 piero:hasAlignedAtomPair [
+       piero:hasAlignedAtomInSubstrate kegg:C00005_A1 ;
+       piero:hasAlignedAtomInProduct   kegg:C00006_A1 
+       ], [
+       piero:hasAlignedAtomInSubstrate kegg:C00005_A2 ;
+       piero:hasAlignedAtomInProduct   kegg:C00006_A2 
+       ], [
+     .....
+       ], [
+       piero:changingAtomLabelInSubstrate kegg:C00005_A41 ;
+       piero:changingAtomLabelInProduct   kegg:C00006_A41 ;
+       piero:hasAlignedAtomInSubstrate kegg:C00005_A41 ;
+       piero:hasAlignedAtomInProduct   kegg:C00006_A41 
+       ], [
+       piero:changingAtomLabelInSubstrate kegg:C00005_A42 ;
+       piero:changingAtomLabelInProduct   kegg:C00006_A42 ;
+       piero:hasAlignedAtomInSubstrate kegg:C00005_A42 ;
+       piero:hasAlignedAtomInProduct   kegg:C00006_A42 
+       ], [
+       ] .
+     
+     # それ以外の反応の例
+     kegg:RP00003 a piero:ReactantPair ; 
+     kegg:RP00003 piero:hasAlignment piero:RP00003_A1 .
+     kegg:RP00003 piero:hasSubstrate kegg:C00002 .
+     kegg:RP00003 piero:hasProduct   kegg:C00008 .
+     piero:RP00003_A1 a piero:Alignment .
+     piero:RP00003_A1 piero:hasAlignedAtomPair [
+       piero:hasReactionCenterInSubstrate kegg:C00002_A25 ;
+       piero:hasReactionCenterInProduct   kegg:C00008_A26 ;
+       piero:hasEliminatingBondInSubstrate kegg:C00002_B11 
+       ], [
+       piero:hasAlignedAtomInSubstrate kegg:C00002_A1 ;
+       piero:hasAlignedAtomInProduct   kegg:C00008_A1 
+       ], [
+       piero:hasAlignedAtomInSubstrate kegg:C00002_A2 ;
+       piero:hasAlignedAtomInProduct   kegg:C00008_A2 
+       ], [
+       .....
+       ].
+     
+     kegg:RP00007 a piero:ReactantPair ; 
+     kegg:RP00007 piero:hasAlignment piero:RP00007_A1 .
+     kegg:RP00007 piero:hasSubstrate kegg:C00010 .
+     kegg:RP00007 piero:hasProduct   kegg:C00024 .
+     piero:RP00007_A1 a piero:Alignment .
+     piero:RP00007_A1 piero:hasAlignedAtomPair [
+       piero:hasReactionCenterInSubstrate kegg:C00024_A48 ;
+       piero:hasReactionCenterInProduct   kegg:C00010_A48 ;
+       piero:hasGeneratingBondInProduct kegg:C00024_B6 
+       ], [
+       piero:hasAlignedAtomInSubstrate kegg:C00010_A1 ;
+       piero:hasAlignedAtomInProduct   kegg:C00024_A1 
+       ], [
+       piero:hasAlignedAtomInSubstrate kegg:C00010_A2 ;
+       piero:hasAlignedAtomInProduct   kegg:C00024_A2 
+       ], [
+     .....
+     ] .
+     
+     kegg:RP00221 a piero:ReactantPair ; 
+     kegg:RP00221 piero:hasAlignment piero:RP00221_A1 .
+     kegg:RP00221 piero:hasSubstrate kegg:C00143 .
+     kegg:RP00221 piero:hasProduct   kegg:C00440 .
+     piero:RP00221_A1 a piero:Alignment .
+     piero:RP00221_A1 piero:hasAlignedAtomPair [
+       piero:hasReactionCenterInSubstrate kegg:C00143_A4 ;
+       piero:hasReactionCenterInProduct   kegg:C00440_A10 ;
+       piero:hasOpeningBondInSubstrate kegg:C00143_B10 
+       ], [
+       piero:hasAlignedAtomInSubstrate kegg:C00143_A1 ;
+       piero:hasAlignedAtomInProduct   kegg:C00440_A5 
+       ], [
+       .....
+       ] .
+     
+     kegg:RP00249 a piero:ReactantPair ; 
+     kegg:RP00249 piero:hasAlignment piero:RP00249_A1 .
+     kegg:RP00249 piero:hasSubstrate kegg:C00265 .
+     kegg:RP00249 piero:hasProduct   kegg:C01119 .
+     piero:RP00249_A1 a piero:Alignment .
+     piero:RP00249_A1 piero:hasAlignedAtomPair [
+       piero:hasReactionCenterInSubstrate kegg:C01119_A1 ;
+       piero:hasReactionCenterInProduct   kegg:C00265_A8 ;
+       piero:hasClosingBondInProduct kegg:C01119_B8 
+       ], [
+       piero:changingAtomLabelInSubstrate kegg:C00265_A1 ;
+       piero:changingAtomLabelInProduct   kegg:C01119_A4 ;
+       piero:hasAlignedAtomInSubstrate kegg:C00265_A1 ;
+       piero:hasAlignedAtomInProduct   kegg:C01119_A4 
+       ], [
+       .....
+       ] .
+
+==懸案==
+*http://identifiers.org/ec-code/1 が定義されていない
+*EC1 と oxidoreductases はそれぞれラベルか否か？
+
+=PIEROの構成の見直し([http://wiki.lifesciencedb.jp/mw/SPARQLthon33 SPARQLthon33])=
+==RDF化ガイドラインに沿う形に==
+* 参考：http://wiki.lifesciencedb.jp/mw/RDFizingDatabaseGuideline
+* 参考：http://wiki.lifesciencedb.jp/mw/SPARQLthon32/LinksetOntology
+* @prefix piero:                   &lt;http://reactionontology.org/piero/> . を @prefix piero:                   &lt;http://reactionontology.org/piero#> .に。
+* piero:hasParent => rdfs:subClassOf
+* EC番号の扱い
+** piero:go と piero:iubmb とpiero:enzyme と kegg:enzyme => piero:gene_product を identifier.orgにリンクさせるだけにする？
+** http://identifier.org/ec-code/1.1.1.1 など、完全なEC番号は表現できるが、不完全なEC番号や階層関係は表現できないという問題。
+** 結局PIEROでECを扱う必要がある
+*** ハイフンを含まないEC番号はidentifier.orgだけにリンクし、ハイフンを含むEC番号はどこにもリンクしない。
+
+==PIEROオントロジー==
+*３つのsub-ontologiesに分ける
+===PIERO Reaction ontology===
+*Reaction = 反応式全体 
+*概念に対する名前と、個別の反応に対する名前の区別
+** 「加水分解」（概念）>「アミド結合の加水分解」（概念）>「ほにゃららアミド分子中のアミド結合の加水分解」（個別の反応）
+*「個別の反応」= instance ? （違うと思うけど）
+* piero:RN00001
+
+===PIERO Transformation ontology===
+*Transformation = 基質・生成物の対応関係
+*概念に対する名前と、個別のtransformationに対する名前の区別
+**「C-N結合をC-O結合に変換するtransformation」（概念）>「アミド結合をカルボン酸に変換するtransformation」（概念）>「ほにゃららアミド分子をほにゃらら酸分子に変換するtransformation」（個別のtransformation）
+*「個別のtransformation」= instance ? （違うと思うけど）
+* piero:TR00001
+** 現行の transformation.ttl と substructure_conversion.ttl はほとんど同じ内容を扱っていて、substructure_conversion.ttl は古いので廃棄していいかも。
+
+===PIERO Substructure ontology===
+*Substructure = 化学部分構造
+*概念に対する名前と、個別のsubstructureに対する名前の区別
+**「芳香環」（概念）>「炭素原子（と水素原子）のみから成る芳香環」（概念）>「５つのC8xと１つのC8yから成る芳香環」（個別のsubstructure）
+* piero:S00001A
+* kcfsの構造は別のオントロジーにするか、substructureに含めるか？
+** 現行の substructure.ttl と kcfs.ttl はほとんど同じ内容を扱っているが、両者とも廃棄。kgcpd_kcfs.ttl kgdrg_kcfs.ttl knapsack_kcfs.ttl から新規に作るのが一番いい。
+
+==データベース==
+* オントロジーとデータをしっかり区別する。
+* 「piero:」を使う時は、オントロジーをさす。「piero:hasReaction」とかは、データ間の関係を表すので別prefixを考える
+** 「pink:」（piero-link）とか？
+* データベースをどのようにスタンザ等で見れたら嬉しいのか？
+** EC番号（または遺伝子）を入力すると、EC番号だけでは共通点を見いだせないが反応パターン(RPまたはRCまたはRDM）を共有する他のEC番号（または遺伝子）をリストアップする、とか。
+
+==現行データに何が書かれているか整理(turtle files v0.4)==
+===概念とその分類 (piero:)===
+* PIERO
+** PIEROの中心オントロジー http://reactionontology.org/ttl/piero.ttl
+*** 予定："piero:" と "pink:(仮)" の切り分け
+
+* PIERO reaction ontology
+** 反応に関する語彙とその分類 http://reactionontology.org/ttl/reaction.ttl
+*** 予定：piero:hasParent　＞　rdfs:subClassOf。piero:hasChild の削除
+
+* PIERO transformation ontology 
+** transformation語彙とその分類 http://reactionontology.org/ttl/transformation.ttl
+*** 予定：piero:hasParent　＞　rdfs:subClassOf。piero:hasChild の削除
+** 部分構造変換RDM とその分類 http://reactionontology.org/ttl/rdm.ttl
+*** 予定：他と揃えるために ID を付ける
+*** RDMとCONVとFROMの定義とtype分けは？
+** RPAIR内の原子対応関係 http://reactionontology.org/ttl/rpair_alignment.ttl
+*** 予定：kegg:C00005_A1 などの rdf:type
+*** これは DB では？ piero:hasAlignment とかは piero: でも pink: でも無く KEGG データベースを記述するオントロジーになるのかも
+*** piero: とそれ以外、という風に分けるなら、pink: という名前は変だけど
+
+* PIERO substructure ontology
+** 部分構造の階層分類 http://reactionontology.org/ttl/kcfs.ttl
+*** データが古くてIDが付いておらず、新規ttlと整合性がない
+*** 予定：現在 kgcpd_kcfs.ttl, kgdrg_kcfs.ttl に重複して記述されている "KCF-S部分構造間の階層関係" の部分をIDごと、この kcfs.ttl にもってくる
+** 部分構造間の包含関係 http://reactionontology.org/ttl/kcfs-substructure.ttl
+*** 予定：substructure.ttl がディスコンなんで、これもディスコンですか？　＞　小寺さん
+
+
+* IUBMB
+** IUBMBで用いられている語彙 http://reactionontology.org/ttl/iubmb.ttl
+** IUBMBの語彙がどのEC番号に用いられているか http://reactionontology.org/ttl/iubmb-ec.ttl
+*** 予定：ecは identifiers.org/ec-code に変更
+** IUBMBの語彙とPIERO transformation語彙との関係 http://reactionontology.org/ttl/iubmb-transformation.ttl
+*** オントロジー間の関係ファイル
+
+* オーソログ
+** 「遺伝子産物」(オーソログ的なもの）のIDを列挙 http://reactionontology.org/ttl/gene_product.ttl
+
+===PIERO で用いる ID 間の link (pink:)===
+* 予定：piero: から pink: になる部分を piero.ttl から抜き出して pink.ttl を作成
+* 内部データ間の関係
+** RDM と KCFS の関係 http://reactionontology.org/ttl/rdm-kcfs.ttl
+*** 予定：どちらも ID が無いので、ID 入りで整合性をとる
+
+* 内部データと外部データの関係
+** どの RCLASS とどの transformation ID が対応しているか http://reactionontology.org/ttl/kegg_rclass-transformation.ttl
+** KEGG REACTION と PIERO Transformation との対応 http://reactionontology.org/ttl/kegg_reaction-transformation.ttl
+** どの「遺伝子産物」（塩基配列またはアミノ酸配列）がどのEC番号を持っているか http://reactionontology.org/ttl/ec-gene_product.ttl
+***予定：現状 "ec:1.-.-.-" が無く、"ec:1" に gene product が繋がっている。これはおかしいので修正する
+** どの「遺伝子産物」がどの KEGG Orthology と対応しているか http://reactionontology.org/ttl/gene_product-kegg_ko.ttl
+** どの「遺伝子産物」がどの（具体的な）反応IDと対応しているか http://reactionontology.org/ttl/gene_product-kegg_reaction.ttl
+** どの化合物がどの部分構造を持つか（一般的な、部分構造の分類をここから作る予定）
+*** http://reactionontology.org/ttl/kgcpd_kcfs.ttl
+*** http://reactionontology.org/ttl/kgdrg_kcfs.ttl
+**** 予定："KCF-S 部分構造間の階層関係" 部分は kcfs.ttl に記述
+
+* 外部データ間の関係
+** 不完全なEC番号を含めた EC 階層分類と、identifier.org http://reactionontology.org/ttl/ec.ttl
+*** piero: と pink: に分離したほうが良いかも？
+** KEGG RC ID の列挙と、向きも含めた RPAIR との関係 http://reactionontology.org/ttl/kegg_rclass.ttl
+*** piero:とpink:に分離したほうが良いかも？
+*** 予定：kegg_rpair-kegg_rclass.ttl と情報がかぶってるので一考する。そもそもファイル名の命名で統一するなら、kegg: のファイルで RCLASS の ID の列挙であるべき
+** KEGG Reaction ID と、向きも含めたRPAIRとの関係 http://reactionontology.org/ttl/kegg_reaction-kegg_rpair.ttl
+** KEGG RPAIR と、向きも含めた RCLASS との関係 http://reactionontology.org/ttl/kegg_rpair-kegg_rclass.ttl
+** どの RPAIR にどの COMPOUND が含まれているか http://reactionontology.org/ttl/kegg_compound-kegg_rpair.ttl
+** どの RCLASS にどの RDM が含まれているか 
+*** http://reactionontology.org/ttl/kegg_rclass-rdm.ttl
+*** http://reactionontology.org/ttl/rdm-kegg_rclass.ttl
+
+=== KEGG (kegg:) ===  
+* 予定：dcterms:identifier を付ける
+* KEGG COMPOUND のIDを列挙 http://reactionontology.org/ttl/kegg_compound.ttl
+* KEGG OrthologyのIDを列挙 http://reactionontology.org/ttl/kegg_ko.ttl
+* KEGG Reaction のIDを列挙 http://reactionontology.org/ttl/kegg_reaction.ttl
+* KEGG Rpair のID列挙と、それぞれいくつのRDMを持つか（kegg:とpink:に分離したほうが良いかも？） http://reactionontology.org/ttl/kegg_rpair.ttl
+** 統計情報だけ別ファイルに追いやるという手もある。
+
+===廃棄予定===
+* どのEC番号がどのGOと対応しているかという対応関係（identifier.orgへのリンクで対応）
+** http://reactionontology.org/ttl/ec-go.ttl
+
+* どのEC番号がどのKEGG Enzyme と対応しているかという対応関係（identifier.orgへのリンクで対応）
+** http://reactionontology.org/ttl/ec-kegg_enzyme.ttl
+** http://reactionontology.org/ttl/kegg_enzyme.ttl
+
+* identifier.org における Gene Ontology のIDに関する記述
+** http://reactionontology.org/ttl/go.ttl
+
+* substructure_conversion は古いので廃棄予定
+** http://reactionontology.org/ttl/rdm-substructure_conversion.ttl
+** http://reactionontology.org/ttl/substructure_conversion.ttl
+
+* substructure は古いので廃棄予定
+** http://reactionontology.org/ttl/substructure.ttl
+
+===不明===
+* http://reactionontology.org/ttl/inference.ttl
+** Nishimura君に聞いてみる
+
+=PIERO概略と語彙の整理([http://wiki.lifesciencedb.jp/mw/SPARQLthon39 SPARQLthon39])=
+==PIERO基本方針==
+* PIEROの反応名は系統名（Systematic Name）を利用する。慣用名（Trivial Name）の多くは意味に曖昧さを含む。
+** 例：phosphorylation （慣用名）のほとんどは phospho-de-hydro-substitution （系統名）だが、phospho,hydro-addition （系統名）の場合もある。
+* 遺伝子オントロジーによる遺伝子の分類に３つのカテゴリー（biological process（生物学的プロセス）、cellular component（細胞の構成要素）、molecular function（分子機能））があるように、PIEROによる酵素反応分類には下記のカテゴリーを考える。
+** 生成・切断する結合の種類による分類
+*** 置換反応（Substitution）
+**** 例：Chloro-de-hydro-substitution etc.
+*** 付加反応（Addition）※二重結合に何かが結合して単結合を生成する反応
+**** 例：Chloro,hydro-addition etc.
+*** 脱離反応（Elimination）※付加反応の逆反応
+**** 例：Chloro,hydro-elimination etc.
+*** 挿入反応（Insertion）
+**** 例：Oxygen-insertion etc.
+** 転移される基に基づいた分類
+*** 転移される基の種類に基づいた分類（glycosyl-transfer, acyl-transferなど）
+*** 転移される基から見て何の置換が起こったかという分類（acyl-exchangeなど）
+** 生成される基・生成物に基づいた分類
+*** 例：Esterification (ester formation), amidation, hydroxylation, O-acylation, etc.
+** 開環反応か閉環反応か、そのいずれでもないか。
+*** 一分子開環・閉環反応
+*** 多分子開環・閉環反応
+*** そのいずれでもない反応
+** 分子内転移反応か、そうではないか。
+*** 分子内転移反応（rearrangement）
+**** 例：Phospho-rearrangement, methyl-rearrangement, etc.
+*** 環拡張反応、環縮小反応
+**** たとえば糖の６員環が５員環になる反応
+**** 例：Ring contraction, ring expansion, etc
+*** そのいずれでもない反応
+** 結果的に組成式が変化するか否か
+*** 組成式の変化しない反応（異性化反応）
+*** 組成式の変化する反応
+** 多段階反応か否か
+*** 多段階反応には multi-step のフラグを付ける。</textarea><div class='templatesUsed'>
+
+</div>
+<p id="mw-returnto"><a href="/mw/PIERO" title="PIERO">PIERO</a>に戻る。</p>
+<div class="printfooter">
+「<a href="http://wiki.lifesciencedb.jp/mw/PIERO">http://wiki.lifesciencedb.jp/mw/PIERO</a>」より作成</div>
+		<div id='catlinks' class='catlinks catlinks-allhidden'></div>		<!-- end content -->
+				<div class="visualClear"></div>
+	</div>
+</div></div>
+<div id="column-one">
+	<div id="p-cactions" class="portlet">
+		<h5>表示</h5>
+		<div class="pBody">
+			<ul>
+				 <li id="ca-nstab-main" class="selected"><a href="/mw/PIERO" title="本文を表示 [c]" accesskey="c">ページ</a></li>
+				 <li id="ca-talk" class="new"><a href="/mw/index.php?title=%E3%83%8E%E3%83%BC%E3%83%88:PIERO&amp;action=edit&amp;redlink=1" title="記事についての議論 [t]" accesskey="t">議論</a></li>
+				 <li id="ca-viewsource" class="selected"><a href="/mw/index.php?title=PIERO&amp;action=edit" title="このページは保護されています。&#10;ページのソースを閲覧できます。 [e]" accesskey="e">ソースを表示</a></li>
+				 <li id="ca-history"><a href="/mw/index.php?title=PIERO&amp;action=history" title="このページの過去の版 [h]" accesskey="h">履歴</a></li>
+			</ul>
+		</div>
+	</div>
+	<div class="portlet" id="p-personal">
+		<h5>個人用ツール</h5>
+		<div class="pBody">
+			<ul>
+				<li id="pt-anonuserpage"><a href="/mw/%E5%88%A9%E7%94%A8%E8%80%85:172.18.8.51" title="自分が編集しているIPアドレスの利用者ページ [.]" accesskey="." class="new">172.18.8.51</a></li>
+				<li id="pt-anontalk"><a href="/mw/%E5%88%A9%E7%94%A8%E8%80%85%E2%80%90%E4%BC%9A%E8%A9%B1:172.18.8.51" title="このIPアドレスからなされた編集についての議論 [n]" accesskey="n" class="new">このIPアドレスのトーク</a></li>
+				<li id="pt-anonlogin"><a href="/mw/index.php?title=%E7%89%B9%E5%88%A5:%E3%83%AD%E3%82%B0%E3%82%A4%E3%83%B3&amp;returnto=PIERO&amp;returntoquery=action%3Dedit" title="ログインすることが推奨されます。ただし、必須ではありません。 [o]" accesskey="o">ログイン</a></li>
+				<li id="pt-openidlogin"><a href="/mw/index.php?title=%E7%89%B9%E5%88%A5:OpenID%E3%83%AD%E3%82%B0%E3%82%A4%E3%83%B3&amp;returnto=PIERO">OpenIDでログイン</a></li>
+			</ul>
+		</div>
+	</div>
+	<div class="portlet" id="p-logo">
+		<a style="background-image: url(/mw/images/togowiki-logo.png);" href="/mw/%E3%83%A1%E3%82%A4%E3%83%B3%E3%83%9A%E3%83%BC%E3%82%B8" title="メインページに移動"></a>
+	</div>
+	<script type="text/javascript"> if (window.isMSIE55) fixalpha(); </script>
+	<div class='generated-sidebar portlet' id='p-navigation'>
+		<h5>案内</h5>
+		<div class='pBody'>
+			<ul>
+				<li id="n-mainpage-description"><a href="/mw/%E3%83%A1%E3%82%A4%E3%83%B3%E3%83%9A%E3%83%BC%E3%82%B8" title="メインページに移動する [z]" accesskey="z">メインページ</a></li>
+				<li id="n-portal"><a href="/mw/TogoWiki:%E3%82%B3%E3%83%9F%E3%83%A5%E3%83%8B%E3%83%86%E3%82%A3%E3%83%BB%E3%83%9D%E3%83%BC%E3%82%BF%E3%83%AB" title="このプロジェクトについて、できること、情報を入手する場所">コミュニティ・ポータル</a></li>
+				<li id="n-currentevents"><a href="/mw/TogoWiki:%E6%9C%80%E8%BF%91%E3%81%AE%E5%87%BA%E6%9D%A5%E4%BA%8B" title="最近の出来事について予備知識を得る">最近の出来事</a></li>
+				<li id="n-recentchanges"><a href="/mw/%E7%89%B9%E5%88%A5:%E6%9C%80%E8%BF%91%E3%81%AE%E6%9B%B4%E6%96%B0" title="ウィキにおける最近の更新の一覧 [r]" accesskey="r">最近の更新</a></li>
+				<li id="n-randompage"><a href="/mw/%E7%89%B9%E5%88%A5:%E3%81%8A%E3%81%BE%E3%81%8B%E3%81%9B%E8%A1%A8%E7%A4%BA" title="無作為に抽出されたページの読み込み [x]" accesskey="x">おまかせ表示</a></li>
+				<li id="n-help"><a href="/mw/Help:%E7%9B%AE%E6%AC%A1" title="情報を得る場所">ヘルプ</a></li>
+			</ul>
+		</div>
+	</div>
+	<div id="p-search" class="portlet">
+		<h5><label for="searchInput">検索</label></h5>
+		<div id="searchBody" class="pBody">
+			<form action="/mw/index.php" id="searchform">
+				<input type='hidden' name="title" value="特別:検索"/>
+				<input id="searchInput" title="TogoWiki内を検索" accesskey="f" type="search" name="search" />
+				<input type='submit' name="go" class="searchButton" id="searchGoButton"	value="表示" title="厳密に一致する名前のページが存在すれば、そのページへ移動します" />&nbsp;
+				<input type='submit' name="fulltext" class="searchButton" id="mw-searchButton" value="検索" title="入力された文字列が含まれるページを検索します" />
+			</form>
+		</div>
+	</div>
+	<div class="portlet" id="p-tb">
+		<h5>ツールボックス</h5>
+		<div class="pBody">
+			<ul>
+				<li id="t-whatlinkshere"><a href="/mw/%E7%89%B9%E5%88%A5:%E3%83%AA%E3%83%B3%E3%82%AF%E5%85%83/PIERO" title="ここにリンクしている全ウィキのページの一覧 [j]" accesskey="j">リンク元</a></li>
+				<li id="t-recentchangeslinked"><a href="/mw/%E7%89%B9%E5%88%A5:%E9%96%A2%E9%80%A3%E3%83%9A%E3%83%BC%E3%82%B8%E3%81%AE%E6%9B%B4%E6%96%B0%E7%8A%B6%E6%B3%81/PIERO" title="このページからリンクしているページの最近の更新 [k]" accesskey="k">関連ページの更新状況</a></li>
+<li id="t-specialpages"><a href="/mw/%E7%89%B9%E5%88%A5:%E7%89%B9%E5%88%A5%E3%83%9A%E3%83%BC%E3%82%B8%E4%B8%80%E8%A6%A7" title="特別ページの一覧 [q]" accesskey="q">特別ページ</a></li>
+			</ul>
+		</div>
+	</div>
+</div><!-- end of the left (by default at least) column -->
+<div class="visualClear"></div>
+<div id="footer">
+	<div id="f-poweredbyico"><a href="http://www.mediawiki.org/"><img src="/mw/skins/common/images/poweredby_mediawiki_88x31.png" height="31" width="88" alt="Powered by MediaWiki" /></a></div>
+	<div id="f-copyrightico"><a href="http://creativecommons.org/licenses/by/3.0/"><img src="http://i.creativecommons.org/l/by/3.0/88x31.png" alt="Attribution 3.0 Unported" width="88" height="31" /></a></div>
+	<ul id="f-list">
+		<li id="privacy"><a href="/mw/TogoWiki:%E3%83%97%E3%83%A9%E3%82%A4%E3%83%90%E3%82%B7%E3%83%BC%E3%83%BB%E3%83%9D%E3%83%AA%E3%82%B7%E3%83%BC" title="TogoWiki:プライバシー・ポリシー">プライバシー・ポリシー</a></li>
+		<li id="about"><a href="/mw/TogoWiki:TogoWiki%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6" title="TogoWiki:TogoWikiについて">TogoWikiについて</a></li>
+		<li id="disclaimer"><a href="/mw/TogoWiki:%E5%85%8D%E8%B2%AC%E4%BA%8B%E9%A0%85" title="TogoWiki:免責事項">免責事項</a></li>
+	</ul>
+</div>
+</div>
+
+<script>if (window.runOnloadHook) runOnloadHook();</script>
+<!-- Served in 0.326 secs. --></body></html>

@@ -1,0 +1,466 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html lang="ja" dir="ltr">
+<head>
+<title>BH11.11/山本作業記録 - TogoWiki</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta name="generator" content="MediaWiki 1.16.3" />
+<meta name="robots" content="noindex,nofollow" />
+<link rel="shortcut icon" href="/favicon.ico" />
+<link rel="search" type="application/opensearchdescription+xml" href="/mw/opensearch_desc.php" title="TogoWiki (ja)" />
+<link title="Creative Commons" type="application/rdf+xml" href="/mw/index.php?title=BH11.11/%E5%B1%B1%E6%9C%AC%E4%BD%9C%E6%A5%AD%E8%A8%98%E9%8C%B2&amp;action=creativecommons" rel="meta" />
+<link rel="copyright" href="http://creativecommons.org/licenses/by/3.0/" />
+<link rel="alternate" type="application/atom+xml" title="TogoWikiのAtomフィード" href="/mw/index.php?title=%E7%89%B9%E5%88%A5:%E6%9C%80%E8%BF%91%E3%81%AE%E6%9B%B4%E6%96%B0&amp;feed=atom" />
+<link rel="stylesheet" href="/mw/skins/common/diff.css?270" />
+<link rel="stylesheet" href="/mw/skins/common/shared.css?270" media="screen" />
+<link rel="stylesheet" href="/mw/skins/common/commonPrint.css?270" media="print" />
+<link rel="stylesheet" href="/mw/skins/monobook/main.css?270" media="screen" />
+<!--[if lt IE 5.5000]><link rel="stylesheet" href="/mw/skins/monobook/IE50Fixes.css?270" media="screen" /><![endif]-->
+<!--[if IE 5.5000]><link rel="stylesheet" href="/mw/skins/monobook/IE55Fixes.css?270" media="screen" /><![endif]-->
+<!--[if IE 6]><link rel="stylesheet" href="/mw/skins/monobook/IE60Fixes.css?270" media="screen" /><![endif]-->
+<!--[if IE 7]><link rel="stylesheet" href="/mw/skins/monobook/IE70Fixes.css?270" media="screen" /><![endif]-->
+<link rel="stylesheet" href="/mw/index.php?title=MediaWiki:Common.css&amp;usemsgcache=yes&amp;ctype=text%2Fcss&amp;smaxage=18000&amp;action=raw&amp;maxage=18000" />
+<link rel="stylesheet" href="/mw/index.php?title=MediaWiki:Print.css&amp;usemsgcache=yes&amp;ctype=text%2Fcss&amp;smaxage=18000&amp;action=raw&amp;maxage=18000" media="print" />
+<link rel="stylesheet" href="/mw/index.php?title=MediaWiki:Monobook.css&amp;usemsgcache=yes&amp;ctype=text%2Fcss&amp;smaxage=18000&amp;action=raw&amp;maxage=18000" />
+<link rel="stylesheet" href="/mw/index.php?title=-&amp;action=raw&amp;maxage=18000&amp;gen=css" />
+<script>
+var skin="monobook",
+stylepath="/mw/skins",
+wgUrlProtocols="http\\:\\/\\/|https\\:\\/\\/|ftp\\:\\/\\/|irc\\:\\/\\/|gopher\\:\\/\\/|telnet\\:\\/\\/|nntp\\:\\/\\/|worldwind\\:\\/\\/|mailto\\:|news\\:|svn\\:\\/\\/",
+wgArticlePath="/mw/$1",
+wgScriptPath="/mw",
+wgScriptExtension=".php",
+wgScript="/mw/index.php",
+wgVariantArticlePath=false,
+wgActionPaths={},
+wgServer="http://wiki.lifesciencedb.jp",
+wgCanonicalNamespace="",
+wgCanonicalSpecialPageName=false,
+wgNamespaceNumber=0,
+wgPageName="BH11.11/山本作業記録",
+wgTitle="BH11.11/山本作業記録",
+wgAction="view",
+wgArticleId=138,
+wgIsArticle=true,
+wgUserName=null,
+wgUserGroups=null,
+wgUserLanguage="ja",
+wgContentLanguage="ja",
+wgBreakFrames=false,
+wgCurRevisionId=2073,
+wgVersion="1.16.3",
+wgEnableAPI=true,
+wgEnableWriteAPI=true,
+wgSeparatorTransformTable=["", ""],
+wgDigitTransformTable=["", ""],
+wgMainPageTitle="メインページ",
+wgFormattedNamespaces={"-2": "メディア", "-1": "特別", "0": "", "1": "ノート", "2": "利用者", "3": "利用者‐会話", "4": "TogoWiki", "5": "TogoWiki‐ノート", "6": "ファイル", "7": "ファイル‐ノート", "8": "MediaWiki", "9": "MediaWiki‐ノート", "10": "Template", "11": "Template‐ノート", "12": "Help", "13": "Help‐ノート", "14": "Category", "15": "Category‐ノート"},
+wgNamespaceIds={"メディア": -2, "特別": -1, "": 0, "ノート": 1, "利用者": 2, "利用者‐会話": 3, "togowiki": 4, "togowiki‐ノート": 5, "ファイル": 6, "ファイル‐ノート": 7, "mediawiki": 8, "mediawiki‐ノート": 9, "template": 10, "template‐ノート": 11, "help": 12, "help‐ノート": 13, "category": 14, "category‐ノート": 15, "画像": 6, "画像‐ノート": 7, "image": 6, "image_talk": 7},
+wgSiteName="TogoWiki",
+wgCategories=[],
+wgRestrictionEdit=[],
+wgRestrictionMove=[];
+</script><script src="/mw/skins/common/wikibits.js?270"></script>
+<script type="text/javascript" src="/mw/skins/common/diff.js?270"></script>
+<script src="/mw/skins/common/ajax.js?270"></script>
+<script src="/mw/index.php?title=-&amp;action=raw&amp;gen=js&amp;useskin=monobook&amp;270"></script>
+
+		<style type='text/css'>
+		li#pt-openidlogin {
+		  background: url(/mw/extensions/OpenID/skin/icons/openid-inputicon.png) top left no-repeat;
+		  padding-left: 20px;
+		  text-transform: none;
+		}
+		</style>
+</head>
+<body class="mediawiki ltr ns-0 ns-subject page-BH11_11_山本作業記録 skin-monobook">
+<div id="globalWrapper">
+<div id="column-content"><div id="content" >
+	<a id="top"></a>
+	
+	<h1 id="firstHeading" class="firstHeading">BH11.11/山本作業記録</h1>
+	<div id="bodyContent">
+		<h3 id="siteSub">提供：TogoWiki</h3>
+		<div id="contentSub">（版間での差分）</div>
+		<div id="jump-to-nav">移動： <a href="#column-one">案内</a>, <a href="#searchInput">検索</a></div>
+		<!-- start content -->
+<table class='diff'>
+			<col class='diff-marker' />
+			<col class='diff-content' />
+			<col class='diff-marker' />
+			<col class='diff-content' />
+		<tr valign='top'>
+		<td colspan='2' class='diff-otitle'><div id="mw-diff-otitle1"><strong><a href='/mw/index.php?title=BH11.11/%E5%B1%B1%E6%9C%AC%E4%BD%9C%E6%A5%AD%E8%A8%98%E9%8C%B2&amp;oldid=1780'>2011年11月25日 (金) 02:58時点における版</a> (<a href='/mw/index.php?title=BH11.11/%E5%B1%B1%E6%9C%AC%E4%BD%9C%E6%A5%AD%E8%A8%98%E9%8C%B2&amp;action=edit&amp;oldid=1780'>ソースを表示</a>)</strong></div><div id="mw-diff-otitle2"><a href="/mw/%E5%88%A9%E7%94%A8%E8%80%85:Yayamamo" title="利用者:Yayamamo" class="mw-userlink">Yayamamo</a>  <span class="mw-usertoollinks">(<a href="/mw/index.php?title=%E5%88%A9%E7%94%A8%E8%80%85%E2%80%90%E4%BC%9A%E8%A9%B1:Yayamamo&amp;action=edit&amp;redlink=1" class="new" title="利用者‐会話:Yayamamo（存在しないページ）">トーク</a> | <a href="/mw/%E7%89%B9%E5%88%A5:%E6%8A%95%E7%A8%BF%E8%A8%98%E9%8C%B2/Yayamamo" title="特別:投稿記録/Yayamamo">投稿記録</a>)</span></div><div id="mw-diff-otitle3"> <span class="comment">(最初の生成)</span></div><div id="mw-diff-otitle4"><a href="/mw/index.php?title=BH11.11/%E5%B1%B1%E6%9C%AC%E4%BD%9C%E6%A5%AD%E8%A8%98%E9%8C%B2&amp;diff=prev&amp;oldid=1780" title="BH11.11/山本作業記録" id="differences-prevlink">←古い編集</a></div></td>
+		<td colspan='2' class='diff-ntitle'><div id="mw-diff-ntitle1"><strong><a href='/mw/index.php?title=BH11.11/%E5%B1%B1%E6%9C%AC%E4%BD%9C%E6%A5%AD%E8%A8%98%E9%8C%B2&amp;oldid=2073'>2011年11月29日 (火) 10:19時点における最新版</a> (<a href='/mw/index.php?title=BH11.11/%E5%B1%B1%E6%9C%AC%E4%BD%9C%E6%A5%AD%E8%A8%98%E9%8C%B2&amp;action=edit'>ソースを表示</a>)</strong></div><div id="mw-diff-ntitle2"><a href="/mw/%E5%88%A9%E7%94%A8%E8%80%85:Yayamamo" title="利用者:Yayamamo" class="mw-userlink">Yayamamo</a>  <span class="mw-usertoollinks">(<a href="/mw/index.php?title=%E5%88%A9%E7%94%A8%E8%80%85%E2%80%90%E4%BC%9A%E8%A9%B1:Yayamamo&amp;action=edit&amp;redlink=1" class="new" title="利用者‐会話:Yayamamo（存在しないページ）">トーク</a> | <a href="/mw/%E7%89%B9%E5%88%A5:%E6%8A%95%E7%A8%BF%E8%A8%98%E9%8C%B2/Yayamamo" title="特別:投稿記録/Yayamamo">投稿記録</a>)</span> </div><div id="mw-diff-ntitle3"> <span class="comment">(<span class="autocomment"><a href="#.E3.82.AA.E3.83.B3.E3.83.88.E3.83.AD.E3.82.B8.E3.83.BC">→</a>オントロジー</span>)</span></div><div id="mw-diff-ntitle4">&nbsp;</div></td>
+		</tr><tr><td colspan="2" class="diff-lineno">1行：</td>
+<td colspan="2" class="diff-lineno">1行：</td></tr>
+<tr><td class='diff-marker'> </td><td class='diff-context'><div>「[[BH11.11/ヒト・環境メタゲノムメタデータのオントロジー整備とRDF化]]」関連の作業記録</div></td><td class='diff-marker'> </td><td class='diff-context'><div>「[[BH11.11/ヒト・環境メタゲノムメタデータのオントロジー整備とRDF化]]」関連の作業記録</div></td></tr>
+<tr><td colspan="2">&nbsp;</td><td class='diff-marker'>+</td><td class='diff-addedline'><div><ins class="diffchange"></ins></div></td></tr>
+<tr><td colspan="2">&nbsp;</td><td class='diff-marker'>+</td><td class='diff-addedline'><div><ins class="diffchange">= 文字列マッチ =</ins></div></td></tr>
+<tr><td colspan="2">&nbsp;</td><td class='diff-marker'>+</td><td class='diff-addedline'><div><ins class="diffchange"></ins></div></td></tr>
+<tr><td colspan="2">&nbsp;</td><td class='diff-marker'>+</td><td class='diff-addedline'><div><ins class="diffchange">今回の処理対象データの特徴として、数値が意味をなさない場合が多く、アルファベット部分の類似度に重きを置くことが有効であった。</ins></div></td></tr>
+<tr><td colspan="2">&nbsp;</td><td class='diff-marker'>+</td><td class='diff-addedline'><div><ins class="diffchange">そこで、[http://commons.apache.org/codec/ Apache Commons]ライブラリに含まれているDoubleMetaphoneアルゴリズムを利用している。</ins></div></td></tr>
+<tr><td colspan="2">&nbsp;</td><td class='diff-marker'>+</td><td class='diff-addedline'><div><ins class="diffchange"></ins></div></td></tr>
+<tr><td colspan="2">&nbsp;</td><td class='diff-marker'>+</td><td class='diff-addedline'><div><ins class="diffchange"> import java.io.BufferedReader;</ins></div></td></tr>
+<tr><td colspan="2">&nbsp;</td><td class='diff-marker'>+</td><td class='diff-addedline'><div><ins class="diffchange"> import java.io.IOException;</ins></div></td></tr>
+<tr><td colspan="2">&nbsp;</td><td class='diff-marker'>+</td><td class='diff-addedline'><div><ins class="diffchange"> import java.io.InputStreamReader;</ins></div></td></tr>
+<tr><td colspan="2">&nbsp;</td><td class='diff-marker'>+</td><td class='diff-addedline'><div><ins class="diffchange"> import java.util.Iterator;</ins></div></td></tr>
+<tr><td colspan="2">&nbsp;</td><td class='diff-marker'>+</td><td class='diff-addedline'><div><ins class="diffchange"> import java.util.TreeSet;</ins></div></td></tr>
+<tr><td colspan="2">&nbsp;</td><td class='diff-marker'>+</td><td class='diff-addedline'><div><ins class="diffchange"> import java.util.regex.Pattern;</ins></div></td></tr>
+<tr><td colspan="2">&nbsp;</td><td class='diff-marker'>+</td><td class='diff-addedline'><div><ins class="diffchange"> </ins></div></td></tr>
+<tr><td colspan="2">&nbsp;</td><td class='diff-marker'>+</td><td class='diff-addedline'><div><ins class="diffchange"> import org.apache.commons.codec.language.DoubleMetaphone;</ins></div></td></tr>
+<tr><td colspan="2">&nbsp;</td><td class='diff-marker'>+</td><td class='diff-addedline'><div><ins class="diffchange"> </ins></div></td></tr>
+<tr><td colspan="2">&nbsp;</td><td class='diff-marker'>+</td><td class='diff-addedline'><div><ins class="diffchange"> public class getDoubleMetaphone {</ins></div></td></tr>
+<tr><td colspan="2">&nbsp;</td><td class='diff-marker'>+</td><td class='diff-addedline'><div><ins class="diffchange"> </ins></div></td></tr>
+<tr><td colspan="2">&nbsp;</td><td class='diff-marker'>+</td><td class='diff-addedline'><div><ins class="diffchange">&nbsp; &nbsp; &nbsp; public static void main(String[] args) {</ins></div></td></tr>
+<tr><td colspan="2">&nbsp;</td><td class='diff-marker'>+</td><td class='diff-addedline'><div><ins class="diffchange">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; DoubleMetaphone dmp = new DoubleMetaphone();</ins></div></td></tr>
+<tr><td colspan="2">&nbsp;</td><td class='diff-marker'>+</td><td class='diff-addedline'><div><ins class="diffchange">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; try{</ins></div></td></tr>
+<tr><td colspan="2">&nbsp;</td><td class='diff-marker'>+</td><td class='diff-addedline'><div><ins class="diffchange">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 　BufferedReader in = new BufferedReader(new InputStreamReader(System.in));</ins></div></td></tr>
+<tr><td colspan="2">&nbsp;</td><td class='diff-marker'>+</td><td class='diff-addedline'><div><ins class="diffchange">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; String str;</ins></div></td></tr>
+<tr><td colspan="2">&nbsp;</td><td class='diff-marker'>+</td><td class='diff-addedline'><div><ins class="diffchange">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; while ((str = in.readLine()) != null) {</ins></div></td></tr>
+<tr><td colspan="2">&nbsp;</td><td class='diff-marker'>+</td><td class='diff-addedline'><div><ins class="diffchange">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; String[] parts = str.split(&quot;\t&quot;);</ins></div></td></tr>
+<tr><td colspan="2">&nbsp;</td><td class='diff-marker'>+</td><td class='diff-addedline'><div><ins class="diffchange">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; System.out.println(str+'\t'+dmp.doubleMetaphone(parts[1],false));</ins></div></td></tr>
+<tr><td colspan="2">&nbsp;</td><td class='diff-marker'>+</td><td class='diff-addedline'><div><ins class="diffchange">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; }</ins></div></td></tr>
+<tr><td colspan="2">&nbsp;</td><td class='diff-marker'>+</td><td class='diff-addedline'><div><ins class="diffchange">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; } catch (IOException e){</ins></div></td></tr>
+<tr><td colspan="2">&nbsp;</td><td class='diff-marker'>+</td><td class='diff-addedline'><div><ins class="diffchange">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; System.exit(0);</ins></div></td></tr>
+<tr><td colspan="2">&nbsp;</td><td class='diff-marker'>+</td><td class='diff-addedline'><div><ins class="diffchange">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; }</ins></div></td></tr>
+<tr><td colspan="2">&nbsp;</td><td class='diff-marker'>+</td><td class='diff-addedline'><div><ins class="diffchange">&nbsp; &nbsp; &nbsp; }</ins></div></td></tr>
+<tr><td colspan="2">&nbsp;</td><td class='diff-marker'>+</td><td class='diff-addedline'><div><ins class="diffchange"> }</ins></div></td></tr>
+<tr><td colspan="2">&nbsp;</td><td class='diff-marker'>+</td><td class='diff-addedline'><div><ins class="diffchange"></ins></div></td></tr>
+<tr><td colspan="2">&nbsp;</td><td class='diff-marker'>+</td><td class='diff-addedline'><div><ins class="diffchange">= オントロジーマッチ =</ins></div></td></tr>
+<tr><td colspan="2">&nbsp;</td><td class='diff-marker'>+</td><td class='diff-addedline'><div><ins class="diffchange"></ins></div></td></tr>
+<tr><td colspan="2">&nbsp;</td><td class='diff-marker'>+</td><td class='diff-addedline'><div><ins class="diffchange">関連オントロジーを、所与の文字列にマッチさせる。</ins></div></td></tr>
+<tr><td class='diff-marker'> </td><td class='diff-context'></td><td class='diff-marker'> </td><td class='diff-context'></td></tr>
+<tr><td class='diff-marker'> </td><td class='diff-context'><div>== オントロジー ==</div></td><td class='diff-marker'> </td><td class='diff-context'><div>== オントロジー ==</div></td></tr>
+<tr><td class='diff-marker'> </td><td class='diff-context'></td><td class='diff-marker'> </td><td class='diff-context'></td></tr>
+<tr><td class='diff-marker'>-</td><td class='diff-deletedline'><div><del class="diffchange diffchange-inline">下記の各オントロジーを、所与の文字列にマッチさせる。</del></div></td><td class='diff-marker'>+</td><td class='diff-addedline'><div><ins class="diffchange diffchange-inline">マッチさせるオントロジーは以下の通り</ins></div></td></tr>
+<tr><td class='diff-marker'> </td><td class='diff-context'></td><td class='diff-marker'> </td><td class='diff-context'></td></tr>
+<tr><td class='diff-marker'> </td><td class='diff-context'><div>* EnvO (Environment Ontology) - http://environmentontology.org/</div></td><td class='diff-marker'> </td><td class='diff-context'><div>* EnvO (Environment Ontology) - http://environmentontology.org/</div></td></tr>
+</table><hr /><h2>2011年11月29日 (火) 10:19時点における最新版</h2>
+<p>「<a href="/mw/BH11.11/%E3%83%92%E3%83%88%E3%83%BB%E7%92%B0%E5%A2%83%E3%83%A1%E3%82%BF%E3%82%B2%E3%83%8E%E3%83%A0%E3%83%A1%E3%82%BF%E3%83%87%E3%83%BC%E3%82%BF%E3%81%AE%E3%82%AA%E3%83%B3%E3%83%88%E3%83%AD%E3%82%B8%E3%83%BC%E6%95%B4%E5%82%99%E3%81%A8RDF%E5%8C%96" title="BH11.11/ヒト・環境メタゲノムメタデータのオントロジー整備とRDF化">BH11.11/ヒト・環境メタゲノムメタデータのオントロジー整備とRDF化</a>」関連の作業記録
+</p>
+<table id="toc" class="toc"><tr><td><div id="toctitle"><h2>目次</h2></div>
+<ul>
+<li class="toclevel-1 tocsection-1"><a href="#.E6.96.87.E5.AD.97.E5.88.97.E3.83.9E.E3.83.83.E3.83.81"><span class="tocnumber">1</span> <span class="toctext">文字列マッチ</span></a></li>
+<li class="toclevel-1 tocsection-2"><a href="#.E3.82.AA.E3.83.B3.E3.83.88.E3.83.AD.E3.82.B8.E3.83.BC.E3.83.9E.E3.83.83.E3.83.81"><span class="tocnumber">2</span> <span class="toctext">オントロジーマッチ</span></a>
+<ul>
+<li class="toclevel-2 tocsection-3"><a href="#.E3.82.AA.E3.83.B3.E3.83.88.E3.83.AD.E3.82.B8.E3.83.BC"><span class="tocnumber">2.1</span> <span class="toctext">オントロジー</span></a></li>
+<li class="toclevel-2 tocsection-4"><a href="#ID-.E3.82.BF.E3.83.BC.E3.83.A0.E5.AF.BE.E5.BF.9C.E3.83.95.E3.82.A1.E3.82.A4.E3.83.AB.E7.94.9F.E6.88.90"><span class="tocnumber">2.2</span> <span class="toctext">ID-ターム対応ファイル生成</span></a>
+<ul>
+<li class="toclevel-3 tocsection-5"><a href="#OBO.E5.BD.A2.E5.BC.8F"><span class="tocnumber">2.2.1</span> <span class="toctext">OBO形式</span></a></li>
+<li class="toclevel-3 tocsection-6"><a href="#MySQL.E3.83.80.E3.83.B3.E3.83.97.E5.BD.A2.E5.BC.8F"><span class="tocnumber">2.2.2</span> <span class="toctext">MySQLダンプ形式</span></a></li>
+<li class="toclevel-3 tocsection-7"><a href="#.E3.81.9D.E3.81.AE.E4.BB.96"><span class="tocnumber">2.2.3</span> <span class="toctext">その他</span></a></li>
+</ul>
+</li>
+<li class="toclevel-2 tocsection-8"><a href="#.E6.96.87.E5.AD.97.E5.88.97.E3.83.9E.E3.83.83.E3.83.81_2"><span class="tocnumber">2.3</span> <span class="toctext">文字列マッチ</span></a>
+<ul>
+<li class="toclevel-3 tocsection-9"><a href="#.E8.BE.9E.E6.9B.B8.E7.94.9F.E6.88.90.E3.83.97.E3.83.AD.E3.82.B0.E3.83.A9.E3.83.A0"><span class="tocnumber">2.3.1</span> <span class="toctext">辞書生成プログラム</span></a></li>
+<li class="toclevel-3 tocsection-10"><a href="#.E6.96.87.E5.AD.97.E5.88.97.E3.83.9E.E3.83.83.E3.83.81.E3.83.97.E3.83.AD.E3.82.B0.E3.83.A9.E3.83.A0"><span class="tocnumber">2.3.2</span> <span class="toctext">文字列マッチプログラム</span></a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</td></tr></table><script>if (window.showTocToggle) { var tocShowText = "表示"; var tocHideText = "非表示"; showTocToggle(); } </script>
+<h1> <span class="mw-headline" id=".E6.96.87.E5.AD.97.E5.88.97.E3.83.9E.E3.83.83.E3.83.81"> 文字列マッチ </span></h1>
+<p>今回の処理対象データの特徴として、数値が意味をなさない場合が多く、アルファベット部分の類似度に重きを置くことが有効であった。
+そこで、<a href="http://commons.apache.org/codec/" class="external text" rel="nofollow">Apache Commons</a>ライブラリに含まれているDoubleMetaphoneアルゴリズムを利用している。
+</p>
+<pre>import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
+import java.util.Iterator;
+import java.util.TreeSet;
+import java.util.regex.Pattern;
+
+import org.apache.commons.codec.language.DoubleMetaphone;
+
+public class getDoubleMetaphone {
+
+     public static void main(String[] args) {
+             DoubleMetaphone dmp = new DoubleMetaphone();
+         try{
+           　BufferedReader in = new BufferedReader(new InputStreamReader(System.in));
+             String str;
+             while ((str = in.readLine())&nbsp;!= null) {
+                     String[] parts = str.split("\t");
+                     System.out.println(str+'\t'+dmp.doubleMetaphone(parts[1],false));
+             }
+         } catch (IOException e){
+             System.exit(0);
+         }
+     }
+}
+</pre>
+<h1> <span class="mw-headline" id=".E3.82.AA.E3.83.B3.E3.83.88.E3.83.AD.E3.82.B8.E3.83.BC.E3.83.9E.E3.83.83.E3.83.81"> オントロジーマッチ </span></h1>
+<p>関連オントロジーを、所与の文字列にマッチさせる。
+</p>
+<h2> <span class="mw-headline" id=".E3.82.AA.E3.83.B3.E3.83.88.E3.83.AD.E3.82.B8.E3.83.BC"> オントロジー </span></h2>
+<p>マッチさせるオントロジーは以下の通り
+</p>
+<ul><li> EnvO (Environment Ontology) - <a href="http://environmentontology.org/" class="external free" rel="nofollow">http://environmentontology.org/</a>
+</li><li> FMA (Foundational Model of Anatomy) - <a href="http://sig.biostr.washington.edu/projects/fm/AboutFM.html" class="external free" rel="nofollow">http://sig.biostr.washington.edu/projects/fm/AboutFM.html</a>
+</li><li> Plant Ontology - <a href="http://www.plantontology.org/" class="external free" rel="nofollow">http://www.plantontology.org/</a>
+</li><li> OGR (Ontology of Geographical Region) - <a href="http://bioportal.bioontology.org/ontologies/1087" class="external free" rel="nofollow">http://bioportal.bioontology.org/ontologies/1087</a>
+</li><li> OBIS (Ocean Biogeographic Information System) - <a href="http://www.iobis.org/" class="external free" rel="nofollow">http://www.iobis.org/</a>
+</li><li> Gazetteer - <a href="http://bioportal.bioontology.org/ontologies/1397" class="external free" rel="nofollow">http://bioportal.bioontology.org/ontologies/1397</a>
+</li></ul>
+<h2> <span class="mw-headline" id="ID-.E3.82.BF.E3.83.BC.E3.83.A0.E5.AF.BE.E5.BF.9C.E3.83.95.E3.82.A1.E3.82.A4.E3.83.AB.E7.94.9F.E6.88.90"> ID-ターム対応ファイル生成 </span></h2>
+<p>OBISはダウンロードが単純ではなく、取得は見送り。残りの5つについて、それぞれのファイル形式は下記の通りなので、各形式について対応。
+</p>
+<table border="1" cellspacing="0">
+<tr>
+<th>オントロジー
+</th><th>ファイル形式
+</th></tr>
+<tr>
+<td>EnvO
+</td><td>obo
+</td></tr>
+<tr>
+<td>FMA
+</td><td>MySQLダンプ
+</td></tr>
+<tr>
+<td>Plant Ontology
+</td><td>obo
+</td></tr>
+<tr>
+<td>OGR
+</td><td>owl
+</td></tr>
+<tr>
+<td>Gazetteer
+</td><td>obo
+</td></tr></table>
+<h3> <span class="mw-headline" id="OBO.E5.BD.A2.E5.BC.8F"> OBO形式 </span></h3>
+<p>EnvO、Plant Ontology、GazetteerはOBOフォーマットが取得出来るので、PerlプログラムでTermとIDの組を取得。
+</p>
+<pre>use warnings;
+use strict;
+
+my $skipflag = 0;
+my $termid = "";
+while(&lt;&gt;){
+   chomp;
+   if(/^$/){
+       $skipflag = 0;
+       next;
+   }
+   next if $skipflag;
+   if(index($_, "[") == 0){
+       $termid = "";
+       my ($cat) = $_ =~ m/^\[(\w+)\]/;
+       if($cat ne "Term"){
+           $skipflag = 1;
+           next;
+       }
+   }
+   if(index($_, "id: ") == 0){
+       substr($_, 0, 4, "");
+       $termid = $_;
+   }
+   next unless index($_, "name: ") == 0;
+   substr($_, 0, 6, "");
+   print join("\t", ($termid, $_)), "\n";
+}
+</pre>
+<h3> <span class="mw-headline" id="MySQL.E3.83.80.E3.83.B3.E3.83.97.E5.BD.A2.E5.BC.8F"> MySQLダンプ形式 </span></h3>
+<p>FMAはMySQLのダンプが取得出来るので、これをそのままロードする。
+</p>
+<pre>+-------------+----------------+------+-----+---------+-------+
+| Field       | Type           | Null | Key | Default | Extra |
++-------------+----------------+------+-----+---------+-------+
+| frame       | varbinary(500) | NO   | MUL | NULL    |       | 
+| frame_type  | smallint(6)    | NO   |     | NULL    |       | 
+| slot        | varbinary(500) | NO   | MUL | NULL    |       | 
+| facet       | varbinary(500) | NO   |     | NULL    |       | 
+| is_template | bit(1)         | NO   |     | NULL    |       | 
+| value_index | int(11)        | NO   |     | NULL    |       | 
+| value_type  | smallint(6)    | NO   |     | NULL    |       | 
+| short_value | varchar(500)   | YES  | MUL | NULL    |       | 
+| long_value  | mediumtext     | YES  |     | NULL    |       | 
++-------------+----------------+------+-----+---------+-------+
+</pre>
+<pre>'SELECT frame,slot,short_value FROM fma WHERE slot="name" OR slot="FMAID"'
+</pre>
+<p>`frame`をキーとした構造になっているので、上記のクエリを発行して取得し、PerlスクリプトでTermとIDの組を生成。
+一部のターム (3字未満、数値のみ、数値の後にアルファベット一文字、大文字一文字に続いて数値) は予めフィルタして出力。
+</p>
+<pre>use warnings;
+use strict;
+
+my (%fmaids,&nbsp;%terms);
+
+while(&lt;&gt;){
+   chomp;
+   my ($frame, $slot, $short) = split /\t/;
+   if($slot eq 'FMAID'){
+       $fmaids{$frame} = $short;
+   }elsif($slot eq 'name'){
+       $terms{$frame} = $short;
+   }
+}
+
+while(my ($frame, $fmid) = each&nbsp;%fmaids){
+   next unless $terms{$frame};
+   my $term = $terms{$frame};
+   next if length($term) &lt; 3 || $term =~ /\d+$/ || $term =~ /\d+[A-Za-z]$/ || $term =~ /^[A-Z]+\d+ /;
+   print join("\t", ($fmid, $term)), "\n";
+}
+</pre>
+<h3> <span class="mw-headline" id=".E3.81.9D.E3.81.AE.E4.BB.96"> その他 </span></h3>
+<p>OGRはowl形式のみ取得可能だが、rdfs:label属性が無く、文字列そのものをIDとし、rdfs:comment属性値にMeSHの地理情報に関する(Z01木)IDが書かれているのみなので、これとは別に予めDBCLSで取得しているMeSH2011 (mtrees2011.bin) を対象としてZ01部分を抽出。
+</p>
+<pre>grep ';Z0' mtrees2011.bin | perl -pe 's/;/\t/'
+</pre>
+<h2> <span class="mw-headline" id=".E6.96.87.E5.AD.97.E5.88.97.E3.83.9E.E3.83.83.E3.83.81_2"> 文字列マッチ </span></h2>
+<p>上記の処理を行うことで、全てIDと実際のタームがタブ区切りで一行一エントリの形式になる。
+つづいて、文字列マッチを行うため、ACアルゴリズムに基づくマッチを行うPerlモジュール<a href="http://search.cpan.org/~tbusch/Text-Scan-0.31/Scan.pm" class="external text" rel="nofollow">Text::Scan</a>を利用したプログラムを用意。
+</p>
+<h3> <span class="mw-headline" id=".E8.BE.9E.E6.9B.B8.E7.94.9F.E6.88.90.E3.83.97.E3.83.AD.E3.82.B0.E3.83.A9.E3.83.A0"> 辞書生成プログラム </span></h3>
+<pre>use warnings;
+use strict;
+use Text::Scan;
+
+my&nbsp;%files = (
+   'OGR', 'GeographicRegion.txt',
+   'EnvO', 'envo.txt',
+   'FMA', 'fma_terms.txt',
+   'Gaz', 'gaz.txt',
+   'PO', 'plant_ontology.txt',
+   );
+
+my $dict = new Text::Scan;
+$dict-&gt;ignorecase();
+$dict-&gt;squeezeblanks;
+$dict-&gt;ignore("\n\r&lt;&gt;()[]");
+
+for my $dname ( qw/OGR EnvO FMA Gaz PO/ ){
+   open(my $fh1, $files{$dname}) or die "$files{$dname}:$!\n";
+   while(&lt;$fh1&gt;){
+       chomp;
+       my ($id, $term) = split /\t/;
+       if($dname eq 'OGR'){
+               my $tmp = $id;
+               $id = $term;
+               $term = $tmp;
+       }
+       $term =~ s|[-,.:;/]| |g;
+       my $dcname = <i>;</i>
+       if($dname eq 'EnvO' || $dname eq 'Gaz' || $dname eq 'PO'){
+       }else{
+               $dcname = $dname.':';
+       }
+       $dict-&gt;insert($term, $dcname.$id);
+       print join("\t", ($term, $dcname.$id)), "\n";
+   }
+   close($fh1);
+}
+
+$dict-&gt;serialize("bh11jpDict");
+</pre>
+<h3> <span class="mw-headline" id=".E6.96.87.E5.AD.97.E5.88.97.E3.83.9E.E3.83.83.E3.83.81.E3.83.97.E3.83.AD.E3.82.B0.E3.83.A9.E3.83.A0"> 文字列マッチプログラム </span></h3>
+<pre>use warnings;
+use strict;
+use Text::Scan;
+
+my $dict = new Text::Scan;
+$dict-&gt;restore("bh11jpDict");
+$dict-&gt;squeezeblanks;
+$dict-&gt;charclass("[]&lt;&gt;().:;,?");
+$dict-&gt;boundary("'\"[]&lt;&gt;():;,/-.? ");
+
+open(my $fh, "merged.txt") or die $!;
+while(&lt;$fh&gt;){
+   chomp;
+   my @result = $dict-&gt;multiscan(' '.$_.' ');
+   for my $r ( @result ){
+       print join("\t", ($_, $r-&gt;[0], $r-&gt;[2])), "\n";
+   }
+}
+close($fh);
+</pre><div class="printfooter">
+「<a href="http://wiki.lifesciencedb.jp/mw/BH11.11/%E5%B1%B1%E6%9C%AC%E4%BD%9C%E6%A5%AD%E8%A8%98%E9%8C%B2">http://wiki.lifesciencedb.jp/mw/BH11.11/%E5%B1%B1%E6%9C%AC%E4%BD%9C%E6%A5%AD%E8%A8%98%E9%8C%B2</a>」より作成</div>
+		<div id='catlinks' class='catlinks catlinks-allhidden'></div>		<!-- end content -->
+				<div class="visualClear"></div>
+	</div>
+</div></div>
+<div id="column-one">
+	<div id="p-cactions" class="portlet">
+		<h5>表示</h5>
+		<div class="pBody">
+			<ul>
+				 <li id="ca-nstab-main" class="selected"><a href="/mw/BH11.11/%E5%B1%B1%E6%9C%AC%E4%BD%9C%E6%A5%AD%E8%A8%98%E9%8C%B2" title="本文を表示 [c]" accesskey="c">ページ</a></li>
+				 <li id="ca-talk" class="new"><a href="/mw/index.php?title=%E3%83%8E%E3%83%BC%E3%83%88:BH11.11/%E5%B1%B1%E6%9C%AC%E4%BD%9C%E6%A5%AD%E8%A8%98%E9%8C%B2&amp;action=edit&amp;redlink=1" title="記事についての議論 [t]" accesskey="t">議論</a></li>
+				 <li id="ca-viewsource"><a href="/mw/index.php?title=BH11.11/%E5%B1%B1%E6%9C%AC%E4%BD%9C%E6%A5%AD%E8%A8%98%E9%8C%B2&amp;action=edit&amp;oldid=2073" title="このページは保護されています。&#10;ページのソースを閲覧できます。 [e]" accesskey="e">ソースを表示</a></li>
+				 <li id="ca-history"><a href="/mw/index.php?title=BH11.11/%E5%B1%B1%E6%9C%AC%E4%BD%9C%E6%A5%AD%E8%A8%98%E9%8C%B2&amp;action=history" title="このページの過去の版 [h]" accesskey="h">履歴</a></li>
+			</ul>
+		</div>
+	</div>
+	<div class="portlet" id="p-personal">
+		<h5>個人用ツール</h5>
+		<div class="pBody">
+			<ul>
+				<li id="pt-anonuserpage"><a href="/mw/%E5%88%A9%E7%94%A8%E8%80%85:172.18.8.51" title="自分が編集しているIPアドレスの利用者ページ [.]" accesskey="." class="new">172.18.8.51</a></li>
+				<li id="pt-anontalk"><a href="/mw/%E5%88%A9%E7%94%A8%E8%80%85%E2%80%90%E4%BC%9A%E8%A9%B1:172.18.8.51" title="このIPアドレスからなされた編集についての議論 [n]" accesskey="n" class="new">このIPアドレスのトーク</a></li>
+				<li id="pt-anonlogin"><a href="/mw/index.php?title=%E7%89%B9%E5%88%A5:%E3%83%AD%E3%82%B0%E3%82%A4%E3%83%B3&amp;returnto=BH11.11/%E5%B1%B1%E6%9C%AC%E4%BD%9C%E6%A5%AD%E8%A8%98%E9%8C%B2&amp;returntoquery=diff%3Dprev%26oldid%3D2073" title="ログインすることが推奨されます。ただし、必須ではありません。 [o]" accesskey="o">ログイン</a></li>
+				<li id="pt-openidlogin"><a href="/mw/index.php?title=%E7%89%B9%E5%88%A5:OpenID%E3%83%AD%E3%82%B0%E3%82%A4%E3%83%B3&amp;returnto=BH11.11/%E5%B1%B1%E6%9C%AC%E4%BD%9C%E6%A5%AD%E8%A8%98%E9%8C%B2">OpenIDでログイン</a></li>
+			</ul>
+		</div>
+	</div>
+	<div class="portlet" id="p-logo">
+		<a style="background-image: url(/mw/images/togowiki-logo.png);" href="/mw/%E3%83%A1%E3%82%A4%E3%83%B3%E3%83%9A%E3%83%BC%E3%82%B8" title="メインページに移動"></a>
+	</div>
+	<script type="text/javascript"> if (window.isMSIE55) fixalpha(); </script>
+	<div class='generated-sidebar portlet' id='p-navigation'>
+		<h5>案内</h5>
+		<div class='pBody'>
+			<ul>
+				<li id="n-mainpage-description"><a href="/mw/%E3%83%A1%E3%82%A4%E3%83%B3%E3%83%9A%E3%83%BC%E3%82%B8" title="メインページに移動する [z]" accesskey="z">メインページ</a></li>
+				<li id="n-portal"><a href="/mw/TogoWiki:%E3%82%B3%E3%83%9F%E3%83%A5%E3%83%8B%E3%83%86%E3%82%A3%E3%83%BB%E3%83%9D%E3%83%BC%E3%82%BF%E3%83%AB" title="このプロジェクトについて、できること、情報を入手する場所">コミュニティ・ポータル</a></li>
+				<li id="n-currentevents"><a href="/mw/TogoWiki:%E6%9C%80%E8%BF%91%E3%81%AE%E5%87%BA%E6%9D%A5%E4%BA%8B" title="最近の出来事について予備知識を得る">最近の出来事</a></li>
+				<li id="n-recentchanges"><a href="/mw/%E7%89%B9%E5%88%A5:%E6%9C%80%E8%BF%91%E3%81%AE%E6%9B%B4%E6%96%B0" title="ウィキにおける最近の更新の一覧 [r]" accesskey="r">最近の更新</a></li>
+				<li id="n-randompage"><a href="/mw/%E7%89%B9%E5%88%A5:%E3%81%8A%E3%81%BE%E3%81%8B%E3%81%9B%E8%A1%A8%E7%A4%BA" title="無作為に抽出されたページの読み込み [x]" accesskey="x">おまかせ表示</a></li>
+				<li id="n-help"><a href="/mw/Help:%E7%9B%AE%E6%AC%A1" title="情報を得る場所">ヘルプ</a></li>
+			</ul>
+		</div>
+	</div>
+	<div id="p-search" class="portlet">
+		<h5><label for="searchInput">検索</label></h5>
+		<div id="searchBody" class="pBody">
+			<form action="/mw/index.php" id="searchform">
+				<input type='hidden' name="title" value="特別:検索"/>
+				<input id="searchInput" title="TogoWiki内を検索" accesskey="f" type="search" name="search" />
+				<input type='submit' name="go" class="searchButton" id="searchGoButton"	value="表示" title="厳密に一致する名前のページが存在すれば、そのページへ移動します" />&nbsp;
+				<input type='submit' name="fulltext" class="searchButton" id="mw-searchButton" value="検索" title="入力された文字列が含まれるページを検索します" />
+			</form>
+		</div>
+	</div>
+	<div class="portlet" id="p-tb">
+		<h5>ツールボックス</h5>
+		<div class="pBody">
+			<ul>
+				<li id="t-whatlinkshere"><a href="/mw/%E7%89%B9%E5%88%A5:%E3%83%AA%E3%83%B3%E3%82%AF%E5%85%83/BH11.11/%E5%B1%B1%E6%9C%AC%E4%BD%9C%E6%A5%AD%E8%A8%98%E9%8C%B2" title="ここにリンクしている全ウィキのページの一覧 [j]" accesskey="j">リンク元</a></li>
+				<li id="t-recentchangeslinked"><a href="/mw/%E7%89%B9%E5%88%A5:%E9%96%A2%E9%80%A3%E3%83%9A%E3%83%BC%E3%82%B8%E3%81%AE%E6%9B%B4%E6%96%B0%E7%8A%B6%E6%B3%81/BH11.11/%E5%B1%B1%E6%9C%AC%E4%BD%9C%E6%A5%AD%E8%A8%98%E9%8C%B2" title="このページからリンクしているページの最近の更新 [k]" accesskey="k">関連ページの更新状況</a></li>
+<li id="t-specialpages"><a href="/mw/%E7%89%B9%E5%88%A5:%E7%89%B9%E5%88%A5%E3%83%9A%E3%83%BC%E3%82%B8%E4%B8%80%E8%A6%A7" title="特別ページの一覧 [q]" accesskey="q">特別ページ</a></li>
+				<li id="t-print"><a href="/mw/index.php?title=BH11.11/%E5%B1%B1%E6%9C%AC%E4%BD%9C%E6%A5%AD%E8%A8%98%E9%8C%B2&amp;diff=prev&amp;oldid=2073&amp;printable=yes" rel="alternate" title="このページの印刷用ページ [p]" accesskey="p">印刷用バージョン</a></li>				<li id="t-permalink"><a href="/mw/index.php?title=BH11.11/%E5%B1%B1%E6%9C%AC%E4%BD%9C%E6%A5%AD%E8%A8%98%E9%8C%B2&amp;oldid=2073" title="ページのこの版への固定リンク">この版への固定リンク</a></li>			</ul>
+		</div>
+	</div>
+</div><!-- end of the left (by default at least) column -->
+<div class="visualClear"></div>
+<div id="footer">
+	<div id="f-poweredbyico"><a href="http://www.mediawiki.org/"><img src="/mw/skins/common/images/poweredby_mediawiki_88x31.png" height="31" width="88" alt="Powered by MediaWiki" /></a></div>
+	<div id="f-copyrightico"><a href="http://creativecommons.org/licenses/by/3.0/"><img src="http://i.creativecommons.org/l/by/3.0/88x31.png" alt="Attribution 3.0 Unported" width="88" height="31" /></a></div>
+	<ul id="f-list">
+		<li id="lastmod"> このページの最終更新は 2011年11月29日 (火) 10:19 に行われました。</li>
+		<li id="viewcount">このページは4,752回アクセスされました。</li>
+		<li id="copyright">内容は<a href="http://creativecommons.org/licenses/by/3.0/" class="external ">Attribution 3.0 Unported</a>のライセンスで利用することができます。</li>
+		<li id="privacy"><a href="/mw/TogoWiki:%E3%83%97%E3%83%A9%E3%82%A4%E3%83%90%E3%82%B7%E3%83%BC%E3%83%BB%E3%83%9D%E3%83%AA%E3%82%B7%E3%83%BC" title="TogoWiki:プライバシー・ポリシー">プライバシー・ポリシー</a></li>
+		<li id="about"><a href="/mw/TogoWiki:TogoWiki%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6" title="TogoWiki:TogoWikiについて">TogoWikiについて</a></li>
+		<li id="disclaimer"><a href="/mw/TogoWiki:%E5%85%8D%E8%B2%AC%E4%BA%8B%E9%A0%85" title="TogoWiki:免責事項">免責事項</a></li>
+	</ul>
+</div>
+</div>
+
+<script>if (window.runOnloadHook) runOnloadHook();</script>
+<!-- Served in 0.748 secs. --></body></html>

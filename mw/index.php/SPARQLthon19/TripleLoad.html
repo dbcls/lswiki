@@ -1,0 +1,368 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html lang="ja" dir="ltr">
+<head>
+<title>SPARQLthon19/TripleLoad - TogoWiki</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta name="generator" content="MediaWiki 1.16.3" />
+<link rel="shortcut icon" href="http://wiki.lifesciencedb.jp/favicon.ico" />
+<link rel="search" type="application/opensearchdescription+xml" href="http://wiki.lifesciencedb.jp/mw/opensearch_desc.php" title="TogoWiki (ja)" />
+<link title="Creative Commons" type="application/rdf+xml" href="../../index.php@title=SPARQLthon19%252FTripleLoad&amp;action=creativecommons" rel="meta" />
+<link rel="copyright" href="http://creativecommons.org/licenses/by/3.0/" />
+<link rel="alternate" type="application/atom+xml" title="TogoWikiのAtomフィード" href="http://wiki.lifesciencedb.jp/mw/index.php?title=%E7%89%B9%E5%88%A5:%E6%9C%80%E8%BF%91%E3%81%AE%E6%9B%B4%E6%96%B0&amp;feed=atom" />
+<link rel="stylesheet" href="http://wiki.lifesciencedb.jp/mw/skins/common/shared.css?270" media="screen" />
+<link rel="stylesheet" href="http://wiki.lifesciencedb.jp/mw/skins/common/commonPrint.css?270" media="print" />
+<link rel="stylesheet" href="http://wiki.lifesciencedb.jp/mw/skins/monobook/main.css?270" media="screen" />
+<!--[if lt IE 5.5000]><link rel="stylesheet" href="/mw/skins/monobook/IE50Fixes.css?270" media="screen" /><![endif]-->
+<!--[if IE 5.5000]><link rel="stylesheet" href="/mw/skins/monobook/IE55Fixes.css?270" media="screen" /><![endif]-->
+<!--[if IE 6]><link rel="stylesheet" href="/mw/skins/monobook/IE60Fixes.css?270" media="screen" /><![endif]-->
+<!--[if IE 7]><link rel="stylesheet" href="/mw/skins/monobook/IE70Fixes.css?270" media="screen" /><![endif]-->
+<link rel="stylesheet" href="http://wiki.lifesciencedb.jp/mw/index.php?title=MediaWiki:Common.css&amp;usemsgcache=yes&amp;ctype=text%2Fcss&amp;smaxage=18000&amp;action=raw&amp;maxage=18000" />
+<link rel="stylesheet" href="http://wiki.lifesciencedb.jp/mw/index.php?title=MediaWiki:Print.css&amp;usemsgcache=yes&amp;ctype=text%2Fcss&amp;smaxage=18000&amp;action=raw&amp;maxage=18000" media="print" />
+<link rel="stylesheet" href="http://wiki.lifesciencedb.jp/mw/index.php?title=MediaWiki:Monobook.css&amp;usemsgcache=yes&amp;ctype=text%2Fcss&amp;smaxage=18000&amp;action=raw&amp;maxage=18000" />
+<link rel="stylesheet" href="http://wiki.lifesciencedb.jp/mw/index.php?title=-&amp;action=raw&amp;maxage=18000&amp;gen=css" />
+<script>
+var skin="monobook",
+stylepath="/mw/skins",
+wgUrlProtocols="http\\:\\/\\/|https\\:\\/\\/|ftp\\:\\/\\/|irc\\:\\/\\/|gopher\\:\\/\\/|telnet\\:\\/\\/|nntp\\:\\/\\/|worldwind\\:\\/\\/|mailto\\:|news\\:|svn\\:\\/\\/",
+wgArticlePath="/mw/$1",
+wgScriptPath="/mw",
+wgScriptExtension=".php",
+wgScript="/mw/index.php",
+wgVariantArticlePath=false,
+wgActionPaths={},
+wgServer="http://wiki.lifesciencedb.jp",
+wgCanonicalNamespace="",
+wgCanonicalSpecialPageName=false,
+wgNamespaceNumber=0,
+wgPageName="SPARQLthon19/TripleLoad",
+wgTitle="SPARQLthon19/TripleLoad",
+wgAction="view",
+wgArticleId=441,
+wgIsArticle=true,
+wgUserName=null,
+wgUserGroups=null,
+wgUserLanguage="ja",
+wgContentLanguage="ja",
+wgBreakFrames=false,
+wgCurRevisionId=18575,
+wgVersion="1.16.3",
+wgEnableAPI=true,
+wgEnableWriteAPI=true,
+wgSeparatorTransformTable=["", ""],
+wgDigitTransformTable=["", ""],
+wgMainPageTitle="メインページ",
+wgFormattedNamespaces={"-2": "メディア", "-1": "特別", "0": "", "1": "ノート", "2": "利用者", "3": "利用者‐会話", "4": "TogoWiki", "5": "TogoWiki‐ノート", "6": "ファイル", "7": "ファイル‐ノート", "8": "MediaWiki", "9": "MediaWiki‐ノート", "10": "Template", "11": "Template‐ノート", "12": "Help", "13": "Help‐ノート", "14": "Category", "15": "Category‐ノート"},
+wgNamespaceIds={"メディア": -2, "特別": -1, "": 0, "ノート": 1, "利用者": 2, "利用者‐会話": 3, "togowiki": 4, "togowiki‐ノート": 5, "ファイル": 6, "ファイル‐ノート": 7, "mediawiki": 8, "mediawiki‐ノート": 9, "template": 10, "template‐ノート": 11, "help": 12, "help‐ノート": 13, "category": 14, "category‐ノート": 15, "画像": 6, "画像‐ノート": 7, "image": 6, "image_talk": 7},
+wgSiteName="TogoWiki",
+wgCategories=[],
+wgRestrictionEdit=[],
+wgRestrictionMove=[];
+</script><script src="http://wiki.lifesciencedb.jp/mw/skins/common/wikibits.js?270"></script>
+<script src="http://wiki.lifesciencedb.jp/mw/skins/common/ajax.js?270"></script>
+<script src="http://wiki.lifesciencedb.jp/mw/index.php?title=-&amp;action=raw&amp;gen=js&amp;useskin=monobook&amp;270"></script>
+
+		<style type='text/css'>
+		li#pt-openidlogin {
+		  background: url(http://wiki.lifesciencedb.jp/mw/extensions/OpenID/skin/icons/openid-inputicon.png) top left no-repeat;
+		  padding-left: 20px;
+		  text-transform: none;
+		}
+		</style>
+</head>
+<body class="mediawiki ltr ns-0 ns-subject page-SPARQLthon19_TripleLoad skin-monobook">
+<div id="globalWrapper">
+<div id="column-content"><div id="content" >
+	<a id="top"></a>
+	
+	<h1 id="firstHeading" class="firstHeading">SPARQLthon19/TripleLoad</h1>
+	<div id="bodyContent">
+		<h3 id="siteSub">提供：TogoWiki</h3>
+		<div id="contentSub"></div>
+		<div id="jump-to-nav">移動： <a href="TripleLoad.html#column-one">案内</a>, <a href="TripleLoad.html#searchInput">検索</a></div>
+		<!-- start content -->
+<p>Virtuosoでトリプルをロードする方法をまとめます。
+</p>
+<table id="toc" class="toc"><tr><td><div id="toctitle"><h2>目次</h2></div>
+<ul>
+<li class="toclevel-1 tocsection-1"><a href="TripleLoad.html#.E3.83.AD.E3.83.BC.E3.83.89.E5.89.8D.E3.81.AE.E8.A8.AD.E5.AE.9A.EF.BC.8F.E4.BA.8B.E5.89.8D.E7.9F.A5.E8.AD.98"><span class="tocnumber">1</span> <span class="toctext">ロード前の設定／事前知識</span></a>
+<ul>
+<li class="toclevel-2 tocsection-2"><a href="TripleLoad.html#.E8.A8.AD.E5.AE.9A.E3.83.95.E3.82.A1.E3.82.A4.E3.83.AB.E3.81.AE.E5.A4.89.E6.9B.B4.28.E3.83.AD.E3.83.BC.E3.83.89.E3.81.AB.E9.96.A2.E9.80.A3.E3.81.99.E3.82.8B.E7.AE.87.E6.89.80.29"><span class="tocnumber">1.1</span> <span class="toctext">設定ファイルの変更(ロードに関連する箇所)</span></a></li>
+<li class="toclevel-2 tocsection-3"><a href="TripleLoad.html#log_enable.28.29.E3.81.AB.E3.81.A4.E3.81.84.E3.81.A6"><span class="tocnumber">1.2</span> <span class="toctext">log_enable()について</span></a></li>
+<li class="toclevel-2 tocsection-4"><a href="TripleLoad.html#graph.E3.81.AB.E3.81.A4.E3.81.84.E3.81.A6"><span class="tocnumber">1.3</span> <span class="toctext">graphについて</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-5"><a href="TripleLoad.html#.E3.83.AD.E3.83.BC.E3.83.89.E7.94.A8.E3.82.B3.E3.83.9E.E3.83.B3.E3.83.89"><span class="tocnumber">2</span> <span class="toctext">ロード用コマンド</span></a>
+<ul>
+<li class="toclevel-2 tocsection-6"><a href="TripleLoad.html#.E3.81.A9.E3.81.AE.E3.82.B3.E3.83.9E.E3.83.B3.E3.83.89.E3.82.92.E4.BD.BF.E7.94.A8.E3.81.99.E3.82.8B.E3.81.8B"><span class="tocnumber">2.1</span> <span class="toctext">どのコマンドを使用するか</span></a></li>
+<li class="toclevel-2 tocsection-7"><a href="TripleLoad.html#TTL.E3.81.AE.E3.83.AD.E3.83.BC.E3.83.89.28DB.DBA.TTLP_MT.29"><span class="tocnumber">2.2</span> <span class="toctext">TTLのロード(DB.DBA.TTLP_MT)</span></a></li>
+<li class="toclevel-2 tocsection-8"><a href="TripleLoad.html#RDF.2FXML.E3.81.AE.E3.83.AD.E3.83.BC.E3.83.89.28DB.DBA.RDF_LOAD_RDFXML_MT.29"><span class="tocnumber">2.3</span> <span class="toctext">RDF/XMLのロード(DB.DBA.RDF_LOAD_RDFXML_MT)</span></a></li>
+<li class="toclevel-2 tocsection-9"><a href="TripleLoad.html#.E3.83.87.E3.82.A3.E3.83.AC.E3.82.AF.E3.83.88.E3.83.AA.E3.81.AE.E4.B8.80.E6.8B.AC.E3.83.AD.E3.83.BC.E3.83.89.28ld_dir_all.29"><span class="tocnumber">2.4</span> <span class="toctext">ディレクトリの一括ロード(ld_dir_all)</span></a>
+<ul>
+<li class="toclevel-3 tocsection-10"><a href="TripleLoad.html#.E9.80.B2.E6.8D.97.E3.81.AE.E7.A2.BA.E8.AA.8D"><span class="tocnumber">2.4.1</span> <span class="toctext">進捗の確認</span></a></li>
+<li class="toclevel-3 tocsection-11"><a href="TripleLoad.html#.E5.89.8A.E9.99.A4.E5.BE.8C.E3.81.AB.E5.86.8D.E5.BA.A6.E7.99.BB.E9.8C.B2.E3.81.99.E3.82.8B.E5.A0.B4.E5.90.88.E3.81.AE.E6.B3.A8.E6.84.8F"><span class="tocnumber">2.4.2</span> <span class="toctext">削除後に再度登録する場合の注意</span></a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-12"><a href="TripleLoad.html#.E3.83.87.E3.83.BC.E3.82.BF.E3.81.AE.E4.B8.80.E6.8B.AC.E5.89.8A.E9.99.A4"><span class="tocnumber">3</span> <span class="toctext">データの一括削除</span></a>
+<ul>
+<li class="toclevel-2 tocsection-13"><a href="TripleLoad.html#.E3.82.B0.E3.83.A9.E3.83.95.E3.81.AE.E5.89.8A.E9.99.A4"><span class="tocnumber">3.1</span> <span class="toctext">グラフの削除</span></a></li>
+<li class="toclevel-2 tocsection-14"><a href="TripleLoad.html#.E5.85.A8.E3.83.87.E3.83.BC.E3.82.BF.E3.81.AE.E5.89.8A.E9.99.A4"><span class="tocnumber">3.2</span> <span class="toctext">全データの削除</span></a>
+<ul>
+<li class="toclevel-3 tocsection-15"><a href="TripleLoad.html#Virtuoso.E3.81.AE.E5.81.9C.E6.AD.A2"><span class="tocnumber">3.2.1</span> <span class="toctext">Virtuosoの停止</span></a></li>
+<li class="toclevel-3 tocsection-16"><a href="TripleLoad.html#DB.E3.83.95.E3.82.A1.E3.82.A4.E3.83.AB.E3.81.AE.E5.89.8A.E9.99.A4"><span class="tocnumber">3.2.2</span> <span class="toctext">DBファイルの削除</span></a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-17"><a href="TripleLoad.html#Tips"><span class="tocnumber">4</span> <span class="toctext">Tips</span></a>
+<ul>
+<li class="toclevel-2 tocsection-18"><a href="TripleLoad.html#.E3.83.A1.E3.83.A2.E3.83.AA.E9.87.8F.E3.81.AE.E8.A8.AD.E5.AE.9A"><span class="tocnumber">4.1</span> <span class="toctext">メモリ量の設定</span></a></li>
+</ul>
+</li>
+</ul>
+</td></tr></table><script>if (window.showTocToggle) { var tocShowText = "表示"; var tocHideText = "非表示"; showTocToggle(); } </script>
+<h1> <span class="mw-headline" id=".E3.83.AD.E3.83.BC.E3.83.89.E5.89.8D.E3.81.AE.E8.A8.AD.E5.AE.9A.EF.BC.8F.E4.BA.8B.E5.89.8D.E7.9F.A5.E8.AD.98">ロード前の設定／事前知識</span></h1>
+<h2> <span class="mw-headline" id=".E8.A8.AD.E5.AE.9A.E3.83.95.E3.82.A1.E3.82.A4.E3.83.AB.E3.81.AE.E5.A4.89.E6.9B.B4.28.E3.83.AD.E3.83.BC.E3.83.89.E3.81.AB.E9.96.A2.E9.80.A3.E3.81.99.E3.82.8B.E7.AE.87.E6.89.80.29">設定ファイルの変更(ロードに関連する箇所)</span></h2>
+<p>設定ファイル(virtuosoインストールディレクトリ/var/lib/virtuoso/db/virtuoso.ini)を修正する。<br />
+</p>
+<ul><li>ロードするRDFのディレクトリの追加
+</li></ul>
+<p>ロードコマンド(TTLP_MT, RDF_LOAD_RDFXML_MT, ld_dir_all)で指定するディレクトリを追記する。<br />
+尚、デフォルトの"."はDBディレクトリなので、"virtuosoインストールディレクトリ/var/lib/virtuoso/db"の下にRDFを置くならこの設定の追加は不要<br />
+</p>
+<pre>
+[Parameters]
+DirsAllowed                   = ., /home/my_name/store/virtuoso/share/virtuoso/vad, /home/my_name/rdf  //ロードするファイルのディレクトリを追記
+</pre>
+<ul><li>メモリの設定
+</li></ul>
+<p>大量のデータ(数G以上)をロードする際には、バッファサイズ(メモリ使用量)の設定が必要になる場合がある。設定値について詳しくは<a href="TripleLoad.html#.E3.83.A1.E3.83.A2.E3.83.AA.E9.87.8F.E3.81.AE.E8.A8.AD.E5.AE.9A" class="external text" rel="nofollow">メモリ量の設定</a>を参照
+</p>
+<pre>
+[Database]
+;MaxCheckpointRemap             = 2000 //コメントアウトして無効化
+
+[Parameters]
+;NumberOfBuffers          = 10000 //デフォルトのメモリ量を無効化して大きな値を設定
+;MaxDirtyBuffers          = 6000
+NumberOfBuffers          = 800000 //環境にあわせて設定
+MaxDirtyBuffers          = 600000 //環境にあわせて設定
+MaxCheckpointRemap       = 240000 //環境にあわせて設定
+UnremapQuota             = 0
+</pre>
+<h2> <span class="mw-headline" id="log_enable.28.29.E3.81.AB.E3.81.A4.E3.81.84.E3.81.A6">log_enable()について</span></h2>
+<p>log_enable()コマンドは、トランザクションログのモードを変更する際に用いられ、ロードの挙動に大きく関わる。<br />
+<a href="../BH12.12/SPARQLthon10/MBGD.html#log_enable.28.29.3B" class="external text" rel="nofollow">解説</a><br />
+<a href="http://docs.openlinksw.com/virtuoso/fn_log_enable.html" class="external text" rel="nofollow">仕様</a><br />
+<br />
+手元にデータ(RDF)があり、新規でトリプルをロードするorデータの入れ替えを行う場合には(現状ではこういった運用が多いと思う)、ロードをやり直せば良くトランザクションによる復旧は必要ないため、こういうケースではlog_enable(2,1)が適している。<br />
+後述のロードコマンドのうち、ld_dir, ld_dir_allについては、ログモードは(2)で実行される。DB.DBA.TTLP_MTとDB.DBA.RDF_LOAD_RDFXML_MTについては、ログモードはデフォルト値が使用されるので、明示的に指定する必要がある。
+<br />
+尚、log_enable()で設定したモードはisqlのセッション内で有効なので、isqlを切断すると次回接続時にはデフォルト値log_enable(1)に戻る。
+</p>
+<h2> <span class="mw-headline" id="graph.E3.81.AB.E3.81.A4.E3.81.84.E3.81.A6">graphについて</span></h2>
+<p>Virtuosoではインストール時にgraph名を指定する。SPARQLではFROM句にgraph名を指定して検索範囲を絞ることもできるため、まずはRDBのテーブルに相当する概念と考えるとよい。<br />
+graph名はURIであれば任意の値を指定できる。<br />
+どの単位でgraphを分割するかによってSPARQLの記述が若干変わってくる場合あり、分割単位の判断については悩ましい部分があるが、データを削除する際にgraph単位で削除できるコマンドがあるため、よく分からなければ削除するデータの固まりを一つのgraphとして分けておけば良い。
+</p>
+<h1> <span class="mw-headline" id=".E3.83.AD.E3.83.BC.E3.83.89.E7.94.A8.E3.82.B3.E3.83.9E.E3.83.B3.E3.83.89">ロード用コマンド</span></h1>
+<h2> <span class="mw-headline" id=".E3.81.A9.E3.81.AE.E3.82.B3.E3.83.9E.E3.83.B3.E3.83.89.E3.82.92.E4.BD.BF.E7.94.A8.E3.81.99.E3.82.8B.E3.81.8B">どのコマンドを使用するか</span></h2>
+<p>1,2個のファイルのTTLやRDF/XMLをロードする場合には"DB.DBA.TTLP_MT"や"DB.DBA.RDF_LOAD_RDFXML_MT"でも良いが、ファイルの個数が多い場合にはディレクトリ内のファイルを一括でロードできる"ld_dir_all"を使った方が向いている。
+</p>
+<h2> <span class="mw-headline" id="TTL.E3.81.AE.E3.83.AD.E3.83.BC.E3.83.89.28DB.DBA.TTLP_MT.29">TTLのロード(DB.DBA.TTLP_MT)</span></h2>
+<p>１個のTTLをロードする。<br />
+DB.DBA.TTLP_MT (in strg any, in base varchar, [in graph varchar], [in flags integer], [in log_mode integer], [in threads integer], [in transactional integer]); <a href="http://docs.openlinksw.com/virtuoso/fn_ttlp_mt.html" class="external text" rel="nofollow">仕様</a><br />
+だいたい次のような書式で使用する。 DB.DBA.TTLP_MT (file_to_string_output('ファイルパス', <i>, 'インポートしたいグラフ名');</i>
+</p>
+<pre>
+SQL&gt; log_enable(2,1);
+SQL&gt; DB.DBA.TTLP_MT (file_to_string_output('/home/my_name/rdf/test.ttl'), '', 'http://example.com/graph/graph_name');
+//フラグ(81 = 64 + 16 + 1)を立てて、TURTLE syntax違反を緩和する
+SQL&gt; DB.DBA.TTLP_MT (file_to_string_output('/home/my_name/rdf/test.ttl'), '', 'http://example.com/graph/graph_name',81);
+</pre>
+<h2> <span class="mw-headline" id="RDF.2FXML.E3.81.AE.E3.83.AD.E3.83.BC.E3.83.89.28DB.DBA.RDF_LOAD_RDFXML_MT.29">RDF/XMLのロード(DB.DBA.RDF_LOAD_RDFXML_MT)</span></h2>
+<p>１個のRDF/XMLをロードする。<br />
+DB.DBA.RDF_LOAD_RDFXML_MT (in strg varchar, in base varchar, in graph varchar, [in log_mode integer], [in threads integer], [in transactional integer]);<a href="http://docs.openlinksw.com/virtuoso/fn_rdf_load_rdfxml_mt.html" class="external text" rel="nofollow">仕様</a><br />
+だいたい次のような書式で使用する。 DB.DBA.TTLP_MT (file_to_string_output('ファイルパス', <i>, 'インポートしたいグラフ名');</i>
+</p>
+<pre>
+SQL&gt; log_enable(2,1);
+SQL&gt; DB.DBA.RDF_LOAD_RDFXML_MT (file_to_string_output('/home/my_name/rdf/test.rdf'), '', 'http://example.com/graph/graph_name');
+</pre>
+<h2> <span class="mw-headline" id=".E3.83.87.E3.82.A3.E3.83.AC.E3.82.AF.E3.83.88.E3.83.AA.E3.81.AE.E4.B8.80.E6.8B.AC.E3.83.AD.E3.83.BC.E3.83.89.28ld_dir_all.29">ディレクトリの一括ロード(ld_dir_all)</span></h2>
+<p>あるディレクトリにあるRDFファイルをまとめてロードする。<br />
+ld_dirは指定したディレクトリの直下のファイルしかロードしない。再帰的に辿ってサブディレクトリのファイルもロードする場合にはld_dir_allを使う<br />
+ld_dir_all (in dir_path varchar, in file_mask varchar, in target_graph varchar);  <a href="http://docs.openlinksw.com/virtuoso/fn_ld_dir.html" class="external text" rel="nofollow">仕様</a><br />
+だいたい次のような書式で使用する。 ld_dir_all (file_to_string_output('ファイルパス', 'マッチする条件', 'インポートしたいグラフ名');
+</p>
+<pre>
+SQL&gt; ld_dir_all ('/home/my_name/rdf/dir_name', '*.ttl', 'http://myhost/mygraph'); //ロードディレクトリの登録
+SQL&gt; ld_dir_all ('/home/my_name/rdf/dir_name2', '*.ttl', 'http://myhost/mygraph2'); //複数のグラフまたは複数のディレクトリを指定する場合は何度も登録する
+SQL&gt; rdf_loader_run(); //ロード実行
+</pre>
+<h3> <span class="mw-headline" id=".E9.80.B2.E6.8D.97.E3.81.AE.E7.A2.BA.E8.AA.8D">進捗の確認</span></h3>
+<p>ld_dir, ld_dir_allを使って複数ファイルを一括ロードする場合、進捗やエラー状態が確認できる。<br />
+ロードを始めたら別のisqlを立ち上げて、DB.DBA.LOAD_LISTテーブルの中身をSELECT文で確認する。
+</p>
+<pre>
+SQL&gt; SELECT * FROM DB.DBA.LOAD_LIST;//ロード対象のファイル一覧
+SQL&gt; SELECT COUNT(*) FROM DB.DBA.LOAD_LIST where ll_state = 0; //未ロードのファイル一覧。0:未着手、1:ロード中、2:ロード済み
+SQL&gt; SELECT * FROM DB.DBA.LOAD_LIST WHERE ll_error IS NOT NULL; //syntax等でロードエラーが出たファイルの一覧
+</pre>
+<h3> <span class="mw-headline" id=".E5.89.8A.E9.99.A4.E5.BE.8C.E3.81.AB.E5.86.8D.E5.BA.A6.E7.99.BB.E9.8C.B2.E3.81.99.E3.82.8B.E5.A0.B4.E5.90.88.E3.81.AE.E6.B3.A8.E6.84.8F">削除後に再度登録する場合の注意</span></h3>
+<p>一度ロードしたデータをCLEAR GRAPH(後述)等で削除し、再度ld_dir, ld_dir_allでロードをしようした場合、ロードがすぐ終わってしまい実際にデータが入っていない場合がある。<br />
+これはロードのstatusを記録したDB.DBA.LOAD_LISTテーブルにロード済みファイル情報が残っているためで、「それは以前ロードしたから、ロードする必要がない」と判断されるためである。<br />
+この場合は以下のコマンドでロードの記録を削除した後、再度ロードコマンドを実行する。
+</p>
+<pre>
+SQL&gt; DELETE FROM DB.DBA.LOAD_LIST WHERE ll_graph = 'http://myhost/mygraph2'; //特定のgraphのロードファイルの記録を削除
+SQL&gt; DELETE FROM DB.DBA.LOAD_LIST; //全てのロードファイルの記録を削除
+</pre>
+<p><br />
+</p>
+<h1> <span class="mw-headline" id=".E3.83.87.E3.83.BC.E3.82.BF.E3.81.AE.E4.B8.80.E6.8B.AC.E5.89.8A.E9.99.A4">データの一括削除</span></h1>
+<h2> <span class="mw-headline" id=".E3.82.B0.E3.83.A9.E3.83.95.E3.81.AE.E5.89.8A.E9.99.A4">グラフの削除</span></h2>
+<p>グラフ名を指定してグラフ内の全トリプルを一括削除できる。<br />
+削除処理はロード以上に時間がかかるため、ロードデータの大半を入れ替える場合には<a href="TripleLoad.html#.E5.85.A8.E3.83.87.E3.83.BC.E3.82.BF.E3.81.AE.E5.89.8A.E9.99.A4" class="external text" rel="nofollow">| 全データの削除</a>の方が良い。<br />
+注）トリプル数の多いグラフの削除の前にはlog_enableを(2,1)または(3,1)で設定しないとメモリが肥大化してサーバに影響がでる事があるので必ず指定する。
+</p>
+<pre>
+SQL&gt; log_enable(2,1);
+SQL&gt; SPARQL CLEAR GRAPH &lt;http://myhost/mygraph&gt;;
+</pre>
+<ul><li>削除後はグラフ指定でクエリを叩いて結果が0件であることを確認する。
+</li></ul>
+<pre>
+SQL&gt; SPARQL SELECT COUNT(*) FROM &lt;http://myhost/mygraph&gt; WHERE {&nbsp;?s&nbsp;?p&nbsp;?o};
+callret-0
+INTEGER
+_______________________________________________________________________________
+
+0
+</pre>
+<h2> <span class="mw-headline" id=".E5.85.A8.E3.83.87.E3.83.BC.E3.82.BF.E3.81.AE.E5.89.8A.E9.99.A4">全データの削除</span></h2>
+<p>グラフのトリプルサイズが大きいとグラフ指定での削除は長く重たい処理になるので、エンドポイント内の大半のデータを入れ替える場合にはDBファイルを削除してVirtuosoをインストール初期状態に戻した上でロードし直す方が効率が良い。<br />
+注）ユーザパスワードやストアドプロシージャ等をデフォルトから変更した場合には、再度設定が必要になるので変更内容を控えておく。<br />
+</p>
+<h3> <span class="mw-headline" id="Virtuoso.E3.81.AE.E5.81.9C.E6.AD.A2">Virtuosoの停止</span></h3>
+<pre>
+SQL&gt; shutdown();
+</pre>
+<h3> <span class="mw-headline" id="DB.E3.83.95.E3.82.A1.E3.82.A4.E3.83.AB.E3.81.AE.E5.89.8A.E9.99.A4">DBファイルの削除</span></h3>
+<p>"virtuosoインストールディレクトリ/var/lib/virtuoso/db"の下にデフォルトでは以下のファイルが生成されているので、iniファイル以外を残して削除する(logファイルもお好みで残しても良い)。
+</p>
+<pre>
+$ ls
+virtuoso-temp.db virtuoso.db virtuoso.ini virtuoso.lck virtuoso.log virtuoso.pxa virtuoso.trx
+$ ls | grep -v virtuoso.ini | xargs rm
+$ ls
+virtuoso.ini
+</pre>
+<p>この状態でVirtuosoを立ち上げると、インストール直後の状態と同じになる。
+</p>
+<h1> <span class="mw-headline" id="Tips">Tips</span></h1>
+<h2> <span class="mw-headline" id=".E3.83.A1.E3.83.A2.E3.83.AA.E9.87.8F.E3.81.AE.E8.A8.AD.E5.AE.9A">メモリ量の設定</span></h2>
+<p>大きなRDF(数G以上)をロードする場合にはバッファサイズ(メモリ使用量)の設定値を上げる必要がある。<br />
+デフォルトのメモリ使用量はとても小さい値になっているため、データ量に見合った設定に変更する必要がある。<br />
+Virtuosoはロード時に全データをメモリ上に構築し、ロードが進んでバッファサイズが足りなくなると、ハードディスクの読み書きが発生しはじめるため、著しくロードのスピードが遅くなる(ほとんど進まなくなる)。<br />
+これを防ぐためには、バッファサイズを大きく設定するか、またはディスクI/Oが発生してもあまり速度が落ちないように高速なディスク(SSD)を使うことでも軽減できる(SSD環境でのロードは検証中)。<br />
+<br />
+Virtuosoの<a href="http://virtuoso.openlinksw.com/dataspace/doc/dav/wiki/Main/VirtRDFPerformanceTuning#General" class="external text" rel="nofollow">ドキュメント</a>や設定ファイル(virtuoso.ini)にはバッファサイズをRAMの2/3〜3/5の量を設定するようにと記載されているが、1サーバ上に複数Virtuosoを稼働させることもあるため、この通り設定できない場合もある。<br />
+では、必要なバッファサイズをどう計算するかというと、少なくともttl形式のRDFファイル(ロードする全ファイルの合計)サイズを超える事はないようなので、Bufferを8.5Kで計算して、ファイルサイズ/8.5K = NumberOfBuffers にすれば、メモリ不足の問題ない。<br />
+しかし、これでは大きめに設定してしまうことになる場合があるため、まずは少なめ(例えば8G)と小さめのメモリ設定にしてロードを実行してみて、何%データが終わったあたりでロードスピードが落ち始めるかを見極めて、ロード10%程度で低下するようであれば、10倍のバッファサイズを指定するという調整をして進める。<br />
+</p>
+<!-- 
+NewPP limit report
+Preprocessor node count: 170/1000000
+Post-expand include size: 0/2097152 bytes
+Template argument size: 0/2097152 bytes
+Expensive parser function count: 0/100
+-->
+
+<!-- Saved in parser cache with key wikidb-togowiki_:pcache:idhash:441-0!1!0!!ja!2!edit=0 and timestamp 20230604044315 -->
+<div class="printfooter">
+「<a href="../../SPARQLthon19/TripleLoad.html">http://wiki.lifesciencedb.jp/mw/SPARQLthon19/TripleLoad</a>」より作成</div>
+		<div id='catlinks' class='catlinks catlinks-allhidden'></div>		<!-- end content -->
+				<div class="visualClear"></div>
+	</div>
+</div></div>
+<div id="column-one">
+	<div id="p-cactions" class="portlet">
+		<h5>表示</h5>
+		<div class="pBody">
+			<ul>
+				 <li id="ca-nstab-main" class="selected"><a href="../../SPARQLthon19/TripleLoad.html" title="本文を表示 [c]" accesskey="c">ページ</a></li>
+				 <li id="ca-talk" class="new"><a href="http://wiki.lifesciencedb.jp/mw/index.php?title=%E3%83%8E%E3%83%BC%E3%83%88:SPARQLthon19/TripleLoad&amp;action=edit&amp;redlink=1" title="記事についての議論 [t]" accesskey="t">議論</a></li>
+				 <li id="ca-viewsource"><a href="../../index.php@title=SPARQLthon19%252FTripleLoad&amp;action=edit.html" title="このページは保護されています。&#10;ページのソースを閲覧できます。 [e]" accesskey="e">ソースを表示</a></li>
+				 <li id="ca-history"><a href="../../index.php@title=SPARQLthon19%252FTripleLoad&amp;action=history.html" title="このページの過去の版 [h]" accesskey="h">履歴</a></li>
+			</ul>
+		</div>
+	</div>
+	<div class="portlet" id="p-personal">
+		<h5>個人用ツール</h5>
+		<div class="pBody">
+			<ul>
+				<li id="pt-anonuserpage"><a href="http://wiki.lifesciencedb.jp/mw/%E5%88%A9%E7%94%A8%E8%80%85:172.18.8.51" title="自分が編集しているIPアドレスの利用者ページ [.]" accesskey="." class="new">172.18.8.51</a></li>
+				<li id="pt-anontalk"><a href="http://wiki.lifesciencedb.jp/mw/%E5%88%A9%E7%94%A8%E8%80%85%E2%80%90%E4%BC%9A%E8%A9%B1:172.18.8.51" title="このIPアドレスからなされた編集についての議論 [n]" accesskey="n" class="new">このIPアドレスのトーク</a></li>
+				<li id="pt-anonlogin"><a href="../../index.php@title=特別%253Aログイン&amp;returnto=SPARQLthon19%252FTripleLoad.html" title="ログインすることが推奨されます。ただし、必須ではありません。 [o]" accesskey="o">ログイン</a></li>
+				<li id="pt-openidlogin"><a href="../../index.php@title=特別%253AOpenIDログイン&amp;returnto=SPARQLthon19%252FTripleLoad.html">OpenIDでログイン</a></li>
+			</ul>
+		</div>
+	</div>
+	<div class="portlet" id="p-logo">
+		<a style="background-image: url(http://wiki.lifesciencedb.jp/mw/images/togowiki-logo.png);" href="../../index.html" title="メインページに移動"></a>
+	</div>
+	<script type="text/javascript"> if (window.isMSIE55) fixalpha(); </script>
+	<div class='generated-sidebar portlet' id='p-navigation'>
+		<h5>案内</h5>
+		<div class='pBody'>
+			<ul>
+				<li id="n-mainpage-description"><a href="../../index.html" title="メインページに移動する [z]" accesskey="z">メインページ</a></li>
+				<li id="n-portal"><a href="http://wiki.lifesciencedb.jp/mw/TogoWiki:%E3%82%B3%E3%83%9F%E3%83%A5%E3%83%8B%E3%83%86%E3%82%A3%E3%83%BB%E3%83%9D%E3%83%BC%E3%82%BF%E3%83%AB" title="このプロジェクトについて、できること、情報を入手する場所">コミュニティ・ポータル</a></li>
+				<li id="n-currentevents"><a href="http://wiki.lifesciencedb.jp/mw/TogoWiki:%E6%9C%80%E8%BF%91%E3%81%AE%E5%87%BA%E6%9D%A5%E4%BA%8B" title="最近の出来事について予備知識を得る">最近の出来事</a></li>
+				<li id="n-recentchanges"><a href="http://wiki.lifesciencedb.jp/mw/%E7%89%B9%E5%88%A5:%E6%9C%80%E8%BF%91%E3%81%AE%E6%9B%B4%E6%96%B0" title="ウィキにおける最近の更新の一覧 [r]" accesskey="r">最近の更新</a></li>
+				<li id="n-randompage"><a href="http://wiki.lifesciencedb.jp/mw/%E7%89%B9%E5%88%A5:%E3%81%8A%E3%81%BE%E3%81%8B%E3%81%9B%E8%A1%A8%E7%A4%BA" title="無作為に抽出されたページの読み込み [x]" accesskey="x">おまかせ表示</a></li>
+				<li id="n-help"><a href="http://wiki.lifesciencedb.jp/mw/Help:%E7%9B%AE%E6%AC%A1" title="情報を得る場所">ヘルプ</a></li>
+			</ul>
+		</div>
+	</div>
+	<div id="p-search" class="portlet">
+		<h5><label for="searchInput">検索</label></h5>
+		<div id="searchBody" class="pBody">
+			<form action="http://wiki.lifesciencedb.jp/mw/index.php" id="searchform">
+				<input type='hidden' name="title" value="特別:検索"/>
+				<input id="searchInput" title="TogoWiki内を検索" accesskey="f" type="search" name="search" />
+				<input type='submit' name="go" class="searchButton" id="searchGoButton"	value="表示" title="厳密に一致する名前のページが存在すれば、そのページへ移動します" />&nbsp;
+				<input type='submit' name="fulltext" class="searchButton" id="mw-searchButton" value="検索" title="入力された文字列が含まれるページを検索します" />
+			</form>
+		</div>
+	</div>
+	<div class="portlet" id="p-tb">
+		<h5>ツールボックス</h5>
+		<div class="pBody">
+			<ul>
+				<li id="t-whatlinkshere"><a href="../../特別%253Aリンク元/SPARQLthon19/TripleLoad.html" title="ここにリンクしている全ウィキのページの一覧 [j]" accesskey="j">リンク元</a></li>
+				<li id="t-recentchangeslinked"><a href="../../特別%253A関連ページの更新状況/SPARQLthon19/TripleLoad.html" title="このページからリンクしているページの最近の更新 [k]" accesskey="k">関連ページの更新状況</a></li>
+<li id="t-specialpages"><a href="http://wiki.lifesciencedb.jp/mw/%E7%89%B9%E5%88%A5:%E7%89%B9%E5%88%A5%E3%83%9A%E3%83%BC%E3%82%B8%E4%B8%80%E8%A6%A7" title="特別ページの一覧 [q]" accesskey="q">特別ページ</a></li>
+				<li id="t-print"><a href="../../index.php@title=SPARQLthon19%252FTripleLoad&amp;printable=yes.html" rel="alternate" title="このページの印刷用ページ [p]" accesskey="p">印刷用バージョン</a></li>				<li id="t-permalink"><a href="../../index.php@title=SPARQLthon19%252FTripleLoad&amp;oldid=18575.html" title="ページのこの版への固定リンク">この版への固定リンク</a></li>			</ul>
+		</div>
+	</div>
+</div><!-- end of the left (by default at least) column -->
+<div class="visualClear"></div>
+<div id="footer">
+	<div id="f-poweredbyico"><a href="http://www.mediawiki.org/"><img src="http://wiki.lifesciencedb.jp/mw/skins/common/images/poweredby_mediawiki_88x31.png" height="31" width="88" alt="Powered by MediaWiki" /></a></div>
+	<div id="f-copyrightico"><a href="http://creativecommons.org/licenses/by/3.0/"><img src="http://i.creativecommons.org/l/by/3.0/88x31.png" alt="Attribution 3.0 Unported" width="88" height="31" /></a></div>
+	<ul id="f-list">
+		<li id="lastmod"> このページの最終更新は 2015年12月19日 (土) 10:36 に行われました。</li>
+		<li id="viewcount">このページは25,164回アクセスされました。</li>
+		<li id="copyright">内容は<a href="http://creativecommons.org/licenses/by/3.0/" class="external ">Attribution 3.0 Unported</a>のライセンスで利用することができます。</li>
+		<li id="privacy"><a href="http://wiki.lifesciencedb.jp/mw/TogoWiki:%E3%83%97%E3%83%A9%E3%82%A4%E3%83%90%E3%82%B7%E3%83%BC%E3%83%BB%E3%83%9D%E3%83%AA%E3%82%B7%E3%83%BC" title="TogoWiki:プライバシー・ポリシー">プライバシー・ポリシー</a></li>
+		<li id="about"><a href="http://wiki.lifesciencedb.jp/mw/TogoWiki:TogoWiki%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6" title="TogoWiki:TogoWikiについて">TogoWikiについて</a></li>
+		<li id="disclaimer"><a href="http://wiki.lifesciencedb.jp/mw/TogoWiki:%E5%85%8D%E8%B2%AC%E4%BA%8B%E9%A0%85" title="TogoWiki:免責事項">免責事項</a></li>
+	</ul>
+</div>
+</div>
+
+<script>if (window.runOnloadHook) runOnloadHook();</script>
+<!-- Served in 0.381 secs. --></body></html>

@@ -1,0 +1,1108 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html lang="ja" dir="ltr">
+<head>
+<title>ソースを表示 - TogoWiki</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta name="generator" content="MediaWiki 1.16.3" />
+<meta name="robots" content="noindex,nofollow" />
+<link rel="next" href="http://wiki.lifesciencedb.jp/mw/SPARQLthon/togostanza_js" />
+<link rel="shortcut icon" href="/favicon.ico" />
+<link rel="search" type="application/opensearchdescription+xml" href="/mw/opensearch_desc.php" title="TogoWiki (ja)" />
+<link rel="copyright" href="http://creativecommons.org/licenses/by/3.0/" />
+<link rel="alternate" type="application/atom+xml" title="TogoWikiのAtomフィード" href="/mw/index.php?title=%E7%89%B9%E5%88%A5:%E6%9C%80%E8%BF%91%E3%81%AE%E6%9B%B4%E6%96%B0&amp;feed=atom" />
+<!--[if IE 8]><link rel="stylesheet" href="/mw/skins/common/IE80Fixes.css?270" media="screen" /><![endif]-->
+<link rel="stylesheet" href="/mw/skins/common/shared.css?270" media="screen" />
+<link rel="stylesheet" href="/mw/skins/common/commonPrint.css?270" media="print" />
+<link rel="stylesheet" href="/mw/skins/monobook/main.css?270" media="screen" />
+<!--[if lt IE 5.5000]><link rel="stylesheet" href="/mw/skins/monobook/IE50Fixes.css?270" media="screen" /><![endif]-->
+<!--[if IE 5.5000]><link rel="stylesheet" href="/mw/skins/monobook/IE55Fixes.css?270" media="screen" /><![endif]-->
+<!--[if IE 6]><link rel="stylesheet" href="/mw/skins/monobook/IE60Fixes.css?270" media="screen" /><![endif]-->
+<!--[if IE 7]><link rel="stylesheet" href="/mw/skins/monobook/IE70Fixes.css?270" media="screen" /><![endif]-->
+<link rel="stylesheet" href="/mw/index.php?title=MediaWiki:Common.css&amp;usemsgcache=yes&amp;ctype=text%2Fcss&amp;smaxage=18000&amp;action=raw&amp;maxage=18000" />
+<link rel="stylesheet" href="/mw/index.php?title=MediaWiki:Print.css&amp;usemsgcache=yes&amp;ctype=text%2Fcss&amp;smaxage=18000&amp;action=raw&amp;maxage=18000" media="print" />
+<link rel="stylesheet" href="/mw/index.php?title=MediaWiki:Monobook.css&amp;usemsgcache=yes&amp;ctype=text%2Fcss&amp;smaxage=18000&amp;action=raw&amp;maxage=18000" />
+<link rel="stylesheet" href="/mw/index.php?title=-&amp;action=raw&amp;maxage=18000&amp;gen=css" />
+<script>
+var skin="monobook",
+stylepath="/mw/skins",
+wgUrlProtocols="http\\:\\/\\/|https\\:\\/\\/|ftp\\:\\/\\/|irc\\:\\/\\/|gopher\\:\\/\\/|telnet\\:\\/\\/|nntp\\:\\/\\/|worldwind\\:\\/\\/|mailto\\:|news\\:|svn\\:\\/\\/",
+wgArticlePath="/mw/$1",
+wgScriptPath="/mw",
+wgScriptExtension=".php",
+wgScript="/mw/index.php",
+wgVariantArticlePath=false,
+wgActionPaths={},
+wgServer="http://wiki.lifesciencedb.jp",
+wgCanonicalNamespace="",
+wgCanonicalSpecialPageName=false,
+wgNamespaceNumber=0,
+wgPageName="SPARQLthon/togostanza_js",
+wgTitle="SPARQLthon/togostanza js",
+wgAction="edit",
+wgArticleId=672,
+wgIsArticle=false,
+wgUserName=null,
+wgUserGroups=null,
+wgUserLanguage="ja",
+wgContentLanguage="ja",
+wgBreakFrames=true,
+wgCurRevisionId=25276,
+wgVersion="1.16.3",
+wgEnableAPI=true,
+wgEnableWriteAPI=true,
+wgSeparatorTransformTable=["", ""],
+wgDigitTransformTable=["", ""],
+wgMainPageTitle="メインページ",
+wgFormattedNamespaces={"-2": "メディア", "-1": "特別", "0": "", "1": "ノート", "2": "利用者", "3": "利用者‐会話", "4": "TogoWiki", "5": "TogoWiki‐ノート", "6": "ファイル", "7": "ファイル‐ノート", "8": "MediaWiki", "9": "MediaWiki‐ノート", "10": "Template", "11": "Template‐ノート", "12": "Help", "13": "Help‐ノート", "14": "Category", "15": "Category‐ノート"},
+wgNamespaceIds={"メディア": -2, "特別": -1, "": 0, "ノート": 1, "利用者": 2, "利用者‐会話": 3, "togowiki": 4, "togowiki‐ノート": 5, "ファイル": 6, "ファイル‐ノート": 7, "mediawiki": 8, "mediawiki‐ノート": 9, "template": 10, "template‐ノート": 11, "help": 12, "help‐ノート": 13, "category": 14, "category‐ノート": 15, "画像": 6, "画像‐ノート": 7, "image": 6, "image_talk": 7},
+wgSiteName="TogoWiki",
+wgCategories=[],
+wgRestrictionEdit=[],
+wgRestrictionMove=[];
+</script><script src="/mw/skins/common/wikibits.js?270"></script>
+<script src="/mw/skins/common/edit.js?270"></script>
+<script src="/mw/skins/common/ajax.js?270"></script>
+<script src="/mw/index.php?title=-&amp;action=raw&amp;gen=js&amp;useskin=monobook&amp;270"></script>
+
+		<style type='text/css'>
+		li#pt-openidlogin {
+		  background: url(/mw/extensions/OpenID/skin/icons/openid-inputicon.png) top left no-repeat;
+		  padding-left: 20px;
+		  text-transform: none;
+		}
+		</style>
+</head>
+<body class="mediawiki ltr ns-0 ns-subject page-SPARQLthon_togostanza_js skin-monobook">
+<div id="globalWrapper">
+<div id="column-content"><div id="content" >
+	<a id="top"></a>
+	
+	<h1 id="firstHeading" class="firstHeading">SPARQLthon/togostanza js</h1>
+	<div id="bodyContent">
+		<h3 id="siteSub">提供：TogoWiki</h3>
+		<div id="contentSub"><a href="/mw/SPARQLthon/togostanza_js" title="SPARQLthon/togostanza js">SPARQLthon/togostanza js</a>のソース</div>
+		<div id="jump-to-nav">移動： <a href="#column-one">案内</a>, <a href="#searchInput">検索</a></div>
+		<!-- start content -->
+<p>以下に示された理由により、このページの編集を行うことができません：
+</p>
+<div class="permissions-errors">
+<p>この操作は、<a href="/mw/index.php?title=TogoWiki:%E5%88%A9%E7%94%A8%E8%80%85&amp;action=edit&amp;redlink=1" class="new" title="TogoWiki:利用者（存在しないページ）">利用者</a>のグループに属する利用者のみが実行できます。
+</p>
+</div>
+<p>このページのソースを閲覧し、コピーすることができます：
+</p><textarea id="wpTextbox1" name="wpTextbox1" cols="80" rows="25" readonly="">Ruby 版と JavaScript 版の TogoStanza の入手方法については http://togostanza.org/documents/development.html をご参照下さい。
+=注意=
+* 現在 ts v.0.0.8以前とv0.0.9以降の記述が混在してます
+** v0.0.8以前：Web components v0 と jQuery
+*** ページ全体でのjQueryの競合に注意が必要
+*** web components v0 非対応ブラウザ (iOS等) で表示されない
+** v0.0.9以降：Web components v1 (jQuery無し)
+*** jQuery を使っていないので、親要素で jQuery を使っても競合しない
+*** Stanza 内で jQuery のコードを使う場合には、別途 _header.html で jQuery を読み込む必要がある。その場合は競合に注意
+*** iOSでも表示できる
+
+=Ruby版との比較=
+==長所==
+*習得言語がJavaScriptだけでよい
+*依存環境が少なく環境構築が楽(Ruby版は依存パッケージのインストールが必要)。
+*公開にあたって独自サービスが不要(Ruby版はRackサーバ上で動作し、Apacheの場合にはさらにPhusion Passengerが必要)。
+*iframeを使用しないので、SEOでスタンザコンテンツだけが検索にヒットしてしまうことがない。
+==短所==
+*SPARQL発行先エンドポイントがCORS対応している必要がある。[http://wiki.lifesciencedb.jp/mw/SPARQLthon/togostanza_js#.E3.82.A8.E3.83.B3.E3.83.89.E3.83.9D.E3.82.A4.E3.83.B3.E3.83.88.E3.81.8CCORS.E5.AF.BE.E5.BF.9C.E3.81.95.E3.82.8C.E3.81.A6.E3.81.84.E3.82.8B.E3.81.8B エンドポイントがCORS対応されているか]
+*スタンザを埋め込むページ全体でjsの競合に注意する必要がある。 [http://wiki.lifesciencedb.jp/mw/SPARQLthon/togostanza_js#js.E3.81.AE.E7.AB.B6.E5.90.88 jsの競合], [http://wiki.lifesciencedb.jp/mw/SPARQLthon/togostanza_js#Web_Components_v1_.E5.AF.BE.E5.BF.9C.E3.81.A8_jQuery_.E6.8E.92.E9.99.A4 Web Components v1 対応と jQuery 排除]
+*高機能な可視化ライブラリで表示が崩れる場合がある[http://wiki.lifesciencedb.jp/mw/SPARQLthon/togostanza_js#.E6.8F.8F.E7.94.BB.E3.83.A9.E3.82.A4.E3.83.96.E3.83.A9.E3.83.AA 描画ライブラリ]
+*ifameの替わりにWeb Components(ShadowDOM, HTML imports)を使用しているため、対応が完全ではないブラウザ等では Polyfill ([https://github.com/webcomponents/webcomponentsjs webcomponentsjs]) 等の代替え技術により表示するので若干の表示崩れがある
+** [https://caniuse.com/#feat=shadowdom Shadow DOM v0 ブラウザ対応状況]
+*** ts v0.0.8まで
+*** ブラウザがサポートしないので、ほぼPolyfillで対応
+** [https://caniuse.com/#feat=shadowdomv1 Shadow DOM v1 ブラウザ対応状況]
+*** ts v0.0.9から
+** [https://caniuse.com/#feat=imports HTML imports ブラウザ対応状況]
+*** HTML imports は非推奨になり、ブラウザでサポートされなくなるので、 Polyfill で対応 (Chromeは74で HTML imports を削除）
+**** Polyfill は webcomponentsjs v1.x系のみ。 v2.xでは HTML imports の Polyfill が削除された
+*** 今後は [https://caniuse.com/#search=modules ES modules, import()] に移行？
+**** ts を ES modules で実装しなおすと、今まで &lt;link rel="import" href="...> としていたところを &lt;script type="module" src="...> と変えなきゃならないので、互換性が無くなる
+**** そもそも Polyfill 上で HTML imports の代替は ES modules で実装されている
+
+=サンプルコード=
+このページに記述しているスタンザ例のコードの一部は以下のリポジトリからダウンロード可能で、動作確認ができます。
+[https://github.com/okbp/ts_samples サンプルコードのリポジトリ]
+=初めてのts=
+==ドキュメント==
+[https://github.com/togostanza/ts/blob/master/doc/Getting-Started.md Getting-Started]&lt;br/>
+[https://github.com/togostanza/ts/blob/master/doc/Reference.md Reference]&lt;br/>
+==スタンザ作成前の確認==
+スタンザを作成する前に、以下のことを確認しておく必要があります。
+===エンドポイントがCORS対応されているか===
+tsはjavascriptでエンドポイントにアクセスするため、tsを動かすWebサーバとエンドポイントのドメインが異なる場合にCross-Origin(CORS)エラーが発生します。&lt;br/>
+*確認方法
+自分でjavascriptを書いてもいいですが、最も手軽な方法として、d3sparql.jsのデモアプリが利用できます。&lt;br>
+[http://biohackathon.org/d3sparql/ d3sparql.js] のページ上の [ Table ] -[ d3htmltable ] をクリック。&lt;br>
+SPARQL endpoint:の欄に確認したいエンドポイントURLを入力して、必ず値が返ってくる以下のようなクエリを実行
+&lt;pre>
+SELECT * {  ?s ?p ?o } LIMIT 10
+&lt;/pre>
+データが表示されればエンドポイントのCORS対応がされています。&lt;br>
+表示されない場合、ブラウザのデバッグツールを開いて、'Access-Control-Allow-Origin'というようなエラーメッセージが出ている場合にはエンドポイントの設定が必要です。&lt;br>
+Virtuosoの場合には右のサイト等を参考にCORS設定してください。[http://ods.openlinksw.com/dataspace/doc/dav/wiki/Main/VirtTipsAndTricksCORsEnableSPARQLURLs マニュアル(英語)] [http://qiita.com/misshie@github/items/f603bf5a3971ab576907 三嶋さんブログ] &lt;br>
+Apacheなどのフロントサーバを介している場合にはそちらの設定が必要です。
+
+===エンドポイントがCORS対応されていない場合===
+外部管理のCORS対応されていない Endpoint を togostanza で呼び出したい場合は、SPARQList を立てて、経由することでアクセスできます。[http://wiki.lifesciencedb.jp/mw/SPARQLthon/togostanza_js#SPARQList 下記参照]
+* SPARQList のSPARQL クエリは SPARQList が動いているサーバー側で処理されるので、CORSエラーは出ません
+
+===発行するSPARQLが正しいか(値が返ってくるか)===
+エラーが発生した場合の切り分けが楽なので、スタンザで使用するクエリが間違いなく返ってくるか、事前に確認しておく方がオススメです。
+
+==インストール==
+tsはバイナリのモジュールを[https://github.com/togostanza/ts/releases サイト]からダウンロードしてPATHを通すだけです。&lt;br>
+あとは[https://github.com/togostanza/ts/blob/master/doc/Getting-Started.md ドキュメント]に沿って、一つスタンザを作成してみてtsサーバを立ち上げてみるとインストールされたことが確認できます。
+&lt;pre>
+$ mkdir my_provider //作業用ディレクトリを作成
+$ cd my_provider
+$ ts new hello //"hello"という名前の新規スタンザを作成
+$ ts server //tsサーバを起動(デフォルトポート8080)
+&lt;/pre>
+この状態でhttp://localhost:8080/stanza/ にアクセスすると、スタンザリストが見えます。helloをクリックすると、スタンザ(のヘルプページ)が表示されます。&lt;br>
+Ctrl + c でtsサーバを停止できます。
+
+==スタンザ作成==
+[https://github.com/togostanza/ts/blob/master/doc/Getting-Started.md ドキュメント]にあるとおり、ts new &lt;スタンザ名>で作成コマンドを打つと、スタンザ名のディレクトリと中に自動でいくつかファイル群が生成されますので、それらを編集したりファイルを追加したりしてお好みのスタンザを作ります。&lt;br>
+ドキュメントの最後にあるSPARQLを使用した例"Issue SPARQL query"のorganism-nameスタンザコードはこちらにあります。[https://github.com/okbp/ts_samples/tree/master/organism-name organism-name]
+
+=How To=
+==SPARQL resultデータの加工==
+stanza.query()を実行すると、SPARQLのresultは仕様で定められたjson([https://www.w3.org/TR/sparql11-results-json/ SPARQL 1.1 Query Results JSON Format])形式で返ってきます。&lt;br>
+*resultデータをそのまま使用する
+*resultデータからbindingsオブジェクトを辿る
+*resultデータからstanza.unwrapValueFromBinding()を使用してkey-valueにデータを展開する。※この場合はcolumnの型は失われる
+の三通りの扱いができます。&lt;br>
+動作確認はサンプルコードで行えます[https://github.com/okbp/ts_samples/tree/master/handling-query-result handling-query-result]
+
+*templates/stanza.rq
+&lt;pre>
+SELECT *
+{
+ ?s ?p ?o
+} LIMIT 2
+&lt;/pre>
+
+*index.js
+&lt;pre>
+Stanza(function(stanza, params) {
+  var q = stanza.query({
+    endpoint: "http://integbio.jp/rdf/sparql",
+    template: "stanza.rq",
+    parameters: params
+  });
+  q.then(function(data) {
+    var raw_data = JSON.stringify(data);
+    var bindings = data.results.bindings;
+    var bindings_json = JSON.stringify(data.results.bindings);
+    var unwrap = stanza.unwrapValueFromBinding(data);
+    var unwrap_json = JSON.stringify(stanza.unwrapValueFromBinding(data));
+    stanza.render({
+      template: "stanza.html",
+      parameters: {
+        raw_data: raw_data,
+        bindings: bindings,
+        bindings_json: bindings_json,
+        unwrap: unwrap,
+        unwrap_json: unwrap_json
+      },
+    });
+  });
+});:
+&lt;/pre>
+
+*templates/stanza.html
+&lt;pre>
+&lt;style>
+table {
+  width: 400px;
+  border: 2px #2b2b2b solid;
+  border-collapse: collapse;
+}
+th {
+  background-color: #ffd78c;
+}
+td, th {
+  border: 2px #2b2b2b solid;
+}
+&lt;/style>
+
+&lt;h3>raw_data&lt;/h3>
+{{raw_data}}
+&lt;h3>bindings&lt;/h3>
+{{bindings_json}}
+&lt;table>
+  &lt;th>s&lt;/th>
+  &lt;th>p&lt;/th>
+  &lt;th>o&lt;/th>
+  {{#each bindings}}
+  &lt;tr>
+    &lt;td>
+      {{s.value}}
+    &lt;/td>
+    &lt;td>
+      {{p.value}}
+    &lt;/td>
+    &lt;td>
+      {{o.value}}
+    &lt;/td>
+  {{/each}}
+&lt;/table>
+
+&lt;h3>unwrap&lt;/h3>
+{{unwrap_json}}
+&lt;table>
+  &lt;th>s&lt;/th>
+  &lt;th>p&lt;/th>
+  &lt;th>o&lt;/th>
+  {{#each unwrap}}
+  &lt;tr>
+    &lt;td>
+      {{s}}
+    &lt;/td>
+    &lt;td>
+      {{p}}
+    &lt;/td>
+    &lt;td>
+      {{o}}
+    &lt;/td>
+  {{/each}}
+&lt;/table>
+&lt;/pre>
+
+==ページのイベントを受け取る==
+スタンザ描画後に、ユーザのクリックなどのイベントを受け取る方法を紹介します。サンプルコード[https://github.com/okbp/ts_samples/tree/master/event_listener event_listener]&lt;br>
+eventを設定するにはhtmlがレンダリングされた後である必要があるので、stanza.render()と同じ階層に書いてください。&lt;br>
+エレメントの取得にはstanza.select()を使用します。
+
+*index.js
+&lt;pre>
+Stanza(function(stanza, params) {
+  var q = stanza.query({
+      endpoint: "http://integbio.jp/rdf/sparql",
+      template: "stanza.rq",
+      parameters: params
+  });
+
+  q.then(function(data) {
+    stanza.render({
+      template: "stanza.html",
+    });
+    //プルダウンリストを初期値の値にセット
+    $(stanza.select('#current_value')).html(stanza.select('#select1').value);
+
+    //use plain javascript
+    stanza.select('#button1').addEventListener("click", function(e) {
+      alert('button is clicked!');
+    });
+
+    //use jQuery (ts v0.0.8 以前)
+    $(stanza.select('#select1')).on('change', function(e) {
+      $(stanza.select('#current_value')).empty();
+      $(stanza.select('#current_value')).html(stanza.select('#select1').value);
+    });
+  });
+});
+&lt;/pre>
+
+*templates/stanza.html
+&lt;pre>
+&lt;button type="button" id="button1" value="aaa">
+Click!
+&lt;/button>
+
+&lt;select id='select1'>
+  &lt;option value='value1'>Value1&lt;/option>
+  &lt;option value='value2'>Value2&lt;/option>
+&lt;/select>
+&lt;div>Current value: &lt;span id='current_value'>&lt;/span>&lt;/div>
+&lt;/pre>
+
+==複数のSPARQLの実行==
+===複数クエリの順次実行===
+あるクエリの結果を使って、次のクエリを組み立てて実行する場合、前のクエリの結果を受け取るfunctionで次のクエリを組み立てることになります。&lt;br/>
+サンプルコードは[https://github.com/okbp/ts_samples/tree/master/sequential-query sequential-query]にあります。
+*index.js
+&lt;pre>
+Stanza(function(stanza, params) {
+  //一つ目のクエリの実行
+  var q1 = stanza.query({
+    endpoint: "http://integbio.jp/rdf/sparql",
+    template: "query1.rq",
+    parameters: params
+  });
+  //一つ目のクエリの終了イベント
+  q1.then(function(data){
+    //一つ目のクエリの実行結果を取得して、次のクエリのパラメータにする
+    var first_item = data.results.bindings[0];
+    var subject_value = first_item.s.value;
+    //二つ目のクエリの実行
+    var q2 = stanza.query({
+      endpoint: "http://integbio.jp/rdf/sparql",
+      template: "query2.rq",
+      parameters: {
+        subject: subject_value
+      }
+    });
+    //二つ目のクエリの終了イベント
+    q2.then(function(data){
+      var result_list = data.results.bindings;
+      //結果を表示
+      stanza.render({
+        template: "stanza.html",
+        parameters: {
+          subject: subject_value,
+          result: result_list
+        }
+      });
+    });
+  });
+});
+&lt;/pre>
+*query1.rq
+&lt;pre>
+SELECT ?s ?p ?o
+WHERE
+{
+  ?s ?p ?o
+} LIMIT 10
+&lt;/pre>
+*query2.rq
+&lt;pre>
+SELECT ?p ?o
+WHERE
+{
+  &lt;{{subject}}> ?p ?o
+}
+&lt;/pre>
+
+===複数クエリの並列実行===
+複数のクエリがお互いに関係せず並列実行できる場合にはv0.0.8 以前はjQueryのwhen()メソッドが、v0.0.9以降はPromiseが使えます。&lt;br/>
+$.when()を使った場合、then()のfunction引数には発行した数のクエリ結果の引数が渡されますが、実際のSPARQLクエリ結果はこれらの変数の配列[0]に格納されていることに注意してください。&lt;br/>
+サンプルコードは[https://github.com/okbp/ts_samples/tree/master/parallel-query parallel-query]にあります。
+*index.js
+*ts v0.0.8以前
+&lt;pre>
+Stanza(function(stanza, params) {
+  //コード可読性のために、クエリオブジェクトを変数に定義
+  var query1 = {
+    endpoint: "http://integbio.jp/rdf/sparql",
+    template: "query1.rq",
+    parameters: params
+  };
+  var query2 = {
+    endpoint: "http://sparql.uniprot.org/sparql",
+    template: "query2.rq",
+    parameters: params
+  };
+
+  //複数クエリの実行
+  var q = $.when(stanza.query(query1), stanza.query(query2));
+   
+  //全てのクエリが終了した時点で実行され、発行したクエリの数の引数が渡される
+  q.then(function(data1, data2) { 
+    //data1ではなく、data1[0]でSPARQL結果が取得できる 
+    var query1_list = data1[0].results.bindings;
+    var query2_list = data2[0].results.bindings;
+    var all_list = query1_list.concat(query2_list);
+    stanza.render({
+      template: "stanza.html",
+      parameters: {
+        result: all_list
+      }
+    });
+  });
+});
+&lt;/pre>
+
+*ts v0.0.9以降
+&lt;pre>
+Stanza(function(stanza, params) {
+  // SPARQL query 1
+  var q1 = stanza.query({
+    endpoint: "http://exapmle.org/sparql",
+    template: "query1.rq",
+    parameters: params
+  });
+  // SPARQL query 2
+  var q2 = stanza.query({
+    endpoint: "http://example.com/sparql",
+    template: "query2.rq",
+    parameters: params
+  });
+
+    var q = Promise.all([q1, q2]);
+
+    q.then(function([data1, data2]){
+    // jQuery の $.when() と違い data1[0] ではなく、data1 で SPARQL 結果が取得できる 
+    var query1_list = data1.results.bindings;
+    var query2_list = ......略
+　　.......
+    stanza.render({
+      template: "stanza.html",
+      parameters: {
+        result: all_list
+      }
+    });
+  });
+});
+&lt;/pre>
+
+*query1,rq, query2.rq (どちらも同じ内容)
+&lt;pre>
+SELECT *
+WHERE
+{
+ ?s ?p ?o
+} LIMIT 10
+&lt;/pre>
+
+==SPARQL以外のAPI呼び出し==
+===jQuery===
+* v0.0.8以前
+&lt;pre>
+    var q = $.ajax({
+      url: "http://example.of/api/url",
+      method: 'get',
+      data: {
+        key1: value1,
+        key2: value2
+      }
+    });
+&lt;/pre>
+
+===fetch===
+&lt;pre>
+    var q = fetch( "http://example.of/api/url?key1=value1&amp;key2=value2", { method: 'get'} );
+&lt;/pre>
+
+===SPARQList===
+* SPARQList で SPARQL 処理を全部やって、結果を受け取ってtemplateのhtmlに渡すだけの index.js
+** 'POST' は SPARQList ver. 2018-02-20 以降。それ以前の ver. なら 'GET' を使いましょう
+&lt;pre>
+Stanza(function(stanza, params) {
+    var formBody = [];
+    for (var key in params) {
+	if(params[key]) formBody.push(key + "=" + encodeURIComponent(params[key]));
+    }
+    var options = {
+	method: "POST",
+	mode:  "cors",
+	body: formBody.join("&amp;"),
+	headers: {
+	    "Accept": "application/json",	    
+	    'Content-Type': 'application/x-www-form-urlencoded'
+	}
+    };
+    var url = "http://example.of/sparqlist/url";
+    var q = fetch(url, options).then(res => res.json());
+    q.then(function(data){
+	stanza.render({
+	    template: "stanza.html",
+	    parameters: {
+		result: data
+	    }
+	});
+    });
+});
+&lt;/pre>
+
+==Style(css)の適用==
+スタンザに対してStyleを適用する方法を紹介します。&lt;br>
+デフォルトでも少しデザインが指定されています。この内容を確認したい場合には、ブラウザのデバッグツールを使用して、スタンザの構成エレメント(
+shadow rootの直下)に&lt;style>と&lt;main>があるので、この&lt;style>のcssを参照します。&lt;br>
+以下に紹介するStyleの適用は、デフォルトの指定にStyleを追加する方法です。&lt;br>
+これらは各スタンザ内だけに適用され、他のスタンザには影響しません。
+===templatesファイルへの記述===
+index.jsのrenderで指定したtemplateのhtmlファイルに&lt;style>要素を記述すれば適用されます。&lt;br>
+サンプルコードはこちらで確認できます。[https://github.com/okbp/ts_samples/tree/master/apply-style apply-style]
+*index.js
+&lt;pre>
+stanza.render({
+    template: "stanza.html",  //指定したtemplateファイル
+    parameters: {
+      greeting: "Hello, world!"
+    }
+  });
+&lt;/pre>
+*stanza.html
+&lt;pre>
+&lt;style>
+table {
+  width: 400px;
+  border: 2px #2b2b2b solid;
+  border-collapse: collapse;
+}
+th {
+  background-color: #ffd78c;
+}
+td, th {
+  border: 2px #2b2b2b solid;
+}
+&lt;/style>
+
+&lt;table>
+  &lt;tbody>
+    &lt;tr>
+      &lt;th>column&lt;/th>
+    &lt;/tr>
+    &lt;tr>
+      &lt;td>row 1&lt;/td>
+    &lt;/tr>
+    &lt;tr>
+      &lt;td>row 2&lt;/td>
+    &lt;/tr>
+    &lt;tr>  
+      &lt;td>row 3&lt;/td>
+    &lt;/tr> 
+  &lt;/tbody>
+&lt;/table>
+&lt;/pre>
+===cssファイルの適用===
+&lt;style>要素ではなく、cssファイルを読み込んで指定したい場合には、次のような方法があります。&lt;br>
+サンプルコードはこちらで確認できます。[https://github.com/okbp/ts_samples/tree/master/apply-css apply-css] &lt;br>
+表示templateのhtmlファイルに&lt;style>タグを追加して、cssをインポートします。&lt;br>
+cssのファイルは公開されている必要があり、URLを絶対パスを指定します。stanzaのassetsに置いた非公開cssもimportはできますが、stanzaの埋め込み先URLからの相対パス指定になってしまうため、うまく適用できない場合がありオススメできません。&lt;br>
+*templates/stanza.html
+&lt;pre>
+&lt;style>
+  @import url('http://www.coolwebwindow.com/temp/source/simple/sim001_blue/src/css/common.css');
+&lt;/style>
+
+&lt;table>
+  &lt;a href="http://www.coolwebwindow.com/temp/source/simple/sim001_blue/src/css/common.css">Download applied css file&lt;/a>
+&lt;/table>
+&lt;/pre>
+
+==公開されたjsのロード==
+外部公開されたjsファイルを取り込むには、"_header.html"という名前のファイルを作成して&lt;script>タグを記述してロードしたいjsを指定します。&lt;br>
+d3を使用したサンプルコードは[https://github.com/okbp/ts_samples/tree/master/d3-sample d3-sample]にあります。&lt;br>
+&lt;pre>
+&lt;script src="http://d3js.org/d3.v3.min.js" charset="utf-8">&lt;/script>
+&lt;/pre>
+注意点は、指定したjsはグローバル環境に適用されるため、記述したスタンザだけでなく、他のスタンザやスタンザを保有するページ全体に影響することで、お互いが競合する関係にあるjsの場合には、衝突してしまって不具合が出る可能性があります。詳しくは[http://wiki.lifesciencedb.jp/mw/SPARQLthon/togostanza_js#js.E3.81.AE.E7.AB.B6.E5.90.88 jsの競合]も参照してください。&lt;br>
+
+
+ロードすればindex.jsでd3のオブジェクトを使用できます。&lt;br>
+d3の描画対象のelementについては、getElementById('chart')やjQueryの$('#chart')ではelementを拾えないため、stanza.select()を使用します。[https://github.com/togostanza/ts/blob/master/doc/Reference.md#stanzaselectselectors 参照]
+
+*index.js
+&lt;pre>
+Stanza(function(stanza, params) {
+  stanza.render({
+    template: "stanza.html"
+  });
+
+  //描画用関数 引数に描画対象のelementを指定する
+  var draw = (function(elem){
+    var margin = {top: 40, right: 20, bottom: 30, left: 40},
+        width = 800 - margin.left - margin.right,
+        height = 500 - margin.top - margin.bottom;
+
+    //(中略)
+
+    //指定されたelementに描画する。    
+    var svg = d3.select(elem).append("svg")
+
+    //(中略)
+
+  });
+  //描画の実行。elementの指定には、stanza.select()を利用する。
+  draw(stanza.select('#chart'));
+});
+&lt;/pre>
+
+描画する要素をhtmlで指定します。
+*templates/stanza.html
+&lt;pre>
+&lt;div id="chart">&lt;/div>
+&lt;/pre>
+
+==非公開(独自作成)jsファイルのロード==
+できません。。。&lt;br/>
+スタンザのassetsディレクトリに非公開のjsを書いて_header.htmlでロードするように記述すれば出来そうな気がしましたが、スタンザを埋め込む先のURLを起点とした相対パスになってしまうので、うまく動かない場合が多く、オススメできません。
+
+==画像の配置==
+公開されている画像であれば&lt;img>タグのsrcにURLを書けばよいですが、スタンザ独自の画像ファイルを使用したい場合には、assetsディレクトリを作成して画像ファイルを置くと表示templateのhtmlファイルから参照できます。
+
+*assets/message.jpg に画像を配置
+*template/stanza.html
+&lt;pre>
+&lt;p>{{message}}&lt;/p>
+&lt;img src="./assets/message.jpg">
+&lt;/pre>
+
+==スタンザの再実行(リロード)==
+スタンザを一度描画した後にユーザイベント(クリック)等によってコンテンツを修正するには[http://wiki.lifesciencedb.jp/mw/SPARQLthon/togostanza_js#.E3.83.9A.E3.83.BC.E3.82.B8.E3.81.AE.E3.82.A4.E3.83.99.E3.83.B3.E3.83.88.E3.82.92.E5.8F.97.E3.81.91.E5.8F.96.E3.82.8B ページのイベント受け取る]で対応可能ですが、イベントによって大幅な書き換えが必要で、再度スタンザを読み込んだほうが早い、といったケースでのスタンザ更新方法を紹介します。&lt;br/>
+スタンザのリロード(技術的にはリロードではありませんが)はスタンザを埋め込んでいるページのスタンザ描画タグ(参照[http://wiki.lifesciencedb.jp/mw/SPARQLthon/togostanza_js#.E3.82.B9.E3.82.BF.E3.83.B3.E3.82.B6.E3.81.AE.E5.9F.8B.E3.82.81.E8.BE.BC.E3.81.BF スタンザの埋め込み])を置き換えることで実現できます。&lt;br/>
+サンプルコードはで[https://github.com/okbp/ts_samples/tree/master/redo-stanza redo-stanza]確認できます。
+*template/stanza.html
+&lt;pre>
+Current position: {{start}} - {{end}}&lt;br/>
+From: &lt;input type="text" id="txt_from" value="{{start}}"> To: &lt;input type="text" id="txt_to" value="{{end}}">
+&lt;input type="button" id="btn_update" value="update stanza!"> 
+&lt;/pre>
+
+*index.js
+&lt;pre>
+Stanza(function(stanza, params) {
+  stanza.render({
+    template: "stanza.html",
+    parameters: {
+      start: params.start_pos,
+      end: params.end_pos
+    }
+  });
+  //ボタン押下時 
+  $(stanza.select("#btn_update")).on('click', function(){
+    //画面で指定された値を取得
+    var from = stanza.select("#txt_from").value;
+    var to = stanza.select("#txt_to").value;
+    
+    //値を引数に指定したタグのhtmlテキストを組み立てる
+    var stanza_elem = '&lt;togostanza-redo-stanza start_pos="' + from + '" end_pos="' + to + '">&lt;/togostanza-redo-stanza>'
+    //現在の表示スタンザを置き換える
+    var current_elem = $("togostanza-redo-stanza");//現在のスタンザエレメント idで検索してもよい
+    current_elem.before(stanza_elem);//新しいスタンザエレメントの挿入
+    current_elem.remove();//古いスタンザエレメントの削除
+  });
+});
+&lt;/pre>
+
+注意！！ スタンザタグの属性(attribute)を入れ替えたいだけなので、[エレメント].setAttribute('start_pos', from) と記述してもいいように思うかもしれませんが、属性が複数ある場合には挙動がおかしくなるケースがありますのでこの方法は避けるべきです(属性を一つしかとらないスタンザであれば問題無し)。&lt;br/>
+詳しくはこちらも参照してください。[https://github.com/togostanza/ts/issues/48 スタンザタグの属性値を複数変更すると、更新イベントが複数回発生する]
+
+==スタンザ同士の連携==
+スタンザは単体で動作することを基本として設計されていますが、”あるスタンザでのイベントを機に別のスタンザの内容を操作したい”といった場合には、[http://wiki.lifesciencedb.jp/mw/SPARQLthon/togostanza_js#.E3.82.B9.E3.82.BF.E3.83.B3.E3.82.B6.E3.81.AE.E5.86.8D.E5.AE.9F.E8.A1.8C.28.E3.83.AA.E3.83.AD.E3.83.BC.E3.83.89.29 スタンザの再実行(リロード)]と同じ方法で、操作したいスタンザのタグを入れ替えて相手のスタンザを更新(実質的リロード)させることで実現できます。&lt;br/>
+この方法以外にはスタンザ間でメッセージを送り合うようなI/Fは用意されていません。
+
+==スタンザの入れ子==
+_header.html で呼びたいStanzaを '&lt;link rel="import" href="stanzaのurl">' でImportしておくだけ
+
+==スタンザの公開方法==
+===公開コンテンツの生成===
+公開用コンテンツを生成するには、スタンザプロバイダのディレクトリで次のコマンドを打ちます。
+&lt;pre>
+$ ts build
+&lt;/pre>
+すると、ディレクトリ配下に"dist"という名前のディレクトリが作成され、その中に各スタンザのコンテンツが作られます。&lt;br>
+$ ts serverコマンドでもdistディレクトリは作成されますが、デバッグモードのコンテンツが出力されるため、公開する場合にはts buildコマンドを使ってください&lt;br>
+*buildによって作成されるディレクトリ
+&lt;pre>
+--dist
+     |---stanza
+             |---index.html
+             |---assets
+             |---metadata.json  
+             |---apply-css(スタンザディレクトリ) 
+             |        |---help.html
+             |        |---index.html
+             |        |---metadata.json
+             | 
+             |---(以下各スタンザディレクトリ)
+             |---
+&lt;/pre>
+
+===スタンザの埋め込み===
+ts buildで生成されるコンテンツは、html,json等の静的コンテンツですので、このままApache等のWebサーバのドキュメントディレクトリに配置しても動作します。&lt;br>
+任意のスタンザを埋め込んだページを作成するには各stanzaのhelp.htmlが参考になります。&lt;br>
+具体的には&lt;link>タグでインポートしたいstanzaの場所を指し、埋め込みたい場所に&lt;togostanza-[スタンザ名]>というタグを記述すると、スタンザが表示されます&lt;br>
+*organism-nameとapply-styleの二つのスタンザを埋め込む例
+&lt;pre>
+&lt;!DOCTYPE html>
+
+&lt;html>
+  &lt;head>
+    &lt;script src="../assets/components/webcomponentsjs/webcomponents.min.js">&lt;/script> // ts v0.0.8 以前
+    &lt;script src="https://cdn.jsdelivr.net/npm/@webcomponents/webcomponentsjs@1.3.0/webcomponents-loader.js" crossorigin>&lt;/script> // ts v0.0.9 以降
+    &lt;link rel="import" href="../organism-name/">//埋め込みたいスタンザのディレクトリを指定。ディレクトリ後のスラッシュを忘れると Chrome 以外では動かない
+    &lt;link rel="import" href="../apply-style/"> //複数ある場合には列挙する
+    &lt;link rel="stylesheet" href="../assets/css/ts.css">
+    &lt;title>Hello Example&lt;/title>
+  &lt;/head>
+  &lt;body>
+    &lt;togostanza-organism-name tax_id="1148">&lt;/togostanza-organism-name> //スタンザの埋め込み。togostanza-[スタンザ名]というタグを記載する。 属性で引数を指定する
+    &lt;togostanza-apply-style>&lt;/togostanza-apply-style> //他のスタンザの埋め込み
+  &lt;/body>
+
+&lt;/pre>
+
+== SSL化 (https) 準備 ==
+* 自分で管理していて、将来的に全てSSL化する予定なら index.js 内の endpoint や api の URL の protocol 部分を自動取得しておくと便利 
+&lt;pre>
+    var endpoint = document.location.protocol + "//example.org/endpoint"; // 現在アクセスしているプロトコルを返す 
+    var res = fetch(endpoint, oprtions);
+&lt;/pre>
+
+=トラブルシューティング=
+==ts server(build)が動かない==
+====コマンドを打つディレクトリが不適切====
+&lt;pre>
+$ ts server
+no stanzas available under /current/your/directory/
+&lt;/pre>
+カレントディレクトリを移動してコマンドを打ち直すか、または-stanza-base-dirパラメータでスタンザのディレクトリを指定できます。
+&lt;pre>
+$ ts server -stanza-base-dir /your/stanza/provider/directory/
+&lt;/pre>
+
+====ポートがすでに使用されている(ts serverコマンドのみ)====
+&lt;pre>
+$ ts server
+・・・・・
+listen tcp :8080: bind: address already in use
+&lt;/pre>
+デフォルト8080以外を使用したい場合は-portパラメータで指定できます。
+&lt;pre>
+$ ts server -port 9090
+&lt;/pre>
+====invalidというメッセージが出る====
+&lt;pre>
+$ ts server
+2016/02/26 15:02:04 loading stanza /Users/yoko/DBCLS/ts_samples/redo-stanza
+2016/02/26 15:02:04 invalid character '1' after object key:value pair
+&lt;/pre>
+metadata.jsonのjsonが不正な場合にエラーが出ることがあります。よくある間違いは、"stanza:usage"のタグ属性のダブルクォーテーションのエスケープ(バックスラッシュ)忘れです。
+&lt;pre>
+誤） "stanza:usage": "&lt;togostanza-redo-stanza start_pos="1" end_pos="50">&lt;/togostanza-redo-stanza>",
+正） "stanza:usage": "&lt;togostanza-redo-stanza start_pos=\"1\" end_pos=\"50\">&lt;/togostanza-redo-stanza>",
+&lt;/pre>
+また、配列の最後の要素にカンマがあってもtsではエラーになります。
+&lt;pre>
+  "stanza:parameter": [
+    {
+       ・・・・・
+    },
+    {
+      ・・・・・
+    },   //このカンマはNG!!
+  ],
+&lt;/pre>
+
+==スタンザが表示されない==
+なにはなくとも、ブラウザのデバッグツールでエラーが出ていないか確認します。&lt;br/>
+ts serverで起動している場合にはかなり詳細にログが出ています。発行されたSPARQLや戻り値、テンプレートから生成されたHTML文字列など。(ts buildの場合にはほとんどログはでない)
+===SPARQLのエラー===
+====エンドポイントのCORSが未対応====
+エラーメッセージの中に'Access-Control-Allow-Origin' という文字列があった場合には、jsからのアクセスをエンドポイントが拒否しています。&lt;br/>
+[http://wiki.lifesciencedb.jp/mw/SPARQLthon/togostanza_js#.E3.82.B9.E3.82.BF.E3.83.B3.E3.82.B6.E4.BD.9C.E6.88.90.E5.89.8D.E3.81.AE.E7.A2.BA.E8.AA.8D スタンザ作成前の確認]の確認でエンドポイントが使用できるか、クエリが間違えていないかを確認しましょう。&lt;br/>
+
+====SPARQLの結果がエラー====
+サーバが落ちていたり、文法エラーであったりその他の理由でエンドポイントから結果が正しく取得できないといった場合には、通常はHTTPステータスはエラーで返されます。&lt;br/>
+エラーハンドリングしたい場合には、通常のjQueryでのAjax処理のようにdone()メソッドの替わりに、doneとfailを使います。
+&lt;pre>
+  var q = stanza.query({
+    ・・・・・
+  });
+  q.done(function(data) { //成功時
+    console.log("done");
+    console.log(data);
+  }).fail(function(data) { //エラー発生時
+    console.log("fail");
+    console.log(data);
+  });
+&lt;/pre>
+
+===jsの記述エラー===
+基本的には一般のjavascriptと同じようにエラーが出ますので、メッセージに従って修正します。&lt;br/>
+ただし、デバッグツールが示すエラー発生の行番号とindex.js等のファイルの行番号は一致しません。(エラー発生箇所周辺のコードを表示してくれるようなデバッグツールの場合にはあまり問題ありません)&lt;br/>&lt;br/>
+デバッグツールが実際にどこのファイルの行数を指しているかというと、tsコマンド(server/build)で生成されたコンテンツファイルになります。&lt;br/>
+*[スタンザディレクトリ]/[スタンザ名]/index.js(実際に修正すべき箇所)
+&lt;pre>
+13    stanza.render({
+14     ・・・・・
+15    }; //ここのカッコとじが抜けている
+&lt;/pre>
+*[スタンザディレクトリ]/dist/stanza/[スタンザ名]/index.html  (ビルド後のコンテンツで、デバッグツールが指す行番号はこのファイルの行番号)
+&lt;pre>
+203    stanza.render({
+204      ・・・・・
+205    }; //ここのカッコとじが抜けている。しかしこのファイルを直しても意味はない(再コンパイル)
+&lt;/pre>
+
+===テンプレートファイル(handlebars)の記述エラー===
+エラーを起こしている箇所にhandlebarsという書かれていた場合は、テンプレートファイル(HTML(*.html)やSPARQL(*.rq))の記述に不備がある場合があります。
+たとえばテンプレートファイルを閉じ忘れると次のようなエラーメッセージになります(Chromeのデバッグツール)
+&lt;pre>
+正） {{raw_data}}
+誤）{{raw_data}   //閉じかっこがたりない。
+
+エラーメッセージ
+handlebars.min.js:27 Uncaught Error: Parse error on line 16:
+...data&lt;/h3>{{raw_data}&lt;h3>bindings&lt;/h3>
+----------------------^
+&lt;/pre>
+
+==js ライブラリが動かない==
+あるjsライブラリが動かない、描画が崩れるといった場合には、[http://wiki.lifesciencedb.jp/mw/SPARQLthon/togostanza_js#js.E3.81.AE.E7.AB.B6.E5.90.88 jsの競合]やライブラリがShadowDOMに対応していない[http://wiki.lifesciencedb.jp/mw/SPARQLthon/togostanza_js#.E6.8F.8F.E7.94.BB.E3.83.A9.E3.82.A4.E3.83.96.E3.83.A9.E3.83.AA 描画ライブラリ]といった原因が考えられます。
+===jQueryプラグインとして作成されたライブラリ===
+以下のようなメッセージが出る場合にはライブラリがjQueryを拡張していることが原因と考えられます。(ライブラリ読み込み後にスタンザ側でjQueryをロードし直すので、上書き分がなかったことになる)
+&lt;pre>
+Uncaught TypeError: $(...).XXXXX is not a function
+&lt;/pre>
+
+=注意事項=
+==jsの競合 (ts v0.0.8以前)==
+各スタンザがjQueryなどのjsライブラリをページグローバルな環境に読み込むため、jsの競合（上書きによる不整合）が発生するケースがある。&lt;br>
+影響範囲スタンザを埋め込んだページ全体になる&lt;br>
+*jQueryのプラグインは基本的には使用できない, [http://wiki.lifesciencedb.jp/mw/SPARQLthon/togostanza_js#Web_Components_v1_.E5.AF.BE.E5.BF.9C.E3.81.A8_jQuery_.E6.8E.92.E9.99.A4 Web Components v1 対応と jQuery 排除]
+bootstrap(一部動作はする)やhighcharts等...
+*スタンザ同士で変数名(グローバル変数)やライブラリ名(違い内容で同名)が衝突をしないように気をつける
+
+==描画ライブラリ==
+ShadowDOMに未対応(想定していない)描画ライブラリでは、正しく描画できない、表示位置がズレる等の不具合が出ることがある。&lt;br/>
+例えば、ライブラリが内部でウェブページの左上の起点を探す際に&lt;body>タグを探して位置決めしている場合があり、Shadow DOM(スタンザ)内には&lt;body>タグが存在しないため、スタンザを内包するWebページの&lt;body>タグを見てしまい、位置ズレが発生するというケースがある。&lt;br/>
+描画の不具合を確認したツール(2016年1月現在)
+*plotly.js (軸タイトル等の表示位置がズレてしまう)
+*3Dmol.js (Styleでbodyタグからの絶対位置を用いている箇所があったため、コードを修正して使用)
+*chartjs(よく分からないが描画されない)
+&lt;br/>
+ただし、D3.js等の低機能なチャートライブラリの場合には問題なく動作する。また、&lt;body>タグやDocumentのルートを意識していないライブラリについても使用できると思われる([http://nvd3.org/index.html NVD]は動きそう)&lt;br>
+=Web Components v1 対応と jQuery 排除=
+* 注意：ts v0.0.9 以降は下記に対応済み
+* Web Components
+** 現在の JS 版 stanza は Web Components v0
+** 今後は v1 が普及予定
+** iOS のブラウザは v1 のみ対応なので表示すらできない
+* jQuery
+** jQuery, bootstrap はまだまだサイトで使われてるので競合すると困る
+==v1対応==
+* ソースの stanza/data/help.html, provider/provider.go（ts build で生成される dist/stanza/stanza-name/help.html）で webcomponentjs 変更
+** 現在の v0: webcomponents.min.js ver. 0.5.5
+** v1: https://github.com/webcomponents/webcomponentsjs の webcomponents-loader.js + webcomponents-******.js
+*** 読み込むのは webcomponents-loader.js だけで、他は同じディレクトリに入れるために provider/provider.go に追記
+* ソースの stanza/data/stanza.js（ts build で生成される dist/stanza/stanza-name/index.js) を書き換え
+&lt;pre>
+  /* v0 の部分をコメントアウト
+  proto.createdCallback = function() {
+    var shadow = this.createShadowRoot();
+  
+    var style = document.createElement("style");
+    style.appendChild(document.createTextNode(descriptor.stylesheet));
+    shadow.appendChild(style);
+    var main = document.createElement("main");
+    shadow.appendChild(main);
+  
+    update(this);
+  };
+  
+  proto.attributeChangedCallback = function(attrName, oldVal, newVal) {
+    var found = false;
+    descriptor.parameters.forEach(function(key) {
+      if (attrName == key) {
+        found = true;
+      }
+    });
+    if (found) {
+      update(this);
+    }
+  };
+  
+  document.registerElement(descriptor.elementName, {
+    prototype: proto
+  });
+  */
+&lt;/pre>
+&lt;pre>
+  // v1 ぽく書き換え
+  class StanzaElement extends HTMLElement {
+    constructor() {
+      super(); 
+      var shadow = this.attachShadow({ mode: 'open' });
+      var style = document.createElement("style");
+      style.appendChild(document.createTextNode(descriptor.stylesheet));
+      shadow.appendChild(style);
+      var main = document.createElement("main");
+      shadow.appendChild(main);
+  
+      update(this);
+    }
+    attributeChangedCallback(attrName, oldVal, newVal) {
+      var found = false;
+      descriptor.parameters.forEach(function(key) {
+        if (attrName == key) {
+          found = true;
+        }
+      });
+      if (found) {
+        update(this);
+      }
+    }
+  }
+  
+  if ('customElements' in window &amp;&amp; !window.customElements.get(descriptor.elementName)) {
+     window.customElements.define(descriptor.elementName, StanzaElement);
+  }
+&lt;/pre>
+* ts build したものは stanza更新したりすると、自動で書き換わってもとに戻るので、動作確認にしか使えません
+
+==jQuery排除==
+* ついでに競合すると困りやすい jQuery 排除
+** ソースの stanza/data/index.html で jQuery 呼び出しを削除
+** ソースの stanza/data/stanza.js 書き換え
+&lt;pre>
+  // jQuery ---------------------------
+  /*        var p = $.ajax({
+          method: method,
+          url: params.endpoint,
+          headers: {
+            "Accept": "application/sparql-results+json"
+          },
+          data: {
+            query: query
+          }
+        }); */
+  // Native (Fetch API)----------------
+        var p = fetch(params.endpoint + '?query=' + query, {
+          method: method,
+          mode: 'cors',
+          headers: {
+            "Accept": "application/sparql-results+json"
+          }
+        }).then(res => res.json());
+  //-----------------------------------
+&lt;/pre>
+&lt;pre>
+  // jQuery-----------------
+        /* $(selector, element.shadowRoot).html(htmlFragment); */
+  // Native-----------------
+        element.shadowRoot.querySelector(selector).innerHTML = htmlFragment;
+  //------------------------
+&lt;/pre>
+* 各 stanza の index.js で jQuery コードを使っている場合は _header.html で jQuery を読み込む必要があります
+* index.js で jQuery を使わずコードする場合
+** 複数クエリ、APIの並列実行の例
+&lt;pre>
+Stanza(function(stanza, params) {
+  // SPARQL query 1
+  var q1 = stanza.query({
+    endpoint: "http://exapmle.org/sparql",
+    template: "query1.rq",
+    parameters: params
+  });
+  // SPARQL query 2
+  var q2 = stanza.query({
+    endpoint: "http://example.com/sparql",
+    template: "query2.rq",
+    parameters: params
+  });
+  // other API
+  var q3 = fetch( "http://example.of/api/url?param=val", {
+        method: 'get',
+        mode: 'cors',
+  }).then(res => res.json());  // プレーンテキストで受けるなら res.text()
+
+    var q = Promise.all([q1, q2, q3]);
+
+    q.then(function([data1, data2, data3]){
+    // jQuery の $.when() と違い data1[0] ではなく、data1 で SPARQL 結果が取得できる 
+    var query1_list = data1.results.bindings;
+    var query2_list = ......
+　　.......
+    stanza.render({
+      template: "stanza.html",
+      parameters: {
+        result: all_list
+      }
+    });
+  });
+});
+&lt;/pre>
+
+==テスト用バイナリ、ソース==
+* 上記を実装してみたバイナリ (ts v0.0.8mod)
+** [https://drive.google.com/open?id=0B_NAUKeuU1pmejg1RVJtX0lmRXM linux_amd64] (for linux)
+** [https://drive.google.com/open?id=0B_NAUKeuU1pmWE9DZVlwTFREMG8 darwin_amd64] (for mac)
+*** webcomponentsjs v1.0.14
+*** handlebars v4.0.10
+*** 親要素にはみ出る要らない css 削除
+* [https://github.com/togostanza/ts/tree/wc_v1 github branch]</textarea><div class='templatesUsed'>
+
+</div>
+<p id="mw-returnto"><a href="/mw/SPARQLthon/togostanza_js" title="SPARQLthon/togostanza js">SPARQLthon/togostanza js</a>に戻る。</p>
+<div class="printfooter">
+「<a href="http://wiki.lifesciencedb.jp/mw/SPARQLthon/togostanza_js">http://wiki.lifesciencedb.jp/mw/SPARQLthon/togostanza_js</a>」より作成</div>
+		<div id='catlinks' class='catlinks catlinks-allhidden'></div>		<!-- end content -->
+				<div class="visualClear"></div>
+	</div>
+</div></div>
+<div id="column-one">
+	<div id="p-cactions" class="portlet">
+		<h5>表示</h5>
+		<div class="pBody">
+			<ul>
+				 <li id="ca-nstab-main" class="selected"><a href="/mw/SPARQLthon/togostanza_js" title="本文を表示 [c]" accesskey="c">ページ</a></li>
+				 <li id="ca-talk" class="new"><a href="/mw/index.php?title=%E3%83%8E%E3%83%BC%E3%83%88:SPARQLthon/togostanza_js&amp;action=edit&amp;redlink=1" title="記事についての議論 [t]" accesskey="t">議論</a></li>
+				 <li id="ca-viewsource" class="selected"><a href="/mw/index.php?title=SPARQLthon/togostanza_js&amp;action=edit" title="このページは保護されています。&#10;ページのソースを閲覧できます。 [e]" accesskey="e">ソースを表示</a></li>
+				 <li id="ca-history"><a href="/mw/index.php?title=SPARQLthon/togostanza_js&amp;action=history" title="このページの過去の版 [h]" accesskey="h">履歴</a></li>
+			</ul>
+		</div>
+	</div>
+	<div class="portlet" id="p-personal">
+		<h5>個人用ツール</h5>
+		<div class="pBody">
+			<ul>
+				<li id="pt-anonuserpage"><a href="/mw/%E5%88%A9%E7%94%A8%E8%80%85:172.18.8.51" title="自分が編集しているIPアドレスの利用者ページ [.]" accesskey="." class="new">172.18.8.51</a></li>
+				<li id="pt-anontalk"><a href="/mw/%E5%88%A9%E7%94%A8%E8%80%85%E2%80%90%E4%BC%9A%E8%A9%B1:172.18.8.51" title="このIPアドレスからなされた編集についての議論 [n]" accesskey="n" class="new">このIPアドレスのトーク</a></li>
+				<li id="pt-anonlogin"><a href="/mw/index.php?title=%E7%89%B9%E5%88%A5:%E3%83%AD%E3%82%B0%E3%82%A4%E3%83%B3&amp;returnto=SPARQLthon/togostanza_js&amp;returntoquery=action%3Dedit" title="ログインすることが推奨されます。ただし、必須ではありません。 [o]" accesskey="o">ログイン</a></li>
+				<li id="pt-openidlogin"><a href="/mw/index.php?title=%E7%89%B9%E5%88%A5:OpenID%E3%83%AD%E3%82%B0%E3%82%A4%E3%83%B3&amp;returnto=SPARQLthon/togostanza_js">OpenIDでログイン</a></li>
+			</ul>
+		</div>
+	</div>
+	<div class="portlet" id="p-logo">
+		<a style="background-image: url(/mw/images/togowiki-logo.png);" href="/mw/%E3%83%A1%E3%82%A4%E3%83%B3%E3%83%9A%E3%83%BC%E3%82%B8" title="メインページに移動"></a>
+	</div>
+	<script type="text/javascript"> if (window.isMSIE55) fixalpha(); </script>
+	<div class='generated-sidebar portlet' id='p-navigation'>
+		<h5>案内</h5>
+		<div class='pBody'>
+			<ul>
+				<li id="n-mainpage-description"><a href="/mw/%E3%83%A1%E3%82%A4%E3%83%B3%E3%83%9A%E3%83%BC%E3%82%B8" title="メインページに移動する [z]" accesskey="z">メインページ</a></li>
+				<li id="n-portal"><a href="/mw/TogoWiki:%E3%82%B3%E3%83%9F%E3%83%A5%E3%83%8B%E3%83%86%E3%82%A3%E3%83%BB%E3%83%9D%E3%83%BC%E3%82%BF%E3%83%AB" title="このプロジェクトについて、できること、情報を入手する場所">コミュニティ・ポータル</a></li>
+				<li id="n-currentevents"><a href="/mw/TogoWiki:%E6%9C%80%E8%BF%91%E3%81%AE%E5%87%BA%E6%9D%A5%E4%BA%8B" title="最近の出来事について予備知識を得る">最近の出来事</a></li>
+				<li id="n-recentchanges"><a href="/mw/%E7%89%B9%E5%88%A5:%E6%9C%80%E8%BF%91%E3%81%AE%E6%9B%B4%E6%96%B0" title="ウィキにおける最近の更新の一覧 [r]" accesskey="r">最近の更新</a></li>
+				<li id="n-randompage"><a href="/mw/%E7%89%B9%E5%88%A5:%E3%81%8A%E3%81%BE%E3%81%8B%E3%81%9B%E8%A1%A8%E7%A4%BA" title="無作為に抽出されたページの読み込み [x]" accesskey="x">おまかせ表示</a></li>
+				<li id="n-help"><a href="/mw/Help:%E7%9B%AE%E6%AC%A1" title="情報を得る場所">ヘルプ</a></li>
+			</ul>
+		</div>
+	</div>
+	<div id="p-search" class="portlet">
+		<h5><label for="searchInput">検索</label></h5>
+		<div id="searchBody" class="pBody">
+			<form action="/mw/index.php" id="searchform">
+				<input type='hidden' name="title" value="特別:検索"/>
+				<input id="searchInput" title="TogoWiki内を検索" accesskey="f" type="search" name="search" />
+				<input type='submit' name="go" class="searchButton" id="searchGoButton"	value="表示" title="厳密に一致する名前のページが存在すれば、そのページへ移動します" />&nbsp;
+				<input type='submit' name="fulltext" class="searchButton" id="mw-searchButton" value="検索" title="入力された文字列が含まれるページを検索します" />
+			</form>
+		</div>
+	</div>
+	<div class="portlet" id="p-tb">
+		<h5>ツールボックス</h5>
+		<div class="pBody">
+			<ul>
+				<li id="t-whatlinkshere"><a href="/mw/%E7%89%B9%E5%88%A5:%E3%83%AA%E3%83%B3%E3%82%AF%E5%85%83/SPARQLthon/togostanza_js" title="ここにリンクしている全ウィキのページの一覧 [j]" accesskey="j">リンク元</a></li>
+				<li id="t-recentchangeslinked"><a href="/mw/%E7%89%B9%E5%88%A5:%E9%96%A2%E9%80%A3%E3%83%9A%E3%83%BC%E3%82%B8%E3%81%AE%E6%9B%B4%E6%96%B0%E7%8A%B6%E6%B3%81/SPARQLthon/togostanza_js" title="このページからリンクしているページの最近の更新 [k]" accesskey="k">関連ページの更新状況</a></li>
+<li id="t-specialpages"><a href="/mw/%E7%89%B9%E5%88%A5:%E7%89%B9%E5%88%A5%E3%83%9A%E3%83%BC%E3%82%B8%E4%B8%80%E8%A6%A7" title="特別ページの一覧 [q]" accesskey="q">特別ページ</a></li>
+			</ul>
+		</div>
+	</div>
+</div><!-- end of the left (by default at least) column -->
+<div class="visualClear"></div>
+<div id="footer">
+	<div id="f-poweredbyico"><a href="http://www.mediawiki.org/"><img src="/mw/skins/common/images/poweredby_mediawiki_88x31.png" height="31" width="88" alt="Powered by MediaWiki" /></a></div>
+	<div id="f-copyrightico"><a href="http://creativecommons.org/licenses/by/3.0/"><img src="http://i.creativecommons.org/l/by/3.0/88x31.png" alt="Attribution 3.0 Unported" width="88" height="31" /></a></div>
+	<ul id="f-list">
+		<li id="privacy"><a href="/mw/TogoWiki:%E3%83%97%E3%83%A9%E3%82%A4%E3%83%90%E3%82%B7%E3%83%BC%E3%83%BB%E3%83%9D%E3%83%AA%E3%82%B7%E3%83%BC" title="TogoWiki:プライバシー・ポリシー">プライバシー・ポリシー</a></li>
+		<li id="about"><a href="/mw/TogoWiki:TogoWiki%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6" title="TogoWiki:TogoWikiについて">TogoWikiについて</a></li>
+		<li id="disclaimer"><a href="/mw/TogoWiki:%E5%85%8D%E8%B2%AC%E4%BA%8B%E9%A0%85" title="TogoWiki:免責事項">免責事項</a></li>
+	</ul>
+</div>
+</div>
+
+<script>if (window.runOnloadHook) runOnloadHook();</script>
+<!-- Served in 0.380 secs. --></body></html>

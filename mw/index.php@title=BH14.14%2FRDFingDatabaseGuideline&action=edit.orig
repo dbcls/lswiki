@@ -1,0 +1,544 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html lang="ja" dir="ltr">
+<head>
+<title>ソースを表示 - TogoWiki</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta name="generator" content="MediaWiki 1.16.3" />
+<meta name="robots" content="noindex,nofollow" />
+<link rel="next" href="http://wiki.lifesciencedb.jp/mw/BH14.14/RDFingDatabaseGuideline" />
+<link rel="shortcut icon" href="/favicon.ico" />
+<link rel="search" type="application/opensearchdescription+xml" href="/mw/opensearch_desc.php" title="TogoWiki (ja)" />
+<link rel="copyright" href="http://creativecommons.org/licenses/by/3.0/" />
+<link rel="alternate" type="application/atom+xml" title="TogoWikiのAtomフィード" href="/mw/index.php?title=%E7%89%B9%E5%88%A5:%E6%9C%80%E8%BF%91%E3%81%AE%E6%9B%B4%E6%96%B0&amp;feed=atom" />
+<!--[if IE 8]><link rel="stylesheet" href="/mw/skins/common/IE80Fixes.css?270" media="screen" /><![endif]-->
+<link rel="stylesheet" href="/mw/skins/common/shared.css?270" media="screen" />
+<link rel="stylesheet" href="/mw/skins/common/commonPrint.css?270" media="print" />
+<link rel="stylesheet" href="/mw/skins/monobook/main.css?270" media="screen" />
+<!--[if lt IE 5.5000]><link rel="stylesheet" href="/mw/skins/monobook/IE50Fixes.css?270" media="screen" /><![endif]-->
+<!--[if IE 5.5000]><link rel="stylesheet" href="/mw/skins/monobook/IE55Fixes.css?270" media="screen" /><![endif]-->
+<!--[if IE 6]><link rel="stylesheet" href="/mw/skins/monobook/IE60Fixes.css?270" media="screen" /><![endif]-->
+<!--[if IE 7]><link rel="stylesheet" href="/mw/skins/monobook/IE70Fixes.css?270" media="screen" /><![endif]-->
+<link rel="stylesheet" href="/mw/index.php?title=MediaWiki:Common.css&amp;usemsgcache=yes&amp;ctype=text%2Fcss&amp;smaxage=18000&amp;action=raw&amp;maxage=18000" />
+<link rel="stylesheet" href="/mw/index.php?title=MediaWiki:Print.css&amp;usemsgcache=yes&amp;ctype=text%2Fcss&amp;smaxage=18000&amp;action=raw&amp;maxage=18000" media="print" />
+<link rel="stylesheet" href="/mw/index.php?title=MediaWiki:Monobook.css&amp;usemsgcache=yes&amp;ctype=text%2Fcss&amp;smaxage=18000&amp;action=raw&amp;maxage=18000" />
+<link rel="stylesheet" href="/mw/index.php?title=-&amp;action=raw&amp;maxage=18000&amp;gen=css" />
+<script>
+var skin="monobook",
+stylepath="/mw/skins",
+wgUrlProtocols="http\\:\\/\\/|https\\:\\/\\/|ftp\\:\\/\\/|irc\\:\\/\\/|gopher\\:\\/\\/|telnet\\:\\/\\/|nntp\\:\\/\\/|worldwind\\:\\/\\/|mailto\\:|news\\:|svn\\:\\/\\/",
+wgArticlePath="/mw/$1",
+wgScriptPath="/mw",
+wgScriptExtension=".php",
+wgScript="/mw/index.php",
+wgVariantArticlePath=false,
+wgActionPaths={},
+wgServer="http://wiki.lifesciencedb.jp",
+wgCanonicalNamespace="",
+wgCanonicalSpecialPageName=false,
+wgNamespaceNumber=0,
+wgPageName="BH14.14/RDFingDatabaseGuideline",
+wgTitle="BH14.14/RDFingDatabaseGuideline",
+wgAction="edit",
+wgArticleId=586,
+wgIsArticle=false,
+wgUserName=null,
+wgUserGroups=null,
+wgUserLanguage="ja",
+wgContentLanguage="ja",
+wgBreakFrames=true,
+wgCurRevisionId=17205,
+wgVersion="1.16.3",
+wgEnableAPI=true,
+wgEnableWriteAPI=true,
+wgSeparatorTransformTable=["", ""],
+wgDigitTransformTable=["", ""],
+wgMainPageTitle="メインページ",
+wgFormattedNamespaces={"-2": "メディア", "-1": "特別", "0": "", "1": "ノート", "2": "利用者", "3": "利用者‐会話", "4": "TogoWiki", "5": "TogoWiki‐ノート", "6": "ファイル", "7": "ファイル‐ノート", "8": "MediaWiki", "9": "MediaWiki‐ノート", "10": "Template", "11": "Template‐ノート", "12": "Help", "13": "Help‐ノート", "14": "Category", "15": "Category‐ノート"},
+wgNamespaceIds={"メディア": -2, "特別": -1, "": 0, "ノート": 1, "利用者": 2, "利用者‐会話": 3, "togowiki": 4, "togowiki‐ノート": 5, "ファイル": 6, "ファイル‐ノート": 7, "mediawiki": 8, "mediawiki‐ノート": 9, "template": 10, "template‐ノート": 11, "help": 12, "help‐ノート": 13, "category": 14, "category‐ノート": 15, "画像": 6, "画像‐ノート": 7, "image": 6, "image_talk": 7},
+wgSiteName="TogoWiki",
+wgCategories=[],
+wgRestrictionEdit=[],
+wgRestrictionMove=[];
+</script><script src="/mw/skins/common/wikibits.js?270"></script>
+<script src="/mw/skins/common/edit.js?270"></script>
+<script src="/mw/skins/common/ajax.js?270"></script>
+<script src="/mw/index.php?title=-&amp;action=raw&amp;gen=js&amp;useskin=monobook&amp;270"></script>
+
+		<style type='text/css'>
+		li#pt-openidlogin {
+		  background: url(/mw/extensions/OpenID/skin/icons/openid-inputicon.png) top left no-repeat;
+		  padding-left: 20px;
+		  text-transform: none;
+		}
+		</style>
+</head>
+<body class="mediawiki ltr ns-0 ns-subject page-BH14_14_RDFingDatabaseGuideline skin-monobook">
+<div id="globalWrapper">
+<div id="column-content"><div id="content" >
+	<a id="top"></a>
+	
+	<h1 id="firstHeading" class="firstHeading">BH14.14/RDFingDatabaseGuideline</h1>
+	<div id="bodyContent">
+		<h3 id="siteSub">提供：TogoWiki</h3>
+		<div id="contentSub"><a href="/mw/BH14.14/RDFingDatabaseGuideline" title="BH14.14/RDFingDatabaseGuideline">BH14.14/RDFingDatabaseGuideline</a>のソース</div>
+		<div id="jump-to-nav">移動： <a href="#column-one">案内</a>, <a href="#searchInput">検索</a></div>
+		<!-- start content -->
+<p>以下に示された理由により、このページの編集を行うことができません：
+</p>
+<div class="permissions-errors">
+<p>この操作は、<a href="/mw/index.php?title=TogoWiki:%E5%88%A9%E7%94%A8%E8%80%85&amp;action=edit&amp;redlink=1" class="new" title="TogoWiki:利用者（存在しないページ）">利用者</a>のグループに属する利用者のみが実行できます。
+</p>
+</div>
+<p>このページのソースを閲覧し、コピーすることができます：
+</p><textarea id="wpTextbox1" name="wpTextbox1" cols="80" rows="25" readonly="">'''Comment''': タイトルはより一般的なRDFizingとするのが良いのではないでしょうか。→ このページの最新版を [RDFizingDatabaseGuideline] にしました。
+
+今後のスケジュール：
+
+* 4月 ガイドラインドラフト、NBDC からポータルサイト発注の手続き確認
+* 5月 ガイドラインを SPARQLthon でレビュー、永野さんとの意識合わせ
+* 6月〜7月 ポータルサイトの構築
+* 7〜9月 ガイドラインにもとづいた TPP データのリバイスとポータルへの収録、可視化
+* 10月 統合の日
+
+http://www.infocom.co.jp/das/loddiary/linked_data/ ここに書かれている内容は参考文献として貴重 (山本)
+
+https://github.com/dbcls/bh14/wiki/Ten-simple-rules-for-publishing-Linked-Data-for-the-Life-Sciences とできるだけ揃える
+
+=データベースのRDF化ガイドライン=
+
+[http://www.w3.org/TR/rdf11-concepts/ RDF]は、曖昧性が少なく、機械可読性の高いデータを記述する枠組みです。しかし、実際に記述したいデータをどのようにRDF化すれば、表現したい内容が記述できるのか、また、その後の利用の観点からより良いものになるのか、という指針は提供されていません。このことが、データベースをRDF化する際に、特に初心者にとって高いハードルとなっています。幸い、これまで BioHackathon や SPARQLthon などでも、様々な議論がなされ、知見も蓄積されてきました。そろそろこのコミュニティでデータをRDF化する際に指針となるようなガイドラインを作る時期にきたと思います。本ガイドラインが目指すのは、それを参照することで、RDF化作業の負担が減り、また他のデータと適切に統合して利用できるようなRDFを作成できるようにすることです。
+
+基本精神として、Tim Berners-Leeによる、 [http://www.w3.org/DesignIssues/LinkedData.html Linked Data構想] に則ったデータ作成が推奨されます。Linked Data構想では、
+
+# Use URIs as names for things → モノやコトにURIを使って名前をつける
+# Use HTTP URIs so that people can look up those names. → 広く一般に普及しているソフトウェアでアクセスできる、http:// から始まるURIを名前に使用することでユーザがそれについて調べられるようにする（広く普及しているソフトウェアではアクセスできないURIもあるため）
+# When someone looks up a URI, provide useful information, using the standards (RDF*, SPARQL) → URIにアクセスした時にRDFやSPARQL標準に沿って有用な情報を提供する
+# Include links to other URIs. so that they can discover more things. → 他のURIへのリンクを含めるようにすることで、さらなる情報を辿れるようにする
+
+という4つの原則が提唱されています。
+
+なお、RDFとはResource Description Frameworkの略称で、その名の通り、ウェブにおいて情報を表現するための一つの枠組みであり、具体的なファイル形式ではありません。
+そしてRDFを用いた情報を具体的に表記する方法はRDF/XMLやJSON-LDなど、複数ありますが、人に対する可読性において[http://www.w3.org/TR/turtle/ Turtle形式]が優れているとともに、SPARQLクエリの表記方法との共通点が多いことから、本ガイドラインではこの形式に従った表記をします。
+
+= データベースコンテンツをRDF化する際のガイドライン =
+
+以下、ガイドラインに盛り込むべき、これまで蓄積してきた知見をあげます。
+
+== RDFを作成する際のガイドライン ==
+
+=== モノやコトを表すURIはそれを識別するIDをスラッシュに続いて最後に記述する ===
+
+適切なURIの構成方法として、ドメイン部分については後に示す通り、永続的であることが推奨されますが、パスの部分については、記述対象のリソースを識別するIDが最後に来るようにし、その直前にスラッシュ(/)を用いることが推奨されます。
+例えばUniProtではQ6GZX3で識別されるたんぱく質について http://purl.uniprot.org/uniprot/Q6GZX3 というURIを割り当てています。
+このようにURIを構成することで、Linked Dataの原則3で示される、「URIにアクセスした時にRDFやSPARQL標準に沿って有用な情報を提供する」への対応が実現し易くなります。
+
+なお、オントロジーの場合は、そのオントロジーを構成する概念を示すIDの直前がスラッシュの代わりにハッシュ(#)としておくのが良いでしょう。
+
+=== URI、リテラル、空白ノードの使い分けを適切に行う ===
+
+RDFは全てがURI、リテラル、空白ノードで構成されますが、これからRDF化を行うデータをどのようにこれらに当てはめると、より有用なRDFデータになるか検討します。
+
+まず確認ですが、RDFはその最小単位が主語、述語、目的語の三つ組み（RDFトリプル）であり、主語にはURIもしくは空白ノード、述語にはURI、目的語にはURI、空白ノード、もしくはリテラルが使えます。
+そして主語、述語、目的語、という名が示す通り、主語と目的語が述語で示される関係性で結ばれることを表します。
+ここで、URIはそれが示すモノやコトをウェブの世界でグローバルに識別することが適切である際に用いる一方、空白ノードは単に特定のRDFトリプル同士を結びつけるためなど、グローバルに識別することが必要ではない場合に用います。
+先ほどのUniProtの例ではQ6GZX3で識別されるたんぱく質はグローバルに識別されることが必要ですから、URIが割り当てられています。
+
+また、リテラルはURIとは異なり、識別子ではなく、ある特定の値そのものを表しますから、観測値などの数値データや観測時間などの時刻データは、その型（整数値や日時など）と共にリテラルで表現するのが推奨されます。
+このように単位のついた値のリテラルを用いた記述方法については、後で詳細が記述されていますので参考にしてください。
+
+=== クラスとインスタンスを別々に扱う ===
+
+あるURIをクラスであると同時にインスタンスとすることはデータの意味的な処理が複雑になるので避けることが推奨されます。
+因みに、rdfs:Class を rdf:type の目的語とするとき、その主語はクラスであることを表します。
+そして、あるクラスを rdf:type の目的語とするとき、その主語はインスタンスであることを表します。
+
+=== URIリソースには、rdf:typeでオントロジーのクラスをタイプ指定する ===
+
+URIで示されるリソースが何を意味しているのか、ということを明確にかつ簡潔に表現するのに、オントロジーのクラスがrdf:typeで指定されていることは重要です。特に、主たるリソースには、オントロジーに基づいてクラスを指定することが推奨されます。
+
+ 例) uniprot:Q6GZX3 rdf:type core:Protein .
+
+上の例では、UniProt のQ6GZX3エントリーが、[http://purl.uniprot.org/core/Protein core:Protein] であることが分かります。リソースの指し示すものが明確になる上に、SPARQL検索の際にも、rdf:type を指定することで効率的なデータ探索を行うことができます。オントロジーの定義がURIにアクセスすることで参照できると理想的ですが、そうなっていることは義務ではありません。ただし、自然言語では利用される文脈が異なると違った意味を持つことが普通に起こります。URIの参照先にデータ作成者が意図した定義を記述することは、データ利用者の誤解を避ける上で有効な手段になります。これは科学データを記述する場合には、大きなメリットといえます。
+
+この件で、問題になるのは、「では、自らのリソースに、どのクラスをタイプ指定するばいいのか？」ということです。既存のオントロジーに適当なクラスが見つかればそれを利用すればいいですが、見つからない場合も多いと思われます。その場合は、自らのデータ用に、簡単なオントロジーを作成する必要があります。UniProt や EBI RDF も、必要なクラスをそれぞれ定義してデータとともに提供しています。
+
+=== URIリソースには、rdfs:labelでラベルをつける ===
+
+URIで示されるリソースが何なのか、ということを人間が容易に理解するためには、ラベルがrdfs:labelにより自然言語で記述されていることは重要です。特に、主たるリソースには簡潔なラベルを記述することが推奨されます。このことは、機械可読性を高めることとは関係ありませんが、人間可読性を高めるので、アプリケーションをつくる際や、SPARQL検索の結果を読みやすく表示する際に便利になります。
+
+ 例）uniprot:P51028 rdfs:label “wnt8a”@en .
+
+また、この例の様に言語タグを付けることは、特に多言語化の際に有用です。英語ネイティブ以外であれば、母国語でもラベルを付けたい場合やコメントを追記したい場合があります。言語タグを付けることで、明示的に複数の言語で記述することができますし、アプリケーションで利用する際に英語ラベルだけを利用する、というようなことも簡単に行えます。
+
+ 例)  mpo:MPO_03001 rdfs:label "Thermophilic"@en , "高熱性"@ja .
+
+ある言語によるラベルは一つだけにしておいたほうが、利用する際に悩まないで済むので便利だと思います。異なるラベルを付けたい場合には、rdfs:labelの代わりにskos:altLabelが利用できます。また、rdfs:labelやskos:altLabelなどによって複数のラベルが存在する場合に、そのうちの一つを代表ラベルとして明示したい場合は、skos:prefLabelが利用できます。
+
+ 例)
+ chebi:CHEBI_17234 rdfs:label "D-Glucose"@en ;
+                   rdfs:label "D-グルコース"@ja ;
+                   skos:altLabel "Dextrose"@en ;
+                   skos:altLabel "ブドウ糖"@ja ;
+                   pref:Label "D-Glucose"@en .
+
+=== URIリソースには、dcterms:identifierでIDを記述する ===
+
+URIはそれ自体がグローバルなIDとして機能しています。しかし、URIは記号的ですし文字列として長いので、SPARQL結果を表示する際に人間が見るのには向いていません。URIの末尾にデータベース固有の（ローカルな）IDが含まれているような場合は、URIの最後の/以下を切り出すことで文字列としてのIDを得ることができますが、切り出すためにはSPARQLで文字列処理を適用するなど余計な手間が発生します。このため、主なリソースのID文字列については、dcterms:identifierで記述することが推奨されます。
+
+ 例）uniprot:P51028 dcterms:identifier “P51028” .
+
+=== 永続性の高いURIを利用する ===
+
+永続性の高いURIを使う、という指針はcool URIという運動に含まれています。これは、Tim Berners-Lee による「[http://www.w3.org/Provider/Style/URI クールなURIは変わらない] [http://www.kanzaki.com/docs/Style/URI (日本語訳)]」という宣言から始まっており、W3Cからも「セマンティックウェブのためのクールなURI [http://www.w3.org/TR/cooluris/ (原文)], [http://standards.mitsue.co.jp/resources/w3c/TR/2008/NOTE-cooluris-20080331/ (日本語訳)]」 という文書が公開されています。
+
+RDFデータは、URIリソースの関係で記述されます。URIが参照できる先が実在することは望ましいですが、必須なわけではありません。しかし、もともと参照できたウェブページのURIが何らかの理由で違うURIに変わってしまう場合や消滅してしまった場合は、RDFデータの価値は著しく下がります。例えば、生命科学系データベースの多くが研究機関で作られていますが、組織の改組、統合、廃止等の理由で、組織のURIが変更になることは珍しくありません。このため、組織のURIでRDFデータを記述していると、運良く、データベースが新しい組織で運営されることになっても、RDFデータからはそのURIが参照できなくなります。このような自体を回避するため、下記の2つの方法を検討することが推奨されます。
+
+* 独自ドメインを取得する
+
+よくあるケースは、uniprot.orgのように「データベース名.org」のような独自ドメインを取得することで、データベースを運用する実体が変わっても、URIとしては持続させることができます。欠点は、独自ドメインを維持するのに費用がかかることや、誰がそのドメインを維持するのか、といった別の永続性問題が発生することです。
+
+* PURLを利用する
+
+Persistent URL （PURL）を利用してデータ記述する方法です。PURLから、データを運用する実体のURLにリダイレクトすることで、RDFデータの変更を伴わずに、常にそのとき参照できる最新のURIを指すことができます。NBDCでは、研究機関のデータベース運用のために [http://purl.jp/docs/ purl.jp] サービスを提供しています。
+
+=== 他のデータベースへのクロスリファレンスは、polite URLとidentifiers.orgのURIを利用する ===
+
+RDFでは、外部のリソースに対する参照リンクを貼ることで、データのウェブ（Linked Data）が実現されます。クロスリファレンス先がデータベースエントリの場合、参照するDBエントリーが実際に閲覧できるURLへリンクを張ることが一般的です。これをオリジナルのサイトを尊重するという意味からpolite URLと呼んでいます。しかし、オリジナルのURLを利用することの問題点として、
+
+* リンクしたページのURLが変更されてしまっても、一度公開してしまったRDFへはその変更が自動的に適用されないこと
+* オリジナルのURLがcool URIではない（CGI引数をとって動的に生成されるページなどIDとしてふさわしくない）こと
+
+等があります。また、同じ項目を参照するのに複数のURLが存在する場合があり（例えば[http://info.identifiers.org/taxonomy/9606 Taxonomy ID] などは、NCBI, EBI, UniProt, Bio2RDF等のサイトが異なるURLを提供していて、どれも広く利用されています）、
+
+* 個々のデータベースがRDFで任意のURLを利用してしまうため、統合的な検索が出来なくなる
+
+という問題もあります。
+
+こういった問題点を避ける方法として、[http://identifiers.org/ http://identifiers.org/] のURIを利用することが考えられます。Identifiers.orgでは、参照したいデータベースが登録されている場合であれば、適切に最新の参照先へリダイレクトしてくれますし、転送先が複数ある場合には選択することも可能です。また、参照したいデータベースが登録されていない場合もリクエストすることで追加されます。このため、
+
+ 例
+ ex:111 rdfs:seeAlso &lt;http://pfam.xfam.org/family/PF01590> .
+ ex:111 rdfs:seeAlso &lt;http://identifiers.org/pfam/PF01590> .
+
+のようにpolite URLとIdentifiers.orgのURIの両方にクロスリファレンスすることで、外部のリソースと繋がりやすいRDFを作成することができます。
+
+=== データに来歴（provenance）情報をつける===
+
+データをセマンティック・ウェブ化する利点の一つは、メタデータを必要なだけ付与できることです。RDFのデータセットにメタデータを付与することで、作成された日、作成した人、データソース、データのカテゴリ、ライセンス等を明示することができます。また、RDFで記述された1つ1つの文（statement; 各トリプルのこと）についても、その文の来歴を付与することができます。特に科学のデータの場合、各文がファクトを表明することが多いため、その文を記述するにいたった来歴は重要です。この来歴には、論文や本などに記載された情報、機械的な手法（BLASTによる相同性検索等）で得られた情報から、個人の推測まで、様々な可能性があり得ます。来歴が明示的に記述されていることで、（論文で言及された情報だけ使う、等）各トリプルをどのように利用するべきか、ユーザが選択することができます。
+
+RDFで来歴情報をつける方法はいくつか提案されており([http://en.wikipedia.org/wiki/Reification_(computer_science)#Reification_on_Semantic_Web RDF Reification]、[http://nanopub.org/wordpress/ NanoPub]、[http://www.w3.org/TR/prov-o/ PROV-O]、[http://arxiv.org/pdf/1305.6800.pdf OvoPub]、[http://linkedmodel.org/doc/voag/1.0/ VoAG] 等)、BioHackathon 2014 でも議論されました [http://goo.gl/u32WCo Standardization of RDF data and development of tools/ontologies] (8ページ目)。
+
+=== ライセンス情報をつける ===
+
+ライセンスが明示的に書かれていることで、ユーザが安心してRDFデータを利用することができます。データの利用しやすさの観点からは、[http://creativecommons.jp/ クリエイティブ・コモンズ]の適切な[http://creativecommons.jp/licenses/ ライセンス]を利用すること等が推奨されます。
+また、オントロジーについてはそもそも著作物であるか否かで議論の余地があるところですが、著作物である場合を想定し、そして、一部を再利用することの容易性から[http://sciencecommons.org/resources/readingroom/ontology-copyright-licensing-considerations/ CC0が良い]のではと言われています。
+
+  &lt;a RDF data> dcterms:lisence &lt;http://creativecommons.org/licenses/by-sa/4.0/> .
+  &lt;http://creativecommons.org/licenses/by-sa/4.0/> a &lt;http://purl.org/dc/terms/LicenseDocument> .
+
+To be fixed: 独自ライセンスの場合にどのように記載したら良いかを追記する
+
+== オントロジーを利用・構築する際のガイドライン ==
+
+=== 広く利用されているオントロジーや語彙を利用する ===
+
+情報をRDFとして記述する場合、主語、目的語のリソースや、述語のプロパティ等に、何を利用すればいいのかということは、しばしば自明ではなく、難しい問題です。少なくとも次にあげるような広く利用されているオントロジーや語彙に、適当なものがある場合はそれを利用することが推奨されます。
+
+{| class="wikitable"
+|+ 一般的な語彙の一覧
+! 語彙 !! 名前空間 !! 参考リンク
+|-
+! RDF 1.0
+| http://www.w3.org/1999/02/22-rdf-syntax-ns# || [http://www.w3.org/TR/2004/REC-rdf-concepts-20040210/ 概念および抽象構文 [英語]] [http://www.asahi-net.or.jp/~ax2s-kmtn/internet/rdf/rdf-concepts.html [日本語]], [http://www.w3.org/TR/2004/REC-rdf-primer-20040210/ RDF入門 [英語]] [http://www.asahi-net.or.jp/~ax2s-kmtn/internet/rdf/rdf-primer.html [日本語]],  [http://www.w3.org/TR/2004/REC-rdf-syntax-grammar-20040210/ RDF/XML構文仕様 [英語]] [http://www.asahi-net.or.jp/~ax2s-kmtn/internet/rdf/rdf-syntax-grammar.html [日本語]]
+|-
+! RDF 1.1
+| http://www.w3.org/1999/02/22-rdf-syntax-ns# || [http://www.w3.org/TR/2014/REC-rdf11-concepts-20140225/ 概念および抽象構文 [英語]],  [http://www.w3.org/TR/2014/NOTE-rdf11-primer-20140225/ RDF入門 [英語]], [http://www.w3.org/TR/2014/REC-rdf-syntax-grammar-20140225/ RDF/XML構文仕様 [英語]],  [http://www.w3.org/TR/2014/REC-turtle-20140225/ turtle構文仕様 [英語]]
+|-
+! RDFS 1.0
+|http://www.w3.org/2000/01/rdf-schema# || [http://www.w3.org/TR/2004/REC-rdf-schema-20040210/ 仕様 [英語]] [http://www.asahi-net.or.jp/~ax2s-kmtn/internet/rdf/rdf-schema.html [日本語]]
+|-
+! RDFS 1.1
+|http://www.w3.org/2000/01/rdf-schema# || [http://www.w3.org/TR/2014/REC-rdf-schema-20140225/ 仕様 [英語]]
+|-
+! OWL 1
+|http://www.w3.org/2002/07/owl || [http://www.w3.org/TR/2004/REC-owl-features-20040210/ 概要 [英語]] [http://www.asahi-net.or.jp/~ax2s-kmtn/internet/rec-owl-features-20040210.html [日本語]]
+|-
+! OWL 2
+|http://www.w3.org/2002/07/owl || [http://www.w3.org/TR/2012/REC-owl2-overview-20121211/ 概要 [英語]]
+|-
+! DC
+|http://purl.org/dc/elements/1.1/ || [http://dublincore.org/documents/dces/ 仕様 [英語]]
+|-
+! DC term
+|http://purl.org/dc/terms/ || [http://dublincore.org/documents/dcmi-terms/ 仕様 [英語]]
+|-
+! SKOS
+| http://www.w3.org/2004/02/skos/core || [http://www.w3.org/TR/skos-reference/ 概要 [英語]] [http://www.asahi-net.or.jp/~ax2s-kmtn/internet/skos/REC-skos-reference-20090818.html [日本語]], [http://www.w3.org/TR/2009/NOTE-skos-primer-20090818/ SKOS入門 [英語]] [http://www.asahi-net.or.jp/~ax2s-kmtn/internet/skos/note-skos-primer-20090818.html [日本語]]
+|-
+! FOAF
+|http://xmlns.com/foaf/0.1/ || [http://xmlns.com/foaf/spec/ 仕様 [英語]] 
+|-
+! VoID
+| http://rdfs.org/ns/void# || [http://www.w3.org/TR/void/ 仕様 [英語]], [http://semanticweb.org/wiki/VoID 概要 [英語]]
+|-
+! UO
+| http://purl.obolibrary.org/obo/ ||  [http://code.google.com/p/unit-ontology/ Home], [http://bioportal.bioontology.org/ontologies/UO BioPortal]
+|-
+! QUDT
+| http://qudt.org/schema/qudt/ || [http://bioportal.bioontology.org/ontologies/QUDT BioPortal]
+|-
+! PROV-O
+| http://www.w3.org/ns/prov# || [http://www.w3.org/TR/prov-o/ 仕様 [英語]], [http://qudt.org/ Home], [http://bioportal.bioontology.org/ontologies/PROVO BioPortal]
+|}
+
+そのほか、[http://lov.okfn.org/dataset/lov/ Linked Open Vocabularies (LOV)]で広く一般に使われている語彙を見つけることができます。
+また、[http://bioportal.bioontology.org/ BioPortal] を検索することで、適切なオントロジーや語彙を発見することができることもあります。
+上記のように一般的な概念を扱ったオントロジーや語彙以外に、生命科学情報を記述する際に、利用しやすいオントロジーもあります。
+
+{| class="wikitable"
+|+ 生命科学情報に関するドメインオントロジー
+! 略称 !! オントロジー名 !! 名前空間 !! 参考リンク
+|-
+|style="text-align:left;"| GO || Gene Ontology || http://purl.obolibrary.org/obo/ || [http://geneontology.org/ Home], [http://bioportal.bioontology.org/ontologies/GO BioPortal], 
+|-
+|style="text-align:left;"| PRO || Protein Ontology || http://purl.obolibrary.org/obo/ || [http://pir.georgetown.edu/pro/ Home], [http://bioportal.bioontology.org/ontologies/PR BioPortal]
+|-
+|style="text-align:left;"| SO || Sequence Types and Features Ontology || [http://purl.obolibrary.org/obo/ || [http://www.sequenceontology.org/ Home], [http://bioportal.bioontology.org/ontologies/SO BioPortal]
+|-
+|style="text-align:left;"| PO || Plant Ontology || http://purl.obolibrary.org/obo/ || [http://plantontology.org/ Home], [http://bioportal.bioontology.org/ontologies/PO BioPortal]
+|-
+|style="text-align:left;"| Taxonomy || Taxnomy ||   || [http://bioportal.bioontology.org/ontologies/NCBITAXON BioPortal]
+|-
+| Mesh || Medical Subject Headings || || [http://bioportal.bioontology.org/ontologies/MESH BioPortal]
+|-
+|style="text-align:left;"| CL || Cell Ontology || http://purl.obolibrary.org/obo/ || [http://bioportal.bioontology.org/ontologies/CL BioPortal]
+|-
+|style="text-align:left;"| FMA || Foundational Model of Anatomy || http://purl.org/sig/ont/fma/ || [http://sig.biostr.washington.edu/projects/fm/ Home], [http://bioportal.bioontology.org/ontologies/FMA BioPortal]
+|-
+|style="text-align:left;"| UBERON || Uber Anatomy Ontology || http://purl.obolibrary.org/obo/ || [http://uberon.org Home], [http://bioportal.bioontology.org/ontologies/UBERON BioPortal]
+|-
+|style="text-align:left;"| SNOMED-CT || Systematized Nomenclature of Medicine - Clinical Terms || http://purl.bioontology.org/ontology/SNOMEDCT/ || [http://bioportal.bioontology.org/ontologies/SNOMEDCT BioPortal]
+|-
+|style="text-align:left;"| SIO || Semanticscience Integrated Ontology || http://semanticscience.org/resource/ || [http://semanticscience.org/ Home], [http://bioportal.bioontology.org/ontologies/SIO BioPortal]
+|-
+|style="text-align:left;"| EFO || Experimental Factor Ontology || http://www.ebi.ac.uk/efo/ || [http://www.ebi.ac.uk/efo Home], [http://bioportal.bioontology.org/ontologies/EFO BioPortal]
+|-
+|style="text-align:left;"| EDAM || EDAM bioinformatics operations, data types, formats, identifiers and topics || http://edamontology.org/ || [http://edamontology.org/ Home], [http://bioportal.bioontology.org/ontologies/EDAM BioPortal]
+|-
+|style="text-align:left;"| CMO || Clinical Measurement Ontology || http://purl.obolibrary.org/obo/ || [http://phenoonto.sourceforge.net/ Home],  [http://bioportal.bioontology.org/ontologies/CMO BioPortal]
+|-
+|| MMO || Measurement Method Ontology || http://purl.obolibrary.org/obo/ || [http://phenoonto.sourceforge.net/ Home], [http://purl.bioontology.org/ontology/MMO BioPortal]
+|-
+|| XCO || Experimental Conditions Ontology || http://purl.obolibrary.org/obo/ || [http://phenoonto.sourceforge.net/ Home], [http://bioportal.bioontology.org/ontologies/XCO BioPortal]
+|-
+|style="text-align:left;"| OrthO || Ortholog Ontology || http://purl.jp/bio/11/orth# || [http://mbgd.genome.ad.jp/ontology/ Home], [[http://bioportal.bioontology.org/ontologies/ORTHO BioPortal]
+|-
+|style="text-align:left;"| PIERO || PIERO Enzyme Reaction Ontology || || [http://reactionontology.org/ Home]
+|}
+
+また、言語名に関する語彙として、米国国会図書館の提供している[http://id.loc.gov/vocabulary/iso639-1.html ISO 639-1]や[http://id.loc.gov/vocabulary/iso639-2.html ISO 639-2]が利用できます。
+
+既存のオントロジーや語彙のURIを利用する際には、しばしば名前空間を短縮系で表記します。例えば、上記のrdf:typeというURIは &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#type> の短縮表記です。
+この短縮系はTurtleのprefixed nameという表記則に従って書かれており、一つのデータセット内においては短縮系と実際の表記の対応が矛盾無く宣言されていればどのような表記でも問題ないのですが、広く使われている短縮系があり、それを使うことで人に対する可読性が上がります。
+これを探すためのサービスとして[http://prefix.cc/ prefix.cc]があるので、利用すると良いでしょう。
+
+=== 新規にオントロジーを定義する ===
+
+データや知識をRDF化する際に、しばしば、オントロジーが必要になることがあります。典型的な例は、
+* リソースが所属するクラスを明示する場合
+* 何らかの情報をリテラルとして記述しているが、概念化できそうな場合
+* 主語リソースと目的語リソースの関係を記述する述語が必要な場合
+などです。
+データ統合の観点からは、既存のオントロジーを利用する方が望ましいですが、既存のものの中に適当なものが見つからない場合は、新規に構築するしかありません。セマンティックウェブでは、一般的にOWLというオントロジー記述言語を利用してオントロジーを定義していきます。OWL自体もRDFで記述します。OWLは（RDFも）テキストエディタで記述できますが、専用のオントロジーエディタを利用した方が効率よく作業することができます。特に、階層構造などを試行錯誤しながらオントロジーを構築する場合には、GUIで作業が行えるオントロジーエディタが不可欠です。OWLオントロジーを記述できるエディタとして次のようなものがあります。
+* [http://protege.stanford.edu/ Protege] オープンソースのオントロジーエディタ
+* [http://webprotege.stanford.edu/ WebProtege] クラウド版のProtege
+* [http://www.topquadrant.com/tools/modeling-topbraid-composer-standard-edition/ TopBraid] 商用のオントロジーエディタ
+
+===プロパティには、rdfs:domain と rdfs:range を定義する===
+
+プロパティ（RDFの述語、predicate）には、rdfs:domain および rdfs:range を定義することができます。これによりプロパティの意味がより明示的になります。
+
+ 例）
+ core:classifiedWith rdfs:domain core:Protein .
+ core:classifiedWIth rdfs:range core:Concept .
+
+上記の例では、UniProt のタンパクエントリーに、GOなどの機能アノテーション情報をつける core:classifiedWith プロパティでの例です。ドメインとして、core:Protein、レンジとして、core:Concept が定義されています。classifiedWith という文字列から、人間は「何かで主語を分類するのだな」といったような、一定の意味を汲み取ることができますが、機械にはそれができません。
+
+機械には、
+
+ uniprot:P51028 core:classifiedWith go:2000044 . 
+
+という文も、
+
+ uniprot:P51028 :fugahoge go:2000044 .
+
+という文も、uniprot:P51028 と go:2000044 の間に関係がある、事以上の意味を持ちません。
+
+オントロジーにドメインとレンジが定義されることで、機械も、このプロパティcore:classifiedWIthは、core:Protein タイプ以外のリソースを主語にとらないこと、core:Concept 以外の値を持つことができないことを情報処理に利用することができるようになります。
+
+=生命科学で利用しやすいRDFモデル=
+
+==測定項目および測定値の記述方法==
+
+===単位のついた値の記述方法===
+
+* ブランクノードを利用する方法
+
+&lt;code>
+ 例）
+ ex:m1 sio:SIO_000216 [             # SIO__000216 is "has measurement value"
+   ref:type       cmo:CMO_0000209 ; # Blood fibrinogen level defined by [http://www.ontobee.org/browser/index.php?o=CMO Clinical Measurement Ontology]
+   ref:value      21.5 ;                        
+   sio:SIO_000222 uo:UO_0000309     # Milligram per square meter defined by [http://bioportal.bioontology.org/ontologies/UO Units of Measurement Onotlogy] .
+ ] .                                # SIO__000222 is "has unit"
+&lt;/code>
+
+
+* 単位の型指定をつかう方法
+
+ 例）
+ ex:e1 sio:SIO_000216 ex:m1 .
+ ex:m1 rdf:type cmo:CMO_0000209 ;
+       sio:SIO_000216 21.5^^&lt;http://purl.obolibrary.org/obo/UO_0000309> .
+
+==サンプルメタデータの記述方法==
+
+
+
+
+==トランスクリプトームの記述方法==
+
+
+
+
+==画像へのリンク==
+
+* 主語URIが意味する実体を表す画像へのリンクを張る際には、[http://xmlns.com/foaf/spec/#term_depiction foaf:depition] を利用する。
+
+ an-assay-db:12345 foaf:depiction an-assay-db-image:12345.jpg .
+
+* 逆に、画像ファイルのURIが主語で、その画像に描かれているもののリソースURIが目的語の場合、[http://xmlns.com/foaf/spec/#term_depicts foaf:depits] を利用する。
+
+ an-assay-db-image:12345.jpg foaf:depicts an-assay-db:12345 .
+
+=RDF提供の際のガイドライン=
+
+==生命科学のLinked Dataを公開するときの10のルール==
+
+* BioHackathon 2014 でも、Linked Data 公開のルールについて議論されました( [https://github.com/dbcls/bh14/wiki/Ten-simple-rules-for-publishing-Linked-Data-for-the-Life-Sciences 10 simple rules for publishing Linked Data for the Life Sciences] )。いまでも追記可能です。
+
+
+==定期的なリリースとバージョン情報==
+
+* 現状、多くのデータベースは、RDF化する場合、すでに別の形式（リレーショナル・データベース等）で構築・提供しているデータベースから変換していると思います。こういった場合、公開サービスとして提供しているデータと、RDF化したデータとの間で、内容についての同期の問題が発生します。できるだけ、プライマリに提供しているデータと、RDF化したデータとの間との違いが大きくならないように、定期的なRDF化が望まれます。そのために、既存の形式からRDF化への変換はできるだけ自動化するようにし、その過程からは、マニュアル作業が必要な工程をできるだけ排除して下さい。RDF化の過程に大量のマニュアル作業が発生すると、定期的なRDF化は著しく困難になります。マニュアル作業（アノテーション、オントロジーマッピング等）はプライマリのデータベース構築作業の方に含めるようにして下さい。もちろん、プライマリなデータベースのフォーマットがRDFの場合はこの限りではありません。
+
+また、RDF化の際に、適切なバージョン番号を付与して頂くことが必要となります。バージョン付けには、dcterms:hasVersion や、owl:versionInfo が利用できます。
+
+ [http://purl.org/dc/terms/hasVersion dcterms:hasVerion]
+ [http://www.w3.org/2002/07/owl#versionInfo owl:versionInfo]
+
+
+=参考URL=
+
+==RDF化を支援するツール==
+ガイドラインに従って実際にRDF化を進める際に有益なツール群を紹介します。
+
+* [http://refine.deri.ie/ OpenRefine with RDF extension]
+* [http://togodb.org/ TogoDB]
+* [http://d2rq.org/ D2RQ]
+* [http://ontop.inf.unibz.it/ -ontop-]
+* [http://protege.stanford.edu/ Protege]
+* [http://webprotege.stanford.edu/ WebProtege]
+* [http://www.topquadrant.com/tools/modeling-topbraid-composer-standard-edition/ TopBraid Composer Standard Edition]
+* [http://www.topquadrant.com/tools/IDE-topbraid-composer-maestro-edition/ TopBraid Composer Maestro Edition]
+* [http://silk-framework.com/ Silk]
+...
+
+==RDF化の際に参考になるサイト==
+
+* [http://htmlpreview.github.io/?https://github.com/joejimbo/HCLSDatasetDescriptions/blob/master/Overview.html HCLS Dataset descriptions]</textarea><div class='templatesUsed'>
+
+</div>
+<p id="mw-returnto"><a href="/mw/BH14.14/RDFingDatabaseGuideline" title="BH14.14/RDFingDatabaseGuideline">BH14.14/RDFingDatabaseGuideline</a>に戻る。</p>
+<div class="printfooter">
+「<a href="http://wiki.lifesciencedb.jp/mw/BH14.14/RDFingDatabaseGuideline">http://wiki.lifesciencedb.jp/mw/BH14.14/RDFingDatabaseGuideline</a>」より作成</div>
+		<div id='catlinks' class='catlinks catlinks-allhidden'></div>		<!-- end content -->
+				<div class="visualClear"></div>
+	</div>
+</div></div>
+<div id="column-one">
+	<div id="p-cactions" class="portlet">
+		<h5>表示</h5>
+		<div class="pBody">
+			<ul>
+				 <li id="ca-nstab-main" class="selected"><a href="/mw/BH14.14/RDFingDatabaseGuideline" title="本文を表示 [c]" accesskey="c">ページ</a></li>
+				 <li id="ca-talk" class="new"><a href="/mw/index.php?title=%E3%83%8E%E3%83%BC%E3%83%88:BH14.14/RDFingDatabaseGuideline&amp;action=edit&amp;redlink=1" title="記事についての議論 [t]" accesskey="t">議論</a></li>
+				 <li id="ca-viewsource" class="selected"><a href="/mw/index.php?title=BH14.14/RDFingDatabaseGuideline&amp;action=edit" title="このページは保護されています。&#10;ページのソースを閲覧できます。 [e]" accesskey="e">ソースを表示</a></li>
+				 <li id="ca-history"><a href="/mw/index.php?title=BH14.14/RDFingDatabaseGuideline&amp;action=history" title="このページの過去の版 [h]" accesskey="h">履歴</a></li>
+			</ul>
+		</div>
+	</div>
+	<div class="portlet" id="p-personal">
+		<h5>個人用ツール</h5>
+		<div class="pBody">
+			<ul>
+				<li id="pt-anonuserpage"><a href="/mw/%E5%88%A9%E7%94%A8%E8%80%85:172.18.8.51" title="自分が編集しているIPアドレスの利用者ページ [.]" accesskey="." class="new">172.18.8.51</a></li>
+				<li id="pt-anontalk"><a href="/mw/%E5%88%A9%E7%94%A8%E8%80%85%E2%80%90%E4%BC%9A%E8%A9%B1:172.18.8.51" title="このIPアドレスからなされた編集についての議論 [n]" accesskey="n" class="new">このIPアドレスのトーク</a></li>
+				<li id="pt-anonlogin"><a href="/mw/index.php?title=%E7%89%B9%E5%88%A5:%E3%83%AD%E3%82%B0%E3%82%A4%E3%83%B3&amp;returnto=BH14.14/RDFingDatabaseGuideline&amp;returntoquery=action%3Dedit" title="ログインすることが推奨されます。ただし、必須ではありません。 [o]" accesskey="o">ログイン</a></li>
+				<li id="pt-openidlogin"><a href="/mw/index.php?title=%E7%89%B9%E5%88%A5:OpenID%E3%83%AD%E3%82%B0%E3%82%A4%E3%83%B3&amp;returnto=BH14.14/RDFingDatabaseGuideline">OpenIDでログイン</a></li>
+			</ul>
+		</div>
+	</div>
+	<div class="portlet" id="p-logo">
+		<a style="background-image: url(/mw/images/togowiki-logo.png);" href="/mw/%E3%83%A1%E3%82%A4%E3%83%B3%E3%83%9A%E3%83%BC%E3%82%B8" title="メインページに移動"></a>
+	</div>
+	<script type="text/javascript"> if (window.isMSIE55) fixalpha(); </script>
+	<div class='generated-sidebar portlet' id='p-navigation'>
+		<h5>案内</h5>
+		<div class='pBody'>
+			<ul>
+				<li id="n-mainpage-description"><a href="/mw/%E3%83%A1%E3%82%A4%E3%83%B3%E3%83%9A%E3%83%BC%E3%82%B8" title="メインページに移動する [z]" accesskey="z">メインページ</a></li>
+				<li id="n-portal"><a href="/mw/TogoWiki:%E3%82%B3%E3%83%9F%E3%83%A5%E3%83%8B%E3%83%86%E3%82%A3%E3%83%BB%E3%83%9D%E3%83%BC%E3%82%BF%E3%83%AB" title="このプロジェクトについて、できること、情報を入手する場所">コミュニティ・ポータル</a></li>
+				<li id="n-currentevents"><a href="/mw/TogoWiki:%E6%9C%80%E8%BF%91%E3%81%AE%E5%87%BA%E6%9D%A5%E4%BA%8B" title="最近の出来事について予備知識を得る">最近の出来事</a></li>
+				<li id="n-recentchanges"><a href="/mw/%E7%89%B9%E5%88%A5:%E6%9C%80%E8%BF%91%E3%81%AE%E6%9B%B4%E6%96%B0" title="ウィキにおける最近の更新の一覧 [r]" accesskey="r">最近の更新</a></li>
+				<li id="n-randompage"><a href="/mw/%E7%89%B9%E5%88%A5:%E3%81%8A%E3%81%BE%E3%81%8B%E3%81%9B%E8%A1%A8%E7%A4%BA" title="無作為に抽出されたページの読み込み [x]" accesskey="x">おまかせ表示</a></li>
+				<li id="n-help"><a href="/mw/Help:%E7%9B%AE%E6%AC%A1" title="情報を得る場所">ヘルプ</a></li>
+			</ul>
+		</div>
+	</div>
+	<div id="p-search" class="portlet">
+		<h5><label for="searchInput">検索</label></h5>
+		<div id="searchBody" class="pBody">
+			<form action="/mw/index.php" id="searchform">
+				<input type='hidden' name="title" value="特別:検索"/>
+				<input id="searchInput" title="TogoWiki内を検索" accesskey="f" type="search" name="search" />
+				<input type='submit' name="go" class="searchButton" id="searchGoButton"	value="表示" title="厳密に一致する名前のページが存在すれば、そのページへ移動します" />&nbsp;
+				<input type='submit' name="fulltext" class="searchButton" id="mw-searchButton" value="検索" title="入力された文字列が含まれるページを検索します" />
+			</form>
+		</div>
+	</div>
+	<div class="portlet" id="p-tb">
+		<h5>ツールボックス</h5>
+		<div class="pBody">
+			<ul>
+				<li id="t-whatlinkshere"><a href="/mw/%E7%89%B9%E5%88%A5:%E3%83%AA%E3%83%B3%E3%82%AF%E5%85%83/BH14.14/RDFingDatabaseGuideline" title="ここにリンクしている全ウィキのページの一覧 [j]" accesskey="j">リンク元</a></li>
+				<li id="t-recentchangeslinked"><a href="/mw/%E7%89%B9%E5%88%A5:%E9%96%A2%E9%80%A3%E3%83%9A%E3%83%BC%E3%82%B8%E3%81%AE%E6%9B%B4%E6%96%B0%E7%8A%B6%E6%B3%81/BH14.14/RDFingDatabaseGuideline" title="このページからリンクしているページの最近の更新 [k]" accesskey="k">関連ページの更新状況</a></li>
+<li id="t-specialpages"><a href="/mw/%E7%89%B9%E5%88%A5:%E7%89%B9%E5%88%A5%E3%83%9A%E3%83%BC%E3%82%B8%E4%B8%80%E8%A6%A7" title="特別ページの一覧 [q]" accesskey="q">特別ページ</a></li>
+			</ul>
+		</div>
+	</div>
+</div><!-- end of the left (by default at least) column -->
+<div class="visualClear"></div>
+<div id="footer">
+	<div id="f-poweredbyico"><a href="http://www.mediawiki.org/"><img src="/mw/skins/common/images/poweredby_mediawiki_88x31.png" height="31" width="88" alt="Powered by MediaWiki" /></a></div>
+	<div id="f-copyrightico"><a href="http://creativecommons.org/licenses/by/3.0/"><img src="http://i.creativecommons.org/l/by/3.0/88x31.png" alt="Attribution 3.0 Unported" width="88" height="31" /></a></div>
+	<ul id="f-list">
+		<li id="privacy"><a href="/mw/TogoWiki:%E3%83%97%E3%83%A9%E3%82%A4%E3%83%90%E3%82%B7%E3%83%BC%E3%83%BB%E3%83%9D%E3%83%AA%E3%82%B7%E3%83%BC" title="TogoWiki:プライバシー・ポリシー">プライバシー・ポリシー</a></li>
+		<li id="about"><a href="/mw/TogoWiki:TogoWiki%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6" title="TogoWiki:TogoWikiについて">TogoWikiについて</a></li>
+		<li id="disclaimer"><a href="/mw/TogoWiki:%E5%85%8D%E8%B2%AC%E4%BA%8B%E9%A0%85" title="TogoWiki:免責事項">免責事項</a></li>
+	</ul>
+</div>
+</div>
+
+<script>if (window.runOnloadHook) runOnloadHook();</script>
+<!-- Served in 0.364 secs. --></body></html>

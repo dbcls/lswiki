@@ -1,0 +1,654 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html lang="ja" dir="ltr">
+<head>
+<title>ソースを表示 - TogoWiki</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta name="generator" content="MediaWiki 1.16.3" />
+<meta name="robots" content="noindex,nofollow" />
+<link rel="next" href="http://wiki.lifesciencedb.jp/mw/TPP-ishihama" />
+<link rel="shortcut icon" href="/favicon.ico" />
+<link rel="search" type="application/opensearchdescription+xml" href="/mw/opensearch_desc.php" title="TogoWiki (ja)" />
+<link rel="copyright" href="http://creativecommons.org/licenses/by/3.0/" />
+<link rel="alternate" type="application/atom+xml" title="TogoWikiのAtomフィード" href="/mw/index.php?title=%E7%89%B9%E5%88%A5:%E6%9C%80%E8%BF%91%E3%81%AE%E6%9B%B4%E6%96%B0&amp;feed=atom" />
+<!--[if IE 8]><link rel="stylesheet" href="/mw/skins/common/IE80Fixes.css?270" media="screen" /><![endif]-->
+<link rel="stylesheet" href="/mw/skins/common/shared.css?270" media="screen" />
+<link rel="stylesheet" href="/mw/skins/common/commonPrint.css?270" media="print" />
+<link rel="stylesheet" href="/mw/skins/monobook/main.css?270" media="screen" />
+<!--[if lt IE 5.5000]><link rel="stylesheet" href="/mw/skins/monobook/IE50Fixes.css?270" media="screen" /><![endif]-->
+<!--[if IE 5.5000]><link rel="stylesheet" href="/mw/skins/monobook/IE55Fixes.css?270" media="screen" /><![endif]-->
+<!--[if IE 6]><link rel="stylesheet" href="/mw/skins/monobook/IE60Fixes.css?270" media="screen" /><![endif]-->
+<!--[if IE 7]><link rel="stylesheet" href="/mw/skins/monobook/IE70Fixes.css?270" media="screen" /><![endif]-->
+<link rel="stylesheet" href="/mw/index.php?title=MediaWiki:Common.css&amp;usemsgcache=yes&amp;ctype=text%2Fcss&amp;smaxage=18000&amp;action=raw&amp;maxage=18000" />
+<link rel="stylesheet" href="/mw/index.php?title=MediaWiki:Print.css&amp;usemsgcache=yes&amp;ctype=text%2Fcss&amp;smaxage=18000&amp;action=raw&amp;maxage=18000" media="print" />
+<link rel="stylesheet" href="/mw/index.php?title=MediaWiki:Monobook.css&amp;usemsgcache=yes&amp;ctype=text%2Fcss&amp;smaxage=18000&amp;action=raw&amp;maxage=18000" />
+<link rel="stylesheet" href="/mw/index.php?title=-&amp;action=raw&amp;maxage=18000&amp;gen=css" />
+<script>
+var skin="monobook",
+stylepath="/mw/skins",
+wgUrlProtocols="http\\:\\/\\/|https\\:\\/\\/|ftp\\:\\/\\/|irc\\:\\/\\/|gopher\\:\\/\\/|telnet\\:\\/\\/|nntp\\:\\/\\/|worldwind\\:\\/\\/|mailto\\:|news\\:|svn\\:\\/\\/",
+wgArticlePath="/mw/$1",
+wgScriptPath="/mw",
+wgScriptExtension=".php",
+wgScript="/mw/index.php",
+wgVariantArticlePath=false,
+wgActionPaths={},
+wgServer="http://wiki.lifesciencedb.jp",
+wgCanonicalNamespace="",
+wgCanonicalSpecialPageName=false,
+wgNamespaceNumber=0,
+wgPageName="TPP-ishihama",
+wgTitle="TPP-ishihama",
+wgAction="edit",
+wgArticleId=693,
+wgIsArticle=false,
+wgUserName=null,
+wgUserGroups=null,
+wgUserLanguage="ja",
+wgContentLanguage="ja",
+wgBreakFrames=true,
+wgCurRevisionId=24174,
+wgVersion="1.16.3",
+wgEnableAPI=true,
+wgEnableWriteAPI=true,
+wgSeparatorTransformTable=["", ""],
+wgDigitTransformTable=["", ""],
+wgMainPageTitle="メインページ",
+wgFormattedNamespaces={"-2": "メディア", "-1": "特別", "0": "", "1": "ノート", "2": "利用者", "3": "利用者‐会話", "4": "TogoWiki", "5": "TogoWiki‐ノート", "6": "ファイル", "7": "ファイル‐ノート", "8": "MediaWiki", "9": "MediaWiki‐ノート", "10": "Template", "11": "Template‐ノート", "12": "Help", "13": "Help‐ノート", "14": "Category", "15": "Category‐ノート"},
+wgNamespaceIds={"メディア": -2, "特別": -1, "": 0, "ノート": 1, "利用者": 2, "利用者‐会話": 3, "togowiki": 4, "togowiki‐ノート": 5, "ファイル": 6, "ファイル‐ノート": 7, "mediawiki": 8, "mediawiki‐ノート": 9, "template": 10, "template‐ノート": 11, "help": 12, "help‐ノート": 13, "category": 14, "category‐ノート": 15, "画像": 6, "画像‐ノート": 7, "image": 6, "image_talk": 7},
+wgSiteName="TogoWiki",
+wgCategories=[],
+wgRestrictionEdit=[],
+wgRestrictionMove=[];
+</script><script src="/mw/skins/common/wikibits.js?270"></script>
+<script src="/mw/skins/common/edit.js?270"></script>
+<script src="/mw/skins/common/ajax.js?270"></script>
+<script src="/mw/index.php?title=-&amp;action=raw&amp;gen=js&amp;useskin=monobook&amp;270"></script>
+
+		<style type='text/css'>
+		li#pt-openidlogin {
+		  background: url(/mw/extensions/OpenID/skin/icons/openid-inputicon.png) top left no-repeat;
+		  padding-left: 20px;
+		  text-transform: none;
+		}
+		</style>
+</head>
+<body class="mediawiki ltr ns-0 ns-subject page-TPP-ishihama skin-monobook">
+<div id="globalWrapper">
+<div id="column-content"><div id="content" >
+	<a id="top"></a>
+	
+	<h1 id="firstHeading" class="firstHeading">TPP-ishihama</h1>
+	<div id="bodyContent">
+		<h3 id="siteSub">提供：TogoWiki</h3>
+		<div id="contentSub"><a href="/mw/TPP-ishihama" title="TPP-ishihama">TPP-ishihama</a>のソース</div>
+		<div id="jump-to-nav">移動： <a href="#column-one">案内</a>, <a href="#searchInput">検索</a></div>
+		<!-- start content -->
+<p>以下に示された理由により、このページの編集を行うことができません：
+</p>
+<div class="permissions-errors">
+<p>この操作は、<a href="/mw/index.php?title=TogoWiki:%E5%88%A9%E7%94%A8%E8%80%85&amp;action=edit&amp;redlink=1" class="new" title="TogoWiki:利用者（存在しないページ）">利用者</a>のグループに属する利用者のみが実行できます。
+</p>
+</div>
+<p>このページのソースを閲覧し、コピーすることができます：
+</p><textarea id="wpTextbox1" name="wpTextbox1" cols="80" rows="25" readonly="">{| class="wikitable"
+| width="20%" | 研究開発課題名 || プロテオーム統合データベースの構築
+|-
+| 研究代表者 || 石濱 泰
+|-
+| 所属・役職 || 京都大学　大学院薬学研究科　教授
+|-
+| 概　　　要 || 国内外に散在している種々のプロテオーム情報を標準化・統合・一元管理し、多彩な生物種・翻訳後修飾・絶対発現量も含めた世界初の横断的統合プロテオームデータベースjPOST (Japan ProteOme STandard Repository/Database) を開発し、ライフサイエンス統合データベースに欠けている「たんぱく質」という必要不可欠な生命素子情報を広く国内外に公開することを目指す。
+|}
+
+== 参加メンバー ==
+
+* 河野信（DBCLS）
+* 守屋勇樹（DBCLS）
+* 吉沢明康（京都大学）
+* 奥田修二郎（新潟大学）
+* 田中聡 (Trans-IT)
+
+== virtuoso バグ？ ==
+* [https://is.gd/gI5d3d query]： DEFINE sql:select-option "order" 行の有無で結果がかわる
+** DEFILE 行ある方がただしい
+&lt;pre>
+## endpoint https://tools.jpostdb.org/sparql
+DEFINE sql:select-option "order"
+PREFIX rdf: &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs: &lt;http://www.w3.org/2000/01/rdf-schema#>
+PREFIX dct: &lt;http://purl.org/dc/terms/>
+PREFIX jpo: &lt;http://rdf.jpostdb.org/ontology/jpost.owl#>
+PREFIX obo: &lt;http://purl.obolibrary.org/obo/>
+PREFIX ncit: &lt;http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#>
+PREFIX sio: &lt;http://semanticscience.org/resource/>
+PREFIX : &lt;http://rdf.jpostdb.org/entry/>
+SELECT DISTINCT ?dataset ?project
+WHERE {
+  VALUES ?organ { ncit:C54189 }
+  VALUES ?disease { obo:DOID_162 }
+
+  ?dataset a jpo:Dataset ;
+           dct:identifier ?dataset_id ;
+           sio:SIO_000216 [ a jpo:NumOfLeadingProteins ;
+                          sio:SIO_000300 ?protein_count ] ;
+           sio:SIO_000216 [ a jpo:NumOfSpectra ;
+                          sio:SIO_000300 ?spectrum_count ] . 
+  ?project jpo:hasDataset ?dataset ;
+           dct:identifier ?project_id ;
+           dct:title ?project_title ;
+           dct:date ?project_date . 
+  ?dataset jpo:hasProfile/jpo:hasSample/jpo:organ ?organ .
+  ?dataset jpo:hasProfile/jpo:hasSample/(jpo:disease|jpo:diseaseClass)/rdfs:subClassOf* ?disease .
+
+}
+ORDER BY ASC(?project_id) ASC(?dataset_id) 
+&lt;/pre>
+
+== SPARQLthon 68 ==
+SERVICE の実行順序
+* [https://is.gd/f3NADN query] : あるデータセットに含まれるタンパク質の染色体番号を取ってくるクエリ
+&lt;pre>
+### endpoint http://db-dev.jpostdb.org/proxy/sparql
+PREFIX uniprot: &lt;http://purl.uniprot.org/core/>
+PREFIX jpo: &lt;http://rdf.jpostdb.org/ontology/jpost.owl#>
+PREFIX obo: &lt;http://purl.obolibrary.org/obo/>
+PREFIX : &lt;http://rdf.jpostdb.org/entry/>
+SELECT ?chr (COUNT (DISTINCT ?up) AS ?count)
+WHERE {
+  :DS81_1 jpo:hasProtein ?protein .
+  ?protein a obo:MS_1002401 .
+  ?protein jpo:hasDatabaseSequence ?up .
+  ?up uniprot:proteome ?chr .   # この行だけ UniProt RDF
+}
+ORDER BY ?chr
+&lt;/pre>
+* [https://is.gd/jq261V query] : UniProt ミラーを叩く SERVICE 化 (RDF portal のサンプルクエリ用)。SERVICE から実行されて、帰ってこない。DEFINE sql:select-option "order" してもだめ
+&lt;pre>
+
+### endpoint http://db-dev.jpostdb.org/proxy/sparql
+PREFIX uniprot: &lt;http://purl.uniprot.org/core/>
+PREFIX jpo: &lt;http://rdf.jpostdb.org/ontology/jpost.owl#>
+PREFIX obo: &lt;http://purl.obolibrary.org/obo/>
+PREFIX : &lt;http://rdf.jpostdb.org/entry/>
+SELECT ?chr (COUNT (DISTINCT ?up) AS ?count)
+WHERE {
+  :DS81_1 jpo:hasProtein ?protein .
+  ?protein a obo:MS_1002401 .
+  ?protein jpo:hasDatabaseSequence ?up .
+  SERVICE &lt;https://integbio.jp/rdf/mirror/uniprot/sparql> {
+    ?up uniprot:proteome ?chr .
+  }
+}
+&lt;/pre>
+
+* [https://is.gd/EeRAZB query] : サブクエリ化して、どうにか動く最終形態
+&lt;pre>
+### endpoint http://db-dev.jpostdb.org/proxy/sparql
+PREFIX uniprot: &lt;http://purl.uniprot.org/core/>
+PREFIX jpo: &lt;http://rdf.jpostdb.org/ontology/jpost.owl#>
+PREFIX obo: &lt;http://purl.obolibrary.org/obo/>
+PREFIX : &lt;http://rdf.jpostdb.org/entry/>
+SELECT ?chr (COUNT (DISTINCT ?up) AS ?count)
+WHERE {
+  SERVICE &lt;https://integbio.jp/rdf/mirror/alt/uniprot/sparql> {  # ここを proxy 通すとだめなので、直叩き
+    {
+      SELECT DISTINCT ?up {
+        SERVICE &lt;http://db-dev.jpostdb.org/proxy/sparql> {
+          :DS81_1 jpo:hasProtein ?protein .
+          ?protein a obo:MS_1002401 .
+          ?protein jpo:hasDatabaseSequence ?up .
+        }
+      }
+    }
+    ?up uniprot:proteome ?chr .
+  }
+}
+ORDER BY ?chr
+&lt;/pre>
+* ややこしい
+
+== SPARQLthon 66 ==
+* OPTIONAL と DISTINCT を同時に使うと DISTINCT されない
+* 例 [https://is.gd/mmde1g query1]
+&lt;pre>
+### endpoint http://tools.jpostdb.org/proxy/sparql
+DEFINE sql:select-option "order"
+PREFIX rdf: &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs: &lt;http://www.w3.org/2000/01/rdf-schema#>
+PREFIX jpo: &lt;http://rdf.jpostdb.org/ontology/jpost.owl#>
+PREFIX dct: &lt;http://purl.org/dc/terms/>
+PREFIX faldo: &lt;http://biohackathon.org/resource/faldo#>
+PREFIX : &lt;http://rdf.jpostdb.org/entry/>
+SELECT DISTINCT ?modification ?position
+WHERE {
+  :DS201_1 jpo:hasProtein/jpo:hasPeptideEvidence/jpo:hasPeptide/jpo:hasPsm ?psm .
+  ?psm dct:identifier ?psm_id .
+  ?psm jpo:hasModification ?mod_blank .
+  ?mod_blank a ?mod .
+  OPTIONAL { ?mod_blank faldo:location/faldo:position ?position . }
+  FILTER (?mod != jpo:Modification)
+  ?mod rdfs:label ?modification .
+}
+ORDER BY ?modification 
+OFFSET 0
+LIMIT 100
+&lt;/pre>
+* 例 [https://is.gd/oecNFZ query2] の２，３行目 
+&lt;pre>
+### endpoint http://tools.jpostdb.org/proxy/sparql
+DEFINE sql:select-option "order"
+PREFIX rdf: &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs: &lt;http://www.w3.org/2000/01/rdf-schema#>
+PREFIX jpo: &lt;http://rdf.jpostdb.org/ontology/jpost.owl#>
+PREFIX dct: &lt;http://purl.org/dc/terms/>
+PREFIX faldo: &lt;http://biohackathon.org/resource/faldo#>
+PREFIX : &lt;http://rdf.jpostdb.org/entry/>  
+SELECT DISTINCT ?psm_id ?modification ?position
+WHERE {
+  :DS201_1 jpo:hasProtein/jpo:hasPeptideEvidence/jpo:hasPeptide/jpo:hasPsm ?psm .
+  ?psm dct:identifier ?psm_id .
+  ?psm jpo:hasModification ?mod_blank .
+  ?mod_blank a ?mod .
+  OPTIONAL { ?mod_blank faldo:location/faldo:position ?position . }
+  FILTER (?mod != jpo:Modification)
+  ?mod rdfs:label ?modification .
+}
+ORDER BY ?psm_id ?modification 
+OFFSET 0
+LIMIT 100
+&lt;/pre>
+* 上から SELECT で囲とってサブクエリ化すると DISTINCT される
+*例 [https://is.gd/m2my0H query3]
+&lt;pre>
+### endpoint http://tools.jpostdb.org/proxy/sparql
+DEFINE sql:select-option "order"
+PREFIX rdf: &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs: &lt;http://www.w3.org/2000/01/rdf-schema#>
+PREFIX jpo: &lt;http://rdf.jpostdb.org/ontology/jpost.owl#>
+PREFIX dct: &lt;http://purl.org/dc/terms/>
+PREFIX faldo: &lt;http://biohackathon.org/resource/faldo#>
+PREFIX : &lt;http://rdf.jpostdb.org/entry/>
+SELECT DISTINCT ?psm_id ?modification ?position
+WHERE{{
+  
+SELECT DISTINCT ?psm_id ?modification ?position
+WHERE {
+  :DS201_1 jpo:hasProtein/jpo:hasPeptideEvidence/jpo:hasPeptide/jpo:hasPsm ?psm .
+  ?psm dct:identifier ?psm_id .
+  ?psm jpo:hasModification ?mod_blank .
+  ?mod_blank a ?mod .
+  OPTIONAL { ?mod_blank faldo:location/faldo:position ?position . }
+  FILTER (?mod != jpo:Modification)
+  ?mod rdfs:label ?modification .
+}
+
+}}
+ORDER BY ?psm_id ?modification 
+OFFSET 0
+LIMIT 100
+&lt;/pre>
+
+== Missin Protein query==
+* [http://sparql-support.dbcls.jp/?query=%23%23%23+endpoint+http%3A%2F%2Fdb-dev.jpostdb.org%2Fproxy%2Fsparql%0D%0APREFIX+jpo%3A+%3Chttp%3A%2F%2Frdf.jpostdb.org%2Fontology%2Fjpost.owl%23%3E%0D%0APREFIX+uniprot%3A+%3Chttp%3A%2F%2Fpurl.uniprot.org%2Fcore%2F%3E%0D%0APREFIX+next%3A+%3Chttp%3A%2F%2Fnextprot.org%2Frdf%23%3E%0D%0APREFIX+skos%3A+%3Chttp%3A%2F%2Fwww.w3.org%2F2004%2F02%2Fskos%2Fcore%23%3E%0D%0APREFIX+ms%3A+%3Chttp%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FMS_%3E%0D%0APREFIX+%3A+%3Chttp%3A%2F%2Frdf.jpostdb.org%2Fentry%2F%3E%0D%0APREFIX+human_ch%3A+%3Chttp%3A%2F%2Fpurl.uniprot.org%2Fproteomes%2FUP000005640%23Chromosome%2520%3E%0D%0ASELECT+%3Fexist+%3Fch+%28COUNT+%28DISTINCT+%3Fup%29+AS+%3Fcount%29%0D%0AWHERE+%7B%0D%0A++VALUES+%3Fdataset+%7B+%3ADS81_1+%3ADS82_1+%3ADS83_1+%3ADS85_1+%3ADS86_1+%3ADS87_1+%3ADS88_1+%3ADS89_1+%7D%0D%0A++%3Fdataset+jpo%3AhasProtein+%3Fprotein+.%0D%0A++%3Fprotein+a+ms%3A1002401+%3B%0D%0A+++++++++++jpo%3AhasDatabaseSequence+%3Fup+.%0D%0A++%3Fnext+skos%3AexactMatch+%3Fup+%3B%0D%0A++++++++next%3Aexistence+%3Fexist+.%0D%0A++%3Fup+uniprot%3Aproteome+%3Fch+.%0D%0A++FILTER+%28%3Fch+%3D+human_ch%3A3+%7C%7C+%3Fch+%3D+human_ch%3AX%29%0D%0A%7D%0D%0AORDER+BY+%3Fch+%3Fexist http://sparql-support.dbcls.jp/]
+  ### endpoint http://db-dev.jpostdb.org/proxy/sparql
+  PREFIX jpo: &lt;http://rdf.jpostdb.org/ontology/jpost.owl#>
+  PREFIX uniprot: &lt;http://purl.uniprot.org/core/>
+  PREFIX next: &lt;http://nextprot.org/rdf#>
+  PREFIX skos: &lt;http://www.w3.org/2004/02/skos/core#>
+  PREFIX ms: &lt;http://purl.obolibrary.org/obo/MS_>
+  PREFIX : &lt;http://rdf.jpostdb.org/entry/>
+  PREFIX human_ch: &lt;http://purl.uniprot.org/proteomes/UP000005640#Chromosome%20>
+  SELECT ?exist ?ch (COUNT (DISTINCT ?up) AS ?count)
+  WHERE {
+    VALUES ?dataset { :DS81_1 :DS82_1 :DS83_1 :DS85_1 :DS86_1 :DS87_1 :DS88_1 :DS89_1 }
+    ?dataset jpo:hasProtein ?protein .
+    ?protein a ms:1002401 ;
+             jpo:hasDatabaseSequence ?up .
+    ?next skos:exactMatch ?up ;
+          next:existence ?exist .
+    ?up uniprot:proteome ?ch .
+    FILTER (?ch = human_ch:3 || ?ch = human_ch:X)
+  }
+  ORDER BY ?ch ?exist
+
+== SPARQLthon57 ==
+* [http://db-dev.jpostdb.org/ts/stanza/volcano_plot/help.html stanza 作成] タンパク質発現変動、エンリッチメント。iOS NG（守屋）
+** [http://db-dev.jpostdb.org/go.html 表示部分切り出し]　iOS OK
+
+== SPARQLthon53 ==
+* TogoGenome のようなファセット検索を作る
+** TogoGenome を改造するよりはイチから作ったほうが良いかも
+** TogoGenome は検索用のトリプルのグラフを用意している
+* テストデータで3億トリプル
+** ペプチドやPTMの情報は頻度情報にして圧縮可能か？
+*** その場合ペスペクトル毎に出る定量値はどう入れるか
+** ペプチド以下（スペクトル、PTM、定量値など）別に分ける
+** プロテイングループ情報も別にする
+
+* 検索用クエリ http://db-dev.jpostdb.org/2/
+
+  PREFIX jpo: &lt;http://rdf.jpostdb.org/ontology/jpost.owl#>
+  PREFIX ms: &lt;http://purl.obolibrary.org/obo/MS_>
+  PREFIX dct: &lt;http://purl.org/dc/terms/>
+  PREFIX sio: &lt;http://semanticscience.org/resource/SIO_>
+  PREFIX mod: &lt;http://purl.obolibrary.org/obo/MOD_>
+  PREFIX bto: &lt;http://purl.obolibrary.org/obo/BTO_>
+  PREFIX doid: &lt;http://purl.obolibrary.org/obo/DOID_>
+  PREFIX unimod: &lt;http://www.unimod.org/obo/unimod.obo#UNIMOD_>
+  PREFIX tax: &lt;http://identifiers.org/taxonomy/>
+  PREFIX : &lt;http://rdf.jpostdb.org/entry/>
+
+* 各項目の要素の取得クエリ
+** species, tissue, disease, cellType
+
+  SELECT DISTINCT ?object ?label
+  WHERE {
+    ?project a jpo:Project ;
+             jpo:hasDataset/jpo:hasProfile/jpo:hasSample/jpo:項目 ?object .
+    ?object rdfs:seeAlso*/rdfs:label ?label .
+  }
+
+** modification　
+
+  SELECT DISTINCT ?object ?label
+  WHERE {
+    {
+      ?s a jpo:Project ;
+         jpo:modification ?object .
+    }UNION{
+      ?s a jpo:PeptideSpectrumMatch ;
+         jpo:hasModification/rdf:type ?object .
+      FILTER (?object != jpo:Modification)
+    }
+  
+    # PSI MOD
+    FILTER (REGEX (?object, "unimod"))
+    ?object &lt;http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym> ?label .
+    # unimod
+    #FILTER (REGEX (?object, "unimod"))
+    #?object &lt;http://purl.obolibrary.org/obo/IAO_0000115> ?label .
+  }
+
+** instrument, instrumentMode
+
+  SELECT DISTINCT ?object ?label
+  WHERE {
+    ?project a jpo:Project;
+             jpo:hasDataset/jpo:hasProfile/jpo:hasMsMode/jpo:項目 ?object .
+    ?object rdfs:label ?label .
+  }
+
+* AND検索
+**リスト
+
+  SELECT DISTINCT ?object
+  WHERE {
+
+** カウント
+
+  SELECT (COUNT (DISTINCT ?object) AS ?count)
+  WHERE {
+
+
+* keyword
+
+  VALUES ?modification { 要素 }
+  VALUES ?species { 要素 }
+  …
+
+
+* target
+** project
+
+  ?object a jpo:Project ;
+           jpo:hasDataset/jpo:hasProfile ?profile .
+
+
+** dataset
+
+  ?object a jpo:Dataset ;
+             jpo:hasProfile ?profile .
+
+
+** protein
+
+  ?dataset a jpo:Dataset ;
+           jpo:hasProfile ?profile ;
+           jpo:hasProtein ?protein .
+  ?protein a ms:1002401 ;
+  #           jpo:hasPeptideEvidence/jpo:hasPeptide/jpo:hasPsm/jpo:hasModification/rdf:type ?modification ;   # protein の modification filtering用
+           jpo:hasDatabaseSequence ?object .
+
+** peptide
+
+  ?dataset a jpo:Dataset ;
+           jpo:hasProfile ?profile ;
+  #           jpo:hasPeptide/jpo:hasPsm/jpo:hasModification/rdf:type ?modification ;   # peptide の modification filtering用
+           jpo:hasPeptide/rdfs:label ?object .
+
+** disease
+
+  ?dataset a jpo:Dataset ;
+           jpo:hasProfile ?profile .
+  ?profile jpo:hasSample/jpo:disease ?object .
+
+
+** filtering
+
+  ?profile jpo:hasSample/jpo:species ?species .
+  ?profile jpo:hasSample/jpo:tissue ?tissue .
+  ?profile jpo:hasSample/jpo:disease ?disease .
+  ?profile jpo:hasEnzymeAndModification/jpo:variableModification ?modification .  # project, dataset の modificatin filtering 用
+  ?profile jpo:hasMsMode/jpo:instrument ?instrument .
+
+* 例えば、species が Homo sapiensで、modification に phospho を持っているタンパク質リスト 20個 を取得するクエリ
+
+  SELECT DISTINCT ?object
+  WHERE {
+    VALUES ?modification { unimod:21 mod:00042 }
+    VALUES ?species { tax:9606 }
+  
+    ?dataset a jpo:Dataset ;
+             jpo:hasProfile ?profile ;
+             jpo:hasProtein ?protein .
+    ?protein a ms:1002401 ;
+             jpo:hasPeptideEvidence/jpo:hasPeptide/jpo:hasPsm/jpo:hasModification/rdf:type ?modification ; 
+             jpo:hasDatabaseSequence ?object .
+  
+  ?profile jpo:hasSample/jpo:species ?species .
+  }
+  ORDER BY ?object
+  OFFSET 0
+  LIMIT 20
+
+== SPARQLthon47 ==
+* 吉沢、守屋、河野、田中（online 田畑、奥田、石濱）
+
+* 配列DBは UniProt。過去Ver.との対応は UniParc
+** UniProt と UniParc は常に最新にする
+** 再解析は１回だけで、更新しない。UniParc で対応できないリンク切れなどは諦める
+*** UniParc ID (UPI) は消えない、変更されない、履歴が残る
+*** UniParc は配列だけなのデータベースなので UPI ＋ 種の情報でIDをたどる？
+* SliceはStanzaで（Globeも？）
+** ユーザーによるカスタマイズをStanzaの組み換えで対応
+** http://db-dev.jpostdb.org/ts2/stanza/
+** http://db-dev.jpostdb.org/ts/stanza/
+** http://togogenome.org/ , http://togostanza.org/ 参照
+* とりあえずデータを jPOST repository に入らないと進まない
+** PX のデータだと jPOST で設定したメタデータが足りない
+
+== SPARQLthon46 ==
+* 奥田、吉沢、守屋
+*コアデータ
+** MS ベースの同定配列データに関しては BioHackathon で RDF スキーマ設計
+** その他のデータの整理
+{| class="wikitable"
+| # || DB名称 || 件数 || 概要 || PI || データ形式（測定手段の種類）  || 再解析 || サンプルデータ
+|-
+| 1 || ヒト腎臓・尿プロテオームDB || 7,300 || 質量分析計と抗体によるヒト腎臓のネフロン各部および尿の統合プロテオームのデータベース || 山本 || 抗体とMS || 部分的にY？ || 
+|-
+| 2 || 脳脊髄液定量プロテオームDB || 500 || 病態及び健常の脳脊髄液における定量プロテオーム解析データ || 荒木 || 定量(MS(iTRAQ?)) || Y || 
+|-
+| 3 || がん血漿プロテオームDB || 400例 || 膵がん、子宮体がん、大腸癌、腎がん、前立腺がん患者400例、健常者400例を用いたがん血漿プロテオームデータ解析 || 尾野 || 要確認 ||  || 
+|-
+| 4 || ヒト大腸癌プロテオーム,膜プロテオームおよびリン酸化プロテオームDB || 44,000 || ヒト大腸癌検体組織および培養細胞を用いたプロテオーム解析データベース || 朝長 || 要確認 ||  || JPST000201, 203-208, 210
+|-
+| 5 || HeLa細胞におけるパスウェイ構成タンパク質絶対量DB || 1,700 || ヒト子宮頸癌由来HeLa細胞におけるシグナル伝達や代謝経路を構成するタンパク質のMRM法による絶対量データ || 松本 || 定量(MS(SRM)) || N || 代わりの線維芽細胞,不死化,癌化した MRM データ TIG3-WT, TS, TSM, TSR の MRM データは 57-74 あたり
+|-
+| 6 || ヒト各種ヒト細胞におけるコア代謝酵素の絶対量DB || 1,080 || ヒト由来の正常細胞および癌細胞中（10種類）の中心代謝酵素(108種類)のMRMによる絶対量データ || 松本 || 定量(MS(SRM)) || N ||
+|-
+| 7 || ヒト全タンパク質MS/MSスペクトルライブラリ || 155,875 || 組換タンパク質リソースを用いて作製した標識ペプチドのMS/MSスペクトル(16,000以上) || 松本 || スペクトルの生データのみ。既知配列のスペクトル || N || 
+|-
+| 8 || 各種刺激依存的リン酸化定量プロテオームDB || 24,866 || ヒトおよびマウス細胞における各種刺激依存的リン酸化定量プロファイル（iTRAQ法）|| 松本 || 定量(MS(iTRAQ)) || Y || JPST000144
+|-
+| 9 || 植物リン酸化プロテオームDB || 約38,000 || シロイヌナズナ、イネ、ゼニゴケなどの植物におけるリン酸化プロテオームの変動解析。世界最大 || 中神 || 定量、時間変動(MS) || Y || 生データ無いかもしれない
+|-
+| 10 || 植物プロテオームDB || 約9,400 || シロイヌナズナ、イネなどの植物におけるプロテオームの変動解析 || 中神 || 定量、時間変動(MS) || Y || 
+|-
+| 11 || ヒトリン酸化プロテオームDB || 118,592サイト || ヒト由来培養細胞、臨床組織（ガン、正常）、薬剤処理試料など || 石濱 || おそらく同定配列(MS)？ || Y || 
+|-
+| 12 || バクテリアリン酸化プロテオーム DB || 3,789 || 大腸菌、枯草菌、緑膿菌など || 石濱 || 同定配列(MS) || Y || 
+|-
+| 13 || ヒトiPS細胞プロテオーム DB || 9,500 || ヒトiPS細胞および線維芽細胞のプロテオームプロファイルデータベース || 石濱 || 同定配列(MS) || Y || [https://repository.jpostdb.org/entry/JPST000052 JPST000052], [https://repository.jpostdb.org/entry/JPST000081 81], [https://repository.jpostdb.org/entry/JPST000082 82], [https://repository.jpostdb.org/entry/JPST000083 83], [https://repository.jpostdb.org/entry/JPST000085 85], [https://repository.jpostdb.org/entry/JPST000086 86]
+|-
+| 14 || ヒトキナーゼ‐基質 DB || 約150,000対 || ヒトキナーゼ354種とそのin vitro基質の関係についてのデータベース || 石濱 || IDの対応リスト || N || 
+|-
+| 15 || ヒトGlioma抗がん剤感受性/非感受性組織 融合プロテオームDB || 27,415 || iPEACH解析(DNAアレイデータとプロテオーム全解析データの融合)によるヒトGlioma 抗がん剤感受性/非感受性組織定量的発現プロテオーム解析 || 荒木 || 定量(MS(iTRAQ?), array) || 部分的にY || 
+|-
+| 16 || ラット肝臓毒性融合プロテオームDB || 23,162 || iPEACH解析を用いた肝臓毒性による変動プロテオーム融合解析データ || 荒木 || 定量、時間変動(MS, 2D-DIGE, Array) || 部分的にY || 
+|-
+| 17 || イモリ精巣分化特異的プロテオーム || 70 || イモリ精巣分化において変動する分子の発現プロテオームデータ解析 || 荒木 || 定量(MS(iTRAQ?))、時間変動(MS) || Y || 
+|-
+| 18 || ヒト肝臓ミクロソームプロテオーム解析SWATH/MRM || 6,000 || ヒト肝臓、腎臓、小腸（薬物動態肝連臓器）ミクロソームプロテオーム解析　SWATH/MRM || 荒木 || 同定配列(MS) || Y || 
+|-
+| 19 || ラット神経系幹細胞PC12の分化特異的融合プロテオーム解析DB || 10,914 || ラット神経系幹細胞PC12の正常分化とNF1遺伝子欠損モデルの分化異常に伴う変動タンパク質のiPEACH解析による融合データ|| 荒木 || 定量、時間変動(MS, 2D-DIGE, Array) || 部分的にY || JPST000067
+|-
+| 20 || ヒト正常二倍体線維芽細胞の二次元電気泳動解析データ || 500 || 細胞老化に伴う蛋白質発現レベルの変化を定量解析した二次元電気泳動データベース || 戸田 || 同定配列(2D-DIGE)  || DIGEな部分はN || 
+|}
+
+*HPP（neXtProt）の[http://c-hpp.webhosting.rug.nl/tiki-index.php?page=Missing+proteins ヒト missing protein リスト]
+** missing protein が石濱先生の iPS 細胞（と言うか線維芽細胞）のデータで多く同定されていることの確認
+*** [ftp://ftp.nextprot.org/pub/current_release/rdf/ttl/ neXtProt ttl]
+**** データ型の無いリテラルと xsd:string のマッチには STRDT(?str, xsd:string) が使える
+***** でも遅いので Xref 作って入れた
+*** http://db-dev.jpostdb.org/
+*** 10 のテストサンプルで 454 / 3179 タンパク質
+
+  PREFIX : &lt;http://rdf.jpostdb.org/>
+  PREFIX jpo: &lt;http://rdf.jpostdb.org/ontology/jpost.owl#>
+  PREFIX rdfs: &lt;http://www.w3.org/2000/01/rdf-schema#>
+  PREFIX ipi: &lt;http://identifiers.org/ipi/>
+  PREFIX obo: &lt;http://purl.obolibrary.org/obo/>
+  PREFIX nex: &lt;http://nextprot.org/rdf#> 
+  PREFIX nextprot: &lt;http://nextprot.org/rdf/entry/>
+  PREFIX dct: &lt;http://purl.org/dc/terms/>
+  
+  SELECT DISTINCT ?project ?title ?ipi ?nex ?chromosome ?evidence COUNT(?psm) AS ?psm_num
+  WHERE {
+    ?project jpo:hasRawData ?raw ;
+             dct:title ?title .
+    ?raw jpo:hasSpectrum/jpo:hasPeptide/^jpo:identifiedFrom ?protein .
+    ?protein a obo:MS_1001591 ;
+             jpo:identifiedFrom ?psm;
+             jpo:hasDBSequence ?ipi .
+    ?nex rdfs:seeAlso ?ipi ;
+           a nex:Entry ;
+           nex:existence ?evidence .
+    FILTER(?evidence != nex:Evidence_at_protein_level)
+    ?nex nex:gene ?gene .
+    ?gene a nex:Gene ;
+          nex:chromosome ?chromosome . 
+  }
+  ORDER BY ?project ?chromosome
+
+* JHUPO 2016年大会 の準備
+* リポジトリ論文の打ち合わせ
+
+== 検討課題 ==
+* データベース案出し
+** https://docs.google.com/document/d/16EjhKUnTgXsdIAAftsYoJ-AHSzi0lJ9xNX3EL7JzdTM/edit?usp=sharing</textarea><div class='templatesUsed'>
+
+</div>
+<p id="mw-returnto"><a href="/mw/TPP-ishihama" title="TPP-ishihama">TPP-ishihama</a>に戻る。</p>
+<div class="printfooter">
+「<a href="http://wiki.lifesciencedb.jp/mw/TPP-ishihama">http://wiki.lifesciencedb.jp/mw/TPP-ishihama</a>」より作成</div>
+		<div id='catlinks' class='catlinks catlinks-allhidden'></div>		<!-- end content -->
+				<div class="visualClear"></div>
+	</div>
+</div></div>
+<div id="column-one">
+	<div id="p-cactions" class="portlet">
+		<h5>表示</h5>
+		<div class="pBody">
+			<ul>
+				 <li id="ca-nstab-main" class="selected"><a href="/mw/TPP-ishihama" title="本文を表示 [c]" accesskey="c">ページ</a></li>
+				 <li id="ca-talk" class="new"><a href="/mw/index.php?title=%E3%83%8E%E3%83%BC%E3%83%88:TPP-ishihama&amp;action=edit&amp;redlink=1" title="記事についての議論 [t]" accesskey="t">議論</a></li>
+				 <li id="ca-viewsource" class="selected"><a href="/mw/index.php?title=TPP-ishihama&amp;action=edit" title="このページは保護されています。&#10;ページのソースを閲覧できます。 [e]" accesskey="e">ソースを表示</a></li>
+				 <li id="ca-history"><a href="/mw/index.php?title=TPP-ishihama&amp;action=history" title="このページの過去の版 [h]" accesskey="h">履歴</a></li>
+			</ul>
+		</div>
+	</div>
+	<div class="portlet" id="p-personal">
+		<h5>個人用ツール</h5>
+		<div class="pBody">
+			<ul>
+				<li id="pt-anonuserpage"><a href="/mw/%E5%88%A9%E7%94%A8%E8%80%85:172.18.8.51" title="自分が編集しているIPアドレスの利用者ページ [.]" accesskey="." class="new">172.18.8.51</a></li>
+				<li id="pt-anontalk"><a href="/mw/%E5%88%A9%E7%94%A8%E8%80%85%E2%80%90%E4%BC%9A%E8%A9%B1:172.18.8.51" title="このIPアドレスからなされた編集についての議論 [n]" accesskey="n" class="new">このIPアドレスのトーク</a></li>
+				<li id="pt-anonlogin"><a href="/mw/index.php?title=%E7%89%B9%E5%88%A5:%E3%83%AD%E3%82%B0%E3%82%A4%E3%83%B3&amp;returnto=TPP-ishihama&amp;returntoquery=action%3Dedit" title="ログインすることが推奨されます。ただし、必須ではありません。 [o]" accesskey="o">ログイン</a></li>
+				<li id="pt-openidlogin"><a href="/mw/index.php?title=%E7%89%B9%E5%88%A5:OpenID%E3%83%AD%E3%82%B0%E3%82%A4%E3%83%B3&amp;returnto=TPP-ishihama">OpenIDでログイン</a></li>
+			</ul>
+		</div>
+	</div>
+	<div class="portlet" id="p-logo">
+		<a style="background-image: url(/mw/images/togowiki-logo.png);" href="/mw/%E3%83%A1%E3%82%A4%E3%83%B3%E3%83%9A%E3%83%BC%E3%82%B8" title="メインページに移動"></a>
+	</div>
+	<script type="text/javascript"> if (window.isMSIE55) fixalpha(); </script>
+	<div class='generated-sidebar portlet' id='p-navigation'>
+		<h5>案内</h5>
+		<div class='pBody'>
+			<ul>
+				<li id="n-mainpage-description"><a href="/mw/%E3%83%A1%E3%82%A4%E3%83%B3%E3%83%9A%E3%83%BC%E3%82%B8" title="メインページに移動する [z]" accesskey="z">メインページ</a></li>
+				<li id="n-portal"><a href="/mw/TogoWiki:%E3%82%B3%E3%83%9F%E3%83%A5%E3%83%8B%E3%83%86%E3%82%A3%E3%83%BB%E3%83%9D%E3%83%BC%E3%82%BF%E3%83%AB" title="このプロジェクトについて、できること、情報を入手する場所">コミュニティ・ポータル</a></li>
+				<li id="n-currentevents"><a href="/mw/TogoWiki:%E6%9C%80%E8%BF%91%E3%81%AE%E5%87%BA%E6%9D%A5%E4%BA%8B" title="最近の出来事について予備知識を得る">最近の出来事</a></li>
+				<li id="n-recentchanges"><a href="/mw/%E7%89%B9%E5%88%A5:%E6%9C%80%E8%BF%91%E3%81%AE%E6%9B%B4%E6%96%B0" title="ウィキにおける最近の更新の一覧 [r]" accesskey="r">最近の更新</a></li>
+				<li id="n-randompage"><a href="/mw/%E7%89%B9%E5%88%A5:%E3%81%8A%E3%81%BE%E3%81%8B%E3%81%9B%E8%A1%A8%E7%A4%BA" title="無作為に抽出されたページの読み込み [x]" accesskey="x">おまかせ表示</a></li>
+				<li id="n-help"><a href="/mw/Help:%E7%9B%AE%E6%AC%A1" title="情報を得る場所">ヘルプ</a></li>
+			</ul>
+		</div>
+	</div>
+	<div id="p-search" class="portlet">
+		<h5><label for="searchInput">検索</label></h5>
+		<div id="searchBody" class="pBody">
+			<form action="/mw/index.php" id="searchform">
+				<input type='hidden' name="title" value="特別:検索"/>
+				<input id="searchInput" title="TogoWiki内を検索" accesskey="f" type="search" name="search" />
+				<input type='submit' name="go" class="searchButton" id="searchGoButton"	value="表示" title="厳密に一致する名前のページが存在すれば、そのページへ移動します" />&nbsp;
+				<input type='submit' name="fulltext" class="searchButton" id="mw-searchButton" value="検索" title="入力された文字列が含まれるページを検索します" />
+			</form>
+		</div>
+	</div>
+	<div class="portlet" id="p-tb">
+		<h5>ツールボックス</h5>
+		<div class="pBody">
+			<ul>
+				<li id="t-whatlinkshere"><a href="/mw/%E7%89%B9%E5%88%A5:%E3%83%AA%E3%83%B3%E3%82%AF%E5%85%83/TPP-ishihama" title="ここにリンクしている全ウィキのページの一覧 [j]" accesskey="j">リンク元</a></li>
+				<li id="t-recentchangeslinked"><a href="/mw/%E7%89%B9%E5%88%A5:%E9%96%A2%E9%80%A3%E3%83%9A%E3%83%BC%E3%82%B8%E3%81%AE%E6%9B%B4%E6%96%B0%E7%8A%B6%E6%B3%81/TPP-ishihama" title="このページからリンクしているページの最近の更新 [k]" accesskey="k">関連ページの更新状況</a></li>
+<li id="t-specialpages"><a href="/mw/%E7%89%B9%E5%88%A5:%E7%89%B9%E5%88%A5%E3%83%9A%E3%83%BC%E3%82%B8%E4%B8%80%E8%A6%A7" title="特別ページの一覧 [q]" accesskey="q">特別ページ</a></li>
+			</ul>
+		</div>
+	</div>
+</div><!-- end of the left (by default at least) column -->
+<div class="visualClear"></div>
+<div id="footer">
+	<div id="f-poweredbyico"><a href="http://www.mediawiki.org/"><img src="/mw/skins/common/images/poweredby_mediawiki_88x31.png" height="31" width="88" alt="Powered by MediaWiki" /></a></div>
+	<div id="f-copyrightico"><a href="http://creativecommons.org/licenses/by/3.0/"><img src="http://i.creativecommons.org/l/by/3.0/88x31.png" alt="Attribution 3.0 Unported" width="88" height="31" /></a></div>
+	<ul id="f-list">
+		<li id="privacy"><a href="/mw/TogoWiki:%E3%83%97%E3%83%A9%E3%82%A4%E3%83%90%E3%82%B7%E3%83%BC%E3%83%BB%E3%83%9D%E3%83%AA%E3%82%B7%E3%83%BC" title="TogoWiki:プライバシー・ポリシー">プライバシー・ポリシー</a></li>
+		<li id="about"><a href="/mw/TogoWiki:TogoWiki%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6" title="TogoWiki:TogoWikiについて">TogoWikiについて</a></li>
+		<li id="disclaimer"><a href="/mw/TogoWiki:%E5%85%8D%E8%B2%AC%E4%BA%8B%E9%A0%85" title="TogoWiki:免責事項">免責事項</a></li>
+	</ul>
+</div>
+</div>
+
+<script>if (window.runOnloadHook) runOnloadHook();</script>
+<!-- Served in 0.332 secs. --></body></html>

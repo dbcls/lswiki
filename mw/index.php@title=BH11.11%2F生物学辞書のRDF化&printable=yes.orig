@@ -1,0 +1,665 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html lang="ja" dir="ltr">
+<head>
+<title>BH11.11/生物学辞書のRDF化 - TogoWiki</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta name="generator" content="MediaWiki 1.16.3" />
+<meta name="robots" content="noindex,follow" />
+<link rel="shortcut icon" href="/favicon.ico" />
+<link rel="search" type="application/opensearchdescription+xml" href="/mw/opensearch_desc.php" title="TogoWiki (ja)" />
+<link title="Creative Commons" type="application/rdf+xml" href="/mw/index.php?title=BH11.11/%E7%94%9F%E7%89%A9%E5%AD%A6%E8%BE%9E%E6%9B%B8%E3%81%AERDF%E5%8C%96&amp;action=creativecommons" rel="meta" />
+<link rel="copyright" href="http://creativecommons.org/licenses/by/3.0/" />
+<link rel="alternate" type="application/atom+xml" title="TogoWikiのAtomフィード" href="/mw/index.php?title=%E7%89%B9%E5%88%A5:%E6%9C%80%E8%BF%91%E3%81%AE%E6%9B%B4%E6%96%B0&amp;feed=atom" />
+<link rel="stylesheet" href="/mw/skins/common/commonPrint.css?270" media="" />
+<link rel="stylesheet" href="/mw/index.php?title=MediaWiki:Common.css&amp;usemsgcache=yes&amp;ctype=text%2Fcss&amp;smaxage=18000&amp;action=raw&amp;maxage=18000" />
+<link rel="stylesheet" href="/mw/index.php?title=MediaWiki:Print.css&amp;usemsgcache=yes&amp;ctype=text%2Fcss&amp;smaxage=18000&amp;action=raw&amp;maxage=18000" media="" />
+<link rel="stylesheet" href="/mw/index.php?title=MediaWiki:Monobook.css&amp;usemsgcache=yes&amp;ctype=text%2Fcss&amp;smaxage=18000&amp;action=raw&amp;maxage=18000" />
+<link rel="stylesheet" href="/mw/index.php?title=-&amp;action=raw&amp;maxage=18000&amp;gen=css" />
+<script>
+var skin="monobook",
+stylepath="/mw/skins",
+wgUrlProtocols="http\\:\\/\\/|https\\:\\/\\/|ftp\\:\\/\\/|irc\\:\\/\\/|gopher\\:\\/\\/|telnet\\:\\/\\/|nntp\\:\\/\\/|worldwind\\:\\/\\/|mailto\\:|news\\:|svn\\:\\/\\/",
+wgArticlePath="/mw/$1",
+wgScriptPath="/mw",
+wgScriptExtension=".php",
+wgScript="/mw/index.php",
+wgVariantArticlePath=false,
+wgActionPaths={},
+wgServer="http://wiki.lifesciencedb.jp",
+wgCanonicalNamespace="",
+wgCanonicalSpecialPageName=false,
+wgNamespaceNumber=0,
+wgPageName="BH11.11/生物学辞書のRDF化",
+wgTitle="BH11.11/生物学辞書のRDF化",
+wgAction="view",
+wgArticleId=95,
+wgIsArticle=true,
+wgUserName=null,
+wgUserGroups=null,
+wgUserLanguage="ja",
+wgContentLanguage="ja",
+wgBreakFrames=false,
+wgCurRevisionId=1924,
+wgVersion="1.16.3",
+wgEnableAPI=true,
+wgEnableWriteAPI=true,
+wgSeparatorTransformTable=["", ""],
+wgDigitTransformTable=["", ""],
+wgMainPageTitle="メインページ",
+wgFormattedNamespaces={"-2": "メディア", "-1": "特別", "0": "", "1": "ノート", "2": "利用者", "3": "利用者‐会話", "4": "TogoWiki", "5": "TogoWiki‐ノート", "6": "ファイル", "7": "ファイル‐ノート", "8": "MediaWiki", "9": "MediaWiki‐ノート", "10": "Template", "11": "Template‐ノート", "12": "Help", "13": "Help‐ノート", "14": "Category", "15": "Category‐ノート"},
+wgNamespaceIds={"メディア": -2, "特別": -1, "": 0, "ノート": 1, "利用者": 2, "利用者‐会話": 3, "togowiki": 4, "togowiki‐ノート": 5, "ファイル": 6, "ファイル‐ノート": 7, "mediawiki": 8, "mediawiki‐ノート": 9, "template": 10, "template‐ノート": 11, "help": 12, "help‐ノート": 13, "category": 14, "category‐ノート": 15, "画像": 6, "画像‐ノート": 7, "image": 6, "image_talk": 7},
+wgSiteName="TogoWiki",
+wgCategories=[],
+wgRestrictionEdit=[],
+wgRestrictionMove=[];
+</script><script src="/mw/skins/common/wikibits.js?270"></script>
+<script src="/mw/skins/common/ajax.js?270"></script>
+<script src="/mw/index.php?title=-&amp;action=raw&amp;gen=js&amp;useskin=monobook&amp;270"></script>
+
+		<style type='text/css'>
+		li#pt-openidlogin {
+		  background: url(/mw/extensions/OpenID/skin/icons/openid-inputicon.png) top left no-repeat;
+		  padding-left: 20px;
+		  text-transform: none;
+		}
+		</style>
+</head>
+<body class="mediawiki ltr ns-0 ns-subject page-BH11_11_生物学辞書のRDF化 skin-monobook">
+<div id="globalWrapper">
+<div id="column-content"><div id="content" >
+	<a id="top"></a>
+	
+	<h1 id="firstHeading" class="firstHeading">BH11.11/生物学辞書のRDF化</h1>
+	<div id="bodyContent">
+		<h3 id="siteSub">提供：TogoWiki</h3>
+		<div id="contentSub"></div>
+		<div id="jump-to-nav">移動： <a href="#column-one">案内</a>, <a href="#searchInput">検索</a></div>
+		<!-- start content -->
+<p><a href="http://lifesciencedb.jp/bdls/" class="external text" rel="nofollow">DBCLSの生物学辞書</a> をRDF化する．
+</p>
+<table id="toc" class="toc"><tr><td><div id="toctitle"><h2>目次</h2></div>
+<ul>
+<li class="toclevel-1 tocsection-1"><a href="#.E3.83.87.E3.83.BC.E3.82.BF.E3.81.AB.E3.81.A4.E3.81.84.E3.81.A6"><span class="tocnumber">1</span> <span class="toctext">データについて</span></a>
+<ul>
+<li class="toclevel-2 tocsection-2"><a href="#.E5.85.83.E3.83.87.E3.83.BC.E3.82.BF.E5.BD.A2.E5.BC.8F"><span class="tocnumber">1.1</span> <span class="toctext">元データ形式</span></a></li>
+<li class="toclevel-2 tocsection-3"><a href="#RDF.E5.A4.89.E6.8F.9B"><span class="tocnumber">1.2</span> <span class="toctext">RDF変換</span></a></li>
+<li class="toclevel-2 tocsection-4"><a href="#.E3.83.87.E3.83.BC.E3.82.BF.E3.83.A2.E3.83.87.E3.83.AB"><span class="tocnumber">1.3</span> <span class="toctext">データモデル</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-5"><a href="#URI.E8.A8.AD.E8.A8.88"><span class="tocnumber">2</span> <span class="toctext">URI設計</span></a>
+<ul>
+<li class="toclevel-2 tocsection-6"><a href="#S.2FO.E3.81.AEURI"><span class="tocnumber">2.1</span> <span class="toctext">S/OのURI</span></a></li>
+<li class="toclevel-2 tocsection-7"><a href="#Graph_URI"><span class="tocnumber">2.2</span> <span class="toctext">Graph URI</span></a></li>
+<li class="toclevel-2 tocsection-8"><a href="#.E7.94.B1.E6.9D.A5.E3.81.AE.E8.A8.98.E8.BF.B0"><span class="tocnumber">2.3</span> <span class="toctext">由来の記述</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-9"><a href="#TriX.E3.81.AE.E4.BE.8B"><span class="tocnumber">3</span> <span class="toctext">TriXの例</span></a></li>
+<li class="toclevel-1 tocsection-10"><a href="#.E3.83.A6.E3.83.BC.E3.82.B9.E3.82.B1.E3.83.BC.E3.82.B9"><span class="tocnumber">4</span> <span class="toctext">ユースケース</span></a></li>
+<li class="toclevel-1 tocsection-11"><a href="#.E8.9D.B6.E3.83.87.E3.83.BC.E3.82.BF.E3.81.8B.E3.82.89.E3.81.AE.E3.83.AA.E3.83.B3.E3.82.AF"><span class="tocnumber">5</span> <span class="toctext">蝶データからのリンク</span></a></li>
+<li class="toclevel-1 tocsection-12"><a href="#TODO"><span class="tocnumber">6</span> <span class="toctext">TODO</span></a></li>
+<li class="toclevel-1 tocsection-13"><a href="#.E3.83.A1.E3.83.B3.E3.83.90.E3.83.BC"><span class="tocnumber">7</span> <span class="toctext">メンバー</span></a></li>
+<li class="toclevel-1 tocsection-14"><a href="#.28.E5.88.A5.E3.83.97.E3.83.AD.E3.82.B8.E3.82.A7.E3.82.AF.E3.83.88.E3.83.87.E3.83.BC.E3.82.BF.29_.E5.8D.97.E6.A5.B5.E3.81.AE.E8.8B.94.E3.83.87.E3.83.BC.E3.82.BF"><span class="tocnumber">8</span> <span class="toctext">(別プロジェクトデータ) 南極の苔データ</span></a>
+<ul>
+<li class="toclevel-2 tocsection-15"><a href="#.E5.86.99.E7.9C.9F"><span class="tocnumber">8.1</span> <span class="toctext">写真</span></a></li>
+<li class="toclevel-2 tocsection-16"><a href="#.E3.83.87.E3.83.BC.E3.82.BF"><span class="tocnumber">8.2</span> <span class="toctext">データ</span></a></li>
+</ul>
+</li>
+</ul>
+</td></tr></table><script>if (window.showTocToggle) { var tocShowText = "表示"; var tocHideText = "非表示"; showTocToggle(); } </script>
+<h2> <span class="mw-headline" id=".E3.83.87.E3.83.BC.E3.82.BF.E3.81.AB.E3.81.A4.E3.81.84.E3.81.A6"> データについて </span></h2>
+<p>ファイルは以下の二つ(+一つ)．
+</p>
+<ul><li> japanese_species_names.utf8.txt (種名)
+</li><li> japanese_scientific_terms.utf8.txt (科学用語)
+</li><li> sci_terms.txt (NIIオンライン用語)
+</li></ul>
+<h3> <span class="mw-headline" id=".E5.85.83.E3.83.87.E3.83.BC.E3.82.BF.E5.BD.A2.E5.BC.8F"> 元データ形式 </span></h3>
+<pre>   @…@ is @…@ for @…@ in 典拠1 典拠2 version バージョン名
+       O            P             S
+</pre>
+<h3> <span class="mw-headline" id="RDF.E5.A4.89.E6.8F.9B"> RDF変換 </span></h3>
+<p>合計トリプル数: 4,070,297 (2011/11/24)
+変換時間: species_names (12時間), scientific_terms(1時間)
+ファイルサイズ: 1GBくらい species_names (TriX 850MB程度), scientific_terms (TriX 108MB)
+</p><p>predicate のマッピング =&gt; <a href="https://docs.google.com/spreadsheet/ccc?key=0AntCXcaeHrbYdEJaU2FWQWdwWEZLLUo5eUJ2X2tzZHc&amp;hl=ja#gid=1" class="external text" rel="nofollow">Google Spreadsheet</a>
+</p><p>scientific_termsはリンクを大分整理したのでトリプル数減るはず．
+</p>
+<h3> <span class="mw-headline" id=".E3.83.87.E3.83.BC.E3.82.BF.E3.83.A2.E3.83.87.E3.83.AB"> データモデル </span></h3>
+<p>3つ組の由来が何であるかが重要なので，Named Graphで記述するようにする．
+</p>
+<pre>   S P O G .
+   G 由来 典拠2 .
+   典拠2 version バージョン名
+            データ提供/出版社? 典拠1 .
+</pre>
+<p>学名-和名間 / 和名-和名間 =&gt; skos:closeMatch&nbsp;?
+</p><p><a href="/mw/%E3%83%95%E3%82%A1%E3%82%A4%E3%83%AB:Bdls.png" class="image"><img alt="Bdls.png" src="/mw/images/9/97/Bdls.png" width="571" height="600" /></a>
+</p><p>学術用語は日本語の異義語関係が重要らしい．
+</p><p><a href="/mw/%E3%83%95%E3%82%A1%E3%82%A4%E3%83%AB:Bdls_term.png" class="image"><img alt="Bdls term.png" src="/mw/images/9/9e/Bdls_term.png" width="411" height="263" /></a>
+</p>
+<h2> <span class="mw-headline" id="URI.E8.A8.AD.E8.A8.88"> URI設計 </span></h2>
+<ul><li> Graph/Source URIの振り方を工夫すべき (MySQL?)
+</li></ul>
+<h3> <span class="mw-headline" id="S.2FO.E3.81.AEURI"> S/OのURI </span></h3>
+<pre> 学名については <a href="http://lod.ac/bdls/学名" class="external free" rel="nofollow">http://lod.ac/bdls/学名</a> でやってみる．学名のスペースは_に
+ 用語のほうはそのまま使うと記号で苦労しそう．
+ &lt;= 学名も用語も独自でID振ったほうがよいかも
+</pre>
+<p>科学用語と生物種のBASE_URIは分ける
+</p>
+<ul><li> 科学用語: <a href="http://lod.ac/bdls/term/xxxx" class="external free" rel="nofollow">http://lod.ac/bdls/term/xxxx</a>
+</li><li> 生物種: <a href="http://lod.ac/bdls/species/xxxx" class="external free" rel="nofollow">http://lod.ac/bdls/species/xxxx</a>
+</li></ul>
+<p>科学用語の中に，科についての情報は入っている =&gt; 生物種のほうとskos:exactMatch辺りで結んであげるべき?
+</p><p><br />
+</p>
+<h3> <span class="mw-headline" id="Graph_URI"> Graph URI </span></h3>
+<pre> 典拠1+典拠2+バージョンの組み合わせでシリアル
+</pre>
+<p><br />
+</p>
+<h3> <span class="mw-headline" id=".E7.94.B1.E6.9D.A5.E3.81.AE.E8.A8.98.E8.BF.B0"> 由来の記述 </span></h3>
+<p>provenance 関係のontologyが参考になるかもしれない．ヘビーという意見もある．
+</p>
+<ul><li> <a href="http://code.google.com/p/pav-ontology/" class="external text" rel="nofollow">pav-ontology - PAV 2.0 - Provenance Authoring and Versioning ontology - Google Project Hosting</a>  
+</li><li> <a href="http://www.w3.org/TR/prov-dm/" class="external text" rel="nofollow">The PROV Data Model and Abstract Syntax Notation</a>
+</li></ul>
+<h2> <span class="mw-headline" id="TriX.E3.81.AE.E4.BE.8B"> TriXの例 </span></h2>
+<p>とりあえずgraph uri含めて表現できるのでTriXでやっている．
+RDF.rbのnquadsは\u escape sequenceになる．
+turtleベースのTriGのほうが好みだけどRDF.rbにライブラリがない． &lt;= 作るべき
+</p>
+<pre>    &lt;graph&gt;
+      &lt;triple&gt;
+        &lt;uri&gt;<a href="http://lod.ac/bdls/graph/17" class="external free" rel="nofollow">http://lod.ac/bdls/graph/17</a>&lt;/uri&gt;
+        &lt;uri&gt;<a href="http://purl.org/dc/terms/source" class="external free" rel="nofollow">http://purl.org/dc/terms/source</a>&lt;/uri&gt;
+        &lt;uri&gt;<a href="http://lod.ac/bdls/source/17" class="external free" rel="nofollow">http://lod.ac/bdls/source/17</a>&lt;/uri&gt;
+      &lt;/triple&gt;
+      &lt;triple&gt;
+        &lt;uri&gt;<a href="http://lod.ac/bdls/source/17" class="external free" rel="nofollow">http://lod.ac/bdls/source/17</a>&lt;/uri&gt;
+        &lt;uri&gt;<a href="http://www.w3.org/2000/01/rdf-schema#label" class="external free" rel="nofollow">http://www.w3.org/2000/01/rdf-schema#label</a>&lt;/uri&gt;
+        &lt;plainLiteral xml:lang="ja"&gt;日本産 魚類検索 全種の同定 第二版&lt;/plainLiteral&gt;
+      &lt;/triple&gt;
+      &lt;triple&gt;
+        &lt;uri&gt;<a href="http://lod.ac/bdls/source/17" class="external free" rel="nofollow">http://lod.ac/bdls/source/17</a>&lt;/uri&gt;
+        &lt;uri&gt;<a href="http://ndl.go.jp/dcndl/terms/edition" class="external free" rel="nofollow">http://ndl.go.jp/dcndl/terms/edition</a>&lt;/uri&gt;
+        &lt;plainLiteral xml:lang="ja"&gt;version @2000 年 12 月 20 日 第 1 版第 1 刷@&lt;/plainLiteral&gt;
+      &lt;/triple&gt;
+    &lt;/graph&gt;
+    &lt;graph&gt;
+       &lt;uri&gt;<a href="http://lod.ac/bdls/graph/17" class="external free" rel="nofollow">http://lod.ac/bdls/graph/17</a>&lt;/uri&gt;
+       &lt;triple&gt;
+         &lt;uri&gt;<a href="http://lod.ac/bdls/Abalistes_stellaris" class="external free" rel="nofollow">http://lod.ac/bdls/Abalistes_stellaris</a>&lt;/uri&gt;
+         &lt;uri&gt;<a href="http://lod.ac/ns/species#scientificName" class="external free" rel="nofollow">http://lod.ac/ns/species#scientificName</a>&lt;/uri&gt;
+         &lt;plainLiteral&gt;Abalistes stellaris&lt;/plainLiteral&gt;
+       &lt;/triple&gt;
+       &lt;triple&gt;
+         &lt;uri&gt;<a href="http://lod.ac/bdls/Abalistes_stellaris" class="external free" rel="nofollow">http://lod.ac/bdls/Abalistes_stellaris</a>&lt;/uri&gt;
+         &lt;uri&gt;<a href="http://lod.ac/ns/species#inGenus" class="external free" rel="nofollow">http://lod.ac/ns/species#inGenus</a>&lt;/uri&gt;
+         &lt;uri&gt;<a href="http://lod.ac/bdls/(オキハギ属)" class="external free" rel="nofollow">http://lod.ac/bdls/(オキハギ属)</a>&lt;/uri&gt;
+       &lt;/triple&gt;
+       &lt;triple&gt;
+         &lt;uri&gt;<a href="http://lod.ac/bdls/Abalistes_stellaris" class="external free" rel="nofollow">http://lod.ac/bdls/Abalistes_stellaris</a>&lt;/uri&gt;
+         &lt;uri&gt;<a href="http://lod.ac/ns/species#commonName" class="external free" rel="nofollow">http://lod.ac/ns/species#commonName</a>&lt;/uri&gt;
+         &lt;plainLiteral xml:lang="ja"&gt;オキハギ&lt;/plainLiteral&gt;
+       &lt;/triple&gt;
+       &lt;triple&gt;
+         &lt;uri&gt;<a href="http://lod.ac/bdls/Abalistes_stellaris" class="external free" rel="nofollow">http://lod.ac/bdls/Abalistes_stellaris</a>&lt;/uri&gt;
+         &lt;uri&gt;<a href="http://lod.ac/ns/species#authority" class="external free" rel="nofollow">http://lod.ac/ns/species#authority</a>&lt;/uri&gt;
+         &lt;plainLiteral&gt;(Bloch and Schneider)&lt;/plainLiteral&gt;
+       &lt;/triple&gt;
+       &lt;triple&gt;
+         &lt;uri&gt;<a href="http://lod.ac/bdls/(オキハギ属)" class="external free" rel="nofollow">http://lod.ac/bdls/(オキハギ属)</a>&lt;/uri&gt;
+         &lt;uri&gt;<a href="http://www.w3.org/2000/01/rdf-schema#label" class="external free" rel="nofollow">http://www.w3.org/2000/01/rdf-schema#label</a>&lt;/uri&gt;
+         &lt;plainLiteral xml:lang="en"&gt;(オキハギ属)&lt;/plainLiteral&gt;
+       &lt;/triple&gt;
+     &lt;/graph&gt;
+</pre>
+<h2> <span class="mw-headline" id=".E3.83.A6.E3.83.BC.E3.82.B9.E3.82.B1.E3.83.BC.E3.82.B9"> ユースケース </span></h2>
+<ul><li>生物名辞書から和名“アミシダ”に対応する学名を探す<a href="/mw/%E3%83%95%E3%82%A1%E3%82%A4%E3%83%AB:%E8%BE%9E%E6%9B%B8%E3%81%AERDF%E5%8C%96%E3%81%A8%E3%83%A6%E3%83%BC%E3%82%B9%E3%82%B1%E3%83%BC%E3%82%B9.pdf" title="ファイル:辞書のRDF化とユースケース.pdf">ファイル:辞書のRDF化とユースケース.pdf</a>
+</li></ul>
+<h2> <span class="mw-headline" id=".E8.9D.B6.E3.83.87.E3.83.BC.E3.82.BF.E3.81.8B.E3.82.89.E3.81.AE.E3.83.AA.E3.83.B3.E3.82.AF"> 蝶データからのリンク </span></h2>
+<p>以前作った蝶のデータから生物学辞書のRDFに当ててみて，どれくらい当たるか見る．そのためには、双方のデータをマッチングする必要がある。そのような要求を解決するためのツールとして<a href="http://www4.wiwiss.fu-berlin.de/bizer/silk/" class="external text" rel="nofollow">Silk</a>がある。
+</p>
+<ul><li> Silkのテスト
+</li></ul>
+<p><a href="http://www4.wiwiss.fu-berlin.de/bizer/silk/" class="external text" rel="nofollow">Silk</a>が使えるかテストしてみた。
+テストは、<a href="http://lod.ac/" class="external text" rel="nofollow">LODAC</a>の博物館情報と<a href="http://lod.ac/species" class="external text" rel="nofollow">LODAC生物情報</a>の標本が収蔵されている博物館情報とのマッチング。
+</p>
+<ol>
+<li>インストール</li>
+<p><a href="http://www4.wiwiss.fu-berlin.de/bizer/silk/" class="external text" rel="nofollow">Silk</a>から、Silkのバージョン2.5.2をダウンロードして解凍。
+</p>
+<li>設定ファイルの作成</li>
+<p>test.xmlというファイル名で下記の内容の設定ファイルを作成。設定方法の原文は<a href="http://www.assembla.com/wiki/show/silk/Link_Specification_Language" class="external text" rel="nofollow">こちら</a>。
+</p>
+<pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot;&nbsp;?&gt;
+&lt;Silk&gt;
+
+  &lt;Prefixes&gt;
+    &lt;Prefix id=&quot;rdf&quot; namespace=&quot;http://www.w3.org/1999/02/22-rdf-syntax-ns#&quot; /&gt;
+    &lt;Prefix id=&quot;rdfs&quot; namespace=&quot;http://www.w3.org/2000/01/rdf-schema#&quot; /&gt;
+    &lt;Prefix id=&quot;species&quot; namespace=&quot;http://lod.ac/ns/species#&quot; /&gt;
+    &lt;Prefix id=&quot;owl&quot; namespace=&quot;http://www.w3.org/2002/07/owl#&quot; /&gt;
+    &lt;Prefix id=&quot;foaf&quot; namespace=&quot;http://xmlns.com/foaf/0.1/&quot; /&gt;
+  &lt;/Prefixes&gt;
+
+  &lt;DataSources&gt;
+    &lt;DataSource id=&quot;lodac&quot; type=&quot;sparqlEndpoint&quot;&gt;
+      &lt;Param name=&quot;endpointURI&quot; value=&quot;http://lod.ac/sparql&quot; /&gt;
+    &lt;/DataSource&gt;
+
+    &lt;DataSource id=&quot;species&quot; type=&quot;sparqlEndpoint&quot;&gt;
+      &lt;Param name=&quot;endpointURI&quot; value=&quot;http://lod.ac/species/sparql&quot; /&gt;
+    &lt;/DataSource&gt;
+  &lt;/DataSources&gt;
+  
+  &lt;Interlinks&gt;
+    &lt;Interlink id=&quot;museumName&quot;&gt;
+      &lt;LinkType&gt;owl:sameAs&lt;/LinkType&gt;
+
+      &lt;SourceDataset dataSource=&quot;lodac&quot; var=&quot;a&quot;&gt;
+        &lt;RestrictTo&gt;
+         &nbsp;?a rdf:type foaf:Organization
+        &lt;/RestrictTo&gt;
+      &lt;/SourceDataset&gt;
+
+      &lt;TargetDataset dataSource=&quot;species&quot; var=&quot;b&quot;&gt;
+        &lt;RestrictTo&gt;
+         &nbsp;?b species:museumName&nbsp;?o
+        &lt;/RestrictTo&gt;
+      &lt;/TargetDataset&gt;
+
+      &lt;LinkageRule&gt;
+        &lt;Aggregate type=&quot;average&quot;&gt;
+          &lt;Compare metric=&quot;levenshteinDistance&quot; threshold=&quot;2.0&quot;&gt;
+            &lt;Input path=&quot;?a/rdfs:label[@lang='ja']&quot; /&gt;
+            &lt;Input path=&quot;?b/species:museumName&quot; /&gt;
+          &lt;/Compare&gt;
+        &lt;/Aggregate&gt;
+      &lt;/LinkageRule&gt;
+
+      &lt;Filter /&gt;
+
+      &lt;Outputs&gt;
+        &lt;Output type=&quot;file&quot; minConfidence=&quot;0.95&quot;&gt;
+          &lt;Param name=&quot;file&quot; value=&quot;accepted_links.nt&quot; /&gt;
+          &lt;Param name=&quot;format&quot; value=&quot;ntriples&quot; /&gt;
+        &lt;/Output&gt;
+        &lt;Output type=&quot;file&quot; maxConfidence=&quot;0.95&quot;&gt;
+          &lt;Param name=&quot;file&quot; value=&quot;verify_links.nt&quot; /&gt;
+          &lt;Param name=&quot;format&quot; value=&quot;alignment&quot; /&gt;
+        &lt;/Output&gt;
+      &lt;/Outputs&gt;
+    &lt;/Interlink&gt;
+  &lt;/Interlinks&gt;
+
+&lt;/Silk&gt;
+</pre>
+<ul><li> Prefixタグ
+</li></ul>
+<p>使用するnamespaceのprefixを設定する。
+</p>
+<ul><li> DataSourcesタグ
+</li></ul>
+<p>マッチング対象のデータソースを指定する。今回のテストでは、LODACで公開したsparql endpointを設定した。idは、SourceDatasetタグで使用するので、データソースを判別しやすい名前をつけておくとよい。
+</p>
+<ul><li> LinkTypeタグ
+</li></ul>
+<p>マッチングした結果をリンクするためのプロパティを記述する。
+</p>
+<ul><li> SourceDatasetタグ・TargetDatasetタグ
+</li></ul>
+<p>実際に比較するデータを設定する。今回は、DataSourceタグでsparqlEndpointを指定したので、RestrictToタグ内に、sparqlクエリ（のような？形式）を記述する。
+</p>
+<ul><li> Aggregateタグ・Compareタグ
+</li></ul>
+<p>マッチング・比較する方法を設定する。Inputタグには、XPath（のような？形式）でマッチング・比較するデータを設定する。
+</p>
+<ul><li> Filterタグ
+</li></ul>
+<p>今回は未設定。
+</p>
+<ul><li> Outputタグ
+</li></ul>
+<p>出力する閾値とファイル名、フォーマットを指定する。
+</p>
+<li>Silkの実行</li>
+<p>実行コマンドは、次の通り。
+</p>
+<pre>
+java -DconfigFile=test.xml -jar C:\hogehoge\silk.jar
+</pre>
+<li>実行結果</li>
+<p>実行結果は、.silk\outputディレクトリに生成される。今回のテストデータは、<a href="http://lod.ac/" class="external text" rel="nofollow">LODAC</a>側が約20万件、<a href="http://lod.ac/species" class="external text" rel="nofollow">LODAC生物情報</a>が約120万件なので、20万×120万=2400億回のマッチングを行った計算になるが、実行時間は、開始19:00から終了5:55の約11時間。今回、マッチングの判定にlevenshteinDistanceを使ったが、単純比較なのでequalityを使った方が早かったかもしれない。
+accepted_links.nt（ntriples形式）の結果（一部）は次の通り。565615件（標本データの半分弱）ヒットした。
+</p>
+<pre>
+&lt;http://lod.ac/id/524796&gt;  &lt;http://www.w3.org/2002/07/owl#sameAs&gt;  &lt;http://lod.ac/species/specimen/k59329&gt; .
+&lt;http://lod.ac/id/524796&gt;  &lt;http://www.w3.org/2002/07/owl#sameAs&gt;  &lt;http://lod.ac/species/specimen/k59328&gt; .
+&lt;http://lod.ac/id/524796&gt;  &lt;http://www.w3.org/2002/07/owl#sameAs&gt;  &lt;http://lod.ac/species/specimen/k59327&gt; .
+　　　:
+&lt;http://lod.ac/id/8223&gt;  &lt;http://www.w3.org/2002/07/owl#sameAs&gt;  &lt;http://lod.ac/species/specimen/k179836&gt; .
+&lt;http://lod.ac/id/8223&gt;  &lt;http://www.w3.org/2002/07/owl#sameAs&gt;  &lt;http://lod.ac/species/specimen/k179835&gt; .
+&lt;http://lod.ac/id/8223&gt;  &lt;http://www.w3.org/2002/07/owl#sameAs&gt;  &lt;http://lod.ac/species/specimen/k179834&gt; .
+　　　:
+</pre>
+<p>minConfidence属性で、0.95と設定したため、マッチングできた物が返ってきた。
+verify_links.nt（alignment形式）の結果（一部）は次の通り。
+</p>
+<pre>
+&lt;?xml version='1.0' encoding='utf-8' standalone='no'?&gt;
+&lt;rdf:RDF xmlns='http://knowledgeweb.semanticweb.org/heterogeneity/alignment#'
+    xmlns:rdf='http://www.w3.org/1999/02/22-rdf-syntax-ns#'
+    xmlns:xsd='http://www.w3.org/2001/XMLSchema#'
+    xmlns:align='http://knowledgeweb.semanticweb.org/heterogeneity/alignment#'&gt;
+&lt;Alignment&gt;
+&lt;map&gt;
+      &lt;Cell&gt;
+          &lt;entity1 rdf:resource=&quot;http://lod.ac/id/400651&quot;&gt;&lt;/entity1&gt;
+          &lt;entity2 rdf:resource=&quot;http://lod.ac/species/specimen/k1173634&quot;&gt;&lt;/entity2&gt;
+        &lt;relation&gt;
+          =
+        &lt;/relation&gt;
+        &lt;measure rdf:datatype=&quot;http://www.w3.org/2001/XMLSchema#float&quot;&gt;
+          Some(0.0)
+        &lt;/measure&gt;
+      &lt;/Cell&gt;
+    &lt;/map&gt;
+&lt;map&gt;
+      &lt;Cell&gt;
+          &lt;entity1 rdf:resource=&quot;http://lod.ac/id/400651&quot;&gt;&lt;/entity1&gt;
+          &lt;entity2 rdf:resource=&quot;http://lod.ac/species/specimen/k1037689&quot;&gt;&lt;/entity2&gt;
+        &lt;relation&gt;
+          =
+        &lt;/relation&gt;
+        &lt;measure rdf:datatype=&quot;http://www.w3.org/2001/XMLSchema#float&quot;&gt;
+          Some(0.0)
+        &lt;/measure&gt;
+      &lt;/Cell&gt;
+    &lt;/map&gt;
+　　　:
+</pre>
+<p>maxConfidence属性で、0.95と設定したため、マッチングできなかった物が返ってきた。Some(0.0)という記述がマッチングできなかったことを示していると思われる。
+</p>
+</ol>
+<ul><li> マッチングついでに
+</li></ul>
+<p>標本データにある博物館でLODACに無いものをリストアップしてみた。リストアップには、上記のマッチング結果から、マッチングできなかった標本IDを抽出し、その標本IDに対応する博物館をsparqlで取得する方法を用いた（もっと効率的な方法があったかもしれない）。
+結果は、次の通り。
+</p>
+<table border="1" cellspacing="0">
+<tr>
+<th>博物館名
+</th><th>対応するLODACの博物館
+</th><th>コメント
+</th></tr>
+<tr>
+<td>三重大学水産実験所
+</td><td>国立三重大学教育学部附属小学校<br />国立三重大学教育学部附属中学校<br />国立大学法人三重大学（医学部）<br />国立大学法人三重大学（教育学部）<br />国立大学法人三重大学（工学部）<br />国立大学法人三重大学（人文学部）<br />国立大学法人三重大学（生物資源学部）<br />三重大学教育学部附属養護学校<br />三重大学教育学部附属幼稚園<br />三重大学医学部附属病院<br />三重大学内郵便局<br />
+</td><td>三重大学関連が対象になると思われるが、ぴったりの物は無い。LODAC側で新たに作る必要性あり。
+</td></tr>
+<tr>
+<td>北九州市立自然史博物館
+</td><td>北九州市立自然史・歴史博物館(いのちのたび博物館)
+</td><td>表記揺れがヒットしなかった原因。Silkのマッチングの閾値とかをいじれば、マッチングするかもしれない。
+</td></tr>
+<tr>
+<td>国立科学博物館 植物研究部
+</td><td>国立科学博物館<br />独立行政法人国立科学博物館附属自然教育園<br />国立科学博物館産業技術史資料情報センター<br />国立科学博物館分館
+</td><td>たぶん、国立科学博物館をチョイスするのが妥当。
+</td></tr>
+<tr>
+<td>国立科学博物館（動物）
+</td><td>国立科学博物館<br />独立行政法人国立科学博物館附属自然教育園<br />国立科学博物館産業技術史資料情報センター<br />国立科学博物館分館
+</td><td>たぶん、国立科学博物館をチョイスするのが妥当。
+</td></tr>
+<tr>
+<td>北海道大学大学院水産科学研究院
+</td><td>北海道大学北方生物圏フィールド科学センター植物園<br />北海道大学総合博物館<br />北海道大学水産学部・水産資料館<br />北海道大学北方生物圏フィールド科学センター厚岸臨海実験所アイカップ自然史博物館<br />北海道大学（医学部）<br />北海道大学（教育学部）<br />北海道大学（経済学部）<br />北海道大学（工学部）<br />北海道大学（歯学部）<br />北海道大学（獣医学部）<br />北海道大学（水産学部）<br />北海道大学（農学部）<br />北海道大学（文学部）<br />北海道大学（法学部）<br />北海道大学（薬学部）<br />北海道大学（理学部）<br />北海道大学医学部附属病院<br />北海道大学歯学部附属病院<br />北海道大学前郵便局
+</td><td>北海道大学水産学部・水産資料館や北海道大学（水産学部）が近そうではあるが、ちょっと違う。やはり、LODAC側で新たに作る必要がありそう。
+</td></tr>
+<tr>
+<td>国立科学博物館（動物･人類）
+</td><td>国立科学博物館<br />独立行政法人国立科学博物館附属自然教育園<br />国立科学博物館産業技術史資料情報センター<br />国立科学博物館分館
+</td><td>たぶん、国立科学博物館をチョイスするのが妥当。
+</td></tr>
+<tr>
+<td>国立科学博物館（植物）
+</td><td>国立科学博物館<br />独立行政法人国立科学博物館附属自然教育園<br />国立科学博物館産業技術史資料情報センター<br />国立科学博物館分館
+</td><td>たぶん、国立科学博物館をチョイスするのが妥当。
+</td></tr>
+<tr>
+<td>筑波大学生命環境科学研究科
+</td><td>筑波大学附属図書館<br />国立筑波大学附属坂戸高等学校<br />国立筑波大学附属小学校<br />国立筑波大学附属中学校<br />国立筑波大学附属駒場中学校<br />国立筑波大学附属高等学校<br />国立筑波大学附属駒場高等学校<br />筑波大学附属盲学校<br />筑波大学附属大塚養護学校<br />筑波大学附属桐が丘養護学校<br />筑波大学（医学専門学群）<br />筑波大学（芸術専門学群）<br />筑波大学（図書館情報専門学群）<br />筑波大学（体育専門学群）<br />筑波大学（第一学群）<br />筑波大学（第三学群）<br />筑波大学（第二学群）<br />筑波大学附属病院<br />筑波大学内郵便局<br />筑波大学附属久里浜養護学校<br />筑波大学附属聾学校
+</td><td>筑波大学関連が対象になると思われるが、ぴったりの物は無い。LODAC側で新たに作る必要性あり。
+</td></tr>
+<tr>
+<td>静岡県自然学習資料保存事業室
+</td><td>なし
+</td><td>LODAC側で新たに作る必要性あり。
+</td></tr>
+<tr>
+<td>茨城県自然博物館
+</td><td>ミュージアムパーク茨城県自然博物館
+</td><td>表記揺れがヒットしなかった原因。Silkのマッチングの閾値とかをいじれば、マッチングするかもしれない。
+</td></tr>
+<tr>
+<td>福井市自然博物館
+</td><td>福井市自然史博物館
+</td><td>表記揺れがヒットしなかった原因。Silkのマッチングの閾値とかをいじれば、マッチングするかもしれない。
+</td></tr>
+<tr>
+<td>北九州市立自然史・歴史博物館
+</td><td>北九州市立自然史・歴史博物館(いのちのたび博物館)
+</td><td>表記揺れがヒットしなかった原因。Silkのマッチングの閾値とかをいじれば、マッチングするかもしれない。
+</td></tr>
+<tr>
+<td>名古屋大学博物館
+</td><td>国立名古屋大学教育学部附属中学校<br />国立名古屋大学教育学部附属高等学校<br />名古屋大学（教育学部）<br />名古屋大学（経済学部）<br />名古屋大学（工学部）<br />名古屋大学（情報文化学部）<br />名古屋大学（農学部）<br />名古屋大学（文学部）<br />名古屋大学（法学部）<br />名古屋大学（理学部）<br />名古屋大学（医学部）<br />名古屋大学医学部附属病院<br />名古屋大学内郵便局<br />名古屋大学病院内郵便局<br />名古屋大学
+</td><td>名古屋大学関連が対象になると思われるが、ぴったりの物は無い。LODAC側で新たに作る必要性あり。
+</td></tr>
+<tr>
+<td>多賀町立博物館
+</td><td>多賀町立博物館・多賀の自然と文化の館
+</td><td>表記揺れがヒットしなかった原因。Silkのマッチングの閾値とかをいじれば、マッチングするかもしれない。
+</td></tr>
+<tr>
+<td>大阪市立自然史博物館（昆虫）
+</td><td>大阪市立自然史博物館
+</td><td>表記揺れがヒットしなかった原因。Silkのマッチングの閾値とかをいじれば、マッチングするかもしれない。
+</td></tr>
+<tr>
+<td>名古屋大学
+</td><td>名古屋大学
+</td><td>LODAC側の情報として、検索条件としてfoaf:Organizationが無かったのがヒットしなかった原因。
+</td></tr>
+<tr>
+<td>大阪市立自然史博物館（動物･地学）
+</td><td>大阪市立自然史博物館
+</td><td>表記揺れがヒットしなかった原因。Silkのマッチングの閾値とかをいじれば、マッチングするかもしれない。
+</td></tr>
+<tr>
+<td>大阪市立自然史博物館（植物）
+</td><td>大阪市立自然史博物館
+</td><td>表記揺れがヒットしなかった原因。Silkのマッチングの閾値とかをいじれば、マッチングするかもしれない。
+</td></tr>
+<tr>
+<td>兵庫県立人と自然の博物館（植物）
+</td><td>兵庫県立人と自然の博物館
+</td><td>表記揺れがヒットしなかった原因。Silkのマッチングの閾値とかをいじれば、マッチングするかもしれない。
+</td></tr>
+<tr>
+<td>兵庫県立人と自然の博物館（その他）
+</td><td>兵庫県立人と自然の博物館
+</td><td>表記揺れがヒットしなかった原因。Silkのマッチングの閾値とかをいじれば、マッチングするかもしれない。
+</td></tr>
+<tr>
+<td>倉敷市立自然史博物館（以前はKMNH）
+</td><td>倉敷市立自然史博物館
+</td><td>表記揺れがヒットしなかった原因。Silkのマッチングの閾値とかをいじれば、マッチングするかもしれない。
+</td></tr>
+<tr>
+<td>芸北 高原の自然館
+</td><td>なし
+</td><td>LODAC側で新たに作る必要性あり。
+</td></tr>
+<tr>
+<td>九州大学
+</td><td>九州大学附属図書館<br />九州大学医療技術短期大学部<br />九州大学（医学部）<br />九州大学（教育学部）<br />九州大学（経済学部）<br />九州大学（工学部）<br />九州大学（歯学部）<br />九州大学（農学部）<br />九州大学（文学部）<br />九州大学（法学部）<br />九州大学（薬学部）<br />九州大学（理学部）<br />九州大学（芸術工学部）<br />九州大学医学部附属病院<br />九州大学歯学部附属病院<br />南九州大学（健康栄養学部）<br />南九州大学（園芸学部）<br />南九州大学（環境造園学部）<br />九州大学病院別府先進医療センター<br />西九州大学（健康福祉学部）
+</td><td>九州大学関連が対象になると思われるが、ぴったりの物は無い。LODAC側で新たに作る必要性あり。
+</td></tr>
+<tr>
+<td>富山市科学博物館
+</td><td>なし
+</td><td>LODAC側で新たに作る必要性あり。
+</td></tr>
+<tr>
+<td>静岡県自然学習資料センター
+</td><td>なし
+</td><td>LODAC側で新たに作る必要性あり。
+</td></tr></table>
+<ul><li>リンクの可能性
+</li></ul>
+<p><a href="http://lod.ac/bdls/" class="external text" rel="nofollow">仮サイト</a>で、Papilio xuthus（<a href="http://lod.ac/species/Papilio_xuthus" class="external text" rel="nofollow">参考</a>）で検索すると結果は30件で、ぴったり合致する物は無し。ナミアゲハで検索するとPapilioがヒット。データの中にはPapilio xuthusなどの学名が含まれているはず。Silkを使って、学名、和名の両方について、完全合致の物、ある程度揺らぎを許容した物をリストし、チェックしてみようと思う。
+</p>
+<h2> <span class="mw-headline" id="TODO"> TODO </span></h2>
+<ul><li> 元データの問題
+</li></ul>
+<p>scientific_termsのほうを見ていると謎な項目が結構あるがこれは
+全部<a href="http://sciterm.nii.ac.jp/cgi-bin/reference.cgi" class="external text" rel="nofollow">NIIのオンライン学術用語集</a>由来．
+</p>
+<pre>   @0034851@       is @異義語@     for @50%致死線量@
+   @生薬用語に対する英語の欠損@    is @生薬用語に対する英語の欠損@ for @アキョウ@
+   @R@	is @備考@	for @無触手綱@
+</pre>
+<p>番号はID．Rはそのまま記述されている．
+オンライン学術用語集の元データから日本語の異義語関係をIDベースに作成中．
+</p>
+<ul><li> データのクリーニング
+</li></ul>
+<p>()が最初と最後についているついていない，記号のエスケープ(?)など
+</p>
+<ul><li> ウェブサイト作成
+</li></ul>
+<p><a href="http://lod.ac/bdls/" class="external free" rel="nofollow">http://lod.ac/bdls/</a>
+に仮作成した．
+まだ由来とかはまともにみられない．
+</p>
+<ul><li> 外部リンク
+</li></ul>
+<p>CC-BY-SAだし，外部リンク作ればLOD cloud入れられるはずなので，リンク先を考える
+DBPedia他? Silkのいい実験になるかも．
+</p>
+<h2> <span class="mw-headline" id=".E3.83.A1.E3.83.B3.E3.83.90.E3.83.BC"> メンバー </span></h2>
+<ul><li> 川本 
+</li><li> 南
+</li><li> 加藤
+</li></ul>
+<h2> <span class="mw-headline" id=".28.E5.88.A5.E3.83.97.E3.83.AD.E3.82.B8.E3.82.A7.E3.82.AF.E3.83.88.E3.83.87.E3.83.BC.E3.82.BF.29_.E5.8D.97.E6.A5.B5.E3.81.AE.E8.8B.94.E3.83.87.E3.83.BC.E3.82.BF"> (別プロジェクトデータ) 南極の苔データ </span></h2>
+<p><a href="/mw/BH11.11/%E3%82%B3%E3%82%B1" title="BH11.11/コケ">BH11.11/コケ</a> 参照
+</p>
+<h3> <span class="mw-headline" id=".E5.86.99.E7.9C.9F"> 写真 </span></h3>
+<p><a href="http://lod.ac/antmoss/images/xxxx" class="external free" rel="nofollow">http://lod.ac/antmoss/images/xxxx</a>
+</p>
+<h3> <span class="mw-headline" id=".E3.83.87.E3.83.BC.E3.82.BF"> データ </span></h3>
+<p><a href="http://togodb2.dbcls.jp/togodb/view/moss_test" class="external free" rel="nofollow">http://togodb2.dbcls.jp/togodb/view/moss_test</a> に試しに入れてみてある．
+entry数: 57000程度
+RDF生成に1時間程度?
+</p><p><a href="http://togodb2.dbcls.jp/togodb/view/antmossdb" class="external free" rel="nofollow">http://togodb2.dbcls.jp/togodb/view/antmossdb</a> 改訂版
+</p>
+<!-- 
+NewPP limit report
+Preprocessor node count: 193/1000000
+Post-expand include size: 0/2097152 bytes
+Template argument size: 0/2097152 bytes
+Expensive parser function count: 0/100
+-->
+
+<!-- Saved in parser cache with key wikidb-togowiki_:pcache:idhash:95-0!1!0!!ja!2!edit=0!printable=1 and timestamp 20230605031506 -->
+<div class="printfooter">
+「<a href="http://wiki.lifesciencedb.jp/mw/BH11.11/%E7%94%9F%E7%89%A9%E5%AD%A6%E8%BE%9E%E6%9B%B8%E3%81%AERDF%E5%8C%96">http://wiki.lifesciencedb.jp/mw/BH11.11/%E7%94%9F%E7%89%A9%E5%AD%A6%E8%BE%9E%E6%9B%B8%E3%81%AERDF%E5%8C%96</a>」より作成</div>
+		<div id='catlinks' class='catlinks catlinks-allhidden'></div>		<!-- end content -->
+				<div class="visualClear"></div>
+	</div>
+</div></div>
+<div id="column-one">
+	<div id="p-cactions" class="portlet">
+		<h5>表示</h5>
+		<div class="pBody">
+			<ul>
+				 <li id="ca-nstab-main" class="selected"><a href="/mw/BH11.11/%E7%94%9F%E7%89%A9%E5%AD%A6%E8%BE%9E%E6%9B%B8%E3%81%AERDF%E5%8C%96" title="本文を表示 [c]" accesskey="c">ページ</a></li>
+				 <li id="ca-talk" class="new"><a href="/mw/index.php?title=%E3%83%8E%E3%83%BC%E3%83%88:BH11.11/%E7%94%9F%E7%89%A9%E5%AD%A6%E8%BE%9E%E6%9B%B8%E3%81%AERDF%E5%8C%96&amp;action=edit&amp;redlink=1" title="記事についての議論 [t]" accesskey="t">議論</a></li>
+				 <li id="ca-viewsource"><a href="/mw/index.php?title=BH11.11/%E7%94%9F%E7%89%A9%E5%AD%A6%E8%BE%9E%E6%9B%B8%E3%81%AERDF%E5%8C%96&amp;action=edit" title="このページは保護されています。&#10;ページのソースを閲覧できます。 [e]" accesskey="e">ソースを表示</a></li>
+				 <li id="ca-history"><a href="/mw/index.php?title=BH11.11/%E7%94%9F%E7%89%A9%E5%AD%A6%E8%BE%9E%E6%9B%B8%E3%81%AERDF%E5%8C%96&amp;action=history" title="このページの過去の版 [h]" accesskey="h">履歴</a></li>
+			</ul>
+		</div>
+	</div>
+	<div class="portlet" id="p-personal">
+		<h5>個人用ツール</h5>
+		<div class="pBody">
+			<ul>
+				<li id="pt-anonuserpage"><a href="/mw/%E5%88%A9%E7%94%A8%E8%80%85:172.18.8.51" title="自分が編集しているIPアドレスの利用者ページ [.]" accesskey="." class="new">172.18.8.51</a></li>
+				<li id="pt-anontalk"><a href="/mw/%E5%88%A9%E7%94%A8%E8%80%85%E2%80%90%E4%BC%9A%E8%A9%B1:172.18.8.51" title="このIPアドレスからなされた編集についての議論 [n]" accesskey="n" class="new">このIPアドレスのトーク</a></li>
+				<li id="pt-anonlogin"><a href="/mw/index.php?title=%E7%89%B9%E5%88%A5:%E3%83%AD%E3%82%B0%E3%82%A4%E3%83%B3&amp;returnto=BH11.11/%E7%94%9F%E7%89%A9%E5%AD%A6%E8%BE%9E%E6%9B%B8%E3%81%AERDF%E5%8C%96&amp;returntoquery=printable%3Dyes" title="ログインすることが推奨されます。ただし、必須ではありません。 [o]" accesskey="o">ログイン</a></li>
+				<li id="pt-openidlogin"><a href="/mw/index.php?title=%E7%89%B9%E5%88%A5:OpenID%E3%83%AD%E3%82%B0%E3%82%A4%E3%83%B3&amp;returnto=BH11.11/%E7%94%9F%E7%89%A9%E5%AD%A6%E8%BE%9E%E6%9B%B8%E3%81%AERDF%E5%8C%96">OpenIDでログイン</a></li>
+			</ul>
+		</div>
+	</div>
+	<div class="portlet" id="p-logo">
+		<a style="background-image: url(/mw/images/togowiki-logo.png);" href="/mw/%E3%83%A1%E3%82%A4%E3%83%B3%E3%83%9A%E3%83%BC%E3%82%B8" title="メインページに移動"></a>
+	</div>
+	<script type="text/javascript"> if (window.isMSIE55) fixalpha(); </script>
+	<div class='generated-sidebar portlet' id='p-navigation'>
+		<h5>案内</h5>
+		<div class='pBody'>
+			<ul>
+				<li id="n-mainpage-description"><a href="/mw/%E3%83%A1%E3%82%A4%E3%83%B3%E3%83%9A%E3%83%BC%E3%82%B8" title="メインページに移動する [z]" accesskey="z">メインページ</a></li>
+				<li id="n-portal"><a href="/mw/TogoWiki:%E3%82%B3%E3%83%9F%E3%83%A5%E3%83%8B%E3%83%86%E3%82%A3%E3%83%BB%E3%83%9D%E3%83%BC%E3%82%BF%E3%83%AB" title="このプロジェクトについて、できること、情報を入手する場所">コミュニティ・ポータル</a></li>
+				<li id="n-currentevents"><a href="/mw/TogoWiki:%E6%9C%80%E8%BF%91%E3%81%AE%E5%87%BA%E6%9D%A5%E4%BA%8B" title="最近の出来事について予備知識を得る">最近の出来事</a></li>
+				<li id="n-recentchanges"><a href="/mw/%E7%89%B9%E5%88%A5:%E6%9C%80%E8%BF%91%E3%81%AE%E6%9B%B4%E6%96%B0" title="ウィキにおける最近の更新の一覧 [r]" accesskey="r">最近の更新</a></li>
+				<li id="n-randompage"><a href="/mw/%E7%89%B9%E5%88%A5:%E3%81%8A%E3%81%BE%E3%81%8B%E3%81%9B%E8%A1%A8%E7%A4%BA" title="無作為に抽出されたページの読み込み [x]" accesskey="x">おまかせ表示</a></li>
+				<li id="n-help"><a href="/mw/Help:%E7%9B%AE%E6%AC%A1" title="情報を得る場所">ヘルプ</a></li>
+			</ul>
+		</div>
+	</div>
+	<div id="p-search" class="portlet">
+		<h5><label for="searchInput">検索</label></h5>
+		<div id="searchBody" class="pBody">
+			<form action="/mw/index.php" id="searchform">
+				<input type='hidden' name="title" value="特別:検索"/>
+				<input id="searchInput" title="TogoWiki内を検索" accesskey="f" type="search" name="search" />
+				<input type='submit' name="go" class="searchButton" id="searchGoButton"	value="表示" title="厳密に一致する名前のページが存在すれば、そのページへ移動します" />&nbsp;
+				<input type='submit' name="fulltext" class="searchButton" id="mw-searchButton" value="検索" title="入力された文字列が含まれるページを検索します" />
+			</form>
+		</div>
+	</div>
+	<div class="portlet" id="p-tb">
+		<h5>ツールボックス</h5>
+		<div class="pBody">
+			<ul>
+				<li id="t-whatlinkshere"><a href="/mw/%E7%89%B9%E5%88%A5:%E3%83%AA%E3%83%B3%E3%82%AF%E5%85%83/BH11.11/%E7%94%9F%E7%89%A9%E5%AD%A6%E8%BE%9E%E6%9B%B8%E3%81%AERDF%E5%8C%96" title="ここにリンクしている全ウィキのページの一覧 [j]" accesskey="j">リンク元</a></li>
+				<li id="t-recentchangeslinked"><a href="/mw/%E7%89%B9%E5%88%A5:%E9%96%A2%E9%80%A3%E3%83%9A%E3%83%BC%E3%82%B8%E3%81%AE%E6%9B%B4%E6%96%B0%E7%8A%B6%E6%B3%81/BH11.11/%E7%94%9F%E7%89%A9%E5%AD%A6%E8%BE%9E%E6%9B%B8%E3%81%AERDF%E5%8C%96" title="このページからリンクしているページの最近の更新 [k]" accesskey="k">関連ページの更新状況</a></li>
+<li id="t-specialpages"><a href="/mw/%E7%89%B9%E5%88%A5:%E7%89%B9%E5%88%A5%E3%83%9A%E3%83%BC%E3%82%B8%E4%B8%80%E8%A6%A7" title="特別ページの一覧 [q]" accesskey="q">特別ページ</a></li>
+				<li id="t-permalink"><a href="/mw/index.php?title=BH11.11/%E7%94%9F%E7%89%A9%E5%AD%A6%E8%BE%9E%E6%9B%B8%E3%81%AERDF%E5%8C%96&amp;oldid=1924" title="ページのこの版への固定リンク">この版への固定リンク</a></li>			</ul>
+		</div>
+	</div>
+</div><!-- end of the left (by default at least) column -->
+<div class="visualClear"></div>
+<div id="footer">
+	<div id="f-poweredbyico"><a href="http://www.mediawiki.org/"><img src="/mw/skins/common/images/poweredby_mediawiki_88x31.png" height="31" width="88" alt="Powered by MediaWiki" /></a></div>
+	<div id="f-copyrightico"><a href="http://creativecommons.org/licenses/by/3.0/"><img src="http://i.creativecommons.org/l/by/3.0/88x31.png" alt="Attribution 3.0 Unported" width="88" height="31" /></a></div>
+	<ul id="f-list">
+		<li id="lastmod"> このページの最終更新は 2011年11月25日 (金) 06:42 に行われました。</li>
+		<li id="viewcount">このページは62,963回アクセスされました。</li>
+		<li id="copyright">内容は<a href="http://creativecommons.org/licenses/by/3.0/" class="external ">Attribution 3.0 Unported</a>のライセンスで利用することができます。</li>
+		<li id="privacy"><a href="/mw/TogoWiki:%E3%83%97%E3%83%A9%E3%82%A4%E3%83%90%E3%82%B7%E3%83%BC%E3%83%BB%E3%83%9D%E3%83%AA%E3%82%B7%E3%83%BC" title="TogoWiki:プライバシー・ポリシー">プライバシー・ポリシー</a></li>
+		<li id="about"><a href="/mw/TogoWiki:TogoWiki%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6" title="TogoWiki:TogoWikiについて">TogoWikiについて</a></li>
+		<li id="disclaimer"><a href="/mw/TogoWiki:%E5%85%8D%E8%B2%AC%E4%BA%8B%E9%A0%85" title="TogoWiki:免責事項">免責事項</a></li>
+	</ul>
+</div>
+</div>
+
+<script>if (window.runOnloadHook) runOnloadHook();</script>
+<!-- Served in 0.296 secs. --></body></html>

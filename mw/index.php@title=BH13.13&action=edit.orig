@@ -1,0 +1,397 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html lang="ja" dir="ltr">
+<head>
+<title>ソースを表示 - TogoWiki</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta name="generator" content="MediaWiki 1.16.3" />
+<meta name="robots" content="noindex,nofollow" />
+<link rel="next" href="http://wiki.lifesciencedb.jp/mw/BH13.13" />
+<link rel="shortcut icon" href="/favicon.ico" />
+<link rel="search" type="application/opensearchdescription+xml" href="/mw/opensearch_desc.php" title="TogoWiki (ja)" />
+<link rel="copyright" href="http://creativecommons.org/licenses/by/3.0/" />
+<link rel="alternate" type="application/atom+xml" title="TogoWikiのAtomフィード" href="/mw/index.php?title=%E7%89%B9%E5%88%A5:%E6%9C%80%E8%BF%91%E3%81%AE%E6%9B%B4%E6%96%B0&amp;feed=atom" />
+<!--[if IE 8]><link rel="stylesheet" href="/mw/skins/common/IE80Fixes.css?270" media="screen" /><![endif]-->
+<link rel="stylesheet" href="/mw/skins/common/shared.css?270" media="screen" />
+<link rel="stylesheet" href="/mw/skins/common/commonPrint.css?270" media="print" />
+<link rel="stylesheet" href="/mw/skins/monobook/main.css?270" media="screen" />
+<!--[if lt IE 5.5000]><link rel="stylesheet" href="/mw/skins/monobook/IE50Fixes.css?270" media="screen" /><![endif]-->
+<!--[if IE 5.5000]><link rel="stylesheet" href="/mw/skins/monobook/IE55Fixes.css?270" media="screen" /><![endif]-->
+<!--[if IE 6]><link rel="stylesheet" href="/mw/skins/monobook/IE60Fixes.css?270" media="screen" /><![endif]-->
+<!--[if IE 7]><link rel="stylesheet" href="/mw/skins/monobook/IE70Fixes.css?270" media="screen" /><![endif]-->
+<link rel="stylesheet" href="/mw/index.php?title=MediaWiki:Common.css&amp;usemsgcache=yes&amp;ctype=text%2Fcss&amp;smaxage=18000&amp;action=raw&amp;maxage=18000" />
+<link rel="stylesheet" href="/mw/index.php?title=MediaWiki:Print.css&amp;usemsgcache=yes&amp;ctype=text%2Fcss&amp;smaxage=18000&amp;action=raw&amp;maxage=18000" media="print" />
+<link rel="stylesheet" href="/mw/index.php?title=MediaWiki:Monobook.css&amp;usemsgcache=yes&amp;ctype=text%2Fcss&amp;smaxage=18000&amp;action=raw&amp;maxage=18000" />
+<link rel="stylesheet" href="/mw/index.php?title=-&amp;action=raw&amp;maxage=18000&amp;gen=css" />
+<script>
+var skin="monobook",
+stylepath="/mw/skins",
+wgUrlProtocols="http\\:\\/\\/|https\\:\\/\\/|ftp\\:\\/\\/|irc\\:\\/\\/|gopher\\:\\/\\/|telnet\\:\\/\\/|nntp\\:\\/\\/|worldwind\\:\\/\\/|mailto\\:|news\\:|svn\\:\\/\\/",
+wgArticlePath="/mw/$1",
+wgScriptPath="/mw",
+wgScriptExtension=".php",
+wgScript="/mw/index.php",
+wgVariantArticlePath=false,
+wgActionPaths={},
+wgServer="http://wiki.lifesciencedb.jp",
+wgCanonicalNamespace="",
+wgCanonicalSpecialPageName=false,
+wgNamespaceNumber=0,
+wgPageName="BH13.13",
+wgTitle="BH13.13",
+wgAction="edit",
+wgArticleId=314,
+wgIsArticle=false,
+wgUserName=null,
+wgUserGroups=null,
+wgUserLanguage="ja",
+wgContentLanguage="ja",
+wgBreakFrames=true,
+wgCurRevisionId=12133,
+wgVersion="1.16.3",
+wgEnableAPI=true,
+wgEnableWriteAPI=true,
+wgSeparatorTransformTable=["", ""],
+wgDigitTransformTable=["", ""],
+wgMainPageTitle="メインページ",
+wgFormattedNamespaces={"-2": "メディア", "-1": "特別", "0": "", "1": "ノート", "2": "利用者", "3": "利用者‐会話", "4": "TogoWiki", "5": "TogoWiki‐ノート", "6": "ファイル", "7": "ファイル‐ノート", "8": "MediaWiki", "9": "MediaWiki‐ノート", "10": "Template", "11": "Template‐ノート", "12": "Help", "13": "Help‐ノート", "14": "Category", "15": "Category‐ノート"},
+wgNamespaceIds={"メディア": -2, "特別": -1, "": 0, "ノート": 1, "利用者": 2, "利用者‐会話": 3, "togowiki": 4, "togowiki‐ノート": 5, "ファイル": 6, "ファイル‐ノート": 7, "mediawiki": 8, "mediawiki‐ノート": 9, "template": 10, "template‐ノート": 11, "help": 12, "help‐ノート": 13, "category": 14, "category‐ノート": 15, "画像": 6, "画像‐ノート": 7, "image": 6, "image_talk": 7},
+wgSiteName="TogoWiki",
+wgCategories=[],
+wgRestrictionEdit=[],
+wgRestrictionMove=[];
+</script><script src="/mw/skins/common/wikibits.js?270"></script>
+<script src="/mw/skins/common/edit.js?270"></script>
+<script src="/mw/skins/common/ajax.js?270"></script>
+<script src="/mw/index.php?title=-&amp;action=raw&amp;gen=js&amp;useskin=monobook&amp;270"></script>
+
+		<style type='text/css'>
+		li#pt-openidlogin {
+		  background: url(/mw/extensions/OpenID/skin/icons/openid-inputicon.png) top left no-repeat;
+		  padding-left: 20px;
+		  text-transform: none;
+		}
+		</style>
+</head>
+<body class="mediawiki ltr ns-0 ns-subject page-BH13_13 skin-monobook">
+<div id="globalWrapper">
+<div id="column-content"><div id="content" >
+	<a id="top"></a>
+	
+	<h1 id="firstHeading" class="firstHeading">BH13.13</h1>
+	<div id="bodyContent">
+		<h3 id="siteSub">提供：TogoWiki</h3>
+		<div id="contentSub"><a href="/mw/BH13.13" title="BH13.13">BH13.13</a>のソース</div>
+		<div id="jump-to-nav">移動： <a href="#column-one">案内</a>, <a href="#searchInput">検索</a></div>
+		<!-- start content -->
+<p>以下に示された理由により、このページの編集を行うことができません：
+</p>
+<div class="permissions-errors">
+<p>この操作は、<a href="/mw/index.php?title=TogoWiki:%E5%88%A9%E7%94%A8%E8%80%85&amp;action=edit&amp;redlink=1" class="new" title="TogoWiki:利用者（存在しないページ）">利用者</a>のグループに属する利用者のみが実行できます。
+</p>
+</div>
+<p>このページのソースを閲覧し、コピーすることができます：
+</p><textarea id="wpTextbox1" name="wpTextbox1" cols="80" rows="25" readonly="">[[image:BH13.13_logo.png|right|250px]]
+'''国内版バイオハッカソン BH13.13'''
+
+2014年1月27日から31日 (2013年13月27日〜31日）にかけて、沖縄県名護市の[http://www.shinryokan.com/ 万国津梁館]にて国内のライフサイエンスデータベースの構築者と利用者向けの技術勉強会として、第４回 国内版バイオハッカソン BH13.13 を開催いたします。
+
+* 主催：[http://dbcls.rois.ac.jp/ ライフサイエンス統合データベースセンター] (DBCLS)
+* 協力：[http://www.jamstec.go.jp/ 海洋研究開発機構] (JAMSTEC) / [http://www.godac.jp/ 国際海洋環境情報センター] (GODAC)
+
+== 開催概要 ==
+
+* 開催期間：2014年1月27日(月)〜31日(金)
+* 開催場所：[http://www.shinryokan.com/ 万国津梁館]（会場）、[http://www.aj-hotels.com/kouki/ AJ幸喜リゾートホテル]（宿泊）
+
+空港と会場、会場とホテルの間が離れていますので、[http://wiki.lifesciencedb.jp/mw/index.php/BH13.13#.E3.83.90.E3.82.B9.E6.99.82.E5.88.BB.E8.A1.A8 送迎のシャトルバスや民間の高速バス]をご利用ください。
+
+== 開催趣旨 ==
+
+DBCLS では、ライフサイエンスのデータベース統合についての技術開発を支援・最新技術の情報共有・実務者間での交流を促進するため、これまで6回の[http://biohackathon.org/ 国際版 BioHackathon] と3回の国内版バイオハッカソン [[BH10.10]], [[BH11.11]], [[BH12.12]] を開催してまいりました。[http://biosciencedbc.jp/tec-dev-prog/rdprog-over NBDCの統合化推進プログラム]に参画されている各機関においても様々な統合データベースを構築してきていただいておりますが、今後より統合化を進めていくためには技術開発と情報共有を継続する必要があると考えられます。国内版バイオハッカソンでは医学生物学の異種大量データを効果的に統合して活用するための技術開発に興味のある方々に自由にご参加いただき、活発な議論と開発を進めて頂ければと考えています。
+
+2013年6月24-28日に行った NBDC/DBCLS BioHackathon 2013 ([http://2013.biohackathon.org BH13]) では、BH12に引き続きセマンティック・ウェブによるデータ統合にむけて、様々なアプリケーション開発、オントロジー開発、テキストマイニング技術開発、SPARQLエンドポイントの評価と分散クエリ、分散環境におけるトリプルストアの検証などが行われました。すでに RDF や SPARQL についての理解は比較的に浸透していたようですが、国内の参加者においては必ずしもまだ技術的な情報交換が十分にできていない面もあります。セマンティック・ウェブ技術の導入に興味のある方々にも広くご参加頂ければと思います。
+
+今回は、先日の[http://events.biosciencedbc.jp/sympo/togo2013/ トーゴーの日シンポジウム]でご講演頂いた JAMSTEC とそのデータベース部門である GODAC の方々にもご協力いただけることとなり、沖縄県名護市での開催となりました。素晴らしいロケーションで有意義な時間を過ごして頂けるよう主催者一同準備を進めてまいりますので、積極的なご参加をお願いいたします。
+
+== 参加者 ==
+
+* [[BH13.13/Participants|参加者一覧]]
+
+== プログラム ==
+
+* 1/26 (日) 現地着、会場設営（オーガナイザーのみ）
+* '''1/27 (月) 10:00- モーニングセッション、13:00- ハッカソン、18:00- バンケット'''
+* '''1/28 (火) 10:00-18:00 ハッカソン'''
+* '''1/29 (水) 10:00-18:00 ハッカソン'''
+* '''1/30 (木) 10:00-18:00 ハッカソン'''
+* '''1/31 (金) 10:00-12:00 ハッカソン、13:00- ラップアップ、終了後 16:00 ごろ解散'''
+* 1/31 (金) 16:00-20:00 会場撤去（オーガナイザーのみ）、有識者会議（関係者のみ）
+
+== 主なテーマ ==
+
+会期中に検討するテーマです。自由に追記・編集して頂ければと思います。リンク先のページを作るときは「BH13.13/ページ名」としてください。
+
+'''ゲノム情報などの統合'''
+
+* [[BH13.13/ヒトゲノム・日本人ゲノムのRDFモデル設計|ヒトゲノム・日本人ゲノムの RDF モデル設計]]
+* ゲノム情報データの可視化
+* [[BH13.13/TaxID2BioSampleID|Taxonomy ID から BioSample ID への移行対応]]
+* 国内菌株メタデータ RDF の整備
+
+'''データベース連携・統合 (分野別データベースのRDF化、活用)'''
+* 海洋生物データベース
+* [[BH13.13/bioresource|生物資源のデータベース]]
+* [[BH13.13/glycodb|糖鎖データベース]]
+* [[BH13.13/MicrobeDB.jp|微生物統合データベース]]
+* [[BH13.13/DDBJ|DDBJ]]
+* &lt;del> [[BH13.13/drug-model-kegg|Drugbank, KEGG pathway統合linked dataの作成]] &lt;/del> [[BH13.13/Arabidopsis|Arabidopsis pathway RDFの作成]]
+* [[BH13.13/uuid-bnode|UUID vs. Blank node]]
+
+'''データベース連携・統合  (データベースのメタデータのRDF化、活用)'''
+* [[BH13.13/dbcatalog|データベースのデータベース（データベースカタログのRDF化）]]
+* [[BH13.13/crosssearch|横断検索サービスのメタデータの活用]]
+
+'''オントロジー開発'''
+
+* 国際塩基配列DBオントロジー (INSDC/DDBJ)
+* 配列座標オントロジー (FALDO)
+* タクソノミーオントロジーと BioSample オントロジー
+* [[BH13.13/PIERO|酵素反応オントロジー PIERO]] [[http://wiki.lifesciencedb.jp/mw/images/2/2d/Ontology-relation1.png 全体図]] [[http://wiki.lifesciencedb.jp/mw/images/5/50/Ontology-relation2.png Whole Reaction Term と Partial Reaction Term]] [[http://wiki.lifesciencedb.jp/mw/images/9/97/Ontology-relation3.png RDMとKCF-S]]
+* [[BH13.13/MPO|微生物表現型オントロジー(MPO)]]
+* 培養培地オントロジー
+* [[BH13.13/MCCV|菌株培養コレクションオントロジー(MCCV)]]
+* [[BH13.13/glycoontology|糖鎖オントロジー]]
+* TogoStanzaオントロジー
+
+'''テキストマイニング'''
+
+* [[BH13.13/pubdictionaries|辞書を用いたテキスト処理]]
+
+
+'''[[BH13.13/appdev|ソフトウェア開発グループ]]'''
+
+DB統合のためのウェブアプリケーション開発/DB統合のための基盤ツール開発をマージしました。
+
+* [[BH13.13/SPARQLBuilder|SPARQL builder]] - [[http://instagram.com/p/jy5T7nNORx/|Github wiki]]
+* GraphDB-based Application project - [[BH13.13/Cypher|Cypher]]
+* [[BH13.13/TogoStanza|Togo Stanza]]
+* [[BH13.13/D2RQ|RDB to RDF tools]]
+* [[RDFを用いた開発のための環境構築方法]]
+
+
+'''[[BH13.13/TogoDB|実務者会議から提案されたテーマ]]'''
+
+* 統合DBプロジェクトで様々なフォーマットのデータを今後いかに受け入れ統合するか
+* 統合DBプロジェクト参画機関のリンク・連携
+* 統合DBプロジェクト間で共通利用できるバナーやウィジェットの検討
+
+'''疾患・創薬'''
+
+* [[BH13.13/hierarchy|病気と薬の階層分類のRDF化]]
+
+'''ユーザーインターフェース改善'''
+
+* [[BH13.13/WordPressHack|WordPress Hackによるユーザビリティの改良・改善(仮)]]
+
+'''考古学データのDB化'''
+* [[BH13.13/bioarchaeology|考古学データのDB化]]
+
+== 参加申し込み ==
+
+ハッカソンの参加費は無料ですが、宿泊や食事の申し込みがない方も下記のページから参加登録をお願いいたします。
+
+* 国内版ハッカソン BH13.13 参加登録ページ http://tinyurl.com/bh13-13-form
+
+注意事項：
+* ハッカソンは開催趣旨から、原則的に全日程（1/27朝〜1/31夕方）のご参加をお願いしております。
+* ハッカソンの宿泊予約は 12/25 まで受付予定ですが定員になり次第締め切りとなります (12/25締め切りました)。
+* 宿泊は旅行代理店を通じて確保してある近隣の[http://www.aj-hotels.com/kouki/ AJ幸喜リゾートホテル]を実費でご紹介しております。
+* 沖縄への航空券などは各自で手配してください。那覇空港から会場までの無料送迎バスをご用意する予定です。
+* ソフトウェア開発用機材の貸出はありませんので、各自無線LANが利用可能なノートPCなどをご持参ください。
+
+== バス時刻表 ==
+
+'''チャーターバス'''
+
+{| class="wikitable"
+|+ 無料送迎バス運行予定表
+! 日時 !! 区間 !! 乗車時刻
+|-
+| 1/26 (日) || 那覇空港 → 会場・ホテル || 13:30, 16:30, 19:30
+|-
+| 1/27〜31 (月〜金) || ホテル → 会場 || 8:30, 9:00, 9:30
+|-
+| 1/28〜31 (火〜金) || 会場 → ホテル || 18:30, 19:00, 19:30
+|-
+| 1/27 (月) || 会場 → バンケット || 18:15
+|-
+| 1/27 (月) || バンケット → ホテル || 21:00 ?
+|-
+| 1/31 (金) || 会場 → 那覇空港 || 16:00, 19:00
+|-
+| 2/1 (土) || ホテル → 那覇空港 || 9:30, 12:30
+|}
+
+※ 1/31 の送迎バスは時間に余裕を持たせるため 16:30, 19:30 から 30 分早めることになりました
+
+'''民間路線'''
+
+* [http://www.ryukyubuskotsu.jp/pdf/%E3%82%A8%E3%82%A2%E3%83%9D%E3%83%BC%E3%83%88%E3%83%A9%E3%82%A4%E3%83%8A%E3%83%BC%E5%91%8A%E7%9F%A5.html エアポートライナー] Dエリア (1.5時間, 1900 円) [http://www.ryukyubuskotsu.jp/pdf/%E3%82%A8%E3%82%A2%E3%83%9D%E3%83%BC%E3%83%88%E3%83%A9%E3%82%A4%E3%83%8A%E3%83%BC%E6%99%82%E5%88%BB%E8%A1%A8/A-E.pdf 時刻表]
+
+* [http://toyobus.jp/limousine.html 高速リムジンバス] 月桃号・芭蕉号 (1.5〜2.5時間, 1900円) [http://toyobus.jp/img/limousine/time.pdf 時刻表] [http://toyobus.jp/img/limousine/price.pdf 料金表]
+
+{| class="wikitable"
+|+ 那覇空港 → ブセナテラス (会場)
+! バス種別 !! 出発時刻 → 到着時刻 !! 所要時間
+|-
+| 高速リムジンバス 月桃号1便 || 10:30 → 11:59 || 1:29
+|-
+| エアポートライナー 13便 || 12:10 → 13:39 || 1:29
+|-
+| 高速リムジンバス 月桃号2便 || 12:30 → 13:59 || 1:29
+|-
+| エアポートライナー 17便 || 12:50 → 14:19 || 1:29
+|-
+| エアポートライナー 21便 || 13:30 → 14:59 || 1:29
+|-
+| 高速リムジンバス 芭蕉号1便 || 14:30 → 16:35 || 2:05
+|-
+| 高速リムジンバス 月桃号3便 || 15:45 → 17:14 || 1:29
+|-
+| エアポートライナー 43便 || 17:15 → 18:56 || 1:41
+|-
+| 高速リムジンバス 芭蕉号3便 || 17:30 → 19:35 || 2:05
+|-
+| エアポートライナー 47便 || 18:00 → 19:38 || 1:38
+|}
+
+{| class="wikitable"
+|+ ブセナテラス (会場) → 那覇空港
+! バス種別 !! 出発時刻 → 到着時刻 !! 所要時間
+|-
+| 高速リムジンバス 月桃号2便 || 8:06 → 9:45 || 1:39
+|-
+| 高速リムジンバス 月桃号4便 || 9:36 → 11:15 || 1:39
+|-
+| エアポートライナー 14便 || 10:03 → 11:35 || 1:32
+|-
+| 高速リムジンバス 芭蕉号2便 || 10:36 → 12:59 || 2:23
+|-
+| エアポートライナー 18便 || 10:43 → 12:15 || 1:32
+|-
+| エアポートライナー 22便 || 11:23 → 12:55 || 1:32
+|-
+| 高速リムジンバス 月桃号6便 || 12:56 → 14:35 || 1:39
+|-
+| 高速リムジンバス 芭蕉号4便 || 14:06 → 16:29 || 2:23
+|-
+| エアポートライナー 44便 || 15:04 → 16:40 || 1:36
+|-
+| エアポートライナー 48便 || 15:44 → 17:25 || 1:41
+|}
+
+==その他==
+
+=== 写真 ===
+
+* [https://picasaweb.google.com/111401176245823315613/BH1313?authuser=0&amp;authkey=Gv1sRgCOPYnrnK_fzJKg&amp;feat=directlink 岡本さんのアルバム]
+
+=== 名護市の飲食店 ===
+
+名護の市街地へはホテル前のバス停からアクセスできます。バスで20分ぐらい&lt;br>
+[http://buta.nahabus.jp/ryukyubuskotsu/busstop_show.asp?BusStop=1117%20%2000&amp;Keito=120%20%2000 名護市行き時刻表]
+タクシーだと片道2000〜2500円なので、4人で乗ると片道5〜600円程度。&lt;br>
+お勧めの飲食店マップを作りました。[https://mapsengine.google.com/map/edit?mid=zAQcBTU-M8fs.kGO_o4hXHpYE マップ]
+
+=== SPARQLthon のご案内 ===
+
+* これまでとこれからの [[SPARQLthon]]
+
+== オーガナイザー ==
+
+* DBCLS: 金, 川本, 河野, 呉, 王, 岡本, 山口, 山本, 川島, 片山</textarea><div class='templatesUsed'>
+
+</div>
+<p id="mw-returnto"><a href="/mw/BH13.13" title="BH13.13">BH13.13</a>に戻る。</p>
+<div class="printfooter">
+「<a href="http://wiki.lifesciencedb.jp/mw/BH13.13">http://wiki.lifesciencedb.jp/mw/BH13.13</a>」より作成</div>
+		<div id='catlinks' class='catlinks catlinks-allhidden'></div>		<!-- end content -->
+				<div class="visualClear"></div>
+	</div>
+</div></div>
+<div id="column-one">
+	<div id="p-cactions" class="portlet">
+		<h5>表示</h5>
+		<div class="pBody">
+			<ul>
+				 <li id="ca-nstab-main" class="selected"><a href="/mw/BH13.13" title="本文を表示 [c]" accesskey="c">ページ</a></li>
+				 <li id="ca-talk" class="new"><a href="/mw/index.php?title=%E3%83%8E%E3%83%BC%E3%83%88:BH13.13&amp;action=edit&amp;redlink=1" title="記事についての議論 [t]" accesskey="t">議論</a></li>
+				 <li id="ca-viewsource" class="selected"><a href="/mw/index.php?title=BH13.13&amp;action=edit" title="このページは保護されています。&#10;ページのソースを閲覧できます。 [e]" accesskey="e">ソースを表示</a></li>
+				 <li id="ca-history"><a href="/mw/index.php?title=BH13.13&amp;action=history" title="このページの過去の版 [h]" accesskey="h">履歴</a></li>
+			</ul>
+		</div>
+	</div>
+	<div class="portlet" id="p-personal">
+		<h5>個人用ツール</h5>
+		<div class="pBody">
+			<ul>
+				<li id="pt-anonuserpage"><a href="/mw/%E5%88%A9%E7%94%A8%E8%80%85:172.18.8.51" title="自分が編集しているIPアドレスの利用者ページ [.]" accesskey="." class="new">172.18.8.51</a></li>
+				<li id="pt-anontalk"><a href="/mw/%E5%88%A9%E7%94%A8%E8%80%85%E2%80%90%E4%BC%9A%E8%A9%B1:172.18.8.51" title="このIPアドレスからなされた編集についての議論 [n]" accesskey="n" class="new">このIPアドレスのトーク</a></li>
+				<li id="pt-anonlogin"><a href="/mw/index.php?title=%E7%89%B9%E5%88%A5:%E3%83%AD%E3%82%B0%E3%82%A4%E3%83%B3&amp;returnto=BH13.13&amp;returntoquery=action%3Dedit" title="ログインすることが推奨されます。ただし、必須ではありません。 [o]" accesskey="o">ログイン</a></li>
+				<li id="pt-openidlogin"><a href="/mw/index.php?title=%E7%89%B9%E5%88%A5:OpenID%E3%83%AD%E3%82%B0%E3%82%A4%E3%83%B3&amp;returnto=BH13.13">OpenIDでログイン</a></li>
+			</ul>
+		</div>
+	</div>
+	<div class="portlet" id="p-logo">
+		<a style="background-image: url(/mw/images/togowiki-logo.png);" href="/mw/%E3%83%A1%E3%82%A4%E3%83%B3%E3%83%9A%E3%83%BC%E3%82%B8" title="メインページに移動"></a>
+	</div>
+	<script type="text/javascript"> if (window.isMSIE55) fixalpha(); </script>
+	<div class='generated-sidebar portlet' id='p-navigation'>
+		<h5>案内</h5>
+		<div class='pBody'>
+			<ul>
+				<li id="n-mainpage-description"><a href="/mw/%E3%83%A1%E3%82%A4%E3%83%B3%E3%83%9A%E3%83%BC%E3%82%B8" title="メインページに移動する [z]" accesskey="z">メインページ</a></li>
+				<li id="n-portal"><a href="/mw/TogoWiki:%E3%82%B3%E3%83%9F%E3%83%A5%E3%83%8B%E3%83%86%E3%82%A3%E3%83%BB%E3%83%9D%E3%83%BC%E3%82%BF%E3%83%AB" title="このプロジェクトについて、できること、情報を入手する場所">コミュニティ・ポータル</a></li>
+				<li id="n-currentevents"><a href="/mw/TogoWiki:%E6%9C%80%E8%BF%91%E3%81%AE%E5%87%BA%E6%9D%A5%E4%BA%8B" title="最近の出来事について予備知識を得る">最近の出来事</a></li>
+				<li id="n-recentchanges"><a href="/mw/%E7%89%B9%E5%88%A5:%E6%9C%80%E8%BF%91%E3%81%AE%E6%9B%B4%E6%96%B0" title="ウィキにおける最近の更新の一覧 [r]" accesskey="r">最近の更新</a></li>
+				<li id="n-randompage"><a href="/mw/%E7%89%B9%E5%88%A5:%E3%81%8A%E3%81%BE%E3%81%8B%E3%81%9B%E8%A1%A8%E7%A4%BA" title="無作為に抽出されたページの読み込み [x]" accesskey="x">おまかせ表示</a></li>
+				<li id="n-help"><a href="/mw/Help:%E7%9B%AE%E6%AC%A1" title="情報を得る場所">ヘルプ</a></li>
+			</ul>
+		</div>
+	</div>
+	<div id="p-search" class="portlet">
+		<h5><label for="searchInput">検索</label></h5>
+		<div id="searchBody" class="pBody">
+			<form action="/mw/index.php" id="searchform">
+				<input type='hidden' name="title" value="特別:検索"/>
+				<input id="searchInput" title="TogoWiki内を検索" accesskey="f" type="search" name="search" />
+				<input type='submit' name="go" class="searchButton" id="searchGoButton"	value="表示" title="厳密に一致する名前のページが存在すれば、そのページへ移動します" />&nbsp;
+				<input type='submit' name="fulltext" class="searchButton" id="mw-searchButton" value="検索" title="入力された文字列が含まれるページを検索します" />
+			</form>
+		</div>
+	</div>
+	<div class="portlet" id="p-tb">
+		<h5>ツールボックス</h5>
+		<div class="pBody">
+			<ul>
+				<li id="t-whatlinkshere"><a href="/mw/%E7%89%B9%E5%88%A5:%E3%83%AA%E3%83%B3%E3%82%AF%E5%85%83/BH13.13" title="ここにリンクしている全ウィキのページの一覧 [j]" accesskey="j">リンク元</a></li>
+				<li id="t-recentchangeslinked"><a href="/mw/%E7%89%B9%E5%88%A5:%E9%96%A2%E9%80%A3%E3%83%9A%E3%83%BC%E3%82%B8%E3%81%AE%E6%9B%B4%E6%96%B0%E7%8A%B6%E6%B3%81/BH13.13" title="このページからリンクしているページの最近の更新 [k]" accesskey="k">関連ページの更新状況</a></li>
+<li id="t-specialpages"><a href="/mw/%E7%89%B9%E5%88%A5:%E7%89%B9%E5%88%A5%E3%83%9A%E3%83%BC%E3%82%B8%E4%B8%80%E8%A6%A7" title="特別ページの一覧 [q]" accesskey="q">特別ページ</a></li>
+			</ul>
+		</div>
+	</div>
+</div><!-- end of the left (by default at least) column -->
+<div class="visualClear"></div>
+<div id="footer">
+	<div id="f-poweredbyico"><a href="http://www.mediawiki.org/"><img src="/mw/skins/common/images/poweredby_mediawiki_88x31.png" height="31" width="88" alt="Powered by MediaWiki" /></a></div>
+	<div id="f-copyrightico"><a href="http://creativecommons.org/licenses/by/3.0/"><img src="http://i.creativecommons.org/l/by/3.0/88x31.png" alt="Attribution 3.0 Unported" width="88" height="31" /></a></div>
+	<ul id="f-list">
+		<li id="privacy"><a href="/mw/TogoWiki:%E3%83%97%E3%83%A9%E3%82%A4%E3%83%90%E3%82%B7%E3%83%BC%E3%83%BB%E3%83%9D%E3%83%AA%E3%82%B7%E3%83%BC" title="TogoWiki:プライバシー・ポリシー">プライバシー・ポリシー</a></li>
+		<li id="about"><a href="/mw/TogoWiki:TogoWiki%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6" title="TogoWiki:TogoWikiについて">TogoWikiについて</a></li>
+		<li id="disclaimer"><a href="/mw/TogoWiki:%E5%85%8D%E8%B2%AC%E4%BA%8B%E9%A0%85" title="TogoWiki:免責事項">免責事項</a></li>
+	</ul>
+</div>
+</div>
+
+<script>if (window.runOnloadHook) runOnloadHook();</script>
+<!-- Served in 0.364 secs. --></body></html>

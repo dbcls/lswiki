@@ -1,0 +1,555 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html lang="ja" dir="ltr">
+<head>
+<title>BH13.13/glycodb - TogoWiki</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta name="generator" content="MediaWiki 1.16.3" />
+<link rel="shortcut icon" href="/favicon.ico" />
+<link rel="search" type="application/opensearchdescription+xml" href="/mw/opensearch_desc.php" title="TogoWiki (ja)" />
+<link title="Creative Commons" type="application/rdf+xml" href="/mw/index.php?title=BH13.13/glycodb&amp;action=creativecommons" rel="meta" />
+<link rel="copyright" href="http://creativecommons.org/licenses/by/3.0/" />
+<link rel="alternate" type="application/atom+xml" title="TogoWikiのAtomフィード" href="/mw/index.php?title=%E7%89%B9%E5%88%A5:%E6%9C%80%E8%BF%91%E3%81%AE%E6%9B%B4%E6%96%B0&amp;feed=atom" />
+<link rel="stylesheet" href="/mw/skins/common/shared.css?270" media="screen" />
+<link rel="stylesheet" href="/mw/skins/common/commonPrint.css?270" media="print" />
+<link rel="stylesheet" href="/mw/skins/monobook/main.css?270" media="screen" />
+<!--[if lt IE 5.5000]><link rel="stylesheet" href="/mw/skins/monobook/IE50Fixes.css?270" media="screen" /><![endif]-->
+<!--[if IE 5.5000]><link rel="stylesheet" href="/mw/skins/monobook/IE55Fixes.css?270" media="screen" /><![endif]-->
+<!--[if IE 6]><link rel="stylesheet" href="/mw/skins/monobook/IE60Fixes.css?270" media="screen" /><![endif]-->
+<!--[if IE 7]><link rel="stylesheet" href="/mw/skins/monobook/IE70Fixes.css?270" media="screen" /><![endif]-->
+<link rel="stylesheet" href="/mw/index.php?title=MediaWiki:Common.css&amp;usemsgcache=yes&amp;ctype=text%2Fcss&amp;smaxage=18000&amp;action=raw&amp;maxage=18000" />
+<link rel="stylesheet" href="/mw/index.php?title=MediaWiki:Print.css&amp;usemsgcache=yes&amp;ctype=text%2Fcss&amp;smaxage=18000&amp;action=raw&amp;maxage=18000" media="print" />
+<link rel="stylesheet" href="/mw/index.php?title=MediaWiki:Monobook.css&amp;usemsgcache=yes&amp;ctype=text%2Fcss&amp;smaxage=18000&amp;action=raw&amp;maxage=18000" />
+<link rel="stylesheet" href="/mw/index.php?title=-&amp;action=raw&amp;maxage=18000&amp;gen=css" />
+<script>
+var skin="monobook",
+stylepath="/mw/skins",
+wgUrlProtocols="http\\:\\/\\/|https\\:\\/\\/|ftp\\:\\/\\/|irc\\:\\/\\/|gopher\\:\\/\\/|telnet\\:\\/\\/|nntp\\:\\/\\/|worldwind\\:\\/\\/|mailto\\:|news\\:|svn\\:\\/\\/",
+wgArticlePath="/mw/$1",
+wgScriptPath="/mw",
+wgScriptExtension=".php",
+wgScript="/mw/index.php",
+wgVariantArticlePath=false,
+wgActionPaths={},
+wgServer="http://wiki.lifesciencedb.jp",
+wgCanonicalNamespace="",
+wgCanonicalSpecialPageName=false,
+wgNamespaceNumber=0,
+wgPageName="BH13.13/glycodb",
+wgTitle="BH13.13/glycodb",
+wgAction="view",
+wgArticleId=351,
+wgIsArticle=true,
+wgUserName=null,
+wgUserGroups=null,
+wgUserLanguage="ja",
+wgContentLanguage="ja",
+wgBreakFrames=false,
+wgCurRevisionId=12268,
+wgVersion="1.16.3",
+wgEnableAPI=true,
+wgEnableWriteAPI=true,
+wgSeparatorTransformTable=["", ""],
+wgDigitTransformTable=["", ""],
+wgMainPageTitle="メインページ",
+wgFormattedNamespaces={"-2": "メディア", "-1": "特別", "0": "", "1": "ノート", "2": "利用者", "3": "利用者‐会話", "4": "TogoWiki", "5": "TogoWiki‐ノート", "6": "ファイル", "7": "ファイル‐ノート", "8": "MediaWiki", "9": "MediaWiki‐ノート", "10": "Template", "11": "Template‐ノート", "12": "Help", "13": "Help‐ノート", "14": "Category", "15": "Category‐ノート"},
+wgNamespaceIds={"メディア": -2, "特別": -1, "": 0, "ノート": 1, "利用者": 2, "利用者‐会話": 3, "togowiki": 4, "togowiki‐ノート": 5, "ファイル": 6, "ファイル‐ノート": 7, "mediawiki": 8, "mediawiki‐ノート": 9, "template": 10, "template‐ノート": 11, "help": 12, "help‐ノート": 13, "category": 14, "category‐ノート": 15, "画像": 6, "画像‐ノート": 7, "image": 6, "image_talk": 7},
+wgSiteName="TogoWiki",
+wgCategories=[],
+wgRestrictionEdit=[],
+wgRestrictionMove=[];
+</script><script src="/mw/skins/common/wikibits.js?270"></script>
+<script src="/mw/skins/common/ajax.js?270"></script>
+<script src="/mw/index.php?title=-&amp;action=raw&amp;gen=js&amp;useskin=monobook&amp;270"></script>
+
+		<style type='text/css'>
+		li#pt-openidlogin {
+		  background: url(/mw/extensions/OpenID/skin/icons/openid-inputicon.png) top left no-repeat;
+		  padding-left: 20px;
+		  text-transform: none;
+		}
+		</style>
+</head>
+<body class="mediawiki ltr ns-0 ns-subject page-BH13_13_glycodb skin-monobook">
+<div id="globalWrapper">
+<div id="column-content"><div id="content" >
+	<a id="top"></a>
+	
+	<h1 id="firstHeading" class="firstHeading">BH13.13/glycodb</h1>
+	<div id="bodyContent">
+		<h3 id="siteSub">提供：TogoWiki</h3>
+		<div id="contentSub"></div>
+		<div id="jump-to-nav">移動： <a href="#column-one">案内</a>, <a href="#searchInput">検索</a></div>
+		<!-- start content -->
+<table id="toc" class="toc"><tr><td><div id="toctitle"><h2>目次</h2></div>
+<ul>
+<li class="toclevel-1 tocsection-1"><a href="#.E7.B3.96.E9.8E.96.E3.83.87.E3.83.BC.E3.82.BF.E3.83.99.E3.83.BC.E3.82.B9"><span class="tocnumber">1</span> <span class="toctext">糖鎖データベース</span></a>
+<ul>
+<li class="toclevel-2 tocsection-2"><a href="#.E7.B3.96.E9.8E.96.E3.81.AE.E9.80.A3.E6.90.BA"><span class="tocnumber">1.1</span> <span class="toctext">糖鎖の連携</span></a>
+<ul>
+<li class="toclevel-3 tocsection-3"><a href="#.E3.83.A1.E3.82.BF.E3.83.9C.E3.83.AD.E3.83.BC.E3.83.A0.E3.81.A8.E7.B3.96.E9.8E.96"><span class="tocnumber">1.1.1</span> <span class="toctext">メタボロームと糖鎖</span></a>
+<ul>
+<li class="toclevel-4 tocsection-4"><a href="#.E3.83.A1.E3.83.B3.E3.83.90.E3.83.BC"><span class="tocnumber">1.1.1.1</span> <span class="toctext">メンバー</span></a></li>
+</ul>
+</li>
+<li class="toclevel-3 tocsection-5"><a href="#.E6.84.9F.E6.9F.93.E7.97.87.E3.81.A8.E7.B3.96.E9.8E.96"><span class="tocnumber">1.1.2</span> <span class="toctext">感染症と糖鎖</span></a>
+<ul>
+<li class="toclevel-4 tocsection-6"><a href="#.E3.83.A1.E3.83.B3.E3.83.90.E3.83.BC_2"><span class="tocnumber">1.1.2.1</span> <span class="toctext">メンバー</span></a></li>
+<li class="toclevel-4 tocsection-7"><a href="#.E7.9B.AE.E7.9A.84"><span class="tocnumber">1.1.2.2</span> <span class="toctext">目的</span></a></li>
+</ul>
+</li>
+<li class="toclevel-3 tocsection-8"><a href="#.E7.92.B0.E5.A2.83.E5.BE.AE.E7.94.9F.E7.89.A9.E3.81.A8.E7.B3.96.E9.8E.96"><span class="tocnumber">1.1.3</span> <span class="toctext">環境微生物と糖鎖</span></a>
+<ul>
+<li class="toclevel-4 tocsection-9"><a href="#.E3.83.A1.E3.83.B3.E3.83.90.E3.83.BC_3"><span class="tocnumber">1.1.3.1</span> <span class="toctext">メンバー</span></a></li>
+<li class="toclevel-4 tocsection-10"><a href="#.E7.9B.AE.E7.9A.84_2"><span class="tocnumber">1.1.3.2</span> <span class="toctext">目的</span></a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toclevel-2 tocsection-11"><a href="#.E7.B3.96.E9.8E.96.E6.A7.8B.E9.80.A0.E6.A8.99.E6.BA.96.E5.8C.96"><span class="tocnumber">1.2</span> <span class="toctext">糖鎖構造標準化</span></a>
+<ul>
+<li class="toclevel-3 tocsection-12"><a href="#.E8.84.82.E8.B3.AA"><span class="tocnumber">1.2.1</span> <span class="toctext">脂質</span></a></li>
+</ul>
+</li>
+<li class="toclevel-2 tocsection-13"><a href="#.E7.B3.96.E9.8E.96.E3.81.AERDF.E5.8C.96"><span class="tocnumber">1.3</span> <span class="toctext">糖鎖のRDF化</span></a>
+<ul>
+<li class="toclevel-3 tocsection-14"><a href="#.E7.B3.96.E8.B3.AA.E6.A7.8B.E9.80.A0.E3.81.AERDF"><span class="tocnumber">1.3.1</span> <span class="toctext">糖質構造のRDF</span></a>
+<ul>
+<li class="toclevel-4 tocsection-15"><a href="#.E3.83.A1.E3.83.B3.E3.83.90.E3.83.BC_4"><span class="tocnumber">1.3.1.1</span> <span class="toctext">メンバー</span></a></li>
+</ul>
+</li>
+<li class="toclevel-3 tocsection-16"><a href="#.E3.83.97.E3.83.AD.E3.83.86.E3.82.A4.E3.83.B3.E5.90.8D.E3.81.8B.E3.82.89ID"><span class="tocnumber">1.3.2</span> <span class="toctext">プロテイン名からID</span></a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</td></tr></table><script>if (window.showTocToggle) { var tocShowText = "表示"; var tocHideText = "非表示"; showTocToggle(); } </script>
+<h1> <span class="mw-headline" id=".E7.B3.96.E9.8E.96.E3.83.87.E3.83.BC.E3.82.BF.E3.83.99.E3.83.BC.E3.82.B9">糖鎖データベース</span></h1>
+<h2> <span class="mw-headline" id=".E7.B3.96.E9.8E.96.E3.81.AE.E9.80.A3.E6.90.BA">糖鎖の連携</span></h2>
+<h3> <span class="mw-headline" id=".E3.83.A1.E3.82.BF.E3.83.9C.E3.83.AD.E3.83.BC.E3.83.A0.E3.81.A8.E7.B3.96.E9.8E.96">メタボロームと糖鎖</span></h3>
+<h4> <span class="mw-headline" id=".E3.83.A1.E3.83.B3.E3.83.90.E3.83.BC">メンバー</span></h4>
+<dl><dd>金谷（金谷G）　有田（金谷G）　山田（糖鎖G）櫻井（金谷G）<br />
+</dd></dl>
+<p><b>目的</b><br />
+</p>
+<dl><dd>これまで糖鎖Gでは、曖昧な構造を含む糖鎖構造を一意の線形文字列で表記できる表記法としてWURCSを開発してきた。WURCSは糖質部分構造のみを文字列化するので文字列一致により同じ糖質が含まれるかを容易に判断することができる。これまでに糖鎖データベース以外に、PDB、ChEBIなどのデータについてWURCSへの変換を行ってきた。今回は、金谷Gの糖質が含まれる可能性のある低分子データ（フラボノイド、KNApSAcK）をMolfileToWURCS(Molfile形式からWURCSへ変換するソフト: java)でWURCSに変換し、どの程度糖質が含まれるか調査・検討する。<br />
+</dd></dl>
+<p><br /><br />
+<b><a href="http://metabolomics.jp/wiki/" class="external text" rel="nofollow">フラボノイド データベース</a>データの中の糖質を見つける</b><br />
+<b>2014/1/27</b><br />
+</p>
+<dl><dd>有田さんのフラボノイド（FL）のMolfileをWURCSへ変換（Molfile: 有田→山田）。<br />
+<dl><dd>（現時点のWURCS生成プログラムでは、FLの表記法によりMolfileの単糖の種類（立体）を考慮できない問題がある）<br />
+</dd></dl>
+</dd></dl>
+<p><b>2014/1/28 &amp; 30</b><br />
+</p>
+<dl><dd>フラボノイドIDとWURCSをローカルDBへ登録<br />
+</dd><dd>WURCS変換結果：<br />
+</dd></dl>
+<dl><dd><dl><dd><table>
+<tr>
+<td>  フラボノイド分子数    </td><td>   5479
+</td></tr>
+<tr>
+<td>   WURCSが生成されたフラボノイドID    </td><td>   3246
+</td></tr>
+<tr>
+<td>   生成されたWURCS（糖質）   </td><td> 3963
+</td></tr>
+<tr>
+<td>   WURCS（糖質）の種類   </td><td> 1435
+</td></tr></table></dd></dl></dd></dl>
+<p><br />
+</p>
+<pre>FL1A1AGM0001        WURCS=1.0/1,0/[1X11Xm|1,5]</pre>
+<pre>FL7AAAGL0052        WURCS=1.0/5,4/[12X2Xh|1,5][1X12Xh|1,5][1X12Xh|1,5][12X2Xh|1,5][1X12Xh|1,5]1+1-2,2+6-1*OCC=^EC(C^ECC^ZCC^ZC$6)/9O/8O*/3=O|2+1-2,5+6-1*OCC=^EC(CC^ECC^ECC^Z$6)/9O*/8O/3=O|3+1-2,4+6-1*OCC=^EC(CC^ECC^ECC^Z$6)/9O/8O*/3=O|4+1,5+2</pre>
+<dl><dd><dl><dd><dl><dd><dl><dd><a href="http://metabolomics.jp/wiki/FL1A1AGM0001" class="external free" rel="nofollow">http://metabolomics.jp/wiki/FL1A1AGM0001</a><br />
+</dd><dd><a href="http://metabolomics.jp/wiki/FL7AAAGL0052" class="external free" rel="nofollow">http://metabolomics.jp/wiki/FL7AAAGL0052</a> <br />
+</dd></dl>
+</dd></dl>
+</dd></dl>
+</dd><dd>結果<br />
+</dd></dl>
+<pre>
+同一の糖質部分構造を持つフラボノイドデータの例：
+
+ID                                 WURCS
+
+FL5FACGS0045        WURCS=1.0/1,0/[1XX2Xa|1,5]
+FL5FFCGS0007        WURCS=1.0/1,0/[1XX2Xa|1,5]
+
+FL3FACGS0068        WURCS=1.0/1,0/[1XX2Xa|1,5|3*OCC/3=O]
+                                              ↑　上記単糖に”3*OCC/3=O”が修飾されている構造の例
+</pre>
+<dl><dd><dl><dd>フラボノイド分子のMolfileからWURCSが生成されたが、FLのIDをもとにすると糖を含まない分子が475分子含まれていた。<br />
+<dl><dd>例）<a href="http://metabolomics.jp/wiki/FL1B19NF0002" class="external free" rel="nofollow">http://metabolomics.jp/wiki/FL1B19NF0002</a><br />
+</dd><dd>WURCS=1.0/1,0/[UbH|1-2,2:x-1*O(C^ECC^ZCC^ECC^ZCO$7/8$3)/4*|1*O|2:x*OC|3*(CC^ZCCCC$2)]<br />
+</dd></dl>
+</dd><dd>これらのフラボノイドについて、WURCSにおける対応を今後検討する<br />
+</dd></dl>
+</dd></dl>
+<p><br />
+<b><a href="http://kanaya.naist.jp/KNApSAcK/" class="external text" rel="nofollow">KAApSAcK</a>データの中の糖質を見つける</b><br />
+金谷さんのKNApSAcKの5万件（1000分子毎に分割）molデータをMol2WURCSソフトでWURCSへ変換（Molfile: 金谷→山田）<br />
+</p>
+<dl><dd>結果：<br />
+<dl><dd>KS_00Kmol~KS_08Kmol =&gt; OK<br />
+</dd><dd>KS_09Kmolで以下の分子からWURCS生成に問題がありそう？<br />
+<dl><dd><dl><dd><a href="http://kanaya.naist.jp/knapsack_jsp/information.jsp?word=C00009344" class="external free" rel="nofollow">http://kanaya.naist.jp/knapsack_jsp/information.jsp?word=C00009344</a><br />
+</dd><dd>KS_09Kmolは、C00009344以外はOK(~999)<br />
+</dd></dl>
+</dd></dl>
+</dd><dd>KS_10Kmol~KS_33Kmol =&gt; OK<br />
+<dl><dd>KS_34KmolでWURCS生成に時間がかかっているので強制終了。(~52/1000)<br />
+<dl><dd><a href="http://kanaya.naist.jp/knapsack_jsp/information.jsp?word=C00034052" class="external free" rel="nofollow">http://kanaya.naist.jp/knapsack_jsp/information.jsp?word=C00034052</a><br />
+</dd></dl>
+</dd><dd>KS_35KmolでWURCS生成に時間がかかっているので強制終了。(~350/1000)<br />
+<dl><dd><a href="http://kanaya.naist.jp/knapsack_jsp/information.jsp?word=C00035350" class="external free" rel="nofollow">http://kanaya.naist.jp/knapsack_jsp/information.jsp?word=C00035350</a><br />
+</dd></dl>
+</dd></dl>
+</dd><dd>KS_36Kmol~KS_50Kmol =&gt; OK<br />
+</dd></dl>
+</dd></dl>
+<p><b>2014/1/29</b><br />
+</p>
+<dl><dd><dl><dd>KS_34Kmolは、C00034052は２時間３０分でWURCS生成できた。<br />
+</dd><dd>KS_35Kmolは、C00035350は１時間以内でWURCS生成できた。<br />
+</dd><dd>KS_09Kmolの、C00009344は２時間３０分でWURCS生成できた。<br />
+</dd></dl>
+</dd></dl>
+<p><br />
+</p>
+<dl><dd>結果：KNApSAcKのMolfileでWURCSのルールで糖質とみなす構造をすべてWURCSへ変換することができた。<br />
+</dd></dl>
+<p><b>2014/1/30</b><br />
+</p>
+<dl><dd> KNApSAcKから生成されたWURCSをローカルDBへ登録（山田）<br />
+</dd></dl>
+<dl><dd><dl><dd><table>
+<tr>
+<td>  KNApSAcK分子数    </td><td>   50000？
+</td></tr>
+<tr>
+<td>   WURCSが生成されたKNApSAcK-ID    </td><td>   17207
+</td></tr>
+<tr>
+<td>   生成されたWURCS（糖質）   </td><td> 19623
+</td></tr>
+<tr>
+<td>   WURCS（糖質）の種類   </td><td> 11050
+</td></tr>
+<tr>
+<td>   分子内にあるWURCSとその個数のパターンの種類（櫻井）  </td><td> 11307
+</td></tr></table></dd></dl></dd></dl>
+<pre>
+C00040128
+WURCS=1.0/9,8/[12211m|1,5][1211h|1,4][adXdXXdm|1*=O|6*C][adXdXXdm|1*=O|6*C][122h|1,4|3*CO|3*O][X212h|1,5][12122h|1,5][12211m|1,5][12112m|1,5]1+1,2+2|2+1,3+5|3+1,4+5|4+1,9+3|5+1,6+3|6+1,8+4|7+1,8+3|8+1,9+2
+</pre>
+<pre>
+同一の糖質部分構造を持つKNApSAcKデータの例：
+
+KNApSAcK-ID     WURCS
+
+C00033248        WURCS=1.0/5,4/[1212h|1,5][1211h|1,5][12122h|1,5][12211m|1,5][12112h|1,5]1+1,3+3|2+1,3+2|3+1,5+4|4+1,5+2
+C00033249        WURCS=1.0/5,4/[1212h|1,5][1211h|1,5][12122h|1,5][12211m|1,5][12112h|1,5]1+1,3+3|2+1,3+2|3+1,5+4|4+1,5+2
+C00041869        WURCS=1.0/5,4/[1212h|1,5][1211h|1,5][12122h|1,5][12211m|1,5][12112h|1,5]1+1,3+3|2+1,3+2|3+1,5+4|4+1,5+2
+C00041870        WURCS=1.0/5,4/[1212h|1,5][1211h|1,5][12122h|1,5][12211m|1,5][12112h|1,5]1+1,3+3|2+1,3+2|3+1,5+4|4+1,5+2
+</pre>
+<dl><dd><dl><dd><dl><dd><a href="http://kanaya.naist.jp/knapsack_jsp/information.jsp?word=C00041870" class="external free" rel="nofollow">http://kanaya.naist.jp/knapsack_jsp/information.jsp?word=C00041870</a>
+</dd></dl>
+</dd></dl>
+</dd></dl>
+<p><br />
+<b>2014/1/31</b><br />
+</p>
+<dl><dd> ChEBIの構造からWURCS生成（山田）<br />
+</dd></dl>
+<p>メタボロームデータのアノテーションツールとしての可能性を検討<br />
+</p>
+<h3> <span class="mw-headline" id=".E6.84.9F.E6.9F.93.E7.97.87.E3.81.A8.E7.B3.96.E9.8E.96">感染症と糖鎖</span></h3>
+<h4> <span class="mw-headline" id=".E3.83.A1.E3.83.B3.E3.83.90.E3.83.BC_2">メンバー</span></h4>
+<p>新町
+奥田
+山本
+</p>
+<h4> <span class="mw-headline" id=".E7.9B.AE.E7.9A.84">目的</span></h4>
+<p>細菌が生産する糖鎖構造の多様性を調べるためのスキームを作成する。
+</p>
+<dl><dd>BCSDB（<a href="http://csdb.glycoscience.ru/bacterial/）" class="external free" rel="nofollow">http://csdb.glycoscience.ru/bacterial/）</a>
+<dl><dd>糖鎖構造(10503 compound)とそのバクテリア菌株(5810 strain)の対応関係
+</dd><dd>菌株名と疾患名との関係
+</dd></dl>
+</dd><dd>PDO（<a href="http://bioportal.bioontology.org/ontologies/PDO）" class="external free" rel="nofollow">http://bioportal.bioontology.org/ontologies/PDO）</a>
+<dl><dd>ヒトに感染するバクテリアの感染症のオントロジー
+</dd></dl>
+</dd></dl>
+<p>BCSDBとPDOとの連携
+</p>
+<dl><dd>BCSDBの疾患名をPDOのオントロジーにマッピング
+</dd></dl>
+<p><b>2014/1/27、28</b><br />
+</p>
+<dl><dd>BCSDBから、生物種と糖鎖構造、生物種とその疾患との関係を取得
+</dd><dd>BCSDBに登録されている疾患の記述とPDOの記述に対応付けを実施
+</dd><dd>半自動的にプログラムで対応を取った後、手作業ですべてチェック
+<dl><dd>BCSDBの疾患名はタイポが多い（20%くらい?）
+</dd><dd>疾患名ではなく、症状も記述されている
+</dd></dl>
+</dd></dl>
+<p><b>2014/1/29、30</b><br />
+</p>
+<dl><dd>対応の取れなかった疾患の中からPDOに新規に登録出来るものをチェック（山本）
+</dd><dd>疾患から糖鎖構造を推測するためのSPARQLの開発
+<dl><dd>糖鎖構造153種類（GlycoCT）、バクテリア:295株　
+</dd><dd>糖鎖構造が思いの外少ない 
+</dd></dl>
+</dd></dl>
+<p><b>2014/1/31</b><br />
+</p>
+<dl><dd>各疾患毎の糖鎖構造をSPARQLで取り出すことができた。
+</dd><dd>糖鎖構造のリストから部分構造抽出について検討
+</dd></dl>
+<p><a href="/mw/%E3%83%95%E3%82%A1%E3%82%A4%E3%83%AB:BCSDB_PDO.mapping.png" class="image"><img alt="BCSDB PDO.mapping.png" src="/mw/images/thumb/b/b6/BCSDB_PDO.mapping.png/400px-BCSDB_PDO.mapping.png" width="400" height="225" /></a>
+</p>
+<pre>
+病気と生物種（バクテリア）と生物種の持つ糖鎖を取得するクエリ（ホストはヒト）:
+prefix glyco: &lt;http://purl.jp/bio/12/glyco/glycan/&gt; 
+prefix dcterms: &lt;http://purl.org/dc/terms/&gt;
+prefix bibo: &lt;http://purl.org/ontology/bibo/&gt;
+prefix glycodb: &lt;http://purl.jp/bio/12/database/&gt;
+prefix uniprot: &lt;http://purl.uniprot.org/core/&gt;
+
+select distinct  &nbsp;?label&nbsp;?name&nbsp;?seq&nbsp;?img
+from &lt;http://csdb.glycoscience.ru/integration/bcsdb&gt;
+from &lt;http://csdb.glycoscience.ru/integration/image&gt;
+from &lt;http://csdb.glycoscience.ru/integration/bcsdb/pdo/mapping&gt;
+from &lt;http://purl.bioontology.org/ontology/PDO&gt;
+where
+{
+
+
+?o a glyco:source_natural&nbsp;;
+   glyco:has_taxon&nbsp;?tax&nbsp;;
+   glyco:hosted_by&nbsp;?host&nbsp;;
+   glyco:has_reference&nbsp;?ref .
+
+?tax a uniprot:taxon&nbsp;;
+     uniprot:scientificName&nbsp;?name .
+
+?host a glyco:source_natural&nbsp;;
+      glyco:has_taxon &lt;http://purl.uniprot.org/taxonomy/9606&gt;&nbsp;;
+      glyco:has_disease&nbsp;?dise .
+
+?dise rdfs:seeAlso&nbsp;?pdo .
+ 
+
+?pdo rdfs:label&nbsp;?label .
+
+?ref a glyco:referenced_compound&nbsp;;
+     glyco:has_glycan&nbsp;?glycan .
+
+?glycan owl:sameAs&nbsp;?sameAs .
+?sameAs glyco:has_image&nbsp;?img .
+
+?glycan glyco:has_glycosequence&nbsp;?gseq .
+?gseq glyco:has_sequence&nbsp;?seq&nbsp;;
+      glyco:in_carbohydrate_format glyco:glycoct .
+
+
+} group by&nbsp;?label 
+ limit 20
+</pre>
+<p><br />
+</p>
+<h3> <span class="mw-headline" id=".E7.92.B0.E5.A2.83.E5.BE.AE.E7.94.9F.E7.89.A9.E3.81.A8.E7.B3.96.E9.8E.96">環境微生物と糖鎖</span></h3>
+<h4> <span class="mw-headline" id=".E3.83.A1.E3.83.B3.E3.83.90.E3.83.BC_3">メンバー</span></h4>
+<p>新町
+奥田
+</p>
+<h4> <span class="mw-headline" id=".E7.9B.AE.E7.9A.84_2">目的</span></h4>
+<p>環境中で合成される糖鎖構造の多様性について調べるためのスキーム開発
+</p>
+<dl><dd>「疾患と糖鎖」で作成したスキームでのPDOの部分をTaxonomyあるいは環境微生物の情報に置き換えて対応
+<dl><dd>Taxonomyの階層と糖鎖構造の関係
+<dl><dd>各taxonでの糖鎖構造のプロファイル
+</dd></dl>
+</dd><dd>環境と棲息する微生物種の対応関係（MicrobeDBからなど）
+<dl><dd>環境による糖鎖構造の多様性の違い
+</dd></dl>
+</dd></dl>
+</dd></dl>
+<h2> <span class="mw-headline" id=".E7.B3.96.E9.8E.96.E6.A7.8B.E9.80.A0.E6.A8.99.E6.BA.96.E5.8C.96">糖鎖構造標準化</span></h2>
+<h3> <span class="mw-headline" id=".E8.84.82.E8.B3.AA">脂質</span></h3>
+<dl><dd>脂質の表記方法はある程度決まっているが国際標準化はない（有田さんから）<br />
+</dd><dd>文献に記載されている脂質の構造情報もこれまで蓄積された実験的な事実を考慮して記載されている場合が多いらしい。<br />
+</dd></dl>
+<h2> <span class="mw-headline" id=".E7.B3.96.E9.8E.96.E3.81.AERDF.E5.8C.96">糖鎖のRDF化</span></h2>
+<h3> <span class="mw-headline" id=".E7.B3.96.E8.B3.AA.E6.A7.8B.E9.80.A0.E3.81.AERDF">糖質構造のRDF</span></h3>
+<h4> <span class="mw-headline" id=".E3.83.A1.E3.83.B3.E3.83.90.E3.83.BC_4">メンバー</span></h4>
+<p>山田<br /><br />
+<b>2014/1/30</b><br />
+</p>
+<dl><dd> Virtuoso v7をMacにインストール<br />
+</dd><dd> Virtuoso へBCSDBのデータを入れた<br />
+</dd></dl>
+<p><b>2014/1/31</b><br />
+</p>
+<dl><dd> KNApSAcK, Flavonoid Database, ChEBIから生成されたWURCSでトリプル作成<br />
+</dd></dl>
+<pre>
+WURCSで用いるURIサンプル
+http://purl.jp//bio/12/glyco/wurcs/WURCS文字列
+</pre>
+<ul><li>サンプルデータ
+</li></ul>
+<pre>
+sample of triple:
+@prefix glyco: &lt;http://purl.jp/bio/12/glyco/glycan/&gt; .
+@prefix xsd: &lt;http://www.w3.org/2001/XMLSchema#&gt; .
+&lt;http://kanaya.naist.jp/knapsack_jsp/information.jsp?word=C00043421&gt;
+    a glyco:glycosequence&nbsp;;
+    glyco:has_sequence &quot;WURCS%3D1.0%2F1%2C0%2F%5B1111deeA%7C1%2C2%7C4-1%2C8-2%2AOCC%5ESOCC%5ERCNCC%5ERN%2A%2F11C%28C%5EZCC%5EZCC%5EZC%2415%29%2F18OC%2F17Cl%2F10%3DO%2F7C%2F6%3DO%2F4CCC%2F29C%2F3%3DO%7C1%2A%28C%29%7C3%2AC%7C8%2A%3DO%5D”^^xsd:string&nbsp;;
+    glyco:in_carbohydrate_format glyco:wurcs . 
+</pre>
+<p><br />
+</p>
+<dl><dd> Virtuoso へKNApSAcK, Flavonoid Database, ChEBIのデータを入れた<br />
+</dd></dl>
+<ul><li>全WURCS取得SPARQLクエリ
+</li></ul>
+<pre>
+SELECT &nbsp;?dburi&nbsp;?wurcs
+WHERE   {&nbsp;?dburi &lt;http://purl.jp/bio/12/glyco/glycan/has_sequence&gt;&nbsp;?wurcs
+          FILTER regex(?wurcs, &quot;WURCS&quot;)  }
+</pre>
+<ul><li>“[12122h|1,5”の部分構造(beta-glucopyranose b-Glcp)を含む糖質取得SPARQLクエリ
+</li></ul>
+<pre>
+SELECT &nbsp;?dburi&nbsp;?wurcs
+WHERE   {&nbsp;?dburi &lt;http://purl.jp/bio/12/glyco/glycan/has_sequence&gt;&nbsp;?wurcs
+          FILTER regex(?wurcs, &quot;%2F%5B12122h%7C1%2C5&quot;) }
+</pre>
+<ul><li>beta-glucopyranose (b-Glcp)<br />
+</li></ul>
+<p>を含むDBIDを取得するSPARQLクエリ
+</p>
+<pre>http://purl.jp//bio/12/glyco/wurcs/WURCS=1.0/1,0/[12122h|1,5]</pre>
+<pre>
+SELECT &nbsp;?dburi
+WHERE   {&nbsp;?dburi &lt;http://purl.jp/bio/12/glyco/glycan/has_sequence&gt; &lt;http://purl.jp/bio/12/glyco/wurcs/WURCS%3D1.0%2F1%2C0%2F%5B12122h%7C1%2C5%5D&gt; }
+</pre>
+<h3> <span class="mw-headline" id=".E3.83.97.E3.83.AD.E3.83.86.E3.82.A4.E3.83.B3.E5.90.8D.E3.81.8B.E3.82.89ID">プロテイン名からID</span></h3>
+<ul><li>プロテイン名からUniprotのIDを調べるSPARQL<br />
+</li></ul>
+<p>エンドポイントURL: <a href="http://beta.sparql.uniprot.org/" class="external free" rel="nofollow">http://beta.sparql.uniprot.org/</a>
+</p>
+<pre>
+SELECT&nbsp;?uniprot_id 
+WHERE
+{
+ ?id&nbsp;?label &quot;ConA&quot; .
+ ?uniprot_id&nbsp;?p&nbsp;?id .
+ ?uniprot_id a &lt;http://purl.uniprot.org/core/Protein&gt;
+}
+</pre>
+<p><a href="http://wiki.lifesciencedb.jp/mw/index.php/BH12.12/SPARQLthon/SPARQLendpoints" class="external free" rel="nofollow">http://wiki.lifesciencedb.jp/mw/index.php/BH12.12/SPARQLthon/SPARQLendpoints</a>
+</p><p>を参考にする。
+</p>
+<hr />
+<p>back to <a href="/mw/BH13.13" title="BH13.13">BH13.13</a>
+</p>
+<!-- 
+NewPP limit report
+Preprocessor node count: 173/1000000
+Post-expand include size: 0/2097152 bytes
+Template argument size: 0/2097152 bytes
+Expensive parser function count: 0/100
+-->
+
+<!-- Saved in parser cache with key wikidb-togowiki_:pcache:idhash:351-0!1!0!!ja!2!edit=0 and timestamp 20230605011621 -->
+<div class="printfooter">
+「<a href="http://wiki.lifesciencedb.jp/mw/BH13.13/glycodb">http://wiki.lifesciencedb.jp/mw/BH13.13/glycodb</a>」より作成</div>
+		<div id='catlinks' class='catlinks catlinks-allhidden'></div>		<!-- end content -->
+				<div class="visualClear"></div>
+	</div>
+</div></div>
+<div id="column-one">
+	<div id="p-cactions" class="portlet">
+		<h5>表示</h5>
+		<div class="pBody">
+			<ul>
+				 <li id="ca-nstab-main" class="selected"><a href="/mw/BH13.13/glycodb" title="本文を表示 [c]" accesskey="c">ページ</a></li>
+				 <li id="ca-talk" class="new"><a href="/mw/index.php?title=%E3%83%8E%E3%83%BC%E3%83%88:BH13.13/glycodb&amp;action=edit&amp;redlink=1" title="記事についての議論 [t]" accesskey="t">議論</a></li>
+				 <li id="ca-viewsource"><a href="/mw/index.php?title=BH13.13/glycodb&amp;action=edit" title="このページは保護されています。&#10;ページのソースを閲覧できます。 [e]" accesskey="e">ソースを表示</a></li>
+				 <li id="ca-history"><a href="/mw/index.php?title=BH13.13/glycodb&amp;action=history" title="このページの過去の版 [h]" accesskey="h">履歴</a></li>
+			</ul>
+		</div>
+	</div>
+	<div class="portlet" id="p-personal">
+		<h5>個人用ツール</h5>
+		<div class="pBody">
+			<ul>
+				<li id="pt-anonuserpage"><a href="/mw/%E5%88%A9%E7%94%A8%E8%80%85:172.18.8.51" title="自分が編集しているIPアドレスの利用者ページ [.]" accesskey="." class="new">172.18.8.51</a></li>
+				<li id="pt-anontalk"><a href="/mw/%E5%88%A9%E7%94%A8%E8%80%85%E2%80%90%E4%BC%9A%E8%A9%B1:172.18.8.51" title="このIPアドレスからなされた編集についての議論 [n]" accesskey="n" class="new">このIPアドレスのトーク</a></li>
+				<li id="pt-anonlogin"><a href="/mw/index.php?title=%E7%89%B9%E5%88%A5:%E3%83%AD%E3%82%B0%E3%82%A4%E3%83%B3&amp;returnto=BH13.13/glycodb" title="ログインすることが推奨されます。ただし、必須ではありません。 [o]" accesskey="o">ログイン</a></li>
+				<li id="pt-openidlogin"><a href="/mw/index.php?title=%E7%89%B9%E5%88%A5:OpenID%E3%83%AD%E3%82%B0%E3%82%A4%E3%83%B3&amp;returnto=BH13.13/glycodb">OpenIDでログイン</a></li>
+			</ul>
+		</div>
+	</div>
+	<div class="portlet" id="p-logo">
+		<a style="background-image: url(/mw/images/togowiki-logo.png);" href="/mw/%E3%83%A1%E3%82%A4%E3%83%B3%E3%83%9A%E3%83%BC%E3%82%B8" title="メインページに移動"></a>
+	</div>
+	<script type="text/javascript"> if (window.isMSIE55) fixalpha(); </script>
+	<div class='generated-sidebar portlet' id='p-navigation'>
+		<h5>案内</h5>
+		<div class='pBody'>
+			<ul>
+				<li id="n-mainpage-description"><a href="/mw/%E3%83%A1%E3%82%A4%E3%83%B3%E3%83%9A%E3%83%BC%E3%82%B8" title="メインページに移動する [z]" accesskey="z">メインページ</a></li>
+				<li id="n-portal"><a href="/mw/TogoWiki:%E3%82%B3%E3%83%9F%E3%83%A5%E3%83%8B%E3%83%86%E3%82%A3%E3%83%BB%E3%83%9D%E3%83%BC%E3%82%BF%E3%83%AB" title="このプロジェクトについて、できること、情報を入手する場所">コミュニティ・ポータル</a></li>
+				<li id="n-currentevents"><a href="/mw/TogoWiki:%E6%9C%80%E8%BF%91%E3%81%AE%E5%87%BA%E6%9D%A5%E4%BA%8B" title="最近の出来事について予備知識を得る">最近の出来事</a></li>
+				<li id="n-recentchanges"><a href="/mw/%E7%89%B9%E5%88%A5:%E6%9C%80%E8%BF%91%E3%81%AE%E6%9B%B4%E6%96%B0" title="ウィキにおける最近の更新の一覧 [r]" accesskey="r">最近の更新</a></li>
+				<li id="n-randompage"><a href="/mw/%E7%89%B9%E5%88%A5:%E3%81%8A%E3%81%BE%E3%81%8B%E3%81%9B%E8%A1%A8%E7%A4%BA" title="無作為に抽出されたページの読み込み [x]" accesskey="x">おまかせ表示</a></li>
+				<li id="n-help"><a href="/mw/Help:%E7%9B%AE%E6%AC%A1" title="情報を得る場所">ヘルプ</a></li>
+			</ul>
+		</div>
+	</div>
+	<div id="p-search" class="portlet">
+		<h5><label for="searchInput">検索</label></h5>
+		<div id="searchBody" class="pBody">
+			<form action="/mw/index.php" id="searchform">
+				<input type='hidden' name="title" value="特別:検索"/>
+				<input id="searchInput" title="TogoWiki内を検索" accesskey="f" type="search" name="search" />
+				<input type='submit' name="go" class="searchButton" id="searchGoButton"	value="表示" title="厳密に一致する名前のページが存在すれば、そのページへ移動します" />&nbsp;
+				<input type='submit' name="fulltext" class="searchButton" id="mw-searchButton" value="検索" title="入力された文字列が含まれるページを検索します" />
+			</form>
+		</div>
+	</div>
+	<div class="portlet" id="p-tb">
+		<h5>ツールボックス</h5>
+		<div class="pBody">
+			<ul>
+				<li id="t-whatlinkshere"><a href="/mw/%E7%89%B9%E5%88%A5:%E3%83%AA%E3%83%B3%E3%82%AF%E5%85%83/BH13.13/glycodb" title="ここにリンクしている全ウィキのページの一覧 [j]" accesskey="j">リンク元</a></li>
+				<li id="t-recentchangeslinked"><a href="/mw/%E7%89%B9%E5%88%A5:%E9%96%A2%E9%80%A3%E3%83%9A%E3%83%BC%E3%82%B8%E3%81%AE%E6%9B%B4%E6%96%B0%E7%8A%B6%E6%B3%81/BH13.13/glycodb" title="このページからリンクしているページの最近の更新 [k]" accesskey="k">関連ページの更新状況</a></li>
+<li id="t-specialpages"><a href="/mw/%E7%89%B9%E5%88%A5:%E7%89%B9%E5%88%A5%E3%83%9A%E3%83%BC%E3%82%B8%E4%B8%80%E8%A6%A7" title="特別ページの一覧 [q]" accesskey="q">特別ページ</a></li>
+				<li id="t-print"><a href="/mw/index.php?title=BH13.13/glycodb&amp;printable=yes" rel="alternate" title="このページの印刷用ページ [p]" accesskey="p">印刷用バージョン</a></li>				<li id="t-permalink"><a href="/mw/index.php?title=BH13.13/glycodb&amp;oldid=12268" title="ページのこの版への固定リンク">この版への固定リンク</a></li>			</ul>
+		</div>
+	</div>
+</div><!-- end of the left (by default at least) column -->
+<div class="visualClear"></div>
+<div id="footer">
+	<div id="f-poweredbyico"><a href="http://www.mediawiki.org/"><img src="/mw/skins/common/images/poweredby_mediawiki_88x31.png" height="31" width="88" alt="Powered by MediaWiki" /></a></div>
+	<div id="f-copyrightico"><a href="http://creativecommons.org/licenses/by/3.0/"><img src="http://i.creativecommons.org/l/by/3.0/88x31.png" alt="Attribution 3.0 Unported" width="88" height="31" /></a></div>
+	<ul id="f-list">
+		<li id="lastmod"> このページの最終更新は 2014年2月17日 (月) 15:58 に行われました。</li>
+		<li id="viewcount">このページは63,319回アクセスされました。</li>
+		<li id="copyright">内容は<a href="http://creativecommons.org/licenses/by/3.0/" class="external ">Attribution 3.0 Unported</a>のライセンスで利用することができます。</li>
+		<li id="privacy"><a href="/mw/TogoWiki:%E3%83%97%E3%83%A9%E3%82%A4%E3%83%90%E3%82%B7%E3%83%BC%E3%83%BB%E3%83%9D%E3%83%AA%E3%82%B7%E3%83%BC" title="TogoWiki:プライバシー・ポリシー">プライバシー・ポリシー</a></li>
+		<li id="about"><a href="/mw/TogoWiki:TogoWiki%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6" title="TogoWiki:TogoWikiについて">TogoWikiについて</a></li>
+		<li id="disclaimer"><a href="/mw/TogoWiki:%E5%85%8D%E8%B2%AC%E4%BA%8B%E9%A0%85" title="TogoWiki:免責事項">免責事項</a></li>
+	</ul>
+</div>
+</div>
+
+<script>if (window.runOnloadHook) runOnloadHook();</script>
+<!-- Served in 0.313 secs. --></body></html>

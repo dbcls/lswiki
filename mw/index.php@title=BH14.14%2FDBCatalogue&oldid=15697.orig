@@ -1,0 +1,417 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html lang="ja" dir="ltr">
+<head>
+<title>BH14.14/DBCatalogue - TogoWiki</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta name="generator" content="MediaWiki 1.16.3" />
+<link rel="shortcut icon" href="/favicon.ico" />
+<link rel="search" type="application/opensearchdescription+xml" href="/mw/opensearch_desc.php" title="TogoWiki (ja)" />
+<link title="Creative Commons" type="application/rdf+xml" href="/mw/index.php?title=BH14.14/DBCatalogue&amp;action=creativecommons" rel="meta" />
+<link rel="copyright" href="http://creativecommons.org/licenses/by/3.0/" />
+<link rel="alternate" type="application/atom+xml" title="TogoWikiのAtomフィード" href="/mw/index.php?title=%E7%89%B9%E5%88%A5:%E6%9C%80%E8%BF%91%E3%81%AE%E6%9B%B4%E6%96%B0&amp;feed=atom" />
+<link rel="stylesheet" href="/mw/skins/common/shared.css?270" media="screen" />
+<link rel="stylesheet" href="/mw/skins/common/commonPrint.css?270" media="print" />
+<link rel="stylesheet" href="/mw/skins/monobook/main.css?270" media="screen" />
+<!--[if lt IE 5.5000]><link rel="stylesheet" href="/mw/skins/monobook/IE50Fixes.css?270" media="screen" /><![endif]-->
+<!--[if IE 5.5000]><link rel="stylesheet" href="/mw/skins/monobook/IE55Fixes.css?270" media="screen" /><![endif]-->
+<!--[if IE 6]><link rel="stylesheet" href="/mw/skins/monobook/IE60Fixes.css?270" media="screen" /><![endif]-->
+<!--[if IE 7]><link rel="stylesheet" href="/mw/skins/monobook/IE70Fixes.css?270" media="screen" /><![endif]-->
+<link rel="stylesheet" href="/mw/index.php?title=MediaWiki:Common.css&amp;usemsgcache=yes&amp;ctype=text%2Fcss&amp;smaxage=18000&amp;action=raw&amp;maxage=18000" />
+<link rel="stylesheet" href="/mw/index.php?title=MediaWiki:Print.css&amp;usemsgcache=yes&amp;ctype=text%2Fcss&amp;smaxage=18000&amp;action=raw&amp;maxage=18000" media="print" />
+<link rel="stylesheet" href="/mw/index.php?title=MediaWiki:Monobook.css&amp;usemsgcache=yes&amp;ctype=text%2Fcss&amp;smaxage=18000&amp;action=raw&amp;maxage=18000" />
+<link rel="stylesheet" href="/mw/index.php?title=-&amp;action=raw&amp;maxage=18000&amp;gen=css" />
+<script>
+var skin="monobook",
+stylepath="/mw/skins",
+wgUrlProtocols="http\\:\\/\\/|https\\:\\/\\/|ftp\\:\\/\\/|irc\\:\\/\\/|gopher\\:\\/\\/|telnet\\:\\/\\/|nntp\\:\\/\\/|worldwind\\:\\/\\/|mailto\\:|news\\:|svn\\:\\/\\/",
+wgArticlePath="/mw/$1",
+wgScriptPath="/mw",
+wgScriptExtension=".php",
+wgScript="/mw/index.php",
+wgVariantArticlePath=false,
+wgActionPaths={},
+wgServer="http://wiki.lifesciencedb.jp",
+wgCanonicalNamespace="",
+wgCanonicalSpecialPageName=false,
+wgNamespaceNumber=0,
+wgPageName="BH14.14/DBCatalogue",
+wgTitle="BH14.14/DBCatalogue",
+wgAction="view",
+wgArticleId=580,
+wgIsArticle=true,
+wgUserName=null,
+wgUserGroups=null,
+wgUserLanguage="ja",
+wgContentLanguage="ja",
+wgBreakFrames=false,
+wgCurRevisionId=15697,
+wgVersion="1.16.3",
+wgEnableAPI=true,
+wgEnableWriteAPI=true,
+wgSeparatorTransformTable=["", ""],
+wgDigitTransformTable=["", ""],
+wgMainPageTitle="メインページ",
+wgFormattedNamespaces={"-2": "メディア", "-1": "特別", "0": "", "1": "ノート", "2": "利用者", "3": "利用者‐会話", "4": "TogoWiki", "5": "TogoWiki‐ノート", "6": "ファイル", "7": "ファイル‐ノート", "8": "MediaWiki", "9": "MediaWiki‐ノート", "10": "Template", "11": "Template‐ノート", "12": "Help", "13": "Help‐ノート", "14": "Category", "15": "Category‐ノート"},
+wgNamespaceIds={"メディア": -2, "特別": -1, "": 0, "ノート": 1, "利用者": 2, "利用者‐会話": 3, "togowiki": 4, "togowiki‐ノート": 5, "ファイル": 6, "ファイル‐ノート": 7, "mediawiki": 8, "mediawiki‐ノート": 9, "template": 10, "template‐ノート": 11, "help": 12, "help‐ノート": 13, "category": 14, "category‐ノート": 15, "画像": 6, "画像‐ノート": 7, "image": 6, "image_talk": 7},
+wgSiteName="TogoWiki",
+wgCategories=[],
+wgRestrictionEdit=[],
+wgRestrictionMove=[];
+</script><script src="/mw/skins/common/wikibits.js?270"></script>
+<script src="/mw/skins/common/ajax.js?270"></script>
+<script src="/mw/index.php?title=-&amp;action=raw&amp;gen=js&amp;useskin=monobook&amp;270"></script>
+
+		<style type='text/css'>
+		li#pt-openidlogin {
+		  background: url(/mw/extensions/OpenID/skin/icons/openid-inputicon.png) top left no-repeat;
+		  padding-left: 20px;
+		  text-transform: none;
+		}
+		</style>
+</head>
+<body class="mediawiki ltr ns-0 ns-subject page-BH14_14_DBCatalogue skin-monobook">
+<div id="globalWrapper">
+<div id="column-content"><div id="content" >
+	<a id="top"></a>
+	
+	<h1 id="firstHeading" class="firstHeading">BH14.14/DBCatalogue</h1>
+	<div id="bodyContent">
+		<h3 id="siteSub">提供：TogoWiki</h3>
+		<div id="contentSub">
+				<div id="mw-revision-info">2015年2月5日 (木) 09:23時点における<a href="/mw/index.php?title=%E5%88%A9%E7%94%A8%E8%80%85:Ktym&amp;action=edit&amp;redlink=1" class="new mw-userlink" title="利用者:Ktym（存在しないページ）">Ktym</a>  <span class="mw-usertoollinks">(<a href="/mw/index.php?title=%E5%88%A9%E7%94%A8%E8%80%85%E2%80%90%E4%BC%9A%E8%A9%B1:Ktym&amp;action=edit&amp;redlink=1" class="new" title="利用者‐会話:Ktym（存在しないページ）">トーク</a> | <a href="/mw/%E7%89%B9%E5%88%A5:%E6%8A%95%E7%A8%BF%E8%A8%98%E9%8C%B2/Ktym" title="特別:投稿記録/Ktym">投稿記録</a>)</span>による版</div>
+
+				<div id="mw-revision-nav">(<a href="/mw/index.php?title=BH14.14/DBCatalogue&amp;diff=prev&amp;oldid=15697" title="BH14.14/DBCatalogue">差分</a>) <a href="/mw/index.php?title=BH14.14/DBCatalogue&amp;direction=prev&amp;oldid=15697" title="BH14.14/DBCatalogue">←前の版</a> | 最新版 (差分) | 次の版→ (差分)</div>
+			</div>
+		<div id="jump-to-nav">移動： <a href="#column-one">案内</a>, <a href="#searchInput">検索</a></div>
+		<!-- start content -->
+<h2> <span class="mw-headline" id=".E3.83.87.E3.83.BC.E3.82.BF.E3.83.99.E3.83.BC.E3.82.B9.E3.81.AE.E3.83.A1.E3.82.BF.E3.83.87.E3.83.BC.E3.82.BF_DBCatalogue.E6.A8.99.E6.BA.96.E5.8C.96"> データベースのメタデータ DBCatalogue標準化 </span></h2>
+<ul><li> ライフ系データベースのメタデータを作成する(小林、藤澤、櫛田）
+</li></ul>
+<p>RDF化されていないデータベースも含むが、カタログはRDFで書いて流通させる。
+まず理研が書きたいカタログ語彙を提案し、それをたたき台にして議論を進める。
+</p><p>Data Catalog Vocabulary (DCAT) <a href="http://www.w3.org/TR/vocab-dcat/" class="external free" rel="nofollow">http://www.w3.org/TR/vocab-dcat/</a>
+を基本にして語彙を決める。
+</p><p><br />
+</p>
+<table class="wikitable">
+<caption> DBCatalogue 語彙
+</caption><tr>
+<th> 項目名 </th><th> プロパティ </th><th> 目的語クラス </th><th> 例
+</th></tr>
+<tr>
+<th>データベース
+</th><td> </td><td> void:Dataset </td><td> metadb:hatodas
+</td></tr>
+<tr>
+<th>名称
+</th><td> dct:ditle </td><td> rdf:langString </td><td> "Heavy-atom Database System"@en
+</td></tr>
+<tr>
+<th>別称
+</th><td> dct:alternative </td><td> rdf:langString </td><td> "HATODAS"@en
+</td></tr>
+<tr>
+<th>運用組織
+</th><td> dc:publisher </td><td> org:Organization  </td><td> <a href="http://metadb.riken.jp/db/resource/organisation/riken" class="external free" rel="nofollow">http://metadb.riken.jp/db/resource/organisation/riken</a>
+</td></tr>
+<tr style="background-color:#fdd">
+<th>作成者
+</th><td> dc:creator </td><td> foaf:Person </td><td>
+</td></tr>
+<tr style="background-color:#fdd">
+<th>作成者所属
+</th><td> metadb:affiliation </td><td> org:Organization </td><td> <a href="http://metadb.riken.jp/db/resource/organisation/riken/spring8" class="external free" rel="nofollow">http://metadb.riken.jp/db/resource/organisation/riken/spring8</a>
+</td></tr>
+<tr>
+<th>説明
+</th><td> dct:description </td><td> rdf:langString </td><td> "タンパク質のX線結晶解析に用いられる..."@ja
+</td></tr>
+<tr>
+<th>言語
+</th><td> dct:language </td><td> <a href="http://www.lexvo.org/id/iso639-3" class="external free" rel="nofollow">http://www.lexvo.org/id/iso639-3</a> </td><td> <a href="http://www.lexvo.org/id/iso639-3/eng" class="external free" rel="nofollow">http://www.lexvo.org/id/iso639-3/eng</a>
+</td></tr>
+<tr>
+<th>公開日
+</th><td> dct:issued </td><td> xsd:datetime </td><td> 2009/1/1
+</td></tr>
+<tr>
+<th>ライセンス
+</th><td> dct:license </td><td> dct:LicenseDocument </td><td> metadb:license/creativecommons/CC-BY
+</td></tr>
+<tr>
+<th>ホームページ
+</th><td> foaf:homenage </td><td> xsd:anyURI </td><td> <a href="http://hatodas.harima.riken.jp/" class="external free" rel="nofollow">http://hatodas.harima.riken.jp/</a>
+</td></tr>
+<tr>
+<th>キーワード
+</th><td> dcat:keyword </td><td> rdf:langString </td><td> "重原子化"@ja, "タンパク質"@ja,"X線結晶解析"@ja
+</td></tr>
+<tr>
+<th>バージョン
+</th><td> pav:version </td><td> xsd:string </td><td> "1.0"
+</td></tr>
+<tr>
+<th> 問い合わせ先
+</th><td> foaf:mailbox </td><td> xsd:anyURI </td><td> hoge@spring-8.or.jp
+</td></tr>
+<tr>
+<th>生物種
+</th><td> dcat:organism </td><td> <a href="http://identifiers.org/taxonomy" class="external free" rel="nofollow">http://identifiers.org/taxonomy</a> </td><td>
+</td></tr>
+<tr style="background-color:#fdd">
+<th>対象
+</th><td> foaf:primaryTopic </td><td> metadb_catalog:BioTarget </td><td> metadb_catalog:BioTarget/Protein, metadb_catalog:BioTarget/Drug_Chemical
+</td></tr>
+<tr style="background-color:#fdd">
+<th>データ種
+</th><td> dcat:theme </td><td> metadb_catalog:BioDataType </td><td> metadb_catalog:BioDataType/Structure
+</td></tr>
+<tr>
+<th>関連論文
+</th><td> cito:citesAsAuthority </td><td> <a href="http://rdf.ncbi.nlm.nih.gov/pubmed" class="external free" rel="nofollow">http://rdf.ncbi.nlm.nih.gov/pubmed</a> </td><td> <a href="http://rdf.ncbi.nlm.nih.gov/pubmed/16131765" class="external free" rel="nofollow">http://rdf.ncbi.nlm.nih.gov/pubmed/16131765</a>
+</td></tr>
+<tr>
+<th>SPARQLエンドポイント
+</th><td> void:sparqlEndpoint </td><td> rdf:Resource </td><td> <a href="http://mdatadb.riken.jp/sparql" class="external free" rel="nofollow">http://mdatadb.riken.jp/sparql</a>
+</td></tr>
+<tr>
+<th>グラフ
+</th><td> sd:graph </td><td> sd:Graph </td><td> metadb_graph:hatodas
+</td></tr></table>
+<p>表の見方：データベースはvoid:Detasetのインスタンスに対応する。
+それ以後の各行はデータベースを主語とするトリプルに対応している。
+</p><p>上記赤色の部分は理研独自で使用している語彙で、今後標準化が求められる項目
+</p><p><br />
+データベースの「対象」を記述する語彙は、<a href="http://integbio.jp/dbcatalog/about" class="external free" rel="nofollow">http://integbio.jp/dbcatalog/about</a>
+に掲載されているが、RDFでの利用についての言及がなかったので、各項目に理研独自のURIを付して使う。（今後国内外での標準化が必要）
+</p>
+<table class="wikitable">
+<caption> 対象　(クラス metadb_catalog:BioTarget)
+</caption><tr>
+<th> URI </th><th> 日本語ラベル
+</th></tr>
+<tr>
+<th>metadb_catalog:BioTarget/Genome
+</th><td>"ゲノム"@ja
+</td></tr>
+<tr>
+<th>metadb_catalog:BioTarget/Gene
+</th><td>"遺伝子"@ja
+</td></tr>
+<tr>
+<th>metadb_catalog:BioTarget/cDNA
+</th><td>"cDNA"@ja
+</td></tr>
+<tr>
+<th>metadb_catalog:BioTarget/TagSequence
+</th><td>"タグ配列 (核酸)"@ja
+</td></tr>
+<tr>
+<th>metadb_catalog:BioTarget/Polymorphism
+</th><td>"多型"@ja
+</td></tr>
+<tr>
+<th>metadb_catalog:BioTarget/OtherDNA
+</th><td>"その他のDNA"@ja
+</td></tr>
+<tr>
+<th>metadb_catalog:BioTarget/RNA
+</th><td>"RNA"@ja
+</td></tr>
+<tr>
+<th>metadb_catalog:BioTarget/Protein
+</th><td> "蛋白質"@ja
+</td></tr>
+<tr>
+<th>metadb_catalog:BioTarget/Enzyme
+</th><td> "酵素"@ja
+</td></tr>
+<tr>
+<th>metadb_catalog:BioTarget/OtherBiomolecule
+</th><td> "その他の生体分子"@ja
+</td></tr>
+<tr>
+<th>metadb_catalog:BioTarget/Drug_Chemical
+</th><td> "薬剤/化学物質"@ja
+</td></tr>
+<tr>
+<th>metadb_catalog:BioTarget/Cell
+</th><td>"細胞"@ja
+</td></tr>
+<tr>
+<th>metadb_catalog:BioTarget/Organism
+</th><td>"個体/種"@ja
+</td></tr>
+<tr>
+<th>metadb_catalog:BioTarget/Health_Disease
+</th><td>"健康/疾患"@ja
+</td></tr>
+<tr>
+<th>metadb_catalog:BioTarget/Others
+</th><td> "その他"@ja
+</td></tr></table>
+<p><br />
+データベースの「データ種」を記述する語彙は、<a href="http://integbio.jp/dbcatalog/about" class="external free" rel="nofollow">http://integbio.jp/dbcatalog/about</a>
+に掲載されているが、RDFでの利用についての言及がなかったので、各項目に理研独自のURIを付して使う。（今後国内外での標準化が必要）
+</p>
+<table class="wikitable">
+<caption> データ種　(クラス metadb_catalog:BioDataType)
+</caption><tr>
+<th> URI </th><th> 日本語ラベル
+</th></tr>
+<tr>
+<th> metadb_catalog:BioDataType/Sequence
+</th><td>"配列"@ja
+</td></tr>
+<tr>
+<th>metadb_catalog:BioDataType/Structure
+</th><td>"構造"@ja
+</td></tr>
+<tr>
+<th>metadb_catalog:BioDataType/GeneExpression
+</th><td>"遺伝子発現"@ja
+</td></tr>
+<tr>
+<th>metadb_catalog:BioDataType/Interaction_Pathway
+</th><td>"相互作用/パスウェイ"@ja
+</td></tr>
+<tr>
+<th>metadb_catalog:BioDataType/Phylogeny_Classification
+</th><td>"系統発生/分類"@ja
+</td></tr>
+<tr>
+<th>metadb_catalog:BioDataType/Image_Movie
+</th><td>"画像/動画"@ja
+</td></tr>
+<tr>
+<th>metadb_catalog:BioDataType/Ontology_Terminology_Nomenclature
+</th><td>"オントロジー/用語/学名/命名法"@ja
+</td></tr>
+<tr>
+<th>metadb_catalog:BioDataType/JournalArticle_Report_Bibliography
+</th><td>"論文/報告書/書誌"@ja
+</td></tr>
+<tr>
+<th>metadb_catalog:BioDataType/Bioresource
+</th><td>"バイオリソース"@ja
+</td></tr>
+<tr>
+<th>metadb_catalog:BioDataType/Others
+</th><td>"その他"@ja
+</td></tr></table>
+<h3> <span class="mw-headline" id="DBCatalogue_.E3.83.87.E3.83.BC.E3.82.BF.E3.81.AE.E3.82.A8.E3.83.B3.E3.83.89.E3.83.9D.E3.82.A4.E3.83.B3.E3.83.88"> DBCatalogue データのエンドポイント </span></h3>
+<p>以前運用していたものが稼働していないということでテンポラルにホストすることにしました（片山 2015/2/5)。
+</p>
+<pre>
+% 71tmp.sh loaddir http://integbio.jp/dbcatalog/en /data/store/rdf/dbcatalog/en '*.n3'
+% 71tmp.sh loaddir http://integbio.jp/dbcatalog/ja /data/store/rdf/dbcatalog/ja '*.n3'
+</pre>
+<ul><li> エンドポイント
+<ul><li> <a href="http://ep.dbcls.jp/sparql71tmp" class="external free" rel="nofollow">http://ep.dbcls.jp/sparql71tmp</a>
+</li></ul>
+</li><li> サンプル SPARQL
+</li></ul>
+<pre>
+select&nbsp;?s&nbsp;?p1&nbsp;?o1&nbsp;?p2&nbsp;?o2
+where {
+  graph &lt;http://integbio.jp/dbcatalog/en&gt; {
+    VALUES&nbsp;?s { &lt;http://integbio.jp/dbcatalog/resource/nbdc00003#en&gt; }
+   &nbsp;?s&nbsp;?p1&nbsp;?o1 .
+    OPTIONAL {?o1&nbsp;?p2&nbsp;?o2 .}
+  }
+}
+limit 100
+</pre>
+
+<!-- 
+NewPP limit report
+Preprocessor node count: 12/1000000
+Post-expand include size: 0/2097152 bytes
+Template argument size: 0/2097152 bytes
+Expensive parser function count: 0/100
+-->
+
+<!-- Saved in parser cache with key wikidb-togowiki_:pcache:idhash:580-0!1!0!!ja!2!edit=0 and timestamp 20230605013908 -->
+<div class="printfooter">
+「<a href="http://wiki.lifesciencedb.jp/mw/BH14.14/DBCatalogue">http://wiki.lifesciencedb.jp/mw/BH14.14/DBCatalogue</a>」より作成</div>
+		<div id='catlinks' class='catlinks catlinks-allhidden'></div>		<!-- end content -->
+				<div class="visualClear"></div>
+	</div>
+</div></div>
+<div id="column-one">
+	<div id="p-cactions" class="portlet">
+		<h5>表示</h5>
+		<div class="pBody">
+			<ul>
+				 <li id="ca-nstab-main" class="selected"><a href="/mw/BH14.14/DBCatalogue" title="本文を表示 [c]" accesskey="c">ページ</a></li>
+				 <li id="ca-talk" class="new"><a href="/mw/index.php?title=%E3%83%8E%E3%83%BC%E3%83%88:BH14.14/DBCatalogue&amp;action=edit&amp;redlink=1" title="記事についての議論 [t]" accesskey="t">議論</a></li>
+				 <li id="ca-viewsource"><a href="/mw/index.php?title=BH14.14/DBCatalogue&amp;action=edit" title="このページは保護されています。&#10;ページのソースを閲覧できます。 [e]" accesskey="e">ソースを表示</a></li>
+				 <li id="ca-history"><a href="/mw/index.php?title=BH14.14/DBCatalogue&amp;action=history" title="このページの過去の版 [h]" accesskey="h">履歴</a></li>
+			</ul>
+		</div>
+	</div>
+	<div class="portlet" id="p-personal">
+		<h5>個人用ツール</h5>
+		<div class="pBody">
+			<ul>
+				<li id="pt-anonuserpage"><a href="/mw/%E5%88%A9%E7%94%A8%E8%80%85:172.18.8.51" title="自分が編集しているIPアドレスの利用者ページ [.]" accesskey="." class="new">172.18.8.51</a></li>
+				<li id="pt-anontalk"><a href="/mw/%E5%88%A9%E7%94%A8%E8%80%85%E2%80%90%E4%BC%9A%E8%A9%B1:172.18.8.51" title="このIPアドレスからなされた編集についての議論 [n]" accesskey="n" class="new">このIPアドレスのトーク</a></li>
+				<li id="pt-anonlogin"><a href="/mw/index.php?title=%E7%89%B9%E5%88%A5:%E3%83%AD%E3%82%B0%E3%82%A4%E3%83%B3&amp;returnto=BH14.14/DBCatalogue&amp;returntoquery=oldid%3D15697" title="ログインすることが推奨されます。ただし、必須ではありません。 [o]" accesskey="o">ログイン</a></li>
+				<li id="pt-openidlogin"><a href="/mw/index.php?title=%E7%89%B9%E5%88%A5:OpenID%E3%83%AD%E3%82%B0%E3%82%A4%E3%83%B3&amp;returnto=BH14.14/DBCatalogue">OpenIDでログイン</a></li>
+			</ul>
+		</div>
+	</div>
+	<div class="portlet" id="p-logo">
+		<a style="background-image: url(/mw/images/togowiki-logo.png);" href="/mw/%E3%83%A1%E3%82%A4%E3%83%B3%E3%83%9A%E3%83%BC%E3%82%B8" title="メインページに移動"></a>
+	</div>
+	<script type="text/javascript"> if (window.isMSIE55) fixalpha(); </script>
+	<div class='generated-sidebar portlet' id='p-navigation'>
+		<h5>案内</h5>
+		<div class='pBody'>
+			<ul>
+				<li id="n-mainpage-description"><a href="/mw/%E3%83%A1%E3%82%A4%E3%83%B3%E3%83%9A%E3%83%BC%E3%82%B8" title="メインページに移動する [z]" accesskey="z">メインページ</a></li>
+				<li id="n-portal"><a href="/mw/TogoWiki:%E3%82%B3%E3%83%9F%E3%83%A5%E3%83%8B%E3%83%86%E3%82%A3%E3%83%BB%E3%83%9D%E3%83%BC%E3%82%BF%E3%83%AB" title="このプロジェクトについて、できること、情報を入手する場所">コミュニティ・ポータル</a></li>
+				<li id="n-currentevents"><a href="/mw/TogoWiki:%E6%9C%80%E8%BF%91%E3%81%AE%E5%87%BA%E6%9D%A5%E4%BA%8B" title="最近の出来事について予備知識を得る">最近の出来事</a></li>
+				<li id="n-recentchanges"><a href="/mw/%E7%89%B9%E5%88%A5:%E6%9C%80%E8%BF%91%E3%81%AE%E6%9B%B4%E6%96%B0" title="ウィキにおける最近の更新の一覧 [r]" accesskey="r">最近の更新</a></li>
+				<li id="n-randompage"><a href="/mw/%E7%89%B9%E5%88%A5:%E3%81%8A%E3%81%BE%E3%81%8B%E3%81%9B%E8%A1%A8%E7%A4%BA" title="無作為に抽出されたページの読み込み [x]" accesskey="x">おまかせ表示</a></li>
+				<li id="n-help"><a href="/mw/Help:%E7%9B%AE%E6%AC%A1" title="情報を得る場所">ヘルプ</a></li>
+			</ul>
+		</div>
+	</div>
+	<div id="p-search" class="portlet">
+		<h5><label for="searchInput">検索</label></h5>
+		<div id="searchBody" class="pBody">
+			<form action="/mw/index.php" id="searchform">
+				<input type='hidden' name="title" value="特別:検索"/>
+				<input id="searchInput" title="TogoWiki内を検索" accesskey="f" type="search" name="search" />
+				<input type='submit' name="go" class="searchButton" id="searchGoButton"	value="表示" title="厳密に一致する名前のページが存在すれば、そのページへ移動します" />&nbsp;
+				<input type='submit' name="fulltext" class="searchButton" id="mw-searchButton" value="検索" title="入力された文字列が含まれるページを検索します" />
+			</form>
+		</div>
+	</div>
+	<div class="portlet" id="p-tb">
+		<h5>ツールボックス</h5>
+		<div class="pBody">
+			<ul>
+				<li id="t-whatlinkshere"><a href="/mw/%E7%89%B9%E5%88%A5:%E3%83%AA%E3%83%B3%E3%82%AF%E5%85%83/BH14.14/DBCatalogue" title="ここにリンクしている全ウィキのページの一覧 [j]" accesskey="j">リンク元</a></li>
+				<li id="t-recentchangeslinked"><a href="/mw/%E7%89%B9%E5%88%A5:%E9%96%A2%E9%80%A3%E3%83%9A%E3%83%BC%E3%82%B8%E3%81%AE%E6%9B%B4%E6%96%B0%E7%8A%B6%E6%B3%81/BH14.14/DBCatalogue" title="このページからリンクしているページの最近の更新 [k]" accesskey="k">関連ページの更新状況</a></li>
+<li id="t-specialpages"><a href="/mw/%E7%89%B9%E5%88%A5:%E7%89%B9%E5%88%A5%E3%83%9A%E3%83%BC%E3%82%B8%E4%B8%80%E8%A6%A7" title="特別ページの一覧 [q]" accesskey="q">特別ページ</a></li>
+				<li id="t-print"><a href="/mw/index.php?title=BH14.14/DBCatalogue&amp;oldid=15697&amp;printable=yes" rel="alternate" title="このページの印刷用ページ [p]" accesskey="p">印刷用バージョン</a></li>				<li id="t-permalink"><a href="/mw/index.php?title=BH14.14/DBCatalogue&amp;oldid=15697" title="ページのこの版への固定リンク">この版への固定リンク</a></li>			</ul>
+		</div>
+	</div>
+</div><!-- end of the left (by default at least) column -->
+<div class="visualClear"></div>
+<div id="footer">
+	<div id="f-poweredbyico"><a href="http://www.mediawiki.org/"><img src="/mw/skins/common/images/poweredby_mediawiki_88x31.png" height="31" width="88" alt="Powered by MediaWiki" /></a></div>
+	<div id="f-copyrightico"><a href="http://creativecommons.org/licenses/by/3.0/"><img src="http://i.creativecommons.org/l/by/3.0/88x31.png" alt="Attribution 3.0 Unported" width="88" height="31" /></a></div>
+	<ul id="f-list">
+		<li id="copyright">内容は<a href="http://creativecommons.org/licenses/by/3.0/" class="external ">Attribution 3.0 Unported</a>のライセンスで利用することができます。</li>
+		<li id="privacy"><a href="/mw/TogoWiki:%E3%83%97%E3%83%A9%E3%82%A4%E3%83%90%E3%82%B7%E3%83%BC%E3%83%BB%E3%83%9D%E3%83%AA%E3%82%B7%E3%83%BC" title="TogoWiki:プライバシー・ポリシー">プライバシー・ポリシー</a></li>
+		<li id="about"><a href="/mw/TogoWiki:TogoWiki%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6" title="TogoWiki:TogoWikiについて">TogoWikiについて</a></li>
+		<li id="disclaimer"><a href="/mw/TogoWiki:%E5%85%8D%E8%B2%AC%E4%BA%8B%E9%A0%85" title="TogoWiki:免責事項">免責事項</a></li>
+	</ul>
+</div>
+</div>
+
+<script>if (window.runOnloadHook) runOnloadHook();</script>
+<!-- Served in 0.649 secs. --></body></html>

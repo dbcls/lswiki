@@ -1,0 +1,588 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html lang="ja" dir="ltr">
+<head>
+<title>データベースのRDF化 - TogoWiki</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta name="generator" content="MediaWiki 1.16.3" />
+<meta name="robots" content="noindex,nofollow" />
+<link rel="shortcut icon" href="/favicon.ico" />
+<link rel="search" type="application/opensearchdescription+xml" href="/mw/opensearch_desc.php" title="TogoWiki (ja)" />
+<link title="Creative Commons" type="application/rdf+xml" href="/mw/index.php?title=%E3%83%87%E3%83%BC%E3%82%BF%E3%83%99%E3%83%BC%E3%82%B9%E3%81%AERDF%E5%8C%96&amp;action=creativecommons" rel="meta" />
+<link rel="copyright" href="http://creativecommons.org/licenses/by/3.0/" />
+<link rel="alternate" type="application/atom+xml" title="TogoWikiのAtomフィード" href="/mw/index.php?title=%E7%89%B9%E5%88%A5:%E6%9C%80%E8%BF%91%E3%81%AE%E6%9B%B4%E6%96%B0&amp;feed=atom" />
+<link rel="stylesheet" href="/mw/skins/common/diff.css?270" />
+<link rel="stylesheet" href="/mw/skins/common/shared.css?270" media="screen" />
+<link rel="stylesheet" href="/mw/skins/common/commonPrint.css?270" media="print" />
+<link rel="stylesheet" href="/mw/skins/monobook/main.css?270" media="screen" />
+<!--[if lt IE 5.5000]><link rel="stylesheet" href="/mw/skins/monobook/IE50Fixes.css?270" media="screen" /><![endif]-->
+<!--[if IE 5.5000]><link rel="stylesheet" href="/mw/skins/monobook/IE55Fixes.css?270" media="screen" /><![endif]-->
+<!--[if IE 6]><link rel="stylesheet" href="/mw/skins/monobook/IE60Fixes.css?270" media="screen" /><![endif]-->
+<!--[if IE 7]><link rel="stylesheet" href="/mw/skins/monobook/IE70Fixes.css?270" media="screen" /><![endif]-->
+<link rel="stylesheet" href="/mw/index.php?title=MediaWiki:Common.css&amp;usemsgcache=yes&amp;ctype=text%2Fcss&amp;smaxage=18000&amp;action=raw&amp;maxage=18000" />
+<link rel="stylesheet" href="/mw/index.php?title=MediaWiki:Print.css&amp;usemsgcache=yes&amp;ctype=text%2Fcss&amp;smaxage=18000&amp;action=raw&amp;maxage=18000" media="print" />
+<link rel="stylesheet" href="/mw/index.php?title=MediaWiki:Monobook.css&amp;usemsgcache=yes&amp;ctype=text%2Fcss&amp;smaxage=18000&amp;action=raw&amp;maxage=18000" />
+<link rel="stylesheet" href="/mw/index.php?title=-&amp;action=raw&amp;maxage=18000&amp;gen=css" />
+<script>
+var skin="monobook",
+stylepath="/mw/skins",
+wgUrlProtocols="http\\:\\/\\/|https\\:\\/\\/|ftp\\:\\/\\/|irc\\:\\/\\/|gopher\\:\\/\\/|telnet\\:\\/\\/|nntp\\:\\/\\/|worldwind\\:\\/\\/|mailto\\:|news\\:|svn\\:\\/\\/",
+wgArticlePath="/mw/$1",
+wgScriptPath="/mw",
+wgScriptExtension=".php",
+wgScript="/mw/index.php",
+wgVariantArticlePath=false,
+wgActionPaths={},
+wgServer="http://wiki.lifesciencedb.jp",
+wgCanonicalNamespace="",
+wgCanonicalSpecialPageName=false,
+wgNamespaceNumber=0,
+wgPageName="データベースのRDF化",
+wgTitle="データベースのRDF化",
+wgAction="view",
+wgArticleId=41,
+wgIsArticle=true,
+wgUserName=null,
+wgUserGroups=null,
+wgUserLanguage="ja",
+wgContentLanguage="ja",
+wgBreakFrames=false,
+wgCurRevisionId=788,
+wgVersion="1.16.3",
+wgEnableAPI=true,
+wgEnableWriteAPI=true,
+wgSeparatorTransformTable=["", ""],
+wgDigitTransformTable=["", ""],
+wgMainPageTitle="メインページ",
+wgFormattedNamespaces={"-2": "メディア", "-1": "特別", "0": "", "1": "ノート", "2": "利用者", "3": "利用者‐会話", "4": "TogoWiki", "5": "TogoWiki‐ノート", "6": "ファイル", "7": "ファイル‐ノート", "8": "MediaWiki", "9": "MediaWiki‐ノート", "10": "Template", "11": "Template‐ノート", "12": "Help", "13": "Help‐ノート", "14": "Category", "15": "Category‐ノート"},
+wgNamespaceIds={"メディア": -2, "特別": -1, "": 0, "ノート": 1, "利用者": 2, "利用者‐会話": 3, "togowiki": 4, "togowiki‐ノート": 5, "ファイル": 6, "ファイル‐ノート": 7, "mediawiki": 8, "mediawiki‐ノート": 9, "template": 10, "template‐ノート": 11, "help": 12, "help‐ノート": 13, "category": 14, "category‐ノート": 15, "画像": 6, "画像‐ノート": 7, "image": 6, "image_talk": 7},
+wgSiteName="TogoWiki",
+wgCategories=["Bh10.10"],
+wgRestrictionEdit=[],
+wgRestrictionMove=[];
+</script><script src="/mw/skins/common/wikibits.js?270"></script>
+<script type="text/javascript" src="/mw/skins/common/diff.js?270"></script>
+<script src="/mw/skins/common/ajax.js?270"></script>
+<script src="/mw/index.php?title=-&amp;action=raw&amp;gen=js&amp;useskin=monobook&amp;270"></script>
+
+		<style type='text/css'>
+		li#pt-openidlogin {
+		  background: url(/mw/extensions/OpenID/skin/icons/openid-inputicon.png) top left no-repeat;
+		  padding-left: 20px;
+		  text-transform: none;
+		}
+		</style>
+</head>
+<body class="mediawiki ltr ns-0 ns-subject page-データベースのRDF化 skin-monobook">
+<div id="globalWrapper">
+<div id="column-content"><div id="content" >
+	<a id="top"></a>
+	
+	<h1 id="firstHeading" class="firstHeading">データベースのRDF化</h1>
+	<div id="bodyContent">
+		<h3 id="siteSub">提供：TogoWiki</h3>
+		<div id="contentSub">（版間での差分）</div>
+		<div id="jump-to-nav">移動： <a href="#column-one">案内</a>, <a href="#searchInput">検索</a></div>
+		<!-- start content -->
+<table class='diff'>
+			<col class='diff-marker' />
+			<col class='diff-content' />
+			<col class='diff-marker' />
+			<col class='diff-content' />
+		<tr valign='top'>
+		<td colspan='2' class='diff-otitle'><div id="mw-diff-otitle1"><strong><a href='/mw/index.php?title=%E3%83%87%E3%83%BC%E3%82%BF%E3%83%99%E3%83%BC%E3%82%B9%E3%81%AERDF%E5%8C%96&amp;oldid=787'>2010年10月25日 (月) 22:58時点における版</a> (<a href='/mw/index.php?title=%E3%83%87%E3%83%BC%E3%82%BF%E3%83%99%E3%83%BC%E3%82%B9%E3%81%AERDF%E5%8C%96&amp;action=edit&amp;oldid=787'>ソースを表示</a>)</strong></div><div id="mw-diff-otitle2"><a href="/mw/index.php?title=%E5%88%A9%E7%94%A8%E8%80%85:Akinjo&amp;action=edit&amp;redlink=1" class="new mw-userlink" title="利用者:Akinjo（存在しないページ）">Akinjo</a>  <span class="mw-usertoollinks">(<a href="/mw/index.php?title=%E5%88%A9%E7%94%A8%E8%80%85%E2%80%90%E4%BC%9A%E8%A9%B1:Akinjo&amp;action=edit&amp;redlink=1" class="new" title="利用者‐会話:Akinjo（存在しないページ）">トーク</a> | <a href="/mw/%E7%89%B9%E5%88%A5:%E6%8A%95%E7%A8%BF%E8%A8%98%E9%8C%B2/Akinjo" title="特別:投稿記録/Akinjo">投稿記録</a>)</span></div><div id="mw-diff-otitle3"> <span class="comment">(<span class="autocomment"><a href="#.E8.8B.A6.E5.8A.B4.E3.81.97.E3.81.9F.E7.82.B9">→</a>苦労した点</span>)</span></div><div id="mw-diff-otitle4"><a href="/mw/index.php?title=%E3%83%87%E3%83%BC%E3%82%BF%E3%83%99%E3%83%BC%E3%82%B9%E3%81%AERDF%E5%8C%96&amp;diff=prev&amp;oldid=787" title="データベースのRDF化" id="differences-prevlink">←古い編集</a></div></td>
+		<td colspan='2' class='diff-ntitle'><div id="mw-diff-ntitle1"><strong><a href='/mw/index.php?title=%E3%83%87%E3%83%BC%E3%82%BF%E3%83%99%E3%83%BC%E3%82%B9%E3%81%AERDF%E5%8C%96&amp;oldid=788'>2010年10月25日 (月) 23:00時点における最新版</a> (<a href='/mw/index.php?title=%E3%83%87%E3%83%BC%E3%82%BF%E3%83%99%E3%83%BC%E3%82%B9%E3%81%AERDF%E5%8C%96&amp;action=edit'>ソースを表示</a>)</strong></div><div id="mw-diff-ntitle2"><a href="/mw/index.php?title=%E5%88%A9%E7%94%A8%E8%80%85:Akinjo&amp;action=edit&amp;redlink=1" class="new mw-userlink" title="利用者:Akinjo（存在しないページ）">Akinjo</a>  <span class="mw-usertoollinks">(<a href="/mw/index.php?title=%E5%88%A9%E7%94%A8%E8%80%85%E2%80%90%E4%BC%9A%E8%A9%B1:Akinjo&amp;action=edit&amp;redlink=1" class="new" title="利用者‐会話:Akinjo（存在しないページ）">トーク</a> | <a href="/mw/%E7%89%B9%E5%88%A5:%E6%8A%95%E7%A8%BF%E8%A8%98%E9%8C%B2/Akinjo" title="特別:投稿記録/Akinjo">投稿記録</a>)</span> </div><div id="mw-diff-ntitle3"> <span class="comment">(<span class="autocomment"><a href="#H-invDB.E3.81.AEXML.E5.BD.A2.E5.BC.8F.E3.81.AB.E3.81.A4.E3.81.84.E3.81.A6.28.E6.94.B9.E8.89.AF.E3.81.AE.E8.A6.81.E6.9C.9B.29">→</a>H-invDBのXML形式について(改良の要望)</span>)</span></div><div id="mw-diff-ntitle4">&nbsp;</div></td>
+		</tr><tr><td colspan="2" class="diff-lineno">285行：</td>
+<td colspan="2" class="diff-lineno">285行：</td></tr>
+<tr><td class='diff-marker'> </td><td class='diff-context'></td><td class='diff-marker'> </td><td class='diff-context'></td></tr>
+<tr><td class='diff-marker'> </td><td class='diff-context'><div>== H-invDBのXML形式について(改良の要望) ==</div></td><td class='diff-marker'> </td><td class='diff-context'><div>== H-invDBのXML形式について(改良の要望) ==</div></td></tr>
+<tr><td class='diff-marker'>-</td><td class='diff-deletedline'><div>* 何はともあれ特殊文字のエスケープ &quot;&amp;&quot;→&quot;&amp;amp;&quot; &quot;&lt;&quot; → &quot;&amp;amp;lt;&quot; &quot;&gt;&quot; → &quot;&amp;amp;gt;&quot;</div></td><td class='diff-marker'>+</td><td class='diff-addedline'><div>* 何はともあれ特殊文字のエスケープ &quot;&amp;&quot;→&quot;&amp;<ins class="diffchange diffchange-inline">amp;</ins>amp;&quot; &quot;&lt;&quot; → &quot;&amp;amp;lt;&quot; &quot;&gt;&quot; → &quot;&amp;amp;gt;&quot;</div></td></tr>
+<tr><td class='diff-marker'> </td><td class='diff-context'><div>* H-invDB のXMLファイルには属性(attribute)がない。</div></td><td class='diff-marker'> </td><td class='diff-context'><div>* H-invDB のXMLファイルには属性(attribute)がない。</div></td></tr>
+<tr><td class='diff-marker'> </td><td class='diff-context'><div>** →データの項目のPrimary key に相当するようなアイテムは属性にすべき。</div></td><td class='diff-marker'> </td><td class='diff-context'><div>** →データの項目のPrimary key に相当するようなアイテムは属性にすべき。</div></td></tr>
+</table><hr /><h2>2010年10月25日 (月) 23:00時点における最新版</h2>
+<p>ショートカット： <a href="http://wiki.lifesciencedb.jp/mw/index.php/BH10.10" class="external free" rel="nofollow">http://wiki.lifesciencedb.jp/mw/index.php/BH10.10</a>
+</p>
+<table id="toc" class="toc"><tr><td><div id="toctitle"><h2>目次</h2></div>
+<ul>
+<li class="toclevel-1 tocsection-1"><a href="#.E5.8F.82.E5.8A.A0.E8.80.85"><span class="tocnumber">1</span> <span class="toctext">参加者</span></a></li>
+<li class="toclevel-1 tocsection-2"><a href="#.E9.96.8B.E5.A7.8B.E5.89.8D.E3.81.AE.E7.8A.B6.E6.B3.81"><span class="tocnumber">2</span> <span class="toctext">開始前の状況</span></a></li>
+<li class="toclevel-1 tocsection-3"><a href="#.E3.82.84.E3.82.8B.E3.81.B9.E3.81.8D.E3.81.93.E3.81.A8.E3.81.AE.E3.83.AA.E3.82.B9.E3.83.88"><span class="tocnumber">3</span> <span class="toctext">やるべきことのリスト</span></a>
+<ul>
+<li class="toclevel-2 tocsection-4"><a href="#PDBj_.E3.81.AE.E5.A0.B4.E5.90.88"><span class="tocnumber">3.1</span> <span class="toctext">PDBj の場合</span></a></li>
+<li class="toclevel-2 tocsection-5"><a href="#H-invDB_.E3.81.AE.E5.A0.B4.E5.90.88"><span class="tocnumber">3.2</span> <span class="toctext">H-invDB の場合</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-6"><a href="#Use_case"><span class="tocnumber">4</span> <span class="toctext">Use case</span></a>
+<ul>
+<li class="toclevel-2 tocsection-7"><a href="#.E3.81.A1.E3.82.87.E3.81.A3.E3.81.A8.E3.81.97.E3.81.9F.E6.B3.A8.E6.84.8F.E7.82.B9"><span class="tocnumber">4.1</span> <span class="toctext">ちょっとした注意点</span></a></li>
+<li class="toclevel-2 tocsection-8"><a href="#SPARQL_.E3.82.AF.E3.82.A8.E3.83.AA.E3.81.AE.E4.BE.8B"><span class="tocnumber">4.2</span> <span class="toctext">SPARQL クエリの例</span></a>
+<ul>
+<li class="toclevel-3 tocsection-9"><a href="#H-invDB_.E3.81.AE.E3.81.A8.E3.81.82.E3.82.8B.E6.9F.93.E8.89.B2.E4.BD.93.E9.A0.98.E5.9F.9F.28CHROMOSOME-BAND.29.E3.81.AB.E3.81.82.E3.82.8B.E8.9B.8B.E7.99.BD.E8.B3.AA.E3.81.A7PDB.E3.82.A8.E3.83.B3.E3.83.88.E3.83.AA.E3.81.8C.E5.AD.98.E5.9C.A8.E3.81.99.E3.82.8B.E3.82.82.E3.81.AE.E3.82.92.E6.8E.A2.E3.81.97.E3.81.A6.E3.80.81PDB.E3.81.AE.E3.82.A2.E3.83.8E.E3.83.86.E3.83.BC.E3.82.B7.E3.83.A7.E3.83.B3.E3.81.A8.E4.B8.80.E7.B7.92.E3.81.AB.E5.88.97.E6.8C.99.E3.81.99.E3.82.8B"><span class="tocnumber">4.2.1</span> <span class="toctext">H-invDB のとある染色体領域(CHROMOSOME-BAND)にある蛋白質でPDBエントリが存在するものを探して、PDBのアノテーションと一緒に列挙する</span></a></li>
+<li class="toclevel-3 tocsection-10"><a href="#21.E7.95.AA.E6.9F.93.E8.89.B2.E4.BD.93.E4.B8.8A.E3.81.AB.E3.81.82.E3.82.8B.E6.A7.8B.E9.80.A0.E6.97.A2.E7.9F.A5.E8.9B.8B.E7.99.BD.E8.B3.AA"><span class="tocnumber">4.2.2</span> <span class="toctext">21番染色体上にある構造既知蛋白質</span></a></li>
+<li class="toclevel-3 tocsection-11"><a href="#.E5.90.84.E6.9F.93.E8.89.B2.E4.BD.93.E4.B8.8A.E3.81.AB.E3.81.82.E3.82.8B.E9.85.B5.E7.B4.A0.E3.81.AE.E7.A8.AE.E9.A1.9E.E3.81.A8.E6.95.B0"><span class="tocnumber">4.2.3</span> <span class="toctext">各染色体上にある酵素の種類と数</span></a></li>
+<li class="toclevel-3 tocsection-12"><a href="#.E8.A7.A3.E5.83.8F.E5.BA.A6.E3.81.8C2.0.C3.85.E3.82.88.E3.82.8A.E8.89.AF.E3.81.84.E6.A7.8B.E9.80.A0.E3.81.8C.E8.A7.A3.E3.81.91.E3.81.A6.E3.81.84.E3.82.8B.E8.9B.8B.E7.99.BD.E8.B3.AA.E3.81.A8.E3.81.9D.E3.82.8C.E3.81.8C.E5.AD.98.E5.9C.A8.E3.81.99.E3.82.8B.E6.9F.93.E8.89.B2.E4.BD.93.E9.A0.98.E5.9F.9F"><span class="tocnumber">4.2.4</span> <span class="toctext">解像度が2.0Åより良い構造が解けている蛋白質とそれが存在する染色体領域</span></a></li>
+<li class="toclevel-3 tocsection-13"><a href="#.E8.84.B3.E3.81.A7.E7.99.BA.E7.8F.BE.E3.81.97.E3.81.A6.E3.81.84.E3.82.8B.E6.A7.8B.E9.80.A0.E6.97.A2.E7.9F.A5.E3.81.AE.E9.85.B5.E7.B4.A0"><span class="tocnumber">4.2.5</span> <span class="toctext">脳で発現している構造既知の酵素</span></a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-14"><a href="#.E7.B5.90.E6.9E.9C"><span class="tocnumber">5</span> <span class="toctext">結果</span></a></li>
+<li class="toclevel-1 tocsection-15"><a href="#.E5.8F.82.E8.80.83.E6.96.87.E7.8C.AE"><span class="tocnumber">6</span> <span class="toctext">参考文献</span></a></li>
+<li class="toclevel-1 tocsection-16"><a href="#.E4.BB.98.E9.8C.B2"><span class="tocnumber">7</span> <span class="toctext">付録</span></a>
+<ul>
+<li class="toclevel-2 tocsection-17"><a href="#H-invDB_.E3.81.AEHIP.E3.81.AEXML.E3.82.92RDF.E3.81.AB.E5.A4.89.E6.8F.9B.E3.81.99.E3.82.8B.E3.82.B9.E3.82.BF.E3.82.A4.E3.83.AB.E3.82.B7.E3.83.BC.E3.83.88.28.E4.B8.80.E9.83.A8.E3.82.A2.E3.82.A4.E3.83.86.E3.83.A0.E3.81.AE.E3.81.BF.E5.AF.BE.E5.BF.9C.29"><span class="tocnumber">7.1</span> <span class="toctext">H-invDB のHIPのXMLをRDFに変換するスタイルシート(一部アイテムのみ対応)</span></a></li>
+<li class="toclevel-2 tocsection-18"><a href="#Virtuoso_tips"><span class="tocnumber">7.2</span> <span class="toctext">Virtuoso tips</span></a>
+<ul>
+<li class="toclevel-3 tocsection-19"><a href="#.E3.83.87.E3.83.BC.E3.82.BF.E3.81.AE.E3.83.AD.E3.83.BC.E3.83.89"><span class="tocnumber">7.2.1</span> <span class="toctext">データのロード</span></a></li>
+<li class="toclevel-3 tocsection-20"><a href="#.E3.83.87.E3.83.BC.E3.82.BF.E3.81.AE.E5.89.8A.E9.99.A4"><span class="tocnumber">7.2.2</span> <span class="toctext">データの削除</span></a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-21"><a href="#.E3.81.BE.E3.81.A8.E3.82.81"><span class="tocnumber">8</span> <span class="toctext">まとめ</span></a>
+<ul>
+<li class="toclevel-2 tocsection-22"><a href="#.E5.AE.9F.E9.9A.9B.E3.82.84.E3.81.A3.E3.81.9F.E3.81.93.E3.81.A8"><span class="tocnumber">8.1</span> <span class="toctext">実際やったこと</span></a></li>
+<li class="toclevel-2 tocsection-23"><a href="#.E8.8B.A6.E5.8A.B4.E3.81.97.E3.81.9F.E7.82.B9"><span class="tocnumber">8.2</span> <span class="toctext">苦労した点</span></a></li>
+<li class="toclevel-2 tocsection-24"><a href="#.E6.AE.8B.E3.81.95.E3.82.8C.E3.81.9F.E8.AA.B2.E9.A1.8C"><span class="tocnumber">8.3</span> <span class="toctext">残された課題</span></a></li>
+<li class="toclevel-2 tocsection-25"><a href="#H-invDB.E3.81.AEXML.E5.BD.A2.E5.BC.8F.E3.81.AB.E3.81.A4.E3.81.84.E3.81.A6.28.E6.94.B9.E8.89.AF.E3.81.AE.E8.A6.81.E6.9C.9B.29"><span class="tocnumber">8.4</span> <span class="toctext">H-invDBのXML形式について(改良の要望)</span></a>
+<ul>
+<li class="toclevel-3 tocsection-26"><a href="#.E6.A1.88"><span class="tocnumber">8.4.1</span> <span class="toctext">案</span></a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</td></tr></table><script>if (window.showTocToggle) { var tocShowText = "表示"; var tocHideText = "非表示"; showTocToggle(); } </script>
+<h1> <span class="mw-headline" id=".E5.8F.82.E5.8A.A0.E8.80.85"> 参加者 </span></h1>
+<ul><li> 金城玲 (PDBj)
+</li><li> 村上勝彦 (JBiC)
+</li></ul>
+<h1> <span class="mw-headline" id=".E9.96.8B.E5.A7.8B.E5.89.8D.E3.81.AE.E7.8A.B6.E6.B3.81"> 開始前の状況 </span></h1>
+<p>PDBj と H-inv DBのRDF化
+</p><p>PDBj に関してはほぼ出来上がっている。
+</p><p>H-inv DBはこれから調べて考える。
+</p>
+<h1> <span class="mw-headline" id=".E3.82.84.E3.82.8B.E3.81.B9.E3.81.8D.E3.81.93.E3.81.A8.E3.81.AE.E3.83.AA.E3.82.B9.E3.83.88"> やるべきことのリスト </span></h1>
+<ul><li> OWL でオントロジーを定義する
+</li><li> データベースのデータをRDFに変換する。
+</li><li> RDF store にデータをロードする。
+</li><li> 適当なクエリを投げてみる。
+</li></ul>
+<p>以上。
+</p>
+<h2> <span class="mw-headline" id="PDBj_.E3.81.AE.E5.A0.B4.E5.90.88"> PDBj の場合 </span></h2>
+<ul><li> PDBMLのスキーマ pdbx-v32.xsd がある。
+</li><li> スタイルシートを作って、pdbx-v32.xsd から pdbx-v32.owl (OWLオントロジー)を作る。
+<ul><li> pdbx-v32.xsd -&gt; (pdbx2owl.xsl) -&gt; pdbx-v32.owl
+</li></ul>
+</li><li> スタイルシートを作って、pdbx-v32.xsd から RDFをつくるためのスタイルシートを作る。
+<ul><li> pdbx-v32.xsd -&gt; (pdbx2pdbml2rdf.xsl) -&gt; PDBML2rdf.xsl
+</li></ul>
+</li><li> 前段階で生成されたスタイルシートをつかって、PDBMLをRDFに変換する。
+<ul><li> 1gof.xml (一例) -&gt; (PDBML2rdf.xsl) -&gt; 1gof.rdf
+</li></ul>
+</li></ul>
+<h2> <span class="mw-headline" id="H-invDB_.E3.81.AE.E5.A0.B4.E5.90.88"> H-invDB の場合 </span></h2>
+<ul><li> XML スキーマがないので、手でOWLオントロジーを書く必要がある？
+</li><li> とりあえず、HIPのXMLファイルを直接RDFに変換するXSLを書くことにする。
+</li></ul>
+<h1> <span class="mw-headline" id="Use_case"> Use case </span></h1>
+<p>H-invDBとPDBをつないで面白いクエリを作る。
+</p>
+<ul><li> ある染色体領域にコードされている蛋白質でで構造が決定されているものをリストする。
+</li><li> あるいはその逆。
+</li></ul>
+<h3> <span class="mw-headline" id=".E3.81.A1.E3.82.87.E3.81.A3.E3.81.A8.E3.81.97.E3.81.9F.E6.B3.A8.E6.84.8F.E7.82.B9"> ちょっとした注意点 </span></h3>
+<ul><li> H-invDBではPDBのIDがchain IDやSCOPのドメイン IDを連結して書かれている（例：1a00A, 2bduA1など）。これは困る。
+</li><li> H-invDBのXMLにはバグがある。特殊文字がエスケープされていない。"&amp;" とか "&lt;" とか "&gt;" とか"&lt;gamma&gt;"　がある。
+</li></ul>
+<h2> <span class="mw-headline" id="SPARQL_.E3.82.AF.E3.82.A8.E3.83.AA.E3.81.AE.E4.BE.8B"> SPARQL クエリの例 </span></h2>
+<h3> <span class="mw-headline" id="H-invDB_.E3.81.AE.E3.81.A8.E3.81.82.E3.82.8B.E6.9F.93.E8.89.B2.E4.BD.93.E9.A0.98.E5.9F.9F.28CHROMOSOME-BAND.29.E3.81.AB.E3.81.82.E3.82.8B.E8.9B.8B.E7.99.BD.E8.B3.AA.E3.81.A7PDB.E3.82.A8.E3.83.B3.E3.83.88.E3.83.AA.E3.81.8C.E5.AD.98.E5.9C.A8.E3.81.99.E3.82.8B.E3.82.82.E3.81.AE.E3.82.92.E6.8E.A2.E3.81.97.E3.81.A6.E3.80.81PDB.E3.81.AE.E3.82.A2.E3.83.8E.E3.83.86.E3.83.BC.E3.82.B7.E3.83.A7.E3.83.B3.E3.81.A8.E4.B8.80.E7.B7.92.E3.81.AB.E5.88.97.E6.8C.99.E3.81.99.E3.82.8B"> H-invDB のとある染色体領域(CHROMOSOME-BAND)にある蛋白質でPDBエントリが存在するものを探して、PDBのアノテーションと一緒に列挙する </span></h3>
+<pre>
+prefix PDBo: &lt;http://www.pdbj.org/schema/pdbx-v32.owl#&gt;
+prefix Hinv: &lt;http://hinv.jp/hinv.owl#&gt;
+prefix rdfs: &lt;http://www.w3.org/2000/01/rdf-schema#&gt;
+
+select&nbsp;?band&nbsp;?pdbid&nbsp;?title  where {
+ ?s Hinv:CHROMOSOME-BAND&nbsp;?band .
+ ?s Hinv:STRUCTURE_DB-REFERENCE_PDB&nbsp;?pdbid .
+ ?pdbidU rdfs:sameAs&nbsp;?pdbid .
+ ?pdbidU PDBo:structCategory &nbsp;?struct .
+ ?struct PDBo:struct.title&nbsp;?title .
+}
+</pre>
+<h3> <span class="mw-headline" id="21.E7.95.AA.E6.9F.93.E8.89.B2.E4.BD.93.E4.B8.8A.E3.81.AB.E3.81.82.E3.82.8B.E6.A7.8B.E9.80.A0.E6.97.A2.E7.9F.A5.E8.9B.8B.E7.99.BD.E8.B3.AA"> 21番染色体上にある構造既知蛋白質 </span></h3>
+<pre>
+prefix PDBo: &lt;http://www.pdbj.org/schema/pdbx-v32.owl#&gt;
+prefix Hinv: &lt;http://hinv.jp/hinv.owl#&gt;
+prefix rdfs: &lt;http://www.w3.org/2000/01/rdf-schema#&gt;
+
+select&nbsp;?s&nbsp;?band&nbsp;?pdbidU&nbsp;?title  where {
+ ?s Hinv:CHROMOSOME-NUMBER '21' .
+ ?s Hinv:CHROMOSOME-BAND&nbsp;?band .
+ ?s Hinv:STRUCTURE_DB-REFERENCE_PDB&nbsp;?pdbid .
+ ?pdbidU rdfs:sameAs&nbsp;?pdbid .
+ ?pdbidU PDBo:structCategory &nbsp;?struct .
+ ?struct PDBo:struct.title&nbsp;?title .
+} 
+</pre>
+<h3> <span class="mw-headline" id=".E5.90.84.E6.9F.93.E8.89.B2.E4.BD.93.E4.B8.8A.E3.81.AB.E3.81.82.E3.82.8B.E9.85.B5.E7.B4.A0.E3.81.AE.E7.A8.AE.E9.A1.9E.E3.81.A8.E6.95.B0"> 各染色体上にある酵素の種類と数 </span></h3>
+<pre>
+prefix rdfs: &lt;http://www.w3.org/2000/01/rdf-schema#&gt;
+prefix PDBo: &lt;http://www.pdbj.org/schema/pdbx-v32.owl#&gt;
+prefix Hinv: &lt;http://hinv.jp/hinv.owl#&gt;
+
+select&nbsp;?cn&nbsp;?ec count(*) where {
+ ?s Hinv:CHROMOSOME-NUMBER&nbsp;?cn .
+ ?s Hinv:STRUCTURE_DB-REFERENCE_PDB&nbsp;?pdbid .
+ ?pdbidU rdfs:sameAs&nbsp;?pdbid .
+ ?pdbidU PDBo:entityCategory &nbsp;?entity .
+ ?entity PDBo:link_to_enzyme&nbsp;?ec .
+} 
+group by&nbsp;?cn&nbsp;?ec
+order by&nbsp;?cn&nbsp;?ec
+
+</pre>
+<h3> <span class="mw-headline" id=".E8.A7.A3.E5.83.8F.E5.BA.A6.E3.81.8C2.0.C3.85.E3.82.88.E3.82.8A.E8.89.AF.E3.81.84.E6.A7.8B.E9.80.A0.E3.81.8C.E8.A7.A3.E3.81.91.E3.81.A6.E3.81.84.E3.82.8B.E8.9B.8B.E7.99.BD.E8.B3.AA.E3.81.A8.E3.81.9D.E3.82.8C.E3.81.8C.E5.AD.98.E5.9C.A8.E3.81.99.E3.82.8B.E6.9F.93.E8.89.B2.E4.BD.93.E9.A0.98.E5.9F.9F"> 解像度が2.0Åより良い構造が解けている蛋白質とそれが存在する染色体領域 </span></h3>
+<pre>
+prefix rdfs: &lt;http://www.w3.org/2000/01/rdf-schema#&gt;
+PREFIX xsd: &lt;http://www.w3.org/2001/XMLSchema#&gt;
+prefix PDBo: &lt;http://www.pdbj.org/schema/pdbx-v32.owl#&gt;
+prefix Hinv: &lt;http://hinv.jp/hinv.owl#&gt;
+
+select&nbsp;?cn&nbsp;?s&nbsp;?pdb&nbsp;?res {
+ ?s Hinv:CHROMOSOME-NUMBER&nbsp;?cn .
+ ?s Hinv:STRUCTURE_DB-REFERENCE_PDB&nbsp;?pdb .
+ ?pdbU rdfs:sameAs&nbsp;?pdb .
+ ?pdbU PDBo:refineCategory&nbsp;?refine .
+ ?refine PDBo:refine.ls_d_res_high&nbsp;?res .
+ FILTER(xsd:decimal(?res) &lt; xsd:decimal(2.0))
+}
+order by&nbsp;?cn xsd:decimal(?res)
+</pre>
+<ul><li> FILTER中で数値を比較する際、xsd:decimal に注意！
+</li><li> order by の挙動が変？
+</li></ul>
+<h3> <span class="mw-headline" id=".E8.84.B3.E3.81.A7.E7.99.BA.E7.8F.BE.E3.81.97.E3.81.A6.E3.81.84.E3.82.8B.E6.A7.8B.E9.80.A0.E6.97.A2.E7.9F.A5.E3.81.AE.E9.85.B5.E7.B4.A0"> 脳で発現している構造既知の酵素 </span></h3>
+<pre>
+prefix rdfs: &lt;http://www.w3.org/2000/01/rdf-schema#&gt;
+prefix PDBo: &lt;http://www.pdbj.org/schema/pdbx-v32.owl#&gt;
+prefix Hinv: &lt;http://hinv.jp/hinv.owl#&gt;
+
+select&nbsp;?s&nbsp;?cn&nbsp;?tissue&nbsp;?pdbid&nbsp;?ec where {
+ ?s Hinv:CHROMOSOME-NUMBER&nbsp;?cn .
+ ?s Hinv:TISSUE-TYPE-ORIGIN_ORIGINAL&nbsp;?tissue .
+ FILTER regex(?tissue, &quot;brain&quot;)
+ ?s Hinv:STRUCTURE_DB-REFERENCE_PDB&nbsp;?pdbid .
+ ?pdbidU rdfs:sameAs&nbsp;?pdbid .
+ ?pdbidU PDBo:entityCategory &nbsp;?entity .
+ ?entity PDBo:link_to_enzyme&nbsp;?ec .
+} 
+</pre>
+<h1> <span class="mw-headline" id=".E7.B5.90.E6.9E.9C"> 結果 </span></h1>
+<ol><li> H-invDB の蛋白質データの一部 XPROTEIN_1 をとってきた。
+</li><li> XPROTEIN_1 のバグを取った。
+</li><li> XPROTEIN_1 全部のデータ(50000件)をロードした場合は transaction time out で結果が得られず。
+</li><li> XPROTEIN_1 の一部(1264件)をロードした。それに含まれるPDBエントリは574エントリ。
+<ul><li> この程度は楽に検索できる。
+</li><li> 次の日に、より多くのデータをロードしてみた。H-invDB→2539エントリ、PDB→1017エントリ。これでも一瞬で検索できる。
+</li></ul>
+</li></ol>
+<h1> <span class="mw-headline" id=".E5.8F.82.E8.80.83.E6.96.87.E7.8C.AE"> 参考文献 </span></h1>
+<ol><li> <a href="http://www.amazon.co.jp/dp/4627829310" class="external text" rel="nofollow">セマンティック・ウェブのためのRDF/OWL入門</a> 神崎 正英 (著)  
+<ul><li> RDFとOWLの分かりやすい説明。
+</li></ul>
+</li><li> <a href="http://www.amazon.co.jp/dp/0123735564" class="external text" rel="nofollow">Semantic Web for the Working Ontologist: Effective Modeling in RDFS and OWL</a> Dean Allemang (著), James Hendler (著)
+<ul><li> <a href="http://www.amazon.co.jp/dp/4883093247" class="external text" rel="nofollow">実践セマンティックWeb―RDF/RDFS/OWLによるオントロジー設計ガイド</a> （日本語訳）
+</li></ul>
+</li><li> <a href="http://www.amazon.co.jp/dp/4873114527" class="external text" rel="nofollow">セマンティックWeb プログラミング</a> Toby Segaran (著), Colin Evans (著), Jamie Taylor (著),
+<ul><li> より実践的な解説
+</li></ul>
+</li><li> <a href="http://www.amazon.co.jp/dp/4274207455" class="external text" rel="nofollow">記述論理とWebオントロジー言語</a> 兼岩 憲 (著)
+<ul><li> 理論的背景
+</li></ul>
+</li><li> <a href="http://www.amazon.co.jp/dp/0131873253" class="external text" rel="nofollow">Database Systems: The Complete Book (2nd Edition)</a> Hector Garcia-Molina (著), Jeffrey D. Ullman (著), Jennifer Widom (著)  
+<ul><li>  データベースとXMLの関係、マッピングの仕方
+</li></ul>
+</li></ol>
+<h1> <span class="mw-headline" id=".E4.BB.98.E9.8C.B2"> 付録 </span></h1>
+<h2> <span class="mw-headline" id="H-invDB_.E3.81.AEHIP.E3.81.AEXML.E3.82.92RDF.E3.81.AB.E5.A4.89.E6.8F.9B.E3.81.99.E3.82.8B.E3.82.B9.E3.82.BF.E3.82.A4.E3.83.AB.E3.82.B7.E3.83.BC.E3.83.88.28.E4.B8.80.E9.83.A8.E3.82.A2.E3.82.A4.E3.83.86.E3.83.A0.E3.81.AE.E3.81.BF.E5.AF.BE.E5.BF.9C.29"> H-invDB のHIPのXMLをRDFに変換するスタイルシート(一部アイテムのみ対応) </span></h2>
+<pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;xsl:stylesheet
+   version=&quot;2.0&quot;
+   xmlns:xsl=&quot;http://www.w3.org/1999/XSL/Transform&quot;
+   xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot;
+   xmlns:PDBx=&quot;http://pdbml.pdb.org/schema/pdbx-v32.xsd&quot;
+   xmlns:Hinv=&quot;http://hinv.jp/hinv.owl#&quot;
+   xmlns:rdfs=&quot;http://www.w3.org/2000/01/rdf-schema#&quot;
+   xmlns:rdf=&quot;http://www.w3.org/1999/02/22-rdf-syntax-ns#&quot;
+   &gt;
+  &lt;xsl:output method=&quot;xml&quot; indent=&quot;yes&quot;/&gt;
+  &lt;xsl:strip-space elements=&quot;*&quot;/&gt;
+
+  &lt;xsl:template match=&quot;/H-Inv&quot;&gt;
+    &lt;rdf:RDF&gt;
+      &lt;xsl:apply-templates/&gt;
+    &lt;/rdf:RDF&gt;
+  &lt;/xsl:template&gt;
+
+  &lt;xsl:template match=&quot;HIP&quot;&gt;
+    &lt;rdf:Description rdf:about=&quot;http://www.h-invitational.jp/hinv/protein/protein_view.cgi?hip_id={H-INVITATIONAL-PROTEIN-ID}&quot;&gt;
+      &lt;xsl:apply-templates/&gt;
+    &lt;/rdf:Description&gt;
+  &lt;/xsl:template&gt;
+
+  &lt;xsl:template match=&quot;H-INVITATIONAL-PROTEIN-ID&quot;&gt;
+    &lt;Hinv:H-INVITATIONAL-PROTEIN-ID&gt;
+	&lt;xsl:value-of select=&quot;.&quot;/&gt;
+    &lt;/Hinv:H-INVITATIONAL-PROTEIN-ID&gt;
+  &lt;/xsl:template&gt;
+
+  &lt;xsl:template match=&quot;H-INVITATIONAL-ID&quot;&gt;
+    &lt;Hinv:H-INVITATIONAL-ID&gt;
+http://www.h-invitational.jp/hinv/spsoup/transcript_view?hit_id=&lt;xsl:value-of select=&quot;.&quot;/&gt;
+    &lt;/Hinv:H-INVITATIONAL-ID&gt;
+  &lt;/xsl:template&gt;
+
+  &lt;xsl:template match=&quot;CLUSTER-ID&quot;&gt;
+    &lt;Hinv:CLUSTER-ID&gt;
+      http://www.h-invitational.jp/hinv/spsoup/locus_view?hix_id=&lt;xsl:value-of select=&quot;.&quot;/&gt;
+    &lt;/Hinv:CLUSTER-ID&gt;
+  &lt;/xsl:template&gt;
+
+  &lt;xsl:template match=&quot;CDNA_DB-REFERENCE_ENSEMBL&quot;&gt;
+    &lt;Hinv:CDNA_DB-REFERENCE_ENSEMBL&gt;
+      http://www.ensembl.org/Homo_sapiens/Transcript/Transcript?t=&lt;xsl:value-of select=&quot;.&quot;/&gt;
+    &lt;/Hinv:CDNA_DB-REFERENCE_ENSEMBL&gt;
+  &lt;/xsl:template&gt;
+
+  &lt;xsl:template match=&quot;CDNA_DB-REFERENCE_UNIPROT-PROTEIN-ID&quot;&gt;
+    &lt;Hinv:CDNA_DB-REFERENCE_UNIPROT-PROTEIN-ID&gt;
+      http://purl.uniprot.org/uniprot/&lt;xsl:value-of select=&quot;.&quot;/&gt;
+    &lt;/Hinv:CDNA_DB-REFERENCE_UNIPROT-PROTEIN-ID&gt;
+  &lt;/xsl:template&gt;
+
+  &lt;xsl:template match=&quot;CDNA_DB-REFERENCE_PUBMED&quot;&gt;
+    &lt;Hinv:CDNA_DB-REFERENCE_PUBMED&gt;
+      http://www.ncbi.nlm.nih.gov/pubmed/&lt;xsl:value-of select=&quot;.&quot;/&gt;
+    &lt;/Hinv:CDNA_DB-REFERENCE_PUBMED&gt;
+  &lt;/xsl:template&gt;
+
+  &lt;xsl:template match=&quot;CHROMOSOME-NUMBER&quot;&gt;
+      &lt;Hinv:CHROMOSOME-NUMBER&gt;
+	&lt;xsl:value-of select=&quot;.&quot;/&gt;
+      &lt;/Hinv:CHROMOSOME-NUMBER&gt;
+  &lt;/xsl:template&gt;
+  &lt;xsl:template match=&quot;CHROMOSOME-BAND&quot;&gt;
+      &lt;Hinv:CHROMOSOME-BAND&gt;
+	&lt;xsl:value-of select=&quot;.&quot;/&gt;
+      &lt;/Hinv:CHROMOSOME-BAND&gt;
+  &lt;/xsl:template&gt;
+
+  &lt;xsl:template match=&quot;STRUCTURE_DB-REFERENCE_PDB&quot;&gt;
+    &lt;Hinv:STRUCTURE_DB-REFERENCE_PDB rdf:resource=&quot;http://www.pdbj.org/xpath/{substring(.,1,4)}&quot;/&gt;
+  &lt;/xsl:template&gt;
+
+  &lt;xsl:template match=&quot;TISSUE-TYPE-ORIGIN_ORIGINAL&quot;&gt;
+    &lt;Hinv:TISSUE-TYPE-ORIGIN_ORIGINAL&gt;
+      &lt;xsl:value-of select=&quot;.&quot;/&gt;
+    &lt;/Hinv:TISSUE-TYPE-ORIGIN_ORIGINAL&gt;
+  &lt;/xsl:template&gt;
+
+  &lt;xsl:template match=&quot;*&quot;&gt;
+      &lt;xsl:apply-templates/&gt;
+  &lt;/xsl:template&gt;
+
+  &lt;xsl:template match=&quot;text()&quot;/&gt;
+&lt;/xsl:stylesheet&gt;
+
+</pre>
+<h2> <span class="mw-headline" id="Virtuoso_tips"> Virtuoso tips </span></h2>
+<h3> <span class="mw-headline" id=".E3.83.87.E3.83.BC.E3.82.BF.E3.81.AE.E3.83.AD.E3.83.BC.E3.83.89"> データのロード </span></h3>
+<p>/tmp/kk.ttl にturtle formatのデータがあるとする。
+"<a href="http://www.pdbj.org" class="external free" rel="nofollow">http://www.pdbj.org</a>" という名前のグラフに三つ組みを
+入れる。
+</p>
+<pre>
+ isql 1111 dba dba &lt;&lt;EOF
+DB.DBA.TTLP_MT(file_to_string_output('/tmp/kk.ttl'), '' ,'http://www.pdbj.org',0);
+checkpoint;
+EOF
+</pre>
+<h3> <span class="mw-headline" id=".E3.83.87.E3.83.BC.E3.82.BF.E3.81.AE.E5.89.8A.E9.99.A4"> データの削除 </span></h3>
+<p>"<a href="http://www.pdbj.org" class="external free" rel="nofollow">http://www.pdbj.org</a>" という名前のグラフにあるデータをすべて削除する。
+</p>
+<pre>
+ isql 1111 dba dba &lt;&lt;EOF
+sparql clear graph &lt;http://www.pdbj.org&gt;;
+EOF
+</pre>
+<h1> <span class="mw-headline" id=".E3.81.BE.E3.81.A8.E3.82.81"> まとめ </span></h1>
+<h2> <span class="mw-headline" id=".E5.AE.9F.E9.9A.9B.E3.82.84.E3.81.A3.E3.81.9F.E3.81.93.E3.81.A8"> 実際やったこと </span></h2>
+<ol><li> PDBjのRDFをつくるXSLを一部修正した。
+</li><li> H-invDB (protein) のデータの一部をXMLからRDFに変換するXSLスタイルシートを作った。
+</li><li> H-invDB (protein) の2539エントリとそれに対応するPDBエントリ (1017) を Virtuoso にロードした。
+</li><li> いくつかのSPARQL クエリを試した。
+</li></ol>
+<h2> <span class="mw-headline" id=".E8.8B.A6.E5.8A.B4.E3.81.97.E3.81.9F.E7.82.B9"> 苦労した点 </span></h2>
+<ul><li> H-invDB の XML ファイルがvalidでなかった。（特殊文字のエスケープ）
+</li><li> 全部のデータは8GBのメモリには載らないので、検索が"transaction time out" になってしまった。
+</li></ul>
+<p>それでも思ったよりすんなり検索のデモまでできた。
+</p>
+<h2> <span class="mw-headline" id=".E6.AE.8B.E3.81.95.E3.82.8C.E3.81.9F.E8.AA.B2.E9.A1.8C"> 残された課題 </span></h2>
+<ul><li> H-invDB のOWLオントロジーの定義、完全なRDF化
+</li><li> 全データを実際にロードして検索を実行すること。
+</li></ul>
+<h2> <span class="mw-headline" id="H-invDB.E3.81.AEXML.E5.BD.A2.E5.BC.8F.E3.81.AB.E3.81.A4.E3.81.84.E3.81.A6.28.E6.94.B9.E8.89.AF.E3.81.AE.E8.A6.81.E6.9C.9B.29"> H-invDBのXML形式について(改良の要望) </span></h2>
+<ul><li> 何はともあれ特殊文字のエスケープ "&amp;"→"&amp;amp;" "&lt;" → "&amp;lt;" "&gt;" → "&amp;gt;"
+</li><li> H-invDB のXMLファイルには属性(attribute)がない。
+<ul><li> →データの項目のPrimary key に相当するようなアイテムは属性にすべき。
+</li><li> その利点は、字面からどれがprimary key になるかが分かるので、各エントリのデータ項目毎にURIが定義できて、より細かい粒度のRDFトリプルが定義できて、その変換が簡単になること(XSLスタイルシートが規則的に書ける）。
+</li></ul>
+</li></ul>
+<p>RDBとXMLの関係については、上記<a href="#.E5.8F.82.E8.80.83.E6.96.87.E7.8C.AE">参考文献</a>中のDatabase Systems: The Complete Book を参照のこと。
+</p>
+<h3> <span class="mw-headline" id=".E6.A1.88"> 案 </span></h3>
+<p>H-invの実情を知らないので、ちょっとアレですが、たとえば、
+</p>
+<pre>
+   &lt;HIP&gt;
+    &lt;H-INVITATIONAL-PROTEIN-ID&gt;HIP000000308&lt;/H-INVITATIONAL-PROTEIN-ID&gt;
+    &lt;H-INVITATIONAL-PROTEIN-ID-VERSION&gt;HIP000000308.1&lt;/H-INVITATIONAL-PROTEIN-ID-VERSION&gt;
+    &lt;DATE-LAST-UPDATE&gt;16-Feb-2010&lt;/DATE-LAST-UPDATE&gt;
+    &lt;DATE-LAST-MODIFIED&gt;16-Feb-2010&lt;/DATE-LAST-MODIFIED&gt;
+    &lt;CDNA_H-INV-DB-RELEASE&gt;7.5&lt;/CDNA_H-INV-DB-RELEASE&gt;
+    &lt;PROTEIN_DATE-LAST-UPDATE&gt;16-Feb-2010&lt;/PROTEIN_DATE-LAST-UPDATE&gt;
+    &lt;PROTEIN_DATE-LAST-MODIFIED&gt;16-Feb-2010&lt;/PROTEIN_DATE-LAST-MODIFIED&gt;
+    &lt;HIP-RELEASE&gt;7.3&lt;/HIP-RELEASE&gt;
+    &lt;REPRESENTATIVE&gt;
+      &lt;H-INVITATIONAL-ID&gt;HIT000036345&lt;/H-INVITATIONAL-ID&gt;
+      &lt;H-INVITATIONAL-ID-VERSION&gt;HIT000036345.16&lt;/H-INVITATIONAL-ID-VERSION&gt;
+      &lt;CLUSTER-ID&gt;HIX0013821&lt;/CLUSTER-ID&gt;
+....
+</pre>
+<p>となっているところを、
+</p>
+<pre>
+  &lt;HIP ID=&quot;HIP000000308&quot;&gt;
+    &lt;H-INVITATIONAL-PROTEIN-ID-VERSION&gt;HIP000000308.1&lt;/H-INVITATIONAL-PROTEIN-ID-VERSION&gt;
+    &lt;DATE-LAST-UPDATE&gt;16-Feb-2010&lt;/DATE-LAST-UPDATE&gt;
+    &lt;DATE-LAST-MODIFIED&gt;16-Feb-2010&lt;/DATE-LAST-MODIFIED&gt;
+    &lt;CDNA_H-INV-DB-RELEASE&gt;7.5&lt;/CDNA_H-INV-DB-RELEASE&gt;
+    &lt;PROTEIN_DATE-LAST-UPDATE&gt;16-Feb-2010&lt;/PROTEIN_DATE-LAST-UPDATE&gt;
+    &lt;PROTEIN_DATE-LAST-MODIFIED&gt;16-Feb-2010&lt;/PROTEIN_DATE-LAST-MODIFIED&gt;
+    &lt;HIP-RELEASE&gt;7.3&lt;/HIP-RELEASE&gt;
+    &lt;REPRESENTATIVE ID=&quot;HIT000036345&quot;&gt;
+      &lt;H-INVITATIONAL-ID-VERSION&gt;HIT000036345.16&lt;/H-INVITATIONAL-ID-VERSION&gt;
+      &lt;CLUSTER-ID&gt;HIX0013821&lt;/CLUSTER-ID&gt;
+ ....
+</pre>
+<p>とするとか（"HIP"タグと"REPRESENTATIVE"タグに注目)。
+そうすると、たとえば、
+</p>
+<ul><li> <a href="http://hinv.jp/protein/HIP000163250" class="external free" rel="nofollow">http://hinv.jp/protein/HIP000163250</a> (fake です)
+</li></ul>
+<p>のみならず、
+</p>
+<ul><li> <a href="http://hinv.jp/protein/HIP000163250/representative/HIT000036345" class="external free" rel="nofollow">http://hinv.jp/protein/HIP000163250/representative/HIT000036345</a> (fake です)
+</li></ul>
+<p>みたいなURLがXMLデータの<b>字面だけから</b>推定できます。現状だと、XMLファイルの意味を<b>人間が</b>理解した上で、RDFやURLへの変換ルールを
+書く必要があります。さらに、
+</p>
+<pre>
+&lt;http://hinv.jp/protein/HIP000163250&gt; &lt;http://hinv.jp/hinv.owl#DATE-LAST-MODIFIED&gt; &quot;16-Feb-2010&quot; .
+</pre>
+<p>のようなエントリ単位のトリプルのみならず、
+</p>
+<pre>
+&lt;http://hinv.jp/protein/HIP000163250&gt; &lt;http://hinv.jp/hinv.owl#hasRepresentative&gt; &lt;http://hinv.jp/protein/HIP000163250/representative/HIT000036345&gt; .
+&lt;http://hinv.jp/protein/HIP000163250/representative/HIT000036345&gt; &lt;http://hinv.jp/hinv.owl#CLUSTER-ID&gt; &quot;HIX0013821&quot; .
+
+</pre>
+<p>のようなエントリ内の項目単位のトリプルも可能になります。
+</p><div class="printfooter">
+「<a href="http://wiki.lifesciencedb.jp/mw/%E3%83%87%E3%83%BC%E3%82%BF%E3%83%99%E3%83%BC%E3%82%B9%E3%81%AERDF%E5%8C%96">http://wiki.lifesciencedb.jp/mw/%E3%83%87%E3%83%BC%E3%82%BF%E3%83%99%E3%83%BC%E3%82%B9%E3%81%AERDF%E5%8C%96</a>」より作成</div>
+		<div id='catlinks' class='catlinks'><div id="mw-normal-catlinks"><a href="/mw/%E7%89%B9%E5%88%A5:%E3%82%AB%E3%83%86%E3%82%B4%E3%83%AA" title="特別:カテゴリ">カテゴリ</a>: <span dir='ltr'><a href="/mw/index.php?title=Category:Bh10.10&amp;action=edit&amp;redlink=1" class="new" title="Category:Bh10.10（存在しないページ）">Bh10.10</a></span></div></div>		<!-- end content -->
+				<div class="visualClear"></div>
+	</div>
+</div></div>
+<div id="column-one">
+	<div id="p-cactions" class="portlet">
+		<h5>表示</h5>
+		<div class="pBody">
+			<ul>
+				 <li id="ca-nstab-main" class="selected"><a href="/mw/%E3%83%87%E3%83%BC%E3%82%BF%E3%83%99%E3%83%BC%E3%82%B9%E3%81%AERDF%E5%8C%96" title="本文を表示 [c]" accesskey="c">ページ</a></li>
+				 <li id="ca-talk" class="new"><a href="/mw/index.php?title=%E3%83%8E%E3%83%BC%E3%83%88:%E3%83%87%E3%83%BC%E3%82%BF%E3%83%99%E3%83%BC%E3%82%B9%E3%81%AERDF%E5%8C%96&amp;action=edit&amp;redlink=1" title="記事についての議論 [t]" accesskey="t">議論</a></li>
+				 <li id="ca-viewsource"><a href="/mw/index.php?title=%E3%83%87%E3%83%BC%E3%82%BF%E3%83%99%E3%83%BC%E3%82%B9%E3%81%AERDF%E5%8C%96&amp;action=edit&amp;oldid=788" title="このページは保護されています。&#10;ページのソースを閲覧できます。 [e]" accesskey="e">ソースを表示</a></li>
+				 <li id="ca-history"><a href="/mw/index.php?title=%E3%83%87%E3%83%BC%E3%82%BF%E3%83%99%E3%83%BC%E3%82%B9%E3%81%AERDF%E5%8C%96&amp;action=history" title="このページの過去の版 [h]" accesskey="h">履歴</a></li>
+			</ul>
+		</div>
+	</div>
+	<div class="portlet" id="p-personal">
+		<h5>個人用ツール</h5>
+		<div class="pBody">
+			<ul>
+				<li id="pt-anonuserpage"><a href="/mw/%E5%88%A9%E7%94%A8%E8%80%85:172.18.8.51" title="自分が編集しているIPアドレスの利用者ページ [.]" accesskey="." class="new">172.18.8.51</a></li>
+				<li id="pt-anontalk"><a href="/mw/%E5%88%A9%E7%94%A8%E8%80%85%E2%80%90%E4%BC%9A%E8%A9%B1:172.18.8.51" title="このIPアドレスからなされた編集についての議論 [n]" accesskey="n" class="new">このIPアドレスのトーク</a></li>
+				<li id="pt-anonlogin"><a href="/mw/index.php?title=%E7%89%B9%E5%88%A5:%E3%83%AD%E3%82%B0%E3%82%A4%E3%83%B3&amp;returnto=%E3%83%87%E3%83%BC%E3%82%BF%E3%83%99%E3%83%BC%E3%82%B9%E3%81%AERDF%E5%8C%96&amp;returntoquery=diff%3Dprev%26oldid%3D788" title="ログインすることが推奨されます。ただし、必須ではありません。 [o]" accesskey="o">ログイン</a></li>
+				<li id="pt-openidlogin"><a href="/mw/index.php?title=%E7%89%B9%E5%88%A5:OpenID%E3%83%AD%E3%82%B0%E3%82%A4%E3%83%B3&amp;returnto=%E3%83%87%E3%83%BC%E3%82%BF%E3%83%99%E3%83%BC%E3%82%B9%E3%81%AERDF%E5%8C%96">OpenIDでログイン</a></li>
+			</ul>
+		</div>
+	</div>
+	<div class="portlet" id="p-logo">
+		<a style="background-image: url(/mw/images/togowiki-logo.png);" href="/mw/%E3%83%A1%E3%82%A4%E3%83%B3%E3%83%9A%E3%83%BC%E3%82%B8" title="メインページに移動"></a>
+	</div>
+	<script type="text/javascript"> if (window.isMSIE55) fixalpha(); </script>
+	<div class='generated-sidebar portlet' id='p-navigation'>
+		<h5>案内</h5>
+		<div class='pBody'>
+			<ul>
+				<li id="n-mainpage-description"><a href="/mw/%E3%83%A1%E3%82%A4%E3%83%B3%E3%83%9A%E3%83%BC%E3%82%B8" title="メインページに移動する [z]" accesskey="z">メインページ</a></li>
+				<li id="n-portal"><a href="/mw/TogoWiki:%E3%82%B3%E3%83%9F%E3%83%A5%E3%83%8B%E3%83%86%E3%82%A3%E3%83%BB%E3%83%9D%E3%83%BC%E3%82%BF%E3%83%AB" title="このプロジェクトについて、できること、情報を入手する場所">コミュニティ・ポータル</a></li>
+				<li id="n-currentevents"><a href="/mw/TogoWiki:%E6%9C%80%E8%BF%91%E3%81%AE%E5%87%BA%E6%9D%A5%E4%BA%8B" title="最近の出来事について予備知識を得る">最近の出来事</a></li>
+				<li id="n-recentchanges"><a href="/mw/%E7%89%B9%E5%88%A5:%E6%9C%80%E8%BF%91%E3%81%AE%E6%9B%B4%E6%96%B0" title="ウィキにおける最近の更新の一覧 [r]" accesskey="r">最近の更新</a></li>
+				<li id="n-randompage"><a href="/mw/%E7%89%B9%E5%88%A5:%E3%81%8A%E3%81%BE%E3%81%8B%E3%81%9B%E8%A1%A8%E7%A4%BA" title="無作為に抽出されたページの読み込み [x]" accesskey="x">おまかせ表示</a></li>
+				<li id="n-help"><a href="/mw/Help:%E7%9B%AE%E6%AC%A1" title="情報を得る場所">ヘルプ</a></li>
+			</ul>
+		</div>
+	</div>
+	<div id="p-search" class="portlet">
+		<h5><label for="searchInput">検索</label></h5>
+		<div id="searchBody" class="pBody">
+			<form action="/mw/index.php" id="searchform">
+				<input type='hidden' name="title" value="特別:検索"/>
+				<input id="searchInput" title="TogoWiki内を検索" accesskey="f" type="search" name="search" />
+				<input type='submit' name="go" class="searchButton" id="searchGoButton"	value="表示" title="厳密に一致する名前のページが存在すれば、そのページへ移動します" />&nbsp;
+				<input type='submit' name="fulltext" class="searchButton" id="mw-searchButton" value="検索" title="入力された文字列が含まれるページを検索します" />
+			</form>
+		</div>
+	</div>
+	<div class="portlet" id="p-tb">
+		<h5>ツールボックス</h5>
+		<div class="pBody">
+			<ul>
+				<li id="t-whatlinkshere"><a href="/mw/%E7%89%B9%E5%88%A5:%E3%83%AA%E3%83%B3%E3%82%AF%E5%85%83/%E3%83%87%E3%83%BC%E3%82%BF%E3%83%99%E3%83%BC%E3%82%B9%E3%81%AERDF%E5%8C%96" title="ここにリンクしている全ウィキのページの一覧 [j]" accesskey="j">リンク元</a></li>
+				<li id="t-recentchangeslinked"><a href="/mw/%E7%89%B9%E5%88%A5:%E9%96%A2%E9%80%A3%E3%83%9A%E3%83%BC%E3%82%B8%E3%81%AE%E6%9B%B4%E6%96%B0%E7%8A%B6%E6%B3%81/%E3%83%87%E3%83%BC%E3%82%BF%E3%83%99%E3%83%BC%E3%82%B9%E3%81%AERDF%E5%8C%96" title="このページからリンクしているページの最近の更新 [k]" accesskey="k">関連ページの更新状況</a></li>
+<li id="t-specialpages"><a href="/mw/%E7%89%B9%E5%88%A5:%E7%89%B9%E5%88%A5%E3%83%9A%E3%83%BC%E3%82%B8%E4%B8%80%E8%A6%A7" title="特別ページの一覧 [q]" accesskey="q">特別ページ</a></li>
+				<li id="t-print"><a href="/mw/index.php?title=%E3%83%87%E3%83%BC%E3%82%BF%E3%83%99%E3%83%BC%E3%82%B9%E3%81%AERDF%E5%8C%96&amp;diff=prev&amp;oldid=788&amp;printable=yes" rel="alternate" title="このページの印刷用ページ [p]" accesskey="p">印刷用バージョン</a></li>				<li id="t-permalink"><a href="/mw/index.php?title=%E3%83%87%E3%83%BC%E3%82%BF%E3%83%99%E3%83%BC%E3%82%B9%E3%81%AERDF%E5%8C%96&amp;oldid=788" title="ページのこの版への固定リンク">この版への固定リンク</a></li>			</ul>
+		</div>
+	</div>
+</div><!-- end of the left (by default at least) column -->
+<div class="visualClear"></div>
+<div id="footer">
+	<div id="f-poweredbyico"><a href="http://www.mediawiki.org/"><img src="/mw/skins/common/images/poweredby_mediawiki_88x31.png" height="31" width="88" alt="Powered by MediaWiki" /></a></div>
+	<div id="f-copyrightico"><a href="http://creativecommons.org/licenses/by/3.0/"><img src="http://i.creativecommons.org/l/by/3.0/88x31.png" alt="Attribution 3.0 Unported" width="88" height="31" /></a></div>
+	<ul id="f-list">
+		<li id="lastmod"> このページの最終更新は 2010年10月25日 (月) 23:00 に行われました。</li>
+		<li id="viewcount">このページは54,532回アクセスされました。</li>
+		<li id="copyright">内容は<a href="http://creativecommons.org/licenses/by/3.0/" class="external ">Attribution 3.0 Unported</a>のライセンスで利用することができます。</li>
+		<li id="privacy"><a href="/mw/TogoWiki:%E3%83%97%E3%83%A9%E3%82%A4%E3%83%90%E3%82%B7%E3%83%BC%E3%83%BB%E3%83%9D%E3%83%AA%E3%82%B7%E3%83%BC" title="TogoWiki:プライバシー・ポリシー">プライバシー・ポリシー</a></li>
+		<li id="about"><a href="/mw/TogoWiki:TogoWiki%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6" title="TogoWiki:TogoWikiについて">TogoWikiについて</a></li>
+		<li id="disclaimer"><a href="/mw/TogoWiki:%E5%85%8D%E8%B2%AC%E4%BA%8B%E9%A0%85" title="TogoWiki:免責事項">免責事項</a></li>
+	</ul>
+</div>
+</div>
+
+<script>if (window.runOnloadHook) runOnloadHook();</script>
+<!-- Served in 0.701 secs. --></body></html>

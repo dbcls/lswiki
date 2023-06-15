@@ -1,0 +1,9 @@
+/* generated javascript */
+var skin = 'monobook';
+var stylepath = '/mw/skins';
+
+/* MediaWiki:Common.js */
+/* ここにあるすべてのJavaScriptは、すべてのページ読み込みですべての利用者に対して読み込まれます */
+
+/* MediaWiki:Monobook.js */
+/* ここにあるすべてのJavaScriptは、モノブック外装を使用している利用者に対して読み込まれます */

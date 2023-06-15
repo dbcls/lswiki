@@ -1,0 +1,292 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html lang="ja" dir="ltr">
+<head>
+<title>SPARQLthon94 - TogoWiki</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta name="generator" content="MediaWiki 1.16.3" />
+<meta name="robots" content="noindex,follow" />
+<link rel="shortcut icon" href="/favicon.ico" />
+<link rel="search" type="application/opensearchdescription+xml" href="/mw/opensearch_desc.php" title="TogoWiki (ja)" />
+<link title="Creative Commons" type="application/rdf+xml" href="/mw/index.php?title=SPARQLthon94&amp;action=creativecommons" rel="meta" />
+<link rel="copyright" href="http://creativecommons.org/licenses/by/3.0/" />
+<link rel="alternate" type="application/atom+xml" title="TogoWikiのAtomフィード" href="/mw/index.php?title=%E7%89%B9%E5%88%A5:%E6%9C%80%E8%BF%91%E3%81%AE%E6%9B%B4%E6%96%B0&amp;feed=atom" />
+<link rel="stylesheet" href="/mw/skins/common/commonPrint.css?270" media="" />
+<link rel="stylesheet" href="/mw/index.php?title=MediaWiki:Common.css&amp;usemsgcache=yes&amp;ctype=text%2Fcss&amp;smaxage=18000&amp;action=raw&amp;maxage=18000" />
+<link rel="stylesheet" href="/mw/index.php?title=MediaWiki:Print.css&amp;usemsgcache=yes&amp;ctype=text%2Fcss&amp;smaxage=18000&amp;action=raw&amp;maxage=18000" media="" />
+<link rel="stylesheet" href="/mw/index.php?title=MediaWiki:Monobook.css&amp;usemsgcache=yes&amp;ctype=text%2Fcss&amp;smaxage=18000&amp;action=raw&amp;maxage=18000" />
+<link rel="stylesheet" href="/mw/index.php?title=-&amp;action=raw&amp;maxage=18000&amp;gen=css" />
+<script>
+var skin="monobook",
+stylepath="/mw/skins",
+wgUrlProtocols="http\\:\\/\\/|https\\:\\/\\/|ftp\\:\\/\\/|irc\\:\\/\\/|gopher\\:\\/\\/|telnet\\:\\/\\/|nntp\\:\\/\\/|worldwind\\:\\/\\/|mailto\\:|news\\:|svn\\:\\/\\/",
+wgArticlePath="/mw/$1",
+wgScriptPath="/mw",
+wgScriptExtension=".php",
+wgScript="/mw/index.php",
+wgVariantArticlePath=false,
+wgActionPaths={},
+wgServer="http://wiki.lifesciencedb.jp",
+wgCanonicalNamespace="",
+wgCanonicalSpecialPageName=false,
+wgNamespaceNumber=0,
+wgPageName="SPARQLthon94",
+wgTitle="SPARQLthon94",
+wgAction="view",
+wgArticleId=936,
+wgIsArticle=true,
+wgUserName=null,
+wgUserGroups=null,
+wgUserLanguage="ja",
+wgContentLanguage="ja",
+wgBreakFrames=false,
+wgCurRevisionId=25954,
+wgVersion="1.16.3",
+wgEnableAPI=true,
+wgEnableWriteAPI=true,
+wgSeparatorTransformTable=["", ""],
+wgDigitTransformTable=["", ""],
+wgMainPageTitle="メインページ",
+wgFormattedNamespaces={"-2": "メディア", "-1": "特別", "0": "", "1": "ノート", "2": "利用者", "3": "利用者‐会話", "4": "TogoWiki", "5": "TogoWiki‐ノート", "6": "ファイル", "7": "ファイル‐ノート", "8": "MediaWiki", "9": "MediaWiki‐ノート", "10": "Template", "11": "Template‐ノート", "12": "Help", "13": "Help‐ノート", "14": "Category", "15": "Category‐ノート"},
+wgNamespaceIds={"メディア": -2, "特別": -1, "": 0, "ノート": 1, "利用者": 2, "利用者‐会話": 3, "togowiki": 4, "togowiki‐ノート": 5, "ファイル": 6, "ファイル‐ノート": 7, "mediawiki": 8, "mediawiki‐ノート": 9, "template": 10, "template‐ノート": 11, "help": 12, "help‐ノート": 13, "category": 14, "category‐ノート": 15, "画像": 6, "画像‐ノート": 7, "image": 6, "image_talk": 7},
+wgSiteName="TogoWiki",
+wgCategories=[],
+wgRestrictionEdit=[],
+wgRestrictionMove=[];
+</script><script src="/mw/skins/common/wikibits.js?270"></script>
+<script src="/mw/skins/common/ajax.js?270"></script>
+<script src="/mw/index.php?title=-&amp;action=raw&amp;gen=js&amp;useskin=monobook&amp;270"></script>
+
+		<style type='text/css'>
+		li#pt-openidlogin {
+		  background: url(/mw/extensions/OpenID/skin/icons/openid-inputicon.png) top left no-repeat;
+		  padding-left: 20px;
+		  text-transform: none;
+		}
+		</style>
+</head>
+<body class="mediawiki ltr ns-0 ns-subject page-SPARQLthon94 skin-monobook">
+<div id="globalWrapper">
+<div id="column-content"><div id="content" >
+	<a id="top"></a>
+	
+	<h1 id="firstHeading" class="firstHeading">SPARQLthon94</h1>
+	<div id="bodyContent">
+		<h3 id="siteSub">提供：TogoWiki</h3>
+		<div id="contentSub"></div>
+		<div id="jump-to-nav">移動： <a href="#column-one">案内</a>, <a href="#searchInput">検索</a></div>
+		<!-- start content -->
+<p>第94回 SPARQLthon を下記日程で開催したいと思います。参加予定の方は、このページ下部の「参加者」欄にご記名ください。
+</p>
+<table id="toc" class="toc"><tr><td><div id="toctitle"><h2>目次</h2></div>
+<ul>
+<li class="toclevel-1 tocsection-1"><a href="#.E9.96.8B.E5.82.AC.E6.A6.82.E8.A6.81"><span class="tocnumber">1</span> <span class="toctext">開催概要</span></a></li>
+<li class="toclevel-1 tocsection-2"><a href="#.E5.8F.82.E5.8A.A0.E6.89.8B.E9.A0.86"><span class="tocnumber">2</span> <span class="toctext">参加手順</span></a></li>
+<li class="toclevel-1 tocsection-3"><a href="#.E3.83.97.E3.83.AD.E3.82.B8.E3.82.A7.E3.82.AF.E3.83.88"><span class="tocnumber">3</span> <span class="toctext">プロジェクト</span></a>
+<ul>
+<li class="toclevel-2 tocsection-4"><a href="#TPP_.E3.82.B0.E3.83.AB.E3.83.BC.E3.83.97.E5.85.A8.E4.BD.93"><span class="tocnumber">3.1</span> <span class="toctext">TPP グループ全体</span></a>
+<ul>
+<li class="toclevel-3 tocsection-5"><a href="#.E7.B6.99.E7.B6.9A.E4.B8.AD"><span class="tocnumber">3.1.1</span> <span class="toctext">継続中</span></a></li>
+<li class="toclevel-3 tocsection-6"><a href="#.E7.B5.82.E4.BA.86"><span class="tocnumber">3.1.2</span> <span class="toctext">終了</span></a></li>
+</ul>
+</li>
+<li class="toclevel-2 tocsection-7"><a href="#SPARQLthon_.E3.82.B0.E3.83.AB.E3.83.BC.E3.83.97"><span class="tocnumber">3.2</span> <span class="toctext">SPARQLthon グループ</span></a></li>
+<li class="toclevel-2 tocsection-8"><a href="#.E4.BB.8A.E5.BE.8C.E3.81.AE.E4.BA.88.E5.AE.9A"><span class="tocnumber">3.3</span> <span class="toctext">今後の予定</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-9"><a href="#.E5.8F.82.E8.80.83.E3.83.AA.E3.83.B3.E3.82.AF"><span class="tocnumber">4</span> <span class="toctext">参考リンク</span></a></li>
+<li class="toclevel-1 tocsection-10"><a href="#.E5.8F.82.E5.8A.A0.E8.80.85"><span class="tocnumber">5</span> <span class="toctext">参加者</span></a></li>
+</ul>
+</td></tr></table><script>if (window.showTocToggle) { var tocShowText = "表示"; var tocHideText = "非表示"; showTocToggle(); } </script>
+<h2> <span class="mw-headline" id=".E9.96.8B.E5.82.AC.E6.A6.82.E8.A6.81"> 開催概要 </span></h2>
+<ul><li> 開催期間：2020年 7月 30（木）- 31日（金）
+</li><li> 開催連絡：<a href="http://groups.google.com/group/biohackathon-jp" class="external text" rel="nofollow">biohackathon-jpメーリングリスト</a>、および SPARQLthon Slack の #announcements チャンネルを参照ください
+</li></ul>
+<p>新コロ情勢に鑑み、今回も SPARQLthon 用の <a href="https://pragli.com/" class="external text" rel="nofollow">Pragli</a> を使用した、<span style="color:red">オンライン開催</span>となります。Pragli は Slack に似たインターフェイスで、
+</p>
+<ul><li> Slack のワークスペースが Pragli のチーム
+</li><li> Slack のチャンネルが Pragli のルーム
+</li></ul>
+<p>に対応しており、同じチームの同じルームにいる人とテレビ会議（カメラ、もしくはアバターと音声のみを選択）できます。
+なお、画面共有機能はありますが、全参加者へのメッセージ送信やファイル共有などはなさそうなので、Slack と併用します。
+ただし、1ルームあたり最大17人までという制限があるようなので、ラップアップは Zoom 等で行います（Slackで告知します）。
+</p>
+<h2> <span class="mw-headline" id=".E5.8F.82.E5.8A.A0.E6.89.8B.E9.A0.86"> 参加手順 </span></h2>
+<ul><li> 0. この Wiki ページの下の方にある「参加者」の欄に名前を追記する
+<ul><li> TogoWikiへのログイン・書き込みには <a href="https://openid.dbcls.jp/" class="external text" rel="nofollow">DBCLS OpenID</a> のアカウントが必要です
+</li></ul>
+</li><li> 1. SPARQLthon の Slack に <a href="https://join.slack.com/t/sparqlthon/shared_invite/zt-g5g60rqp-y0ieAveLvSfZ~Vlb_kg4Iw" class="external text" rel="nofollow">こちらの招待リンク</a> から参加する
+</li><li> 2. Slack の #announcements チャンネルに書かれている Pragli への招待リンクをクリックする
+<ul><li> Zoom 爆撃的な荒らしを避けるためこちらの Wiki には招待リンクを記載していません
+</li></ul>
+</li><li> 3. Pragli の SPARQLthon チームで、自分の取り組みたい課題のルームに参加するか、ルームを作成する
+<ul><li> ルームは下記のように（手作業で）色分けしています
+<ul><li> 赤色：オーガナイザー作成ルーム（初めての方用の #001-entrance やラップアップ用の #wrap-up など）
+</li><li> 紫色：各課題ごとの開発ルーム（打ち合わせや開発には主にこれらのルームを使用）
+</li><li> 水色：非公開プロジェクト関係者だけの鍵付きルーム（入室にはノックと承認が必要）
+</li><li> 黄色：ご自由にお使いくださいルーム（会議の前後には #workout や #coffee を）
+</li><li> 緑色：Pragliがデフォルトで作成するルーム（無言で過ごせる #silent-room など）
+</li></ul>
+</li><li> 新たにルームを作成した場合は、「Pragli 左上のメニュー＞Team settings＞Roomsタブ」でルーム名左の「#」をクリックして色を↑に揃えてください
+</li><li> 1ルーム17人までの制限あり
+</li></ul>
+</li><li> 4. 各日 17:00 までにスライドに進捗を記載してラップアップ用の Pragli の #wrap-up チャンネルもしくは Zoom 等で進捗を報告する
+<ul><li> 打ち合わせメモやレポートは Google slide で行います
+</li><li> <a href="https://docs.google.com/presentation/d/1-EU4hdvPeNWB3UUG-LXbQgduGiLadfSjPXW5EHiQRm0/edit?usp=sharing" class="external text" rel="nofollow">SPARQLthon94スライド</a> にテンプレートを用意しましたので適宜追加ください
+<ul><li> （参考：<a href="https://docs.google.com/presentation/d/1NSfNCIpKuACbEBYg8q6D6cj5ymBE8luNRKhZBDSYRN8/edit?usp=sharing" class="external text" rel="nofollow">SPARQLthon91スライド</a>, <a href="https://docs.google.com/presentation/d/1Zg1cavg6ADZkKJceHL2ZsrjaDp740XdmPoJuMxb2MBU/edit?usp=sharing" class="external text" rel="nofollow">SPARQLthon92スライド</a>, <a href="https://docs.google.com/presentation/d/1QyKFNeMPFTOysMtSenL6yW49iFf9vbSZX3mgTzR41z4/edit?usp=sharing" class="external text" rel="nofollow">SPARQLthon93スライド</a>）
+</li></ul>
+</li></ul>
+</li><li> 5. 夜はリモート飲みで交流しましょう（飲み物・ツマミは各自用意）🍶
+<ul><li> 恒例のリカーソンですが、リモート開催の間は2日目の夜（今回だと7/31のラップアップ後）に行うことにします
+</li><li> 開催場所が変わった場合の連絡などは #liquorthon ルームのチャットや Slack を見てください
+</li></ul>
+</li></ul>
+<h2> <span class="mw-headline" id=".E3.83.97.E3.83.AD.E3.82.B8.E3.82.A7.E3.82.AF.E3.83.88"> プロジェクト </span></h2>
+<h3> <span class="mw-headline" id="TPP_.E3.82.B0.E3.83.AB.E3.83.BC.E3.83.97.E5.85.A8.E4.BD.93"> TPP グループ全体 </span></h3>
+<h4> <span class="mw-headline" id=".E7.B6.99.E7.B6.9A.E4.B8.AD"> 継続中 </span></h4>
+<ul><li> <a href="https://research-er.jp/projects/view/965239" class="external text" rel="nofollow">データサイエンスを加速させる微生物統合データベースの高度実用化開発</a> (黒川) - <a href="http://microbedb.jp/" class="external free" rel="nofollow">http://microbedb.jp/</a>
+</li><li> <a href="http://wiki.lifesciencedb.jp/mw/TPP2-kinoshita" class="external text" rel="nofollow">糖鎖科学ポータルの構築</a> (木下) - <a href="https://glycosmos.org/" class="external free" rel="nofollow">https://glycosmos.org/</a>
+</li><li> <a href="https://research-er.jp/projects/view/965238" class="external text" rel="nofollow">蛋白質構造データバンクのデータ検証高度化と統合化</a> (栗栖) - <a href="http://pdbj.org/" class="external free" rel="nofollow">http://pdbj.org/</a>
+</li><li> <a href="https://research-er.jp/projects/view/965241" class="external text" rel="nofollow">個体ゲノム時代に向けた植物ゲノム情報解析基盤の構築</a> (田畑) - <a href="http://pgdbj.jp/" class="external free" rel="nofollow">http://pgdbj.jp/</a>
+</li><li> <a href="https://research-er.jp/projects/view/965240" class="external text" rel="nofollow">疾患ヒトゲノム変異の生物学的機能注釈を目指した多階層オーミクスデータの統合</a> (菅野) - <a href="http://kero.hgc.jp/" class="external free" rel="nofollow">http://kero.hgc.jp/</a>
+</li><li> <a href="https://research-er.jp/projects/view/965235" class="external text" rel="nofollow">エピゲノミクス統合データベースの開発と機能拡充</a> (沖) - <a href="http://chip-atlas.org/" class="external free" rel="nofollow">http://chip-atlas.org/</a>
+</li><li> <a href="https://research-er.jp/projects/view/965236" class="external text" rel="nofollow">ゲノム・疾患・医薬品のネットワークデータベース</a> (金久) - <a href="http://www.kegg.jp/kegg/medicus/" class="external free" rel="nofollow">http://www.kegg.jp/kegg/medicus/</a>
+</li><li>  物質循環を考慮したメタボロミクス情報基盤 (有田) - <a href="http://www.massbank.jp/" class="external free" rel="nofollow">http://www.massbank.jp/</a>
+</li><li> プロテオームデータベースの機能深化と連携基盤強化（石濱）- <a href="https://jpostdb.org/" class="external free" rel="nofollow">https://jpostdb.org/</a>
+</li></ul>
+<h4> <span class="mw-headline" id=".E7.B5.82.E4.BA.86"> 終了 </span></h4>
+<ul><li> <a href="/mw/TPP-masuya" title="TPP-masuya">生命と環境のフェノーム統合データベース</a> (桝屋)
+</li><li> <a href="/mw/TPP-arita" title="TPP-arita">生物種メタボロームモデル・データベースの構築</a> (有田)
+</li><li> <a href="/mw/TPP-tokunaga" title="TPP-tokunaga">個別化医療に向けたヒトゲノムバリエーションデータベース</a> (徳永)
+</li><li> <a href="/mw/TPP-ishihama" title="TPP-ishihama">プロテオーム統合データベース：jPOST</a> (石濱) - <a href="http://jpostdb.org/" class="external free" rel="nofollow">http://jpostdb.org/</a>
+</li><li> <a href="/mw/TPP-onami" title="TPP-onami">生命動態システム科学のデータベースの統合化</a> (大浪)
+</li></ul>
+<h3> <span class="mw-headline" id="SPARQLthon_.E3.82.B0.E3.83.AB.E3.83.BC.E3.83.97"> SPARQLthon グループ </span></h3>
+<h3> <span class="mw-headline" id=".E4.BB.8A.E5.BE.8C.E3.81.AE.E4.BA.88.E5.AE.9A"> 今後の予定 </span></h3>
+<h2> <span class="mw-headline" id=".E5.8F.82.E8.80.83.E3.83.AA.E3.83.B3.E3.82.AF"> 参考リンク </span></h2>
+<ul><li> これまでの <a href="/mw/SPARQLthon" title="SPARQLthon">SPARQLthon</a>
+</li></ul>
+<h2> <span class="mw-headline" id=".E5.8F.82.E5.8A.A0.E8.80.85"> 参加者 </span></h2>
+<ul><li> 片山俊明 (DBCLS)
+</li><li> 岡別府陽子（OKBP）
+</li><li> 大田達郎 (DBCLS)
+</li><li> 畠中秀樹 (DBCLS) 30昼過ぎまで、31全日
+</li><li> 守屋勇樹 (DBCLS)
+</li><li> 木下聖子 (創価大)
+</li><li> 山本泰智 (DBCLS)
+</li><li> 川島秀一 (DBCLS)
+</li><li> 高月照江 (DBCLS)
+</li><li> 若栗浩幸 (ビッツ) 30日(14:00まで), 31日(午前のみ)
+</li><li> 大石直哉 (DOGRUN)
+</li><li> 八塚茂（NBDC）
+</li><li> 杉崎太一郎（MKI）
+</li><li> 建石由佳（NBDC）  30日のみ
+</li><li> 佐藤大輔 (Lifematics)
+</li><li>桝屋啓志（理研BRC）
+</li><li>高田豊之（理研BRC）
+</li><li>臼田大輝（理研BRC）
+</li><li>櫛田達矢（理研BRC）30日午後参加，３１日未定
+</li><li> 山田一作（野口研究所）
+</li><li> 井手隆広 (NBDC) 30日午後のみ
+</li><li> 樋口千洋 (NIBIOHN)
+</li><li> 信定知江 (NBDC) 30日午後のみ
+</li><li> 千葉啓和 (DBCLS)
+</li><li> 山口敦子 (東京都市大学) 30日午後
+</li><li> 三橋信孝 (NBDC) 30日午後
+</li><li> 平原麗夏（PENQE） 31日のみ
+</li><li> 永野朗夫（PENQE）
+</li></ul>
+
+<!-- 
+NewPP limit report
+Preprocessor node count: 40/1000000
+Post-expand include size: 0/2097152 bytes
+Template argument size: 0/2097152 bytes
+Expensive parser function count: 0/100
+-->
+
+<!-- Saved in parser cache with key wikidb-togowiki_:pcache:idhash:936-0!1!0!!ja!2!edit=0!printable=1 and timestamp 20230605012715 -->
+<div class="printfooter">
+「<a href="http://wiki.lifesciencedb.jp/mw/SPARQLthon94">http://wiki.lifesciencedb.jp/mw/SPARQLthon94</a>」より作成</div>
+		<div id='catlinks' class='catlinks catlinks-allhidden'></div>		<!-- end content -->
+				<div class="visualClear"></div>
+	</div>
+</div></div>
+<div id="column-one">
+	<div id="p-cactions" class="portlet">
+		<h5>表示</h5>
+		<div class="pBody">
+			<ul>
+				 <li id="ca-nstab-main" class="selected"><a href="/mw/SPARQLthon94" title="本文を表示 [c]" accesskey="c">ページ</a></li>
+				 <li id="ca-talk" class="new"><a href="/mw/index.php?title=%E3%83%8E%E3%83%BC%E3%83%88:SPARQLthon94&amp;action=edit&amp;redlink=1" title="記事についての議論 [t]" accesskey="t">議論</a></li>
+				 <li id="ca-viewsource"><a href="/mw/index.php?title=SPARQLthon94&amp;action=edit" title="このページは保護されています。&#10;ページのソースを閲覧できます。 [e]" accesskey="e">ソースを表示</a></li>
+				 <li id="ca-history"><a href="/mw/index.php?title=SPARQLthon94&amp;action=history" title="このページの過去の版 [h]" accesskey="h">履歴</a></li>
+			</ul>
+		</div>
+	</div>
+	<div class="portlet" id="p-personal">
+		<h5>個人用ツール</h5>
+		<div class="pBody">
+			<ul>
+				<li id="pt-anonuserpage"><a href="/mw/%E5%88%A9%E7%94%A8%E8%80%85:172.18.8.51" title="自分が編集しているIPアドレスの利用者ページ [.]" accesskey="." class="new">172.18.8.51</a></li>
+				<li id="pt-anontalk"><a href="/mw/%E5%88%A9%E7%94%A8%E8%80%85%E2%80%90%E4%BC%9A%E8%A9%B1:172.18.8.51" title="このIPアドレスからなされた編集についての議論 [n]" accesskey="n" class="new">このIPアドレスのトーク</a></li>
+				<li id="pt-anonlogin"><a href="/mw/index.php?title=%E7%89%B9%E5%88%A5:%E3%83%AD%E3%82%B0%E3%82%A4%E3%83%B3&amp;returnto=SPARQLthon94&amp;returntoquery=printable%3Dyes" title="ログインすることが推奨されます。ただし、必須ではありません。 [o]" accesskey="o">ログイン</a></li>
+				<li id="pt-openidlogin"><a href="/mw/index.php?title=%E7%89%B9%E5%88%A5:OpenID%E3%83%AD%E3%82%B0%E3%82%A4%E3%83%B3&amp;returnto=SPARQLthon94">OpenIDでログイン</a></li>
+			</ul>
+		</div>
+	</div>
+	<div class="portlet" id="p-logo">
+		<a style="background-image: url(/mw/images/togowiki-logo.png);" href="/mw/%E3%83%A1%E3%82%A4%E3%83%B3%E3%83%9A%E3%83%BC%E3%82%B8" title="メインページに移動"></a>
+	</div>
+	<script type="text/javascript"> if (window.isMSIE55) fixalpha(); </script>
+	<div class='generated-sidebar portlet' id='p-navigation'>
+		<h5>案内</h5>
+		<div class='pBody'>
+			<ul>
+				<li id="n-mainpage-description"><a href="/mw/%E3%83%A1%E3%82%A4%E3%83%B3%E3%83%9A%E3%83%BC%E3%82%B8" title="メインページに移動する [z]" accesskey="z">メインページ</a></li>
+				<li id="n-portal"><a href="/mw/TogoWiki:%E3%82%B3%E3%83%9F%E3%83%A5%E3%83%8B%E3%83%86%E3%82%A3%E3%83%BB%E3%83%9D%E3%83%BC%E3%82%BF%E3%83%AB" title="このプロジェクトについて、できること、情報を入手する場所">コミュニティ・ポータル</a></li>
+				<li id="n-currentevents"><a href="/mw/TogoWiki:%E6%9C%80%E8%BF%91%E3%81%AE%E5%87%BA%E6%9D%A5%E4%BA%8B" title="最近の出来事について予備知識を得る">最近の出来事</a></li>
+				<li id="n-recentchanges"><a href="/mw/%E7%89%B9%E5%88%A5:%E6%9C%80%E8%BF%91%E3%81%AE%E6%9B%B4%E6%96%B0" title="ウィキにおける最近の更新の一覧 [r]" accesskey="r">最近の更新</a></li>
+				<li id="n-randompage"><a href="/mw/%E7%89%B9%E5%88%A5:%E3%81%8A%E3%81%BE%E3%81%8B%E3%81%9B%E8%A1%A8%E7%A4%BA" title="無作為に抽出されたページの読み込み [x]" accesskey="x">おまかせ表示</a></li>
+				<li id="n-help"><a href="/mw/Help:%E7%9B%AE%E6%AC%A1" title="情報を得る場所">ヘルプ</a></li>
+			</ul>
+		</div>
+	</div>
+	<div id="p-search" class="portlet">
+		<h5><label for="searchInput">検索</label></h5>
+		<div id="searchBody" class="pBody">
+			<form action="/mw/index.php" id="searchform">
+				<input type='hidden' name="title" value="特別:検索"/>
+				<input id="searchInput" title="TogoWiki内を検索" accesskey="f" type="search" name="search" />
+				<input type='submit' name="go" class="searchButton" id="searchGoButton"	value="表示" title="厳密に一致する名前のページが存在すれば、そのページへ移動します" />&nbsp;
+				<input type='submit' name="fulltext" class="searchButton" id="mw-searchButton" value="検索" title="入力された文字列が含まれるページを検索します" />
+			</form>
+		</div>
+	</div>
+	<div class="portlet" id="p-tb">
+		<h5>ツールボックス</h5>
+		<div class="pBody">
+			<ul>
+				<li id="t-whatlinkshere"><a href="/mw/%E7%89%B9%E5%88%A5:%E3%83%AA%E3%83%B3%E3%82%AF%E5%85%83/SPARQLthon94" title="ここにリンクしている全ウィキのページの一覧 [j]" accesskey="j">リンク元</a></li>
+				<li id="t-recentchangeslinked"><a href="/mw/%E7%89%B9%E5%88%A5:%E9%96%A2%E9%80%A3%E3%83%9A%E3%83%BC%E3%82%B8%E3%81%AE%E6%9B%B4%E6%96%B0%E7%8A%B6%E6%B3%81/SPARQLthon94" title="このページからリンクしているページの最近の更新 [k]" accesskey="k">関連ページの更新状況</a></li>
+<li id="t-specialpages"><a href="/mw/%E7%89%B9%E5%88%A5:%E7%89%B9%E5%88%A5%E3%83%9A%E3%83%BC%E3%82%B8%E4%B8%80%E8%A6%A7" title="特別ページの一覧 [q]" accesskey="q">特別ページ</a></li>
+				<li id="t-permalink"><a href="/mw/index.php?title=SPARQLthon94&amp;oldid=25954" title="ページのこの版への固定リンク">この版への固定リンク</a></li>			</ul>
+		</div>
+	</div>
+</div><!-- end of the left (by default at least) column -->
+<div class="visualClear"></div>
+<div id="footer">
+	<div id="f-poweredbyico"><a href="http://www.mediawiki.org/"><img src="/mw/skins/common/images/poweredby_mediawiki_88x31.png" height="31" width="88" alt="Powered by MediaWiki" /></a></div>
+	<div id="f-copyrightico"><a href="http://creativecommons.org/licenses/by/3.0/"><img src="http://i.creativecommons.org/l/by/3.0/88x31.png" alt="Attribution 3.0 Unported" width="88" height="31" /></a></div>
+	<ul id="f-list">
+		<li id="lastmod"> このページの最終更新は 2020年8月7日 (金) 01:34 に行われました。</li>
+		<li id="viewcount">このページは3,350回アクセスされました。</li>
+		<li id="copyright">内容は<a href="http://creativecommons.org/licenses/by/3.0/" class="external ">Attribution 3.0 Unported</a>のライセンスで利用することができます。</li>
+		<li id="privacy"><a href="/mw/TogoWiki:%E3%83%97%E3%83%A9%E3%82%A4%E3%83%90%E3%82%B7%E3%83%BC%E3%83%BB%E3%83%9D%E3%83%AA%E3%82%B7%E3%83%BC" title="TogoWiki:プライバシー・ポリシー">プライバシー・ポリシー</a></li>
+		<li id="about"><a href="/mw/TogoWiki:TogoWiki%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6" title="TogoWiki:TogoWikiについて">TogoWikiについて</a></li>
+		<li id="disclaimer"><a href="/mw/TogoWiki:%E5%85%8D%E8%B2%AC%E4%BA%8B%E9%A0%85" title="TogoWiki:免責事項">免責事項</a></li>
+	</ul>
+</div>
+</div>
+
+<script>if (window.runOnloadHook) runOnloadHook();</script>
+<!-- Served in 0.355 secs. --></body></html>

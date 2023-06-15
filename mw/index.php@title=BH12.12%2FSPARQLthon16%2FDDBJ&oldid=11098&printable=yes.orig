@@ -1,0 +1,585 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html lang="ja" dir="ltr">
+<head>
+<title>BH12.12/SPARQLthon16/DDBJ - TogoWiki</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta name="generator" content="MediaWiki 1.16.3" />
+<link rel="shortcut icon" href="/favicon.ico" />
+<link rel="search" type="application/opensearchdescription+xml" href="/mw/opensearch_desc.php" title="TogoWiki (ja)" />
+<link title="Creative Commons" type="application/rdf+xml" href="/mw/index.php?title=BH12.12/SPARQLthon16/DDBJ&amp;action=creativecommons" rel="meta" />
+<link rel="copyright" href="http://creativecommons.org/licenses/by/3.0/" />
+<link rel="alternate" type="application/atom+xml" title="TogoWikiのAtomフィード" href="/mw/index.php?title=%E7%89%B9%E5%88%A5:%E6%9C%80%E8%BF%91%E3%81%AE%E6%9B%B4%E6%96%B0&amp;feed=atom" />
+<link rel="stylesheet" href="/mw/skins/common/commonPrint.css?270" media="" />
+<link rel="stylesheet" href="/mw/index.php?title=MediaWiki:Common.css&amp;usemsgcache=yes&amp;ctype=text%2Fcss&amp;smaxage=18000&amp;action=raw&amp;maxage=18000" />
+<link rel="stylesheet" href="/mw/index.php?title=MediaWiki:Print.css&amp;usemsgcache=yes&amp;ctype=text%2Fcss&amp;smaxage=18000&amp;action=raw&amp;maxage=18000" media="" />
+<link rel="stylesheet" href="/mw/index.php?title=MediaWiki:Monobook.css&amp;usemsgcache=yes&amp;ctype=text%2Fcss&amp;smaxage=18000&amp;action=raw&amp;maxage=18000" />
+<link rel="stylesheet" href="/mw/index.php?title=-&amp;action=raw&amp;maxage=18000&amp;gen=css" />
+<script>
+var skin="monobook",
+stylepath="/mw/skins",
+wgUrlProtocols="http\\:\\/\\/|https\\:\\/\\/|ftp\\:\\/\\/|irc\\:\\/\\/|gopher\\:\\/\\/|telnet\\:\\/\\/|nntp\\:\\/\\/|worldwind\\:\\/\\/|mailto\\:|news\\:|svn\\:\\/\\/",
+wgArticlePath="/mw/$1",
+wgScriptPath="/mw",
+wgScriptExtension=".php",
+wgScript="/mw/index.php",
+wgVariantArticlePath=false,
+wgActionPaths={},
+wgServer="http://wiki.lifesciencedb.jp",
+wgCanonicalNamespace="",
+wgCanonicalSpecialPageName=false,
+wgNamespaceNumber=0,
+wgPageName="BH12.12/SPARQLthon16/DDBJ",
+wgTitle="BH12.12/SPARQLthon16/DDBJ",
+wgAction="view",
+wgArticleId=348,
+wgIsArticle=true,
+wgUserName=null,
+wgUserGroups=null,
+wgUserLanguage="ja",
+wgContentLanguage="ja",
+wgBreakFrames=false,
+wgCurRevisionId=11098,
+wgVersion="1.16.3",
+wgEnableAPI=true,
+wgEnableWriteAPI=true,
+wgSeparatorTransformTable=["", ""],
+wgDigitTransformTable=["", ""],
+wgMainPageTitle="メインページ",
+wgFormattedNamespaces={"-2": "メディア", "-1": "特別", "0": "", "1": "ノート", "2": "利用者", "3": "利用者‐会話", "4": "TogoWiki", "5": "TogoWiki‐ノート", "6": "ファイル", "7": "ファイル‐ノート", "8": "MediaWiki", "9": "MediaWiki‐ノート", "10": "Template", "11": "Template‐ノート", "12": "Help", "13": "Help‐ノート", "14": "Category", "15": "Category‐ノート"},
+wgNamespaceIds={"メディア": -2, "特別": -1, "": 0, "ノート": 1, "利用者": 2, "利用者‐会話": 3, "togowiki": 4, "togowiki‐ノート": 5, "ファイル": 6, "ファイル‐ノート": 7, "mediawiki": 8, "mediawiki‐ノート": 9, "template": 10, "template‐ノート": 11, "help": 12, "help‐ノート": 13, "category": 14, "category‐ノート": 15, "画像": 6, "画像‐ノート": 7, "image": 6, "image_talk": 7},
+wgSiteName="TogoWiki",
+wgCategories=["DDBJ"],
+wgRestrictionEdit=[],
+wgRestrictionMove=[];
+</script><script src="/mw/skins/common/wikibits.js?270"></script>
+<script src="/mw/skins/common/ajax.js?270"></script>
+<script src="/mw/index.php?title=-&amp;action=raw&amp;gen=js&amp;useskin=monobook&amp;270"></script>
+
+		<style type='text/css'>
+		li#pt-openidlogin {
+		  background: url(/mw/extensions/OpenID/skin/icons/openid-inputicon.png) top left no-repeat;
+		  padding-left: 20px;
+		  text-transform: none;
+		}
+		</style>
+</head>
+<body class="mediawiki ltr ns-0 ns-subject page-BH12_12_SPARQLthon16_DDBJ skin-monobook">
+<div id="globalWrapper">
+<div id="column-content"><div id="content" >
+	<a id="top"></a>
+	
+	<h1 id="firstHeading" class="firstHeading">BH12.12/SPARQLthon16/DDBJ</h1>
+	<div id="bodyContent">
+		<h3 id="siteSub">提供：TogoWiki</h3>
+		<div id="contentSub">
+				<div id="mw-revision-info">2014年1月24日 (金) 08:42時点における<a href="/mw/index.php?title=%E5%88%A9%E7%94%A8%E8%80%85:Yokookbp&amp;action=edit&amp;redlink=1" class="new mw-userlink" title="利用者:Yokookbp（存在しないページ）">Yokookbp</a>  <span class="mw-usertoollinks">(<a href="/mw/index.php?title=%E5%88%A9%E7%94%A8%E8%80%85%E2%80%90%E4%BC%9A%E8%A9%B1:Yokookbp&amp;action=edit&amp;redlink=1" class="new" title="利用者‐会話:Yokookbp（存在しないページ）">トーク</a> | <a href="/mw/%E7%89%B9%E5%88%A5:%E6%8A%95%E7%A8%BF%E8%A8%98%E9%8C%B2/Yokookbp" title="特別:投稿記録/Yokookbp">投稿記録</a>)</span>による版</div>
+
+				<div id="mw-revision-nav">(<a href="/mw/index.php?title=BH12.12/SPARQLthon16/DDBJ&amp;diff=prev&amp;oldid=11098" title="BH12.12/SPARQLthon16/DDBJ">差分</a>) <a href="/mw/index.php?title=BH12.12/SPARQLthon16/DDBJ&amp;direction=prev&amp;oldid=11098" title="BH12.12/SPARQLthon16/DDBJ">←前の版</a> | 最新版 (差分) | 次の版→ (差分)</div>
+			</div>
+		<div id="jump-to-nav">移動： <a href="#column-one">案内</a>, <a href="#searchInput">検索</a></div>
+		<!-- start content -->
+<table id="toc" class="toc"><tr><td><div id="toctitle"><h2>目次</h2></div>
+<ul>
+<li class="toclevel-1 tocsection-1"><a href="#.E3.82.A8.E3.83.B3.E3.83.89.E3.83.9D.E3.82.A4.E3.83.B3.E3.83.88.E6.A7.8B.E7.AF.89"><span class="tocnumber">1</span> <span class="toctext">エンドポイント構築</span></a>
+<ul>
+<li class="toclevel-2 tocsection-2"><a href="#.E3.83.AD.E3.83.BC.E3.83.89.E4.BD.9C.E6.A5.AD.E5.86.85.E5.AE.B9.28.E3.82.B1.E3.83.BC.E3.82.B91.29"><span class="tocnumber">1.1</span> <span class="toctext">ロード作業内容(ケース1)</span></a>
+<ul>
+<li class="toclevel-3 tocsection-3"><a href="#.E3.82.B5.E3.83.BC.E3.83.90.E7.92.B0.E5.A2.83"><span class="tocnumber">1.1.1</span> <span class="toctext">サーバ環境</span></a></li>
+<li class="toclevel-3 tocsection-4"><a href="#.E3.83.87.E3.83.BC.E3.82.BF"><span class="tocnumber">1.1.2</span> <span class="toctext">データ</span></a></li>
+<li class="toclevel-3 tocsection-5"><a href="#.E8.A8.AD.E5.AE.9A.E3.83.95.E3.82.A1.E3.82.A4.E3.83.AB"><span class="tocnumber">1.1.3</span> <span class="toctext">設定ファイル</span></a></li>
+<li class="toclevel-3 tocsection-6"><a href="#.E3.83.AD.E3.83.BC.E3.83.89.E7.94.A8.E3.82.B9.E3.82.AF.E3.83.AA.E3.83.97.E3.83.88.28.E6.8A.9C.E7.B2.8B.29"><span class="tocnumber">1.1.4</span> <span class="toctext">ロード用スクリプト(抜粋)</span></a></li>
+<li class="toclevel-3 tocsection-7"><a href="#.E3.83.AD.E3.83.BC.E3.83.89.E3.83.AD.E3.82.B0"><span class="tocnumber">1.1.5</span> <span class="toctext">ロードログ</span></a></li>
+</ul>
+</li>
+<li class="toclevel-2 tocsection-8"><a href="#.E3.83.AD.E3.83.BC.E3.83.89.E4.BD.9C.E6.A5.AD.E5.86.85.E5.AE.B9.28.E3.82.B1.E3.83.BC.E3.82.B92:.E5.A4.B1.E6.95.97.29"><span class="tocnumber">1.2</span> <span class="toctext">ロード作業内容(ケース2:失敗)</span></a></li>
+<li class="toclevel-2 tocsection-9"><a href="#.E3.83.AD.E3.83.BC.E3.83.89.E4.BD.9C.E6.A5.AD.E5.86.85.E5.AE.B9.28.E3.82.B1.E3.83.BC.E3.82.B93:.E5.A4.B1.E6.95.97.29"><span class="tocnumber">1.3</span> <span class="toctext">ロード作業内容(ケース3:失敗)</span></a></li>
+<li class="toclevel-2 tocsection-10"><a href="#.E3.83.AD.E3.83.BC.E3.83.89.E4.BD.9C.E6.A5.AD.E5.86.85.E5.AE.B9.28.E3.82.B1.E3.83.BC.E3.82.B94.29"><span class="tocnumber">1.4</span> <span class="toctext">ロード作業内容(ケース4)</span></a></li>
+<li class="toclevel-2 tocsection-11"><a href="#.E3.83.AD.E3.83.BC.E3.83.89.E4.BD.9C.E6.A5.AD.E5.86.85.E5.AE.B9.28.E3.82.B1.E3.83.BC.E3.82.B95.29"><span class="tocnumber">1.5</span> <span class="toctext">ロード作業内容(ケース5)</span></a>
+<ul>
+<li class="toclevel-3 tocsection-12"><a href="#.E3.83.AD.E3.83.BC.E3.83.89.E3.83.AD.E3.82.B0_2"><span class="tocnumber">1.5.1</span> <span class="toctext">ロードログ</span></a></li>
+</ul>
+</li>
+<li class="toclevel-2 tocsection-13"><a href="#.E6.B0.97.E4.BB.98.E3.81.84.E3.81.9F.E3.81.93.E3.81.A8"><span class="tocnumber">1.6</span> <span class="toctext">気付いたこと</span></a>
+<ul>
+<li class="toclevel-3 tocsection-14"><a href="#.E3.83.A1.E3.83.A2.E3.83.AA.E4.BD.BF.E7.94.A8.E9.87.8F"><span class="tocnumber">1.6.1</span> <span class="toctext">メモリ使用量</span></a></li>
+<li class="toclevel-3 tocsection-15"><a href="#.E3.82.B9.E3.83.AC.E3.83.83.E3.83.89.E3.82.A8.E3.83.A9.E3.83.BC"><span class="tocnumber">1.6.2</span> <span class="toctext">スレッドエラー</span></a></li>
+</ul>
+</li>
+<li class="toclevel-2 tocsection-16"><a href="#.E6.AC.A1.E5.9B.9E.E3.81.AE.E3.83.AD.E3.83.BC.E3.83.89.E3.81.A7.E8.A9.A6.E3.81.99.E3.81.93.E3.81.A8"><span class="tocnumber">1.7</span> <span class="toctext">次回のロードで試すこと</span></a></li>
+<li class="toclevel-2 tocsection-17"><a href="#.E8.AA.B2.E9.A1.8C"><span class="tocnumber">1.8</span> <span class="toctext">課題</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-18"><a href="#.E3.83.AA.E3.82.BD.E3.83.BC.E3.82.B9URI.E7.94.A8Web.E3.83.9A.E3.83.BC.E3.82.B8.E6.A7.8B.E7.AF.89"><span class="tocnumber">2</span> <span class="toctext">リソースURI用Webページ構築</span></a>
+<ul>
+<li class="toclevel-2 tocsection-19"><a href="#.E6.A7.8B.E6.88.90"><span class="tocnumber">2.1</span> <span class="toctext">構成</span></a></li>
+<li class="toclevel-2 tocsection-20"><a href="#.E8.AA.B2.E9.A1.8C_2"><span class="tocnumber">2.2</span> <span class="toctext">課題</span></a>
+<ul>
+<li class="toclevel-3 tocsection-21"><a href="#Taxonomy.28taxdump.owl.29.E3.81.AE.E5.AE.9A.E7.BE.A9"><span class="tocnumber">2.2.1</span> <span class="toctext">Taxonomy(taxdump.owl)の定義</span></a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</td></tr></table><script>if (window.showTocToggle) { var tocShowText = "表示"; var tocHideText = "非表示"; showTocToggle(); } </script>
+<h1> <span class="mw-headline" id=".E3.82.A8.E3.83.B3.E3.83.89.E3.83.9D.E3.82.A4.E3.83.B3.E3.83.88.E6.A7.8B.E7.AF.89"> エンドポイント構築 </span></h1>
+<p>DDBJエントリーのRDFをトリプルストアにロードする。トリプル数は97億。<br />
+過去のページ<br />
+<a href="http://wiki.lifesciencedb.jp/mw/index.php/BH12.12/SPARQLthon10/DDBJ" class="external text" rel="nofollow">SPARQLthon10</a><br />
+<a href="http://wiki.lifesciencedb.jp/mw/index.php/BH12.12/SPARQLthon15/DDBJ#.E3.82.A8.E3.83.B3.E3.83.89.E3.83.9D.E3.82.A4.E3.83.B3.E3.83.88.E6.A7.8B.E7.AF.89" class="external text" rel="nofollow">SPARQLthon15</a><br />
+</p><p><br />
+</p>
+<h2> <span class="mw-headline" id=".E3.83.AD.E3.83.BC.E3.83.89.E4.BD.9C.E6.A5.AD.E5.86.85.E5.AE.B9.28.E3.82.B1.E3.83.BC.E3.82.B91.29">ロード作業内容(ケース1)</span></h2>
+<p>前回の調査(<a href="http://wiki.lifesciencedb.jp/mw/index.php/BH12.12/SPARQLthon15/DDBJ#.E8.A8.88.E6.B8.AC.E3.81.A7.E5.88.86.E3.81.8B.E3.81.A3.E3.81.9F.E3.81.93.E3.81.A8" class="external text" rel="nofollow">計測で分かったこと</a>)で、メモリ不足によりロードができなくなる現象がみられたため、スパコンのFat,Medium環境で大量のメモリを確保してロードを試した。<br />
+結果：全データのロードに成功
+</p><p><br />
+</p>
+<h3> <span class="mw-headline" id=".E3.82.B5.E3.83.BC.E3.83.90.E7.92.B0.E5.A2.83">サーバ環境</span></h3>
+<ul><li>環境1 (DDBJスパコンFatノード)
+</li></ul>
+<pre>
+Processors:	2 x Intel(R) Xeon(R) @ 2.66GHz (8cores) x 96式
+Memory:	10TB
+Hard Disks	ファイルサーバ(Lustre) RAID1
+Operating System:	Red Hat Enterprise Linux Server 6.1
+</pre>
+<ul><li>環境2 (DDBJスパコンMediumノード)
+</li></ul>
+<pre>
+Processors:	2 x Intel(R) Xeon(R) CPU E5-2670 0 @ 2.40GHz (10cores) x 8式
+Memory:	2TB
+Hard Disks	ファイルサーバ(Lustre) RAID1
+Operating System:	Red Hat Enterprise Linux Server 6.1
+</pre>
+<h3> <span class="mw-headline" id=".E3.83.87.E3.83.BC.E3.82.BF">データ</span></h3>
+<p>DDBJエントリーデータ(release_93_rdf_v1)<br />
+RDFファイル行数:97億<br />
+ロード後のトリプル数：90億<br />
+※様子を見ながら進めたかったため、データを3回に分けてロード<br />
+<br />
+</p>
+<ul><li>1回目(約42億)
+</li></ul>
+<p>bct,con,env,gss
+</p>
+<ul><li>2回目(約30億)
+</li></ul>
+<p>est
+</p>
+<ul><li>3回目(約25億)
+</li></ul>
+<p>htc,htg,hum,inv,nan,pat,phg,pln,pri,rod,sts,syn,tsa,una,vrl,vrt
+</p>
+<h3> <span class="mw-headline" id=".E8.A8.AD.E5.AE.9A.E3.83.95.E3.82.A1.E3.82.A4.E3.83.AB">設定ファイル</span></h3>
+<p>OSS版のデフォルトのからの変更点。
+<a href="http://wifo5-03.informatik.uni-mannheim.de/bizer/berlinsparqlbenchmark/results/V7/#exploreVirtuoso" class="external text" rel="nofollow">BSBM</a>の変更を参考にして適宜設定。
+</p>
+<pre>
+[Database]
+;MaxCheckpointRemap           = 2000 ←[Parameters]セクションへ移動
+
+[Parameters]
+MaxMemPoolSize                  = 1500000000 ←増やしたがロードには関係なさそう
+
+[Parameters] ↓必要メモリ量に応じて増やす。枠下の「メモリ量の見積もり」を参照
+NumberOfBuffers          = 80000000
+MaxDirtyBuffers          = 60000000
+MaxCheckpointRemap       = 24000000
+UnremapQuota             = 0
+
+[Parameters]↓ ロードする RDF データの置いてあるディレクトリを追加する
+DirsAllowed                   = ., /home/w3sw/store/virtuoso_medium/share/virtuoso/vad, /home/sw/tf/ddbj/release_93_rdf_v1
+</pre>
+<ul><li>メモリ量の見積もり
+<ul><li>ロード時にどの程度メモリを消費するかについては、各データ長にも依存するため単純にトリプル数から計算できない。似た形式のデータであれば、使用メモリ量はトリプル数に比例して増加するので、見当がつかない場合にはサンプルデータをロードして見積もる。
+</li><li>NumberOfBuffers, MaxDirtyBuffers, MaxCheckpointRemapは<a href="http://docs.openlinksw.com/virtuoso/rdfperformancetuning.html" class="external text" rel="nofollow">ドキュメント</a>では8K/bufferと記載があるが8.5K/bufferで見積もった方がよい。<a href="http://docs.openlinksw.com/virtuoso/tpcctuningparams4users.html" class="external text" rel="nofollow">参考</a>
+</li><li>swapを起さないようにNumberOfBuffersはサーバ搭載RAMの2/3程度に留める。
+</li><li>MaxDirtyBuffersはNumberOfBuffersの3/4程度を目安にする。
+</li><li>MaxDirtyBuffersはMaxCheckpointRemapの1/4程度がよいらしい<a href="http://docs.openlinksw.com/virtuoso/rdfperformancetuning.html" class="external text" rel="nofollow">参照</a>。
+</li><li>スパコンのFAT、Midiumノードではプロセス単体に対するメモリ量を要求するので、NumberOfBuffersがスパコン要求メモリの4/5程度でも良い。
+</li></ul>
+</li></ul>
+<h3> <span class="mw-headline" id=".E3.83.AD.E3.83.BC.E3.83.89.E7.94.A8.E3.82.B9.E3.82.AF.E3.83.AA.E3.83.97.E3.83.88.28.E6.8A.9C.E7.B2.8B.29">ロード用スクリプト(抜粋)</span></h3>
+<ul><li>ロードファイルの登録用SQLファイル
+</li></ul>
+<p>add_load_list5.sql
+</p>
+<pre>
+ld_dir_all('/home/sw/tf/ddbj/release_93_rdf_v1', 'ddbjhtc*.ttl' , 'http://ddbj.nig.ac.jp/graph/htc/');
+ld_dir_all('/home/sw/tf/ddbj/release_93_rdf_v1', 'ddbjhtg*.ttl' , 'http://ddbj.nig.ac.jp/graph/htg/');
+ld_dir_all('/home/sw/tf/ddbj/release_93_rdf_v1', 'ddbjhum*.ttl' , 'http://ddbj.nig.ac.jp/graph/hum/');
+ld_dir_all('/home/sw/tf/ddbj/release_93_rdf_v1', 'ddbjinv*.ttl' , 'http://ddbj.nig.ac.jp/graph/inv/');
+ld_dir_all('/home/sw/tf/ddbj/release_93_rdf_v1', 'ddbjmam*.ttl' , 'http://ddbj.nig.ac.jp/graph/mam/');
+ld_dir_all('/home/sw/tf/ddbj/release_93_rdf_v1', 'ddbjpat*.ttl' , 'http://ddbj.nig.ac.jp/graph/pat/');
+ld_dir_all('/home/sw/tf/ddbj/release_93_rdf_v1', 'ddbjphg*.ttl' , 'http://ddbj.nig.ac.jp/graph/phg/');
+</pre>
+<ul><li>ロード用スクリプト
+</li></ul>
+<p>スパコンにジョブを投げるため、実行サーバ上でVirtuoso起動＋ロードファイルの登録 + ロード + チェックポイント + Virtuoso停止の一連の処理を行う<br />
+bulk_load_fat.sh
+</p>
+<pre>
+#!/bin/sh
+#$ -S /bin/sh
+
+echo  `date +'%Y/%m/%d&nbsp;%H:%M:%S'` &quot;Bulkload start&quot;
+
+VIRTUOSO_HOME=/home/w3sw/store/virtuoso_medium
+DBBASE=/home/w3sw/store/virtuoso_medium/var/lib/virtuoso/db
+LOGFILE=/home/w3sw/store/virtuoso_medium/var/lib/virtuoso/db/load.log
+PIDFILE=$DBBASE/virtuoso.lck
+
+echo  `date +'%Y/%m/%d&nbsp;%H:%M:%S'` &quot; Virtuoso start...&quot;
+$VIRTUOSO_HOME/bin/virtuoso-t +config $DBBASE/virtuoso_fat.ini +wait
+
+if [ -f &quot;$PIDFILE&quot; ]; then
+  echo  `date +'%Y/%m/%d&nbsp;%H:%M:%S'` &quot; Virtuoso has been started&quot;
+
+  $VIRTUOSO_HOME/bin/isql 1116 dba dba &lt; $DBBASE/add_load_list5.sql
+  echo  `date +'%Y/%m/%d&nbsp;%H:%M:%S'` &quot; Load start&quot;
+  $VIRTUOSO_HOME/bin/isql 1116 dba dba exec=&quot;rdf_loader_run();&quot;
+
+  echo  `date +'%Y/%m/%d&nbsp;%H:%M:%S'` &quot; Checkpoint start&quot;
+  $VIRTUOSO_HOME/bin/isql 1116 dba dba exec=&quot;checkpoint;&quot;
+  echo  `date +'%Y/%m/%d&nbsp;%H:%M:%S'` &quot; Checkpoint end&quot;
+
+  echo  `date +'%Y/%m/%d&nbsp;%H:%M:%S'` &quot; Virtuoso shutdown...&quot;
+  $VIRTUOSO_HOME/bin/isql 1116 dba dba exec=&quot;shutdown();&quot;
+  echo  `date +'%Y/%m/%d&nbsp;%H:%M:%S'` &quot; Virtuoso has been ended&quot;
+else
+  echo &quot;ERROR! Virutuoso start&quot;
+fi
+
+echo  `date +'%Y/%m/%d&nbsp;%H:%M:%S'` &quot;Bulkload end&quot;
+</pre>
+<ul><li>ジョブ投入(fatノードの場合)
+</li></ul>
+<pre>
+qsub -l s_vmem=768G -l mem_req=768G -l month -l fat bulk_load_fat.sh
+</pre>
+<h3> <span class="mw-headline" id=".E3.83.AD.E3.83.BC.E3.83.89.E3.83.AD.E3.82.B0">ロードログ</span></h3>
+<table border="1" cellpadding="5" cellspacing="0">
+<tr>
+<th> データ </th><th> 並列ロード </th><th> 工程 </th><th> 所要時間 </th><th> 所要時間/10億トリプル </th><th> 備考
+</th></tr>
+<tr>
+<td rowspan="4"> 1回目(約42億) </td><td rowspan="4"> 4並列 </td><td> ロード </td><td> 9時間54分 </td><td> 141分 </td><td> メモリ設定(256G)が足りず、後半は失速したため、所要時間は不明
+</td></tr>
+<tr>
+<td>  チェックポイント </td><td> 3時間18分 </td><td> 47分 </td><td>
+</td></tr>
+<tr>
+<td>  再起動 </td><td> 10分 </td><td> 2分 </td><td>
+</td></tr>
+<tr>
+<td>  フリーテキスト </td><td> 8時間13分 </td><td> 117分 </td><td>
+</td></tr>
+<tr>
+<td rowspan="5"> 2回目(約30億) </td><td> 4並列 </td><td> ― </td><td> ― </td><td> ― </td><td> ロードは出来たがチェックポイントでスレッドエラーが発生し強制終了
+</td></tr>
+<tr>
+<td rowspan="4">  無し </td><td> ロード </td><td> 6時間45分 </td><td> 135分 </td><td>
+</td></tr>
+<tr>
+<td>  チェックポイント </td><td> 5時間17分 </td><td> 105分 </td><td>
+</td></tr>
+<tr>
+<td>  再起動 </td><td> 4時間10分 </td><td> 83分 </td><td> ロード後の初回起動に時間がかかる。その後は30分程度で起動する。
+</td></tr>
+<tr>
+<td>  フリーテキスト </td><td> 8時間51分 </td><td> 177分 </td><td>
+</td></tr>
+<tr>
+<td rowspan="4"> 3回目(約25億) </td><td rowspan="4">  無し </td><td> ロード </td><td> 6時間21分 </td><td> 152分 </td><td>
+</td></tr>
+<tr>
+<td>  チェックポイント </td><td> 9時間10分 </td><td> 220分 </td><td>
+</td></tr>
+<tr>
+<td>  再起動 </td><td> 6時間03分 </td><td> 145分 </td><td> ロード後の初回起動に時間がかかる。その後は30分程度で起動する。
+</td></tr>
+<tr>
+<td>  フリーテキスト </td><td> 4時間49分 </td><td> 115分 </td><td>
+</td></tr>
+<tr>
+<td>  </td><td>  </td><td> <b>ロード計</b> </td><td> <b>23時間00分</b> </td><td> </td><td>
+</td></tr>
+<tr>
+<td>  </td><td>  </td><td> <b>チェックポイント計</b> </td><td> <b>17時間45分</b> </td><td> </td><td>
+</td></tr>
+<tr>
+<td>  </td><td>  </td><td> <b>再起動計</b> </td><td> <b>10時間23分</b> </td><td> </td><td>
+</td></tr>
+<tr>
+<td>  </td><td>  </td><td> <b>フリーテキスト計</b> </td><td> <b>20時間53分</b> </td><td> </td><td>
+</td></tr>
+<tr>
+<td>  </td><td>  </td><td> <b>総計</b> </td><td> <b>72時間01分</b> </td><td> </td><td>
+</td></tr></table>
+<h2> <span class="mw-headline" id=".E3.83.AD.E3.83.BC.E3.83.89.E4.BD.9C.E6.A5.AD.E5.86.85.E5.AE.B9.28.E3.82.B1.E3.83.BC.E3.82.B92:.E5.A4.B1.E6.95.97.29">ロード作業内容(ケース2:失敗)</span></h2>
+<p>データを分けず、全データの一活ロードを試した。<br />
+</p>
+<ul><li>ロード環境：fatノード
+</li><li>メモリ設定
+</li></ul>
+<pre>
+NumberOfBuffers          = 80000000
+MaxDirtyBuffers          = 60000000
+MaxCheckpointRemap       = 20000000
+UnremapQuota             = 0
+</pre>
+<ul><li>ジョブ
+</li></ul>
+<pre>
+qsub -l s_vmem=800G -l mem_req=800G -l month -l fat bulk_load_fat.sh
+</pre>
+<ul><li>結果：失敗
+</li><li>結果詳細：チェックポイントでロード処理が中断され、速度が遅かったため停止。
+</li></ul>
+<h2> <span class="mw-headline" id=".E3.83.AD.E3.83.BC.E3.83.89.E4.BD.9C.E6.A5.AD.E5.86.85.E5.AE.B9.28.E3.82.B1.E3.83.BC.E3.82.B93:.E5.A4.B1.E6.95.97.29">ロード作業内容(ケース3:失敗)</span></h2>
+<p>チェックポイントを発生させないように変更してロード
+</p>
+<pre>
+checkpoint_interval(6000);
+</pre>
+<ul><li>ロード環境：fatノード
+</li></ul>
+<pre>
+NumberOfBuffers          = 80000000
+MaxDirtyBuffers          = 60000000
+MaxCheckpointRemap       = 20000000
+UnremapQuota             = 0
+</pre>
+<ul><li>ジョブ
+</li></ul>
+<pre>
+qsub -l s_vmem=800G -l mem_req=800G -l month -l fat bulk_load_fat.sh
+</pre>
+<ul><li>結果：失敗
+</li><li>結果詳細：ディスクエラーが発生したため、停止。
+</li></ul>
+<pre>
+07:07:21 Write failure on database /home/w3sw/store/virtuoso_fat/var/lib/virtuoso/db/virtuoso.db
+07:07:22 /home/w3sw/store/virtuoso_fat/bin/virtuoso-t() [0x8db8da]
+07:07:22 /home/w3sw/store/virtuoso_fat/bin/virtuoso-t() [0x8db938]
+07:07:22 /home/w3sw/store/virtuoso_fat/bin/virtuoso-t() [0x4b9b75]
+07:07:22 /home/w3sw/store/virtuoso_fat/bin/virtuoso-t(iq_loop+0x3bb) [0x5113cb]
+07:07:22 /home/w3sw/store/virtuoso_fat/bin/virtuoso-t() [0x8e31dc]
+07:07:22 /lib64/libpthread.so.0() [0x35c40077e1]
+07:07:22 /lib64/libc.so.6(clone+0x6d) [0x35c3ce68ed]
+07:07:22 GPF: disk.c:2231 internal error
+</pre>
+<h2> <span class="mw-headline" id=".E3.83.AD.E3.83.BC.E3.83.89.E4.BD.9C.E6.A5.AD.E5.86.85.E5.AE.B9.28.E3.82.B1.E3.83.BC.E3.82.B94.29">ロード作業内容(ケース4)</span></h2>
+<p>データを分けず、全データの一活ロードを試した。<br />
+また、フルテキストインデックスが自動生成されないように設定を変更し、ロードが終了した後に明示的に作成した。
+</p>
+<ul><li>ロード環境：mediumノード
+</li><li>メモリ設定
+</li></ul>
+<pre>
+NumberOfBuffers          = 80000000
+MaxDirtyBuffers          = 60000000
+MaxCheckpointRemap       = 20000000
+UnremapQuota             = 0
+</pre>
+<ul><li>フルテキストインデックスの自動生成削除
+</li></ul>
+<pre>
+DB.DBA.RDF_OBJ_FT_RULE_DEL('', '', 'ALL');
+</pre>
+<ul><li>ジョブ
+</li></ul>
+<pre>
+qsub -l s_vmem=700G -l mem_req=700G -l month -l medium bulk_load_medium.sh
+</pre>
+<ul><li>結果：成功。ただし、テキストインデックス作成に8日間掛かった。
+</li></ul>
+<h2> <span class="mw-headline" id=".E3.83.AD.E3.83.BC.E3.83.89.E4.BD.9C.E6.A5.AD.E5.86.85.E5.AE.B9.28.E3.82.B1.E3.83.BC.E3.82.B95.29">ロード作業内容(ケース5)</span></h2>
+<p>release 94のデータをロード<br />
+フルテキストインデックスを自動生成するように戻して、全データの一活ロードを試した。<br />
+フルテキストインデックス生成が始まるように、ロード後に再起動して長時間のsleepを掛けてジョブが終了しないようにした。
+</p>
+<ul><li>ロード環境：mediumノード
+</li><li>メモリ設定
+</li></ul>
+<pre>
+NumberOfBuffers          = 80000000
+MaxDirtyBuffers          = 60000000
+MaxCheckpointRemap       = 20000000
+UnremapQuota             = 0
+</pre>
+<ul><li>ジョブ
+</li></ul>
+<pre>
+qsub -l s_vmem=700G -l mem_req=700G -l month -l medium bulk_load_medium.sh
+</pre>
+<ul><li>結果：成功。
+</li></ul>
+<h3> <span class="mw-headline" id=".E3.83.AD.E3.83.BC.E3.83.89.E3.83.AD.E3.82.B0_2">ロードログ</span></h3>
+<table border="1" cellpadding="5" cellspacing="0">
+<tr>
+<th> 工程 </th><th> 所要時間 </th><th> 備考
+</th></tr>
+<tr>
+<td> ロード </td><td> 26時間55分 </td><td> メモリ(RES)使用 317G → 557G
+</td></tr>
+<tr>
+<td> チェックポイント </td><td> 8時間16分 </td><td> メモリ(RES)使用 557G → 560G　チェックポイント工程ではメモリはほとんど増加しない
+</td></tr>
+<tr>
+<td> 再起動 </td><td> 0時間13分 </td><td> メモリ(RES)  → 326G
+</td></tr>
+<tr>
+<td> テキストインデックス生成 </td><td> 23時間17分 </td><td> メモリ(RES)使用 326G → 380G
+</td></tr>
+<tr>
+<td> <b>合計</b> </td><td> <b>58時間41分</b> </td><td>
+</td></tr></table>
+<h2> <span class="mw-headline" id=".E6.B0.97.E4.BB.98.E3.81.84.E3.81.9F.E3.81.93.E3.81.A8">気付いたこと</span></h2>
+<h3> <span class="mw-headline" id=".E3.83.A1.E3.83.A2.E3.83.AA.E4.BD.BF.E7.94.A8.E9.87.8F">メモリ使用量</span></h3>
+<ul><li>今回の最大メモリ使用量は472G。但し、途中再起動を行っているため、一括ロードの場合は600G程度が必要だと思われる。
+</li><li>NumberOfBuffersの設定値に応じて起動時にVIRT、RESともメモリ確保される(データが全くロードされていない状態でも大量に確保される)。
+</li><li>VIRTはNumberOfBuffersの上限値に近い値で確保される。RESの確保基準は不明。
+</li><li>ロードが始まるとRESが徐々に増加する。ロード量に比例して増加し、再起動しない限り下がることはない。
+</li><li>NumberOfBuffersで設定したメモリ量までRESが上がりきった後は、ロードの速度が低下する。
+</li><li>ロード終了後にVirtuosoを再起動すると、使用メモリは終了時のRESではなく、再びNumberOfBuffersの設定値基準に応じて確保される。
+</li><li>ロード時より低いメモリ設定でも再起動は可能。例：RES500Gでロードが終わっても50G設定に変更して再起動
+</li><li>再度追加でロードを行った場合、最初のファイルのロードに先立ちRESが増加し、前回ロード終了時のRESに近い値まで増加した後、ロードが始まる。
+</li><li>前回ロード終了時よりやや低めのRESでロードがスタートするため、再起動を挟むことで使用メモリを若干抑えることができる。
+</li><li>チェックポイント実行中には使用メモリの増加は見られない。
+</li><li>フリーテキストインデックス作成時には使用メモリは徐々に増加する。ロード時と同様に大量にメモリを消費する。
+</li></ul>
+<h3> <span class="mw-headline" id=".E3.82.B9.E3.83.AC.E3.83.83.E3.83.89.E3.82.A8.E3.83.A9.E3.83.BC">スレッドエラー</span></h3>
+<p>スレッド系のエラーに何度か遭遇した。並列ロードが原因だと思われる。
+</p>
+<ul><li>ロードは正常に終わるがチェックポイント(disk書き出し)でエラーが発生する。
+</li><li>同じデータでもエラーが出る場合と出ない場合がある。
+</li><li>エラーログは出力されるが、サービスは動き続ける。
+</li><li>サーバのLoad averageの値がかなり上がっていた(ように思う)。
+</li><li>エラーログは以下の通り
+</li></ul>
+<pre>
+14:33:30 Read failure on database /home/w3sw/store/virtuoso_medium/var/lib/virtuoso/db/virtuoso.db
+14:33:31 /home/w3sw/store/virtuoso_medium/bin/virtuoso-t() [0x8db8da]
+14:33:31 /home/w3sw/store/virtuoso_medium/bin/virtuoso-t() [0x8db938]
+14:33:31 /home/w3sw/store/virtuoso_medium/bin/virtuoso-t() [0x4b978c]
+14:33:31 /home/w3sw/store/virtuoso_medium/bin/virtuoso-t(iq_loop+0x9b) [0x5110ab]
+14:33:31 /home/w3sw/store/virtuoso_medium/bin/virtuoso-t() [0x8e31dc]
+14:33:31 /lib64/libpthread.so.0() [0x35c40077e1]
+14:33:31 /lib64/libc.so.6(clone+0x6d) [0x35c3ce68ed]
+14:33:31 GPF: disk.c:2082 internal error
+</pre>
+<h2> <span class="mw-headline" id=".E6.AC.A1.E5.9B.9E.E3.81.AE.E3.83.AD.E3.83.BC.E3.83.89.E3.81.A7.E8.A9.A6.E3.81.99.E3.81.93.E3.81.A8">次回のロードで試すこと</span></h2>
+<ul><li>一括で97億トリプルのロードを実行する。NumberOfBuffersは700Gで設定する
+</li><li>フリーテキストは自動作成されないように初回起動時に削除し、ロード完了後明示的に作成する。
+</li><li>ストライピングを設定する(ディスクに余裕がある場合)。
+</li></ul>
+<h2> <span class="mw-headline" id=".E8.AA.B2.E9.A1.8C">課題</span></h2>
+<ul><li><a href="http://wiki.lifesciencedb.jp/mw/index.php/BH12.12/SPARQLthon16/DDBJ#.E3.82.B9.E3.83.AC.E3.83.83.E3.83.89.E3.82.A8.E3.83.A9.E3.83.BC" class="external text" rel="nofollow">スレッドエラー</a>が発生し、サーバのLoad averageが上昇する傾向がある。現状では並列ロード時のみ発生するため、並列ロードによる高速化が困難。
+</li><li>大量のメモリ要求(見込み700G)が必要なため、スパコンの稼働状況によってはロードのジョブが実行できない可能性がある
+</li><li>SSD環境でメモリ量が抑えられるか検証する環境がない
+</li></ul>
+<h1> <span class="mw-headline" id=".E3.83.AA.E3.82.BD.E3.83.BC.E3.82.B9URI.E7.94.A8Web.E3.83.9A.E3.83.BC.E3.82.B8.E6.A7.8B.E7.AF.89"> リソースURI用Webページ構築 </span></h1>
+<h2> <span class="mw-headline" id=".E6.A7.8B.E6.88.90">構成</span></h2>
+<ul><li>公開ページはDDBJサイトの既存WordPressを流用する
+</li><li>Ontologyファイルからのデータ抽出はARQを使ってSPAQRLを叩いて、その結果でHTMLを生成する
+</li></ul>
+<h2> <span class="mw-headline" id=".E8.AA.B2.E9.A1.8C_2">課題</span></h2>
+<h3> <span class="mw-headline" id="Taxonomy.28taxdump.owl.29.E3.81.AE.E5.AE.9A.E7.BE.A9">Taxonomy(taxdump.owl)の定義</span></h3>
+<p>各taxonomyidについてはddbjドメインではなく、identifired.orgで定義されているており、ddbjサイトでリソースURIとして公開できない<br />
+→owlファイルに"idtax:1148 rdfs:seeAlso ddbjtax:1148"を追加する<br />
+<br />
+ddbjのPREFIXの最後が"#(フラグメント)"になっているが、リソースURIページは全定義を１つのページで公開しなければならないため、個々のページを用意するのであれば"/"のURI区切りに変更する<br />
+→片山さんに変更依頼<br />
+</p>
+<!-- 
+NewPP limit report
+Preprocessor node count: 244/1000000
+Post-expand include size: 0/2097152 bytes
+Template argument size: 0/2097152 bytes
+Expensive parser function count: 0/100
+-->
+
+<!-- Saved in parser cache with key wikidb-togowiki_:pcache:idhash:348-0!1!0!!ja!2!edit=0!printable=1 and timestamp 20230605025836 -->
+<div class="printfooter">
+「<a href="http://wiki.lifesciencedb.jp/mw/BH12.12/SPARQLthon16/DDBJ">http://wiki.lifesciencedb.jp/mw/BH12.12/SPARQLthon16/DDBJ</a>」より作成</div>
+		<div id='catlinks' class='catlinks'><div id="mw-normal-catlinks"><a href="/mw/%E7%89%B9%E5%88%A5:%E3%82%AB%E3%83%86%E3%82%B4%E3%83%AA" title="特別:カテゴリ">カテゴリ</a>: <span dir='ltr'><a href="/mw/index.php?title=Category:DDBJ&amp;action=edit&amp;redlink=1" class="new" title="Category:DDBJ（存在しないページ）">DDBJ</a></span></div></div>		<!-- end content -->
+				<div class="visualClear"></div>
+	</div>
+</div></div>
+<div id="column-one">
+	<div id="p-cactions" class="portlet">
+		<h5>表示</h5>
+		<div class="pBody">
+			<ul>
+				 <li id="ca-nstab-main" class="selected"><a href="/mw/BH12.12/SPARQLthon16/DDBJ" title="本文を表示 [c]" accesskey="c">ページ</a></li>
+				 <li id="ca-talk" class="new"><a href="/mw/index.php?title=%E3%83%8E%E3%83%BC%E3%83%88:BH12.12/SPARQLthon16/DDBJ&amp;action=edit&amp;redlink=1" title="記事についての議論 [t]" accesskey="t">議論</a></li>
+				 <li id="ca-viewsource"><a href="/mw/index.php?title=BH12.12/SPARQLthon16/DDBJ&amp;action=edit" title="このページは保護されています。&#10;ページのソースを閲覧できます。 [e]" accesskey="e">ソースを表示</a></li>
+				 <li id="ca-history"><a href="/mw/index.php?title=BH12.12/SPARQLthon16/DDBJ&amp;action=history" title="このページの過去の版 [h]" accesskey="h">履歴</a></li>
+			</ul>
+		</div>
+	</div>
+	<div class="portlet" id="p-personal">
+		<h5>個人用ツール</h5>
+		<div class="pBody">
+			<ul>
+				<li id="pt-anonuserpage"><a href="/mw/%E5%88%A9%E7%94%A8%E8%80%85:172.18.8.51" title="自分が編集しているIPアドレスの利用者ページ [.]" accesskey="." class="new">172.18.8.51</a></li>
+				<li id="pt-anontalk"><a href="/mw/%E5%88%A9%E7%94%A8%E8%80%85%E2%80%90%E4%BC%9A%E8%A9%B1:172.18.8.51" title="このIPアドレスからなされた編集についての議論 [n]" accesskey="n" class="new">このIPアドレスのトーク</a></li>
+				<li id="pt-anonlogin"><a href="/mw/index.php?title=%E7%89%B9%E5%88%A5:%E3%83%AD%E3%82%B0%E3%82%A4%E3%83%B3&amp;returnto=BH12.12/SPARQLthon16/DDBJ&amp;returntoquery=oldid%3D11098%26printable%3Dyes" title="ログインすることが推奨されます。ただし、必須ではありません。 [o]" accesskey="o">ログイン</a></li>
+				<li id="pt-openidlogin"><a href="/mw/index.php?title=%E7%89%B9%E5%88%A5:OpenID%E3%83%AD%E3%82%B0%E3%82%A4%E3%83%B3&amp;returnto=BH12.12/SPARQLthon16/DDBJ">OpenIDでログイン</a></li>
+			</ul>
+		</div>
+	</div>
+	<div class="portlet" id="p-logo">
+		<a style="background-image: url(/mw/images/togowiki-logo.png);" href="/mw/%E3%83%A1%E3%82%A4%E3%83%B3%E3%83%9A%E3%83%BC%E3%82%B8" title="メインページに移動"></a>
+	</div>
+	<script type="text/javascript"> if (window.isMSIE55) fixalpha(); </script>
+	<div class='generated-sidebar portlet' id='p-navigation'>
+		<h5>案内</h5>
+		<div class='pBody'>
+			<ul>
+				<li id="n-mainpage-description"><a href="/mw/%E3%83%A1%E3%82%A4%E3%83%B3%E3%83%9A%E3%83%BC%E3%82%B8" title="メインページに移動する [z]" accesskey="z">メインページ</a></li>
+				<li id="n-portal"><a href="/mw/TogoWiki:%E3%82%B3%E3%83%9F%E3%83%A5%E3%83%8B%E3%83%86%E3%82%A3%E3%83%BB%E3%83%9D%E3%83%BC%E3%82%BF%E3%83%AB" title="このプロジェクトについて、できること、情報を入手する場所">コミュニティ・ポータル</a></li>
+				<li id="n-currentevents"><a href="/mw/TogoWiki:%E6%9C%80%E8%BF%91%E3%81%AE%E5%87%BA%E6%9D%A5%E4%BA%8B" title="最近の出来事について予備知識を得る">最近の出来事</a></li>
+				<li id="n-recentchanges"><a href="/mw/%E7%89%B9%E5%88%A5:%E6%9C%80%E8%BF%91%E3%81%AE%E6%9B%B4%E6%96%B0" title="ウィキにおける最近の更新の一覧 [r]" accesskey="r">最近の更新</a></li>
+				<li id="n-randompage"><a href="/mw/%E7%89%B9%E5%88%A5:%E3%81%8A%E3%81%BE%E3%81%8B%E3%81%9B%E8%A1%A8%E7%A4%BA" title="無作為に抽出されたページの読み込み [x]" accesskey="x">おまかせ表示</a></li>
+				<li id="n-help"><a href="/mw/Help:%E7%9B%AE%E6%AC%A1" title="情報を得る場所">ヘルプ</a></li>
+			</ul>
+		</div>
+	</div>
+	<div id="p-search" class="portlet">
+		<h5><label for="searchInput">検索</label></h5>
+		<div id="searchBody" class="pBody">
+			<form action="/mw/index.php" id="searchform">
+				<input type='hidden' name="title" value="特別:検索"/>
+				<input id="searchInput" title="TogoWiki内を検索" accesskey="f" type="search" name="search" />
+				<input type='submit' name="go" class="searchButton" id="searchGoButton"	value="表示" title="厳密に一致する名前のページが存在すれば、そのページへ移動します" />&nbsp;
+				<input type='submit' name="fulltext" class="searchButton" id="mw-searchButton" value="検索" title="入力された文字列が含まれるページを検索します" />
+			</form>
+		</div>
+	</div>
+	<div class="portlet" id="p-tb">
+		<h5>ツールボックス</h5>
+		<div class="pBody">
+			<ul>
+				<li id="t-whatlinkshere"><a href="/mw/%E7%89%B9%E5%88%A5:%E3%83%AA%E3%83%B3%E3%82%AF%E5%85%83/BH12.12/SPARQLthon16/DDBJ" title="ここにリンクしている全ウィキのページの一覧 [j]" accesskey="j">リンク元</a></li>
+				<li id="t-recentchangeslinked"><a href="/mw/%E7%89%B9%E5%88%A5:%E9%96%A2%E9%80%A3%E3%83%9A%E3%83%BC%E3%82%B8%E3%81%AE%E6%9B%B4%E6%96%B0%E7%8A%B6%E6%B3%81/BH12.12/SPARQLthon16/DDBJ" title="このページからリンクしているページの最近の更新 [k]" accesskey="k">関連ページの更新状況</a></li>
+<li id="t-specialpages"><a href="/mw/%E7%89%B9%E5%88%A5:%E7%89%B9%E5%88%A5%E3%83%9A%E3%83%BC%E3%82%B8%E4%B8%80%E8%A6%A7" title="特別ページの一覧 [q]" accesskey="q">特別ページ</a></li>
+				<li id="t-permalink"><a href="/mw/index.php?title=BH12.12/SPARQLthon16/DDBJ&amp;oldid=11098" title="ページのこの版への固定リンク">この版への固定リンク</a></li>			</ul>
+		</div>
+	</div>
+</div><!-- end of the left (by default at least) column -->
+<div class="visualClear"></div>
+<div id="footer">
+	<div id="f-poweredbyico"><a href="http://www.mediawiki.org/"><img src="/mw/skins/common/images/poweredby_mediawiki_88x31.png" height="31" width="88" alt="Powered by MediaWiki" /></a></div>
+	<div id="f-copyrightico"><a href="http://creativecommons.org/licenses/by/3.0/"><img src="http://i.creativecommons.org/l/by/3.0/88x31.png" alt="Attribution 3.0 Unported" width="88" height="31" /></a></div>
+	<ul id="f-list">
+		<li id="copyright">内容は<a href="http://creativecommons.org/licenses/by/3.0/" class="external ">Attribution 3.0 Unported</a>のライセンスで利用することができます。</li>
+		<li id="privacy"><a href="/mw/TogoWiki:%E3%83%97%E3%83%A9%E3%82%A4%E3%83%90%E3%82%B7%E3%83%BC%E3%83%BB%E3%83%9D%E3%83%AA%E3%82%B7%E3%83%BC" title="TogoWiki:プライバシー・ポリシー">プライバシー・ポリシー</a></li>
+		<li id="about"><a href="/mw/TogoWiki:TogoWiki%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6" title="TogoWiki:TogoWikiについて">TogoWikiについて</a></li>
+		<li id="disclaimer"><a href="/mw/TogoWiki:%E5%85%8D%E8%B2%AC%E4%BA%8B%E9%A0%85" title="TogoWiki:免責事項">免責事項</a></li>
+	</ul>
+</div>
+</div>
+
+<script>if (window.runOnloadHook) runOnloadHook();</script>
+<!-- Served in 0.617 secs. --></body></html>

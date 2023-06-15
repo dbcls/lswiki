@@ -1,0 +1,593 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html lang="ja" dir="ltr">
+<head>
+<title>TogoWS, TogoDB の開発 - TogoWiki</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta name="generator" content="MediaWiki 1.16.3" />
+<meta name="robots" content="noindex,nofollow" />
+<link rel="shortcut icon" href="http://wiki.lifesciencedb.jp/favicon.ico" />
+<link rel="search" type="application/opensearchdescription+xml" href="http://wiki.lifesciencedb.jp/mw/opensearch_desc.php" title="TogoWiki (ja)" />
+<link title="Creative Commons" type="application/rdf+xml" href="index.php@title=TogoWS,_TogoDB_の開発&amp;action=creativecommons" rel="meta" />
+<link rel="copyright" href="http://creativecommons.org/licenses/by/3.0/" />
+<link rel="alternate" type="application/atom+xml" title="TogoWikiのAtomフィード" href="http://wiki.lifesciencedb.jp/mw/index.php?title=%E7%89%B9%E5%88%A5:%E6%9C%80%E8%BF%91%E3%81%AE%E6%9B%B4%E6%96%B0&amp;feed=atom" />
+<link rel="stylesheet" href="http://wiki.lifesciencedb.jp/mw/skins/common/shared.css?270" media="screen" />
+<link rel="stylesheet" href="http://wiki.lifesciencedb.jp/mw/skins/common/commonPrint.css?270" media="print" />
+<link rel="stylesheet" href="http://wiki.lifesciencedb.jp/mw/skins/monobook/main.css?270" media="screen" />
+<!--[if lt IE 5.5000]><link rel="stylesheet" href="/mw/skins/monobook/IE50Fixes.css?270" media="screen" /><![endif]-->
+<!--[if IE 5.5000]><link rel="stylesheet" href="/mw/skins/monobook/IE55Fixes.css?270" media="screen" /><![endif]-->
+<!--[if IE 6]><link rel="stylesheet" href="/mw/skins/monobook/IE60Fixes.css?270" media="screen" /><![endif]-->
+<!--[if IE 7]><link rel="stylesheet" href="/mw/skins/monobook/IE70Fixes.css?270" media="screen" /><![endif]-->
+<link rel="stylesheet" href="http://wiki.lifesciencedb.jp/mw/index.php?title=MediaWiki:Common.css&amp;usemsgcache=yes&amp;ctype=text%2Fcss&amp;smaxage=18000&amp;action=raw&amp;maxage=18000" />
+<link rel="stylesheet" href="http://wiki.lifesciencedb.jp/mw/index.php?title=MediaWiki:Print.css&amp;usemsgcache=yes&amp;ctype=text%2Fcss&amp;smaxage=18000&amp;action=raw&amp;maxage=18000" media="print" />
+<link rel="stylesheet" href="http://wiki.lifesciencedb.jp/mw/index.php?title=MediaWiki:Monobook.css&amp;usemsgcache=yes&amp;ctype=text%2Fcss&amp;smaxage=18000&amp;action=raw&amp;maxage=18000" />
+<link rel="stylesheet" href="http://wiki.lifesciencedb.jp/mw/index.php?title=-&amp;action=raw&amp;maxage=18000&amp;gen=css" />
+<script>
+var skin="monobook",
+stylepath="/mw/skins",
+wgUrlProtocols="http\\:\\/\\/|https\\:\\/\\/|ftp\\:\\/\\/|irc\\:\\/\\/|gopher\\:\\/\\/|telnet\\:\\/\\/|nntp\\:\\/\\/|worldwind\\:\\/\\/|mailto\\:|news\\:|svn\\:\\/\\/",
+wgArticlePath="/mw/$1",
+wgScriptPath="/mw",
+wgScriptExtension=".php",
+wgScript="/mw/index.php",
+wgVariantArticlePath=false,
+wgActionPaths={},
+wgServer="http://wiki.lifesciencedb.jp",
+wgCanonicalNamespace="",
+wgCanonicalSpecialPageName=false,
+wgNamespaceNumber=0,
+wgPageName="TogoWS,_TogoDB_の開発",
+wgTitle="TogoWS, TogoDB の開発",
+wgAction="view",
+wgArticleId=40,
+wgIsArticle=true,
+wgUserName=null,
+wgUserGroups=null,
+wgUserLanguage="ja",
+wgContentLanguage="ja",
+wgBreakFrames=false,
+wgCurRevisionId=774,
+wgVersion="1.16.3",
+wgEnableAPI=true,
+wgEnableWriteAPI=true,
+wgSeparatorTransformTable=["", ""],
+wgDigitTransformTable=["", ""],
+wgMainPageTitle="メインページ",
+wgFormattedNamespaces={"-2": "メディア", "-1": "特別", "0": "", "1": "ノート", "2": "利用者", "3": "利用者‐会話", "4": "TogoWiki", "5": "TogoWiki‐ノート", "6": "ファイル", "7": "ファイル‐ノート", "8": "MediaWiki", "9": "MediaWiki‐ノート", "10": "Template", "11": "Template‐ノート", "12": "Help", "13": "Help‐ノート", "14": "Category", "15": "Category‐ノート"},
+wgNamespaceIds={"メディア": -2, "特別": -1, "": 0, "ノート": 1, "利用者": 2, "利用者‐会話": 3, "togowiki": 4, "togowiki‐ノート": 5, "ファイル": 6, "ファイル‐ノート": 7, "mediawiki": 8, "mediawiki‐ノート": 9, "template": 10, "template‐ノート": 11, "help": 12, "help‐ノート": 13, "category": 14, "category‐ノート": 15, "画像": 6, "画像‐ノート": 7, "image": 6, "image_talk": 7},
+wgSiteName="TogoWiki",
+wgCategories=[],
+wgRestrictionEdit=[],
+wgRestrictionMove=[];
+</script><script src="http://wiki.lifesciencedb.jp/mw/skins/common/wikibits.js?270"></script>
+<script src="http://wiki.lifesciencedb.jp/mw/skins/common/ajax.js?270"></script>
+<script src="http://wiki.lifesciencedb.jp/mw/index.php?title=-&amp;action=raw&amp;gen=js&amp;useskin=monobook&amp;270"></script>
+
+		<style type='text/css'>
+		li#pt-openidlogin {
+		  background: url(http://wiki.lifesciencedb.jp/mw/extensions/OpenID/skin/icons/openid-inputicon.png) top left no-repeat;
+		  padding-left: 20px;
+		  text-transform: none;
+		}
+		</style>
+</head>
+<body class="mediawiki ltr ns-0 ns-subject page-TogoWS_TogoDB_の開発 skin-monobook">
+<div id="globalWrapper">
+<div id="column-content"><div id="content" >
+	<a id="top"></a>
+	
+	<h1 id="firstHeading" class="firstHeading">TogoWS, TogoDB の開発</h1>
+	<div id="bodyContent">
+		<h3 id="siteSub">提供：TogoWiki</h3>
+		<div id="contentSub">
+				<div id="mw-revision-info">2010年10月22日 (金) 06:08時点における<a href="http://wiki.lifesciencedb.jp/mw/index.php?title=%E5%88%A9%E7%94%A8%E8%80%85:Ktym&amp;action=edit&amp;redlink=1" class="new mw-userlink" title="利用者:Ktym（存在しないページ）">Ktym</a>  <span class="mw-usertoollinks">(<a href="http://wiki.lifesciencedb.jp/mw/index.php?title=%E5%88%A9%E7%94%A8%E8%80%85%E2%80%90%E4%BC%9A%E8%A9%B1:Ktym&amp;action=edit&amp;redlink=1" class="new" title="利用者‐会話:Ktym（存在しないページ）">トーク</a> | <a href="特別%253A投稿記録/Ktym.html" title="特別:投稿記録/Ktym">投稿記録</a>)</span>による版</div>
+
+				<div id="mw-revision-nav">(<a href="http://wiki.lifesciencedb.jp/mw/index.php?title=TogoWS,_TogoDB_%E3%81%AE%E9%96%8B%E7%99%BA&amp;diff=prev&amp;oldid=725" title="TogoWS, TogoDB の開発">差分</a>) <a href="http://wiki.lifesciencedb.jp/mw/index.php?title=TogoWS,_TogoDB_%E3%81%AE%E9%96%8B%E7%99%BA&amp;direction=prev&amp;oldid=725" title="TogoWS, TogoDB の開発">←前の版</a> | <a href="TogoWS,_TogoDB_の開発.html" title="TogoWS, TogoDB の開発">最新版</a> (<a href="http://wiki.lifesciencedb.jp/mw/index.php?title=TogoWS,_TogoDB_%E3%81%AE%E9%96%8B%E7%99%BA&amp;diff=cur&amp;oldid=725" title="TogoWS, TogoDB の開発">差分</a>) | <a href="http://wiki.lifesciencedb.jp/mw/index.php?title=TogoWS,_TogoDB_%E3%81%AE%E9%96%8B%E7%99%BA&amp;direction=next&amp;oldid=725" title="TogoWS, TogoDB の開発">次の版→</a> (<a href="http://wiki.lifesciencedb.jp/mw/index.php?title=TogoWS,_TogoDB_%E3%81%AE%E9%96%8B%E7%99%BA&amp;diff=next&amp;oldid=725" title="TogoWS, TogoDB の開発">差分</a>)</div>
+			</div>
+		<div id="jump-to-nav">移動： <a href="index.php@title=TogoWS,_TogoDB_の開発&amp;direction=prev&amp;oldid=774.html#column-one">案内</a>, <a href="index.php@title=TogoWS,_TogoDB_の開発&amp;direction=prev&amp;oldid=774.html#searchInput">検索</a></div>
+		<!-- start content -->
+<table id="toc" class="toc"><tr><td><div id="toctitle"><h2>目次</h2></div>
+<ul>
+<li class="toclevel-1 tocsection-1"><a href="index.php@title=TogoWS,_TogoDB_の開発&amp;direction=prev&amp;oldid=774.html#TogoWS.2C_TogoDB_.E3.81.AE.E9.96.8B.E7.99.BA"><span class="tocnumber">1</span> <span class="toctext">TogoWS, TogoDB の開発</span></a></li>
+<li class="toclevel-1 tocsection-2"><a href="index.php@title=TogoWS,_TogoDB_の開発&amp;direction=prev&amp;oldid=774.html#TogoWS"><span class="tocnumber">2</span> <span class="toctext">TogoWS</span></a>
+<ul>
+<li class="toclevel-2 tocsection-3"><a href="index.php@title=TogoWS,_TogoDB_の開発&amp;direction=prev&amp;oldid=774.html#DDBJ.2C_PDBj_.E3.81.AE.E3.82.AD.E3.83.BC.E3.83.AF.E3.83.BC.E3.83.89.E6.A4.9C.E7.B4.A2"><span class="tocnumber">2.1</span> <span class="toctext">DDBJ, PDBj のキーワード検索</span></a>
+<ul>
+<li class="toclevel-3 tocsection-4"><a href="index.php@title=TogoWS,_TogoDB_の開発&amp;direction=prev&amp;oldid=774.html#PDBj_.E3.81.AE.E3.82.AD.E3.83.BC.E3.83.AF.E3.83.BC.E3.83.89.E6.A4.9C.E7.B4.A2"><span class="tocnumber">2.1.1</span> <span class="toctext">PDBj のキーワード検索</span></a></li>
+<li class="toclevel-3 tocsection-5"><a href="index.php@title=TogoWS,_TogoDB_の開発&amp;direction=prev&amp;oldid=774.html#DDBJ_.E3.81.AE.E3.82.AD.E3.83.BC.E3.83.AF.E3.83.BC.E3.83.89.E6.A4.9C.E7.B4.A2"><span class="tocnumber">2.1.2</span> <span class="toctext">DDBJ のキーワード検索</span></a></li>
+</ul>
+</li>
+<li class="toclevel-2 tocsection-6"><a href="index.php@title=TogoWS,_TogoDB_の開発&amp;direction=prev&amp;oldid=774.html#.E7.B3.96.E9.8E.96.E5.AF.BE.E5.BF.9C"><span class="tocnumber">2.2</span> <span class="toctext">糖鎖対応</span></a>
+<ul>
+<li class="toclevel-3 tocsection-7"><a href="index.php@title=TogoWS,_TogoDB_の開発&amp;direction=prev&amp;oldid=774.html#GLYDE-II_.E3.81.A8_KCF_.E3.81.AE.E5.A4.89.E6.8F.9B"><span class="tocnumber">2.2.1</span> <span class="toctext">GLYDE-II と KCF の変換</span></a></li>
+<li class="toclevel-3 tocsection-8"><a href="index.php@title=TogoWS,_TogoDB_の開発&amp;direction=prev&amp;oldid=774.html#BioMoby_.E3.81.AE.E8.AA.BF.E6.9F.BB"><span class="tocnumber">2.2.2</span> <span class="toctext">BioMoby の調査</span></a></li>
+<li class="toclevel-3 tocsection-9"><a href="index.php@title=TogoWS,_TogoDB_の開発&amp;direction=prev&amp;oldid=774.html#KEGG"><span class="tocnumber">2.2.3</span> <span class="toctext">KEGG</span></a></li>
+<li class="toclevel-3 tocsection-10"><a href="index.php@title=TogoWS,_TogoDB_の開発&amp;direction=prev&amp;oldid=774.html#JCGGDB"><span class="tocnumber">2.2.4</span> <span class="toctext">JCGGDB</span></a></li>
+</ul>
+</li>
+<li class="toclevel-2 tocsection-11"><a href="index.php@title=TogoWS,_TogoDB_の開発&amp;direction=prev&amp;oldid=774.html#NCBI.2C_EBI.2C_DDBJ.2C_PDBj_.E3.81.AE.E3.82.B5.E3.83.BC.E3.83.93.E3.82.B9.E5.85.A8.E5.AF.BE.E5.BF.9C.E3.82.92.E7.A2.BA.E8.AA.8D"><span class="tocnumber">2.3</span> <span class="toctext">NCBI, EBI, DDBJ, PDBj のサービス全対応を確認</span></a>
+<ul>
+<li class="toclevel-3 tocsection-12"><a href="index.php@title=TogoWS,_TogoDB_の開発&amp;direction=prev&amp;oldid=774.html#.E3.82.A8.E3.83.B3.E3.83.88.E3.83.AA.E5.8F.96.E5.BE.97"><span class="tocnumber">2.3.1</span> <span class="toctext">エントリ取得</span></a></li>
+<li class="toclevel-3 tocsection-13"><a href="index.php@title=TogoWS,_TogoDB_の開発&amp;direction=prev&amp;oldid=774.html#.E8.AA.BF.E6.9F.BB.E7.B5.90.E6.9E.9C"><span class="tocnumber">2.3.2</span> <span class="toctext">調査結果</span></a></li>
+<li class="toclevel-3 tocsection-14"><a href="index.php@title=TogoWS,_TogoDB_の開発&amp;direction=prev&amp;oldid=774.html#.E3.82.A8.E3.83.B3.E3.83.88.E3.83.AA.E6.A4.9C.E7.B4.A2"><span class="tocnumber">2.3.3</span> <span class="toctext">エントリ検索</span></a></li>
+<li class="toclevel-3 tocsection-15"><a href="index.php@title=TogoWS,_TogoDB_の開発&amp;direction=prev&amp;oldid=774.html#.E3.82.B9.E3.83.86.E3.83.BC.E3.82.BF.E3.82.B9.E7.A2.BA.E8.AA.8D"><span class="tocnumber">2.3.4</span> <span class="toctext">ステータス確認</span></a></li>
+</ul>
+</li>
+<li class="toclevel-2 tocsection-16"><a href="index.php@title=TogoWS,_TogoDB_の開発&amp;direction=prev&amp;oldid=774.html#JSON.E3.81.AE.E7.A2.BA.E8.AA.8D"><span class="tocnumber">2.4</span> <span class="toctext">JSONの確認</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-17"><a href="index.php@title=TogoWS,_TogoDB_の開発&amp;direction=prev&amp;oldid=774.html#TogoDB"><span class="tocnumber">3</span> <span class="toctext">TogoDB</span></a>
+<ul>
+<li class="toclevel-2 tocsection-18"><a href="index.php@title=TogoWS,_TogoDB_の開発&amp;direction=prev&amp;oldid=774.html#.E3.82.A8.E3.83.B3.E3.83.99.E3.83.83.E3.83.89.E6.A9.9F.E8.83.BD.E3.81.AE.E5.AE.8C.E6.88.90.E3.81.A8.E3.83.AA.E3.83.AA.E3.83.BC.E3.82.B9"><span class="tocnumber">3.1</span> <span class="toctext">エンベッド機能の完成とリリース</span></a>
+<ul>
+<li class="toclevel-3 tocsection-19"><a href="index.php@title=TogoWS,_TogoDB_の開発&amp;direction=prev&amp;oldid=774.html#.E3.83.87.E3.82.B6.E3.82.A4.E3.83.B3.E9.9D.A2.E3.81.AE.E8.A6.8B.E7.9B.B4.E3.81.97"><span class="tocnumber">3.1.1</span> <span class="toctext">デザイン面の見直し</span></a></li>
+<li class="toclevel-3 tocsection-20"><a href="index.php@title=TogoWS,_TogoDB_の開発&amp;direction=prev&amp;oldid=774.html#.E3.83.AA.E3.83.AA.E3.83.BC.E3.82.B9.E6.A9.9F.E8.83.BD.E3.81.AE.E6.8F.90.E4.BE.9B"><span class="tocnumber">3.1.2</span> <span class="toctext">リリース機能の提供</span></a></li>
+<li class="toclevel-3 tocsection-21"><a href="index.php@title=TogoWS,_TogoDB_の開発&amp;direction=prev&amp;oldid=774.html#.E3.83.A1.E3.82.BF.E3.83.87.E3.83.BC.E3.82.BF.E7.AE.A1.E7.90.86"><span class="tocnumber">3.1.3</span> <span class="toctext">メタデータ管理</span></a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</td></tr></table><script>if (window.showTocToggle) { var tocShowText = "表示"; var tocHideText = "非表示"; showTocToggle(); } </script>
+<h2> <span class="mw-headline" id="TogoWS.2C_TogoDB_.E3.81.AE.E9.96.8B.E7.99.BA"> TogoWS, TogoDB の開発 </span></h2>
+<h2> <span class="mw-headline" id="TogoWS"> TogoWS </span></h2>
+<h3> <span class="mw-headline" id="DDBJ.2C_PDBj_.E3.81.AE.E3.82.AD.E3.83.BC.E3.83.AF.E3.83.BC.E3.83.89.E6.A4.9C.E7.B4.A2"> DDBJ, PDBj のキーワード検索 </span></h3>
+<p>http//togows.dbcls.jp/search で ddbj, pdbj に対応できていないのは、
+オリジナルサイトでキーワード検索用の API がどれかよくわかっていなかったから。
+</p>
+<h4> <span class="mw-headline" id="PDBj_.E3.81.AE.E3.82.AD.E3.83.BC.E3.83.AF.E3.83.BC.E3.83.89.E6.A4.9C.E7.B4.A2"> PDBj のキーワード検索 </span></h4>
+<p>SQL を POST すると ID が返るサービスがある（金城）ということなので、これを利用する。
+</p><p>たとえば、"alcohol dehydrogenase" というキーワードで検索するには以下のSQLを投げます。
+</p>
+<pre> SELECT pdbid FROM brief_summary where plainto_tsquery('alcohol dehydrogenase') @@ tsv
+</pre>
+<p>REST API (SQL Search) はこちらを参照：<a href="http://www.pdbj.org/doc/help.cgi?PDBj%20Mine%3aREST%20API" class="external free" rel="nofollow">http://www.pdbj.org/doc/help.cgi?PDBj%20Mine%3aREST%20API</a>
+</p><p>WABIも参照のこと：<a href="http://wabi.ddbj.nig.ac.jp/CookBook_jp/index.php/キーワードでPDBを検索する" class="external free" rel="nofollow">http://wabi.ddbj.nig.ac.jp/CookBook_jp/index.php/キーワードでPDBを検索する</a>
+</p>
+<pre>
+endpoint = 'http://service.pdbj.org/mine/sql'
+data = &quot;SELECT pdbid FROM brief_summary where plainto_tsquery('alcohol dehydrogenase') @@ tsv&quot;
+
+uri = URI.parse(endpoint)
+host = uri.host
+path = uri.path
+
+post_data = CGI.escape(data)
+result = ''
+
+Net::HTTP.version_1_2
+Net::HTTP.start(host) {|http|
+  response = http.post(path, &quot;q=#{post_data}&amp;format=plain&quot;)
+  result = response.body
+}
+
+hit_ids = result.split(/\s+/)
+hit_ids.shift
+
+p hit_ids
+</pre>
+<p>これを抽象化して TogoWS テスト環境に組み込んだ。
+</p><p><a href="http://togows2.dbcls.jp/search/pdbj-pdb/alcohol+dehydrogenase" class="external free" rel="nofollow">http://togows2.dbcls.jp/search/pdbj-pdb/alcohol+dehydrogenase</a>
+</p><p><a href="http://togows2.dbcls.jp/search/pdbj-pdb/alcohol%20dehydrogenase" class="external free" rel="nofollow">http://togows2.dbcls.jp/search/pdbj-pdb/alcohol%20dehydrogenase</a>
+</p><p>ちゃんと動いているようなので、近日中に本番環境に移行予定。
+</p>
+<h4> <span class="mw-headline" id="DDBJ_.E3.81.AE.E3.82.AD.E3.83.BC.E3.83.AF.E3.83.BC.E3.83.89.E6.A4.9C.E7.B4.A2"> DDBJ のキーワード検索 </span></h4>
+<p>該当 API があるかどうか確認する。
+</p><p>テストコードを頂いた。
+</p>
+<pre>
+use LWP::UserAgent;
+$ua = new LWP::UserAgent;
+
+my $req = new HTTP::Request POST =&gt; &quot;http://xml.ddbj.nig.ac.jp/rest/Invoke&quot;;
+$req-&gt;content_type(&quot;application/x-www-form-urlencoded&quot;);
+$queryPath=&quot;/ENTRY/DDBJ//='alcohol dehydrogenase'&quot;;
+$queryPath=~ s/([^\w ])/'%'.unpack('H2', $1)/eg;
+$queryPath=~ tr/ /+/;
+$returnPath=&quot;/ENTRY/DDBJ/primary-accession,/ENTRY/DDBJ/definition&quot;;
+$returnPath=~ s/([^\w ])/'%'.unpack('H2', $1)/eg;
+$returnPath=~ tr/ /+/;
+$offset=&quot;1&quot;;
+$count=&quot;10&quot;;
+
+$req-&gt;content(&quot;service=ARSA&amp;method=searchByXMLPath&amp;queryPath=$queryPath&amp;returnPath=$returnPath&amp;offset=$offset&amp;count=$count&quot;);
+
+my $res = $ua-&gt;request($req);
+print $res-&gt;content;
+</pre>
+<h3> <span class="mw-headline" id=".E7.B3.96.E9.8E.96.E5.AF.BE.E5.BF.9C"> 糖鎖対応 </span></h3>
+<p>本家 KEGG GLYCAN, AIST JCGGDB に頼むことは難しいため、TogoWS 経由で GLYCAN と JCGGDB の糖鎖検索に <a href="http://glycomics.ccrc.uga.edu/GlycomicsWiki/Informatics:Cross-Database_Search/Protocol_(WGGDS)" class="external text" rel="nofollow">Informatics: Cross-Database Search (WGGDS) / Protocol</a> に基づいて対応したい。
+</p><p>要求仕様：WGGDSのクエリは、糖鎖構造 (WGGDS GLYDE-II XML)、組成 (WGGDS XML)、重さ (WGDS XML) で、
+それぞれ prefix + /substructure, /composition, /listOperation にポストされる。
+結果は ID 一覧 (XML) か GLYDE-II XML の構造。
+</p>
+<pre>XML をポスト --(*1)--&gt; TogoWS --(*2)--&gt; KEGG --(*3)--&gt; TogoWS --(*4) --&gt; ユーザ
+</pre>
+<p>(*1): XML が POST されることはこれまで想定外なので /search にマップして良いかどうか要検討、また (*4) で返されるデータも WDGGS の XML フォーマットなので、TogoWS の /search/db/query.format の .format にそぐわない。
+</p><p>(*2): コンバータが必要。使用するメソッドの仕様も確定。WGGDS と完全対応する？
+</p><p>(*3): コンバータが必要。
+</p><p>(*4): フォーマット指定をどうするか。ID のリストはこれまでの TogoWS では ID だけを羅列した text だったが、WGGDSの要求仕様は XML
+</p>
+<h4> <span class="mw-headline" id="GLYDE-II_.E3.81.A8_KCF_.E3.81.AE.E5.A4.89.E6.8F.9B"> GLYDE-II と KCF の変換 </span></h4>
+<p>GLYDE-II → KCF は木下コンバータ (Perl スクリプト) を利用。
+</p><p>KCF → GLYDE-II は難しいが、BioMoby には変換サービスがある。
+BioMoby を bl02 (togows.dbcls.jp) で動かすにはインストールやメンテのオーバーヘッドが大きくなる。
+<a href="http://www.g-language.org/wiki/rest" class="external text" rel="nofollow">G-language の API</a> でできないか？
+</p>
+<h4> <span class="mw-headline" id="BioMoby_.E3.81.AE.E8.AA.BF.E6.9F.BB"> BioMoby の調査 </span></h4>
+<p>G-language は BioMoby を使いやすくはしてくれているが、BioMoby のサービスを REST API にマップしてくれていたりするわけではない？
+</p><p>動かすには BioMoby と G-language の両方をインストールする必要がありそう。
+→ BioMoby のクライアントライブラリは荒川さんの BH2008 の成果であるモジュール（名前は？）を使うと比較的容易にインストール可能。
+</p>
+<h4> <span class="mw-headline" id="KEGG"> KEGG </span></h4>
+<p>使用する KEGG API は search_glycans_by_composition, search_glycans_by_mass, <a href="http://www.genome.jp/kegg/soap/doc/keggapi_manual_ja.html#label:122" class="external text" rel="nofollow">search_glycans_by_kcam</a> の３つ
+（他の関連APIは convert_mol_to_kcf, search_glycans_by_nameなど）。
+</p>
+<h4> <span class="mw-headline" id="JCGGDB">  JCGGDB </span></h4>
+<p>鹿肉
+</p>
+<h3> <span class="mw-headline" id="NCBI.2C_EBI.2C_DDBJ.2C_PDBj_.E3.81.AE.E3.82.B5.E3.83.BC.E3.83.93.E3.82.B9.E5.85.A8.E5.AF.BE.E5.BF.9C.E3.82.92.E7.A2.BA.E8.AA.8D"> NCBI, EBI, DDBJ, PDBj のサービス全対応を確認 </span></h3>
+<h4> <span class="mw-headline" id=".E3.82.A8.E3.83.B3.E3.83.88.E3.83.AA.E5.8F.96.E5.BE.97"> エントリ取得 </span></h4>
+<p><a href="http://togows.dbcls.jp/entry/" class="external free" rel="nofollow">http://togows.dbcls.jp/entry/</a> の対応データベース
+</p>
+<pre>ncbi-nuccore	nuccore
+ncbi-nucest	nucest
+ncbi-nucgss	nucgss
+ncbi-nucleotide	nucleotide
+ncbi-protein	protein
+ncbi-gene	gene
+ncbi-omim	omim
+ncbi-homologene	homologene
+ncbi-snp	snp
+ncbi-mesh	mesh
+ncbi-pubmed	pubmed
+ebi-embl	embl
+ebi-uniprot	uniprot
+ebi-uniparc	uniparc
+ebi-uniref100	uniref100
+ebi-uniref90	uniref90
+ebi-uniref50	uniref50
+ddbj-ddbj	ddbj
+ddbj-dad	dad
+pdbj-pdb	pdb
+kegg-compound	compound
+kegg-drug	drug
+kegg-enzyme	enzyme
+kegg-genes	genes
+kegg-glycan	glycan
+kegg-orthology	orthology
+kegg-reaction	reaction
+kegg-module	module
+kegg-pathway	pathway
+</pre>
+<p>こらについて、<a href="http://togows.dbcls.jp/site/en/rest.html" class="external free" rel="nofollow">http://togows.dbcls.jp/site/en/rest.html</a> に
+</p>
+<ul><li> 実例があるかどうか
+</li><li> 各データベースでフィールド対応がどれくらいできているか
+</li></ul>
+<p>を調査し、不十分な部分はコーディングし、rest.html に追記する。
+</p><p>また、rest.html が長くなりすぎているのでプロバイダ毎にページを分けて整理する。
+</p>
+<h4> <span class="mw-headline" id=".E8.AA.BF.E6.9F.BB.E7.B5.90.E6.9E.9C"> 調査結果 </span></h4>
+<p><a href="http://www.ncbi.nlm.nih.gov/gene/338" class="external free" rel="nofollow">http://www.ncbi.nlm.nih.gov/gene/338</a>
+<a href="http://togows.dbcls.jp/entry/ncbi-gene/338" class="external free" rel="nofollow">http://togows.dbcls.jp/entry/ncbi-gene/338</a>?
+<a href="http://togows.dbcls.jp/entry/ncbi-gene/338/additional_links" class="external free" rel="nofollow">http://togows.dbcls.jp/entry/ncbi-gene/338/additional_links</a>
+<a href="http://togows.dbcls.jp/entry/ncbi-gene/338/annotation" class="external free" rel="nofollow">http://togows.dbcls.jp/entry/ncbi-gene/338/annotation</a>
+<a href="http://togows.dbcls.jp/entry/ncbi-gene/338/chromosome" class="external free" rel="nofollow">http://togows.dbcls.jp/entry/ncbi-gene/338/chromosome</a>
+<a href="http://togows.dbcls.jp/entry/ncbi-gene/338/gene_type" class="external free" rel="nofollow">http://togows.dbcls.jp/entry/ncbi-gene/338/gene_type</a>
+<a href="http://togows.dbcls.jp/entry/ncbi-gene/338/lineage" class="external free" rel="nofollow">http://togows.dbcls.jp/entry/ncbi-gene/338/lineage</a>
+<a href="http://togows.dbcls.jp/entry/ncbi-gene/338/location" class="external free" rel="nofollow">http://togows.dbcls.jp/entry/ncbi-gene/338/location</a>
+<a href="http://togows.dbcls.jp/entry/ncbi-gene/338/official_full_name" class="external free" rel="nofollow">http://togows.dbcls.jp/entry/ncbi-gene/338/official_full_name</a>
+<a href="http://togows.dbcls.jp/entry/ncbi-gene/338/official_symbol" class="external free" rel="nofollow">http://togows.dbcls.jp/entry/ncbi-gene/338/official_symbol</a>
+<a href="http://togows.dbcls.jp/entry/ncbi-gene/338/organism" class="external free" rel="nofollow">http://togows.dbcls.jp/entry/ncbi-gene/338/organism</a>
+<a href="http://togows.dbcls.jp/entry/ncbi-gene/338/other_aliases" class="external free" rel="nofollow">http://togows.dbcls.jp/entry/ncbi-gene/338/other_aliases</a>
+<a href="http://togows.dbcls.jp/entry/ncbi-gene/338/other_designations" class="external free" rel="nofollow">http://togows.dbcls.jp/entry/ncbi-gene/338/other_designations</a>
+<a href="http://togows.dbcls.jp/entry/ncbi-gene/338/pathways" class="external free" rel="nofollow">http://togows.dbcls.jp/entry/ncbi-gene/338/pathways</a>
+<a href="http://togows.dbcls.jp/entry/ncbi-gene/338/primary_source" class="external free" rel="nofollow">http://togows.dbcls.jp/entry/ncbi-gene/338/primary_source</a>
+<a href="http://togows.dbcls.jp/entry/ncbi-gene/338/refseq_status" class="external free" rel="nofollow">http://togows.dbcls.jp/entry/ncbi-gene/338/refseq_status</a>
+<a href="http://togows.dbcls.jp/entry/ncbi-gene/338/summary" class="external free" rel="nofollow">http://togows.dbcls.jp/entry/ncbi-gene/338/summary</a>
+(略)
+<a href="http://togows.dbcls.jp/entry/omim/125851" class="external free" rel="nofollow">http://togows.dbcls.jp/entry/omim/125851</a>
+(略)
+<a href="http://www.nlm.nih.gov/cgi/mesh/2010/MB_cgi" class="external free" rel="nofollow">http://www.nlm.nih.gov/cgi/mesh/2010/MB_cgi</a>
+<a href="http://togows.dbcls.jp/entry/ncbi-mesh/D020790" class="external free" rel="nofollow">http://togows.dbcls.jp/entry/ncbi-mesh/D020790</a>
+<a href="http://togows.dbcls.jp/entry/ncbi-mesh/D020790/allowable_qualifiers" class="external free" rel="nofollow">http://togows.dbcls.jp/entry/ncbi-mesh/D020790/allowable_qualifiers</a>
+<a href="http://togows.dbcls.jp/entry/ncbi-mesh/D020790/annotation" class="external free" rel="nofollow">http://togows.dbcls.jp/entry/ncbi-mesh/D020790/annotation</a>
+<a href="http://togows.dbcls.jp/entry/ncbi-mesh/D020790/entry_terms" class="external free" rel="nofollow">http://togows.dbcls.jp/entry/ncbi-mesh/D020790/entry_terms</a>
+<a href="http://togows.dbcls.jp/entry/ncbi-mesh/D020790/heading" class="external free" rel="nofollow">http://togows.dbcls.jp/entry/ncbi-mesh/D020790/heading</a>
+<a href="http://togows.dbcls.jp/entry/ncbi-mesh/D020790/scope_note" class="external free" rel="nofollow">http://togows.dbcls.jp/entry/ncbi-mesh/D020790/scope_note</a>
+<a href="http://togows.dbcls.jp/entry/ncbi-mesh/D020790/tree_numbers" class="external free" rel="nofollow">http://togows.dbcls.jp/entry/ncbi-mesh/D020790/tree_numbers</a>
+(略)
+<a href="http://www.ncbi.nlm.nih.gov/projects/SNP/snp_ref.cgi?rs=51804507" class="external free" rel="nofollow">http://www.ncbi.nlm.nih.gov/projects/SNP/snp_ref.cgi?rs=51804507</a>
+<a href="http://togows.dbcls.jp/entry/snp/rs51804507" class="external free" rel="nofollow">http://togows.dbcls.jp/entry/snp/rs51804507</a>
+<a href="http://togows.dbcls.jp/entry/snp/rs51804507/organism" class="external free" rel="nofollow">http://togows.dbcls.jp/entry/snp/rs51804507/organism</a>
+<a href="http://togows.dbcls.jp/entry/snp/rs51804507/ref_allele" class="external free" rel="nofollow">http://togows.dbcls.jp/entry/snp/rs51804507/ref_allele</a>
+(略)
+<a href="http://togows.dbcls.jp/entry/homologene/40795" class="external free" rel="nofollow">http://togows.dbcls.jp/entry/homologene/40795</a>
+(略)
+<a href="http://www.ncbi.nlm.nih.gov/nuccore/AK143675.1" class="external free" rel="nofollow">http://www.ncbi.nlm.nih.gov/nuccore/AK143675.1</a>
+<a href="http://togows.dbcls.jp/entry/nuccore/AK143675.1" class="external free" rel="nofollow">http://togows.dbcls.jp/entry/nuccore/AK143675.1</a>
+(略)
+<a href="http://www.ncbi.nlm.nih.gov/nucest/BY999645.1" class="external free" rel="nofollow">http://www.ncbi.nlm.nih.gov/nucest/BY999645.1</a>
+<a href="http://togows.dbcls.jp/entry/nucest/BY999645.1" class="external free" rel="nofollow">http://togows.dbcls.jp/entry/nucest/BY999645.1</a>
+(略)
+<a href="http://www.ncbi.nlm.nih.gov/nucgss/AF416125.1" class="external free" rel="nofollow">http://www.ncbi.nlm.nih.gov/nucgss/AF416125.1</a>
+<a href="http://togows.dbcls.jp/entry/nucgss/AF416125.1" class="external free" rel="nofollow">http://togows.dbcls.jp/entry/nucgss/AF416125.1</a>
+(略)
+<a href="http://www.ncbi.nlm.nih.gov/genome/sts/sts.cgi?uid=47999" class="external free" rel="nofollow">http://www.ncbi.nlm.nih.gov/genome/sts/sts.cgi?uid=47999</a>
+<a href="http://togows.dbcls.jp/entry/unists/47999" class="external free" rel="nofollow">http://togows.dbcls.jp/entry/unists/47999</a>
+</p>
+<ul><li> さーち
+</li></ul>
+<p><a href="http://togows.dbcls.jp/search/ncbi-pubmed/cerebral+infarction+treatment" class="external free" rel="nofollow">http://togows.dbcls.jp/search/ncbi-pubmed/cerebral+infarction+treatment</a>
+<a href="http://togows.dbcls.jp/search/ncbi-books/" class="external free" rel="nofollow">http://togows.dbcls.jp/search/ncbi-books/</a>
+</p>
+<h4> <span class="mw-headline" id=".E3.82.A8.E3.83.B3.E3.83.88.E3.83.AA.E6.A4.9C.E7.B4.A2"> エントリ検索 </span></h4>
+<p><a href="http://togows.dbcls.jp/search/" class="external free" rel="nofollow">http://togows.dbcls.jp/search/</a> の対応データベース
+</p>
+<pre>ncbi-pubmed	pubmed
+ncbi-books
+ncbi-cancerchromosomes
+ncbi-cdd
+ncbi-domains
+ncbi-gap
+ncbi-gds
+ncbi-gene	gene
+ncbi-genome
+ncbi-genomeprj
+ncbi-gensat
+ncbi-geo
+ncbi-homologene	homologene
+ncbi-journals
+ncbi-mesh	mesh
+ncbi-ncbisearch
+ncbi-nlmcatalog
+ncbi-nuccore	nuccore
+ncbi-nucest	nucest
+ncbi-nucgss	nucgss
+ncbi-nucleotide	nucleotide
+ncbi-omia
+ncbi-omim	omim
+ncbi-pcassay
+ncbi-pccompound
+ncbi-pcsubstance
+ncbi-pmc
+ncbi-popset
+ncbi-probe
+ncbi-protein	protein
+ncbi-proteinclusters
+ncbi-snp	snp
+ncbi-structure
+ncbi-taxonomy
+ncbi-toolkit
+ncbi-unigene
+ncbi-unists
+ebi-embl	embl
+ebi-uniprot	uniprot
+ebi-2can
+ebi-arrayexpress-experiments
+ebi-arrayexpress-genes
+ebi-arrayexpress-repository
+ebi-astd
+ebi-biomodels
+ebi-chebi
+ebi-ebiweb_staff
+ebi-emblcds
+ebi-embldeleted
+ebi-emblnew_ann_con
+ebi-emblnew_con
+ebi-emblnew_standard
+ebi-emblnew_wgs
+ebi-emblrelease_ann_con
+ebi-emblrelease_con
+ebi-emblrelease_standard
+ebi-emblrelease_wgs
+ebi-ensembl
+ebi-go
+ebi-groups
+ebi-intact-experiments
+ebi-intact-interactions
+ebi-intact-interactors
+ebi-integr8
+ebi-intenz
+ebi-interpro
+ebi-mainweb
+ebi-medline
+ebi-msdchem
+ebi-msdpdb
+ebi-patentdb
+ebi-pride
+ebi-reactome
+ebi-resid
+ebi-sbo
+ebi-taxonomy
+ebi-uniparc	uniparc
+ebi-uniref100	uniref100
+ebi-uniref50	uniref50
+ebi-uniref90	uniref90
+kegg-compound	compound
+kegg-drug	drug
+kegg-enzyme	enzyme
+kegg-genes	genes
+kegg-glycan	glycan
+kegg-orthology	orthology
+kegg-reaction	reaction
+kegg-module	module
+kegg-pathway	pathway
+</pre>
+<p>これらについて、例を <a href="http://togows.dbcls.jp/site/en/rest.html" class="external free" rel="nofollow">http://togows.dbcls.jp/site/en/rest.html</a> に掲載する。
+</p><p>DDBJ, PDBj については search 対応してから例を載せる。
+</p>
+<h4> <span class="mw-headline" id=".E3.82.B9.E3.83.86.E3.83.BC.E3.82.BF.E3.82.B9.E7.A2.BA.E8.AA.8D"> ステータス確認 </span></h4>
+<p><a href="http://togows.dbcls.jp/status" class="external free" rel="nofollow">http://togows.dbcls.jp/status</a> で監視している DDBJ, PDBj, KEGG の SOAP サービスに加え、
+上記の entry/search サービスが正常に稼働しているかどうかを確認する仕組みを作る。
+</p><p>たとえば <a href="http://togows.dbcls.jp/entry/ncbi-gene/338" class="external free" rel="nofollow">http://togows.dbcls.jp/entry/ncbi-gene/338</a> は現時点で
+</p>
+<pre>1: id: 339 Error occurred: NCBI C++ Exception:
+    Error:        HTML(CHTMLException::eTableCellUse)
+"/pubmed_gen/rbuild/version/20100915/entrez/c++/src/html/html.cpp", line 1272:
+ncbi::CHTML_table_Cache::GetCellNode() --- invalid use of big table cell
+</pre>
+<p>のようなエラーが NCBI 側で発生し、そのまま表示されていたが、現状ではこれに気付けない。
+</p>
+<h3> <span class="mw-headline" id="JSON.E3.81.AE.E7.A2.BA.E8.AA.8D"> JSONの確認 </span></h3>
+<p>現在 TogoWS では Ruby の to_json で出来たオブジェクトを JSON フォーマットとして返しているが、
+クオートやエスケープを含め valid でない場合がある可能性が指摘された（西田 -- 具体例希望）ので確認する。
+</p>
+<h2> <span class="mw-headline" id="TogoDB"> TogoDB </span></h2>
+<ul><li> TogoDB では
+</li></ul>
+<p>ユーザは表計算ソフトなどで整形したCSV形式のデータをアップロードする。
+サーバは自動的にデータを解析しRDBのスキーマを生成する。
+ユーザはスキーマのデータ型を確認し、インポートする。
+完了すると、ユーザはそのデータベースを確認し、問題なければ公開することができる。
+各カラムのラベルやリンク情報を調整したり、検索用インデックスの作成、
+HTMLやCSSを使ったデータベースの表示方法のカスタマイズ、
+特定のユーザとの共有などをカスタマイズすることができる。
+</p>
+<ul><li> TogoDB のウリを再考し来月をメドにまとめる
+</li></ul>
+<p>インポートされたデータベースはウェブ画面から一覧が表示され、検索しなくてもデータベースの中身をすぐに把握することが出来る。
+自分のデータベースはウェブ上から編集することができる。
+検索はキーワード検索や複合検索による数値や正規表現などによるフィルタリングが可能。
+QuickLook 機能を使うと、エントリをクリックすることなくカーソルキーだけで次々と閲覧することが出来る。
+絞り込み検索した結果が数百件あったばあいでも容易にブラウズすることが可能である。
+全データもしくは絞り込み検索結果に該当するエントリをダウンロードすることも容易でローカルな表計算ソフトに取り込んで利用することができる。
+ダウンロードしたデータを整形したり新しいデータを加え、再びアップロードすることで新しいデータベースを作ることができる。
+各セルの値を利用してTogoDBの他のデータベースや外部のデータベースにリンクすることができるため、Linked Data を作り易い。
+</p><p>ウェブ上のスプレッドシートアプリと異なるのは、各行がレコードとしてデータベース化され固有の ID を持つことである。
+</p><p>TogoDB は DBCLS のウェブサイトからフリーで利用出来る。
+また、TogoDBのソースコードはRuby on Rails のプラグインとして作られたオープンソースソフトウェアなので、
+ユーザが自前のサーバを立てることも可能。
+</p>
+<h3> <span class="mw-headline" id=".E3.82.A8.E3.83.B3.E3.83.99.E3.83.83.E3.83.89.E6.A9.9F.E8.83.BD.E3.81.AE.E5.AE.8C.E6.88.90.E3.81.A8.E3.83.AA.E3.83.AA.E3.83.BC.E3.82.B9"> エンベッド機能の完成とリリース </span></h3>
+<p>JSONP/Flexigrid による外部サイトへの TogoDB テーブルの提供
+</p>
+<h4> <span class="mw-headline" id=".E3.83.87.E3.82.B6.E3.82.A4.E3.83.B3.E9.9D.A2.E3.81.AE.E8.A6.8B.E7.9B.B4.E3.81.97"> デザイン面の見直し </span></h4>
+<p>インポート手順、データベース管理、メタデータ、データ表示各部分について HTML/CSS を完全にやりなおす。QuickLook と Show も同一 partial を使う。
+</p>
+<h4> <span class="mw-headline" id=".E3.83.AA.E3.83.AA.E3.83.BC.E3.82.B9.E6.A9.9F.E8.83.BD.E3.81.AE.E6.8F.90.E4.BE.9B"> リリース機能の提供 </span></h4>
+<p>CSV, JSON, RDF, FASTA での定期ダンプ機能、動的ダンプとキューイング、などを完成。
+</p>
+<h4> <span class="mw-headline" id=".E3.83.A1.E3.82.BF.E3.83.87.E3.83.BC.E3.82.BF.E7.AE.A1.E7.90.86"> メタデータ管理 </span></h4>
+<p>データベース全体に関わる著作権者やライセンスなどの情報をデータベースのメタデータとして入力することができるようにしたい
+（受け入れDBで使っているそれ以外のメタデータ管理とは分離したい）。
+</p>
+<ul><li> データベース名 - dbname
+</li><li> 作成者 / 作成機関 - creator
+</li><li> 連絡先（メール、電話、住所、担当者名） - email, phone, address, name
+</li><li> 概要 - description
+</li><li> ライセンス（選択項目からCCが確定するUIに改善）- license
+</li><li> 参考文献 - references
+</li><li> カテゴリ（データタイプ）- category
+</li><li> エントリ数？
+</li></ul>
+<p>データベースの各カラムには以下のようなメタデータをつけることができるようにしたい。
+</p>
+<ul><li> name (schema 上のカラム名)
+</li><li> type (schema 上の型名)
+</li><li> label (表示上のカラム名)
+</li><li> entry_id (ラジオ - このカラムの値をエントリIDとして利用。record name のこと)
+</li><li> primary_key (ラジオ - このカラムの値を primary key として利用)
+</li><li> search (フラグ - このカラムの値を標準検索で利用）
+</li><li> advanced_search (フラグ - このカラムの値を複合検索で利用）
+</li></ul>
+<ul><li> xref (他のデータベースへのリンク、他テーブルへのリンク - join機能を移行)
+</li><li> sanitize (フラグ - このカラムの値をエスケープしない)
+</li><li> prefix (このカラムの値につける prefix &lt;a href=""&gt; など)
+</li><li> suffix (このカラムの値につける suffix &lt;/a&gt; など)
+</li></ul>
+<ul><li> list_order (リスト表示のデフォルト表示順)
+</li><li> show_order (show表示のデフォルト表示順)
+</li><li> dump_order (ダウンロード用ファイルのデフォルト表示順)
+</li></ul>
+
+<!-- 
+NewPP limit report
+Preprocessor node count: 100/1000000
+Post-expand include size: 0/2097152 bytes
+Template argument size: 0/2097152 bytes
+Expensive parser function count: 0/100
+-->
+<div class="printfooter">
+「<a href="TogoWS,_TogoDB_の開発.html">http://wiki.lifesciencedb.jp/mw/TogoWS,_TogoDB_%E3%81%AE%E9%96%8B%E7%99%BA</a>」より作成</div>
+		<div id='catlinks' class='catlinks catlinks-allhidden'></div>		<!-- end content -->
+				<div class="visualClear"></div>
+	</div>
+</div></div>
+<div id="column-one">
+	<div id="p-cactions" class="portlet">
+		<h5>表示</h5>
+		<div class="pBody">
+			<ul>
+				 <li id="ca-nstab-main" class="selected"><a href="TogoWS,_TogoDB_の開発.html" title="本文を表示 [c]" accesskey="c">ページ</a></li>
+				 <li id="ca-talk" class="new"><a href="http://wiki.lifesciencedb.jp/mw/index.php?title=%E3%83%8E%E3%83%BC%E3%83%88:TogoWS,_TogoDB_%E3%81%AE%E9%96%8B%E7%99%BA&amp;action=edit&amp;redlink=1" title="記事についての議論 [t]" accesskey="t">議論</a></li>
+				 <li id="ca-viewsource"><a href="http://wiki.lifesciencedb.jp/mw/index.php?title=TogoWS,_TogoDB_%E3%81%AE%E9%96%8B%E7%99%BA&amp;action=edit&amp;oldid=725" title="このページは保護されています。&#10;ページのソースを閲覧できます。 [e]" accesskey="e">ソースを表示</a></li>
+				 <li id="ca-history"><a href="index.php@title=TogoWS,_TogoDB_の開発&amp;action=history.html" title="このページの過去の版 [h]" accesskey="h">履歴</a></li>
+			</ul>
+		</div>
+	</div>
+	<div class="portlet" id="p-personal">
+		<h5>個人用ツール</h5>
+		<div class="pBody">
+			<ul>
+				<li id="pt-anonuserpage"><a href="http://wiki.lifesciencedb.jp/mw/%E5%88%A9%E7%94%A8%E8%80%85:172.18.8.51" title="自分が編集しているIPアドレスの利用者ページ [.]" accesskey="." class="new">172.18.8.51</a></li>
+				<li id="pt-anontalk"><a href="http://wiki.lifesciencedb.jp/mw/%E5%88%A9%E7%94%A8%E8%80%85%E2%80%90%E4%BC%9A%E8%A9%B1:172.18.8.51" title="このIPアドレスからなされた編集についての議論 [n]" accesskey="n" class="new">このIPアドレスのトーク</a></li>
+				<li id="pt-anonlogin"><a href="http://wiki.lifesciencedb.jp/mw/index.php?title=%E7%89%B9%E5%88%A5:%E3%83%AD%E3%82%B0%E3%82%A4%E3%83%B3&amp;returnto=TogoWS,_TogoDB_%E3%81%AE%E9%96%8B%E7%99%BA&amp;returntoquery=direction%3Dprev%26oldid%3D774" title="ログインすることが推奨されます。ただし、必須ではありません。 [o]" accesskey="o">ログイン</a></li>
+				<li id="pt-openidlogin"><a href="index.php@title=特別%253AOpenIDログイン&amp;returnto=TogoWS,_TogoDB_の開発.html">OpenIDでログイン</a></li>
+			</ul>
+		</div>
+	</div>
+	<div class="portlet" id="p-logo">
+		<a style="background-image: url(http://wiki.lifesciencedb.jp/mw/images/togowiki-logo.png);" href="index.html" title="メインページに移動"></a>
+	</div>
+	<script type="text/javascript"> if (window.isMSIE55) fixalpha(); </script>
+	<div class='generated-sidebar portlet' id='p-navigation'>
+		<h5>案内</h5>
+		<div class='pBody'>
+			<ul>
+				<li id="n-mainpage-description"><a href="index.html" title="メインページに移動する [z]" accesskey="z">メインページ</a></li>
+				<li id="n-portal"><a href="http://wiki.lifesciencedb.jp/mw/TogoWiki:%E3%82%B3%E3%83%9F%E3%83%A5%E3%83%8B%E3%83%86%E3%82%A3%E3%83%BB%E3%83%9D%E3%83%BC%E3%82%BF%E3%83%AB" title="このプロジェクトについて、できること、情報を入手する場所">コミュニティ・ポータル</a></li>
+				<li id="n-currentevents"><a href="http://wiki.lifesciencedb.jp/mw/TogoWiki:%E6%9C%80%E8%BF%91%E3%81%AE%E5%87%BA%E6%9D%A5%E4%BA%8B" title="最近の出来事について予備知識を得る">最近の出来事</a></li>
+				<li id="n-recentchanges"><a href="http://wiki.lifesciencedb.jp/mw/%E7%89%B9%E5%88%A5:%E6%9C%80%E8%BF%91%E3%81%AE%E6%9B%B4%E6%96%B0" title="ウィキにおける最近の更新の一覧 [r]" accesskey="r">最近の更新</a></li>
+				<li id="n-randompage"><a href="http://wiki.lifesciencedb.jp/mw/%E7%89%B9%E5%88%A5:%E3%81%8A%E3%81%BE%E3%81%8B%E3%81%9B%E8%A1%A8%E7%A4%BA" title="無作為に抽出されたページの読み込み [x]" accesskey="x">おまかせ表示</a></li>
+				<li id="n-help"><a href="http://wiki.lifesciencedb.jp/mw/Help:%E7%9B%AE%E6%AC%A1" title="情報を得る場所">ヘルプ</a></li>
+			</ul>
+		</div>
+	</div>
+	<div id="p-search" class="portlet">
+		<h5><label for="searchInput">検索</label></h5>
+		<div id="searchBody" class="pBody">
+			<form action="http://wiki.lifesciencedb.jp/mw/index.php" id="searchform">
+				<input type='hidden' name="title" value="特別:検索"/>
+				<input id="searchInput" title="TogoWiki内を検索" accesskey="f" type="search" name="search" />
+				<input type='submit' name="go" class="searchButton" id="searchGoButton"	value="表示" title="厳密に一致する名前のページが存在すれば、そのページへ移動します" />&nbsp;
+				<input type='submit' name="fulltext" class="searchButton" id="mw-searchButton" value="検索" title="入力された文字列が含まれるページを検索します" />
+			</form>
+		</div>
+	</div>
+	<div class="portlet" id="p-tb">
+		<h5>ツールボックス</h5>
+		<div class="pBody">
+			<ul>
+				<li id="t-whatlinkshere"><a href="特別%253Aリンク元/TogoWS,_TogoDB_の開発.html" title="ここにリンクしている全ウィキのページの一覧 [j]" accesskey="j">リンク元</a></li>
+				<li id="t-recentchangeslinked"><a href="特別%253A関連ページの更新状況/TogoWS,_TogoDB_の開発.html" title="このページからリンクしているページの最近の更新 [k]" accesskey="k">関連ページの更新状況</a></li>
+<li id="t-specialpages"><a href="http://wiki.lifesciencedb.jp/mw/%E7%89%B9%E5%88%A5:%E7%89%B9%E5%88%A5%E3%83%9A%E3%83%BC%E3%82%B8%E4%B8%80%E8%A6%A7" title="特別ページの一覧 [q]" accesskey="q">特別ページ</a></li>
+				<li id="t-print"><a href="http://wiki.lifesciencedb.jp/mw/index.php?title=TogoWS,_TogoDB_%E3%81%AE%E9%96%8B%E7%99%BA&amp;direction=prev&amp;oldid=774&amp;printable=yes" rel="alternate" title="このページの印刷用ページ [p]" accesskey="p">印刷用バージョン</a></li>				<li id="t-permalink"><a href="http://wiki.lifesciencedb.jp/mw/index.php?title=TogoWS,_TogoDB_%E3%81%AE%E9%96%8B%E7%99%BA&amp;oldid=725" title="ページのこの版への固定リンク">この版への固定リンク</a></li>			</ul>
+		</div>
+	</div>
+</div><!-- end of the left (by default at least) column -->
+<div class="visualClear"></div>
+<div id="footer">
+	<div id="f-poweredbyico"><a href="http://www.mediawiki.org/"><img src="http://wiki.lifesciencedb.jp/mw/skins/common/images/poweredby_mediawiki_88x31.png" height="31" width="88" alt="Powered by MediaWiki" /></a></div>
+	<div id="f-copyrightico"><a href="http://creativecommons.org/licenses/by/3.0/"><img src="http://i.creativecommons.org/l/by/3.0/88x31.png" alt="Attribution 3.0 Unported" width="88" height="31" /></a></div>
+	<ul id="f-list">
+		<li id="copyright">内容は<a href="http://creativecommons.org/licenses/by/3.0/" class="external ">Attribution 3.0 Unported</a>のライセンスで利用することができます。</li>
+		<li id="privacy"><a href="http://wiki.lifesciencedb.jp/mw/TogoWiki:%E3%83%97%E3%83%A9%E3%82%A4%E3%83%90%E3%82%B7%E3%83%BC%E3%83%BB%E3%83%9D%E3%83%AA%E3%82%B7%E3%83%BC" title="TogoWiki:プライバシー・ポリシー">プライバシー・ポリシー</a></li>
+		<li id="about"><a href="http://wiki.lifesciencedb.jp/mw/TogoWiki:TogoWiki%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6" title="TogoWiki:TogoWikiについて">TogoWikiについて</a></li>
+		<li id="disclaimer"><a href="http://wiki.lifesciencedb.jp/mw/TogoWiki:%E5%85%8D%E8%B2%AC%E4%BA%8B%E9%A0%85" title="TogoWiki:免責事項">免責事項</a></li>
+	</ul>
+</div>
+</div>
+
+<script>if (window.runOnloadHook) runOnloadHook();</script>
+<!-- Served in 0.761 secs. --></body></html>

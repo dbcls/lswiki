@@ -1,0 +1,375 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html lang="ja" dir="ltr">
+<head>
+<title>SPARQLthon40/RDFvsCT - TogoWiki</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta name="generator" content="MediaWiki 1.16.3" />
+<link rel="shortcut icon" href="/favicon.ico" />
+<link rel="search" type="application/opensearchdescription+xml" href="/mw/opensearch_desc.php" title="TogoWiki (ja)" />
+<link title="Creative Commons" type="application/rdf+xml" href="/mw/index.php?title=SPARQLthon40/RDFvsCT&amp;action=creativecommons" rel="meta" />
+<link rel="copyright" href="http://creativecommons.org/licenses/by/3.0/" />
+<link rel="alternate" type="application/atom+xml" title="TogoWikiのAtomフィード" href="/mw/index.php?title=%E7%89%B9%E5%88%A5:%E6%9C%80%E8%BF%91%E3%81%AE%E6%9B%B4%E6%96%B0&amp;feed=atom" />
+<link rel="stylesheet" href="/mw/skins/common/shared.css?270" media="screen" />
+<link rel="stylesheet" href="/mw/skins/common/commonPrint.css?270" media="print" />
+<link rel="stylesheet" href="/mw/skins/monobook/main.css?270" media="screen" />
+<!--[if lt IE 5.5000]><link rel="stylesheet" href="/mw/skins/monobook/IE50Fixes.css?270" media="screen" /><![endif]-->
+<!--[if IE 5.5000]><link rel="stylesheet" href="/mw/skins/monobook/IE55Fixes.css?270" media="screen" /><![endif]-->
+<!--[if IE 6]><link rel="stylesheet" href="/mw/skins/monobook/IE60Fixes.css?270" media="screen" /><![endif]-->
+<!--[if IE 7]><link rel="stylesheet" href="/mw/skins/monobook/IE70Fixes.css?270" media="screen" /><![endif]-->
+<link rel="stylesheet" href="/mw/index.php?title=MediaWiki:Common.css&amp;usemsgcache=yes&amp;ctype=text%2Fcss&amp;smaxage=18000&amp;action=raw&amp;maxage=18000" />
+<link rel="stylesheet" href="/mw/index.php?title=MediaWiki:Print.css&amp;usemsgcache=yes&amp;ctype=text%2Fcss&amp;smaxage=18000&amp;action=raw&amp;maxage=18000" media="print" />
+<link rel="stylesheet" href="/mw/index.php?title=MediaWiki:Monobook.css&amp;usemsgcache=yes&amp;ctype=text%2Fcss&amp;smaxage=18000&amp;action=raw&amp;maxage=18000" />
+<link rel="stylesheet" href="/mw/index.php?title=-&amp;action=raw&amp;maxage=18000&amp;gen=css" />
+<script>
+var skin="monobook",
+stylepath="/mw/skins",
+wgUrlProtocols="http\\:\\/\\/|https\\:\\/\\/|ftp\\:\\/\\/|irc\\:\\/\\/|gopher\\:\\/\\/|telnet\\:\\/\\/|nntp\\:\\/\\/|worldwind\\:\\/\\/|mailto\\:|news\\:|svn\\:\\/\\/",
+wgArticlePath="/mw/$1",
+wgScriptPath="/mw",
+wgScriptExtension=".php",
+wgScript="/mw/index.php",
+wgVariantArticlePath=false,
+wgActionPaths={},
+wgServer="http://wiki.lifesciencedb.jp",
+wgCanonicalNamespace="",
+wgCanonicalSpecialPageName=false,
+wgNamespaceNumber=0,
+wgPageName="SPARQLthon40/RDFvsCT",
+wgTitle="SPARQLthon40/RDFvsCT",
+wgAction="view",
+wgArticleId=661,
+wgIsArticle=true,
+wgUserName=null,
+wgUserGroups=null,
+wgUserLanguage="ja",
+wgContentLanguage="ja",
+wgBreakFrames=false,
+wgCurRevisionId=20180,
+wgVersion="1.16.3",
+wgEnableAPI=true,
+wgEnableWriteAPI=true,
+wgSeparatorTransformTable=["", ""],
+wgDigitTransformTable=["", ""],
+wgMainPageTitle="メインページ",
+wgFormattedNamespaces={"-2": "メディア", "-1": "特別", "0": "", "1": "ノート", "2": "利用者", "3": "利用者‐会話", "4": "TogoWiki", "5": "TogoWiki‐ノート", "6": "ファイル", "7": "ファイル‐ノート", "8": "MediaWiki", "9": "MediaWiki‐ノート", "10": "Template", "11": "Template‐ノート", "12": "Help", "13": "Help‐ノート", "14": "Category", "15": "Category‐ノート"},
+wgNamespaceIds={"メディア": -2, "特別": -1, "": 0, "ノート": 1, "利用者": 2, "利用者‐会話": 3, "togowiki": 4, "togowiki‐ノート": 5, "ファイル": 6, "ファイル‐ノート": 7, "mediawiki": 8, "mediawiki‐ノート": 9, "template": 10, "template‐ノート": 11, "help": 12, "help‐ノート": 13, "category": 14, "category‐ノート": 15, "画像": 6, "画像‐ノート": 7, "image": 6, "image_talk": 7},
+wgSiteName="TogoWiki",
+wgCategories=[],
+wgRestrictionEdit=[],
+wgRestrictionMove=[];
+</script><script src="/mw/skins/common/wikibits.js?270"></script>
+<script src="/mw/skins/common/ajax.js?270"></script>
+<script src="/mw/index.php?title=-&amp;action=raw&amp;gen=js&amp;useskin=monobook&amp;270"></script>
+
+		<style type='text/css'>
+		li#pt-openidlogin {
+		  background: url(/mw/extensions/OpenID/skin/icons/openid-inputicon.png) top left no-repeat;
+		  padding-left: 20px;
+		  text-transform: none;
+		}
+		</style>
+</head>
+<body class="mediawiki ltr ns-0 ns-subject page-SPARQLthon40_RDFvsCT skin-monobook">
+<div id="globalWrapper">
+<div id="column-content"><div id="content" >
+	<a id="top"></a>
+	
+	<h1 id="firstHeading" class="firstHeading">SPARQLthon40/RDFvsCT</h1>
+	<div id="bodyContent">
+		<h3 id="siteSub">提供：TogoWiki</h3>
+		<div id="contentSub">
+				<div id="mw-revision-info">2016年4月28日 (木) 02:50時点における<a href="/mw/index.php?title=%E5%88%A9%E7%94%A8%E8%80%85:Chi&amp;action=edit&amp;redlink=1" class="new mw-userlink" title="利用者:Chi（存在しないページ）">Chi</a>  <span class="mw-usertoollinks">(<a href="/mw/index.php?title=%E5%88%A9%E7%94%A8%E8%80%85%E2%80%90%E4%BC%9A%E8%A9%B1:Chi&amp;action=edit&amp;redlink=1" class="new" title="利用者‐会話:Chi（存在しないページ）">トーク</a> | <a href="/mw/%E7%89%B9%E5%88%A5:%E6%8A%95%E7%A8%BF%E8%A8%98%E9%8C%B2/Chi" title="特別:投稿記録/Chi">投稿記録</a>)</span>による版</div>
+
+				<div id="mw-revision-nav">(<a href="/mw/index.php?title=SPARQLthon40/RDFvsCT&amp;diff=prev&amp;oldid=20180" title="SPARQLthon40/RDFvsCT">差分</a>) <a href="/mw/index.php?title=SPARQLthon40/RDFvsCT&amp;direction=prev&amp;oldid=20180" title="SPARQLthon40/RDFvsCT">←前の版</a> | 最新版 (差分) | 次の版→ (差分)</div>
+			</div>
+		<div id="jump-to-nav">移動： <a href="#column-one">案内</a>, <a href="#searchInput">検索</a></div>
+		<!-- start content -->
+<p><a href="http://wiki.lifesciencedb.jp/mw/SPARQLthon40" class="external text" rel="nofollow">SPARQLthon40</a>
+</p><p><a href="http://wiki.lifesciencedb.jp/mw/SPARQLthon41" class="external text" rel="nofollow">SPARQLthon41</a>
+</p><p><br />
+<b>圏論（category theory）に基づくデータベースと、RDF</b>
+</p><p>HC
+</p>
+<table id="toc" class="toc"><tr><td><div id="toctitle"><h2>目次</h2></div>
+<ul>
+<li class="toclevel-1 tocsection-1"><a href="#Background"><span class="tocnumber">1</span> <span class="toctext">Background</span></a>
+<ul>
+<li class="toclevel-2 tocsection-2"><a href="#.E5.9C.8F.E8.AB.96.E3.81.AB.E5.9F.BA.E3.81.A5.E3.81.8F.E3.83.87.E3.83.BC.E3.82.BF.E3.83.99.E3.83.BC.E3.82.B9_.28categorical_database.29"><span class="tocnumber">1.1</span> <span class="toctext">圏論に基づくデータベース (categorical database)</span></a></li>
+<li class="toclevel-2 tocsection-3"><a href="#.E5.8F.82.E8.80.83.E6.96.87.E7.8C.AE"><span class="tocnumber">1.2</span> <span class="toctext">参考文献</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-4"><a href="#Categorical_database_.E3.81.AE.E3.83.86.E3.82.B9.E3.83.88"><span class="tocnumber">2</span> <span class="toctext">Categorical database のテスト</span></a>
+<ul>
+<li class="toclevel-2 tocsection-5"><a href="#Todo"><span class="tocnumber">2.1</span> <span class="toctext">Todo</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-6"><a href="#.E8.80.83.E5.AF.9F"><span class="tocnumber">3</span> <span class="toctext">考察</span></a>
+<ul>
+<li class="toclevel-2 tocsection-7"><a href="#RDF.E3.81.A8.E3.81.AE.E9.81.95.E3.81.84.E3.81.AF.E4.BD.95.E3.81.8B"><span class="tocnumber">3.1</span> <span class="toctext">RDFとの違いは何か</span></a></li>
+<li class="toclevel-2 tocsection-8"><a href="#RDF_.E3.81.AE_disadvantage"><span class="tocnumber">3.2</span> <span class="toctext">RDF の disadvantage</span></a></li>
+<li class="toclevel-2 tocsection-9"><a href="#RDF_.E3.81.AE_advantage"><span class="tocnumber">3.3</span> <span class="toctext">RDF の advantage</span></a></li>
+<li class="toclevel-2 tocsection-10"><a href="#request"><span class="tocnumber">3.4</span> <span class="toctext">request</span></a></li>
+</ul>
+</li>
+</ul>
+</td></tr></table><script>if (window.showTocToggle) { var tocShowText = "表示"; var tocHideText = "非表示"; showTocToggle(); } </script>
+<h2> <span class="mw-headline" id="Background"> Background </span></h2>
+<p>調べた動機
+</p>
+<ul><li> 圏論に基づくデータベース (<b>categorical database</b>)、あるいは、関手的データモデル (<b>functorial data model</b>) が一部の人たちに注目されていたようだ（参考文献）。
+</li><li> 調べてみるとRDFにそっくりだが、彼らは、RDFに対する優位性を主張している（あるいは、全くRDFを知らないことも）。
+</li><li> RDFと categorical database との差分は何だろう？もし差があるなら、RDFをimproveできないのだろうか？
+</li></ul>
+<p><br />
+</p>
+<h3> <span class="mw-headline" id=".E5.9C.8F.E8.AB.96.E3.81.AB.E5.9F.BA.E3.81.A5.E3.81.8F.E3.83.87.E3.83.BC.E3.82.BF.E3.83.99.E3.83.BC.E3.82.B9_.28categorical_database.29"> 圏論に基づくデータベース (categorical database) </span></h3>
+<p><b>圏</b>とは、<b>対象</b>（object）と<b>射</b>（arrow）から構成されるもので、<b>対象</b>間を<b>射</b>で接続したものの集合である。
+</p><p><b>対象</b> <i>A</i>, <i>B</i> と <b>射</b> <i>f</i> の関係を <i>f: A→B</i> と表すことが多い。<i>A</i> を <i>f</i> の domain (source), <i>B</i> を <i>f</i> の codomain (target) と呼ぶ。
+</p><p><br />
+<b>射</b>は結合則にしたがって合成する事ができる。<i>(h・g)・f = h・(g・f)</i>
+</p>
+<ul><li> これをRDFとの違いとして挙げる人もいる。SPARQL 1.1 には property path があるけど、それではダメ？
+</li></ul>
+<p><br />
+<b>関手</b>（かんしゅ, <b>functor</b>）とは、圏から圏への対応である。
+</p>
+<ul><li> 関手があることで、スキーマが変わってもデータマイグレーションが可能だという。owl:equivalentClass 等を使ってマッピングするのに似ているが、OWLによるマッピングよりもいい点が何かあるのだろうか。
+</li></ul>
+<p><br />
+Categorical database では <b>圏 = データベーススキーマ</b> とするということ。結局のところ圏は、有向グラフに恒等射と結合則を加えたようなものであり、RDF のスキーマとしても利用できるのではないか？
+</p><p><br />
+</p>
+<h3> <span class="mw-headline" id=".E5.8F.82.E8.80.83.E6.96.87.E7.8C.AE"> 参考文献 </span></h3>
+<p><a href="http://journals.plos.org/plosone/article?id=10.1371/journal.pone.0023911" class="external text" rel="nofollow">DI Spivak, T Giesa, E Wood, MJ Buehler, Category theoretic analysis of hierarchical protein materials and social networks. PLoS ONE 6(9): e23911 (2011) </a>
+</p><p><a href="http://journals.plos.org/plosone/article?id=10.1371/journal.pone.0024274" class="external text" rel="nofollow">DI Spivak, RE Kent, Ologs: a categorical framework for knowledge representation. PLoS One 7 (1), e24274 (2012)</a>
+</p>
+<ul><li> "the first author explained how a categorical database can be converted into an RDF triple store using the Grothendieck construction. The main difference between a categorical database schema (or an olog) and an RDF schema is that one cannot specify commutativity in an RDF schema."
+</li></ul>
+<p><a href="http://math.mit.edu/~dspivak/informatics/talks/CTDBIntroductoryTalk" class="external text" rel="nofollow">David I. Spivak, Categorical databases</a> Presentation (2012)
+</p><p><a href="http://www.amazon.co.jp/Category-Theory-Sciences-David-Spivak-ebook/dp/B00OPJXVXU/ref=sr_1_1?ie=UTF8&amp;qid=1452748243&amp;sr=8-1&amp;keywords=9780262028134" class="external text" rel="nofollow">DI Spivak, Category Theory for the Sciences. MIT Press</a> (2014)
+</p><p><a href="http://www.catinf.com" class="external text" rel="nofollow">Categorical Informatics, Inc.</a>（2015年、Spivakら設立）
+</p><p><i><a href="http://www.meetup.com/ja-JP/The-Cambridge-Semantic-Web-Meetup-Group/events/222378564/?eventId=222378564&amp;chapter_analytics_code=UA-139779-23" class="external text" rel="nofollow">Using Category Theory to get more out of Linked Data</a></i> Cambridge Semantic Web Monthly Meetup（2015年6月）
+</p>
+<ul><li> <i>Category theory + semantic web = hot combo</i>
+</li><li> Functor を使えば、ontology alignment やデータマイグレーションがもっとうまくできるようになるのかな。
+</li></ul>
+<p>W3C mailing-list
+</p>
+<ul><li> <a href="https://lists.w3.org/Archives/Public/semantic-web/2007Jul/thread.html#msg44" class="external text" rel="nofollow">category theory</a> (2007)
+</li><li> <a href="https://lists.w3.org/Archives/Public/public-philoweb/2014Apr/thread.html#msg3" class="external text" rel="nofollow">rdf and category theory</a> (2014)
+</li><li> <a href="https://lists.w3.org/Archives/Public/semantic-web/2014Apr/thread.html#msg35" class="external text" rel="nofollow">rdf and category theory</a> (April 2014)
+<ul><li> "Does anyone have some insight on what the relations between the two are?"
+</li><li> Eric Prud'hommeaux "David Spivak and I looked at using category theory to back the query rewriting algorithms in SWObjects."
+</li><li> "It's so odd that RDF is entirely about relations just as CT is ( except that RDF is one to many whereas CT arrows are functions). So I really look forward to understanding how these two domains fit together, and perhaps how they complement each other."
+</li><li> "It turns out I overgeneralised here to soon.  On page 7 of the book "Category Theory" by Steve Awodey from the Oxford Logic guides, as example 4 of different types of Categories, where the arrows are not functions."
+</li></ul>
+</li></ul>
+<p>ブログ等
+</p>
+<ul><li> <a href="http://d.hatena.ne.jp/m-hiyama/20130211/1360577040" class="external autonumber" rel="nofollow">[1]</a> <a href="http://return0.info/note/2013-04.html#id2013-04-09" class="external autonumber" rel="nofollow">[2]</a> <a href="http://d.hatena.ne.jp/m-hiyama/20130430/1367279204" class="external autonumber" rel="nofollow">[3]</a>
+</li><li> <a href="http://skzy.hatenablog.com/archive/category/圏論" class="external text" rel="nofollow">Category Theory for scientists (David spivak) を読む</a>
+</li><li> <a href="https://atnd.org/events/37936" class="external text" rel="nofollow">データベースは圏なんだよ！の会</a>
+</li><li> <a href="http://prime997.blogspot.jp/2014/06/blog-post.html" class="external text" rel="nofollow">圏論に基づくデータベースのクエリー言語</a>
+</li></ul>
+<p>関連資料
+</p>
+<ul><li> <a href="http://phsc.jp/dat/rsm/2009061414.pdf" class="external text" rel="nofollow">システム生物学と圏論</a>
+</li><li> <a href="http://www.origin-life.gr.jp/3901/3901019/3901019.pdf" class="external text" rel="nofollow">双対的視点による複雑ネットワークへのアプローチ</a>
+</li><li> <a href="http://ac-net.org/altmath/doc/haruna-061207.pdf" class="external text" rel="nofollow">随伴函手による理論生物学に関する一考察</a>
+</li><li> <a href="https://www.cps-jp.org/modules/mosir/MovieList.php?name=%22春名%20太一%22" class="external text" rel="nofollow">システム生物学の新しい見方</a>
+</li></ul>
+<h2> <span class="mw-headline" id="Categorical_database_.E3.81.AE.E3.83.86.E3.82.B9.E3.83.88"> Categorical database のテスト </span></h2>
+<p><a href="https://docs.google.com/document/d/1duqIwlizmuIaHf-EkjNXSyCQLmzTwbdN83zXg5JwdBg" class="external text" rel="nofollow">Google docs</a>
+</p>
+<ul><li> <a href="http://categoricaldata.net/fql.html" class="external text" rel="nofollow">FQL IDE</a> をダウンロードして、起動
+</li></ul>
+<pre>java -jar fql.jar
+</pre>
+<ul><li> <a href="http://categoricaldata.net/fql/tutorial.pdf" class="external text" rel="nofollow">FQL IDE manual</a> の例を使ってテスト
+</li></ul>
+<ul><li> OrthoXMLの例でもやってみた
+</li></ul>
+<p><br />
+</p>
+<h3> <span class="mw-headline" id="Todo"> Todo </span></h3>
+<ul><li> SHACL仕様の最初の例を、categorical databaseスキーマで表現したら、だいぶ楽になりそう
+</li></ul>
+<ul><li> OWLでも書いて、比較検討できるかも
+</li></ul>
+<p><br />
+<b>参考文献</b>
+</p><p><a href="https://www.w3.org/TR/2015/WD-shacl-20151008/" class="external text" rel="nofollow">SHACL (W3C First Public Working Draft 08 October 2015)</a> (<a href="http://qiita.com/tsunagun/items/177d8e556b64478fc9b3" class="external text" rel="nofollow">日本語解説</a>)
+</p><p><a href="https://w3c.github.io/data-shapes/shacl/" class="external text" rel="nofollow">SHCACL (W3C Editor's Draft 22 January 2016)</a>
+</p><p><a href="http://w3c.github.io/data-shapes/semantics/SPARQL" class="external text" rel="nofollow">SHACL-SPARQL</a>
+</p><p><a href="http://spinrdf.org" class="external text" rel="nofollow">SPIN</a>
+</p><p><a href="https://www.w3.org/2014/data-shapes/wiki/Main_Page" class="external free" rel="nofollow">https://www.w3.org/2014/data-shapes/wiki/Main_Page</a>
+</p>
+<h2> <span class="mw-headline" id=".E8.80.83.E5.AF.9F"> 考察 </span></h2>
+<h3> <span class="mw-headline" id="RDF.E3.81.A8.E3.81.AE.E9.81.95.E3.81.84.E3.81.AF.E4.BD.95.E3.81.8B"> RDFとの違いは何か </span></h3>
+<p><i>categorical database = RDF - URI - オントロジーの階層構造 + データに対する制約チェック + α</i>
+</p>
+<ul><li> 見方を変えると、<i>categorical database + オントロジーの階層構造 = RDF - URI + データに対する制約チェック + α</i> 
+<ul><li> categorical database にオントロジーの階層構造を加えたら、ある意味improveできるか。
+</li></ul>
+</li></ul>
+<ul><li> α：functorとか調査できていない。パスのequationが定義でき、制約条件、例えば inverse propertyや、transitive property に相当する記述もできる。
+</li></ul>
+<ul><li> 両者ともグラフ型 DBMS であり非常によく似ているが、RDF の場合は DBMS と WWW 的な話がごっちゃになっているかんじがする。
+</li></ul>
+<p><br />
+URIは必要かという点について
+</p>
+<ul><li> そもそも RDF ではなぜ URI を用いているのか。これには２つの全く異なる側面があるので、分けて考える。
+<ul><li> (1) データベースのエントリーIDとしてURIを利用するという側面。DBMSとしてRDFをとらえると、実はURIを使う必然性はない。URIは、ドメインの切り分けがしっかりしているので、混乱が少ないID体系として使える、ということだろう。データの中でURIを使っていると、別々の人が作成したデータでも楽に統合できる、というけれど、現実にはどれほどの恩恵があっただろうか。Tax IDのように、URIにしたせいで余計なバリエーションができてややこしくなることがある。実際には、話し合いをしてURIをすりあわせるという地道な作業が必要である。異なるデータ間でIDのマッピングをとる仕組みさえあれば、URIでなくてもデータ統合できるのでは。結局のところ、URIを用いなくても、RDFストアのようなシステムはDBMSとして動くだろう。
+</li><li> (2) HTTPでさらなるデータを取得可とするためにURLを用いるという側面。RDFをハイパーテキストの一種としてとらえると、URL参照が埋め込まれることは必然であろう。このURLによる参照というのは、上記(1)のURIとはねらっている機能からすると違うものである。実際、必ずしもエントリーIDそのものをURIとする必要はなく、エントリーIDに付随したattributeのようなものとしてURIを保持したって、URI参照としての機能は果たせるだろう。
+</li><li> URIが(1) と (2) の側面を合わせ持つということ、つまり、データベースのエントリーIDでありつつ、HTTPでさらなるデータが得られるようになっているのがいいのではないか、という意見もあるだろう。でも、この性質を利用したアプリケーションがどれほどあるだろう。エントリーIDにHTTPアクセスして返ってくるデータの形式が定まっていないので、アプリケーションを開発しようにも、仕様が定まらない。HTMLが返ってくることもあるだろうし、RDFが返ってくることもあるだろう。そうして得られたデータをどのようにパースすればよいかを知る方法は定められていない。必ずJSONが返ってくるとか、データのスキーマも返ってくるとか、もっとちゃんとした決まりがないと、アプリケーションの開発は進まないだろう。
+</li></ul>
+</li></ul>
+<p><br />
+スキーマについて
+</p>
+<ul><li> categorical database のスキーマから、RDFのスキーマ図に相当するものを作ることができる
+<ul><li> ただし、equationsの情報は入れられない
+</li></ul>
+</li><li> RDFのスキーマ図から、categorical database のスキーマは必ずしも作れない
+<ul><li> 各 property の、domain と range がはっきり決まっていないといけない
+<ul><li> 例えば、rdfs:label とかが至る所で使われているが、これだとまずい。sequenceLabel とか organismLabel とかを個別に作るしかない
+</li></ul>
+</li></ul>
+</li></ul>
+<h3> <span class="mw-headline" id="RDF_.E3.81.AE_disadvantage"> RDF の disadvantage </span></h3>
+<p>スキーマの記述方法が定められていないこと
+</p>
+<ul><li> RDFの場合、RDFストアなどのシステム側がスキーマを要求しないので、開発者がスキーマを作って"自主規制"することになる。
+<ul><li> SHACLのような提案もあるが、まだ一般的ではない。
+</li><li> Open World Assumption に従うと、データの中に間違いが混入しても、それを排除できない。
+</li><li> OWLファイルはある意味RDFのスキーマの一部を決定するものであるが、それだけではRDFのスキーマ図は作れない。つまり、データ構造の記述としては不十分な情報しか持っていない。
+<ul><li> どういうふうにOWLファイルを書けば、スキーマとして十分な情報となるのだろう。相当複雑なものになる。owl:Restriction, owl:onProperty などを使って記述しなければならないが、実はこの情報は、domain, range の情報とかぶることになる。矛盾した記述になることもあり得る。
+</li></ul>
+</li></ul>
+</li></ul>
+<ul><li> 一方の categorical database の場合は、システム側がスキーマを要求していて、データがスキーマに合うかどうかをチェックしてくれる。
+</li></ul>
+<h3> <span class="mw-headline" id="RDF_.E3.81.AE_advantage"> RDF の advantage </span></h3>
+<p>RDFの強みは、オントロジーの階層を用いた推論検索ということになるだろう
+</p>
+<ul><li> たとえば、organismLabel, geneLabel 等の上位概念として label を定義して、上位概念を使って検索できるということ
+<ul><li> categorical databaseだと、こういうふうに似た arrow をまとめて扱うことができない
+</li></ul>
+</li></ul>
+<ul><li> RDF だと、property を主語として、それについての定義をすることができる
+<ul><li> categorical database の場合、arrowに情報を持たせたかったら、arrowをやめて node にするしかない。
+</li></ul>
+</li></ul>
+<ul><li> オントロジーの階層構造をデータとして扱うなら、categorical databaseでも問題ない。実際、GOのデータとかFQLのexampleに入っていたし、taxonomyもデータとして扱えるだろう。
+</li></ul>
+<p><br />
+recursive なパスを含む構造を簡単に記述できる。たとえばtree構造のようなものの記述において。
+</p>
+<ul><li> categorical databaseの場合、ちょっとややこしくなる
+</li><li> 例えばツリー構造のデータでは、各ノードが親へのarrowを持つようにすればいいが、ルートもまた親へのarrowを持たなくてはいけない。自分自身を親とするのでいいのかな。
+</li><li> propetyのdomainとrangeをはっきりしなければいけないので、場合によっては、ひとつのpropertyでは対応できなくなり、似たような複数のpropertyを作らなくてはならなくなる。
+</li><li> equationsで、推移則みたいなのを定義しないと、エラーになった。
+</li></ul>
+<h3> <span class="mw-headline" id="request"> request </span></h3>
+<ul><li> スキーマ図（dot フォーマット）は、RDFコミュニティーの慣習に従った表記のほうがうれしい
+</li><li> node は type または class、attribute は property、arrow は relation とした方が分かりやすい
+</li><li> visualize は、GraphViz のようなレイアウトの方が見やすい
+</li><li> manualを、現バージョンのIDEの動作と揃えてほしい
+</li><li> saveするときとかに、ディレクトリをおぼえていてほしい
+</li><li> nodeのインスタンスのIDが、どうしてそのまま、RDFのインスタンスのIDに反映されないのだろうか。
+</li><li> ネームスペースの fql:// を、<a href="http://example.com/" class="external free" rel="nofollow">http://example.com/</a> にしてほしい
+</li></ul>
+
+<!-- 
+NewPP limit report
+Preprocessor node count: 39/1000000
+Post-expand include size: 0/2097152 bytes
+Template argument size: 0/2097152 bytes
+Expensive parser function count: 0/100
+-->
+
+<!-- Saved in parser cache with key wikidb-togowiki_:pcache:idhash:661-0!1!0!!ja!2!edit=0 and timestamp 20230604132258 -->
+<div class="printfooter">
+「<a href="http://wiki.lifesciencedb.jp/mw/SPARQLthon40/RDFvsCT">http://wiki.lifesciencedb.jp/mw/SPARQLthon40/RDFvsCT</a>」より作成</div>
+		<div id='catlinks' class='catlinks catlinks-allhidden'></div>		<!-- end content -->
+				<div class="visualClear"></div>
+	</div>
+</div></div>
+<div id="column-one">
+	<div id="p-cactions" class="portlet">
+		<h5>表示</h5>
+		<div class="pBody">
+			<ul>
+				 <li id="ca-nstab-main" class="selected"><a href="/mw/SPARQLthon40/RDFvsCT" title="本文を表示 [c]" accesskey="c">ページ</a></li>
+				 <li id="ca-talk" class="new"><a href="/mw/index.php?title=%E3%83%8E%E3%83%BC%E3%83%88:SPARQLthon40/RDFvsCT&amp;action=edit&amp;redlink=1" title="記事についての議論 [t]" accesskey="t">議論</a></li>
+				 <li id="ca-viewsource"><a href="/mw/index.php?title=SPARQLthon40/RDFvsCT&amp;action=edit" title="このページは保護されています。&#10;ページのソースを閲覧できます。 [e]" accesskey="e">ソースを表示</a></li>
+				 <li id="ca-history"><a href="/mw/index.php?title=SPARQLthon40/RDFvsCT&amp;action=history" title="このページの過去の版 [h]" accesskey="h">履歴</a></li>
+			</ul>
+		</div>
+	</div>
+	<div class="portlet" id="p-personal">
+		<h5>個人用ツール</h5>
+		<div class="pBody">
+			<ul>
+				<li id="pt-anonuserpage"><a href="/mw/%E5%88%A9%E7%94%A8%E8%80%85:172.18.8.51" title="自分が編集しているIPアドレスの利用者ページ [.]" accesskey="." class="new">172.18.8.51</a></li>
+				<li id="pt-anontalk"><a href="/mw/%E5%88%A9%E7%94%A8%E8%80%85%E2%80%90%E4%BC%9A%E8%A9%B1:172.18.8.51" title="このIPアドレスからなされた編集についての議論 [n]" accesskey="n" class="new">このIPアドレスのトーク</a></li>
+				<li id="pt-anonlogin"><a href="/mw/index.php?title=%E7%89%B9%E5%88%A5:%E3%83%AD%E3%82%B0%E3%82%A4%E3%83%B3&amp;returnto=SPARQLthon40/RDFvsCT&amp;returntoquery=oldid%3D20180" title="ログインすることが推奨されます。ただし、必須ではありません。 [o]" accesskey="o">ログイン</a></li>
+				<li id="pt-openidlogin"><a href="/mw/index.php?title=%E7%89%B9%E5%88%A5:OpenID%E3%83%AD%E3%82%B0%E3%82%A4%E3%83%B3&amp;returnto=SPARQLthon40/RDFvsCT">OpenIDでログイン</a></li>
+			</ul>
+		</div>
+	</div>
+	<div class="portlet" id="p-logo">
+		<a style="background-image: url(/mw/images/togowiki-logo.png);" href="/mw/%E3%83%A1%E3%82%A4%E3%83%B3%E3%83%9A%E3%83%BC%E3%82%B8" title="メインページに移動"></a>
+	</div>
+	<script type="text/javascript"> if (window.isMSIE55) fixalpha(); </script>
+	<div class='generated-sidebar portlet' id='p-navigation'>
+		<h5>案内</h5>
+		<div class='pBody'>
+			<ul>
+				<li id="n-mainpage-description"><a href="/mw/%E3%83%A1%E3%82%A4%E3%83%B3%E3%83%9A%E3%83%BC%E3%82%B8" title="メインページに移動する [z]" accesskey="z">メインページ</a></li>
+				<li id="n-portal"><a href="/mw/TogoWiki:%E3%82%B3%E3%83%9F%E3%83%A5%E3%83%8B%E3%83%86%E3%82%A3%E3%83%BB%E3%83%9D%E3%83%BC%E3%82%BF%E3%83%AB" title="このプロジェクトについて、できること、情報を入手する場所">コミュニティ・ポータル</a></li>
+				<li id="n-currentevents"><a href="/mw/TogoWiki:%E6%9C%80%E8%BF%91%E3%81%AE%E5%87%BA%E6%9D%A5%E4%BA%8B" title="最近の出来事について予備知識を得る">最近の出来事</a></li>
+				<li id="n-recentchanges"><a href="/mw/%E7%89%B9%E5%88%A5:%E6%9C%80%E8%BF%91%E3%81%AE%E6%9B%B4%E6%96%B0" title="ウィキにおける最近の更新の一覧 [r]" accesskey="r">最近の更新</a></li>
+				<li id="n-randompage"><a href="/mw/%E7%89%B9%E5%88%A5:%E3%81%8A%E3%81%BE%E3%81%8B%E3%81%9B%E8%A1%A8%E7%A4%BA" title="無作為に抽出されたページの読み込み [x]" accesskey="x">おまかせ表示</a></li>
+				<li id="n-help"><a href="/mw/Help:%E7%9B%AE%E6%AC%A1" title="情報を得る場所">ヘルプ</a></li>
+			</ul>
+		</div>
+	</div>
+	<div id="p-search" class="portlet">
+		<h5><label for="searchInput">検索</label></h5>
+		<div id="searchBody" class="pBody">
+			<form action="/mw/index.php" id="searchform">
+				<input type='hidden' name="title" value="特別:検索"/>
+				<input id="searchInput" title="TogoWiki内を検索" accesskey="f" type="search" name="search" />
+				<input type='submit' name="go" class="searchButton" id="searchGoButton"	value="表示" title="厳密に一致する名前のページが存在すれば、そのページへ移動します" />&nbsp;
+				<input type='submit' name="fulltext" class="searchButton" id="mw-searchButton" value="検索" title="入力された文字列が含まれるページを検索します" />
+			</form>
+		</div>
+	</div>
+	<div class="portlet" id="p-tb">
+		<h5>ツールボックス</h5>
+		<div class="pBody">
+			<ul>
+				<li id="t-whatlinkshere"><a href="/mw/%E7%89%B9%E5%88%A5:%E3%83%AA%E3%83%B3%E3%82%AF%E5%85%83/SPARQLthon40/RDFvsCT" title="ここにリンクしている全ウィキのページの一覧 [j]" accesskey="j">リンク元</a></li>
+				<li id="t-recentchangeslinked"><a href="/mw/%E7%89%B9%E5%88%A5:%E9%96%A2%E9%80%A3%E3%83%9A%E3%83%BC%E3%82%B8%E3%81%AE%E6%9B%B4%E6%96%B0%E7%8A%B6%E6%B3%81/SPARQLthon40/RDFvsCT" title="このページからリンクしているページの最近の更新 [k]" accesskey="k">関連ページの更新状況</a></li>
+<li id="t-specialpages"><a href="/mw/%E7%89%B9%E5%88%A5:%E7%89%B9%E5%88%A5%E3%83%9A%E3%83%BC%E3%82%B8%E4%B8%80%E8%A6%A7" title="特別ページの一覧 [q]" accesskey="q">特別ページ</a></li>
+				<li id="t-print"><a href="/mw/index.php?title=SPARQLthon40/RDFvsCT&amp;oldid=20180&amp;printable=yes" rel="alternate" title="このページの印刷用ページ [p]" accesskey="p">印刷用バージョン</a></li>				<li id="t-permalink"><a href="/mw/index.php?title=SPARQLthon40/RDFvsCT&amp;oldid=20180" title="ページのこの版への固定リンク">この版への固定リンク</a></li>			</ul>
+		</div>
+	</div>
+</div><!-- end of the left (by default at least) column -->
+<div class="visualClear"></div>
+<div id="footer">
+	<div id="f-poweredbyico"><a href="http://www.mediawiki.org/"><img src="/mw/skins/common/images/poweredby_mediawiki_88x31.png" height="31" width="88" alt="Powered by MediaWiki" /></a></div>
+	<div id="f-copyrightico"><a href="http://creativecommons.org/licenses/by/3.0/"><img src="http://i.creativecommons.org/l/by/3.0/88x31.png" alt="Attribution 3.0 Unported" width="88" height="31" /></a></div>
+	<ul id="f-list">
+		<li id="copyright">内容は<a href="http://creativecommons.org/licenses/by/3.0/" class="external ">Attribution 3.0 Unported</a>のライセンスで利用することができます。</li>
+		<li id="privacy"><a href="/mw/TogoWiki:%E3%83%97%E3%83%A9%E3%82%A4%E3%83%90%E3%82%B7%E3%83%BC%E3%83%BB%E3%83%9D%E3%83%AA%E3%82%B7%E3%83%BC" title="TogoWiki:プライバシー・ポリシー">プライバシー・ポリシー</a></li>
+		<li id="about"><a href="/mw/TogoWiki:TogoWiki%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6" title="TogoWiki:TogoWikiについて">TogoWikiについて</a></li>
+		<li id="disclaimer"><a href="/mw/TogoWiki:%E5%85%8D%E8%B2%AC%E4%BA%8B%E9%A0%85" title="TogoWiki:免責事項">免責事項</a></li>
+	</ul>
+</div>
+</div>
+
+<script>if (window.runOnloadHook) runOnloadHook();</script>
+<!-- Served in 0.664 secs. --></body></html>

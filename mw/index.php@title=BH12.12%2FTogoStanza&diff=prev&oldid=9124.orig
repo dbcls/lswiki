@@ -1,0 +1,588 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html lang="ja" dir="ltr">
+<head>
+<title>BH12.12/TogoStanza - TogoWiki</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta name="generator" content="MediaWiki 1.16.3" />
+<meta name="robots" content="noindex,nofollow" />
+<link rel="shortcut icon" href="/favicon.ico" />
+<link rel="search" type="application/opensearchdescription+xml" href="/mw/opensearch_desc.php" title="TogoWiki (ja)" />
+<link title="Creative Commons" type="application/rdf+xml" href="/mw/index.php?title=BH12.12/TogoStanza&amp;action=creativecommons" rel="meta" />
+<link rel="copyright" href="http://creativecommons.org/licenses/by/3.0/" />
+<link rel="alternate" type="application/atom+xml" title="TogoWikiのAtomフィード" href="/mw/index.php?title=%E7%89%B9%E5%88%A5:%E6%9C%80%E8%BF%91%E3%81%AE%E6%9B%B4%E6%96%B0&amp;feed=atom" />
+<link rel="stylesheet" href="/mw/skins/common/diff.css?270" />
+<link rel="stylesheet" href="/mw/skins/common/shared.css?270" media="screen" />
+<link rel="stylesheet" href="/mw/skins/common/commonPrint.css?270" media="print" />
+<link rel="stylesheet" href="/mw/skins/monobook/main.css?270" media="screen" />
+<!--[if lt IE 5.5000]><link rel="stylesheet" href="/mw/skins/monobook/IE50Fixes.css?270" media="screen" /><![endif]-->
+<!--[if IE 5.5000]><link rel="stylesheet" href="/mw/skins/monobook/IE55Fixes.css?270" media="screen" /><![endif]-->
+<!--[if IE 6]><link rel="stylesheet" href="/mw/skins/monobook/IE60Fixes.css?270" media="screen" /><![endif]-->
+<!--[if IE 7]><link rel="stylesheet" href="/mw/skins/monobook/IE70Fixes.css?270" media="screen" /><![endif]-->
+<link rel="stylesheet" href="/mw/index.php?title=MediaWiki:Common.css&amp;usemsgcache=yes&amp;ctype=text%2Fcss&amp;smaxage=18000&amp;action=raw&amp;maxage=18000" />
+<link rel="stylesheet" href="/mw/index.php?title=MediaWiki:Print.css&amp;usemsgcache=yes&amp;ctype=text%2Fcss&amp;smaxage=18000&amp;action=raw&amp;maxage=18000" media="print" />
+<link rel="stylesheet" href="/mw/index.php?title=MediaWiki:Monobook.css&amp;usemsgcache=yes&amp;ctype=text%2Fcss&amp;smaxage=18000&amp;action=raw&amp;maxage=18000" />
+<link rel="stylesheet" href="/mw/index.php?title=-&amp;action=raw&amp;maxage=18000&amp;gen=css" />
+<script>
+var skin="monobook",
+stylepath="/mw/skins",
+wgUrlProtocols="http\\:\\/\\/|https\\:\\/\\/|ftp\\:\\/\\/|irc\\:\\/\\/|gopher\\:\\/\\/|telnet\\:\\/\\/|nntp\\:\\/\\/|worldwind\\:\\/\\/|mailto\\:|news\\:|svn\\:\\/\\/",
+wgArticlePath="/mw/$1",
+wgScriptPath="/mw",
+wgScriptExtension=".php",
+wgScript="/mw/index.php",
+wgVariantArticlePath=false,
+wgActionPaths={},
+wgServer="http://wiki.lifesciencedb.jp",
+wgCanonicalNamespace="",
+wgCanonicalSpecialPageName=false,
+wgNamespaceNumber=0,
+wgPageName="BH12.12/TogoStanza",
+wgTitle="BH12.12/TogoStanza",
+wgAction="view",
+wgArticleId=208,
+wgIsArticle=true,
+wgUserName=null,
+wgUserGroups=null,
+wgUserLanguage="ja",
+wgContentLanguage="ja",
+wgBreakFrames=false,
+wgCurRevisionId=9124,
+wgVersion="1.16.3",
+wgEnableAPI=true,
+wgEnableWriteAPI=true,
+wgSeparatorTransformTable=["", ""],
+wgDigitTransformTable=["", ""],
+wgMainPageTitle="メインページ",
+wgFormattedNamespaces={"-2": "メディア", "-1": "特別", "0": "", "1": "ノート", "2": "利用者", "3": "利用者‐会話", "4": "TogoWiki", "5": "TogoWiki‐ノート", "6": "ファイル", "7": "ファイル‐ノート", "8": "MediaWiki", "9": "MediaWiki‐ノート", "10": "Template", "11": "Template‐ノート", "12": "Help", "13": "Help‐ノート", "14": "Category", "15": "Category‐ノート"},
+wgNamespaceIds={"メディア": -2, "特別": -1, "": 0, "ノート": 1, "利用者": 2, "利用者‐会話": 3, "togowiki": 4, "togowiki‐ノート": 5, "ファイル": 6, "ファイル‐ノート": 7, "mediawiki": 8, "mediawiki‐ノート": 9, "template": 10, "template‐ノート": 11, "help": 12, "help‐ノート": 13, "category": 14, "category‐ノート": 15, "画像": 6, "画像‐ノート": 7, "image": 6, "image_talk": 7},
+wgSiteName="TogoWiki",
+wgCategories=["TogoStanza"],
+wgRestrictionEdit=[],
+wgRestrictionMove=[];
+</script><script src="/mw/skins/common/wikibits.js?270"></script>
+<script type="text/javascript" src="/mw/skins/common/diff.js?270"></script>
+<script src="/mw/skins/common/ajax.js?270"></script>
+<script src="/mw/index.php?title=-&amp;action=raw&amp;gen=js&amp;useskin=monobook&amp;270"></script>
+
+		<style type='text/css'>
+		li#pt-openidlogin {
+		  background: url(/mw/extensions/OpenID/skin/icons/openid-inputicon.png) top left no-repeat;
+		  padding-left: 20px;
+		  text-transform: none;
+		}
+		</style>
+</head>
+<body class="mediawiki ltr ns-0 ns-subject page-BH12_12_TogoStanza skin-monobook">
+<div id="globalWrapper">
+<div id="column-content"><div id="content" >
+	<a id="top"></a>
+	
+	<h1 id="firstHeading" class="firstHeading">BH12.12/TogoStanza</h1>
+	<div id="bodyContent">
+		<h3 id="siteSub">提供：TogoWiki</h3>
+		<div id="contentSub">（版間での差分）</div>
+		<div id="jump-to-nav">移動： <a href="#column-one">案内</a>, <a href="#searchInput">検索</a></div>
+		<!-- start content -->
+<table class='diff'>
+			<col class='diff-marker' />
+			<col class='diff-content' />
+			<col class='diff-marker' />
+			<col class='diff-content' />
+		<tr valign='top'>
+		<td colspan='2' class='diff-otitle'><div id="mw-diff-otitle1"><strong><a href='/mw/index.php?title=BH12.12/TogoStanza&amp;oldid=4497'>2012年12月21日 (金) 07:13時点における版</a> (<a href='/mw/index.php?title=BH12.12/TogoStanza&amp;action=edit&amp;oldid=4497'>ソースを表示</a>)</strong></div><div id="mw-diff-otitle2"><a href="/mw/index.php?title=%E5%88%A9%E7%94%A8%E8%80%85:Ktym&amp;action=edit&amp;redlink=1" class="new mw-userlink" title="利用者:Ktym（存在しないページ）">Ktym</a>  <span class="mw-usertoollinks">(<a href="/mw/index.php?title=%E5%88%A9%E7%94%A8%E8%80%85%E2%80%90%E4%BC%9A%E8%A9%B1:Ktym&amp;action=edit&amp;redlink=1" class="new" title="利用者‐会話:Ktym（存在しないページ）">トーク</a> | <a href="/mw/%E7%89%B9%E5%88%A5:%E6%8A%95%E7%A8%BF%E8%A8%98%E9%8C%B2/Ktym" title="特別:投稿記録/Ktym">投稿記録</a>)</span></div><div id="mw-diff-otitle3"> <span class="comment">(<span class="autocomment"><a href="#Notes">→</a>Notes</span>)</span></div><div id="mw-diff-otitle4"><a href="/mw/index.php?title=BH12.12/TogoStanza&amp;diff=prev&amp;oldid=4497" title="BH12.12/TogoStanza" id="differences-prevlink">←古い編集</a></div></td>
+		<td colspan='2' class='diff-ntitle'><div id="mw-diff-ntitle1"><strong><a href='/mw/index.php?title=BH12.12/TogoStanza&amp;oldid=9124'>2013年8月21日 (水) 10:45時点における最新版</a> (<a href='/mw/index.php?title=BH12.12/TogoStanza&amp;action=edit'>ソースを表示</a>)</strong></div><div id="mw-diff-ntitle2"><a href="/mw/%E5%88%A9%E7%94%A8%E8%80%85:Tfuji" title="利用者:Tfuji" class="mw-userlink">Tfuji</a>  <span class="mw-usertoollinks">(<a href="/mw/index.php?title=%E5%88%A9%E7%94%A8%E8%80%85%E2%80%90%E4%BC%9A%E8%A9%B1:Tfuji&amp;action=edit&amp;redlink=1" class="new" title="利用者‐会話:Tfuji（存在しないページ）">トーク</a> | <a href="/mw/%E7%89%B9%E5%88%A5:%E6%8A%95%E7%A8%BF%E8%A8%98%E9%8C%B2/Tfuji" title="特別:投稿記録/Tfuji">投稿記録</a>)</span> </div><div id="mw-diff-ntitle3"></div><div id="mw-diff-ntitle4">&nbsp;</div></td>
+		</tr><tr><td colspan="2" class="diff-lineno">408行：</td>
+<td colspan="2" class="diff-lineno">408行：</td></tr>
+<tr><td class='diff-marker'> </td><td class='diff-context'><div>&nbsp;&nbsp; :</div></td><td class='diff-marker'> </td><td class='diff-context'><div>&nbsp;&nbsp; :</div></td></tr>
+<tr><td class='diff-marker'> </td><td class='diff-context'><div>&lt;/pre&gt;</div></td><td class='diff-marker'> </td><td class='diff-context'><div>&lt;/pre&gt;</div></td></tr>
+<tr><td colspan="2">&nbsp;</td><td class='diff-marker'>+</td><td class='diff-addedline'><div><ins class="diffchange"></ins></div></td></tr>
+<tr><td colspan="2">&nbsp;</td><td class='diff-marker'>+</td><td class='diff-addedline'><div><ins class="diffchange">[[Category:TogoStanza]]</ins></div></td></tr>
+</table><hr /><h2>2013年8月21日 (水) 10:45時点における最新版</h2>
+<table id="toc" class="toc"><tr><td><div id="toctitle"><h2>目次</h2></div>
+<ul>
+<li class="toclevel-1 tocsection-1"><a href="#TogoStanza"><span class="tocnumber">1</span> <span class="toctext">TogoStanza</span></a>
+<ul>
+<li class="toclevel-2 tocsection-2"><a href="#UniProt"><span class="tocnumber">1.1</span> <span class="toctext">UniProt</span></a></li>
+<li class="toclevel-2 tocsection-3"><a href="#RefSeq"><span class="tocnumber">1.2</span> <span class="toctext">RefSeq</span></a></li>
+<li class="toclevel-2 tocsection-4"><a href="#TogoGenome"><span class="tocnumber">1.3</span> <span class="toctext">TogoGenome</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-5"><a href="#Notes"><span class="tocnumber">2</span> <span class="toctext">Notes</span></a></li>
+</ul>
+</td></tr></table><script>if (window.showTocToggle) { var tocShowText = "表示"; var tocHideText = "非表示"; showTocToggle(); } </script>
+<h2> <span class="mw-headline" id="TogoStanza"> TogoStanza </span></h2>
+<ul><li> <a href="http://togo-stanza.herokuapp.com/" class="external free" rel="nofollow">http://togo-stanza.herokuapp.com/</a>
+</li></ul>
+<h3> <span class="mw-headline" id="UniProt"> UniProt </span></h3>
+<pre>
+% wget http://www.uniprot.org/uniprot/P16033.rdf
+
+% rapper -i rdfxml -o turtle P16033.rdf &gt; P16033.ttl 
+rapper: Parsing URI file:///Users/ktym/P16033.rdf with parser rdfxml
+rapper: Serializing with serializer turtle
+rapper: Parsing returned 702 triples
+
+% export SPARQL_ENDPOINT=&quot;http://beta.sparql.uniprot.org/sparql&quot;
+% sparql.rb query '
+prefix up: &lt;http://purl.uniprot.org/core/&gt;   
+prefix tax: &lt;http://purl.uniprot.org/taxonomy/&gt;
+select *
+where {                      
+ &nbsp;?s up:locusName &quot;slr1311&quot; .
+ &nbsp;?s&nbsp;?p&nbsp;?o .
+}'
+
+s	p	o
+_5031363033330011	&lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#type&gt;	&lt;http://purl.uniprot.org/core/Gene&gt;
+_5031363033330011	&lt;http://purl.uniprot.org/core/locusName&gt;	slr1311
+_5031363033330011	&lt;http://www.w3.org/2004/02/skos/core#prefLabel&gt;	psbA2
+_5031363033330011	&lt;http://www.w3.org/2004/02/skos/core#altLabel&gt;	psbA-2
+</pre>
+<h3> <span class="mw-headline" id="RefSeq"> RefSeq </span></h3>
+<pre>
+LOCUS       NC_000911            3573470 bp    DNA     circular BCT 19-JAN-2012
+DEFINITION  Synechocystis sp. PCC 6803 chromosome, complete genome.
+ACCESSION   NC_000911
+VERSION     NC_000911.1  GI:16329170
+DBLINK      Project: 57659
+KEYWORDS    .
+SOURCE      Synechocystis sp. PCC 6803
+  ORGANISM  Synechocystis sp. PCC 6803
+            Bacteria; Cyanobacteria; Chroococcales; Synechocystis.
+REFERENCE   1  (bases 1 to 3573470)
+  AUTHORS   Thelwell,C., Robinson,N.J. and Turner-Cavet,J.S.
+  TITLE     An SmtB-like repressor from Synechocystis PCC 6803 regulates a zinc
+            exporter
+  JOURNAL   Proc. Natl. Acad. Sci. U.S.A. 95 (18), 10728-10733 (1998)
+   PUBMED   9724772
+REFERENCE   2  (bases 1 to 3573470)
+  AUTHORS   Kaneko,T., Sato,S., Kotani,H., Tanaka,A., Asamizu,E., Nakamura,Y.,
+            Miyajima,N., Hirosawa,M., Sugiura,M., Sasamoto,S., Kimura,T.,
+            Hosouchi,T., Matsuno,A., Muraki,A., Nakazaki,N., Naruo,K.,
+            Okumura,S., Shimpo,S., Takeuchi,C., Wada,T., Watanabe,A.,
+            Yamada,M., Yasuda,M. and Tabata,S.
+  TITLE     Sequence analysis of the genome of the unicellular cyanobacterium
+            Synechocystis sp. strain PCC6803. II. Sequence determination of the
+            entire genome and assignment of potential protein-coding regions
+  JOURNAL   DNA Res. 3 (3), 109-136 (1996)
+   PUBMED   8905231
+REFERENCE   3  (bases 1 to 3573470)
+  AUTHORS   Kaneko,T., Tanaka,A., Sato,S., Kotani,H., Sazuka,T., Miyajima,N.,
+            Sugiura,M. and Tabata,S.
+  TITLE     Sequence analysis of the genome of the unicellular cyanobacterium
+            Synechocystis sp. strain PCC6803. I. Sequence features in the 1 Mb
+            region from map positions 64% to 92% of the genome
+  JOURNAL   DNA Res. 2 (4), 153-166 (1995)
+   PUBMED   8590279
+REFERENCE   4  (bases 1 to 3573470)
+  CONSRTM   NCBI Genome Project
+  TITLE     Direct Submission
+  JOURNAL   Submitted (10-SEP-2004) National Center for Biotechnology
+            Information, NIH, Bethesda, MD 20894, USA
+REFERENCE   5  (bases 1 to 3573470)
+  AUTHORS   Tabata,S.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (28-JUN-1996) Kazusa DNA Research Institute, The First
+            Laboratory for Plant Gene Research, Yana 1532-3, Kisarazu, Chiba
+            292-0812, Japan
+COMMENT     PROVISIONAL REFSEQ: This record has not yet been subject to final
+            NCBI review. The reference sequence was derived from BA000022.
+            COMPLETENESS: full length.
+FEATURES             Location/Qualifiers
+     source          1..3573470
+                     /organism=&quot;Synechocystis sp. PCC 6803&quot;
+                     /mol_type=&quot;genomic DNA&quot;
+                     /strain=&quot;PCC 6803&quot;
+                     /db_xref=&quot;taxon:1148&quot;
+
+ &nbsp;:
+
+     gene            7229..8311
+                     /gene=&quot;psbA2&quot;
+                     /locus_tag=&quot;slr1311&quot;
+                     /db_xref=&quot;GeneID:951890&quot;
+     CDS             7229..8311
+                     /gene=&quot;psbA2&quot;
+                     /locus_tag=&quot;slr1311&quot;
+                     /codon_start=1
+                     /transl_table=11
+                     /product=&quot;photosystem II D1 protein&quot;
+                     /protein_id=&quot;NP_439906.1&quot;
+                     /db_xref=&quot;GI:16329178&quot;
+                     /db_xref=&quot;GeneID:951890&quot;
+                     /translation=&quot;MTTTLQQRESASLWEQFCQWVTSTNNRIYVGWFGTLMIPTLLTA
+                     TTCFIIAFIAAPPVDIDGIREPVAGSLLYGNNIISGAVVPSSNAIGLHFYPIWEAASL
+                     DEWLYNGGPYQLVVFHFLIGIFCYMGRQWELSYRLGMRPWICVAYSAPVSAATAVFLI
+                     YPIGQGSFSDGMPLGISGTFNFMIVFQAEHNILMHPFHMLGVAGVFGGSLFSAMHGSL
+                     VTSSLVRETTEVESQNYGYKFGQEEETYNIVAAHGYFGRLIFQYASFNNSRSLHFFLG
+                     AWPVIGIWFTAMGVSTMAFNLNGFNFNQSILDSQGRVIGTWADVLNRANIGFEVMHER
+                     NAHNFPLDLASGEQAPVALTAPAVNG&quot;
+
+</pre>
+<h3> <span class="mw-headline" id="TogoGenome"> TogoGenome </span></h3>
+<pre>
+% less wget_prokaryotes/PRJNA57659/NC_000911.1
+
+% less wget_prokaryotes.v5/PRJNA57659/NC_000911.1.ttl
+</pre>
+<p>in Virtuoso (w/o predicate paths)
+</p>
+<pre>
+% sparql.rb query '
+prefix obo: &lt;http://purl.obolibrary.org/obo/&gt;
+prefix faldo: &lt;http://biohackathon.org/resource/faldo#&gt;
+prefix insdc: &lt;http://rdf.insdc.org/&gt;
+prefix up: &lt;http://purl.uniprot.org/core/&gt;
+prefix tax: &lt;http://purl.uniprot.org/taxonomy/&gt;
+select *
+from &lt;http://v5.genome.db/&gt;
+where {
+ &nbsp;?seq rdfs:seeAlso &lt;http://identifiers.org/taxonomy/1148&gt; .
+ &nbsp;?gene obo:so_part_of&nbsp;?seq .
+ &nbsp;?cds obo:so_part_of&nbsp;?gene .
+ &nbsp;?cds a obo:SO_0000316 .     # CDS
+ &nbsp;?cds rdfs:label &quot;slr1311&quot; .
+# &nbsp;?cds&nbsp;?p&nbsp;?o .
+ &nbsp;?gene&nbsp;?p2&nbsp;?o2 .
+} limit 100'
+</pre>
+<p>in OWLIM (w/ predicate paths)
+</p>
+<pre>
+% export SPARQL_ENDPOINT=&quot;http://lod.dbcls.jp/openrdf-sesame/repositories/togogenome&quot;
+
+% sparql.rb query '
+prefix obo: &lt;http://purl.obolibrary.org/obo/&gt;
+prefix faldo: &lt;http://biohackathon.org/resource/faldo#&gt;
+prefix insdc: &lt;http://rdf.insdc.org/&gt;
+select *
+where {
+ &nbsp;?seq rdfs:seeAlso &lt;http://identifiers.org/taxonomy/1148&gt; .
+ &nbsp;?s obo:so_part_of+&nbsp;?seq .
+ &nbsp;?s a obo:SO_0000316 .
+ &nbsp;?s rdfs:label &quot;slr1311&quot; .
+ &nbsp;?s&nbsp;?p&nbsp;?o .
+}
+'
+seq	s	p	o
+&lt;urn:uuid:182f171a-7928-4324-8d41-f3e820a872fd&gt;	&lt;urn:uuid:aaf399d2-f84a-4feb-a689-966311a3b116&gt;	&lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#type&gt;	&lt;http://purl.obolibrary.org/obo/SO_0000316&gt;
+&lt;urn:uuid:182f171a-7928-4324-8d41-f3e820a872fd&gt;	&lt;urn:uuid:aaf399d2-f84a-4feb-a689-966311a3b116&gt;	&lt;http://biohackathon.org/resource/faldo#location&gt;	&lt;urn:uuid:3114165b-ffee-4816-b9bf-811dbbcb9b06&gt;
+&lt;urn:uuid:182f171a-7928-4324-8d41-f3e820a872fd&gt;	&lt;urn:uuid:aaf399d2-f84a-4feb-a689-966311a3b116&gt;	&lt;http://www.w3.org/2000/01/rdf-schema#seeAlso&gt;	&lt;http://identifiers.org/ncbigene/951890&gt;
+&lt;urn:uuid:182f171a-7928-4324-8d41-f3e820a872fd&gt;	&lt;urn:uuid:aaf399d2-f84a-4feb-a689-966311a3b116&gt;	&lt;http://www.w3.org/2000/01/rdf-schema#seeAlso&gt;	&lt;http://identifiers.org/ncbigi/16329178&gt;
+&lt;urn:uuid:182f171a-7928-4324-8d41-f3e820a872fd&gt;	&lt;urn:uuid:aaf399d2-f84a-4feb-a689-966311a3b116&gt;	&lt;http://www.w3.org/2000/01/rdf-schema#seeAlso&gt;	&lt;http://identifiers.org/ncbiprotein/NP_439906.1&gt;
+&lt;urn:uuid:182f171a-7928-4324-8d41-f3e820a872fd&gt;	&lt;urn:uuid:aaf399d2-f84a-4feb-a689-966311a3b116&gt;	&lt;http://www.w3.org/2000/01/rdf-schema#label&gt;	slr1311
+&lt;urn:uuid:182f171a-7928-4324-8d41-f3e820a872fd&gt;	&lt;urn:uuid:aaf399d2-f84a-4feb-a689-966311a3b116&gt;	&lt;http://rdf.insdc.org/feature_gene&gt;	psbA2
+&lt;urn:uuid:182f171a-7928-4324-8d41-f3e820a872fd&gt;	&lt;urn:uuid:aaf399d2-f84a-4feb-a689-966311a3b116&gt;	&lt;http://rdf.insdc.org/feature_locus_tag&gt;	slr1311
+&lt;urn:uuid:182f171a-7928-4324-8d41-f3e820a872fd&gt;	&lt;urn:uuid:aaf399d2-f84a-4feb-a689-966311a3b116&gt;	&lt;http://purl.obolibrary.org/obo/so_part_of&gt;	&lt;urn:uuid:8683a33d-e496-43da-a4ce-a454faeb228c&gt;
+&lt;urn:uuid:182f171a-7928-4324-8d41-f3e820a872fd&gt;	&lt;urn:uuid:aaf399d2-f84a-4feb-a689-966311a3b116&gt;	&lt;http://rdf.insdc.org/feature_translation&gt;	MTTTLQQRESASLWEQFCQWVTSTNNRIYVGWFGTLMIPTLLTATTCFIIAFIAAPPVDIDGIREPVAGSLLYGNNIISGAVVPSSNAIGLHFYPIWEAASLDEWLYNGGPYQLVVFHFLIGIFCYMGRQWELSYRLGMRPWICVAYSAPVSAATAVFLIYPIGQGSFSDGMPLGISGTFNFMIVFQAEHNILMHPFHMLGVAGVFGGSLFSAMHGSLVTSSLVRETTEVESQNYGYKFGQEEETYNIVAAHGYFGRLIFQYASFNNSRSLHFFLGAWPVIGIWFTAMGVSTMAFNLNGFNFNQSILDSQGRVIGTWADVLNRANIGFEVMHERNAHNFPLDLASGEQAPVALTAPAVNG
+&lt;urn:uuid:182f171a-7928-4324-8d41-f3e820a872fd&gt;	&lt;urn:uuid:aaf399d2-f84a-4feb-a689-966311a3b116&gt;	&lt;http://purl.obolibrary.org/obo/so_has_part&gt;	node9
+&lt;urn:uuid:182f171a-7928-4324-8d41-f3e820a872fd&gt;	&lt;urn:uuid:aaf399d2-f84a-4feb-a689-966311a3b116&gt;	&lt;http://rdf.insdc.org/feature_codon_start&gt;	1
+&lt;urn:uuid:182f171a-7928-4324-8d41-f3e820a872fd&gt;	&lt;urn:uuid:aaf399d2-f84a-4feb-a689-966311a3b116&gt;	&lt;http://rdf.insdc.org/feature_transl_table&gt;	11
+&lt;urn:uuid:182f171a-7928-4324-8d41-f3e820a872fd&gt;	&lt;urn:uuid:aaf399d2-f84a-4feb-a689-966311a3b116&gt;	&lt;http://rdf.insdc.org/feature_product&gt;	photosystem II D1 protein
+</pre>
+<pre>
+% sparql.rb query '
+select *
+where {
+  &lt;http://identifiers.org/ncbiprotein/NP_439906.1&gt;&nbsp;?p&nbsp;?o .
+}'
+p	o
+&lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#type&gt;	&lt;http://rdf.insdc.org/Protein&gt;
+&lt;http://www.w3.org/2000/01/rdf-schema#label&gt;	Protein:NP_439906.1
+</pre>
+<p>in UniProt (P16033.ttl)
+</p>
+<pre>
+&lt;http://purl.uniprot.org/refseq/NP_439906.1&gt;
+   &nbsp;:database &lt;http://purl.uniprot.org/database/RefSeq&gt;&nbsp;;
+    a&nbsp;:Resource&nbsp;;
+    rdfs:comment &quot;NC_000911.1&quot; .
+</pre>
+<pre>
+&lt;http://purl.uniprot.org/uniprot/P16033&gt;
+   &nbsp;:alternativeName &lt;http://purl.uniprot.org/SHA-384/63DA65DE404AF09310FCB840EDB66B43F33A99437BE6B168EAA56CB750697BD770D0AF1352224737D950375500334306&gt;, &lt;http://purl.uniprot.org/SHA-384/EAD38724FC2B221349C148590947FAC022608F9163892
+A8655BADDABAED4C601851DBB74C938735F74B87EF124B1360F&gt;&nbsp;;
+   &nbsp;:annotation &lt;http://purl.uniprot.org/SHA-384/0A12089C8DC290CBBD8D8103B12CEB67A4E6D0C2A7EDB14E2526E07E6C19A0D8E7136E5980D425920C5592597C839D1C&gt;, &lt;http://purl.uniprot.org/SHA-384/38793A73EC12E67AE573E8D2AFA1C5103C22D40D6A6BF9932A
+6B44C0E58BA2D1BAB3AFA7B90690213AD739E0333AEA99&gt;, &lt;http://purl.uniprot.org/SHA-384/3D4275B11E23026B6EF0BE4CA7C603B256C2C8561EA924F27B61086765DD71154A8A25933F28502973394A8BFEAD15FA&gt;, &lt;http://purl.uniprot.org/SHA-384/3E9A71260346FD57F
+7B9329143014B76A05C3B0ECE448D7BA2C7C58144C48C4C1C0B95B4B110272E5D0473DD9F0C506B&gt;, &lt;http://purl.uniprot.org/SHA-384/45985780EEA20147BA2739E59E023F00FF07A031FF00B7A0714D4C6F5028C96225F04CB0AC407CDA585F36D5FBE08A49&gt;, &lt;http://purl.unip
+rot.org/SHA-384/4BA37B67329EB5CA13971C6B80B63177B08707C016E85FECAD16D920A3A78551B339401DD16EB987C6F2ADA53F96790D&gt;, &lt;http://purl.uniprot.org/SHA-384/4BA6E00208715C9F97005D140C55724519E59F4D003F6AA12EEBFF476B441453F38B8A189CC04FB9475
+B99B212016071&gt;, &lt;http://purl.uniprot.org/SHA-384/4EF0E156B484A48AB5218FAD0B1A9C13A6025EA158E5C040FB8D2784A92CBE85B98BEB81E81CD0791B0F52C91DCC582F&gt;, &lt;http://purl.uniprot.org/SHA-384/544178BF8F549741F1E6D37A8D6C136EC7A8904549747CD8C0
+7AC4685BCE363F295FE2A7465ACBD490842C4E796DD070&gt;, &lt;http://purl.uniprot.org/SHA-384/6053A5ADB44A67383A68345CCE74A13BE6B7D36CF58FAC445E84E9848833A873AA81CC36361300FBC24F05827DFAC423&gt;, &lt;http://purl.uniprot.org/SHA-384/6A5872379CA70C029
+A451EAD2C53B87C9F6EACCC8FAB4B4A394CD0BA8E7415680D5EBA00C9187BAB64E35B9632DEE4F7&gt;, &lt;http://purl.uniprot.org/SHA-384/75BF329FEE3F451FF77AF5A3803F6D29B261FD591ABF4E07B293FEE7CDD018DB9C85536E068C228AB350DE6D139885D8&gt;, &lt;http://purl.unip
+rot.org/SHA-384/85C78400E36858ADC0071231FD8A6709C38BF701671845B6CE0F5C45072CF26768E232486B9B03447192F854FDC7A1DB&gt;, &lt;http://purl.uniprot.org/SHA-384/87F9AA3AA9878DF4C4FA702DCA7D6F1EB446807D4671341993D8D5AD314D5B9070951C4A35FCDEB2E17
+274BC5DB8F146&gt;, &lt;http://purl.uniprot.org/SHA-384/9B01722321188DB4D6BBAEF28AF09A62F521F68D6D582732A40BAFBF2655E270E79B05021F8505FC834C3ADBEB651E84&gt;, &lt;http://purl.uniprot.org/SHA-384/A3D9739FD7880EA11D08891C9C7C7F7DB81A75F5A841C2411F
+1604269DC66845DAE6896B16890981E0D063B6B0790018&gt;, &lt;http://purl.uniprot.org/SHA-384/AFD4449E781236F710E3EE1DE22FA44E7CC6048DB880064D069D4357AE91AE8165ECD5437DAF4CB13C51ED3FD014D647&gt;, &lt;http://purl.uniprot.org/SHA-384/B5DF4D8C0FCF36A77
+E232288948A178235B0A6BC4CB7321156210ABA4DDB093524BC71D117B96A46A49FD7B2533BA13C&gt;, &lt;http://purl.uniprot.org/SHA-384/CA8CEE0DF4CC11BF7B206AB2744628FD475856E4AF7F456DEEC61A941A8040A6ED92DAA23FB417268E7C583C34BEE3B1&gt;, &lt;http://purl.unip
+rot.org/SHA-384/E88D7DCCE1290A2CF157170747A81E75132EA0584A0A84FD066D480F8BFCE8439A118C05C8C81DBBC4134D7FE47DB70C&gt;, &lt;http://purl.uniprot.org/SHA-384/EA46197EDC149F2C44230CCA8CD64D18C45903399D17A5413D3CAAB1F669BAF1C5256D54CB7832E6734
+07065325213B7&gt;, &lt;http://purl.uniprot.org/SHA-384/EC6B9B2DD6E9B53D60CFF23C106C370CC16BC354AA5F1EBB9EE08D1A0C22B0338B794E7E14D65E9CDED5B4342E86D2CB&gt;, &lt;http://purl.uniprot.org/SHA-384/F941CD576798E06F86C2E10F0F65517031010C14B9F0021A5C
+B96E45ABD9DC6D80FAD0498772BAE34F6D2ED257C12D93&gt;, &lt;http://purl.uniprot.org/SHA-384/FCE2EE65D2F3B1104A46D8054D58B795F1FC5944B8189D0C041F8B3D2A2EB2F535216DCFA4AD9E67591F8F23A79318CB&gt;, &lt;http://purl.uniprot.org/annotation/PRO_0000090493
+&gt;, &lt;http://purl.uniprot.org/annotation/PRO_0000316429&gt;&nbsp;;
+   &nbsp;:attribution &lt;file:///Users/ktym/P16033.rdf#_5031363033330015&gt;, &lt;file:///Users/ktym/P16033.rdf#_503136303333004F&gt;, &lt;file:///Users/ktym/P16033.rdf#_5031363033330051&gt;, &lt;file:///Users/ktym/P16033.rdf#_5031363033330053&gt;, &lt;file:///U
+sers/ktym/P16033.rdf#_5031363033330054&gt;, &lt;file:///Users/ktym/P16033.rdf#_5031363033330056&gt;, &lt;file:///Users/ktym/P16033.rdf#_5031363033330058&gt;, &lt;file:///Users/ktym/P16033.rdf#_503136303333005A&gt;, &lt;file:///Users/ktym/P16033.rdf#_50313
+6303333005C&gt;, &lt;file:///Users/ktym/P16033.rdf#_503136303333005E&gt;, &lt;file:///Users/ktym/P16033.rdf#_5031363033330060&gt;&nbsp;;
+   &nbsp;:citation &lt;http://purl.uniprot.org/citations/1498597&gt;, &lt;http://purl.uniprot.org/citations/2123543&gt;, &lt;http://purl.uniprot.org/citations/2499875&gt;, &lt;http://purl.uniprot.org/citations/8068689&gt;, &lt;http://purl.uniprot.org/citations/89
+05231&gt;, &lt;http://purl.uniprot.org/citations/9512353&gt;&nbsp;;
+   &nbsp;:classifiedWith &lt;http://purl.uniprot.org/go/0009635&gt;, &lt;http://purl.uniprot.org/go/0009772&gt;, &lt;http://purl.uniprot.org/go/0016021&gt;, &lt;http://purl.uniprot.org/go/0016491&gt;, &lt;http://purl.uniprot.org/go/0030076&gt;, &lt;http://purl.uniprot.
+org/go/0030096&gt;, &lt;http://purl.uniprot.org/go/0042651&gt;, &lt;http://purl.uniprot.org/go/0045156&gt;, &lt;http://purl.uniprot.org/go/0046872&gt;, &lt;http://purl.uniprot.org/keywords/1133&gt;, &lt;http://purl.uniprot.org/keywords/1185&gt;, &lt;http://purl.unipr
+ot.org/keywords/249&gt;, &lt;http://purl.uniprot.org/keywords/359&gt;, &lt;http://purl.uniprot.org/keywords/408&gt;, &lt;http://purl.uniprot.org/keywords/479&gt;, &lt;http://purl.uniprot.org/keywords/560&gt;, &lt;http://purl.uniprot.org/keywords/604&gt;, &lt;http://p
+url.uniprot.org/keywords/793&gt;&nbsp;;
+   &nbsp;:created &quot;1990-04-01&quot;^^&lt;http://www.w3.org/2001/XMLSchema#date&gt;&nbsp;;
+   &nbsp;:encodedBy &lt;file:///Users/ktym/P16033.rdf#_5031363033330011&gt;, &lt;file:///Users/ktym/P16033.rdf#_5031363033330012&gt;&nbsp;;
+   &nbsp;:enzyme &lt;http://purl.uniprot.org/enzyme/1.10.3.9&gt;&nbsp;;
+   &nbsp;:existence&nbsp;:Evidence_at_Protein_Level_Existence&nbsp;;
+   &nbsp;:mnemonic &quot;PSBA2_SYNY3&quot;&nbsp;;
+   &nbsp;:modified &quot;2012-11-28&quot;^^&lt;http://www.w3.org/2001/XMLSchema#date&gt;&nbsp;;
+   &nbsp;:oldMnemonic &quot;PSB2_SYNY3&quot;&nbsp;;
+   &nbsp;:organism &lt;http://purl.uniprot.org/taxonomy/1111708&gt;&nbsp;;
+   &nbsp;:recommendedName &lt;http://purl.uniprot.org/SHA-384/6EE72299671F7B6AC21B0F83D7FD7531E50CE30DB2B45C3A58AB32A23D9CEB01EEF80F689B5BBADF6A9579BB420C5123&gt;&nbsp;;
+   &nbsp;:reviewed true&nbsp;;
+   &nbsp;:sequence &lt;http://purl.uniprot.org/isoforms/P16033-1&gt;&nbsp;;
+   &nbsp;:version &quot;111&quot;^^&lt;http://www.w3.org/2001/XMLSchema#int&gt;&nbsp;;
+    a&nbsp;:Protein&nbsp;;
+    rdfs:seeAlso &lt;http://purl.uniprot.org/eggnog/NOG04871&gt;, &lt;http://purl.uniprot.org/embl-cds/BAA16586.1&gt;, &lt;http://purl.uniprot.org/embl-cds/BAA18230.1&gt;, &lt;http://purl.uniprot.org/embl-cds/CAA31899.1&gt;, &lt;http://purl.uniprot.org/embl-
+cds/CAA39472.1&gt;, &lt;http://purl.uniprot.org/gene3d/1.20.85.10&gt;, &lt;http://purl.uniprot.org/geneid/12254260&gt;, &lt;http://purl.uniprot.org/geneid/12255303&gt;, &lt;http://purl.uniprot.org/geneid/951890&gt;, &lt;http://purl.uniprot.org/geneid/953105&gt;, &lt;
+http://purl.uniprot.org/genomereviews/BA000022_GR&gt;, &lt;http://purl.uniprot.org/hamap/MF_01379&gt;, &lt;http://purl.uniprot.org/hogenom/HOG000246913&gt;, &lt;http://purl.uniprot.org/intact/P16033&gt;, &lt;http://purl.uniprot.org/interpro/IPR000484&gt;, &lt;h
+ttp://purl.uniprot.org/interpro/IPR005867&gt;, &lt;http://purl.uniprot.org/kegg/syn:sll1867&gt;, &lt;http://purl.uniprot.org/kegg/syn:slr1311&gt;, &lt;http://purl.uniprot.org/kegg/syy:SYNGTS_0008&gt;, &lt;http://purl.uniprot.org/kegg/syy:SYNGTS_1655&gt;, &lt;ht
+tp://purl.uniprot.org/ko/K02703&gt;, &lt;http://purl.uniprot.org/oma/CFTIAFI&gt;, &lt;http://purl.uniprot.org/patric/23836870&gt;, &lt;http://purl.uniprot.org/pfam/PF00124&gt;, &lt;http://purl.uniprot.org/pir/F2YB16&gt;, &lt;http://purl.uniprot.org/prints/PR002
+56&gt;, &lt;http://purl.uniprot.org/prosite/PS00244&gt;, &lt;http://purl.uniprot.org/protclustdb/CLSK892431&gt;, &lt;http://purl.uniprot.org/proteinmodelportal/P16033&gt;, &lt;http://purl.uniprot.org/refseq/NP_439906.1&gt;, &lt;http://purl.uniprot.org/refseq/NP
+_441550.1&gt;, &lt;http://purl.uniprot.org/refseq/YP_005649961.1&gt;, &lt;http://purl.uniprot.org/refseq/YP_005651608.1&gt;, &lt;http://purl.uniprot.org/smr/P16033&gt;, &lt;http://purl.uniprot.org/string/P16033&gt;, &lt;http://purl.uniprot.org/supfam/SSF81483&gt;,
+ &lt;http://purl.uniprot.org/tcdb/3.E.2.2.2&gt;, &lt;http://purl.uniprot.org/tigrfams/TIGR01151&gt; .
+</pre>
+<p>add some links between Identifiers.org and UniProt
+</p>
+<pre>
+% cut -f 3 wget_prokaryotes.v5.ttl | grep ncbiprotein | perl -pe 's/ .*//' | perl -pe 's|(.._.*)&gt;|$1&gt; rdfs:seeAlso &lt;http://purl.uniprot.org/refseq/$1&gt; .|' &gt; wget_prokaryotes.v5.rs-up.ttl
+ &nbsp;:
+&lt;http://identifiers.org/ncbiprotein/NP_439906.1&gt; rdfs:seeAlso &lt;http://purl.uniprot.org/refseq/NP_439906.1&gt; .
+ &nbsp;:
+% wc wget_prokaryotes.v5.rs-up.ttl
+  6485705  25942820 738098573 wget_prokaryotes.v5.rs-up.ttl
+</pre>
+<h2> <span class="mw-headline" id="Notes"> Notes </span></h2>
+<pre>
+% sparql.rb query '
+prefix obo: &lt;http://purl.obolibrary.org/obo/&gt;
+prefix faldo: &lt;http://biohackathon.org/resource/faldo#&gt;
+prefix insdc: &lt;http://rdf.insdc.org/&gt;
+prefix up: &lt;http://purl.uniprot.org/core/&gt;
+prefix tax: &lt;http://purl.uniprot.org/taxonomy/&gt;
+select count(?cds) as&nbsp;?num_cds count(?gene) as&nbsp;?num_genes
+from &lt;http://v5.genome.db/&gt;
+where {
+ &nbsp;?seq rdfs:seeAlso &lt;http://identifiers.org/taxonomy/1148&gt; .
+ &nbsp;?gene obo:so_part_of&nbsp;?seq .
+ &nbsp;?cds obo:so_part_of&nbsp;?gene .
+ &nbsp;?cds a obo:SO_0000316 .     # CDS
+}'
+num_cds num_genes
+6745    6745
+</pre>
+<pre>
+% sparql.rb query '
+prefix obo: &lt;http://purl.obolibrary.org/obo/&gt;
+prefix faldo: &lt;http://biohackathon.org/resource/faldo#&gt;
+prefix insdc: &lt;http://rdf.insdc.org/&gt;
+prefix up: &lt;http://purl.uniprot.org/core/&gt;
+prefix tax: &lt;http://purl.uniprot.org/taxonomy/&gt;
+select&nbsp;?cds&nbsp;?label
+from &lt;http://v5.genome.db/&gt;
+where {
+ &nbsp;?seq rdfs:seeAlso &lt;http://identifiers.org/taxonomy/1148&gt; .
+ &nbsp;?gene obo:so_part_of&nbsp;?seq .
+ &nbsp;?cds obo:so_part_of&nbsp;?gene .
+ &nbsp;?cds a obo:SO_0000316 .     # CDS
+ &nbsp;?cds rdfs:label&nbsp;?label .
+} limit 10'
+cds     label
+&lt;urn:uuid:c73b48d2-e65a-43c5-86e1-26945386b6b4&gt; sll5004
+&lt;urn:uuid:24ecccd5-bf11-48d0-948f-9bd89f370a91&gt; slr5005
+&lt;urn:uuid:52ca1690-60ce-477f-bfe2-022de04c167a&gt; sll5006
+&lt;urn:uuid:e551fa78-b90c-435f-b528-9a8b5bac8296&gt; ssl5007
+&lt;urn:uuid:fa2a53e8-a500-4b8b-b7ab-5e0623cd72e5&gt; ssl5008
+&lt;urn:uuid:125a0827-d81d-47c7-b13b-506cd49e2989&gt; ssr5009
+&lt;urn:uuid:ce6e08ac-adbf-429b-a057-2a4284d3e1cd&gt; ssr5011
+&lt;urn:uuid:c24d24cd-5a0d-499f-b899-a31415dc9d6b&gt; sll5014
+&lt;urn:uuid:e03852ac-57d9-4d6b-b995-0b0ffa33e163&gt; ssl5015
+&lt;urn:uuid:6cc65822-e4b1-40a4-82ac-df2d9cc24775&gt; ssr5019
+</pre>
+<pre>
+% sparql.rb query '
+prefix obo: &lt;http://purl.obolibrary.org/obo/&gt;
+prefix faldo: &lt;http://biohackathon.org/resource/faldo#&gt;
+prefix insdc: &lt;http://rdf.insdc.org/&gt;
+prefix up: &lt;http://purl.uniprot.org/core/&gt;
+prefix tax: &lt;http://purl.uniprot.org/taxonomy/&gt;
+select&nbsp;?cds&nbsp;?l&nbsp;?b&nbsp;?e
+from &lt;http://v5.genome.db/&gt;
+where {
+ &nbsp;?seq rdfs:seeAlso &lt;http://identifiers.org/taxonomy/1148&gt; .
+ &nbsp;?gene obo:so_part_of&nbsp;?seq .
+ &nbsp;?cds obo:so_part_of&nbsp;?gene .
+ &nbsp;?cds a obo:SO_0000316 .     # CDS
+ &nbsp;?cds rdfs:label &quot;slr1311&quot; .
+ &nbsp;?cds faldo:location&nbsp;?location .
+ &nbsp;?location insdc:location_string&nbsp;?l .
+ &nbsp;?location faldo:begin&nbsp;?begin .
+ &nbsp;?location faldo:end&nbsp;?end .
+ &nbsp;?begin faldo:position&nbsp;?b .
+ &nbsp;?end faldo:position&nbsp;?e .
+} limit 100'
+cds     l       b       e
+&lt;urn:uuid:aaf399d2-f84a-4feb-a689-966311a3b116&gt; 7229..8311      7229    8311
+</pre>
+<pre>
+% sparql.rb query '
+prefix obo: &lt;http://purl.obolibrary.org/obo/&gt;
+prefix faldo: &lt;http://biohackathon.org/resource/faldo#&gt;
+prefix insdc: &lt;http://rdf.insdc.org/&gt;
+prefix up: &lt;http://purl.uniprot.org/core/&gt;
+prefix tax: &lt;http://purl.uniprot.org/taxonomy/&gt;
+select&nbsp;?label&nbsp;?l&nbsp;?b&nbsp;?e
+from &lt;http://v5.genome.db/&gt;
+where {
+ &nbsp;?seq rdfs:seeAlso &lt;http://identifiers.org/taxonomy/1148&gt; .
+ &nbsp;?gene obo:so_part_of&nbsp;?seq .
+ &nbsp;?cds obo:so_part_of&nbsp;?gene .
+ &nbsp;?cds a obo:SO_0000316 .     # CDS
+ &nbsp;?cds rdfs:label&nbsp;?label .
+ &nbsp;?cds faldo:location&nbsp;?location .
+ &nbsp;?location insdc:location_string&nbsp;?l .
+ &nbsp;?location faldo:begin&nbsp;?begin .
+ &nbsp;?location faldo:end&nbsp;?end .
+ &nbsp;?begin faldo:position&nbsp;?b .
+ &nbsp;?end faldo:position&nbsp;?e .
+} limit 10'
+label   l       b       e
+ssl5001 complement(195..374)    195     374
+sll5002 complement(574..921)    574     921
+sll5003 complement(1136..1540)  1136    1540
+slr5005 2528..13921     2528    13921
+sll5006 complement(14579..15133)        14579   15133
+ssl5008 complement(15639..15812)        15639   15812
+slr5012 17880..18800    17880   18800
+slr5013 18822..20513    18822   20513
+sll5014 complement(20523..21479)        20523   21479
+ssr5020 24181..24462    24181   24462
+</pre>
+<pre>
+% sparql.rb query '
+prefix obo: &lt;http://purl.obolibrary.org/obo/&gt;
+prefix faldo: &lt;http://biohackathon.org/resource/faldo#&gt;
+prefix insdc: &lt;http://rdf.insdc.org/&gt;
+prefix up: &lt;http://purl.uniprot.org/core/&gt;
+prefix tax: &lt;http://purl.uniprot.org/taxonomy/&gt;
+select&nbsp;?label&nbsp;?l&nbsp;?b&nbsp;?e
+from &lt;http://v5.genome.db/&gt;
+where {
+ &nbsp;?seq rdfs:seeAlso &lt;http://identifiers.org/taxonomy/1148&gt; .
+ &nbsp;?gene obo:so_part_of&nbsp;?seq .
+ &nbsp;?cds obo:so_part_of&nbsp;?gene .
+ &nbsp;?cds a obo:SO_0000316 .     # CDS
+ &nbsp;?cds rdfs:label&nbsp;?label .
+ &nbsp;?cds faldo:location&nbsp;?location .
+ &nbsp;?location insdc:location_string&nbsp;?l .
+ &nbsp;?location faldo:begin&nbsp;?begin .
+ &nbsp;?location faldo:end&nbsp;?end .
+ &nbsp;?begin faldo:position&nbsp;?b .
+ &nbsp;?end faldo:position&nbsp;?e .
+  filter (?b &gt; 10000 &amp;&amp;&nbsp;?e &lt; 20000)
+} limit 100'
+label   l       b       e
+sll5006 complement(14579..15133)        14579   15133
+ssl5008 complement(15639..15812)        15639   15812
+slr5012 17880..18800    17880   18800
+slr7012 11524..12513    11524   12513
+slr7013 12674..13438    12674   13438
+ssl7021 complement(19594..19779)        19594   19779
+slr8016 10998..11867    10998   11867
+sll8017 complement(12618..13151)        12618   13151
+sll8019 complement(15590..17317)        15590   17317
+slr8021 18529..19311    18529   19311
+slr8022 19356..19691    19356   19691
+ &nbsp;:
+</pre>
+<div class="printfooter">
+「<a href="http://wiki.lifesciencedb.jp/mw/BH12.12/TogoStanza">http://wiki.lifesciencedb.jp/mw/BH12.12/TogoStanza</a>」より作成</div>
+		<div id='catlinks' class='catlinks'><div id="mw-normal-catlinks"><a href="/mw/%E7%89%B9%E5%88%A5:%E3%82%AB%E3%83%86%E3%82%B4%E3%83%AA" title="特別:カテゴリ">カテゴリ</a>: <span dir='ltr'><a href="/mw/index.php?title=Category:TogoStanza&amp;action=edit&amp;redlink=1" class="new" title="Category:TogoStanza（存在しないページ）">TogoStanza</a></span></div></div>		<!-- end content -->
+				<div class="visualClear"></div>
+	</div>
+</div></div>
+<div id="column-one">
+	<div id="p-cactions" class="portlet">
+		<h5>表示</h5>
+		<div class="pBody">
+			<ul>
+				 <li id="ca-nstab-main" class="selected"><a href="/mw/BH12.12/TogoStanza" title="本文を表示 [c]" accesskey="c">ページ</a></li>
+				 <li id="ca-talk" class="new"><a href="/mw/index.php?title=%E3%83%8E%E3%83%BC%E3%83%88:BH12.12/TogoStanza&amp;action=edit&amp;redlink=1" title="記事についての議論 [t]" accesskey="t">議論</a></li>
+				 <li id="ca-viewsource"><a href="/mw/index.php?title=BH12.12/TogoStanza&amp;action=edit&amp;oldid=9124" title="このページは保護されています。&#10;ページのソースを閲覧できます。 [e]" accesskey="e">ソースを表示</a></li>
+				 <li id="ca-history"><a href="/mw/index.php?title=BH12.12/TogoStanza&amp;action=history" title="このページの過去の版 [h]" accesskey="h">履歴</a></li>
+			</ul>
+		</div>
+	</div>
+	<div class="portlet" id="p-personal">
+		<h5>個人用ツール</h5>
+		<div class="pBody">
+			<ul>
+				<li id="pt-anonuserpage"><a href="/mw/%E5%88%A9%E7%94%A8%E8%80%85:172.18.8.51" title="自分が編集しているIPアドレスの利用者ページ [.]" accesskey="." class="new">172.18.8.51</a></li>
+				<li id="pt-anontalk"><a href="/mw/%E5%88%A9%E7%94%A8%E8%80%85%E2%80%90%E4%BC%9A%E8%A9%B1:172.18.8.51" title="このIPアドレスからなされた編集についての議論 [n]" accesskey="n" class="new">このIPアドレスのトーク</a></li>
+				<li id="pt-anonlogin"><a href="/mw/index.php?title=%E7%89%B9%E5%88%A5:%E3%83%AD%E3%82%B0%E3%82%A4%E3%83%B3&amp;returnto=BH12.12/TogoStanza&amp;returntoquery=diff%3Dprev%26oldid%3D9124" title="ログインすることが推奨されます。ただし、必須ではありません。 [o]" accesskey="o">ログイン</a></li>
+				<li id="pt-openidlogin"><a href="/mw/index.php?title=%E7%89%B9%E5%88%A5:OpenID%E3%83%AD%E3%82%B0%E3%82%A4%E3%83%B3&amp;returnto=BH12.12/TogoStanza">OpenIDでログイン</a></li>
+			</ul>
+		</div>
+	</div>
+	<div class="portlet" id="p-logo">
+		<a style="background-image: url(/mw/images/togowiki-logo.png);" href="/mw/%E3%83%A1%E3%82%A4%E3%83%B3%E3%83%9A%E3%83%BC%E3%82%B8" title="メインページに移動"></a>
+	</div>
+	<script type="text/javascript"> if (window.isMSIE55) fixalpha(); </script>
+	<div class='generated-sidebar portlet' id='p-navigation'>
+		<h5>案内</h5>
+		<div class='pBody'>
+			<ul>
+				<li id="n-mainpage-description"><a href="/mw/%E3%83%A1%E3%82%A4%E3%83%B3%E3%83%9A%E3%83%BC%E3%82%B8" title="メインページに移動する [z]" accesskey="z">メインページ</a></li>
+				<li id="n-portal"><a href="/mw/TogoWiki:%E3%82%B3%E3%83%9F%E3%83%A5%E3%83%8B%E3%83%86%E3%82%A3%E3%83%BB%E3%83%9D%E3%83%BC%E3%82%BF%E3%83%AB" title="このプロジェクトについて、できること、情報を入手する場所">コミュニティ・ポータル</a></li>
+				<li id="n-currentevents"><a href="/mw/TogoWiki:%E6%9C%80%E8%BF%91%E3%81%AE%E5%87%BA%E6%9D%A5%E4%BA%8B" title="最近の出来事について予備知識を得る">最近の出来事</a></li>
+				<li id="n-recentchanges"><a href="/mw/%E7%89%B9%E5%88%A5:%E6%9C%80%E8%BF%91%E3%81%AE%E6%9B%B4%E6%96%B0" title="ウィキにおける最近の更新の一覧 [r]" accesskey="r">最近の更新</a></li>
+				<li id="n-randompage"><a href="/mw/%E7%89%B9%E5%88%A5:%E3%81%8A%E3%81%BE%E3%81%8B%E3%81%9B%E8%A1%A8%E7%A4%BA" title="無作為に抽出されたページの読み込み [x]" accesskey="x">おまかせ表示</a></li>
+				<li id="n-help"><a href="/mw/Help:%E7%9B%AE%E6%AC%A1" title="情報を得る場所">ヘルプ</a></li>
+			</ul>
+		</div>
+	</div>
+	<div id="p-search" class="portlet">
+		<h5><label for="searchInput">検索</label></h5>
+		<div id="searchBody" class="pBody">
+			<form action="/mw/index.php" id="searchform">
+				<input type='hidden' name="title" value="特別:検索"/>
+				<input id="searchInput" title="TogoWiki内を検索" accesskey="f" type="search" name="search" />
+				<input type='submit' name="go" class="searchButton" id="searchGoButton"	value="表示" title="厳密に一致する名前のページが存在すれば、そのページへ移動します" />&nbsp;
+				<input type='submit' name="fulltext" class="searchButton" id="mw-searchButton" value="検索" title="入力された文字列が含まれるページを検索します" />
+			</form>
+		</div>
+	</div>
+	<div class="portlet" id="p-tb">
+		<h5>ツールボックス</h5>
+		<div class="pBody">
+			<ul>
+				<li id="t-whatlinkshere"><a href="/mw/%E7%89%B9%E5%88%A5:%E3%83%AA%E3%83%B3%E3%82%AF%E5%85%83/BH12.12/TogoStanza" title="ここにリンクしている全ウィキのページの一覧 [j]" accesskey="j">リンク元</a></li>
+				<li id="t-recentchangeslinked"><a href="/mw/%E7%89%B9%E5%88%A5:%E9%96%A2%E9%80%A3%E3%83%9A%E3%83%BC%E3%82%B8%E3%81%AE%E6%9B%B4%E6%96%B0%E7%8A%B6%E6%B3%81/BH12.12/TogoStanza" title="このページからリンクしているページの最近の更新 [k]" accesskey="k">関連ページの更新状況</a></li>
+<li id="t-specialpages"><a href="/mw/%E7%89%B9%E5%88%A5:%E7%89%B9%E5%88%A5%E3%83%9A%E3%83%BC%E3%82%B8%E4%B8%80%E8%A6%A7" title="特別ページの一覧 [q]" accesskey="q">特別ページ</a></li>
+				<li id="t-print"><a href="/mw/index.php?title=BH12.12/TogoStanza&amp;diff=prev&amp;oldid=9124&amp;printable=yes" rel="alternate" title="このページの印刷用ページ [p]" accesskey="p">印刷用バージョン</a></li>				<li id="t-permalink"><a href="/mw/index.php?title=BH12.12/TogoStanza&amp;oldid=9124" title="ページのこの版への固定リンク">この版への固定リンク</a></li>			</ul>
+		</div>
+	</div>
+</div><!-- end of the left (by default at least) column -->
+<div class="visualClear"></div>
+<div id="footer">
+	<div id="f-poweredbyico"><a href="http://www.mediawiki.org/"><img src="/mw/skins/common/images/poweredby_mediawiki_88x31.png" height="31" width="88" alt="Powered by MediaWiki" /></a></div>
+	<div id="f-copyrightico"><a href="http://creativecommons.org/licenses/by/3.0/"><img src="http://i.creativecommons.org/l/by/3.0/88x31.png" alt="Attribution 3.0 Unported" width="88" height="31" /></a></div>
+	<ul id="f-list">
+		<li id="lastmod"> このページの最終更新は 2013年8月21日 (水) 10:45 に行われました。</li>
+		<li id="viewcount">このページは27,721回アクセスされました。</li>
+		<li id="copyright">内容は<a href="http://creativecommons.org/licenses/by/3.0/" class="external ">Attribution 3.0 Unported</a>のライセンスで利用することができます。</li>
+		<li id="privacy"><a href="/mw/TogoWiki:%E3%83%97%E3%83%A9%E3%82%A4%E3%83%90%E3%82%B7%E3%83%BC%E3%83%BB%E3%83%9D%E3%83%AA%E3%82%B7%E3%83%BC" title="TogoWiki:プライバシー・ポリシー">プライバシー・ポリシー</a></li>
+		<li id="about"><a href="/mw/TogoWiki:TogoWiki%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6" title="TogoWiki:TogoWikiについて">TogoWikiについて</a></li>
+		<li id="disclaimer"><a href="/mw/TogoWiki:%E5%85%8D%E8%B2%AC%E4%BA%8B%E9%A0%85" title="TogoWiki:免責事項">免責事項</a></li>
+	</ul>
+</div>
+</div>
+
+<script>if (window.runOnloadHook) runOnloadHook();</script>
+<!-- Served in 0.729 secs. --></body></html>

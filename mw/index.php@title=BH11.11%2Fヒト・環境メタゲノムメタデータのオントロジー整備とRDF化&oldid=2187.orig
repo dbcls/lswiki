@@ -1,0 +1,453 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html lang="ja" dir="ltr">
+<head>
+<title>BH11.11/ヒト・環境メタゲノムメタデータのオントロジー整備とRDF化 - TogoWiki</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta name="generator" content="MediaWiki 1.16.3" />
+<link rel="shortcut icon" href="/favicon.ico" />
+<link rel="search" type="application/opensearchdescription+xml" href="/mw/opensearch_desc.php" title="TogoWiki (ja)" />
+<link title="Creative Commons" type="application/rdf+xml" href="/mw/index.php?title=BH11.11/%E3%83%92%E3%83%88%E3%83%BB%E7%92%B0%E5%A2%83%E3%83%A1%E3%82%BF%E3%82%B2%E3%83%8E%E3%83%A0%E3%83%A1%E3%82%BF%E3%83%87%E3%83%BC%E3%82%BF%E3%81%AE%E3%82%AA%E3%83%B3%E3%83%88%E3%83%AD%E3%82%B8%E3%83%BC%E6%95%B4%E5%82%99%E3%81%A8RDF%E5%8C%96&amp;action=creativecommons" rel="meta" />
+<link rel="copyright" href="http://creativecommons.org/licenses/by/3.0/" />
+<link rel="alternate" type="application/atom+xml" title="TogoWikiのAtomフィード" href="/mw/index.php?title=%E7%89%B9%E5%88%A5:%E6%9C%80%E8%BF%91%E3%81%AE%E6%9B%B4%E6%96%B0&amp;feed=atom" />
+<link rel="stylesheet" href="/mw/skins/common/shared.css?270" media="screen" />
+<link rel="stylesheet" href="/mw/skins/common/commonPrint.css?270" media="print" />
+<link rel="stylesheet" href="/mw/skins/monobook/main.css?270" media="screen" />
+<!--[if lt IE 5.5000]><link rel="stylesheet" href="/mw/skins/monobook/IE50Fixes.css?270" media="screen" /><![endif]-->
+<!--[if IE 5.5000]><link rel="stylesheet" href="/mw/skins/monobook/IE55Fixes.css?270" media="screen" /><![endif]-->
+<!--[if IE 6]><link rel="stylesheet" href="/mw/skins/monobook/IE60Fixes.css?270" media="screen" /><![endif]-->
+<!--[if IE 7]><link rel="stylesheet" href="/mw/skins/monobook/IE70Fixes.css?270" media="screen" /><![endif]-->
+<link rel="stylesheet" href="/mw/index.php?title=MediaWiki:Common.css&amp;usemsgcache=yes&amp;ctype=text%2Fcss&amp;smaxage=18000&amp;action=raw&amp;maxage=18000" />
+<link rel="stylesheet" href="/mw/index.php?title=MediaWiki:Print.css&amp;usemsgcache=yes&amp;ctype=text%2Fcss&amp;smaxage=18000&amp;action=raw&amp;maxage=18000" media="print" />
+<link rel="stylesheet" href="/mw/index.php?title=MediaWiki:Monobook.css&amp;usemsgcache=yes&amp;ctype=text%2Fcss&amp;smaxage=18000&amp;action=raw&amp;maxage=18000" />
+<link rel="stylesheet" href="/mw/index.php?title=-&amp;action=raw&amp;maxage=18000&amp;gen=css" />
+<script>
+var skin="monobook",
+stylepath="/mw/skins",
+wgUrlProtocols="http\\:\\/\\/|https\\:\\/\\/|ftp\\:\\/\\/|irc\\:\\/\\/|gopher\\:\\/\\/|telnet\\:\\/\\/|nntp\\:\\/\\/|worldwind\\:\\/\\/|mailto\\:|news\\:|svn\\:\\/\\/",
+wgArticlePath="/mw/$1",
+wgScriptPath="/mw",
+wgScriptExtension=".php",
+wgScript="/mw/index.php",
+wgVariantArticlePath=false,
+wgActionPaths={},
+wgServer="http://wiki.lifesciencedb.jp",
+wgCanonicalNamespace="",
+wgCanonicalSpecialPageName=false,
+wgNamespaceNumber=0,
+wgPageName="BH11.11/ヒト・環境メタゲノムメタデータのオントロジー整備とRDF化",
+wgTitle="BH11.11/ヒト・環境メタゲノムメタデータのオントロジー整備とRDF化",
+wgAction="view",
+wgArticleId=84,
+wgIsArticle=true,
+wgUserName=null,
+wgUserGroups=null,
+wgUserLanguage="ja",
+wgContentLanguage="ja",
+wgBreakFrames=false,
+wgCurRevisionId=2187,
+wgVersion="1.16.3",
+wgEnableAPI=true,
+wgEnableWriteAPI=true,
+wgSeparatorTransformTable=["", ""],
+wgDigitTransformTable=["", ""],
+wgMainPageTitle="メインページ",
+wgFormattedNamespaces={"-2": "メディア", "-1": "特別", "0": "", "1": "ノート", "2": "利用者", "3": "利用者‐会話", "4": "TogoWiki", "5": "TogoWiki‐ノート", "6": "ファイル", "7": "ファイル‐ノート", "8": "MediaWiki", "9": "MediaWiki‐ノート", "10": "Template", "11": "Template‐ノート", "12": "Help", "13": "Help‐ノート", "14": "Category", "15": "Category‐ノート"},
+wgNamespaceIds={"メディア": -2, "特別": -1, "": 0, "ノート": 1, "利用者": 2, "利用者‐会話": 3, "togowiki": 4, "togowiki‐ノート": 5, "ファイル": 6, "ファイル‐ノート": 7, "mediawiki": 8, "mediawiki‐ノート": 9, "template": 10, "template‐ノート": 11, "help": 12, "help‐ノート": 13, "category": 14, "category‐ノート": 15, "画像": 6, "画像‐ノート": 7, "image": 6, "image_talk": 7},
+wgSiteName="TogoWiki",
+wgCategories=[],
+wgRestrictionEdit=[],
+wgRestrictionMove=[];
+</script><script src="/mw/skins/common/wikibits.js?270"></script>
+<script src="/mw/skins/common/ajax.js?270"></script>
+<script src="/mw/index.php?title=-&amp;action=raw&amp;gen=js&amp;useskin=monobook&amp;270"></script>
+
+		<style type='text/css'>
+		li#pt-openidlogin {
+		  background: url(/mw/extensions/OpenID/skin/icons/openid-inputicon.png) top left no-repeat;
+		  padding-left: 20px;
+		  text-transform: none;
+		}
+		</style>
+</head>
+<body class="mediawiki ltr ns-0 ns-subject page-BH11_11_ヒト・環境メタゲノムメタデータのオントロジー整備とRDF化 skin-monobook">
+<div id="globalWrapper">
+<div id="column-content"><div id="content" >
+	<a id="top"></a>
+	
+	<h1 id="firstHeading" class="firstHeading">BH11.11/ヒト・環境メタゲノムメタデータのオントロジー整備とRDF化</h1>
+	<div id="bodyContent">
+		<h3 id="siteSub">提供：TogoWiki</h3>
+		<div id="contentSub">
+				<div id="mw-revision-info">2012年1月31日 (火) 12:24時点における<a href="/mw/index.php?title=%E5%88%A9%E7%94%A8%E8%80%85:H-mori&amp;action=edit&amp;redlink=1" class="new mw-userlink" title="利用者:H-mori（存在しないページ）">H-mori</a>  <span class="mw-usertoollinks">(<a href="/mw/index.php?title=%E5%88%A9%E7%94%A8%E8%80%85%E2%80%90%E4%BC%9A%E8%A9%B1:H-mori&amp;action=edit&amp;redlink=1" class="new" title="利用者‐会話:H-mori（存在しないページ）">トーク</a> | <a href="/mw/%E7%89%B9%E5%88%A5:%E6%8A%95%E7%A8%BF%E8%A8%98%E9%8C%B2/H-mori" title="特別:投稿記録/H-mori">投稿記録</a>)</span>による版</div>
+
+				<div id="mw-revision-nav">(<a href="/mw/index.php?title=BH11.11/%E3%83%92%E3%83%88%E3%83%BB%E7%92%B0%E5%A2%83%E3%83%A1%E3%82%BF%E3%82%B2%E3%83%8E%E3%83%A0%E3%83%A1%E3%82%BF%E3%83%87%E3%83%BC%E3%82%BF%E3%81%AE%E3%82%AA%E3%83%B3%E3%83%88%E3%83%AD%E3%82%B8%E3%83%BC%E6%95%B4%E5%82%99%E3%81%A8RDF%E5%8C%96&amp;diff=prev&amp;oldid=2187" title="BH11.11/ヒト・環境メタゲノムメタデータのオントロジー整備とRDF化">差分</a>) <a href="/mw/index.php?title=BH11.11/%E3%83%92%E3%83%88%E3%83%BB%E7%92%B0%E5%A2%83%E3%83%A1%E3%82%BF%E3%82%B2%E3%83%8E%E3%83%A0%E3%83%A1%E3%82%BF%E3%83%87%E3%83%BC%E3%82%BF%E3%81%AE%E3%82%AA%E3%83%B3%E3%83%88%E3%83%AD%E3%82%B8%E3%83%BC%E6%95%B4%E5%82%99%E3%81%A8RDF%E5%8C%96&amp;direction=prev&amp;oldid=2187" title="BH11.11/ヒト・環境メタゲノムメタデータのオントロジー整備とRDF化">←前の版</a> | 最新版 (差分) | 次の版→ (差分)</div>
+			</div>
+		<div id="jump-to-nav">移動： <a href="#column-one">案内</a>, <a href="#searchInput">検索</a></div>
+		<!-- start content -->
+<table id="toc" class="toc"><tr><td><div id="toctitle"><h2>目次</h2></div>
+<ul>
+<li class="toclevel-1 tocsection-1"><a href="#.E7.9B.AE.E6.A8.99"><span class="tocnumber">1</span> <span class="toctext">目標</span></a></li>
+<li class="toclevel-1 tocsection-2"><a href="#.E8.AA.B2.E9.A1.8C"><span class="tocnumber">2</span> <span class="toctext">課題</span></a></li>
+<li class="toclevel-1 tocsection-3"><a href="#.E6.88.90.E6.9E.9C"><span class="tocnumber">3</span> <span class="toctext">成果</span></a></li>
+<li class="toclevel-1 tocsection-4"><a href="#.E9.96.A2.E9.80.A3.E3.83.BB.E6.94.AF.E6.B5.81"><span class="tocnumber">4</span> <span class="toctext">関連・支流</span></a></li>
+<li class="toclevel-1 tocsection-5"><a href="#.E5.B0.86.E6.9D.A5.E7.9A.84.E3.81.AA.E9.80.A3.E6.90.BA.EF.BC.9F"><span class="tocnumber">5</span> <span class="toctext">将来的な連携？</span></a></li>
+<li class="toclevel-1 tocsection-6"><a href="#.E4.BD.9C.E6.A5.AD.E3.83.AD.E3.82.B0"><span class="tocnumber">6</span> <span class="toctext">作業ログ</span></a>
+<ul>
+<li class="toclevel-2 tocsection-7"><a href="#2011-11-21"><span class="tocnumber">6.1</span> <span class="toctext">2011-11-21</span></a></li>
+<li class="toclevel-2 tocsection-8"><a href="#2011-11-22"><span class="tocnumber">6.2</span> <span class="toctext">2011-11-22</span></a></li>
+<li class="toclevel-2 tocsection-9"><a href="#2011-11-23"><span class="tocnumber">6.3</span> <span class="toctext">2011-11-23</span></a></li>
+<li class="toclevel-2 tocsection-10"><a href="#2011-11-24"><span class="tocnumber">6.4</span> <span class="toctext">2011-11-24</span></a></li>
+<li class="toclevel-2 tocsection-11"><a href="#2011-11-25"><span class="tocnumber">6.5</span> <span class="toctext">2011-11-25</span></a></li>
+<li class="toclevel-2 tocsection-12"><a href="#2012-1-31_.28BH11.11.E7.B5.82.E4.BA.86.E5.BE.8C.29"><span class="tocnumber">6.6</span> <span class="toctext">2012-1-31 (BH11.11終了後)</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-13"><a href="#.E3.83.A1.E3.83.B3.E3.83.90.E3.83.BC_.28.E6.89.80.E5.B1.9E.29_.E8.88.88.E5.91.B3"><span class="tocnumber">7</span> <span class="toctext">メンバー (所属) 興味</span></a></li>
+</ul>
+</td></tr></table><script>if (window.showTocToggle) { var tocShowText = "表示"; var tocHideText = "非表示"; showTocToggle(); } </script>
+<h2> <span class="mw-headline" id=".E7.9B.AE.E6.A8.99"> 目標 </span></h2>
+<ul><li> ヒトメタゲノム・環境メタゲノムのメタデータの内容を整理し、既存の制御語彙もしくはオントロジーと対応付ける方法を考える
+</li><li> 上記で設計した手法を実際のデータに適用しRDFデータをつくる
+</li></ul>
+<h2> <span class="mw-headline" id=".E8.AA.B2.E9.A1.8C"> 課題 </span></h2>
+<ul><li> ヒトメタゲノム、環境メタゲノムのメタデータに記述されている内容（カテゴリー内容）について検討する -mri
+<ul><li> メタデータの内容の統計値
+<ul><li> ヒトメタゲノム 7万サンプル 85 カテゴリー
+</li><li> 環境メタゲノム 4054サンプル 627 カテゴリー
+</li></ul>
+</li><li> マニュアルキュレーションでオントロジーなどと関連付けると有用なカテゴリー項目の選定
+</li><li> sanger (DDBJ FlatFile)の内容を検討 -kmn
+</li></ul>
+</li><li> オントロジーとの対応方法の検討 -so, yy, kwsm
+</li><li> マッピング手法の調査検討とプロトタイピング -so, yy, kwsm
+</li><li> NBRC菌株メタデータの内容と整理について -sgw
+<ul><li> 分離源、培地情報の整理とRDF設計
+</li></ul>
+</li></ul>
+<h2> <span class="mw-headline" id=".E6.88.90.E6.9E.9C"> 成果 </span></h2>
+<ul><li> 関連研究、プロジェクト情報の調査
+</li><li> 環境メタゲノム実験のメタデータの収集と整理　4054サンプル 627 カテゴリー
+</li><li> 環境メタゲノム実験の生育場所情報の各種既存オントロジーへのマッピング　11434語→401語
+</li><li> <a href="http://wiki.lifesciencedb.jp/mw/index.php/BH11.11/ヒト・環境メタゲノムメタデータのオントロジー整備とRDF化/ontology_mapping_manual#.E3.83.A1.E3.82.BF.E3.83.87.E3.83.BC.E3.82.BF-.E3.82.AA.E3.83.B3.E3.83.88.E3.83.AD.E3.82.B8.E3.83.BC.E3.83.9E.E3.83.83.E3.83.94.E3.83.B3.E3.82.B0.E4.BD.9C.E6.A5.AD.E3.83.9E.E3.83.8B.E3.83.A5.E3.82.A2.E3.83.AB" class="external text" rel="nofollow">マッピング作業手順ワークフロー、マニュアルの整備</a>
+<ul><li> <a href="http://wiki.lifesciencedb.jp/mw/index.php/BH11.11/山本作業記録" class="external text" rel="nofollow">マニュアルマッピング作業支援ツールの開発</a>
+</li></ul>
+</li><li> 環境メタゲノム実験の生育場所を記述するオントロジーの設計 <a href="http://wiki.lifesciencedb.jp/mw/index.php/ファイル:Meo_structure.png" class="external text" rel="nofollow">(MeO: Metagenome environmental Ontology)</a>
+</li><li> MeOによる環境メタゲノムへのアノテーション 1961サンプル（生育場所に関する情報のあるサンプル）
+</li><li> 環境メタゲノム実験のメタデータOWL/RDF化 約8000サンプル <a href="http://wiki.lifesciencedb.jp/mw/index.php/BH11.11/ヒト・環境メタゲノムメタデータのオントロジー整備とRDF化/emg_beta" class="external text" rel="nofollow">emg_beta1.ttl一部サンプル</a>
+</li><li> <a href="http://wiki.lifesciencedb.jp/mw/index.php/BH11.11/ヒト・環境メタゲノムメタデータのオントロジー整備とRDF化/ユースケース#.E3.83.A1.E3.82.BF.E3.82.B2.E3.83.8E.E3.83.A0.E3.81.AE.E3.83.A1.E3.82.BF.E3.83.87.E3.83.BC.E3.82.BF.E3.82.92.E6.95.B4.E7.90.86.E3.81.97.E3.81.9FDB.E3.81.AE.E3.83.A6.E3.83.BC.E3.82.B9.E3.82.B1.E3.83.BC.E3.82.B9" class="external text" rel="nofollow">作成したRDFデータの利用方法の検討</a>
+</li><li> SPAQL エンドポイントの公開
+</li></ul>
+<p>Default Graph IRI: <a href="http://dbcls.jp/emg/" class="external free" rel="nofollow">http://dbcls.jp/emg/</a>
+</p>
+<pre>prefix meo: &lt;<a href="http://dbcls.jp/meo/" class="external free" rel="nofollow">http://dbcls.jp/meo/</a>&gt;
+prefix envo: &lt;<a href="http://purl.obolibrary.org/obo/" class="external free" rel="nofollow">http://purl.obolibrary.org/obo/</a>&gt;
+prefix bs: &lt;<a href="http://www.ncbi.nlm.nih.gov/biosample/" class="external free" rel="nofollow">http://www.ncbi.nlm.nih.gov/biosample/</a>&gt;
+prefix emg: &lt;<a href="http://dbcls.jp/env_metagenome/" class="external free" rel="nofollow">http://dbcls.jp/env_metagenome/</a>&gt;
+prefix dbcore: &lt;<a href="http://biodbcore.org/" class="external free" rel="nofollow">http://biodbcore.org/</a>&gt;
+prefix obo: &lt;<a href="http://purl.obolibrary.org/obo/" class="external free" rel="nofollow">http://purl.obolibrary.org/obo/</a>&gt;
+SELECT&nbsp;?s&nbsp;?title&nbsp;?place
+WHERE {
+&nbsp;?s dbcore:id&nbsp;?id .
+&nbsp;?s dbcore:title&nbsp;?title .
+&nbsp;?s meo:environmental_feature&nbsp;?habitat1 .
+&nbsp;?s meo:environmental_feature&nbsp;?habitat2 .
+&nbsp;?habitat1&nbsp;?p "marine habitat"^^&lt;<a href="http://www.w3.org/2001/XMLSchema#string" class="external free" rel="nofollow">http://www.w3.org/2001/XMLSchema#string</a>&gt; .
+&nbsp;?s meo:place&nbsp;?place .
+}
+</pre>
+<h2> <span class="mw-headline" id=".E9.96.A2.E9.80.A3.E3.83.BB.E6.94.AF.E6.B5.81"> 関連・支流 </span></h2>
+<ul><li> BioProject, BioSample ヒアリング -kmn
+<ul><li>  DDBJ(GenBank flatfile)のENV divisionデータの整理: 
+<ul><li> ENV division = The ENV division of GenBank, for non-WGS sequences obtained via environmental sampling methods in which the source organism is unknown, debuted with release 147 in April 2005. <a href="http://www.ncbi.nlm.nih.gov/pmc/articles/PMC1347519/" class="external text" rel="nofollow">(Benson et al. 2006)</a> Sangerシークエンサーによるメタゲノム解析やメタ16S解析のデータなどが含まれる。
+</li></ul>
+</li></ul>
+</li></ul>
+<p>　　　　　Release 87.0(2011/9版) SOURCE /isolation_source, Accession数=約370万, <a href="https://docs.google.com/a/g.nig.ac.jp/spreadsheet/ccc?key=0AopqrXBmOo3XdEY1Z0x3ODZBT0UyR0Y3a3NBODFFWUE&amp;hl=ja#gid=0" class="external text" rel="nofollow">ユニークタグ数=18,428</a>
+</p>
+<ul><li> 論文マイニングによる元データの拡張 -ota
+<ul><li> 論文出てるメタゲらしきデータ。57個。 <a href="http://g86.dbcls.jp/~inut/dono/publication_metagenome.html" class="external free" rel="nofollow">http://g86.dbcls.jp/~inut/dono/publication_metagenome.html</a>
+<ul><li> 「メタゲらしき」 means whose scientific name for given taxon id includes string "metagenome"
+</li></ul>
+</li><li> study_type="metagenomics" なデータで、論文が出てるもの、ジャーナル一覧。
+<ul><li> proceedings of the national academy of sciences of the united states of america 13
+</li><li> plos one 13
+</li><li> environmental microbiology 6
+</li><li> plos biology 5
+</li><li> bmc genomics 5
+</li><li> nature 4
+</li><li> isme j 4
+</li><li> bmc microbiology 4
+</li><li> applied and environmental microbiology 4
+</li><li> plos pathogens 3
+</li><li> mol ecol 3
+</li><li> j virol 3
+</li><li> genome research 3
+</li><li> science 2
+</li><li> applied microbiology and biotechnology 2
+</li><li> sci transl med 1
+</li><li> plos neglected tropical diseases 1
+</li><li> plos genet 1
+</li><li> nucleic acids res 1
+</li><li> nat med 1
+</li><li> microb ecol 1
+</li><li> j clin invest 1
+</li><li> genome biology 1
+</li><li> frontiers in microbiology 1
+</li><li> fems microbiol ecol 1
+</li><li> fems immunol med microbiology 1
+</li><li> emerg infect dis 1
+</li><li> bmc biology 1
+</li><li> biodegradation 1
+</li><li> astrobiology 1
+</li></ul>
+</li><li> metagenomicsだと微生物だけでなくてウイルスメタゲ的なのも入ってしまうのと、WGS, RNA-seq等の別のstudy_typeに入ったやつは入らないのでたぶん網羅出来てはいません。上の一覧はあくまでどの辺りへの投稿が多めなのか調査です。
+</li><li> PubmedCentralで全文がフリーで公開されているのでとりあえずPMCと、以前やりかけていたPLoS, BMC系ジャーナルのHTMLパーサー書いた。
+<ul><li> じゃあ三本でmetagenomics絡み論文をばとりあえず斬ってみませうかというあたりでタイムアップ…
+</li></ul>
+</li><li> SRAデータ付随のメタデータよりも多く、正確な情報が追加されることを期待していますが、実際どのくらい補えるかはわかりません…
+<ul><li> これまで見てきた感じだと、論文が出てるデータはsubmissionもしっかりしていてメタデータ親切に書いてくれてるケースが多いような気がします[要出展]
+</li></ul>
+</li><li> supplementaryのExcel, Word, and pdfなどのダウンロードして見る系のデータをplain textにconvertするようにもしました
+<ul><li> figure legendやテーブルの中の文字までプレーンに起こせば機械的にexact matchのオントロジに当てたり出来ないかな、どうかな的。
+</li></ul>
+</li><li> 切ったものをファイルとして吐くところ or web interfaceがあとちょっと残ってるので、それが終わったらここにGitHubなりで諸々置いておきます。
+</li></ul>
+</li></ul>
+<h2> <span class="mw-headline" id=".E5.B0.86.E6.9D.A5.E7.9A.84.E3.81.AA.E9.80.A3.E6.90.BA.EF.BC.9F"> 将来的な連携？ </span></h2>
+<ul><li> メタデータによる各機関のリソース連携案 -kmn
+</li></ul>
+<p><a href="/mw/%E3%83%95%E3%82%A1%E3%82%A4%E3%83%AB:Ek_hackathon1.PNG" class="image"><img alt="Ek hackathon1.PNG" src="/mw/images/f/f6/Ek_hackathon1.PNG" width="575" height="404" /></a>
+</p>
+<hr />
+<h2> <span class="mw-headline" id=".E4.BD.9C.E6.A5.AD.E3.83.AD.E3.82.B0">作業ログ</span></h2>
+<h3> <span class="mw-headline" id="2011-11-21"> 2011-11-21 </span></h3>
+<ul><li> メタデータのどのカテゴリーを対象とするか
+</li></ul>
+<ul><li><ul><li> 環境メタゲノムの生育場所に関連する情報を対象にする
+</li></ul>
+</li><li> どのようなオントロジーを使うか
+<ul><li> 先行研究のサーベイ
+<ul><li> <a href="http://gensc.org/gc_wiki/index.php/GSC_EnvO_Case_Study" class="external text" rel="nofollow">Genome Standard ConsortiumでのEnvOとGOLDのマッピング試み</a>
+</li><li> <a href="http://gensc.org/gc_wiki/images/7/78/Dino_gsc_bremen.ppt" class="external text" rel="nofollow">GOLDにおけるゲノム・メタゲノムのHabitatデータとEnvOとのマッピング</a> 方向性は同じ、違いはRDF化するかしないか、predicateに何を使うか、など。
+</li><li> <a href="http://nar.oxfordjournals.org/content/early/2011/07/06/nar.gkr538.full" class="external text" rel="nofollow">PhenomeNet</a> Robert論文
+</li><li> <a href="http://gensc.org/gc_wiki/images/f/f0/Buttigieg_-_GSC12_EnvO_Ecogen.ppt" class="external text" rel="nofollow">5255株の細菌について、分離源をEnvO-Liteで表現した試み</a> 分離源の記述にもEnvO-Liteが用いられている。
+</li><li> <a href="http://obo.cvs.sourceforge.net/viewvc/obo/obo/ontology/environmental/EnvO-Lite-GSC.obo?revision=1.4&amp;view=markup" class="external text" rel="nofollow">EnvO-Lite</a> 20タームのみ定義されている。Habitatの大分類としては使えるかも。
+</li><li> <a href="http://metagenomics.anl.gov/metagenomics.cgi?page=MetagenomeSearch" class="external text" rel="nofollow">MG-RASTのメタゲノムメタデータ検索</a> メタデータを<a href="ftp://ftp.metagenomics.anl.gov/metagenomes/29/metadata.project-29.xml" class="external text" rel="nofollow">XML形式</a>で記述し、project_descriptionの文章を全文検索してユーザが入力したワードにマッチするメタゲノムサンプルを一覧表示。オントロジーは特に使っていない。環境の大まかな分類(Biome)は、EnvO-Liteを用いているように見える。
+</li></ul>
+</li><li> カテゴリー選抜した値のみを<a href="http://bioportal.bioontology.org/recommender" class="external text" rel="nofollow">BioPortal Ontolo gy Recommender</a>に再度投げて推薦オントロジーの内容を精査する
+<ul><li> 検索結果のオントロジー規模の偏りを標準化する秘密のコマンドを金さんに聞くこと
+</li></ul>
+</li></ul>
+</li></ul>
+<ul><li> マッピング作業の設計
+<ul><li> predicateの選定 - so, kwsm, yy, kim
+<ul><li> <a href="http://www.w3.org/TR/skos-reference/#mapping" class="external text" rel="nofollow">skos</a>
+</li><li> <a href="http://www.w3.org/TR/rdf-schema/" class="external text" rel="nofollow">rdfs</a>
+</li><li> <a href="http://www.foaf-project.org/" class="external text" rel="nofollow">foaf</a>
+</li><li> <a href="http://www.w3.org/TR/owl-ref/" class="external text" rel="nofollow">owl</a>
+</li><li> <a href="http://rdfs.org/sioc/spec/" class="external text" rel="nofollow">sioc</a>
+</li></ul>
+</li><li> カテゴリー名の名寄せ
+<ul><li> カテゴリーのピックアップ (済) → ファイル共有
+</li><li> カテゴリ内の値を取る (済) → ファイル共有
+</li><li> Habitatに関するカテゴリーは39カテゴリー
+</li><li> カテゴリー名の表記ゆれの個別の値、サンプルIDをトレースできるようにする
+</li></ul>
+</li><li> Test (例)の設計重要 -kim
+</li><li> サンプルアノテーション or ワードのマッピング？ とりあえず単語のマッピング
+<ul><li> 文章の場合はワードにどうやって分ける？
+</li></ul>
+</li></ul>
+</li><li> 作業設計のまとめ
+<ul><li> 利用ボキャブラリー, オントロジー, predicate, を元に作業マニュアルを共有
+<ul><li> <a href="http://wiki.lifesciencedb.jp/mw/index.php/BH11.11/ヒト・環境メタゲノムメタデータのオントロジー整備とRDF化/ontology_mapping_manual#.E3.83.A1.E3.82.BF.E3.83.87.E3.83.BC.E3.82.BF-.E3.82.AA.E3.83.B3.E3.83.88.E3.83.AD.E3.82.B8.E3.83.BC.E3.83.9E.E3.83.83.E3.83.94.E3.83.B3.E3.82.B0.E4.BD.9C.E6.A5.AD.E3.83.9E.E3.83.8B.E3.83.A5.E3.82.A2.E3.83.AB" class="external text" rel="nofollow">作業マニュアル</a>
+</li></ul>
+</li></ul>
+</li><li> 作業分担
+</li><li> 想定している<a href="http://wiki.lifesciencedb.jp/mw/index.php/BH11.11/ヒト・環境メタゲノムメタデータのオントロジー整備とRDF化/ユースケース#.E3.83.A1.E3.82.BF.E3.82.B2.E3.83.8E.E3.83.A0.E3.81.AE.E3.83.A1.E3.82.BF.E3.83.87.E3.83.BC.E3.82.BF.E3.82.92.E6.95.B4.E7.90.86.E3.81.97.E3.81.9FDB.E3.81.AE.E3.83.A6.E3.83.BC.E3.82.B9.E3.82.B1.E3.83.BC.E3.82.B9" class="external text" rel="nofollow">ユースケース</a>の列挙
+</li><li> LODチャレンジへの応募を検討する
+<ul><li> <a href="http://lod.sfc.keio.ac.jp/challenge2011/index.html" class="external text" rel="nofollow">LODチャレンジ</a>
+</li></ul>
+</li></ul>
+<h3> <span class="mw-headline" id="2011-11-22"> 2011-11-22 </span></h3>
+<ul><li> 森さんが作成した、1961 のSRSサンプルに対して、環境に関係するメタデータが記述された39カテゴリーのメタデータ一覧をEnvOにマッピング
+</li><li> とりあえず、5人で、それぞれ30 SRSサンプルずつ、EnvOにマッピングし、それぞれの作業結果を全員でレビューした
+</li><li> 1,961のサンプルに記述された環境メタデータの総数は3000程度
+</li></ul>
+<h3> <span class="mw-headline" id="2011-11-23"> 2011-11-23 </span></h3>
+<ul><li> 森さんが、3000強あった、SRAの環境に関係しそうなタームを、400程度にまで減らしたリストを作成
+</li><li> 400のタームについては、マニュアルでマッピングすることにした。
+</li><li> 昨日、作業した120については、各自の担当分を記入するだけなので、残りは約300。=&gt;ほぼ完成
+</li><li> マップされたEnvO IDが、EnvOのどの階層に登場するか調査した.
+<ul><li> [<a href="http://wiki.lifesciencedb.jp/mw/index.php/BH11.11/ヒト・環境メタゲノムメタデータのオントロジー整備とRDF化/envo_hierarchy#EnvO.E3.81.AE.E9.9A.8E.E5.B1.A4.E6.A7.8B.E9.80.A0" class="external free" rel="nofollow">http://wiki.lifesciencedb.jp/mw/index.php/BH11.11/ヒト・環境メタゲノムメタデータのオントロジー整備とRDF化/envo_hierarchy#EnvO.E3.81.AE.E9.9A.8E.E5.B1.A4.E6.A7.8B.E9.80.A0</a> EnvOの階層構造（第三階層まで）
+</li><li> 第一階層としては、"biome" (ENVO:00000428), "environmental feature" (ENVO:00002297), "environmental material" (ENVO:00010483) の3つだけであった。
+</li></ul>
+</li><li> これらの結果から、メタゲノム・ゲノムの生育環境オントロジーをどのように設計するか考察した。
+<ul><li> オントロジー構造の変更
+</li><li> 現状のEnvOだと足りない点を別のオントロジーで補う
+</li><li> 候補としては、 場所のオントロジーとして、OGR: Ontology of Geographical Region  や OBIS: Ocean Biogeographic Information System等。 Habitatの、アナトミー関連のオントロジーとして、FMA: Foundational Model of Anatomy ontology, PO: Plant Ontology  等。
+</li><li> 参考リンク <a href="http://en.wikipedia.org/wiki/Saline_water" class="external text" rel="nofollow">Wikipedia:Saline water</a>
+</li></ul>
+</li></ul>
+<h3> <span class="mw-headline" id="2011-11-24"> 2011-11-24 </span></h3>
+<ul><li> Microbe environment Ontology (MeO)のデザインを修正
+</li></ul>
+<p><a href="/mw/%E3%83%95%E3%82%A1%E3%82%A4%E3%83%AB:Meo_structure.png" class="image"><img alt="Meo structure.png" src="/mw/images/thumb/c/cc/Meo_structure.png/800px-Meo_structure.png" width="800" height="428" /></a>
+</p>
+<ul><li> 追加オントロジーのマッピング
+<ul><li> EnvOではタームの足りない部分に<a href="http://sig.biostr.washington.edu/projects/fm/" class="external text" rel="nofollow">FMA</a>（動物アナトミー）, <a href="http://plantontology.org/" class="external text" rel="nofollow">PO</a>（植物アナトミー）, <a href="http://bioportal.bioontology.org/ontologies/40651" class="external text" rel="nofollow">GAZETTEER</a>（地名索引）, Taxonomy IDを利用して表現
+</li><li> <a href="http://wiki.lifesciencedb.jp/mw/index.php/BH11.11/ヒト・環境メタゲノムメタデータのオントロジー整備とRDF化/mapping_sample" class="external text" rel="nofollow">マッピングの例</a>
+</li></ul>
+</li><li> マッピング作業の整理とマニュアル化
+</li><li> マッピング作業支援ツールの開発
+<ul><li> <a href="/mw/BH11.11/%E5%B1%B1%E6%9C%AC%E4%BD%9C%E6%A5%AD%E8%A8%98%E9%8C%B2" title="BH11.11/山本作業記録">ターム生成のためのフィルタ群</a> -yy
+</li><li> オントロジーサーチ -kim
+</li></ul>
+</li><li> LODチャレンジへの参加を検討
+</li><li> TODO
+<ul><li> MeOのデザインの改善
+</li><li> Protegeを用いてMeOをOW/RDF化する
+</li><li> SRS アノテーション作業の設計
+</li></ul>
+</li></ul>
+<h3> <span class="mw-headline" id="2011-11-25"> 2011-11-25 </span></h3>
+<ul><li> MeO作成のためのオントロジーマージ操作とOWL/RDF化 → Protege/BioPortalがうまく動作せず断念
+</li><li> マッピングファイルの修正
+</li><li> SRS IDに対するMeOを用いたアノテーションの設計
+</li><li> SRS RDFの作成
+</li><li> Virtuosoへのアップロードテスト
+</li><li> まとめ
+</li></ul>
+<h3> <span class="mw-headline" id="2012-1-31_.28BH11.11.E7.B5.82.E4.BA.86.E5.BE.8C.29"> 2012-1-31 (BH11.11終了後) </span></h3>
+<ul><li> マッピングファイルの修正
+</li><li> MeO作成のためのオントロジーマージ操作とOWL化
+<ul><li> <a href="http://wiki.lifesciencedb.jp/mw/index.php/BH11.11/ヒト・環境メタゲノムメタデータのオントロジー整備とRDF化/GAZETTEERのOBOtoOWL変換に関して" class="external text" rel="nofollow">GAZETTEERのOBOtoOWL変換</a>
+</li><li> <a href="http://wiki.lifesciencedb.jp/mw/index.php/BH11.11/ヒト・環境メタゲノムメタデータのオントロジー整備とRDF化/TopBraidComposer諸々" class="external text" rel="nofollow">TopBraidComposerでのマージ作業に挑戦し失敗</a>
+</li><li> OBO-Edit2を用いてoboファイルをマージ+owlファイルへの変換
+<ul><li> <a href="http://wiki.lifesciencedb.jp/mw/index.php/BH11.11/ヒト・環境メタゲノムメタデータのオントロジー整備とRDF化/envo.oboとncbi_taxonomy.oboの修正点" class="external text" rel="nofollow">envo.oboとncbi taxonomy.oboの修正</a>
+</li></ul>
+</li></ul>
+</li></ul>
+<p><a href="/mw/%E3%83%95%E3%82%A1%E3%82%A4%E3%83%AB:MEOStructure.png" class="image"><img alt="MEOStructure.png" src="/mw/images/9/9b/MEOStructure.png" width="606" height="405" /></a>
+</p>
+<ul><li> SRS RDFの作成
+</li><li> プロジェクトページの作成
+</li><li> LODチャレンジへのSubmit
+</li></ul>
+<p><br />
+</p>
+<h2> <span class="mw-headline" id=".E3.83.A1.E3.83.B3.E3.83.90.E3.83.BC_.28.E6.89.80.E5.B1.9E.29_.E8.88.88.E5.91.B3"> メンバー (所属) 興味 </span></h2>
+<ul><li> 菅原先生 (DDBJ) 培地・分離源情報のRDF化 [sgw]
+</li><li> 重元さん (DDBJ) GTPS, 各種RDF化
+</li><li> 大田さん (DBCLS) SRAメタデータ整理 NGSデータ整理 [ota]
+</li><li> 内藤さん (DBCLS) "GGRNA"高速配列検索, RNA配列, DNA配列
+</li><li> 金さん（DBCLS）オントロジー, テキストマイニング [kim]
+</li><li> 岡本 (DBCLS) アノテーション, キュレーション, 微生物ゲノム [so]
+</li><li> 内山先生 (NIBB) オーソログ分類→メタゲノム, MBGD
+</li><li> 西出さん (NIBB) MBGD開発実務
+</li><li> 千葉さん (NIBB) MBGD開発実務, 微生物統合プロジェクト
+</li><li> 川島さん (HGC) ゲノム環境オントロジー, LinkDB RDF化 [kwsm]
+</li><li> 山本さん (DBCLS) Text Mining, 表記ゆれの吸収など [yy]
+</li><li> 中村教授 (DDBJ) DRA, INSDC, 微生物ゲノム [yn]
+</li><li> 神沼さん (DDBJ) DRA, DTA, DOR/CIBEX, BioSample, BioProject [kmn]
+</li><li> 黒川先生（東工大）メタゲノム比較, microbe.jp, 微生物統合プロジェクト
+</li><li> 森さん (東工大) メタゲノム比較, microbe.jp, 微生物統合プロジェクト [mri]
+</li><li> 竹原さん (東工大) メタゲノム比較, 微生物統合プロジェクト
+</li><li> 吉野さん (東工大) メタゲノム比較, 微生物統合プロジェクト
+</li><li> 後藤さん (阪大) 病原菌メタゲノム, OpenBio
+</li></ul>
+<hr />
+<ul><li> <a href="http://wiki.lifesciencedb.jp/mw/index.php/BH11.11" class="external text" rel="nofollow">BH11.11 Top page</a>
+</li></ul>
+
+<!-- 
+NewPP limit report
+Preprocessor node count: 50/1000000
+Post-expand include size: 0/2097152 bytes
+Template argument size: 0/2097152 bytes
+Expensive parser function count: 0/100
+-->
+
+<!-- Saved in parser cache with key wikidb-togowiki_:pcache:idhash:84-0!1!0!!ja!2!edit=0 and timestamp 20230605014523 -->
+<div class="printfooter">
+「<a href="http://wiki.lifesciencedb.jp/mw/BH11.11/%E3%83%92%E3%83%88%E3%83%BB%E7%92%B0%E5%A2%83%E3%83%A1%E3%82%BF%E3%82%B2%E3%83%8E%E3%83%A0%E3%83%A1%E3%82%BF%E3%83%87%E3%83%BC%E3%82%BF%E3%81%AE%E3%82%AA%E3%83%B3%E3%83%88%E3%83%AD%E3%82%B8%E3%83%BC%E6%95%B4%E5%82%99%E3%81%A8RDF%E5%8C%96">http://wiki.lifesciencedb.jp/mw/BH11.11/%E3%83%92%E3%83%88%E3%83%BB%E7%92%B0%E5%A2%83%E3%83%A1%E3%82%BF%E3%82%B2%E3%83%8E%E3%83%A0%E3%83%A1%E3%82%BF%E3%83%87%E3%83%BC%E3%82%BF%E3%81%AE%E3%82%AA%E3%83%B3%E3%83%88%E3%83%AD%E3%82%B8%E3%83%BC%E6%95%B4%E5%82%99%E3%81%A8RDF%E5%8C%96</a>」より作成</div>
+		<div id='catlinks' class='catlinks catlinks-allhidden'></div>		<!-- end content -->
+				<div class="visualClear"></div>
+	</div>
+</div></div>
+<div id="column-one">
+	<div id="p-cactions" class="portlet">
+		<h5>表示</h5>
+		<div class="pBody">
+			<ul>
+				 <li id="ca-nstab-main" class="selected"><a href="/mw/BH11.11/%E3%83%92%E3%83%88%E3%83%BB%E7%92%B0%E5%A2%83%E3%83%A1%E3%82%BF%E3%82%B2%E3%83%8E%E3%83%A0%E3%83%A1%E3%82%BF%E3%83%87%E3%83%BC%E3%82%BF%E3%81%AE%E3%82%AA%E3%83%B3%E3%83%88%E3%83%AD%E3%82%B8%E3%83%BC%E6%95%B4%E5%82%99%E3%81%A8RDF%E5%8C%96" title="本文を表示 [c]" accesskey="c">ページ</a></li>
+				 <li id="ca-talk" class="new"><a href="/mw/index.php?title=%E3%83%8E%E3%83%BC%E3%83%88:BH11.11/%E3%83%92%E3%83%88%E3%83%BB%E7%92%B0%E5%A2%83%E3%83%A1%E3%82%BF%E3%82%B2%E3%83%8E%E3%83%A0%E3%83%A1%E3%82%BF%E3%83%87%E3%83%BC%E3%82%BF%E3%81%AE%E3%82%AA%E3%83%B3%E3%83%88%E3%83%AD%E3%82%B8%E3%83%BC%E6%95%B4%E5%82%99%E3%81%A8RDF%E5%8C%96&amp;action=edit&amp;redlink=1" title="記事についての議論 [t]" accesskey="t">議論</a></li>
+				 <li id="ca-viewsource"><a href="/mw/index.php?title=BH11.11/%E3%83%92%E3%83%88%E3%83%BB%E7%92%B0%E5%A2%83%E3%83%A1%E3%82%BF%E3%82%B2%E3%83%8E%E3%83%A0%E3%83%A1%E3%82%BF%E3%83%87%E3%83%BC%E3%82%BF%E3%81%AE%E3%82%AA%E3%83%B3%E3%83%88%E3%83%AD%E3%82%B8%E3%83%BC%E6%95%B4%E5%82%99%E3%81%A8RDF%E5%8C%96&amp;action=edit" title="このページは保護されています。&#10;ページのソースを閲覧できます。 [e]" accesskey="e">ソースを表示</a></li>
+				 <li id="ca-history"><a href="/mw/index.php?title=BH11.11/%E3%83%92%E3%83%88%E3%83%BB%E7%92%B0%E5%A2%83%E3%83%A1%E3%82%BF%E3%82%B2%E3%83%8E%E3%83%A0%E3%83%A1%E3%82%BF%E3%83%87%E3%83%BC%E3%82%BF%E3%81%AE%E3%82%AA%E3%83%B3%E3%83%88%E3%83%AD%E3%82%B8%E3%83%BC%E6%95%B4%E5%82%99%E3%81%A8RDF%E5%8C%96&amp;action=history" title="このページの過去の版 [h]" accesskey="h">履歴</a></li>
+			</ul>
+		</div>
+	</div>
+	<div class="portlet" id="p-personal">
+		<h5>個人用ツール</h5>
+		<div class="pBody">
+			<ul>
+				<li id="pt-anonuserpage"><a href="/mw/%E5%88%A9%E7%94%A8%E8%80%85:172.18.8.51" title="自分が編集しているIPアドレスの利用者ページ [.]" accesskey="." class="new">172.18.8.51</a></li>
+				<li id="pt-anontalk"><a href="/mw/%E5%88%A9%E7%94%A8%E8%80%85%E2%80%90%E4%BC%9A%E8%A9%B1:172.18.8.51" title="このIPアドレスからなされた編集についての議論 [n]" accesskey="n" class="new">このIPアドレスのトーク</a></li>
+				<li id="pt-anonlogin"><a href="/mw/index.php?title=%E7%89%B9%E5%88%A5:%E3%83%AD%E3%82%B0%E3%82%A4%E3%83%B3&amp;returnto=BH11.11/%E3%83%92%E3%83%88%E3%83%BB%E7%92%B0%E5%A2%83%E3%83%A1%E3%82%BF%E3%82%B2%E3%83%8E%E3%83%A0%E3%83%A1%E3%82%BF%E3%83%87%E3%83%BC%E3%82%BF%E3%81%AE%E3%82%AA%E3%83%B3%E3%83%88%E3%83%AD%E3%82%B8%E3%83%BC%E6%95%B4%E5%82%99%E3%81%A8RDF%E5%8C%96&amp;returntoquery=oldid%3D2187" title="ログインすることが推奨されます。ただし、必須ではありません。 [o]" accesskey="o">ログイン</a></li>
+				<li id="pt-openidlogin"><a href="/mw/index.php?title=%E7%89%B9%E5%88%A5:OpenID%E3%83%AD%E3%82%B0%E3%82%A4%E3%83%B3&amp;returnto=BH11.11/%E3%83%92%E3%83%88%E3%83%BB%E7%92%B0%E5%A2%83%E3%83%A1%E3%82%BF%E3%82%B2%E3%83%8E%E3%83%A0%E3%83%A1%E3%82%BF%E3%83%87%E3%83%BC%E3%82%BF%E3%81%AE%E3%82%AA%E3%83%B3%E3%83%88%E3%83%AD%E3%82%B8%E3%83%BC%E6%95%B4%E5%82%99%E3%81%A8RDF%E5%8C%96">OpenIDでログイン</a></li>
+			</ul>
+		</div>
+	</div>
+	<div class="portlet" id="p-logo">
+		<a style="background-image: url(/mw/images/togowiki-logo.png);" href="/mw/%E3%83%A1%E3%82%A4%E3%83%B3%E3%83%9A%E3%83%BC%E3%82%B8" title="メインページに移動"></a>
+	</div>
+	<script type="text/javascript"> if (window.isMSIE55) fixalpha(); </script>
+	<div class='generated-sidebar portlet' id='p-navigation'>
+		<h5>案内</h5>
+		<div class='pBody'>
+			<ul>
+				<li id="n-mainpage-description"><a href="/mw/%E3%83%A1%E3%82%A4%E3%83%B3%E3%83%9A%E3%83%BC%E3%82%B8" title="メインページに移動する [z]" accesskey="z">メインページ</a></li>
+				<li id="n-portal"><a href="/mw/TogoWiki:%E3%82%B3%E3%83%9F%E3%83%A5%E3%83%8B%E3%83%86%E3%82%A3%E3%83%BB%E3%83%9D%E3%83%BC%E3%82%BF%E3%83%AB" title="このプロジェクトについて、できること、情報を入手する場所">コミュニティ・ポータル</a></li>
+				<li id="n-currentevents"><a href="/mw/TogoWiki:%E6%9C%80%E8%BF%91%E3%81%AE%E5%87%BA%E6%9D%A5%E4%BA%8B" title="最近の出来事について予備知識を得る">最近の出来事</a></li>
+				<li id="n-recentchanges"><a href="/mw/%E7%89%B9%E5%88%A5:%E6%9C%80%E8%BF%91%E3%81%AE%E6%9B%B4%E6%96%B0" title="ウィキにおける最近の更新の一覧 [r]" accesskey="r">最近の更新</a></li>
+				<li id="n-randompage"><a href="/mw/%E7%89%B9%E5%88%A5:%E3%81%8A%E3%81%BE%E3%81%8B%E3%81%9B%E8%A1%A8%E7%A4%BA" title="無作為に抽出されたページの読み込み [x]" accesskey="x">おまかせ表示</a></li>
+				<li id="n-help"><a href="/mw/Help:%E7%9B%AE%E6%AC%A1" title="情報を得る場所">ヘルプ</a></li>
+			</ul>
+		</div>
+	</div>
+	<div id="p-search" class="portlet">
+		<h5><label for="searchInput">検索</label></h5>
+		<div id="searchBody" class="pBody">
+			<form action="/mw/index.php" id="searchform">
+				<input type='hidden' name="title" value="特別:検索"/>
+				<input id="searchInput" title="TogoWiki内を検索" accesskey="f" type="search" name="search" />
+				<input type='submit' name="go" class="searchButton" id="searchGoButton"	value="表示" title="厳密に一致する名前のページが存在すれば、そのページへ移動します" />&nbsp;
+				<input type='submit' name="fulltext" class="searchButton" id="mw-searchButton" value="検索" title="入力された文字列が含まれるページを検索します" />
+			</form>
+		</div>
+	</div>
+	<div class="portlet" id="p-tb">
+		<h5>ツールボックス</h5>
+		<div class="pBody">
+			<ul>
+				<li id="t-whatlinkshere"><a href="/mw/%E7%89%B9%E5%88%A5:%E3%83%AA%E3%83%B3%E3%82%AF%E5%85%83/BH11.11/%E3%83%92%E3%83%88%E3%83%BB%E7%92%B0%E5%A2%83%E3%83%A1%E3%82%BF%E3%82%B2%E3%83%8E%E3%83%A0%E3%83%A1%E3%82%BF%E3%83%87%E3%83%BC%E3%82%BF%E3%81%AE%E3%82%AA%E3%83%B3%E3%83%88%E3%83%AD%E3%82%B8%E3%83%BC%E6%95%B4%E5%82%99%E3%81%A8RDF%E5%8C%96" title="ここにリンクしている全ウィキのページの一覧 [j]" accesskey="j">リンク元</a></li>
+				<li id="t-recentchangeslinked"><a href="/mw/%E7%89%B9%E5%88%A5:%E9%96%A2%E9%80%A3%E3%83%9A%E3%83%BC%E3%82%B8%E3%81%AE%E6%9B%B4%E6%96%B0%E7%8A%B6%E6%B3%81/BH11.11/%E3%83%92%E3%83%88%E3%83%BB%E7%92%B0%E5%A2%83%E3%83%A1%E3%82%BF%E3%82%B2%E3%83%8E%E3%83%A0%E3%83%A1%E3%82%BF%E3%83%87%E3%83%BC%E3%82%BF%E3%81%AE%E3%82%AA%E3%83%B3%E3%83%88%E3%83%AD%E3%82%B8%E3%83%BC%E6%95%B4%E5%82%99%E3%81%A8RDF%E5%8C%96" title="このページからリンクしているページの最近の更新 [k]" accesskey="k">関連ページの更新状況</a></li>
+<li id="t-specialpages"><a href="/mw/%E7%89%B9%E5%88%A5:%E7%89%B9%E5%88%A5%E3%83%9A%E3%83%BC%E3%82%B8%E4%B8%80%E8%A6%A7" title="特別ページの一覧 [q]" accesskey="q">特別ページ</a></li>
+				<li id="t-print"><a href="/mw/index.php?title=BH11.11/%E3%83%92%E3%83%88%E3%83%BB%E7%92%B0%E5%A2%83%E3%83%A1%E3%82%BF%E3%82%B2%E3%83%8E%E3%83%A0%E3%83%A1%E3%82%BF%E3%83%87%E3%83%BC%E3%82%BF%E3%81%AE%E3%82%AA%E3%83%B3%E3%83%88%E3%83%AD%E3%82%B8%E3%83%BC%E6%95%B4%E5%82%99%E3%81%A8RDF%E5%8C%96&amp;oldid=2187&amp;printable=yes" rel="alternate" title="このページの印刷用ページ [p]" accesskey="p">印刷用バージョン</a></li>				<li id="t-permalink"><a href="/mw/index.php?title=BH11.11/%E3%83%92%E3%83%88%E3%83%BB%E7%92%B0%E5%A2%83%E3%83%A1%E3%82%BF%E3%82%B2%E3%83%8E%E3%83%A0%E3%83%A1%E3%82%BF%E3%83%87%E3%83%BC%E3%82%BF%E3%81%AE%E3%82%AA%E3%83%B3%E3%83%88%E3%83%AD%E3%82%B8%E3%83%BC%E6%95%B4%E5%82%99%E3%81%A8RDF%E5%8C%96&amp;oldid=2187" title="ページのこの版への固定リンク">この版への固定リンク</a></li>			</ul>
+		</div>
+	</div>
+</div><!-- end of the left (by default at least) column -->
+<div class="visualClear"></div>
+<div id="footer">
+	<div id="f-poweredbyico"><a href="http://www.mediawiki.org/"><img src="/mw/skins/common/images/poweredby_mediawiki_88x31.png" height="31" width="88" alt="Powered by MediaWiki" /></a></div>
+	<div id="f-copyrightico"><a href="http://creativecommons.org/licenses/by/3.0/"><img src="http://i.creativecommons.org/l/by/3.0/88x31.png" alt="Attribution 3.0 Unported" width="88" height="31" /></a></div>
+	<ul id="f-list">
+		<li id="copyright">内容は<a href="http://creativecommons.org/licenses/by/3.0/" class="external ">Attribution 3.0 Unported</a>のライセンスで利用することができます。</li>
+		<li id="privacy"><a href="/mw/TogoWiki:%E3%83%97%E3%83%A9%E3%82%A4%E3%83%90%E3%82%B7%E3%83%BC%E3%83%BB%E3%83%9D%E3%83%AA%E3%82%B7%E3%83%BC" title="TogoWiki:プライバシー・ポリシー">プライバシー・ポリシー</a></li>
+		<li id="about"><a href="/mw/TogoWiki:TogoWiki%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6" title="TogoWiki:TogoWikiについて">TogoWikiについて</a></li>
+		<li id="disclaimer"><a href="/mw/TogoWiki:%E5%85%8D%E8%B2%AC%E4%BA%8B%E9%A0%85" title="TogoWiki:免責事項">免責事項</a></li>
+	</ul>
+</div>
+</div>
+
+<script>if (window.runOnloadHook) runOnloadHook();</script>
+<!-- Served in 0.640 secs. --></body></html>

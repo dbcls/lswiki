@@ -1,0 +1,626 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html lang="ja" dir="ltr">
+<head>
+<title>Galaxy ツールを作る - TogoWiki</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta name="generator" content="MediaWiki 1.16.3" />
+<link rel="shortcut icon" href="/favicon.ico" />
+<link rel="search" type="application/opensearchdescription+xml" href="/mw/opensearch_desc.php" title="TogoWiki (ja)" />
+<link title="Creative Commons" type="application/rdf+xml" href="/mw/index.php?title=Galaxy_%E3%83%84%E3%83%BC%E3%83%AB%E3%82%92%E4%BD%9C%E3%82%8B&amp;action=creativecommons" rel="meta" />
+<link rel="copyright" href="http://creativecommons.org/licenses/by/3.0/" />
+<link rel="alternate" type="application/atom+xml" title="TogoWikiのAtomフィード" href="/mw/index.php?title=%E7%89%B9%E5%88%A5:%E6%9C%80%E8%BF%91%E3%81%AE%E6%9B%B4%E6%96%B0&amp;feed=atom" />
+<link rel="stylesheet" href="/mw/skins/common/shared.css?270" media="screen" />
+<link rel="stylesheet" href="/mw/skins/common/commonPrint.css?270" media="print" />
+<link rel="stylesheet" href="/mw/skins/monobook/main.css?270" media="screen" />
+<!--[if lt IE 5.5000]><link rel="stylesheet" href="/mw/skins/monobook/IE50Fixes.css?270" media="screen" /><![endif]-->
+<!--[if IE 5.5000]><link rel="stylesheet" href="/mw/skins/monobook/IE55Fixes.css?270" media="screen" /><![endif]-->
+<!--[if IE 6]><link rel="stylesheet" href="/mw/skins/monobook/IE60Fixes.css?270" media="screen" /><![endif]-->
+<!--[if IE 7]><link rel="stylesheet" href="/mw/skins/monobook/IE70Fixes.css?270" media="screen" /><![endif]-->
+<link rel="stylesheet" href="/mw/index.php?title=MediaWiki:Common.css&amp;usemsgcache=yes&amp;ctype=text%2Fcss&amp;smaxage=18000&amp;action=raw&amp;maxage=18000" />
+<link rel="stylesheet" href="/mw/index.php?title=MediaWiki:Print.css&amp;usemsgcache=yes&amp;ctype=text%2Fcss&amp;smaxage=18000&amp;action=raw&amp;maxage=18000" media="print" />
+<link rel="stylesheet" href="/mw/index.php?title=MediaWiki:Monobook.css&amp;usemsgcache=yes&amp;ctype=text%2Fcss&amp;smaxage=18000&amp;action=raw&amp;maxage=18000" />
+<link rel="stylesheet" href="/mw/index.php?title=-&amp;action=raw&amp;maxage=18000&amp;gen=css" />
+<script>
+var skin="monobook",
+stylepath="/mw/skins",
+wgUrlProtocols="http\\:\\/\\/|https\\:\\/\\/|ftp\\:\\/\\/|irc\\:\\/\\/|gopher\\:\\/\\/|telnet\\:\\/\\/|nntp\\:\\/\\/|worldwind\\:\\/\\/|mailto\\:|news\\:|svn\\:\\/\\/",
+wgArticlePath="/mw/$1",
+wgScriptPath="/mw",
+wgScriptExtension=".php",
+wgScript="/mw/index.php",
+wgVariantArticlePath=false,
+wgActionPaths={},
+wgServer="http://wiki.lifesciencedb.jp",
+wgCanonicalNamespace="",
+wgCanonicalSpecialPageName=false,
+wgNamespaceNumber=0,
+wgPageName="Galaxy_ツールを作る",
+wgTitle="Galaxy ツールを作る",
+wgAction="view",
+wgArticleId=38,
+wgIsArticle=true,
+wgUserName=null,
+wgUserGroups=null,
+wgUserLanguage="ja",
+wgContentLanguage="ja",
+wgBreakFrames=false,
+wgCurRevisionId=901,
+wgVersion="1.16.3",
+wgEnableAPI=true,
+wgEnableWriteAPI=true,
+wgSeparatorTransformTable=["", ""],
+wgDigitTransformTable=["", ""],
+wgMainPageTitle="メインページ",
+wgFormattedNamespaces={"-2": "メディア", "-1": "特別", "0": "", "1": "ノート", "2": "利用者", "3": "利用者‐会話", "4": "TogoWiki", "5": "TogoWiki‐ノート", "6": "ファイル", "7": "ファイル‐ノート", "8": "MediaWiki", "9": "MediaWiki‐ノート", "10": "Template", "11": "Template‐ノート", "12": "Help", "13": "Help‐ノート", "14": "Category", "15": "Category‐ノート"},
+wgNamespaceIds={"メディア": -2, "特別": -1, "": 0, "ノート": 1, "利用者": 2, "利用者‐会話": 3, "togowiki": 4, "togowiki‐ノート": 5, "ファイル": 6, "ファイル‐ノート": 7, "mediawiki": 8, "mediawiki‐ノート": 9, "template": 10, "template‐ノート": 11, "help": 12, "help‐ノート": 13, "category": 14, "category‐ノート": 15, "画像": 6, "画像‐ノート": 7, "image": 6, "image_talk": 7},
+wgSiteName="TogoWiki",
+wgCategories=["Bh10.10", "Galaxy"],
+wgRestrictionEdit=[],
+wgRestrictionMove=[];
+</script><script src="/mw/skins/common/wikibits.js?270"></script>
+<script src="/mw/skins/common/ajax.js?270"></script>
+<script src="/mw/index.php?title=-&amp;action=raw&amp;gen=js&amp;useskin=monobook&amp;270"></script>
+
+		<style type='text/css'>
+		li#pt-openidlogin {
+		  background: url(/mw/extensions/OpenID/skin/icons/openid-inputicon.png) top left no-repeat;
+		  padding-left: 20px;
+		  text-transform: none;
+		}
+		</style>
+</head>
+<body class="mediawiki ltr ns-0 ns-subject page-Galaxy_ツールを作る skin-monobook">
+<div id="globalWrapper">
+<div id="column-content"><div id="content" >
+	<a id="top"></a>
+	
+	<h1 id="firstHeading" class="firstHeading">Galaxy ツールを作る</h1>
+	<div id="bodyContent">
+		<h3 id="siteSub">提供：TogoWiki</h3>
+		<div id="contentSub"></div>
+		<div id="jump-to-nav">移動： <a href="#column-one">案内</a>, <a href="#searchInput">検索</a></div>
+		<!-- start content -->
+<table id="toc" class="toc"><tr><td><div id="toctitle"><h2>目次</h2></div>
+<ul>
+<li class="toclevel-1 tocsection-1"><a href="#Galaxy.E3.83.84.E3.83.BC.E3.83.AB.E3.82.92.E4.BD.9C.E3.82.8B"><span class="tocnumber">1</span> <span class="toctext">Galaxyツールを作る</span></a>
+<ul>
+<li class="toclevel-2 tocsection-2"><a href="#.E3.82.B3.E3.83.9E.E3.83.B3.E3.83.89.E3.82.92.E5.88.A9.E7.94.A8.E3.81.97.E3.81.9FGalaxy.E3.83.84.E3.83.BC.E3.83.AB.E3.81.AE.E4.BD.9C.E3.82.8A.E6.96.B9"><span class="tocnumber">1.1</span> <span class="toctext">コマンドを利用したGalaxyツールの作り方</span></a></li>
+<li class="toclevel-2 tocsection-3"><a href="#.E5.A4.96.E9.83.A8.E3.82.B5.E3.82.A4.E3.83.88.E3.81.A8.E9.80.A3.E6.90.BA.E3.82.92.E8.A1.8C.E3.81.86Galaxy.E3.83.84.E3.83.BC.E3.83.AB.E3.81.AE.E4.BD.9C.E3.82.8A.E6.96.B9"><span class="tocnumber">1.2</span> <span class="toctext">外部サイトと連携を行うGalaxyツールの作り方</span></a></li>
+<li class="toclevel-2 tocsection-4"><a href="#Galaxy.E3.83.84.E3.83.BC.E3.83.ABTips"><span class="tocnumber">1.3</span> <span class="toctext">GalaxyツールTips</span></a>
+<ul>
+<li class="toclevel-3 tocsection-5"><a href="#.E3.81.B2.E3.81.A8.E3.81.A4.E3.81.AE.E3.83.84.E3.83.BC.E3.83.AB.E3.81.8B.E3.82.89.E8.A4.87.E6.95.B0.E3.83.87.E3.83.BC.E3.82.BF.E3.82.BB.E3.83.83.E3.83.88.E3.82.92.E5.87.BA.E5.8A.9B"><span class="tocnumber">1.3.1</span> <span class="toctext">ひとつのツールから複数データセットを出力</span></a></li>
+<li class="toclevel-3 tocsection-6"><a href="#.E3.83.A1.E3.83.8B.E3.83.A5.E3.83.BC.E3.81.AE.E3.82.AB.E3.82.B9.E3.82.BF.E3.83.9E.E3.82.A4.E3.82.BA"><span class="tocnumber">1.3.2</span> <span class="toctext">メニューのカスタマイズ</span></a></li>
+<li class="toclevel-3 tocsection-7"><a href="#.E5.85.AC.E9.96.8B.E3.81.95.E3.82.8C.E3.81.A6.E3.81.84.E3.82.8B.E3.83.84.E3.83.BC.E3.83.AB"><span class="tocnumber">1.3.3</span> <span class="toctext">公開されているツール</span></a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-8"><a href="#BH10.10_Galaxy_.E3.82.B0.E3.83.AB.E3.83.BC.E3.83.97.E3.83.AD.E3.82.B0"><span class="tocnumber">2</span> <span class="toctext">BH10.10 Galaxy グループログ</span></a>
+<ul>
+<li class="toclevel-2 tocsection-9"><a href="#.E6.88.90.E6.9E.9C.E3.83.AA.E3.82.B9.E3.83.88"><span class="tocnumber">2.1</span> <span class="toctext">成果リスト</span></a></li>
+<li class="toclevel-2 tocsection-10"><a href="#.E9.80.B2.E8.A1.8C.E4.B8.AD.E3.81.A0.E3.81.91.E3.81.A9.E3.80.81.E9.A0.91.E5.BC.B5.E3.81.A3.E3.81.A6.E7.B5.82.E3.82.8F.E3.82.89.E3.81.9B.E3.82.8B.E3.82.BF.E3.82.B9.E3.82.AF"><span class="tocnumber">2.2</span> <span class="toctext">進行中だけど、頑張って終わらせるタスク</span></a></li>
+<li class="toclevel-2 tocsection-11"><a href="#.E4.BB.8A.E5.BE.8C.E3.81.AE.E8.AA.B2.E9.A1.8C"><span class="tocnumber">2.3</span> <span class="toctext">今後の課題</span></a></li>
+<li class="toclevel-2 tocsection-12"><a href="#.E9.96.8B.E7.99.BA.E7.94.A8trac_.26_svn"><span class="tocnumber">2.4</span> <span class="toctext">開発用trac &amp; svn</span></a></li>
+<li class="toclevel-2 tocsection-13"><a href="#.E3.81.BE.E3.81.A0.E6.9C.AA.E8.A7.A3.E6.B1.BA.E3.83.BB.E7.9F.A5.E3.81.A3.E3.81.A6.E3.81.9F.E3.82.89.E6.95.99.E3.81.88.E3.81.A6.E6.AC.B2.E3.81.97.E3.81.84.28.EF.BE.81.EF.BE.97.EF.BD.AF.EF.BE.81.EF.BE.97.EF.BD.AF.E3.83.BB.E3.81.BE.E3.81.9F.E3.81.AF.E3.83.97.E3.83.A9.E3.83.B3.40SOMEDAY"><span class="tocnumber">2.5</span> <span class="toctext">まだ未解決・知ってたら教えて欲しい(ﾁﾗｯﾁﾗｯ・またはプラン@SOMEDAY</span></a></li>
+<li class="toclevel-2 tocsection-14"><a href="#.E3.82.BF.E3.82.B9.E3.82.AF_.28.E3.83.84.E3.83.BC.E3.83.AB.E7.B5.84.E3.81.BF.E8.BE.BC.E3.81.BF.E3.80.81.E3.83.AF.E3.83.BC.E3.82.AF.E3.83.95.E3.83.AD.E3.83.BC.E4.BD.9C.E6.88.90.29"><span class="tocnumber">2.6</span> <span class="toctext">タスク (ツール組み込み、ワークフロー作成)</span></a>
+<ul>
+<li class="toclevel-3 tocsection-15"><a href="#.E7.B5.90.E6.9E.9C.E3.83.AD.E3.82.B0"><span class="tocnumber">2.6.1</span> <span class="toctext">結果ログ</span></a></li>
+</ul>
+</li>
+<li class="toclevel-2 tocsection-16"><a href="#.E3.82.A4.E3.83.B3.E3.82.B9.E3.83.88.E3.83.BC.E3.83.AB.E6.83.85.E5.A0.B1"><span class="tocnumber">2.7</span> <span class="toctext">インストール情報</span></a></li>
+<li class="toclevel-2 tocsection-17"><a href="#.E3.82.B9.E3.82.B1.E3.83.BC.E3.83.A9.E3.83.96.E3.83.AB.E8.A8.AD.E5.AE.9A"><span class="tocnumber">2.8</span> <span class="toctext">スケーラブル設定</span></a></li>
+<li class="toclevel-2 tocsection-18"><a href="#.E8.AA.BF.E6.9F.BB.E6.83.85.E5.A0.B1"><span class="tocnumber">2.9</span> <span class="toctext">調査情報</span></a></li>
+<li class="toclevel-2 tocsection-19"><a href="#.E3.83.84.E3.83.BC.E3.83.AB.E3.81.AE.E7.B5.84.E3.81.BF.E8.BE.BC.E3.81.BF.E6.96.B9"><span class="tocnumber">2.10</span> <span class="toctext">ツールの組み込み方</span></a></li>
+<li class="toclevel-2 tocsection-20"><a href="#History.E5.B1.A5.E6.AD.B4.E3.82.92.E5.9F.BA.E3.81.AB.E3.81.97.E3.81.9F.E6.9C.80.E7.9F.ADWorkflow.E4.BD.9C.E6.88.90.E6.B3.95"><span class="tocnumber">2.11</span> <span class="toctext">History履歴を基にした最短Workflow作成法</span></a></li>
+<li class="toclevel-2 tocsection-21"><a href="#.E5.85.AC.E9.96.8B.E3.81.95.E3.82.8C.E3.81.A6.E3.81.84.E3.82.8B.E3.83.84.E3.83.BC.E3.83.AB_2"><span class="tocnumber">2.12</span> <span class="toctext">公開されているツール</span></a></li>
+<li class="toclevel-2 tocsection-22"><a href="#.E3.82.B9.E3.82.AF.E3.83.AA.E3.83.BC.E3.83.B3.E3.82.B7.E3.83.A7.E3.83.83.E3.83.88"><span class="tocnumber">2.13</span> <span class="toctext">スクリーンショット</span></a></li>
+<li class="toclevel-2 tocsection-23"><a href="#galaxy.E3.82.92.E5.A4.96.E9.83.A8.E3.81.AB.E5.85.AC.E9.96.8B.E3.81.99.E3.82.8B.E6.96.B9.E6.B3.95"><span class="tocnumber">2.14</span> <span class="toctext">galaxyを外部に公開する方法</span></a></li>
+</ul>
+</li>
+</ul>
+</td></tr></table><script>if (window.showTocToggle) { var tocShowText = "表示"; var tocHideText = "非表示"; showTocToggle(); } </script>
+<h1> <span class="mw-headline" id="Galaxy.E3.83.84.E3.83.BC.E3.83.AB.E3.82.92.E4.BD.9C.E3.82.8B"> Galaxyツールを作る </span></h1>
+<p>Galaxyにツールを組み込むには大きく分けて以下の二通り方法がある。
+</p>
+<ul><li> UNIXコマンドやスクリプトをGalaxyツールとして組み込む方法
+</li><li> 外部のサイトをGalaxyの内部にツールとして組み込む方法
+</li></ul>
+<h2> <span class="mw-headline" id=".E3.82.B3.E3.83.9E.E3.83.B3.E3.83.89.E3.82.92.E5.88.A9.E7.94.A8.E3.81.97.E3.81.9FGalaxy.E3.83.84.E3.83.BC.E3.83.AB.E3.81.AE.E4.BD.9C.E3.82.8A.E6.96.B9"> コマンドを利用したGalaxyツールの作り方 </span></h2>
+<p><a href="/mw/Galaxy_%E3%83%84%E3%83%BC%E3%83%AB%E3%82%92%E4%BD%9C%E3%82%8B/%E3%82%B3%E3%83%9E%E3%83%B3%E3%83%89%E3%82%92%E5%88%A9%E7%94%A8%E3%81%97%E3%81%9FGalaxy%E3%83%84%E3%83%BC%E3%83%AB" title="Galaxy ツールを作る/コマンドを利用したGalaxyツール">Galaxy ツールを作る/コマンドを利用したGalaxyツール</a> を参照
+</p>
+<h2> <span class="mw-headline" id=".E5.A4.96.E9.83.A8.E3.82.B5.E3.82.A4.E3.83.88.E3.81.A8.E9.80.A3.E6.90.BA.E3.82.92.E8.A1.8C.E3.81.86Galaxy.E3.83.84.E3.83.BC.E3.83.AB.E3.81.AE.E4.BD.9C.E3.82.8A.E6.96.B9"> 外部サイトと連携を行うGalaxyツールの作り方 </span></h2>
+<p><a href="/mw/Galaxy_%E3%83%84%E3%83%BC%E3%83%AB%E3%82%92%E4%BD%9C%E3%82%8B/%E5%A4%96%E9%83%A8%E3%82%B5%E3%82%A4%E3%83%88%E9%80%A3%E6%90%BAGalaxy%E3%83%84%E3%83%BC%E3%83%AB" title="Galaxy ツールを作る/外部サイト連携Galaxyツール">Galaxy_ツールを作る/外部サイト連携Galaxyツール</a> を参照
+</p>
+<h2> <span class="mw-headline" id="Galaxy.E3.83.84.E3.83.BC.E3.83.ABTips"> GalaxyツールTips </span></h2>
+<h3> <span class="mw-headline" id=".E3.81.B2.E3.81.A8.E3.81.A4.E3.81.AE.E3.83.84.E3.83.BC.E3.83.AB.E3.81.8B.E3.82.89.E8.A4.87.E6.95.B0.E3.83.87.E3.83.BC.E3.82.BF.E3.82.BB.E3.83.83.E3.83.88.E3.82.92.E5.87.BA.E5.8A.9B"> ひとつのツールから複数データセットを出力 </span></h3>
+<p>ツールの設定ファイル内のoutputs要素へ複数のdata要素を定義することで、ひとつのツールから複数のデータセットを出力させることができる。また、ワークフロー上ではそれぞれの出力を次のツールの入力へと接続することができる。
+</p><p>設定ファイルのサンプル(multi_output.xml)
+</p>
+<pre>&lt;?xml version="1.0"?&gt;
+&lt;tool id="multi_output" name="Multi Output"&gt;
+  &lt;description&gt;Output multiple datasets&lt;/description&gt;
+  
+  &lt;!-- コマンドへ output1 と output2 を渡す --&gt;
+  &lt;command interpreter="sh"&gt;multi_output.sh '$source' '$output1' '$output2'&lt;/command&gt;
+  &lt;inputs&gt;
+    &lt;param name="source" format="txt" type="data" label="Source Data" /&gt;
+  &lt;/inputs&gt;
+  
+  &lt;!-- outputs へ output1 と output2 を定義 --&gt;
+  &lt;outputs&gt;
+    &lt;data format="tabular" name="output1" /&gt;
+    &lt;data format="tabular" name="output2" /&gt;
+  &lt;/outputs&gt;
+  &lt;help&gt;
+  &lt;/help&gt; 
+&lt;/tool&gt;
+</pre>
+<p>コマンドのサンプル(multi_output.sh)
+</p>
+<pre>#!/bin/sh
+
+# output1 は入力をそのまま出力
+cat $1 &gt; $2
+# output2 へは行番号を付加して出力 
+cat -n $1 &gt; $3
+</pre>
+<p><br />
+</p>
+<h3> <span class="mw-headline" id=".E3.83.A1.E3.83.8B.E3.83.A5.E3.83.BC.E3.81.AE.E3.82.AB.E3.82.B9.E3.82.BF.E3.83.9E.E3.82.A4.E3.82.BA"> メニューのカスタマイズ </span></h3>
+<p>メニューのカスタマイズの際，変更するファイルは $GALAXY/tool_conf.xmlである．
+</p><p>例えば，DBCLS Galaxy( <a href="http://galaxy.dbcls.jp/" class="external free" rel="nofollow">http://galaxy.dbcls.jp/</a> )の tool_conf.xml は下記のようになる：
+</p>
+<pre>&lt;?xml version='1.0'?&gt;
+&lt;toolbox&gt;
+  &lt;section name='Get Data' id='getext'&gt;                                  
+    &lt;tool file='data_source/upload.xml'/&gt;
+    &lt;label text='DBCLS TogoWS Tools' id='togows_tools'/&gt;
+    &lt;tool file='togows/search_resources.xml'/&gt;
+    &lt;tool file='togows/search_resources_with_history.xml'/&gt;
+    &lt;tool file='togows/get_restful_resources.xml'/&gt;
+    &lt;tool file='togows/get_restful_togodb_resources.xml'/&gt;
+    &lt;tool file='pubmed/pubmed_get_resource.xml'/&gt;
+    &lt;label text='DBCLS Text Mining Tools' id='tm_tools'/&gt;
+    &lt;tool file='medline/search_medline_direct.xml'/&gt;
+    &lt;tool file='medline/search_medline_with_history.xml'/&gt;
+...
+</pre>
+<ul><li> section タグ: <b>Get Data</b>, <b>Send Data</b>などのツールカテゴリの見出しの設定
+</li><li> label タグ: DBCLS TOGOWS TOOLS などの中見出しの設定
+</li><li> tool タグ: 各ツールの設定
+</li></ul>
+<p>ツールカテゴリやツールを削りたいとき: 当該するタグを削除あるいはコメントアウトすることで，メニューからツールを削除する <br />
+新しいツールカテゴリを作りたいとき: section タグを新しく設定し，その中に入れたいツールの設定(toolタグ)を書く<br />
+新しいツールを組み込みたいとき: 下記，ツールの組み込み方を参照
+</p>
+<h3> <span class="mw-headline" id=".E5.85.AC.E9.96.8B.E3.81.95.E3.82.8C.E3.81.A6.E3.81.84.E3.82.8B.E3.83.84.E3.83.BC.E3.83.AB"> 公開されているツール </span></h3>
+<ul><li> 本家のユーザーベースなツール公開レポジトリ <a href="http://community.g2.bx.psu.edu/" class="external text" rel="nofollow">Galaxy Tool Shed</a>。
+</li><li> CSHLの<a href="http://cancan.cshl.edu/publicgalaxy/" class="external text" rel="nofollow">Hannon Laboratory public galaxy website</a>
+</li></ul>
+<h1> <span class="mw-headline" id="BH10.10_Galaxy_.E3.82.B0.E3.83.AB.E3.83.BC.E3.83.97.E3.83.AD.E3.82.B0"> BH10.10 Galaxy グループログ </span></h1>
+<ul><li> メンバー
+<ul><li> 神田 (こうだ、トピックリーダー)※大活躍！ありがとうございました
+</li><li> 山口
+</li><li> 畠山
+</li><li> 神沼
+</li><li> 中尾
+</li><li> 長崎
+</li><li> 望月
+</li></ul>
+</li></ul>
+<p><br />
+</p>
+<ul><li> 興味のあるトピック書き出し
+<ul><li> 具体的にどう使ってるのか?
+<ul><li> 外部にだしてるのは少なくて、ローカルで使うパターンばかりが多い
+</li></ul>
+</li><li> セキュリティはどうすれば?
+<ul><li> ヒトデータをアップロード可能かな? (これは倫理関係だからここではパスかな)
+</li><li> ユーザーごとに分離されてるか?
+</li></ul>
+</li><li> ユーザーごとにツールの表示をカスタマイズ出来るか?
+<ul><li> デフォルトだと全部表示されて、ユーザーには多すぎる → 現状ユーザごとにはできない，サイトごとなら tool_conf.xml を書き換えて再起動する．詳しくは下記．
+</li></ul>
+</li><li> ソフトウェアを同梱して配布可能なのか調べたい
+<ul><li> DBCLS Galaxy は既にこの形で配布している
+</li></ul>
+</li></ul>
+</li></ul>
+<h3> <span class="mw-headline" id=".E6.88.90.E6.9E.9C.E3.83.AA.E3.82.B9.E3.83.88"> 成果リスト </span></h3>
+<ul><li> 各自ローカルでの開発環境の整備
+</li><li> ツール組み込み =&gt; 達成 (Unix Tools, Annovar) + さらに複数ファイルの出力対応法も調査できた
+</li><li> 自分の欲しいワークフロー作成 =&gt; 必要なツール組み込みが出来たので、Exome ワークフローの作成できた
+</li><li> チームで KPT を行った <a href="http://wiki.lifesciencedb.jp/mw/images/6/64/Galaxy_kpt.JPG" class="external free" rel="nofollow">http://wiki.lifesciencedb.jp/mw/images/6/64/Galaxy_kpt.JPG</a>
+</li><li> 成果に関わるログを TogoWiki に集約できた
+</li><li> conf.xml などの変更点およびファイル追加を成果として還元できるように svn レポジトリへアップできる体制が整えられた
+</li></ul>
+<h3> <span class="mw-headline" id=".E9.80.B2.E8.A1.8C.E4.B8.AD.E3.81.A0.E3.81.91.E3.81.A9.E3.80.81.E9.A0.91.E5.BC.B5.E3.81.A3.E3.81.A6.E7.B5.82.E3.82.8F.E3.82.89.E3.81.9B.E3.82.8B.E3.82.BF.E3.82.B9.E3.82.AF"> 進行中だけど、頑張って終わらせるタスク </span></h3>
+<ul><li> TogoWiki galaxy の読み易さ、親切度アップ
+</li><li> ワークフロー (Exome)、ツール (Annovar) を bh10.10-galaxy-central に移植する
+</li><li> 
+</li><li> 
+</li><li>
+</li></ul>
+<h3> <span class="mw-headline" id=".E4.BB.8A.E5.BE.8C.E3.81.AE.E8.AA.B2.E9.A1.8C"> 今後の課題 </span></h3>
+<ul><li> 
+</li><li> 
+</li><li>
+</li></ul>
+<h3> <span class="mw-headline" id=".E9.96.8B.E7.99.BA.E7.94.A8trac_.26_svn"> 開発用trac &amp; svn </span></h3>
+<ul><li> <a href="http://kiban.dbcls.jp/bh10.10" class="external free" rel="nofollow">http://kiban.dbcls.jp/bh10.10</a>
+</li><li> <a href="http://kiban.dbcls.jp/svn/bh10.10" class="external free" rel="nofollow">http://kiban.dbcls.jp/svn/bh10.10</a>
+</li></ul>
+<p><br />
+</p>
+<h3> <span class="mw-headline" id=".E3.81.BE.E3.81.A0.E6.9C.AA.E8.A7.A3.E6.B1.BA.E3.83.BB.E7.9F.A5.E3.81.A3.E3.81.A6.E3.81.9F.E3.82.89.E6.95.99.E3.81.88.E3.81.A6.E6.AC.B2.E3.81.97.E3.81.84.28.EF.BE.81.EF.BE.97.EF.BD.AF.EF.BE.81.EF.BE.97.EF.BD.AF.E3.83.BB.E3.81.BE.E3.81.9F.E3.81.AF.E3.83.97.E3.83.A9.E3.83.B3.40SOMEDAY"> まだ未解決・知ってたら教えて欲しい(ﾁﾗｯﾁﾗｯ・またはプラン@SOMEDAY </span></h3>
+<ul><li> 達成!! <b>Tabular データの任意のカラムに"chr"を付加したい</b> =&gt; 以下のツールを組み込むとsedで処理対象のカラム指定+正規表現で文字リプレスが可能になる、と山口さん・畠山さんに教えてもらった
+</li></ul>
+<pre> →これを使いましょう <a href="http://hannonlab.cshl.edu/galaxy_unix_tools/galaxy.html" class="external free" rel="nofollow">http://hannonlab.cshl.edu/galaxy_unix_tools/galaxy.html</a>
+</pre>
+<p>README ファイルから抜粋<br />
+</p>
+<pre>Galaxy Installation
+===================
+You'll need a local Galaxy installation to use these tools.
+
+run:
+   $  ./install_galaxy_files.sh [GALAXY-SERVER-DIRECTORY]
+to copy the needed files to the Galaxy root.
+Under &lt;galaxy&gt;/tools a new directory named 'unix_tools' will be created.
+In &lt;galaxy&gt;/test-data some files will be placed (for the functional testing).
+
+Now, manually merge the content of 'tool_conf.xml.add' into your Galaxy's tool_conf.xml file.
+
+
+
+Functional Testing
+==================
+
+Some of the unix tools have a functional unit-test files.
+To run the functional testing in Galaxy, add the content
+of 'tool_conf.xml.add' to your Galaxy's   tool_conf.xml.sample
+(NOTE: not tool_conf.xml, but tool_conf.xml.sample).
+
+Then, from Galaxy's root directory, run:
+
+$ sh run_functional_tests.sh -id cshl_awk_tool
+$ sh run_functional_tests.sh -id cshl_sed_tool
+$ sh run_functional_tests.sh -id cshl_grep_tool
+$ sh run_functional_tests.sh -id cshl_sort_tool
+$ sh run_functional_tests.sh -id cshl_cut_tool
+$ sh run_functional_tests.sh -id Remove_ending
+$ sh run_functional_tests.sh -id cshl_sed_replace_in_line
+$ sh run_functional_tests.sh -id cshl_awk_replace_in_column
+
+If the results of the tests is anyhthing other than "OK", you'll need to
+fix whatever is wrong.
+
+If the AWK tool failed, make sure you've installed AWK with the 'sandbox' patch.
+If the SED tool failed, make sure you've installed SED with the 'sandbox' patch.
+If the sort tool failed, make sure you've installed coreutils version 7.1 or later.
+</pre>
+<p>テストあるけど、通らないよ…僕の環境?<br />
+</p>
+<ul><li> 達成!!  <b>複数のファイルが出力されるケースの対応</b>
+<ul><li> どれか一つを決め打ちで出力としたい
+</li><li> 可能なら複数の出力を持ち越せるといい
+</li></ul>
+</li></ul>
+<pre>→ひとつのツールから複数データセットを出力 を参照
+</pre>
+<ul><li><ul><li><ul><li> チェックボックスで選べるようになるとかね
+</li></ul>
+</li></ul>
+</li><li> 達成!! <b>元々入ってる Intersect が使いこなせない</b> =&gt; Galaxy の特徴である genomic interval の方が良いことが分かりました
+</li></ul>
+<p>(あとで書く#こうだ) SNP の位置と genomics interval の 0bp<br />
+</p>
+<ul><li> <b>現状、最終的な可視化が NGS ビューワーの IGV に頼っているが、UCSC Genome Browser か Track Star でも可視化できないか?</b> # こうだ
+</li><li> Workflow の export/import は可能か?
+</li></ul>
+<p><a href="http://bitbucket.org/galaxy/galaxy-central/wiki/Features/DevNewsBrief/2010_10_05" class="external free" rel="nofollow">http://bitbucket.org/galaxy/galaxy-central/wiki/Features/DevNewsBrief/2010_10_05</a> に Both workflows and histories can now be exported to files. Importing workflows and histories is coming soon. とある (import がまだ)
+</p>
+<ul><li> 再起動なしにデバッグを進める方法あるのか
+</li></ul>
+<h2> <span class="mw-headline" id=".E3.82.BF.E3.82.B9.E3.82.AF_.28.E3.83.84.E3.83.BC.E3.83.AB.E7.B5.84.E3.81.BF.E8.BE.BC.E3.81.BF.E3.80.81.E3.83.AF.E3.83.BC.E3.82.AF.E3.83.95.E3.83.AD.E3.83.BC.E4.BD.9C.E6.88.90.29"> タスク (ツール組み込み、ワークフロー作成) </span></h2>
+<p>手元でツール作成しつつ、本家or DBCLSに組込み公開する。
+</p>
+<ul><li> Exome workflow (神田さん)
+<ul><li> History からの Extract Workflow 便利・すごい!!
+</li><li> galaxy-central/database/files/000 にデータがたまるみたい <a href="http://skitch.com/mako/dhxbn/2" class="external free" rel="nofollow">http://skitch.com/mako/dhxbn/2</a>
+</li></ul>
+</li><li> (岩崎さん) 
+</li><li> SAMtoolsの変換ツール組込(長崎さん)
+</li><li> workflow test(望月さん)
+</li><li> Assembly用評価/グラフ生成workflow&nbsp;:そのうちDDBJ Pipelineから出します (神沼)
+</li></ul>
+<h3> <span class="mw-headline" id=".E7.B5.90.E6.9E.9C.E3.83.AD.E3.82.B0"> 結果ログ </span></h3>
+<h2> <span class="mw-headline" id=".E3.82.A4.E3.83.B3.E3.82.B9.E3.83.88.E3.83.BC.E3.83.AB.E6.83.85.E5.A0.B1"> インストール情報 </span></h2>
+<pre>galaxyOnMacOSX_install_log
+<a href="http://bitbucket.org/galaxy/galaxy-central/wiki/GetGalaxy" class="external free" rel="nofollow">http://bitbucket.org/galaxy/galaxy-central/wiki/GetGalaxy</a> を参照 OSX 10.6.4です。
+na% echo $shell /bin/tcsh 
+na% mkdir ~/galaxy-python
+na% ln -s /usr/bin/python2.6 ~/galaxy-python/python (2.5から2.6に変更し て今のとこ問題なし)
+na% .tcshrcに set path = ($path ~/galaxy-python)
+na% echo ${PATH}
+/bin:/sbin:/usr/bin:/usr/sbin:/usr/local/bin:/usr/X11/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/Applications/bioinfo/bwa- 0.5.8a:/Applications/bioinfo/samtools-0.1.7_i386-darwin:/Users/na/galaxy- python
+参照先にあるhgがOSXに入ってないので... easy_installでインストール
+na% which easy_install /usr/bin/easy_install
+na% sudo easy_install Mercurial
+Password:XXXXXXX Searching for Mercurial Best match: mercurial 1.6.2 Processing mercurial-1.6.2-py2.6-macosx-10.6-universal.egg mercurial 1.6.2 is already the active version in easy-install.pth Installing hg script to /usr/local/bin
+Using /Library/Python/2.6/site-packages/mercurial-1.6.2-py2.6-macosx- 10.6-universal.egg
+Processing dependencies for Mercurial Finished processing dependencies for Mercurial
+na% /usr/local/bin/hg clone <a href="http://www.bx.psu.edu/hg/galaxy" class="external free" rel="nofollow">http://www.bx.psu.edu/hg/galaxy</a> galaxy_dist
+real URL is <a href="http://bitbucket.org/galaxy/galaxy-dist" class="external free" rel="nofollow">http://bitbucket.org/galaxy/galaxy-dist</a> requesting all changes adding changesets
+adding manifests adding file changes added 4093 changesets with 18251 changes to 4360 files updating to branch default 2776 files updated, 0 files merged, 0 files removed, 0 files unresolved
+na% cd galaxy_dist
+na% sh setup.sh
+na% sh run.sh で起動
+</pre>
+<h2> <span class="mw-headline" id=".E3.82.B9.E3.82.B1.E3.83.BC.E3.83.A9.E3.83.96.E3.83.AB.E8.A8.AD.E5.AE.9A"> スケーラブル設定 </span></h2>
+<p><a href="http://bitbucket.org/galaxy/galaxy-central/wiki/DevConf2010" class="external text" rel="nofollow">galaxy / galaxy-central / wiki / DevConf2010 – Bitbucket</a> でのトーク <a href="http://bitbucket.org/galaxy/galaxy-central/wiki/DevConf2010/galaxy_devconf_2010_scalable.pdf" class="external text" rel="nofollow">Building Scalable Galaxy</a> - Nate Coraor と <a href="http://www.slideshare.net/nakao/galaxy-developer-conference-2010-report" class="external text" rel="nofollow">Galaxy Developer Conference 2010 レポート</a> を参照。
+</p>
+<ul><li> バックエンドDBの選択：デフォルトはsqlite3、PostgreSQLやMySQLに変更すると性能アップ。
+</li><li> ファイルアップロード／ダウンロード時のI/Oブロックを回避する為のプロキシ設定。
+</li><li> マシンのコア数にあわせたスレッドモデル。
+</li></ul>
+<h2> <span class="mw-headline" id=".E8.AA.BF.E6.9F.BB.E6.83.85.E5.A0.B1"> 調査情報 </span></h2>
+<ul><li> 利用可能な世界中の<a href="http://main.g2.bx.psu.edu/workflow/list_published" class="external text" rel="nofollow">workflow</a>
+</li><li> 配布ライセンスの種類 = MIT
+</li></ul>
+<h2> <span class="mw-headline" id=".E3.83.84.E3.83.BC.E3.83.AB.E3.81.AE.E7.B5.84.E3.81.BF.E8.BE.BC.E3.81.BF.E6.96.B9"> ツールの組み込み方 </span></h2>
+<p>Galaxy にツールを組み込むには，大きく分けて二種類の方法が存在する．
+</p><p>ひとつは，Galaxy のフレーム内でツールを組み込む方法であり，このセクションで詳述する．もうひとつの方法は外部サイトにGalaxy から
+アクセス可能にする方法で，別ページにて解説する．
+</p><p><a href="http://bitbucket.org/galaxy/galaxy-central/wiki/NGSLocalSetup" class="external text" rel="nofollow">galaxy / galaxy-central / wiki / NGSLocalSetup – Bitbucket</a> <br />
+<a href="http://bitbucket.org/galaxy/galaxy-central/wiki/ToolConfigSyntax" class="external text" rel="nofollow">galaxy / galaxy-central / wiki / ToolConfigSyntax – Bitbucket</a> tool_hoge.xml を書く際に参考にする (&lt;param&gt; tag set のセクションとか)<br />
+</p><p>関連情報: DBCLS Galaxy に同梱のツールジェネレータを利用して，DBCLS Galaxy に自分のツールを組み込む <br />
+( <a href="http://galaxy.g.hatena.ne.jp/morita_hideyuki/" class="external free" rel="nofollow">http://galaxy.g.hatena.ne.jp/morita_hideyuki/</a> )<br />
+</p><p>外部サイトをツールとして利用する場合（例：UCSC Table Browser）<br />
+( <a href="http://bitbucket.org/galaxy/galaxy-central/wiki/ExternalDisplayApplications/Tutorial" class="external free" rel="nofollow">http://bitbucket.org/galaxy/galaxy-central/wiki/ExternalDisplayApplications/Tutorial</a> ) <br />
+任意web application利用可能だが、web application側にgalaxy対応が必要。<br />
+</p><p>10/21 ローカルの Galaxy にツール組み込み<br />
+<a href="http://bitbucket.org/galaxy/galaxy-central/wiki/NGSLocalSetup" class="external free" rel="nofollow">http://bitbucket.org/galaxy/galaxy-central/wiki/NGSLocalSetup</a> を読みつつインストール<br />
+</p><p><br />
+1. BWA の組み込み<br />
+</p>
+<pre>cd ~/Projects/bh10.10/galaxy/galaxy-central/tool-data
+cp bwa_index.loc.sample bwa_index.loc
+</pre>
+<pre>bwa_index.locに追記
+hg18	/Users/mako/Projects/bh10.10/galaxy/hg18_data/hg18.fasta
+</pre>
+<p><br />
+</p>
+<pre>bwa の実行ファイルをパスが通っているところに配置
+sudo cp bwa /usr/local/bin
+</pre>
+<pre>bwa_index.loc の記述に合うように hg18.fasta とそのインデックスファイルを任意のディレクトリに配置
+cp ~/Projects/exome_tools_test/Data/hg18.* /Users/mako/Projects/bh10.10/galaxy/hg18_data/
+hg18.fasta
+hg18.fasta.ann
+hg18.fasta.bwt
+hg18.fasta.pac
+hg18.fasta.rbwt
+hg18.fasta.rpac
+hg18.fasta.rsa
+hg18.fasta.sa
+</pre>
+<p>Galaxy's built-in indexes will be available for download soon ということらしい<br />
+</p><p><br />
+2. SAM Tools 組み込み<br />
+</p>
+<pre>mate sam_fa_indices.loc
+index	hg18	/Users/mako/Projects/bh10.10/galaxy/hg18_data/hg18.fasta
+</pre>
+<pre>bwa の実行ファイルをパスが通っているところに配置
+sudo cp ~/Downloads/exome_softwares/samtools/samtools /usr/local/bin/
+</pre>
+<pre>hg18.fasta とそのインデックスファイルを galaxy ディレクトリに配置
+cp ~/Projects/exome_tools_test/Data/hg18.fasta.fai /Users/mako/Projects/bh10.10/galaxy/hg18_data/
+</pre>
+<p><br />
+3. BEDTools 組み込み<br />
+<a href="http://groups.google.com/group/bedtools-discuss/browse_thread/thread/e3be681586693399" class="external free" rel="nofollow">http://groups.google.com/group/bedtools-discuss/browse_thread/thread/e3be681586693399</a> から始めた<br />
+<a href="http://cancan.cshl.edu/publicgalaxy/" class="external free" rel="nofollow">http://cancan.cshl.edu/publicgalaxy/</a> ショウケースになってる<br />
+</p>
+<pre>cp -r ../../../Download/galaxy_BEDTools/tool-data/BEDTools ~/Projects/bh10.10/galaxy/galaxy-central/tool-data/
+cp -r ../../../Download/galaxy_BEDTools/tools/BEDTools ../tools/BEDTools
+cp -r ../../../Download/galaxy_BEDTools/static/images/genomeCoverageBed_bedgraph.png ../static/images
+</pre>
+<pre>Add the following section to &lt;galaxy&gt;/tool_conf.xml
+
+    &lt;section name="BEDTools" id="BEDTools"&gt;
+        &lt;tool file="BEDTools/genomeCoverageBed_bedgraph.xml" /&gt;
+    &lt;/section&gt;
+</pre>
+<p><br />
+4. Exome 関連ツールを自前で組み込み
+</p>
+<ul><li> <a href="http://galaxy.g.hatena.ne.jp/morita_hideyuki/20090918/1253265925" class="external text" rel="nofollow">お持ち帰り用DBCLS Galaxyでのツール作成方法(1) - morita_hideyukiの日記 - Galaxy グループ</a>
+</li><li> <a href="http://galaxy.g.hatena.ne.jp/morita_hideyuki/20090924/1253778651" class="external text" rel="nofollow">お持ち帰り用DBCLS Galaxyでのツール作成方法(2) - morita_hideyukiの日記 - Galaxy グループ</a>
+</li></ul>
+<p>を参考にした<br />
+</p><p>DBCLS の tool wrapper generater を利用してみた<br />
+</p>
+<pre>cd dbcls-galaxy
+./scripts/tool_generator/generate_tool.sh exome annovar
+</pre>
+<pre>galaxy-central へコピー
+mv tools/exome ../galaxy-central/tools
+</pre>
+<pre>tool_conf.xml に記述追加
+  &lt;section name='Exome' id='exome'&gt;
+    &lt;tool file='exome/annovar.xml'/&gt;
+  &lt;/section&gt;
+</pre>
+<pre>Galaxy の出す pileup format が自分のコマンドライン操作時の pileup format と2番目のカラムだけ合わないことがわかったので修正する (cut で2番目のカラムを削る)
+grep 46498888 Galaxy18-\[Filter_on_data_17\].interval.interval.pileup.interval s_8_sequence.aln.sorted.removedup.ontarget.bam.filtered.pileup  | less
+Galaxy18-[Filter_on_data_17].interval.interval.pileup.interval:chr1     46498887        46498888        G       R       &lt;= Galaxy で作った pileup file
+s_8_sequence.aln.sorted.removedup.ontarget.bam.filtered.pileup:chr1     46498888                        G       R       &lt;= ローカルの samtools で作った pileup file
+</pre>
+<pre>Galaxy の cut で2番目カラムを捨てる
+c1,c3,c4,c5,c6,c7,c8,c9,c10,c11,c12,c13,c14,c15,c16,c17
+</pre>
+<p>続いて Annovar <a href="http://www.openbioinformatics.org/annovar/" class="external text" rel="nofollow">ANNOVAR: Functional annotation of genetic variants from high-throughput sequencing data  </a> を組み込み<br />
+galaxy-central/tools/exome に以下の2つのファイル (annovar.xml と annovar.rb) を配置する<br />
+<b>annovar.xml</b>
+</p>
+<pre>&lt;?xml version="1.0"?&gt;
+&lt;tool id="annovar" name="Annovar"&gt;
+  &lt;description&gt;&lt;/description&gt;
+  
+  &lt;inputs&gt;
+    &lt;param name="input" format="tabular" type="data" label="Source Data" /&gt;
+  &lt;/inputs&gt;
+
+  &lt;outputs&gt;
+    &lt;data format="txt" name="output" /&gt;
+  &lt;/outputs&gt;
+
+  &lt;command interpreter="ruby"&gt;annovar.rb '$input' '$output'&lt;/command&gt;
+
+  &lt;help&gt;
+  &lt;/help&gt;
+&lt;/tool&gt;
+
+</pre>
+<p><b>annovar.rb</b>
+</p>
+<pre>#!/usr/bin/env ruby
+# -*- coding: utf-8 -*-
+
+CONVERT2ANNOVAR    = "~/Downloads/exome_softwares/annovar/convert2annovar.pl"
+ANNOTATE_VARIATION = "~/Downloads/exome_softwares/annovar/annotate_variation.pl"
+AUTO_ANNOVAR       = "~/Downloads/exome_softwares/annovar/auto_annovar.pl"
+SUMMARIZE_ANNOVAR  = "~/Downloads/exome_softwares/annovar/summarize_annovar.pl"
+ANNOVAR_HUMANDB    = "~/Projects/exome_tools_test/Download/annovar_humandb"
+
+# ANNOVAR website <a href="http://www.openbioinformatics.org/annovar/annovar_input.html" class="external free" rel="nofollow">http://www.openbioinformatics.org/annovar/annovar_input.html</a>
+system "#{CONVERT2ANNOVAR} -format pileup #{ARGV[0]} &gt; #{ARGV[1]} 2&gt;/dev/null"
+
+# See detail: <a href="http://www.openbioinformatics.org/annovar/annovar_accessary.html" class="external free" rel="nofollow">http://www.openbioinformatics.org/annovar/annovar_accessary.html</a>
+system "#{AUTO_ANNOVAR} #{ARGV[1]} #{ANNOVAR_HUMANDB} 2&gt;/dev/null"
+</pre>
+<h2> <span class="mw-headline" id="History.E5.B1.A5.E6.AD.B4.E3.82.92.E5.9F.BA.E3.81.AB.E3.81.97.E3.81.9F.E6.9C.80.E7.9F.ADWorkflow.E4.BD.9C.E6.88.90.E6.B3.95"> History履歴を基にした最短Workflow作成法 </span></h2>
+<p>1. History作成後に右上オプションからExtract Workflowを選択
+</p><p>2. Workflow nameをテキストボックス中に記入し、Create Workflowボタンを選択
+</p><p>3. Workflow menuに移動し、一番下の「Configure your workflow menu」を選択
+</p><p>4. Analyze data menuに移動して、左パネルのツールリストから「Workflows」をクリックすると、中央パネルにWorkflowの実行画面が現われる。後は「Run workflow」実行
+</p>
+<h2> <span class="mw-headline" id=".E5.85.AC.E9.96.8B.E3.81.95.E3.82.8C.E3.81.A6.E3.81.84.E3.82.8B.E3.83.84.E3.83.BC.E3.83.AB_2"> 公開されているツール </span></h2>
+<ul><li> 本家のユーザーベースなツール公開レポジトリ <a href="http://community.g2.bx.psu.edu/" class="external text" rel="nofollow">Galaxy Tool Shed</a>。
+</li><li> CSHLの<a href="http://cancan.cshl.edu/publicgalaxy/" class="external text" rel="nofollow">Hannon Laboratory public galaxy website</a>
+</li></ul>
+<h2> <span class="mw-headline" id=".E3.82.B9.E3.82.AF.E3.83.AA.E3.83.BC.E3.83.B3.E3.82.B7.E3.83.A7.E3.83.83.E3.83.88"> スクリーンショット </span></h2>
+<ul><li><a href="http://skitch.com/mako/dhq8n/galaxy" class="external text" rel="nofollow">workflow例1 (10/21午前)</a>
+</li><li><a href="http://skitch.com/mako/dhqgc/galaxy" class="external text" rel="nofollow">workflow例2 (10/21午前)</a>
+</li><li><a href="http://skitch.com/mako/dhx8i/galaxy" class="external text" rel="nofollow">workflow例3 (10/21午後)</a>
+</li><li><a href="http://skitch.com/mako/dhxgh/2" class="external text" rel="nofollow">ワークフローで dbSNP に登録されている SNP を除去した後の SNP リスト (10/21午後)</a>
+</li><li><a href="http://skitch.com/mako/dhxgx/org.broad.igv.ui.igvmainframe" class="external text" rel="nofollow">ワークフローで得られた一塩基変異を IGV で可視化した図 (10/21午後)</a>
+</li><li><a href="https://docs.google.com/a/g.nig.ac.jp/document/edit?id=1x8gnlIU5xjDtOmvvEQrxy9DJ3C8Q88g2zKWdjauiZPs&amp;hl=ja#" class="external text" rel="nofollow">Assembly評価用に生成されるContig長ヒストグラム(10/20午後)</a>
+</li></ul>
+<h2> <span class="mw-headline" id="galaxy.E3.82.92.E5.A4.96.E9.83.A8.E3.81.AB.E5.85.AC.E9.96.8B.E3.81.99.E3.82.8B.E6.96.B9.E6.B3.95"> galaxyを外部に公開する方法 </span></h2>
+<p>1) apacheを導入する。Macの場合、はじめからinstallされている。
+</p><p>2) httpd.conf(Macなら、/etc/apache2にあるよ。)に以下の2行を追記
+</p><p>RewriteEngine on
+</p><p>RewriteRule ^(.*) <a href="http://localhost:8080$1" class="external free" rel="nofollow">http://localhost:8080$1</a> [P]
+</p><p>3)<a href="http://ip_address:80/にアクセスする。" class="external free" rel="nofollow">http://ip_address:80/にアクセスする。</a>
+</p><p>※~/galaxy_dist/universe_wsgi.iniは修正なしでOKです。
+詳細は以下参照
+<a href="http://bitbucket.org/galaxy/galaxy-central/wiki/Config/ApacheProxy" class="external free" rel="nofollow">http://bitbucket.org/galaxy/galaxy-central/wiki/Config/ApacheProxy</a>
+</p>
+<!-- 
+NewPP limit report
+Preprocessor node count: 90/1000000
+Post-expand include size: 0/2097152 bytes
+Template argument size: 0/2097152 bytes
+Expensive parser function count: 0/100
+-->
+
+<!-- Saved in parser cache with key wikidb-togowiki_:pcache:idhash:38-0!1!0!!ja!2!edit=0 and timestamp 20230604114851 -->
+<div class="printfooter">
+「<a href="http://wiki.lifesciencedb.jp/mw/Galaxy_%E3%83%84%E3%83%BC%E3%83%AB%E3%82%92%E4%BD%9C%E3%82%8B">http://wiki.lifesciencedb.jp/mw/Galaxy_%E3%83%84%E3%83%BC%E3%83%AB%E3%82%92%E4%BD%9C%E3%82%8B</a>」より作成</div>
+		<div id='catlinks' class='catlinks'><div id="mw-normal-catlinks"><a href="/mw/%E7%89%B9%E5%88%A5:%E3%82%AB%E3%83%86%E3%82%B4%E3%83%AA" title="特別:カテゴリ">カテゴリ</a>: <span dir='ltr'><a href="/mw/index.php?title=Category:Bh10.10&amp;action=edit&amp;redlink=1" class="new" title="Category:Bh10.10（存在しないページ）">Bh10.10</a></span> | <span dir='ltr'><a href="/mw/index.php?title=Category:Galaxy&amp;action=edit&amp;redlink=1" class="new" title="Category:Galaxy（存在しないページ）">Galaxy</a></span></div></div>		<!-- end content -->
+				<div class="visualClear"></div>
+	</div>
+</div></div>
+<div id="column-one">
+	<div id="p-cactions" class="portlet">
+		<h5>表示</h5>
+		<div class="pBody">
+			<ul>
+				 <li id="ca-nstab-main" class="selected"><a href="/mw/Galaxy_%E3%83%84%E3%83%BC%E3%83%AB%E3%82%92%E4%BD%9C%E3%82%8B" title="本文を表示 [c]" accesskey="c">ページ</a></li>
+				 <li id="ca-talk" class="new"><a href="/mw/index.php?title=%E3%83%8E%E3%83%BC%E3%83%88:Galaxy_%E3%83%84%E3%83%BC%E3%83%AB%E3%82%92%E4%BD%9C%E3%82%8B&amp;action=edit&amp;redlink=1" title="記事についての議論 [t]" accesskey="t">議論</a></li>
+				 <li id="ca-viewsource"><a href="/mw/index.php?title=Galaxy_%E3%83%84%E3%83%BC%E3%83%AB%E3%82%92%E4%BD%9C%E3%82%8B&amp;action=edit" title="このページは保護されています。&#10;ページのソースを閲覧できます。 [e]" accesskey="e">ソースを表示</a></li>
+				 <li id="ca-history"><a href="/mw/index.php?title=Galaxy_%E3%83%84%E3%83%BC%E3%83%AB%E3%82%92%E4%BD%9C%E3%82%8B&amp;action=history" title="このページの過去の版 [h]" accesskey="h">履歴</a></li>
+			</ul>
+		</div>
+	</div>
+	<div class="portlet" id="p-personal">
+		<h5>個人用ツール</h5>
+		<div class="pBody">
+			<ul>
+				<li id="pt-anonuserpage"><a href="/mw/%E5%88%A9%E7%94%A8%E8%80%85:172.18.8.51" title="自分が編集しているIPアドレスの利用者ページ [.]" accesskey="." class="new">172.18.8.51</a></li>
+				<li id="pt-anontalk"><a href="/mw/%E5%88%A9%E7%94%A8%E8%80%85%E2%80%90%E4%BC%9A%E8%A9%B1:172.18.8.51" title="このIPアドレスからなされた編集についての議論 [n]" accesskey="n" class="new">このIPアドレスのトーク</a></li>
+				<li id="pt-anonlogin"><a href="/mw/index.php?title=%E7%89%B9%E5%88%A5:%E3%83%AD%E3%82%B0%E3%82%A4%E3%83%B3&amp;returnto=Galaxy_%E3%83%84%E3%83%BC%E3%83%AB%E3%82%92%E4%BD%9C%E3%82%8B" title="ログインすることが推奨されます。ただし、必須ではありません。 [o]" accesskey="o">ログイン</a></li>
+				<li id="pt-openidlogin"><a href="/mw/index.php?title=%E7%89%B9%E5%88%A5:OpenID%E3%83%AD%E3%82%B0%E3%82%A4%E3%83%B3&amp;returnto=Galaxy_%E3%83%84%E3%83%BC%E3%83%AB%E3%82%92%E4%BD%9C%E3%82%8B">OpenIDでログイン</a></li>
+			</ul>
+		</div>
+	</div>
+	<div class="portlet" id="p-logo">
+		<a style="background-image: url(/mw/images/togowiki-logo.png);" href="/mw/%E3%83%A1%E3%82%A4%E3%83%B3%E3%83%9A%E3%83%BC%E3%82%B8" title="メインページに移動"></a>
+	</div>
+	<script type="text/javascript"> if (window.isMSIE55) fixalpha(); </script>
+	<div class='generated-sidebar portlet' id='p-navigation'>
+		<h5>案内</h5>
+		<div class='pBody'>
+			<ul>
+				<li id="n-mainpage-description"><a href="/mw/%E3%83%A1%E3%82%A4%E3%83%B3%E3%83%9A%E3%83%BC%E3%82%B8" title="メインページに移動する [z]" accesskey="z">メインページ</a></li>
+				<li id="n-portal"><a href="/mw/TogoWiki:%E3%82%B3%E3%83%9F%E3%83%A5%E3%83%8B%E3%83%86%E3%82%A3%E3%83%BB%E3%83%9D%E3%83%BC%E3%82%BF%E3%83%AB" title="このプロジェクトについて、できること、情報を入手する場所">コミュニティ・ポータル</a></li>
+				<li id="n-currentevents"><a href="/mw/TogoWiki:%E6%9C%80%E8%BF%91%E3%81%AE%E5%87%BA%E6%9D%A5%E4%BA%8B" title="最近の出来事について予備知識を得る">最近の出来事</a></li>
+				<li id="n-recentchanges"><a href="/mw/%E7%89%B9%E5%88%A5:%E6%9C%80%E8%BF%91%E3%81%AE%E6%9B%B4%E6%96%B0" title="ウィキにおける最近の更新の一覧 [r]" accesskey="r">最近の更新</a></li>
+				<li id="n-randompage"><a href="/mw/%E7%89%B9%E5%88%A5:%E3%81%8A%E3%81%BE%E3%81%8B%E3%81%9B%E8%A1%A8%E7%A4%BA" title="無作為に抽出されたページの読み込み [x]" accesskey="x">おまかせ表示</a></li>
+				<li id="n-help"><a href="/mw/Help:%E7%9B%AE%E6%AC%A1" title="情報を得る場所">ヘルプ</a></li>
+			</ul>
+		</div>
+	</div>
+	<div id="p-search" class="portlet">
+		<h5><label for="searchInput">検索</label></h5>
+		<div id="searchBody" class="pBody">
+			<form action="/mw/index.php" id="searchform">
+				<input type='hidden' name="title" value="特別:検索"/>
+				<input id="searchInput" title="TogoWiki内を検索" accesskey="f" type="search" name="search" />
+				<input type='submit' name="go" class="searchButton" id="searchGoButton"	value="表示" title="厳密に一致する名前のページが存在すれば、そのページへ移動します" />&nbsp;
+				<input type='submit' name="fulltext" class="searchButton" id="mw-searchButton" value="検索" title="入力された文字列が含まれるページを検索します" />
+			</form>
+		</div>
+	</div>
+	<div class="portlet" id="p-tb">
+		<h5>ツールボックス</h5>
+		<div class="pBody">
+			<ul>
+				<li id="t-whatlinkshere"><a href="/mw/%E7%89%B9%E5%88%A5:%E3%83%AA%E3%83%B3%E3%82%AF%E5%85%83/Galaxy_%E3%83%84%E3%83%BC%E3%83%AB%E3%82%92%E4%BD%9C%E3%82%8B" title="ここにリンクしている全ウィキのページの一覧 [j]" accesskey="j">リンク元</a></li>
+				<li id="t-recentchangeslinked"><a href="/mw/%E7%89%B9%E5%88%A5:%E9%96%A2%E9%80%A3%E3%83%9A%E3%83%BC%E3%82%B8%E3%81%AE%E6%9B%B4%E6%96%B0%E7%8A%B6%E6%B3%81/Galaxy_%E3%83%84%E3%83%BC%E3%83%AB%E3%82%92%E4%BD%9C%E3%82%8B" title="このページからリンクしているページの最近の更新 [k]" accesskey="k">関連ページの更新状況</a></li>
+<li id="t-specialpages"><a href="/mw/%E7%89%B9%E5%88%A5:%E7%89%B9%E5%88%A5%E3%83%9A%E3%83%BC%E3%82%B8%E4%B8%80%E8%A6%A7" title="特別ページの一覧 [q]" accesskey="q">特別ページ</a></li>
+				<li id="t-print"><a href="/mw/index.php?title=Galaxy_%E3%83%84%E3%83%BC%E3%83%AB%E3%82%92%E4%BD%9C%E3%82%8B&amp;printable=yes" rel="alternate" title="このページの印刷用ページ [p]" accesskey="p">印刷用バージョン</a></li>				<li id="t-permalink"><a href="/mw/index.php?title=Galaxy_%E3%83%84%E3%83%BC%E3%83%AB%E3%82%92%E4%BD%9C%E3%82%8B&amp;oldid=901" title="ページのこの版への固定リンク">この版への固定リンク</a></li>			</ul>
+		</div>
+	</div>
+</div><!-- end of the left (by default at least) column -->
+<div class="visualClear"></div>
+<div id="footer">
+	<div id="f-poweredbyico"><a href="http://www.mediawiki.org/"><img src="/mw/skins/common/images/poweredby_mediawiki_88x31.png" height="31" width="88" alt="Powered by MediaWiki" /></a></div>
+	<div id="f-copyrightico"><a href="http://creativecommons.org/licenses/by/3.0/"><img src="http://i.creativecommons.org/l/by/3.0/88x31.png" alt="Attribution 3.0 Unported" width="88" height="31" /></a></div>
+	<ul id="f-list">
+		<li id="lastmod"> このページの最終更新は 2011年1月25日 (火) 09:22 に行われました。</li>
+		<li id="viewcount">このページは81,006回アクセスされました。</li>
+		<li id="copyright">内容は<a href="http://creativecommons.org/licenses/by/3.0/" class="external ">Attribution 3.0 Unported</a>のライセンスで利用することができます。</li>
+		<li id="privacy"><a href="/mw/TogoWiki:%E3%83%97%E3%83%A9%E3%82%A4%E3%83%90%E3%82%B7%E3%83%BC%E3%83%BB%E3%83%9D%E3%83%AA%E3%82%B7%E3%83%BC" title="TogoWiki:プライバシー・ポリシー">プライバシー・ポリシー</a></li>
+		<li id="about"><a href="/mw/TogoWiki:TogoWiki%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6" title="TogoWiki:TogoWikiについて">TogoWikiについて</a></li>
+		<li id="disclaimer"><a href="/mw/TogoWiki:%E5%85%8D%E8%B2%AC%E4%BA%8B%E9%A0%85" title="TogoWiki:免責事項">免責事項</a></li>
+	</ul>
+</div>
+</div>
+
+<script>if (window.runOnloadHook) runOnloadHook();</script>
+<!-- Served in 0.651 secs. --></body></html>

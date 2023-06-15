@@ -1,0 +1,998 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html lang="ja" dir="ltr">
+<head>
+<title>RubyからRの機能を使う - TogoWiki</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta name="generator" content="MediaWiki 1.16.3" />
+<link rel="shortcut icon" href="http://wiki.lifesciencedb.jp/favicon.ico" />
+<link rel="search" type="application/opensearchdescription+xml" href="http://wiki.lifesciencedb.jp/mw/opensearch_desc.php" title="TogoWiki (ja)" />
+<link title="Creative Commons" type="application/rdf+xml" href="index.php@title=RubyからRの機能を使う&amp;action=creativecommons" rel="meta" />
+<link rel="copyright" href="http://creativecommons.org/licenses/by/3.0/" />
+<link rel="alternate" type="application/atom+xml" title="TogoWikiのAtomフィード" href="http://wiki.lifesciencedb.jp/mw/index.php?title=%E7%89%B9%E5%88%A5:%E6%9C%80%E8%BF%91%E3%81%AE%E6%9B%B4%E6%96%B0&amp;feed=atom" />
+<link rel="stylesheet" href="http://wiki.lifesciencedb.jp/mw/skins/common/shared.css?270" media="screen" />
+<link rel="stylesheet" href="http://wiki.lifesciencedb.jp/mw/skins/common/commonPrint.css?270" media="print" />
+<link rel="stylesheet" href="http://wiki.lifesciencedb.jp/mw/skins/monobook/main.css?270" media="screen" />
+<!--[if lt IE 5.5000]><link rel="stylesheet" href="/mw/skins/monobook/IE50Fixes.css?270" media="screen" /><![endif]-->
+<!--[if IE 5.5000]><link rel="stylesheet" href="/mw/skins/monobook/IE55Fixes.css?270" media="screen" /><![endif]-->
+<!--[if IE 6]><link rel="stylesheet" href="/mw/skins/monobook/IE60Fixes.css?270" media="screen" /><![endif]-->
+<!--[if IE 7]><link rel="stylesheet" href="/mw/skins/monobook/IE70Fixes.css?270" media="screen" /><![endif]-->
+<link rel="stylesheet" href="http://wiki.lifesciencedb.jp/mw/index.php?title=MediaWiki:Common.css&amp;usemsgcache=yes&amp;ctype=text%2Fcss&amp;smaxage=18000&amp;action=raw&amp;maxage=18000" />
+<link rel="stylesheet" href="http://wiki.lifesciencedb.jp/mw/index.php?title=MediaWiki:Print.css&amp;usemsgcache=yes&amp;ctype=text%2Fcss&amp;smaxage=18000&amp;action=raw&amp;maxage=18000" media="print" />
+<link rel="stylesheet" href="http://wiki.lifesciencedb.jp/mw/index.php?title=MediaWiki:Monobook.css&amp;usemsgcache=yes&amp;ctype=text%2Fcss&amp;smaxage=18000&amp;action=raw&amp;maxage=18000" />
+<link rel="stylesheet" href="http://wiki.lifesciencedb.jp/mw/index.php?title=-&amp;action=raw&amp;maxage=18000&amp;gen=css" />
+<script>
+var skin="monobook",
+stylepath="/mw/skins",
+wgUrlProtocols="http\\:\\/\\/|https\\:\\/\\/|ftp\\:\\/\\/|irc\\:\\/\\/|gopher\\:\\/\\/|telnet\\:\\/\\/|nntp\\:\\/\\/|worldwind\\:\\/\\/|mailto\\:|news\\:|svn\\:\\/\\/",
+wgArticlePath="/mw/$1",
+wgScriptPath="/mw",
+wgScriptExtension=".php",
+wgScript="/mw/index.php",
+wgVariantArticlePath=false,
+wgActionPaths={},
+wgServer="http://wiki.lifesciencedb.jp",
+wgCanonicalNamespace="",
+wgCanonicalSpecialPageName=false,
+wgNamespaceNumber=0,
+wgPageName="RubyからRの機能を使う",
+wgTitle="RubyからRの機能を使う",
+wgAction="view",
+wgArticleId=53,
+wgIsArticle=true,
+wgUserName=null,
+wgUserGroups=null,
+wgUserLanguage="ja",
+wgContentLanguage="ja",
+wgBreakFrames=false,
+wgCurRevisionId=820,
+wgVersion="1.16.3",
+wgEnableAPI=true,
+wgEnableWriteAPI=true,
+wgSeparatorTransformTable=["", ""],
+wgDigitTransformTable=["", ""],
+wgMainPageTitle="メインページ",
+wgFormattedNamespaces={"-2": "メディア", "-1": "特別", "0": "", "1": "ノート", "2": "利用者", "3": "利用者‐会話", "4": "TogoWiki", "5": "TogoWiki‐ノート", "6": "ファイル", "7": "ファイル‐ノート", "8": "MediaWiki", "9": "MediaWiki‐ノート", "10": "Template", "11": "Template‐ノート", "12": "Help", "13": "Help‐ノート", "14": "Category", "15": "Category‐ノート"},
+wgNamespaceIds={"メディア": -2, "特別": -1, "": 0, "ノート": 1, "利用者": 2, "利用者‐会話": 3, "togowiki": 4, "togowiki‐ノート": 5, "ファイル": 6, "ファイル‐ノート": 7, "mediawiki": 8, "mediawiki‐ノート": 9, "template": 10, "template‐ノート": 11, "help": 12, "help‐ノート": 13, "category": 14, "category‐ノート": 15, "画像": 6, "画像‐ノート": 7, "image": 6, "image_talk": 7},
+wgSiteName="TogoWiki",
+wgCategories=["Bh10.10"],
+wgRestrictionEdit=[],
+wgRestrictionMove=[];
+</script><script src="http://wiki.lifesciencedb.jp/mw/skins/common/wikibits.js?270"></script>
+<script src="http://wiki.lifesciencedb.jp/mw/skins/common/ajax.js?270"></script>
+<script src="http://wiki.lifesciencedb.jp/mw/index.php?title=-&amp;action=raw&amp;gen=js&amp;useskin=monobook&amp;270"></script>
+
+		<style type='text/css'>
+		li#pt-openidlogin {
+		  background: url(http://wiki.lifesciencedb.jp/mw/extensions/OpenID/skin/icons/openid-inputicon.png) top left no-repeat;
+		  padding-left: 20px;
+		  text-transform: none;
+		}
+		</style>
+</head>
+<body class="mediawiki ltr ns-0 ns-subject page-RubyからRの機能を使う skin-monobook">
+<div id="globalWrapper">
+<div id="column-content"><div id="content" >
+	<a id="top"></a>
+	
+	<h1 id="firstHeading" class="firstHeading">RubyからRの機能を使う</h1>
+	<div id="bodyContent">
+		<h3 id="siteSub">提供：TogoWiki</h3>
+		<div id="contentSub">
+				<div id="mw-revision-info">2010年11月5日 (金) 14:05時点における<a href="http://wiki.lifesciencedb.jp/mw/index.php?title=%E5%88%A9%E7%94%A8%E8%80%85:Ktym&amp;action=edit&amp;redlink=1" class="new mw-userlink" title="利用者:Ktym（存在しないページ）">Ktym</a>  <span class="mw-usertoollinks">(<a href="http://wiki.lifesciencedb.jp/mw/index.php?title=%E5%88%A9%E7%94%A8%E8%80%85%E2%80%90%E4%BC%9A%E8%A9%B1:Ktym&amp;action=edit&amp;redlink=1" class="new" title="利用者‐会話:Ktym（存在しないページ）">トーク</a> | <a href="特別%253A投稿記録/Ktym.html" title="特別:投稿記録/Ktym">投稿記録</a>)</span>による版</div>
+
+				<div id="mw-revision-nav">(<a href="index.php@title=RubyからRの機能を使う&amp;diff=prev&amp;oldid=820.html" title="RubyからRの機能を使う">差分</a>) <a href="index.php@title=RubyからRの機能を使う&amp;direction=prev&amp;oldid=820.html" title="RubyからRの機能を使う">←前の版</a> | 最新版 (差分) | 次の版→ (差分)</div>
+			</div>
+		<div id="jump-to-nav">移動： <a href="index.php@title=RubyからRの機能を使う&amp;oldid=820.html#column-one">案内</a>, <a href="index.php@title=RubyからRの機能を使う&amp;oldid=820.html#searchInput">検索</a></div>
+		<!-- start content -->
+<table id="toc" class="toc"><tr><td><div id="toctitle"><h2>目次</h2></div>
+<ul>
+<li class="toclevel-1 tocsection-1"><a href="index.php@title=RubyからRの機能を使う&amp;oldid=820.html#RSRuby"><span class="tocnumber">1</span> <span class="toctext">RSRuby</span></a></li>
+<li class="toclevel-1 tocsection-2"><a href="index.php@title=RubyからRの機能を使う&amp;oldid=820.html#RinRuby"><span class="tocnumber">2</span> <span class="toctext">RinRuby</span></a></li>
+<li class="toclevel-1 tocsection-3"><a href="index.php@title=RubyからRの機能を使う&amp;oldid=820.html#Rserve_.2B_Rserve-Ruby-client"><span class="tocnumber">3</span> <span class="toctext">Rserve + Rserve-Ruby-client</span></a></li>
+<li class="toclevel-1 tocsection-4"><a href="index.php@title=RubyからRの機能を使う&amp;oldid=820.html#.E3.83.99.E3.83.B3.E3.83.81.E3.83.9E.E3.83.BC.E3.82.AF"><span class="tocnumber">4</span> <span class="toctext">ベンチマーク</span></a></li>
+<li class="toclevel-1 tocsection-5"><a href="index.php@title=RubyからRの機能を使う&amp;oldid=820.html#BioRuby_.E3.81.A8_RinRuby.2C_Rserve_.E3.81.AE.E6.AF.94.E8.BC.83.E3.81.A8_RSRuby.2C_RSOAP_.E3.81.AE.E6.8C.AB.E6.8A.98"><span class="tocnumber">5</span> <span class="toctext">BioRuby と RinRuby, Rserve の比較と RSRuby, RSOAP の挫折</span></a>
+<ul>
+<li class="toclevel-2 tocsection-6"><a href="index.php@title=RubyからRの機能を使う&amp;oldid=820.html#pure_BioRuby"><span class="tocnumber">5.1</span> <span class="toctext">pure BioRuby</span></a></li>
+<li class="toclevel-2 tocsection-7"><a href="index.php@title=RubyからRの機能を使う&amp;oldid=820.html#Rinruby_2"><span class="tocnumber">5.2</span> <span class="toctext">Rinruby</span></a></li>
+<li class="toclevel-2 tocsection-8"><a href="index.php@title=RubyからRの機能を使う&amp;oldid=820.html#Rserve"><span class="tocnumber">5.3</span> <span class="toctext">Rserve</span></a></li>
+<li class="toclevel-2 tocsection-9"><a href="index.php@title=RubyからRの機能を使う&amp;oldid=820.html#RSRuby_2"><span class="tocnumber">5.4</span> <span class="toctext">RSRuby</span></a></li>
+<li class="toclevel-2 tocsection-10"><a href="index.php@title=RubyからRの機能を使う&amp;oldid=820.html#RSOAP"><span class="tocnumber">5.5</span> <span class="toctext">RSOAP</span></a></li>
+</ul>
+</li>
+</ul>
+</td></tr></table><script>if (window.showTocToggle) { var tocShowText = "表示"; var tocHideText = "非表示"; showTocToggle(); } </script>
+<h2> <span class="mw-headline" id="RSRuby"> RSRuby </span></h2>
+<p>Tigerでは、
+</p>
+<pre>
+$ export LD_LIBRARY_PATH=:/Library/Frameworks/R.framework/Resources/lib
+$ ruby187/bin/gem install rsruby-0.5.1.1.gem -- --with-R-dir=$R_HOME
+Building native extensions.  This could take a while...
+Successfully installed rsruby-0.5.1.1
+1 gem installed
+Installing ri documentation for rsruby-0.5.1.1...
+Installing RDoc documentation for rsruby-0.5.1.1...
+$ R --version
+R version 2.8.0 (2008-10-20)
+</pre>
+<p>利用コードは
+</p>
+<pre>
+ENV['R_HOME']='/Library/Frameworks/R.framework/Resources/lib'
+require 'rsruby'
+</pre>
+<p>Snow Leopard と R 2.12 の場合だと、
+</p>
+<pre>
+sudo gem install rsruby -- --with-R-dir=/Library/Frameworks/R.framework/Resources
+</pre>
+<pre>
+ENV['R_HOME']='/Library/Frameworks/R.framework/Resources'
+require 'rsruby'
+</pre>
+<p>で OK
+</p>
+<h2> <span class="mw-headline" id="RinRuby"> RinRuby </span></h2>
+<p><a href="http://blog.itoshi.tv/2010/09/rinruby/" class="external text" rel="nofollow">二階堂さんのブログ記事</a>
+</p>
+<h2> <span class="mw-headline" id="Rserve_.2B_Rserve-Ruby-client"> Rserve + Rserve-Ruby-client </span></h2>
+<pre>gem install rserve-client
+</pre>
+<h2> <span class="mw-headline" id=".E3.83.99.E3.83.B3.E3.83.81.E3.83.9E.E3.83.BC.E3.82.AF"> ベンチマーク </span></h2>
+<p><a href="http://github.com/clbustos/Rserve-Ruby-client/wiki/benchmarks" class="external text" rel="nofollow">Rserve-Ruby-clientの作者による3者比較</a>
+</p><p>ここまでが事前調査
+</p>
+<hr />
+<p>ここからがテストしてみた結果
+</p>
+<h2> <span class="mw-headline" id="BioRuby_.E3.81.A8_RinRuby.2C_Rserve_.E3.81.AE.E6.AF.94.E8.BC.83.E3.81.A8_RSRuby.2C_RSOAP_.E3.81.AE.E6.8C.AB.E6.8A.98"> BioRuby と RinRuby, Rserve の比較と RSRuby, RSOAP の挫折 </span></h2>
+<p>ベンチマークは 6.8MB, 5210 エントリの塩基配列 FASTA ファイルを読み込んで翻訳するスピードを競う、らしい。
+</p><p>入力データ：
+</p>
+<pre>
+% head -50 test-dna.fa
+&gt;2L52.1
+atgtcaatggtaagaaatgtatcaaatcagagcgaaaaattggaaatttt
+gtcatgtaaatgggtaggatgtctcaaatcaacagaagtgttcaaaacgg
+ttgaaaagttattagatcatgttacggctgatcatattccagaagttatt
+gtaaacgatgacgggtcggaggaagtcgtttgtcagtgggattgctgcga
+aatgggtgccagtcgtggaaatcttcaaaaaaagaaagagtggatggaga
+atcacttcaaaacacgtcatgttcgcaaagcaaaaatattcaaatgctta
+attgaggattgccctgtggtaaagtcaagtagtcaggaaattgaaaccca
+tctcagaataagtcatccaataaatccgaaaaaagagagactgaaagagt
+ttaaaagttctaccgaccacatcgaacctactcaagctaatagagtatgg
+acaattgtgaacggagaggttcaatggaagactccaccgcgggttaaaaa
+aaagactgtgatatactatgatgatgggccgaggtatgtatttccaacgg
+gatgtgcgagatgcaactatgatagtgacgaatcagaactggaatcagat
+gagttttggtcagccacagagatgtcagataatgaagaagtatatgtgaa
+cttccgtggaatgaactgtatctcaacaggaaagtcggccagtatggtcc
+cgagcaaacgaagaaattggccaaaaagagtgaagaaaaggctatcgaca
+caaagaaacaatcagaaaactattcgaccaccagagctgaataaaaataa
+tatagagataaaagatatgaactcaaataaccttgaagaacgcaacagag
+aagaatgcattcagcctgtttctgttgaaaagaacatcctgcattttgaa
+aaattcaaatcaaatcaaatttgcattgttcgggaaaacaataaatttag
+agaaggaacgagaagacgcagaaagaattctggtgaatcggaagacttga
+aaattcatgaaaactttactgaaaaacgaagacccattcgatcatgcaaa
+caaaatataagtttctatgaaatggacggggatatagaagaatttgaagt
+gtttttcgatactcccacaaaaagcaaaaaagtacttctggatatctaca
+gtgcgaagaaaatgccaaaaattgaggttgaagattcattagttaataag
+tttcattcaaaacgtccatcaagagcatgtcgagttcttggaagtatgga
+agaagtaccatttgatgtggaaataggatattga
+&gt;2RSSE.1
+atgacagtggcgagttacagtatggtgctgtgtggctcatctgatgatca
+tcgctatcgaggcagaatcgaaaaagtaaaattcggcgtacccataaacg
+aagcatttgcccatgacattcccgccacgcttctcatgctcttgctcaaa
+gtgaacaaggatggacccgcgaaaaaggatatttggcgagcgcccggaaa
+tcaggctcaagtgcgaaaattgtcgcaagtgatgcaacacgggcggcttg
+taaatatcgagaatttcacggtttacacggcggcatctgtcatcaaaaag
+tttctttcaaagttgccaaacggcatttttggacgggataatgaggagac
+actgttcaatagtgcatcgactggaatggatattgagaagcagagacagg
+tgttttataggatatttggatcacttccagtcgcatcccaacacttgctc
+gtcctacttttcggcacatttcgggtcgtcgccgactcgtcggacggtca
+ttcgaacgcgatgaacccgaatgcgatcgcgatttcggtggcaccatcgc
+tttttcacacttgtatacacgatggacggacggcgcgagtagaagacctt
+caacggttcaagctggcctcgaacattgtgtgctcgataatttgctcatt
+cggcgacacgaagctcttcccacgcgagtgctacgagtattacgccagat
+acacgggtcgcacgttgcgaatcgacgagaatcgaatgttcacttttcat
+aatccatccaaccgtcgtgctcgtggcgaagagttctccgcgttggcggc
+aaagtgtgcgggcgcctactcgctggccgccatccacctggccgaagaag
+cgtcaccggagcccactccgacaacctcgaagcctccacgtggcaacggc
+gtcgggcgtgccgggagtctgaagcagcacgcgttgacccagacgacgga
+tcatccgaagagaagcgtgtcgatcgcggctaaggatccgtatccaactg
+atttaaggacatcggtcagctgtgatttttga
+&gt;2RSSE.2
+ :
+</pre>
+<p>結果：Ruby 1.9 は 1.8 よりかなり速い。R を使うより BioRuby 単独の方が速い（ただしBioLib + Ruby は超速いらしい）。Rserve は結構安定して使える。
+</p><p>→ RSRuby を使うと R を利用しても BioRuby 単独より速くなった。前回インストールに失敗したのは R が古かったため。m(__)m
+</p><p>→ ただし、BioRuby は Ruby 1.9 の gsub(/re/, hash) を利用することでさらに高速化できることが判明。そのバージョンを使うと RSRuby よりも若干速くなり最速（約2.1秒）。
+</p>
+<ul><li> pure BioRuby
+</li></ul>
+<p>Ruby 1.9 で約３秒、Ruby 1.8 で約６秒
+</p>
+<pre>
+% time ruby-1.9 DNAtranslate-bioruby.rb test-dna.fa &gt; /dev/null
+ruby-1.9 DNAtranslate-bioruby.rb test-dna.fa &gt; /dev/null  2.96s user 0.07s system 97% cpu 3.120 total
+
+% time ruby-1.9 DNAtranslate-bioruby.rb test-dna.fa 10 &gt; /dev/null
+ruby-1.9 DNAtranslate-bioruby.rb test-dna.fa 10 &gt; /dev/null  28.25s user 0.29s system 91% cpu 31.250 total
+</pre>
+<pre>
+% time ruby-1.8 DNAtranslate-bioruby.rb test-dna.fa &gt; /dev/null
+ruby-1.8 DNAtranslate-bioruby.rb test-dna.fa &gt; /dev/null  5.36s user 0.18s system 97% cpu 5.666 total
+
+% time ruby-1.8 DNAtranslate-bioruby.rb test-dna.fa 10 &gt; /dev/null
+ruby-1.8 DNAtranslate-bioruby.rb test-dna.fa 10 &gt; /dev/null  52.98s user 1.48s system 91% cpu 59.319 total
+</pre>
+<ul><li> RinRuby
+</li></ul>
+<p>途中で実行が継続できなくなりテストできなかった。
+</p>
+<ul><li> Rserve
+</li></ul>
+<p>Ruby 1.9 で約６秒、Ruby 1.8 で約16秒
+</p>
+<pre>
+% time ruby-1.9 DNAtranslate-rserve.rb test-dna.fa &gt; /dev/null 
+ruby-1.9 DNAtranslate-rserve.rb test-dna.fa &gt; /dev/null  4.16s user 0.25s system 76% cpu 5.737 total
+
+% time ruby-1.9 DNAtranslate-rserve.rb test-dna.fa 10 &gt; /dev/null
+ruby-1.9 DNAtranslate-rserve.rb test-dna.fa 10 &gt; /dev/null  39.71s user 1.90s system 75% cpu 55.061 total
+</pre>
+<pre>
+% time ruby-1.8 DNAtranslate-rserve.rb test-dna.fa &gt; /dev/null
+ruby-1.8 DNAtranslate-rserve.rb test-dna.fa &gt; /dev/null  13.69s user 0.28s system 87% cpu 16.010 total
+
+% time ruby-1.8 DNAtranslate-rserve.rb test-dna.fa 10 &gt; /dev/null
+ruby-1.8 DNAtranslate-rserve.rb test-dna.fa 10 &gt; /dev/null  135.66s user 2.56s system 82% cpu 2:46.68 total
+</pre>
+<ul><li> RSRuby
+</li></ul>
+<p>Snow Leopard では？インストールが困難でテストまでたどり着けなかった。
+</p><p>→ 後日再挑戦して無事動作。最速。1.8 と 1.9 であまり差が出ず（1.9の方が若干速い）、どちらも約 2.5 秒。
+</p>
+<pre>
+% time ruby-1.9 DNAtranslate-rsruby.rb test-dna.fa  &gt; /dev/null
+ruby-1.9 DNAtranslate-rsruby.rb test-dna.fa &gt; /dev/null  2.35s user 0.12s system 99% cpu 2.481 total
+
+% time ruby-1.9 DNAtranslate-rsruby.rb test-dna.fa 10  &gt; /dev/null
+ruby-1.9 DNAtranslate-rsruby.rb test-dna.fa 10 &gt; /dev/null  19.77s user 0.42s system 99% cpu 20.280 total
+</pre>
+<pre>
+% time ruby-1.8 DNAtranslate-rsruby.rb test-dna.fa  &gt; /dev/null 
+ruby-1.8 DNAtranslate-rsruby.rb test-dna.fa &gt; /dev/null  2.45s user 0.12s system 99% cpu 2.589 total
+
+% time ruby-1.8 DNAtranslate-rsruby.rb test-dna.fa 10  &gt; /dev/null
+ruby-1.8 DNAtranslate-rsruby.rb test-dna.fa 10 &gt; /dev/null  21.27s user 0.61s system 98% cpu 22.128 total
+</pre>
+<p><br />
+</p>
+<ul><li> RSOAP
+</li></ul>
+<p>サーバのインストール方法を調べるところから。
+</p><p><br />
+</p>
+<h3> <span class="mw-headline" id="pure_BioRuby"> pure BioRuby </span></h3>
+<pre>
+% cat DNAtranslate-bioruby.rb
+require 'rubygems'
+require 'bio'
+
+fasta = ARGV.shift
+repeat = (ARGV.shift || 1).to_i
+
+repeat.times do
+  Bio::FlatFile.auto(fasta).each do |entry|
+    puts &quot;&gt;#{entry.entry_id}&quot;
+    puts entry.naseq.translate
+  end
+end
+</pre>
+<pre>
+% time ruby-1.9 DNAtranslate-bioruby.rb test-dna.fa &gt; /dev/null
+ruby-1.9 DNAtranslate-bioruby.rb test-dna.fa &gt; /dev/null  2.96s user 0.07s system 97% cpu 3.120 total
+
+% time ruby-1.9 DNAtranslate-bioruby.rb test-dna.fa 10 &gt; /dev/null
+ruby-1.9 DNAtranslate-bioruby.rb test-dna.fa 10 &gt; /dev/null  28.25s user 0.29s system 91% cpu 31.250 total
+
+% time ruby-1.8 DNAtranslate-bioruby.rb test-dna.fa &gt; /dev/null
+ruby-1.8 DNAtranslate-bioruby.rb test-dna.fa &gt; /dev/null  5.36s user 0.18s system 97% cpu 5.666 total
+
+% time ruby-1.8 DNAtranslate-bioruby.rb test-dna.fa 10 &gt; /dev/null
+ruby-1.8 DNAtranslate-bioruby.rb test-dna.fa 10 &gt; /dev/null  52.98s user 1.48s system 91% cpu 59.319 total
+</pre>
+<p>Ruby 1.9 の gsub(/re/, hash) を試してみるべき。
+</p>
+<h3> <span class="mw-headline" id="Rinruby_2"> Rinruby </span></h3>
+<p>Pure Ruby で書かれた R の実行ライブラリ。<a href="http://blog.itoshi.tv/2010/09/rinruby/" class="external free" rel="nofollow">http://blog.itoshi.tv/2010/09/rinruby/</a>
+</p>
+<pre>
+% sudo gem install rinruby
+Successfully installed rinruby-2.0.1
+1 gem installed
+Installing ri documentation for rinruby-2.0.1...
+Installing RDoc documentation for rinruby-2.0.1...
+</pre>
+<pre>
+% cat DNAtranslate-rinruby.rb
+require 'rubygems'
+require 'rinruby'
+require 'bio'
+
+R.echo(enable = false)
+
+R.eval('library(GeneR)')
+
+fasta = ARGV.shift
+repeat = (ARGV.shift || 1).to_i
+
+repeat.times do
+  Bio::FlatFile.auto(fasta).each do |entry|
+    puts &quot;&gt;#{entry.entry_id}&quot;
+    ntseq = entry.seq
+    R.eval(%Q[aaseq &lt;- strTranslate(&quot;#{ntseq}&quot;)])
+    puts R.pull(&quot;aaseq&quot;)
+  end
+end
+</pre>
+<pre>
+% time ruby-1.9 DNAtranslate-rinruby.rb test-dna.fa
+</pre>
+<p>遅い上に数十エントリ処理したところで途中で止まってしまい、計測できなかった。実用には向かない感じ？
+</p>
+<h3> <span class="mw-headline" id="Rserve"> Rserve </span></h3>
+<p>rserve-client をインストールする。<a href="http://github.com/clbustos/Rserve-Ruby-client" class="external free" rel="nofollow">http://github.com/clbustos/Rserve-Ruby-client</a>
+</p>
+<pre>
+% sudo gem install rserve-client
+Successfully installed rserve-client-0.2.5
+1 gem installed
+Installing ri documentation for rserve-client-0.2.5...
+Installing RDoc documentation for rserve-client-0.2.5...
+</pre>
+<p>Rserve のインストール。<a href="http://www.rforge.net/Rserve/files/" class="external free" rel="nofollow">http://www.rforge.net/Rserve/files/</a>
+</p>
+<pre>
+% wget http://www.rforge.net/Rserve/snapshot/Rserve_0.6-2.tar.gz
+
+% R CMD INSTALL Rserve_0.6-2.tar.gz
+* Installing to library ‘/Library/Frameworks/R.framework/Resources/library’
+* Installing *source* package ‘Rserve’ ...
+checking whether to compile the server... yes
+checking whether to compile the client... no
+checking for gcc... gcc -arch i386 -std=gnu99
+checking whether the C compiler works... yes
+checking for C compiler default output file name... a.out
+checking for suffix of executables...
+checking whether we are cross compiling... no
+checking for suffix of object files... o
+checking whether we are using the GNU C compiler... yes
+checking whether gcc -arch i386 -std=gnu99 accepts -g... yes
+checking for gcc -arch i386 -std=gnu99 option to accept ISO C89... none needed
+checking how to run the C preprocessor... gcc -arch i386 -std=gnu99 -E
+checking for grep that handles long lines and -e... /usr/bin/grep
+checking for egrep... /usr/bin/grep -E
+checking for ANSI C header files... rm: conftest.dSYM: is a directory
+rm: conftest.dSYM: is a directory
+yes
+checking for sys/wait.h that is POSIX.1 compatible... yes
+checking for sys/types.h... yes
+checking for sys/stat.h... yes
+checking for stdlib.h... yes
+checking for string.h... yes
+checking for memory.h... yes
+checking for strings.h... yes
+checking for inttypes.h... yes
+checking for stdint.h... yes
+checking for unistd.h... yes
+checking for string.h... (cached) yes
+checking for memory.h... (cached) yes
+checking sys/time.h usability... yes
+checking sys/time.h presence... yes
+checking for sys/time.h... yes
+checking for unistd.h... (cached) yes
+checking for sys/stat.h... (cached) yes
+checking for sys/types.h... (cached) yes
+checking sys/socket.h usability... yes
+checking sys/socket.h presence... yes
+checking for sys/socket.h... yes
+checking sys/un.h usability... yes
+checking sys/un.h presence... yes
+checking for sys/un.h... yes
+checking netinet/in.h usability... yes
+checking netinet/in.h presence... yes
+checking for netinet/in.h... yes
+checking netinet/tcp.h usability... yes
+checking netinet/tcp.h presence... yes
+checking for netinet/tcp.h... yes
+checking for an ANSI C-conforming const... yes
+checking whether byte ordering is bigendian... no
+checking whether time.h and sys/time.h may both be included... yes
+checking for pid_t... yes
+checking vfork.h usability... no
+checking vfork.h presence... no
+checking for vfork.h... no
+checking for fork... yes
+checking for vfork... yes
+checking for working fork... yes
+checking for working vfork... (cached) yes
+checking return type of signal handlers... void
+checking for memset... yes
+checking for mkdir... yes
+checking for rmdir... yes
+checking for select... yes
+checking for socket... yes
+checking for library containing crypt... none required
+checking crypt.h usability... no
+checking crypt.h presence... no
+checking for crypt.h... no
+checking for socklen_t... yes
+checking for connect... yes
+checking for dlopen in -ldl... yes
+configure: creating ./config.status
+config.status: creating src/Makefile
+config.status: creating src/client/cxx/Makefile
+config.status: creating src/config.h
+** libs
+** arch - i386
+gcc -arch i386 -std=gnu99 -I/Library/Frameworks/R.framework/Resources/include -I/Library/Frameworks/R.framework/Resources/include/i386  -I/usr/local/include   -DDAEMON -Iinclude -I. -I/Library/Frameworks/R.framework/Resources/include -I/Library/Frameworks/R.framework/Resources/include/i386 -fPIC  -g -O2 -c Rserv.c -o Rserv.o
+gcc -arch i386 -std=gnu99 -I/Library/Frameworks/R.framework/Resources/include -I/Library/Frameworks/R.framework/Resources/include/i386  -I/usr/local/include   -DDAEMON -Iinclude -I. -I/Library/Frameworks/R.framework/Resources/include -I/Library/Frameworks/R.framework/Resources/include/i386 -fPIC  -g -O2 -c session.c -o session.o
+gcc -arch i386 -std=gnu99 -I/Library/Frameworks/R.framework/Resources/include -I/Library/Frameworks/R.framework/Resources/include/i386  -I/usr/local/include   -DDAEMON -Iinclude -I. -I/Library/Frameworks/R.framework/Resources/include -I/Library/Frameworks/R.framework/Resources/include/i386 -fPIC  -g -O2 -c md5.c -o md5.o
+gcc -arch i386 -std=gnu99 Rserv.o session.o md5.o -o Rserve -F/Library/Frameworks/R.framework/.. -framework R -ldl 
+cp Rserve Rserve.so
+gcc -arch i386 -std=gnu99 -Iinclude -I. -I/Library/Frameworks/R.framework/Resources/include -I/Library/Frameworks/R.framework/Resources/include/i386 -c Rserv.c -o Rserv_d.o -DNODAEMON -DRSERV_DEBUG -g  -I/usr/local/include -g -O2
+gcc -arch i386 -std=gnu99 Rserv_d.o session.o md5.o -o Rserve.dbg -F/Library/Frameworks/R.framework/.. -framework R -ldl 
+cp Rserve Rserve-bin.so
+cp Rserve.dbg Rserve-dbg.so
+./mergefat Rserve &quot;/Library/Frameworks/R.framework/Resources/bin/Rserve&quot;
+./mergefat Rserve.dbg &quot;/Library/Frameworks/R.framework/Resources/bin/Rserve.dbg&quot;
+** R
+** inst
+** preparing package for lazy loading
+** help
+*** installing help indices
+ &gt;&gt;&gt; Building/Updating help pages for package 'Rserve'
+     Formats: text html latex example
+  Rclient                           text    html    latex   example
+  Rserv                             text    html    latex
+** building package indices ...
+* DONE (Rserve)
+</pre>
+<pre>
+% R CMD Rserve
+R version 2.9.2 (2009-08-24)
+Copyright (C) 2009 The R Foundation for Statistical Computing
+ISBN 3-900051-07-0
+
+Rserv started in daemon mode.
+</pre>
+<p>Rserve のサーバがうごいたー。
+</p>
+<pre>
+% cat rserve-test.rb
+require 'rubygems'
+require 'rserve'
+include Rserve
+c = Connection.new
+x = c.eval(&quot;R.version.string&quot;);
+puts x.as_string
+</pre>
+<p>テストコードを動かしてみる。
+</p>
+<pre>
+% ruby-1.8 rserve-test.rb
+R version 2.9.2 (2009-08-24)
+</pre>
+<p>オッケー。
+</p><p>ここで、BioConductor の GeneR パッケージをインストールする。
+</p>
+<pre>
+% R
+&gt; source(&quot;http://bioconductor.org/biocLite.R&quot;)
+&gt; biocLite()
+</pre>
+<p>かなーり待たされてインストール完了。
+しかし GeneR はこの中に入っていないらしい。。
+</p>
+<pre>
+&gt; library(GeneR)
+ 以下にエラー library(GeneR)&nbsp;:  'GeneR' という名前のパッケージはありません
+</pre>
+<p><a href="http://www.bioconductor.org/packages/2.3/bioc/html/GeneR.html" class="external free" rel="nofollow">http://www.bioconductor.org/packages/2.3/bioc/html/GeneR.html</a> によると、
+</p>
+<pre>
+&gt; source(&quot;http://bioconductor.org/biocLite.R&quot;)
+&gt; biocLite(&quot;GeneR&quot;)
+Using R version 2.9.2, biocinstall version 2.4.13.
+Installing Bioconductor version 2.4 packages:
+[1] &quot;GeneR&quot;
+Please wait...
+
+ URL 'http://bioconductor.org/packages/2.4/bioc/bin/macosx/universal/contrib/2.9/GeneR_2.14.0.tgz' を試しています
+Content type 'application/x-gzip' length 411393 bytes (401 Kb)
+ 開かれた URL
+==================================================
+downloaded 401 Kb
+
+The downloaded packages are in
+     /var/folders/lt/ltVmCLsiF3mLKUpLCN3GlU+++TM/-Tmp-//RtmpHRXj4g/downloaded_packages
+</pre>
+<p>とするらしい。
+</p>
+<pre>
+&gt; library(GeneR)
+ 次のパッケージを付け加えます: 'GeneR'
+     The following object(s) are masked from package:utils&nbsp;:
+      relist
+</pre>
+<p>ちょっと試してみる。
+</p>
+<pre>
+&gt; seq = &quot;atgacagtggcgagttacagtatggtgctgtgtggctcatctgatgatca
++ tcgctatcgaggcagaatcgaaaaagtaaaattcggcgtacccataaacg
++ aagcatttgcccatgacattcccgccacgcttctcatgctcttgctcaaa
++ gtgaacaaggatggacccgcgaaaaaggatatttggcgagcgcccggaaa
++ tcaggctcaagtgcgaaaattgtcgcaagtgatgcaacacgggcggcttg
++ taaatatcgagaatttcacggtttacacggcggcatctgtcatcaaaaag
++ tttctttcaaagttgccaaacggcatttttggacgggataatgaggagac
++ actgttcaatagtgcatcgactggaatggatattgagaagcagagacagg
++ tgttttataggatatttggatcacttccagtcgcatcccaacacttgctc
++ gtcctacttttcggcacatttcgggtcgtcgccgactcgtcggacggtca
++ ttcgaacgcgatgaacccgaatgcgatcgcgatttcggtggcaccatcgc
++ tttttcacacttgtatacacgatggacggacggcgcgagtagaagacctt
++ caacggttcaagctggcctcgaacattgtgtgctcgataatttgctcatt
++ cggcgacacgaagctcttcccacgcgagtgctacgagtattacgccagat
++ acacgggtcgcacgttgcgaatcgacgagaatcgaatgttcacttttcat
++ aatccatccaaccgtcgtgctcgtggcgaagagttctccgcgttggcggc
++ aaagtgtgcgggcgcctactcgctggccgccatccacctggccgaagaag
++ cgtcaccggagcccactccgacaacctcgaagcctccacgtggcaacggc
++ gtcgggcgtgccgggagtctgaagcagcacgcgttgacccagacgacgga
++ tcatccgaagagaagcgtgtcgatcgcggctaaggatccgtatccaactg
++ atttaaggacatcggtcagctgtgatttttga
++ &quot;
+&gt; seq
+[1] &quot;atgacagtggcgagttacagtatggtgctgtgtggctcatctgatgatca\ntcgctatcgaggcagaatcgaaaaagtaaaattcggcgtacccataaacg\naagcatttgcccatgacattcccgccacgcttctcatgctcttgctcaaa\ngtgaacaaggatggacccgcgaaaaaggatatttggcgagcgcccggaaa\ntcaggctcaagtgcgaaaattgtcgcaagtgatgcaacacgggcggcttg\ntaaatatcgagaatttcacggtttacacggcggcatctgtcatcaaaaag\ntttctttcaaagttgccaaacggcatttttggacgggataatgaggagac\nactgttcaatagtgcatcgactggaatggatattgagaagcagagacagg\ntgttttataggatatttggatcacttccagtcgcatcccaacacttgctc\ngtcctacttttcggcacatttcgggtcgtcgccgactcgtcggacggtca\nttcgaacgcgatgaacccgaatgcgatcgcgatttcggtggcaccatcgc\ntttttcacacttgtatacacgatggacggacggcgcgagtagaagacctt\ncaacggttcaagctggcctcgaacattgtgtgctcgataatttgctcatt\ncggcgacacgaagctcttcccacgcgagtgctacgagtattacgccagat\nacacgggtcgcacgttgcgaatcgacgagaatcgaatgttcacttttcat\naatccatccaaccgtcgtgctcgtggcgaagagttctccgcgttggcggc\naaagtgtgcgggcgcctactcgctggccgccatccacctggccgaagaag\ncgtcaccggagcccactccgacaacctcgaagcctccacgtggcaacggc\ngtcgggcgtgccgggagtctgaagcagcacgcgttgacccagacgacgga\ntcatccgaagagaagcgtgtcgatcgcggctaaggatccgtatccaactg\natttaaggacatcggtcagctgtgatttttga\n&quot;
+&gt; strTranslate(seq)
+[1] &quot;MTVASYSMVLCGSSDD-SLSRQNRKSKIRRTHK-KHLPMTFPPRFSCSCS-VNKDGPAKKDIWRAPG-SGSSAKIVASDATRAA-*ISRISRFTRRHLSSK-FLSKLPNGIFGRDNEE-TVQ*CIDWNGY*EAET-CFIGYLDHFQSHPNTC-VLLFGTFRVVADSSDG-FERDEPECDRDFGGTI-FFTLVYTMDGRRE*KT-QRFKLASNIVCSIICS-RRHEALPTRVLRVLRQ-TRVARCESTRIECSLF-NPSNRRARGEEFSALA-KVCGRLLAGRHPPGRR-RHRSPLRQPRSLHVAT-VGRAGSLKQHALTQTT-SSEEKRVDRG*GSVSN-I*GHRSAVIF-&quot;
+</pre>
+<p>大丈夫そう。
+</p><p>頂いた Python 用のテストプログラム：
+</p>
+<pre>
+# Read a FASTA file a number of times (default once), translate
+# using R/Bioconductor GeneR and print to STDOUT
+#
+# Usage:
+#
+#   python DNAtranslate.py dna.fa [n]
+#
+# Example:
+#
+#   python DNAtranslate.py ../../../test/data/test-dna.fa
+#
+
+verbose=False
+
+import sys
+import time
+from Bio.Seq import Seq
+from Bio import SeqIO
+from Bio.Alphabet import generic_dna
+
+import subprocess
+import pyRserve
+
+fn = sys.argv[1]
+times = 1
+if len(sys.argv) &gt; 2:
+  times = int(sys.argv[2])
+
+# Start the RServer
+subprocess.Popen([r&quot;R&quot;,&quot;CMD&quot;, &quot;Rserve&quot;], stdout=subprocess.PIPE).wait()
+
+time.sleep(0.5)
+conn = pyRserve.rconnect()
+conn('library(GeneR)')
+
+if verbose:
+  print &gt;&gt; sys.stderr, 'Biopython translate ',fn, ':', times
+for i in range(0, times):
+  if verbose:
+    print &gt;&gt; sys.stderr, i+1
+  for seq_record in SeqIO.parse(fn, &quot;fasta&quot;, generic_dna):
+    print &quot;&gt;&quot;,seq_record.id
+    ntseq = str(seq_record.seq)
+    print conn('strTranslate(&quot;'+ntseq+'&quot;)')
+
+# Kill the RServer
+subprocess.Popen([r&quot;killall&quot;, &quot;Rserve&quot;], stdout=subprocess.PIPE)
+</pre>
+<p>これを Ruby に翻訳
+</p>
+<pre>
+require 'rubygems'
+require 'rserve'
+require 'bio'
+
+rserve = Rserve::Connection.new
+
+rserve.eval('library(GeneR)')
+
+fasta = ARGV.shift
+repeat = (ARGV.shift || 1).to_i
+
+repeat.times do
+  Bio::FlatFile.auto(fasta).each do |entry|
+    puts &quot;&gt;#{entry.entry_id}&quot;
+    ntseq = entry.seq
+    result = rserve.eval(%Q[strTranslate(&quot;#{ntseq}&quot;)])
+    puts result.as_string
+  end
+end
+</pre>
+<p>実行してみる
+</p>
+<pre>
+% ruby-1.8 DNAtranslate-rserve.rb test-dna.fa           
+&gt;2L52.1
+MSMVRNVSNQSEKLEILSCKWVGCLKSTEVFKTVEKLLDHVTADHIPEVIVNDDGSEEVVCQWDCCEMGASRGNLQKKKEWMENHFKTRHVRKAKIFKCLIEDCPVVKSSSQEIETHLRISHPINPKKERLKEFKSSTDHIEPTQANRVWTIVNGEVQWKTPPRVKKKTVIYYDDGPRYVFPTGCARCNYDSDESELESDEFWSATEMSDNEEVYVNFRGMNCISTGKSASMVPSKRRNWPKRVKKRLSTQRNNQKTIRPPELNKNNIEIKDMNSNNLEERNREECIQPVSVEKNILHFEKFKSNQICIVRENNKFREGTRRRRKNSGESEDLKIHENFTEKRRPIRSCKQNISFYEMDGDIEEFEVFFDTPTKSKKVLLDIYSAKKMPKIEVEDSLVNKFHSKRPSRACRVLGSMEEVPFDVEIGY*
+&gt;2RSSE.1
+MTVASYSMVLCGSSDDHRYRGRIEKVKFGVPINEAFAHDIPATLLMLLLKVNKDGPAKKDIWRAPGNQAQVRKLSQVMQHGRLVNIENFTVYTAASVIKKFLSKLPNGIFGRDNEETLFNSASTGMDIEKQRQVFYRIFGSLPVASQHLLVLLFGTFRVVADSSDGHSNAMNPNAIAISVAPSLFHTCIHDGRTARVEDLQRFKLASNIVCSIICSFGDTKLFPRECYEYYARYTGRTLRIDENRMFTFHNPSNRRARGEEFSALAAKCAGAYSLAAIHLAEEASPEPTPTTSKPPRGNGVGRAGSLKQHALTQTTDHPKRSVSIAAKDPYPTDLRTSVSCDF*
+ :
+</pre>
+<p>計測
+</p>
+<pre>
+% time ruby-1.9 DNAtranslate-rserve.rb test-dna.fa &gt; /dev/null 
+ruby-1.9 DNAtranslate-rserve.rb test-dna.fa &gt; /dev/null  4.16s user 0.25s system 76% cpu 5.737 total
+
+% time ruby-1.9 DNAtranslate-rserve.rb test-dna.fa 10 &gt; /dev/null
+ruby-1.9 DNAtranslate-rserve.rb test-dna.fa 10 &gt; /dev/null  39.71s user 1.90s system 75% cpu 55.061 total
+</pre>
+<pre>
+% time ruby-1.8 DNAtranslate-rserve.rb test-dna.fa &gt; /dev/null
+ruby-1.8 DNAtranslate-rserve.rb test-dna.fa &gt; /dev/null  13.69s user 0.28s system 87% cpu 16.010 total
+
+% time ruby-1.8 DNAtranslate-rserve.rb test-dna.fa 10 &gt; /dev/null
+ruby-1.8 DNAtranslate-rserve.rb test-dna.fa 10 &gt; /dev/null  135.66s user 2.56s system 82% cpu 2:46.68 total
+</pre>
+<p><br />
+</p>
+<h3> <span class="mw-headline" id="RSRuby_2"> RSRuby </span></h3>
+<pre>
+% sudo gem install rsruby -- --with-R-dir=/Library/Frameworks/R.framework/Resources
+Building native extensions.  This could take a while...
+Successfully installed rsruby-0.5.1.1
+1 gem installed
+Installing ri documentation for rsruby-0.5.1.1...
+Installing RDoc documentation for rsruby-0.5.1.1...
+</pre>
+<pre>
+ENV['R_HOME'] = '/Library/Frameworks/R.framework/Resources'
+
+require 'rubygems'
+require 'rsruby'
+require 'bio'
+
+r = RSRuby.instance
+
+r.library('GeneR')
+
+fasta = ARGV.shift
+repeat = (ARGV.shift || 1).to_i
+
+repeat.times do
+  Bio::FlatFile.auto(fasta).each do |entry|
+    puts &quot;&gt;#{entry.entry_id}&quot;
+    ntseq = entry.seq
+    puts r.eval_R(%Q[aaseq &lt;- strTranslate(&quot;#{ntseq}&quot;)])
+  end
+end
+</pre>
+<pre>
+% R
+&gt; source(&quot;http://bioconductor.org/biocLite.R&quot;)
+&gt; biocLite(&quot;GeneR&quot;)
+
+% time ruby-1.8 DNAtranslate-rsruby.rb test-dna.fa
+
+ 次のパッケージを付け加えます: 'GeneR' 
+
+The following object(s) are masked from 'package:utils':
+
+    relist
+
+&gt;2L52.1
+MSMVRNVSNQSEKLEILSCKWVGCLKSTEVFKTVEKLLDHVTADHIPEVIVNDDGSEEVVCQWDCCEMGASRGNLQKKKEWMENHFKTRHVRKAKIFKCLIEDCPVVKSSSQEIETHLRISHPINPKKERLKEFKSSTDHIEPTQANRVWTIVNGEVQWKTPPRVKKKTVIYYDDGPRYVFPTGCARCNYDSDESELESDEFWSATEMSDNEEVYVNFRGMNCISTGKSASMVPSKRRNWPKRVKKRLSTQRNNQKTIRPPELNKNNIEIKDMNSNNLEERNREECIQPVSVEKNILHFEKFKSNQICIVRENNKFREGTRRRRKNSGESEDLKIHENFTEKRRPIRSCKQNISFYEMDGDIEEFEVFFDTPTKSKKVLLDIYSAKKMPKIEVEDSLVNKFHSKRPSRACRVLGSMEEVPFDVEIGY*
+ :
+</pre>
+<pre>
+% time ruby-1.8 DNAtranslate-rsruby.rb test-dna.fa &gt; /dev/null
+ruby-1.8 DNAtranslate-rsruby.rb test-dna.fa &gt; /dev/null  2.56s user 0.16s system 68% cpu 3.968 total
+
+% time ruby-1.9 DNAtranslate-rsruby.rb test-dna.fa &gt; /dev/null
+ruby-1.9 DNAtranslate-rsruby.rb test-dna.fa &gt; /dev/null  2.48s user 0.17s system 65% cpu 4.061 total
+</pre>
+<p>かなり高速に処理できるようだ。
+</p>
+<hr />
+<p>すみません、下記情報は R のバージョンが古いのが問題でした。ハズカシイ。指摘していただいた西山さんありがとうございます（片山 2010/11/5 追記）
+</p><p>しかし R.h が見つからないといわれる
+</p>
+<pre>
+% sudo gem-1.8 install rsruby -- --with-R-dir=/Library/Frameworks/R.framework/Resources --with-R-include=/Library/Frameworks/R.framework/Resources/include
+Building native extensions.  This could take a while...
+ERROR:  Error installing rsruby:
+     ERROR: Failed to build gem native extension.
+
+/usr/local/bin/ruby-1.8 extconf.rb --with-R-dir=/Library/Frameworks/R.framework/Resources --with-R-include=/Library/Frameworks/R.framework/Resources/include
+checking for main() in -lR... yes
+checking for R.h... no
+
+ERROR: Cannot find the R header, aborting.
+*** extconf.rb failed ***
+Could not create Makefile due to some reason, probably lack of
+necessary libraries and/or headers.  Check the mkmf.log file for more
+details.  You may need configuration options.
+
+Provided configuration options:
+     --with-opt-dir
+     --without-opt-dir
+     --with-opt-include
+     --without-opt-include=${opt-dir}/include
+     --with-opt-lib
+     --without-opt-lib=${opt-dir}/lib
+     --with-make-prog
+     --without-make-prog
+     --srcdir=.
+     --curdir
+     --ruby=/usr/local/bin/ruby-1.8
+     --with-R-dir
+     --with-R-include=${R-dir}/include
+     --with-R-lib
+     --without-R-lib=${R-dir}/lib
+     --with-Rlib
+     --without-Rlib
+
+Gem files will remain installed in /usr/local/lib/ruby/gems/1.8/gems/rsruby-0.5.1.1 for inspection.
+Results logged to /usr/local/lib/ruby/gems/1.8/gems/rsruby-0.5.1.1/ext/gem_make.out
+</pre>
+<p>ちゃんと extconf.rb にオプションは渡っているし
+</p>
+<pre>
+% ls /Library/Frameworks/R.framework/Resources/include
+R.h           Rdefines.h    Rinternals.h  S.h           ppc/
+R_ext/        Rembedded.h   Rmath.h       i386/
+Rconfig.h     Rinterface.h  Rversion.h    libintl.h
+</pre>
+<p>ここに R.h あるんだけどな。。
+</p>
+<pre>
+% cd /usr/local/lib/ruby/gems/1.8/gems/rsruby-0.5.1.1/ext
+% sudo ruby-1.8 -rmkmf -e 'create_makefile(&quot;rsruby_c&quot;)'
+creating Makefile
+% sudo vi Makefile
+
+#INCFLAGS = -I. -I$(topdir) -I$(hdrdir) -I$(srcdir)
+INCFLAGS = -I. -I$(topdir) -I$(hdrdir) -I$(srcdir) -I/Library/Frameworks/R.framework/Resources/include
+
+#ldflags  = -L.
+ldflags  = -L. -L/Library/Frameworks/R.framework/Resources/lib
+</pre>
+<p>無理やりガリガリやっつけてみる。
+</p>
+<pre>
+% make
+gcc -I. -I/usr/local/lib/ruby/1.8/i686-darwin10.0.0 -I/usr/local/lib/ruby/1.8/i686-darwin10.0.0 -I. -I/Library/Frameworks/R.framework/Resources/include -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE   -fno-common -g -O2 -pipe -fno-common   -c Converters.c
+In file included from /Library/Frameworks/R.framework/Resources/include/R.h:40,
+                 from ./rsruby.h:37,
+                 from Converters.c:32:
+/Library/Frameworks/R.framework/Resources/include/Rconfig.h:9:28: error: x86_64/Rconfig.h: No such file or directory
+Converters.c: In function ‘to_ruby_vector’:
+Converters.c:356: warning: assignment discards qualifiers from pointer target type
+Converters.c:384: warning: assignment discards qualifiers from pointer target type
+Converters.c: In function ‘to_ruby_hash’:
+Converters.c:601: warning: assignment discards qualifiers from pointer target type
+{standard input}:unknown:FATAL:can't create output file: Converters.o
+make: *** [Converters.o] Error 1
+</pre>
+<p>どうも arch がちゃんと設定されていないらしい。
+</p>
+<pre>
+% ls /Library/Frameworks/R.framework/Resources/include
+R.h           Rdefines.h    Rinternals.h  S.h           ppc/
+R_ext/        Rembedded.h   Rmath.h       i386/
+Rconfig.h     Rinterface.h  Rversion.h    libintl.h
+
+% less /Library/Frameworks/R.framework/Resources/include/Rconfig.h
+/* This is an automatically generated universal stub for architecture-dependent
+headers. */
+#ifdef __i386__
+#include &quot;i386/Rconfig.h&quot;
+#elif defined __ppc__
+#include &quot;ppc/Rconfig.h&quot;
+#elif defined __ppc64__
+#include &quot;ppc64/Rconfig.h&quot;
+#elif defined __x86_64__
+#include &quot;x86_64/Rconfig.h&quot;
+#elif defined __arm__
+#include &quot;arm/Rconfig.h&quot;
+#else
+#error &quot;Unsupported architecture.&quot;
+#endif
+</pre>
+<p>R のパッケージは i386 と ppc に対応しているけど、どうも x86_64 を期待しているらしい。
+</p>
+<pre>
+% sudo vi Makefile
+
+#CPPFLAGS =   -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE $(DEFS) $(cppflags)
+CPPFLAGS = -D__i386__ -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE $(DEFS) $(cppflags)
+</pre>
+<p>無理やり指定する。
+</p>
+<pre>
+% sudo make
+gcc -I. -I/usr/local/lib/ruby/1.8/i686-darwin10.0.0 -I/usr/local/lib/ruby/1.8/i686-darwin10.0.0 -I. -I/Library/Frameworks/R.framework/Resources/include -D__i386__ -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE   -fno-common -g -O2 -pipe -fno-common   -c Converters.c
+Converters.c: In function ‘to_ruby_vector’:
+Converters.c:356: warning: assignment discards qualifiers from pointer target type
+Converters.c:384: warning: assignment discards qualifiers from pointer target type
+Converters.c: In function ‘to_ruby_hash’:
+Converters.c:601: warning: assignment discards qualifiers from pointer target type
+gcc -I. -I/usr/local/lib/ruby/1.8/i686-darwin10.0.0 -I/usr/local/lib/ruby/1.8/i686-darwin10.0.0 -I. -I/Library/Frameworks/R.framework/Resources/include -D__i386__ -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE   -fno-common -g -O2 -pipe -fno-common   -c R_eval.c
+R_eval.c: In function ‘get_last_error_msg’:
+R_eval.c:143: warning: return discards qualifiers from pointer target type
+gcc -I. -I/usr/local/lib/ruby/1.8/i686-darwin10.0.0 -I/usr/local/lib/ruby/1.8/i686-darwin10.0.0 -I. -I/Library/Frameworks/R.framework/Resources/include -D__i386__ -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE   -fno-common -g -O2 -pipe -fno-common   -c robj.c
+gcc -I. -I/usr/local/lib/ruby/1.8/i686-darwin10.0.0 -I/usr/local/lib/ruby/1.8/i686-darwin10.0.0 -I. -I/Library/Frameworks/R.framework/Resources/include -D__i386__ -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE   -fno-common -g -O2 -pipe -fno-common   -c rsruby.c
+cc -dynamic -bundle -undefined suppress -flat_namespace -o rsruby_c.bundle Converters.o R_eval.o robj.o rsruby.o -L. -L/usr/local/lib -L. -L/Library/Frameworks/R.framework/Resources/lib    -ldl -lobjc  
+</pre>
+<p>コンパイルは通った。しかしこれをインストールする方法がわからない。。
+</p><p>とりあえず gem を分解してみてみる。
+</p>
+<pre>
+% tar xvfz /usr/local/lib/ruby/gems/1.8/cache/rsruby-0.5.1.1.gem
+data.tar.gz
+metadata.gz
+
+% sudo tar xvfz data.tar.gz
+x History.txt
+x License.txt
+x Manifest.txt
+x README.txt
+x Rakefile.rb
+x examples/arrayfields.rb
+x examples/bioc.rb
+x examples/dataframe.rb
+x examples/erobj.rb
+x ext/Converters.c
+x ext/Converters.h
+x ext/R_eval.c
+x ext/R_eval.h
+x ext/extconf.rb
+x ext/robj.c
+x ext/rsruby.c
+x ext/rsruby.h
+x lib/rsruby.rb
+x lib/rsruby/dataframe.rb
+x lib/rsruby/erobj.rb
+x lib/rsruby/robj.rb
+x test/table.txt
+x test/tc_array.rb
+x test/tc_boolean.rb
+x test/tc_cleanup.rb
+x test/tc_eval.rb
+x test/tc_extensions.rb
+x test/tc_init.rb
+x test/tc_io.rb
+x test/tc_library.rb
+x test/tc_matrix.rb
+x test/tc_modes.rb
+x test/tc_robj.rb
+x test/tc_sigint.rb
+x test/tc_to_r.rb
+x test/tc_to_ruby.rb
+x test/tc_util.rb
+x test/tc_vars.rb
+x test/test_all.rb
+
+% sudo gzcat metadata.gz &gt; metadata
+</pre>
+<p>こういう構造になってるんですね。metadata が gemspec ぽい。
+しかし、時間切れのためここで挫折。。
+</p>
+<h3> <span class="mw-headline" id="RSOAP"> RSOAP </span></h3>
+<p>RSOAP は Ruby 1.9 で SOAP が使えないのと RSOAP サーバの準備大変そうなのであきらめた。
+</p>
+<!-- 
+NewPP limit report
+Preprocessor node count: 425/1000000
+Post-expand include size: 0/2097152 bytes
+Template argument size: 0/2097152 bytes
+Expensive parser function count: 0/100
+-->
+
+<!-- Saved in parser cache with key wikidb-togowiki_:pcache:idhash:53-0!1!0!!ja!2!edit=0 and timestamp 20230605014557 -->
+<div class="printfooter">
+「<a href="RubyからRの機能を使う.html">http://wiki.lifesciencedb.jp/mw/Ruby%E3%81%8B%E3%82%89R%E3%81%AE%E6%A9%9F%E8%83%BD%E3%82%92%E4%BD%BF%E3%81%86</a>」より作成</div>
+		<div id='catlinks' class='catlinks'><div id="mw-normal-catlinks"><a href="特別%253Aカテゴリ.html" title="特別:カテゴリ">カテゴリ</a>: <span dir='ltr'><a href="index.php@title=Category%253ABh10.10&amp;action=edit&amp;redlink=1.html" class="new" title="Category:Bh10.10（存在しないページ）">Bh10.10</a></span></div></div>		<!-- end content -->
+				<div class="visualClear"></div>
+	</div>
+</div></div>
+<div id="column-one">
+	<div id="p-cactions" class="portlet">
+		<h5>表示</h5>
+		<div class="pBody">
+			<ul>
+				 <li id="ca-nstab-main" class="selected"><a href="RubyからRの機能を使う.html" title="本文を表示 [c]" accesskey="c">ページ</a></li>
+				 <li id="ca-talk" class="new"><a href="http://wiki.lifesciencedb.jp/mw/index.php?title=%E3%83%8E%E3%83%BC%E3%83%88:Ruby%E3%81%8B%E3%82%89R%E3%81%AE%E6%A9%9F%E8%83%BD%E3%82%92%E4%BD%BF%E3%81%86&amp;action=edit&amp;redlink=1" title="記事についての議論 [t]" accesskey="t">議論</a></li>
+				 <li id="ca-viewsource"><a href="index.php@title=RubyからRの機能を使う&amp;action=edit.html" title="このページは保護されています。&#10;ページのソースを閲覧できます。 [e]" accesskey="e">ソースを表示</a></li>
+				 <li id="ca-history"><a href="index.php@title=RubyからRの機能を使う&amp;action=history.html" title="このページの過去の版 [h]" accesskey="h">履歴</a></li>
+			</ul>
+		</div>
+	</div>
+	<div class="portlet" id="p-personal">
+		<h5>個人用ツール</h5>
+		<div class="pBody">
+			<ul>
+				<li id="pt-anonuserpage"><a href="http://wiki.lifesciencedb.jp/mw/%E5%88%A9%E7%94%A8%E8%80%85:172.18.8.51" title="自分が編集しているIPアドレスの利用者ページ [.]" accesskey="." class="new">172.18.8.51</a></li>
+				<li id="pt-anontalk"><a href="http://wiki.lifesciencedb.jp/mw/%E5%88%A9%E7%94%A8%E8%80%85%E2%80%90%E4%BC%9A%E8%A9%B1:172.18.8.51" title="このIPアドレスからなされた編集についての議論 [n]" accesskey="n" class="new">このIPアドレスのトーク</a></li>
+				<li id="pt-anonlogin"><a href="index.php@title=特別%253Aログイン&amp;returnto=RubyからRの機能を使う&amp;returntoquery=oldid=820.html" title="ログインすることが推奨されます。ただし、必須ではありません。 [o]" accesskey="o">ログイン</a></li>
+				<li id="pt-openidlogin"><a href="index.php@title=特別%253AOpenIDログイン&amp;returnto=RubyからRの機能を使う.html">OpenIDでログイン</a></li>
+			</ul>
+		</div>
+	</div>
+	<div class="portlet" id="p-logo">
+		<a style="background-image: url(http://wiki.lifesciencedb.jp/mw/images/togowiki-logo.png);" href="index.html" title="メインページに移動"></a>
+	</div>
+	<script type="text/javascript"> if (window.isMSIE55) fixalpha(); </script>
+	<div class='generated-sidebar portlet' id='p-navigation'>
+		<h5>案内</h5>
+		<div class='pBody'>
+			<ul>
+				<li id="n-mainpage-description"><a href="index.html" title="メインページに移動する [z]" accesskey="z">メインページ</a></li>
+				<li id="n-portal"><a href="http://wiki.lifesciencedb.jp/mw/TogoWiki:%E3%82%B3%E3%83%9F%E3%83%A5%E3%83%8B%E3%83%86%E3%82%A3%E3%83%BB%E3%83%9D%E3%83%BC%E3%82%BF%E3%83%AB" title="このプロジェクトについて、できること、情報を入手する場所">コミュニティ・ポータル</a></li>
+				<li id="n-currentevents"><a href="http://wiki.lifesciencedb.jp/mw/TogoWiki:%E6%9C%80%E8%BF%91%E3%81%AE%E5%87%BA%E6%9D%A5%E4%BA%8B" title="最近の出来事について予備知識を得る">最近の出来事</a></li>
+				<li id="n-recentchanges"><a href="http://wiki.lifesciencedb.jp/mw/%E7%89%B9%E5%88%A5:%E6%9C%80%E8%BF%91%E3%81%AE%E6%9B%B4%E6%96%B0" title="ウィキにおける最近の更新の一覧 [r]" accesskey="r">最近の更新</a></li>
+				<li id="n-randompage"><a href="http://wiki.lifesciencedb.jp/mw/%E7%89%B9%E5%88%A5:%E3%81%8A%E3%81%BE%E3%81%8B%E3%81%9B%E8%A1%A8%E7%A4%BA" title="無作為に抽出されたページの読み込み [x]" accesskey="x">おまかせ表示</a></li>
+				<li id="n-help"><a href="http://wiki.lifesciencedb.jp/mw/Help:%E7%9B%AE%E6%AC%A1" title="情報を得る場所">ヘルプ</a></li>
+			</ul>
+		</div>
+	</div>
+	<div id="p-search" class="portlet">
+		<h5><label for="searchInput">検索</label></h5>
+		<div id="searchBody" class="pBody">
+			<form action="http://wiki.lifesciencedb.jp/mw/index.php" id="searchform">
+				<input type='hidden' name="title" value="特別:検索"/>
+				<input id="searchInput" title="TogoWiki内を検索" accesskey="f" type="search" name="search" />
+				<input type='submit' name="go" class="searchButton" id="searchGoButton"	value="表示" title="厳密に一致する名前のページが存在すれば、そのページへ移動します" />&nbsp;
+				<input type='submit' name="fulltext" class="searchButton" id="mw-searchButton" value="検索" title="入力された文字列が含まれるページを検索します" />
+			</form>
+		</div>
+	</div>
+	<div class="portlet" id="p-tb">
+		<h5>ツールボックス</h5>
+		<div class="pBody">
+			<ul>
+				<li id="t-whatlinkshere"><a href="特別%253Aリンク元/RubyからRの機能を使う.html" title="ここにリンクしている全ウィキのページの一覧 [j]" accesskey="j">リンク元</a></li>
+				<li id="t-recentchangeslinked"><a href="特別%253A関連ページの更新状況/RubyからRの機能を使う.html" title="このページからリンクしているページの最近の更新 [k]" accesskey="k">関連ページの更新状況</a></li>
+<li id="t-specialpages"><a href="http://wiki.lifesciencedb.jp/mw/%E7%89%B9%E5%88%A5:%E7%89%B9%E5%88%A5%E3%83%9A%E3%83%BC%E3%82%B8%E4%B8%80%E8%A6%A7" title="特別ページの一覧 [q]" accesskey="q">特別ページ</a></li>
+				<li id="t-print"><a href="index.php@title=RubyからRの機能を使う&amp;oldid=820&amp;printable=yes.html" rel="alternate" title="このページの印刷用ページ [p]" accesskey="p">印刷用バージョン</a></li>				<li id="t-permalink"><a href="index.php@title=RubyからRの機能を使う&amp;oldid=820.html" title="ページのこの版への固定リンク">この版への固定リンク</a></li>			</ul>
+		</div>
+	</div>
+</div><!-- end of the left (by default at least) column -->
+<div class="visualClear"></div>
+<div id="footer">
+	<div id="f-poweredbyico"><a href="http://www.mediawiki.org/"><img src="http://wiki.lifesciencedb.jp/mw/skins/common/images/poweredby_mediawiki_88x31.png" height="31" width="88" alt="Powered by MediaWiki" /></a></div>
+	<div id="f-copyrightico"><a href="http://creativecommons.org/licenses/by/3.0/"><img src="http://i.creativecommons.org/l/by/3.0/88x31.png" alt="Attribution 3.0 Unported" width="88" height="31" /></a></div>
+	<ul id="f-list">
+		<li id="copyright">内容は<a href="http://creativecommons.org/licenses/by/3.0/" class="external ">Attribution 3.0 Unported</a>のライセンスで利用することができます。</li>
+		<li id="privacy"><a href="http://wiki.lifesciencedb.jp/mw/TogoWiki:%E3%83%97%E3%83%A9%E3%82%A4%E3%83%90%E3%82%B7%E3%83%BC%E3%83%BB%E3%83%9D%E3%83%AA%E3%82%B7%E3%83%BC" title="TogoWiki:プライバシー・ポリシー">プライバシー・ポリシー</a></li>
+		<li id="about"><a href="http://wiki.lifesciencedb.jp/mw/TogoWiki:TogoWiki%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6" title="TogoWiki:TogoWikiについて">TogoWikiについて</a></li>
+		<li id="disclaimer"><a href="http://wiki.lifesciencedb.jp/mw/TogoWiki:%E5%85%8D%E8%B2%AC%E4%BA%8B%E9%A0%85" title="TogoWiki:免責事項">免責事項</a></li>
+	</ul>
+</div>
+</div>
+
+<script>if (window.runOnloadHook) runOnloadHook();</script>
+<!-- Served in 0.624 secs. --></body></html>

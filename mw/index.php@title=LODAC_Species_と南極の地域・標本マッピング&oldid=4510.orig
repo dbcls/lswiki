@@ -1,0 +1,723 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html lang="ja" dir="ltr">
+<head>
+<title>LODAC Species と南極の地域・標本マッピング - TogoWiki</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta name="generator" content="MediaWiki 1.16.3" />
+<link rel="shortcut icon" href="/favicon.ico" />
+<link rel="search" type="application/opensearchdescription+xml" href="/mw/opensearch_desc.php" title="TogoWiki (ja)" />
+<link title="Creative Commons" type="application/rdf+xml" href="/mw/index.php?title=LODAC_Species_%E3%81%A8%E5%8D%97%E6%A5%B5%E3%81%AE%E5%9C%B0%E5%9F%9F%E3%83%BB%E6%A8%99%E6%9C%AC%E3%83%9E%E3%83%83%E3%83%94%E3%83%B3%E3%82%B0&amp;action=creativecommons" rel="meta" />
+<link rel="copyright" href="http://creativecommons.org/licenses/by/3.0/" />
+<link rel="alternate" type="application/atom+xml" title="TogoWikiのAtomフィード" href="/mw/index.php?title=%E7%89%B9%E5%88%A5:%E6%9C%80%E8%BF%91%E3%81%AE%E6%9B%B4%E6%96%B0&amp;feed=atom" />
+<link rel="stylesheet" href="/mw/skins/common/shared.css?270" media="screen" />
+<link rel="stylesheet" href="/mw/skins/common/commonPrint.css?270" media="print" />
+<link rel="stylesheet" href="/mw/skins/monobook/main.css?270" media="screen" />
+<!--[if lt IE 5.5000]><link rel="stylesheet" href="/mw/skins/monobook/IE50Fixes.css?270" media="screen" /><![endif]-->
+<!--[if IE 5.5000]><link rel="stylesheet" href="/mw/skins/monobook/IE55Fixes.css?270" media="screen" /><![endif]-->
+<!--[if IE 6]><link rel="stylesheet" href="/mw/skins/monobook/IE60Fixes.css?270" media="screen" /><![endif]-->
+<!--[if IE 7]><link rel="stylesheet" href="/mw/skins/monobook/IE70Fixes.css?270" media="screen" /><![endif]-->
+<link rel="stylesheet" href="/mw/index.php?title=MediaWiki:Common.css&amp;usemsgcache=yes&amp;ctype=text%2Fcss&amp;smaxage=18000&amp;action=raw&amp;maxage=18000" />
+<link rel="stylesheet" href="/mw/index.php?title=MediaWiki:Print.css&amp;usemsgcache=yes&amp;ctype=text%2Fcss&amp;smaxage=18000&amp;action=raw&amp;maxage=18000" media="print" />
+<link rel="stylesheet" href="/mw/index.php?title=MediaWiki:Monobook.css&amp;usemsgcache=yes&amp;ctype=text%2Fcss&amp;smaxage=18000&amp;action=raw&amp;maxage=18000" />
+<link rel="stylesheet" href="/mw/index.php?title=-&amp;action=raw&amp;maxage=18000&amp;gen=css" />
+<script>
+var skin="monobook",
+stylepath="/mw/skins",
+wgUrlProtocols="http\\:\\/\\/|https\\:\\/\\/|ftp\\:\\/\\/|irc\\:\\/\\/|gopher\\:\\/\\/|telnet\\:\\/\\/|nntp\\:\\/\\/|worldwind\\:\\/\\/|mailto\\:|news\\:|svn\\:\\/\\/",
+wgArticlePath="/mw/$1",
+wgScriptPath="/mw",
+wgScriptExtension=".php",
+wgScript="/mw/index.php",
+wgVariantArticlePath=false,
+wgActionPaths={},
+wgServer="http://wiki.lifesciencedb.jp",
+wgCanonicalNamespace="",
+wgCanonicalSpecialPageName=false,
+wgNamespaceNumber=0,
+wgPageName="LODAC_Species_と南極の地域・標本マッピング",
+wgTitle="LODAC Species と南極の地域・標本マッピング",
+wgAction="view",
+wgArticleId=202,
+wgIsArticle=true,
+wgUserName=null,
+wgUserGroups=null,
+wgUserLanguage="ja",
+wgContentLanguage="ja",
+wgBreakFrames=false,
+wgCurRevisionId=4510,
+wgVersion="1.16.3",
+wgEnableAPI=true,
+wgEnableWriteAPI=true,
+wgSeparatorTransformTable=["", ""],
+wgDigitTransformTable=["", ""],
+wgMainPageTitle="メインページ",
+wgFormattedNamespaces={"-2": "メディア", "-1": "特別", "0": "", "1": "ノート", "2": "利用者", "3": "利用者‐会話", "4": "TogoWiki", "5": "TogoWiki‐ノート", "6": "ファイル", "7": "ファイル‐ノート", "8": "MediaWiki", "9": "MediaWiki‐ノート", "10": "Template", "11": "Template‐ノート", "12": "Help", "13": "Help‐ノート", "14": "Category", "15": "Category‐ノート"},
+wgNamespaceIds={"メディア": -2, "特別": -1, "": 0, "ノート": 1, "利用者": 2, "利用者‐会話": 3, "togowiki": 4, "togowiki‐ノート": 5, "ファイル": 6, "ファイル‐ノート": 7, "mediawiki": 8, "mediawiki‐ノート": 9, "template": 10, "template‐ノート": 11, "help": 12, "help‐ノート": 13, "category": 14, "category‐ノート": 15, "画像": 6, "画像‐ノート": 7, "image": 6, "image_talk": 7},
+wgSiteName="TogoWiki",
+wgCategories=[],
+wgRestrictionEdit=[],
+wgRestrictionMove=[];
+</script><script src="/mw/skins/common/wikibits.js?270"></script>
+<script src="/mw/skins/common/ajax.js?270"></script>
+<script src="/mw/index.php?title=-&amp;action=raw&amp;gen=js&amp;useskin=monobook&amp;270"></script>
+
+		<style type='text/css'>
+		li#pt-openidlogin {
+		  background: url(/mw/extensions/OpenID/skin/icons/openid-inputicon.png) top left no-repeat;
+		  padding-left: 20px;
+		  text-transform: none;
+		}
+		</style>
+</head>
+<body class="mediawiki ltr ns-0 ns-subject page-LODAC_Species_と南極の地域・標本マッピング skin-monobook">
+<div id="globalWrapper">
+<div id="column-content"><div id="content" >
+	<a id="top"></a>
+	
+	<h1 id="firstHeading" class="firstHeading">LODAC Species と南極の地域・標本マッピング</h1>
+	<div id="bodyContent">
+		<h3 id="siteSub">提供：TogoWiki</h3>
+		<div id="contentSub">
+				<div id="mw-revision-info">2012年12月21日 (金) 07:20時点における<a href="/mw/index.php?title=%E5%88%A9%E7%94%A8%E8%80%85:Minami1105&amp;action=edit&amp;redlink=1" class="new mw-userlink" title="利用者:Minami1105（存在しないページ）">Minami1105</a>  <span class="mw-usertoollinks">(<a href="/mw/index.php?title=%E5%88%A9%E7%94%A8%E8%80%85%E2%80%90%E4%BC%9A%E8%A9%B1:Minami1105&amp;action=edit&amp;redlink=1" class="new" title="利用者‐会話:Minami1105（存在しないページ）">トーク</a> | <a href="/mw/%E7%89%B9%E5%88%A5:%E6%8A%95%E7%A8%BF%E8%A8%98%E9%8C%B2/Minami1105" title="特別:投稿記録/Minami1105">投稿記録</a>)</span>による版</div>
+
+				<div id="mw-revision-nav">(<a href="/mw/index.php?title=LODAC_Species_%E3%81%A8%E5%8D%97%E6%A5%B5%E3%81%AE%E5%9C%B0%E5%9F%9F%E3%83%BB%E6%A8%99%E6%9C%AC%E3%83%9E%E3%83%83%E3%83%94%E3%83%B3%E3%82%B0&amp;diff=prev&amp;oldid=4510" title="LODAC Species と南極の地域・標本マッピング">差分</a>) <a href="/mw/index.php?title=LODAC_Species_%E3%81%A8%E5%8D%97%E6%A5%B5%E3%81%AE%E5%9C%B0%E5%9F%9F%E3%83%BB%E6%A8%99%E6%9C%AC%E3%83%9E%E3%83%83%E3%83%94%E3%83%B3%E3%82%B0&amp;direction=prev&amp;oldid=4510" title="LODAC Species と南極の地域・標本マッピング">←前の版</a> | 最新版 (差分) | 次の版→ (差分)</div>
+			</div>
+		<div id="jump-to-nav">移動： <a href="#column-one">案内</a>, <a href="#searchInput">検索</a></div>
+		<!-- start content -->
+<table id="toc" class="toc"><tr><td><div id="toctitle"><h2>目次</h2></div>
+<ul>
+<li class="toclevel-1 tocsection-1"><a href="#.E3.83.A1.E3.83.B3.E3.83.90.E3.83.BC"><span class="tocnumber">1</span> <span class="toctext">メンバー</span></a></li>
+<li class="toclevel-1 tocsection-2"><a href="#.E6.A6.82.E8.A6.81"><span class="tocnumber">2</span> <span class="toctext">概要</span></a></li>
+<li class="toclevel-1 tocsection-3"><a href="#.E8.AA.B2.E9.A1.8C"><span class="tocnumber">3</span> <span class="toctext">課題</span></a>
+<ul>
+<li class="toclevel-2 tocsection-4"><a href="#.E6.A8.99.E6.9C.AC.E6.83.85.E5.A0.B1.E3.83.AA.E3.82.BD.E3.83.BC.E3.82.B9.E3.81.A8.E6.89.80.E8.94.B5.E6.A9.9F.E9.96.A2.E3.83.AA.E3.82.BD.E3.83.BC.E3.82.B9.E3.81.AE.E7.9B.B8.E4.BA.92.E3.83.AA.E3.83.B3.E3.82.AF.EF.BC.88.E5.8D.97.EF.BC.89"><span class="tocnumber">3.1</span> <span class="toctext">標本情報リソースと所蔵機関リソースの相互リンク（南）</span></a>
+<ul>
+<li class="toclevel-3 tocsection-5"><a href="#.E7.9B.AE.E7.9A.84"><span class="tocnumber">3.1.1</span> <span class="toctext">目的</span></a></li>
+<li class="toclevel-3 tocsection-6"><a href="#.E4.BD.9C.E6.A5.AD.E5.86.85.E5.AE.B9"><span class="tocnumber">3.1.2</span> <span class="toctext">作業内容</span></a></li>
+<li class="toclevel-3 tocsection-7"><a href="#.E7.B5.90.E6.9E.9C"><span class="tocnumber">3.1.3</span> <span class="toctext">結果</span></a></li>
+</ul>
+</li>
+<li class="toclevel-2 tocsection-8"><a href="#.E3.81.8A.E3.81.BE.E3.81.91.EF.BC.9A.E5.90.8D.E5.89.8D.E3.81.8B.E3.81.B6.E3.82.8A.E5.95.8F.E9.A1.8C"><span class="tocnumber">3.2</span> <span class="toctext">おまけ：名前かぶり問題</span></a></li>
+<li class="toclevel-2 tocsection-9"><a href="#.E5.8D.97.E6.A5.B5.E3.81.AE.E5.9C.B0.E5.90.8D.E3.83.AA.E3.82.BD.E3.83.BC.E3.82.B9.E3.81.AE.E7.94.9F.E6.88.90.EF.BC.88.E6.9D.BE.E6.9D.91.EF.BC.89"><span class="tocnumber">3.3</span> <span class="toctext">南極の地名リソースの生成（松村）</span></a>
+<ul>
+<li class="toclevel-3 tocsection-10"><a href="#.E7.9B.AE.E7.9A.84_2"><span class="tocnumber">3.3.1</span> <span class="toctext">目的</span></a></li>
+<li class="toclevel-3 tocsection-11"><a href="#.E4.BD.9C.E6.A5.AD.E5.86.85.E5.AE.B9_2"><span class="tocnumber">3.3.2</span> <span class="toctext">作業内容</span></a></li>
+<li class="toclevel-3 tocsection-12"><a href="#.E7.B5.90.E6.9E.9C_2"><span class="tocnumber">3.3.3</span> <span class="toctext">結果</span></a></li>
+<li class="toclevel-3 tocsection-13"><a href="#.E4.BB.8A.E5.BE.8C.E3.81.AE.E8.AA.B2.E9.A1.8C"><span class="tocnumber">3.3.4</span> <span class="toctext">今後の課題</span></a></li>
+</ul>
+</li>
+<li class="toclevel-2 tocsection-14"><a href="#.E3.81.8A.E3.81.BE.E3.81.91.EF.BC.9AAustralian_Antarctic_Data_Centre.E3.81.AEGIS.E3.83.87.E3.83.BC.E3.82.BF.E3.81.AEGoogle_Earth.E3.81.A7.E3.81.AE.E8.A1.A8.E7.A4.BA"><span class="tocnumber">3.4</span> <span class="toctext">おまけ：Australian Antarctic Data CentreのGISデータのGoogle Earthでの表示</span></a>
+<ul>
+<li class="toclevel-3 tocsection-15"><a href="#.E7.9B.AE.E7.9A.84_3"><span class="tocnumber">3.4.1</span> <span class="toctext">目的</span></a></li>
+<li class="toclevel-3 tocsection-16"><a href="#.E4.BD.9C.E6.A5.AD.E5.86.85.E5.AE.B9_3"><span class="tocnumber">3.4.2</span> <span class="toctext">作業内容</span></a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</td></tr></table><script>if (window.showTocToggle) { var tocShowText = "表示"; var tocHideText = "非表示"; showTocToggle(); } </script>
+<h2> <span class="mw-headline" id=".E3.83.A1.E3.83.B3.E3.83.90.E3.83.BC"> メンバー </span></h2>
+<ul><li> 南 佳孝（NII）
+</li><li> 松村 冬子（NII）
+</li></ul>
+<p><br />
+</p>
+<h2> <span class="mw-headline" id=".E6.A6.82.E8.A6.81"> 概要 </span></h2>
+<p>LODAC Speciesでは生物多様性情報として，生物の学名，和名などの生物種名の関係をLOD化している．<br />
+博物館情報を収集するLODAC Museumには，科学博物館などに収集されている<br />
+生物の標本情報も保有しており，LODAC Speciesの生物種名のデータにリンクしている．<br />
+</p><p>また，LODAC Speciesの中には，南極で採取された生物の標本情報も含まれており，<br />
+多様な生物種の生息範囲をGIS上に重ねて表示することで，それらの生物の研究者に新たな気づきを提供したい．<br />
+</p><p><br />
+</p>
+<h2> <span class="mw-headline" id=".E8.AA.B2.E9.A1.8C"> 課題 </span></h2>
+<h4> <span class="mw-headline" id=".E6.A8.99.E6.9C.AC.E6.83.85.E5.A0.B1.E3.83.AA.E3.82.BD.E3.83.BC.E3.82.B9.E3.81.A8.E6.89.80.E8.94.B5.E6.A9.9F.E9.96.A2.E3.83.AA.E3.82.BD.E3.83.BC.E3.82.B9.E3.81.AE.E7.9B.B8.E4.BA.92.E3.83.AA.E3.83.B3.E3.82.AF.EF.BC.88.E5.8D.97.EF.BC.89"> 標本情報リソースと所蔵機関リソースの相互リンク（南）</span></h4>
+<h5> <span class="mw-headline" id=".E7.9B.AE.E7.9A.84"> 目的 </span></h5>
+<p>標本情報リソースとその所蔵機関リソースについて，<br />
+所蔵機関リソースをきちんと定義して，つながるようにする．<br />
+</p>
+<h5> <span class="mw-headline" id=".E4.BD.9C.E6.A5.AD.E5.86.85.E5.AE.B9"> 作業内容 </span></h5>
+<p>1．これまで、所蔵機関のデータをリテラルで入れていた部分があるので，<br />
+LODACで定義していなかったものについて，機関URIをきちんと定義する．<br />
+</p><p>2．標本情報から機関URIへのリンクを生成する．<br />
+</p>
+<h5> <span class="mw-headline" id=".E7.B5.90.E6.9E.9C"> 結果 </span></h5>
+<p>1．機関URIの定義
+</p><p>LODAC Museumは，idとrefでデータを管理している。<br />
+<a href="http://lod.ac/id/1674506" class="external free" rel="nofollow">http://lod.ac/id/1674506</a><br />
+<a href="http://lod.ac/ref/1674506" class="external free" rel="nofollow">http://lod.ac/ref/1674506</a><br />
+</p><p>idは、その概念の代表的な物を指し、<br />
+refに、具体的な情報を登録している。<br />
+</p><p>また、登録されている情報は美術館が中心で、<br />
+登録されていない博物館の情報も多かった。<br />
+</p><p>そこで、これまでにLODACに追加した標本情報の所蔵機関について，<br />
+国立科学博物館のWebページ（ <a href="http://science-net.kahaku.go.jp/slist.html#gbif" class="external free" rel="nofollow">http://science-net.kahaku.go.jp/slist.html#gbif</a> ）を元に，機関URIを定義した．<br />
+</p><p>また，大学など，下位機関のある物については，<br />
+dc:hasPart，dc:isPartOfを用いてその関係を示した．<br />
+※北海道大学　←→　北海道大学大学院水産科学研究院　など<br />
+</p><p>その他、データについては下記のとおり．<br />
+※別名がある物についてはそれも入れた．<br />
+</p>
+<pre>
+&lt;lod.ac/id/~~&gt;
+rdf:type	foaf:Organization
+dc:references	?lodacref
+rdfs:label	?博物館名
+foaf:name	?博物館名
+skos:prefLabel	?博物館名
+dc:hasPart	?下位機関URI or dc:isPartOF	?上位機関URI
+
+
+&lt;lod.ac/ref/~~&gt;
+rdf:type	lodac:OrganizationReference
+rdfs:label	?博物館名
+dc:source	http://science-net.kahaku.go.jp/
+foaf:name	?博物館名
+dc:isReferencedBy	?lodacid
+skos:prefLabel	?博物館名
+vcard:country-name	日本
+foaf:homepage	?URL
+vcard:locality	?県名
+lodac:collection	?所蔵コレクション
+</pre>
+<p><br />
+2．リンクの生成
+</p><p>まだできてない。
+</p>
+<h4> <span class="mw-headline" id=".E3.81.8A.E3.81.BE.E3.81.91.EF.BC.9A.E5.90.8D.E5.89.8D.E3.81.8B.E3.81.B6.E3.82.8A.E5.95.8F.E9.A1.8C"> おまけ：名前かぶり問題 </span></h4>
+<p>NCBIのTaxonをLODAC Speciesに導入したことで，<br />
+Taxonの名前が，動物や植物などでかぶり，<br />
+ヒトのhasSuperTaxonにInsectaが出てくるなど，<br />
+問題になっていた．<br />
+</p><p>とりあえず，NCBIでno rankとなっているものについて，<br />
+リンクを削除したデータは作ったので，<br />
+そのデータを適用して，確認する．<br />
+</p>
+<h4> <span class="mw-headline" id=".E5.8D.97.E6.A5.B5.E3.81.AE.E5.9C.B0.E5.90.8D.E3.83.AA.E3.82.BD.E3.83.BC.E3.82.B9.E3.81.AE.E7.94.9F.E6.88.90.EF.BC.88.E6.9D.BE.E6.9D.91.EF.BC.89"> 南極の地名リソースの生成（松村）</span></h4>
+<h5> <span class="mw-headline" id=".E7.9B.AE.E7.9A.84_2"> 目的 </span></h5>
+<p>保有している標本情報のうち，緯度・経度の情報があるのは蘚苔類のデータだけであり，<br />
+ペンギンやアザラシなどその他の生物の観測地の位置情報については，<br />
+「昭和基地周辺」など地名のテキスト情報しか持っていない．<br />
+そこで南極の地名情報を収集し，リソースとし，標本情報にひもづけることで，<br />
+南極の生物の観測状況の可視化につなげたい．<br />
+</p>
+<h5> <span class="mw-headline" id=".E4.BD.9C.E6.A5.AD.E5.86.85.E5.AE.B9_2"> 作業内容 </span></h5>
+<p>以下の機関の南極関連データが利用可能．ライセンスはCC-BY．
+</p>
+<ul><li> Australian Antarctic Data Centre <a href="https://data.aad.gov.au/" class="external free" rel="nofollow">https://data.aad.gov.au/</a>
+</li><li> Scientific Committee on Antarctic Research (AADCにホストされている？) <a href="http://www.scar.org/" class="external free" rel="nofollow">http://www.scar.org/</a> 
+</li></ul>
+<p><br />
+その中から，南極の地名に関する以下のデータベースをRDFに変換し，利用することにした．<br />
+なお，このデータベースは毎日午前0時に更新されているとのこと．
+</p>
+<ul><li> SCAR COMPOSITE GAZETTEER OF ANTARCTICA <a href="https://data.aad.gov.au/aadc/gaz/scar/" class="external free" rel="nofollow">https://data.aad.gov.au/aadc/gaz/scar/</a>
+</li></ul>
+<p><br />
+上記のデータをDLするには，SCARのページでアカウントを作成してログインする．<br />
+DLしたデータベースはMicrosoft Accessで作られているので，.mdb形式である．<br />
+今回は，MDBLite <a href="https://itunes.apple.com/us/app/mdblite/id487704620?ls=1&amp;mt=12" class="external free" rel="nofollow">https://itunes.apple.com/us/app/mdblite/id487704620?ls=1&amp;mt=12</a> <br />
+というMacのソフトを利用して，sqliteで読めるように変換した．<br />
+</p><p><br />
+データベースに入っているテーブルは，以下の4つ．<br />
+今回は，Gazetteer テーブルをcsvに変換し，地名リソースを生成することにした．
+</p>
+<ul><li> Country（国）
+</li><li> Feature_Type（場所等の種類）
+</li><li> Gazetteer（地名およびその詳細）
+</li><li> admin（データベース管理用）
+</li></ul>
+<p><br />
+なお，LODACでは，各エンティティに対して複数のデータ源からデータが得られる場合，<br />
+まず，データ源ごとにそこから得られた情報のみで参照用のRefリソースを作る．<br />
+次に，複数のデータ源のRefリソースを統合し，他のリソースとのリンクなどを記述することで，<br />
+エンティティ自体を統合的に表すIDリソースを作る．<br />
+そのため，ここではまず南極地名のRefリソースを作る．
+</p><p><br />
+プロパティには以下の表に含まれる語彙を使用した<br />
+SCAR特有のプロパティが多いため，<br />
+1行目に示したscarという語彙を独自に定義し，<br />
+すべてのフィールドに対応するプロパティを作成して割り当てた．<br />
+一方で，2行目以降のデファクトスタンダードの語彙も重複して割り当てた．
+</p><p><br />
+</p>
+<table class="wikitable">
+<tr>
+<th> Prefix
+</th><th> URI
+</th></tr>
+<tr>
+<td> scar
+</td><td> <a href="http://lod.ac/ns/scar#" class="external free" rel="nofollow">http://lod.ac/ns/scar#</a>
+</td></tr>
+<tr>
+<td> dc
+</td><td> <a href="http://purl.org/dc/terms/" class="external free" rel="nofollow">http://purl.org/dc/terms/</a>
+</td></tr>
+<tr>
+<td> rdfs
+</td><td> <a href="http://www.w3.org/2000/01/rdf-schema#" class="external free" rel="nofollow">http://www.w3.org/2000/01/rdf-schema#</a>
+</td></tr>
+<tr>
+<td> geo
+</td><td> <a href="http://www.w3.org/2003/01/geo/wgs84_pos#" class="external free" rel="nofollow">http://www.w3.org/2003/01/geo/wgs84_pos#</a>
+</td></tr>
+<tr>
+<td> foaf
+</td><td> <a href="http://xmlns.com/foaf/0.1/" class="external free" rel="nofollow">http://xmlns.com/foaf/0.1/</a>
+</td></tr>
+<tr>
+<td> dc11
+</td><td> <a href="http://purl.org/dc/elements/1.1/" class="external free" rel="nofollow">http://purl.org/dc/elements/1.1/</a>
+</td></tr>
+<tr>
+<td> xsd
+</td><td> <a href="http://www.w3.org/2001/XMLSchema#" class="external free" rel="nofollow">http://www.w3.org/2001/XMLSchema#</a>
+</td></tr>
+<tr>
+<td> owl
+</td><td> <a href="http://www.w3.org/2002/07/owl#" class="external free" rel="nofollow">http://www.w3.org/2002/07/owl#</a>
+</td></tr>
+<tr>
+<td> rdf
+</td><td> <a href="http://www.w3.org/1999/02/22-rdf-syntax-ns#" class="external free" rel="nofollow">http://www.w3.org/1999/02/22-rdf-syntax-ns#</a>
+</td></tr>
+<tr>
+<td> skos
+</td><td> <a href="http://www.w3.org/2004/02/skos/core#" class="external free" rel="nofollow">http://www.w3.org/2004/02/skos/core#</a>
+</td></tr>
+<tr>
+<td> cc
+</td><td> <a href="http://creativecommons.org/ns#" class="external free" rel="nofollow">http://creativecommons.org/ns#</a>
+</td></tr></table>
+<p><br />
+南極地名のリソースのタイプは以下のとおりである．
+</p>
+<table class="wikitable">
+<tr>
+<th> リソースの種類
+</th><th> rdf:type
+</th></tr>
+<tr>
+<td> IDリソース
+</td><td> scar:SCARGazetteer
+</td></tr>
+<tr>
+<td> Refリソース
+</td><td> geo:SpatialThing, scar:SCARGazetteerReference
+</td></tr></table>
+<p><br />
+LODACの方針として，データ源が含むすべてのデータを保全した状態でRDFに変換するため，<br />
+以下のようにGazetteerテーブルの全てのフィールドにプロパティを割り当て，
+Refリソースのスキーマを設計した．<br />
+また，フィールドには含まれていない，データベースのメタ情報である<br />
+データ源の作成者，URI，ライセンス，参照元となるIDリソースへのリンクについても，<br />
+表の上部に示すように，プロパティを用意した．
+</p><p><br />
+</p>
+<table class="wikitable">
+<tr>
+<th> フィールド
+</th><th> プロパティ
+</th><th> 内容
+</th></tr>
+<tr>
+<td> -
+</td><td> rdf:type
+</td><td> -
+</td></tr>
+<tr>
+<td> -
+</td><td> dc:isReferencedBy
+</td><td> LODAC内の参照元IDリソースへのリンク
+</td></tr>
+<tr>
+<td> -
+</td><td> dc11:creator
+</td><td> データ作成者
+</td></tr>
+<tr>
+<td> -
+</td><td> dc:source
+</td><td> データ源
+</td></tr>
+<tr>
+<td> -
+</td><td> cc:license
+</td><td> ライセンス
+</td></tr>
+<tr>
+<td> gaz_Id
+</td><td> dc:identifier, scar:GazId
+</td><td> SCAR Composite Gazetteerにおける<br />地名データのユニークなID
+</td></tr>
+<tr>
+<td> Place_Name
+</td><td> rdfs:label, foaf:name, skos:prefLabel, <br />dc:title, scar:PlaceName
+</td><td> 地名
+</td></tr>
+<tr>
+<td> Reason
+</td><td> scar:Reason
+</td><td> ？
+</td></tr>
+<tr>
+<td> English_Place_Name
+</td><td> skos:altLabel, scar:EnglishPlaceName
+</td><td> 地名（英語）
+</td></tr>
+<tr>
+<td> Latitude
+</td><td> geo:lat, scar:Latitude
+</td><td> 緯度
+</td></tr>
+<tr>
+<td> Longitude
+</td><td> geo:long, scar:Longitude
+</td><td> 経度
+</td></tr>
+<tr>
+<td> Altitude
+</td><td> geo:alt, scar:Altitude
+</td><td> 標高
+</td></tr>
+<tr>
+<td> Feature_Type_Code
+</td><td> scar:FeatureTypeCode
+</td><td> SCAR Feature Type（特徴を表す単語）のID
+</td></tr>
+<tr>
+<td> Narrative
+</td><td> dc:description, scar:Narrative
+</td><td> 地名の説明
+</td></tr>
+<tr>
+<td> Named_For
+</td><td> scar:namedFor
+</td><td> 地名の由来
+</td></tr>
+<tr>
+<td> Meeting_Date
+</td><td> scar:MeetingDate
+</td><td> ？
+</td></tr>
+<tr>
+<td> Meeting_Paper
+</td><td> scar:MeetingPaper
+</td><td> ？
+</td></tr>
+<tr>
+<td> Date_Named
+</td><td> dc:created, scar:DateNamed
+</td><td> 地名が付けられた日
+</td></tr>
+<tr>
+<td> Gazetteer
+</td><td> scar:Gazetteer
+</td><td> 地名やその由来などの情報に関する責任者<br />（国もしくは管理者）
+</td></tr>
+<tr>
+<td> Country_ID
+</td><td> scar:CountryID
+</td><td> 国のID
+</td></tr>
+<tr>
+<td> SCAR_Feature_Class
+</td><td> scar:SCARFeatureClass
+</td><td> 場所の特徴クラス<br />（Feature Typeにマッピングされる予定）
+</td></tr>
+<tr>
+<td> SCAR_Common_ID
+</td><td> scar:SCARCommonID
+</td><td> ？
+</td></tr>
+<tr>
+<td> Region_ID
+</td><td> scar:RegionID
+</td><td> ？
+</td></tr>
+<tr>
+<td> Is_Complete_Flag
+</td><td> scar:isCompleteFlag
+</td><td> ？
+</td></tr>
+<tr>
+<td> View_By_Public_Flag
+</td><td> scar:viewByPublicFlag
+</td><td> ？
+</td></tr>
+<tr>
+<td> Display_Scales
+</td><td> scar:DisplayScales
+</td><td> ？
+</td></tr>
+<tr>
+<td> Remote_Sensor_Info
+</td><td> scar:RemoteSensorInfo
+</td><td> ？
+</td></tr>
+<tr>
+<td> Is_Proposed
+</td><td> scar:isProposed
+</td><td> ？
+</td></tr>
+<tr>
+<td> Is_Deleted
+</td><td> scar:isDeleted
+</td><td> ？
+</td></tr>
+<tr>
+<td> Coordinate_Accuracy
+</td><td> scar:CoordinateAccuracy
+</td><td> 座標の計測精度
+</td></tr>
+<tr>
+<td> Altitude_Accuracy
+</td><td> scar:AltitudeAccuracy
+</td><td> 標高の計測精度
+</td></tr>
+<tr>
+<td> Source_Institution
+</td><td> scar:SourceInstitution
+</td><td> 座標のデータ源（座標を取得した地図や<br />航空写真）を所有する機関
+</td></tr>
+<tr>
+<td> Source_Person
+</td><td> scar:SourcePerson
+</td><td> 座標のデータ源を所有する人物
+</td></tr>
+<tr>
+<td> Accepted_By
+</td><td> scar:acceptedBy
+</td><td> ？
+</td></tr>
+<tr>
+<td> Verified_By
+</td><td> scar:verifiedBy
+</td><td> ？
+</td></tr>
+<tr>
+<td> Source_Country_Code
+</td><td> scar:SourceCountryCode
+</td><td> 座標のデータ源を所有する国
+</td></tr>
+<tr>
+<td> Source_Name
+</td><td> scar:SourceName
+</td><td> 座標のデータ源の名前
+</td></tr>
+<tr>
+<td> Source_Scale
+</td><td> scar:SourceScale
+</td><td> 座標取得時の縮尺
+</td></tr>
+<tr>
+<td> SCAR_Map_Cat_ID
+</td><td> scar:SCARMapCatID
+</td><td> 座標のデータ源のSCAR map catalogue内でのID
+</td></tr>
+<tr>
+<td> Comments
+</td><td> scar:Comments
+</td><td> 座標やその他の情報の変更などについてのコメント
+</td></tr>
+<tr>
+<td> Source_Publisher
+</td><td> scar:SourcePublisher
+</td><td> 座標のデータ源の発行者
+</td></tr>
+<tr>
+<td> Status
+</td><td> scar:Status
+</td><td> 地名が正しくない場合の地名のステータス<br />（国（オーストラリア？）の地名辞典の標準から外れる，<br />地名の対象となる地理的特徴が消滅する，など）
+</td></tr>
+<tr>
+<td> Status_Notes
+</td><td> scar:StatusNotes
+</td><td> ？
+</td></tr>
+<tr>
+<td> Source_Type
+</td><td> scar:SourceType
+</td><td> 座標のデータ源の種類<br />（航空写真，GPS測位システムなど）
+</td></tr>
+<tr>
+<td> Changed
+</td><td> scar:Changed
+</td><td> ？
+</td></tr>
+<tr>
+<td> New
+</td><td> scar:New
+</td><td> ？
+</td></tr>
+<tr>
+<td> Source_Identifier
+</td><td> scar:SourceIdentifier
+</td><td> 座標のデータ源の国（オーストラリア？）の<br />カタログにおけるユニークなID
+</td></tr></table>
+<p><br />
+なお，IDリソースのスキーマは以下のとおりである．
+</p><p><br />
+</p>
+<table class="wikitable">
+<tr>
+<th> フィールド
+</th><th> プロパティ
+</th><th> 内容
+</th></tr>
+<tr>
+<td> -
+</td><td> rdf:type
+</td><td> -
+</td></tr>
+<tr>
+<td> -
+</td><td> dc:references
+</td><td> LODAC内の参照先Refリソースへのリンク
+</td></tr>
+<tr>
+<td> Place_Name
+</td><td> rdfs:label, foaf:name, skos:prefLabel
+</td><td> 地名
+</td></tr>
+<tr>
+<td> English_Place_Name
+</td><td> skos:altLabel
+</td><td> 地名（英語）
+</td></tr></table>
+<p><br />
+LODAC側でこれらのIDリソース，RefリソースにURIを生成し，ttlファイルとしてRDFを生成した．<br />
+なお，変換作業やスキーマの作成作業はGoogle Refine, Rubyを用いて行った．
+</p><p><br />
+</p>
+<h5> <span class="mw-headline" id=".E7.B5.90.E6.9E.9C_2"> 結果 </span></h5>
+<p>LODACに生成した南極地名リソースのRDFを追加した．<br />
+<a href="http://lod.ac/sparql" class="external free" rel="nofollow">http://lod.ac/sparql</a> にて以下のようなSPARQLで，南極の地名の情報が取得できる．<br />
+このSPARQLの結果は<a href="http://lod.ac/sparql?query=PREFIX+geo%3A+%3Chttp%3A%2F%2Fwww.w3.org%2F2003%2F01%2Fgeo%2Fwgs84_pos%23%3E%0APREFIX+dc%3A+%3Chttp%3A%2F%2Fpurl.org%2Fdc%2Fterms%2F%3E%0APREFIX+rdfs%3A+%3Chttp%3A%2F%2Fwww.w3.org%2F2000%2F01%2Frdf-schema%23%3E%0APREFIX+scar%3A+%3Chttp%3A%2F%2Flod.ac%2Fns%2Fscar%23%3E%0A%0ASELECT+%3Fid+%3Flabel+%3Flat+%3Flong+%3Fcountry%0AWHERE+%7B%0A++%3Fid+a+scar%3ASCARGazetteer%3B%0A++rdfs%3Alabel+%3Flabel.%0A++%3Fid+dc%3Areferences+%3Fref.%0A++%3Fref+geo%3Alat+%3Flat%3B%0A++geo%3Along+%3Flong%3B%0A++scar%3AGazetteer+%3Fcountry.%0A%7D%0ALIMIT+100%0A&amp;format=html" class="external text" rel="nofollow">こんな感じ</a>です．
+</p>
+<pre>
+PREFIX geo: &lt;http://www.w3.org/2003/01/geo/wgs84_pos#&gt;
+PREFIX dc: &lt;http://purl.org/dc/terms/&gt;
+PREFIX rdfs: &lt;http://www.w3.org/2000/01/rdf-schema#&gt;
+PREFIX scar: &lt;http://lod.ac/ns/scar#&gt;
+
+SELECT&nbsp;?id&nbsp;?label&nbsp;?lat&nbsp;?long&nbsp;?country
+WHERE {
+ &nbsp;?id a scar:SCARGazetteer;
+  rdfs:label&nbsp;?label.
+ &nbsp;?id dc:references&nbsp;?ref.
+ &nbsp;?ref geo:lat&nbsp;?lat;
+  geo:long&nbsp;?long;
+  scar:Gazetteer&nbsp;?country.
+}
+LIMIT 100
+</pre>
+<h5> <span class="mw-headline" id=".E4.BB.8A.E5.BE.8C.E3.81.AE.E8.AA.B2.E9.A1.8C"> 今後の課題 </span></h5>
+<ul><li> 南極の標本のリソースは座標を持っていないが，地名を位置情報として持っている場合があるので<br />それらの地名と，今回生成した南極地名リソースのラベルのマッチングを行い，<br />標本と地名のリンクの生成を行う
+</li><li> 国やSCAR Feature Typeのリソースの生成を行い，南極地名リソースとリンクする
+</li></ul>
+<p><br />
+</p>
+<h4> <span class="mw-headline" id=".E3.81.8A.E3.81.BE.E3.81.91.EF.BC.9AAustralian_Antarctic_Data_Centre.E3.81.AEGIS.E3.83.87.E3.83.BC.E3.82.BF.E3.81.AEGoogle_Earth.E3.81.A7.E3.81.AE.E8.A1.A8.E7.A4.BA"> おまけ：Australian Antarctic Data CentreのGISデータのGoogle Earthでの表示 </span></h4>
+<h5> <span class="mw-headline" id=".E7.9B.AE.E7.9A.84_3"> 目的 </span></h5>
+<p>魅力的なデータがあるのだが，Shapefileなので，KMLに変換してGoogle Earthで見てみたい
+</p>
+<h5> <span class="mw-headline" id=".E4.BD.9C.E6.A5.AD.E5.86.85.E5.AE.B9_3"> 作業内容 </span></h5>
+<p>Shapefileをkmlに変換するソフトがWindowsにしかないので，<br />
+南さんにお願いしてkmlに変換してもらった．<br />
+ちなみに魅力的なデータとは「犬ぞりの走行軌跡（？）」．<br />
+Google Earthで犬が1960年台に走っていた軌跡を見ることができて満足した．
+</p>
+<!-- 
+NewPP limit report
+Preprocessor node count: 80/1000000
+Post-expand include size: 0/2097152 bytes
+Template argument size: 0/2097152 bytes
+Expensive parser function count: 0/100
+-->
+
+<!-- Saved in parser cache with key wikidb-togowiki_:pcache:idhash:202-0!1!0!!ja!2!edit=0 and timestamp 20230605014417 -->
+<div class="printfooter">
+「<a href="http://wiki.lifesciencedb.jp/mw/LODAC_Species_%E3%81%A8%E5%8D%97%E6%A5%B5%E3%81%AE%E5%9C%B0%E5%9F%9F%E3%83%BB%E6%A8%99%E6%9C%AC%E3%83%9E%E3%83%83%E3%83%94%E3%83%B3%E3%82%B0">http://wiki.lifesciencedb.jp/mw/LODAC_Species_%E3%81%A8%E5%8D%97%E6%A5%B5%E3%81%AE%E5%9C%B0%E5%9F%9F%E3%83%BB%E6%A8%99%E6%9C%AC%E3%83%9E%E3%83%83%E3%83%94%E3%83%B3%E3%82%B0</a>」より作成</div>
+		<div id='catlinks' class='catlinks catlinks-allhidden'></div>		<!-- end content -->
+				<div class="visualClear"></div>
+	</div>
+</div></div>
+<div id="column-one">
+	<div id="p-cactions" class="portlet">
+		<h5>表示</h5>
+		<div class="pBody">
+			<ul>
+				 <li id="ca-nstab-main" class="selected"><a href="/mw/LODAC_Species_%E3%81%A8%E5%8D%97%E6%A5%B5%E3%81%AE%E5%9C%B0%E5%9F%9F%E3%83%BB%E6%A8%99%E6%9C%AC%E3%83%9E%E3%83%83%E3%83%94%E3%83%B3%E3%82%B0" title="本文を表示 [c]" accesskey="c">ページ</a></li>
+				 <li id="ca-talk" class="new"><a href="/mw/index.php?title=%E3%83%8E%E3%83%BC%E3%83%88:LODAC_Species_%E3%81%A8%E5%8D%97%E6%A5%B5%E3%81%AE%E5%9C%B0%E5%9F%9F%E3%83%BB%E6%A8%99%E6%9C%AC%E3%83%9E%E3%83%83%E3%83%94%E3%83%B3%E3%82%B0&amp;action=edit&amp;redlink=1" title="記事についての議論 [t]" accesskey="t">議論</a></li>
+				 <li id="ca-viewsource"><a href="/mw/index.php?title=LODAC_Species_%E3%81%A8%E5%8D%97%E6%A5%B5%E3%81%AE%E5%9C%B0%E5%9F%9F%E3%83%BB%E6%A8%99%E6%9C%AC%E3%83%9E%E3%83%83%E3%83%94%E3%83%B3%E3%82%B0&amp;action=edit" title="このページは保護されています。&#10;ページのソースを閲覧できます。 [e]" accesskey="e">ソースを表示</a></li>
+				 <li id="ca-history"><a href="/mw/index.php?title=LODAC_Species_%E3%81%A8%E5%8D%97%E6%A5%B5%E3%81%AE%E5%9C%B0%E5%9F%9F%E3%83%BB%E6%A8%99%E6%9C%AC%E3%83%9E%E3%83%83%E3%83%94%E3%83%B3%E3%82%B0&amp;action=history" title="このページの過去の版 [h]" accesskey="h">履歴</a></li>
+			</ul>
+		</div>
+	</div>
+	<div class="portlet" id="p-personal">
+		<h5>個人用ツール</h5>
+		<div class="pBody">
+			<ul>
+				<li id="pt-anonuserpage"><a href="/mw/%E5%88%A9%E7%94%A8%E8%80%85:172.18.8.51" title="自分が編集しているIPアドレスの利用者ページ [.]" accesskey="." class="new">172.18.8.51</a></li>
+				<li id="pt-anontalk"><a href="/mw/%E5%88%A9%E7%94%A8%E8%80%85%E2%80%90%E4%BC%9A%E8%A9%B1:172.18.8.51" title="このIPアドレスからなされた編集についての議論 [n]" accesskey="n" class="new">このIPアドレスのトーク</a></li>
+				<li id="pt-anonlogin"><a href="/mw/index.php?title=%E7%89%B9%E5%88%A5:%E3%83%AD%E3%82%B0%E3%82%A4%E3%83%B3&amp;returnto=LODAC_Species_%E3%81%A8%E5%8D%97%E6%A5%B5%E3%81%AE%E5%9C%B0%E5%9F%9F%E3%83%BB%E6%A8%99%E6%9C%AC%E3%83%9E%E3%83%83%E3%83%94%E3%83%B3%E3%82%B0&amp;returntoquery=oldid%3D4510" title="ログインすることが推奨されます。ただし、必須ではありません。 [o]" accesskey="o">ログイン</a></li>
+				<li id="pt-openidlogin"><a href="/mw/index.php?title=%E7%89%B9%E5%88%A5:OpenID%E3%83%AD%E3%82%B0%E3%82%A4%E3%83%B3&amp;returnto=LODAC_Species_%E3%81%A8%E5%8D%97%E6%A5%B5%E3%81%AE%E5%9C%B0%E5%9F%9F%E3%83%BB%E6%A8%99%E6%9C%AC%E3%83%9E%E3%83%83%E3%83%94%E3%83%B3%E3%82%B0">OpenIDでログイン</a></li>
+			</ul>
+		</div>
+	</div>
+	<div class="portlet" id="p-logo">
+		<a style="background-image: url(/mw/images/togowiki-logo.png);" href="/mw/%E3%83%A1%E3%82%A4%E3%83%B3%E3%83%9A%E3%83%BC%E3%82%B8" title="メインページに移動"></a>
+	</div>
+	<script type="text/javascript"> if (window.isMSIE55) fixalpha(); </script>
+	<div class='generated-sidebar portlet' id='p-navigation'>
+		<h5>案内</h5>
+		<div class='pBody'>
+			<ul>
+				<li id="n-mainpage-description"><a href="/mw/%E3%83%A1%E3%82%A4%E3%83%B3%E3%83%9A%E3%83%BC%E3%82%B8" title="メインページに移動する [z]" accesskey="z">メインページ</a></li>
+				<li id="n-portal"><a href="/mw/TogoWiki:%E3%82%B3%E3%83%9F%E3%83%A5%E3%83%8B%E3%83%86%E3%82%A3%E3%83%BB%E3%83%9D%E3%83%BC%E3%82%BF%E3%83%AB" title="このプロジェクトについて、できること、情報を入手する場所">コミュニティ・ポータル</a></li>
+				<li id="n-currentevents"><a href="/mw/TogoWiki:%E6%9C%80%E8%BF%91%E3%81%AE%E5%87%BA%E6%9D%A5%E4%BA%8B" title="最近の出来事について予備知識を得る">最近の出来事</a></li>
+				<li id="n-recentchanges"><a href="/mw/%E7%89%B9%E5%88%A5:%E6%9C%80%E8%BF%91%E3%81%AE%E6%9B%B4%E6%96%B0" title="ウィキにおける最近の更新の一覧 [r]" accesskey="r">最近の更新</a></li>
+				<li id="n-randompage"><a href="/mw/%E7%89%B9%E5%88%A5:%E3%81%8A%E3%81%BE%E3%81%8B%E3%81%9B%E8%A1%A8%E7%A4%BA" title="無作為に抽出されたページの読み込み [x]" accesskey="x">おまかせ表示</a></li>
+				<li id="n-help"><a href="/mw/Help:%E7%9B%AE%E6%AC%A1" title="情報を得る場所">ヘルプ</a></li>
+			</ul>
+		</div>
+	</div>
+	<div id="p-search" class="portlet">
+		<h5><label for="searchInput">検索</label></h5>
+		<div id="searchBody" class="pBody">
+			<form action="/mw/index.php" id="searchform">
+				<input type='hidden' name="title" value="特別:検索"/>
+				<input id="searchInput" title="TogoWiki内を検索" accesskey="f" type="search" name="search" />
+				<input type='submit' name="go" class="searchButton" id="searchGoButton"	value="表示" title="厳密に一致する名前のページが存在すれば、そのページへ移動します" />&nbsp;
+				<input type='submit' name="fulltext" class="searchButton" id="mw-searchButton" value="検索" title="入力された文字列が含まれるページを検索します" />
+			</form>
+		</div>
+	</div>
+	<div class="portlet" id="p-tb">
+		<h5>ツールボックス</h5>
+		<div class="pBody">
+			<ul>
+				<li id="t-whatlinkshere"><a href="/mw/%E7%89%B9%E5%88%A5:%E3%83%AA%E3%83%B3%E3%82%AF%E5%85%83/LODAC_Species_%E3%81%A8%E5%8D%97%E6%A5%B5%E3%81%AE%E5%9C%B0%E5%9F%9F%E3%83%BB%E6%A8%99%E6%9C%AC%E3%83%9E%E3%83%83%E3%83%94%E3%83%B3%E3%82%B0" title="ここにリンクしている全ウィキのページの一覧 [j]" accesskey="j">リンク元</a></li>
+				<li id="t-recentchangeslinked"><a href="/mw/%E7%89%B9%E5%88%A5:%E9%96%A2%E9%80%A3%E3%83%9A%E3%83%BC%E3%82%B8%E3%81%AE%E6%9B%B4%E6%96%B0%E7%8A%B6%E6%B3%81/LODAC_Species_%E3%81%A8%E5%8D%97%E6%A5%B5%E3%81%AE%E5%9C%B0%E5%9F%9F%E3%83%BB%E6%A8%99%E6%9C%AC%E3%83%9E%E3%83%83%E3%83%94%E3%83%B3%E3%82%B0" title="このページからリンクしているページの最近の更新 [k]" accesskey="k">関連ページの更新状況</a></li>
+<li id="t-specialpages"><a href="/mw/%E7%89%B9%E5%88%A5:%E7%89%B9%E5%88%A5%E3%83%9A%E3%83%BC%E3%82%B8%E4%B8%80%E8%A6%A7" title="特別ページの一覧 [q]" accesskey="q">特別ページ</a></li>
+				<li id="t-print"><a href="/mw/index.php?title=LODAC_Species_%E3%81%A8%E5%8D%97%E6%A5%B5%E3%81%AE%E5%9C%B0%E5%9F%9F%E3%83%BB%E6%A8%99%E6%9C%AC%E3%83%9E%E3%83%83%E3%83%94%E3%83%B3%E3%82%B0&amp;oldid=4510&amp;printable=yes" rel="alternate" title="このページの印刷用ページ [p]" accesskey="p">印刷用バージョン</a></li>				<li id="t-permalink"><a href="/mw/index.php?title=LODAC_Species_%E3%81%A8%E5%8D%97%E6%A5%B5%E3%81%AE%E5%9C%B0%E5%9F%9F%E3%83%BB%E6%A8%99%E6%9C%AC%E3%83%9E%E3%83%83%E3%83%94%E3%83%B3%E3%82%B0&amp;oldid=4510" title="ページのこの版への固定リンク">この版への固定リンク</a></li>			</ul>
+		</div>
+	</div>
+</div><!-- end of the left (by default at least) column -->
+<div class="visualClear"></div>
+<div id="footer">
+	<div id="f-poweredbyico"><a href="http://www.mediawiki.org/"><img src="/mw/skins/common/images/poweredby_mediawiki_88x31.png" height="31" width="88" alt="Powered by MediaWiki" /></a></div>
+	<div id="f-copyrightico"><a href="http://creativecommons.org/licenses/by/3.0/"><img src="http://i.creativecommons.org/l/by/3.0/88x31.png" alt="Attribution 3.0 Unported" width="88" height="31" /></a></div>
+	<ul id="f-list">
+		<li id="copyright">内容は<a href="http://creativecommons.org/licenses/by/3.0/" class="external ">Attribution 3.0 Unported</a>のライセンスで利用することができます。</li>
+		<li id="privacy"><a href="/mw/TogoWiki:%E3%83%97%E3%83%A9%E3%82%A4%E3%83%90%E3%82%B7%E3%83%BC%E3%83%BB%E3%83%9D%E3%83%AA%E3%82%B7%E3%83%BC" title="TogoWiki:プライバシー・ポリシー">プライバシー・ポリシー</a></li>
+		<li id="about"><a href="/mw/TogoWiki:TogoWiki%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6" title="TogoWiki:TogoWikiについて">TogoWikiについて</a></li>
+		<li id="disclaimer"><a href="/mw/TogoWiki:%E5%85%8D%E8%B2%AC%E4%BA%8B%E9%A0%85" title="TogoWiki:免責事項">免責事項</a></li>
+	</ul>
+</div>
+</div>
+
+<script>if (window.runOnloadHook) runOnloadHook();</script>
+<!-- Served in 0.651 secs. --></body></html>

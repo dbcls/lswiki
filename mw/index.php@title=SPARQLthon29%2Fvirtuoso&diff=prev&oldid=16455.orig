@@ -1,0 +1,333 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html lang="ja" dir="ltr">
+<head>
+<title>SPARQLthon29/virtuoso - TogoWiki</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta name="generator" content="MediaWiki 1.16.3" />
+<meta name="robots" content="noindex,nofollow" />
+<link rel="shortcut icon" href="/favicon.ico" />
+<link rel="search" type="application/opensearchdescription+xml" href="/mw/opensearch_desc.php" title="TogoWiki (ja)" />
+<link title="Creative Commons" type="application/rdf+xml" href="/mw/index.php?title=SPARQLthon29/virtuoso&amp;action=creativecommons" rel="meta" />
+<link rel="copyright" href="http://creativecommons.org/licenses/by/3.0/" />
+<link rel="alternate" type="application/atom+xml" title="TogoWikiのAtomフィード" href="/mw/index.php?title=%E7%89%B9%E5%88%A5:%E6%9C%80%E8%BF%91%E3%81%AE%E6%9B%B4%E6%96%B0&amp;feed=atom" />
+<link rel="stylesheet" href="/mw/skins/common/diff.css?270" />
+<link rel="stylesheet" href="/mw/skins/common/shared.css?270" media="screen" />
+<link rel="stylesheet" href="/mw/skins/common/commonPrint.css?270" media="print" />
+<link rel="stylesheet" href="/mw/skins/monobook/main.css?270" media="screen" />
+<!--[if lt IE 5.5000]><link rel="stylesheet" href="/mw/skins/monobook/IE50Fixes.css?270" media="screen" /><![endif]-->
+<!--[if IE 5.5000]><link rel="stylesheet" href="/mw/skins/monobook/IE55Fixes.css?270" media="screen" /><![endif]-->
+<!--[if IE 6]><link rel="stylesheet" href="/mw/skins/monobook/IE60Fixes.css?270" media="screen" /><![endif]-->
+<!--[if IE 7]><link rel="stylesheet" href="/mw/skins/monobook/IE70Fixes.css?270" media="screen" /><![endif]-->
+<link rel="stylesheet" href="/mw/index.php?title=MediaWiki:Common.css&amp;usemsgcache=yes&amp;ctype=text%2Fcss&amp;smaxage=18000&amp;action=raw&amp;maxage=18000" />
+<link rel="stylesheet" href="/mw/index.php?title=MediaWiki:Print.css&amp;usemsgcache=yes&amp;ctype=text%2Fcss&amp;smaxage=18000&amp;action=raw&amp;maxage=18000" media="print" />
+<link rel="stylesheet" href="/mw/index.php?title=MediaWiki:Monobook.css&amp;usemsgcache=yes&amp;ctype=text%2Fcss&amp;smaxage=18000&amp;action=raw&amp;maxage=18000" />
+<link rel="stylesheet" href="/mw/index.php?title=-&amp;action=raw&amp;maxage=18000&amp;gen=css" />
+<script>
+var skin="monobook",
+stylepath="/mw/skins",
+wgUrlProtocols="http\\:\\/\\/|https\\:\\/\\/|ftp\\:\\/\\/|irc\\:\\/\\/|gopher\\:\\/\\/|telnet\\:\\/\\/|nntp\\:\\/\\/|worldwind\\:\\/\\/|mailto\\:|news\\:|svn\\:\\/\\/",
+wgArticlePath="/mw/$1",
+wgScriptPath="/mw",
+wgScriptExtension=".php",
+wgScript="/mw/index.php",
+wgVariantArticlePath=false,
+wgActionPaths={},
+wgServer="http://wiki.lifesciencedb.jp",
+wgCanonicalNamespace="",
+wgCanonicalSpecialPageName=false,
+wgNamespaceNumber=0,
+wgPageName="SPARQLthon29/virtuoso",
+wgTitle="SPARQLthon29/virtuoso",
+wgAction="view",
+wgArticleId=602,
+wgIsArticle=true,
+wgUserName=null,
+wgUserGroups=null,
+wgUserLanguage="ja",
+wgContentLanguage="ja",
+wgBreakFrames=false,
+wgCurRevisionId=16455,
+wgVersion="1.16.3",
+wgEnableAPI=true,
+wgEnableWriteAPI=true,
+wgSeparatorTransformTable=["", ""],
+wgDigitTransformTable=["", ""],
+wgMainPageTitle="メインページ",
+wgFormattedNamespaces={"-2": "メディア", "-1": "特別", "0": "", "1": "ノート", "2": "利用者", "3": "利用者‐会話", "4": "TogoWiki", "5": "TogoWiki‐ノート", "6": "ファイル", "7": "ファイル‐ノート", "8": "MediaWiki", "9": "MediaWiki‐ノート", "10": "Template", "11": "Template‐ノート", "12": "Help", "13": "Help‐ノート", "14": "Category", "15": "Category‐ノート"},
+wgNamespaceIds={"メディア": -2, "特別": -1, "": 0, "ノート": 1, "利用者": 2, "利用者‐会話": 3, "togowiki": 4, "togowiki‐ノート": 5, "ファイル": 6, "ファイル‐ノート": 7, "mediawiki": 8, "mediawiki‐ノート": 9, "template": 10, "template‐ノート": 11, "help": 12, "help‐ノート": 13, "category": 14, "category‐ノート": 15, "画像": 6, "画像‐ノート": 7, "image": 6, "image_talk": 7},
+wgSiteName="TogoWiki",
+wgCategories=[],
+wgRestrictionEdit=[],
+wgRestrictionMove=[];
+</script><script src="/mw/skins/common/wikibits.js?270"></script>
+<script type="text/javascript" src="/mw/skins/common/diff.js?270"></script>
+<script src="/mw/skins/common/ajax.js?270"></script>
+<script src="/mw/index.php?title=-&amp;action=raw&amp;gen=js&amp;useskin=monobook&amp;270"></script>
+
+		<style type='text/css'>
+		li#pt-openidlogin {
+		  background: url(/mw/extensions/OpenID/skin/icons/openid-inputicon.png) top left no-repeat;
+		  padding-left: 20px;
+		  text-transform: none;
+		}
+		</style>
+</head>
+<body class="mediawiki ltr ns-0 ns-subject page-SPARQLthon29_virtuoso skin-monobook">
+<div id="globalWrapper">
+<div id="column-content"><div id="content" >
+	<a id="top"></a>
+	
+	<h1 id="firstHeading" class="firstHeading">SPARQLthon29/virtuoso</h1>
+	<div id="bodyContent">
+		<h3 id="siteSub">提供：TogoWiki</h3>
+		<div id="contentSub">（版間での差分）</div>
+		<div id="jump-to-nav">移動： <a href="#column-one">案内</a>, <a href="#searchInput">検索</a></div>
+		<!-- start content -->
+<table class='diff'>
+			<col class='diff-marker' />
+			<col class='diff-content' />
+			<col class='diff-marker' />
+			<col class='diff-content' />
+		<tr valign='top'>
+		<td colspan='2' class='diff-otitle'><div id="mw-diff-otitle1"><strong><a href='/mw/index.php?title=SPARQLthon29/virtuoso&amp;oldid=16452'>2015年2月13日 (金) 07:49時点における版</a> (<a href='/mw/index.php?title=SPARQLthon29/virtuoso&amp;action=edit&amp;oldid=16452'>ソースを表示</a>)</strong></div><div id="mw-diff-otitle2"><a href="/mw/index.php?title=%E5%88%A9%E7%94%A8%E8%80%85:Uki_moriya&amp;action=edit&amp;redlink=1" class="new mw-userlink" title="利用者:Uki moriya（存在しないページ）">Uki moriya</a>  <span class="mw-usertoollinks">(<a href="/mw/index.php?title=%E5%88%A9%E7%94%A8%E8%80%85%E2%80%90%E4%BC%9A%E8%A9%B1:Uki_moriya&amp;action=edit&amp;redlink=1" class="new" title="利用者‐会話:Uki moriya（存在しないページ）">トーク</a> | <a href="/mw/%E7%89%B9%E5%88%A5:%E6%8A%95%E7%A8%BF%E8%A8%98%E9%8C%B2/Uki_moriya" title="特別:投稿記録/Uki moriya">投稿記録</a>)</span></div><div id="mw-diff-otitle3"></div><div id="mw-diff-otitle4"><a href="/mw/index.php?title=SPARQLthon29/virtuoso&amp;diff=prev&amp;oldid=16452" title="SPARQLthon29/virtuoso" id="differences-prevlink">←古い編集</a></div></td>
+		<td colspan='2' class='diff-ntitle'><div id="mw-diff-ntitle1"><strong><a href='/mw/index.php?title=SPARQLthon29/virtuoso&amp;oldid=16455'>2015年2月13日 (金) 07:58時点における最新版</a> (<a href='/mw/index.php?title=SPARQLthon29/virtuoso&amp;action=edit'>ソースを表示</a>)</strong></div><div id="mw-diff-ntitle2"><a href="/mw/index.php?title=%E5%88%A9%E7%94%A8%E8%80%85:Uki_moriya&amp;action=edit&amp;redlink=1" class="new mw-userlink" title="利用者:Uki moriya（存在しないページ）">Uki moriya</a>  <span class="mw-usertoollinks">(<a href="/mw/index.php?title=%E5%88%A9%E7%94%A8%E8%80%85%E2%80%90%E4%BC%9A%E8%A9%B1:Uki_moriya&amp;action=edit&amp;redlink=1" class="new" title="利用者‐会話:Uki moriya（存在しないページ）">トーク</a> | <a href="/mw/%E7%89%B9%E5%88%A5:%E6%8A%95%E7%A8%BF%E8%A8%98%E9%8C%B2/Uki_moriya" title="特別:投稿記録/Uki moriya">投稿記録</a>)</span> </div><div id="mw-diff-ntitle3"></div><div id="mw-diff-ntitle4">&nbsp;</div></td>
+		</tr><tr><td colspan="2" class="diff-lineno">110行：</td>
+<td colspan="2" class="diff-lineno">110行：</td></tr>
+<tr><td class='diff-marker'> </td><td class='diff-context'><div>&nbsp;&nbsp;  ?s72 ^skos:exactMatch ?s73 .&nbsp;  ?s73 skos:exactMatch ?s74 .&nbsp;  ?s74 ^skos:exactMatch ?s75 .</div></td><td class='diff-marker'> </td><td class='diff-context'><div>&nbsp;&nbsp;  ?s72 ^skos:exactMatch ?s73 .&nbsp;  ?s73 skos:exactMatch ?s74 .&nbsp;  ?s74 ^skos:exactMatch ?s75 .</div></td></tr>
+<tr><td class='diff-marker'> </td><td class='diff-context'><div>&nbsp;&nbsp; # ?s75 skos:exactMatch ?s76 .</div></td><td class='diff-marker'> </td><td class='diff-context'><div>&nbsp;&nbsp; # ?s75 skos:exactMatch ?s76 .</div></td></tr>
+<tr><td class='diff-marker'>-</td><td class='diff-deletedline'><div><del class="diffchange">}limit 10</del></div></td><td colspan="2">&nbsp;</td></tr>
+<tr><td class='diff-marker'>-</td><td class='diff-deletedline'><div><del class="diffchange">&lt;/pre&gt;</del></div></td><td colspan="2">&nbsp;</td></tr>
+<tr><td class='diff-marker'>-</td><td class='diff-deletedline'><div><del class="diffchange"></del></div></td><td colspan="2">&nbsp;</td></tr>
+<tr><td class='diff-marker'>-</td><td class='diff-deletedline'><div><del class="diffchange">* 挙動が不明</del></div></td><td colspan="2">&nbsp;</td></tr>
+<tr><td class='diff-marker'>-</td><td class='diff-deletedline'><div><del class="diffchange">** 58を追加すると Stack Overflow になるわけでもなく、帰ってこない。</del></div></td><td colspan="2">&nbsp;</td></tr>
+<tr><td class='diff-marker'>-</td><td class='diff-deletedline'><div><del class="diffchange">** ２つめの values 行の位置を変えたり、一行にまとめたりすると正常動作する数が変わる</del></div></td><td colspan="2">&nbsp;</td></tr>
+<tr><td class='diff-marker'>-</td><td class='diff-deletedline'><div><del class="diffchange">&lt;pre&gt;</del></div></td><td colspan="2">&nbsp;</td></tr>
+<tr><td class='diff-marker'>-</td><td class='diff-deletedline'><div><del class="diffchange">prefix skos: &lt;http://www.w3.org/2004/02/skos/core#&gt;</del></div></td><td colspan="2">&nbsp;</td></tr>
+<tr><td class='diff-marker'>-</td><td class='diff-deletedline'><div><del class="diffchange">select *</del></div></td><td colspan="2">&nbsp;</td></tr>
+<tr><td class='diff-marker'>-</td><td class='diff-deletedline'><div><del class="diffchange">from &lt;http://togogenome.org/graph/tgup&gt;</del></div></td><td colspan="2">&nbsp;</td></tr>
+<tr><td class='diff-marker'>-</td><td class='diff-deletedline'><div><del class="diffchange">where {</del></div></td><td colspan="2">&nbsp;</td></tr>
+<tr><td class='diff-marker'>-</td><td class='diff-deletedline'><div><del class="diffchange">values ?s0 { &lt;http://togogenome.org/gene/NC_000001:OR4F5&gt; }</del></div></td><td colspan="2">&nbsp;</td></tr>
+<tr><td class='diff-marker'>-</td><td class='diff-deletedline'><div><del class="diffchange">values ?t0 { &lt;http://togogenome.org/gene/NC_000001:OR4F29&gt; }</del></div></td><td colspan="2">&nbsp;</td></tr>
+<tr><td class='diff-marker'>-</td><td class='diff-deletedline'><div><del class="diffchange">&nbsp;  ?s0 skos:exactMatch ?s1 .&nbsp;  ?s0 skos:exactMatch ?s2 .&nbsp;  ?s0 skos:exactMatch ?s3 .</del></div></td><td colspan="2">&nbsp;</td></tr>
+<tr><td class='diff-marker'>-</td><td class='diff-deletedline'><div><del class="diffchange">&nbsp;  ?s0 skos:exactMatch ?s4 .&nbsp;  ?s0 skos:exactMatch ?s5 .&nbsp;  ?s0 skos:exactMatch ?s6 .</del></div></td><td colspan="2">&nbsp;</td></tr>
+<tr><td class='diff-marker'>-</td><td class='diff-deletedline'><div><del class="diffchange">&nbsp;  ?s0 skos:exactMatch ?s7 .&nbsp;  ?s0 skos:exactMatch ?s8 .&nbsp;  ?s0 skos:exactMatch ?s9 .</del></div></td><td colspan="2">&nbsp;</td></tr>
+<tr><td class='diff-marker'>-</td><td class='diff-deletedline'><div><del class="diffchange">&nbsp;  ?s0 skos:exactMatch ?s10 .&nbsp;  ?s0 skos:exactMatch ?s11 .&nbsp;  ?s0 skos:exactMatch ?s12 .</del></div></td><td colspan="2">&nbsp;</td></tr>
+<tr><td class='diff-marker'>-</td><td class='diff-deletedline'><div><del class="diffchange">&nbsp;  ?s0 skos:exactMatch ?s13 .&nbsp;  ?s0 skos:exactMatch ?s14 .&nbsp;  ?s0 skos:exactMatch ?s15 .</del></div></td><td colspan="2">&nbsp;</td></tr>
+<tr><td class='diff-marker'>-</td><td class='diff-deletedline'><div><del class="diffchange">&nbsp;  ?s0 skos:exactMatch ?s16 .&nbsp;  ?s0 skos:exactMatch ?s17 .&nbsp;  ?s0 skos:exactMatch ?s18 .</del></div></td><td colspan="2">&nbsp;</td></tr>
+<tr><td class='diff-marker'>-</td><td class='diff-deletedline'><div><del class="diffchange">&nbsp;  ?s0 skos:exactMatch ?s19 .&nbsp;  ?s0 skos:exactMatch ?s20 .&nbsp;  ?s0 skos:exactMatch ?s21 .</del></div></td><td colspan="2">&nbsp;</td></tr>
+<tr><td class='diff-marker'>-</td><td class='diff-deletedline'><div><del class="diffchange">&nbsp;  ?s0 skos:exactMatch ?s22 .&nbsp;  ?s0 skos:exactMatch ?s23 .&nbsp;  ?s0 skos:exactMatch ?s24 .</del></div></td><td colspan="2">&nbsp;</td></tr>
+<tr><td class='diff-marker'>-</td><td class='diff-deletedline'><div><del class="diffchange">&nbsp;  ?s0 skos:exactMatch ?s25 .&nbsp;  ?s0 skos:exactMatch ?s26 .&nbsp;  ?s0 skos:exactMatch ?s27 .</del></div></td><td colspan="2">&nbsp;</td></tr>
+<tr><td class='diff-marker'>-</td><td class='diff-deletedline'><div><del class="diffchange">&nbsp;  ?s0 skos:exactMatch ?s28 .&nbsp;  ?s0 skos:exactMatch ?s29 .&nbsp;  ?s0 skos:exactMatch ?s30 .</del></div></td><td colspan="2">&nbsp;</td></tr>
+<tr><td class='diff-marker'>-</td><td class='diff-deletedline'><div><del class="diffchange">&nbsp;  ?s0 skos:exactMatch ?s31 .&nbsp;  ?s0 skos:exactMatch ?s32 .&nbsp;  ?s0 skos:exactMatch ?s33 .</del></div></td><td colspan="2">&nbsp;</td></tr>
+<tr><td class='diff-marker'>-</td><td class='diff-deletedline'><div><del class="diffchange">&nbsp;  ?s0 skos:exactMatch ?s34 .&nbsp;  ?s0 skos:exactMatch ?s35 .&nbsp;  ?s0 skos:exactMatch ?s36 .</del></div></td><td colspan="2">&nbsp;</td></tr>
+<tr><td class='diff-marker'>-</td><td class='diff-deletedline'><div><del class="diffchange">&nbsp;  ?s0 skos:exactMatch ?s37 .&nbsp;  ?s0 skos:exactMatch ?s38 .&nbsp;  ?s0 skos:exactMatch ?s39 .</del></div></td><td colspan="2">&nbsp;</td></tr>
+<tr><td class='diff-marker'>-</td><td class='diff-deletedline'><div><del class="diffchange">&nbsp;  ?s0 skos:exactMatch ?s40 .&nbsp;  ?s0 skos:exactMatch ?s41 .&nbsp;  ?s0 skos:exactMatch ?s42 .</del></div></td><td colspan="2">&nbsp;</td></tr>
+<tr><td class='diff-marker'>-</td><td class='diff-deletedline'><div><del class="diffchange">&nbsp;  ?s0 skos:exactMatch ?s43 .&nbsp;  ?s0 skos:exactMatch ?s44 .&nbsp;  ?s0 skos:exactMatch ?s45 .</del></div></td><td colspan="2">&nbsp;</td></tr>
+<tr><td class='diff-marker'>-</td><td class='diff-deletedline'><div><del class="diffchange">&nbsp;  ?s0 skos:exactMatch ?s46 .&nbsp;  ?s0 skos:exactMatch ?s47 .&nbsp;  ?s0 skos:exactMatch ?s48 .</del></div></td><td colspan="2">&nbsp;</td></tr>
+<tr><td class='diff-marker'>-</td><td class='diff-deletedline'><div><del class="diffchange">&nbsp;  ?s0 skos:exactMatch ?s49 .&nbsp;  ?s0 skos:exactMatch ?s50 .&nbsp;  ?s0 skos:exactMatch ?s51 .</del></div></td><td colspan="2">&nbsp;</td></tr>
+<tr><td class='diff-marker'>-</td><td class='diff-deletedline'><div><del class="diffchange">&nbsp;  ?s0 skos:exactMatch ?s52 .&nbsp;  ?s0 skos:exactMatch ?s53 .&nbsp;  ?s0 skos:exactMatch ?s54 .</del></div></td><td colspan="2">&nbsp;</td></tr>
+<tr><td class='diff-marker'>-</td><td class='diff-deletedline'><div><del class="diffchange">&nbsp;  ?s0 skos:exactMatch ?s55 .&nbsp;  ?s0 skos:exactMatch ?s56 .&nbsp;  ?s0 skos:exactMatch ?s57 .</del></div></td><td colspan="2">&nbsp;</td></tr>
+<tr><td class='diff-marker'>-</td><td class='diff-deletedline'><div><del class="diffchange">&nbsp; # ?s0 skos:exactMatch ?s58 .</del></div></td><td colspan="2">&nbsp;</td></tr>
+<tr><td class='diff-marker'> </td><td class='diff-context'><div>}limit 10</div></td><td class='diff-marker'> </td><td class='diff-context'><div>}limit 10</div></td></tr>
+<tr><td class='diff-marker'> </td><td class='diff-context'><div>&lt;/pre&gt;</div></td><td class='diff-marker'> </td><td class='diff-context'><div>&lt;/pre&gt;</div></td></tr>
+</table><hr /><h2>2015年2月13日 (金) 07:58時点における最新版</h2>
+<ul><li> virtuosoと変数の数
+</li><li> 変数作成： <a href="http://dev.togogenome.org/sparql-test" class="external text" rel="nofollow">togogenome(dev)</a> (ver. 07.10.3207)でテスト
+<ul><li> 72まで問題無い、73でStack Overflow
+</li></ul>
+</li></ul>
+<pre>
+select distinct *
+where {
+values&nbsp;?q0 { &quot;0&quot; } values&nbsp;?q1 { &quot;1&quot; } values&nbsp;?q2 { &quot;2&quot; } values&nbsp;?q3 { &quot;3&quot; } values&nbsp;?q4 { &quot;4&quot; }
+values&nbsp;?q5 { &quot;5&quot; } values&nbsp;?q6 { &quot;6&quot; } values&nbsp;?q7 { &quot;7&quot; } values&nbsp;?q8 { &quot;8&quot; } values&nbsp;?q9 { &quot;9&quot; }
+values&nbsp;?q10 { &quot;10&quot; } values&nbsp;?q11 { &quot;11&quot; } values&nbsp;?q12 { &quot;12&quot; } values&nbsp;?q13 { &quot;13&quot; } values&nbsp;?q14 { &quot;14&quot; }
+values&nbsp;?q15 { &quot;15&quot; } values&nbsp;?q16 { &quot;16&quot; } values&nbsp;?q17 { &quot;17&quot; } values&nbsp;?q18 { &quot;18&quot; } values&nbsp;?q19 { &quot;19&quot; }
+values&nbsp;?q20 { &quot;20&quot; } values&nbsp;?q21 { &quot;21&quot; } values&nbsp;?q22 { &quot;22&quot; } values&nbsp;?q23 { &quot;23&quot; } values&nbsp;?q24 { &quot;24&quot; }
+values&nbsp;?q25 { &quot;25&quot; } values&nbsp;?q26 { &quot;26&quot; } values&nbsp;?q27 { &quot;27&quot; } values&nbsp;?q28 { &quot;28&quot; } values&nbsp;?q29 { &quot;29&quot; }
+values&nbsp;?q30 { &quot;30&quot; } values&nbsp;?q31 { &quot;31&quot; } values&nbsp;?q32 { &quot;32&quot; } values&nbsp;?q33 { &quot;33&quot; } values&nbsp;?q34 { &quot;34&quot; }
+values&nbsp;?q35 { &quot;35&quot; } values&nbsp;?q36 { &quot;36&quot; } values&nbsp;?q37 { &quot;37&quot; } values&nbsp;?q38 { &quot;38&quot; } values&nbsp;?q39 { &quot;39&quot; }
+values&nbsp;?q40 { &quot;40&quot; } values&nbsp;?q41 { &quot;41&quot; } values&nbsp;?q42 { &quot;42&quot; } values&nbsp;?q43 { &quot;43&quot; } values&nbsp;?q44 { &quot;44&quot; }
+values&nbsp;?q45 { &quot;45&quot; } values&nbsp;?q46 { &quot;46&quot; } values&nbsp;?q47 { &quot;47&quot; } values&nbsp;?q48 { &quot;48&quot; } values&nbsp;?q49 { &quot;49&quot; }
+values&nbsp;?q50 { &quot;50&quot; } values&nbsp;?q51 { &quot;51&quot; } values&nbsp;?q52 { &quot;52&quot; } values&nbsp;?q53 { &quot;53&quot; } values&nbsp;?q54 { &quot;54&quot; }
+values&nbsp;?q55 { &quot;55&quot; } values&nbsp;?q56 { &quot;56&quot; } values&nbsp;?q57 { &quot;57&quot; } values&nbsp;?q58 { &quot;58&quot; } values&nbsp;?q59 { &quot;59&quot; }
+values&nbsp;?q60 { &quot;60&quot; } values&nbsp;?q61 { &quot;61&quot; } values&nbsp;?q62 { &quot;62&quot; } values&nbsp;?q63 { &quot;63&quot; } values&nbsp;?q64 { &quot;64&quot; }
+values&nbsp;?q65 { &quot;65&quot; } values&nbsp;?q66 { &quot;66&quot; } values&nbsp;?q67 { &quot;67&quot; } values&nbsp;?q68 { &quot;68&quot; } values&nbsp;?q69 { &quot;69&quot; }
+values&nbsp;?q70 { &quot;70&quot; } values&nbsp;?q71 { &quot;71&quot; } values&nbsp;?q72 { &quot;72&quot; }
+#values&nbsp;?q73 { &quot;73&quot; }
+#values&nbsp;?q74 { &quot;74&quot; }
+}
+limit 10
+</pre>
+<ul><li>１回で入れると問題無く、いくらでも入りそう
+</li></ul>
+<pre>
+select distinct *
+where {
+values (?q0&nbsp;?q1&nbsp;?q2&nbsp;?q3&nbsp;?q4&nbsp;?q5&nbsp;?q6&nbsp;?q7&nbsp;?q8&nbsp;?q9&nbsp;?q10&nbsp;?q11&nbsp;?q12&nbsp;?q13&nbsp;?q14&nbsp;?q15
+ ?q16&nbsp;?q17&nbsp;?q18&nbsp;?q19&nbsp;?q20&nbsp;?q21&nbsp;?q22&nbsp;?q23&nbsp;?q24&nbsp;?q25&nbsp;?q26&nbsp;?q27&nbsp;?q28&nbsp;?q29&nbsp;?q30
+ ?q31&nbsp;?q32&nbsp;?q33&nbsp;?q34&nbsp;?q35&nbsp;?q36&nbsp;?q37&nbsp;?q38&nbsp;?q39&nbsp;?q40&nbsp;?q41&nbsp;?q42&nbsp;?q43&nbsp;?q44&nbsp;?q45
+ ?q46&nbsp;?q47&nbsp;?q48&nbsp;?q49&nbsp;?q50&nbsp;?q51&nbsp;?q52&nbsp;?q53&nbsp;?q54&nbsp;?q55&nbsp;?q56&nbsp;?q57&nbsp;?q58&nbsp;?q59&nbsp;?q60
+ ?q61&nbsp;?q62&nbsp;?q63&nbsp;?q64&nbsp;?q65&nbsp;?q66&nbsp;?q67&nbsp;?q68&nbsp;?q69&nbsp;?q70&nbsp;?q71&nbsp;?q72&nbsp;?q73&nbsp;?q74&nbsp;?q75
+ ?q76&nbsp;?q77&nbsp;?q78&nbsp;?q79&nbsp;?q80&nbsp;?q81&nbsp;?q82&nbsp;?q83&nbsp;?q84&nbsp;?q85&nbsp;?q86&nbsp;?q87&nbsp;?q88&nbsp;?q89&nbsp;?q90
+ ?q91&nbsp;?q92&nbsp;?q93&nbsp;?q94&nbsp;?q95&nbsp;?q96&nbsp;?q97&nbsp;?q98)
+ { ( &quot;0&quot; &quot;1&quot; &quot;2&quot; &quot;3&quot; &quot;4&quot; &quot;5&quot; &quot;6&quot; &quot;7&quot; &quot;8&quot; &quot;9&quot; &quot;10&quot; &quot;11&quot; &quot;12&quot; &quot;13&quot; &quot;14&quot; &quot;15&quot; &quot;16&quot;
+ &quot;17&quot; &quot;18&quot; &quot;19&quot; &quot;20&quot; &quot;21&quot; &quot;22&quot; &quot;23&quot; &quot;24&quot; &quot;25&quot; &quot;26&quot; &quot;27&quot; &quot;28&quot; &quot;29&quot; &quot;30&quot; &quot;31&quot; &quot;32&quot;
+ &quot;33&quot; &quot;34&quot; &quot;35&quot; &quot;36&quot; &quot;37&quot; &quot;38&quot; &quot;39&quot; &quot;40&quot; &quot;41&quot; &quot;42&quot; &quot;43&quot; &quot;44&quot; &quot;45&quot; &quot;46&quot; &quot;47&quot; &quot;48&quot;
+ &quot;49&quot; &quot;50&quot; &quot;51&quot; &quot;52&quot; &quot;53&quot; &quot;54&quot; &quot;55&quot; &quot;56&quot; &quot;57&quot; &quot;58&quot; &quot;59&quot; &quot;60&quot; &quot;61&quot; &quot;62&quot; &quot;63&quot; &quot;64&quot;
+ &quot;65&quot; &quot;66&quot; &quot;67&quot; &quot;68&quot; &quot;69&quot; &quot;70&quot; &quot;71&quot; &quot;72&quot; &quot;73&quot; &quot;74&quot; &quot;75&quot; &quot;76&quot; &quot;77&quot; &quot;78&quot; &quot;79&quot; &quot;80&quot;
+ &quot;81&quot; &quot;82&quot; &quot;83&quot; &quot;84&quot; &quot;85&quot; &quot;86&quot; &quot;87&quot; &quot;88&quot; &quot;89&quot; &quot;90&quot; &quot;91&quot; &quot;92&quot; &quot;93&quot; &quot;94&quot; &quot;95&quot; &quot;96&quot;
+ &quot;97&quot; &quot;98&quot;) }
+}
+limit 10
+</pre>
+<ul><li>bindは問題無い
+</li></ul>
+<pre>
+select *
+where {
+ VALUES&nbsp;?s0 { &quot;1&quot; }
+ BIND(?s0 AS&nbsp;?s1) BIND(?s1 AS&nbsp;?s2) BIND(?s2 AS&nbsp;?s3) BIND(?s3 AS&nbsp;?s4) BIND(?s4 AS&nbsp;?s5)
+ BIND(?s5 AS&nbsp;?s6) BIND(?s6 AS&nbsp;?s7) BIND(?s7 AS&nbsp;?s8) BIND(?s8 AS&nbsp;?s9) BIND(?s9 AS&nbsp;?s10)
+ BIND(?s10 AS&nbsp;?s11) BIND(?s11 AS&nbsp;?s12) BIND(?s12 AS&nbsp;?s13) BIND(?s13 AS&nbsp;?s14) BIND(?s14 AS&nbsp;?s15)
+ BIND(?s15 AS&nbsp;?s16) BIND(?s16 AS&nbsp;?s17) BIND(?s17 AS&nbsp;?s18) BIND(?s18 AS&nbsp;?s19) BIND(?s19 AS&nbsp;?s20)
+ BIND(?s20 AS&nbsp;?s21) BIND(?s21 AS&nbsp;?s22) BIND(?s22 AS&nbsp;?s23) BIND(?s23 AS&nbsp;?s24) BIND(?s24 AS&nbsp;?s25)
+ BIND(?s25 AS&nbsp;?s26) BIND(?s26 AS&nbsp;?s27) BIND(?s27 AS&nbsp;?s28) BIND(?s28 AS&nbsp;?s29) BIND(?s29 AS&nbsp;?s30)
+ BIND(?s30 AS&nbsp;?s31) BIND(?s31 AS&nbsp;?s32) BIND(?s32 AS&nbsp;?s33) BIND(?s33 AS&nbsp;?s34) BIND(?s34 AS&nbsp;?s35)
+ BIND(?s35 AS&nbsp;?s36) BIND(?s36 AS&nbsp;?s37) BIND(?s37 AS&nbsp;?s38) BIND(?s38 AS&nbsp;?s39) BIND(?s39 AS&nbsp;?s40)
+ BIND(?s40 AS&nbsp;?s41) BIND(?s41 AS&nbsp;?s42) BIND(?s42 AS&nbsp;?s43) BIND(?s43 AS&nbsp;?s44) BIND(?s44 AS&nbsp;?s45)
+ BIND(?s45 AS&nbsp;?s46) BIND(?s46 AS&nbsp;?s47) BIND(?s47 AS&nbsp;?s48) BIND(?s48 AS&nbsp;?s49) BIND(?s49 AS&nbsp;?s50)
+ BIND(?s50 AS&nbsp;?s51) BIND(?s51 AS&nbsp;?s52) BIND(?s52 AS&nbsp;?s53) BIND(?s53 AS&nbsp;?s54) BIND(?s54 AS&nbsp;?s55)
+ BIND(?s55 AS&nbsp;?s56) BIND(?s56 AS&nbsp;?s57) BIND(?s57 AS&nbsp;?s58) BIND(?s58 AS&nbsp;?s59) BIND(?s59 AS&nbsp;?s60)
+ BIND(?s60 AS&nbsp;?s61) BIND(?s61 AS&nbsp;?s62) BIND(?s62 AS&nbsp;?s63) BIND(?s63 AS&nbsp;?s64) BIND(?s64 AS&nbsp;?s65)
+ BIND(?s65 AS&nbsp;?s66) BIND(?s66 AS&nbsp;?s67) BIND(?s67 AS&nbsp;?s68) BIND(?s68 AS&nbsp;?s69) BIND(?s69 AS&nbsp;?s70)
+ BIND(?s70 AS&nbsp;?s71) BIND(?s71 AS&nbsp;?s72) BIND(?s72 AS&nbsp;?s73) BIND(?s73 AS&nbsp;?s74) BIND(?s74 AS&nbsp;?s75)
+ BIND(?s75 AS&nbsp;?s76) BIND(?s76 AS&nbsp;?s77) BIND(?s77 AS&nbsp;?s78) BIND(?s78 AS&nbsp;?s79) BIND(?s79 AS&nbsp;?s80)
+ BIND(?s80 AS&nbsp;?s81) BIND(?s81 AS&nbsp;?s82) BIND(?s82 AS&nbsp;?s83) BIND(?s83 AS&nbsp;?s84) BIND(?s84 AS&nbsp;?s85)
+ BIND(?s85 AS&nbsp;?s86) BIND(?s86 AS&nbsp;?s87) BIND(?s87 AS&nbsp;?s88) BIND(?s88 AS&nbsp;?s89) BIND(?s89 AS&nbsp;?s90)
+ BIND(?s90 AS&nbsp;?s91) BIND(?s91 AS&nbsp;?s92) BIND(?s92 AS&nbsp;?s93) BIND(?s93 AS&nbsp;?s94) BIND(?s94 AS&nbsp;?s95)
+ BIND(?s95 AS&nbsp;?s96) BIND(?s96 AS&nbsp;?s97) BIND(?s97 AS&nbsp;?s98)
+}
+limit 10
+</pre>
+<ul><li> 直結：75までは問題無い。76でStack Overflow
+</li></ul>
+<pre>
+prefix skos: &lt;http://www.w3.org/2004/02/skos/core#&gt;
+select *
+from &lt;http://togogenome.org/graph/tgup&gt;
+where {
+   &lt;http://togogenome.org/gene/NC_000001:OR4F5&gt; skos:exactMatch&nbsp;?s0 .
+  &nbsp;?s0 ^skos:exactMatch&nbsp;?s1 .  &nbsp;?s1 skos:exactMatch&nbsp;?s2 .  &nbsp;?s2 ^skos:exactMatch&nbsp;?s3 .
+  &nbsp;?s3 skos:exactMatch&nbsp;?s4 .  &nbsp;?s4 ^skos:exactMatch&nbsp;?s5 .  &nbsp;?s5 skos:exactMatch&nbsp;?s6 .
+  &nbsp;?s6 ^skos:exactMatch&nbsp;?s7 .  &nbsp;?s7 skos:exactMatch&nbsp;?s8 .  &nbsp;?s8 ^skos:exactMatch&nbsp;?s9 .
+  &nbsp;?s9 skos:exactMatch&nbsp;?s10 .  &nbsp;?s10 ^skos:exactMatch&nbsp;?s11 .  &nbsp;?s11 skos:exactMatch&nbsp;?s12 .
+  &nbsp;?s12 ^skos:exactMatch&nbsp;?s13 .  &nbsp;?s13 skos:exactMatch&nbsp;?s14 .  &nbsp;?s14 ^skos:exactMatch&nbsp;?s15 .
+  &nbsp;?s15 skos:exactMatch&nbsp;?s16 .  &nbsp;?s16 ^skos:exactMatch&nbsp;?s17 .  &nbsp;?s17 skos:exactMatch&nbsp;?s18 .
+  &nbsp;?s18 ^skos:exactMatch&nbsp;?s19 .  &nbsp;?s19 skos:exactMatch&nbsp;?s20 .  &nbsp;?s20 ^skos:exactMatch&nbsp;?s21 .
+  &nbsp;?s21 skos:exactMatch&nbsp;?s22 .  &nbsp;?s22 ^skos:exactMatch&nbsp;?s23 .  &nbsp;?s23 skos:exactMatch&nbsp;?s24 .
+  &nbsp;?s24 ^skos:exactMatch&nbsp;?s25 .  &nbsp;?s25 skos:exactMatch&nbsp;?s26 .  &nbsp;?s26 ^skos:exactMatch&nbsp;?s27 .
+  &nbsp;?s27 skos:exactMatch&nbsp;?s28 .  &nbsp;?s28 ^skos:exactMatch&nbsp;?s29 .  &nbsp;?s29 skos:exactMatch&nbsp;?s30 .
+  &nbsp;?s30 ^skos:exactMatch&nbsp;?s31 .  &nbsp;?s31 skos:exactMatch&nbsp;?s32 .  &nbsp;?s32 ^skos:exactMatch&nbsp;?s33 .
+  &nbsp;?s33 skos:exactMatch&nbsp;?s34 .  &nbsp;?s34 ^skos:exactMatch&nbsp;?s35 .  &nbsp;?s35 skos:exactMatch&nbsp;?s36 .
+  &nbsp;?s36 ^skos:exactMatch&nbsp;?s37 .  &nbsp;?s37 skos:exactMatch&nbsp;?s38 .  &nbsp;?s38 ^skos:exactMatch&nbsp;?s39 .
+  &nbsp;?s39 skos:exactMatch&nbsp;?s40 .  &nbsp;?s40 ^skos:exactMatch&nbsp;?s41 .  &nbsp;?s41 skos:exactMatch&nbsp;?s42 .
+  &nbsp;?s42 ^skos:exactMatch&nbsp;?s43 .  &nbsp;?s43 skos:exactMatch&nbsp;?s44 .  &nbsp;?s44 ^skos:exactMatch&nbsp;?s45 .
+  &nbsp;?s45 skos:exactMatch&nbsp;?s46 .  &nbsp;?s46 ^skos:exactMatch&nbsp;?s47 .  &nbsp;?s47 skos:exactMatch&nbsp;?s48 .
+  &nbsp;?s48 ^skos:exactMatch&nbsp;?s49 .  &nbsp;?s49 skos:exactMatch&nbsp;?s50 .  &nbsp;?s50 ^skos:exactMatch&nbsp;?s51 .
+  &nbsp;?s51 skos:exactMatch&nbsp;?s52 .  &nbsp;?s52 ^skos:exactMatch&nbsp;?s53 .  &nbsp;?s53 skos:exactMatch&nbsp;?s54 .
+  &nbsp;?s54 ^skos:exactMatch&nbsp;?s55 .  &nbsp;?s55 skos:exactMatch&nbsp;?s56 .  &nbsp;?s56 ^skos:exactMatch&nbsp;?s57 .
+  &nbsp;?s57 skos:exactMatch&nbsp;?s58 .  &nbsp;?s58 ^skos:exactMatch&nbsp;?s59 .  &nbsp;?s59 skos:exactMatch&nbsp;?s60 .
+  &nbsp;?s60 ^skos:exactMatch&nbsp;?s61 .  &nbsp;?s61 skos:exactMatch&nbsp;?s62 .  &nbsp;?s62 ^skos:exactMatch&nbsp;?s63 .
+  &nbsp;?s63 skos:exactMatch&nbsp;?s64 .  &nbsp;?s64 ^skos:exactMatch&nbsp;?s65 .  &nbsp;?s65 skos:exactMatch&nbsp;?s66 .
+  &nbsp;?s66 ^skos:exactMatch&nbsp;?s67 .  &nbsp;?s67 skos:exactMatch&nbsp;?s68 .  &nbsp;?s68 ^skos:exactMatch&nbsp;?s69 .
+  &nbsp;?s69 skos:exactMatch&nbsp;?s70 .  &nbsp;?s70 ^skos:exactMatch&nbsp;?s71 .  &nbsp;?s71 skos:exactMatch&nbsp;?s72 .
+  &nbsp;?s72 ^skos:exactMatch&nbsp;?s73 .  &nbsp;?s73 skos:exactMatch&nbsp;?s74 .  &nbsp;?s74 ^skos:exactMatch&nbsp;?s75 .
+  #&nbsp;?s75 skos:exactMatch&nbsp;?s76 .
+}limit 10
+</pre>
+<div class="printfooter">
+「<a href="http://wiki.lifesciencedb.jp/mw/SPARQLthon29/virtuoso">http://wiki.lifesciencedb.jp/mw/SPARQLthon29/virtuoso</a>」より作成</div>
+		<div id='catlinks' class='catlinks catlinks-allhidden'></div>		<!-- end content -->
+				<div class="visualClear"></div>
+	</div>
+</div></div>
+<div id="column-one">
+	<div id="p-cactions" class="portlet">
+		<h5>表示</h5>
+		<div class="pBody">
+			<ul>
+				 <li id="ca-nstab-main" class="selected"><a href="/mw/SPARQLthon29/virtuoso" title="本文を表示 [c]" accesskey="c">ページ</a></li>
+				 <li id="ca-talk" class="new"><a href="/mw/index.php?title=%E3%83%8E%E3%83%BC%E3%83%88:SPARQLthon29/virtuoso&amp;action=edit&amp;redlink=1" title="記事についての議論 [t]" accesskey="t">議論</a></li>
+				 <li id="ca-viewsource"><a href="/mw/index.php?title=SPARQLthon29/virtuoso&amp;action=edit&amp;oldid=16455" title="このページは保護されています。&#10;ページのソースを閲覧できます。 [e]" accesskey="e">ソースを表示</a></li>
+				 <li id="ca-history"><a href="/mw/index.php?title=SPARQLthon29/virtuoso&amp;action=history" title="このページの過去の版 [h]" accesskey="h">履歴</a></li>
+			</ul>
+		</div>
+	</div>
+	<div class="portlet" id="p-personal">
+		<h5>個人用ツール</h5>
+		<div class="pBody">
+			<ul>
+				<li id="pt-anonuserpage"><a href="/mw/%E5%88%A9%E7%94%A8%E8%80%85:172.18.8.51" title="自分が編集しているIPアドレスの利用者ページ [.]" accesskey="." class="new">172.18.8.51</a></li>
+				<li id="pt-anontalk"><a href="/mw/%E5%88%A9%E7%94%A8%E8%80%85%E2%80%90%E4%BC%9A%E8%A9%B1:172.18.8.51" title="このIPアドレスからなされた編集についての議論 [n]" accesskey="n" class="new">このIPアドレスのトーク</a></li>
+				<li id="pt-anonlogin"><a href="/mw/index.php?title=%E7%89%B9%E5%88%A5:%E3%83%AD%E3%82%B0%E3%82%A4%E3%83%B3&amp;returnto=SPARQLthon29/virtuoso&amp;returntoquery=diff%3Dprev%26oldid%3D16455" title="ログインすることが推奨されます。ただし、必須ではありません。 [o]" accesskey="o">ログイン</a></li>
+				<li id="pt-openidlogin"><a href="/mw/index.php?title=%E7%89%B9%E5%88%A5:OpenID%E3%83%AD%E3%82%B0%E3%82%A4%E3%83%B3&amp;returnto=SPARQLthon29/virtuoso">OpenIDでログイン</a></li>
+			</ul>
+		</div>
+	</div>
+	<div class="portlet" id="p-logo">
+		<a style="background-image: url(/mw/images/togowiki-logo.png);" href="/mw/%E3%83%A1%E3%82%A4%E3%83%B3%E3%83%9A%E3%83%BC%E3%82%B8" title="メインページに移動"></a>
+	</div>
+	<script type="text/javascript"> if (window.isMSIE55) fixalpha(); </script>
+	<div class='generated-sidebar portlet' id='p-navigation'>
+		<h5>案内</h5>
+		<div class='pBody'>
+			<ul>
+				<li id="n-mainpage-description"><a href="/mw/%E3%83%A1%E3%82%A4%E3%83%B3%E3%83%9A%E3%83%BC%E3%82%B8" title="メインページに移動する [z]" accesskey="z">メインページ</a></li>
+				<li id="n-portal"><a href="/mw/TogoWiki:%E3%82%B3%E3%83%9F%E3%83%A5%E3%83%8B%E3%83%86%E3%82%A3%E3%83%BB%E3%83%9D%E3%83%BC%E3%82%BF%E3%83%AB" title="このプロジェクトについて、できること、情報を入手する場所">コミュニティ・ポータル</a></li>
+				<li id="n-currentevents"><a href="/mw/TogoWiki:%E6%9C%80%E8%BF%91%E3%81%AE%E5%87%BA%E6%9D%A5%E4%BA%8B" title="最近の出来事について予備知識を得る">最近の出来事</a></li>
+				<li id="n-recentchanges"><a href="/mw/%E7%89%B9%E5%88%A5:%E6%9C%80%E8%BF%91%E3%81%AE%E6%9B%B4%E6%96%B0" title="ウィキにおける最近の更新の一覧 [r]" accesskey="r">最近の更新</a></li>
+				<li id="n-randompage"><a href="/mw/%E7%89%B9%E5%88%A5:%E3%81%8A%E3%81%BE%E3%81%8B%E3%81%9B%E8%A1%A8%E7%A4%BA" title="無作為に抽出されたページの読み込み [x]" accesskey="x">おまかせ表示</a></li>
+				<li id="n-help"><a href="/mw/Help:%E7%9B%AE%E6%AC%A1" title="情報を得る場所">ヘルプ</a></li>
+			</ul>
+		</div>
+	</div>
+	<div id="p-search" class="portlet">
+		<h5><label for="searchInput">検索</label></h5>
+		<div id="searchBody" class="pBody">
+			<form action="/mw/index.php" id="searchform">
+				<input type='hidden' name="title" value="特別:検索"/>
+				<input id="searchInput" title="TogoWiki内を検索" accesskey="f" type="search" name="search" />
+				<input type='submit' name="go" class="searchButton" id="searchGoButton"	value="表示" title="厳密に一致する名前のページが存在すれば、そのページへ移動します" />&nbsp;
+				<input type='submit' name="fulltext" class="searchButton" id="mw-searchButton" value="検索" title="入力された文字列が含まれるページを検索します" />
+			</form>
+		</div>
+	</div>
+	<div class="portlet" id="p-tb">
+		<h5>ツールボックス</h5>
+		<div class="pBody">
+			<ul>
+				<li id="t-whatlinkshere"><a href="/mw/%E7%89%B9%E5%88%A5:%E3%83%AA%E3%83%B3%E3%82%AF%E5%85%83/SPARQLthon29/virtuoso" title="ここにリンクしている全ウィキのページの一覧 [j]" accesskey="j">リンク元</a></li>
+				<li id="t-recentchangeslinked"><a href="/mw/%E7%89%B9%E5%88%A5:%E9%96%A2%E9%80%A3%E3%83%9A%E3%83%BC%E3%82%B8%E3%81%AE%E6%9B%B4%E6%96%B0%E7%8A%B6%E6%B3%81/SPARQLthon29/virtuoso" title="このページからリンクしているページの最近の更新 [k]" accesskey="k">関連ページの更新状況</a></li>
+<li id="t-specialpages"><a href="/mw/%E7%89%B9%E5%88%A5:%E7%89%B9%E5%88%A5%E3%83%9A%E3%83%BC%E3%82%B8%E4%B8%80%E8%A6%A7" title="特別ページの一覧 [q]" accesskey="q">特別ページ</a></li>
+				<li id="t-print"><a href="/mw/index.php?title=SPARQLthon29/virtuoso&amp;diff=prev&amp;oldid=16455&amp;printable=yes" rel="alternate" title="このページの印刷用ページ [p]" accesskey="p">印刷用バージョン</a></li>				<li id="t-permalink"><a href="/mw/index.php?title=SPARQLthon29/virtuoso&amp;oldid=16455" title="ページのこの版への固定リンク">この版への固定リンク</a></li>			</ul>
+		</div>
+	</div>
+</div><!-- end of the left (by default at least) column -->
+<div class="visualClear"></div>
+<div id="footer">
+	<div id="f-poweredbyico"><a href="http://www.mediawiki.org/"><img src="/mw/skins/common/images/poweredby_mediawiki_88x31.png" height="31" width="88" alt="Powered by MediaWiki" /></a></div>
+	<div id="f-copyrightico"><a href="http://creativecommons.org/licenses/by/3.0/"><img src="http://i.creativecommons.org/l/by/3.0/88x31.png" alt="Attribution 3.0 Unported" width="88" height="31" /></a></div>
+	<ul id="f-list">
+		<li id="lastmod"> このページの最終更新は 2015年2月13日 (金) 07:58 に行われました。</li>
+		<li id="viewcount">このページは6,855回アクセスされました。</li>
+		<li id="copyright">内容は<a href="http://creativecommons.org/licenses/by/3.0/" class="external ">Attribution 3.0 Unported</a>のライセンスで利用することができます。</li>
+		<li id="privacy"><a href="/mw/TogoWiki:%E3%83%97%E3%83%A9%E3%82%A4%E3%83%90%E3%82%B7%E3%83%BC%E3%83%BB%E3%83%9D%E3%83%AA%E3%82%B7%E3%83%BC" title="TogoWiki:プライバシー・ポリシー">プライバシー・ポリシー</a></li>
+		<li id="about"><a href="/mw/TogoWiki:TogoWiki%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6" title="TogoWiki:TogoWikiについて">TogoWikiについて</a></li>
+		<li id="disclaimer"><a href="/mw/TogoWiki:%E5%85%8D%E8%B2%AC%E4%BA%8B%E9%A0%85" title="TogoWiki:免責事項">免責事項</a></li>
+	</ul>
+</div>
+</div>
+
+<script>if (window.runOnloadHook) runOnloadHook();</script>
+<!-- Served in 0.643 secs. --></body></html>
