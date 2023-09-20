@@ -1,12 +1,12 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html lang="ja" dir="ltr">
 <head>
-<title>BH13.13/hierarchy - TogoWiki</title>
+<title>BH13.13/DDBJ/RefGS - TogoWiki</title>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 <meta name="generator" content="MediaWiki 1.16.3" />
 <link rel="shortcut icon" href="/favicon.ico" />
 <link rel="search" type="application/opensearchdescription+xml" href="/mw/opensearch_desc.php" title="TogoWiki (ja)" />
-<link title="Creative Commons" type="application/rdf+xml" href="/mw/index.php?title=BH13.13/hierarchy&amp;action=creativecommons" rel="meta" />
+<link title="Creative Commons" type="application/rdf+xml" href="/mw/index.php?title=BH13.13/DDBJ/RefGS&amp;action=creativecommons" rel="meta" />
 <link rel="copyright" href="http://creativecommons.org/licenses/by/3.0/" />
 <link rel="alternate" type="application/atom+xml" title="TogoWikiのAtomフィード" href="/mw/index.php?title=%E7%89%B9%E5%88%A5:%E6%9C%80%E8%BF%91%E3%81%AE%E6%9B%B4%E6%96%B0&amp;feed=atom" />
 <link rel="stylesheet" href="/mw/skins/common/shared.css?270" media="screen" />
@@ -34,17 +34,17 @@ wgServer="http://wiki.lifesciencedb.jp",
 wgCanonicalNamespace="",
 wgCanonicalSpecialPageName=false,
 wgNamespaceNumber=0,
-wgPageName="BH13.13/hierarchy",
-wgTitle="BH13.13/hierarchy",
+wgPageName="BH13.13/DDBJ/RefGS",
+wgTitle="BH13.13/DDBJ/RefGS",
 wgAction="view",
-wgArticleId=400,
+wgArticleId=360,
 wgIsArticle=true,
 wgUserName=null,
 wgUserGroups=null,
 wgUserLanguage="ja",
 wgContentLanguage="ja",
 wgBreakFrames=false,
-wgCurRevisionId=11974,
+wgCurRevisionId=11046,
 wgVersion="1.16.3",
 wgEnableAPI=true,
 wgEnableWriteAPI=true,
@@ -69,103 +69,58 @@ wgRestrictionMove=[];
 		}
 		</style>
 </head>
-<body class="mediawiki ltr ns-0 ns-subject page-BH13_13_hierarchy skin-monobook">
+<body class="mediawiki ltr ns-0 ns-subject page-BH13_13_DDBJ_RefGS skin-monobook">
 <div id="globalWrapper">
 <div id="column-content"><div id="content" >
 	<a id="top"></a>
 	
-	<h1 id="firstHeading" class="firstHeading">BH13.13/hierarchy</h1>
+	<h1 id="firstHeading" class="firstHeading">BH13.13/DDBJ/RefGS</h1>
 	<div id="bodyContent">
 		<h3 id="siteSub">提供：TogoWiki</h3>
 		<div id="contentSub"></div>
 		<div id="jump-to-nav">移動： <a href="#column-one">案内</a>, <a href="#searchInput">検索</a></div>
 		<!-- start content -->
-<table id="toc" class="toc"><tr><td><div id="toctitle"><h2>目次</h2></div>
-<ul>
-<li class="toclevel-1 tocsection-1"><a href="#.E6.A6.82.E8.A6.81"><span class="tocnumber">1</span> <span class="toctext">概要</span></a></li>
-<li class="toclevel-1 tocsection-2"><a href="#.E7.9B.AE.E7.9A.84"><span class="tocnumber">2</span> <span class="toctext">目的</span></a></li>
-<li class="toclevel-1 tocsection-3"><a href="#.E7.9B.AE.E6.A8.99"><span class="tocnumber">3</span> <span class="toctext">目標</span></a></li>
-<li class="toclevel-1 tocsection-4"><a href="#.E3.83.A1.E3.83.A2"><span class="tocnumber">4</span> <span class="toctext">メモ</span></a></li>
-<li class="toclevel-1 tocsection-5"><a href="#Future_work"><span class="tocnumber">5</span> <span class="toctext">Future work</span></a></li>
-<li class="toclevel-1 tocsection-6"><a href="#.E3.83.A1.E3.83.B3.E3.83.90.E3.83.BC"><span class="tocnumber">6</span> <span class="toctext">メンバー</span></a></li>
-</ul>
-</td></tr></table><script>if (window.showTocToggle) { var tocShowText = "表示"; var tocHideText = "非表示"; showTocToggle(); } </script>
-<h2> <span class="mw-headline" id=".E6.A6.82.E8.A6.81"> 概要 </span></h2>
-<p>病気・薬の階層分類を利用して病気間の距離・薬間の距離のそれぞれを計算できるようにします。このとき，RDFを利用して階層分類を表現します。
-</p><p><br />
+<p><b>RefGS&nbsp;: Reference Genome Suggest</b>
+</p><p><a href="http://tga.nig.ac.jp/refgs/" class="external free" rel="nofollow">http://tga.nig.ac.jp/refgs/</a>
+</p><p>入力された配列、ID (taxonomy, BioSample ID, SRX ID) から、Reference Genome (BioProject ID) を返すサービスです。
+</p><p>活用例 ) 
+DNApod&nbsp;: DNA Polymorphism Annotation Database
+SRAのNGS配列から、マッピングベースでSNPを検出し既知遺伝子構造などのアノテーションを付与したデータベースと解析ワークフロー。
+この中で、マッピングに使用するリファレンスの提案に使用しています。
 </p>
-<h2> <span class="mw-headline" id=".E7.9B.AE.E7.9A.84"> 目的 </span></h2>
-<ul><li> 階層分類（taxonomy）を使ってノード同士の距離（or 類似度）を計算できるようにする
-<ul><li> 例：
-<ul><li> 病気，薬，生物種，単語，…
-</li><li> １型糖尿病と２型糖尿病はどれくらい離れている？
-</li></ul>
-</li><li> 注意：
-<ul><li> 距離の計算方法は他にもいくつかある（共起頻度や文章間の距離を使う，など）
-</li><li> 階層分類を使った病気の距離計算に関する論文はたくさんある（1989年〜）
-</li></ul>
-</li></ul>
-</li></ul>
+<div class="thumb tnone"><div class="thumbinner" style="width:302px;"><a href="/mw/%E3%83%95%E3%82%A1%E3%82%A4%E3%83%AB:DNApod.jpg" class="image"><img alt="DNApod.jpg" src="/mw/images/thumb/9/92/DNApod.jpg/300px-DNApod.jpg" width="300" height="225" class="thumbimage" /></a>  <div class="thumbcaption"><div class="magnify"><a href="/mw/%E3%83%95%E3%82%A1%E3%82%A4%E3%83%AB:DNApod.jpg" class="internal" title="拡大"><img src="/mw/skins/common/images/magnify-clip.png" width="15" height="11" alt="" /></a></div></div></div></div>
 <p><br />
+問題 )
+現在、リファレンスの提案を塩基配列をクエリに、RefSeqから作られたRefGS reference geneデータベースに相当性検索を行うことで
+提案しているのですが、リファレンスをユニークに提案できていない。
+そのため、メタデータ (taxonomy ID, BioSample IDなど) と配列とを使用することで、リファレンスに重み付け (アノテーションが揃っているものなど) をして
+提案できないかと考えている。
+配列からの提案は、ほぼ開発ができている。
+IDからの提案は、未実装。
+そのため、BH13.13では、IDからの提案部分の開発をしたい。
+</p><p>また、Referenceの提案部分のstanzaの作成をすることで、RDF,SPARQL,stanzaの理解を深めたい。
 </p>
-<h2> <span class="mw-headline" id=".E7.9B.AE.E6.A8.99"> 目標 </span></h2>
-<ol><li> 現状を把握する（1月27日）
-</li><li> 階層分類を使って距離を計算できるようにする（1月28〜29日）
-<ul><li> 計算方法はたくさん提案されているが，まずは単純な方法で
-</li></ul>
-</li><li> 主要な階層分類をRDF化する（1月30日〜）
-<ul><li> 病気：<a href="http://ja.wikipedia.org/wiki/疾病及び関連保健問題の国際統計分類" class="external text" rel="nofollow">ICD-10</a> (International Statistical Classification of Diseases and Related Health Problems, 10th Edition)
-<ul><li> WHOによって策定
-</li><li> 世界各国で統計や保険請求などのために用いられている
-</li><li> 4階層
-</li><li> BioPortalにRDFあり -- <a href="http://bioportal.bioontology.org/ontologies/ICD10/" class="external free" rel="nofollow">http://bioportal.bioontology.org/ontologies/ICD10/</a>
-</li></ul>
-</li><li> 薬：<a href="http://ja.wikipedia.org/wiki/医薬品の薬効分類" class="external text" rel="nofollow">薬効分類</a>
-<ul><li> 国内で使用されているすべての処方薬に番号が付与されている
-</li><li> 4階層
-</li></ul>
-</li></ul>
-</li><li> RDFをどこかで公開する（Not yet）
-<ul><li> TogoDB -- <a href="http://togodb.org" class="external free" rel="nofollow">http://togodb.org</a>
-</li><li> 公開は，WHOや厚労省などの権利関係を明らかにしてから
-</li></ul>
-</li></ol>
+<div class="thumb tnone"><div class="thumbinner" style="width:302px;"><a href="/mw/%E3%83%95%E3%82%A1%E3%82%A4%E3%83%AB:RefGS.jpg" class="image"><img alt="RefGS.jpg" src="/mw/images/thumb/5/5b/RefGS.jpg/300px-RefGS.jpg" width="300" height="225" class="thumbimage" /></a>  <div class="thumbcaption"><div class="magnify"><a href="/mw/%E3%83%95%E3%82%A1%E3%82%A4%E3%83%AB:RefGS.jpg" class="internal" title="拡大"><img src="/mw/skins/common/images/magnify-clip.png" width="15" height="11" alt="" /></a></div></div></div></div>
 <p><br />
+やること。
+</p><p>REFストア
+　BioSampleIDの階層情報 ・・・今後taxonomyはspecies単位 までの管理になる？taxonomyの階層情報の拡張版としてstrainレベルでの系統管理ができているデータベースが欲しい。
 </p>
-<h2> <span class="mw-headline" id=".E3.83.A1.E3.83.A2"> メモ </span></h2>
-<ul><li> BioPortalのICD-10で使われている主なpredicate
-<ul><li> skos:prefLabel -- 病名
-</li><li> rdfs:subClassOf -- 上の階層
-</li><li> rdf:type -- すべてowl:Class
-</li><li> skos:notation -- 病気のID（URIの末尾と同じ）
-</li></ul>
-</li></ul>
-<p><br />
+<pre>                                               <a href="http://wiki.lifesciencedb.jp/mw/index.php/BH13.13/TaxID2BioSampleID" class="external text" rel="nofollow">Taxonomy ID から BioSample ID への移行対応</a>のディスカッションに参加
+</pre>
+<p>SPARQL, STANZAの開発
 </p>
-<h2> <span class="mw-headline" id="Future_work"> Future work </span></h2>
-<ul><li> 計算方法の拡充
-</li><li> RDF化する階層分類の拡充
-<ul><li> 病気の分類は，ICD-10に紐付けることができるものに限る（自分の研究の都合上）
-</li></ul>
-</li><li> RDFをTogoDBに登録・公開する
-</li></ul>
-<p><br />
-</p>
-<h2> <span class="mw-headline" id=".E3.83.A1.E3.83.B3.E3.83.90.E3.83.BC"> メンバー </span></h2>
-<ul><li> 森田瑞樹（東京大学，mizuki@sict.i.u-tokyo.ac.jp）
-</li></ul>
-
 <!-- 
 NewPP limit report
-Preprocessor node count: 22/1000000
+Preprocessor node count: 1/1000000
 Post-expand include size: 0/2097152 bytes
 Template argument size: 0/2097152 bytes
 Expensive parser function count: 0/100
 -->
 
-<!-- Saved in parser cache with key wikidb-togowiki_:pcache:idhash:400-0!1!0!!ja!2!edit=0 and timestamp 20230604131224 -->
+<!-- Saved in parser cache with key wikidb-togowiki_:pcache:idhash:360-0!1!0!!ja!2!edit=0 and timestamp 20230808051946 -->
 <div class="printfooter">
-「<a href="http://wiki.lifesciencedb.jp/mw/BH13.13/hierarchy">http://wiki.lifesciencedb.jp/mw/BH13.13/hierarchy</a>」より作成</div>
+「<a href="http://wiki.lifesciencedb.jp/mw/BH13.13/DDBJ/RefGS">http://wiki.lifesciencedb.jp/mw/BH13.13/DDBJ/RefGS</a>」より作成</div>
 		<div id='catlinks' class='catlinks catlinks-allhidden'></div>		<!-- end content -->
 				<div class="visualClear"></div>
 	</div>
@@ -175,10 +130,10 @@ Expensive parser function count: 0/100
 		<h5>表示</h5>
 		<div class="pBody">
 			<ul>
-				 <li id="ca-nstab-main" class="selected"><a href="/mw/BH13.13/hierarchy" title="本文を表示 [c]" accesskey="c">ページ</a></li>
-				 <li id="ca-talk" class="new"><a href="/mw/index.php?title=%E3%83%8E%E3%83%BC%E3%83%88:BH13.13/hierarchy&amp;action=edit&amp;redlink=1" title="記事についての議論 [t]" accesskey="t">議論</a></li>
-				 <li id="ca-viewsource"><a href="/mw/index.php?title=BH13.13/hierarchy&amp;action=edit" title="このページは保護されています。&#10;ページのソースを閲覧できます。 [e]" accesskey="e">ソースを表示</a></li>
-				 <li id="ca-history"><a href="/mw/index.php?title=BH13.13/hierarchy&amp;action=history" title="このページの過去の版 [h]" accesskey="h">履歴</a></li>
+				 <li id="ca-nstab-main" class="selected"><a href="/mw/BH13.13/DDBJ/RefGS" title="本文を表示 [c]" accesskey="c">ページ</a></li>
+				 <li id="ca-talk" class="new"><a href="/mw/index.php?title=%E3%83%8E%E3%83%BC%E3%83%88:BH13.13/DDBJ/RefGS&amp;action=edit&amp;redlink=1" title="記事についての議論 [t]" accesskey="t">議論</a></li>
+				 <li id="ca-viewsource"><a href="/mw/index.php?title=BH13.13/DDBJ/RefGS&amp;action=edit" title="このページは保護されています。&#10;ページのソースを閲覧できます。 [e]" accesskey="e">ソースを表示</a></li>
+				 <li id="ca-history"><a href="/mw/index.php?title=BH13.13/DDBJ/RefGS&amp;action=history" title="このページの過去の版 [h]" accesskey="h">履歴</a></li>
 			</ul>
 		</div>
 	</div>
@@ -188,8 +143,8 @@ Expensive parser function count: 0/100
 			<ul>
 				<li id="pt-anonuserpage"><a href="/mw/%E5%88%A9%E7%94%A8%E8%80%85:172.18.8.51" title="自分が編集しているIPアドレスの利用者ページ [.]" accesskey="." class="new">172.18.8.51</a></li>
 				<li id="pt-anontalk"><a href="/mw/%E5%88%A9%E7%94%A8%E8%80%85%E2%80%90%E4%BC%9A%E8%A9%B1:172.18.8.51" title="このIPアドレスからなされた編集についての議論 [n]" accesskey="n" class="new">このIPアドレスのトーク</a></li>
-				<li id="pt-anonlogin"><a href="/mw/index.php?title=%E7%89%B9%E5%88%A5:%E3%83%AD%E3%82%B0%E3%82%A4%E3%83%B3&amp;returnto=BH13.13/hierarchy" title="ログインすることが推奨されます。ただし、必須ではありません。 [o]" accesskey="o">ログイン</a></li>
-				<li id="pt-openidlogin"><a href="/mw/index.php?title=%E7%89%B9%E5%88%A5:OpenID%E3%83%AD%E3%82%B0%E3%82%A4%E3%83%B3&amp;returnto=BH13.13/hierarchy">OpenIDでログイン</a></li>
+				<li id="pt-anonlogin"><a href="/mw/index.php?title=%E7%89%B9%E5%88%A5:%E3%83%AD%E3%82%B0%E3%82%A4%E3%83%B3&amp;returnto=BH13.13/DDBJ/RefGS" title="ログインすることが推奨されます。ただし、必須ではありません。 [o]" accesskey="o">ログイン</a></li>
+				<li id="pt-openidlogin"><a href="/mw/index.php?title=%E7%89%B9%E5%88%A5:OpenID%E3%83%AD%E3%82%B0%E3%82%A4%E3%83%B3&amp;returnto=BH13.13/DDBJ/RefGS">OpenIDでログイン</a></li>
 			</ul>
 		</div>
 	</div>
@@ -225,10 +180,10 @@ Expensive parser function count: 0/100
 		<h5>ツールボックス</h5>
 		<div class="pBody">
 			<ul>
-				<li id="t-whatlinkshere"><a href="/mw/%E7%89%B9%E5%88%A5:%E3%83%AA%E3%83%B3%E3%82%AF%E5%85%83/BH13.13/hierarchy" title="ここにリンクしている全ウィキのページの一覧 [j]" accesskey="j">リンク元</a></li>
-				<li id="t-recentchangeslinked"><a href="/mw/%E7%89%B9%E5%88%A5:%E9%96%A2%E9%80%A3%E3%83%9A%E3%83%BC%E3%82%B8%E3%81%AE%E6%9B%B4%E6%96%B0%E7%8A%B6%E6%B3%81/BH13.13/hierarchy" title="このページからリンクしているページの最近の更新 [k]" accesskey="k">関連ページの更新状況</a></li>
+				<li id="t-whatlinkshere"><a href="/mw/%E7%89%B9%E5%88%A5:%E3%83%AA%E3%83%B3%E3%82%AF%E5%85%83/BH13.13/DDBJ/RefGS" title="ここにリンクしている全ウィキのページの一覧 [j]" accesskey="j">リンク元</a></li>
+				<li id="t-recentchangeslinked"><a href="/mw/%E7%89%B9%E5%88%A5:%E9%96%A2%E9%80%A3%E3%83%9A%E3%83%BC%E3%82%B8%E3%81%AE%E6%9B%B4%E6%96%B0%E7%8A%B6%E6%B3%81/BH13.13/DDBJ/RefGS" title="このページからリンクしているページの最近の更新 [k]" accesskey="k">関連ページの更新状況</a></li>
 <li id="t-specialpages"><a href="/mw/%E7%89%B9%E5%88%A5:%E7%89%B9%E5%88%A5%E3%83%9A%E3%83%BC%E3%82%B8%E4%B8%80%E8%A6%A7" title="特別ページの一覧 [q]" accesskey="q">特別ページ</a></li>
-				<li id="t-print"><a href="/mw/index.php?title=BH13.13/hierarchy&amp;printable=yes" rel="alternate" title="このページの印刷用ページ [p]" accesskey="p">印刷用バージョン</a></li>				<li id="t-permalink"><a href="/mw/index.php?title=BH13.13/hierarchy&amp;oldid=11974" title="ページのこの版への固定リンク">この版への固定リンク</a></li>			</ul>
+				<li id="t-print"><a href="/mw/index.php?title=BH13.13/DDBJ/RefGS&amp;printable=yes" rel="alternate" title="このページの印刷用ページ [p]" accesskey="p">印刷用バージョン</a></li>				<li id="t-permalink"><a href="/mw/index.php?title=BH13.13/DDBJ/RefGS&amp;oldid=11046" title="ページのこの版への固定リンク">この版への固定リンク</a></li>			</ul>
 		</div>
 	</div>
 </div><!-- end of the left (by default at least) column -->
@@ -237,8 +192,8 @@ Expensive parser function count: 0/100
 	<div id="f-poweredbyico"><a href="http://www.mediawiki.org/"><img src="/mw/skins/common/images/poweredby_mediawiki_88x31.png" height="31" width="88" alt="Powered by MediaWiki" /></a></div>
 	<div id="f-copyrightico"><a href="http://creativecommons.org/licenses/by/3.0/"><img src="http://i.creativecommons.org/l/by/3.0/88x31.png" alt="Attribution 3.0 Unported" width="88" height="31" /></a></div>
 	<ul id="f-list">
-		<li id="lastmod"> このページの最終更新は 2014年1月31日 (金) 02:53 に行われました。</li>
-		<li id="viewcount">このページは5,077回アクセスされました。</li>
+		<li id="lastmod"> このページの最終更新は 2014年1月21日 (火) 10:32 に行われました。</li>
+		<li id="viewcount">このページは3,516回アクセスされました。</li>
 		<li id="copyright">内容は<a href="http://creativecommons.org/licenses/by/3.0/" class="external ">Attribution 3.0 Unported</a>のライセンスで利用することができます。</li>
 		<li id="privacy"><a href="/mw/TogoWiki:%E3%83%97%E3%83%A9%E3%82%A4%E3%83%90%E3%82%B7%E3%83%BC%E3%83%BB%E3%83%9D%E3%83%AA%E3%82%B7%E3%83%BC" title="TogoWiki:プライバシー・ポリシー">プライバシー・ポリシー</a></li>
 		<li id="about"><a href="/mw/TogoWiki:TogoWiki%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6" title="TogoWiki:TogoWikiについて">TogoWikiについて</a></li>
@@ -248,4 +203,4 @@ Expensive parser function count: 0/100
 </div>
 
 <script>if (window.runOnloadHook) runOnloadHook();</script>
-<!-- Served in 0.382 secs. --></body></html>
+<!-- Served in 0.428 secs. --></body></html>

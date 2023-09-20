@@ -11,3 +11,12 @@
 		<dc:identifier>http://wiki.lifesciencedb.jp/mw/BH14.14/Docker</dc:identifier>
 		<dc:date>2015-02-06</dc:date>
 		<dc:creator>TogoWikiの利用者：Dogrunjp</dc:creator>
+		<dc:contributor>TogoWikiの利用者：Bono</dc:contributor>
+		<dc:contributor>TogoWikiの利用者：Hono</dc:contributor>
+		<dc:contributor>TogoWikiの利用者：Howl78 ikeda</dc:contributor>
+		<dc:contributor>TogoWikiの利用者：Nakazato</dc:contributor>
+		<dc:contributor rdf:resource="http://wiki.lifesciencedb.jp/mw/%E5%88%A9%E7%94%A8%E8%80%85:Tazro_inutano_ohta" />
+		<dc:rights rdf:resource="http://creativecommons.org/licenses/by/3.0/" />
+		<cc:license rdf:resource="http://creativecommons.org/licenses/by/3.0/" />
+	</cc:Work>
+</rdf:RDF>

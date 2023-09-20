@@ -172,7 +172,7 @@ Template argument size: 0/2097152 bytes
 Expensive parser function count: 0/100
 -->
 
-<!-- Saved in parser cache with key wikidb-togowiki_:pcache:idhash:881-0!1!0!!ja!2!edit=0!printable=1 and timestamp 20230604030458 -->
+<!-- Saved in parser cache with key wikidb-togowiki_:pcache:idhash:881-0!1!0!!ja!2!edit=0!printable=1 and timestamp 20230808052043 -->
 <div class="printfooter">
 「<a href="http://wiki.lifesciencedb.jp/mw/RDF-Tutorial3">http://wiki.lifesciencedb.jp/mw/RDF-Tutorial3</a>」より作成</div>
 		<div id='catlinks' class='catlinks catlinks-allhidden'></div>		<!-- end content -->
@@ -255,4 +255,4 @@ Expensive parser function count: 0/100
 </div>
 
 <script>if (window.runOnloadHook) runOnloadHook();</script>
-<!-- Served in 0.797 secs. --></body></html>
+<!-- Served in 0.639 secs. --></body></html>

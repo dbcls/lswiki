@@ -11,3 +11,26 @@
 		<dc:identifier>http://wiki.lifesciencedb.jp/mw/BH12.12</dc:identifier>
 		<dc:date>2014-01-31</dc:date>
 		<dc:creator>TogoWikiの利用者：Ktym</dc:creator>
+		<dc:contributor>TogoWikiの利用者：Chi</dc:contributor>
+		<dc:contributor>TogoWikiの利用者：Katsu</dc:contributor>
+		<dc:contributor>澤木弘道</dc:contributor>
+		<dc:contributor>TogoWikiの利用者：Keybot</dc:contributor>
+		<dc:contributor>TogoWikiの利用者：H-mori</dc:contributor>
+		<dc:contributor>@meso_cacase</dc:contributor>
+		<dc:contributor>TogoWikiの利用者：Synobu</dc:contributor>
+		<dc:contributor>TogoWikiの利用者：Issaku</dc:contributor>
+		<dc:contributor>TogoWikiの利用者：Kaminuma</dc:contributor>
+		<dc:contributor rdf:resource="http://wiki.lifesciencedb.jp/mw/%E5%88%A9%E7%94%A8%E8%80%85:Tazro_inutano_ohta" />
+		<dc:contributor>TogoWikiの利用者：Wintermelon</dc:contributor>
+		<dc:contributor>TogoWikiの利用者：Shuichi</dc:contributor>
+		<dc:contributor>TogoWikiの利用者：Fumi</dc:contributor>
+		<dc:contributor rdf:resource="http://wiki.lifesciencedb.jp/mw/%E5%88%A9%E7%94%A8%E8%80%85:Tfuji" />
+		<dc:contributor>TogoWikiの利用者：Orenodbcls</dc:contributor>
+		<dc:contributor>Mitsuteru Nakao</dc:contributor>
+		<dc:contributor>TogoWikiの利用者：Ykomiyama</dc:contributor>
+		<dc:contributor>TogoWikiの利用者：Iwasaki</dc:contributor>
+		<dc:contributor>TogoWikiの利用者：Atsuko</dc:contributor>
+		<dc:rights rdf:resource="http://creativecommons.org/licenses/by/3.0/" />
+		<cc:license rdf:resource="http://creativecommons.org/licenses/by/3.0/" />
+	</cc:Work>
+</rdf:RDF>

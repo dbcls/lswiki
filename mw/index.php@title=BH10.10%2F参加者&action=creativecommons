@@ -11,3 +11,8 @@
 		<dc:identifier>http://wiki.lifesciencedb.jp/mw/BH10.10/%E5%8F%82%E5%8A%A0%E8%80%85</dc:identifier>
 		<dc:date>2010-10-28</dc:date>
 		<dc:creator>TogoWikiの利用者：Gaou</dc:creator>
+		<dc:contributor>Mitsuteru Nakao</dc:contributor>
+		<dc:rights rdf:resource="http://creativecommons.org/licenses/by/3.0/" />
+		<cc:license rdf:resource="http://creativecommons.org/licenses/by/3.0/" />
+	</cc:Work>
+</rdf:RDF>

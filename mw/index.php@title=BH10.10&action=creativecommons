@@ -11,3 +11,19 @@
 		<dc:identifier>http://wiki.lifesciencedb.jp/mw/BH10.10</dc:identifier>
 		<dc:date>2010-11-04</dc:date>
 		<dc:creator>TogoWikiの利用者：Ktym</dc:creator>
+		<dc:contributor>Mitsuteru Nakao</dc:contributor>
+		<dc:contributor>TogoWikiの利用者：Nishida</dc:contributor>
+		<dc:contributor>TogoWikiの利用者：Ngoto</dc:contributor>
+		<dc:contributor>TogoWikiの利用者：Ma ko</dc:contributor>
+		<dc:contributor>TogoWikiの利用者：Shuichi</dc:contributor>
+		<dc:contributor>TogoWikiの利用者：Synobu</dc:contributor>
+		<dc:contributor>Yasunori Yamamoto</dc:contributor>
+		<dc:contributor>TogoWikiの利用者：Bp3d</dc:contributor>
+		<dc:contributor>TogoWikiの利用者：Sugi</dc:contributor>
+		<dc:contributor>Kenta Oouchida</dc:contributor>
+		<dc:contributor>TogoWikiの利用者：WikiSysop</dc:contributor>
+		<dc:contributor>TogoWikiの匿名利用者</dc:contributor>
+		<dc:rights rdf:resource="http://creativecommons.org/licenses/by/3.0/" />
+		<cc:license rdf:resource="http://creativecommons.org/licenses/by/3.0/" />
+	</cc:Work>
+</rdf:RDF>

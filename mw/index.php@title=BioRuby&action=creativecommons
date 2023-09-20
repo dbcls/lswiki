@@ -11,3 +11,11 @@
 		<dc:identifier>http://wiki.lifesciencedb.jp/mw/BioRuby</dc:identifier>
 		<dc:date>2010-10-22</dc:date>
 		<dc:creator>TogoWikiの利用者：Tomoaki</dc:creator>
+		<dc:contributor>TogoWikiの利用者：Ngoto</dc:contributor>
+		<dc:contributor>TogoWikiの利用者：Ktym</dc:contributor>
+		<dc:contributor>Mitsuteru Nakao</dc:contributor>
+		<dc:contributor>TogoWikiの利用者：Nshota</dc:contributor>
+		<dc:rights rdf:resource="http://creativecommons.org/licenses/by/3.0/" />
+		<cc:license rdf:resource="http://creativecommons.org/licenses/by/3.0/" />
+	</cc:Work>
+</rdf:RDF>

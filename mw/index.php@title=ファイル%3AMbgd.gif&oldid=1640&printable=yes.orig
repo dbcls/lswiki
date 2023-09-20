@@ -90,7 +90,7 @@ Template argument size: 0/2097152 bytes
 Expensive parser function count: 0/100
 -->
 
-<!-- Saved in parser cache with key wikidb-togowiki_:pcache:idhash:129-0!1!0!!ja!2!edit=0!printable=1 and timestamp 20230605054637 -->
+<!-- Saved in parser cache with key wikidb-togowiki_:pcache:idhash:129-0!1!0!!ja!2!edit=0!printable=1 and timestamp 20230808095308 -->
 <h2 id="filehistory">ファイルの履歴</h2>
 <div id="mw-imagepage-section-filehistory">
 <p>過去の版のファイルを表示するには、表示したい版の日付/時刻をクリックしてください。
@@ -98,12 +98,10 @@ Expensive parser function count: 0/100
 <table class="wikitable filehistory">
 <tr><td></td><th>日付/時刻</th><th>サムネイル</th><th>解像度</th><th>利用者</th><th>コメント</th></tr>
 <tr><td>現在の版</td><td class='filehistory-selected' style='white-space: nowrap;'><a href="/mw/images/1/1f/Mbgd.gif">2011年11月24日 (木) 09:24</a></td><td><a href="/mw/images/1/1f/Mbgd.gif"><img alt="2011年11月24日 (木) 09:24時点における版のサムネイル" src="/mw/images/thumb/1/1f/Mbgd.gif/92px-Mbgd.gif" width="92" height="120" /></a></td><td>836×1,090 <span style='white-space: nowrap;'>(103キロバイト)</span></td><td><a href="/mw/%E5%88%A9%E7%94%A8%E8%80%85:Tfuji" title="利用者:Tfuji" class="mw-userlink">Tfuji</a> <span style='white-space: nowrap;'> <span class="mw-usertoollinks">(<a href="/mw/index.php?title=%E5%88%A9%E7%94%A8%E8%80%85%E2%80%90%E4%BC%9A%E8%A9%B1:Tfuji&amp;action=edit&amp;redlink=1" class="new" title="利用者‐会話:Tfuji（存在しないページ）">トーク</a> | <a href="/mw/%E7%89%B9%E5%88%A5:%E6%8A%95%E7%A8%BF%E8%A8%98%E9%8C%B2/Tfuji" title="特別:投稿記録/Tfuji">投稿記録</a>)</span></span></td><td></td></tr>
-<tr><td></td><td  style='white-space: nowrap;'><a href="/mw/images/archive/1/1f/20111124092436%21Mbgd.gif">2011年11月24日 (木) 09:00</a></td><td><table class="MediaTransformError" style="width: 92px; height: 120px;"><tr><td>サムネイルの作成中にエラーが発生しました：convert: memory allocation failed `/opt/services/wiki/htdocs/mw/images/archive/1/1f/20111124092436!Mbgd.gif' @ error/gif.c/ReadGIFImage/1284.<br />
-convert: no images defined `/opt/services/wiki/htdocs/mw/images/thumb/archive/1/1f/20111124092436!Mbgd.gif/92px-Mbgd.gif' @ error/convert.c/ConvertImageCommand/3187.<br />
-</td></tr></table></td><td>1,672×2,179 <span style='white-space: nowrap;'>(208キロバイト)</span></td><td><a href="/mw/%E5%88%A9%E7%94%A8%E8%80%85:Tfuji" title="利用者:Tfuji" class="mw-userlink">Tfuji</a> <span style='white-space: nowrap;'> <span class="mw-usertoollinks">(<a href="/mw/index.php?title=%E5%88%A9%E7%94%A8%E8%80%85%E2%80%90%E4%BC%9A%E8%A9%B1:Tfuji&amp;action=edit&amp;redlink=1" class="new" title="利用者‐会話:Tfuji（存在しないページ）">トーク</a> | <a href="/mw/%E7%89%B9%E5%88%A5:%E6%8A%95%E7%A8%BF%E8%A8%98%E9%8C%B2/Tfuji" title="特別:投稿記録/Tfuji">投稿記録</a>)</span></span></td><td></td></tr>
+<tr><td></td><td  style='white-space: nowrap;'><a href="/mw/images/archive/1/1f/20111124092436%21Mbgd.gif">2011年11月24日 (木) 09:00</a></td><td><table class="MediaTransformError" style="width: 92px; height: 120px;"><tr><td>サムネイルの作成中にエラーが発生しました：</td></tr></table></td><td>1,672×2,179 <span style='white-space: nowrap;'>(208キロバイト)</span></td><td><a href="/mw/%E5%88%A9%E7%94%A8%E8%80%85:Tfuji" title="利用者:Tfuji" class="mw-userlink">Tfuji</a> <span style='white-space: nowrap;'> <span class="mw-usertoollinks">(<a href="/mw/index.php?title=%E5%88%A9%E7%94%A8%E8%80%85%E2%80%90%E4%BC%9A%E8%A9%B1:Tfuji&amp;action=edit&amp;redlink=1" class="new" title="利用者‐会話:Tfuji（存在しないページ）">トーク</a> | <a href="/mw/%E7%89%B9%E5%88%A5:%E6%8A%95%E7%A8%BF%E8%A8%98%E9%8C%B2/Tfuji" title="特別:投稿記録/Tfuji">投稿記録</a>)</span></span></td><td></td></tr>
 <tr><td></td><td  style='white-space: nowrap;'><a href="/mw/images/archive/1/1f/20111124090036%21Mbgd.gif">2011年11月24日 (木) 07:39</a></td><td><a href="/mw/images/archive/1/1f/20111124090036%21Mbgd.gif"><img alt="2011年11月24日 (木) 07:39時点における版のサムネイル" src="/mw/images/thumb/archive/1/1f/20111124090036%21Mbgd.gif/105px-Mbgd.gif" width="105" height="120" /></a></td><td>955×1,089 <span style='white-space: nowrap;'>(105キロバイト)</span></td><td><a href="/mw/%E5%88%A9%E7%94%A8%E8%80%85:Tfuji" title="利用者:Tfuji" class="mw-userlink">Tfuji</a> <span style='white-space: nowrap;'> <span class="mw-usertoollinks">(<a href="/mw/index.php?title=%E5%88%A9%E7%94%A8%E8%80%85%E2%80%90%E4%BC%9A%E8%A9%B1:Tfuji&amp;action=edit&amp;redlink=1" class="new" title="利用者‐会話:Tfuji（存在しないページ）">トーク</a> | <a href="/mw/%E7%89%B9%E5%88%A5:%E6%8A%95%E7%A8%BF%E8%A8%98%E9%8C%B2/Tfuji" title="特別:投稿記録/Tfuji">投稿記録</a>)</span></span></td><td></td></tr>
-<tr><td></td><td  style='white-space: nowrap;'><a href="/mw/images/archive/1/1f/20111124073918%21Mbgd.gif">2011年11月24日 (木) 07:37</a></td><td><table class="MediaTransformError" style="width: 105px; height: 120px;"><tr><td>サムネイルの作成中にエラーが発生しました：convert: memory allocation failed `/opt/services/wiki/htdocs/mw/images/archive/1/1f/20111124073918!Mbgd.gif' @ error/gif.c/ReadGIFImage/1284.<br />
-convert: no images defined `/opt/services/wiki/htdocs/mw/images/thumb/archive/1/1f/20111124073918!Mbgd.gif/105px-Mbgd.gif' @ error/convert.c/ConvertImageCommand/3187.<br />
+<tr><td></td><td  style='white-space: nowrap;'><a href="/mw/images/archive/1/1f/20111124073918%21Mbgd.gif">2011年11月24日 (木) 07:37</a></td><td><table class="MediaTransformError" style="width: 105px; height: 120px;"><tr><td>サムネイルの作成中にエラーが発生しました：<br />
+libgomp: Thread creation failed: Resource temporarily unavailable<br />
 </td></tr></table></td><td>1,909×2,177 <span style='white-space: nowrap;'>(207キロバイト)</span></td><td><a href="/mw/%E5%88%A9%E7%94%A8%E8%80%85:Tfuji" title="利用者:Tfuji" class="mw-userlink">Tfuji</a> <span style='white-space: nowrap;'> <span class="mw-usertoollinks">(<a href="/mw/index.php?title=%E5%88%A9%E7%94%A8%E8%80%85%E2%80%90%E4%BC%9A%E8%A9%B1:Tfuji&amp;action=edit&amp;redlink=1" class="new" title="利用者‐会話:Tfuji（存在しないページ）">トーク</a> | <a href="/mw/%E7%89%B9%E5%88%A5:%E6%8A%95%E7%A8%BF%E8%A8%98%E9%8C%B2/Tfuji" title="特別:投稿記録/Tfuji">投稿記録</a>)</span></span></td><td></td></tr>
 </table>
 
@@ -200,4 +198,4 @@ convert: no images defined `/opt/services/wiki/htdocs/mw/images/thumb/archive/1/
 </div>
 
 <script>if (window.runOnloadHook) runOnloadHook();</script>
-<!-- Served in 1.015 secs. --></body></html>
+<!-- Served in 1.813 secs. --></body></html>

@@ -11,3 +11,7 @@
 		<dc:identifier>http://wiki.lifesciencedb.jp/mw/%EF%BC%91%E3%81%A4%E3%81%AEGRAPH%E3%82%92%E3%83%80%E3%83%B3%E3%83%97%E3%81%99%E3%82%8B%E6%96%B9%E6%B3%95</dc:identifier>
 		<dc:date>2015-07-16</dc:date>
 		<dc:creator>TogoWikiの利用者：Tk-tk</dc:creator>
+		<dc:rights rdf:resource="http://creativecommons.org/licenses/by/3.0/" />
+		<cc:license rdf:resource="http://creativecommons.org/licenses/by/3.0/" />
+	</cc:Work>
+</rdf:RDF>

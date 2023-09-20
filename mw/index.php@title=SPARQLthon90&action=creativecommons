@@ -11,3 +11,29 @@
 		<dc:identifier>http://wiki.lifesciencedb.jp/mw/SPARQLthon90</dc:identifier>
 		<dc:date>2020-04-22</dc:date>
 		<dc:creator>TogoWikiの利用者：Dsatoh</dc:creator>
+		<dc:contributor>TogoWikiの利用者：Uki moriya</dc:contributor>
+		<dc:contributor>TogoWikiの利用者：Ktym</dc:contributor>
+		<dc:contributor>TogoWikiの利用者：Masuya</dc:contributor>
+		<dc:contributor>TogoWikiの利用者：Kushidat</dc:contributor>
+		<dc:contributor>TogoWikiの利用者：Dogrunjp</dc:contributor>
+		<dc:contributor>TogoWikiの利用者：Yokookbp</dc:contributor>
+		<dc:contributor>TogoWikiの利用者：Wakaguri</dc:contributor>
+		<dc:contributor rdf:resource="http://wiki.lifesciencedb.jp/mw/%E5%88%A9%E7%94%A8%E8%80%85:Tazro_inutano_ohta" />
+		<dc:contributor>TogoWikiの利用者：Penqe</dc:contributor>
+		<dc:contributor>TogoWikiの利用者：Chi</dc:contributor>
+		<dc:contributor>TogoWikiの利用者：Acyshzw</dc:contributor>
+		<dc:contributor>TogoWikiの利用者：Satstnka</dc:contributor>
+		<dc:contributor rdf:resource="http://wiki.lifesciencedb.jp/mw/%E5%88%A9%E7%94%A8%E8%80%85:Tfuji" />
+		<dc:contributor>TogoWikiの利用者：Atsuko</dc:contributor>
+		<dc:contributor>TogoWikiの利用者：仁宮</dc:contributor>
+		<dc:contributor>TogoWikiの利用者：Fujiwara</dc:contributor>
+		<dc:contributor>TogoWikiの利用者：Catlover</dc:contributor>
+		<dc:contributor>TogoWikiの利用者：Hideki</dc:contributor>
+		<dc:contributor>TogoWikiの利用者：Reika0717</dc:contributor>
+		<dc:contributor>TAKATSUKI Terue</dc:contributor>
+		<dc:contributor>TogoWikiの利用者：Hono</dc:contributor>
+		<dc:contributor>@meso_cacase</dc:contributor>
+		<dc:rights rdf:resource="http://creativecommons.org/licenses/by/3.0/" />
+		<cc:license rdf:resource="http://creativecommons.org/licenses/by/3.0/" />
+	</cc:Work>
+</rdf:RDF>

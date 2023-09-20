@@ -11,3 +11,11 @@
 		<dc:identifier>http://wiki.lifesciencedb.jp/mw/RDF-Tutorial3</dc:identifier>
 		<dc:date>2018-12-20</dc:date>
 		<dc:creator>TogoWikiの利用者：Nakazato</dc:creator>
+		<dc:contributor>Yasunori Yamamoto</dc:contributor>
+		<dc:contributor>TogoWikiの利用者：Shuichi</dc:contributor>
+		<dc:contributor>TogoWikiの利用者：Yokookbp</dc:contributor>
+		<dc:contributor>TogoWikiの利用者：Ktym</dc:contributor>
+		<dc:rights rdf:resource="http://creativecommons.org/licenses/by/3.0/" />
+		<cc:license rdf:resource="http://creativecommons.org/licenses/by/3.0/" />
+	</cc:Work>
+</rdf:RDF>

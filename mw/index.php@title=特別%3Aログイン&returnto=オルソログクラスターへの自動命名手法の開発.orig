@@ -115,7 +115,7 @@ wgRestrictionMove=[];
 			</td>
 		</tr>
 	</table>
-<input type="hidden" name="wpLoginToken" value="bce4609152b7b0198e903bd701926e86" /></form>
+<input type="hidden" name="wpLoginToken" value="3bec198c43b5f5b5431acbdfdeb57d79" /></form>
 </div>
 <div id="loginend"></div>
 <div class="printfooter">
@@ -194,4 +194,4 @@ wgRestrictionMove=[];
 </div>
 
 <script>if (window.runOnloadHook) runOnloadHook();</script>
-<!-- Served in 0.679 secs. --></body></html>
+<!-- Served in 0.580 secs. --></body></html>

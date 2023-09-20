@@ -11,3 +11,9 @@
 		<dc:identifier>http://wiki.lifesciencedb.jp/mw/BH12.12/SPARQLthon/NBRCMedium</dc:identifier>
 		<dc:date>2012-10-31</dc:date>
 		<dc:creator>TogoWikiの利用者：Shuichi</dc:creator>
+		<dc:contributor>TogoWikiの利用者：Synobu</dc:contributor>
+		<dc:contributor rdf:resource="http://wiki.lifesciencedb.jp/mw/%E5%88%A9%E7%94%A8%E8%80%85:Tfuji" />
+		<dc:rights rdf:resource="http://creativecommons.org/licenses/by/3.0/" />
+		<cc:license rdf:resource="http://creativecommons.org/licenses/by/3.0/" />
+	</cc:Work>
+</rdf:RDF>

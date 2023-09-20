@@ -11,3 +11,9 @@
 		<dc:identifier>http://wiki.lifesciencedb.jp/mw/BH11.11/%E7%94%9F%E7%89%A9%E5%AD%A6%E8%BE%9E%E6%9B%B8%E3%81%AERDF%E5%8C%96</dc:identifier>
 		<dc:date>2011-11-25</dc:date>
 		<dc:creator>TogoWikiの利用者：Minami1105</dc:creator>
+		<dc:contributor>TogoWikiの利用者：Fumi</dc:contributor>
+		<dc:contributor>TogoWikiの利用者：Shoko</dc:contributor>
+		<dc:rights rdf:resource="http://creativecommons.org/licenses/by/3.0/" />
+		<cc:license rdf:resource="http://creativecommons.org/licenses/by/3.0/" />
+	</cc:Work>
+</rdf:RDF>

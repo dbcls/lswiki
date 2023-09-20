@@ -11,3 +11,8 @@
 		<dc:identifier>http://wiki.lifesciencedb.jp/mw/BH15.15/PlantMetabolomics</dc:identifier>
 		<dc:date>2016-03-18</dc:date>
 		<dc:creator>TogoWikiの利用者：Nishida</dc:creator>
+		<dc:contributor>TogoWikiの利用者：Twilightexpress8001</dc:contributor>
+		<dc:rights rdf:resource="http://creativecommons.org/licenses/by/3.0/" />
+		<cc:license rdf:resource="http://creativecommons.org/licenses/by/3.0/" />
+	</cc:Work>
+</rdf:RDF>

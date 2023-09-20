@@ -11,3 +11,7 @@
 		<dc:identifier>http://wiki.lifesciencedb.jp/mw/BH15.15/PDB_UniProt</dc:identifier>
 		<dc:date>2016-03-16</dc:date>
 		<dc:creator>TogoWikiの利用者：Akinjo</dc:creator>
+		<dc:rights rdf:resource="http://creativecommons.org/licenses/by/3.0/" />
+		<cc:license rdf:resource="http://creativecommons.org/licenses/by/3.0/" />
+	</cc:Work>
+</rdf:RDF>

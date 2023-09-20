@@ -11,3 +11,7 @@
 		<dc:identifier>http://wiki.lifesciencedb.jp/mw/%E3%82%B9%E3%82%AF%E3%83%AA%E3%83%BC%E3%83%B3%E3%82%AD%E3%83%A3%E3%82%B9%E3%83%88%E3%82%B7%E3%83%8A%E3%83%AA%E3%82%AA%E3%83%86%E3%82%AD%E3%82%B9%E3%83%88</dc:identifier>
 		<dc:date>2010-08-10</dc:date>
 		<dc:creator>Mitsuteru Nakao</dc:creator>
+		<dc:rights rdf:resource="http://creativecommons.org/licenses/by/3.0/" />
+		<cc:license rdf:resource="http://creativecommons.org/licenses/by/3.0/" />
+	</cc:Work>
+</rdf:RDF>

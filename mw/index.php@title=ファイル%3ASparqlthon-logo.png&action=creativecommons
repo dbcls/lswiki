@@ -11,3 +11,7 @@
 		<dc:identifier>http://wiki.lifesciencedb.jp/mw/%E3%83%95%E3%82%A1%E3%82%A4%E3%83%AB:Sparqlthon-logo.png</dc:identifier>
 		<dc:date>2020-05-11</dc:date>
 		<dc:creator>TogoWikiの利用者：Ktym</dc:creator>
+		<dc:rights rdf:resource="http://creativecommons.org/licenses/by/3.0/" />
+		<cc:license rdf:resource="http://creativecommons.org/licenses/by/3.0/" />
+	</cc:Work>
+</rdf:RDF>

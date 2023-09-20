@@ -11,3 +11,10 @@
 		<dc:identifier>http://wiki.lifesciencedb.jp/mw/BH13.13/uuid-bnode</dc:identifier>
 		<dc:date>2014-02-12</dc:date>
 		<dc:creator>TogoWikiの利用者：Chi</dc:creator>
+		<dc:contributor>TogoWikiの利用者：Ktym</dc:contributor>
+		<dc:contributor>Yasunori Yamamoto</dc:contributor>
+		<dc:contributor>TogoWikiの利用者：Jdkim</dc:contributor>
+		<dc:rights rdf:resource="http://creativecommons.org/licenses/by/3.0/" />
+		<cc:license rdf:resource="http://creativecommons.org/licenses/by/3.0/" />
+	</cc:Work>
+</rdf:RDF>

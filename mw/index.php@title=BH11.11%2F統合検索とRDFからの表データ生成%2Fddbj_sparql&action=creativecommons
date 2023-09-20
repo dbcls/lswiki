@@ -11,3 +11,7 @@
 		<dc:identifier>http://wiki.lifesciencedb.jp/mw/BH11.11/%E7%B5%B1%E5%90%88%E6%A4%9C%E7%B4%A2%E3%81%A8RDF%E3%81%8B%E3%82%89%E3%81%AE%E8%A1%A8%E3%83%87%E3%83%BC%E3%82%BF%E7%94%9F%E6%88%90/ddbj_sparql</dc:identifier>
 		<dc:date>2011-11-24</dc:date>
 		<dc:creator>TogoWikiの利用者：Orenodbcls</dc:creator>
+		<dc:rights rdf:resource="http://creativecommons.org/licenses/by/3.0/" />
+		<cc:license rdf:resource="http://creativecommons.org/licenses/by/3.0/" />
+	</cc:Work>
+</rdf:RDF>

@@ -11,3 +11,8 @@
 		<dc:identifier>http://wiki.lifesciencedb.jp/mw/BH12.12/SPARQLthon16/DDBJ</dc:identifier>
 		<dc:date>2014-01-24</dc:date>
 		<dc:creator>TogoWikiの利用者：Yokookbp</dc:creator>
+		<dc:contributor rdf:resource="http://wiki.lifesciencedb.jp/mw/%E5%88%A9%E7%94%A8%E8%80%85:Tfuji" />
+		<dc:rights rdf:resource="http://creativecommons.org/licenses/by/3.0/" />
+		<cc:license rdf:resource="http://creativecommons.org/licenses/by/3.0/" />
+	</cc:Work>
+</rdf:RDF>

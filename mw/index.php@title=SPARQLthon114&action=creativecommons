@@ -11,3 +11,20 @@
 		<dc:identifier>http://wiki.lifesciencedb.jp/mw/SPARQLthon114</dc:identifier>
 		<dc:date>2022-03-17</dc:date>
 		<dc:creator>TogoWikiの利用者：Chi</dc:creator>
+		<dc:contributor>TogoWikiの利用者：Yokookbp</dc:contributor>
+		<dc:contributor>TogoWikiの利用者：Ktym</dc:contributor>
+		<dc:contributor rdf:resource="http://wiki.lifesciencedb.jp/mw/%E5%88%A9%E7%94%A8%E8%80%85:Tazro_inutano_ohta" />
+		<dc:contributor>Yasunori Yamamoto</dc:contributor>
+		<dc:contributor>TogoWikiの利用者：Sh ikeda</dc:contributor>
+		<dc:contributor>TogoWikiの利用者：Satstnka</dc:contributor>
+		<dc:contributor>TogoWikiの利用者：Kei</dc:contributor>
+		<dc:contributor>TogoWikiの利用者：Acyshzw</dc:contributor>
+		<dc:contributor>TogoWikiの利用者：Penqe</dc:contributor>
+		<dc:contributor>TogoWikiの利用者：Ryotayamanaka</dc:contributor>
+		<dc:contributor>TogoWikiの利用者：Uki moriya</dc:contributor>
+		<dc:contributor>TogoWikiの利用者：Dsatoh</dc:contributor>
+		<dc:contributor>TogoWikiの利用者：Shuichi</dc:contributor>
+		<dc:rights rdf:resource="http://creativecommons.org/licenses/by/3.0/" />
+		<cc:license rdf:resource="http://creativecommons.org/licenses/by/3.0/" />
+	</cc:Work>
+</rdf:RDF>

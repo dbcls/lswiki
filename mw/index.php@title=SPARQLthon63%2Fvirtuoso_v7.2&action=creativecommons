@@ -11,3 +11,7 @@
 		<dc:identifier>http://wiki.lifesciencedb.jp/mw/SPARQLthon63/virtuoso_v7.2</dc:identifier>
 		<dc:date>2017-12-16</dc:date>
 		<dc:creator>TogoWikiの利用者：Yokookbp</dc:creator>
+		<dc:rights rdf:resource="http://creativecommons.org/licenses/by/3.0/" />
+		<cc:license rdf:resource="http://creativecommons.org/licenses/by/3.0/" />
+	</cc:Work>
+</rdf:RDF>

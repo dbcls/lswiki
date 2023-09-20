@@ -520,7 +520,7 @@ Template argument size: 0/2097152 bytes
 Expensive parser function count: 0/100
 -->
 
-<!-- Saved in parser cache with key wikidb-togowiki_:pcache:idhash:158-0!1!0!!ja!2!edit=0 and timestamp 20230605014500 -->
+<!-- Saved in parser cache with key wikidb-togowiki_:pcache:idhash:158-0!1!0!!ja!2!edit=0 and timestamp 20230808055110 -->
 <div class="printfooter">
 「<a href="http://wiki.lifesciencedb.jp/mw/BH12.12/SPARQLthon/MBGD">http://wiki.lifesciencedb.jp/mw/BH12.12/SPARQLthon/MBGD</a>」より作成</div>
 		<div id='catlinks' class='catlinks catlinks-allhidden'></div>		<!-- end content -->
@@ -603,4 +603,4 @@ Expensive parser function count: 0/100
 </div>
 
 <script>if (window.runOnloadHook) runOnloadHook();</script>
-<!-- Served in 0.621 secs. --></body></html>
+<!-- Served in 0.709 secs. --></body></html>

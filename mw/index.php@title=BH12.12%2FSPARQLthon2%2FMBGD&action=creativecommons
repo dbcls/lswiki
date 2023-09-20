@@ -11,3 +11,7 @@
 		<dc:identifier>http://wiki.lifesciencedb.jp/mw/BH12.12/SPARQLthon2/MBGD</dc:identifier>
 		<dc:date>2015-06-28</dc:date>
 		<dc:creator>TogoWikiの利用者：Chi</dc:creator>
+		<dc:rights rdf:resource="http://creativecommons.org/licenses/by/3.0/" />
+		<cc:license rdf:resource="http://creativecommons.org/licenses/by/3.0/" />
+	</cc:Work>
+</rdf:RDF>

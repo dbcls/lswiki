@@ -11,3 +11,7 @@
 		<dc:identifier>http://wiki.lifesciencedb.jp/mw/MassBank%E6%9C%AA%E5%AE%9A%E7%BE%A9%E3%82%BF%E3%82%B0</dc:identifier>
 		<dc:date>2016-12-15</dc:date>
 		<dc:creator>TogoWikiの利用者：Shuichi</dc:creator>
+		<dc:rights rdf:resource="http://creativecommons.org/licenses/by/3.0/" />
+		<cc:license rdf:resource="http://creativecommons.org/licenses/by/3.0/" />
+	</cc:Work>
+</rdf:RDF>

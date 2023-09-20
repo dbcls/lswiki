@@ -11,3 +11,8 @@
 		<dc:identifier>http://wiki.lifesciencedb.jp/mw/TPP-ishihama</dc:identifier>
 		<dc:date>2018-08-30</dc:date>
 		<dc:creator>TogoWikiの利用者：Uki moriya</dc:creator>
+		<dc:contributor>TogoWikiの利用者：Acyshzw</dc:contributor>
+		<dc:rights rdf:resource="http://creativecommons.org/licenses/by/3.0/" />
+		<cc:license rdf:resource="http://creativecommons.org/licenses/by/3.0/" />
+	</cc:Work>
+</rdf:RDF>

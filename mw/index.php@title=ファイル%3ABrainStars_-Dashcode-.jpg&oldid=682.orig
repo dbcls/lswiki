@@ -96,7 +96,7 @@ Template argument size: 0/2097152 bytes
 Expensive parser function count: 0/100
 -->
 
-<!-- Saved in parser cache with key wikidb-togowiki_:pcache:idhash:54-0!1!0!!ja!2!edit=0 and timestamp 20230605031836 -->
+<!-- Saved in parser cache with key wikidb-togowiki_:pcache:idhash:54-0!1!0!!ja!2!edit=0 and timestamp 20230808072459 -->
 <h2 id="filehistory">ファイルの履歴</h2>
 <div id="mw-imagepage-section-filehistory">
 <p>過去の版のファイルを表示するには、表示したい版の日付/時刻をクリックしてください。
@@ -199,4 +199,4 @@ Expensive parser function count: 0/100
 </div>
 
 <script>if (window.runOnloadHook) runOnloadHook();</script>
-<!-- Served in 0.694 secs. --></body></html>
+<!-- Served in 0.893 secs. --></body></html>

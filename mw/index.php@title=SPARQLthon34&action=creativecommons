@@ -11,3 +11,34 @@
 		<dc:identifier>http://wiki.lifesciencedb.jp/mw/SPARQLthon34</dc:identifier>
 		<dc:date>2015-07-24</dc:date>
 		<dc:creator>TogoWikiの利用者：Yokookbp</dc:creator>
+		<dc:contributor>TogoWikiの利用者：Issaku</dc:contributor>
+		<dc:contributor>TogoWikiの利用者：Ktym</dc:contributor>
+		<dc:contributor rdf:resource="http://wiki.lifesciencedb.jp/mw/%E5%88%A9%E7%94%A8%E8%80%85:Tfuji" />
+		<dc:contributor>TogoWikiの利用者：Nakazato</dc:contributor>
+		<dc:contributor>@meso_cacase</dc:contributor>
+		<dc:contributor>TogoWikiの利用者：Bono</dc:contributor>
+		<dc:contributor>TogoWikiの利用者：Kushidat</dc:contributor>
+		<dc:contributor>TogoWikiの利用者：Nori</dc:contributor>
+		<dc:contributor>TogoWikiの利用者：H-mori</dc:contributor>
+		<dc:contributor>TogoWikiの利用者：Tk-tk</dc:contributor>
+		<dc:contributor>TogoWikiの利用者：KaiLenz</dc:contributor>
+		<dc:contributor>TogoWikiの利用者：Penqe</dc:contributor>
+		<dc:contributor>TogoWikiの利用者：Twilightexpress8001</dc:contributor>
+		<dc:contributor>TogoWikiの利用者：Sakurai kazusa</dc:contributor>
+		<dc:contributor>TogoWikiの利用者：Nobusada</dc:contributor>
+		<dc:contributor>TogoWikiの利用者：Hideki</dc:contributor>
+		<dc:contributor>Yasunori Yamamoto</dc:contributor>
+		<dc:contributor>TogoWikiの利用者：Fumi</dc:contributor>
+		<dc:contributor>TAKATSUKI Terue</dc:contributor>
+		<dc:contributor>TogoWikiの利用者：Ryotayamanaka</dc:contributor>
+		<dc:contributor>TogoWikiの利用者：Hono</dc:contributor>
+		<dc:contributor>TogoWikiの利用者：Ichihara</dc:contributor>
+		<dc:contributor>TogoWikiの利用者：Atsuko</dc:contributor>
+		<dc:contributor>TogoWikiの利用者：Chi</dc:contributor>
+		<dc:contributor>TogoWikiの利用者：Ozawa</dc:contributor>
+		<dc:contributor>TogoWikiの利用者：Uki moriya</dc:contributor>
+		<dc:contributor>TogoWikiの利用者：Shuichi</dc:contributor>
+		<dc:rights rdf:resource="http://creativecommons.org/licenses/by/3.0/" />
+		<cc:license rdf:resource="http://creativecommons.org/licenses/by/3.0/" />
+	</cc:Work>
+</rdf:RDF>

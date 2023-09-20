@@ -4,7 +4,6 @@
 <title>ファイル:Glyco.jpg - TogoWiki</title>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 <meta name="generator" content="MediaWiki 1.16.3" />
-<meta name="robots" content="noindex,nofollow" />
 <link rel="shortcut icon" href="/favicon.ico" />
 <link rel="search" type="application/opensearchdescription+xml" href="/mw/opensearch_desc.php" title="TogoWiki (ja)" />
 <link title="Creative Commons" type="application/rdf+xml" href="/mw/index.php?title=%E3%83%95%E3%82%A1%E3%82%A4%E3%83%AB:Glyco.jpg&amp;action=creativecommons" rel="meta" />
@@ -97,6 +96,8 @@ Post-expand include size: 0/2097152 bytes
 Template argument size: 0/2097152 bytes
 Expensive parser function count: 0/100
 -->
+
+<!-- Saved in parser cache with key wikidb-togowiki_:pcache:idhash:219-0!1!0!!ja!2!edit=0 and timestamp 20230808074025 -->
 <h2 id="filehistory">ファイルの履歴</h2>
 <div id="mw-imagepage-section-filehistory">
 <p>過去の版のファイルを表示するには、表示したい版の日付/時刻をクリックしてください。
@@ -199,4 +200,4 @@ Expensive parser function count: 0/100
 </div>
 
 <script>if (window.runOnloadHook) runOnloadHook();</script>
-<!-- Served in 0.712 secs. --></body></html>
+<!-- Served in 0.504 secs. --></body></html>

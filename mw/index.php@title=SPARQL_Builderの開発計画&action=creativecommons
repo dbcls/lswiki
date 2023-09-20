@@ -11,3 +11,8 @@
 		<dc:identifier>http://wiki.lifesciencedb.jp/mw/SPARQL_Builder%E3%81%AE%E9%96%8B%E7%99%BA%E8%A8%88%E7%94%BB</dc:identifier>
 		<dc:date>2017-05-16</dc:date>
 		<dc:creator>TogoWikiの利用者：Atsuko</dc:creator>
+		<dc:contributor>TogoWikiの利用者：Nori</dc:contributor>
+		<dc:rights rdf:resource="http://creativecommons.org/licenses/by/3.0/" />
+		<cc:license rdf:resource="http://creativecommons.org/licenses/by/3.0/" />
+	</cc:Work>
+</rdf:RDF>

@@ -11,3 +11,7 @@
 		<dc:identifier>http://wiki.lifesciencedb.jp/mw/GalaxyOnAmazonWebServices</dc:identifier>
 		<dc:date>2013-03-12</dc:date>
 		<dc:creator>TogoWikiの利用者：T-hatakeyama</dc:creator>
+		<dc:rights rdf:resource="http://creativecommons.org/licenses/by/3.0/" />
+		<cc:license rdf:resource="http://creativecommons.org/licenses/by/3.0/" />
+	</cc:Work>
+</rdf:RDF>

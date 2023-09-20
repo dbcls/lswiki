@@ -11,3 +11,17 @@
 		<dc:identifier>http://wiki.lifesciencedb.jp/mw/BH11.11</dc:identifier>
 		<dc:date>2011-11-28</dc:date>
 		<dc:creator>TogoWikiの利用者：Synobu</dc:creator>
+		<dc:contributor>TogoWikiの利用者：Ogishima</dc:contributor>
+		<dc:contributor>TogoWikiの利用者：Akinjo</dc:contributor>
+		<dc:contributor>木下聖子</dc:contributor>
+		<dc:contributor>TogoWikiの利用者：Chi</dc:contributor>
+		<dc:contributor>TogoWikiの利用者：Atsuko</dc:contributor>
+		<dc:contributor>TogoWikiの利用者：Ktym</dc:contributor>
+		<dc:contributor>TogoWikiの利用者：Birc cyamasak</dc:contributor>
+		<dc:contributor>TogoWikiの利用者：Ngoto</dc:contributor>
+		<dc:contributor>TogoWikiの利用者：Orenodbcls</dc:contributor>
+		<dc:contributor>TogoWikiの利用者：Shuichi</dc:contributor>
+		<dc:rights rdf:resource="http://creativecommons.org/licenses/by/3.0/" />
+		<cc:license rdf:resource="http://creativecommons.org/licenses/by/3.0/" />
+	</cc:Work>
+</rdf:RDF>

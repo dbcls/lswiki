@@ -11,3 +11,8 @@
 		<dc:identifier>http://wiki.lifesciencedb.jp/mw/BH12.12/schema.org</dc:identifier>
 		<dc:date>2013-02-13</dc:date>
 		<dc:creator>TogoWikiの利用者：Maori</dc:creator>
+		<dc:contributor>TogoWikiの利用者：Keybot</dc:contributor>
+		<dc:rights rdf:resource="http://creativecommons.org/licenses/by/3.0/" />
+		<cc:license rdf:resource="http://creativecommons.org/licenses/by/3.0/" />
+	</cc:Work>
+</rdf:RDF>

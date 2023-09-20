@@ -11,3 +11,7 @@
 		<dc:identifier>http://wiki.lifesciencedb.jp/mw/%E3%83%95%E3%82%A1%E3%82%A4%E3%83%AB:BH12.12_logo1.png</dc:identifier>
 		<dc:date>2012-10-09</dc:date>
 		<dc:creator>TogoWikiの利用者：Synobu</dc:creator>
+		<dc:rights rdf:resource="http://creativecommons.org/licenses/by/3.0/" />
+		<cc:license rdf:resource="http://creativecommons.org/licenses/by/3.0/" />
+	</cc:Work>
+</rdf:RDF>

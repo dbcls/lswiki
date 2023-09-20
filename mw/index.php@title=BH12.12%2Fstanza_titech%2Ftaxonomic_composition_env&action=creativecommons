@@ -11,3 +11,7 @@
 		<dc:identifier>http://wiki.lifesciencedb.jp/mw/BH12.12/stanza_titech/taxonomic_composition_env</dc:identifier>
 		<dc:date>2013-07-04</dc:date>
 		<dc:creator>TogoWikiの利用者：Kkfield</dc:creator>
+		<dc:rights rdf:resource="http://creativecommons.org/licenses/by/3.0/" />
+		<cc:license rdf:resource="http://creativecommons.org/licenses/by/3.0/" />
+	</cc:Work>
+</rdf:RDF>

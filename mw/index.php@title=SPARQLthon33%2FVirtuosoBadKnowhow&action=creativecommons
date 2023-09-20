@@ -11,3 +11,9 @@
 		<dc:identifier>http://wiki.lifesciencedb.jp/mw/SPARQLthon33/VirtuosoBadKnowhow</dc:identifier>
 		<dc:date>2018-09-27</dc:date>
 		<dc:creator>TogoWikiの利用者：Uki moriya</dc:creator>
+		<dc:contributor>TogoWikiの利用者：Yokookbp</dc:contributor>
+		<dc:contributor>TogoWikiの利用者：Chi</dc:contributor>
+		<dc:rights rdf:resource="http://creativecommons.org/licenses/by/3.0/" />
+		<cc:license rdf:resource="http://creativecommons.org/licenses/by/3.0/" />
+	</cc:Work>
+</rdf:RDF>

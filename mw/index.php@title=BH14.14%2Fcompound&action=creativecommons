@@ -11,3 +11,12 @@
 		<dc:identifier>http://wiki.lifesciencedb.jp/mw/BH14.14/compound</dc:identifier>
 		<dc:date>2015-02-10</dc:date>
 		<dc:creator>TogoWikiの利用者：Kushidat</dc:creator>
+		<dc:contributor>TogoWikiの利用者：Nishida</dc:contributor>
+		<dc:contributor>TogoWikiの利用者：Issaku</dc:contributor>
+		<dc:contributor>TogoWikiの利用者：Twilightexpress8001</dc:contributor>
+		<dc:contributor>TogoWikiの利用者：Maskot1977</dc:contributor>
+		<dc:contributor>TogoWikiの利用者：Sakurai kazusa</dc:contributor>
+		<dc:rights rdf:resource="http://creativecommons.org/licenses/by/3.0/" />
+		<cc:license rdf:resource="http://creativecommons.org/licenses/by/3.0/" />
+	</cc:Work>
+</rdf:RDF>

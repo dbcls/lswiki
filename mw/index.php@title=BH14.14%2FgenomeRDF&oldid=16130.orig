@@ -212,7 +212,7 @@ Template argument size: 0/2097152 bytes
 Expensive parser function count: 0/100
 -->
 
-<!-- Saved in parser cache with key wikidb-togowiki_:pcache:idhash:563-0!1!0!!ja!2!edit=0 and timestamp 20230605013851 -->
+<!-- Saved in parser cache with key wikidb-togowiki_:pcache:idhash:563-0!1!0!!ja!2!edit=0 and timestamp 20230808054446 -->
 <div class="printfooter">
 「<a href="http://wiki.lifesciencedb.jp/mw/BH14.14/genomeRDF">http://wiki.lifesciencedb.jp/mw/BH14.14/genomeRDF</a>」より作成</div>
 		<div id='catlinks' class='catlinks catlinks-allhidden'></div>		<!-- end content -->
@@ -295,4 +295,4 @@ Expensive parser function count: 0/100
 </div>
 
 <script>if (window.runOnloadHook) runOnloadHook();</script>
-<!-- Served in 0.604 secs. --></body></html>
+<!-- Served in 0.591 secs. --></body></html>

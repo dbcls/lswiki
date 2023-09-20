@@ -11,3 +11,7 @@
 		<dc:identifier>http://wiki.lifesciencedb.jp/mw/ClassGraph_%E6%AF%94%E8%BC%83</dc:identifier>
 		<dc:date>2017-08-31</dc:date>
 		<dc:creator>TogoWikiの利用者：Atsuko</dc:creator>
+		<dc:rights rdf:resource="http://creativecommons.org/licenses/by/3.0/" />
+		<cc:license rdf:resource="http://creativecommons.org/licenses/by/3.0/" />
+	</cc:Work>
+</rdf:RDF>

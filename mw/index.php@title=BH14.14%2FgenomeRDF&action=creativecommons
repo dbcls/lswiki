@@ -11,3 +11,14 @@
 		<dc:identifier>http://wiki.lifesciencedb.jp/mw/BH14.14/genomeRDF</dc:identifier>
 		<dc:date>2015-02-06</dc:date>
 		<dc:creator>TogoWikiの利用者：Itok</dc:creator>
+		<dc:contributor>TogoWikiの利用者：Ryotayamanaka</dc:contributor>
+		<dc:contributor>TAKATSUKI Terue</dc:contributor>
+		<dc:contributor>TogoWikiの利用者：やました</dc:contributor>
+		<dc:contributor>TogoWikiの利用者：Orenodbcls</dc:contributor>
+		<dc:contributor>TogoWikiの利用者：Maori</dc:contributor>
+		<dc:contributor>TogoWikiの利用者：Shuichi</dc:contributor>
+		<dc:contributor>TogoWikiの利用者：Akinjo</dc:contributor>
+		<dc:rights rdf:resource="http://creativecommons.org/licenses/by/3.0/" />
+		<cc:license rdf:resource="http://creativecommons.org/licenses/by/3.0/" />
+	</cc:Work>
+</rdf:RDF>

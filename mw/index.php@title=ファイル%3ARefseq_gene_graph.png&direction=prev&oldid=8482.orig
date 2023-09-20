@@ -87,10 +87,8 @@ wgRestrictionMove=[];
 		<!-- start content -->
 <ul id="filetoc"><li><a href="#file">ファイル</a></li>
 <li><a href="#filehistory">ファイルの履歴</a></li>
-<li><a href="#filelinks">ファイルリンク</a></li></ul><div class="fullImageLink" id="file"><table class="MediaTransformError" style="width: 800px; height: 504px;"><tr><td>サムネイルの作成中にエラーが発生しました：convert: unable to extend cache `/opt/services/wiki/htdocs/mw/images/d/d5/Refseq_gene_graph.png': No space left on device @ error/cache.c/OpenPixelCache/3697.<br />
-convert: IDAT: CRC error `/opt/services/wiki/htdocs/mw/images/d/d5/Refseq_gene_graph.png' @ error/png.c/MagickPNGErrorHandler/1805.<br />
-convert: corrupt image `/opt/services/wiki/htdocs/mw/images/d/d5/Refseq_gene_graph.png' @ error/png.c/ReadPNGImage/4106.<br />
-convert: no images defined `/opt/services/wiki/htdocs/mw/images/thumb/d/d5/Refseq_gene_graph.png/800px-Refseq_gene_graph.png' @ error/convert.c/ConvertImageCommand/3187.<br />
+<li><a href="#filelinks">ファイルリンク</a></li></ul><div class="fullImageLink" id="file"><table class="MediaTransformError" style="width: 800px; height: 504px;"><tr><td>サムネイルの作成中にエラーが発生しました：<br />
+libgomp: Thread creation failed: Resource temporarily unavailable<br />
 </td></tr></table><br /><small>このプレビューのサイズ：800×504ピクセル</small><br /><a href="/mw/images/d/d5/Refseq_gene_graph.png">高解像度での画像</a>‎ (2,257 × 1,421 ピクセル, ファイルサイズ: 223キロバイト, MIMEタイプ: image/png)</div>
 <p>RefSeqのGene周りのグラフ図
 </p>
@@ -204,4 +202,4 @@ Expensive parser function count: 0/100
 </div>
 
 <script>if (window.runOnloadHook) runOnloadHook();</script>
-<!-- Served in 0.909 secs. --></body></html>
+<!-- Served in 1.044 secs. --></body></html>

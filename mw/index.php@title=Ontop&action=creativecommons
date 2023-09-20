@@ -11,3 +11,8 @@
 		<dc:identifier>http://wiki.lifesciencedb.jp/mw/Ontop</dc:identifier>
 		<dc:date>2017-04-14</dc:date>
 		<dc:creator>TogoWikiの利用者：Ryotayamanaka</dc:creator>
+		<dc:contributor>Yasunori Yamamoto</dc:contributor>
+		<dc:rights rdf:resource="http://creativecommons.org/licenses/by/3.0/" />
+		<cc:license rdf:resource="http://creativecommons.org/licenses/by/3.0/" />
+	</cc:Work>
+</rdf:RDF>

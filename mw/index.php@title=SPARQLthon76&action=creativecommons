@@ -11,3 +11,30 @@
 		<dc:identifier>http://wiki.lifesciencedb.jp/mw/SPARQLthon76</dc:identifier>
 		<dc:date>2019-02-05</dc:date>
 		<dc:creator>TogoWikiの利用者：Uki moriya</dc:creator>
+		<dc:contributor>TogoWikiの利用者：Bono</dc:contributor>
+		<dc:contributor>TogoWikiの利用者：Kushidat</dc:contributor>
+		<dc:contributor>TogoWikiの利用者：H-mori</dc:contributor>
+		<dc:contributor>TogoWikiの利用者：建石</dc:contributor>
+		<dc:contributor>TogoWikiの利用者：Issaku</dc:contributor>
+		<dc:contributor>TogoWikiの利用者：Hideki</dc:contributor>
+		<dc:contributor>TogoWikiの利用者：Nmiura</dc:contributor>
+		<dc:contributor>TogoWikiの利用者：Nori</dc:contributor>
+		<dc:contributor>TogoWikiの利用者：Fujiwara</dc:contributor>
+		<dc:contributor>TogoWikiの利用者：Chi</dc:contributor>
+		<dc:contributor>@meso_cacase</dc:contributor>
+		<dc:contributor>TogoWikiの利用者：多湖</dc:contributor>
+		<dc:contributor>TogoWikiの利用者：Reika0717</dc:contributor>
+		<dc:contributor>TogoWikiの利用者：Satstnka</dc:contributor>
+		<dc:contributor>TogoWikiの利用者：Dsatoh</dc:contributor>
+		<dc:contributor>TogoWikiの利用者：Atsuko</dc:contributor>
+		<dc:contributor>TogoWikiの利用者：Kozaki</dc:contributor>
+		<dc:contributor>TogoWikiの利用者：Okishinya</dc:contributor>
+		<dc:contributor>TogoWikiの利用者：Ktym</dc:contributor>
+		<dc:contributor>Yasunori Yamamoto</dc:contributor>
+		<dc:contributor>TogoWikiの利用者：Penqe</dc:contributor>
+		<dc:contributor>TogoWikiの利用者：Yokookbp</dc:contributor>
+		<dc:contributor>TogoWikiの利用者：Shuichi</dc:contributor>
+		<dc:rights rdf:resource="http://creativecommons.org/licenses/by/3.0/" />
+		<cc:license rdf:resource="http://creativecommons.org/licenses/by/3.0/" />
+	</cc:Work>
+</rdf:RDF>

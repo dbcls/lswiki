@@ -11,3 +11,7 @@
 		<dc:identifier>http://wiki.lifesciencedb.jp/mw/SPARQL_Query_Benchmarker%E8%AA%BF%E6%9F%BB</dc:identifier>
 		<dc:date>2014-06-19</dc:date>
 		<dc:creator>Yasunori Yamamoto</dc:creator>
+		<dc:rights rdf:resource="http://creativecommons.org/licenses/by/3.0/" />
+		<cc:license rdf:resource="http://creativecommons.org/licenses/by/3.0/" />
+	</cc:Work>
+</rdf:RDF>

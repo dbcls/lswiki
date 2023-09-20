@@ -11,3 +11,11 @@
 		<dc:identifier>http://wiki.lifesciencedb.jp/mw/TPP-DB</dc:identifier>
 		<dc:date>2015-02-10</dc:date>
 		<dc:creator>TogoWikiの利用者：Chi</dc:creator>
+		<dc:contributor>TogoWikiの利用者：Masuya</dc:contributor>
+		<dc:contributor>TogoWikiの利用者：Shuichi</dc:contributor>
+		<dc:contributor>Yasunori Yamamoto</dc:contributor>
+		<dc:contributor>TogoWikiの利用者：Ktym</dc:contributor>
+		<dc:rights rdf:resource="http://creativecommons.org/licenses/by/3.0/" />
+		<cc:license rdf:resource="http://creativecommons.org/licenses/by/3.0/" />
+	</cc:Work>
+</rdf:RDF>

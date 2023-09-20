@@ -337,7 +337,7 @@ ProxyPassReverse / <a href="http://hoge.huga.ac.jp:8890/" class="external free" 
 	<div id="f-copyrightico"><a href="http://creativecommons.org/licenses/by/3.0/"><img src="http://i.creativecommons.org/l/by/3.0/88x31.png" alt="Attribution 3.0 Unported" width="88" height="31" /></a></div>
 	<ul id="f-list">
 		<li id="lastmod"> このページの最終更新は 2012年12月19日 (水) 06:37 に行われました。</li>
-		<li id="viewcount">このページは20,433回アクセスされました。</li>
+		<li id="viewcount">このページは20,616回アクセスされました。</li>
 		<li id="copyright">内容は<a href="http://creativecommons.org/licenses/by/3.0/" class="external ">Attribution 3.0 Unported</a>のライセンスで利用することができます。</li>
 		<li id="privacy"><a href="/mw/TogoWiki:%E3%83%97%E3%83%A9%E3%82%A4%E3%83%90%E3%82%B7%E3%83%BC%E3%83%BB%E3%83%9D%E3%83%AA%E3%82%B7%E3%83%BC" title="TogoWiki:プライバシー・ポリシー">プライバシー・ポリシー</a></li>
 		<li id="about"><a href="/mw/TogoWiki:TogoWiki%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6" title="TogoWiki:TogoWikiについて">TogoWikiについて</a></li>
@@ -347,4 +347,4 @@ ProxyPassReverse / <a href="http://hoge.huga.ac.jp:8890/" class="external free" 
 </div>
 
 <script>if (window.runOnloadHook) runOnloadHook();</script>
-<!-- Served in 0.681 secs. --></body></html>
+<!-- Served in 0.675 secs. --></body></html>

@@ -11,3 +11,17 @@
 		<dc:identifier>http://wiki.lifesciencedb.jp/mw/%E3%83%A1%E3%82%A4%E3%83%B3%E3%83%9A%E3%83%BC%E3%82%B8</dc:identifier>
 		<dc:date>2022-11-25</dc:date>
 		<dc:creator>TogoWikiの利用者：建石</dc:creator>
+		<dc:contributor>TogoWikiの利用者：Uki moriya</dc:contributor>
+		<dc:contributor>TogoWikiの利用者：Ktym</dc:contributor>
+		<dc:contributor>TogoWikiの利用者：Shuichi</dc:contributor>
+		<dc:contributor>Yasunori Yamamoto</dc:contributor>
+		<dc:contributor>TogoWikiの利用者：Orenodbcls</dc:contributor>
+		<dc:contributor>TogoWikiの利用者：Ykomiyama</dc:contributor>
+		<dc:contributor>TogoWikiの利用者：T-hatakeyama</dc:contributor>
+		<dc:contributor>Mitsuteru Nakao</dc:contributor>
+		<dc:contributor>TogoWikiの利用者：WikiSysop</dc:contributor>
+		<dc:contributor>TogoWikiの匿名利用者</dc:contributor>
+		<dc:rights rdf:resource="http://creativecommons.org/licenses/by/3.0/" />
+		<cc:license rdf:resource="http://creativecommons.org/licenses/by/3.0/" />
+	</cc:Work>
+</rdf:RDF>

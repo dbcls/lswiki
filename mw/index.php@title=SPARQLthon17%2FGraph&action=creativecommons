@@ -11,3 +11,7 @@
 		<dc:identifier>http://wiki.lifesciencedb.jp/mw/SPARQLthon17/Graph</dc:identifier>
 		<dc:date>2014-02-17</dc:date>
 		<dc:creator>TogoWikiの利用者：Morita.mizuki</dc:creator>
+		<dc:rights rdf:resource="http://creativecommons.org/licenses/by/3.0/" />
+		<cc:license rdf:resource="http://creativecommons.org/licenses/by/3.0/" />
+	</cc:Work>
+</rdf:RDF>

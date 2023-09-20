@@ -367,7 +367,7 @@ Template argument size: 0/2097152 bytes
 Expensive parser function count: 0/100
 -->
 
-<!-- Saved in parser cache with key wikidb-togowiki_:pcache:idhash:84-0!1!0!!ja!2!edit=0 and timestamp 20230605014523 -->
+<!-- Saved in parser cache with key wikidb-togowiki_:pcache:idhash:84-0!1!0!!ja!2!edit=0 and timestamp 20230808055133 -->
 <div class="printfooter">
 「<a href="http://wiki.lifesciencedb.jp/mw/BH11.11/%E3%83%92%E3%83%88%E3%83%BB%E7%92%B0%E5%A2%83%E3%83%A1%E3%82%BF%E3%82%B2%E3%83%8E%E3%83%A0%E3%83%A1%E3%82%BF%E3%83%87%E3%83%BC%E3%82%BF%E3%81%AE%E3%82%AA%E3%83%B3%E3%83%88%E3%83%AD%E3%82%B8%E3%83%BC%E6%95%B4%E5%82%99%E3%81%A8RDF%E5%8C%96">http://wiki.lifesciencedb.jp/mw/BH11.11/%E3%83%92%E3%83%88%E3%83%BB%E7%92%B0%E5%A2%83%E3%83%A1%E3%82%BF%E3%82%B2%E3%83%8E%E3%83%A0%E3%83%A1%E3%82%BF%E3%83%87%E3%83%BC%E3%82%BF%E3%81%AE%E3%82%AA%E3%83%B3%E3%83%88%E3%83%AD%E3%82%B8%E3%83%BC%E6%95%B4%E5%82%99%E3%81%A8RDF%E5%8C%96</a>」より作成</div>
 		<div id='catlinks' class='catlinks catlinks-allhidden'></div>		<!-- end content -->
@@ -450,4 +450,4 @@ Expensive parser function count: 0/100
 </div>
 
 <script>if (window.runOnloadHook) runOnloadHook();</script>
-<!-- Served in 0.640 secs. --></body></html>
+<!-- Served in 0.499 secs. --></body></html>

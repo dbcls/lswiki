@@ -11,3 +11,8 @@
 		<dc:identifier>http://wiki.lifesciencedb.jp/mw/BH12.12/%E5%AE%9A%E9%87%8FPCR%E3%82%A2%E3%83%AC%E3%82%A4%E3%81%AERDF%E5%8C%96%E8%AA%BF%E6%9F%BB</dc:identifier>
 		<dc:date>2012-12-23</dc:date>
 		<dc:creator>澤木弘道</dc:creator>
+		<dc:contributor>TogoWikiの利用者：Orenodbcls</dc:contributor>
+		<dc:rights rdf:resource="http://creativecommons.org/licenses/by/3.0/" />
+		<cc:license rdf:resource="http://creativecommons.org/licenses/by/3.0/" />
+	</cc:Work>
+</rdf:RDF>

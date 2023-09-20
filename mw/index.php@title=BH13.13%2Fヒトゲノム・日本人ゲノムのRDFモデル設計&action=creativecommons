@@ -11,3 +11,11 @@
 		<dc:identifier>http://wiki.lifesciencedb.jp/mw/BH13.13/%E3%83%92%E3%83%88%E3%82%B2%E3%83%8E%E3%83%A0%E3%83%BB%E6%97%A5%E6%9C%AC%E4%BA%BA%E3%82%B2%E3%83%8E%E3%83%A0%E3%81%AERDF%E3%83%A2%E3%83%87%E3%83%AB%E8%A8%AD%E8%A8%88</dc:identifier>
 		<dc:date>2014-09-19</dc:date>
 		<dc:creator>TogoWikiの利用者：Platypus</dc:creator>
+		<dc:contributor>TogoWikiの利用者：Ogishima</dc:contributor>
+		<dc:contributor>TogoWikiの利用者：Katsu</dc:contributor>
+		<dc:contributor>TogoWikiの利用者：Ktym</dc:contributor>
+		<dc:contributor>TogoWikiの利用者：Shuichi</dc:contributor>
+		<dc:rights rdf:resource="http://creativecommons.org/licenses/by/3.0/" />
+		<cc:license rdf:resource="http://creativecommons.org/licenses/by/3.0/" />
+	</cc:Work>
+</rdf:RDF>

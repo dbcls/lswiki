@@ -11,3 +11,8 @@
 		<dc:identifier>http://wiki.lifesciencedb.jp/mw/SPARQLthon/TogoGenomeUpdate/2017_09</dc:identifier>
 		<dc:date>2017-11-03</dc:date>
 		<dc:creator>TogoWikiの利用者：Ktym</dc:creator>
+		<dc:contributor>TogoWikiの利用者：Yokookbp</dc:contributor>
+		<dc:rights rdf:resource="http://creativecommons.org/licenses/by/3.0/" />
+		<cc:license rdf:resource="http://creativecommons.org/licenses/by/3.0/" />
+	</cc:Work>
+</rdf:RDF>

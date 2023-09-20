@@ -11,3 +11,9 @@
 		<dc:identifier>http://wiki.lifesciencedb.jp/mw/BH13.13/MCCV</dc:identifier>
 		<dc:date>2014-01-31</dc:date>
 		<dc:creator>TogoWikiの利用者：Shuichi</dc:creator>
+		<dc:contributor>TogoWikiの利用者：H-mori</dc:contributor>
+		<dc:contributor>TogoWikiの利用者：Synobu</dc:contributor>
+		<dc:rights rdf:resource="http://creativecommons.org/licenses/by/3.0/" />
+		<cc:license rdf:resource="http://creativecommons.org/licenses/by/3.0/" />
+	</cc:Work>
+</rdf:RDF>

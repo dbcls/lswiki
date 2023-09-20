@@ -11,3 +11,7 @@
 		<dc:identifier>http://wiki.lifesciencedb.jp/mw/SPARQLthon36/%E7%B4%B0%E8%8F%8C%E7%BE%A4%E9%9B%86RDF%E6%A7%8B%E9%80%A0</dc:identifier>
 		<dc:date>2015-09-01</dc:date>
 		<dc:creator>鈴木真也</dc:creator>
+		<dc:rights rdf:resource="http://creativecommons.org/licenses/by/3.0/" />
+		<cc:license rdf:resource="http://creativecommons.org/licenses/by/3.0/" />
+	</cc:Work>
+</rdf:RDF>

@@ -9,5 +9,31 @@
 		<dc:type>Text</dc:type>
 		<dc:format>text/html</dc:format>
 		<dc:identifier>http://wiki.lifesciencedb.jp/mw/Togothon125</dc:identifier>
-		<dc:date>2023-02-22</dc:date>
-		<dc:creator>TogoWikiの利用者：Hkanegae</dc:creator>
+		<dc:date>2023-08-07</dc:date>
+		<dc:creator>TogoWikiの利用者：Ktym</dc:creator>
+		<dc:contributor>TogoWikiの利用者：Hkanegae</dc:contributor>
+		<dc:contributor>TogoWikiの利用者：Issaku</dc:contributor>
+		<dc:contributor>Yasunori Yamamoto</dc:contributor>
+		<dc:contributor>TogoWikiの利用者：Dsatoh</dc:contributor>
+		<dc:contributor>TogoWikiの利用者：Nishida</dc:contributor>
+		<dc:contributor>TogoWikiの利用者：Chi</dc:contributor>
+		<dc:contributor>TogoWikiの利用者：建石</dc:contributor>
+		<dc:contributor>TogoWikiの利用者：Bp3d</dc:contributor>
+		<dc:contributor>TogoWikiの利用者：H-mori</dc:contributor>
+		<dc:contributor>TogoWikiの利用者：Nobusada2</dc:contributor>
+		<dc:contributor>TogoWikiの利用者：Uki moriya</dc:contributor>
+		<dc:contributor>木下聖子</dc:contributor>
+		<dc:contributor>TAKATSUKI Terue</dc:contributor>
+		<dc:contributor>TogoWikiの利用者：Manabuishii</dc:contributor>
+		<dc:contributor>TogoWikiの利用者：Penqe</dc:contributor>
+		<dc:contributor>@meso_cacase</dc:contributor>
+		<dc:contributor>TogoWikiの利用者：Dogrunjp</dc:contributor>
+		<dc:contributor>TogoWikiの利用者：Bono</dc:contributor>
+		<dc:contributor>TogoWikiの利用者：Acyshzw</dc:contributor>
+		<dc:contributor>TogoWikiの利用者：Yokookbp</dc:contributor>
+		<dc:contributor>TogoWikiの利用者：Aghelfi</dc:contributor>
+		<dc:contributor>TogoWikiの利用者：Hono</dc:contributor>
+		<dc:rights rdf:resource="http://creativecommons.org/licenses/by/3.0/" />
+		<cc:license rdf:resource="http://creativecommons.org/licenses/by/3.0/" />
+	</cc:Work>
+</rdf:RDF>

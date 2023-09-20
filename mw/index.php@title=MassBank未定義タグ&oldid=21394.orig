@@ -4,7 +4,6 @@
 <title>MassBank未定義タグ - TogoWiki</title>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 <meta name="generator" content="MediaWiki 1.16.3" />
-<meta name="robots" content="noindex,nofollow" />
 <link rel="shortcut icon" href="/favicon.ico" />
 <link rel="search" type="application/opensearchdescription+xml" href="/mw/opensearch_desc.php" title="TogoWiki (ja)" />
 <link title="Creative Commons" type="application/rdf+xml" href="/mw/index.php?title=MassBank%E6%9C%AA%E5%AE%9A%E7%BE%A9%E3%82%BF%E3%82%B0&amp;action=creativecommons" rel="meta" />
@@ -174,6 +173,8 @@ Post-expand include size: 0/2097152 bytes
 Template argument size: 0/2097152 bytes
 Expensive parser function count: 0/100
 -->
+
+<!-- Saved in parser cache with key wikidb-togowiki_:pcache:idhash:771-0!1!0!!ja!2!edit=0 and timestamp 20230808063734 -->
 <div class="printfooter">
 「<a href="http://wiki.lifesciencedb.jp/mw/MassBank%E6%9C%AA%E5%AE%9A%E7%BE%A9%E3%82%BF%E3%82%B0">http://wiki.lifesciencedb.jp/mw/MassBank%E6%9C%AA%E5%AE%9A%E7%BE%A9%E3%82%BF%E3%82%B0</a>」より作成</div>
 		<div id='catlinks' class='catlinks catlinks-allhidden'></div>		<!-- end content -->
@@ -256,4 +257,4 @@ Expensive parser function count: 0/100
 </div>
 
 <script>if (window.runOnloadHook) runOnloadHook();</script>
-<!-- Served in 0.733 secs. --></body></html>
+<!-- Served in 0.591 secs. --></body></html>

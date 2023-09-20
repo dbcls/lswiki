@@ -11,3 +11,7 @@
 		<dc:identifier>http://wiki.lifesciencedb.jp/mw/BH11.11/LOAD/BioHackathon2011</dc:identifier>
 		<dc:date>2011-11-26</dc:date>
 		<dc:creator>TogoWikiの利用者：Ogishima</dc:creator>
+		<dc:rights rdf:resource="http://creativecommons.org/licenses/by/3.0/" />
+		<cc:license rdf:resource="http://creativecommons.org/licenses/by/3.0/" />
+	</cc:Work>
+</rdf:RDF>

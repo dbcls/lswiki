@@ -11,3 +11,8 @@
 		<dc:identifier>http://wiki.lifesciencedb.jp/mw/SPARQLthon18/EBI-RDF</dc:identifier>
 		<dc:date>2014-03-24</dc:date>
 		<dc:creator>TogoWikiの利用者：Nishida</dc:creator>
+		<dc:contributor>TogoWikiの利用者：Ktym</dc:contributor>
+		<dc:rights rdf:resource="http://creativecommons.org/licenses/by/3.0/" />
+		<cc:license rdf:resource="http://creativecommons.org/licenses/by/3.0/" />
+	</cc:Work>
+</rdf:RDF>

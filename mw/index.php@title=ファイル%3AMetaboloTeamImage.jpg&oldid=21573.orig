@@ -98,7 +98,7 @@ Template argument size: 0/2097152 bytes
 Expensive parser function count: 0/100
 -->
 
-<!-- Saved in parser cache with key wikidb-togowiki_:pcache:idhash:784-0!1!0!!ja!2!edit=0 and timestamp 20230605023145 -->
+<!-- Saved in parser cache with key wikidb-togowiki_:pcache:idhash:784-0!1!0!!ja!2!edit=0 and timestamp 20230808063731 -->
 <h2 id="filehistory">ファイルの履歴</h2>
 <div id="mw-imagepage-section-filehistory">
 <p>過去の版のファイルを表示するには、表示したい版の日付/時刻をクリックしてください。
@@ -203,4 +203,4 @@ libgomp: Thread creation failed: Resource temporarily unavailable<br />
 </div>
 
 <script>if (window.runOnloadHook) runOnloadHook();</script>
-<!-- Served in 1.153 secs. --></body></html>
+<!-- Served in 1.094 secs. --></body></html>

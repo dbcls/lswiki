@@ -4,7 +4,6 @@
 <title>BH13.13/DDBJ - TogoWiki</title>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 <meta name="generator" content="MediaWiki 1.16.3" />
-<meta name="robots" content="noindex,nofollow" />
 <link rel="shortcut icon" href="/favicon.ico" />
 <link rel="search" type="application/opensearchdescription+xml" href="/mw/opensearch_desc.php" title="TogoWiki (ja)" />
 <link title="Creative Commons" type="application/rdf+xml" href="/mw/index.php?title=BH13.13/DDBJ&amp;action=creativecommons" rel="meta" />
@@ -197,6 +196,8 @@ Post-expand include size: 0/2097152 bytes
 Template argument size: 0/2097152 bytes
 Expensive parser function count: 0/100
 -->
+
+<!-- Saved in parser cache with key wikidb-togowiki_:pcache:idhash:349-0!1!0!!ja!2!edit=0 and timestamp 20230807113024 -->
 <div class="printfooter">
 「<a href="http://wiki.lifesciencedb.jp/mw/BH13.13/DDBJ">http://wiki.lifesciencedb.jp/mw/BH13.13/DDBJ</a>」より作成</div>
 		<div id='catlinks' class='catlinks'><div id="mw-normal-catlinks"><a href="/mw/%E7%89%B9%E5%88%A5:%E3%82%AB%E3%83%86%E3%82%B4%E3%83%AA" title="特別:カテゴリ">カテゴリ</a>: <span dir='ltr'><a href="/mw/index.php?title=Category:DDBJ&amp;action=edit&amp;redlink=1" class="new" title="Category:DDBJ（存在しないページ）">DDBJ</a></span></div></div>		<!-- end content -->
@@ -279,4 +280,4 @@ Expensive parser function count: 0/100
 </div>
 
 <script>if (window.runOnloadHook) runOnloadHook();</script>
-<!-- Served in 0.674 secs. --></body></html>
+<!-- Served in 0.649 secs. --></body></html>

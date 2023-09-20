@@ -8,6 +8,7 @@
 <link rel="shortcut icon" href="/favicon.ico" />
 <link rel="search" type="application/opensearchdescription+xml" href="/mw/opensearch_desc.php" title="TogoWiki (ja)" />
 <link rel="copyright" href="http://creativecommons.org/licenses/by/3.0/" />
+<link rel="alternate" type="application/atom+xml" title="「特別:関連ページの更新状況/BH16.12/SPARQLBuilder」のAtomフィード" href="/mw/index.php?title=%E7%89%B9%E5%88%A5:%E9%96%A2%E9%80%A3%E3%83%9A%E3%83%BC%E3%82%B8%E3%81%AE%E6%9B%B4%E6%96%B0%E7%8A%B6%E6%B3%81/BH16.12/SPARQLBuilder&amp;feed=atom&amp;target=BH16.12%2FSPARQLBuilder" />
 <link rel="alternate" type="application/atom+xml" title="TogoWikiのAtomフィード" href="/mw/index.php?title=%E7%89%B9%E5%88%A5:%E6%9C%80%E8%BF%91%E3%81%AE%E6%9B%B4%E6%96%B0&amp;feed=atom" />
 <link rel="stylesheet" href="/mw/skins/common/shared.css?270" media="screen" />
 <link rel="stylesheet" href="/mw/skins/common/commonPrint.css?270" media="print" />
@@ -74,18 +75,42 @@ wgRestrictionMove=[];
 <div id="column-content"><div id="content" >
 	<a id="top"></a>
 	
-	<h1 id="firstHeading" class="firstHeading">データベース・エラー</h1>
+	<h1 id="firstHeading" class="firstHeading">「BH16.12/SPARQLBuilder」と関連する変更</h1>
 	<div id="bodyContent">
 		<h3 id="siteSub">提供：TogoWiki</h3>
-		<div id="contentSub"></div>
+		<div id="contentSub">← <a href="/mw/index.php?title=BH16.12/SPARQLBuilder&amp;redirect=no" title="BH16.12/SPARQLBuilder">BH16.12/SPARQLBuilder</a></div>
 		<div id="jump-to-nav">移動： <a href="#column-one">案内</a>, <a href="#searchInput">検索</a></div>
 		<!-- start content -->
-データベースクエリの構文エラーが発生しました。
-ソフトウェアにバグがある可能性があります。
-最後に実行を試みたクエリは次の通りです：
-関数「<tt>SpecialRecentchangeslinked::doMainQuery</tt>」内
-<blockquote><tt>（SQLクエリ非表示）</tt></blockquote>。
-データベースの返したエラー「<tt>1：Can't create/write to file '/tmp/#sql_ab0_0.MYI' (Errcode: 28) (:/opt/services/wiki/local/mysql.sock)</tt>」<div class="printfooter">
+<div class="mw-specialpage-summary">
+<p>これは、指定したページからリンクされている（もしくは、指定したカテゴリに含まれている）ページに最近加えられた変更の一覧です。
+</p>
+<a href="/mw/%E7%89%B9%E5%88%A5:%E3%82%A6%E3%82%A9%E3%83%83%E3%83%81%E3%83%AA%E3%82%B9%E3%83%88" title="特別:ウォッチリスト">自分のウォッチリスト</a>にあるページは<b>太字</b>で表示されています。</div>
+<fieldset class="rcoptions">
+<legend>最近の更新のオプション</legend>
+最近<a href="/mw/index.php?title=%E7%89%B9%E5%88%A5:%E9%96%A2%E9%80%A3%E3%83%9A%E3%83%BC%E3%82%B8%E3%81%AE%E6%9B%B4%E6%96%B0%E7%8A%B6%E6%B3%81&amp;days=1&amp;target=BH16.12%2FSPARQLBuilder" title="特別:関連ページの更新状況">1</a> | <a href="/mw/index.php?title=%E7%89%B9%E5%88%A5:%E9%96%A2%E9%80%A3%E3%83%9A%E3%83%BC%E3%82%B8%E3%81%AE%E6%9B%B4%E6%96%B0%E7%8A%B6%E6%B3%81&amp;days=3&amp;target=BH16.12%2FSPARQLBuilder" title="特別:関連ページの更新状況">3</a> | <a href="/mw/index.php?title=%E7%89%B9%E5%88%A5:%E9%96%A2%E9%80%A3%E3%83%9A%E3%83%BC%E3%82%B8%E3%81%AE%E6%9B%B4%E6%96%B0%E7%8A%B6%E6%B3%81&amp;days=7&amp;target=BH16.12%2FSPARQLBuilder" title="特別:関連ページの更新状況"><strong>7</strong></a> | <a href="/mw/index.php?title=%E7%89%B9%E5%88%A5:%E9%96%A2%E9%80%A3%E3%83%9A%E3%83%BC%E3%82%B8%E3%81%AE%E6%9B%B4%E6%96%B0%E7%8A%B6%E6%B3%81&amp;days=14&amp;target=BH16.12%2FSPARQLBuilder" title="特別:関連ページの更新状況">14</a> | <a href="/mw/index.php?title=%E7%89%B9%E5%88%A5:%E9%96%A2%E9%80%A3%E3%83%9A%E3%83%BC%E3%82%B8%E3%81%AE%E6%9B%B4%E6%96%B0%E7%8A%B6%E6%B3%81&amp;days=30&amp;target=BH16.12%2FSPARQLBuilder" title="特別:関連ページの更新状況">30</a>日間の<a href="/mw/index.php?title=%E7%89%B9%E5%88%A5:%E9%96%A2%E9%80%A3%E3%83%9A%E3%83%BC%E3%82%B8%E3%81%AE%E6%9B%B4%E6%96%B0%E7%8A%B6%E6%B3%81&amp;limit=50&amp;target=BH16.12%2FSPARQLBuilder" title="特別:関連ページの更新状況"><strong>50</strong></a> | <a href="/mw/index.php?title=%E7%89%B9%E5%88%A5:%E9%96%A2%E9%80%A3%E3%83%9A%E3%83%BC%E3%82%B8%E3%81%AE%E6%9B%B4%E6%96%B0%E7%8A%B6%E6%B3%81&amp;limit=100&amp;target=BH16.12%2FSPARQLBuilder" title="特別:関連ページの更新状況">100</a> | <a href="/mw/index.php?title=%E7%89%B9%E5%88%A5:%E9%96%A2%E9%80%A3%E3%83%9A%E3%83%BC%E3%82%B8%E3%81%AE%E6%9B%B4%E6%96%B0%E7%8A%B6%E6%B3%81&amp;limit=250&amp;target=BH16.12%2FSPARQLBuilder" title="特別:関連ページの更新状況">250</a> | <a href="/mw/index.php?title=%E7%89%B9%E5%88%A5:%E9%96%A2%E9%80%A3%E3%83%9A%E3%83%BC%E3%82%B8%E3%81%AE%E6%9B%B4%E6%96%B0%E7%8A%B6%E6%B3%81&amp;limit=500&amp;target=BH16.12%2FSPARQLBuilder" title="特別:関連ページの更新状況">500</a>件分を表示する<br />細部の編集を<a href="/mw/index.php?title=%E7%89%B9%E5%88%A5:%E9%96%A2%E9%80%A3%E3%83%9A%E3%83%BC%E3%82%B8%E3%81%AE%E6%9B%B4%E6%96%B0%E7%8A%B6%E6%B3%81&amp;hideminor=1&amp;target=BH16.12%2FSPARQLBuilder" title="特別:関連ページの更新状況">非表示</a> | ボットの編集を<a href="/mw/index.php?title=%E7%89%B9%E5%88%A5:%E9%96%A2%E9%80%A3%E3%83%9A%E3%83%BC%E3%82%B8%E3%81%AE%E6%9B%B4%E6%96%B0%E7%8A%B6%E6%B3%81&amp;hidebots=0&amp;target=BH16.12%2FSPARQLBuilder" title="特別:関連ページの更新状況">表示</a> | 匿名利用者の編集を<a href="/mw/index.php?title=%E7%89%B9%E5%88%A5:%E9%96%A2%E9%80%A3%E3%83%9A%E3%83%BC%E3%82%B8%E3%81%AE%E6%9B%B4%E6%96%B0%E7%8A%B6%E6%B3%81&amp;hideanons=1&amp;target=BH16.12%2FSPARQLBuilder" title="特別:関連ページの更新状況">非表示</a> | ログイン利用者の編集を<a href="/mw/index.php?title=%E7%89%B9%E5%88%A5:%E9%96%A2%E9%80%A3%E3%83%9A%E3%83%BC%E3%82%B8%E3%81%AE%E6%9B%B4%E6%96%B0%E7%8A%B6%E6%B3%81&amp;hideliu=1&amp;target=BH16.12%2FSPARQLBuilder" title="特別:関連ページの更新状況">非表示</a> | 自分の編集を<a href="/mw/index.php?title=%E7%89%B9%E5%88%A5:%E9%96%A2%E9%80%A3%E3%83%9A%E3%83%BC%E3%82%B8%E3%81%AE%E6%9B%B4%E6%96%B0%E7%8A%B6%E6%B3%81&amp;hidemyself=1&amp;target=BH16.12%2FSPARQLBuilder" title="特別:関連ページの更新状況">非表示</a><br /><a href="/mw/index.php?title=%E7%89%B9%E5%88%A5:%E9%96%A2%E9%80%A3%E3%83%9A%E3%83%BC%E3%82%B8%E3%81%AE%E6%9B%B4%E6%96%B0%E7%8A%B6%E6%B3%81&amp;from=20230808073021&amp;target=BH16.12%2FSPARQLBuilder" title="特別:関連ページの更新状況">2023年8月8日 (火) 07:30</a>以降の更新を表示する
+<hr />
+<form action="/mw/index.php"><table class="mw-recentchanges-table"><tr><td class="mw-label"><label for="namespace">名前空間：</label></td><td class="mw-input"><select id="namespace" name="namespace" class="namespaceselector">
+<option value="" selected="selected">すべて</option>
+<option value="0">（標準）</option>
+<option value="1">ノート</option>
+<option value="2">利用者</option>
+<option value="3">利用者‐会話</option>
+<option value="4">TogoWiki</option>
+<option value="5">TogoWiki‐ノート</option>
+<option value="6">ファイル</option>
+<option value="7">ファイル‐ノート</option>
+<option value="8">MediaWiki</option>
+<option value="9">MediaWiki‐ノート</option>
+<option value="10">Template</option>
+<option value="11">Template‐ノート</option>
+<option value="12">Help</option>
+<option value="13">Help‐ノート</option>
+<option value="14">Category</option>
+<option value="15">Category‐ノート</option>
+</select> <input name="invert" type="checkbox" value="1" id="nsinvert" />&nbsp;<label for="nsinvert">選択したものを除く</label></td></tr><tr><td class="mw-label">ページ名：</td><td class="mw-input"><input name="target" size="40" value="BH16.12/SPARQLBuilder" /><input name="showlinkedto" type="checkbox" value="1" id="showlinkedto" /> <label for="showlinkedto">代わりに、指定したページへのリンク元での変更を表示</label> <input type="submit" value="表示" /></td></tr></table><input type="hidden" value="特別:関連ページの更新状況" name="title" /></form>
+</fieldset>
+<div class="mw-rc-label-legend">凡例: <abbr class="newpage" title="この編集で新しいページが作成されました">新</abbr> - 新しいページ、<abbr class="minor" title="これは細部の編集です">細</abbr> - 細部の編集、<abbr class="bot" title="この編集はボットによって行われました">ボ</abbr> - ボットによる編集</div><p>指定期間中に指定ページのリンク先に変更はありませんでした。
+</p><div class="printfooter">
 「<a href="http://wiki.lifesciencedb.jp/mw/%E7%89%B9%E5%88%A5:%E9%96%A2%E9%80%A3%E3%83%9A%E3%83%BC%E3%82%B8%E3%81%AE%E6%9B%B4%E6%96%B0%E7%8A%B6%E6%B3%81/BH16.12/SPARQLBuilder">http://wiki.lifesciencedb.jp/mw/%E7%89%B9%E5%88%A5:%E9%96%A2%E9%80%A3%E3%83%9A%E3%83%BC%E3%82%B8%E3%81%AE%E6%9B%B4%E6%96%B0%E7%8A%B6%E6%B3%81/BH16.12/SPARQLBuilder</a>」より作成</div>
 		<div id='catlinks' class='catlinks catlinks-allhidden'></div>		<!-- end content -->
 				<div class="visualClear"></div>
@@ -143,7 +168,8 @@ wgRestrictionMove=[];
 		<h5>ツールボックス</h5>
 		<div class="pBody">
 			<ul>
-<li id="t-specialpages"><a href="/mw/%E7%89%B9%E5%88%A5:%E7%89%B9%E5%88%A5%E3%83%9A%E3%83%BC%E3%82%B8%E4%B8%80%E8%A6%A7" title="特別ページの一覧 [q]" accesskey="q">特別ページ</a></li>
+			<li id="feedlinks"><a id="feed-atom" href="/mw/index.php?title=%E7%89%B9%E5%88%A5:%E9%96%A2%E9%80%A3%E3%83%9A%E3%83%BC%E3%82%B8%E3%81%AE%E6%9B%B4%E6%96%B0%E7%8A%B6%E6%B3%81/BH16.12/SPARQLBuilder&amp;feed=atom&amp;target=BH16.12%2FSPARQLBuilder" rel="alternate" type="application/atom+xml" class="feedlink" title="このページのAtomフィード">Atom</a>&nbsp;
+					</li><li id="t-specialpages"><a href="/mw/%E7%89%B9%E5%88%A5:%E7%89%B9%E5%88%A5%E3%83%9A%E3%83%BC%E3%82%B8%E4%B8%80%E8%A6%A7" title="特別ページの一覧 [q]" accesskey="q">特別ページ</a></li>
 			</ul>
 		</div>
 	</div>
@@ -161,4 +187,4 @@ wgRestrictionMove=[];
 </div>
 
 <script>if (window.runOnloadHook) runOnloadHook();</script>
-<!-- Served in 0.579 secs. --></body></html>
+<!-- Served in 0.604 secs. --></body></html>

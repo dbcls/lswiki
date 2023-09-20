@@ -11,3 +11,9 @@
 		<dc:identifier>http://wiki.lifesciencedb.jp/mw/BH12.12/%E3%83%87%E3%83%BC%E3%82%BF%E3%83%99%E3%83%BC%E3%82%B9%E3%82%A2%E3%83%BC%E3%82%AB%E3%82%A4%E3%83%96%E3%81%AERDF%E5%8C%96</dc:identifier>
 		<dc:date>2014-01-23</dc:date>
 		<dc:creator>TogoWikiの利用者：Atsuko</dc:creator>
+		<dc:contributor>TogoWikiの利用者：Kushidat</dc:contributor>
+		<dc:contributor>TogoWikiの利用者：Hideki</dc:contributor>
+		<dc:rights rdf:resource="http://creativecommons.org/licenses/by/3.0/" />
+		<cc:license rdf:resource="http://creativecommons.org/licenses/by/3.0/" />
+	</cc:Work>
+</rdf:RDF>

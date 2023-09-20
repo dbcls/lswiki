@@ -11,3 +11,7 @@
 		<dc:identifier>http://wiki.lifesciencedb.jp/mw/%E5%A4%A9%E7%84%B6%E7%89%A9</dc:identifier>
 		<dc:date>2014-08-20</dc:date>
 		<dc:creator>TogoWikiの利用者：Issaku</dc:creator>
+		<dc:rights rdf:resource="http://creativecommons.org/licenses/by/3.0/" />
+		<cc:license rdf:resource="http://creativecommons.org/licenses/by/3.0/" />
+	</cc:Work>
+</rdf:RDF>

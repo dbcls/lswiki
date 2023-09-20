@@ -129,7 +129,7 @@ TogoAnnotator, <span class='searchmatch'>TogoAnnotation</span>, MiGAP (default) 
 <div class='mw-search-result-data'>3キロバイト（244単語） - 2014年2月19日 (水) 08:36</div></li>
 <li><a href="/mw/SPARQLthon" title="SPARQLthon">SPARQLthon</a>   <div class='searchresult'>...GD]], [[BH12.12/SPARQLthon5/MPO|MPO]], [[BH12.12/SPARQLthon/<span class='searchmatch'>TogoAnnotation</span>|<span class='searchmatch'>TogoAnnotation</span>]], [[BH12.12/SPARQLthon10/EdgeStore|EdgeStore]], [[BH12.12/Identifiers.org%
 </div>
-<div class='mw-search-result-data'>28キロバイト（1,549単語） - 2023年3月14日 (火) 07:49</div></li>
+<div class='mw-search-result-data'>28キロバイト（1,559単語） - 2023年7月5日 (水) 03:19</div></li>
 <li><a href="/mw/BH12.12/SPARQLthon16/GenomeRefine" title="BH12.12/SPARQLthon16/GenomeRefine">BH12.12/SPARQLthon16/GenomeRefine</a>   <div class='searchresult'>* ゲノム単位のハンドリングがよさそうではあるがまずは<span class='searchmatch'>TogoAnnotation</span>と同様に遺伝子単位でのRDFデータモデルを優先して試行�
 === <span class='searchmatch'>TogoAnnotation</span> ===
 </div>
@@ -225,4 +225,4 @@ TogoAnnotator, <span class='searchmatch'>TogoAnnotation</span>, MiGAP (default) 
 </div>
 
 <script>if (window.runOnloadHook) runOnloadHook();</script>
-<!-- Served in 0.929 secs. --></body></html>
+<!-- Served in 0.841 secs. --></body></html>
